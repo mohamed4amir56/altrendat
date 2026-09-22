@@ -104,17 +104,24 @@ nav a{
 }
 nav a:hover{color:var(--txt);border-color:var(--acc)}
 main{max-width:860px;margin:0 auto;padding:8px 18px 30px}
-h1{font-size:1.85rem;font-weight:800;line-height:1.45;margin-bottom:10px}
+h1{font-size:2rem;font-weight:800;line-height:1.4;margin-bottom:12px;
+  letter-spacing:-.4px}
 h2{font-size:1.25rem;font-weight:800;margin:28px 0 10px}
 .meta{color:var(--mut);font-size:.8rem;margin-bottom:20px}
-.hero{width:100%;border-radius:16px;border:1px solid var(--line);
-  margin:16px 0 22px;display:block}
+/* الكارت صُنع لمعاينة المشاركة على فيسبوك وواتساب، لا للعرض هنا.
+   بحجمه الكامل كان يأكل نصف الشاشة بصورة فارغة تكرّر ما بحث عنه
+   الزائر أصلًا، فيضطر للتمرير ليصل إلى الإجابة. */
+.hero{width:100%;height:150px;object-fit:cover;object-position:center 32%;
+  border-radius:14px;border:1px solid var(--line);
+  margin:14px 0 20px;display:block;opacity:.85}
 .lead{
-  font-size:1.02rem;font-weight:600;color:var(--gold);
-  border-inline-start:3px solid var(--gold);padding-inline-start:13px;
-  margin-bottom:20px;
+  font-size:1.12rem;font-weight:600;color:var(--gold);line-height:1.75;
+  background:rgba(245,197,66,.07);border:1px solid rgba(245,197,66,.22);
+  border-radius:14px;padding:15px 18px;margin-bottom:22px;
 }
-article p{margin-bottom:14px;text-align:justify}
+article p{margin-bottom:16px;text-align:start;font-size:1.05rem;
+  line-height:1.95;color:#dfe6f0}
+article p:first-child{font-size:1.12rem;color:var(--txt)}
 .list{display:grid;gap:12px;margin-top:8px}
 .item{
   background:linear-gradient(165deg,var(--card),var(--bg2));
@@ -125,12 +132,15 @@ article p{margin-bottom:14px;text-align:justify}
 .item h3{font-size:1.04rem;font-weight:700;margin-bottom:5px}
 .item .sub{color:var(--mut);font-size:.8rem}
 .rank{color:var(--gold);font-weight:800;margin-inline-end:8px}
-table{width:100%;border-collapse:collapse;font-size:.88rem;margin:16px 0;
-  display:block;overflow-x:auto;white-space:nowrap}
-th{color:var(--mut);font-size:.76rem;font-weight:600;text-align:start;
-  padding:7px 10px;border-bottom:1px solid var(--line)}
-td{padding:7px 10px;border-bottom:1px solid rgba(255,255,255,.05);
-  font-variant-numeric:tabular-nums}
+table{width:100%;border-collapse:collapse;font-size:.92rem;margin:14px 0;
+  display:block;overflow-x:auto;white-space:nowrap;
+  background:rgba(255,255,255,.02);border:1px solid var(--line);
+  border-radius:14px}
+tbody tr:nth-child(even){background:rgba(255,255,255,.022)}
+th{color:var(--mut);font-size:.78rem;font-weight:600;text-align:start;
+  padding:10px 13px;border-bottom:1px solid var(--line)}
+td{padding:10px 13px;border-bottom:1px solid rgba(255,255,255,.05);
+  font-variant-numeric:tabular-nums;font-weight:600}
 td:first-child{color:var(--acc);font-weight:600}
 .src{font-size:.75rem;color:var(--mut);margin-top:-8px;margin-bottom:18px}
 .tags{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0}
@@ -242,22 +252,26 @@ def build_trend(country, cfg, t, urls):
       <span class="chip">🔍 {traffic}</span>
       <span class="chip">{flag} {cname}</span>
       <span class="chip">{day}</span>
+      <span class="chip">📎 {nsrc} مصادر</span>
     </div>
     <h1>{head}</h1>
-    <p class="meta">الترند: {term}</p>
-    {hero}
     <p class="lead">{summ}</p>
     {table}
     <article>{paras}</article>
     <div class="tags">{tags}</div>
     {sources}
+    {hero}
     <p class="meta"><a href="../../">← كل ترندات {cname}</a> ·
        <a href="../../../e/{slug}/">أرشيف "{term}"</a></p>""".format(
         icon=t["icon"], cat=E(t["category"]), traffic=E(t["traffic"]),
         flag=cfg["flag"], cname=E(cfg["country_name"]), day=day,
         head=E(art["headline"]), term=E(t["title"]),
+        nsrc=len([n for n in t["news"] if n.get("ok")]),
+        # الصورة نزلت إلى أسفل الصفحة. مكانها بين العنوان والإجابة كان
+        # يدفع الجواب خارج الشاشة بصورة تكرّر ما بحث عنه الزائر أصلًا.
+        # وتبقى og:image لمعاينة المشاركة، وهذا دورها الحقيقي.
         hero=("<img class='hero' src='{}cards/{}' alt='{}' "
-              "width='1200' height='675' loading='eager'>".format(
+              "width='1200' height='675' loading='lazy'>".format(
                   "../../../", os.path.basename(t["card"]), E(t["title"]))
               if t.get("card") else ""),
         summ=E(art.get("summary", "")), table=data_table(t.get("data")),

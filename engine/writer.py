@@ -173,13 +173,19 @@ def main():
             if streak >= 3:
                 print("  ⏹ توقّف: ثلاثة إخفاقات متتالية — راجع الإعداد")
                 break
+            k = article_key(t, key, day)
+
             # القاعدة الحاسمة: لا يُكتب إلا ما أجازته طبقة الأمان
             if not t["publishable"]:
+                # وإن كان مكتوبًا قبل أن يتشدّد الفلتر، يُحذف الآن.
+                # بوابة الأمان يجب أن تُبطل ما أجازته سابقًا بالخطأ،
+                # وإلا بقي مقال عن شخص مخزَّنًا بعد منع النشر عنه.
+                if store.pop(k, None) is not None:
+                    save_articles(store)
+                    print("  🗑 حُذف مقال قديم: " + t["title"])
                 print("  ⛔ تخطّي: " + t["title"] + " — " + t["reason"])
                 skipped += 1
                 continue
-
-            k = article_key(t, key, day)
             if k in store and not force:
                 t["article"] = store[k]
                 cached += 1

@@ -64,7 +64,7 @@
   .chip b { color:var(--txt); }
 
   .grid { display:grid; gap:16px; }
-  @media (min-width:860px) { .grid { grid-template-columns:1fr 1fr; } }
+  @media (min-width:1100px) { .grid { grid-template-columns:1fr 1fr; } }
 
   .card {
     position:relative; display:flex; gap:0; overflow:hidden;
@@ -150,6 +150,37 @@
   .emeta { color:var(--mut); font-size:.78rem; white-space:nowrap; }
   .empty { color:var(--mut); font-size:.8rem; text-align:center; padding:8px 0; }
 
+  .term {
+    font-size:.72rem; color:var(--mut); letter-spacing:.3px;
+    margin-bottom:2px;
+  }
+  .summary {
+    color:var(--accent); font-size:.92rem; font-weight:600;
+    border-inline-start:3px solid var(--accent); padding-inline-start:11px;
+    margin:10px 0 12px;
+  }
+  .article p {
+    font-size:.9rem; color:#d3dae6; margin-bottom:10px; text-align:justify;
+  }
+  .tags { display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 4px; }
+  .tag {
+    background:rgba(255,255,255,.05); border:1px solid var(--line);
+    color:var(--mut); font-size:.72rem; padding:3px 10px; border-radius:99px;
+  }
+  .nowrite {
+    color:#ff9f9f; font-size:.85rem; background:rgba(255,107,107,.08);
+    border-radius:10px; padding:9px 12px; margin-top:8px;
+  }
+  .srcwrap { margin-top:14px; border-top:1px dashed var(--line); padding-top:10px; }
+  .srcwrap summary {
+    cursor:pointer; font-size:.74rem; color:var(--gold); list-style:none;
+    user-select:none;
+  }
+  .srcwrap summary::-webkit-details-marker { display:none; }
+  .srcwrap summary::before { content:"▸ "; }
+  .srcwrap[open] summary::before { content:"▾ "; }
+  .srcwrap .sources { margin-top:10px; }
+
   footer { text-align:center; color:var(--mut); font-size:.78rem;
             margin-top:44px; border-top:1px solid var(--line); padding-top:18px; }
 </style>
@@ -159,7 +190,7 @@
   <div class="hero">
     <div class="logo">الترندات</div>
     <div class="tag">محرّك الرصد — بيانات حيّة من Google Trends مُثراة بنصوص المصادر</div>
-    <div class="live"><span class="dot"></span> آخر تشغيل: 2026-09-22 · 22:08</div>
+    <div class="live"><span class="dot"></span> آخر تشغيل: 2026-09-22 · 22:34</div>
   </div>
 
   <div class="stats"><div class="stat">
@@ -213,10 +244,16 @@
           <span class="traffic">🔍 5000+</span>
           <span class='ok'>✓ جاهز للنشر</span>
         </div>
-        <h2>بنك مصر</h2>
-        <p class="why">العنوان يطابق: بنك</p>
-        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://hapijournal.com/2026/09/22/%D8%B9%D8%A7%D8%AC%D9%84-%D9%85%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D9%85%D8%A8%D8%AF%D8%A6%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7/' target='_blank' rel='noopener'><span class='src'>جريدة حابي</span><span class='ntitle'>عاجل.. موافقة مبدئية من المركزي الإماراتي لاستحواذ الأهلي المصري على فروع بنك مصر</span><span class='ndesc'>حابي- أعلن بنك مصر والبنك الأهلي المصري عن التوافق المبدئي بشأن إعادة ترتيب تواجدهما المصرفي بدولة الإمارات العربية المتحدة، و</span></a></li><li><a href='https://www.masrawy.com/news/news_egypt/details/2026/9/22/3052118/%D9%84%D9%85%D9%8A%D8%B3-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF%D9%8A-%D8%AA%D8%B7%D8%B1%D8%AD-8-%D8%A3%D8%B3%D8%A6%D9%84%D8%A9-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D8%B3%D8%AA%D8%AD%D9%88%D8%A7%D8%B0-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%B9%D9%84%D9%89-%D9%81%D8%B1%D9%88%D8%B9-%D8%A8%D9%86%D9%83-%D9%85%D8%B5%D8%B1-%D8%A8%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA' target='_blank' rel='noopener'><span class='src'>Masrawy</span><span class='ntitle'>لميس الحديدي تطرح 8 أسئلة بشأن استحواذ الأهلي على فروع بنك مصر بالإمارات</span><span class='ndesc'>طرحت الإعلامية لميس الحديدي تساؤلات بشأن استحواذ البنك الأهلي على فروع بنك مصر بالإمارات وعلاقة الصفقة بالعقوبات الأمريكية والالتزامات المالية وللتفاصيل من هنا | مصراوي</span></a></li></ul>
+        
+        <div class="term">الترند: بنك مصر</div>
+        <h2>سبب تصدر بنك مصر البحث: ترتيب مبدئي لنقل فروعه في الإمارات إلى الأهلي المصري</h2>
+        <p class="summary">يبحث المصريون عن بنك مصر بعد أنباء عن توافق مبدئي على أن يستحوذ البنك الأهلي المصري على فروعه في الإمارات، وما أثاره ذلك من تساؤلات إعلامية.</p>
+        <div class="article"><p>يرجع ارتفاع البحث عن بنك مصر اليوم إلى خبر يتعلق بمستقبل وجوده المصرفي في دولة الإمارات العربية المتحدة. ويبدو أن المعلومات المتاحة حتى الآن محدودة، وهو ما دفع كثيرين إلى البحث عن التفاصيل.</p><p>أفادت جريدة حابي بأن بنك مصر والبنك الأهلي المصري أعلنا توصلهما إلى توافق أولي حول إعادة تنظيم وجودهما المصرفي في الإمارات. وأشارت الجريدة في عنوان خبرها إلى أن المصرف المركزي الإماراتي منح موافقة مبدئية على استحواذ البنك الأهلي على فروع بنك مصر هناك. ولم يتضمن ملخص الخبر المتاح تفاصيل عن قيمة الصفقة أو موعد إتمامها.</p><p>وفي سياق متصل، ذكر موقع مصراوي أن الإعلامية لميس الحديدي طرحت ثمانية أسئلة حول هذه الخطوة. وبحسب الموقع، دارت تساؤلاتها حول ما إذا كانت هناك صلة بين الصفقة والعقوبات الأمريكية، وحول الالتزامات المالية المرتبطة بها. ولم يتضمن ملخص مصراوي إجابات رسمية عن هذه الأسئلة.</p><p>لا يظهر تعارض بين المصدرين. فجريدة حابي تنقل الإعلان الرسمي عن الاتفاق المبدئي، بينما يعرض مصراوي تساؤلات إعلامية بشأنه. ويُرجَّح أن يكون الجمع بين الخبر نفسه والأسئلة التي أُثيرت حوله قد زاد اهتمام الجمهور بمعرفة ما يعنيه ذلك لبنك مصر ولعملائه في الإمارات، إلى حين صدور تفاصيل رسمية أوفى.</p></div>
+        <div class="tags"><span class='tag'>بنك مصر</span><span class='tag'>البنك الأهلي المصري</span><span class='tag'>فروع بنك مصر في الإمارات</span><span class='tag'>المصرف المركزي الإماراتي</span><span class='tag'>استحواذ مصرفي</span><span class='tag'>لميس الحديدي</span></div>
+        <details class="srcwrap">
+          <summary>المصادر الخام (2) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://hapijournal.com/2026/09/22/%D8%B9%D8%A7%D8%AC%D9%84-%D9%85%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D9%85%D8%A8%D8%AF%D8%A6%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7/' target='_blank' rel='noopener'><span class='src'>جريدة حابي</span><span class='ntitle'>عاجل.. موافقة مبدئية من المركزي الإماراتي لاستحواذ الأهلي المصري على فروع بنك مصر</span><span class='ndesc'>حابي- أعلن بنك مصر والبنك الأهلي المصري عن التوافق المبدئي بشأن إعادة ترتيب تواجدهما المصرفي بدولة الإمارات العربية المتحدة، و</span></a></li><li><a href='https://www.masrawy.com/news/news_egypt/details/2026/9/22/3052118/%D9%84%D9%85%D9%8A%D8%B3-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF%D9%8A-%D8%AA%D8%B7%D8%B1%D8%AD-8-%D8%A3%D8%B3%D8%A6%D9%84%D8%A9-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D8%B3%D8%AA%D8%AD%D9%88%D8%A7%D8%B0-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%B9%D9%84%D9%89-%D9%81%D8%B1%D9%88%D8%B9-%D8%A8%D9%86%D9%83-%D9%85%D8%B5%D8%B1-%D8%A8%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA' target='_blank' rel='noopener'><span class='src'>Masrawy</span><span class='ntitle'>لميس الحديدي تطرح 8 أسئلة بشأن استحواذ الأهلي على فروع بنك مصر بالإمارات</span><span class='ndesc'>طرحت الإعلامية لميس الحديدي تساؤلات بشأن استحواذ البنك الأهلي على فروع بنك مصر بالإمارات وعلاقة الصفقة بالعقوبات الأمريكية والالتزامات المالية وللتفاصيل من هنا | مصراوي</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card dim" style="--accent:#ff6b6b">
@@ -228,10 +265,13 @@
           <span class="traffic">🔍 5000+</span>
           <span class='hold'>⛔ يحتاج مراجعة</span>
         </div>
+        
         <h2>القبض على ملحن</h2>
-        <p class="why">ورد لفظ حسّاس: حبس</p>
-        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D8%B6%D8%A8%D8%B7-%D8%B4%D8%A7%D8%B9%D8%B1-%D8%BA%D9%86%D8%A7%D8%A6%D9%89-%D8%B4%D9%87%D9%8A%D8%B1-%D8%A8%D8%AD%D9%88%D8%B2%D8%AA%D9%87-60-%D9%83%D9%8A%D8%B3-%D9%85%D8%B3%D8%AD%D9%88%D9%82-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%88%D8%A7%D9%84%D9%86%D9%8A%D8%A7%D8%A8%D8%A9/7554934' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>ضبط شاعر غنائى شهير بحوزته 60 كيس مسحوق أبيض..والنيابة تطلب تقرير الطب الشرعى</span><span class='ndesc'>طلبت النيابة العامة المختصة في واقعة ضبط شاعر غنائي شهير، بحوزته 60 كيسًا من مسحوق أبيض يُشتبه في كونه مخدر الكوكايين، إعداد تقرير من الطب الشرعي بشأن المضبوطات، لبيان طبيعتها..</span></a></li><li><a href='https://www.almasryalyoum.com/news/details/4365510' target='_blank' rel='noopener'><span class='src'>المصري اليوم</span><span class='ntitle'>تفاصيل حبس شاعر غنائي شهير بتهمة الإتجار بالمخدرات في القاهرة الجديدة</span><span class='ndesc'>قررت جهات التحقيق بالقاهرة الجديدة، تجديد حبس الشاعر الغنائى الشهير «و.ا» 15 يوما، لاتهامه بحيازة كمية من مخدر الكوكايين، داخل إحدى التجمعات السكنية بمنطقة القاهرة الجديدة،...</span></a></li></ul>
+        <p class="nowrite">لم يُكتب — ورد لفظ حسّاس: حبس</p>
+        <details class="srcwrap">
+          <summary>المصادر الخام (2) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D8%B6%D8%A8%D8%B7-%D8%B4%D8%A7%D8%B9%D8%B1-%D8%BA%D9%86%D8%A7%D8%A6%D9%89-%D8%B4%D9%87%D9%8A%D8%B1-%D8%A8%D8%AD%D9%88%D8%B2%D8%AA%D9%87-60-%D9%83%D9%8A%D8%B3-%D9%85%D8%B3%D8%AD%D9%88%D9%82-%D8%A3%D8%A8%D9%8A%D8%B6-%D9%88%D8%A7%D9%84%D9%86%D9%8A%D8%A7%D8%A8%D8%A9/7554934' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>ضبط شاعر غنائى شهير بحوزته 60 كيس مسحوق أبيض..والنيابة تطلب تقرير الطب الشرعى</span><span class='ndesc'>طلبت النيابة العامة المختصة في واقعة ضبط شاعر غنائي شهير، بحوزته 60 كيسًا من مسحوق أبيض يُشتبه في كونه مخدر الكوكايين، إعداد تقرير من الطب الشرعي بشأن المضبوطات، لبيان طبيعتها..</span></a></li><li><a href='https://www.almasryalyoum.com/news/details/4365510' target='_blank' rel='noopener'><span class='src'>المصري اليوم</span><span class='ntitle'>تفاصيل حبس شاعر غنائي شهير بتهمة الإتجار بالمخدرات في القاهرة الجديدة</span><span class='ndesc'>قررت جهات التحقيق بالقاهرة الجديدة، تجديد حبس الشاعر الغنائى الشهير «و.ا» 15 يوما، لاتهامه بحيازة كمية من مخدر الكوكايين، داخل إحدى التجمعات السكنية بمنطقة القاهرة الجديدة،...</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card dim" style="--accent:#ffd166">
@@ -243,10 +283,13 @@
           <span class="traffic">🔍 2000+</span>
           <span class='hold'>⛔ يحتاج مراجعة</span>
         </div>
+        
         <h2>نادية رشاد</h2>
-        <p class="why">اسم شخص على الأرجح — يحتاج مراجعة</p>
-        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D8%A7%D9%84%D9%82%D8%B5%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%84%D8%A7%D8%B9%D8%AA%D8%B2%D8%A7%D9%84-%D9%86%D8%A7%D8%AF%D9%8A%D8%A9-%D8%B1%D8%B4%D8%A7%D8%AF-%D8%A7%D9%84%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D9%88%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88/7554092' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>القصة الكاملة لاعتزال نادية رشاد التمثيل وكتابة السيناريو</span><span class='ndesc'>تصدر اسم الفنانة نادية رشاد منصات التواصل الاجتماعي خلال الساعات الماضية، بعد إعلانها الاعتزال تماما.</span></a></li><li><a href='https://www.masrawy.com/arts/zoom/details/2026/9/21/3051492/%D8%A7%D9%84%D9%81%D9%86%D8%A7%D9%86%D8%A9-%D9%86%D8%A7%D8%AF%D9%8A%D8%A9-%D8%B1%D8%B4%D8%A7%D8%AF-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D8%B9%D8%AA%D8%B2%D8%A7%D9%84%D9%87%D8%A7-%D8%A7%D9%84%D9%81%D9%86' target='_blank' rel='noopener'><span class='src'>Masrawy</span><span class='ntitle'>الفنانة نادية رشاد تعلن اعتزالها الفن</span><span class='ndesc'>أعلنت الفنانة نادية رشاد اعتزالها الفن وكتابة السيناريو وأكدت على عدم رغبتها في استقبال مكالمات من زملائها وذلك من خلال حسابها الشخصي على موقع فيسبوك لمزيد من التفاصيل | مصراوي</span></a></li></ul>
+        <p class="nowrite">لم يُكتب — اسم شخص على الأرجح — يحتاج مراجعة</p>
+        <details class="srcwrap">
+          <summary>المصادر الخام (2) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D8%A7%D9%84%D9%82%D8%B5%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%84%D8%A7%D8%B9%D8%AA%D8%B2%D8%A7%D9%84-%D9%86%D8%A7%D8%AF%D9%8A%D8%A9-%D8%B1%D8%B4%D8%A7%D8%AF-%D8%A7%D9%84%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D9%88%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88/7554092' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>القصة الكاملة لاعتزال نادية رشاد التمثيل وكتابة السيناريو</span><span class='ndesc'>تصدر اسم الفنانة نادية رشاد منصات التواصل الاجتماعي خلال الساعات الماضية، بعد إعلانها الاعتزال تماما.</span></a></li><li><a href='https://www.masrawy.com/arts/zoom/details/2026/9/21/3051492/%D8%A7%D9%84%D9%81%D9%86%D8%A7%D9%86%D8%A9-%D9%86%D8%A7%D8%AF%D9%8A%D8%A9-%D8%B1%D8%B4%D8%A7%D8%AF-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D8%B9%D8%AA%D8%B2%D8%A7%D9%84%D9%87%D8%A7-%D8%A7%D9%84%D9%81%D9%86' target='_blank' rel='noopener'><span class='src'>Masrawy</span><span class='ntitle'>الفنانة نادية رشاد تعلن اعتزالها الفن</span><span class='ndesc'>أعلنت الفنانة نادية رشاد اعتزالها الفن وكتابة السيناريو وأكدت على عدم رغبتها في استقبال مكالمات من زملائها وذلك من خلال حسابها الشخصي على موقع فيسبوك لمزيد من التفاصيل | مصراوي</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card" style="--accent:#4dd0b1">
@@ -258,10 +301,16 @@
           <span class="traffic">🔍 2000+</span>
           <span class='ok'>✓ جاهز للنشر</span>
         </div>
-        <h2>موعد اذان المغرب</h2>
-        <p class="why">العنوان يطابق: أذان</p>
-        <div class="sources-label">3 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D9%85%D9%88%D8%A7%D9%82%D9%8A%D8%AA-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-22-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1-2026-%D8%A8%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9/7552949' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>مواقيت الصلاة اليوم الثلاثاء 22 سبتمبر 2026 بمحافظات الجمهورية</span><span class='ndesc'>لقرائنا الراغبين فى التعرف على مواقيت الصلاة الصحيحة بمحافظات مصر، يقدم &quot;اليوم السابع&quot; مواقيت الصلاة الخمسة اليوم الثلاثاء 22 سبتمبر 2026..</span></a></li><li><a href='https://gate.ahram.org.eg/News/5931016.aspx' target='_blank' rel='noopener'><span class='src'>بوابة الأهرام</span><span class='ntitle'>مواقيت الصلاة اليوم الثلاثاء 22 سبتمبر 2026 في القاهرة والمحافظات</span><span class='ndesc'>مواقيت الصلاة اليوم الثلاثاء 22 سبتمبر 2026، في القاهرة وعدد من المدن والمحافظات المصرية مثل الإسكندرية وأسوان ومطروح والغردقة وشرم الشيخ</span></a></li><li><a href='https://www.almasryalyoum.com/news/details/4364888' target='_blank' rel='noopener'><span class='src'>المصري اليوم</span><span class='ntitle'>مواقيت الصلاة الثلاثاء 23 سبتمبر 2026 في جميع محافظات مصر</span><span class='ndesc'>حرصت الهيئة العامة للمساحة المصرية على تقديم مواقيت الصلاة فى محافظات الصعيد ومحافظات الوجه البحري فيما يلى نعرض منها جدول مواقيت الصلاة الثلاثاء 22سبتمبر 2026م بـمحافظات مصر...</span></a></li></ul>
+        
+        <div class="term">الترند: موعد اذان المغرب</div>
+        <h2>موعد أذان المغرب في مصر: ما تنشره الصحف عن مواقيت الصلاة اليوم</h2>
+        <p class="summary">يبحث المصريون عن موعد أذان المغرب لأن المواقع الإخبارية الكبرى نشرت جداول مواقيت الصلاة ليوم الثلاثاء 22 سبتمبر 2026 في المحافظات المختلفة.</p>
+        <div class="article"><p>يتصدر البحث عن موعد أذان المغرب في مصر اليوم لأن المستخدمين يحتاجون إلى معرفة التوقيت الدقيق للصلاة في مدنهم، وقد نشرت عدة صحف مصرية جداول المواقيت ليوم الثلاثاء 22 سبتمبر 2026. ويصنَّف هذا البحث ضمن الفئة الدينية، ويقدَّر حجمه بأكثر من ألفي عملية بحث.</p><p>فقد أتاح موقع اليوم السابع لقرائه مواعيد الصلوات الخمس في محافظات الجمهورية لهذا اليوم، موضحًا أن الهدف هو تعريفهم بالمواقيت الصحيحة. أما بوابة الأهرام فعرضت المواقيت في القاهرة وعدد من المدن الأخرى، وذكرت منها الإسكندرية وأسوان ومطروح والغردقة وشرم الشيخ.</p><p>وفي المصري اليوم، جاءت المواقيت منسوبة إلى الهيئة العامة للمساحة المصرية، التي تصدر جداول لمحافظات الصعيد والوجه البحري. غير أن عنوان تقرير المصري اليوم يشير إلى يوم الثلاثاء 23 سبتمبر 2026، في حين يذكر ملخص التقرير نفسه أن الجدول يخص الثلاثاء 22 سبتمبر، وهو تعارض في التاريخ داخل المصدر الواحد، بينما يتفق اليوم السابع وبوابة الأهرام على تاريخ 22 سبتمبر.</p><p>ولا تتضمن ملخصات المصادر المتاحة التوقيت الفعلي لأذان المغرب، لذلك يُنصح بالرجوع إلى الجداول الكاملة في هذه المواقع، مع مراعاة أن الموعد يختلف من محافظة إلى أخرى بحسب موقعها الجغرافي.</p></div>
+        <div class="tags"><span class='tag'>موعد اذان المغرب</span><span class='tag'>مواقيت الصلاة اليوم</span><span class='tag'>مواقيت الصلاة في مصر</span><span class='tag'>الهيئة العامة للمساحة</span><span class='tag'>مواقيت الصلاة بالمحافظات</span></div>
+        <details class="srcwrap">
+          <summary>المصادر الخام (3) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D9%85%D9%88%D8%A7%D9%82%D9%8A%D8%AA-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-22-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1-2026-%D8%A8%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9/7552949' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>مواقيت الصلاة اليوم الثلاثاء 22 سبتمبر 2026 بمحافظات الجمهورية</span><span class='ndesc'>لقرائنا الراغبين فى التعرف على مواقيت الصلاة الصحيحة بمحافظات مصر، يقدم &quot;اليوم السابع&quot; مواقيت الصلاة الخمسة اليوم الثلاثاء 22 سبتمبر 2026..</span></a></li><li><a href='https://gate.ahram.org.eg/News/5931016.aspx' target='_blank' rel='noopener'><span class='src'>بوابة الأهرام</span><span class='ntitle'>مواقيت الصلاة اليوم الثلاثاء 22 سبتمبر 2026 في القاهرة والمحافظات</span><span class='ndesc'>مواقيت الصلاة اليوم الثلاثاء 22 سبتمبر 2026، في القاهرة وعدد من المدن والمحافظات المصرية مثل الإسكندرية وأسوان ومطروح والغردقة وشرم الشيخ</span></a></li><li><a href='https://www.almasryalyoum.com/news/details/4364888' target='_blank' rel='noopener'><span class='src'>المصري اليوم</span><span class='ntitle'>مواقيت الصلاة الثلاثاء 23 سبتمبر 2026 في جميع محافظات مصر</span><span class='ndesc'>حرصت الهيئة العامة للمساحة المصرية على تقديم مواقيت الصلاة فى محافظات الصعيد ومحافظات الوجه البحري فيما يلى نعرض منها جدول مواقيت الصلاة الثلاثاء 22سبتمبر 2026م بـمحافظات مصر...</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card" style="--accent:#3ddc97">
@@ -273,10 +322,16 @@
           <span class="traffic">🔍 500+</span>
           <span class='ok'>✓ جاهز للنشر</span>
         </div>
-        <h2>دوري أبطال إفريقيا</h2>
-        <p class="why">العنوان يطابق: دوري</p>
-        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.yallakora.com/african-champions-league/3050/news/566802/%D9%83%D8%A7%D9%81-%D9%8A%D8%AE%D8%B7%D8%B1-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D8%A8%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%B1%D9%88%D8%A7%D9%86%D8%AF%D9%8A-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7' target='_blank' rel='noopener'><span class='src'>يلاكورة</span><span class='ntitle'>كاف يخطر الزمالك بموعد مباراتي الجيش الرواندي في دوري أبطال أفريقيا</span><span class='ndesc'>أخطر الاتحاد الأفريقي لكرة القدم &quot;كاف&quot;، نادي الزمالك بموعد مباراتي الفريق أمام الجيش الرواندي، في الدور التمهيدي الثاني لبطولة دوري أبطال أفريقيا.</span></a></li><li><a href='https://www.elbalad.news/7115654' target='_blank' rel='noopener'><span class='src'>صدى البلد</span><span class='ntitle'>مدرب الوداد السابق: عموتة يحتاج للصبر مع الأهلي.. والنتيجة أهم من الأداء</span><span class='ndesc'>أكد رضا لطفي، مدرب حراس الوداد السابق، أن المغربي الحسين عموتة يحتاج إلى بعض الوقت من أجل إنجاح طريقته مع النادي الأهلي، مشيرًا إلى أن الفريق لا يزال يعمل على الوصول إلى حالة من التكامل بين…</span></a></li></ul>
+        
+        <div class="term">الترند: دوري أبطال إفريقيا</div>
+        <h2>اهتمام مصري بدوري أبطال إفريقيا مع اقتراب مواجهتي الزمالك والجيش الرواندي</h2>
+        <p class="summary">يعود ارتفاع البحث عن دوري أبطال إفريقيا في مصر إلى إخطار كاف نادي الزمالك بموعد مباراتيه أمام الجيش الرواندي في الدور التمهيدي الثاني، إلى جانب نقاش حول وضع الأهلي الفني.</p>
+        <div class="article"><p>يبحث كثير من المصريين اليوم عن دوري أبطال إفريقيا لأن أحد أكبر أنديتهم، الزمالك، أصبح على موعد محدد مع مرحلة جديدة في البطولة. فبحسب موقع يلاكورة، أبلغ الاتحاد الإفريقي لكرة القدم (كاف) إدارة الزمالك بتوقيت لقاءيه مع فريق الجيش الرواندي، وهما مباراتا الذهاب والإياب ضمن الدور التمهيدي الثاني من المسابقة القارية. ولم يتضمن الملخص المتاح من يلاكورة تفاصيل الموعد نفسه، ولذلك لا يمكن الجزم به اعتمادًا على هذا المصدر وحده.</p><p>ومن المرجح أن يزيد هذا الخبر فضول جماهير الزمالك لمعرفة جدول المباريات وطبيعة المنافس، وهو ما ينعكس عادةً على حجم البحث عن اسم البطولة.</p><p>وفي سياق متصل بالكرة المصرية، نشر موقع صدى البلد تصريحات لرضا لطفي، الذي عمل سابقًا مدربًا لحراس مرمى الوداد المغربي، رأى فيها أن المدرب المغربي الحسين عموتة بحاجة إلى مزيد من الوقت كي تنجح أفكاره مع النادي الأهلي. وأوضح لطفي، وفق صدى البلد، أن الفريق ما زال في طور بناء الانسجام بين خطوطه المختلفة، وأن تحقيق النتائج يسبق في أهميته جودة الأداء. غير أن الملخص المنشور لا يربط هذه التصريحات صراحةً بدوري أبطال إفريقيا، وإنما يتناول وضع الأهلي الفني بشكل عام.</p><p>وبذلك يبدو أن الاهتمام الحالي يتركز أساسًا على مشوار الزمالك القاري، مع حضور متابعة موازية لأحوال الأهلي تحت قيادته الفنية.</p></div>
+        <div class="tags"><span class='tag'>دوري أبطال إفريقيا</span><span class='tag'>الزمالك</span><span class='tag'>الجيش الرواندي</span><span class='tag'>الاتحاد الإفريقي لكرة القدم</span><span class='tag'>الأهلي</span><span class='tag'>الحسين عموتة</span></div>
+        <details class="srcwrap">
+          <summary>المصادر الخام (2) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.yallakora.com/african-champions-league/3050/news/566802/%D9%83%D8%A7%D9%81-%D9%8A%D8%AE%D8%B7%D8%B1-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D8%A8%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%B1%D9%88%D8%A7%D9%86%D8%AF%D9%8A-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7' target='_blank' rel='noopener'><span class='src'>يلاكورة</span><span class='ntitle'>كاف يخطر الزمالك بموعد مباراتي الجيش الرواندي في دوري أبطال أفريقيا</span><span class='ndesc'>أخطر الاتحاد الأفريقي لكرة القدم &quot;كاف&quot;، نادي الزمالك بموعد مباراتي الفريق أمام الجيش الرواندي، في الدور التمهيدي الثاني لبطولة دوري أبطال أفريقيا.</span></a></li><li><a href='https://www.elbalad.news/7115654' target='_blank' rel='noopener'><span class='src'>صدى البلد</span><span class='ntitle'>مدرب الوداد السابق: عموتة يحتاج للصبر مع الأهلي.. والنتيجة أهم من الأداء</span><span class='ndesc'>أكد رضا لطفي، مدرب حراس الوداد السابق، أن المغربي الحسين عموتة يحتاج إلى بعض الوقت من أجل إنجاح طريقته مع النادي الأهلي، مشيرًا إلى أن الفريق لا يزال يعمل على الوصول إلى حالة من التكامل بين…</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card" style="--accent:#3ddc97">
@@ -288,10 +343,16 @@
           <span class="traffic">🔍 500+</span>
           <span class='ok'>✓ جاهز للنشر</span>
         </div>
-        <h2>النادي الإسماعيلي</h2>
-        <p class="why">العنوان يطابق: نادي</p>
-        <div class="sources-label">3 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D8%AA%D9%85%D9%87%D9%8A%D8%AF%D9%89-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D9%84%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1-%D8%AE%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%AD%D8%B1%D8%B3-%D9%88%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%89/7554833' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>نتائج مباريات الدور التمهيدى الثالث لكأس مصر.. خروج الحرس والإسماعيلى</span><span class='ndesc'>شهدت منافسات الدور التمهيدى الثالث لبطولة كأس مصر، اليوم، إقامة عدد من المباريات القوية، أسفرت عن تأهل سمنود وبورفؤاد وطنطا</span></a></li><li><a href='https://www.yallakora.com/egypt-cup/3014/news/566832/%D9%85%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D8%AA%D9%85%D9%87%D9%8A%D8%AF%D9%8A-%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A-%D9%8A%D9%88%D8%AF%D8%B9-%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7-%D9%88%D8%A7%D9%84%D8%A3%D9%86%D9%88%D8%A7%D8%B1' target='_blank' rel='noopener'><span class='src'>يلاكورة</span><span class='ntitle'>من الدور التمهيدي.. الإسماعيلي يودع كأس مصر أمام الرباط والأنوار</span><span class='ndesc'>ودع فريق الإسماعيلي، بطولة كأس مصر للموسم الحالي 2026-2027 من الدور التمهيدي الثالث بعد الخسارة أمام فريق الرباط والأنوار.</span></a></li><li><a href='https://www.masrawy.com/sports/sports_news/details/2026/9/22/3052098/%D8%B5%D8%AF%D9%85%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D9%84%D8%AF%D8%B1%D8%A7%D9%88%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A-%D9%8A%D9%88%D8%AF%D8%B9-%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D8%AA%D9%85%D9%87%D9%8A%D8%AF%D9%8A' target='_blank' rel='noopener'><span class='src'>Masrawy</span><span class='ntitle'>صدمة جديدة للدراويش.. الإسماعيلي يودع كأس مصر من الدور التمهيدي</span><span class='ndesc'>ودع الفريق الأول لكرة القدم بالنادي الإسماعيلي منافسات بطولة كأس مصر للموسم الحالي 2026 2027 بعد الخسارة أمام الرباط والأنوار بهدف دون رد في الدور التمهيدي الثالث | مصراوي</span></a></li></ul>
+        
+        <div class="term">الترند: النادي الإسماعيلي</div>
+        <h2>الإسماعيلي يودّع كأس مصر مبكرًا بخسارته أمام الرباط والأنوار</h2>
+        <p class="summary">يبحث المصريون عن النادي الإسماعيلي بعد خروجه من الدور التمهيدي الثالث لكأس مصر إثر هزيمته أمام فريق الرباط والأنوار.</p>
+        <div class="article"><p>يتصدّر اسم النادي الإسماعيلي عمليات البحث في مصر لأن الفريق خرج من بطولة كأس مصر في مرحلة مبكرة، وهي نتيجة لا يتوقعها كثير من جماهيره.</p><p>وبحسب موقع يلاكورة، غادر الإسماعيلي منافسات الكأس لموسم 2026-2027 من الدور التمهيدي الثالث، بعدما خسر أمام فريق الرباط والأنوار. وأضاف موقع مصراوي أن المباراة انتهت بهدف وحيد لصالح الرباط والأنوار دون أن يسجل الإسماعيلي، ووصف الموقع هذا الخروج بأنه صدمة جديدة لجماهير الدراويش، وهو اللقب الذي يُعرف به النادي.</p><p>أما صحيفة اليوم السابع فقد تناولت الحدث ضمن تغطيتها الشاملة لنتائج الدور التمهيدي الثالث، مشيرة إلى أن هذا الدور شهد عدة مواجهات قوية، وانتهى بخروج فريقي الحرس والإسماعيلي، في حين نجحت فرق أخرى مثل سمنود وبورفؤاد وطنطا في حجز مكانها في الدور التالي.</p><p>وتتفق المصادر الثلاثة على أصل الخبر، وهو وداع الإسماعيلي للبطولة على يد الرباط والأنوار، دون أن يظهر بينها أي تعارض في التفاصيل المنشورة. ويبدو أن مفاجأة خروج نادٍ جماهيري بهذا الحجم من دور تمهيدي هي ما دفع المتابعين إلى البحث عن تفاصيل المباراة ونتيجتها وما ينتظر الفريق بعدها.</p></div>
+        <div class="tags"><span class='tag'>النادي الإسماعيلي</span><span class='tag'>كأس مصر</span><span class='tag'>الرباط والأنوار</span><span class='tag'>الدراويش</span><span class='tag'>الدور التمهيدي الثالث</span><span class='tag'>الكرة المصرية</span></div>
+        <details class="srcwrap">
+          <summary>المصادر الخام (3) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D8%AA%D9%85%D9%87%D9%8A%D8%AF%D9%89-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D9%84%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1-%D8%AE%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%AD%D8%B1%D8%B3-%D9%88%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%89/7554833' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>نتائج مباريات الدور التمهيدى الثالث لكأس مصر.. خروج الحرس والإسماعيلى</span><span class='ndesc'>شهدت منافسات الدور التمهيدى الثالث لبطولة كأس مصر، اليوم، إقامة عدد من المباريات القوية، أسفرت عن تأهل سمنود وبورفؤاد وطنطا</span></a></li><li><a href='https://www.yallakora.com/egypt-cup/3014/news/566832/%D9%85%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D8%AA%D9%85%D9%87%D9%8A%D8%AF%D9%8A-%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A-%D9%8A%D9%88%D8%AF%D8%B9-%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7-%D9%88%D8%A7%D9%84%D8%A3%D9%86%D9%88%D8%A7%D8%B1' target='_blank' rel='noopener'><span class='src'>يلاكورة</span><span class='ntitle'>من الدور التمهيدي.. الإسماعيلي يودع كأس مصر أمام الرباط والأنوار</span><span class='ndesc'>ودع فريق الإسماعيلي، بطولة كأس مصر للموسم الحالي 2026-2027 من الدور التمهيدي الثالث بعد الخسارة أمام فريق الرباط والأنوار.</span></a></li><li><a href='https://www.masrawy.com/sports/sports_news/details/2026/9/22/3052098/%D8%B5%D8%AF%D9%85%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D9%84%D8%AF%D8%B1%D8%A7%D9%88%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A-%D9%8A%D9%88%D8%AF%D8%B9-%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D8%AA%D9%85%D9%87%D9%8A%D8%AF%D9%8A' target='_blank' rel='noopener'><span class='src'>Masrawy</span><span class='ntitle'>صدمة جديدة للدراويش.. الإسماعيلي يودع كأس مصر من الدور التمهيدي</span><span class='ndesc'>ودع الفريق الأول لكرة القدم بالنادي الإسماعيلي منافسات بطولة كأس مصر للموسم الحالي 2026 2027 بعد الخسارة أمام الرباط والأنوار بهدف دون رد في الدور التمهيدي الثالث | مصراوي</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card dim" style="--accent:#ffd166">
@@ -303,10 +364,13 @@
           <span class="traffic">🔍 200+</span>
           <span class='hold'>⛔ يحتاج مراجعة</span>
         </div>
+        
         <h2>باتريس كارتيرون</h2>
-        <p class="why">اسم شخص على الأرجح — يحتاج مراجعة</p>
-        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.yallakora.com/uael-league/3042/news/566779/-%D8%A7%D9%84%D9%85%D8%AD%D8%B7%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1%D8%A9-%D9%83%D8%A7%D8%B1%D8%AA%D9%8A%D8%B1%D9%88%D9%86-%D9%85%D8%AF%D8%B1%D8%A8-%D8%A7-%D9%84%D9%84%D8%B8%D9%81%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A' target='_blank' rel='noopener'><span class='src'>يلاكورة</span><span class='ntitle'>المحطة العربية العاشرة.. كارتيرون مدربًا للظفرة الإماراتي</span><span class='ndesc'>يواصل الفرنسي باتريس كارتيرون رحلته التدريبية في المنطقة العربية بعدما تولى تدريب الظفرة الإماراتي رسميًا.</span></a></li><li><a href='https://www.albayan.ae/sports/uae-stadiums/adnoc-pro-league/1553673' target='_blank' rel='noopener'><span class='src'>البيان</span><span class='ntitle'>الفرنسي كارتيرون مدرباً للظفرة خلفاً لهورفات</span><span class='ndesc'>أعلن نادي الظفرة تعاقده مع الفرنسي باتريس كارتيرون، مديراً فنياً للفريق الأول لكرة القدم، خلفاً للكرواتي آلين هورفات، و</span></a></li></ul>
+        <p class="nowrite">لم يُكتب — اسم شخص على الأرجح — يحتاج مراجعة</p>
+        <details class="srcwrap">
+          <summary>المصادر الخام (2) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.yallakora.com/uael-league/3042/news/566779/-%D8%A7%D9%84%D9%85%D8%AD%D8%B7%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1%D8%A9-%D9%83%D8%A7%D8%B1%D8%AA%D9%8A%D8%B1%D9%88%D9%86-%D9%85%D8%AF%D8%B1%D8%A8-%D8%A7-%D9%84%D9%84%D8%B8%D9%81%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A' target='_blank' rel='noopener'><span class='src'>يلاكورة</span><span class='ntitle'>المحطة العربية العاشرة.. كارتيرون مدربًا للظفرة الإماراتي</span><span class='ndesc'>يواصل الفرنسي باتريس كارتيرون رحلته التدريبية في المنطقة العربية بعدما تولى تدريب الظفرة الإماراتي رسميًا.</span></a></li><li><a href='https://www.albayan.ae/sports/uae-stadiums/adnoc-pro-league/1553673' target='_blank' rel='noopener'><span class='src'>البيان</span><span class='ntitle'>الفرنسي كارتيرون مدرباً للظفرة خلفاً لهورفات</span><span class='ndesc'>أعلن نادي الظفرة تعاقده مع الفرنسي باتريس كارتيرون، مديراً فنياً للفريق الأول لكرة القدم، خلفاً للكرواتي آلين هورفات، و</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card dim" style="--accent:#ffd166">
@@ -318,10 +382,13 @@
           <span class="traffic">🔍 200+</span>
           <span class='hold'>⛔ يحتاج مراجعة</span>
         </div>
+        
         <h2>مسعود بزشكيان</h2>
-        <p class="why">اسم شخص على الأرجح — يحتاج مراجعة</p>
-        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D9%85%D8%A7%D8%B0%D8%A7-%D8%AD%D8%AF%D8%AB-%D9%84%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%89-%D9%85%D8%B3%D8%B9%D9%88%D8%AF-%D8%A8%D8%B2%D8%B4%D9%83%D9%8A%D8%A7%D9%86-%D8%AE%D9%84%D8%A7%D9%84-%D8%B1%D8%AD%D9%84%D8%AA%D9%87%D8%A7-%D8%A5%D9%84%D9%89/7554661' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>ماذا حدث لطائرة الرئيس الإيرانى مسعود بزشكيان خلال رحلتها إلى نيويورك ؟</span><span class='ndesc'>هبطت طائرة الرئيس الإيرانى مسعود بزشكيان فى مطار هوارى بومدين الدولى بالجزائر العاصمة، اليوم الثلاثاء، فى توقف تقنى خلال رحلتها إلى نيويورك.</span></a></li><li><a href='https://www.masrawy.com/news/news_publicaffairs/details/2026/9/22/3052151/%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B6%D8%A7%D8%B1%D8%A8-%D8%A7%D9%84%D8%A3%D9%86%D8%A8%D8%A7%D8%A1-%D8%AD%D9%88%D9%84-%D9%85%D9%83%D8%A7%D9%86%D9%87-%D8%A3%D9%8A%D9%86-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D9%85%D8%B3%D8%B9%D9%88%D8%AF-%D8%A8%D8%B2%D8%B4%D9%83%D9%8A%D8%A7%D9%86-' target='_blank' rel='noopener'><span class='src'>Masrawy</span><span class='ntitle'>بعد تضارب الأنباء حول مكانه.. أين الرئيس الإيراني مسعود بزشكيان؟</span><span class='ndesc'>بعد تضارب الأنباء حول مكانه أين الرئيس الإيراني مسعود بزشكيان | مصراوي</span></a></li></ul>
+        <p class="nowrite">لم يُكتب — اسم شخص على الأرجح — يحتاج مراجعة</p>
+        <details class="srcwrap">
+          <summary>المصادر الخام (2) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D9%85%D8%A7%D8%B0%D8%A7-%D8%AD%D8%AF%D8%AB-%D9%84%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%89-%D9%85%D8%B3%D8%B9%D9%88%D8%AF-%D8%A8%D8%B2%D8%B4%D9%83%D9%8A%D8%A7%D9%86-%D8%AE%D9%84%D8%A7%D9%84-%D8%B1%D8%AD%D9%84%D8%AA%D9%87%D8%A7-%D8%A5%D9%84%D9%89/7554661' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>ماذا حدث لطائرة الرئيس الإيرانى مسعود بزشكيان خلال رحلتها إلى نيويورك ؟</span><span class='ndesc'>هبطت طائرة الرئيس الإيرانى مسعود بزشكيان فى مطار هوارى بومدين الدولى بالجزائر العاصمة، اليوم الثلاثاء، فى توقف تقنى خلال رحلتها إلى نيويورك.</span></a></li><li><a href='https://www.masrawy.com/news/news_publicaffairs/details/2026/9/22/3052151/%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B6%D8%A7%D8%B1%D8%A8-%D8%A7%D9%84%D8%A3%D9%86%D8%A8%D8%A7%D8%A1-%D8%AD%D9%88%D9%84-%D9%85%D9%83%D8%A7%D9%86%D9%87-%D8%A3%D9%8A%D9%86-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D9%85%D8%B3%D8%B9%D9%88%D8%AF-%D8%A8%D8%B2%D8%B4%D9%83%D9%8A%D8%A7%D9%86-' target='_blank' rel='noopener'><span class='src'>Masrawy</span><span class='ntitle'>بعد تضارب الأنباء حول مكانه.. أين الرئيس الإيراني مسعود بزشكيان؟</span><span class='ndesc'>بعد تضارب الأنباء حول مكانه أين الرئيس الإيراني مسعود بزشكيان | مصراوي</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card dim" style="--accent:#ffd166">
@@ -333,10 +400,13 @@
           <span class="traffic">🔍 200+</span>
           <span class='hold'>⛔ يحتاج مراجعة</span>
         </div>
+        
         <h2>حسن الشافعي</h2>
-        <p class="why">اسم شخص على الأرجح — يحتاج مراجعة</p>
-        <div class="sources-label">3 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D8%B4%D8%A7%D9%81%D8%B9%D9%8A-%D9%88%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%B4%D8%A7%D8%B9%D8%B1-%D9%81%D9%8A-%D8%A3%D9%85%D8%B3%D8%AA%D8%B1%D8%AF%D8%A7%D9%85-%D9%84%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D9%81%D9%8A-%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A7%D8%AA-Connecting/7554795' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>حسن الشافعي ومحمد الشاعر في أمستردام للمشاركة في فعاليات Connecting Sounds</span><span class='ndesc'>في إطار جولات The Basement Records في الفعاليات الموسيقية حول العالم، يشارك المؤلف الموسيقي حسن الشافعي والمنتج الموسيقي محمد الشاعر</span></a></li><li><a href='https://gate.ahram.org.eg/News/5931938.aspx' target='_blank' rel='noopener'><span class='src'>بوابة الأهرام</span><span class='ntitle'>حسن الشافعي يشارك في فعالية موسيقية بأمستردام</span><span class='ndesc'>في الفعاليات الموسيقية حول العالم، يشارك المؤلف الموسيقي حسن الشافعي والمنتج الموسيقي محمد الشاعر في فعاليات كونكتينج ساوند في أمستردام بهولندا، يوم الخميس 24 سبتمبر الحالي، حيث يشارك…</span></a></li><li><a href='https://al-ain.com/article/the-appearance-hassan-el-shafei' target='_blank' rel='noopener'><span class='src'>العين الإخبارية</span><span class='ntitle'>أول ظهور للملحن المصري حسن الشافعي بعد شائعة القبض عليه</span><span class='ndesc'>ظهر الملحن حسن الشافعي في العاصمة الهولندية أمستردام، برفقة المنتج الموسيقي محمد الشاعر، استعدادًا للمشاركة في فعاليات موسيقية دولية.</span></a></li></ul>
+        <p class="nowrite">لم يُكتب — اسم شخص على الأرجح — يحتاج مراجعة</p>
+        <details class="srcwrap">
+          <summary>المصادر الخام (3) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D8%B4%D8%A7%D9%81%D8%B9%D9%8A-%D9%88%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%B4%D8%A7%D8%B9%D8%B1-%D9%81%D9%8A-%D8%A3%D9%85%D8%B3%D8%AA%D8%B1%D8%AF%D8%A7%D9%85-%D9%84%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D9%81%D9%8A-%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A7%D8%AA-Connecting/7554795' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>حسن الشافعي ومحمد الشاعر في أمستردام للمشاركة في فعاليات Connecting Sounds</span><span class='ndesc'>في إطار جولات The Basement Records في الفعاليات الموسيقية حول العالم، يشارك المؤلف الموسيقي حسن الشافعي والمنتج الموسيقي محمد الشاعر</span></a></li><li><a href='https://gate.ahram.org.eg/News/5931938.aspx' target='_blank' rel='noopener'><span class='src'>بوابة الأهرام</span><span class='ntitle'>حسن الشافعي يشارك في فعالية موسيقية بأمستردام</span><span class='ndesc'>في الفعاليات الموسيقية حول العالم، يشارك المؤلف الموسيقي حسن الشافعي والمنتج الموسيقي محمد الشاعر في فعاليات كونكتينج ساوند في أمستردام بهولندا، يوم الخميس 24 سبتمبر الحالي، حيث يشارك…</span></a></li><li><a href='https://al-ain.com/article/the-appearance-hassan-el-shafei' target='_blank' rel='noopener'><span class='src'>العين الإخبارية</span><span class='ntitle'>أول ظهور للملحن المصري حسن الشافعي بعد شائعة القبض عليه</span><span class='ndesc'>ظهر الملحن حسن الشافعي في العاصمة الهولندية أمستردام، برفقة المنتج الموسيقي محمد الشاعر، استعدادًا للمشاركة في فعاليات موسيقية دولية.</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card" style="--accent:#f5c542">
@@ -348,10 +418,16 @@
           <span class="traffic">🔍 200+</span>
           <span class='ok'>✓ جاهز للنشر</span>
         </div>
-        <h2>دولار أمريكي</h2>
-        <p class="why">العنوان يطابق: دولار</p>
-        <div class="sources-label">3 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.mubasher.info/news/4675556/%D8%AA%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%AD%D8%B0%D8%B1%D8%A9-%D9%84%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%85%D8%B9-%D8%A7%D9%86%D8%AE%D9%81%D8%A7%D8%B6-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%88%D8%AA%D8%B1%D9%82%D8%A8-%D9%82%D8%B1%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D8%A7%D8%A6%D8%AF%D8%A9/' target='_blank' rel='noopener'><span class='src'>معلومات مباشر</span><span class='ntitle'>تحركات حذرة للدولار مع انخفاض النفط وترقب قرارات الفائدة</span><span class='ndesc'>مباشر- ارتفع الدولار قليلا اليوم الثلاثاء متراجعا عن أعلى مستوياته في شهرين، حيث يوازن المستثمرون بين تراجع أسعار النفط واحتمالية إقدام الفيدرالي على رفع الفائدة.</span></a></li><li><a href='https://www.eremnews.com/economy/qcv1sm3' target='_blank' rel='noopener'><span class='src'>إرم نيوز</span><span class='ntitle'>الدولار يتأرجح بين انخفاض أسعار النفط واحتمال رفع الفائدة</span><span class='ndesc'>تراجع النفط 2% إثر مقترح إيراني بفتح مضيق هرمز، فيما تقلب الدولار متأثرًا بالأسعار وتوقعات الفائدة الأمريكية.</span></a></li><li><a href='https://al-sharq.com/article/21/09/2026/%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D9%85%D8%A4%D8%B4%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1' target='_blank' rel='noopener'><span class='src'>جريدة الشرق</span><span class='ntitle'>استقرار مؤشر الدولار</span><span class='ndesc'>استقر مؤشر الدولار الأمريكي الذي  يقيس أداء العملة الأمريكية مقابل ست عملات رئيسية، عند 100.23 نقطة بعد أن حقق مكاسب تجاوزت واحدا بالمئة الأسبوع الماض...</span></a></li></ul>
+        
+        <div class="term">الترند: دولار أمريكي</div>
+        <h2>لماذا يبحث المصريون عن الدولار الأمريكي بعد صعوده أمام الجنيه؟</h2>
+        <p class="summary">يتزايد البحث عن الدولار في مصر بعد أن سجّل، بحسب مصراوي، أقوى أداء أسبوعي له منذ ثلاثة أشهر، وارتفع أمام الجنيه في عشرة بنوك، وسط تقلبات عالمية مرتبطة بالنفط والفائدة الأمريكية.</p>
+        <div class="article"><p>يبحث المصريون عن الدولار الأمريكي الآن لأن العملة الأمريكية ارتفعت أمام الجنيه خلال الأسبوع الأخير. فقد أفاد موقع مصراوي بأن الدولار صعد مقابل العملة المحلية في عشرة بنوك، وبلغت الزيادة في بعضها 86 قرشًا. وذكر الموقع أن الدولار حقق بذلك أفضل أداء أسبوعي له منذ ثلاثة أشهر، بعدما ارتفع مؤشره العالمي بنحو 1.1%.</p><p>وعلى المستوى الدولي، أوردت جريدة الشرق أن مؤشر الدولار، الذي يقارن العملة الأمريكية بست عملات رئيسية، استقر عند 100.23 نقطة. وجاء هذا الاستقرار بعد مكاسب زادت على واحد بالمئة في الأسبوع السابق، وهو ما يتوافق مع ما نشره مصراوي عن حجم الصعود.</p><p>أما موقع إرم نيوز فقدّم صورة أقل ثباتًا، إذ وصف الدولار بأنه يتقلب تحت تأثير عاملين: أسعار النفط، وتوقعات الفائدة في الولايات المتحدة. وأوضح الموقع أن النفط هبط بنسبة 2% بعد طرح مقترح إيراني يتعلق بفتح مضيق هرمز.</p><p>يُلاحظ أن الشرق تتحدث عن استقرار المؤشر، بينما يتحدث إرم نيوز عن تذبذب الدولار. وقد يرجع هذا الاختلاف إلى أن كل مصدر يرصد لحظة مختلفة من حركة السوق، لكن المصادر لا توضح ذلك صراحة.</p><p>وخلاصة الأمر أن اهتمام المصريين يتركز على أثر هذه التحركات العالمية في سعر الصرف داخل البنوك المحلية.</p></div>
+        <div class="tags"><span class='tag'>سعر الدولار</span><span class='tag'>الدولار أمام الجنيه</span><span class='tag'>مؤشر الدولار</span><span class='tag'>أسعار الصرف في مصر</span><span class='tag'>الفائدة الأمريكية</span><span class='tag'>أسعار النفط</span></div>
+        <details class="srcwrap">
+          <summary>المصادر الخام (3) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.mubasher.info/news/4675556/%D8%AA%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%AD%D8%B0%D8%B1%D8%A9-%D9%84%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%85%D8%B9-%D8%A7%D9%86%D8%AE%D9%81%D8%A7%D8%B6-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%88%D8%AA%D8%B1%D9%82%D8%A8-%D9%82%D8%B1%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D8%A7%D8%A6%D8%AF%D8%A9/' target='_blank' rel='noopener'><span class='src'>معلومات مباشر</span><span class='ntitle'>تحركات حذرة للدولار مع انخفاض النفط وترقب قرارات الفائدة</span><span class='ndesc'>مباشر- ارتفع الدولار قليلا اليوم الثلاثاء متراجعا عن أعلى مستوياته في شهرين، حيث يوازن المستثمرون بين تراجع أسعار النفط واحتمالية إقدام الفيدرالي على رفع الفائدة.</span></a></li><li><a href='https://www.eremnews.com/economy/qcv1sm3' target='_blank' rel='noopener'><span class='src'>إرم نيوز</span><span class='ntitle'>الدولار يتأرجح بين انخفاض أسعار النفط واحتمال رفع الفائدة</span><span class='ndesc'>تراجع النفط 2% إثر مقترح إيراني بفتح مضيق هرمز، فيما تقلب الدولار متأثرًا بالأسعار وتوقعات الفائدة الأمريكية.</span></a></li><li><a href='https://al-sharq.com/article/21/09/2026/%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D9%85%D8%A4%D8%B4%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1' target='_blank' rel='noopener'><span class='src'>جريدة الشرق</span><span class='ntitle'>استقرار مؤشر الدولار</span><span class='ndesc'>استقر مؤشر الدولار الأمريكي الذي  يقيس أداء العملة الأمريكية مقابل ست عملات رئيسية، عند 100.23 نقطة بعد أن حقق مكاسب تجاوزت واحدا بالمئة الأسبوع الماض...</span></a></li></ul>
+        </details>
       </div>
     </article></div>
         </section>
@@ -370,10 +446,13 @@
           <span class="traffic">🔍 500+</span>
           <span class='hold'>⛔ يحتاج مراجعة</span>
         </div>
+        
         <h2>نادية رشاد</h2>
-        <p class="why">اسم شخص على الأرجح — يحتاج مراجعة</p>
-        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.eremnews.com/entertainment/awl3e9i' target='_blank' rel='noopener'><span class='src'>إرم نيوز</span><span class='ntitle'>&quot;لا أرحب بمكالمات الزملاء&quot;.. اعتزال نادية رشاد يثير جدلا واسعا</span><span class='ndesc'>أعلنت الفنانة والسيناريست المصرية نادية رشاد اعتزال التمثيل وكتابة السيناريو، مؤكدة اكتفاءها بما قدمته ورفضها تلقي مكالمات من زملائها.</span></a></li><li><a href='https://www.youm7.com/story/2026/9/22/%D9%86%D8%A7%D8%AF%D9%8A%D8%A9-%D8%B1%D8%B4%D8%A7%D8%AF-%D8%AA%D8%B9%D8%AA%D8%B2%D9%84-%D8%A7%D9%84%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D9%88%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%A3%D8%A8%D8%B1%D8%B2-%D9%85%D8%AD%D8%B7%D8%A7%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D9%81%D9%86%D9%8A%D8%A9/7554073' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>نادية رشاد تعتزل التمثيل وكتابة السيناريو.. أبرز محطاتها الفنية</span><span class='ndesc'>تصدرت الفنانة نادية رشاد صفحات التواصل الاجتماعى عقب إعلانها اعتزال التمثيل وكتابة السيناريو مؤخرا.</span></a></li></ul>
+        <p class="nowrite">لم يُكتب — اسم شخص على الأرجح — يحتاج مراجعة</p>
+        <details class="srcwrap">
+          <summary>المصادر الخام (2) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.eremnews.com/entertainment/awl3e9i' target='_blank' rel='noopener'><span class='src'>إرم نيوز</span><span class='ntitle'>&quot;لا أرحب بمكالمات الزملاء&quot;.. اعتزال نادية رشاد يثير جدلا واسعا</span><span class='ndesc'>أعلنت الفنانة والسيناريست المصرية نادية رشاد اعتزال التمثيل وكتابة السيناريو، مؤكدة اكتفاءها بما قدمته ورفضها تلقي مكالمات من زملائها.</span></a></li><li><a href='https://www.youm7.com/story/2026/9/22/%D9%86%D8%A7%D8%AF%D9%8A%D8%A9-%D8%B1%D8%B4%D8%A7%D8%AF-%D8%AA%D8%B9%D8%AA%D8%B2%D9%84-%D8%A7%D9%84%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D9%88%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%A3%D8%A8%D8%B1%D8%B2-%D9%85%D8%AD%D8%B7%D8%A7%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D9%81%D9%86%D9%8A%D8%A9/7554073' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>نادية رشاد تعتزل التمثيل وكتابة السيناريو.. أبرز محطاتها الفنية</span><span class='ndesc'>تصدرت الفنانة نادية رشاد صفحات التواصل الاجتماعى عقب إعلانها اعتزال التمثيل وكتابة السيناريو مؤخرا.</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card" style="--accent:#3ddc97">
@@ -385,10 +464,16 @@
           <span class="traffic">🔍 200+</span>
           <span class='ok'>✓ جاهز للنشر</span>
         </div>
-        <h2>الاتحاد الآسيوي لكرة القدم</h2>
-        <p class="why">العنوان يطابق: الاتحاد</p>
-        <div class="sources-label">3 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/5320891-%D8%B7%D9%88%D9%83%D9%8A%D9%88-%D8%AA%D8%AC%D9%85%D8%B9-%D9%82%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D8%A2%D8%B3%D9%8A%D9%88%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%82%D8%A7%D8%B1%D9%8A' target='_blank' rel='noopener'><span class='src'>الشرق الأوسط</span><span class='ntitle'>طوكيو تجمع قيادات الكرة الآسيوية في مؤتمر الاتحاد القاري</span><span class='ndesc'>يقام المؤتمر في اليابان للمرة الأولى، بالتعاون بين الاتحاد الآسيوي لكرة القدم والاتحاد الياباني، في إطار منصة تستهدف تبادل الخبرات، والمعرفة، والأفكار.</span></a></li><li><a href='https://www.okaz.com.sa/sport/na/2267157' target='_blank' rel='noopener'><span class='src'>عكاظ</span><span class='ntitle'>الذكاء الاصطناعي والكرة النسائية على طاولة الاتحاد الآسيوي</span><span class='ndesc'>أعلن الاتحاد الآسيوي لكرة القدم إقامة النسخة الرابعة من مؤتمر رؤساء وأمناء عموم...</span></a></li><li><a href='https://www.annahar.com/sports/349565/%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D9%8A%D9%88%D9%8A-%D9%8A%D9%86%D8%A7%D9%82%D8%B4-%D8%A7%D9%84%D8%B0%D9%83%D8%A7-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%88%D8%A7%D9%84%D8%A7%D8%A8%D8%AA%D9%83%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%AD%D9%88%D9%83%D9%85%D8%A9' target='_blank' rel='noopener'><span class='src'>annahar.com</span><span class='ntitle'>مؤتمر الاتحاد الآسيوي يناقش الذكاء الاصطناعي والابتكار 2026</span><span class='ndesc'>يناقش مؤتمر الاتحاد الآسيوي 2026 في طوكيو الذكاء الاصطناعي والابتكار والحوكمة لتعزيز تطوير كرة القدم الآسيوية والارتقاء بالاتحادات الوطنية والإقليمية</span></a></li></ul>
+        
+        <div class="term">الترند: الاتحاد الآسيوي لكرة القدم</div>
+        <h2>مؤتمر الاتحاد الآسيوي لكرة القدم في طوكيو يثير اهتمام الجمهور السعودي</h2>
+        <p class="summary">ارتفع البحث عن الاتحاد الآسيوي لكرة القدم في السعودية بعد تغطية إعلامية لمؤتمره القاري في طوكيو، الذي يتناول الذكاء الاصطناعي والكرة النسائية والحوكمة.</p>
+        <div class="article"><p>يبحث المستخدمون في السعودية عن الاتحاد الآسيوي لكرة القدم لأن عدة وسائل إعلام عربية تناولت مؤتمره القاري الذي تستضيفه العاصمة اليابانية طوكيو، ويجمع مسؤولي الكرة في القارة لمناقشة ملفات تطوير اللعبة.</p><p>ذكرت صحيفة الشرق الأوسط أن اليابان تحتضن هذا المؤتمر لأول مرة، وأن تنظيمه يجري بشراكة بين الاتحاد الآسيوي والاتحاد الياباني لكرة القدم. وأوضحت الصحيفة أن الحدث مصمم ليكون ساحة يتبادل فيها المشاركون تجاربهم ومعارفهم ورؤاهم.</p><p>أما صحيفة عكاظ فأشارت إلى أن الاتحاد الآسيوي أعلن تنظيم الدورة الرابعة من مؤتمر يضم رؤساء الاتحادات الأعضاء وأمناءها العامين. ويُفهم من عنوان تقريرها أن جدول الأعمال يشمل موضوعين بارزين، هما توظيف الذكاء الاصطناعي في كرة القدم وتطوير اللعبة لدى السيدات.</p><p>وفي السياق نفسه، أفاد موقع النهار بأن مؤتمر عام 2026 في طوكيو سيتطرق إلى الذكاء الاصطناعي والابتكار وأساليب الحوكمة، بهدف دفع كرة القدم الآسيوية إلى الأمام ورفع مستوى الاتحادات الوطنية والإقليمية.</p><p>وتتفق المصادر الثلاثة على مكان المؤتمر وطابعه العام، ولا يظهر بينها تعارض في المعلومات المنشورة. غير أن ملخصاتها لا تتضمن مواعيد محددة للانعقاد، ولا أسماء المشاركين، ولا أي قرارات متوقعة. ولذلك يبقى الاهتمام الحالي مرتبطًا بالإعلان عن الحدث وبالمحاور التي سيناقشها، في انتظار تفاصيل أوفى عند انطلاق أعماله.</p></div>
+        <div class="tags"><span class='tag'>الاتحاد الآسيوي لكرة القدم</span><span class='tag'>مؤتمر طوكيو</span><span class='tag'>الذكاء الاصطناعي في الرياضة</span><span class='tag'>كرة القدم النسائية</span><span class='tag'>الكرة الآسيوية</span></div>
+        <details class="srcwrap">
+          <summary>المصادر الخام (3) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/5320891-%D8%B7%D9%88%D9%83%D9%8A%D9%88-%D8%AA%D8%AC%D9%85%D8%B9-%D9%82%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D8%A2%D8%B3%D9%8A%D9%88%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%82%D8%A7%D8%B1%D9%8A' target='_blank' rel='noopener'><span class='src'>الشرق الأوسط</span><span class='ntitle'>طوكيو تجمع قيادات الكرة الآسيوية في مؤتمر الاتحاد القاري</span><span class='ndesc'>يقام المؤتمر في اليابان للمرة الأولى، بالتعاون بين الاتحاد الآسيوي لكرة القدم والاتحاد الياباني، في إطار منصة تستهدف تبادل الخبرات، والمعرفة، والأفكار.</span></a></li><li><a href='https://www.okaz.com.sa/sport/na/2267157' target='_blank' rel='noopener'><span class='src'>عكاظ</span><span class='ntitle'>الذكاء الاصطناعي والكرة النسائية على طاولة الاتحاد الآسيوي</span><span class='ndesc'>أعلن الاتحاد الآسيوي لكرة القدم إقامة النسخة الرابعة من مؤتمر رؤساء وأمناء عموم...</span></a></li><li><a href='https://www.annahar.com/sports/349565/%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D9%8A%D9%88%D9%8A-%D9%8A%D9%86%D8%A7%D9%82%D8%B4-%D8%A7%D9%84%D8%B0%D9%83%D8%A7-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%88%D8%A7%D9%84%D8%A7%D8%A8%D8%AA%D9%83%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%AD%D9%88%D9%83%D9%85%D8%A9' target='_blank' rel='noopener'><span class='src'>annahar.com</span><span class='ntitle'>مؤتمر الاتحاد الآسيوي يناقش الذكاء الاصطناعي والابتكار 2026</span><span class='ndesc'>يناقش مؤتمر الاتحاد الآسيوي 2026 في طوكيو الذكاء الاصطناعي والابتكار والحوكمة لتعزيز تطوير كرة القدم الآسيوية والارتقاء بالاتحادات الوطنية والإقليمية</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card" style="--accent:#f5c542">
@@ -400,10 +485,16 @@
           <span class="traffic">🔍 200+</span>
           <span class='ok'>✓ جاهز للنشر</span>
         </div>
-        <h2>دولار أمريكي</h2>
-        <p class="why">العنوان يطابق: دولار</p>
-        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.eremnews.com/economy/qcv1sm3' target='_blank' rel='noopener'><span class='src'>إرم نيوز</span><span class='ntitle'>الدولار يتأرجح بين انخفاض أسعار النفط واحتمال رفع الفائدة</span><span class='ndesc'>تراجع النفط 2% إثر مقترح إيراني بفتح مضيق هرمز، فيما تقلب الدولار متأثرًا بالأسعار وتوقعات الفائدة الأمريكية.</span></a></li><li><a href='https://www.arabictrader.com/ar/news/forex/229984/%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A%D8%AA%D9%85%D8%B3%D9%83-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%A8%D9%82%D9%88%D8%AA%D9%87%D8%9F-3-%D8%B9%D9%88%D8%A7%D9%85%D9%84-%D8%AA%D8%AD%D8%B1%D9%83-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-%D8%A7%D9%84%D8%A2%D9%86' target='_blank' rel='noopener'><span class='src'>المتداول العربي</span><span class='ntitle'>لماذا يتمسك الدولار بقوته؟ 3 عوامل تحرك العملة الأمريكية الآن</span><span class='ndesc'>أبرز النقاط:   	الدولار يتحرك قرب مستوى 100 نقطة، مدعومًا بتوقعات بقاء السياسة النقدية الأمريكية مشددة في ظل استمرار مخاوف التضخم. 	 	 	الاحتياطي الفيدرالي يواجه...</span></a></li></ul>
+        
+        <div class="term">الترند: دولار أمريكي</div>
+        <h2>الدولار الأمريكي بين تراجع النفط وتوقعات الفائدة الأمريكية</h2>
+        <p class="summary">يتزايد البحث عن الدولار الأمريكي في السعودية مع تقلبه بين انخفاض أسعار النفط وتوقعات بقاء السياسة النقدية الأمريكية مشددة، بحسب إرم نيوز والمتداول العربي.</p>
+        <div class="article"><p>يبحث مستخدمون في السعودية عن &quot;الدولار الأمريكي&quot; اليوم على الأرجح بسبب تقلب العملة الأمريكية بين عاملين يدفعانها في اتجاهين مختلفين: تراجع أسعار النفط من جهة، والتوقعات المتعلقة بالفائدة في الولايات المتحدة من جهة أخرى، وفق ما تنقله المصادر المتاحة.</p><p>فبحسب موقع إرم نيوز، هبطت أسعار النفط بنسبة 2% عقب طرح مقترح إيراني بشأن فتح مضيق هرمز، وفي الوقت نفسه شهد الدولار تذبذبًا متأثرًا بحركة الأسعار وبما يتوقعه المتعاملون حول الفائدة الأمريكية، مع إشارة عنوان التقرير إلى احتمال رفعها.</p><p>أما موقع المتداول العربي فيسلط الضوء على جانب مختلف، إذ يرى أن العملة الأمريكية تحافظ على قوتها وتتحرك في محيط مستوى 100 نقطة، مستندةً إلى توقعات باستمرار التشدد في السياسة النقدية الأمريكية بسبب المخاوف المستمرة من التضخم. ويذكر الموقع أن مجلس الاحتياطي الفيدرالي يواجه تحديات في هذا الإطار، ويعرض ثلاثة عوامل تحرك الدولار حاليًا، وإن كان الملخص المتوفر لا يكشف تفاصيلها كاملة.</p><p>ولا يظهر تناقض صريح بين المصدرين، غير أن إرم نيوز يصف حركة الدولار بالتأرجح، في حين يبرز المتداول العربي تماسكه وقوته. ويتفق الاثنان على أن مسار الفائدة الأمريكية عامل محوري في تحديد اتجاه العملة.</p><p>وقد يعود اهتمام القراء في السعودية إلى ارتباط هذه التطورات بسوق النفط والأسواق المالية عمومًا، مع ملاحظة أن المصادر المرفقة لا تتناول أثرًا مباشرًا على السوق السعودية.</p></div>
+        <div class="tags"><span class='tag'>الدولار الأمريكي</span><span class='tag'>أسعار النفط</span><span class='tag'>الفائدة الأمريكية</span><span class='tag'>الاحتياطي الفيدرالي</span><span class='tag'>مضيق هرمز</span><span class='tag'>التضخم</span></div>
+        <details class="srcwrap">
+          <summary>المصادر الخام (2) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.eremnews.com/economy/qcv1sm3' target='_blank' rel='noopener'><span class='src'>إرم نيوز</span><span class='ntitle'>الدولار يتأرجح بين انخفاض أسعار النفط واحتمال رفع الفائدة</span><span class='ndesc'>تراجع النفط 2% إثر مقترح إيراني بفتح مضيق هرمز، فيما تقلب الدولار متأثرًا بالأسعار وتوقعات الفائدة الأمريكية.</span></a></li><li><a href='https://www.arabictrader.com/ar/news/forex/229984/%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A%D8%AA%D9%85%D8%B3%D9%83-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%A8%D9%82%D9%88%D8%AA%D9%87%D8%9F-3-%D8%B9%D9%88%D8%A7%D9%85%D9%84-%D8%AA%D8%AD%D8%B1%D9%83-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-%D8%A7%D9%84%D8%A2%D9%86' target='_blank' rel='noopener'><span class='src'>المتداول العربي</span><span class='ntitle'>لماذا يتمسك الدولار بقوته؟ 3 عوامل تحرك العملة الأمريكية الآن</span><span class='ndesc'>أبرز النقاط:   	الدولار يتحرك قرب مستوى 100 نقطة، مدعومًا بتوقعات بقاء السياسة النقدية الأمريكية مشددة في ظل استمرار مخاوف التضخم. 	 	 	الاحتياطي الفيدرالي يواجه...</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card" style="--accent:#3ddc97">
@@ -415,10 +506,16 @@
           <span class="traffic">🔍 200+</span>
           <span class='ok'>✓ جاهز للنشر</span>
         </div>
-        <h2>leicester city vs fulham u-21</h2>
-        <p class="why">العنوان يطابق: vs</p>
-        <div class="sources-label">3 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.soccerway.com/match/lecco-IsxHSx6l/pergolettese-pvWU6W5U/?mid=hIfP4ooe' target='_blank' rel='noopener'><span class='src'>Soccerway</span><span class='ntitle'>Lecco - Pergolettese 0-0</span><span class='ndesc'>ITALY: Serie C - Group A - Round 6</span></a></li><li><a href='https://us.soccerway.com/game/al-ittifaq-SAlALi3d/dibba-al-fujairah-2eHlABP4/?mid=dQV9uqeD' target='_blank' rel='noopener'><span class='src'>Soccerway</span><span class='ntitle'>Dibba Al Fujairah</span><span class='ndesc'>UNITED ARAB EMIRATES: Presidents Cup - 1/64-finals</span></a></li><li><a href='https://www.lcfc.com/media-article/russell-martin-leicester-city-manager-fulham-u21-preview-under-21-efl-trophy' target='_blank' rel='noopener'><span class='src'>LCFC | Official Website</span><span class='ntitle'>Martin: Not A Game We’ll Take Lightly</span><span class='ndesc'>The official website of Leicester City.</span></a></li></ul>
+        
+        <div class="term">الترند: leicester city vs fulham u-21</div>
+        <h2>مواجهة ليستر سيتي وفريق فولهام تحت 21 عامًا تثير اهتمام الباحثين</h2>
+        <p class="summary">يبحث مستخدمون في السعودية عن مباراة ليستر سيتي أمام فريق فولهام تحت 21 عامًا، بعد أن نشر الموقع الرسمي لليستر مادة تمهيدية للقاء نُسبت إلى مدربه مارتن.</p>
+        <div class="article"><p>يبدو أن سبب البحث عن هذا المصطلح هو اقتراب مواجهة تجمع ليستر سيتي بفريق فولهام تحت 21 عامًا، أو انعقادها حديثًا، إذ نشر الموقع الرسمي لنادي ليستر سيتي مادة تمهيدية عن المباراة. وقد بلغ حجم البحث في السعودية أكثر من مئتي عملية بحث تقريبًا.</p><p>وبحسب الموقع الرسمي لليستر سيتي، جاءت المادة بعنوان يحمل اسم مارتن، ومفاده أن الفريق لن يتعامل مع هذه المواجهة باستخفاف. ويشير رابط المقال على الموقع نفسه إلى أن المتحدث هو المدرب راسل مارتن، وأن المباراة تُقام ضمن مسابقة كأس رابطة الدوري الإنجليزي المعروفة باسم EFL Trophy، في إطار حديث تمهيدي يسبق اللقاء.</p><p>غير أن المصادر المتاحة لا تقدم تفاصيل إضافية؛ فملخص مقال ليستر سيتي لا يتضمن سوى تعريف عام بالموقع الرسمي للنادي، ولا يذكر موعد المباراة ولا نتيجتها ولا تشكيلة الفريقين. أما المصدران الآخران، وكلاهما من موقع Soccerway، فيتناولان مباراتين لا علاقة لهما بالموضوع: الأولى من دوري الدرجة الثالثة الإيطالي بين ليكو وبيرغوليتيزي، والثانية من كأس رئيس الدولة الإماراتي وتخص فريق دبا الفجيرة.</p><p>لذلك يتعذر، بالاعتماد على هذه المصادر وحدها، تأكيد نتيجة اللقاء أو توقيته بدقة، ويُنصح بمتابعة القنوات الرسمية للناديين لمعرفة المستجدات.</p></div>
+        <div class="tags"><span class='tag'>ليستر سيتي</span><span class='tag'>فولهام تحت 21 عامًا</span><span class='tag'>كأس رابطة الدوري الإنجليزي</span><span class='tag'>راسل مارتن</span><span class='tag'>كرة القدم الإنجليزية</span></div>
+        <details class="srcwrap">
+          <summary>المصادر الخام (3) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.soccerway.com/match/lecco-IsxHSx6l/pergolettese-pvWU6W5U/?mid=hIfP4ooe' target='_blank' rel='noopener'><span class='src'>Soccerway</span><span class='ntitle'>Lecco - Pergolettese 0-0</span><span class='ndesc'>ITALY: Serie C - Group A - Round 6</span></a></li><li><a href='https://us.soccerway.com/game/al-ittifaq-SAlALi3d/dibba-al-fujairah-2eHlABP4/?mid=dQV9uqeD' target='_blank' rel='noopener'><span class='src'>Soccerway</span><span class='ntitle'>Dibba Al Fujairah</span><span class='ndesc'>UNITED ARAB EMIRATES: Presidents Cup - 1/64-finals</span></a></li><li><a href='https://www.lcfc.com/media-article/russell-martin-leicester-city-manager-fulham-u21-preview-under-21-efl-trophy' target='_blank' rel='noopener'><span class='src'>LCFC | Official Website</span><span class='ntitle'>Martin: Not A Game We’ll Take Lightly</span><span class='ndesc'>The official website of Leicester City.</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card" style="--accent:#79c0ff">
@@ -430,10 +527,16 @@
           <span class="traffic">🔍 200+</span>
           <span class='ok'>✓ جاهز للنشر</span>
         </div>
-        <h2>فرنسا</h2>
-        <p class="why">العنوان يطابق: فرنسا</p>
-        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://arabic.euronews.com/2026/09/22/france-macron-hormuz-oil-un-saudi-arabia-ukraine' target='_blank' rel='noopener'><span class='src'>Euronews</span><span class='ntitle'>هرمز في قلب تحرك ماكرون في نيويورك.. خطة جديدة لفتح المضيق وتأمين منشآت الطاقة السعودية</span><span class='ndesc'>تكثّف فرنسا تحركاتها الدبلوماسية في محاولة للحد من انعكاسات الأزمات الإقليمية والدولية على الاقتصاد وأسواق النفط، مستفيدة من اجتماعات الجمعية العامة للأمم المتحدة في نيويورك للدفع بمبادرات…</span></a></li><li><a href='https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/5320950-%D9%85%D8%A7%D9%83%D8%B1%D9%88%D9%86-%D8%B3%D9%8A%D8%AA%D8%AD%D8%AF%D8%AB-%D8%A8%D8%B5%D8%B1%D8%A7%D8%AD%D8%A9-%D9%85%D8%B9-%D8%AA%D8%B1%D9%85%D8%A8-%D9%81%D9%8A-%D9%86%D9%8A%D9%88%D9%8A%D9%88%D8%B1%D9%83' target='_blank' rel='noopener'><span class='src'>الشرق الأوسط</span><span class='ntitle'>ماكرون سيتحدث «بصراحة» مع ترمب في نيويورك</span><span class='ndesc'>يعتزم الرئيس الفرنسي خلال لقائه المرتقب مع نظيره الأميركي، الاثنين، التحدث معه «بصراحة» لمحاولة «توجيهه نحو القرارات الصائبة»، ولا سيما في شأن أوكرانيا.</span></a></li></ul>
+        
+        <div class="term">الترند: فرنسا</div>
+        <h2>تحركات ماكرون في نيويورك بشأن هرمز وأوكرانيا تدفع السعوديين للبحث عن فرنسا</h2>
+        <p class="summary">ارتفع البحث عن فرنسا في السعودية بعد تقارير عن خطة فرنسية تُطرح في نيويورك لفتح مضيق هرمز وحماية منشآت الطاقة السعودية، إلى جانب لقاء مرتقب بين ماكرون وترمب.</p>
+        <div class="article"><p>يعود اهتمام المستخدمين في السعودية بالبحث عن فرنسا إلى أخبار تربط التحرك الفرنسي الحالي مباشرة بأمن المملكة وقطاع الطاقة فيها. فقد أفادت يورونيوز بأن الرئيس الفرنسي إيمانويل ماكرون يضع مضيق هرمز في صدارة نشاطه في نيويورك، وذكرت في عنوان تقريرها أن باريس تطرح خطة جديدة لفتح المضيق وتأمين منشآت الطاقة السعودية. ووفقًا للمصدر نفسه، تسعى فرنسا عبر نشاط دبلوماسي مكثف إلى الحد من أثر الأزمات الإقليمية والدولية على الاقتصاد وأسواق النفط، مستثمرة انعقاد اجتماعات الجمعية العامة للأمم المتحدة لدفع مبادرات في عدة ملفات في وقت واحد.</p><p>وفي سياق متصل، نقلت صحيفة الشرق الأوسط أن ماكرون ينوي في لقائه المنتظر يوم الاثنين مع الرئيس الأميركي دونالد ترمب أن يخاطبه «بصراحة»، في مسعى إلى «توجيهه نحو القرارات الصائبة»، مشيرة إلى أن الملف الأوكراني يأتي في مقدمة القضايا المطروحة بينهما.</p><p>وبذلك يجتمع أمران يفسران ارتفاع البحث: الأول صلة الخطة الفرنسية المعلنة بأمن الملاحة في هرمز ومنشآت الطاقة السعودية بحسب يورونيوز، والثاني الحضور الفرنسي البارز في المشهد الدولي خلال اجتماعات نيويورك ولقاء ماكرون وترمب بحسب الشرق الأوسط. ولم تتضمن المصادر المتاحة تفاصيل إضافية عن بنود الخطة الفرنسية أو عن الجهات التي ستشارك في تنفيذها.</p></div>
+        <div class="tags"><span class='tag'>فرنسا</span><span class='tag'>ماكرون</span><span class='tag'>مضيق هرمز</span><span class='tag'>منشآت الطاقة السعودية</span><span class='tag'>الجمعية العامة للأمم المتحدة</span><span class='tag'>ماكرون وترمب</span></div>
+        <details class="srcwrap">
+          <summary>المصادر الخام (2) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://arabic.euronews.com/2026/09/22/france-macron-hormuz-oil-un-saudi-arabia-ukraine' target='_blank' rel='noopener'><span class='src'>Euronews</span><span class='ntitle'>هرمز في قلب تحرك ماكرون في نيويورك.. خطة جديدة لفتح المضيق وتأمين منشآت الطاقة السعودية</span><span class='ndesc'>تكثّف فرنسا تحركاتها الدبلوماسية في محاولة للحد من انعكاسات الأزمات الإقليمية والدولية على الاقتصاد وأسواق النفط، مستفيدة من اجتماعات الجمعية العامة للأمم المتحدة في نيويورك للدفع بمبادرات…</span></a></li><li><a href='https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/5320950-%D9%85%D8%A7%D9%83%D8%B1%D9%88%D9%86-%D8%B3%D9%8A%D8%AA%D8%AD%D8%AF%D8%AB-%D8%A8%D8%B5%D8%B1%D8%A7%D8%AD%D8%A9-%D9%85%D8%B9-%D8%AA%D8%B1%D9%85%D8%A8-%D9%81%D9%8A-%D9%86%D9%8A%D9%88%D9%8A%D9%88%D8%B1%D9%83' target='_blank' rel='noopener'><span class='src'>الشرق الأوسط</span><span class='ntitle'>ماكرون سيتحدث «بصراحة» مع ترمب في نيويورك</span><span class='ndesc'>يعتزم الرئيس الفرنسي خلال لقائه المرتقب مع نظيره الأميركي، الاثنين، التحدث معه «بصراحة» لمحاولة «توجيهه نحو القرارات الصائبة»، ولا سيما في شأن أوكرانيا.</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card dim" style="--accent:#79c0ff">
@@ -445,10 +548,13 @@
           <span class="traffic">🔍 200+</span>
           <span class='hold'>⛔ يحتاج مراجعة</span>
         </div>
+        
         <h2>السودان</h2>
-        <p class="why">مصادر غير كافية (أقل من خبرين بنص)</p>
-        <div class="sources-label">1 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.skynewsarabia.com/middle-east/1893767-%D8%B1%D9%88%D9%8A%D8%AA%D8%B1%D8%B2-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%AA%D8%B1%D9%81%D8%B6-%D9%85%D9%86%D8%AD-%D8%A7%D9%84%D8%A8%D8%B1%D9%87%D8%A7%D9%86-%D8%AA%D8%A3%D8%B4%D9%8A%D8%B1%D8%A9-%D8%AF%D8%AE%D9%88%D9%84' target='_blank' rel='noopener'><span class='src'>سكاي نيوز عربية</span><span class='ntitle'>رويترز: الولايات المتحدة ترفض منح البرهان تأشيرة دخول</span><span class='ndesc'>أفادت وكالة رويترز بأن الولايات المتحدة ترفض منح قائد الجيش السوداني عبد الفتاح البرهان تأشيرة دخول قبل كلمته المقررة أمام الجمعية العامة للأمم المتحدة الخميس، فيما قال مصدران للوكالة إن…</span></a></li></ul>
+        <p class="nowrite">لم يُكتب — مصادر غير كافية (أقل من خبرين بنص)</p>
+        <details class="srcwrap">
+          <summary>المصادر الخام (1) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.skynewsarabia.com/middle-east/1893767-%D8%B1%D9%88%D9%8A%D8%AA%D8%B1%D8%B2-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%AA%D8%B1%D9%81%D8%B6-%D9%85%D9%86%D8%AD-%D8%A7%D9%84%D8%A8%D8%B1%D9%87%D8%A7%D9%86-%D8%AA%D8%A3%D8%B4%D9%8A%D8%B1%D8%A9-%D8%AF%D8%AE%D9%88%D9%84' target='_blank' rel='noopener'><span class='src'>سكاي نيوز عربية</span><span class='ntitle'>رويترز: الولايات المتحدة ترفض منح البرهان تأشيرة دخول</span><span class='ndesc'>أفادت وكالة رويترز بأن الولايات المتحدة ترفض منح قائد الجيش السوداني عبد الفتاح البرهان تأشيرة دخول قبل كلمته المقررة أمام الجمعية العامة للأمم المتحدة الخميس، فيما قال مصدران للوكالة إن…</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card dim" style="--accent:#ffd166">
@@ -460,10 +566,13 @@
           <span class="traffic">🔍 200+</span>
           <span class='hold'>⛔ يحتاج مراجعة</span>
         </div>
+        
         <h2>ماركو روبيو</h2>
-        <p class="why">اسم شخص على الأرجح — يحتاج مراجعة</p>
-        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://marsalqatar.qa/post/90672/%D8%B1%D9%88%D8%A8%D9%8A%D9%88-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%82%D9%84%D9%82%D8%A9-%D9%85%D9%86-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%83' target='_blank' rel='noopener'><span class='src'>مرسال قطر</span><span class='ntitle'>روبيو: واشنطن قلقة من استهداف كييف سفنًا مرتبطة بالولايات المتحدة</span><span class='ndesc'>أعرب وزير الخارجية الأمريكي ماركو روبيو، اليوم الثلاثاء، عن قلق واشنطن إزاء تعرض سفن نفط مرتبطة بالولايات المتحدة لهجمات.</span></a></li><li><a href='https://www.vetogate.com/5736667' target='_blank' rel='noopener'><span class='src'>فيتو</span><span class='ntitle'>وزير الخارجية الأمريكي: لن يستمر استهداف أوكرانيا لسفن نفط مرتبطة بواشنطن</span><span class='ndesc'>انتقد وزير الخارجية الأمريكي ماركو روبيو تصرفات أوكرانيا باستهداف سفن النفط المرتبطة بالولايات المتحدة معربا عن قلقه مؤكدا بإن هذا الوضع لن يستمر</span></a></li></ul>
+        <p class="nowrite">لم يُكتب — اسم شخص على الأرجح — يحتاج مراجعة</p>
+        <details class="srcwrap">
+          <summary>المصادر الخام (2) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://marsalqatar.qa/post/90672/%D8%B1%D9%88%D8%A8%D9%8A%D9%88-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%82%D9%84%D9%82%D8%A9-%D9%85%D9%86-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%83' target='_blank' rel='noopener'><span class='src'>مرسال قطر</span><span class='ntitle'>روبيو: واشنطن قلقة من استهداف كييف سفنًا مرتبطة بالولايات المتحدة</span><span class='ndesc'>أعرب وزير الخارجية الأمريكي ماركو روبيو، اليوم الثلاثاء، عن قلق واشنطن إزاء تعرض سفن نفط مرتبطة بالولايات المتحدة لهجمات.</span></a></li><li><a href='https://www.vetogate.com/5736667' target='_blank' rel='noopener'><span class='src'>فيتو</span><span class='ntitle'>وزير الخارجية الأمريكي: لن يستمر استهداف أوكرانيا لسفن نفط مرتبطة بواشنطن</span><span class='ndesc'>انتقد وزير الخارجية الأمريكي ماركو روبيو تصرفات أوكرانيا باستهداف سفن النفط المرتبطة بالولايات المتحدة معربا عن قلقه مؤكدا بإن هذا الوضع لن يستمر</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card dim" style="--accent:#ff6b6b">
@@ -475,10 +584,13 @@
           <span class="traffic">🔍 100+</span>
           <span class='hold'>⛔ يحتاج مراجعة</span>
         </div>
+        
         <h2>القبض على ملحن</h2>
-        <p class="why">ورد لفظ حسّاس: حبس</p>
-        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.okaz.com.sa/variety/na/2267319' target='_blank' rel='noopener'><span class='src'>عكاظ</span><span class='ntitle'>من الاستوديو لخلف القضبان.. القاهرة: 60 كيس كوكايين بحوزة ملحن شهير</span><span class='ndesc'>ألقت الأجهزة الأمنية المصرية القبض على ملحن معروف، لم تُكشف هويته رسميًا، داخل أحد التجمعات السكنية بالقاهرة الجديدة، بعد أن أشارت التحريات إلى حيازته مواد يُشتبه في كونها مخدرة.</span></a></li><li><a href='https://www.almasryalyoum.com/news/details/4365510' target='_blank' rel='noopener'><span class='src'>المصري اليوم</span><span class='ntitle'>تفاصيل حبس شاعر غنائي شهير بتهمة الإتجار بالمخدرات في القاهرة الجديدة</span><span class='ndesc'>قررت جهات التحقيق بالقاهرة الجديدة، تجديد حبس الشاعر الغنائى الشهير «و.ا» 15 يوما، لاتهامه بحيازة كمية من مخدر الكوكايين، داخل إحدى التجمعات السكنية بمنطقة القاهرة الجديدة،...</span></a></li></ul>
+        <p class="nowrite">لم يُكتب — ورد لفظ حسّاس: حبس</p>
+        <details class="srcwrap">
+          <summary>المصادر الخام (2) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.okaz.com.sa/variety/na/2267319' target='_blank' rel='noopener'><span class='src'>عكاظ</span><span class='ntitle'>من الاستوديو لخلف القضبان.. القاهرة: 60 كيس كوكايين بحوزة ملحن شهير</span><span class='ndesc'>ألقت الأجهزة الأمنية المصرية القبض على ملحن معروف، لم تُكشف هويته رسميًا، داخل أحد التجمعات السكنية بالقاهرة الجديدة، بعد أن أشارت التحريات إلى حيازته مواد يُشتبه في كونها مخدرة.</span></a></li><li><a href='https://www.almasryalyoum.com/news/details/4365510' target='_blank' rel='noopener'><span class='src'>المصري اليوم</span><span class='ntitle'>تفاصيل حبس شاعر غنائي شهير بتهمة الإتجار بالمخدرات في القاهرة الجديدة</span><span class='ndesc'>قررت جهات التحقيق بالقاهرة الجديدة، تجديد حبس الشاعر الغنائى الشهير «و.ا» 15 يوما، لاتهامه بحيازة كمية من مخدر الكوكايين، داخل إحدى التجمعات السكنية بمنطقة القاهرة الجديدة،...</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card dim" style="--accent:#ffd166">
@@ -490,10 +602,13 @@
           <span class="traffic">🔍 100+</span>
           <span class='hold'>⛔ يحتاج مراجعة</span>
         </div>
+        
         <h2>طريق</h2>
-        <p class="why">اسم شخص على الأرجح — يحتاج مراجعة</p>
-        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://sabq.org/article/jcyflvy' target='_blank' rel='noopener'><span class='src'>صحيفة سبق الإلكترونية</span><span class='ntitle'>أمانة جدة تُعيد تسمية طريق الكورنيش باسم «الأمير خالد الفيصل»</span><span class='ndesc'>أمانة جدة تعتمد تغيير مسمى طريق الكورنيش ليصبح طريق الأمير خالد الفيصل، بطول 17 كم على الواجهة البحرية، تقديرًا لدوره في تنمية منطقة مكة المكرمة وتزامنًا مع تمد</span></a></li><li><a href='https://www.okaz.com.sa/local/na/2267306' target='_blank' rel='noopener'><span class='src'>عكاظ</span><span class='ntitle'>اعتماد تسمية «طريق الكورنيش» باسم خالد الفيصل</span><span class='ndesc'>اعتمدت أمانة محافظة جدة تغيير تسمية «طريق الكورنيش» الممتد من شارع النخيل شمالاً إلى طريق الأمير محمد بن عبدالعزيز جنوباً، ليحمل اسم «طريق الأمير خالد الفيصل»؛ تقديراً لمكانته الوطنية ودوره…</span></a></li></ul>
+        <p class="nowrite">لم يُكتب — اسم شخص على الأرجح — يحتاج مراجعة</p>
+        <details class="srcwrap">
+          <summary>المصادر الخام (2) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://sabq.org/article/jcyflvy' target='_blank' rel='noopener'><span class='src'>صحيفة سبق الإلكترونية</span><span class='ntitle'>أمانة جدة تُعيد تسمية طريق الكورنيش باسم «الأمير خالد الفيصل»</span><span class='ndesc'>أمانة جدة تعتمد تغيير مسمى طريق الكورنيش ليصبح طريق الأمير خالد الفيصل، بطول 17 كم على الواجهة البحرية، تقديرًا لدوره في تنمية منطقة مكة المكرمة وتزامنًا مع تمد</span></a></li><li><a href='https://www.okaz.com.sa/local/na/2267306' target='_blank' rel='noopener'><span class='src'>عكاظ</span><span class='ntitle'>اعتماد تسمية «طريق الكورنيش» باسم خالد الفيصل</span><span class='ndesc'>اعتمدت أمانة محافظة جدة تغيير تسمية «طريق الكورنيش» الممتد من شارع النخيل شمالاً إلى طريق الأمير محمد بن عبدالعزيز جنوباً، ليحمل اسم «طريق الأمير خالد الفيصل»؛ تقديراً لمكانته الوطنية ودوره…</span></a></li></ul>
+        </details>
       </div>
     </article>
     <article class="card" style="--accent:#9aa4b2">
@@ -505,10 +620,16 @@
           <span class="traffic">🔍 100+</span>
           <span class='ok'>✓ جاهز للنشر</span>
         </div>
-        <h2>gulf cup</h2>
-        <p class="why">بلا تصنيف واضح</p>
-        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources"><li><a href='https://www.spa.gov.sa/en/N2682796' target='_blank' rel='noopener'><span class='src'>وكالة الأنباء السعودية</span><span class='ntitle'>Saudi National Team Head Coach Confirms Readiness to Face Kuwait in Gulf Cup Opener</span><span class='ndesc'>Jeddah, September 22, 2026, SPA -- Saudi national football team head coach Georgios Donis confirmed the team&#x27;s readiness to face Kuwait tomorrow at King Abdullah Sports City in Jeddah in…</span></a></li><li><a href='https://www.sadanews.ps/en/news/336498.html' target='_blank' rel='noopener'><span class='src'>وكالة صدى نيوز</span><span class='ntitle'>Before the 27th Edition... Who Dominates the Historical Records of the Gulf Cup?</span><span class='ndesc'>Before the 27th Edition... Who Dominates the Historical Records of the Gulf Cup? - Sada News Agency</span></a></li></ul>
+        
+        <div class="term">الترند: gulf cup</div>
+        <h2>انطلاق كأس الخليج السابعة والعشرين في جدة يرفع البحث عن البطولة</h2>
+        <p class="summary">ارتفع البحث عن &quot;gulf cup&quot; في السعودية تزامنًا مع استعداد جدة لافتتاح النسخة السابعة والعشرين من كأس الخليج العربي، ومواجهة المنتخب السعودي للكويت في المباراة الافتتاحية.</p>
+        <div class="article"><p>يبحث كثيرون في السعودية عن مصطلح &quot;gulf cup&quot; لأن المملكة تستضيف النسخة السابعة والعشرين من كأس الخليج العربي في جدة، ولأن المنتخب السعودي يلاقي نظيره الكويتي في مباراة الافتتاح.</p><p>فبحسب وكالة الأنباء السعودية، أكد مدرب المنتخب السعودي جورجيوس دونيس، في تصريح صادر من جدة بتاريخ 22 سبتمبر 2026، أن فريقه جاهز لمواجهة الكويت في اليوم التالي على ملعب مدينة الملك عبدالله الرياضية. ورأى المدرب أن المباريات الأولى تتطلب تركيزًا عاليًا وحماسًا كبيرًا لبدء المشوار بصورة إيجابية، مشيرًا إلى أن الهدف هو المنافسة على اللقب، وأن وجود ثلاثة منتخبات شاركت في كأس العالم، هي السعودية والعراق وقطر، يعكس قوة البطولة. ونقلت الوكالة أيضًا عن حارس المرمى محمد العويس تأكيده حماس اللاعبين ورغبتهم في استثمار عاملي الأرض والجمهور، لافتًا إلى أهمية اللقاء بالنظر إلى تاريخ المنتخبين في هذه المسابقة.</p><p>من جهتها، أفادت صحيفة عرب نيوز بأن جدة تستعد لحفل افتتاح البطولة، وهو ما يزيد الاهتمام الجماهيري بالحدث. أما موقع الشارقة 24 فذكر أن قناة الشارقة الرياضية أطلقت برنامج تغطية موسّعًا من جدة يتضمن تحليلات وأفلامًا وثائقية وبرامج للمشجعين، إضافة إلى أغنية مخصصة لمنتخب الإمارات.</p><p>وهكذا يجتمع حفل الافتتاح والمباراة الأولى للمنتخب المضيف والتغطية الإعلامية الإقليمية ليجعل البطولة محور اهتمام الباحثين.</p></div>
+        <div class="tags"><span class='tag'>كأس الخليج العربي</span><span class='tag'>خليجي 27</span><span class='tag'>المنتخب السعودي</span><span class='tag'>السعودية والكويت</span><span class='tag'>جدة</span><span class='tag'>حفل افتتاح كأس الخليج</span></div>
+        <details class="srcwrap">
+          <summary>المصادر الخام (2) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources"><li><a href='https://www.spa.gov.sa/en/N2682796' target='_blank' rel='noopener'><span class='src'>وكالة الأنباء السعودية</span><span class='ntitle'>Saudi National Team Head Coach Confirms Readiness to Face Kuwait in Gulf Cup Opener</span><span class='ndesc'>Jeddah, September 22, 2026, SPA -- Saudi national football team head coach Georgios Donis confirmed the team&#x27;s readiness to face Kuwait tomorrow at King Abdullah Sports City in Jeddah in…</span></a></li><li><a href='https://www.sadanews.ps/en/news/336498.html' target='_blank' rel='noopener'><span class='src'>وكالة صدى نيوز</span><span class='ntitle'>Before the 27th Edition... Who Dominates the Historical Records of the Gulf Cup?</span><span class='ndesc'>Before the 27th Edition... Who Dominates the Historical Records of the Gulf Cup? - Sada News Agency</span></a></li></ul>
+        </details>
       </div>
     </article></div>
         </section>

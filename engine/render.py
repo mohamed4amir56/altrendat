@@ -37,12 +37,36 @@ def card(t, idx):
                 t=E(n["title"]), d=E(desc) or "—"))
 
     # نفضّل كارتنا المولَّد على صورة Google المصغّرة
-    art = t.get("card") or t.get("image")
+    img = t.get("card") or t.get("image")
     thumb = ""
-    if art:
+    if img:
         cls = "thumb card-img" if t.get("card") else "thumb"
         thumb = "<div class='{c}' style='background-image:url({u})'></div>".format(
-            c=cls, u=E(art))
+            c=cls, u=E(img))
+
+    # المقال المولَّد هو منتج المحرّك — يتصدّر البطاقة، والمصادر الخام
+    # تحته مطويّة. قبل هذا كانت اللوحة تعرض المصادر وحدها، فبدا كأن
+    # المحرّك ينسخ ولا ينتج شيئًا.
+    art = t.get("article")
+    if art:
+        body_html = "".join(
+            "<p>{}</p>".format(E(p.strip()))
+            for p in art["body"].split("\n") if p.strip())
+        tags = "".join("<span class='tag'>{}</span>".format(E(x))
+                       for x in art.get("tags", []))
+        main = """
+        <div class="term">الترند: {term}</div>
+        <h2>{head}</h2>
+        <p class="summary">{summ}</p>
+        <div class="article">{body}</div>
+        <div class="tags">{tags}</div>""".format(
+            term=E(t["title"]), head=E(art["headline"]),
+            summ=E(art.get("summary", "")), body=body_html, tags=tags)
+    else:
+        main = """
+        <h2>{title}</h2>
+        <p class="nowrite">لم يُكتب — {reason}</p>""".format(
+            title=E(t["title"]), reason=E(t["reason"]))
 
     return """
     <article class="card{dim}" style="--accent:{color}">
@@ -54,17 +78,17 @@ def card(t, idx):
           <span class="traffic">🔍 {traffic}</span>
           {badge}
         </div>
-        <h2>{title}</h2>
-        <p class="why">{reason}</p>
-        <div class="sources-label">{n} مصادر أُثريت بالنص الكامل</div>
-        <ul class="sources">{items}</ul>
+        {main}
+        <details class="srcwrap">
+          <summary>المصادر الخام ({n}) — ما وصل من Google قبل الكتابة</summary>
+          <ul class="sources">{items}</ul>
+        </details>
       </div>
     </article>""".format(
         dim="" if t["publishable"] else " dim",
         color=t["color"], rank=idx, thumb=thumb,
         icon=t["icon"], cat=E(t["category"]),
-        traffic=E(t["traffic"]), badge=badge,
-        title=E(t["title"]), reason=E(t["reason"]),
+        traffic=E(t["traffic"]), badge=badge, main=main,
         n=len(news), items="".join(items))
 
 
@@ -244,7 +268,7 @@ TEMPLATE = """<!DOCTYPE html>
   .chip b {{ color:var(--txt); }}
 
   .grid {{ display:grid; gap:16px; }}
-  @media (min-width:860px) {{ .grid {{ grid-template-columns:1fr 1fr; }} }}
+  @media (min-width:1100px) {{ .grid {{ grid-template-columns:1fr 1fr; }} }}
 
   .card {{
     position:relative; display:flex; gap:0; overflow:hidden;
@@ -329,6 +353,37 @@ TEMPLATE = """<!DOCTYPE html>
   .ename {{ font-weight:600; }}
   .emeta {{ color:var(--mut); font-size:.78rem; white-space:nowrap; }}
   .empty {{ color:var(--mut); font-size:.8rem; text-align:center; padding:8px 0; }}
+
+  .term {{
+    font-size:.72rem; color:var(--mut); letter-spacing:.3px;
+    margin-bottom:2px;
+  }}
+  .summary {{
+    color:var(--accent); font-size:.92rem; font-weight:600;
+    border-inline-start:3px solid var(--accent); padding-inline-start:11px;
+    margin:10px 0 12px;
+  }}
+  .article p {{
+    font-size:.9rem; color:#d3dae6; margin-bottom:10px; text-align:justify;
+  }}
+  .tags {{ display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 4px; }}
+  .tag {{
+    background:rgba(255,255,255,.05); border:1px solid var(--line);
+    color:var(--mut); font-size:.72rem; padding:3px 10px; border-radius:99px;
+  }}
+  .nowrite {{
+    color:#ff9f9f; font-size:.85rem; background:rgba(255,107,107,.08);
+    border-radius:10px; padding:9px 12px; margin-top:8px;
+  }}
+  .srcwrap {{ margin-top:14px; border-top:1px dashed var(--line); padding-top:10px; }}
+  .srcwrap summary {{
+    cursor:pointer; font-size:.74rem; color:var(--gold); list-style:none;
+    user-select:none;
+  }}
+  .srcwrap summary::-webkit-details-marker {{ display:none; }}
+  .srcwrap summary::before {{ content:"▸ "; }}
+  .srcwrap[open] summary::before {{ content:"▾ "; }}
+  .srcwrap .sources {{ margin-top:10px; }}
 
   footer {{ text-align:center; color:var(--mut); font-size:.78rem;
             margin-top:44px; border-top:1px solid var(--line); padding-top:18px; }}

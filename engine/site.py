@@ -10,11 +10,13 @@ GitHub Pages، وتُفتح محليًا بلا خادم.
   python engine/site.py [https://altrendat.com]
 
 البنية الناتجة:
-  site/index.html              الصفحة الرئيسة
-  site/eg/index.html           الأكثر بحثًا اليوم في مصر
-  site/eg/t/<slug>/index.html  صفحة لكل ترند
-  site/e/<slug>/index.html     صفحة لكل كيان (الذاكرة التراكمية)
-  site/sitemap.xml
+  site/index.html                    الصفحة الرئيسة
+  site/eg/index.html                 الأكثر بحثًا اليوم في مصر
+  site/eg/archive/index.html         فهرس كل الأيام
+  site/eg/<date>/index.html          يوم واحد
+  site/eg/<date>/<slug>/index.html   صفحة ترند — رابط دائم مؤرّخ
+  site/e/<slug>/index.html           صفحة كيان (الذاكرة التراكمية)
+  site/sitemap.xml · feed.xml
 """
 import html
 import json
@@ -233,8 +235,8 @@ def build_trend(country, cfg, t, urls):
     slug = entities.slugify(t["title"])
     day = cfg["generated_at"][:10]
     art = t["article"]
-    path = "{}/t/{}/index.html".format(country, slug)
-    canonical = "{}/{}/t/{}/".format(BASE, country, slug)
+    path = "{}/{}/{}/index.html".format(country, day, slug)
+    canonical = "{}/{}/{}/{}/".format(BASE, country, day, slug)
 
     img = None
     if t.get("card"):
@@ -274,8 +276,9 @@ def build_trend(country, cfg, t, urls):
     <div class="tags">{tags}</div>
     {sources}
     {hero}
-    <p class="meta"><a href="../../">← كل ترندات {cname}</a> ·
-       <a href="../../../e/{slug}/">أرشيف "{term}"</a></p>""".format(
+    <p class="meta"><a href="../">← ترندات {cname} يوم {day}</a> ·
+       <a href="../../">اليوم</a> ·
+       <a href="../../../../e/{slug}/">كل ظهور لـ"{term}"</a></p>""".format(
         icon=t["icon"], cat=E(t["category"]), traffic=E(t["traffic"]),
         flag=cfg["flag"], cname=E(cfg["country_name"]), day=day,
         head=E(art["headline"]), term=E(t["title"]),
@@ -285,7 +288,7 @@ def build_trend(country, cfg, t, urls):
         # وتبقى og:image لمعاينة المشاركة، وهذا دورها الحقيقي.
         hero=("<img class='hero' src='{}cards/{}' alt='{}' "
               "width='1200' height='675' loading='lazy'>".format(
-                  "../../../", os.path.basename(t["card"]), E(t["title"]))
+                  "../../../../", os.path.basename(t["card"]), E(t["title"]))
               if t.get("card") else ""),
         summ=E(art.get("summary", "")), table=data_table(t.get("data")),
         paras=paras, tags=tags, sources=sources_list(t["news"]),
@@ -294,8 +297,60 @@ def build_trend(country, cfg, t, urls):
     urls.append((canonical, cfg["generated_at"], "0.8"))
     return page(path, art["headline"] + " | " + SITE_NAME,
                 art.get("summary", ""), body, canonical,
-                nav=country_nav(country, 3), image=img,
-                ogtype="article", jsonld=jsonld, depth=3)
+                nav=country_nav(country, 4), image=img,
+                ogtype="article", jsonld=jsonld, depth=4)
+
+
+def archive_today(data):
+    """يؤرشف حالة اليوم الحالية قبل البناء.
+
+    تتم هنا لا في pipeline.py: المقالات والكروت تُضاف بعد الالتقاط،
+    فأرشفتها مبكرًا تحفظ ترندات بلا محتوى. وهذه الخطوة تجري بعد
+    اكتمال السلسلة، فتلتقط كل شيء.
+
+    trends.json يُمحى كل 20 دقيقة؛ هذه اللقطة تجعل كل يوم دائمًا،
+    فلا يصير رابط الأمس 404 اليوم — ورابط يختفي بعد يوم لا يُرتَّب.
+    """
+    days_dir = os.path.join(ROOT, "data", "days")
+    os.makedirs(days_dir, exist_ok=True)
+
+    for key, cfg in data.items():
+        day = cfg["generated_at"][:10]
+        path = os.path.join(days_dir, "{}-{}.json".format(key, day))
+
+        # تشغيلات اليوم نفسه تُدمج: الجديد يُضاف والقديم يُحدَّث،
+        # فلا يفقد اليوم ترندًا ظهر صباحًا وزال ظهرًا.
+        merged = {}
+        if os.path.exists(path):
+            with open(path, encoding="utf-8") as f:
+                for t in json.load(f).get("trends", []):
+                    merged[t["title"]] = t
+        for t in cfg["trends"]:
+            merged[t["title"]] = t
+
+        snap = dict(cfg)
+        snap["trends"] = list(merged.values())
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(snap, f, ensure_ascii=False, indent=2)
+
+
+def load_days():
+    """كل اللقطات اليومية: {(بلد, تاريخ): بيانات}، الأحدث أولًا.
+
+    الموقع يُبنى من هذه لا من trends.json وحده، وإلا اختفت صفحات
+    الأمس اليوم. وهذا هو الفرق بين أرشيف وبين لوحة عرض.
+    """
+    days_dir = os.path.join(ROOT, "data", "days")
+    out = {}
+    if not os.path.isdir(days_dir):
+        return out
+    for name in sorted(os.listdir(days_dir), reverse=True):
+        if not name.endswith(".json"):
+            continue
+        key, day = name[:-5].split("-", 1)
+        with open(os.path.join(days_dir, name), encoding="utf-8") as f:
+            out[(key, day)] = json.load(f)
+    return out
 
 
 def country_nav(current, depth):
@@ -308,6 +363,72 @@ def country_nav(current, depth):
     return "".join(out)
 
 
+def build_day(country, day, cfg, urls, prev_day, next_day):
+    """صفحة يوم واحد — العمق الذي يجعل للموقع أرشيفًا يُزحف إليه."""
+    pub = sorted([x for x in cfg["trends"] if x.get("article")],
+                 key=lambda x: -x["traffic_num"])
+    if not pub:
+        return None
+
+    items = []
+    for i, x in enumerate(pub, 1):
+        items.append(
+            "<a class='item' href='{s}/'>"
+            "<h3><span class='rank'>{i}</span>{h}</h3>"
+            "<p class='sub'>{ic} {cat} · 🔍 {tr}</p></a>".format(
+                s=entities.slugify(x["title"]), i=i,
+                h=E(x["article"]["headline"]), ic=x["icon"],
+                cat=E(x["category"]), tr=E(x["traffic"])))
+
+    around = []
+    if prev_day:
+        around.append("<a href='../{}/'>← {}</a>".format(prev_day, prev_day))
+    around.append("<a href='../archive/'>كل الأيام</a>")
+    if next_day:
+        around.append("<a href='../{}/'>{} →</a>".format(next_day, next_day))
+
+    canonical = "{}/{}/{}/".format(BASE, country, day)
+    body = """
+    <h1>{flag} الأكثر بحثًا في {name} — {day}</h1>
+    <p class="meta">{n} موضوعًا</p>
+    <div class="list">{items}</div>
+    <p class="meta nav-days">{around}</p>""".format(
+        flag=cfg["flag"], name=E(cfg["country_name"]), day=day,
+        n=len(pub), items="".join(items), around=" · ".join(around))
+
+    urls.append((canonical, cfg["generated_at"], "0.7"))
+    return page("{}/{}/index.html".format(country, day),
+                "الأكثر بحثًا في {} يوم {} | {}".format(
+                    cfg["country_name"], day, SITE_NAME),
+                "أهم {} موضوعًا تصدّرت البحث في {} يوم {}.".format(
+                    len(pub), cfg["country_name"], day),
+                body, canonical, nav=country_nav(country, 2), depth=2)
+
+
+def build_archive(country, cfg_days, urls):
+    """فهرس كل الأيام — الصفحة التي تفتح للزاحف باب الأرشيف كله."""
+    rows = []
+    for day, cfg, n in cfg_days:
+        rows.append(
+            "<a class='item' href='../{d}/'><h3>{d}</h3>"
+            "<p class='sub'>{n} موضوعًا</p></a>".format(d=day, n=n))
+
+    name = cfg_days[0][1]["country_name"]
+    flag = cfg_days[0][1]["flag"]
+    canonical = "{}/{}/archive/".format(BASE, country)
+    body = """
+    <h1>{flag} أرشيف {name}</h1>
+    <p class="lead">كل يوم رصدناه، وما تصدّر البحث فيه.</p>
+    <div class="list">{rows}</div>""".format(
+        flag=flag, name=E(name), rows="".join(rows))
+
+    urls.append((canonical, datetime.now(timezone.utc).isoformat(), "0.6"))
+    return page("{}/archive/index.html".format(country),
+                "أرشيف {} | {}".format(name, SITE_NAME),
+                "أرشيف يومي لما تصدّر البحث في {}.".format(name),
+                body, canonical, nav=country_nav(country, 2), depth=2)
+
+
 def build_country(country, cfg, urls):
     day = cfg["generated_at"][:10]
     pub = [t for t in cfg["trends"] if t.get("article")]
@@ -317,16 +438,17 @@ def build_country(country, cfg, urls):
     for i, t in enumerate(pub, 1):
         slug = entities.slugify(t["title"])
         items.append(
-            "<a class='item' href='t/{s}/'>"
+            "<a class='item' href='{d}/{s}/'>"
             "<h3><span class='rank'>{i}</span>{h}</h3>"
             "<p class='sub'>{ic} {cat} · 🔍 {tr}</p></a>".format(
-                s=slug, i=i, h=E(t["article"]["headline"]),
+                d=day, s=slug, i=i, h=E(t["article"]["headline"]),
                 ic=t["icon"], cat=E(t["category"]), tr=E(t["traffic"])))
 
     canonical = "{}/{}/".format(BASE, country)
     body = """
     <h1>{flag} الأكثر بحثًا اليوم في {name}</h1>
-    <p class="meta">{day} · {n} موضوعًا</p>
+    <p class="meta">{day} · {n} موضوعًا ·
+       <a href="archive/">أرشيف الأيام السابقة</a></p>
     <div class="list">{items}</div>""".format(
         flag=cfg["flag"], name=E(cfg["country_name"]), day=day,
         n=len(pub), items="".join(items))
@@ -497,7 +619,8 @@ def build_feed(data):
 
     body = []
     for _, key, cfg, t, art in items[:40]:
-        link = "{}/{}/t/{}/".format(BASE, key, entities.slugify(t["title"]))
+        link = "{}/{}/{}/{}/".format(BASE, key, cfg["generated_at"][:10],
+                                     entities.slugify(t["title"]))
         img = ""
         if t.get("card"):
             img = ('<enclosure url="{}/cards/{}" type="image/png"/>'
@@ -534,18 +657,44 @@ def main():
     COUNTRIES = {k: {"flag": v["flag"], "name_ar": v["country_name"]}
                  for k, v in data.items()}
 
+    archive_today(data)
+
     if os.path.exists(OUT):
         shutil.rmtree(OUT)
     os.makedirs(OUT)
 
     urls = []
-    n_trends = 0
+    n_trends = n_days = 0
+
+    # كل يوم مؤرشف يُبنى، لا يوم واحد. صفحة الأمس تبقى على رابطها،
+    # وهذا شرط الفهرسة: رابط يختفي بعد يوم لا يُرتَّب أبدًا.
+    days = load_days()
+    by_country = {}
+    for (key, day), cfg in days.items():
+        by_country.setdefault(key, []).append((day, cfg))
+
+    for key, entries in by_country.items():
+        entries.sort(key=lambda x: x[0], reverse=True)
+        dates = [d for d, _ in entries]
+
+        for i, (day, cfg) in enumerate(entries):
+            prev_day = dates[i + 1] if i + 1 < len(dates) else None
+            next_day = dates[i - 1] if i > 0 else None
+            if build_day(key, day, cfg, urls, prev_day, next_day):
+                n_days += 1
+            for t in cfg["trends"]:
+                if t.get("article"):
+                    build_trend(key, cfg, t, urls)
+                    n_trends += 1
+
+        build_archive(key, [(d, c, len([x for x in c["trends"]
+                                        if x.get("article")]))
+                            for d, c in entries], urls)
+
+    # صفحة البلد تعرض اليوم الأحدث
     for key, cfg in data.items():
         build_country(key, cfg, urls)
-        for t in cfg["trends"]:
-            if t.get("article"):
-                build_trend(key, cfg, t, urls)
-                n_trends += 1
+
     build_home(data, urls)
     build_static(urls)
     n_feed = build_feed(data)
@@ -586,7 +735,8 @@ def main():
                 BASE + "/sitemap.xml\n")
 
     print("✓ الموقع جاهز في site/")
-    print("  " + str(len(data)) + " بلد · " + str(n_trends) + " صفحة ترند · " +
+    print("  " + str(len(data)) + " بلد · " + str(n_days) + " صفحة يوم · " +
+          str(n_trends) + " صفحة ترند · " +
           str(len(store) - skipped) + " صفحة كيان")
     print("  " + str(skipped) + " كيانًا حجبته بوابة الأمان")
     print("  " + str(len(urls)) + " رابطًا في sitemap.xml · " +

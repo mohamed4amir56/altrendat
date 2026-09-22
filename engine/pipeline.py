@@ -394,6 +394,10 @@ def main():
               encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
+    # اللقطة اليومية لا تُحفظ هنا: المقالات والكروت تُضاف بعد هذه
+    # الخطوة، فحفظها الآن يؤرشف ترندات بلا محتوى. الأرشفة تتم في
+    # site.py بعد اكتمال السلسلة — انظر archive_today هناك.
+
     total = sum(len(r["trends"]) for r in results.values())
     pub = sum(1 for r in results.values()
               for t in r["trends"] if t["publishable"])

@@ -105,14 +105,30 @@
           "مواقيت الصلاة اليوم الثلاثاء 22 سبتمبر 2026",
           "مواقيت الصلاة في محافظات مصر اليوم الثلاثاء 22 سبتمبر 2026"
         ]
+      },
+      {
+        "key": "2026-09-22|eg",
+        "date": "2026-09-22",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "ديني",
+        "publishable": true,
+        "headlines": [
+          "مواقيت الصلاة اليوم الثلاثاء 22 سبتمبر 2026 بمحافظات الجمهورية",
+          "مواقيت الصلاة اليوم الثلاثاء 22 سبتمبر 2026 في القاهرة والمحافظات",
+          "مواقيت الصلاة الثلاثاء 23 سبتمبر 2026 في جميع محافظات مصر"
+        ]
       }
     ],
     "last_seen": "2026-09-22",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "ديني"
   },
   "خليج": {
@@ -299,13 +315,13 @@
         "date": "2026-09-22",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "category": "شخصية",
-        "publishable": false,
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": true,
         "headlines": [
           "نتائج مباريات الدور التمهيدى الثالث لكأس مصر.. خروج الحرس والإسماعيلى",
-          "الاسماعيلي يواصل الانهيار : وداع كأس مصر",
+          "من الدور التمهيدي.. الإسماعيلي يودع كأس مصر أمام الرباط والأنوار",
           "صدمة جديدة للدراويش.. الإسماعيلي يودع كأس مصر من الدور التمهيدي"
         ]
       }
@@ -315,8 +331,8 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
-    "category": "شخصية"
+    "peak_traffic": 500,
+    "category": "رياضة"
   },
   "حسن-الشافعي": {
     "slug": "حسن-الشافعي",
@@ -362,16 +378,32 @@
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
+          "تحركات حذرة للدولار مع انخفاض النفط وترقب قرارات الفائدة",
           "الدولار يتأرجح بين انخفاض أسعار النفط واحتمال رفع الفائدة",
-          "الدولار يسجل أفضل أداء أسبوعي في 3 أشهر.. ماذا حدث عالميًا ومحليًا؟",
           "استقرار مؤشر الدولار"
+        ]
+      },
+      {
+        "key": "2026-09-22|sa",
+        "date": "2026-09-22",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": true,
+        "headlines": [
+          "الدولار يتأرجح بين انخفاض أسعار النفط واحتمال رفع الفائدة",
+          "مؤشر الدولار عند مقاومة 100.38: تحديث فوري",
+          "لماذا يتمسك الدولار بقوته؟ 3 عوامل تحرك العملة الأمريكية الآن"
         ]
       }
     ],
     "last_seen": "2026-09-22",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 200,
     "category": "اقتصاد"
@@ -386,23 +418,39 @@
         "date": "2026-09-22",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "مصر.. القبض على ملحن شهير بحوزته 60 كيساً من المواد المخدرة",
-          "تفاصيل حبس شاعر غنائي شهير بتهمة الإتجار بالمخدرات في القاهرة الجديدة",
-          "بعد القبض على ملحن شهير.. عزيز الشافعي ينشر صورة مع أيمن بهجت قمر"
+          "ضبط شاعر غنائى شهير بحوزته 60 كيس مسحوق أبيض..والنيابة تطلب تقرير الطب الشرعى",
+          "تفاصيل حبس شاعر غنائي شهير بتهمة الإتجار بالمخدرات في القاهرة الجديدة"
+        ]
+      },
+      {
+        "key": "2026-09-22|sa",
+        "date": "2026-09-22",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "مصر.. القبض على ملحن شهير بحوزته 60 كيساً من المواد المخدرة",
+          "من الاستوديو لخلف القضبان.. القاهرة: 60 كيس كوكايين بحوزة ملحن شهير",
+          "تفاصيل حبس شاعر غنائي شهير بتهمة الإتجار بالمخدرات في القاهرة الجديدة"
         ]
       }
     ],
     "last_seen": "2026-09-22",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 5000,
     "category": "حوادث وقضايا"
   },
   "نادية-رشاد": {
@@ -415,8 +463,8 @@
         "date": "2026-09-22",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -424,14 +472,30 @@
           "القصة الكاملة لاعتزال نادية رشاد التمثيل وكتابة السيناريو",
           "الفنانة نادية رشاد تعلن اعتزالها الفن"
         ]
+      },
+      {
+        "key": "2026-09-22|sa",
+        "date": "2026-09-22",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "الفنانة نادية رشاد تعلن اعتزالها الفن: \"لا أرحب بمكالمة من أي زميل\"",
+          "\"لا أرحب بمكالمات الزملاء\".. اعتزال نادية رشاد يثير جدلا واسعا",
+          "نادية رشاد تعتزل التمثيل وكتابة السيناريو.. أبرز محطاتها الفنية"
+        ]
       }
     ],
     "last_seen": "2026-09-22",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "شخصية"
   },
   "منتخب-مصر": {
@@ -594,9 +658,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "مصادر لـCNN: جهاز أمني أمريكي سيتولى تأمين رئيس إيران خلال اجتماعات الأمم المتحدة",
-          "واشنطن ترفض منح تأشيرات لأعضاء بوفد الرئيس الإيراني",
-          "الرئيس الإيراني في نيويورك.. أي جهاز أمني أمريكي سيتولى حراسة بزشكيان؟"
+          "ماذا حدث لطائرة الرئيس الإيرانى مسعود بزشكيان خلال رحلتها إلى نيويورك ؟",
+          "بعد تضارب الأنباء حول مكانه.. أين الرئيس الإيراني مسعود بزشكيان؟",
+          "طائرة الرئيس الإيراني تحط بمطار الجزائر الدولي في توقف تقني"
         ]
       }
     ],
@@ -607,5 +671,324 @@
     ],
     "peak_traffic": 200,
     "category": "شخصية"
+  },
+  "دوري-أبطال-إفريقيا": {
+    "slug": "دوري-أبطال-إفريقيا",
+    "name": "دوري أبطال إفريقيا",
+    "first_seen": "2026-09-22",
+    "appearances": [
+      {
+        "key": "2026-09-22|eg",
+        "date": "2026-09-22",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "كاف يخطر الزمالك بموعد مباراتي الجيش الرواندي في دوري أبطال أفريقيا",
+          "مدرب الوداد السابق: عموتة يحتاج للصبر مع الأهلي.. والنتيجة أهم من الأداء",
+          "موعد مباراتي الزمالك والجيش الرواندي فى دور الـ 32 من بطولة دورى أبطال إفريقيا"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-22",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "باتريس-كارتيرون": {
+    "slug": "باتريس-كارتيرون",
+    "name": "باتريس كارتيرون",
+    "first_seen": "2026-09-22",
+    "appearances": [
+      {
+        "key": "2026-09-22|eg",
+        "date": "2026-09-22",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "المحطة العربية العاشرة.. كارتيرون مدربًا للظفرة الإماراتي",
+          "الفرنسي كارتيرون مدرباً للظفرة خلفاً لهورفات",
+          "مدرب أم صلال السابق يقود الظفرة الإماراتي"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-22",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "بنك-مصر": {
+    "slug": "بنك-مصر",
+    "name": "بنك مصر",
+    "first_seen": "2026-09-22",
+    "appearances": [
+      {
+        "key": "2026-09-22|eg",
+        "date": "2026-09-22",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "اقتصاد",
+        "publishable": true,
+        "headlines": [
+          "\"الأهلي المصري\" يحصل على موافقة إماراتية للاستحواذ على فروع \"بنك مصر\"",
+          "عاجل.. موافقة مبدئية من المركزي الإماراتي لاستحواذ الأهلي المصري على فروع بنك مصر",
+          "لميس الحديدي تطرح 8 أسئلة بشأن استحواذ الأهلي على فروع بنك مصر بالإمارات"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-22",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 5000,
+    "category": "اقتصاد"
+  },
+  "الاتحاد-الآسيوي-لكرة-القدم": {
+    "slug": "الاتحاد-الآسيوي-لكرة-القدم",
+    "name": "الاتحاد الآسيوي لكرة القدم",
+    "first_seen": "2026-09-22",
+    "appearances": [
+      {
+        "key": "2026-09-22|sa",
+        "date": "2026-09-22",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "طوكيو تجمع قيادات الكرة الآسيوية في مؤتمر الاتحاد القاري",
+          "الذكاء الاصطناعي والكرة النسائية على طاولة الاتحاد الآسيوي",
+          "مؤتمر الاتحاد الآسيوي يناقش الذكاء الاصطناعي والابتكار 2026"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-22",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "طريق": {
+    "slug": "طريق",
+    "name": "طريق",
+    "first_seen": "2026-09-22",
+    "appearances": [
+      {
+        "key": "2026-09-22|sa",
+        "date": "2026-09-22",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "أمانة جدة تُعيد تسمية طريق الكورنيش باسم «الأمير خالد الفيصل»",
+          "السعودية: أمر ملكي بتمديد خدمة خالد الفيصل مستشاراً لخادم الحرمين وأميراً لمكة 4 سنوات",
+          "اعتماد تسمية «طريق الكورنيش» باسم خالد الفيصل"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-22",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "gulf-cup": {
+    "slug": "gulf-cup",
+    "name": "gulf cup",
+    "first_seen": "2026-09-22",
+    "appearances": [
+      {
+        "key": "2026-09-22|sa",
+        "date": "2026-09-22",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Saudi National Team Head Coach Confirms Readiness to Face Kuwait in Gulf Cup Opener",
+          "Jeddah gets ready for opening ceremony of 2026 Arabian Gulf Cup",
+          "Before the 27th Edition... Who Dominates the Historical Records of the Gulf Cup?"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-22",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "leicester-city-vs-fulham-u-21": {
+    "slug": "leicester-city-vs-fulham-u-21",
+    "name": "leicester city vs fulham u-21",
+    "first_seen": "2026-09-22",
+    "appearances": [
+      {
+        "key": "2026-09-22|sa",
+        "date": "2026-09-22",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Lecco - Pergolettese 0-0",
+          "Dibba Al Fujairah",
+          "Martin: Not A Game We’ll Take Lightly"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-22",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "فرنسا": {
+    "slug": "فرنسا",
+    "name": "فرنسا",
+    "first_seen": "2026-09-22",
+    "appearances": [
+      {
+        "key": "2026-09-22|sa",
+        "date": "2026-09-22",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": true,
+        "headlines": [
+          "هرمز في قلب تحرك ماكرون في نيويورك.. خطة جديدة لفتح المضيق وتأمين منشآت الطاقة السعودية",
+          "ماكرون سيتحدث «بصراحة» مع ترمب في نيويورك",
+          "ماكرون بحث مع ترامب وقف استهداف أوكرانيا وروسيا لقطاع الطاقة"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-22",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "دول وأماكن"
+  },
+  "السودان": {
+    "slug": "السودان",
+    "name": "السودان",
+    "first_seen": "2026-09-22",
+    "appearances": [
+      {
+        "key": "2026-09-22|sa",
+        "date": "2026-09-22",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "رويترز: واشنطن ترفض منح البرهان تأشيرة لحضور اجتماعات الأمم المتحدة",
+          "حصري-مصدران: أمريكا تمتنع عن منح تأشيرة للبرهان بسبب مقترح هدنة في السودان",
+          "رويترز: الولايات المتحدة ترفض منح البرهان تأشيرة دخول"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-22",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "دول وأماكن"
+  },
+  "ماركو-روبيو": {
+    "slug": "ماركو-روبيو",
+    "name": "ماركو روبيو",
+    "first_seen": "2026-09-22",
+    "appearances": [
+      {
+        "key": "2026-09-22|sa",
+        "date": "2026-09-22",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "وزير الخارجية الأمريكي يتهم أوكرانيا بضرب سفن تحمل شحنات نفط للولايات المتحدة",
+          "روبيو: واشنطن قلقة من استهداف كييف سفنًا مرتبطة بالولايات المتحدة",
+          "وزير الخارجية الأمريكي: لن يستمر استهداف أوكرانيا لسفن نفط مرتبطة بواشنطن"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-22",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "sachindu-colombage": {
+    "slug": "sachindu-colombage",
+    "name": "sachindu colombage",
+    "first_seen": "2026-09-22",
+    "appearances": [
+      {
+        "key": "2026-09-22|sa",
+        "date": "2026-09-22",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "McCullum hails Brook’s captaincy as England move top of T20 world rankings",
+          "\"This time I lost the battle\" - Mark Wood explains why he is entering England retirement",
+          "England are world’s best T20 team, now 50-over side must catch up"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-22",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
   }
 }

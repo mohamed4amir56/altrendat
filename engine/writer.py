@@ -16,7 +16,9 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MODEL = "claude-opus-5"
+# المعرّف مأخوذ من client.models.list() لا من التخمين.
+# الكتابة هي قلب المشروع، فنستخدم أحدث نموذج في فئة Opus.
+MODEL = "claude-opus-5-5"
 
 # مخزن الشروح — منفصل عمدًا عن trends.json.
 #
@@ -57,7 +59,8 @@ SYSTEM = """أنت محرر عربي في موقع أخبار ترندات. مه
   اتهامًا أو فعلًا ولا تقيّمه، ولا تتحدث عن حياته الخاصة.
 - إن تعارضت المصادر، قل ذلك صراحةً بدل الترجيح بينها.
 - لا تنسخ جملة كما هي من المصادر؛ أعد الصياغة بالكامل.
-- لا تخاطب القارئ بعبارات تسويقية ولا تستخدم عناوين مثيرة كاذبة."""
+- لا تخاطب القارئ بعبارات تسويقية ولا تستخدم عناوين مثيرة كاذبة.
+- في حقل tags ضع من ثلاث إلى ست كلمات مفتاحية عربية، لا كلمة واحدة."""
 
 SCHEMA = {
     "type": "object",
@@ -65,10 +68,9 @@ SCHEMA = {
         "headline": {"type": "string", "description": "عنوان الصفحة، 6-12 كلمة، صادق بلا مبالغة"},
         "summary": {"type": "string", "description": "جملة واحدة تلخّص سبب الترند"},
         "body":     {"type": "string", "description": "الشرح الكامل 150-250 كلمة"},
-        # الوصف وحده لا يُلزم: أول تشغيلة حقيقية أعادت كلمة واحدة فقط.
-        # minItems هي ما يفرض العدد فعلًا.
+        # لا تضع minItems هنا بقيمة أكبر من 1: المخرجات المنظّمة ترفضها
+        # بخطأ 400. العدد يُطلب في تعليمات النظام ويُتحقق منه بعد الرد.
         "tags":     {"type": "array", "items": {"type": "string"},
-                     "minItems": 3, "maxItems": 6,
                      "description": "من 3 إلى 6 كلمات مفتاحية عربية للبحث"},
     },
     "required": ["headline", "summary", "body", "tags"],
@@ -154,13 +156,22 @@ def main():
     client = anthropic.Anthropic()
     store = load_articles()
     written = skipped = failed = cached = 0
+    attempts = 0
+    streak = 0          # فشل متتالٍ
 
     for key, d in data.items():
         print("\n" + d["flag"] + "  " + d["country_name"])
         day = d["generated_at"][:10]
 
         for t in d["trends"]:
-            if limit is not None and written >= limit:
+            # الحد يحسب المحاولات لا النجاحات: لو حسب النجاحات وحدها،
+            # لواصل خطأ منهجي استهلاك الطلبات حتى آخر ترند.
+            if limit is not None and attempts >= limit:
+                break
+            # قاطع دورة: ثلاثة إخفاقات متتالية تعني خطأً في الإعداد
+            # لا مشكلة في ترند بعينه — توقّف بدل مهاجمة الخدمة.
+            if streak >= 3:
+                print("  ⏹ توقّف: ثلاثة إخفاقات متتالية — راجع الإعداد")
                 break
             # القاعدة الحاسمة: لا يُكتب إلا ما أجازته طبقة الأمان
             if not t["publishable"]:
@@ -174,18 +185,25 @@ def main():
                 cached += 1
                 continue
 
+            attempts += 1
             try:
                 article = write_one(client, t, d["country_name"])
                 if article:
+                    n_tags = len(article.get("tags") or [])
+                    if n_tags < 3:
+                        print("  ⚠ " + str(n_tags) + " كلمة مفتاحية فقط")
                     t["article"] = article
                     store[k] = article
                     save_articles(store)   # حفظ فوري: انقطاع لا يضيّع ما دُفع ثمنه
                     written += 1
+                    streak = 0
                     print("  ✓ " + article["headline"])
                 else:
                     failed += 1
+                    streak += 1
             except Exception as e:
                 failed += 1
+                streak += 1
                 print("  ✗ " + t["title"] + ": " + type(e).__name__ + ": " + str(e))
 
     save_articles(store)

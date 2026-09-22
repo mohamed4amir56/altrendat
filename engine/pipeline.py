@@ -71,6 +71,16 @@ CATEGORIES = [
     ("فضول عام", "🐾", "#8fd694", [
         "سمكة", "حيوان", "طائر", "نبات", "ظاهرة", "اكتشاف", "غريب",
     ]),
+    # الدول والمدن كانت تُصنَّف أشخاصًا لأنها كلمة واحدة بلا دلالة:
+    # "فرنسا" و"السودان" أوقفا للمراجعة في تشغيلة حقيقية بلا سبب.
+    ("دول وأماكن", "🗺️", "#79c0ff", [
+        "مصر", "السعودية", "الإمارات", "المغرب", "الجزائر", "تونس",
+        "ليبيا", "السودان", "الأردن", "لبنان", "سوريا", "العراق",
+        "الكويت", "قطر", "البحرين", "عُمان", "اليمن", "فلسطين",
+        "فرنسا", "أمريكا", "بريطانيا", "ألمانيا", "تركيا", "إيران",
+        "الصين", "روسيا", "إسبانيا", "إيطاليا", "اليابان", "الهند",
+        "القاهرة", "الرياض", "جدة", "دبي", "الإسكندرية", "مكة",
+    ]),
 ]
 
 # محظور من النشر التلقائي — خطر قانوني وأخلاقي حقيقي
@@ -83,12 +93,44 @@ BLOCKED_KEYWORDS = [
 ]
 
 
+_AR = "ء-ي"
+_CACHE = {}
+
+# العربية تُكتب بصور متعددة للحرف نفسه: "أذان" و"اذان"، "مصرية" و"مصريه".
+# بلا توحيدها يفشل أي تطابق نصي — وقد أوقف هذا ترند "موعد اذان المغرب"
+# بحجة أن مصادره لا تذكره، وهي تذكره مكتوبًا بالهمزة.
+_NORM = str.maketrans({
+    "أ": "ا", "إ": "ا", "آ": "ا", "ٱ": "ا",
+    "ة": "ه", "ى": "ي", "ؤ": "و", "ئ": "ي",
+})
+_TASHKEEL = re.compile(r"[ً-ٓـ]")
+
+
+def normalize(text):
+    """يوحّد صور الحروف العربية ويزيل التشكيل، للمقارنة فقط."""
+    return _TASHKEEL.sub("", text).translate(_NORM).lower()
+
+
+def _word_re(word):
+    """يبني نمطًا يطابق الكلمة ولا يطابقها داخل كلمة أطول.
+
+    المطابقة النصية الساذجة كارثية في العربية: كلمة "نادي" موجودة
+    داخل اسم "نادية"، فصُنّف اسم امرأة رياضةً ونُشر تلقائيًا. النمط
+    هنا يسمح بالسوابق (ال، و، ب) لأن "الدولار" يجب أن تطابق "دولار"،
+    ويمنع اللواحق فلا تطابق "نادي" كلمة "نادية".
+    """
+    if word not in _CACHE:
+        _CACHE[word] = re.compile(
+            re.escape(normalize(word.strip())) + "(?![" + _AR + "])", re.I)
+    return _CACHE[word]
+
+
 def _match(text):
     """يعيد أول فئة تطابق النص، أو None."""
-    low = text.lower()
+    norm = normalize(text)
     for name, icon, color, keywords in CATEGORIES:
         for word in keywords:
-            if word.lower() in low:
+            if _word_re(word).search(norm):
                 return (name, icon, color, word.strip())
     return None
 
@@ -101,11 +143,11 @@ def classify(title, news_titles):
     لمرّ اسم شخص لمجرد ورود كلمة "فنان" في خبر عنه — وهذه بالضبط
     الحالة التي يجب ألا تُنشر تلقائيًا.
     """
-    haystack = (title + " " + " ".join(news_titles)).lower()
+    haystack = normalize(title + " " + " ".join(news_titles))
 
     # 1) الحظر أولًا، ويفحص كل شيء
     for word in BLOCKED_KEYWORDS:
-        if word in haystack:
+        if normalize(word) in haystack:
             return ("حوادث وقضايا", "⛔", "#ff6b6b",
                     "ورد لفظ حسّاس: " + word, False)
 
@@ -240,6 +282,33 @@ def enrich(trends, workers=12):
     return trends
 
 
+def title_matched(title):
+    """هل عرفنا موضوع الترند من عنوانه وحده؟"""
+    return _match(title) is not None
+
+
+def _sources_mention(trend, min_len=3):
+    """هل تذكر المصادر موضوع الترند فعلًا؟
+
+    تحذير: هذا فحص لفظي، والصحافة تعيد الصياغة. ترند "موعد اذان
+    المغرب" رُفض بهذا الفحص رغم أن مصادره الثلاثة عن "مواقيت الصلاة"
+    — نفس الموضوع بألفاظ أخرى. لذلك لا يُستدعى إلا حين يكون الموضوع
+    مجهولًا لنا أصلًا (انظر شرط الاستدعاء في build).
+    """
+    haystack = " ".join(
+        normalize(n.get("title", "") + " " + n.get("og_desc", "") + " " +
+                  n.get("og_title", ""))
+        for n in trend["news"] if n.get("ok"))
+    if not haystack.strip():
+        return False
+
+    words = [w for w in re.split(r"\W+", trend["title"], flags=re.UNICODE)
+             if len(w) >= min_len]
+    if not words:                      # عنوان قصير جدًا للحكم عليه
+        return True
+    return any(normalize(w) in haystack for w in words)
+
+
 # ==================================================
 # 4. التشغيل
 # ==================================================
@@ -259,10 +328,24 @@ def build(country_key, cfg):
             t["title"], [n["title"] for n in t["news"]])
         t.update(category=cat, icon=icon, color=color,
                  reason=reason, publishable=publishable)
+
         # صفحة بلا مصدرين على الأقل = صفحة رقيقة، لا تُنشر
-        if publishable and len([n for n in t["news"] if n.get("ok")]) < 2:
+        if t["publishable"] and len([n for n in t["news"] if n.get("ok")]) < 2:
             t["publishable"] = False
             t["reason"] = "مصادر غير كافية (أقل من خبرين بنص)"
+
+        # ولا تُنشر إن كانت المصادر لا تتحدث عن الموضوع أصلًا.
+        # حدث فعلًا: كُتب مقال عن اسم لم تذكره أي من مصادره، فخرج
+        # النص يقول "المصادر المتاحة لا تذكر الاسم" — صفحة بلا قيمة
+        # دُفع ثمنها. هذا الفحص يوقفها قبل الإنفاق لا بعده.
+        #
+        # ويُطبَّق فقط على ما لم نعرف موضوعه من عنوانه: فحين يطابق
+        # العنوان فئةً نعرف عمّ يتحدث، ولا حاجة لتطابق لفظي مع مصادر
+        # تعيد الصياغة بطبعها.
+        if (t["publishable"] and not title_matched(t["title"])
+                and not _sources_mention(t)):
+            t["publishable"] = False
+            t["reason"] = "المصادر لا تذكر الموضوع — تحتاج مراجعة"
 
     return {
         "country": country_key,

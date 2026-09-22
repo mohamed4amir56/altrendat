@@ -68,6 +68,11 @@ SHELL = """<!DOCTYPE html>
 </header>
 <main>{body}</main>
 <footer class="site">
+  <nav class="flinks">
+    <a href="{root}about/">من نحن</a>
+    <a href="{root}privacy/">سياسة الخصوصية</a>
+    <a href="{root}contact/">اتصل بنا</a>
+  </nav>
   <p>{site} — يرصد الأكثر بحثًا يوميًا في العالم العربي.</p>
   <p class="fine">الأخبار منسوبة إلى مصادرها وروابطها، والأرقام إلى جهاتها.</p>
 </footer>
@@ -92,6 +97,13 @@ header.site,footer.site{
 footer.site{display:block;border-top:1px solid var(--line);margin-top:48px;
   color:var(--mut);font-size:.82rem;text-align:center}
 .fine{font-size:.74rem;margin-top:6px}
+.flinks{justify-content:center;margin-bottom:12px}
+.flinks a{text-decoration:none;color:var(--mut);font-size:.8rem;
+  border:1px solid var(--line);border-radius:99px;padding:4px 13px}
+.flinks a:hover{color:var(--txt);border-color:var(--acc)}
+article ul{margin:0 0 16px;padding-inline-start:22px}
+article li{margin-bottom:7px;color:#dfe6f0}
+article a{color:var(--acc)}
 .brand{
   font-size:1.5rem;font-weight:800;text-decoration:none;
   background:linear-gradient(95deg,var(--gold),#ff9f68);
@@ -383,6 +395,93 @@ def build_home(data, urls):
         body, BASE + "/", nav=country_nav(None, 0), depth=0)
 
 
+# بريد يُستبدل ببريد الموقع بعد حجز النطاق
+CONTACT = "info@altrendat.com"
+
+# صفحات ثابتة — شرط أساسي لقبول AdSense.
+# موقع بلا "من نحن" و"سياسة خصوصية" و"اتصل بنا" يُرفض غالبًا مهما
+# كان محتواه، لأن المراجع لا يجد من يقف خلفه ولا كيف يُتواصل معه.
+PAGES = [
+    ("about", "من نحن", "من يقف خلف الترندات وكيف يعمل.", """
+    <h1>من نحن</h1>
+    <p class="lead">الترندات موقع عربي مستقل يرصد يوميًا أكثر ما
+       يبحث عنه الناس في كل بلد، ويشرح لماذا.</p>
+    <article>
+      <p>نبدأ من قوائم الأكثر بحثًا التي تنشرها Google لكل بلد، ثم
+         نقرأ ما نشرته الصحف حول كل موضوع، ونكتب منه خبرًا عربيًا
+         موجزًا ينسب كل معلومة إلى مصدرها بالاسم ويضع رابطه.</p>
+      <p>وحين يكون الموضوع رقمًا يبحث عنه القارئ — مواقيت الصلاة أو
+         سعر صرف أو سعر ذهب — نحضر الرقم من جهته الرسمية وننشره في
+         جدول، لأن الحديث عن الرقم لا يغني عن الرقم نفسه.</p>
+      <h2>ما لا ننشره</h2>
+      <p>لا ننشر تلقائيًا أي موضوع يتعلق بوفاة أو حادث أو جريمة أو
+         قضية منظورة، ولا موضوعًا محوره شخص بعينه، ولا موضوعًا لم
+         نجد له مصدرين موثوقين على الأقل. هذه الموضوعات تُحال إلى
+         مراجعة بشرية قبل أي نشر.</p>
+      <h2>تصحيح الأخطاء</h2>
+      <p>إن وجدت خطأً في معلومة أو نسبة إلى مصدر، راسلنا وسنصحّحه أو
+         نزيل الصفحة. نتعامل مع كل بلاغ جديًا.</p>
+    </article>"""),
+
+    ("privacy", "سياسة الخصوصية", "كيف نتعامل مع بياناتك.", """
+    <h1>سياسة الخصوصية</h1>
+    <p class="lead">لا نطلب منك تسجيل دخول ولا نجمع بياناتك الشخصية
+       بأنفسنا.</p>
+    <article>
+      <h2>ما نجمعه</h2>
+      <p>لا يطلب الموقع تسجيلًا ولا اسمًا ولا بريدًا، ولا ننشئ
+         حسابات للزوار. وما يصلنا هو إحصاءات مجمّعة عن الصفحات
+         الأكثر قراءة، بلا ما يعرّف شخصًا بعينه.</p>
+      <h2>ملفات تعريف الارتباط والإعلانات</h2>
+      <p>قد يعرض الموقع إعلانات عبر شبكات إعلانية خارجية، منها
+         Google AdSense. وتستخدم هذه الشبكات ملفات تعريف ارتباط
+         لعرض إعلانات تناسب اهتماماتك بناءً على زياراتك لهذا الموقع
+         ولمواقع أخرى.</p>
+      <p>يمكنك تعطيل الإعلانات المخصصة من إعدادات إعلانات Google على
+         <a href="https://www.google.com/settings/ads"
+            rel="nofollow noopener" target="_blank">google.com/settings/ads</a>،
+         كما يمكنك حذف ملفات تعريف الارتباط أو منعها من إعدادات
+         متصفحك في أي وقت.</p>
+      <h2>الروابط الخارجية</h2>
+      <p>نضع روابط إلى مواقع الصحف التي نقلنا عنها. ولا نتحكم في
+         سياسات تلك المواقع ولا نتحمل مسؤولية محتواها، ونشجعك على
+         قراءة سياسة الخصوصية في كل موقع تزوره.</p>
+      <h2>الأطفال</h2>
+      <p>الموقع غير موجّه لمن هم دون 13 عامًا، ولا نجمع بيانات عنهم
+         عن قصد.</p>
+      <h2>التعديلات</h2>
+      <p>قد نحدّث هذه السياسة، وسيظهر أي تعديل على هذه الصفحة.</p>
+    </article>"""),
+
+    ("contact", "اتصل بنا", "للتصحيح أو الإعلان أو الاستفسار.", """
+    <h1>اتصل بنا</h1>
+    <p class="lead">نقرأ كل رسالة، ونرد على بلاغات التصحيح أولًا.</p>
+    <article>
+      <p>للتواصل في أي من الأمور التالية:</p>
+      <ul>
+        <li>تصحيح معلومة أو نسبتها إلى مصدرها</li>
+        <li>طلب إزالة صفحة أو الاعتراض على محتواها</li>
+        <li>الإعلان على الموقع</li>
+        <li>أي استفسار آخر</li>
+      </ul>
+      <p>راسلنا على: <strong>{contact}</strong></p>
+      <p>بلاغات التصحيح والإزالة لها أولوية، ونتعامل معها خلال أيام
+         قليلة.</p>
+    </article>"""),
+]
+
+
+def build_static(urls):
+    """الصفحات الثابتة التي يشترطها AdSense ويطمئن إليها القارئ."""
+    for slug, title, desc, body in PAGES:
+        canonical = "{}/{}/".format(BASE, slug)
+        page("{}/index.html".format(slug),
+             "{} | {}".format(title, SITE_NAME), desc,
+             body.replace("{contact}", E(CONTACT)),
+             canonical, nav=country_nav(None, 1), depth=1)
+        urls.append((canonical, datetime.now(timezone.utc).isoformat(), "0.3"))
+
+
 COUNTRIES = {}
 
 
@@ -409,6 +508,7 @@ def main():
                 build_trend(key, cfg, t, urls)
                 n_trends += 1
     build_home(data, urls)
+    build_static(urls)
 
     # صفحات الكيانات — الأصل الذي يتراكم.
     #

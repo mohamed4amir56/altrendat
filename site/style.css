@@ -16,6 +16,13 @@ header.site,footer.site{
 footer.site{display:block;border-top:1px solid var(--line);margin-top:48px;
   color:var(--mut);font-size:.82rem;text-align:center}
 .fine{font-size:.74rem;margin-top:6px}
+.flinks{justify-content:center;margin-bottom:12px}
+.flinks a{text-decoration:none;color:var(--mut);font-size:.8rem;
+  border:1px solid var(--line);border-radius:99px;padding:4px 13px}
+.flinks a:hover{color:var(--txt);border-color:var(--acc)}
+article ul{margin:0 0 16px;padding-inline-start:22px}
+article li{margin-bottom:7px;color:#dfe6f0}
+article a{color:var(--acc)}
 .brand{
   font-size:1.5rem;font-weight:800;text-decoration:none;
   background:linear-gradient(95deg,var(--gold),#ff9f68);

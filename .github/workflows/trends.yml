@@ -48,13 +48,20 @@ jobs:
       - name: تحديث ذاكرة الكيانات
         run: python engine/entities.py
 
-      - name: توليد الصفحة
+      - name: توليد لوحة المحرّك
         run: python engine/render.py
+
+      # النطاق يُمرَّر كمتغيّر: قبل حجزه يبني على عنوان Cloudflare
+      # المجاني، وبعده تُغيَّر القيمة مرة واحدة هنا فقط.
+      - name: بناء الموقع
+        env:
+          SITE_BASE: ${{ vars.SITE_BASE }}
+        run: python engine/site.py "${SITE_BASE:-https://altrendat.pages.dev}"
 
       - name: حفظ النتائج
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ output/
+          git add data/ output/ site/
           git diff --staged --quiet || git commit -m "رصد: $(date -u '+%Y-%m-%d %H:%M') UTC"
           git push

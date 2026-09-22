@@ -65,8 +65,11 @@ SCHEMA = {
         "headline": {"type": "string", "description": "عنوان الصفحة، 6-12 كلمة، صادق بلا مبالغة"},
         "summary": {"type": "string", "description": "جملة واحدة تلخّص سبب الترند"},
         "body":     {"type": "string", "description": "الشرح الكامل 150-250 كلمة"},
+        # الوصف وحده لا يُلزم: أول تشغيلة حقيقية أعادت كلمة واحدة فقط.
+        # minItems هي ما يفرض العدد فعلًا.
         "tags":     {"type": "array", "items": {"type": "string"},
-                     "description": "3-6 كلمات مفتاحية عربية"},
+                     "minItems": 3, "maxItems": 6,
+                     "description": "من 3 إلى 6 كلمات مفتاحية عربية للبحث"},
     },
     "required": ["headline", "summary", "body", "tags"],
     "additionalProperties": False,

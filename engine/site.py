@@ -59,6 +59,7 @@ SHELL = """<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="alternate" type="application/rss+xml" title="{site}" href="{root}feed.xml">
 <link rel="stylesheet" href="{root}style.css">
 </head>
 <body>
@@ -482,6 +483,44 @@ def build_static(urls):
         urls.append((canonical, datetime.now(timezone.utc).isoformat(), "0.3"))
 
 
+def build_feed(data):
+    """خلاصة RSS — تقرأها المجمّعات وقارئات الأخبار، وتسرّع اكتشاف
+    الجديد. تُبقي أحدث 40 موضوعًا فقط."""
+    items = []
+    for key, cfg in data.items():
+        for t in cfg["trends"]:
+            art = t.get("article")
+            if not art:
+                continue
+            items.append((t["traffic_num"], key, cfg, t, art))
+    items.sort(key=lambda x: -x[0])
+
+    body = []
+    for _, key, cfg, t, art in items[:40]:
+        link = "{}/{}/t/{}/".format(BASE, key, entities.slugify(t["title"]))
+        img = ""
+        if t.get("card"):
+            img = ('<enclosure url="{}/cards/{}" type="image/png"/>'
+                   .format(BASE, os.path.basename(t["card"])))
+        body.append(
+            "<item><title>{t}</title><link>{l}</link><guid>{l}</guid>"
+            "<description>{d}</description>"
+            "<category>{c}</category>{img}</item>".format(
+                t=E(art["headline"]), l=E(link),
+                d=E(art.get("summary", "")), c=E(t["category"]), img=img))
+
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<rss version="2.0"><channel>'
+           '<title>{s}</title><link>{b}/</link>'
+           '<description>الأكثر بحثًا اليوم في العالم العربي</description>'
+           '<language>ar</language>{items}</channel></rss>').format(
+        s=E(SITE_NAME), b=BASE, items="".join(body))
+
+    with open(os.path.join(OUT, "feed.xml"), "w", encoding="utf-8") as f:
+        f.write(xml)
+    return len(body)
+
+
 COUNTRIES = {}
 
 
@@ -509,6 +548,7 @@ def main():
                 n_trends += 1
     build_home(data, urls)
     build_static(urls)
+    n_feed = build_feed(data)
 
     # صفحات الكيانات — الأصل الذي يتراكم.
     #
@@ -549,7 +589,8 @@ def main():
     print("  " + str(len(data)) + " بلد · " + str(n_trends) + " صفحة ترند · " +
           str(len(store) - skipped) + " صفحة كيان")
     print("  " + str(skipped) + " كيانًا حجبته بوابة الأمان")
-    print("  " + str(len(urls)) + " رابطًا في sitemap.xml")
+    print("  " + str(len(urls)) + " رابطًا في sitemap.xml · " +
+          str(n_feed) + " في feed.xml")
     print("  النطاق المستخدم: " + BASE)
 
 

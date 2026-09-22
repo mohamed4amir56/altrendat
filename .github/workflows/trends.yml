@@ -58,6 +58,13 @@ jobs:
           SITE_BASE: ${{ vars.SITE_BASE }}
         run: python engine/site.py "${SITE_BASE:-https://altrendat.pages.dev}"
 
+      # الفهرسة تحسين لا شرط — فشلها لا يُسقط التشغيلة
+      - name: إخطار محركات البحث
+        env:
+          SITE_BASE: ${{ vars.SITE_BASE }}
+        continue-on-error: true
+        run: python engine/indexnow.py "${SITE_BASE:-https://altrendat.pages.dev}"
+
       - name: حفظ النتائج
         run: |
           git config user.name  "github-actions[bot]"

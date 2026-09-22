@@ -223,7 +223,20 @@ def main():
                 print("  ⛔ تخطّي: " + t["title"] + " — " + t["reason"])
                 skipped += 1
                 continue
-            if k in store and not force:
+            # مقال كُتب قبل أن يُربط مزوّد بيانات بهذا الترند لا يحمل
+            # أرقامه، فيبقى يدور حول الموضوع بلا أن يعطيه. إضافة مزوّد
+            # تُبطل المخزون، وإلا ظلّت الصفحة القديمة تُعرض بلا أرقام.
+            # الشرط ضيّق عمدًا: يُعاد فقط ما صارت له بيانات ولم تكن له.
+            # المقارنة المتماثلة (`!=`) أعادت كتابة كل شيء أول مرة، لأن
+            # المقالات القديمة لا تحمل الحقل أصلًا فيعود None ويخالف
+            # False. وفقدان البيانات لا يستدعي إنفاقًا: النص المكتوب
+            # يبقى صحيحًا ومنسوبًا لوقته.
+            has_data = bool(t.get("data"))
+            stale = k in store and has_data and not store[k].get("_had_data")
+            if stale:
+                print("  ♻ إعادة كتابة (تغيّرت البيانات): " + t["title"])
+
+            if k in store and not force and not stale:
                 t["article"] = store[k]
                 cached += 1
                 continue
@@ -235,6 +248,7 @@ def main():
                     n_tags = len(article.get("tags") or [])
                     if n_tags < 3:
                         print("  ⚠ " + str(n_tags) + " كلمة مفتاحية فقط")
+                    article["_had_data"] = has_data
                     t["article"] = article
                     store[k] = article
                     save_articles(store)   # حفظ فوري: انقطاع لا يضيّع ما دُفع ثمنه

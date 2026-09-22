@@ -111,10 +111,105 @@ def prayer_times(country_key):
     }
 
 
+# -- عملات ومعادن ----------------------------------------------------
+
+CURRENCY = {"eg": ("EGP", "جنيه"), "sa": ("SAR", "ريال"),
+            "ae": ("AED", "درهم"), "ma": ("MAD", "درهم"),
+            "dz": ("DZD", "دينار"), "kw": ("KWD", "دينار")}
+
+# أونصة تروي بالجرام — الثابت الذي تُحسب عليه أسعار الذهب كلها
+OUNCE_G = 31.1034768
+
+
+def _fx(code):
+    d = _get_json("https://open.er-api.com/v6/latest/USD")
+    rate = d["rates"].get(code)
+    if not rate:
+        raise ValueError("no rate for " + code)
+    return rate, d.get("time_last_update_utc", "")[:16]
+
+
+def gold_prices(country_key):
+    """سعر الذهب بالعملة المحلية لكل عيار، محسوبًا من السعر العالمي."""
+    cur = CURRENCY.get(country_key)
+    if not cur:
+        return None
+    code, name = cur
+
+    spot = _get_json("https://api.gold-api.com/price/XAU")["price"]
+    rate, updated = _fx(code)
+    per_gram_24 = spot / OUNCE_G * rate
+
+    rows = []
+    for karat in (24, 22, 21, 18, 14):
+        rows.append({
+            "city": "عيار " + str(karat),
+            "times": {
+                "سعر الجرام": "{:,.0f} {}".format(
+                    per_gram_24 * karat / 24, name),
+            },
+        })
+
+    return {
+        "kind": "gold",
+        "title": "سعر الذهب اليوم",
+        "columns": ["سعر الجرام"],
+        "rows": rows,
+        "gregorian": updated,
+        "hijri": "",
+        "source": "السعر العالمي ({:,.0f}$ للأونصة) محوّلًا بسعر الصرف "
+                  "الرسمي — والسعر المحلي في محلات الذهب يزيد عليه "
+                  "المصنعية والعلاوة المحلية".format(spot),
+        "source_url": "https://api.gold-api.com",
+    }
+
+
+def currency_rates(country_key):
+    """أسعار العملات الرئيسة مقابل العملة المحلية."""
+    cur = CURRENCY.get(country_key)
+    if not cur:
+        return None
+    code, name = cur
+
+    d = _get_json("https://open.er-api.com/v6/latest/USD")
+    rates = d["rates"]
+    local = rates.get(code)
+    if not local:
+        return None
+
+    majors = [("الدولار الأمريكي", "USD"), ("اليورو", "EUR"),
+              ("الجنيه الإسترليني", "GBP"), ("الريال السعودي", "SAR"),
+              ("الدرهم الإماراتي", "AED"), ("الدينار الكويتي", "KWD")]
+
+    rows = []
+    for ar, c in majors:
+        if c == code or c not in rates:
+            continue
+        # كم وحدة محلية تساوي وحدة واحدة من هذه العملة
+        rows.append({
+            "city": ar,
+            "times": {"السعر": "{:,.2f} {}".format(local / rates[c], name)},
+        })
+
+    return {
+        "kind": "currency",
+        "title": "أسعار العملات اليوم",
+        "columns": ["السعر"],
+        "rows": rows,
+        "gregorian": d.get("time_last_update_utc", "")[:16],
+        "hijri": "",
+        "source": "أسعار الصرف الرسمية — وسعر السوق قد يختلف",
+        "source_url": "https://www.exchangerate-api.com",
+    }
+
+
 # أي ترند يستدعي أي مزوّد. المطابقة على عنوان الترند وحده.
 MATCHERS = [
     (["اذان", "أذان", "مواقيت", "الصلاة", "صلاة", "الفجر", "المغرب",
       "العشاء", "الظهر", "العصر", "امساكية", "إمساكية"], prayer_times),
+    (["ذهب", "الذهب", "عيار", "جرام الذهب", "سبيكة"], gold_prices),
+    (["دولار", "الدولار", "يورو", "اليورو", "سعر الصرف", "العملات",
+      "الاسترليني", "الإسترليني"], currency_rates),
 ]
 
 

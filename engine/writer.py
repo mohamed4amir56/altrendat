@@ -18,6 +18,31 @@ if hasattr(sys.stdout, "reconfigure"):
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL = "claude-opus-5"
 
+# مخزن الشروح — منفصل عمدًا عن trends.json.
+#
+# السبب: pipeline.py يعيد بناء trends.json من الصفر في كل تشغيلة، فلو
+# خُزّن الشرح داخله لضاع كل 20 دقيقة، ولأُعيدت كتابة كل الترندات من
+# جديد: 72 تشغيلة يوميًا × 10 ترندات = 720 نداءً بدل 10. أي 72 ضعف
+# الفاتورة. المفتاح هنا (عنوان + يوم) يبقى ثابتًا عبر التشغيلات.
+ARTICLES = os.path.join(ROOT, "data", "articles.json")
+
+
+def load_articles():
+    if os.path.exists(ARTICLES):
+        with open(ARTICLES, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_articles(store):
+    os.makedirs(os.path.dirname(ARTICLES), exist_ok=True)
+    with open(ARTICLES, "w", encoding="utf-8") as f:
+        json.dump(store, f, ensure_ascii=False, indent=2)
+
+
+def article_key(trend, country_key, day):
+    return country_key + "|" + day + "|" + trend["title"]
+
 # تعليمات ثابتة عبر كل الطلبات — لذلك تُخزَّن مؤقتًا (prompt caching)
 # فيُقرأ ما يقارب عُشر تكلفة الإدخال في كل نداء بعد الأول.
 SYSTEM = """أنت محرر عربي في موقع أخبار ترندات. مهمتك أن تشرح للقارئ
@@ -124,10 +149,13 @@ def main():
     force = "--force" in sys.argv
 
     client = anthropic.Anthropic()
+    store = load_articles()
     written = skipped = failed = cached = 0
 
     for key, d in data.items():
         print("\n" + d["flag"] + "  " + d["country_name"])
+        day = d["generated_at"][:10]
+
         for t in d["trends"]:
             if limit is not None and written >= limit:
                 break
@@ -136,13 +164,19 @@ def main():
                 print("  ⛔ تخطّي: " + t["title"] + " — " + t["reason"])
                 skipped += 1
                 continue
-            if t.get("article") and not force:
+
+            k = article_key(t, key, day)
+            if k in store and not force:
+                t["article"] = store[k]
                 cached += 1
                 continue
+
             try:
                 article = write_one(client, t, d["country_name"])
                 if article:
                     t["article"] = article
+                    store[k] = article
+                    save_articles(store)   # حفظ فوري: انقطاع لا يضيّع ما دُفع ثمنه
                     written += 1
                     print("  ✓ " + article["headline"])
                 else:
@@ -151,6 +185,7 @@ def main():
                 failed += 1
                 print("  ✗ " + t["title"] + ": " + type(e).__name__ + ": " + str(e))
 
+    save_articles(store)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 

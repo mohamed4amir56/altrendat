@@ -36,10 +36,13 @@ def card(t, idx):
                 u=E(n["url"]), s=E(n.get("source") or "مصدر"),
                 t=E(n["title"]), d=E(desc) or "—"))
 
+    # نفضّل كارتنا المولَّد على صورة Google المصغّرة
+    art = t.get("card") or t.get("image")
     thumb = ""
-    if t.get("image"):
-        thumb = ("<div class='thumb' style='background-image:url({})'></div>"
-                 .format(E(t["image"])))
+    if art:
+        cls = "thumb card-img" if t.get("card") else "thumb"
+        thumb = "<div class='{c}' style='background-image:url({u})'></div>".format(
+            c=cls, u=E(art))
 
     return """
     <article class="card{dim}" style="--accent:{color}">
@@ -63,6 +66,70 @@ def card(t, idx):
         traffic=E(t["traffic"]), badge=badge,
         title=E(t["title"]), reason=E(t["reason"]),
         n=len(news), items="".join(items))
+
+
+def memory_panel():
+    """لوحة الذاكرة — ما تراكم عبر كل التشغيلات، لا تشغيلة اليوم فقط."""
+    path = os.path.join(ROOT, "data", "entities.json")
+    if not os.path.exists(path):
+        return ""
+    with open(path, encoding="utf-8") as f:
+        store = json.load(f)
+    if not store:
+        return ""
+
+    ents = list(store.values())
+    repeats = sorted([e for e in ents if e.get("total", 0) > 1],
+                     key=lambda x: -x["total"])
+    multi = [e for e in ents if len(e.get("countries", [])) > 1]
+    days = sorted({a["date"] for e in ents for a in e["appearances"]})
+
+    def rows(items, label):
+        if not items:
+            return ("<p class='empty'>— لم يظهر بعد. يبدأ الظهور بعد "
+                    "أيام من التشغيل المتواصل. —</p>")
+        out = []
+        for e in items[:8]:
+            out.append(
+                "<li><span class='ename'>{n}</span>"
+                "<span class='emeta'>{m}</span></li>".format(
+                    n=E(e["name"]),
+                    m=E(label(e))))
+        return "<ul class='elist'>" + "".join(out) + "</ul>"
+
+    top = sorted(ents, key=lambda x: -x.get("peak_traffic", 0))
+
+    return """
+    <section class="memory">
+      <header class="chead">
+        <h1>🧠 ذاكرة المحرّك</h1>
+        <p class="sub">هذا ما لا يملكه منافسوك: أرشيف يتراكم كل يوم
+        ولا يمكن شراؤه أو اللحاق به لاحقًا.</p>
+      </header>
+      <div class="mgrid">
+        <div class="mbox">
+          <h3>{n} كيانًا في الذاكرة</h3>
+          <div class="mnum">{days} يوم مُسجَّل</div>
+        </div>
+        <div class="mbox">
+          <h3>الأعلى بحثًا على الإطلاق</h3>
+          {top}
+        </div>
+        <div class="mbox">
+          <h3>تكرّر أكثر من مرة</h3>
+          {rep}
+        </div>
+        <div class="mbox">
+          <h3>ترند في أكثر من بلد</h3>
+          {mul}
+        </div>
+      </div>
+    </section>""".format(
+        n=len(ents), days=len(days),
+        top=rows(top, lambda e: e.get("traffic_of_peak") or
+                 str(e.get("peak_traffic", 0)) + "+ بحث"),
+        rep=rows(repeats, lambda e: str(e["total"]) + " ظهور"),
+        mul=rows(multi, lambda e: " · ".join(e["countries"])))
 
 
 def render(data):
@@ -107,7 +174,8 @@ def render(data):
         ])
 
     now = datetime.now().strftime("%Y-%m-%d · %H:%M")
-    return TEMPLATE.format(stats=srows, blocks="".join(blocks), now=now)
+    return TEMPLATE.format(stats=srows, blocks="".join(blocks),
+                           memory=memory_panel(), now=now)
 
 
 TEMPLATE = """<!DOCTYPE html>
@@ -241,6 +309,27 @@ TEMPLATE = """<!DOCTYPE html>
   .ntitle {{ display:block; font-size:.84rem; font-weight:600; }}
   .ndesc {{ display:block; font-size:.76rem; color:var(--mut); margin-top:3px; }}
 
+  .card-img {{ flex:0 0 150px; }}
+  .memory {{ margin:42px 0 8px; }}
+  .sub {{ color:var(--mut); font-size:.88rem; margin-top:6px; }}
+  .mgrid {{ display:grid; gap:14px; margin-top:18px; }}
+  @media (min-width:760px) {{ .mgrid {{ grid-template-columns:repeat(2,1fr); }} }}
+  .mbox {{
+    background:linear-gradient(160deg,var(--card),var(--bg2));
+    border:1px solid var(--line); border-radius:16px; padding:18px 20px;
+  }}
+  .mbox h3 {{ font-size:.95rem; color:var(--gold); margin-bottom:10px; }}
+  .mnum {{ font-size:1.6rem; font-weight:800; }}
+  .elist {{ list-style:none; display:grid; gap:7px; }}
+  .elist li {{
+    display:flex; justify-content:space-between; gap:10px;
+    font-size:.85rem; border-bottom:1px dashed var(--line); padding-bottom:6px;
+  }}
+  .elist li:last-child {{ border:0; }}
+  .ename {{ font-weight:600; }}
+  .emeta {{ color:var(--mut); font-size:.78rem; white-space:nowrap; }}
+  .empty {{ color:var(--mut); font-size:.8rem; text-align:center; padding:8px 0; }}
+
   footer {{ text-align:center; color:var(--mut); font-size:.78rem;
             margin-top:44px; border-top:1px solid var(--line); padding-top:18px; }}
 </style>
@@ -254,6 +343,7 @@ TEMPLATE = """<!DOCTYPE html>
   </div>
 
   <div class="stats">{stats}</div>
+  {memory}
   {blocks}
 
   <footer>

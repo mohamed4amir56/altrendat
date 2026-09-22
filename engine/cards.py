@@ -15,7 +15,8 @@ import sys
 from PIL import Image, ImageDraw, ImageFont
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import arabic  # noqa: E402
+import arabic      # noqa: E402
+import entities    # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -130,21 +131,33 @@ def main():
     with open(os.path.join(ROOT, "data", "trends.json"), encoding="utf-8") as f:
         data = json.load(f)
 
-    made = 0
+    force = "--force" in sys.argv
+    made = reused = 0
+
     for key, d in data.items():
-        for i, t in enumerate(d["trends"], 1):
-            name = "{}-{:02d}.png".format(key, i)
+        day = d["generated_at"][:10]
+        for t in d["trends"]:
+            # الاسم من المحتوى لا من الترتيب: كارت "دولار أمريكي" يبقى
+            # هو نفسه غدًا، بينما eg-01 كان يصير ترندًا آخر كل يوم
+            # فتنكسر روابط الصور الدائمة ومعها أرشيف Discover.
+            name = "{}-{}-{}.png".format(key, day, entities.slugify(t["title"]))
             path = os.path.join(ROOT, "output", "cards", name)
-            make_card(t, d["country_name"], path)
             t["card"] = "cards/" + name
+
+            if os.path.exists(path) and not force:
+                reused += 1
+                continue
+
+            make_card(t, d["country_name"], path)
             made += 1
-            print("  ✓ " + name + "  ←  " + t["title"])
+            print("  ✓ " + name)
 
     with open(os.path.join(ROOT, "data", "trends.json"), "w",
               encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("\n✓ " + str(made) + " كارت بمقاس 1200×675 في output/cards/")
+    print("\n✓ " + str(made) + " كارت جديد، " + str(reused) +
+          " مُعاد استخدامه — مقاس 1200×675 في output/cards/")
 
 
 if __name__ == "__main__":

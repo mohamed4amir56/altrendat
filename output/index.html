@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="max-image-preview:large">
+<title>الترندات — لوحة المحرّك</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#0a0d14; --bg2:#111622; --card:#151b29; --line:#222b3d;
+    --txt:#e8ecf4; --mut:#8b96ab; --gold:#f5c542;
+  }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body {
+    background:
+      radial-gradient(900px 500px at 85% -10%, #1b2440 0%, transparent 60%),
+      radial-gradient(700px 400px at 10% 0%, #2a2033 0%, transparent 55%),
+      var(--bg);
+    color:var(--txt); font-family:Cairo,system-ui,sans-serif;
+    padding:28px 16px 60px; line-height:1.7; min-height:100vh;
+  }
+  .wrap { max-width:1180px; margin:0 auto; }
+
+  .hero { text-align:center; margin-bottom:26px; }
+  .logo {
+    font-size:2.5rem; font-weight:800; letter-spacing:-1px;
+    background:linear-gradient(95deg,var(--gold),#ff9f68 55%,#c77dff);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  .tag { color:var(--mut); font-size:.95rem; }
+  .live {
+    display:inline-flex; align-items:center; gap:7px; margin-top:10px;
+    background:rgba(61,220,151,.1); border:1px solid rgba(61,220,151,.3);
+    color:#3ddc97; padding:5px 14px; border-radius:99px; font-size:.82rem;
+  }
+  .dot { width:7px; height:7px; border-radius:50%; background:#3ddc97;
+         animation:pulse 1.8s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.25} }
+
+  .stats {
+    display:grid; grid-template-columns:repeat(4,1fr); gap:12px;
+    margin:26px 0 36px;
+  }
+  .stat {
+    background:linear-gradient(160deg,var(--card),var(--bg2));
+    border:1px solid var(--line); border-radius:16px;
+    padding:18px 10px; text-align:center;
+  }
+  .snum { font-size:2rem; font-weight:800; color:var(--gold); line-height:1.2; }
+  .slabel { font-size:.78rem; color:var(--mut); }
+
+  .chead { margin:34px 0 18px; }
+  .chead h1 { font-size:1.5rem; font-weight:800; }
+  .flag { font-size:1.6rem; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+  .chip {
+    background:color-mix(in srgb, var(--c) 14%, transparent);
+    border:1px solid color-mix(in srgb, var(--c) 40%, transparent);
+    color:var(--c); padding:4px 12px; border-radius:99px; font-size:.8rem;
+  }
+  .chip b { color:var(--txt); }
+
+  .grid { display:grid; gap:16px; }
+  @media (min-width:860px) { .grid { grid-template-columns:1fr 1fr; } }
+
+  .card {
+    position:relative; display:flex; gap:0; overflow:hidden;
+    background:linear-gradient(165deg,var(--card),var(--bg2));
+    border:1px solid var(--line); border-radius:18px;
+    transition:transform .22s ease, border-color .22s ease, box-shadow .22s;
+  }
+  .card::before {
+    content:""; position:absolute; inset-inline-start:0; top:0; bottom:0;
+    width:4px; background:var(--accent);
+  }
+  .card:hover {
+    transform:translateY(-4px); border-color:color-mix(in srgb,var(--accent) 55%,transparent);
+    box-shadow:0 14px 36px -14px color-mix(in srgb,var(--accent) 45%,transparent);
+  }
+  .card.dim { opacity:.62; }
+  .card.dim:hover { opacity:1; }
+
+  .rank {
+    position:absolute; top:12px; inset-inline-end:14px;
+    font-size:2.4rem; font-weight:800; color:var(--accent);
+    opacity:.16; line-height:1;
+  }
+  .thumb {
+    flex:0 0 96px; background-size:cover; background-position:center;
+    border-inline-end:1px solid var(--line);
+  }
+  .body { padding:16px 18px; flex:1; min-width:0; }
+  .top { display:flex; flex-wrap:wrap; gap:7px; align-items:center;
+          margin-bottom:9px; }
+  .cat {
+    background:color-mix(in srgb,var(--accent) 15%,transparent);
+    color:var(--accent); padding:3px 11px; border-radius:99px;
+    font-size:.76rem; font-weight:600;
+  }
+  .traffic { color:var(--mut); font-size:.76rem; }
+  .ok, .hold { font-size:.72rem; padding:3px 9px; border-radius:99px; }
+  .ok { background:rgba(61,220,151,.12); color:#3ddc97; }
+  .hold { background:rgba(255,107,107,.12); color:#ff8787; }
+
+  .body h2 { font-size:1.22rem; font-weight:800; margin-bottom:4px;
+              padding-inline-end:42px; }
+  .why { color:var(--mut); font-size:.78rem; margin-bottom:12px; }
+  .sources-label {
+    font-size:.72rem; color:var(--gold); border-top:1px dashed var(--line);
+    padding-top:10px; margin-bottom:8px;
+  }
+  .sources { list-style:none; display:grid; gap:8px; }
+  .sources a {
+    display:block; text-decoration:none; color:inherit;
+    background:rgba(255,255,255,.028); border:1px solid transparent;
+    border-radius:11px; padding:9px 11px; transition:.18s;
+  }
+  .sources a:hover {
+    background:rgba(255,255,255,.06);
+    border-color:color-mix(in srgb,var(--accent) 35%,transparent);
+  }
+  .src {
+    display:inline-block; font-size:.68rem; color:var(--accent);
+    margin-bottom:3px; font-weight:600;
+  }
+  .ntitle { display:block; font-size:.84rem; font-weight:600; }
+  .ndesc { display:block; font-size:.76rem; color:var(--mut); margin-top:3px; }
+
+  footer { text-align:center; color:var(--mut); font-size:.78rem;
+            margin-top:44px; border-top:1px solid var(--line); padding-top:18px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <div class="logo">الترندات</div>
+    <div class="tag">محرّك الرصد — بيانات حيّة من Google Trends مُثراة بنصوص المصادر</div>
+    <div class="live"><span class="dot"></span> آخر تشغيل: 2026-09-22 · 21:07</div>
+  </div>
+
+  <div class="stats"><div class="stat">
+             <div class="snum">10</div><div class="slabel">ترند ملتقط</div>
+           </div><div class="stat">
+             <div class="snum">6</div><div class="slabel">جاهز للنشر آليًا</div>
+           </div><div class="stat">
+             <div class="snum">4</div><div class="slabel">موقوف للمراجعة</div>
+           </div><div class="stat">
+             <div class="snum">25</div><div class="slabel">صفحة خبر أُثريت</div>
+           </div></div>
+  
+        <section class="country">
+          <header class="chead">
+            <h1><span class="flag">🇪🇬</span> الأكثر بحثًا اليوم في مصر</h1>
+            <div class="chips"><span class='chip' style='--c:#f5c542'>💰 اقتصاد <b>4</b></span><span class='chip' style='--c:#ffd166'>👤 شخصية <b>3</b></span><span class='chip' style='--c:#ff6b6b'>⛔ حوادث وقضايا <b>1</b></span><span class='chip' style='--c:#3ddc97'>⚽ رياضة <b>1</b></span><span class='chip' style='--c:#b39ddb'>🔮 أبراج وفلك <b>1</b></span></div>
+          </header>
+          <div class="grid">
+    <article class="card dim" style="--accent:#ff6b6b">
+      <div class="rank">1</div>
+      <div class='thumb' style='background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSSvcvozk35eMfAactKAjAG7c-ExfiLFn1_YGYD1uuHncf1jd1-selQS19BR1s)'></div>
+      <div class="body">
+        <div class="top">
+          <span class="cat">⛔ حوادث وقضايا</span>
+          <span class="traffic">🔍 1000+</span>
+          <span class='hold'>⛔ يحتاج مراجعة</span>
+        </div>
+        <h2>القبض على ملحن</h2>
+        <p class="why">ورد لفظ حسّاس: حبس</p>
+        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
+        <ul class="sources"><li><a href='https://www.masrawy.com/news/news_cases/details/2026/9/22/3051973/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%A7%D9%84%D9%82%D8%A8%D8%B6-%D8%B9%D9%84%D9%89-%D9%85%D9%84%D8%AD%D9%86-%D8%B4%D9%87%D9%8A%D8%B1-%D8%A8%D8%AD%D9%88%D8%B2%D8%AA%D9%87-%D9%83%D9%88%D9%83%D8%A7%D9%8A%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D9%88%D8%AD%D8%A8%D8%B3%D9%87-15-%D9%8A%D9%88%D9%85-%D8%A7' target='_blank' rel='noopener'><span class='src'>Masrawy</span><span class='ntitle'>تفاصيل القبض على ملحن شهير بحوزته كوكايين بالقاهرة وحبسه 15 يومًا</span><span class='ndesc'>ضبطت الأجهزة الأمنية ملحن ا شهير ا بالقاهرة الجديدة بحوزته 60 كيس ا من الكوكايين وأمرت النيابة بحبسه 15 يوم ا وإرسال المضبوطات للطب الشرعي | مصراوي</span></a></li><li><a href='https://www.almasryalyoum.com/news/details/4365510' target='_blank' rel='noopener'><span class='src'>المصري اليوم</span><span class='ntitle'>تفاصيل حبس شاعر غنائي شهير بتهمة الإتجار بالمخدرات في القاهرة الجديدة</span><span class='ndesc'>قررت جهات التحقيق بالقاهرة الجديدة، تجديد حبس الشاعر الغنائى الشهير «و.ا» 15 يوما، لاتهامه بحيازة كمية من مخدر الكوكايين، داخل إحدى التجمعات السكنية بمنطقة القاهرة الجديدة،...</span></a></li></ul>
+      </div>
+    </article>
+    <article class="card" style="--accent:#f5c542">
+      <div class="rank">2</div>
+      <div class='thumb' style='background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWYByyH-IC8CgN5_BaMluOvZi2KkPTh20Brzn-hcb-F_qbVIlGq8wTJn4TYvU)'></div>
+      <div class="body">
+        <div class="top">
+          <span class="cat">💰 اقتصاد</span>
+          <span class="traffic">🔍 1000+</span>
+          <span class='ok'>✓ جاهز للنشر</span>
+        </div>
+        <h2>البنك الأهلي المصري</h2>
+        <p class="why">العنوان يطابق: بنك</p>
+        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
+        <ul class="sources"><li><a href='https://www.mubasher.info/news/4675492/%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A-%D9%8A%D9%88%D8%A7%D9%81%D9%82-%D9%85%D8%A8%D8%AF%D8%A6%D9%8A%D8%A7-%D8%B9%D9%84%D9%89-%D8%A7%D8%B3%D8%AA%D8%AD%D9%88%D8%A7%D8%B0-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%B9%D9%84%D9%89-%D9%81%D8%B1%D9%88%D8%B9-%D8%A8%D9%86%D9%83-%D9%85%D8%B5%D8%B1-%D8%A8%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA/' target='_blank' rel='noopener'><span class='src'>معلومات مباشر</span><span class='ntitle'>المركزي الإماراتي يوافق مبدئياً على استحواذ &quot;الأهلي&quot; على فروع بنك مصر بالإمارات</span><span class='ndesc'>القاهرة – مباشر: أعلن بنك مصر والبنك الأهلي المصري عن التوافق المبدئي بشأن إعادة ترتيب تواجدهما المصرفي بدولة الإمارات، وذلك وفق المتطلبات القانونية والإجرائية المعمول بها في الدولة. ويأتي…</span></a></li><li><a href='https://www.masrawy.com/news/news_egypt/details/2026/9/22/3052118/%D9%84%D9%85%D9%8A%D8%B3-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF%D9%8A-%D8%AA%D8%B7%D8%B1%D8%AD-8-%D8%A3%D8%B3%D8%A6%D9%84%D8%A9-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D8%B3%D8%AA%D8%AD%D9%88%D8%A7%D8%B0-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%B9%D9%84%D9%89-%D9%81%D8%B1%D9%88%D8%B9-%D8%A8%D9%86%D9%83-%D9%85%D8%B5%D8%B1-%D8%A8%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA' target='_blank' rel='noopener'><span class='src'>Masrawy</span><span class='ntitle'>لميس الحديدي تطرح 8 أسئلة بشأن استحواذ الأهلي على فروع بنك مصر بالإمارات</span><span class='ndesc'>طرحت الإعلامية لميس الحديدي تساؤلات بشأن استحواذ البنك الأهلي على فروع بنك مصر بالإمارات وعلاقة الصفقة بالعقوبات الأمريكية والالتزامات المالية وللتفاصيل من هنا | مصراوي</span></a></li></ul>
+      </div>
+    </article>
+    <article class="card" style="--accent:#3ddc97">
+      <div class="rank">3</div>
+      <div class='thumb' style='background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxU0KbntnCCeV_gr01aF9a9D9uYW9FYdjuxMl7NnZOckb9inemJDQHifoajSg)'></div>
+      <div class="body">
+        <div class="top">
+          <span class="cat">⚽ رياضة</span>
+          <span class="traffic">🔍 500+</span>
+          <span class='ok'>✓ جاهز للنشر</span>
+        </div>
+        <h2>منتخب مصر</h2>
+        <p class="why">العنوان يطابق: منتخب</p>
+        <div class="sources-label">3 مصادر أُثريت بالنص الكامل</div>
+        <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D9%85%D8%AD%D9%85%D9%88%D8%AF-%D8%B5%D8%A7%D8%A8%D8%B1-%D8%A8%D8%AF%D9%8A%D9%84-%D9%85%D8%B1%D9%88%D8%A7%D9%86-%D9%88%D8%B9%D8%A7%D8%B4%D9%88%D8%B1-%D9%88%D9%85%D9%87%D9%86%D8%AF-%D9%84%D8%A7%D8%B4%D9%8A%D9%86-%D9%81%D9%8A-%D9%88%D8%B3%D8%B7-%D9%85%D9%86%D8%AA%D8%AE%D8%A8/7554243' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>محمود صابر بديل مروان.. وعاشور ومهند لاشين في وسط منتخب مصر أمام أنجولا</span><span class='ndesc'>حجز الثنائي مهند لاشين وإمام عاشور مقعدهما في التشكيل الأساسي لمنتخب مصر أمام أنجولا مساء الجمعة المقبل في تصفيات أمم أفريقيا 2027.</span></a></li><li><a href='https://www.yallakora.com/can-qualifiers/3028/news/566837/%D8%B7%D8%A7%D9%82%D9%85-%D8%AA%D8%AD%D9%83%D9%8A%D9%85-%D9%83%D9%8A%D9%86%D9%8A-%D9%84%D8%A3%D9%88%D9%84%D9%89-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%85%D8%B5%D8%B1-%D9%81%D9%8A-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D9%83%D8%A3%D8%B3-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-2027' target='_blank' rel='noopener'><span class='src'>يلاكورة</span><span class='ntitle'>طاقم تحكيم كيني لأولى مباريات مصر في تصفيات كأس أفريقيا 2027</span><span class='ndesc'>قررت لجنة الحكام التابعة للاتحاد الأفريقي لكرة القدم إسناد مباراة منتخب مصر الأول أمام أنجولا، في التصفيات المؤهلة لبطولة كأس أفريقيا 2027، لطاقم تحكيم كيني</span></a></li><li><a href='https://www.skynewsarabia.com/program/counterattack/1893638-%D8%A7%D8%AE%D8%AA%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AD%D8%B3%D8%A7%D9%85-%D8%AD%D8%B3%D9%86-%D8%AA%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B3%D8%A7%D8%A4%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1' target='_blank' rel='noopener'><span class='src'>سكاي نيوز عربية</span><span class='ntitle'>اختيارات حسام حسن تثير التساؤلات بين الجماهير.. هل اللعب للأهلي هو تصريح الدخول لمنتخب مصر؟</span><span class='ndesc'>حسام حسن يعود إلى الواجهة من جديد.. بعد إعلانه تشكيلة منتخب مصر استعدادا لتصفيات كأس أمم إفريقيا. اختيارت أثارت جدل البعض الذين تساءلوا.. هل يجب أن يكون اللعب للأهلي مفتاح الانضمام للمنتخب؟.</span></a></li></ul>
+      </div>
+    </article>
+    <article class="card" style="--accent:#f5c542">
+      <div class="rank">4</div>
+      <div class='thumb' style='background-image:url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQen7w8G96CidIY2BiQAu9vFITTxZpWpah_xrTfGSpxNFVYRWvfqMZ9RxekRvo)'></div>
+      <div class="body">
+        <div class="top">
+          <span class="cat">💰 اقتصاد</span>
+          <span class="traffic">🔍 500+</span>
+          <span class='ok'>✓ جاهز للنشر</span>
+        </div>
+        <h2>سعر الصرف</h2>
+        <p class="why">العنوان يطابق: سعر</p>
+        <div class="sources-label">3 مصادر أُثريت بالنص الكامل</div>
+        <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D9%81%D9%89-%D8%A7%D9%84%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%89-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%89/7554825' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>تعرف على سعر الدولار مقابل الجنيه فى البنك التجارى الدولى</span><span class='ndesc'>استقر  سعر الدولار الأمريكى أمام الجنيه المصرى،  اليوم الثلاثاء 22 سبتمبر 2026، فى البنك التجارى الدولى عند 51.52 جنيه للشراء و 51.62 جنيه للبيع.</span></a></li><li><a href='https://gate.ahram.org.eg/News/5931586.aspx' target='_blank' rel='noopener'><span class='src'>بوابة الأهرام</span><span class='ntitle'>سعر الدولار اليوم الثلاثاء 22 سبتمبر في البنوك</span><span class='ndesc'>تراجع سعر الدولار أمام الجنيه اليوم الثلاثاء 22 سبتمبر 2026 في البنوك دون الـ 52 جنيها</span></a></li><li><a href='https://akhbarelyom.com/news/newdetails/4881066/1/%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9-%D8%AA' target='_blank' rel='noopener'><span class='src'>بوابة أخبار اليوم الإلكترونية</span><span class='ntitle'>استقرار أسعار العملات العربية في بداية تعاملات اليوم 22 سبتمبر</span><span class='ndesc'>بوابة أخبار اليوم الإلكترونية</span></a></li></ul>
+      </div>
+    </article>
+    <article class="card" style="--accent:#f5c542">
+      <div class="rank">5</div>
+      <div class='thumb' style='background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQGlpgVtr5sB38rQ3T4PoPfIkWego2ml-YulHu1yO94KWWb9o6Qt6uzKErdRD8)'></div>
+      <div class="body">
+        <div class="top">
+          <span class="cat">💰 اقتصاد</span>
+          <span class="traffic">🔍 500+</span>
+          <span class='ok'>✓ جاهز للنشر</span>
+        </div>
+        <h2>سعر</h2>
+        <p class="why">العنوان يطابق: سعر</p>
+        <div class="sources-label">3 مصادر أُثريت بالنص الكامل</div>
+        <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-22-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1-2026-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1/7554842' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>سعر الذهب اليوم الثلاثاء 22 سبتمبر 2026.. تعرف على أسعار جميع الأعيرة</span><span class='ndesc'>ننشر آخر تطورات سعر الذهب اليوم الثلاثاء في مصر، حيث سجل عيار 21 سعر 6270 جنيهًا، وأظهرت بيانات مجلس الذهب العالمي تراجع الطلب على المشغولات الذهبية.</span></a></li><li><a href='https://m.akhbarelyom.com/news/newdetails/4881162/1/%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D9%8A%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%84%D9%87%D8%A8%D9%88%D8%B7-%D9%88%D8%AE%D8%B3%D8%A7%D8%A6%D8%B1-%D8%A7%D9%84%D8%AC%D8%B1%D8%A7%D9%85-100-%D8%AC%D9%86%D9%8A/amp' target='_blank' rel='noopener'><span class='src'>بوابة أخبار اليوم الإلكترونية</span><span class='ntitle'>الذهب يواصل الهبوط وخسائر الجرام 100 جنيه خلال يومين</span><span class='ndesc'>الذهب يواصل الهبوط وخسائر الجرام 100 جنيه خلال يومين</span></a></li><li><a href='https://www.mubasher.info/news/4675453/%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D8%AA%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%A8%D9%85%D9%86%D8%AA%D8%B5%D9%81-%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1/' target='_blank' rel='noopener'><span class='src'>معلومات مباشر</span><span class='ntitle'>أسعار الذهب في مصر تواصل التراجع بمنتصف تعاملات الثلاثاء</span><span class='ndesc'>القاهرة - مباشر: واصلت أسعار الذهب في مصر تراجعها مع منتصف تعاملات اليوم الثلاثاء، وهبط سعر الجرام 35 جنيهاً، مقارنةً بمستوياتها في بداية التعاملات. كان سعر جرام الذهب هبط بشكل طفيف بنحو 5…</span></a></li></ul>
+      </div>
+    </article>
+    <article class="card" style="--accent:#b39ddb">
+      <div class="rank">6</div>
+      <div class='thumb' style='background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6OywQVVltF0hx1y81Yb2R7R8OE_ILY1ktnI8hI1BmyK3MVto-RJo2MGk4lS0)'></div>
+      <div class="body">
+        <div class="top">
+          <span class="cat">🔮 أبراج وفلك</span>
+          <span class="traffic">🔍 500+</span>
+          <span class='ok'>✓ جاهز للنشر</span>
+        </div>
+        <h2>برج فلكي</h2>
+        <p class="why">العنوان يطابق: برج</p>
+        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
+        <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/21/%D8%A8%D8%B1%D8%AC-%D8%A7%D9%84%D8%B9%D9%82%D8%B1%D8%A8-%D8%AD%D8%B8%D9%83-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D8%AB%D9%86%D9%8A%D9%86-21-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1-%D9%86%D8%B8%D8%B1%D8%A9-%D8%A3%D8%B9%D9%85%D9%82/7552308' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>برج العقرب.. حظك اليوم الإثنين 21 سبتمبر: نظرة أعمق</span><span class='ndesc'>يستعرض اليوم السابع حظك اليوم وتوقعات علماء الفلك بالنسبة لأصحاب برج العقرب، فإذا كنت من مواليد هذا البرج تابعنا بصورة يومية للتعرف على حظك اليوم.</span></a></li><li><a href='https://www.almasryalyoum.com/news/details/4365107' target='_blank' rel='noopener'><span class='src'>المصري اليوم</span><span class='ntitle'>تعرف على برجك اليوم 2026/9/22.. «الميزان»: اظهر استقلاليتك بوضوح.. و«الأسد»: شخص تعرفه يساعدك على رؤية الأمور من زاوية مختلفة</span><span class='ndesc'>يبحث الكثير من الأشخاص المهتمين بالأبراج وعلم الفلك عن توقعات الأبراج، لمعرفة تأثير الحالة الفلكية على الأبراج وطريقة التصرف في المواقف اليومية، وفيما يلي توقعات الأبراج،...</span></a></li></ul>
+      </div>
+    </article>
+    <article class="card dim" style="--accent:#ffd166">
+      <div class="rank">7</div>
+      <div class='thumb' style='background-image:url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQS4wcD1Wv0APbPbOA0GLnSpp5_pREpO3l752YP_k1SndXZ1KqUH2aaK9DVCtg)'></div>
+      <div class="body">
+        <div class="top">
+          <span class="cat">👤 شخصية</span>
+          <span class="traffic">🔍 200+</span>
+          <span class='hold'>⛔ يحتاج مراجعة</span>
+        </div>
+        <h2>النادي الإسماعيلي</h2>
+        <p class="why">اسم شخص على الأرجح — يحتاج مراجعة</p>
+        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
+        <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D8%AA%D9%85%D9%87%D9%8A%D8%AF%D9%89-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D9%84%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1-%D8%AE%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D8%AD%D8%B1%D8%B3-%D9%88%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%89/7554833' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>نتائج مباريات الدور التمهيدى الثالث لكأس مصر.. خروج الحرس والإسماعيلى</span><span class='ndesc'>شهدت منافسات الدور التمهيدى الثالث لبطولة كأس مصر، اليوم، إقامة عدد من المباريات القوية، أسفرت عن تأهل سمنود وبورفؤاد وطنطا</span></a></li><li><a href='https://www.masrawy.com/sports/sports_news/details/2026/9/22/3052098/%D8%B5%D8%AF%D9%85%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D9%84%D8%AF%D8%B1%D8%A7%D9%88%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A-%D9%8A%D9%88%D8%AF%D8%B9-%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D8%AA%D9%85%D9%87%D9%8A%D8%AF%D9%8A' target='_blank' rel='noopener'><span class='src'>Masrawy</span><span class='ntitle'>صدمة جديدة للدراويش.. الإسماعيلي يودع كأس مصر من الدور التمهيدي</span><span class='ndesc'>ودع الفريق الأول لكرة القدم بالنادي الإسماعيلي منافسات بطولة كأس مصر للموسم الحالي 2026 2027 بعد الخسارة أمام الرباط والأنوار بهدف دون رد في الدور التمهيدي الثالث | مصراوي</span></a></li></ul>
+      </div>
+    </article>
+    <article class="card" style="--accent:#f5c542">
+      <div class="rank">8</div>
+      <div class='thumb' style='background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxrOA85TlU55tCYMVzOy5OQQhSRW9_rAdGyGodOA33MXGIWJVREtiXAa36TZU)'></div>
+      <div class="body">
+        <div class="top">
+          <span class="cat">💰 اقتصاد</span>
+          <span class="traffic">🔍 200+</span>
+          <span class='ok'>✓ جاهز للنشر</span>
+        </div>
+        <h2>دولار أمريكي</h2>
+        <p class="why">العنوان يطابق: دولار</p>
+        <div class="sources-label">3 مصادر أُثريت بالنص الكامل</div>
+        <ul class="sources"><li><a href='https://www.eremnews.com/economy/qcv1sm3' target='_blank' rel='noopener'><span class='src'>إرم نيوز</span><span class='ntitle'>الدولار يتأرجح بين انخفاض أسعار النفط واحتمال رفع الفائدة</span><span class='ndesc'>تراجع النفط 2% إثر مقترح إيراني بفتح مضيق هرمز، فيما تقلب الدولار متأثرًا بالأسعار وتوقعات الفائدة الأمريكية.</span></a></li><li><a href='https://www.masrawy.com/news/news-banking/details/2026/9/19/3050422/%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%8A%D8%B3%D8%AC%D9%84-%D8%A3%D9%81%D8%B6%D9%84-%D8%A3%D8%AF%D8%A7%D8%A1-%D8%A3%D8%B3%D8%A8%D9%88%D8%B9%D9%8A-%D9%81%D9%8A-3-%D8%A3%D8%B4%D9%87%D8%B1-%D9%85%D8%A7%D8%B0%D8%A7-%D8%AD%D8%AF%D8%AB-%D8%B9%D8%A7%D9%84%D9%85%D9%8A-%D8%A7-%D9%88%D9%85%D8%AD%D9%84%D9%8A-%D8%A7-' target='_blank' rel='noopener'><span class='src'>Masrawy</span><span class='ntitle'>الدولار يسجل أفضل أداء أسبوعي في 3 أشهر.. ماذا حدث عالميًا ومحليًا؟</span><span class='ndesc'>تعرف على حركة الدولار عالمي ا ومحلي ا خلال الأسبوع بعد ارتفاع مؤشر العملة الأمريكية 1 1 عالمي ا وصعوده أمام الجنيه في 10 بنوك بقيمة تصل إلى 86 قرش ا | مصراوي</span></a></li><li><a href='https://al-sharq.com/article/21/09/2026/%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D9%85%D8%A4%D8%B4%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1' target='_blank' rel='noopener'><span class='src'>جريدة الشرق</span><span class='ntitle'>استقرار مؤشر الدولار</span><span class='ndesc'>استقر مؤشر الدولار الأمريكي الذي  يقيس أداء العملة الأمريكية مقابل ست عملات رئيسية، عند 100.23 نقطة بعد أن حقق مكاسب تجاوزت واحدا بالمئة الأسبوع الماض...</span></a></li></ul>
+      </div>
+    </article>
+    <article class="card dim" style="--accent:#ffd166">
+      <div class="rank">9</div>
+      <div class='thumb' style='background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrunp1_wm8FFXV7CqtfEfNV61ws_CbWCGujGjsgp0BkFsHGUczkGvoTpFK6QE)'></div>
+      <div class="body">
+        <div class="top">
+          <span class="cat">👤 شخصية</span>
+          <span class="traffic">🔍 200+</span>
+          <span class='hold'>⛔ يحتاج مراجعة</span>
+        </div>
+        <h2>نادية رشاد</h2>
+        <p class="why">اسم شخص على الأرجح — يحتاج مراجعة</p>
+        <div class="sources-label">2 مصادر أُثريت بالنص الكامل</div>
+        <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D8%A7%D9%84%D9%82%D8%B5%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%84%D8%A7%D8%B9%D8%AA%D8%B2%D8%A7%D9%84-%D9%86%D8%A7%D8%AF%D9%8A%D8%A9-%D8%B1%D8%B4%D8%A7%D8%AF-%D8%A7%D9%84%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D9%88%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88/7554092' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>القصة الكاملة لاعتزال نادية رشاد التمثيل وكتابة السيناريو</span><span class='ndesc'>تصدر اسم الفنانة نادية رشاد منصات التواصل الاجتماعي خلال الساعات الماضية، بعد إعلانها الاعتزال تماما.</span></a></li><li><a href='https://www.masrawy.com/arts/zoom/details/2026/9/21/3051492/%D8%A7%D9%84%D9%81%D9%86%D8%A7%D9%86%D8%A9-%D9%86%D8%A7%D8%AF%D9%8A%D8%A9-%D8%B1%D8%B4%D8%A7%D8%AF-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D8%B9%D8%AA%D8%B2%D8%A7%D9%84%D9%87%D8%A7-%D8%A7%D9%84%D9%81%D9%86' target='_blank' rel='noopener'><span class='src'>Masrawy</span><span class='ntitle'>الفنانة نادية رشاد تعلن اعتزالها الفن</span><span class='ndesc'>أعلنت الفنانة نادية رشاد اعتزالها الفن وكتابة السيناريو وأكدت على عدم رغبتها في استقبال مكالمات من زملائها وذلك من خلال حسابها الشخصي على موقع فيسبوك لمزيد من التفاصيل | مصراوي</span></a></li></ul>
+      </div>
+    </article>
+    <article class="card dim" style="--accent:#ffd166">
+      <div class="rank">10</div>
+      <div class='thumb' style='background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBy0Idlv_x9pX8vVo1qF7xJnPQ_hiedooVBPbtfzdSDoURU2IYjTyaGdqWE_E)'></div>
+      <div class="body">
+        <div class="top">
+          <span class="cat">👤 شخصية</span>
+          <span class="traffic">🔍 100+</span>
+          <span class='hold'>⛔ يحتاج مراجعة</span>
+        </div>
+        <h2>حسن الشافعي</h2>
+        <p class="why">اسم شخص على الأرجح — يحتاج مراجعة</p>
+        <div class="sources-label">3 مصادر أُثريت بالنص الكامل</div>
+        <ul class="sources"><li><a href='https://www.youm7.com/story/2026/9/22/%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D8%B4%D8%A7%D9%81%D8%B9%D9%8A-%D9%88%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%B4%D8%A7%D8%B9%D8%B1-%D9%81%D9%8A-%D8%A3%D9%85%D8%B3%D8%AA%D8%B1%D8%AF%D8%A7%D9%85-%D9%84%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D9%81%D9%8A-%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A7%D8%AA-Connecting/7554795' target='_blank' rel='noopener'><span class='src'>اليوم السابع</span><span class='ntitle'>حسن الشافعي ومحمد الشاعر في أمستردام للمشاركة في فعاليات Connecting Sounds</span><span class='ndesc'>في إطار جولات The Basement Records في الفعاليات الموسيقية حول العالم، يشارك المؤلف الموسيقي حسن الشافعي والمنتج الموسيقي محمد الشاعر</span></a></li><li><a href='https://gate.ahram.org.eg/News/5931938.aspx' target='_blank' rel='noopener'><span class='src'>بوابة الأهرام</span><span class='ntitle'>حسن الشافعي يشارك في فعالية موسيقية بأمستردام</span><span class='ndesc'>في الفعاليات الموسيقية حول العالم، يشارك المؤلف الموسيقي حسن الشافعي والمنتج الموسيقي محمد الشاعر في فعاليات كونكتينج ساوند في أمستردام بهولندا، يوم الخميس 24 سبتمبر الحالي، حيث يشارك…</span></a></li><li><a href='https://www.almasryalyoum.com/news/details/4365545' target='_blank' rel='noopener'><span class='src'>المصري اليوم</span><span class='ntitle'>حسن الشافعى ومحمد الشاعر يناقشان صناعة الموسيقى فى أمستردام</span><span class='ndesc'>يشارك المؤلف الموسيقى حسن الشافعى والمنتج الموسيقى محمد الشاعر فى فعاليات «Connecting Sounds: North Africa»، المقرر إقامتها فى العاصمة الهولندية أمستردام يوم الخميس 24 سبتمبر الجارى، ضمن...</span></a></li></ul>
+      </div>
+    </article></div>
+        </section>
+
+  <footer>
+    كل بطاقة أدناه بُنيت آليًا: التقاط ← استخراج og: من صفحات الأخبار ←
+    تصنيف ← حكم على صلاحية النشر.<br>
+    الخطوة التالية: كتابة الشرح العربي بنموذج Claude، وتوليد كارت 1200×675.
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+name: رصد الترندات
+
+# الترندات تموت خلال ساعات، لذلك كل 20 دقيقة وليس كل 3 ساعات.
+#
+# ملاحظة مهمة: هذا يعني ~2160 تشغيلة شهريًا، وهو أكثر من 2000 دقيقة
+# المجانية في المستودعات الخاصة. اجعل المستودع عامًا (دقائق غير محدودة)
+# أو ارفع الفاصل إلى 30 دقيقة. ولا تضع أي مفتاح في الكود — كلها Secrets.
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
+
+# يمنع تشغيلتين متزامنتين من الكتابة فوق بعضهما
+concurrency:
+  group: trends
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # المحرّك بلا تبعيات عدا Pillow لتوليد الكروت
+      - name: تثبيت المتطلبات
+        run: pip install --quiet Pillow
+
+      - name: التقاط وإثراء وتصنيف
+        run: python engine/pipeline.py
+
+      - name: كتابة الشروح
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        # لا توقف التشغيلة كلها لو تعذّرت الكتابة — البيانات أهم
+        continue-on-error: true
+        run: python engine/writer.py
+
+      - name: توليد الكروت
+        run: python engine/cards.py
+
+      - name: تحديث ذاكرة الكيانات
+        run: python engine/entities.py
+
+      - name: توليد الصفحة
+        run: python engine/render.py
+
+      - name: حفظ النتائج
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ output/
+          git diff --staged --quiet || git commit -m "رصد: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push

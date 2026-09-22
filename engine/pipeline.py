@@ -17,6 +17,9 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import providers  # noqa: E402
+
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
@@ -333,6 +336,18 @@ def build(country_key, cfg):
         if t["publishable"] and len([n for n in t["news"] if n.get("ok")]) < 2:
             t["publishable"] = False
             t["reason"] = "مصادر غير كافية (أقل من خبرين بنص)"
+
+        # ترند بيانات: أحضر الأرقام من مصدرها بدل انتظارها من نص خبر.
+        if t["publishable"]:
+            data = providers.for_trend(t["title"], country_key, normalize)
+            if data:
+                t["data"] = data
+                t["reason"] += " · بيانات حيّة مرفقة"
+            elif providers.is_data_trend(t["title"], normalize):
+                # ترند يحتاج أرقامًا ولا مزوّد له: السرد وحده يخرج
+                # مقالًا يدور حول الموضوع بلا أن يعطي القارئ ما يريد.
+                t["publishable"] = False
+                t["reason"] = "ترند بيانات بلا مزوّد — لا يُكتب سردًا"
 
         # ولا تُنشر إن كانت المصادر لا تتحدث عن الموضوع أصلًا.
         # حدث فعلًا: كُتب مقال عن اسم لم تذكره أي من مصادره، فخرج

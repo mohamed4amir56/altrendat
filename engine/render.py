@@ -47,6 +47,28 @@ def card(t, idx):
     # المقال المولَّد هو منتج المحرّك — يتصدّر البطاقة، والمصادر الخام
     # تحته مطويّة. قبل هذا كانت اللوحة تعرض المصادر وحدها، فبدا كأن
     # المحرّك ينسخ ولا ينتج شيئًا.
+    # جدول البيانات الحيّة — يسبق النص، لأنه جواب القارئ المباشر
+    table = ""
+    d = t.get("data")
+    if d:
+        head = "".join("<th>{}</th>".format(E(c)) for c in d["columns"])
+        body = "".join(
+            "<tr><td class='city'>{}</td>{}</tr>".format(
+                E(r["city"]),
+                "".join("<td>{}</td>".format(E(r["times"][c]))
+                        for c in d["columns"]))
+            for r in d["rows"])
+        table = """
+        <div class="data">
+          <div class="dhead">📊 {title} — {greg} · {hij}</div>
+          <table><thead><tr><th>المدينة</th>{head}</tr></thead>
+          <tbody>{body}</tbody></table>
+          <div class="dsrc">المصدر: {src}</div>
+        </div>""".format(
+            title=E(d["title"]), greg=E(d.get("gregorian", "")),
+            hij=E(d.get("hijri", "")), head=head, body=body,
+            src=E(d.get("source", "")))
+
     art = t.get("article")
     if art:
         body_html = "".join(
@@ -58,15 +80,18 @@ def card(t, idx):
         <div class="term">الترند: {term}</div>
         <h2>{head}</h2>
         <p class="summary">{summ}</p>
+        {table}
         <div class="article">{body}</div>
         <div class="tags">{tags}</div>""".format(
             term=E(t["title"]), head=E(art["headline"]),
-            summ=E(art.get("summary", "")), body=body_html, tags=tags)
+            summ=E(art.get("summary", "")), body=body_html, tags=tags,
+            table=table)
     else:
         main = """
         <h2>{title}</h2>
+        {table}
         <p class="nowrite">لم يُكتب — {reason}</p>""".format(
-            title=E(t["title"]), reason=E(t["reason"]))
+            title=E(t["title"]), reason=E(t["reason"]), table=table)
 
     return """
     <article class="card{dim}" style="--accent:{color}">
@@ -384,6 +409,22 @@ TEMPLATE = """<!DOCTYPE html>
   .srcwrap summary::before {{ content:"▸ "; }}
   .srcwrap[open] summary::before {{ content:"▾ "; }}
   .srcwrap .sources {{ margin-top:10px; }}
+
+  .data {{
+    background:rgba(77,208,177,.06); border:1px solid rgba(77,208,177,.28);
+    border-radius:14px; padding:13px 15px; margin:12px 0 14px; overflow-x:auto;
+  }}
+  .dhead {{ font-size:.8rem; color:#4dd0b1; font-weight:600; margin-bottom:9px; }}
+  .data table {{ width:100%; border-collapse:collapse; font-size:.8rem; }}
+  .data th {{
+    color:var(--mut); font-weight:600; font-size:.72rem;
+    padding:5px 7px; border-bottom:1px solid var(--line); white-space:nowrap;
+  }}
+  .data td {{ padding:5px 7px; border-bottom:1px solid rgba(255,255,255,.04);
+              font-variant-numeric:tabular-nums; white-space:nowrap; }}
+  .data td.city {{ color:#4dd0b1; font-weight:600; }}
+  .data tr:last-child td {{ border-bottom:0; }}
+  .dsrc {{ font-size:.68rem; color:var(--mut); margin-top:8px; }}
 
   footer {{ text-align:center; color:var(--mut); font-size:.78rem;
             margin-top:44px; border-top:1px solid var(--line); padding-top:18px; }}

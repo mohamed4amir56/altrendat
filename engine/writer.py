@@ -68,7 +68,10 @@ SYSTEM = """أنت محرر عربي في موقع أخبار. مهمتك أن �
 - إن تعارضت المصادر، قل ذلك صراحةً بدل الترجيح بينها.
 - لا تنسخ جملة كما هي من المصادر؛ أعد الصياغة بالكامل.
 - لا تخاطب القارئ بعبارات تسويقية ولا تستخدم عناوين مثيرة كاذبة.
-- في حقل tags ضع من ثلاث إلى ست كلمات مفتاحية عربية، لا كلمة واحدة."""
+- في حقل tags ضع من ثلاث إلى ست كلمات مفتاحية عربية، لا كلمة واحدة.
+- إن أُرفقت "بيانات مؤكدة" مع المصادر، فهي جواب القارئ المباشر:
+  اذكر أهم أرقامها في أول جملتين وفي العنوان، وانسبها إلى جهتها.
+  لا تكتفِ بالحديث عن وجود الأرقام — اذكرها."""
 
 SCHEMA = {
     "type": "object",
@@ -98,15 +101,40 @@ def build_prompt(trend, country_name):
                 d=n.get("og_desc") or n.get("og_title") or "(بلا ملخص)",
                 u=n["url"]))
 
+    # البيانات المؤكدة تسبق المصادر: هي جواب القارئ، والخبر سياق حولها.
+    block = ""
+    data = trend.get("data")
+    if data:
+        lines = [
+            "",
+            "=== بيانات مؤكدة من جهتها الرسمية ===",
+            data["title"] + " — " + data.get("gregorian", "") +
+            " / " + data.get("hijri", ""),
+            "الجهة: " + data.get("source", ""),
+            "",
+            " | ".join(["المدينة"] + data["columns"]),
+        ]
+        for r in data["rows"]:
+            lines.append(" | ".join(
+                [r["city"]] + [r["times"][c] for c in data["columns"]]))
+        lines += [
+            "",
+            "هذه الأرقام مؤكدة ومتاحة لك. اذكر أهمها في العنوان وفي أول "
+            "جملتين، ولا تقل إن المواعيد غير متوفرة.",
+            "",
+        ]
+        block = "\n".join(lines)
+
     return (
         "المصطلح الأكثر بحثًا: {title}\n"
         "البلد: {country}\n"
         "حجم البحث التقريبي: {traffic}\n"
-        "الفئة: {cat}\n\n"
-        "المصادر المتاحة:\n\n{sources}"
+        "الفئة: {cat}\n"
+        "{block}\n"
+        "المصادر الصحفية:\n\n{sources}"
     ).format(title=trend["title"], country=country_name,
              traffic=trend["traffic"], cat=trend["category"],
-             sources="\n\n".join(sources))
+             block=block, sources="\n\n".join(sources))
 
 
 def write_one(client, trend, country_name):

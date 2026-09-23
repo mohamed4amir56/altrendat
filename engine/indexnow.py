@@ -114,6 +114,17 @@ def main():
     print("  ملف التحقق: site/" + name)
     print("  في الخريطة: " + str(len(all_urls)) + " · جديد: " + str(len(new)))
 
+    # لا تُفهرس عنوانًا مؤقتًا.
+    #
+    # لو فُهرس altrendat.pages.dev ثم انتقل الموقع إلى نطاقه، لصار
+    # للمحتوى نسختان في نتائج البحث، وتشتّتت قوة الموقع بين عنوانين.
+    # الأنظف أن يبدأ الفهرسة على عنوانه النهائي مرة واحدة.
+    host = base.split("//", 1)[-1].split("/", 1)[0]
+    if host.endswith(".pages.dev") or host.startswith("localhost"):
+        print("  ⏸ عنوان مؤقت (" + host + ") — لا يُرسل للفهرسة.")
+        print("     اضبط SITE_BASE على نطاقك بعد حجزه.")
+        return 0
+
     if "--dry-run" in sys.argv:
         for u in new[:5]:
             print("   → " + u)

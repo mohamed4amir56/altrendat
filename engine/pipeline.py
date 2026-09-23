@@ -113,7 +113,15 @@ BLOCKED_KEYWORDS = [
     "حادث", "حريق", "غرق", "تشييع", "جنازة", "عزاء", "ضحايا", "قتيل",
     "محكمة", "حبس", "سجن", "اتهام", "متهم", "قضية", "نيابة",
     "تحرش", "اغتصاب", "مخدرات", "رشوة", "فضيحة", "طلاق", "خيانة",
-    "مرض", "سرطان", "وباء", "فيروس", "مستشفى",
+    "مرض", "سرطان", "وباء", "فيروس", "مستشفى", "حوادث",
+    # لم تكن في القائمة، فمرّ خبر "شائعة القبض على ملحن" من الفحص
+    "قبض", "اعتقال", "توقيف", "احتجاز",
+]
+
+# إضافي للأشخاص وحدهم: خبر رياضي عن "شائعة انتقال لاعب" سليم، أما
+# شائعة أو مزاعم أو تسريب عن شخص فمن أسباب الدعاوى، فلا نكتب فيها.
+PERSON_BLOCKED = [
+    "شائعة", "شائعات", "مزاعم", "ادعاءات", "تسريب", "تسريبات", "مسرب",
 ]
 
 
@@ -149,6 +157,35 @@ def _word_re(word):
     return _CACHE[word]
 
 
+_BLOCK_CACHE = {}
+
+
+def _blocked_re(word):
+    """نمط الكلمة الحسّاسة: كلمة كاملة، بسوابق ولواحق العربية المعتادة.
+
+    الفحص النصي الساذج حجب أخبارًا سليمة لأن الكلمة الحسّاسة تقع داخل
+    كلمة بريئة: "إطلاق" فيها "طلاق" (فحُجب خبر إطلاق منتج)، و"محادثات"
+    فيها "حادث"، و"ممرض" فيها "مرض"، و"استغرق" فيها "غرق". كان ذلك
+    يحجب نحو ثلث ما يُحجب. الآن تُقبل السوابق (و ف ب ل ك س ال) وحرف
+    المضارعة، واللواحق (ه ها هم ات ان ين ون وا)، ولا شيء غير ذلك.
+    """
+    if word not in _BLOCK_CACHE:
+        _BLOCK_CACHE[word] = re.compile(
+            "(?<![" + _AR + "])[وفبلكس]{0,2}(?:ال)?[يتن]?" +
+            re.escape(normalize(word)) +
+            "(?:ها|هم|هن|ات|ان|ين|ون|وا|نا|ه|ي|ا|ت|ك)?(?![" + _AR + "])")
+    return _BLOCK_CACHE[word]
+
+
+def blocked_hit(text, words=None):
+    """أول لفظ حسّاس في النص، أو None."""
+    norm = normalize(text)
+    for word in (words or BLOCKED_KEYWORDS):
+        if _blocked_re(word).search(norm):
+            return word
+    return None
+
+
 def _match(text):
     """يعيد أول فئة تطابق النص، أو None."""
     norm = normalize(text)
@@ -167,13 +204,11 @@ def classify(title, news_titles):
     لمرّ اسم شخص لمجرد ورود كلمة "فنان" في خبر عنه — وهذه بالضبط
     الحالة التي يجب ألا تُنشر تلقائيًا.
     """
-    haystack = normalize(title + " " + " ".join(news_titles))
-
     # 1) الحظر أولًا، ويفحص كل شيء
-    for word in BLOCKED_KEYWORDS:
-        if normalize(word) in haystack:
-            return ("حوادث وقضايا", "⛔", "#ff6b6b",
-                    "ورد لفظ حسّاس: " + word, False)
+    word = blocked_hit(title + " " + " ".join(news_titles))
+    if word:
+        return ("حوادث وقضايا", "⛔", "#ff6b6b",
+                "ورد لفظ حسّاس: " + word, False)
 
     # 2) تصنيف من عنوان الترند نفسه
     hit = _match(title)
@@ -494,6 +529,54 @@ def fetch_with_retry(geo, tries=3):
     raise err
 
 
+def person_ok(trend):
+    """هل يُكتب عن هذا الاسم؟ (نعم/لا، السبب)
+
+    كان كل اسم شخص يُحجب، وهو ما حجب نحو ثلث الترندات: رئيس دولة، مدرب
+    فريق، فنان. والاسم وحده ليس الخطر؛ الخطر أن يكون الموضوع اتهامًا أو
+    وفاة أو مرضًا أو حياة خاصة، أو فردًا عاديًا لا يعرفه أحد. لذلك تُقبل
+    الشخصية حين تجتمع ثلاثة شروط:
+      1) مصدران على الأقل بنص،
+      2) الاسم يرد في مصدرين على الأقل — كاملًا أو بلقبه الأخير، لأن
+         الصحف تكتب "السيسي" لا "عبد الفتاح السيسي"،
+      3) لا لفظ حسّاس في نص أي مصدر — لا في العناوين وحدها كما في
+         الفحص العام، بل في الملخصات أيضًا لأن الاتهام يُذكر فيها.
+    ثم يحكم الكاتب نفسه في writer.py، فيمتنع إن كان الشخص فردًا عاديًا.
+
+    ملاحظة: الفحص يلتقط أيضًا ما ليس شخصًا ("طائرة"، "اذكار الصباح")
+    لأن أي عبارة عربية قصيرة بلا فئة تُعدّ اسمًا. وهذا لا يضرّ: هذه
+    مواضيع سليمة تمرّ بالشروط نفسها.
+    """
+    ok = [n for n in trend["news"] if n.get("ok")]
+    if len(ok) < 2:
+        return False, "شخصية بأقل من مصدرين"
+
+    texts = [n.get("title", "") + " " + n.get("og_title", "") + " " +
+             n.get("og_desc", "") for n in ok]
+    joined = " ".join(texts)
+    hit = blocked_hit(joined) or blocked_hit(joined, PERSON_BLOCKED)
+    if hit:
+        return False, "شخصية ورد في مصادرها لفظ حسّاس: " + hit
+
+    name = normalize(trend["title"].strip())
+    parts = name.split()
+    surname = parts[-1] if len(parts) > 1 and len(parts[-1]) >= 4 else None
+
+    def mentions_name(text):
+        text = normalize(text)
+        if name in text:
+            return True
+        return bool(surname and re.search(
+            "(?<![" + _AR + "])(?:ال)?" + re.escape(surname) +
+            "(?![" + _AR + "])", text))
+
+    mentions = sum(1 for x in texts if mentions_name(x))
+    if mentions < 2:
+        return False, "شخصية لا يرد اسمها في مصدرين"
+    return True, ("شخصية: " + str(mentions) + " مصادر تذكر الاسم "
+                  "بلا ألفاظ حسّاسة")
+
+
 def build(country_key, cfg):
     print("  ↓ جلب ترندات " + cfg["name_ar"] + " ...")
     trends = fetch_with_retry(cfg["trends_geo"])
@@ -510,6 +593,14 @@ def build(country_key, cfg):
             t["title"], [n["title"] for n in t["news"]])
         t.update(category=cat, icon=icon, color=color,
                  reason=reason, publishable=publishable)
+
+        # اسم شخص: يُقبل بشروط بدل الحجب المطلق (انظر person_ok).
+        if cat == "شخصية" and not publishable:
+            allowed, why = person_ok(t)
+            t["reason"] = why
+            if allowed:
+                t["publishable"] = True
+                t["person"] = True     # writer يطبّق قواعد الأشخاص ويحق له الامتناع
 
         # موضوع محلي بطبعه: مصادره يجب أن تتحدث عن هذا البلد.
         if t["publishable"] and t["category"] in LOCAL_CATEGORIES:

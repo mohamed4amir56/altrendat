@@ -89,6 +89,30 @@ SCHEMA = {
     "additionalProperties": False,
 }
 
+# مخطط الأشخاص: نفسه + حقل امتناع. للأشخاص وحدهم عمدًا، فلا يتغيّر شيء
+# في كتابة بقية الترندات ولا في ذاكرة التعليمات المخزّنة لها.
+SCHEMA_PERSON = {
+    "type": "object",
+    "properties": dict(SCHEMA["properties"], decline={
+        "type": "boolean",
+        "description": "true إن امتنعت عن الكتابة؛ عندها اترك بقية الحقول فارغة"}),
+    "required": SCHEMA["required"] + ["decline"],
+    "additionalProperties": False,
+}
+
+# الفلتر الآلي يرى ألفاظًا لا معنى؛ الكاتب يقرأ المصادر فيفهم. هو خط
+# الدفاع الأخير قبل النشر عن الأشخاص.
+PERSON_RULES = """
+هذا الاسم قد يكون شخصًا وقد لا يكون. إن كان موضوعًا أو مكانًا أو حدثًا
+فاكتب عنه كالمعتاد.
+إن كان شخصًا فاكتب فقط إن كان شخصية عامة معروفة (فنان، لاعب، مدرب، مسؤول،
+إعلامي) والمصادر عن نشاطه العام: عمله، مبارياته، أعماله، تصريحاته المنشورة.
+أعد decline=true وبقية الحقول فارغة إن كان الشخص فردًا عاديًا، أو تدور
+المصادر حول اتهام أو قضية أو وفاة أو مرض أو حياة خاصة أو عائلية، أو كان
+قاصرًا، أو لم تضف المصادر معلومة جديدة عنه.
+لا تنسب إليه رأيًا أو فعلًا لم تذكره المصادر، وانسب كل قول لقائله بالاسم.
+"""
+
 
 def build_prompt(trend, country_name):
     sources = []
@@ -131,6 +155,9 @@ def build_prompt(trend, country_name):
         block = ("\nهذا موضوع محلي: اكتب عن " + country_name +
                  " وحدها، ولا تنقل أخبار بلد آخر.\n") + block
 
+    if trend.get("person"):
+        block = PERSON_RULES + block
+
     return (
         "المصطلح الأكثر بحثًا: {title}\n"
         "البلد: {country}\n"
@@ -144,7 +171,9 @@ def build_prompt(trend, country_name):
 
 
 def write_one(client, trend, country_name):
-    """يكتب شرح ترند واحد. يعيد dict أو None عند الفشل."""
+    """يكتب شرح ترند واحد. يعيد dict، أو {"declined": True} إن امتنع
+    الكاتب عن شخص غير مناسب، أو None عند الفشل."""
+    person = bool(trend.get("person"))
     response = client.messages.create(
         model=MODEL,
         max_tokens=2000,
@@ -155,7 +184,8 @@ def write_one(client, trend, country_name):
         }],
         output_config={
             "effort": "medium",
-            "format": {"type": "json_schema", "schema": SCHEMA},
+            "format": {"type": "json_schema",
+                       "schema": SCHEMA_PERSON if person else SCHEMA},
         },
         messages=[{"role": "user", "content": build_prompt(trend, country_name)}],
     )
@@ -167,7 +197,13 @@ def write_one(client, trend, country_name):
 
     for block in response.content:
         if block.type == "text":
-            return json.loads(block.text)
+            article = json.loads(block.text)
+            if person:
+                # جسم فارغ بلا امتناع صريح يُعامل امتناعًا أيضًا: الأسلم
+                # ألا تُنشر صفحة فارغة عن شخص.
+                if article.pop("decline", False) or not article.get("body"):
+                    return {"declined": True}
+            return article
     return None
 
 
@@ -198,7 +234,7 @@ def main():
 
     client = anthropic.Anthropic()
     store = load_articles()
-    written = skipped = failed = cached = 0
+    written = skipped = failed = cached = declined = 0
     attempts = 0
     streak = 0          # فشل متتالٍ
 
@@ -253,6 +289,8 @@ def main():
                 print("  ♻ إعادة كتابة (مصادر محلية): " + t["title"])
 
             if k in store and not force and not stale:
+                if store[k].get("declined"):
+                    continue          # امتنع الكاتب عنه سابقًا؛ لا مال يُنفق ثانية
                 t["article"] = store[k]
                 cached += 1
                 continue
@@ -260,7 +298,13 @@ def main():
             attempts += 1
             try:
                 article = write_one(client, t, d["country_name"])
-                if article:
+                if article and article.get("declined"):
+                    store[k] = {"declined": True}
+                    save_articles(store)
+                    declined += 1
+                    streak = 0
+                    print("  ⤫ امتنع الكاتب (شخص غير مناسب للنشر): " + t["title"])
+                elif article:
                     n_tags = len(article.get("tags") or [])
                     if n_tags < 3:
                         print("  ⚠ " + str(n_tags) + " كلمة مفتاحية فقط")
@@ -286,7 +330,8 @@ def main():
 
     print("\n" + "=" * 46)
     print("  كُتب الآن: " + str(written) + "   مكتوب سابقًا: " + str(cached))
-    print("  تُخطّي (أمان): " + str(skipped) + "   فشل: " + str(failed))
+    print("  تُخطّي (أمان): " + str(skipped) + "   امتنع الكاتب: " +
+          str(declined) + "   فشل: " + str(failed))
     print("=" * 46)
     return 0
 

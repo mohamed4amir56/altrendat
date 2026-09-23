@@ -1,0 +1,18 @@
+{
+  // إعداد النشر على Cloudflare.
+  //
+  // واجهة Cloudflare الجديدة توحّد Pages داخل Workers، فلم تعد تسأل
+  // عن "مجلد المخرجات" في الشاشة. هذا الملف هو ما يخبرها أن المشروع
+  // موقع صفحات ثابتة، وأن محتواه في مجلد site دون غيره — فلا تنشر
+  // الكود ولا البيانات.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "altrendat",
+  "compatibility_date": "2026-09-23",
+  "assets": {
+    "directory": "./site",
+    // روابطنا مجلدات تنتهي بشرطة مائلة (‎/eg/2026-09-23/بنك-مصر/‎)،
+    // وهذا الوضع يخدم index.html داخل كل مجلد على رابطه النظيف.
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

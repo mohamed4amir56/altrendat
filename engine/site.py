@@ -605,6 +605,21 @@ def build_static(urls):
         urls.append((canonical, datetime.now(timezone.utc).isoformat(), "0.3"))
 
 
+def build_404():
+    """صفحة الخطأ — يخدمها Cloudflare لأي رابط غير موجود."""
+    body = """
+    <h1>الصفحة غير موجودة</h1>
+    <p class="lead">ربما تغيّر الرابط، أو لم يعد هذا الموضوع منشورًا.</p>
+    <p class="meta"><a href="/">← الصفحة الرئيسة</a></p>"""
+    out = SHELL.format(
+        title=E("الصفحة غير موجودة | " + SITE_NAME), desc="",
+        canonical=BASE + "/404.html", site=E(SITE_NAME), ogimage="",
+        ogtype="website", jsonld="", nav="", body=body, root="/")
+    out = out.replace('content="index, follow', 'content="noindex, follow')
+    with open(os.path.join(OUT, "404.html"), "w", encoding="utf-8") as f:
+        f.write(out)
+
+
 def build_feed(data):
     """خلاصة RSS — تقرأها المجمّعات وقارئات الأخبار، وتسرّع اكتشاف
     الجديد. تُبقي أحدث 40 موضوعًا فقط."""
@@ -698,6 +713,7 @@ def main():
     build_home(data, urls)
     build_static(urls)
     n_feed = build_feed(data)
+    build_404()
 
     # صفحات الكيانات — الأصل الذي يتراكم.
     #

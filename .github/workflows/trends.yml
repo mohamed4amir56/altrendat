@@ -32,6 +32,11 @@ jobs:
       - name: تثبيت المتطلبات
         run: pip install --quiet Pillow
 
+      # خادم Ubuntu لا يملك خطًا عربيًا افتراضيًا، فالكروت تخرج مربعات
+      # فارغة أو يفشل التوليد. Noto يغطي العربية كاملة.
+      - name: تثبيت خط عربي
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-core
+
       - name: التقاط وإثراء وتصنيف
         run: python engine/pipeline.py
 

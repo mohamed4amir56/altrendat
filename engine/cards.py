@@ -25,8 +25,46 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 W, H = 1200, 675
 PAD = 72
 
-FONT_BOLD = "C:/Windows/Fonts/segoeuib.ttf"
-FONT_REG = "C:/Windows/Fonts/segoeui.ttf"
+# الخطوط تُبحث لا تُكتب بمسار ثابت.
+#
+# النسخة الأولى ثبّتت مسارات ويندوز، فنجحت على الجهاز وفشلت على خادم
+# GitHub لأنه Linux ولا يملكها — وسقطت التشغيلة كلها. القائمة مرتّبة
+# بالأفضلية، وأول موجود يُستخدم. والشرط الوحيد أن يدعم الخط العربية.
+FONT_CANDIDATES_BOLD = [
+    "C:/Windows/Fonts/segoeuib.ttf",
+    "/usr/share/fonts/truetype/noto/NotoSansArabic-Bold.ttf",
+    "/usr/share/fonts/truetype/noto/NotoNaskhArabic-Bold.ttf",
+    "/usr/share/fonts/truetype/kacst/KacstBook.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+]
+FONT_CANDIDATES_REG = [
+    "C:/Windows/Fonts/segoeui.ttf",
+    "/usr/share/fonts/truetype/noto/NotoSansArabic-Regular.ttf",
+    "/usr/share/fonts/truetype/noto/NotoNaskhArabic-Regular.ttf",
+    "/usr/share/fonts/truetype/kacst/KacstBook.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+]
+
+
+def _find_font(candidates):
+    for path in candidates:
+        if os.path.exists(path):
+            return path
+    # بحث أوسع قبل الاستسلام: توزيعات Linux تختلف في مواضع خطوطها
+    import glob
+    for pattern in ("/usr/share/fonts/**/*Arabic*.ttf",
+                    "/usr/share/fonts/**/*arab*.ttf",
+                    "/usr/share/fonts/**/DejaVuSans*.ttf"):
+        hits = glob.glob(pattern, recursive=True)
+        if hits:
+            return sorted(hits)[0]
+    raise FileNotFoundError(
+        "لم يُعثر على خط يدعم العربية. على Linux ثبّت: "
+        "sudo apt-get install -y fonts-noto-core")
+
+
+FONT_BOLD = _find_font(FONT_CANDIDATES_BOLD)
+FONT_REG = _find_font(FONT_CANDIDATES_REG)
 
 BG_TOP = (14, 18, 28)
 BG_BOT = (26, 20, 38)

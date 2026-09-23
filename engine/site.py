@@ -36,6 +36,24 @@ OUT = os.path.join(ROOT, "site")
 E = html.escape
 
 SITE_NAME = "الترندات"
+
+# رمز Cloudflare Web Analytics. ليس سرًا: يظهر في مصدر كل صفحة بطبيعته،
+# فمكانه الكود لا GitHub Secrets. فارغ = لا يُضاف أي سكربت.
+#
+# اخترنا Cloudflare لا Google Analytics: بلا ملفات تعريف ارتباط، فلا
+# يلزم شريط موافقة، وتبقى سياسة الخصوصية صادقة حين تقول إننا لا نجمع
+# إلا إحصاءات مجمّعة لا تعرّف أحدًا.
+CF_BEACON_TOKEN = ""
+
+
+def analytics_tag():
+    if not CF_BEACON_TOKEN:
+        return ""
+    beacon = json.dumps({"token": CF_BEACON_TOKEN})
+    return ('<script defer src="https://static.cloudflareinsights.com/'
+            "beacon.min.js\" data-cf-beacon='" + beacon + "'></script>")
+
+
 # يُستبدل بالنطاق الحقيقي فور حجزه — يمرَّر كوسيط للسكربت
 BASE = "https://altrendat.com"
 
@@ -79,6 +97,7 @@ SHELL = """<!DOCTYPE html>
   <p>{site} — يرصد الأكثر بحثًا يوميًا في العالم العربي.</p>
   <p class="fine">الأخبار منسوبة إلى مصادرها وروابطها، والأرقام إلى جهاتها.</p>
 </footer>
+{analytics}
 </body>
 </html>"""
 
@@ -188,7 +207,7 @@ def page(path, title, desc, body, canonical, nav="", image=None,
     out = SHELL.format(
         title=E(title), desc=E(desc[:300]), canonical=E(canonical),
         site=E(SITE_NAME), ogimage=ogimage, ogtype=ogtype, jsonld=ld,
-        nav=nav, body=body, root=root)
+        nav=nav, body=body, root=root, analytics=analytics_tag())
 
     full = os.path.join(OUT, path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
@@ -614,7 +633,8 @@ def build_404():
     out = SHELL.format(
         title=E("الصفحة غير موجودة | " + SITE_NAME), desc="",
         canonical=BASE + "/404.html", site=E(SITE_NAME), ogimage="",
-        ogtype="website", jsonld="", nav="", body=body, root="/")
+        ogtype="website", jsonld="", nav="", body=body, root="/",
+        analytics=analytics_tag())
     out = out.replace('content="index, follow', 'content="noindex, follow')
     with open(os.path.join(OUT, "404.html"), "w", encoding="utf-8") as f:
         f.write(out)

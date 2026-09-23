@@ -120,7 +120,8 @@ def main():
     # للمحتوى نسختان في نتائج البحث، وتشتّتت قوة الموقع بين عنوانين.
     # الأنظف أن يبدأ الفهرسة على عنوانه النهائي مرة واحدة.
     host = base.split("//", 1)[-1].split("/", 1)[0]
-    if host.endswith(".pages.dev") or host.startswith("localhost"):
+    TEMP = (".pages.dev", ".workers.dev", ".vercel.app", ".netlify.app")
+    if host.endswith(TEMP) or host.startswith("localhost"):
         print("  ⏸ عنوان مؤقت (" + host + ") — لا يُرسل للفهرسة.")
         print("     اضبط SITE_BASE على نطاقك بعد حجزه.")
         return 0

@@ -30,6 +30,16 @@ def slugify(text):
     return s.strip("-")[:80] or "trend"
 
 
+def day_of(d):
+    """يوم البلد بتوقيته المحلي — المصدر الوحيد لليوم في كل الخطوات.
+
+    الكاتب والكروت والذاكرة والموقع يجب أن تتفق على اليوم نفسه، وإلا
+    كُتب المقال تحت يوم ونُشر تحت آخر. البيانات القديمة بلا حقل day
+    تبقى على تاريخ UTC الذي بُنيت به، فلا تتغيّر روابطها.
+    """
+    return d.get("day") or d["generated_at"][:10]
+
+
 def load():
     if os.path.exists(STORE):
         with open(STORE, encoding="utf-8") as f:
@@ -48,7 +58,7 @@ def merge(store, data):
     new_entities = new_appearances = 0
 
     for country_key, d in data.items():
-        day = d["generated_at"][:10]
+        day = day_of(d)
 
         for t in d["trends"]:
             slug = slugify(t["title"])

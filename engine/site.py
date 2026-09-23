@@ -252,7 +252,7 @@ def sources_list(news):
 
 def build_trend(country, cfg, t, urls):
     slug = entities.slugify(t["title"])
-    day = cfg["generated_at"][:10]
+    day = entities.day_of(cfg)
     art = t["article"]
     path = "{}/{}/{}/index.html".format(country, day, slug)
     canonical = "{}/{}/{}/{}/".format(BASE, country, day, slug)
@@ -334,7 +334,7 @@ def archive_today(data):
     os.makedirs(days_dir, exist_ok=True)
 
     for key, cfg in data.items():
-        day = cfg["generated_at"][:10]
+        day = entities.day_of(cfg)
         path = os.path.join(days_dir, "{}-{}.json".format(key, day))
 
         # تشغيلات اليوم نفسه تُدمج: الجديد يُضاف والقديم يُحدَّث،
@@ -368,7 +368,11 @@ def load_days():
             continue
         key, day = name[:-5].split("-", 1)
         with open(os.path.join(days_dir, name), encoding="utf-8") as f:
-            out[(key, day)] = json.load(f)
+            snap = json.load(f)
+        # اليوم من اسم الملف لا من generated_at: لقطة يوم القاهرة 24
+        # قد تحمل وقت UTC من مساء 23.
+        snap["day"] = day
+        out[(key, day)] = snap
     return out
 
 
@@ -449,7 +453,7 @@ def build_archive(country, cfg_days, urls):
 
 
 def build_country(country, cfg, urls):
-    day = cfg["generated_at"][:10]
+    day = entities.day_of(cfg)
     pub = [t for t in cfg["trends"] if t.get("article")]
     pub.sort(key=lambda x: -x["traffic_num"])
 
@@ -654,7 +658,7 @@ def build_feed(data):
 
     body = []
     for _, key, cfg, t, art in items[:40]:
-        link = "{}/{}/{}/{}/".format(BASE, key, cfg["generated_at"][:10],
+        link = "{}/{}/{}/{}/".format(BASE, key, entities.day_of(cfg),
                                      entities.slugify(t["title"]))
         img = ""
         if t.get("card"):
@@ -689,10 +693,29 @@ def main():
 
     with open(os.path.join(ROOT, "data", "trends.json"), encoding="utf-8") as f:
         data = json.load(f)
-    COUNTRIES = {k: {"flag": v["flag"], "name_ar": v["country_name"]}
-                 for k, v in data.items()}
+    with open(os.path.join(ROOT, "engine", "countries.json"),
+              encoding="utf-8") as f:
+        rank = {k: i for i, k in enumerate(json.load(f))}
 
     archive_today(data)
+
+    # كل يوم مؤرشف يُبنى، لا يوم واحد. صفحة الأمس تبقى على رابطها،
+    # وهذا شرط الفهرسة: رابط يختفي بعد يوم لا يُرتَّب أبدًا.
+    days = load_days()
+    by_country = {}
+    for (key, day), cfg in days.items():
+        by_country.setdefault(key, []).append((day, cfg))
+    for entries in by_country.values():
+        entries.sort(key=lambda x: x[0], reverse=True)
+
+    # صفحة البلد والرئيسة والقائمة تُبنى من أحدث يوم مؤرشف لكل بلد،
+    # لا من trends.json. حين فشل جلب مصر مرة خرجت من trends.json،
+    # فاختفت من القائمة وصار /eg/ خطأ 404 رغم أن أرشيفها كامل. الأرشيف
+    # لا يُمحى، فالبناء منه لا يُسقط بلدًا بسبب تشغيلة واحدة.
+    latest = {k: by_country[k][0][1]
+              for k in sorted(by_country, key=lambda k: rank.get(k, len(rank)))}
+    COUNTRIES = {k: {"flag": v["flag"], "name_ar": v["country_name"]}
+                 for k, v in latest.items()}
 
     if os.path.exists(OUT):
         shutil.rmtree(OUT)
@@ -701,15 +724,7 @@ def main():
     urls = []
     n_trends = n_days = 0
 
-    # كل يوم مؤرشف يُبنى، لا يوم واحد. صفحة الأمس تبقى على رابطها،
-    # وهذا شرط الفهرسة: رابط يختفي بعد يوم لا يُرتَّب أبدًا.
-    days = load_days()
-    by_country = {}
-    for (key, day), cfg in days.items():
-        by_country.setdefault(key, []).append((day, cfg))
-
     for key, entries in by_country.items():
-        entries.sort(key=lambda x: x[0], reverse=True)
         dates = [d for d, _ in entries]
 
         for i, (day, cfg) in enumerate(entries):
@@ -727,12 +742,12 @@ def main():
                             for d, c in entries], urls)
 
     # صفحة البلد تعرض اليوم الأحدث
-    for key, cfg in data.items():
+    for key, cfg in latest.items():
         build_country(key, cfg, urls)
 
-    build_home(data, urls)
+    build_home(latest, urls)
     build_static(urls)
-    n_feed = build_feed(data)
+    n_feed = build_feed(latest)
     build_404()
 
     # صفحات الكيانات — الأصل الذي يتراكم.
@@ -771,7 +786,7 @@ def main():
                 BASE + "/sitemap.xml\n")
 
     print("✓ الموقع جاهز في site/")
-    print("  " + str(len(data)) + " بلد · " + str(n_days) + " صفحة يوم · " +
+    print("  " + str(len(latest)) + " بلد · " + str(n_days) + " صفحة يوم · " +
           str(n_trends) + " صفحة ترند · " +
           str(len(store) - skipped) + " صفحة كيان")
     print("  " + str(skipped) + " كيانًا حجبته بوابة الأمان")

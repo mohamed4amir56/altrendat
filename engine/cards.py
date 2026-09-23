@@ -173,7 +173,7 @@ def main():
     made = reused = 0
 
     for key, d in data.items():
-        day = d["generated_at"][:10]
+        day = entities.day_of(d)
         for t in d["trends"]:
             # الاسم من المحتوى لا من الترتيب: كارت "دولار أمريكي" يبقى
             # هو نفسه غدًا، بينما eg-01 كان يصير ترندًا آخر كل يوم

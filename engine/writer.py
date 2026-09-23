@@ -198,7 +198,8 @@ def main():
 
     for key, d in data.items():
         print("\n" + d["flag"] + "  " + d["country_name"])
-        day = d["generated_at"][:10]
+        # نفس قاعدة entities.day_of: اليوم بتوقيت البلد
+        day = d.get("day") or d["generated_at"][:10]
 
         for t in d["trends"]:
             # الحد يحسب المحاولات لا النجاحات: لو حسب النجاحات وحدها،

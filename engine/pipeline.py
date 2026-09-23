@@ -15,7 +15,8 @@ import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+import time
+from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import providers  # noqa: E402
@@ -315,9 +316,43 @@ def _sources_mention(trend, min_len=3):
 # ==================================================
 # 4. التشغيل
 # ==================================================
+def local_now(cfg):
+    """الوقت بتوقيت البلد لا بتوقيت الخادم.
+
+    اليوم في الروابط كان يُؤخذ من UTC، فخبر كُتب في القاهرة ليلة 23
+    سبتمبر خرج برابط 2026-09-22 ونصّه يقول "23 سبتمبر". القارئ يعيش
+    بتوقيت بلده، واليوم يجب أن يبدأ عنده لا في لندن.
+    """
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo(cfg["tz"]))
+    except Exception:
+        # ويندوز بلا حزمة tzdata لا يعرف أسماء المناطق — إزاحة ثابتة
+        # تكفي للتجربة المحلية، وخادم Linux يملك القاعدة كاملة.
+        return datetime.now(timezone(timedelta(hours=cfg.get("utc_offset", 3))))
+
+
+def fetch_with_retry(geo, tries=3):
+    """Google ترفض أحيانًا طلبًا واحدًا من خوادم GitHub؛ المحاولة الثانية
+    بعد ثوانٍ تنجح غالبًا. والقائمة الفارغة فشل أيضًا لا "لا ترندات"."""
+    err = None
+    for i in range(tries):
+        try:
+            trends = fetch_trends(geo)
+            if trends:
+                return trends
+            err = ValueError("قائمة فارغة")
+        except Exception as e:
+            err = e
+        if i < tries - 1:
+            print("  ⟳ محاولة " + str(i + 2) + " بعد خطأ: " + type(err).__name__)
+            time.sleep(5 * (i + 1))
+    raise err
+
+
 def build(country_key, cfg):
     print("  ↓ جلب ترندات " + cfg["name_ar"] + " ...")
-    trends = fetch_trends(cfg["trends_geo"])
+    trends = fetch_with_retry(cfg["trends_geo"])
     print("  ✓ " + str(len(trends)) + " ترند")
 
     n_pages = sum(len(t["news"]) for t in trends)
@@ -367,6 +402,7 @@ def build(country_key, cfg):
         "country_name": cfg["name_ar"],
         "flag": cfg["flag"],
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "day": local_now(cfg).strftime("%Y-%m-%d"),
         "trends": trends,
     }
 
@@ -375,6 +411,15 @@ def main():
     cfg_path = os.path.join(ROOT, "engine", "countries.json")
     with open(cfg_path, encoding="utf-8") as f:
         countries = json.load(f)
+
+    out_path = os.path.join(ROOT, "data", "trends.json")
+    prev = {}
+    if os.path.exists(out_path):
+        try:
+            with open(out_path, encoding="utf-8") as f:
+                prev = json.load(f)
+        except Exception:
+            prev = {}
 
     only = sys.argv[1] if len(sys.argv) > 1 else None
     results = {}
@@ -388,10 +433,17 @@ def main():
             results[key] = build(key, cfg)
         except Exception as e:
             print("  ✗ فشل: " + type(e).__name__ + ": " + str(e))
+            # فشل الجلب لا يمحو البلد. حدث فعلًا: رفضت Google طلب مصر
+            # مرة واحدة، فخرجت مصر من trends.json، فاختفت صفحتها من
+            # الموقع وصار /eg/ خطأ 404. آخر نسخة ناجحة أصدق من لا شيء.
+            if key in prev:
+                results[key] = prev[key]
+                results[key]["stale"] = True
+                print("  ↺ أُبقيت آخر نسخة ناجحة: " +
+                      prev[key]["generated_at"][:16] + " UTC")
 
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
-    with open(os.path.join(ROOT, "data", "trends.json"), "w",
-              encoding="utf-8") as f:
+    with open(out_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
     # اللقطة اليومية لا تُحفظ هنا: المقالات والكروت تُضاف بعد هذه

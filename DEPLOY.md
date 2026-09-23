@@ -11,6 +11,9 @@
 gh repo create altrendat --public --source=. --push
 ```
 
+> المتطلبات: `Pillow` للكروت و `anthropic` للكتابة — يثبّتهما الكرون
+> بنفسه. ونسيان الثانية يجعل الموقع يلتقط ويصنّف بلا أن يكتب شيئًا.
+
 ## 2. أضف المفتاح إلى المستودع
 
 Settings ← Secrets and variables ← Actions ← New repository secret

@@ -28,9 +28,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      # المحرّك بلا تبعيات عدا Pillow لتوليد الكروت
+      # Pillow للكروت، و anthropic للكتابة. نسيان الثانية جعل كل
+      # تشغيلة تلتقط وتصنّف ثم تخرج بصفر مقالات، والخطأ مكتوم لأن
+      # خطوة الكتابة تحمل continue-on-error.
       - name: تثبيت المتطلبات
-        run: pip install --quiet Pillow
+        run: pip install --quiet Pillow anthropic
 
       # خادم Ubuntu لا يملك خطًا عربيًا افتراضيًا، فالكروت تخرج مربعات
       # فارغة أو يفشل التوليد. Noto يغطي العربية كاملة.

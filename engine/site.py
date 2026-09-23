@@ -24,6 +24,7 @@ import os
 import shutil
 import sys
 from datetime import datetime, timezone
+from itertools import zip_longest
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import entities  # noqa: E402
@@ -467,21 +468,36 @@ def build_country(country, cfg, urls):
                 d=day, s=slug, i=i, h=E(t["article"]["headline"]),
                 ic=t["icon"], cat=E(t["category"]), tr=E(t["traffic"])))
 
+    # جملة تسمّي أبرز مواضيع اليوم.
+    #
+    # الصفحة كانت عنوانًا وقائمة روابط، فلم تجد Google نصًّا تصفها به،
+    # فعرضت في نتائج البحث سطر التذييل "الأخبار منسوبة إلى مصادرها..."
+    # وهو لا يقول للباحث شيئًا. أسماء المواضيع نفسها هي ما يبحث عنه،
+    # وتتغيّر كل يوم فتبقى الصفحة جديدة في عين الزاحف.
+    names = [t["title"] for t in pub[:3]]
+    intro = ""
+    if names:
+        intro = "أكثر ما بحث عنه الناس في {} يوم {}: {}.".format(
+            cfg["country_name"], day, "، و".join(names))
+
     canonical = "{}/{}/".format(BASE, country)
     body = """
     <h1>{flag} الأكثر بحثًا اليوم في {name}</h1>
+    {intro}
     <p class="meta">{day} · {n} موضوعًا ·
        <a href="archive/">أرشيف الأيام السابقة</a></p>
     <div class="list">{items}</div>""".format(
         flag=cfg["flag"], name=E(cfg["country_name"]), day=day,
+        intro="<p class='lead'>{} نشرح كل موضوع بمصادره.</p>".format(E(intro))
+              if intro else "",
         n=len(pub), items="".join(items))
 
     urls.append((canonical, cfg["generated_at"], "0.9"))
     return page("{}/index.html".format(country),
                 "الأكثر بحثًا اليوم في {} | {}".format(
                     cfg["country_name"], SITE_NAME),
-                "أهم ما يبحث عنه الناس اليوم في {}، مشروحًا بمصادره.".format(
-                    cfg["country_name"]),
+                intro or "أهم ما يبحث عنه الناس اليوم في {}، مشروحًا "
+                         "بمصادره.".format(cfg["country_name"]),
                 body, canonical, nav=country_nav(country, 1), depth=1)
 
 
@@ -529,11 +545,40 @@ def build_home(data, urls):
                 c=len(pub),
                 t=" · أبرزها: " + E(top["title"]) if top else ""))
 
+    # أبرز الأخبار مباشرة من الرئيسة.
+    #
+    # كانت الرئيسة تربط بالبلدان وحدها، فالخبر على بعد نقرتين منها.
+    # والرئيسة أقوى صفحة عند Google وأول ما يُزحف إليه، فرابط مباشر منها
+    # يوصل الزاحف إلى الخبر في زيارته الأولى — وهو ما يُفهرس ويُبحث عنه.
+    # بالتناوب بين البلدان: أرقام بحث مصر أكبر، فالترتيب بالرقم وحده
+    # يُخفي السعودية كلها.
+    per = []
+    for key, cfg in data.items():
+        pub = sorted([t for t in cfg["trends"] if t.get("article")],
+                     key=lambda x: -x["traffic_num"])
+        per.append([(key, cfg, t) for t in pub])
+    mixed = [x for row in zip_longest(*per) for x in row if x][:12]
+
+    news = []
+    for i, (key, cfg, t) in enumerate(mixed, 1):
+        news.append(
+            "<a class='item' href='{k}/{d}/{s}/'>"
+            "<h3><span class='rank'>{i}</span>{h}</h3>"
+            "<p class='sub'>{f} {n} · {ic} {cat} · 🔍 {tr}</p></a>".format(
+                k=key, d=entities.day_of(cfg), s=entities.slugify(t["title"]),
+                i=i, h=E(t["article"]["headline"]), f=cfg["flag"],
+                n=E(cfg["country_name"]), ic=t["icon"],
+                cat=E(t["category"]), tr=E(t["traffic"])))
+
     body = """
     <h1>ما الذي يبحث عنه العرب اليوم؟</h1>
     <p class="lead">نرصد الأكثر بحثًا في كل بلد، ونشرح لماذا —
        بمصادره وأرقامه.</p>
-    <div class="list">{cards}</div>""".format(cards="".join(cards))
+    <div class="list">{cards}</div>
+    {news}""".format(
+        cards="".join(cards),
+        news=("<h2>أبرز أخبار اليوم</h2><div class='list'>" +
+              "".join(news) + "</div>") if news else "")
 
     urls.append((BASE + "/", datetime.now(timezone.utc).isoformat(), "1.0"))
     return page("index.html", "{} — الأكثر بحثًا اليوم في العالم العربي".format(

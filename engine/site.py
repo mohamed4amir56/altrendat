@@ -572,8 +572,7 @@ def build_home(data, urls):
 
     body = """
     <h1>ما الذي يبحث عنه العرب اليوم؟</h1>
-    <p class="lead">نرصد الأكثر بحثًا في كل بلد، ونشرح لماذا —
-       بمصادره وأرقامه.</p>
+    <p class="lead">الترند قبل أن يبرد… ما يشغل الملايين الآن ⚡</p>
     <div class="list">{cards}</div>
     {news}""".format(
         cards="".join(cards),

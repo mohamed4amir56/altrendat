@@ -13,7 +13,9 @@ import json
 import os
 import re
 import sys
+import urllib.parse
 import urllib.request
+from email.utils import parsedate_to_datetime
 import xml.etree.ElementTree as ET
 import time
 from datetime import datetime, timedelta, timezone
@@ -68,6 +70,10 @@ CATEGORIES = [
     ]),
     ("طقس", "🌤️", "#7fd8ff", [
         "طقس", "أمطار", "حرارة", "عاصفة", "رياح", "الأرصاد",
+        # الناس تبحث عن الطقس بالإنجليزية أيضًا: "weather tomorrow" تصدّر
+        # مصر ففاتته الفئة وصُنّف "عام"، فلم يُطلب له مصدر محلي. "rain"
+        # ليست هنا عمدًا: تطابق داخل "ukraine" و"train".
+        "weather", "forecast",
     ]),
     ("أبراج وفلك", "🔮", "#b39ddb", [
         "برج", "أبراج", "فلكي", "حظك", "توقعات", "الأبراج",
@@ -86,6 +92,20 @@ CATEGORIES = [
         "القاهرة", "الرياض", "جدة", "دبي", "الإسكندرية", "مكة",
     ]),
 ]
+
+# مواضيع يسأل فيها القارئ عن بلده هو، فمصدر عن بلد آخر لا يجيبه.
+# حدث فعلًا: ترند "weather tomorrow" في مصر جاءت أخباره الثلاثة من
+# الإمارات (Sharjah24 وTime Out Dubai وThe National)، فكُتب مقال عن طقس
+# الإمارات ونُشر أول أخبار مصر. القيمة هي عبارة البحث عن أخبار البلد.
+#
+# الطقس وحده هنا بقصد: ترند مصري عن مباراة سعودية بمصادر سعودية صحيح
+# تمامًا. أضف فئة فقط حين يكون جوابها محليًا دائمًا.
+#
+# لكل فئة أكثر من صيغة بحث: Bing يعيد نحو عشرة أخبار للصيغة الواحدة،
+# وبعد استبعاد القديم والمختلط بقي خبران فقط لمصر في تجربة حقيقية.
+LOCAL_CATEGORIES = {
+    "طقس": ["طقس {country}", "الطقس غدا {country}", "الأرصاد {country}"],
+}
 
 # محظور من النشر التلقائي — خطر قانوني وأخلاقي حقيقي
 BLOCKED_KEYWORDS = [
@@ -313,6 +333,130 @@ def _sources_mention(trend, min_len=3):
     return any(normalize(w) in haystack for w in words)
 
 
+def mentions_place(text, cfg):
+    """هل يذكر النص البلد أو إحدى مدنه؟ (places في countries.json)"""
+    norm = normalize(text)
+    return any(_word_re(p).search(norm)
+               for p in cfg.get("places") or [cfg["name_ar"]])
+
+
+_ALL_COUNTRIES = None
+
+
+def _all_countries():
+    global _ALL_COUNTRIES
+    if _ALL_COUNTRIES is None:
+        with open(os.path.join(ROOT, "engine", "countries.json"),
+                  encoding="utf-8") as f:
+            _ALL_COUNTRIES = json.load(f)
+    return _ALL_COUNTRIES
+
+
+def only_here(text, cfg):
+    """يذكر هذا البلد ولا يذكر بلدًا آخر من countries.json.
+
+    ذِكر البلد وحده لا يكفي: خبر عنوانه "أخبار مصر : طقس السعودية.. أمطار
+    في جازان وعسير" يذكر مصر في اسم القسم، وهو عن السعودية.
+    """
+    return mentions_place(text, cfg) and not any(
+        mentions_place(text, other) for other in _all_countries().values()
+        if other.get("code") != cfg.get("code"))
+
+
+def about_here(news_item, cfg):
+    """هل الخبر عن هذا البلد؟ يُحكم بموضوعه لا بموقع ناشره: "صدى البلد"
+    المصري يكتب عن طقس السعودية، وخبره عن السعودية لا عن مصر."""
+    return only_here(" ".join([
+        news_item.get("title", ""), news_item.get("og_title", ""),
+        news_item.get("og_desc", "")]), cfg)
+
+
+def fetch_local_news(query, cfg, max_age_hours=48):
+    """أخبار البلد نفسه من Bing News، الأحدث أولًا.
+
+    لا Google News: روابطه مشفّرة خلف news.google.com ولا تفتح صفحة
+    الخبر، فلا نستخرج منها og: ولا نجد نصًا نكتب منه. Bing يضع رابط
+    المقال الحقيقي في معامل url=. والوسوم الإضافية (المصدر والصورة)
+    في نطاق أسماء عنوانه هو رابط البحث نفسه، فتُقرأ باسمها المحلي.
+    """
+    url = ("https://www.bing.com/news/search?format=rss&setlang=ar&cc=" +
+           cfg["code"] + "&q=" + urllib.parse.quote(query))
+    root = ET.fromstring(_get(url).decode("utf-8", errors="replace"))
+
+    now = datetime.now(timezone.utc)
+    items = []
+    for item in root.findall(".//item"):
+        link = html.unescape(item.findtext("link") or "")
+        real = urllib.parse.parse_qs(
+            urllib.parse.urlparse(link).query).get("url", [""])[0]
+        if not real.startswith("http"):
+            continue
+        extra = {c.tag.rsplit("}", 1)[-1]: (c.text or "").strip() for c in item}
+        try:
+            when = parsedate_to_datetime(item.findtext("pubDate") or "")
+            if when.tzinfo is None:
+                when = when.replace(tzinfo=timezone.utc)
+            if now - when > timedelta(hours=max_age_hours):
+                continue                      # طقس الأسبوع الماضي لا يجيب أحدًا
+        except (TypeError, ValueError):
+            when = None
+        items.append({
+            "title": html.unescape(item.findtext("title") or "").strip(),
+            "url": real,
+            "source": extra.get("Source", ""),
+            "thumb": extra.get("Image", ""),
+            "_desc": html.unescape(item.findtext("description") or ""),
+            "_when": when,
+        })
+
+    items.sort(key=lambda n: n["_when"] or now - timedelta(days=365), reverse=True)
+    return items
+
+
+def localize(trend, cfg):
+    """يستبدل بمصادر عن بلد آخر أخبارَ البلد نفسه، أو يوقف الترند."""
+    queries = [q.format(country=cfg["name_ar"])
+               for q in LOCAL_CATEGORIES[trend["category"]]]
+    print("  ↻ \"" + trend["title"] + "\" مصادره عن بلد آخر — بحث: " +
+          " / ".join(queries))
+    found, seen = [], set()
+    for query in queries:
+        try:
+            for n in fetch_local_news(query, cfg):
+                if n["url"] not in seen:
+                    seen.add(n["url"])
+                    found.append(n)
+        except Exception as e:
+            print("    ✗ " + query + ": " + type(e).__name__)
+    found.sort(key=lambda n: n["_when"] or datetime.min.replace(tzinfo=timezone.utc),
+               reverse=True)
+
+    local = [n for n in found
+             if only_here(n["title"] + " " + n["_desc"], cfg)][:3]
+    for n in local:
+        n.pop("_desc", None)
+        n.pop("_when", None)
+    enrich([{"news": local}])
+    # يُعاد الحكم بعد قراءة الصفحة: og:description أطول من ملخص Bing
+    # وقد يكشف أن الخبر عن بلد آخر.
+    ok = [n for n in local if n.get("ok") and about_here(n, cfg)]
+
+    if len(ok) < 2:
+        trend["publishable"] = False
+        trend["reason"] = "موضوع محلي ومصادره عن بلد آخر، ولا أخبار محلية كافية"
+        print("    ✗ لا أخبار محلية كافية — لن يُنشر")
+        return
+
+    trend["news"] = ok
+    trend["localized"] = True           # writer يعيد مقالًا كُتب قبل الاستبدال
+    # صورة الترند من Google كانت لخبر البلد الآخر؛ تُستبدل بصورة محلية.
+    pic = next((n for n in ok if n.get("og_image")), None)
+    trend["image"] = pic["og_image"] if pic else ""
+    trend["image_source"] = pic.get("source", "") if pic else ""
+    trend["reason"] += " · مصادر محلية بدل مصادر عن بلد آخر"
+    print("    ✓ " + " · ".join(n["source"] or "?" for n in ok))
+
+
 # ==================================================
 # 4. التشغيل
 # ==================================================
@@ -366,6 +510,12 @@ def build(country_key, cfg):
             t["title"], [n["title"] for n in t["news"]])
         t.update(category=cat, icon=icon, color=color,
                  reason=reason, publishable=publishable)
+
+        # موضوع محلي بطبعه: مصادره يجب أن تتحدث عن هذا البلد.
+        if t["publishable"] and t["category"] in LOCAL_CATEGORIES:
+            t["local_only"] = True
+            if not any(about_here(n, cfg) for n in t["news"] if n.get("ok")):
+                localize(t, cfg)
 
         # صفحة بلا مصدرين على الأقل = صفحة رقيقة، لا تُنشر
         if t["publishable"] and len([n for n in t["news"] if n.get("ok")]) < 2:

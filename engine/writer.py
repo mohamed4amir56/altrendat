@@ -125,6 +125,12 @@ def build_prompt(trend, country_name):
         ]
         block = "\n".join(lines)
 
+    # موضوع محلي (انظر LOCAL_CATEGORIES في pipeline): مصادره اختيرت لأنها
+    # عن هذا البلد، والمقال يبقى عنه ولا يستطرد إلى غيره.
+    if trend.get("local_only"):
+        block = ("\nهذا موضوع محلي: اكتب عن " + country_name +
+                 " وحدها، ولا تنقل أخبار بلد آخر.\n") + block
+
     return (
         "المصطلح الأكثر بحثًا: {title}\n"
         "البلد: {country}\n"
@@ -237,6 +243,15 @@ def main():
             if stale:
                 print("  ♻ إعادة كتابة (تغيّرت البيانات): " + t["title"])
 
+            # وبالقاعدة الضيقة نفسها: مقال كُتب من مصادر عن بلد آخر، ثم
+            # استُبدلت بها أخبار البلد (localize في pipeline)، يُعاد — وإلا
+            # عُرض نص عن طقس الإمارات فوق مصادر مصرية.
+            localized = bool(t.get("localized"))
+            if (k in store and localized and not stale
+                    and not store[k].get("_localized")):
+                stale = True
+                print("  ♻ إعادة كتابة (مصادر محلية): " + t["title"])
+
             if k in store and not force and not stale:
                 t["article"] = store[k]
                 cached += 1
@@ -250,6 +265,7 @@ def main():
                     if n_tags < 3:
                         print("  ⚠ " + str(n_tags) + " كلمة مفتاحية فقط")
                     article["_had_data"] = has_data
+                    article["_localized"] = localized
                     t["article"] = article
                     store[k] = article
                     save_articles(store)   # حفظ فوري: انقطاع لا يضيّع ما دُفع ثمنه

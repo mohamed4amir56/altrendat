@@ -320,7 +320,12 @@ def fetch_og(url):
             for pat in patterns:
                 m = pat.search(page)
                 if m:
-                    out[key] = html.unescape(m.group(1)).strip()
+                    val = html.unescape(m.group(1)).strip()
+                    if key == "og_image":
+                        # استبعاد الروابط غير الصالحة أو التي تحوي وسوماً متسربة
+                        if not val.startswith(("http://", "https://")) or any(c in val for c in ("<", ">", "\n", "\r")):
+                            continue
+                    out[key] = val
                     break
         out["ok"] = bool(out["og_desc"] or out["og_title"])
     except Exception as e:

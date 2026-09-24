@@ -50,6 +50,18 @@ h2{font-size:1.25rem;font-weight:800;margin:28px 0 10px}
   background:rgba(245,197,66,.07);border:1px solid rgba(245,197,66,.22);
   border-radius:14px;padding:15px 18px;margin-bottom:22px;
 }
+.article-photo{
+  margin:18px 0 24px;border-radius:16px;overflow:hidden;
+  border:1px solid var(--line);background:var(--card);
+}
+.article-photo img{
+  width:100%;height:auto;max-height:480px;object-fit:cover;
+  display:block;
+}
+.article-photo figcaption{
+  font-size:.78rem;color:var(--mut);padding:8px 14px;
+  background:rgba(255,255,255,.02);border-top:1px solid var(--line);
+}
 article p{margin-bottom:16px;text-align:start;font-size:1.05rem;
   line-height:1.95;color:#dfe6f0}
 article p:first-child{font-size:1.12rem;color:var(--txt)}

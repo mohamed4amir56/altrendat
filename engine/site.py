@@ -154,6 +154,18 @@ h2{font-size:1.25rem;font-weight:800;margin:28px 0 10px}
   background:rgba(245,197,66,.07);border:1px solid rgba(245,197,66,.22);
   border-radius:14px;padding:15px 18px;margin-bottom:22px;
 }
+.article-photo{
+  margin:18px 0 24px;border-radius:16px;overflow:hidden;
+  border:1px solid var(--line);background:var(--card);
+}
+.article-photo img{
+  width:100%;height:auto;max-height:480px;object-fit:cover;
+  display:block;
+}
+.article-photo figcaption{
+  font-size:.78rem;color:var(--mut);padding:8px 14px;
+  background:rgba(255,255,255,.02);border-top:1px solid var(--line);
+}
 article p{margin-bottom:16px;text-align:start;font-size:1.05rem;
   line-height:1.95;color:#dfe6f0}
 article p:first-child{font-size:1.12rem;color:var(--txt)}
@@ -251,6 +263,35 @@ def sources_list(news):
     return "<h2>المصادر</h2><ul class='sources'>" + "".join(items) + "</ul>"
 
 
+def pick_trend_photo(t):
+    """يختار صورة صحفية صالحة للترند إن كان يحتاج صورة.
+
+    المقالات التي لا تحتاج صورة:
+    - الترندات التي موضوعها الأساسي جدول بيانات رسمي (مثل مواقيت الصلاة)
+    """
+    if t.get("data"):
+        return None
+
+    for n in t.get("news", []):
+        img = (n.get("og_image") or "").strip()
+        if img and img.startswith(("http://", "https://")) and not any(bad in img for bad in ("<", ">", "\n", "\r")):
+            if any(x in img.lower() for x in ("favicon", "logo_square", "avatar", "placeholder")):
+                continue
+            return {
+                "url": img,
+                "source": n.get("source") or "مصدر إخباري",
+            }
+
+    g_img = (t.get("image") or "").strip()
+    if g_img and g_img.startswith(("http://", "https://")):
+        return {
+            "url": g_img,
+            "source": t.get("image_source") or "تغطية إخبارية",
+        }
+
+    return None
+
+
 def build_trend(country, cfg, t, urls):
     slug = entities.slugify(t["title"])
     day = entities.day_of(cfg)
@@ -261,6 +302,16 @@ def build_trend(country, cfg, t, urls):
     img = None
     if t.get("card"):
         img = BASE + "/cards/" + os.path.basename(t["card"])
+
+    photo = pick_trend_photo(t)
+    photo_html = ""
+    if photo:
+        photo_html = (
+            '<figure class="article-photo">'
+            '<img src="{u}" alt="{alt}" loading="eager" decoding="async">'
+            '<figcaption>صورة من التغطية الإخبارية · المصدر: {s}</figcaption>'
+            '</figure>'.format(u=E(photo["url"]), alt=E(art["headline"]), s=E(photo["source"]))
+        )
 
     jsonld = {
         "@context": "https://schema.org",
@@ -273,8 +324,13 @@ def build_trend(country, cfg, t, urls):
         "publisher": {"@type": "Organization", "name": SITE_NAME},
         "mainEntityOfPage": canonical,
     }
+    img_list = []
+    if photo:
+        img_list.append(photo["url"])
     if img:
-        jsonld["image"] = [img]
+        img_list.append(img)
+    if img_list:
+        jsonld["image"] = img_list
 
     paras = "".join("<p>{}</p>".format(E(p.strip()))
                     for p in art["body"].split("\n") if p.strip())
@@ -292,6 +348,7 @@ def build_trend(country, cfg, t, urls):
     <h1>{head}</h1>
     <p class="lead">{summ}</p>
     {table}
+    {photo}
     <article>{paras}</article>
     <div class="tags">{tags}</div>
     {sources}
@@ -310,6 +367,7 @@ def build_trend(country, cfg, t, urls):
               "width='1200' height='675' loading='lazy'>".format(
                   "../../../../", os.path.basename(t["card"]), E(t["title"]))
               if t.get("card") else ""),
+        photo=photo_html,
         summ=E(art.get("summary", "")), table=data_table(t.get("data")),
         paras=paras, tags=tags, sources=sources_list(t["news"]),
         slug=slug)

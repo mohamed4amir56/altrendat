@@ -17,8 +17,8 @@ if hasattr(sys.stdout, "reconfigure"):
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # المعرّف مأخوذ من client.models.list() لا من التخمين.
-# الكتابة هي قلب المشروع، فنستخدم أحدث نموذج في فئة Opus.
-MODEL = "claude-opus-5-5"
+# نستخدم نموذج Claude Haiku 4.5: أسرع نموذج وأقلها تكلفة (~95% توفير).
+MODEL = "claude-haiku-4-5-20251001"
 
 # مخزن الشروح — منفصل عمدًا عن trends.json.
 #
@@ -183,7 +183,6 @@ def write_one(client, trend, country_name):
             "cache_control": {"type": "ephemeral"},
         }],
         output_config={
-            "effort": "medium",
             "format": {"type": "json_schema",
                        "schema": SCHEMA_PERSON if person else SCHEMA},
         },

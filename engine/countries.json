@@ -1,41 +1,48 @@
 {
+  "world": {
+    "code": "US", "name_ar": "عالمي (Worldwide)", "name_en": "Worldwide", "flag": "🌐",
+    "trends_geo": "US", "lang": "en", "currency": "USD",
+    "tz": "America/New_York", "utc_offset": -4,
+    "gnews": "hl=en-US&gl=US&ceid=US:en", "enabled": true,
+    "places": ["usa", "world", "global", "us", "america", "united states", "uk", "international"]
+  },
   "eg": {
-    "code": "EG", "name_ar": "مصر", "flag": "🇪🇬",
+    "code": "EG", "name_ar": "مصر", "name_en": "Egypt", "flag": "🇪🇬",
     "trends_geo": "EG", "lang": "ar", "currency": "EGP",
     "tz": "Africa/Cairo", "utc_offset": 3,
     "gnews": "hl=ar&gl=EG&ceid=EG:ar", "enabled": true,
     "places": ["مصر", "المصري", "المصرية", "القاهرة", "الإسكندرية", "الجيزة", "الصعيد", "الدلتا", "أسوان", "الأقصر", "egypt", "cairo", "alexandria"]
   },
   "sa": {
-    "code": "SA", "name_ar": "السعودية", "flag": "🇸🇦",
+    "code": "SA", "name_ar": "السعودية", "name_en": "Saudi Arabia", "flag": "🇸🇦",
     "trends_geo": "SA", "lang": "ar", "currency": "SAR",
     "tz": "Asia/Riyadh", "utc_offset": 3,
     "gnews": "hl=ar&gl=SA&ceid=SA:ar", "enabled": true,
     "places": ["السعودية", "السعودي", "الرياض", "جدة", "مكة", "المدينة المنورة", "الدمام", "جازان", "عسير", "القصيم", "تبوك", "حائل", "saudi", "riyadh", "jeddah"]
   },
   "ae": {
-    "code": "AE", "name_ar": "الإمارات", "flag": "🇦🇪",
+    "code": "AE", "name_ar": "الإمارات", "name_en": "UAE", "flag": "🇦🇪",
     "trends_geo": "AE", "lang": "ar", "currency": "AED",
     "tz": "Asia/Dubai", "utc_offset": 4,
     "gnews": "hl=ar&gl=AE&ceid=AE:ar", "enabled": false,
     "places": ["الإمارات", "الإماراتي", "الإماراتية", "دبي", "أبوظبي", "أبو ظبي", "الشارقة", "عجمان", "رأس الخيمة", "الفجيرة", "uae", "emirates", "dubai", "abu dhabi", "sharjah"]
   },
   "ma": {
-    "code": "MA", "name_ar": "المغرب", "flag": "🇲🇦",
+    "code": "MA", "name_ar": "المغرب", "name_en": "Morocco", "flag": "🇲🇦",
     "trends_geo": "MA", "lang": "ar", "currency": "MAD",
     "tz": "Africa/Casablanca", "utc_offset": 1,
     "gnews": "hl=ar&gl=MA&ceid=MA:ar", "enabled": false,
     "places": ["المغرب", "المغربي", "المغربية", "الرباط", "الدار البيضاء", "مراكش", "فاس", "طنجة", "أكادير", "morocco", "casablanca", "rabat"]
   },
   "dz": {
-    "code": "DZ", "name_ar": "الجزائر", "flag": "🇩🇿",
+    "code": "DZ", "name_ar": "الجزائر", "name_en": "Algeria", "flag": "🇩🇿",
     "trends_geo": "DZ", "lang": "ar", "currency": "DZD",
     "tz": "Africa/Algiers", "utc_offset": 1,
     "gnews": "hl=ar&gl=DZ&ceid=DZ:ar", "enabled": false,
     "places": ["الجزائر", "الجزائري", "الجزائرية", "وهران", "قسنطينة", "عنابة", "algeria", "algiers", "oran"]
   },
   "kw": {
-    "code": "KW", "name_ar": "الكويت", "flag": "🇰🇼",
+    "code": "KW", "name_ar": "الكويت", "name_en": "Kuwait", "flag": "🇰🇼",
     "trends_geo": "KW", "lang": "ar", "currency": "KWD",
     "tz": "Asia/Kuwait", "utc_offset": 3,
     "gnews": "hl=ar&gl=KW&ceid=KW:ar", "enabled": false,

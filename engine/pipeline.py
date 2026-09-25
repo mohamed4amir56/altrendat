@@ -33,56 +33,68 @@ TIMEOUT = 15
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-# ==================================================
+# # ==================================================
 # 1. التصنيف — قواعد كلمات مفتاحية، مجانية وفورية
 # ==================================================
 CATEGORIES = [
+    ("طقس", "🌤️", "#7fd8ff", [
+        "طقس", "أمطار", "حرارة", "عاصفة", "رياح", "الأرصاد",
+        "weather", "forecast", "storm", "hurricane", "tornado", "snow",
+        "blizzard", "heatwave", "flood", "flooding", "nor'easter", "wind", "winds",
+    ]),
     ("اقتصاد", "💰", "#f5c542", [
         "سعر", "أسعار", "دولار", "ذهب", "فضة", "بنك", "فائدة", "شهادات", "بورصة",
         "عملة", "جنيه", "ريال", "درهم", "دينار", "تموين", "دواجن", "لحوم", "سلع",
         "مخبز", "خبز", "وقود", "بنزين", "تضخم", "راتب", "معاش", "استثمار",
+        "stock", "stocks", "price", "prices", "inflation", "fed rate", "interest rate",
+        "crypto", "bitcoin", "dollar", "gold price", "market", "economy", "bank", "dow",
+        "nasdaq", "s&p", "earnings", "revenue", "tariff", "tariffs",
     ]),
     ("رياضة", "⚽", "#3ddc97", [
         "منتخب", "مباراة", "الأهلي", "الزمالك", "الهلال", "النصر", "الاتحاد",
         "دوري", "كأس", "لاعب", "هدف", "مدرب", "بطولة", "تصفيات", "ملعب",
         "محرز", "صلاح", "رونالدو", "ميسي", " vs ", "الترجي", "الرجاء",
-        # الأندية تُكتب باسمها فقط، فبلا هذه الكلمات يظنها المصنّف أشخاصًا.
-        # "النادي الإسماعيلي" وقع في هذا الفخ في تشغيلة حقيقية.
         "نادي", "النادي", "فريق", "الإسماعيلي", "بيراميدز", "سموحة",
         "المقاولون", "إنبي", "الزوراء", "الشرطة", "الوحدة", "السد",
+        "vs", "nba", "nfl", "mlb", "nhl", "premier league", "champions league",
+        "cup", "match", "game", "score", "scores", "fc", "club", "coach", "player",
+        "tournament", "lakers", "celtics", "warriors", "chiefs", "ufc", "wwe",
+        "football", "basketball", "baseball", "soccer", "tennis", "phillies", "magic number",
     ]),
     ("تقنية", "💻", "#5aa9ff", [
         "gemini", "chatgpt", "شات جي بي تي", "ذكاء اصطناعي", "آيفون", "ايفون",
         "هاتف", "تطبيق", "جوجل", "google", "واتساب", "سامسونج", "أندرويد",
         "تحديث", "openai", "ماسنجر", "إنستغرام", "تيك توك",
+        "ai", "apple", "iphone", "ios", "microsoft", "nvidia", "meta",
+        "android", "samsung", "app", "update", "software", "tech", "gadget",
+        "cyber", "deepseek", "anthropic", "claude",
     ]),
     ("فن ومشاهير", "🎬", "#c77dff", [
         "فيلم", "مسلسل", "حفل", "فنان", "فنانة", "ممثل", "ممثلة", "أغنية",
         "سينما", "مهرجان", "دراما", "مسرح", "كليب", "ألبوم", "برنامج",
+        "movie", "film", "trailer", "actor", "actress", "singer", "album",
+        "song", "concert", "series", "season", "episode", "grammy", "oscar",
+        "emmy", "billboard", "hollywood", "celebrity", "star", "box office",
+        "lingerie", "model", "fashion", "dating", "boyfriend", "girlfriend", "romance",
     ]),
     ("ديني", "🕌", "#4dd0b1", [
         "صلاة", "أذان", "اذان", "رمضان", "حج", "عمرة", "دعاء", "سورة",
         "مسجد", "إفطار", "سحور", "زكاة", "عيد", "هجري",
+        "prayer", "easter", "christmas", "ramadan", "eid", "church", "mosque",
     ]),
     ("تعليم", "🎓", "#ff9f68", [
         "امتحان", "امتحانات", "نتيجة", "ثانوية", "جامعة", "تنسيق", "مدرسة",
         "طلاب", "منحة", "منح", "دورة", "كلية", "دبلوم", "ترم",
-    ]),
-    ("طقس", "🌤️", "#7fd8ff", [
-        "طقس", "أمطار", "حرارة", "عاصفة", "رياح", "الأرصاد",
-        # الناس تبحث عن الطقس بالإنجليزية أيضًا: "weather tomorrow" تصدّر
-        # مصر ففاتته الفئة وصُنّف "عام"، فلم يُطلب له مصدر محلي. "rain"
-        # ليست هنا عمدًا: تطابق داخل "ukraine" و"train".
-        "weather", "forecast",
+        "university", "college", "school", "exam", "admissions", "scholarship", "ranking",
     ]),
     ("أبراج وفلك", "🔮", "#b39ddb", [
         "برج", "أبراج", "فلكي", "حظك", "توقعات", "الأبراج",
+        "horoscope", "zodiac", "astrology",
     ]),
     ("فضول عام", "🐾", "#8fd694", [
         "سمكة", "حيوان", "طائر", "نبات", "ظاهرة", "اكتشاف", "غريب",
+        "animal", "species", "space", "nasa", "discovery", "eclipse", "comet", "planet",
     ]),
-    # الدول والمدن كانت تُصنَّف أشخاصًا لأنها كلمة واحدة بلا دلالة:
-    # "فرنسا" و"السودان" أوقفا للمراجعة في تشغيلة حقيقية بلا سبب.
     ("دول وأماكن", "🗺️", "#79c0ff", [
         "مصر", "السعودية", "الإمارات", "المغرب", "الجزائر", "تونس",
         "ليبيا", "السودان", "الأردن", "لبنان", "سوريا", "العراق",
@@ -90,47 +102,41 @@ CATEGORIES = [
         "فرنسا", "أمريكا", "بريطانيا", "ألمانيا", "تركيا", "إيران",
         "الصين", "روسيا", "إسبانيا", "إيطاليا", "اليابان", "الهند",
         "القاهرة", "الرياض", "جدة", "دبي", "الإسكندرية", "مكة",
+        "usa", "california", "texas", "florida", "new york", "china",
+        "russia", "japan", "france", "germany", "canada", "mexico",
     ]),
 ]
 
-# مواضيع يسأل فيها القارئ عن بلده هو، فمصدر عن بلد آخر لا يجيبه.
-# حدث فعلًا: ترند "weather tomorrow" في مصر جاءت أخباره الثلاثة من
-# الإمارات (Sharjah24 وTime Out Dubai وThe National)، فكُتب مقال عن طقس
-# الإمارات ونُشر أول أخبار مصر. القيمة هي عبارة البحث عن أخبار البلد.
-#
-# الطقس وحده هنا بقصد: ترند مصري عن مباراة سعودية بمصادر سعودية صحيح
-# تمامًا. أضف فئة فقط حين يكون جوابها محليًا دائمًا.
-#
-# لكل فئة أكثر من صيغة بحث: Bing يعيد نحو عشرة أخبار للصيغة الواحدة،
-# وبعد استبعاد القديم والمختلط بقي خبران فقط لمصر في تجربة حقيقية.
 LOCAL_CATEGORIES = {
     "طقس": ["طقس {country}", "الطقس غدا {country}", "الأرصاد {country}"],
 }
 
-# محظور من النشر التلقائي — خطر قانوني وأخلاقي حقيقي
+# محظور من النشر التلقائي — خطر قانوني وأخلاقي وحماية لحساب AdSense
 BLOCKED_KEYWORDS = [
     "وفاة", "وفاته", "وفاتها", "مقتل", "قتل", "جريمة", "جثة", "انتحار",
     "حادث", "حريق", "غرق", "تشييع", "جنازة", "عزاء", "ضحايا", "قتيل",
     "محكمة", "حبس", "سجن", "اتهام", "متهم", "قضية", "نيابة",
     "تحرش", "اغتصاب", "مخدرات", "رشوة", "فضيحة", "طلاق", "خيانة",
     "مرض", "سرطان", "وباء", "فيروس", "مستشفى", "حوادث",
-    # لم تكن في القائمة، فمرّ خبر "شائعة القبض على ملحن" من الفحص
     "قبض", "اعتقال", "توقيف", "احتجاز",
+    # English sensitive terms
+    "death", "dies", "died", "dead", "murder", "murdered", "killed", "killing",
+    "suicide", "crime", "body", "fatal", "crash", "accident", "shooting", "shot",
+    "drowning", "funeral", "victims", "court", "trial", "arrest", "arrested",
+    "custody", "jail", "prison", "lawsuit", "sued", "rape", "assault", "sexual",
+    "drugs", "overdose", "scandal", "cancer", "epidemic",
 ]
 
-# إضافي للأشخاص وحدهم: خبر رياضي عن "شائعة انتقال لاعب" سليم، أما
-# شائعة أو مزاعم أو تسريب عن شخص فمن أسباب الدعاوى، فلا نكتب فيها.
+# إضافي للأشخاص وحدهم
 PERSON_BLOCKED = [
     "شائعة", "شائعات", "مزاعم", "ادعاءات", "تسريب", "تسريبات", "مسرب",
+    "rumor", "rumors", "allegation", "allegations", "leak", "leaks", "leaked",
 ]
 
 
 _AR = "ء-ي"
 _CACHE = {}
 
-# العربية تُكتب بصور متعددة للحرف نفسه: "أذان" و"اذان"، "مصرية" و"مصريه".
-# بلا توحيدها يفشل أي تطابق نصي — وقد أوقف هذا ترند "موعد اذان المغرب"
-# بحجة أن مصادره لا تذكره، وهي تذكره مكتوبًا بالهمزة.
 _NORM = str.maketrans({
     "أ": "ا", "إ": "ا", "آ": "ا", "ٱ": "ا",
     "ة": "ه", "ى": "ي", "ؤ": "و", "ئ": "ي",
@@ -143,17 +149,20 @@ def normalize(text):
     return _TASHKEEL.sub("", text).translate(_NORM).lower()
 
 
-def _word_re(word):
-    """يبني نمطًا يطابق الكلمة ولا يطابقها داخل كلمة أطول.
+def _has_arabic(text):
+    return bool(re.search(r"[؀-ۿ]", text))
 
-    المطابقة النصية الساذجة كارثية في العربية: كلمة "نادي" موجودة
-    داخل اسم "نادية"، فصُنّف اسم امرأة رياضةً ونُشر تلقائيًا. النمط
-    هنا يسمح بالسوابق (ال، و، ب) لأن "الدولار" يجب أن تطابق "دولار"،
-    ويمنع اللواحق فلا تطابق "نادي" كلمة "نادية".
-    """
+
+def _word_re(word):
+    """يبني نمطًا يطابق الكلمة بدقة بالعربية والإنجليزية."""
     if word not in _CACHE:
-        _CACHE[word] = re.compile(
-            re.escape(normalize(word.strip())) + "(?![" + _AR + "])", re.I)
+        clean = word.strip()
+        if _has_arabic(clean):
+            _CACHE[word] = re.compile(
+                re.escape(normalize(clean)) + "(?![" + _AR + "])", re.I)
+        else:
+            _CACHE[word] = re.compile(
+                r"(?<!['’\w])" + re.escape(clean.lower()) + r"(?!['’\w])", re.I)
     return _CACHE[word]
 
 
@@ -161,19 +170,17 @@ _BLOCK_CACHE = {}
 
 
 def _blocked_re(word):
-    """نمط الكلمة الحسّاسة: كلمة كاملة، بسوابق ولواحق العربية المعتادة.
-
-    الفحص النصي الساذج حجب أخبارًا سليمة لأن الكلمة الحسّاسة تقع داخل
-    كلمة بريئة: "إطلاق" فيها "طلاق" (فحُجب خبر إطلاق منتج)، و"محادثات"
-    فيها "حادث"، و"ممرض" فيها "مرض"، و"استغرق" فيها "غرق". كان ذلك
-    يحجب نحو ثلث ما يُحجب. الآن تُقبل السوابق (و ف ب ل ك س ال) وحرف
-    المضارعة، واللواحق (ه ها هم ات ان ين ون وا)، ولا شيء غير ذلك.
-    """
+    """نمط الكلمة الحسّاسة: يمنع التطابقات الكاذبة بالعربية والإنجليزية."""
     if word not in _BLOCK_CACHE:
-        _BLOCK_CACHE[word] = re.compile(
-            "(?<![" + _AR + "])[وفبلكس]{0,2}(?:ال)?[يتن]?" +
-            re.escape(normalize(word)) +
-            "(?:ها|هم|هن|ات|ان|ين|ون|وا|نا|ه|ي|ا|ت|ك)?(?![" + _AR + "])")
+        clean = word.strip()
+        if _has_arabic(clean):
+            _BLOCK_CACHE[word] = re.compile(
+                "(?<![" + _AR + "])[وفبلكس]{0,2}(?:ال)?[يتن]?" +
+                re.escape(normalize(clean)) +
+                "(?:ها|هم|هن|ات|ان|ين|ون|وا|نا|ه|ي|ا|ت|ك)?(?![" + _AR + "])")
+        else:
+            _BLOCK_CACHE[word] = re.compile(
+                r"(?<!['’\w])" + re.escape(clean.lower()) + r"(?!['’\w])", re.I)
     return _BLOCK_CACHE[word]
 
 
@@ -197,13 +204,7 @@ def _match(text):
 
 
 def classify(title, news_titles):
-    """يعيد (الفئة، الأيقونة، اللون، سبب القرار، هل يُنشر تلقائيًا).
-
-    ترتيب الفحص مقصود: عنوان الترند هو عبارة البحث نفسها، فهو وحده
-    ما يحدد إن كان الموضوع شخصًا. لو صنّفنا من عناوين الأخبار أولًا،
-    لمرّ اسم شخص لمجرد ورود كلمة "فنان" في خبر عنه — وهذه بالضبط
-    الحالة التي يجب ألا تُنشر تلقائيًا.
-    """
+    """يعيد (الفئة، الأيقونة، اللون، سبب القرار، هل يُنشر تلقائيًا)."""
     # 1) الحظر أولًا، ويفحص كل شيء
     word = blocked_hit(title + " " + " ".join(news_titles))
     if word:
@@ -216,11 +217,12 @@ def classify(title, news_titles):
         name, icon, color, word = hit
         return (name, icon, color, "العنوان يطابق: " + word, True)
 
-    # 3) بلا تطابق في العنوان + عبارة عربية قصيرة = اسم شخص على الأرجح
+    # 3) بلا تطابق في العنوان + عبارة قصيرة = اسم شخص على الأرجح
     words = title.strip().split()
-    if 1 <= len(words) <= 3 and re.search(r"[؀-ۿ]", title):
-        return ("شخصية", "👤", "#ffd166",
-                "اسم شخص على الأرجح — يحتاج مراجعة", False)
+    if 1 <= len(words) <= 3:
+        if _has_arabic(title) or all(w[0].isupper() for w in words if w.isalpha()):
+            return ("شخصية", "👤", "#ffd166",
+                    "اسم شخص على الأرجح — يحتاج مراجعة", False)
 
     # 4) وأخيرًا من عناوين الأخبار
     hit = _match(" ".join(news_titles))
@@ -571,9 +573,13 @@ def person_ok(trend):
         text = normalize(text)
         if name in text:
             return True
-        return bool(surname and re.search(
-            "(?<![" + _AR + "])(?:ال)?" + re.escape(surname) +
-            "(?![" + _AR + "])", text))
+        if not surname:
+            return False
+        if _has_arabic(surname):
+            return bool(re.search(
+                "(?<![" + _AR + "])(?:ال)?" + re.escape(surname) +
+                "(?![" + _AR + "])", text))
+        return bool(re.search(r"\b" + re.escape(surname) + r"\b", text, re.I))
 
     mentions = sum(1 for x in texts if mentions_name(x))
     if mentions < 2:
@@ -607,8 +613,8 @@ def build(country_key, cfg):
                 t["publishable"] = True
                 t["person"] = True     # writer يطبّق قواعد الأشخاص ويحق له الامتناع
 
-        # موضوع محلي بطبعه: مصادره يجب أن تتحدث عن هذا البلد.
-        if t["publishable"] and t["category"] in LOCAL_CATEGORIES:
+        # موضوع محلي بطبعه: مصادره يجب أن تتحدث عن هذا البلد (لا يسري على القسم العالمي).
+        if country_key != "world" and t["publishable"] and t["category"] in LOCAL_CATEGORIES:
             t["local_only"] = True
             if not any(about_here(n, cfg) for n in t["news"] if n.get("ok")):
                 localize(t, cfg)
@@ -646,6 +652,8 @@ def build(country_key, cfg):
     return {
         "country": country_key,
         "country_name": cfg["name_ar"],
+        "name_en": cfg.get("name_en", "Worldwide"),
+        "lang": cfg.get("lang", "ar"),
         "flag": cfg["flag"],
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "day": local_now(cfg).strftime("%Y-%m-%d"),

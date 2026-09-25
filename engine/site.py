@@ -59,7 +59,7 @@ def analytics_tag():
 BASE = "https://altrendat.com"
 
 SHELL = """<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="{lang}" dir="{dir}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -73,7 +73,7 @@ SHELL = """<!DOCTYPE html>
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:site_name" content="{site}">
-<meta property="og:locale" content="ar_AR">
+<meta property="og:locale" content="{locale}">
 {ogimage}
 <meta name="twitter:card" content="summary_large_image">
 {jsonld}
@@ -91,12 +91,10 @@ SHELL = """<!DOCTYPE html>
 <main>{body}</main>
 <footer class="site">
   <nav class="flinks">
-    <a href="{root}about/">من نحن</a>
-    <a href="{root}privacy/">سياسة الخصوصية</a>
-    <a href="{root}contact/">اتصل بنا</a>
+    {flinks}
   </nav>
-  <p>{site} — يرصد الأكثر بحثًا يوميًا في العالم العربي.</p>
-  <p class="fine">الأخبار منسوبة إلى مصادرها وروابطها، والأرقام إلى جهاتها.</p>
+  <p>{fdesc}</p>
+  <p class="fine">{ffine}</p>
 </footer>
 {analytics}
 </body>
@@ -111,6 +109,15 @@ STYLE = """
 body{
   background:var(--bg);color:var(--txt);
   font-family:Cairo,system-ui,sans-serif;line-height:1.85;
+}
+html[dir="ltr"] body{
+  direction:ltr;text-align:left;
+}
+html[dir="ltr"] .flinks, html[dir="ltr"] footer.site{
+  text-align:center;
+}
+html[dir="ltr"] .lead, html[dir="ltr"] .meta, html[dir="ltr"] .item{
+  text-align:left;
 }
 a{color:inherit}
 header.site,footer.site{
@@ -209,18 +216,54 @@ td:first-child{color:var(--acc);font-weight:600}
 """
 
 
+CAT_EN = {
+    "طقس": "Weather",
+    "اقتصاد": "Finance",
+    "رياضة": "Sports",
+    "تقنية": "Tech",
+    "فن ومشاهير": "Entertainment",
+    "ديني": "Faith",
+    "تعليم": "Education",
+    "أبراج وفلك": "Horoscope",
+    "فضول عام": "Curiosity",
+    "دول وأماكن": "Places",
+    "شخصية": "People",
+    "عام": "General",
+    "حوادث وقضايا": "Legal & Crime",
+}
+
+
 def page(path, title, desc, body, canonical, nav="", image=None,
-         ogtype="website", jsonld=None, depth=0):
+         ogtype="website", jsonld=None, depth=0, is_en=False):
     root = "../" * depth if depth else "./"
     ogimage = ('<meta property="og:image" content="{}">'.format(E(image))
                if image else "")
     ld = ('<script type="application/ld+json">{}</script>'.format(
         json.dumps(jsonld, ensure_ascii=False)) if jsonld else "")
 
+    lang = "en" if is_en else "ar"
+    direction = "ltr" if is_en else "rtl"
+    locale = "en_US" if is_en else "ar_AR"
+
+    if is_en:
+        flinks = ('<a href="{r}about/">About Us</a>'
+                  '<a href="{r}privacy/">Privacy Policy</a>'
+                  '<a href="{r}contact/">Contact</a>').format(r=root)
+        fdesc = "{site} — Tracking daily trending search topics worldwide.".format(site=E(SITE_NAME))
+        ffine = "News stories are attributed and linked to their original publishers."
+    else:
+        flinks = ('<a href="{r}about/">من نحن</a>'
+                  '<a href="{r}privacy/">سياسة الخصوصية</a>'
+                  '<a href="{r}contact/">اتصل بنا</a>').format(r=root)
+        fdesc = "{site} — يرصد الأكثر بحثًا يوميًا في العالم العربي والعالم.".format(site=E(SITE_NAME))
+        ffine = "الأخبار منسوبة إلى مصادرها وروابطها، والأرقام إلى جهاتها."
+
     out = SHELL.format(
+        lang=lang, dir=direction, locale=locale,
         title=E(title), desc=E(desc[:300]), canonical=E(canonical),
         site=E(SITE_NAME), ogimage=ogimage, ogtype=ogtype, jsonld=ld,
-        nav=nav, body=body, root=root, analytics=analytics_tag())
+        nav=nav, body=body, root=root, flinks=flinks, fdesc=fdesc, ffine=ffine,
+        analytics=analytics_tag())
 
     full = os.path.join(OUT, path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
@@ -244,8 +287,9 @@ def data_table(d):
         E(d["title"]), head, rows, E(d.get("source", "")))
 
 
-def sources_list(news):
+def sources_list(news, is_en=False):
     items = []
+    default_src = "Source" if is_en else "مصدر"
     for n in news:
         if not n.get("ok"):
             continue
@@ -256,11 +300,12 @@ def sources_list(news):
             "<li><a href='{u}' target='_blank' rel='noopener nofollow'>"
             "<span class='name'>{s}</span><span class='t'>{t}</span>"
             "<span class='d'>{d}</span></a></li>".format(
-                u=E(n["url"]), s=E(n.get("source") or "مصدر"),
+                u=E(n["url"]), s=E(n.get("source") or default_src),
                 t=E(n["title"]), d=E(desc)))
     if not items:
         return ""
-    return "<h2>المصادر</h2><ul class='sources'>" + "".join(items) + "</ul>"
+    title = "Sources & Coverage" if is_en else "المصادر"
+    return "<h2>{}</h2><ul class='sources'>{}</ul>".format(title, "".join(items))
 
 
 def pick_trend_photo(t):
@@ -293,6 +338,8 @@ def pick_trend_photo(t):
 
 
 def build_trend(country, cfg, t, urls):
+    is_en = cfg.get("lang") == "en" or country == "world"
+    cname = cfg.get("name_en", "Worldwide") if is_en else cfg["country_name"]
     slug = entities.slugify(t["title"])
     day = entities.day_of(cfg)
     art = t["article"]
@@ -306,11 +353,13 @@ def build_trend(country, cfg, t, urls):
     photo = pick_trend_photo(t)
     photo_html = ""
     if photo:
+        cap = ("News coverage photo · Source: " + photo["source"] if is_en
+               else "صورة من التغطية الإخبارية · المصدر: " + photo["source"])
         photo_html = (
             '<figure class="article-photo">'
             '<img src="{u}" alt="{alt}" loading="eager" decoding="async">'
-            '<figcaption>صورة من التغطية الإخبارية · المصدر: {s}</figcaption>'
-            '</figure>'.format(u=E(photo["url"]), alt=E(art["headline"]), s=E(photo["source"]))
+            '<figcaption>{cap}</figcaption>'
+            '</figure>'.format(u=E(photo["url"]), alt=E(art["headline"]), cap=E(cap))
         )
 
     jsonld = {
@@ -320,7 +369,7 @@ def build_trend(country, cfg, t, urls):
         "description": art.get("summary", ""),
         "datePublished": cfg["generated_at"],
         "dateModified": cfg["generated_at"],
-        "inLanguage": "ar",
+        "inLanguage": "en" if is_en else "ar",
         "publisher": {"@type": "Organization", "name": SITE_NAME},
         "mainEntityOfPage": canonical,
     }
@@ -337,14 +386,45 @@ def build_trend(country, cfg, t, urls):
     tags = "".join("<span class='tag'>{}</span>".format(E(x))
                    for x in art.get("tags", []))
 
+    cat_label = CAT_EN.get(t["category"], t["category"]) if is_en else t["category"]
+    n_sources = len([n for n in t["news"] if n.get("ok")])
+
+    if is_en:
+        chips = """
+        <span class="chip">{icon} {cat}</span>
+        <span class="chip">🔍 {traffic} searches</span>
+        <span class="chip">{flag} {cname}</span>
+        <span class="chip">{day}</span>
+        <span class="chip">📎 {nsrc} sources</span>""".format(
+            icon=t["icon"], cat=E(cat_label), traffic=E(t["traffic"]),
+            flag=cfg["flag"], cname=E(cname), day=day, nsrc=n_sources)
+        meta_nav = """<p class="meta"><a href="../">← {cname} trends on {day}</a> ·
+           <a href="../../">Today</a> ·
+           <a href="../../../../e/{slug}/">Topic history</a></p>""".format(
+            cname=E(cname), day=day, slug=slug)
+        src_html = sources_list(t["news"], is_en=True)
+    else:
+        chips = """
+        <span class="chip">{icon} {cat}</span>
+        <span class="chip">🔍 {traffic}</span>
+        <span class="chip">{flag} {cname}</span>
+        <span class="chip">{day}</span>
+        <span class="chip">📎 {nsrc} مصادر</span>""".format(
+            icon=t["icon"], cat=E(t["category"]), traffic=E(t["traffic"]),
+            flag=cfg["flag"], cname=E(cfg["country_name"]), day=day, nsrc=n_sources)
+        meta_nav = """<p class="meta"><a href="../">← ترندات {cname} يوم {day}</a> ·
+           <a href="../../">اليوم</a> ·
+           <a href="../../../../e/{slug}/">كل ظهور لـ"{term}"</a></p>""".format(
+            cname=E(cfg["country_name"]), day=day, term=E(t["title"]), slug=slug)
+        src_html = sources_list(t["news"], is_en=False)
+
+    hero = ("<img class='hero' src='{}cards/{}' alt='{}' "
+            "width='1200' height='675' loading='lazy'>".format(
+                "../../../../", os.path.basename(t["card"]), E(t["title"]))
+            if t.get("card") else "")
+
     body = """
-    <div class="when">
-      <span class="chip">{icon} {cat}</span>
-      <span class="chip">🔍 {traffic}</span>
-      <span class="chip">{flag} {cname}</span>
-      <span class="chip">{day}</span>
-      <span class="chip">📎 {nsrc} مصادر</span>
-    </div>
+    <div class="when">{chips}</div>
     <h1>{head}</h1>
     <p class="lead">{summ}</p>
     {table}
@@ -353,30 +433,16 @@ def build_trend(country, cfg, t, urls):
     <div class="tags">{tags}</div>
     {sources}
     {hero}
-    <p class="meta"><a href="../">← ترندات {cname} يوم {day}</a> ·
-       <a href="../../">اليوم</a> ·
-       <a href="../../../../e/{slug}/">كل ظهور لـ"{term}"</a></p>""".format(
-        icon=t["icon"], cat=E(t["category"]), traffic=E(t["traffic"]),
-        flag=cfg["flag"], cname=E(cfg["country_name"]), day=day,
-        head=E(art["headline"]), term=E(t["title"]),
-        nsrc=len([n for n in t["news"] if n.get("ok")]),
-        # الصورة نزلت إلى أسفل الصفحة. مكانها بين العنوان والإجابة كان
-        # يدفع الجواب خارج الشاشة بصورة تكرّر ما بحث عنه الزائر أصلًا.
-        # وتبقى og:image لمعاينة المشاركة، وهذا دورها الحقيقي.
-        hero=("<img class='hero' src='{}cards/{}' alt='{}' "
-              "width='1200' height='675' loading='lazy'>".format(
-                  "../../../../", os.path.basename(t["card"]), E(t["title"]))
-              if t.get("card") else ""),
-        photo=photo_html,
-        summ=E(art.get("summary", "")), table=data_table(t.get("data")),
-        paras=paras, tags=tags, sources=sources_list(t["news"]),
-        slug=slug)
+    {meta_nav}""".format(
+        chips=chips, head=E(art["headline"]), summ=E(art.get("summary", "")),
+        table=data_table(t.get("data")), photo=photo_html, paras=paras,
+        tags=tags, sources=src_html, hero=hero, meta_nav=meta_nav)
 
     urls.append((canonical, cfg["generated_at"], "0.8"))
     return page(path, art["headline"] + " | " + SITE_NAME,
                 art.get("summary", ""), body, canonical,
-                nav=country_nav(country, 4), image=img,
-                ogtype="article", jsonld=jsonld, depth=4)
+                nav=country_nav(country, 4, is_en=is_en), image=img,
+                ogtype="article", jsonld=jsonld, depth=4, is_en=is_en)
 
 
 def archive_today(data):
@@ -435,18 +501,21 @@ def load_days():
     return out
 
 
-def country_nav(current, depth):
+def country_nav(current, depth, is_en=False):
     root = "../" * depth if depth else "./"
     out = []
     for key, cfg in COUNTRIES.items():
         mark = " ●" if key == current else ""
+        name = cfg.get("name_en") if is_en else cfg.get("name_ar")
         out.append("<a href='{r}{k}/'>{f} {n}{m}</a>".format(
-            r=root, k=key, f=cfg["flag"], n=E(cfg["name_ar"]), m=mark))
+            r=root, k=key, f=cfg["flag"], n=E(name or key), m=mark))
     return "".join(out)
 
 
 def build_day(country, day, cfg, urls, prev_day, next_day):
     """صفحة يوم واحد — العمق الذي يجعل للموقع أرشيفًا يُزحف إليه."""
+    is_en = cfg.get("lang") == "en" or country == "world"
+    cname = cfg.get("name_en", "Worldwide") if is_en else cfg["country_name"]
     pub = sorted([x for x in cfg["trends"] if x.get("article")],
                  key=lambda x: -x["traffic_num"])
     if not pub:
@@ -454,64 +523,82 @@ def build_day(country, day, cfg, urls, prev_day, next_day):
 
     items = []
     for i, x in enumerate(pub, 1):
+        cat_label = CAT_EN.get(x["category"], x["category"]) if is_en else x["category"]
+        traffic_label = "🔍 " + x["traffic"] + (" searches" if is_en else "")
         items.append(
             "<a class='item' href='{s}/'>"
             "<h3><span class='rank'>{i}</span>{h}</h3>"
-            "<p class='sub'>{ic} {cat} · 🔍 {tr}</p></a>".format(
+            "<p class='sub'>{ic} {cat} · {tr}</p></a>".format(
                 s=entities.slugify(x["title"]), i=i,
                 h=E(x["article"]["headline"]), ic=x["icon"],
-                cat=E(x["category"]), tr=E(x["traffic"])))
+                cat=E(cat_label), tr=E(traffic_label)))
 
     around = []
+    all_days_text = "All Days" if is_en else "كل الأيام"
     if prev_day:
         around.append("<a href='../{}/'>← {}</a>".format(prev_day, prev_day))
-    around.append("<a href='../archive/'>كل الأيام</a>")
+    around.append("<a href='../archive/'>{}</a>".format(all_days_text))
     if next_day:
         around.append("<a href='../{}/'>{} →</a>".format(next_day, next_day))
 
     canonical = "{}/{}/{}/".format(BASE, country, day)
+    heading = ("{flag} Trending Searches in {name} — {day}" if is_en
+               else "{flag} الأكثر بحثًا في {name} — {day}").format(
+        flag=cfg["flag"], name=E(cname), day=day)
+    meta_topics = ("{} topics" if is_en else "{} موضوعًا").format(len(pub))
     body = """
-    <h1>{flag} الأكثر بحثًا في {name} — {day}</h1>
-    <p class="meta">{n} موضوعًا</p>
+    <h1>{heading}</h1>
+    <p class="meta">{meta}</p>
     <div class="list">{items}</div>
     <p class="meta nav-days">{around}</p>""".format(
-        flag=cfg["flag"], name=E(cfg["country_name"]), day=day,
-        n=len(pub), items="".join(items), around=" · ".join(around))
+        heading=heading, meta=meta_topics,
+        items="".join(items), around=" · ".join(around))
 
     urls.append((canonical, cfg["generated_at"], "0.7"))
+    page_title = ("Trending Searches in {} on {} | {}" if is_en
+                  else "الأكثر بحثًا في {} يوم {} | {}").format(cname, day, SITE_NAME)
+    page_desc = ("Top {} topics trending in {} on {}." if is_en
+                 else "أهم {} موضوعًا تصدّرت البحث في {} يوم {}.").format(len(pub), cname, day)
     return page("{}/{}/index.html".format(country, day),
-                "الأكثر بحثًا في {} يوم {} | {}".format(
-                    cfg["country_name"], day, SITE_NAME),
-                "أهم {} موضوعًا تصدّرت البحث في {} يوم {}.".format(
-                    len(pub), cfg["country_name"], day),
-                body, canonical, nav=country_nav(country, 2), depth=2)
+                page_title, page_desc,
+                body, canonical, nav=country_nav(country, 2, is_en=is_en), depth=2, is_en=is_en)
 
 
 def build_archive(country, cfg_days, urls):
     """فهرس كل الأيام — الصفحة التي تفتح للزاحف باب الأرشيف كله."""
+    is_en = cfg_days[0][1].get("lang") == "en" or country == "world"
+    cname = cfg_days[0][1].get("name_en", "Worldwide") if is_en else cfg_days[0][1]["country_name"]
+    flag = cfg_days[0][1]["flag"]
     rows = []
     for day, cfg, n in cfg_days:
+        sub_text = ("{} topics" if is_en else "{} موضوعًا").format(n)
         rows.append(
             "<a class='item' href='../{d}/'><h3>{d}</h3>"
-            "<p class='sub'>{n} موضوعًا</p></a>".format(d=day, n=n))
+            "<p class='sub'>{sub}</p></a>".format(d=day, sub=sub_text))
 
-    name = cfg_days[0][1]["country_name"]
-    flag = cfg_days[0][1]["flag"]
     canonical = "{}/{}/archive/".format(BASE, country)
+    heading = ("{flag} {name} Archive" if is_en else "{flag} أرشيف {name}").format(
+        flag=flag, name=E(cname))
+    lead = ("Every day tracked, and what was trending." if is_en
+            else "كل يوم رصدناه، وما تصدّر البحث فيه.")
     body = """
-    <h1>{flag} أرشيف {name}</h1>
-    <p class="lead">كل يوم رصدناه، وما تصدّر البحث فيه.</p>
+    <h1>{heading}</h1>
+    <p class="lead">{lead}</p>
     <div class="list">{rows}</div>""".format(
-        flag=flag, name=E(name), rows="".join(rows))
+        heading=heading, lead=lead, rows="".join(rows))
 
     urls.append((canonical, datetime.now(timezone.utc).isoformat(), "0.6"))
+    page_title = ("{} Archive | {}" if is_en else "أرشيف {} | {}").format(cname, SITE_NAME)
+    page_desc = ("Daily archive of trending topics in {}." if is_en
+                 else "أرشيف يومي لما تصدّر البحث في {}.").format(cname)
     return page("{}/archive/index.html".format(country),
-                "أرشيف {} | {}".format(name, SITE_NAME),
-                "أرشيف يومي لما تصدّر البحث في {}.".format(name),
-                body, canonical, nav=country_nav(country, 2), depth=2)
+                page_title, page_desc,
+                body, canonical, nav=country_nav(country, 2, is_en=is_en), depth=2, is_en=is_en)
 
 
 def build_country(country, cfg, urls):
+    is_en = cfg.get("lang") == "en" or country == "world"
+    cname = cfg.get("name_en", "Worldwide") if is_en else cfg["country_name"]
     day = entities.day_of(cfg)
     pub = [t for t in cfg["trends"] if t.get("article")]
     pub.sort(key=lambda x: -x["traffic_num"])
@@ -519,44 +606,52 @@ def build_country(country, cfg, urls):
     items = []
     for i, t in enumerate(pub, 1):
         slug = entities.slugify(t["title"])
+        cat_label = CAT_EN.get(t["category"], t["category"]) if is_en else t["category"]
+        traffic_label = "🔍 " + t["traffic"] + (" searches" if is_en else "")
         items.append(
             "<a class='item' href='{d}/{s}/'>"
             "<h3><span class='rank'>{i}</span>{h}</h3>"
-            "<p class='sub'>{ic} {cat} · 🔍 {tr}</p></a>".format(
+            "<p class='sub'>{ic} {cat} · {tr}</p></a>".format(
                 d=day, s=slug, i=i, h=E(t["article"]["headline"]),
-                ic=t["icon"], cat=E(t["category"]), tr=E(t["traffic"])))
+                ic=t["icon"], cat=E(cat_label), tr=E(traffic_label)))
 
-    # جملة تسمّي أبرز مواضيع اليوم.
-    #
-    # الصفحة كانت عنوانًا وقائمة روابط، فلم تجد Google نصًّا تصفها به،
-    # فعرضت في نتائج البحث سطر التذييل "الأخبار منسوبة إلى مصادرها..."
-    # وهو لا يقول للباحث شيئًا. أسماء المواضيع نفسها هي ما يبحث عنه،
-    # وتتغيّر كل يوم فتبقى الصفحة جديدة في عين الزاحف.
     names = [t["title"] for t in pub[:3]]
-    intro = ""
-    if names:
-        intro = "أكثر ما بحث عنه الناس في {} يوم {}: {}.".format(
-            cfg["country_name"], day, "، و".join(names))
-
     canonical = "{}/{}/".format(BASE, country)
-    body = """
-    <h1>{flag} الأكثر بحثًا اليوم في {name}</h1>
-    {intro}
-    <p class="meta">{day} · {n} موضوعًا ·
-       <a href="archive/">أرشيف الأيام السابقة</a></p>
-    <div class="list">{items}</div>""".format(
-        flag=cfg["flag"], name=E(cfg["country_name"]), day=day,
-        intro="<p class='lead'>{} نشرح كل موضوع بمصادره.</p>".format(E(intro))
-              if intro else "",
-        n=len(pub), items="".join(items))
+
+    if is_en:
+        intro_text = "Most searched topics in {} on {}: {}.".format(
+            cname, day, ", ".join(names)) if names else ""
+        lead_html = "<p class='lead'>{} Explained with verified sources.</p>".format(E(intro_text)) if intro_text else ""
+        body = """
+        <h1>{flag} Trending Searches Today in {name}</h1>
+        {lead}
+        <p class="meta">{day} · {n} topics ·
+           <a href="archive/">Previous Days Archive</a></p>
+        <div class="list">{items}</div>""".format(
+            flag=cfg["flag"], name=E(cname), lead=lead_html, day=day,
+            n=len(pub), items="".join(items))
+        page_title = "Trending Searches Today in {} | {}".format(cname, SITE_NAME)
+        page_desc = intro_text or "Trending search topics today in {}, explained with sources.".format(cname)
+    else:
+        intro = "أكثر ما بحث عنه الناس في {} يوم {}: {}.".format(
+            cfg["country_name"], day, "، و".join(names)) if names else ""
+        body = """
+        <h1>{flag} الأكثر بحثًا اليوم في {name}</h1>
+        {intro}
+        <p class="meta">{day} · {n} موضوعًا ·
+           <a href="archive/">أرشيف الأيام السابقة</a></p>
+        <div class="list">{items}</div>""".format(
+            flag=cfg["flag"], name=E(cfg["country_name"]), day=day,
+            intro="<p class='lead'>{} نشرح كل موضوع بمصادره.</p>".format(E(intro))
+                  if intro else "",
+            n=len(pub), items="".join(items))
+        page_title = "الأكثر بحثًا اليوم في {} | {}".format(cfg["country_name"], SITE_NAME)
+        page_desc = intro or "أهم ما يبحث عنه الناس اليوم في {}، مشروحًا بمصادره.".format(cfg["country_name"])
 
     urls.append((canonical, cfg["generated_at"], "0.9"))
     return page("{}/index.html".format(country),
-                "الأكثر بحثًا اليوم في {} | {}".format(
-                    cfg["country_name"], SITE_NAME),
-                intro or "أهم ما يبحث عنه الناس اليوم في {}، مشروحًا "
-                         "بمصادره.".format(cfg["country_name"]),
-                body, canonical, nav=country_nav(country, 1), depth=1)
+                page_title, page_desc,
+                body, canonical, nav=country_nav(country, 1, is_en=is_en), depth=1, is_en=is_en)
 
 
 def build_entity(ent, urls):
@@ -742,14 +837,15 @@ def build_404():
     <h1>الصفحة غير موجودة</h1>
     <p class="lead">ربما تغيّر الرابط، أو لم يعد هذا الموضوع منشورًا.</p>
     <p class="meta"><a href="/">← الصفحة الرئيسة</a></p>"""
-    out = SHELL.format(
-        title=E("الصفحة غير موجودة | " + SITE_NAME), desc="",
-        canonical=BASE + "/404.html", site=E(SITE_NAME), ogimage="",
-        ogtype="website", jsonld="", nav="", body=body, root="/",
-        analytics=analytics_tag())
-    out = out.replace('content="index, follow', 'content="noindex, follow')
-    with open(os.path.join(OUT, "404.html"), "w", encoding="utf-8") as f:
-        f.write(out)
+    page("404.html", "الصفحة غير موجودة | " + SITE_NAME, "", body,
+         BASE + "/404.html", nav="", depth=0)
+    path_404 = os.path.join(OUT, "404.html")
+    if os.path.exists(path_404):
+        with open(path_404, "r", encoding="utf-8") as f:
+            content = f.read()
+        content = content.replace('content="index, follow', 'content="noindex, follow')
+        with open(path_404, "w", encoding="utf-8") as f:
+            f.write(content)
 
 
 def build_feed(data):
@@ -782,7 +878,7 @@ def build_feed(data):
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
            '<rss version="2.0"><channel>'
            '<title>{s}</title><link>{b}/</link>'
-           '<description>الأكثر بحثًا اليوم في العالم العربي</description>'
+           '<description>الأكثر بحثًا اليوم — Trending searches today</description>'
            '<language>ar</language>{items}</channel></rss>').format(
         s=E(SITE_NAME), b=BASE, items="".join(body))
 
@@ -803,7 +899,8 @@ def main():
         data = json.load(f)
     with open(os.path.join(ROOT, "engine", "countries.json"),
               encoding="utf-8") as f:
-        rank = {k: i for i, k in enumerate(json.load(f))}
+        c_defs = json.load(f)
+        rank = {k: i for i, k in enumerate(c_defs)}
 
     archive_today(data)
 
@@ -822,8 +919,12 @@ def main():
     # لا يُمحى، فالبناء منه لا يُسقط بلدًا بسبب تشغيلة واحدة.
     latest = {k: by_country[k][0][1]
               for k in sorted(by_country, key=lambda k: rank.get(k, len(rank)))}
-    COUNTRIES = {k: {"flag": v["flag"], "name_ar": v["country_name"]}
-                 for k, v in latest.items()}
+    COUNTRIES = {k: {
+        "flag": v["flag"],
+        "name_ar": c_defs.get(k, {}).get("name_ar", v["country_name"]),
+        "name_en": c_defs.get(k, {}).get("name_en", v.get("name_en", v["country_name"])),
+        "lang": c_defs.get(k, {}).get("lang", v.get("lang", "ar")),
+    } for k, v in latest.items()}
 
     if os.path.exists(OUT):
         shutil.rmtree(OUT)

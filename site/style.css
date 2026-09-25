@@ -8,6 +8,15 @@ body{
   background:var(--bg);color:var(--txt);
   font-family:Cairo,system-ui,sans-serif;line-height:1.85;
 }
+html[dir="ltr"] body{
+  direction:ltr;text-align:left;
+}
+html[dir="ltr"] .flinks, html[dir="ltr"] footer.site{
+  text-align:center;
+}
+html[dir="ltr"] .lead, html[dir="ltr"] .meta, html[dir="ltr"] .item{
+  text-align:left;
+}
 a{color:inherit}
 header.site,footer.site{
   max-width:860px;margin:0 auto;padding:20px 18px;

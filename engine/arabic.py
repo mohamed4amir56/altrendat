@@ -115,8 +115,12 @@ def _mirror(s):
 def display(text):
     """يعيد النص جاهزًا للرسم: مُشكَّلًا ومعكوس الترتيب للعرض من اليمين.
 
+    إن كان النص لا يحوي أي حرف عربي، يُعاد كما هو بلا عكس ولا تشكيل.
     الأرقام والكلمات اللاتينية تبقى بترتيبها الصحيح داخل الجملة العربية.
     """
+    if not any(_is_arabic(c) for c in text):
+        return text
+
     shaped = reshape(text)
 
     # تقسيم إلى مقاطع ثلاثة الأنواع: عربي، لاتيني/أرقام، ومسافات.
@@ -144,11 +148,13 @@ def display(text):
 
 def wrap(text, font, max_width, draw, max_lines=3):
     """يقسم النص إلى أسطر تناسب عرضًا معيّنًا. يعيد أسطرًا جاهزة للرسم."""
+    has_ar = any(_is_arabic(c) for c in text)
     words = text.split()
     lines, current = [], ""
     for w in words:
         trial = (current + " " + w).strip()
-        if draw.textlength(display(trial), font=font) <= max_width:
+        disp_trial = display(trial) if has_ar else trial
+        if draw.textlength(disp_trial, font=font) <= max_width:
             current = trial
         else:
             if current:
@@ -161,4 +167,4 @@ def wrap(text, font, max_width, draw, max_lines=3):
 
     if len(lines) == max_lines and len(" ".join(lines).split()) < len(words):
         lines[-1] = lines[-1] + "…"
-    return [display(l) for l in lines]
+    return [display(l) if has_ar else l for l in lines]

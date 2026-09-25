@@ -73,6 +73,20 @@ SYSTEM = """أنت محرر عربي في موقع أخبار. مهمتك أن �
   اذكر أهم أرقامها في أول جملتين وفي العنوان، وانسبها إلى جهتها.
   لا تكتفِ بالحديث عن وجود الأرقام — اذكرها."""
 
+SYSTEM_EN = """You are an expert news editor and search explainer. Your job is to write an original, high-quality, engaging article explaining why this topic or question is trending today, based ONLY on the provided news sources.
+
+Core Rules:
+- Directly answer the core question or search query in the very first sentence (Google Featured Snippet style).
+- Write in clear, authoritative, fluent English (180 to 280 words) in 2 to 4 well-organized paragraphs.
+- Cover: What happened, Who is involved, Why it is in the news, and Key context.
+- Never write meta-commentary about search spikes, algorithms, or trends (e.g., do NOT write "Search volume surged" or "Users took to the internet"). The reader wants the news itself, not a report about search traffic.
+- Never write fluff or empty sentences like "Details remain scarce" or "Only time will tell". Every sentence must provide verified facts.
+- Explicitly attribute facts to the original sources by name (e.g., "According to Billboard...", "Reuters reported that...").
+- Never invent quotes, statistics, dates, or details not present in the sources.
+- If the trend is about a public figure, focus strictly on their public career, verified announcements, or official events. Never speculate on personal lives.
+- The headline must be clear, factual, and informative (8 to 14 words in Title Case).
+- In the tags field, provide 3 to 6 high-intent English search keywords or entity names."""
+
 SCHEMA = {
     "type": "object",
     "properties": {
@@ -80,8 +94,6 @@ SCHEMA = {
                      "description": "عنوان يصف الحدث نفسه، 6-12 كلمة، بلا ذكر البحث أو الترند"},
         "summary": {"type": "string", "description": "جملة واحدة تلخّص الخبر"},
         "body":     {"type": "string", "description": "الخبر كاملًا 150-250 كلمة"},
-        # لا تضع minItems هنا بقيمة أكبر من 1: المخرجات المنظّمة ترفضها
-        # بخطأ 400. العدد يُطلب في تعليمات النظام ويُتحقق منه بعد الرد.
         "tags":     {"type": "array", "items": {"type": "string"},
                      "description": "من 3 إلى 6 كلمات مفتاحية عربية للبحث"},
     },
@@ -89,8 +101,31 @@ SCHEMA = {
     "additionalProperties": False,
 }
 
-# مخطط الأشخاص: نفسه + حقل امتناع. للأشخاص وحدهم عمدًا، فلا يتغيّر شيء
-# في كتابة بقية الترندات ولا في ذاكرة التعليمات المخزّنة لها.
+SCHEMA_EN = {
+    "type": "object",
+    "properties": {
+        "headline": {
+            "type": "string",
+            "description": "Factual, engaging headline answering or explaining the topic (8-14 words, Title Case, no search meta-talk)",
+        },
+        "summary": {
+            "type": "string",
+            "description": "One concise sentence directly answering why this topic is trending (Featured Snippet style)",
+        },
+        "body": {
+            "type": "string",
+            "description": "Full informative explanation (180-280 words) answering the query and citing sources by name",
+        },
+        "tags": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "3 to 6 relevant English search keywords or entity names",
+        },
+    },
+    "required": ["headline", "summary", "body", "tags"],
+    "additionalProperties": False,
+}
+
 SCHEMA_PERSON = {
     "type": "object",
     "properties": dict(SCHEMA["properties"], decline={
@@ -100,8 +135,15 @@ SCHEMA_PERSON = {
     "additionalProperties": False,
 }
 
-# الفلتر الآلي يرى ألفاظًا لا معنى؛ الكاتب يقرأ المصادر فيفهم. هو خط
-# الدفاع الأخير قبل النشر عن الأشخاص.
+SCHEMA_PERSON_EN = {
+    "type": "object",
+    "properties": dict(SCHEMA_EN["properties"], decline={
+        "type": "boolean",
+        "description": "Set to true if declining to write about a private non-public individual or sensitive legal/personal issue; leave other fields empty"}),
+    "required": SCHEMA_EN["required"] + ["decline"],
+    "additionalProperties": False,
+}
+
 PERSON_RULES = """
 هذا الاسم قد يكون شخصًا وقد لا يكون. إن كان موضوعًا أو مكانًا أو حدثًا
 فاكتب عنه كالمعتاد.
@@ -112,6 +154,39 @@ PERSON_RULES = """
 قاصرًا، أو لم تضف المصادر معلومة جديدة عنه.
 لا تنسب إليه رأيًا أو فعلًا لم تذكره المصادر، وانسب كل قول لقائله بالاسم.
 """
+
+PERSON_RULES_EN = """
+This trending query might be a person.
+- If it is a known public figure (athlete, artist, filmmaker, CEO, public official) and the news covers their public career, works, games, or official statements, write the explanation.
+- Return decline=true and leave other fields empty if the person is a private non-public individual, or if the sources focus on violent crime, court prosecution, death, tragic accident, sexual assault, personal scandal, or private medical details.
+"""
+
+
+def build_prompt_en(trend, country_name):
+    sources = []
+    for i, n in enumerate(trend["news"], 1):
+        if not n.get("ok"):
+            continue
+        sources.append(
+            "Source {i} — {src}\nTitle: {t}\nSummary: {d}\nURL: {u}".format(
+                i=i, src=n.get("source") or "Unknown", t=n["title"],
+                d=n.get("og_desc") or n.get("og_title") or "(no description)",
+                u=n["url"]))
+
+    block = ""
+    if trend.get("person"):
+        block = PERSON_RULES_EN + "\n"
+
+    return (
+        "Trending Search Query: {title}\n"
+        "Region: {country}\n"
+        "Search Traffic: {traffic}\n"
+        "Category: {cat}\n\n"
+        "{block}"
+        "News Sources:\n\n{sources}"
+    ).format(title=trend["title"], country=country_name,
+             traffic=trend["traffic"], cat=trend["category"],
+             block=block, sources="\n\n".join(sources))
 
 
 def build_prompt(trend, country_name):
@@ -170,23 +245,31 @@ def build_prompt(trend, country_name):
              block=block, sources="\n\n".join(sources))
 
 
-def write_one(client, trend, country_name):
+def write_one(client, trend, country_name, is_en=False):
     """يكتب شرح ترند واحد. يعيد dict، أو {"declined": True} إن امتنع
     الكاتب عن شخص غير مناسب، أو None عند الفشل."""
     person = bool(trend.get("person"))
+    sys_prompt = SYSTEM_EN if is_en else SYSTEM
+    if is_en:
+        active_schema = SCHEMA_PERSON_EN if person else SCHEMA_EN
+        user_prompt = build_prompt_en(trend, country_name)
+    else:
+        active_schema = SCHEMA_PERSON if person else SCHEMA
+        user_prompt = build_prompt(trend, country_name)
+
     response = client.messages.create(
         model=MODEL,
         max_tokens=2000,
         system=[{
             "type": "text",
-            "text": SYSTEM,
+            "text": sys_prompt,
             "cache_control": {"type": "ephemeral"},
         }],
         output_config={
             "format": {"type": "json_schema",
-                       "schema": SCHEMA_PERSON if person else SCHEMA},
+                       "schema": active_schema},
         },
-        messages=[{"role": "user", "content": build_prompt(trend, country_name)}],
+        messages=[{"role": "user", "content": user_prompt}],
     )
 
     if response.stop_reason == "refusal":
@@ -238,7 +321,9 @@ def main():
     streak = 0          # فشل متتالٍ
 
     for key, d in data.items():
-        print("\n" + d["flag"] + "  " + d["country_name"])
+        is_en = d.get("lang") == "en" or key == "world"
+        cname = d.get("name_en", "Worldwide") if is_en else d["country_name"]
+        print("\n" + d["flag"] + "  " + (cname if is_en else d["country_name"]))
         # نفس قاعدة entities.day_of: اليوم بتوقيت البلد
         day = d.get("day") or d["generated_at"][:10]
 
@@ -296,7 +381,7 @@ def main():
 
             attempts += 1
             try:
-                article = write_one(client, t, d["country_name"])
+                article = write_one(client, t, cname, is_en=is_en)
                 if article and article.get("declined"):
                     store[k] = {"declined": True}
                     save_articles(store)

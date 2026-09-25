@@ -96,11 +96,29 @@ def _add(a, b):
     return ImageChops.add(a, b)
 
 
-def make_card(trend, country_name, out_path, site="الترندات"):
+CATEGORY_MAP_EN = {
+    "طقس": "Weather",
+    "اقتصاد": "Finance",
+    "رياضة": "Sports",
+    "تقنية": "Tech",
+    "فن ومشاهير": "Entertainment",
+    "ديني": "Faith",
+    "تعليم": "Education",
+    "أبراج وفلك": "Horoscope",
+    "فضول عام": "Curiosity",
+    "دول وأماكن": "Places",
+    "شخصية": "People",
+    "عام": "General",
+    "حوادث وقضايا": "Legal & Crime",
+}
+
+
+def make_card(trend, country_name, out_path, site="الترندات", is_en=False):
     accent = _hex(trend.get("color", "#f5c542"))
 
     img = _gradient(W, H, BG_TOP, BG_BOT)
-    img = _add(img, _radial(accent, (W - 190, 150), 330))
+    glow_pos = (190, 150) if is_en else (W - 190, 150)
+    img = _add(img, _radial(accent, glow_pos, 330))
     d = ImageDraw.Draw(img)
 
     # شريط علوي بلون الفئة
@@ -111,40 +129,72 @@ def make_card(trend, country_name, out_path, site="الترندات"):
     f_meta = ImageFont.truetype(FONT_REG, 28)
     f_site = ImageFont.truetype(FONT_BOLD, 34)
 
-    # شارة الفئة (أعلى اليمين)
-    cat = trend.get("category", "عام")
-    cat_disp = arabic.display(cat)
-    cw = d.textlength(cat_disp, font=f_cat)
-    bx1, by1 = W - PAD, 62
-    bx0, by0 = bx1 - cw - 44, by1 + 56
-    d.rounded_rectangle([bx0, by1, bx1, by0], radius=28,
-                        fill=tuple(int(c * 0.28) for c in accent))
-    d.text((bx1 - 22, by1 + 28), cat_disp, font=f_cat,
-           fill=accent, anchor="rm")
-
-    # العنوان — يلتف حتى ثلاثة أسطر
     lines = arabic.wrap(trend["title"], f_title, W - PAD * 2, d, max_lines=3)
-    y = 232
-    for line in lines:
-        d.text((W - PAD, y), line, font=f_title, fill=WHITE, anchor="ra")
-        y += 92
 
-    # خط فاصل
-    d.line([(PAD, H - 168), (W - PAD, H - 168)], fill=(48, 56, 74), width=2)
+    if is_en:
+        # شارة الفئة (أعلى اليسار)
+        cat = CATEGORY_MAP_EN.get(trend.get("category", "عام"), "Trending")
+        cw = d.textlength(cat, font=f_cat)
+        bx0, by0 = PAD, 62
+        bx1, by1 = bx0 + cw + 44, by0 + 56
+        d.rounded_rectangle([bx0, by0, bx1, by1], radius=28,
+                            fill=tuple(int(c * 0.28) for c in accent))
+        d.text((bx0 + 22, by0 + 28), cat, font=f_cat, fill=accent, anchor="lm")
 
-    # حجم البحث (أسفل اليمين)
-    traffic = "{} عملية بحث اليوم".format(trend.get("traffic", ""))
-    d.text((W - PAD, H - 128), arabic.display(traffic),
-           font=f_meta, fill=MUTED, anchor="ra")
+        # العنوان من اليسار
+        y = 232
+        for line in lines:
+            d.text((PAD, y), line, font=f_title, fill=WHITE, anchor="la")
+            y += 92
 
-    # البلد
-    d.text((W - PAD, H - 86), arabic.display(country_name),
-           font=f_meta, fill=MUTED, anchor="ra")
+        # خط فاصل
+        d.line([(PAD, H - 168), (W - PAD, H - 168)], fill=(48, 56, 74), width=2)
 
-    # اسم الموقع (أسفل اليسار)
-    d.text((PAD, H - 100), arabic.display(site),
-           font=f_site, fill=GOLD, anchor="la")
-    d.ellipse([PAD - 2, H - 48, PAD + 12, H - 34], fill=accent)
+        # حجم البحث (أسفل اليسار)
+        traffic = "{} searches today".format(trend.get("traffic", ""))
+        d.text((PAD, H - 128), traffic, font=f_meta, fill=MUTED, anchor="la")
+
+        # البلد / المنطقة
+        d.text((PAD, H - 86), country_name, font=f_meta, fill=MUTED, anchor="la")
+
+        # اسم الموقع (أسفل اليمين)
+        site_name = "altrendat.com"
+        d.text((W - PAD, H - 100), site_name, font=f_site, fill=GOLD, anchor="ra")
+        d.ellipse([W - PAD + 6, H - 48, W - PAD + 20, H - 34], fill=accent)
+    else:
+        # شارة الفئة (أعلى اليمين)
+        cat = trend.get("category", "عام")
+        cat_disp = arabic.display(cat)
+        cw = d.textlength(cat_disp, font=f_cat)
+        bx1, by1 = W - PAD, 62
+        bx0, by0 = bx1 - cw - 44, by1 + 56
+        d.rounded_rectangle([bx0, by1, bx1, by0], radius=28,
+                            fill=tuple(int(c * 0.28) for c in accent))
+        d.text((bx1 - 22, by1 + 28), cat_disp, font=f_cat,
+               fill=accent, anchor="rm")
+
+        # العنوان — يلتف حتى ثلاثة أسطر
+        y = 232
+        for line in lines:
+            d.text((W - PAD, y), line, font=f_title, fill=WHITE, anchor="ra")
+            y += 92
+
+        # خط فاصل
+        d.line([(PAD, H - 168), (W - PAD, H - 168)], fill=(48, 56, 74), width=2)
+
+        # حجم البحث (أسفل اليمين)
+        traffic = "{} عملية بحث اليوم".format(trend.get("traffic", ""))
+        d.text((W - PAD, H - 128), arabic.display(traffic),
+               font=f_meta, fill=MUTED, anchor="ra")
+
+        # البلد
+        d.text((W - PAD, H - 86), arabic.display(country_name),
+               font=f_meta, fill=MUTED, anchor="ra")
+
+        # اسم الموقع (أسفل اليسار)
+        d.text((PAD, H - 100), arabic.display(site),
+               font=f_site, fill=GOLD, anchor="la")
+        d.ellipse([PAD - 2, H - 48, PAD + 12, H - 34], fill=accent)
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     img.save(out_path, "PNG", optimize=True)
@@ -173,11 +223,10 @@ def main():
     made = reused = 0
 
     for key, d in data.items():
+        is_en = d.get("lang") == "en" or key == "world"
+        cname = d.get("name_en", "Worldwide") if is_en else d["country_name"]
         day = entities.day_of(d)
         for t in d["trends"]:
-            # الاسم من المحتوى لا من الترتيب: كارت "دولار أمريكي" يبقى
-            # هو نفسه غدًا، بينما eg-01 كان يصير ترندًا آخر كل يوم
-            # فتنكسر روابط الصور الدائمة ومعها أرشيف Discover.
             name = "{}-{}-{}.png".format(key, day, entities.slugify(t["title"]))
             path = os.path.join(ROOT, "output", "cards", name)
             t["card"] = "cards/" + name
@@ -186,7 +235,7 @@ def main():
                 reused += 1
                 continue
 
-            make_card(t, d["country_name"], path)
+            make_card(t, cname, path, is_en=is_en)
             made += 1
             print("  ✓ " + name)
 

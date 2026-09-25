@@ -32,7 +32,7 @@ jobs:
       # تشغيلة تلتقط وتصنّف ثم تخرج بصفر مقالات، والخطأ مكتوم لأن
       # خطوة الكتابة تحمل continue-on-error.
       - name: تثبيت المتطلبات
-        run: pip install --quiet Pillow anthropic google-auth
+        run: pip install --quiet Pillow anthropic google-auth requests requests-oauthlib
 
       # خادم Ubuntu لا يملك خطًا عربيًا افتراضيًا، فالكروت تخرج مربعات
       # فارغة أو يفشل التوليد. Noto يغطي العربية كاملة.
@@ -79,6 +79,17 @@ jobs:
           SITE_BASE: ${{ vars.SITE_BASE }}
         continue-on-error: true
         run: python engine/google_indexer.py "${SITE_BASE:-https://altrendat.com}"
+
+      # النشر التلقائي على منصة X (تويتر) فور ظهور الترند لجلب زيارات لحظية
+      - name: النشر التلقائي على X (تويتر)
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          SITE_BASE: ${{ vars.SITE_BASE }}
+        continue-on-error: true
+        run: python engine/poster_x.py "${SITE_BASE:-https://altrendat.com}"
 
       - name: حفظ النتائج
         run: |

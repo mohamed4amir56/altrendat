@@ -23,7 +23,7 @@ import json
 import os
 import shutil
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from itertools import zip_longest
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -39,6 +39,31 @@ E = html.escape
 
 SITE_NAME = "الترندات"
 SITE_NAME_EN = "ALTRENDAT"
+
+
+def format_time(dt_str, is_en=False, country="eg"):
+    """تحويل التاريخ ISO إلى توقيت مقروء بالساعة والدقيقة بتوقيت المنطقة."""
+    if not dt_str:
+        return ""
+    try:
+        s = dt_str.strip()
+        if s.endswith("Z"):
+            s = s[:-1] + "+00:00"
+        dt = datetime.fromisoformat(s)
+    except Exception:
+        return ""
+
+    offset_hours = 0 if (is_en or country == "world") else 3
+    tz = timezone(timedelta(hours=offset_hours))
+    local_dt = dt.astimezone(tz) if dt.tzinfo else (dt + timedelta(hours=offset_hours)).replace(tzinfo=tz)
+
+    h = local_dt.strftime("%I:%M").lstrip("0")
+    if is_en or country == "world":
+        ampm = local_dt.strftime("%p")
+        return f"{h} {ampm} UTC"
+    else:
+        ampm = "م" if local_dt.hour >= 12 else "ص"
+        return f"{h} {ampm}"
 
 # رمز Cloudflare Web Analytics — اتركه فارغًا.
 #
@@ -392,15 +417,19 @@ def build_trend(country, cfg, t, urls):
     cat_label = CAT_EN.get(t["category"], t["category"]) if is_en else t["category"]
     n_sources = len([n for n in t["news"] if n.get("ok")])
 
+    t_time = format_time(t.get("published_at") or cfg.get("generated_at"), is_en=is_en, country=country)
+    time_chip = f'<span class="chip">🕒 {E(t_time)}</span>' if t_time else ""
+
     if is_en:
         chips = """
         <span class="chip">{icon} {cat}</span>
         <span class="chip">🔍 {traffic} searches</span>
         <span class="chip">{flag} {cname}</span>
-        <span class="chip">{day}</span>
+        <span class="chip">📅 {day}</span>
+        {time_chip}
         <span class="chip">📎 {nsrc} sources</span>""".format(
             icon=t["icon"], cat=E(cat_label), traffic=E(t["traffic"]),
-            flag=cfg["flag"], cname=E(cname), day=day, nsrc=n_sources)
+            flag=cfg["flag"], cname=E(cname), day=day, time_chip=time_chip, nsrc=n_sources)
         meta_nav = """<p class="meta"><a href="../">← {cname} trends on {day}</a> ·
            <a href="../../">Today</a> ·
            <a href="../../../../e/{slug}/">Topic history</a></p>""".format(
@@ -411,10 +440,11 @@ def build_trend(country, cfg, t, urls):
         <span class="chip">{icon} {cat}</span>
         <span class="chip">🔍 {traffic}</span>
         <span class="chip">{flag} {cname}</span>
-        <span class="chip">{day}</span>
+        <span class="chip">📅 {day}</span>
+        {time_chip}
         <span class="chip">📎 {nsrc} مصادر</span>""".format(
             icon=t["icon"], cat=E(t["category"]), traffic=E(t["traffic"]),
-            flag=cfg["flag"], cname=E(cfg["country_name"]), day=day, nsrc=n_sources)
+            flag=cfg["flag"], cname=E(cfg["country_name"]), day=day, time_chip=time_chip, nsrc=n_sources)
         meta_nav = """<p class="meta"><a href="../">← ترندات {cname} يوم {day}</a> ·
            <a href="../../">اليوم</a> ·
            <a href="../../../../e/{slug}/">كل ظهور لـ"{term}"</a></p>""".format(
@@ -474,6 +504,11 @@ def archive_today(data):
                 for t in json.load(f).get("trends", []):
                     merged[t["title"]] = t
         for t in cfg["trends"]:
+            old = merged.get(t["title"])
+            if old and old.get("published_at"):
+                t["published_at"] = old["published_at"]
+            elif not t.get("published_at"):
+                t["published_at"] = cfg.get("generated_at")
             merged[t["title"]] = t
 
         snap = dict(cfg)
@@ -532,13 +567,15 @@ def build_day(country, day, cfg, urls, prev_day, next_day):
     for i, x in enumerate(pub, 1):
         cat_label = CAT_EN.get(x["category"], x["category"]) if is_en else x["category"]
         traffic_label = "🔍 " + x["traffic"] + (" searches" if is_en else "")
+        x_time = format_time(x.get("published_at") or cfg.get("generated_at"), is_en=is_en, country=country)
+        time_part = " · 🕒 " + x_time if x_time else ""
         items.append(
             "<a class='item' href='{s}/'>"
             "<h3><span class='rank'>{i}</span>{h}</h3>"
-            "<p class='sub'>{ic} {cat} · {tr}</p></a>".format(
+            "<p class='sub'>{ic} {cat} · {tr}{tm}</p></a>".format(
                 s=entities.slugify(x["title"]), i=i,
                 h=E(x["article"]["headline"]), ic=x["icon"],
-                cat=E(cat_label), tr=E(traffic_label)))
+                cat=E(cat_label), tr=E(traffic_label), tm=E(time_part)))
 
     around = []
     all_days_text = "All Days" if is_en else "كل الأيام"
@@ -618,12 +655,14 @@ def build_country(country, cfg, urls):
         slug = entities.slugify(t["title"])
         cat_label = CAT_EN.get(t["category"], t["category"]) if is_en else t["category"]
         traffic_label = "🔍 " + t["traffic"] + (" searches" if is_en else "")
+        t_time = format_time(t.get("published_at") or cfg.get("generated_at"), is_en=is_en, country=country)
+        time_part = " · 🕒 " + t_time if t_time else ""
         items.append(
             "<a class='item' href='{d}/{s}/'>"
             "<h3><span class='rank'>{i}</span>{h}</h3>"
-            "<p class='sub'>{ic} {cat} · {tr}</p></a>".format(
+            "<p class='sub'>{ic} {cat} · {tr}{tm}</p></a>".format(
                 d=day, s=slug, i=i, h=E(t["article"]["headline"]),
-                ic=t["icon"], cat=E(cat_label), tr=E(traffic_label)))
+                ic=t["icon"], cat=E(cat_label), tr=E(traffic_label), tm=E(time_part)))
 
     names = [t["title"] for t in pub[:3]]
     canonical = "{}/{}/".format(BASE, country)
@@ -724,14 +763,16 @@ def build_home(data, urls):
 
     news = []
     for i, (key, cfg, t) in enumerate(mixed, 1):
+        t_time = format_time(t.get("published_at") or cfg.get("generated_at"), is_en=False, country=key)
+        time_part = " · 🕒 " + t_time if t_time else ""
         news.append(
             "<a class='item' href='{k}/{d}/{s}/'>"
             "<h3><span class='rank'>{i}</span>{h}</h3>"
-            "<p class='sub'>{f} {n} · {ic} {cat} · 🔍 {tr}</p></a>".format(
+            "<p class='sub'>{f} {n} · {ic} {cat} · 🔍 {tr}{tm}</p></a>".format(
                 k=key, d=entities.day_of(cfg), s=entities.slugify(t["title"]),
                 i=i, h=E(t["article"]["headline"]), f=cfg["flag"],
                 n=E(cfg["country_name"]), ic=t["icon"],
-                cat=E(t["category"]), tr=E(t["traffic"])))
+                cat=E(t["category"]), tr=E(t["traffic"]), tm=E(time_part)))
 
     body = """
     <h1>ما الذي يبحث عنه العرب اليوم؟</h1>
@@ -939,6 +980,14 @@ def main():
     if os.path.exists(OUT):
         shutil.rmtree(OUT)
     os.makedirs(OUT)
+
+    keyfile = os.path.join(ROOT, "data", "indexnow_key.txt")
+    if os.path.exists(keyfile):
+        with open(keyfile, encoding="utf-8") as kf:
+            k = kf.read().strip()
+            if k:
+                with open(os.path.join(OUT, k + ".txt"), "w", encoding="utf-8") as kout:
+                    kout.write(k)
 
     urls = []
     n_trends = n_days = 0

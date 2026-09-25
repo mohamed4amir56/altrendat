@@ -29,6 +29,7 @@ from itertools import zip_longest
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import entities  # noqa: E402
 import dedup  # noqa: E402
+import jobs  # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -266,6 +267,88 @@ td:first-child{color:var(--acc);font-weight:600}
   .channel-cta{flex-direction:column;align-items:stretch;text-align:center}
   .btn-tg{justify-content:center}
 }
+/* --- قسم الوظائف (Jobs Section) --- */
+.nav-jobs{
+  background:linear-gradient(135deg,rgba(245,197,66,.18),rgba(255,159,104,.15));
+  border-color:rgba(245,197,66,.5)!important;color:var(--gold)!important;
+  font-weight:700;
+}
+.jobs-hero{margin:10px 0 24px}
+.jobs-lead{font-size:1.08rem;color:var(--txt);line-height:1.75;margin-top:6px}
+
+.safety-box{
+  background:rgba(90,169,255,.07);border:1px solid rgba(90,169,255,.3);
+  border-radius:14px;padding:14px 18px;margin:20px 0;display:flex;gap:14px;align-items:flex-start;
+}
+.safety-icon{font-size:1.6rem;line-height:1}
+.safety-text strong{color:var(--acc);display:block;margin-bottom:3px;font-size:.92rem}
+.safety-text p{font-size:.85rem;color:var(--mut);margin:0;line-height:1.6}
+
+.job-filters-wrap{margin:22px 0 16px}
+.job-filters-group{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.filter-label{font-size:.84rem;color:var(--mut);font-weight:600}
+.filter-btn{
+  background:var(--card);border:1px solid var(--line);color:var(--txt);
+  padding:6px 14px;border-radius:99px;font-family:inherit;font-size:.84rem;cursor:pointer;
+  transition:.2s;
+}
+.filter-btn:hover{border-color:var(--acc);color:#fff}
+.filter-btn.active{background:var(--acc);border-color:var(--acc);color:#0a0d14;font-weight:700}
+
+.jobs-list{display:grid;gap:16px;margin:24px 0}
+.job-card{
+  background:linear-gradient(165deg,var(--card),var(--bg2));
+  border:1px solid var(--line);border-radius:16px;padding:20px 22px;transition:.2s;
+}
+.job-card:hover{border-color:rgba(90,169,255,.5);transform:translateY(-2px)}
+.job-header{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+.job-badge{
+  font-size:.76rem;font-weight:700;padding:3px 10px;border-radius:99px;
+  background:rgba(255,255,255,.06);color:var(--c,var(--gold));border:1px solid rgba(255,255,255,.1);
+}
+.job-country{font-size:.82rem;color:var(--mut)}
+.job-title{font-size:1.25rem;font-weight:800;line-height:1.45;margin-bottom:12px}
+.job-title a{text-decoration:none;color:var(--txt)}
+.job-title a:hover{color:var(--acc)}
+.job-meta{display:flex;flex-wrap:wrap;gap:10px 16px;margin-bottom:12px;font-size:.84rem;color:var(--mut)}
+.job-meta-item{display:inline-flex;align-items:center;gap:4px}
+.job-summary{font-size:.95rem;color:#c8d1e0;line-height:1.75;margin-bottom:16px}
+.job-footer{display:flex;justify-content:flex-end}
+.btn-job-details{
+  font-size:.86rem;font-weight:700;color:var(--gold);text-decoration:none;
+  padding:6px 14px;border-radius:99px;border:1px solid rgba(245,197,66,.3);transition:.2s;
+}
+.btn-job-details:hover{background:rgba(245,197,66,.12);border-color:var(--gold)}
+
+.breadcrumb{font-size:.82rem;color:var(--mut);margin-bottom:18px}
+.breadcrumb a{text-decoration:none;color:var(--mut)}
+.breadcrumb a:hover{color:var(--acc)}
+.job-single-header{margin-bottom:20px}
+.job-single-meta{display:flex;gap:16px;flex-wrap:wrap;color:var(--mut);font-size:.82rem;margin-top:8px}
+
+.job-quick-facts{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:22px 0 28px;
+}
+.fact-box{
+  background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;
+  display:flex;flex-direction:column;gap:4px;
+}
+.fact-icon{font-size:1.3rem}
+.fact-title{font-size:.76rem;color:var(--mut);font-weight:600}
+.fact-val{font-size:.92rem;font-weight:700;color:var(--txt)}
+.active-status{color:#3ddc97}
+
+.apply-cta-box{
+  background:linear-gradient(135deg,rgba(61,220,151,.1),rgba(90,169,255,.08));
+  border:1px solid rgba(61,220,151,.35);border-radius:16px;padding:24px;text-align:center;margin:30px 0;
+}
+.apply-cta-box h3{font-size:1.25rem;color:#fff;margin-bottom:8px}
+.apply-cta-box p{font-size:.92rem;color:var(--mut);margin-bottom:18px}
+.btn-apply-main{
+  display:inline-block;background:#3ddc97;color:#0a0d14!important;font-weight:800;
+  font-size:1rem;padding:12px 28px;border-radius:99px;text-decoration:none;transition:.2s;
+}
+.btn-apply-main:hover{background:#32be82;transform:scale(1.02)}
 """
 
 
@@ -611,6 +694,10 @@ def load_days():
 def country_nav(current, depth, is_en=False):
     root = "../" * depth if depth else "./"
     out = []
+    jobs_label = "💼 Jobs" if is_en else "💼 وظائف اليوم"
+    mark = " ●" if current == "jobs" else ""
+    out.append("<a href='{r}jobs/' class='nav-jobs'>{l}{m}</a>".format(
+        r=root, l=jobs_label, m=mark))
     for key, cfg in COUNTRIES.items():
         mark = " ●" if key == current else ""
         name = cfg.get("name_en") if is_en else cfg.get("name_ar")
@@ -839,11 +926,24 @@ def build_home(data, urls):
                 n=E(cfg["country_name"]), ic=t["icon"],
                 cat=E(t["category"]), tr=E(t["traffic"]), tm=E(time_part)))
 
+    jobs_banner = """
+    <div class="channel-cta" style="background:linear-gradient(135deg,rgba(61,220,151,.12),rgba(90,169,255,.08));border-color:rgba(61,220,151,.35);margin:18px 0 24px;">
+      <div class="channel-cta-text">
+        <h4 style="color:#3ddc97;">💼 دليل وظائف اليوم وعقود العمل الرسمية 2026</h4>
+        <p>وظائف حكومية ومسابقات رسمية، عقود عمل بالخارج (ألمانيا، كندا، إيطاليا)، وظائف الخليج، والعمل عن بعد بالدولار مع روابط التقديم المباشرة.</p>
+      </div>
+      <div class="channel-cta-btns">
+        <a class="btn-tg" style="background:#3ddc97;color:#0a0d14!important;font-weight:800;" href="./jobs/">استعرض جميع الوظائف ⬅️</a>
+      </div>
+    </div>"""
+
     body = """
     <h1>ما الذي يبحث عنه العرب اليوم؟</h1>
     <p class="lead">الترند قبل أن يبرد… ما يشغل الملايين الآن ⚡</p>
+    {jobs_banner}
     <div class="list">{cards}</div>
     {news}""".format(
+        jobs_banner=jobs_banner,
         cards="".join(cards),
         news=("<h2>أبرز أخبار اليوم</h2><div class='list'>" +
               "".join(news) + "</div>") if news else "")
@@ -1080,6 +1180,8 @@ def main():
 
     build_home(latest, urls)
     build_static(urls)
+    jobs_urls = jobs.build_jobs_site(BASE, OUT, lambda d: country_nav("jobs", d))
+    urls.extend(jobs_urls)
     n_feed = build_feed(latest)
     build_404()
 
@@ -1121,7 +1223,8 @@ def main():
     print("✓ الموقع جاهز في site/")
     print("  " + str(len(latest)) + " بلد · " + str(n_days) + " صفحة يوم · " +
           str(n_trends) + " صفحة ترند · " +
-          str(len(store) - skipped) + " صفحة كيان")
+          str(len(store) - skipped) + " صفحة كيان · " +
+          str(len(jobs_urls) - 1) + " وظيفة شاغرة (/jobs/)")
     print("  " + str(skipped) + " كيانًا حجبته بوابة الأمان")
     print("  " + str(len(urls)) + " رابطًا في sitemap.xml · " +
           str(n_feed) + " في feed.xml")

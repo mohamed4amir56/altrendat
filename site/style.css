@@ -136,3 +136,85 @@ td:first-child{color:var(--acc);font-weight:600}
   .channel-cta{flex-direction:column;align-items:stretch;text-align:center}
   .btn-tg{justify-content:center}
 }
+/* --- قسم الوظائف (Jobs Section) --- */
+.nav-jobs{
+  background:linear-gradient(135deg,rgba(245,197,66,.18),rgba(255,159,104,.15));
+  border-color:rgba(245,197,66,.5)!important;color:var(--gold)!important;
+  font-weight:700;
+}
+.jobs-hero{margin:10px 0 24px}
+.jobs-lead{font-size:1.08rem;color:var(--txt);line-height:1.75;margin-top:6px}
+
+.safety-box{
+  background:rgba(90,169,255,.07);border:1px solid rgba(90,169,255,.3);
+  border-radius:14px;padding:14px 18px;margin:20px 0;display:flex;gap:14px;align-items:flex-start;
+}
+.safety-icon{font-size:1.6rem;line-height:1}
+.safety-text strong{color:var(--acc);display:block;margin-bottom:3px;font-size:.92rem}
+.safety-text p{font-size:.85rem;color:var(--mut);margin:0;line-height:1.6}
+
+.job-filters-wrap{margin:22px 0 16px}
+.job-filters-group{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.filter-label{font-size:.84rem;color:var(--mut);font-weight:600}
+.filter-btn{
+  background:var(--card);border:1px solid var(--line);color:var(--txt);
+  padding:6px 14px;border-radius:99px;font-family:inherit;font-size:.84rem;cursor:pointer;
+  transition:.2s;
+}
+.filter-btn:hover{border-color:var(--acc);color:#fff}
+.filter-btn.active{background:var(--acc);border-color:var(--acc);color:#0a0d14;font-weight:700}
+
+.jobs-list{display:grid;gap:16px;margin:24px 0}
+.job-card{
+  background:linear-gradient(165deg,var(--card),var(--bg2));
+  border:1px solid var(--line);border-radius:16px;padding:20px 22px;transition:.2s;
+}
+.job-card:hover{border-color:rgba(90,169,255,.5);transform:translateY(-2px)}
+.job-header{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+.job-badge{
+  font-size:.76rem;font-weight:700;padding:3px 10px;border-radius:99px;
+  background:rgba(255,255,255,.06);color:var(--c,var(--gold));border:1px solid rgba(255,255,255,.1);
+}
+.job-country{font-size:.82rem;color:var(--mut)}
+.job-title{font-size:1.25rem;font-weight:800;line-height:1.45;margin-bottom:12px}
+.job-title a{text-decoration:none;color:var(--txt)}
+.job-title a:hover{color:var(--acc)}
+.job-meta{display:flex;flex-wrap:wrap;gap:10px 16px;margin-bottom:12px;font-size:.84rem;color:var(--mut)}
+.job-meta-item{display:inline-flex;align-items:center;gap:4px}
+.job-summary{font-size:.95rem;color:#c8d1e0;line-height:1.75;margin-bottom:16px}
+.job-footer{display:flex;justify-content:flex-end}
+.btn-job-details{
+  font-size:.86rem;font-weight:700;color:var(--gold);text-decoration:none;
+  padding:6px 14px;border-radius:99px;border:1px solid rgba(245,197,66,.3);transition:.2s;
+}
+.btn-job-details:hover{background:rgba(245,197,66,.12);border-color:var(--gold)}
+
+.breadcrumb{font-size:.82rem;color:var(--mut);margin-bottom:18px}
+.breadcrumb a{text-decoration:none;color:var(--mut)}
+.breadcrumb a:hover{color:var(--acc)}
+.job-single-header{margin-bottom:20px}
+.job-single-meta{display:flex;gap:16px;flex-wrap:wrap;color:var(--mut);font-size:.82rem;margin-top:8px}
+
+.job-quick-facts{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:22px 0 28px;
+}
+.fact-box{
+  background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;
+  display:flex;flex-direction:column;gap:4px;
+}
+.fact-icon{font-size:1.3rem}
+.fact-title{font-size:.76rem;color:var(--mut);font-weight:600}
+.fact-val{font-size:.92rem;font-weight:700;color:var(--txt)}
+.active-status{color:#3ddc97}
+
+.apply-cta-box{
+  background:linear-gradient(135deg,rgba(61,220,151,.1),rgba(90,169,255,.08));
+  border:1px solid rgba(61,220,151,.35);border-radius:16px;padding:24px;text-align:center;margin:30px 0;
+}
+.apply-cta-box h3{font-size:1.25rem;color:#fff;margin-bottom:8px}
+.apply-cta-box p{font-size:.92rem;color:var(--mut);margin-bottom:18px}
+.btn-apply-main{
+  display:inline-block;background:#3ddc97;color:#0a0d14!important;font-weight:800;
+  font-size:1rem;padding:12px 28px;border-radius:99px;text-decoration:none;transition:.2s;
+}
+.btn-apply-main:hover{background:#32be82;transform:scale(1.02)}

@@ -9645,8 +9645,8 @@
         "publishable": true,
         "headlines": [
           "مباشر الآن.. مباراة الجزائر ضد زامبيا (0-0) في تصفيات كأس أمم أفريقيا 2027",
-          "في بداية مشوار حمداني.. التشكيل المحتمل لمنتخب الجزائر ضد زامبيا",
-          "تشكيل منتخب الجزائر لمواجهة زامبيا في تصفيات أمم أفريقيا"
+          "اهداف مباراة الجزائر وزامبيا في تصفيات كاس امم افريقيا",
+          "في بداية مشوار حمداني.. التشكيل المحتمل لمنتخب الجزائر ضد زامبيا"
         ]
       },
       {
@@ -9654,8 +9654,8 @@
         "date": "2026-09-25",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
@@ -9684,14 +9684,14 @@
         "date": "2026-09-25",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "عام",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
+          "Nach dem Tod von Paul: „Manchmal frage ich mich, ob er von mir enttäuscht ist“",
           "Strafvollzug: Polizei ermittelt zum Tod eines Häftlings in Hohenleuben",
-          "Strafvollzug: Polizei ermittelt zum Tod eines Häftlings in Hohenleuben",
-          "Dem grossen Unbekannten den Schrecken nehmen: Festival zum Tod in St.Gallen"
+          "Strafvollzug: Polizei ermittelt zum Tod eines Häftlings in Hohenleuben"
         ]
       }
     ],
@@ -9700,7 +9700,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "عام"
   },
   "تسول": {
@@ -9963,7 +9963,7 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "Can Chipolopolo break their AFCON qualifying opening-day hoodoo?",
           "【LiveSTREAMS】FREE]# Algeria vs Zambia Football Live Free TV Channel 25 September 2026",
@@ -10067,7 +10067,7 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "مالي ضد الرأس الأخضر: التاريخ، التوقيت، القناة الناقلة، البث المباشر، والتشكيلات المتوقعة",
           "تشكيلة مباراة مالي والرأس الأخضر | تصفيات كأس أمم أفريقيا · 25 سبتمبر 2026"
@@ -10081,7 +10081,7 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "مالي ضد الرأس الأخضر: التاريخ، التوقيت، القناة الناقلة، البث المباشر، والتشكيلات المتوقعة",
           "تشكيلة مباراة مالي والرأس الأخضر | تصفيات كأس أمم أفريقيا · 25 سبتمبر 2026"
@@ -10373,9 +10373,9 @@
         "category": "تقنية",
         "publishable": true,
         "headlines": [
-          "Large search underway after 2-year-old girl walks away from Virginia home",
+          "Search underway after 2-year-old Virginia girl goes missing",
           "2-year-old girl missing out of Cumberland, community asked to aid in the search",
-          "UPDATE: Missing Cumberland County toddler has been found"
+          "Virginia toddler missing overnight after hide-and-seek game found alive in woods"
         ]
       }
     ],
@@ -10560,5 +10560,204 @@
     ],
     "peak_traffic": 500,
     "category": "حوادث وقضايا"
+  },
+  "cubs-game-today": {
+    "slug": "cubs-game-today",
+    "name": "cubs game today",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "How Pete Crow-Armstrong's MVP year carried Cubs to MLB playoffs",
+          "Cubs punch return trip to postseason on banner day for PCA",
+          "Pete Crow-Armstrong becomes the 1st Chicago Cub with a 40-40 season — and only the 7th player in MLB history"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "رياضة"
+  },
+  "mbappe": {
+    "slug": "mbappe",
+    "name": "mbappe",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Zidane feeling 'immense emotion' ahead of debut as France coach",
+          "France starting lineup to face Turkey: Who has Zinedine Zidane selected for his debut?",
+          "Being managed by Zidane for France is 'like a movie', says Mbappe"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "brendan-beck": {
+    "slug": "brendan-beck",
+    "name": "brendan beck",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Yankees Roster Moves - 9/25/26",
+          "Yankees change roster for doubleheader; Red Sox showdown not official",
+          "Yankees' Brendan Beck: Summoned ahead of spot start"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "google": {
+    "slug": "google",
+    "name": "google",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "تقنية",
+        "publishable": true,
+        "headlines": [
+          "Google Is Sending an A.I. Data Center to Outer Space",
+          "Google Plans To Launch Mini Data Center Into Space Next Week As Part Of Project Suncatcher’s Bid For A Market Projected To Hit $28.16 Billion",
+          "Behind Project Suncatcher, our moonshot to put AI in space"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "تقنية"
+  },
+  "france-football": {
+    "slug": "france-football",
+    "name": "france football",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "EN DIRECT, Turquie-France : Kylian Mbappé délivre les Bleus en ouvrant la marque pour les grands débuts de Zinédine Zidane",
+          "Zinédine Zidane et le staff en retard pour la « Marseillaise » avant Turquie-France",
+          "Suivez Turquie - France En direct - Ligue des Nations A - Groupe 1"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "fleabag": {
+    "slug": "fleabag",
+    "name": "fleabag",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": []
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "dow": {
+    "slug": "dow",
+    "name": "dow",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": true,
+        "headlines": [
+          "Dow jumps more than 470 points Friday; stocks notch winning week despite Treasury yield surge: Live updates",
+          "U.S. Stocks Rise To End Volatile Week",
+          "Stock market today: Dow, S&P 500, Nasdaq rise as investors shake off bond sell-off woes"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "اقتصاد"
   }
 }

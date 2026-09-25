@@ -735,7 +735,6 @@ def render_page_template(title, desc, canonical, body, countries_nav="", depth=1
     <a href="{root}jobs/">وظائف اليوم</a>
     <a href="{root}eg/">مصر</a>
     <a href="{root}sa/">السعودية</a>
-    <a href="{root}world/">عالمي</a>
     """
 
     floating_bar = """<div class="floating-cta">

@@ -1122,9 +1122,12 @@ def main():
 
     # كل يوم مؤرشف يُبنى، لا يوم واحد. صفحة الأمس تبقى على رابطها،
     # وهذا شرط الفهرسة: رابط يختفي بعد يوم لا يُرتَّب أبدًا.
+    enabled_keys = {k for k, cfg in c_defs.items() if cfg.get("enabled")}
     days = load_days()
     by_country = {}
     for (key, day), cfg in days.items():
+        if key not in enabled_keys:
+            continue
         by_country.setdefault(key, []).append((day, cfg))
     for entries in by_country.values():
         entries.sort(key=lambda x: x[0], reverse=True)

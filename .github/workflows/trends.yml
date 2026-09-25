@@ -32,7 +32,7 @@ jobs:
       # تشغيلة تلتقط وتصنّف ثم تخرج بصفر مقالات، والخطأ مكتوم لأن
       # خطوة الكتابة تحمل continue-on-error.
       - name: تثبيت المتطلبات
-        run: pip install --quiet Pillow anthropic
+        run: pip install --quiet Pillow anthropic google-auth
 
       # خادم Ubuntu لا يملك خطًا عربيًا افتراضيًا، فالكروت تخرج مربعات
       # فارغة أو يفشل التوليد. Noto يغطي العربية كاملة.
@@ -63,14 +63,22 @@ jobs:
       - name: بناء الموقع
         env:
           SITE_BASE: ${{ vars.SITE_BASE }}
-        run: python engine/site.py "${SITE_BASE:-https://altrendat.mohamed4amir56.workers.dev}"
+        run: python engine/site.py "${SITE_BASE:-https://altrendat.com}"
 
       # الفهرسة تحسين لا شرط — فشلها لا يُسقط التشغيلة
-      - name: إخطار محركات البحث
+      - name: إخطار محركات البحث (IndexNow)
         env:
           SITE_BASE: ${{ vars.SITE_BASE }}
         continue-on-error: true
-        run: python engine/indexnow.py "${SITE_BASE:-https://altrendat.mohamed4amir56.workers.dev}"
+        run: python engine/indexnow.py "${SITE_BASE:-https://altrendat.com}"
+
+      # إشعار Googlebot لحظياً بأحدث المقالات لسرعة الفهرسة
+      - name: إخطار Google Indexing API
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SITE_BASE: ${{ vars.SITE_BASE }}
+        continue-on-error: true
+        run: python engine/google_indexer.py "${SITE_BASE:-https://altrendat.com}"
 
       - name: حفظ النتائج
         run: |

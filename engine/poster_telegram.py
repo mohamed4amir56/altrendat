@@ -176,6 +176,27 @@ def find_card_path(trend):
     return None
 
 
+def pick_telegram_image(trend):
+    """اختيار أفضل صورة للمنشور: نفضل صور التغطية الإخبارية الحقيقية عالية الدقة، ثم الكارت المحلي المصمم."""
+    # 1. صورة الخبر الصحفي الحقيقي (og:image)
+    for n in trend.get("news", []):
+        img = n.get("og_image")
+        if img and img.startswith("http") and not any(bad in img.lower() for bad in ("logo", "icon", "placeholder", "avatar", "default")):
+            return None, img
+
+    # 2. الكارت المحلي المصمم
+    card_path = find_card_path(trend)
+    if card_path:
+        return card_path, None
+
+    # 3. صورة جوجل تريندز البديلة
+    fallback = trend.get("image")
+    if fallback and fallback.startswith("http"):
+        return None, fallback
+
+    return None, None
+
+
 def send_to_telegram(token, chat_id, caption, card_path=None, fallback_image_url=None):
     """إرسال المنشور إلى قناة أو مجموعة تليجرام عبر Bot API الرسمي مجاناً."""
     if not requests:
@@ -184,7 +205,28 @@ def send_to_telegram(token, chat_id, caption, card_path=None, fallback_image_url
 
     base_api = f"https://api.telegram.org/bot{token}"
 
-    # محاولة 1: إرسال صورة الكارت المحلية مع الشرح
+    # محاولة 1: صورة الخبر الإخبارية الحقيقية (إن وجدت)
+    if fallback_image_url and fallback_image_url.startswith("http"):
+        try:
+            res = requests.post(
+                f"{base_api}/sendPhoto",
+                data={
+                    "chat_id": chat_id,
+                    "photo": fallback_image_url,
+                    "caption": caption,
+                    "parse_mode": "HTML",
+                },
+                timeout=20,
+            )
+            if res.status_code == 200:
+                print("  ✓ تم نشر صورة الخبر الحقيقية والشرح بنجاح على تليجرام!")
+                return True
+            else:
+                print(f"  ⚠️ تعذر إرسال صورة الخبر الخارجية ({res.status_code}): {res.text}")
+        except Exception as e:
+            print(f"  ⚠️ خطأ في إرسال رابط الصورة: {e}")
+
+    # محاولة 2: صورة الكارت المحلية المصممة مع الشرح
     if card_path and os.path.exists(card_path):
         try:
             with open(card_path, "rb") as f:
@@ -205,23 +247,6 @@ def send_to_telegram(token, chat_id, caption, card_path=None, fallback_image_url
                 print(f"  ⚠️ تعذر إرسال الصورة المحلية ({res.status_code}): {res.text}")
         except Exception as e:
             print(f"  ⚠️ خطأ أثناء رفع الصورة المحلية: {e}")
-
-    # محاولة 2: إرسال صورة عبر رابط خارجي إذا وجد
-    if fallback_image_url and fallback_image_url.startswith("http"):
-        try:
-            res = requests.post(
-                f"{base_api}/sendPhoto",
-                data={
-                    "chat_id": chat_id,
-                    "photo": fallback_image_url,
-                    "caption": caption,
-                    "parse_mode": "HTML",
-                },
-                timeout=20,
-            )
-            if res.status_code == 200:
-                print("  ✓ تم نشر الصورة والرابط بنجاح على تليجرام!")
-                return True
         except Exception as e:
             print(f"  ⚠️ خطأ في إرسال رابط الصورة: {e}")
 
@@ -303,11 +328,10 @@ def main():
     print(f"🚀 بدء النشر التلقائي على تليجرام لـ {len(selected)} ترند (عربي + عالمي)...")
     for key, ckey, day, t in selected:
         caption = build_telegram_caption(t, ckey, day, base)
-        card_path = find_card_path(t)
-        fallback_img = t.get("image")
+        card_path, photo_url = pick_telegram_image(t)
 
         print(f"\nإرسال الترند [{ckey.upper()}]: {t.get('title')}")
-        ok = send_to_telegram(token, chat_id, caption, card_path, fallback_img)
+        ok = send_to_telegram(token, chat_id, caption, card_path=card_path, fallback_image_url=photo_url)
         if ok:
             posted.add(key)
 

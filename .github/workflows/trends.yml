@@ -32,12 +32,11 @@ jobs:
       # تشغيلة تلتقط وتصنّف ثم تخرج بصفر مقالات، والخطأ مكتوم لأن
       # خطوة الكتابة تحمل continue-on-error.
       - name: تثبيت المتطلبات
-        run: pip install --quiet Pillow anthropic google-auth requests requests-oauthlib
+        run: pip install --quiet Pillow anthropic google-auth requests requests-oauthlib arabic-reshaper python-bidi
 
-      # خادم Ubuntu لا يملك خطًا عربيًا افتراضيًا، فالكروت تخرج مربعات
-      # فارغة أو يفشل التوليد. Noto يغطي العربية كاملة.
+      # تثبيت خطوط عربية إضافية كاحتياط بجانب خطوط Tahoma المدمجة في engine/fonts
       - name: تثبيت خط عربي
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-core
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-core fonts-kacst
 
       - name: التقاط وإثراء وتصنيف
         run: python engine/pipeline.py

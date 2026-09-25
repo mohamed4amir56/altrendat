@@ -451,10 +451,13 @@ def build_trend(country, cfg, t, urls):
             cname=E(cfg["country_name"]), day=day, term=E(t["title"]), slug=slug)
         src_html = sources_list(t["news"], is_en=False)
 
-    hero = ("<img class='hero' src='{}cards/{}' alt='{}' "
-            "width='1200' height='675' loading='lazy'>".format(
-                "../../../../", os.path.basename(t["card"]), E(t["title"]))
-            if t.get("card") else "")
+    hero_top = ""
+    if not photo and t.get("card"):
+        hero_top = ("<figure class='article-photo'>"
+                    "<img class='hero' src='{}cards/{}' alt='{}' "
+                    "width='1200' height='675' loading='eager'>"
+                    "</figure>".format(
+                        "../../../../", os.path.basename(t["card"]), E(t["title"])))
 
     body = """
     <div class="when">{chips}</div>
@@ -462,14 +465,14 @@ def build_trend(country, cfg, t, urls):
     <p class="lead">{summ}</p>
     {table}
     {photo}
+    {hero_top}
     <article>{paras}</article>
     <div class="tags">{tags}</div>
     {sources}
-    {hero}
     {meta_nav}""".format(
         chips=chips, head=E(art["headline"]), summ=E(art.get("summary", "")),
-        table=data_table(t.get("data")), photo=photo_html, paras=paras,
-        tags=tags, sources=src_html, hero=hero, meta_nav=meta_nav)
+        table=data_table(t.get("data")), photo=photo_html, hero_top=hero_top,
+        paras=paras, tags=tags, sources=src_html, meta_nav=meta_nav)
 
     urls.append((canonical, cfg["generated_at"], "0.8"))
     site_title = SITE_NAME_EN if is_en else SITE_NAME

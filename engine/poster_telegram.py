@@ -308,22 +308,15 @@ def main():
         print("  لا توجد ترندات جديدة غير منشورة على تليجرام.")
         return 0
 
-    # التوزيع: ترند عربي + ترند عالمي
+    # حصر النشر في القناة على الترندات العربية فقط (مصر والسعودية)
     arabic_candidates = [item for item in to_post if item[1] in ("eg", "sa")]
-    world_candidates = [item for item in to_post if item[1] == "world"]
 
-    selected = []
-    if arabic_candidates:
-        arabic_candidates.sort(key=lambda item: -item[3].get("traffic_num", 0))
-        selected.append(arabic_candidates[0])
-    if world_candidates:
-        world_candidates.sort(key=lambda item: -item[3].get("traffic_num", 0))
-        selected.append(world_candidates[0])
+    if not arabic_candidates:
+        print("  لا توجد ترندات عربية جديدة غير منشورة على تليجرام.")
+        return 0
 
-    if len(selected) < MAX_PER_RUN:
-        remaining = [item for item in to_post if item not in selected]
-        remaining.sort(key=lambda item: -item[3].get("traffic_num", 0))
-        selected.extend(remaining[:MAX_PER_RUN - len(selected)])
+    arabic_candidates.sort(key=lambda item: -item[3].get("traffic_num", 0))
+    selected = arabic_candidates[:MAX_PER_RUN]
 
     print(f"🚀 بدء النشر التلقائي على تليجرام لـ {len(selected)} ترند (عربي + عالمي)...")
     for key, ckey, day, t in selected:

@@ -123,6 +123,7 @@ SHELL = """<!DOCTYPE html>
   <p>{fdesc}</p>
   <p class="fine">{ffine}</p>
 </footer>
+{floating_bar}
 {analytics}
 </body>
 </html>"""
@@ -239,7 +240,32 @@ td:first-child{color:var(--acc);font-weight:600}
 .when{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:6px}
 .chip{font-size:.74rem;color:var(--mut);border:1px solid var(--line);
   border-radius:99px;padding:2px 11px}
-@media(max-width:560px){h1{font-size:1.45rem}}
+.channel-cta{
+  background:linear-gradient(135deg,rgba(34,158,217,.12),rgba(90,169,255,.08));
+  border:1px solid rgba(90,169,255,.35);border-radius:16px;
+  padding:18px 20px;margin:26px 0 28px;
+  display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+}
+.channel-cta h4{font-size:1.05rem;font-weight:800;color:#fff;margin-bottom:4px}
+.channel-cta p{font-size:.86rem;color:var(--mut);margin:0!important;line-height:1.55}
+.btn-tg{
+  background:#229ed9;color:#fff!important;font-weight:700;font-size:.88rem;
+  padding:9px 20px;border-radius:99px;text-decoration:none;
+  display:inline-flex;align-items:center;gap:6px;transition:.2s;white-space:nowrap;
+}
+.btn-tg:hover{background:#1c88bd;transform:translateY(-1px)}
+.floating-cta{
+  position:fixed;bottom:12px;left:50%;transform:translateX(-50%);z-index:999;
+  background:rgba(17,22,34,.95);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border:1px solid var(--line);box-shadow:0 8px 24px rgba(0,0,0,.5);
+  border-radius:99px;padding:6px 14px;display:flex;align-items:center;gap:10px;max-width:92%;
+}
+.floating-cta span{font-size:.8rem;font-weight:600;color:var(--txt);white-space:nowrap}
+@media(max-width:560px){
+  h1{font-size:1.45rem}
+  .channel-cta{flex-direction:column;align-items:stretch;text-align:center}
+  .btn-tg{justify-content:center}
+}
 """
 
 
@@ -286,11 +312,23 @@ def page(path, title, desc, body, canonical, nav="", image=None,
         fdesc = "{site} — يرصد الأكثر بحثًا يوميًا في العالم العربي والعالم.".format(site=E(site_brand))
         ffine = "الأخبار منسوبة إلى مصادرها وروابطها، والأرقام إلى جهاتها."
 
+    if is_en:
+        floating_bar = """<div class="floating-cta">
+  <span>📢 Follow Trending News:</span>
+  <a class="btn-tg" href="https://t.me/altrendat_news" target="_blank" rel="noopener">Telegram</a>
+</div>"""
+    else:
+        floating_bar = """<div class="floating-cta">
+  <span>📢 تابع الترندات أولاً بأول:</span>
+  <a class="btn-tg" href="https://t.me/altrendat_news" target="_blank" rel="noopener">تليجرام</a>
+</div>"""
+
     out = SHELL.format(
         lang=lang, dir=direction, locale=locale,
         title=E(title), desc=E(desc[:300]), canonical=E(canonical),
         site=E(site_brand), ogimage=ogimage, ogtype=ogtype, jsonld=ld,
         nav=nav, body=body, root=root, flinks=flinks, fdesc=fdesc, ffine=ffine,
+        floating_bar=floating_bar,
         analytics=analytics_tag())
 
     full = os.path.join(OUT, path)
@@ -459,6 +497,29 @@ def build_trend(country, cfg, t, urls):
                     "</figure>".format(
                         "../../../../", os.path.basename(t["card"]), E(t["title"])))
 
+    if is_en:
+        cta = """
+        <div class="channel-cta">
+          <div class="channel-cta-text">
+            <h4>📢 Follow ALTRENDAT on Telegram</h4>
+            <p>Get real-time updates and breaking news directly on your phone.</p>
+          </div>
+          <div class="channel-cta-btns">
+            <a class="btn-tg" href="https://t.me/altrendat_news" target="_blank" rel="noopener">👉 Join Channel</a>
+          </div>
+        </div>"""
+    else:
+        cta = """
+        <div class="channel-cta">
+          <div class="channel-cta-text">
+            <h4>📢 انضم لقناة الترندات على تليجرام</h4>
+            <p>تابع أهم وأحدث الأخبار العاجلة وترندات الساعة لحظة بلحظة مع الصور والتفاصيل الكاملة مجاناً.</p>
+          </div>
+          <div class="channel-cta-btns">
+            <a class="btn-tg" href="https://t.me/altrendat_news" target="_blank" rel="noopener">👉 انضم للقناة الآن</a>
+          </div>
+        </div>"""
+
     body = """
     <div class="when">{chips}</div>
     <h1>{head}</h1>
@@ -468,11 +529,12 @@ def build_trend(country, cfg, t, urls):
     {hero_top}
     <article>{paras}</article>
     <div class="tags">{tags}</div>
+    {cta}
     {sources}
     {meta_nav}""".format(
         chips=chips, head=E(art["headline"]), summ=E(art.get("summary", "")),
         table=data_table(t.get("data")), photo=photo_html, hero_top=hero_top,
-        paras=paras, tags=tags, sources=src_html, meta_nav=meta_nav)
+        paras=paras, tags=tags, cta=cta, sources=src_html, meta_nav=meta_nav)
 
     urls.append((canonical, cfg["generated_at"], "0.8"))
     site_title = SITE_NAME_EN if is_en else SITE_NAME

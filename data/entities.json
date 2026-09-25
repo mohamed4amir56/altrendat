@@ -1923,12 +1923,12 @@
         "country_name": "مصر",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "شخصية",
-        "publishable": true,
+        "category": "حوادث وقضايا",
+        "publishable": false,
         "headlines": [
           "فيديو.. إسرائيلي يرصد الوفود المنسحبة خلال خطاب نتنياهو",
-          "قائمة الانسحاب.. عضو بوفد إسرائيل يسجل الدول المغادرة لخطاب نتنياهو (فيديو)",
-          "مطلوب للجنائية ويخطب حرًّا.. ماذا تكشف المقاعد الخالية أمام نتنياهو؟"
+          "نتنياهو في الأمم المتحدة.. عزلة في القاعات واحتجاجات في الشوارع",
+          "احتجاز الممثلتين سوزان ساراندون وهانا أينبيندر خلال احتجاج ضد نتنياهو قرب الأمم المتحدة"
         ]
       }
     ],
@@ -1939,7 +1939,7 @@
       "sa"
     ],
     "peak_traffic": 1000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "أحمد-سراج": {
     "slug": "أحمد-سراج",
@@ -3686,8 +3686,8 @@
         "date": "2026-09-25",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -6616,11 +6616,27 @@
           "AFCON 2027 qualifiers: Vieira begins Senegal era as Nigeria face early test without Osimhen with Groups J-L getting under way",
           "[Recap] Lions' Den: Before the clash in Maputo, Vieira and Niakhaté set the course for reconquest"
         ]
+      },
+      {
+        "key": "2026-09-25|eg",
+        "date": "2026-09-25",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Nicolas Jackson saves Senegal, and Patrick Vieira, from dire start to AFCON qualifiers",
+          "Mozambique vs Senegal: Africa Cup of Nations Qualification stats & head-to-head",
+          "Sudan stun Ethiopia, and Senegal come back to draw"
+        ]
       }
     ],
     "last_seen": "2026-09-25",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "eg",
       "world"
     ],
     "peak_traffic": 2000,
@@ -6723,14 +6739,14 @@
         "date": "2026-09-25",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "+3000",
+        "traffic_num": 3000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "Ed Sheeran's Gillette Stadium concerts canceled due to nor'easter, tour promoter says",
-          "Ticket refunds for Ed Sheeran’s concerts at Gillette Stadium must be sought at least 24 hours before show times",
-          "Ed Sheeran concerts at Gillette Stadium have been cancelled due to Nor'easter"
+          "Ed Sheeran’s weekend Gillette concerts canceled due to arriving nor’easter",
+          "Ed Sheeran's next US concerts cancelled due to bad weather",
+          "Concertgoers can request refunds for Ed Sheeran’s shows at Gillette Stadium"
         ]
       }
     ],
@@ -6739,7 +6755,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 3000,
     "category": "طقس"
   },
   "msft-stock": {
@@ -6790,11 +6806,27 @@
           "India vs Panama football 2026: Know where to watch IND vs PAN friendly live streaming and telecast",
           "‘My time is up, I’m a fan now’: Sunil Chhetri makes peace with life after international football"
         ]
+      },
+      {
+        "key": "2026-09-25|sa",
+        "date": "2026-09-25",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "India vs Panama football 2026: Know where to watch IND vs PAN friendly live streaming and telecast",
+          "New Dawn or Reality Check? India Kick Off Demanding FIFA Window Against World Cup-Side Panama",
+          "Sunil Chhetri's Advice To India Ahead Of Brazil, Uruguay Tests: 'Enjoy It, Don't Be Scared'"
+        ]
       }
     ],
     "last_seen": "2026-09-25",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "sa",
       "world"
     ],
     "peak_traffic": 200,
@@ -6856,11 +6888,11 @@
         "traffic": "+4000",
         "traffic_num": 4000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "أهداف مباراة السنغال وموزمبيق في تصفيات كأس الأمم الإفريقية (فيديو)",
-          "هدف نيكولاس جاكسون في مرمي موزمبيق بتصفيات كأس امم افريقيا",
-          "ثورة تغيير فييرا: مراكز كوليبالي وماني في خطر مع السنغال .. والاتحاد انشغل بأنيس الحاج موسى ونسي \"جوهرة موزمبيق\"!"
+          "السودان يصعق إثيوبيا.. والسنغال تعود بالتعادل",
+          "هدف نيكولاس جاكسون في مرمي موزمبيق بتصفيات كأس امم افريقيا"
         ]
       }
     ],
@@ -6931,11 +6963,11 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "شخصية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "​وزير النقل يعلن بدء تشغيل المرحلة الثانية من الأتوبيس الترددى السبت المقبل",
-          "محطة صن كابيتال.. مجمع نقل متكامل ضمن المرحلة الثانية من مشروع BRT| صور",
-          "غدا.. بدء المرحلة الثانية من الأتوبيس الترددي السريع من \"تقاطع الدائري\" حتى \"صن كابيتال\""
+          "انطلاق التشغيل الرسمي للمرحلة الثانية من الأتوبيس الترددي السبت المقبل",
+          "محطة صن كابيتال بالمرحلة الثانية من الأتوبيس الترددي.. مجمع نقل متكامل يخدم المواطنين",
+          "تصل لـ35 جنيهًا.. الأسعار الرسمية للأتوبيس الترددي BRT بعد تشغيل المرحلة الثانية"
         ]
       }
     ],
@@ -6957,14 +6989,14 @@
         "date": "2026-09-25",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
-          "السودان تحقق فوزًا ثمينًا على إثيوبيا في تصفيات أمم أفريقيا",
-          "السودان وإثيوبيا في مواجهة واعدة بـجوبا",
-          "الموعد والقنوات الناقلة لمباراة السودان وإثيوبيا في تصفيات كأس إفريقيا 2027"
+          "السودان تهزم إثيوبيا والسنغال تتعادل مع موزمبيق في تصفيات أفريقيا.. فيديو",
+          "المنتخب السوداني من أجل تحقيق الفوز أمام إثيوبيا",
+          "السودان يهزم إثيوبيا بهدف نظيف في افتتاح مشواره بتصفيات أمم إفريقيا 2027"
         ]
       },
       {
@@ -7002,14 +7034,14 @@
         "date": "2026-09-25",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "أطفال اليمن وسط النيران: جوع ونزوح وتجنيد",
-          "هجمات الحوثيين تدفع آلاف اليمنيين لعبور البحر غرباً",
-          "فرار بلا مقتنيات.. كيف تبدو أوضاع النازحين اليمنيين في جيبوتي بعد نجاتهم بأرواحهم؟"
+          "تحذير من المقليات للأطفال قبل المدرسة.. مخاطر تؤثر على النشاط والتركيز",
+          "استشارية تغذية: الإفطار المتوازن يدعم تركيز الطلاب وصحتهم خلال اليوم الدراسي",
+          "صحة أطفالنا في العودة للمدارس.. نصائح غذائية هامة من المستشار الدولي عبد اللطيف الدوان"
         ]
       }
     ],
@@ -7018,7 +7050,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "كرة-القدم": {
@@ -7031,24 +7063,40 @@
         "date": "2026-09-25",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "زلزال في إنجلترا: إدانة مانشستر سيتي في 114 اتهامًا.. وعقوبات قد تصل لسحب ألقابه!",
-          "مفاجأة مدوية.. رابطة الدوري الإنجليزي تدين مانشستر سيتي بـ 114 تهمة مالية",
-          "ذا أثلتيك: إدانة مانشستر سيتي في 114 اتهاما بخرق اللوائح المالية"
+          "أول رد رسمي من مانشستر سيتي على إدانته في 114 اتهامًا",
+          "ليفربول أكبر مستفيد وعقدة يونايتد تنتهي ومسيرة مورينيو يعاد إحيائها.. من يحصد ألقاب مانشستر سيتي حال تم نزعها منه؟!",
+          "توخيل يسعى لتغيير «هوية الكرة الإنجليزية»"
+        ]
+      },
+      {
+        "key": "2026-09-25|sa",
+        "date": "2026-09-25",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "تزوير إيرادات وتلاعب بالرواتب.. تسريب صادم يكشف تفاصيل خداع مانشستر سيتي للبريميرليج",
+          "تقارير: إدانة مانشستر سيتي بـ114 تهمة من أصل 115 تتعلق بانتهاك القواعد المالية للدوري الإنجليزي",
+          "مانشستر سيتي مُدان في جميع مخالفات الدوري الإنجليزي تقريباً"
         ]
       }
     ],
     "last_seen": "2026-09-25",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
-    "peak_traffic": 200,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 1000,
+    "category": "شخصية"
   },
   "عمرو-زهران": {
     "slug": "عمرو-زهران",
@@ -7063,11 +7111,11 @@
         "traffic": "200+",
         "traffic_num": 200,
         "category": "شخصية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "رغم انتقاد اتحاد السلة.. الأهلي يوقع عقوبة تاريخية على عمرو زهران",
-          "بعد التصرف الأخير.. الأهلي يعاقب لاعبه بالإيقاف «6 أشهر» وخصم 50% من عقده",
-          "الأهلي يجهز مذكرة رسمية للاعتراض على قرارات اتحاد السلة"
+          "الأهلي يجهز مذكرة رسمية للاعتراض على قرارات اتحاد السلة",
+          "نائب رئيس اتحاد السلة يصدر بيانا.. ويعتذر للاعب القناة بعد واقعة مباراة الأهلي"
         ]
       }
     ],
@@ -7118,14 +7166,14 @@
         "date": "2026-09-25",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "«خليجي 27».. حكايةُ البيت الخليجي",
           "«خليجي 27».. جماهير البطولة تعيش تجربة المطبخ الحجازي في جدة",
-          "دونيس يعدّل الأخطاء"
+          "أول 3 نقاط لـ \"الأخضر\".. السعودية تتجاوز عقبة الكويت في \"خليجي 27\""
         ]
       }
     ],
@@ -7134,7 +7182,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 200,
     "category": "رياضة"
   },
   "كهبوب": {
@@ -7176,8 +7224,8 @@
         "date": "2026-09-25",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -7192,7 +7240,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "sudan-vs-ethiopia": {
@@ -7211,8 +7259,8 @@
         "publishable": true,
         "headlines": [
           "Sudan intensify training in Taif ahead of 2027 AFCON qualifiers",
-          "Sudan vs Ethiopia match lineup | Africa Cup of Nations Qualification · 25 Sep 2026",
-          "2027 AFCON Qualifiers: Ethiopia’s official line-up against Sudan revealed"
+          "2027 AFCON QUALIFIERS: Eisa Strikes Late as Sudan Edge Ethiopia in Tense Encounter",
+          "Sudan vs Ethiopia match lineup | Africa Cup of Nations Qualification · 25 Sep 2026"
         ]
       }
     ],
@@ -7321,14 +7369,217 @@
         "date": "2026-09-25",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "49ers Insider Gets Candid on Nick Bosa Landing on Injury Report",
-          "49ers star Nick Bosa lands on injury report with calf issue before Week 3 game",
-          "Nick Bosa Injured, Latest Rumors on 49ers Star's Timeline to Return from Calf Issue"
+          "Sources: 49ers' Nick Bosa injures calf, to miss multiple weeks",
+          "NFL Network: 49ers DE Nick Bosa expected to miss multiple weeks with calf injury",
+          "Schefty: Nick Bosa (calf) to miss ‘a few weeks’"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "nigeria-vs-madagascar": {
+    "slug": "nigeria-vs-madagascar",
+    "name": "nigeria vs madagascar",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Elim CAN 2027 : Nigeria – Madagascar, les compositions officielles",
+          "Nigéria : Victor Osimhen forfait pour les premiers matchs de qualification pour la CAN 2027",
+          "Camouflet nigérian pour Galatasaray : la demande de protection d'Osimhen rejetée avant le match face à Trabzonspor"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "westbury-high-school": {
+    "slug": "westbury-high-school",
+    "name": "westbury high school",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Westbury High School senior shot and killed near campus, Houston police say",
+          "Shooting investigation near Westbury HS: Houston police; HISD says school placed on 'secure mode'",
+          "17-year-old shot dead near his high school, no arrests: Police"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "حوادث وقضايا"
+  },
+  "georgia-vs-northern-ireland": {
+    "slug": "georgia-vs-northern-ireland",
+    "name": "georgia vs northern ireland",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Northern Ireland fans savour the atmosphere in Tbilisi",
+          "Georgia v Northern Ireland - who has impressed you?",
+          "A prospect that's sure to terrify most - but not Pompey's Terry Devlin"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "pardon": {
+    "slug": "pardon",
+    "name": "pardon",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Trump revives Supreme Court immigration showdown after Hochul pardon torpedoed first case",
+          "Trump administration takes important immigration question back to the Supreme Court",
+          "Executive Functions Roundup"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
+  },
+  "nintendo-switch-news": {
+    "slug": "nintendo-switch-news",
+    "name": "nintendo switch news",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Nintendo Wins $4.5M In Switch Pirate Lawsuit",
+          "Nintendo Wins $4.5 Million From Lawsuit Over Pirated Switch Games",
+          "Court orders Reddit moderator who widely pirated Switch games to pay Nintendo $4.5 million in damages"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
+  },
+  "ace-combat-8": {
+    "slug": "ace-combat-8",
+    "name": "ace combat 8",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Ace Combat 8: Wings of Theve review – brilliant aerial combat game fulfils the Top Gun fantasy",
+          "How Ace Combat 8: Wings of Theve Brings High Flying Drama to XBOX Series X|S",
+          "‘Ace Combat 8’ Review: A More Visceral Take On Strangereal Flight Combat"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "google-ai": {
+    "slug": "google-ai",
+    "name": "google ai",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|world",
+        "date": "2026-09-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تقنية",
+        "publishable": true,
+        "headlines": [
+          "Behind Project Suncatcher, our moonshot to put AI in space",
+          "Why now might be a good time to invest in Alphabet",
+          "Google Is Sending an A.I. Data Center to Outer Space"
         ]
       }
     ],
@@ -7338,6 +7589,91 @@
       "world"
     ],
     "peak_traffic": 100,
+    "category": "تقنية"
+  },
+  "kick": {
+    "slug": "kick",
+    "name": "kick",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|eg",
+        "date": "2026-09-25",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "New Twitch Data Shows How Creators Drive Game Discovery"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 500,
     "category": "رياضة"
+  },
+  "نادي-الزمالك-لكرة-اليد": {
+    "slug": "نادي-الزمالك-لكرة-اليد",
+    "name": "نادي الزمالك لكرة اليد",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|eg",
+        "date": "2026-09-25",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "الزمالك يسحق منتدى درب سلطان المغربي في بطولة العالم للأندية لكرة اليد",
+          "محمد عبد الغني أفضل لاعب في لقاء الزمالك ومنتدي درب سلطان ببطولة العالم لكرة اليد",
+          "موعد مباراة الأهلي وفيزبريم المجري في كأس العالم للأندية لكرة اليد والقنوات الناقلة"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "محمد-الشناوي": {
+    "slug": "محمد-الشناوي",
+    "name": "محمد الشناوي",
+    "first_seen": "2026-09-25",
+    "appearances": [
+      {
+        "key": "2026-09-25|eg",
+        "date": "2026-09-25",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": true,
+        "headlines": [
+          "تصريحات حسام حسن تشعل موجة غضب في مصر",
+          "حسام حسن يصف الشناوي بالمنتهي.. نصريحات صادمة لمدير منتخب مصر قبل مباراة أنجولا",
+          "ميدو يشن هجوم على حسام حسن بعد تصريح محمد الشناوى المنتهي"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-25",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
   }
 }

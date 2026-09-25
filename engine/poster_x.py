@@ -1,22 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-أتمتة النشر على X (تويتر) — إطلاق التغريدات فور التقاط الترند.
+أتمتة النشر على X (تويتر) — إطلاق التغريدات فور التقاط الترند المحلي والعالمي.
 
-لماذا X؟
-1. خوارزميات جوجل تمتلك وصولاً لحظياً (Firehose) لتغريدات X، مما يجعل
-   Googlebot يلتقط رابط المقال ويفهرسه أسرع بمرات من الروابط التقليدية.
-2. جلب زوار لحظيين يبحثون عن الترند في نفس دقيقة اشتعاله.
-
-المتطلبات:
-  - مكتبة: requests requests-oauthlib
-  - المتغيرات في GitHub Secrets:
-      X_API_KEY
-      X_API_SECRET
-      X_ACCESS_TOKEN
-      X_ACCESS_SECRET
+الميزات:
+1. صياغة تغريدات باللغة العربية للترندات المحلية (مصر/السعودية) بهاشتاجات عربية نشطة (#عاجل #مصر #الترندات).
+2. صياغة تغريدات باللغة الإنجليزية للترندات العالمية (Worldwide) بهاشتاجات عالمية فيروسية
+   (#BreakingNews #WorldNews #Trending #ALTRENDAT #US).
+3. التوزيع المتوازن: تغريدة عربية + تغريدة عالمية في كل دورة تشغيل.
+4. منع تكرار نشر أي ترند تم التغريد به مسبقاً.
 """
 import json
 import os
+import re
 import sys
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -43,48 +38,118 @@ def save_posted(posted):
         json.dump(sorted(list(posted)), f, ensure_ascii=False, indent=1)
 
 
+def get_global_hashtags(trend):
+    """توليد هاشتاجات عالمية قوية ومستهدفة للترندات العالمية."""
+    cat = trend.get("category", "")
+    cat_tags = {
+        "Sports": ["#BreakingNews", "#Sports", "#Trending"],
+        "Entertainment": ["#Breaking", "#Entertainment", "#Hollywood"],
+        "Finance": ["#BreakingNews", "#Markets", "#Stocks", "#Economy"],
+        "Places": ["#WorldNews", "#Breaking", "#News"],
+        "Weather": ["#WeatherAlert", "#BreakingNews"],
+    }
+    tags_pool = cat_tags.get(cat, ["#BreakingNews", "#WorldNews", "#TrendingNow"])
+
+    # تحويل عنوان الترند إلى هاشتاج CamelCase (مثلاً Cubs vs Red Sox -> #RedSox)
+    raw_title = trend.get("title", "")
+    words = re.findall(r"[A-Za-z0-9]+", raw_title)
+    if words:
+        clean_camel = "".join(w.capitalize() for w in words[:3])
+        if 2 <= len(clean_camel) <= 22:
+            tags_pool.append(f"#{clean_camel}")
+
+    # وسوم المقال
+    tags = trend.get("article", {}).get("tags", [])
+    for t in tags[:2]:
+        clean_words = re.findall(r"[A-Za-z0-9]+", t)
+        if clean_words:
+            t_camel = "".join(w.capitalize() for w in clean_words[:2])
+            if 2 <= len(t_camel) <= 18:
+                tags_pool.append(f"#{t_camel}")
+
+    tags_pool.append("#ALTRENDAT")
+
+    # إزالة التكرار مع الحفاظ على الترتيب
+    seen = set()
+    final_tags = []
+    for tag in tags_pool:
+        k = tag.lower()
+        if k not in seen:
+            seen.add(k)
+            final_tags.append(tag)
+    return final_tags[:5]
+
+
+def get_arabic_hashtags(trend, country_key):
+    """توليد هاشتاجات عربية نشطة للأخبار المحلية."""
+    country_name = "#مصر" if country_key == "eg" else "#السعودية"
+    tags_pool = ["#عاجل", country_name, "#الترندات", "#ترند_اليوم"]
+
+    # هاشتاج عنوان الترند
+    title_clean = re.sub(r"[^\w\s]", "", trend.get("title", "")).strip().replace(" ", "_")
+    if 2 <= len(title_clean) <= 24:
+        tags_pool.append(f"#{title_clean}")
+
+    # وسوم المقال
+    tags = trend.get("article", {}).get("tags", [])
+    for t in tags[:2]:
+        t_clean = re.sub(r"[^\w\s]", "", t).strip().replace(" ", "_")
+        if 2 <= len(t_clean) <= 20:
+            tags_pool.append(f"#{t_clean}")
+
+    seen = set()
+    final_tags = []
+    for tag in tags_pool:
+        if tag not in seen:
+            seen.add(tag)
+            final_tags.append(tag)
+    return final_tags[:5]
+
+
 def build_tweet_text(trend, country_key, day, base):
-    """صياغة نص التغريدة ليكون جذاباً، مختصراً، ومصحوباً بالهاشتاجات."""
+    """صياغة نص التغريدة ليكون جذاباً، مختصراً، ومصحوباً بأقوى الهاشتاجات."""
     art = trend.get("article", {})
     headline = art.get("headline") or trend.get("title")
-    slug = trend.get("title").replace(" ", "-")
-    # محاولة استخراج slug من الكيان لو وُجد
-    from urllib.parse import quote
-    slug_encoded = quote(trend.get("title").replace(" ", "-"))
 
-    # استيراد entities لو أمكن لدقة الـ slug
+    # استيراد entities لدقة الـ slug
     try:
         sys.path.insert(0, os.path.join(ROOT, "engine"))
         import entities
         slug = entities.slugify(trend["title"])
     except Exception:
-        slug = slug_encoded
+        from urllib.parse import quote
+        slug = quote(trend.get("title", "").replace(" ", "-"))
 
     url = f"{base}/{country_key}/{day}/{slug}/"
-
-    # وسم البلد
-    flags = {"eg": "🇪🇬 #مصر", "sa": "🇸🇦 #السعودية", "world": "🌐 #World"}
-    country_tag = flags.get(country_key, "#الترندات")
-
-    # وسم الكلمات المفتاحية
-    tags = art.get("tags", [])
-    hashtags = [f"#{t.replace(' ', '_')}" for t in tags[:2] if len(t) <= 18]
-    hash_str = " ".join(hashtags)
-
     is_en = country_key == "world"
-    if is_en:
-        text = f"🔥 Trending Now: {headline}\n\nRead full story & verified sources 👇\n{url}\n\n{country_tag} #Trends {hash_str}"
-    else:
-        text = f"🔴 ترند الآن | {headline}\n\nالتفاصيل والمصادر الرسمية كاملة 👇\n{url}\n\n{country_tag} #الترندات {hash_str}"
 
-    # التأكد من عدم تجاوز حد الـ 280 حرف
+    if is_en:
+        hashtags = get_global_hashtags(trend)
+        hash_str = " ".join(hashtags)
+        text = (
+            f"🔥 Trending Now: {headline}\n\n"
+            f"Read full story & verified sources 👇\n"
+            f"{url}\n\n"
+            f"{hash_str}"
+        )
+    else:
+        hashtags = get_arabic_hashtags(trend, country_key)
+        hash_str = " ".join(hashtags)
+        text = (
+            f"🔴 ترند الآن | {headline}\n\n"
+            f"التفاصيل والمصادر الرسمية كاملة 👇\n"
+            f"{url}\n\n"
+            f"{hash_str}"
+        )
+
+    # التحقق من سعة الحروف القصوى في X (280 حرف)
     if len(text) > 275:
-        available = 275 - len(url) - len(country_tag) - len(hash_str) - 30
-        short_head = headline[:available].rsplit(" ", 1)[0] + "…"
+        available = 275 - len(url) - len(hash_str) - 35
+        short_head = headline[:max(20, available)].rsplit(" ", 1)[0] + "…"
         if is_en:
-            text = f"🔥 Trending: {short_head}\n\nFull story 👇\n{url}\n\n{country_tag} {hash_str}"
+            text = f"🔥 Trending: {short_head}\n\nFull story 👇\n{url}\n\n{hash_str}"
         else:
-            text = f"🔴 ترند الآن: {short_head}\n\nالتفاصيل 👇\n{url}\n\n{country_tag} {hash_str}"
+            text = f"🔴 ترند الآن: {short_head}\n\nالتفاصيل 👇\n{url}\n\n{hash_str}"
 
     return text
 
@@ -155,14 +220,27 @@ def main():
         print("  لا توجد ترندات جديدة غير منشورة على X.")
         return 0
 
-    # اختيار الأحدث والأعلى بحثاً
-    to_post.sort(key=lambda item: -item[3].get("traffic_num", 0))
-    selected = to_post[:MAX_PER_RUN]
+    # تنويع النشر: اختيار ترند عربي وترند عالمي لضمان تغطية كل الأقسام
+    arabic_candidates = [item for item in to_post if item[1] in ("eg", "sa")]
+    world_candidates = [item for item in to_post if item[1] == "world"]
 
-    print(f"🚀 بدء النشر التلقائي على X لـ {len(selected)} ترند...")
+    selected = []
+    if arabic_candidates:
+        arabic_candidates.sort(key=lambda item: -item[3].get("traffic_num", 0))
+        selected.append(arabic_candidates[0])
+    if world_candidates:
+        world_candidates.sort(key=lambda item: -item[3].get("traffic_num", 0))
+        selected.append(world_candidates[0])
+
+    if len(selected) < MAX_PER_RUN:
+        remaining = [item for item in to_post if item not in selected]
+        remaining.sort(key=lambda item: -item[3].get("traffic_num", 0))
+        selected.extend(remaining[:MAX_PER_RUN - len(selected)])
+
+    print(f"🚀 بدء النشر التلقائي على X لـ {len(selected)} ترند (عربي + عالمي)...")
     for key, ckey, day, t in selected:
         tweet = build_tweet_text(t, ckey, day, base)
-        print(f"\nنص التغريدة المقترحة:\n---\n{tweet}\n---")
+        print(f"\nنص التغريدة المقترحة [{ckey.upper()}]:\n---\n{tweet}\n---")
         ok = post_to_x(tweet, api_key, api_secret, access_token, access_secret)
         if ok:
             posted.add(key)

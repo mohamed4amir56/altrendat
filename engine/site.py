@@ -28,6 +28,7 @@ from itertools import zip_longest
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import entities  # noqa: E402
+import dedup  # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -37,6 +38,7 @@ OUT = os.path.join(ROOT, "site")
 E = html.escape
 
 SITE_NAME = "الترندات"
+SITE_NAME_EN = "ALTRENDAT"
 
 # رمز Cloudflare Web Analytics — اتركه فارغًا.
 #
@@ -244,24 +246,25 @@ def page(path, title, desc, body, canonical, nav="", image=None,
     lang = "en" if is_en else "ar"
     direction = "ltr" if is_en else "rtl"
     locale = "en_US" if is_en else "ar_AR"
+    site_brand = SITE_NAME_EN if is_en else SITE_NAME
 
     if is_en:
         flinks = ('<a href="{r}about/">About Us</a>'
                   '<a href="{r}privacy/">Privacy Policy</a>'
                   '<a href="{r}contact/">Contact</a>').format(r=root)
-        fdesc = "{site} — Tracking daily trending search topics worldwide.".format(site=E(SITE_NAME))
+        fdesc = "{site} — Tracking daily trending search topics worldwide.".format(site=E(site_brand))
         ffine = "News stories are attributed and linked to their original publishers."
     else:
         flinks = ('<a href="{r}about/">من نحن</a>'
                   '<a href="{r}privacy/">سياسة الخصوصية</a>'
                   '<a href="{r}contact/">اتصل بنا</a>').format(r=root)
-        fdesc = "{site} — يرصد الأكثر بحثًا يوميًا في العالم العربي والعالم.".format(site=E(SITE_NAME))
+        fdesc = "{site} — يرصد الأكثر بحثًا يوميًا في العالم العربي والعالم.".format(site=E(site_brand))
         ffine = "الأخبار منسوبة إلى مصادرها وروابطها، والأرقام إلى جهاتها."
 
     out = SHELL.format(
         lang=lang, dir=direction, locale=locale,
         title=E(title), desc=E(desc[:300]), canonical=E(canonical),
-        site=E(SITE_NAME), ogimage=ogimage, ogtype=ogtype, jsonld=ld,
+        site=E(site_brand), ogimage=ogimage, ogtype=ogtype, jsonld=ld,
         nav=nav, body=body, root=root, flinks=flinks, fdesc=fdesc, ffine=ffine,
         analytics=analytics_tag())
 
@@ -370,7 +373,7 @@ def build_trend(country, cfg, t, urls):
         "datePublished": cfg["generated_at"],
         "dateModified": cfg["generated_at"],
         "inLanguage": "en" if is_en else "ar",
-        "publisher": {"@type": "Organization", "name": SITE_NAME},
+        "publisher": {"@type": "Organization", "name": SITE_NAME_EN if is_en else SITE_NAME},
         "mainEntityOfPage": canonical,
     }
     img_list = []
@@ -439,7 +442,8 @@ def build_trend(country, cfg, t, urls):
         tags=tags, sources=src_html, hero=hero, meta_nav=meta_nav)
 
     urls.append((canonical, cfg["generated_at"], "0.8"))
-    return page(path, art["headline"] + " | " + SITE_NAME,
+    site_title = SITE_NAME_EN if is_en else SITE_NAME
+    return page(path, art["headline"] + " | " + site_title,
                 art.get("summary", ""), body, canonical,
                 nav=country_nav(country, 4, is_en=is_en), image=img,
                 ogtype="article", jsonld=jsonld, depth=4, is_en=is_en)
@@ -473,7 +477,8 @@ def archive_today(data):
             merged[t["title"]] = t
 
         snap = dict(cfg)
-        snap["trends"] = list(merged.values())
+        lang = cfg.get("lang", "en" if key == "world" else "ar")
+        snap["trends"] = dedup.dedup_trends(list(merged.values()), lang=lang)
         with open(path, "w", encoding="utf-8") as f:
             json.dump(snap, f, ensure_ascii=False, indent=2)
 
@@ -497,6 +502,8 @@ def load_days():
         # اليوم من اسم الملف لا من generated_at: لقطة يوم القاهرة 24
         # قد تحمل وقت UTC من مساء 23.
         snap["day"] = day
+        lang = snap.get("lang", "en" if key == "world" else "ar")
+        snap["trends"] = dedup.dedup_trends(snap.get("trends", []), lang=lang)
         out[(key, day)] = snap
     return out
 
@@ -555,8 +562,9 @@ def build_day(country, day, cfg, urls, prev_day, next_day):
         items="".join(items), around=" · ".join(around))
 
     urls.append((canonical, cfg["generated_at"], "0.7"))
+    sname = SITE_NAME_EN if is_en else SITE_NAME
     page_title = ("Trending Searches in {} on {} | {}" if is_en
-                  else "الأكثر بحثًا في {} يوم {} | {}").format(cname, day, SITE_NAME)
+                  else "الأكثر بحثًا في {} يوم {} | {}").format(cname, day, sname)
     page_desc = ("Top {} topics trending in {} on {}." if is_en
                  else "أهم {} موضوعًا تصدّرت البحث في {} يوم {}.").format(len(pub), cname, day)
     return page("{}/{}/index.html".format(country, day),
@@ -588,7 +596,8 @@ def build_archive(country, cfg_days, urls):
         heading=heading, lead=lead, rows="".join(rows))
 
     urls.append((canonical, datetime.now(timezone.utc).isoformat(), "0.6"))
-    page_title = ("{} Archive | {}" if is_en else "أرشيف {} | {}").format(cname, SITE_NAME)
+    page_title = ("{} Archive | {}" if is_en else "أرشيف {} | {}").format(
+        cname, SITE_NAME_EN if is_en else SITE_NAME)
     page_desc = ("Daily archive of trending topics in {}." if is_en
                  else "أرشيف يومي لما تصدّر البحث في {}.").format(cname)
     return page("{}/archive/index.html".format(country),
@@ -600,7 +609,8 @@ def build_country(country, cfg, urls):
     is_en = cfg.get("lang") == "en" or country == "world"
     cname = cfg.get("name_en", "Worldwide") if is_en else cfg["country_name"]
     day = entities.day_of(cfg)
-    pub = [t for t in cfg["trends"] if t.get("article")]
+    clean_trends = dedup.dedup_trends(cfg["trends"], lang=cfg.get("lang", "en" if is_en else "ar"))
+    pub = [t for t in clean_trends if t.get("article")]
     pub.sort(key=lambda x: -x["traffic_num"])
 
     items = []
@@ -630,7 +640,7 @@ def build_country(country, cfg, urls):
         <div class="list">{items}</div>""".format(
             flag=cfg["flag"], name=E(cname), lead=lead_html, day=day,
             n=len(pub), items="".join(items))
-        page_title = "Trending Searches Today in {} | {}".format(cname, SITE_NAME)
+        page_title = "Trending Searches Today in {} | {}".format(cname, SITE_NAME_EN)
         page_desc = intro_text or "Trending search topics today in {}, explained with sources.".format(cname)
     else:
         intro = "أكثر ما بحث عنه الناس في {} يوم {}: {}.".format(

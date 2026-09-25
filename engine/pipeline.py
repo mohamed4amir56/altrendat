@@ -22,6 +22,7 @@ from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import providers  # noqa: E402
+import dedup  # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -604,6 +605,16 @@ def build(country_key, cfg):
             t["title"], [n["title"] for n in t["news"]])
         t.update(category=cat, icon=icon, color=color,
                  reason=reason, publishable=publishable)
+
+    # دمج وتصفية الترندات المكررة (نفس المباراة، طقس اليوم، أو مصادر مشتركة)
+    before_dedup = len(trends)
+    trends = dedup.dedup_trends(trends, lang=cfg.get("lang", "ar"))
+    if len(trends) < before_dedup:
+        print("  ⚡ دُمج " + str(before_dedup - len(trends)) + " ترند مكرر")
+
+    for t in trends:
+        cat = t["category"]
+        publishable = t["publishable"]
 
         # اسم شخص: يُقبل بشروط بدل الحجب المطلق (انظر person_ok).
         if cat == "شخصية" and not publishable:

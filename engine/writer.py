@@ -16,6 +16,8 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import dedup  # noqa: E402
 # المعرّف مأخوذ من client.models.list() لا من التخمين.
 # نستخدم نموذج Claude Haiku 4.5: أسرع نموذج وأقلها تكلفة (~95% توفير).
 MODEL = "claude-haiku-4-5-20251001"
@@ -326,6 +328,8 @@ def main():
         print("\n" + d["flag"] + "  " + (cname if is_en else d["country_name"]))
         # نفس قاعدة entities.day_of: اليوم بتوقيت البلد
         day = d.get("day") or d["generated_at"][:10]
+        lang = d.get("lang", "en" if is_en else "ar")
+        d["trends"] = dedup.dedup_trends(d.get("trends", []), lang=lang)
 
         for t in d["trends"]:
             # الحد يحسب المحاولات لا النجاحات: لو حسب النجاحات وحدها،

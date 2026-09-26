@@ -6358,11 +6358,11 @@
         "traffic": "100+",
         "traffic_num": 100,
         "category": "عام",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Erst noch einmal 24 Grad – dann könnte das Wetter in Oberbayern kippen",
           "Wetter: Die Sonne gibt noch mal Vollgas: bis zu 31 Grad im Südwesten",
-          "Wetterbericht für Baden-Württemberg (25.09.2026)"
+          "Wetterbericht für Baden-Württemberg (25.09.2026)",
+          "In einer Region in Baden-Württemberg wird es noch mal richtig sommerlich"
         ]
       }
     ],
@@ -10761,7 +10761,7 @@
         "headlines": [
           "9-25: Celebrating Dolly Day in Nashville",
           "Dolly Day takes over Nashville: Where to find pink, music, specials and fireworks",
-          "Portland declares 9/25 Dolly Parton Day, a nod to ‘9 to 5’"
+          "It’s officially Dolly Parton Day, with parades, pink lights and book drives"
         ]
       }
     ],
@@ -10933,8 +10933,8 @@
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "فرنسا تعمل على إصدار قرار دولي بشأن مضيق هرمز",
           "ماكرون يطالب بفصل مضيق هرمز عن النووي الإيراني",
+          "فرنسا تعمل على إصدار قرار دولي بشأن مضيق هرمز",
           "80 دولة تطالب في الأمم المتحدة بإعادة حرية الملاحة"
         ]
       }
@@ -11123,7 +11123,7 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Asian Games Cricket: Japan Knocked Out After Rain Washes Out Nepal Chase",
+          "Japan vs Nepal prediction and betting tips 25 September 2026",
           "JPN vs NEP Today’s Match Prediction & Cricket Betting Tips: Asian Games 2026, Match 5, September 26",
           "Washout eliminates Japan; Nepal, Afghanistan qualify from Group A"
         ]
@@ -11397,5 +11397,63 @@
     ],
     "peak_traffic": 1000,
     "category": "رياضة"
+  },
+  "الجبهة-الشعبية-لتحرير-تيغراي": {
+    "slug": "الجبهة-الشعبية-لتحرير-تيغراي",
+    "name": "الجبهة الشعبية لتحرير تيغراي",
+    "first_seen": "2026-09-26",
+    "appearances": [
+      {
+        "key": "2026-09-26|eg",
+        "date": "2026-09-26",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "تجدد الاشتباكات في إقليم تيغراي، والجيش الإثيوبي يقتل أكثر من 400 عنصر من \"الجبهة الشعبية لتحرير تيغراي\"",
+          "الحرب في تيغراي: هل يتسع نطاق الصراع الإثيوبي ليشمل دولاً عربية؟",
+          "\"أعداء الأمس\" يقاتلون معًا ضد آبي أحمد.. ماذا يجري في إثيوبيا؟"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-26",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "qatar": {
+    "slug": "qatar",
+    "name": "qatar",
+    "first_seen": "2026-09-26",
+    "appearances": [
+      {
+        "key": "2026-09-26|sa",
+        "date": "2026-09-26",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Saudi Arabia wins Radio Award at 26th Arab Festival in Tunisia",
+          "QMC Secures 6 Awards at 26th Arab Radio and Television Festival",
+          "“Beladi” Maintains Its Lead at Arab Radio and Television Festival in Tunisia for Third Consecutive Year"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-26",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
   }
 }

@@ -9526,9 +9526,9 @@
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
-          "Turquie-France: en vidéo, le premier but de l'ère Zidane inscrit par Mbappé... contraint de sortir sur blessure dans la foulée",
-          "Ligue des nations: pour les Bleus, une animation offensive cahin-caha",
-          "« Ça ne va pas bien, il va falloir qu’il rentre » : blessé au genou, Kylian Mbappé va quitter les Bleus"
+          "Léon XIV aux jeunes: «la lumière de l’Esprit éclaire et réconforte»",
+          "Messe du pape Léon XIV place de la Concorde : les derniers préparatifs avant d'accueillir les 600 000 personnes attendues",
+          "Comment le «christianisme de combat» s'invite dans le débat politique français"
         ]
       }
     ],
@@ -10583,9 +10583,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "وليد ماهر: أنجولا فاجات الفراعنة.. ومشادة بين سيسيه والعميد (فيديو)",
-          "\"بعد التعادل أمام أنجولا\".. جدول ترتيب مجموعة مصر في التصفيات المؤهلة لأمم أفريقيا",
-          "سهام صالح تضع عنوان لتعادل مصر أمام انجولا"
+          "مصطفى شوبير يظهر بالقميص رقم 1 مع منتخب مصر أمام أنجولا",
+          "حسام حسن يجري تبديلين.. خروج محمد صلاح وهيثم حسن أمام أنجولا",
+          "\"فرصة مرموش وتراجع هجومي\".. ملخص شوط مصر وأنجولا الثاني في تصفيات أفريقيا"
         ]
       }
     ],
@@ -10916,7 +10916,7 @@
         "traffic": "100+",
         "traffic_num": 100,
         "category": "دول وأماكن",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "رياضي / كأس الخليج العربي: قطر تتجاوز البحرين بثنائية في افتتاح مشوارهما بـ\"خليجي 27\"",
           "الحفاظ على اللقب",
@@ -11092,5 +11092,92 @@
     ],
     "peak_traffic": 2000,
     "category": "رياضة"
+  },
+  "nepal-vs-japan": {
+    "slug": "nepal-vs-japan",
+    "name": "nepal vs japan",
+    "first_seen": "2026-09-26",
+    "appearances": [
+      {
+        "key": "2026-09-26|sa",
+        "date": "2026-09-26",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Japan vs Nepal Live Streaming: When And Where To Watch JPN vs NEP Asian Games 2026 Match",
+          "Japan vs Nepal and Malaysia vs Oman: T20 Predictions and Fantasy Tips",
+          "JPN vs NEP Today’s Match Prediction & Cricket Betting Tips: Asian Games 2026, Match 5, September 26"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-26",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "صلاة": {
+    "slug": "صلاة",
+    "name": "صلاة",
+    "first_seen": "2026-09-26",
+    "appearances": [
+      {
+        "key": "2026-09-26|sa",
+        "date": "2026-09-26",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "ديني",
+        "publishable": true,
+        "headlines": [
+          "مواقيت الصلاة اليوم السبت 26 سبتمبر 2026 بمحافظات الجمهورية",
+          "مواقيت الصلاة اليوم السبت 26 سبتمبر 2026 في القاهرة والمحافظات",
+          "مواقيت الصلاة في أسوان اليوم السبت 26-9-2026"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-26",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 500,
+    "category": "ديني"
+  },
+  "نتفلكس": {
+    "slug": "نتفلكس",
+    "name": "نتفلكس",
+    "first_seen": "2026-09-26",
+    "appearances": [
+      {
+        "key": "2026-09-26|sa",
+        "date": "2026-09-26",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "من دون صوت 2 على نتفلكس: إيميلي بلانت تواصل صمودها في صمت",
+          "بلا صوت على نتفليكس: يجب أن تصمد إميلي بلانت في صمت",
+          "هذا على نتفلكس : فيلم الرعب من بطولة بيل سكارسغارد سيطرح في أكتوبر"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-26",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

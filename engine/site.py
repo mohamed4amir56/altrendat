@@ -984,6 +984,8 @@ def render_hero_spotlight(t, href, country_name, flag, time_str, root="./", is_e
 
     tag_text = "🔥 Trending Spotlight" if is_en else "🔥 الأكثر بحثاً وتداولاً الآن"
     cta_text = "قراءة التغطية والمصادر ⬅️" if not is_en else "Read Full Story →"
+    traffic_label = f"🔍 {E(traffic)} searches" if is_en else f"🔍 {E(traffic)} بحث"
+    sources_label = f"📎 {n_sources} verified sources" if is_en else f"📎 {n_sources} مصادر موثقة"
 
     return f'''
     <div class="hero-spotlight">
@@ -998,14 +1000,14 @@ def render_hero_spotlight(t, href, country_name, flag, time_str, root="./", is_e
             <span>·</span>
             <span>{t.get('icon', '🔥')} {E(cat_label)}</span>
             <span>·</span>
-            <span style="color:var(--gold);font-weight:700;">🔍 {E(traffic)} بحث</span>
+            <span style="color:var(--gold);font-weight:700;">{traffic_label}</span>
           </div>
           <h2 class="hero-spotlight-title">{E(headline)}</h2>
           <p class="hero-spotlight-desc">{E(summary)}</p>
         </div>
         <div style="display:flex;align-items:center;justify-content:space-between;margin-top:16px;flex-wrap:wrap;gap:12px;">
           <a class="hero-spotlight-cta" href="{href}">{cta_text}</a>
-          <span style="font-size:0.8rem;color:var(--mut);">📎 {n_sources} مصادر موثقة</span>
+          <span style="font-size:0.8rem;color:var(--mut);">{sources_label}</span>
         </div>
       </div>
     </div>'''
@@ -1282,6 +1284,15 @@ def build_trend(country, cfg, t, urls):
                     "</figure>".format(
                         "../../../../", os.path.basename(t["card"]), E(t["title"])))
 
+    if is_en:
+        metric_traffic = f"🔍 {E(t['traffic'])} searches"
+        metric_speed = "📈 Record Velocity"
+        metric_sources = f"✅ Verified across {n_sources} sources"
+    else:
+        metric_traffic = f"🔍 {E(t['traffic'])} بحث"
+        metric_speed = "📈 تسارع قياسي"
+        metric_sources = f"✅ تم التحقق عبر {n_sources} مصادر"
+
     body = f"""
     <div class="when">{chips}</div>
     <h1>{E(art["headline"])}</h1>
@@ -1291,9 +1302,9 @@ def build_trend(country, cfg, t, urls):
       <div class="trend-intel-header">
         <span class="trend-intel-badge">{intel_badge}</span>
         <div class="trend-intel-metrics">
-          <span class="trend-intel-metric-pill">🔍 {E(t['traffic'])} بحث</span>
-          <span class="trend-intel-metric-pill">📈 تسارع قياسي</span>
-          <span class="trend-intel-metric-pill">✅ تم التحقق عبر {n_sources} مصادر</span>
+          <span class="trend-intel-metric-pill">{metric_traffic}</span>
+          <span class="trend-intel-metric-pill">{metric_speed}</span>
+          <span class="trend-intel-metric-pill">{metric_sources}</span>
         </div>
       </div>
       <div class="trend-why-title">{why_heading}</div>

@@ -30,7 +30,7 @@
 <body>
 <header class="site">
   <a class="brand" href="../">الترندات</a>
-  <nav><a href='../jobs/' class='nav-jobs'>💼 وظائف اليوم ●</a><a href='../eg/'>🇪🇬 مصر</a><a href='../sa/'>🇸🇦 السعودية</a></nav>
+  <nav><a href='../jobs/' class='nav-jobs'>💼 وظائف اليوم ●</a><a href='../world/'>🌐 عالمي (Worldwide)</a><a href='../eg/'>🇪🇬 مصر</a><a href='../sa/'>🇸🇦 السعودية</a></nav>
 </header>
 <main>
     <div class="jobs-hero">
@@ -43,7 +43,7 @@
       <div class="matrix-card" data-cat="gov" onclick="setCategory('gov')" style="--m-color:#3ddc97;">
         <div class="matrix-header">
           <span class="matrix-icon">🏛️</span>
-          <span class="matrix-count">3 مسابقات</span>
+          <span class="matrix-count">7 مسابقات</span>
         </div>
         <div class="matrix-title">وظائف حكومية رسمية</div>
         <p class="matrix-sub">مصلحة الضرائب، التربية والتعليم، البريد، جدارات السعودية، كوادر قطر</p>
@@ -51,7 +51,7 @@
       <div class="matrix-card" data-cat="abroad" onclick="setCategory('abroad')" style="--m-color:#5aa9ff;">
         <div class="matrix-header">
           <span class="matrix-icon">✈️</span>
-          <span class="matrix-count">4 عقود وتأشيرات</span>
+          <span class="matrix-count">6 عقود وتأشيرات</span>
         </div>
         <div class="matrix-title">عقود سفر وهجرة للخارج</div>
         <p class="matrix-sub">بطاقة الفرصة الألمانية، عقود كندا LMIA، إيطاليا Decreto Flussi، وفيزا بريطانيا</p>
@@ -59,7 +59,7 @@
       <div class="matrix-card" data-cat="gulf" onclick="setCategory('gulf')" style="--m-color:#f5c542;">
         <div class="matrix-header">
           <span class="matrix-icon">🇸🇦</span>
-          <span class="matrix-count">4 شركات رائدة</span>
+          <span class="matrix-count">5 شركات رائدة</span>
         </div>
         <div class="matrix-title">وظائف كبرى شركات الخليج</div>
         <p class="matrix-sub">أرامكو ونيوم، طيران الإمارات بدبي برواتب وبدلات وتأمين شامل</p>
@@ -67,7 +67,7 @@
       <div class="matrix-card" data-cat="remote" onclick="setCategory('remote')" style="--m-color:#c77dff;">
         <div class="matrix-header">
           <span class="matrix-icon">🌐</span>
-          <span class="matrix-count">2 فرص بالدولار</span>
+          <span class="matrix-count">3 فرص بالدولار</span>
         </div>
         <div class="matrix-title">وظائف عن بعد (Remote)</div>
         <p class="matrix-sub">خدمة عملاء دولية، تدريب الذكاء الاصطناعي وإدخال بيانات من المنزل</p>
@@ -91,7 +91,7 @@
         <button id="clearSearchBtn" class="clear-search-btn" onclick="clearSearch()" style="display:none;" title="مسح البحث">✕</button>
       </div>
       <div class="search-meta-row">
-        <div id="resultsCount" class="results-count">عرض جميع الوظائف (<strong>13</strong> فرصة متاحة)</div>
+        <div id="resultsCount" class="results-count">عرض جميع الوظائف (<strong>21</strong> فرصة متاحة)</div>
         <div class="quick-tags">
           <span class="quick-tags-label">الأكثر بحثاً:</span>
           <button class="quick-tag" onclick="quickSearch('ألمانيا')">🇩🇪 ألمانيا</button>
@@ -110,11 +110,11 @@
       <div class="filter-row">
         <span class="filter-label">القطاع:</span>
         <div class="filter-pills" id="catPills">
-          <button class="pill-btn active" data-cat="all" onclick="setCategory('all')">💼 جميع القطاعات (13)</button>
-          <button class="pill-btn" data-cat="gov" onclick="setCategory('gov')">🏛️ حكومي ومسابقات (3)</button>
-          <button class="pill-btn" data-cat="abroad" onclick="setCategory('abroad')">✈️ عقود سفر للخارج (4)</button>
-          <button class="pill-btn" data-cat="gulf" onclick="setCategory('gulf')">🇸🇦 وظائف الخليج (4)</button>
-          <button class="pill-btn" data-cat="remote" onclick="setCategory('remote')">🌐 عمل عن بعد (2)</button>
+          <button class="pill-btn active" data-cat="all" onclick="setCategory('all')">💼 جميع القطاعات (21)</button>
+          <button class="pill-btn" data-cat="gov" onclick="setCategory('gov')">🏛️ حكومي ومسابقات (7)</button>
+          <button class="pill-btn" data-cat="abroad" onclick="setCategory('abroad')">✈️ عقود سفر للخارج (6)</button>
+          <button class="pill-btn" data-cat="gulf" onclick="setCategory('gulf')">🇸🇦 وظائف الخليج (5)</button>
+          <button class="pill-btn" data-cat="remote" onclick="setCategory('remote')">🌐 عمل عن بعد (3)</button>
         </div>
       </div>
       <div class="filter-row" style="margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.05);">
@@ -146,6 +146,190 @@
 
     <div class="jobs-list" id="jobsContainer">
       
+        <article class="job-card" data-cat="remote" data-country="us" data-search="وظائف عمل عن بعد بالدولار 2026 — فرص في الترجمة وتدقيق البيانات وتدريب الذكاء الاصطناعي شركات ومنصات تقنية عالمية (oneforma, remotasks, upwork global) عمل عن بعد من المنزل 100% (remote worldwide) من 15 إلى 35 دولار في الساعة (1,200 إلى 2,800 دولار شهرياً حسب الإنتاجية) فتح باب الانضمام لمشروعات العمل الحر عن بعد للمتحدثين بالعربية والإنجليزية للعمل في مجالات تدريب نماذج الذكاء الاصطناعي، تقييم نتائج البحث، والترجمة والتعليق الصوتي برواتب محولة بالدولار. عن بعد وظائف عن بعد إجادة تامة للغة العربية والإنجليزية (فهم وتدقيق لغوي). توفر جهاز حاسوب أو لابتوب واتصال إنترنت مستقر وسريع. اجتياز اختبارات التقييم المبدئي للمشروع التي توفرها المنصة مجاناً. حساب بنكي أو محفظة إلكترونية دولية (paypal أو payoneer) لاستلام الأرباح شهرياً. إثبات هوية رسمي (بطاقة قومية أو جواز سفر). السيرة الذاتية ورابط ملف شخصي احترافي (linkedin إن وجد). إنشاء حساب موثق على منصة oneforma أو موقع التوظيف واجتياز اختبار التقييم المجاني ثم البدء الفوري في استلام المهام.">
+          <div class="job-header">
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#c77dff">🌐 وظائف عن بعد</span>
+              <span class="job-country">🌐 عن بعد</span>
+            </div>
+            <span class="job-type-pill">عمل عن بعد 🌐</span>
+          </div>
+          <h2 class="job-title"><a href="https://altrendat.com/jobs/remote-content-translation-ai-jobs-2026/">وظائف عمل عن بعد بالدولار 2026 — فرص في الترجمة وتدقيق البيانات وتدريب الذكاء الاصطناعي</a></h2>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> شركات ومنصات تقنية عالمية (OneForm</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> عمل عن بعد من المنزل 100% (Remote Worldwide)</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> من 15 إلى 35 دولار في الساعة (1,200 إلى 2,800 دولار شهرياً حسب الإنتاجية)</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> متاح ومستمر على مدار العام</span></div>
+          </div>
+          <p class="job-summary">فتح باب الانضمام لمشروعات العمل الحر عن بعد للمتحدثين بالعربية والإنجليزية للعمل في مجالات تدريب نماذج الذكاء الاصطناعي، تقييم نتائج البحث، والترجمة والتعليق الصوتي برواتب محولة بالدولار.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ إجادة تامة للغة العربية والإنجليزية (فهم وتدق...</span><span class='req-tag'>✓ توفر جهاز حاسوب أو لابتوب واتصال إنترنت مستقر...</span></div>
+          <div class="job-footer">
+            <a class="btn-job-details" href="https://altrendat.com/jobs/remote-content-translation-ai-jobs-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://www.oneforma.com/" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
+          </div>
+        </article>
+        
+        <article class="job-card" data-cat="gov" data-country="eg" data-search="وظائف وزارة الصحة والسكان 2026 — فتح باب التقديم للأطباء والتمريض والمهن الطبية المعاونة وزارة الصحة والسكان — الهيئة العامة للتأمين الصحي الشامل والرعاية الصحية مستشفيات محافظات التأمين الصحي الشامل (بورسعيد، الإسماعيلية، جنوب سيناء، الأقصر، أسوان، والسويس) رواتب وحوافز مجزية من 9,000 إلى 22,000 جنيه حسب الدرجة والتخصص الطبي إعلان الهيئة العامة للرعاية الصحية عن حاجتها لكوادر طبية وتمريضية وصيادلة وإداريين صحيين للعمل بمستشفيات التأمين الصحي الشامل بنظام التعاقد وحوافز الجذب للمحافظات النائية. مصر وظائف حكومية بكالوريوس الطب والجراحة، طب الأسنان، الصيدلة، أو بكالوريوس/دبلوم تمريض معتمد. ترخيص مزاولة المهنة ساري المفعول من وزارة الصحة المصرية. شهادة قيد بنقابة الأطباء أو نقابة التمريض المعنية. أصل شهادة التخرج وشهادة الامتياز وسنة التدريب. أصل ترخيص مزاولة المهنة وكارنيه النقابة الحديث. الموقف التجنيدي للذكور وصحيفة الحالة الجنائية. التقديم إلكترونياً عبر البوابة الرسمية لهيئة الرعاية الصحية التابعة لوزارة الصحة والسكان مع ملء نموذج التوظيف ورفع الشهادات.">
+          <div class="job-header">
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#3ddc97">🏛️ وظائف حكومية</span>
+              <span class="job-country">🇪🇬 مصر</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
+          </div>
+          <h2 class="job-title"><a href="https://altrendat.com/jobs/egypt-health-ministry-medical-careers-2026/">وظائف وزارة الصحة والسكان 2026 — فتح باب التقديم للأطباء والتمريض والمهن الطبية المعاونة</a></h2>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> وزارة الصحة والسكان — الهيئة العام</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> مستشفيات محافظات التأمين الصحي الشامل (بورسعيد، الإسماعيلية، جنوب سيناء، الأقصر، أسوان، والسويس)</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> رواتب وحوافز مجزية من 9,000 إلى 22,000 جنيه حسب الدرجة والتخصص الطبي</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> 2026-10-30</span></div>
+          </div>
+          <p class="job-summary">إعلان الهيئة العامة للرعاية الصحية عن حاجتها لكوادر طبية وتمريضية وصيادلة وإداريين صحيين للعمل بمستشفيات التأمين الصحي الشامل بنظام التعاقد وحوافز الجذب للمحافظات النائية.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ بكالوريوس الطب والجراحة، طب الأسنان، الصيدلة،...</span><span class='req-tag'>✓ ترخيص مزاولة المهنة ساري المفعول من وزارة الص...</span></div>
+          <div class="job-footer">
+            <a class="btn-job-details" href="https://altrendat.com/jobs/egypt-health-ministry-medical-careers-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://www.mohp.gov.eg/" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
+          </div>
+        </article>
+        
+        <article class="job-card" data-cat="gov" data-country="eg" data-search="وظائف مترو الأنفاق والقطار الكهربائي الخفيف 2026 — التخصصات الفنية والإدارية والهندسية المطلوبة الهيئة القومية للأنفاق وشركة ratp dev لإدارة وتشغيل المترو والقطار الكهربائي خطوط شبكة المترو (الخط الثالث)، القطار الكهربائي الخفيف lrt، ومونوريل العاصمة رواتب من 8,500 إلى 15,500 جنيه + تأمين صحي شامل واجتماعي وبدل مخاطر إعلان فتح باب التوظيف لشغل وظائف مهندسي إشارات واتصالات، فنيي صيانة قطارات، قادة قطارات، مشرفي محطات، وصرافي تذاكر بشبكة مترو القاهرة والقطار الكهربائي الخفيف lrt. مصر وظائف حكومية مؤهل هندسي (كهرباء أو ميكانيكا) للمهندسين، أو دبلوم فني صناعي/معهد فني للتخصصات الفنية، أو مؤهل متوسط وعالٍ للمحطات. ألا يزيد سن المتقدم عن 32 عاماً للوظائف الفنية والتنظيمية. اجتياز اختبارات اللياقة الطبية وفحص المخدرات واختبارات السمات الشخصية. القدرة على العمل بنظام الورديات المتناوبة. أصل المؤهل الدراسي وصورة بطاقة الرقم القومي سارية. الموقف الواضح من التجنيد (أدى الخدمة أو إعفاء نهائي). شهادة قياس مستوى المهارة للتخصصات الفنية. التقديم عبر الموقع الرسمي لبوابة الوظائف الحكومية أو إرسال السيرة الذاتية عبر موقع الشركة المشغلة ratp dev mobility cairo.">
+          <div class="job-header">
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#3ddc97">🏛️ وظائف حكومية</span>
+              <span class="job-country">🇪🇬 مصر</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
+          </div>
+          <h2 class="job-title"><a href="https://altrendat.com/jobs/egypt-metro-lrt-railway-careers-2026/">وظائف مترو الأنفاق والقطار الكهربائي الخفيف 2026 — التخصصات الفنية والإدارية والهندسية المطلوبة</a></h2>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> الهيئة القومية للأنفاق وشركة RATP </span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> خطوط شبكة المترو (الخط الثالث)، القطار الكهربائي الخفيف LRT، ومونوريل العاصمة</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> رواتب من 8,500 إلى 15,500 جنيه + تأمين صحي شامل واجتماعي وبدل مخاطر</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> 2026-10-28</span></div>
+          </div>
+          <p class="job-summary">إعلان فتح باب التوظيف لشغل وظائف مهندسي إشارات واتصالات، فنيي صيانة قطارات، قادة قطارات، مشرفي محطات، وصرافي تذاكر بشبكة مترو القاهرة والقطار الكهربائي الخفيف LRT.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ مؤهل هندسي (كهرباء أو ميكانيكا) للمهندسين، أو...</span><span class='req-tag'>✓ ألا يزيد سن المتقدم عن 32 عاماً للوظائف الفني...</span></div>
+          <div class="job-footer">
+            <a class="btn-job-details" href="https://altrendat.com/jobs/egypt-metro-lrt-railway-careers-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://jobs.caoa.gov.eg/" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
+          </div>
+        </article>
+        
+        <article class="job-card" data-cat="abroad" data-country="au" data-search="عقود وتأشيرة العمل في أستراليا 2026 — دليل التقديم على تأشيرة المهارات المطلوبة (visa 189/190) وزارة الهجرة والشؤون الداخلية الأسترالية (department of home affairs) سيدني، ملبورن، بريزبن، أديلايد، وبيرث (أستراليا) متوسط 65,000 إلى 98,000 دولار أسترالي سنوياً (4,000 إلى 6,800 aud شهرياً) الدليل الشامل للتقديم على تأشيرات العمل الدائم في أستراليا لعام 2026 لأصحاب المهن والمهارات في قطاعات الهندسة، التمريض والطب، البرمجة، والتعليم بنظام النقاط (skillselect). أستراليا عقود عمل بالخارج أن تكون المهنة مدرجة ضمن قائمة المهن الاستراتيجية المطلوبة في أستراليا (mltssl). جمع 65 نقطة على الأقل في نظام تقييم النقاط الأسترالي (العمر، التعليم، الخبرة، الإنجليزية). اجتياز اختبار اللغة الإنجليزية (ielts 6.0 كحد أدنى أو pte academic). الحصول على تقييم إيجابي للمؤهل والخبرة من جهة التقييم الأسترالية المعتمدة للتخصص (acs, engineers australia, etc.). جواز السفر وشهادات التخرج والدرجات مصدقة. شهادة تقييم المهارات الرسمية (skills assessment). نتيجة اختبار اللغة الإنجليزية المعتمد. شهادات الخبرة وسجلات التأمينات والرواتب السابقة. تقديم إبداء الاهتمام (eoi) عبر منصة skillselect التابعة للهجرة الأسترالية وانتظار دعوة التقديم الرسمية للحصول على الإقامة الدائمة.">
+          <div class="job-header">
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#5aa9ff">✈️ عقود عمل بالخارج</span>
+              <span class="job-country">🇦🇺 أستراليا</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
+          </div>
+          <h2 class="job-title"><a href="https://altrendat.com/jobs/australia-skilled-visa-189-190-jobs-2026/">عقود وتأشيرة العمل في أستراليا 2026 — دليل التقديم على تأشيرة المهارات المطلوبة (Visa 189/190)</a></h2>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> وزارة الهجرة والشؤون الداخلية الأس</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> سيدني، ملبورن، بريزبن، أديلايد، وبيرث (أستراليا)</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> متوسط 65,000 إلى 98,000 دولار أسترالي سنوياً (4,000 إلى 6,800 AUD شهرياً)</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> مستمر على مدار العام المالي 2026/2027</span></div>
+          </div>
+          <p class="job-summary">الدليل الشامل للتقديم على تأشيرات العمل الدائم في أستراليا لعام 2026 لأصحاب المهن والمهارات في قطاعات الهندسة، التمريض والطب، البرمجة، والتعليم بنظام النقاط (SkillSelect).</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ أن تكون المهنة مدرجة ضمن قائمة المهن الاسترات...</span><span class='req-tag'>✓ جمع 65 نقطة على الأقل في نظام تقييم النقاط ال...</span></div>
+          <div class="job-footer">
+            <a class="btn-job-details" href="https://altrendat.com/jobs/australia-skilled-visa-189-190-jobs-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
+          </div>
+        </article>
+        
+        <article class="job-card" data-cat="abroad" data-country="es" data-search="عقود عمل في إسبانيا 2026 — تفاصيل اتفاقية الهجرة الدائرية والعمل الموسمي بالزراعة والخدمات الفندقية وزارة الإدماج والضمان الاجتماعي الإسبانية بالتعاون مع وزارة العمل المصرية مقاطعات الأندلس، ولبة، فالنسيا، كاتالونيا، إسبانيا 1,250 إلى 1,800 يورو شهرياً + توفير السكن المجاني وتذاكر الطيران والتأمين الصحي تفاصيل تفعيل اتفاقيات العمل الموسمي والهجرة الدائرية بين إسبانيا ومصر ودول شمال إفريقيا لعام 2026 لتوفير آلاف عقود العمل المعتمدة في جني المحاصيل والخدمات الفندقية. إسبانيا عقود عمل بالخارج السن بين 21 و45 عاماً مع التمتع بلياقة بدنية وصحية جيدة. الالتزام بمدة العقد الموسمي والعودة عند انتهائه، مما يمنح الأولوية للعقود الدائمة في المواسم اللاحقة. عدم وجود سوابق أمنية أو أحكام قضائية أو مخالفات إقامة بدول شنغن. جواز سفر صالح لمدة لا تقل عن سنة ونصف. صحيفة الحالة الجنائية مصدقة ومترجمة للغة الإسبانية. شهادة فحص طبي تثبت الخلو من الأمراض المعدية. التسجيل في قاعدة بيانات العمالة الموسمية عبر مكاتب التشغيل بوزارة العمل المصرية أو البوابات الإسبانية المعتمدة رسميًا.">
+          <div class="job-header">
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#5aa9ff">✈️ عقود عمل بالخارج</span>
+              <span class="job-country">🇪🇸 إسبانيا</span>
+            </div>
+            <span class="job-type-pill">عقد موسمي ✈️</span>
+          </div>
+          <h2 class="job-title"><a href="https://altrendat.com/jobs/spain-circular-migration-seasonal-work-2026/">عقود عمل في إسبانيا 2026 — تفاصيل اتفاقية الهجرة الدائرية والعمل الموسمي بالزراعة والخدمات الفندقية</a></h2>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> وزارة الإدماج والضمان الاجتماعي ال</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> مقاطعات الأندلس، ولبة، فالنسيا، كاتالونيا، إسبانيا</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> 1,250 إلى 1,800 يورو شهرياً + توفير السكن المجاني وتذاكر الطيران والتأمين الصحي</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> 2026-11-30</span></div>
+          </div>
+          <p class="job-summary">تفاصيل تفعيل اتفاقيات العمل الموسمي والهجرة الدائرية بين إسبانيا ومصر ودول شمال إفريقيا لعام 2026 لتوفير آلاف عقود العمل المعتمدة في جني المحاصيل والخدمات الفندقية.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ السن بين 21 و45 عاماً مع التمتع بلياقة بدنية ...</span><span class='req-tag'>✓ الالتزام بمدة العقد الموسمي والعودة عند انتها...</span></div>
+          <div class="job-footer">
+            <a class="btn-job-details" href="https://altrendat.com/jobs/spain-circular-migration-seasonal-work-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://www.inclusion.gob.es/" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
+          </div>
+        </article>
+        
+        <article class="job-card" data-cat="gulf" data-country="sa" data-search="وظائف الخطوط الجوية السعودية ومطارات المملكة 2026 — شواغر لطاقم الضيافة والخدمات الأرضية والمطارات مجموعة الخطوط السعودية (saudia group) وشركة مطارات القابضة الرياض (مطار الملك خالد)، جدة (مطار الملك عبد العزيز)، الدمام، والمدينة المنورة من 7,500 إلى 18,000 ريال سعودي + تذاكر سفر سنوية وتأمين طبي شامل للموظف وعائلته إعلان مجموعة الخطوط السعودية عن شواغر وظيفية واسعة للرجال والنساء في مجالات طاقم الضيافة الجوية، العمليات الأرضية، خدمة المسافرين، والأنظمة الملاحية بمختلف مطارات المملكة. السعودية وظائف الخليج شهادة الثانوية العامة كحد أدنى لطاقم الضيافة، أو دبلوم/بكالوريوس للوظائف الإدارية والتقنية. إتقان التحدث باللغة الإنجليزية واجتياز اختبار الكفاءة اللغوية. تناسب الطول مع الوزن وفق معايير سلامة الطيران المدني الدولية. مهارات التواصل الفعال والعمل في بيئات الضيافة الدولية. الهوية الوطنية أو جواز السفر ساري الصلاحية. المؤهل التعليمي وشهادات الخبرة السابقة إن وجدت. السيرة الذاتية وصورة شخصية حديثة بخلفية بيضاء. التقديم عبر بوابة التوظيف الإلكترونية الرسمية للخطوط السعودية وتعبئة استمارة التقديم وحجز موعد التقييم المبدئي.">
+          <div class="job-header">
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#f5c542">🇸🇦 وظائف الخليج</span>
+              <span class="job-country">🇸🇦 السعودية</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
+          </div>
+          <h2 class="job-title"><a href="https://altrendat.com/jobs/saudi-airlines-airports-careers-2026/">وظائف الخطوط الجوية السعودية ومطارات المملكة 2026 — شواغر لطاقم الضيافة والخدمات الأرضية والمطارات</a></h2>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> مجموعة الخطوط السعودية (Saudia Gro</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> الرياض (مطار الملك خالد)، جدة (مطار الملك عبد العزيز)، الدمام، والمدينة المنورة</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> من 7,500 إلى 18,000 ريال سعودي + تذاكر سفر سنوية وتأمين طبي شامل للموظف وعائلته</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> 2026-11-20</span></div>
+          </div>
+          <p class="job-summary">إعلان مجموعة الخطوط السعودية عن شواغر وظيفية واسعة للرجال والنساء في مجالات طاقم الضيافة الجوية، العمليات الأرضية، خدمة المسافرين، والأنظمة الملاحية بمختلف مطارات المملكة.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ شهادة الثانوية العامة كحد أدنى لطاقم الضيافة،...</span><span class='req-tag'>✓ إتقان التحدث باللغة الإنجليزية واجتياز اختبار...</span></div>
+          <div class="job-footer">
+            <a class="btn-job-details" href="https://altrendat.com/jobs/saudi-airlines-airports-careers-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://www.saudia.com/en-US/corporate/careers" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
+          </div>
+        </article>
+        
+        <article class="job-card" data-cat="gov" data-country="eg" data-search="وظائف مسابقة النيابة العامة ووزارة العدل 2026 — شروط تعيين الباحثين والموظفين الإداريين والمحضرين النيابة العامة المصرية — وزارة العدل المصرية مجمعات المحاكم والنيابات بجميع محافظات الجمهورية كادر الهيئات القضائية الحكومية (من 8,500 إلى 14,000 جنيه + بدلات) فتح باب التقديم لمسابقة التعيين بالنيابة العامة ووزارة العدل لشغل وظائف باحث قانوني، كاتب جلسة، موظف حاسب آلي، ومحضر بجميع المحافظات مع اختبارات إلكترونية ومقابلات شخصية. مصر وظائف حكومية مؤهل عالٍ مناسب (ليسانس حقوق، شريعة وقانون، بكالوريوس تجارة، أو حاسبات ومعلومات). ألا يقل التقدير التراكمي عن جيد. ألا يزيد السن عن 35 عاماً في تاريخ نشر الإعلان الرسمي. اجتياز الكشف الطبي واختبارات الصلاحية السلوكية والقدرات الإدارية. أصل المؤهل الدراسي وشهادة الميلاد المميكنة. صحيفة الحالة الجنائية (فيش) حديثة موجهة للنيابة العامة. صورة بطاقة الرقم القومي سارية وشهادة الموقف من التجنيد. يتم سحب الملفات والتقديم عبر الموقع الإلكتروني الرسمي للنيابة العامة المصرية ومكتب تعيينات دار القضاء العالي.">
+          <div class="job-header">
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#3ddc97">🏛️ وظائف حكومية</span>
+              <span class="job-country">🇪🇬 مصر</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
+          </div>
+          <h2 class="job-title"><a href="https://altrendat.com/jobs/egypt-prosecution-justice-jobs-2026/">وظائف مسابقة النيابة العامة ووزارة العدل 2026 — شروط تعيين الباحثين والموظفين الإداريين والمحضرين</a></h2>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> النيابة العامة المصرية — وزارة الع</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> مجمعات المحاكم والنيابات بجميع محافظات الجمهورية</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> كادر الهيئات القضائية الحكومية (من 8,500 إلى 14,000 جنيه + بدلات)</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> 2026-11-05</span></div>
+          </div>
+          <p class="job-summary">فتح باب التقديم لمسابقة التعيين بالنيابة العامة ووزارة العدل لشغل وظائف باحث قانوني، كاتب جلسة، موظف حاسب آلي، ومحضر بجميع المحافظات مع اختبارات إلكترونية ومقابلات شخصية.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ مؤهل عالٍ مناسب (ليسانس حقوق، شريعة وقانون، ب...</span><span class='req-tag'>✓ ألا يقل التقدير التراكمي عن جيد.</span></div>
+          <div class="job-footer">
+            <a class="btn-job-details" href="https://altrendat.com/jobs/egypt-prosecution-justice-jobs-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://ppo.gov.eg/" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
+          </div>
+        </article>
+        
+        <article class="job-card" data-cat="gov" data-country="eg" data-search="مسابقة وظائف البنك الأهلي المصري وبنك مصر 2026 — الشروط الرسمية ورابط التقديم المباشر لحديثي التخرج والخبرات البنك الأهلي المصري وبنك مصر — قطاع الموارد البشرية والتوظيف القاهرة، الجيزة، الإسكندرية، وجميع فروع المحافظات رواتب تبدأ من 14,000 إلى 22,000 جنيه + أرباح سنوية وتأمين طبي شامل إعلان رسمي من البنك الأهلي المصري وبنك مصر عن فتح باب التقديم لبرامج التوظيف وتدريب الخريجين لعام 2026 لشغل وظائف خدمة العملاء، العمليات المصرفية، الائتمان، وتكنولوجيا المعلومات المصرفية. مصر وظائف حكومية أن يكون المتقدم من خريجي كليات التجارة، إدارة الأعمال، الاقتصاد، تكنولوجيا المعلومات، أو هندسة الحاسبات. ألا يقل التقدير العام التراكمي عن جيد لحديثي التخرج من دفعات (2022 إلى 2026). ألا يزيد سن المتقدم عن 28 عاماً عند التقديم لوظائف حديثي التخرج. إجادة اللغة الإنجليزية والمهارات الأساسية للتعامل مع البرمجيات والأنظمة المصرفية الحديثة. صورة بطاقة الرقم القومي سارية المفعول. شهادة التخرج وبيان الدرجات الأكاديمي معتمد. شهادة الموقف التجنيدي للذكور أو الخدمة العامة للإناث. سيرة ذاتية محدثة تبرز المهارات اللغوية والتقنية والتدريبات السابقة. التقديم حصرياً عبر موقع البنك الأهلي المصري الرسمي أو موقع بنك مصر في قسم (الوظائف والمسار المهني) دون أي وسيط مالي.">
+          <div class="job-header">
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#3ddc97">🏛️ وظائف حكومية</span>
+              <span class="job-country">🇪🇬 مصر</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
+          </div>
+          <h2 class="job-title"><a href="https://altrendat.com/jobs/egypt-national-bank-misr-recruitment-2026/">مسابقة وظائف البنك الأهلي المصري وبنك مصر 2026 — الشروط الرسمية ورابط التقديم المباشر لحديثي التخرج والخبرات</a></h2>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> البنك الأهلي المصري وبنك مصر — قطا</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> القاهرة، الجيزة، الإسكندرية، وجميع فروع المحافظات</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> رواتب تبدأ من 14,000 إلى 22,000 جنيه + أرباح سنوية وتأمين طبي شامل</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> 2026-11-15</span></div>
+          </div>
+          <p class="job-summary">إعلان رسمي من البنك الأهلي المصري وبنك مصر عن فتح باب التقديم لبرامج التوظيف وتدريب الخريجين لعام 2026 لشغل وظائف خدمة العملاء، العمليات المصرفية، الائتمان، وتكنولوجيا المعلومات المصرفية.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ أن يكون المتقدم من خريجي كليات التجارة، إدارة...</span><span class='req-tag'>✓ ألا يقل التقدير العام التراكمي عن جيد لحديثي ...</span></div>
+          <div class="job-footer">
+            <a class="btn-job-details" href="https://altrendat.com/jobs/egypt-national-bank-misr-recruitment-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://www.nbe.com.eg/NBE/E/#/AR/HRRecruitment" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
+          </div>
+        </article>
+        
         <article class="job-card" data-cat="gov" data-country="eg" data-search="مسابقة وظائف مصلحة الضرائب المصرية 2026 — شروط ومواعيد التقديم بالرابط الرسمي مصلحة الضرائب المصرية — الجهاز المركزي للتنظيم والإدارة جميع محافظات مصر رواتب تبدأ من 7,500 إلى 11,000 جنيه + حوافز وبدلات إعلان الجهاز المركزي للتنظيم والإدارة عن فتح باب التقديم لمسابقة مصلحة الضرائب المصرية لتعيين مأموري ضرائب فحص وحجز وباحثين قانونيين وتقنيي حاسب آلي بجميع المحافظات. مصر وظائف حكومية الحصول على بكالوريوس تجارة (شعبة محاسبة) أو ليسانس حقوق/شريعة وقانون بتقدير عام جيد على الأقل. ألا يزيد سن المتقدم عن 35 عاماً في تاريخ نشر الإعلان. إجادة استخدام الحاسب الآلي وتطبيقات قواعد البيانات. اجتياز الامتحانات الإلكترونية والمقابلة الشخصية بمركز تقييم القدرات والمسابقات. صورة بطاقة الرقم القومي سارية (وجهين). أصل المؤهل الدراسي وشهادة التخرج. الموقف من التجنيد للذكور أو الخدمة العامة للإناث. فيش جنائي موجه للجهاز المركزي للتنظيم والإدارة أو مصلحة الضرائب. إيصال الإيداع البنكي بحساب الجهاز في أحد البنوك الحكومية. يتم التقديم إلكترونياً وبشكل حصري من خلال بوابة الوظائف الحكومية الرسمية (jobs.caoa.gov.eg) بعد استيفاء الأوراق ورفعها بصيغة pdf.">
           <div class="job-header">
             <div class="job-header-left">

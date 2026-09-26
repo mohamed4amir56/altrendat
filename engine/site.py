@@ -105,6 +105,10 @@ SHELL = """<!DOCTYPE html>
 {ogimage}
 <meta name="twitter:card" content="summary_large_image">
 {jsonld}
+<link rel="icon" type="image/x-icon" href="{root}favicon.ico">
+<link rel="icon" type="image/png" sizes="48x48" href="{root}favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="{root}icon-192.png">
+<link rel="apple-touch-icon" href="{root}apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
@@ -670,7 +674,7 @@ def page(path, title, desc, body, canonical, nav="", image=None,
          ogtype="website", jsonld=None, depth=0, is_en=False):
     root = "../" * depth if depth else "./"
     og_img = image or (BASE + "/og-default.jpg")
-    ogimage = '<meta property="og:image" content="{}">'.format(E(og_img))
+    ogimage = '<meta property="og:image" content="{img}">\n<meta name="twitter:image" content="{img}">'.format(img=E(og_img))
     ld = ('<script type="application/ld+json">{}</script>'.format(
         json.dumps(jsonld, ensure_ascii=False)) if jsonld else "")
 

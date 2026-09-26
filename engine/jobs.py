@@ -996,6 +996,10 @@ def render_page_template(title, desc, canonical, body, countries_nav="", depth=1
 <meta name="twitter:image" content="https://altrendat.com/og-default.jpg">
 <meta name="twitter:title" content="{E(title)}">
 <meta name="twitter:description" content="{E(desc)}">
+<link rel="icon" type="image/x-icon" href="{root}favicon.ico">
+<link rel="icon" type="image/png" sizes="48x48" href="{root}favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="{root}icon-192.png">
+<link rel="apple-touch-icon" href="{root}apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">

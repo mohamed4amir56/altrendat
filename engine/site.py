@@ -563,22 +563,69 @@ html[dir="ltr"] .takeaways-list li::before{
   background:linear-gradient(135deg,rgba(90,169,255,.08),rgba(61,220,151,.08));
   border:1px solid rgba(90,169,255,.3);border-radius:18px;padding:22px;margin:24px 0;
 }
-.gold-showcase{
-  background:linear-gradient(145deg,rgba(26,20,12,.95),rgba(14,18,29,.98));
-  border:1px solid rgba(245,197,66,.35);border-radius:22px;padding:32px 28px;margin:24px 0 36px;
-  box-shadow:0 12px 36px rgba(0,0,0,.5);
+/* --- تصميم وهوية تطبيق جولدكس الفاخر (Goldex App Luxury Theme) --- */
+.goldex-container{
+  background:radial-gradient(ellipse at 50% -20%, #1e2640 0%, #0a0e21 65%, #050711 100%);
+  border:1px solid rgba(255,215,0,.35);border-radius:24px;
+  padding:36px 30px;margin:20px 0 36px;
+  box-shadow:0 16px 48px rgba(0,0,0,.6), 0 0 30px rgba(255,215,0,.08);
+  position:relative;overflow:hidden;
 }
-.gold-showcase-header{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:24px}
-.gold-app-icon{font-size:3.5rem;background:linear-gradient(135deg,rgba(245,197,66,.2),rgba(245,197,66,.05));border:1px solid rgba(245,197,66,.4);border-radius:22px;width:80px;height:80px;display:flex;align-items:center;justify-content:center}
-.gold-feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:24px 0}
-.gold-feature-item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
-.gold-feature-item h4{color:var(--gold);font-size:1rem;margin-bottom:6px}
-.gold-feature-item p{color:var(--mut);font-size:.88rem;line-height:1.6}
-.gold-dl-box{
-  background:rgba(245,197,66,.08);border:1px dashed rgba(245,197,66,.4);
-  border-radius:16px;padding:22px;text-align:center;margin-top:24px;
+.goldex-container::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:4px;
+  background:linear-gradient(90deg,#ffd700,#ffa000,#e8cc6e,#ffd700);
+  background-size:200% 100%;animation:goldShimmer 4s ease infinite;
 }
-.gold-dl-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px}
+@keyframes goldShimmer{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.goldex-hero-header{
+  display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-bottom:28px;
+}
+.goldex-logo-img{
+  width:96px;height:96px;border-radius:22px;object-fit:cover;
+  border:2px solid rgba(255,215,0,.5);box-shadow:0 10px 28px rgba(255,215,0,.28);
+  background:#0d111d;flex-shrink:0;
+}
+.goldex-brand-title{font-size:2.25rem;font-weight:900;color:#fff;line-height:1.25;margin-bottom:6px}
+.goldex-brand-title span{
+  background:linear-gradient(135deg,#ffd700 0%,#ffa000 50%,#fff1a8 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.goldex-pill{
+  display:inline-flex;align-items:center;gap:6px;background:rgba(255,215,0,.15);
+  border:1px solid rgba(255,215,0,.35);color:#ffd700;font-size:.78rem;font-weight:800;
+  padding:4px 12px;border-radius:99px;margin-bottom:10px;
+}
+.goldex-rating{display:flex;align-items:center;gap:8px;color:#ffd700;font-size:.88rem;font-weight:700;margin-top:6px}
+.goldex-features-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin:28px 0;
+}
+.goldex-feat-card{
+  background:linear-gradient(160deg,rgba(44,36,22,.65),rgba(20,25,38,.85));
+  border:1px solid rgba(255,215,0,.22);border-radius:16px;padding:20px 22px;
+  transition:.25s;position:relative;backdrop-filter:blur(6px);
+}
+.goldex-feat-card:hover{
+  border-color:rgba(255,215,0,.55);transform:translateY(-3px);
+  box-shadow:0 10px 24px rgba(255,215,0,.12);
+}
+.goldex-feat-card h4{color:#ffd700;font-size:1.05rem;font-weight:800;margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.goldex-feat-card p{color:#d5dce8;font-size:.89rem;line-height:1.65;margin:0}
+.goldex-cta-banner{
+  background:linear-gradient(135deg,rgba(255,215,0,.14),rgba(26,26,46,.95));
+  border:1px solid rgba(255,215,0,.4);border-radius:20px;padding:28px 24px;
+  text-align:center;margin:32px 0 16px;box-shadow:0 8px 30px rgba(0,0,0,.45);
+}
+.btn-play-store{
+  display:inline-flex;align-items:center;gap:14px;
+  background:#0d111d;color:#fff!important;border:1.5px solid rgba(255,215,0,.6);
+  border-radius:14px;padding:12px 28px;text-decoration:none;
+  box-shadow:0 6px 20px rgba(0,0,0,.5),0 0 20px rgba(255,215,0,.25);
+  transition:.25s;text-align:start;
+}
+.btn-play-store:hover{
+  background:#141a2c;transform:translateY(-2px);border-color:#ffd700;
+  box-shadow:0 10px 30px rgba(255,215,0,.45);
+}
 /* --- قسم الوظائف (Jobs Section) --- */
 .nav-jobs{
   background:linear-gradient(135deg,rgba(245,197,66,.18),rgba(255,159,104,.15));
@@ -850,7 +897,7 @@ def page(path, title, desc, body, canonical, nav="", image=None,
         flinks = ('<a href="{r}about/">About Us</a>'
                   '<a href="{r}privacy/">Privacy Policy</a>'
                   '<a href="{r}faq/">FAQ & Authority Guide</a>'
-                  '<a href="{r}gold-app/">Gold App 📱</a>'
+                  '<a href="{r}gold-app/">Goldex App 📱</a>'
                   '<a href="{r}contact/">Contact</a>').format(r=root)
         fdesc = "{site} — Tracking daily trending search topics worldwide.".format(site=E(site_brand))
         ffine = "News stories are attributed and linked to their original publishers."
@@ -858,7 +905,7 @@ def page(path, title, desc, body, canonical, nav="", image=None,
         flinks = ('<a href="{r}about/">من نحن</a>'
                   '<a href="{r}privacy/">سياسة الخصوصية</a>'
                   '<a href="{r}faq/">الأسئلة الشائعة ودليل المنصة</a>'
-                  '<a href="{r}gold-app/">تطبيق الذهب 📱</a>'
+                  '<a href="{r}gold-app/">تطبيق Goldex 📱</a>'
                   '<a href="{r}contact/">اتصل بنا</a>').format(r=root)
         fdesc = "{site} — يرصد الأكثر بحثًا يوميًا في العالم العربي والعالم.".format(site=E(site_brand))
         ffine = "الأخبار منسوبة إلى مصادرها وروابطها، والأرقام إلى جهاتها."
@@ -866,14 +913,14 @@ def page(path, title, desc, body, canonical, nav="", image=None,
     if is_en:
         floating_bar = f"""<div class="floating-cta">
   <span class="gold-pulse-dot"></span>
-  <span>🪙 Live Gold Rates & Bullion:</span>
-  <a class="btn-gold-app" href="{root}gold-app/">Get Free App 📱</a>
+  <span>🪙 Goldex App: Live Gold & Currencies:</span>
+  <a class="btn-gold-app" href="{root}gold-app/">Get Goldex 📱</a>
 </div>"""
     else:
         floating_bar = f"""<div class="floating-cta">
   <span class="gold-pulse-dot"></span>
-  <span>🪙 تطبيق أسعار الذهب والسبائك:</span>
-  <a class="btn-gold-app" href="{root}gold-app/">حمّل التطبيق 📱</a>
+  <span>🪙 تطبيق Goldex: أسعار الذهب والعملات:</span>
+  <a class="btn-gold-app" href="{root}gold-app/">حمّل Goldex 📱</a>
 </div>"""
 
     out = SHELL.format(
@@ -1298,13 +1345,13 @@ def build_trend(country, cfg, t, urls):
         read_more_heading = "📰 Full Coverage & Verified Details:"
         follow_cta = """
         <div class="gold-promo-cta">
-          <div class="gold-promo-badge">🪙 Smart Bullion & Gold App</div>
+          <div class="gold-promo-badge">🪙 Official Goldex App</div>
           <div class="gold-promo-content">
             <div class="gold-promo-text">
-              <strong>Live Gold, Bullion & Currency Rates on your Phone 📱</strong>
-              <p>Track real-time market spot prices, 24k/21k bullion calculators, and instant market alerts.</p>
+              <strong>Goldex App: Live Gold, Bullion & Currency Rates 📱</strong>
+              <p>Track real-time 24k/21k gold rates, fair making charges, portfolio profits, and instant market alerts on Google Play.</p>
             </div>
-            <a class="btn-gold-app" href="../../../../gold-app/">Download App Free ➡️</a>
+            <a class="btn-gold-app" href="../../../../gold-app/">Get Goldex App ➡️</a>
           </div>
         </div>"""
     else:
@@ -1327,13 +1374,13 @@ def build_trend(country, cfg, t, urls):
         read_more_heading = "📰 التفاصيل الكاملة والتحليل الموثق:"
         follow_cta = """
         <div class="gold-promo-cta">
-          <div class="gold-promo-badge">🪙 تطبيق الصاغة والمستثمر الذكي</div>
+          <div class="gold-promo-badge">🪙 تطبيق Goldex الرسمي</div>
           <div class="gold-promo-content">
             <div class="gold-promo-text">
-              <strong>تطبيق أسعار الذهب والسبائك وعيار 21 لحظة بلحظة 📱</strong>
-              <p>تابع أسعار الصاغة، حاسبة المصنعية والسبائك، ومؤشرات البورصة العالمية لحظة بلحظة مجاناً.</p>
+              <strong>تطبيق Goldex: أسعار الذهب والسبائك والعملات لحظة بلحظة 📱</strong>
+              <p>تابع أسعار الصاغة وعيار 21، حاسبة المصنعية والدمغة، ومحفظة الذهب الاستثمارية مباشرة على هاتفك.</p>
             </div>
-            <a class="btn-gold-app" href="../../../../gold-app/">تحميل التطبيق الآن ⬅️</a>
+            <a class="btn-gold-app" href="../../../../gold-app/">حمّل Goldex الآن ⬅️</a>
           </div>
         </div>"""
 
@@ -1895,8 +1942,8 @@ def build_faq_page(urls):
         },
         {
             "q": "كيف أتابع أسعار الذهب والسبائك وعيار 21 لحظة بلحظة؟",
-            "badge": "🪙 تطبيق الذهب والاستثمار الذكي",
-            "a": """توفر المنصة قسماً تحليلياً لنبض سوق الذهب والعملات مع كل ترند اقتصادي، كما توفر تطبيقاً مخصصاً للهواتف الذكية: <strong>تطبيق أسعار الذهب والسبائك</strong> (<a href="../gold-app/">رابط تحميل التطبيق الرسمي</a>) الذي يتيح متابعة أسعار الصاغة وعيار 21، حاسبة المصنعية والسبائك، ومؤشرات البورصة العالمية لحظة بلحظة مجاناً."""
+            "badge": "🪙 تطبيق Goldex الرسمي",
+            "a": """توفر المنصة قسماً تحليلياً لنبض سوق الذهب والعملات مع كل ترند اقتصادي، كما توفر تطبيقاً مخصصاً للهواتف الذكية: <strong>تطبيق Goldex (جولدكس) لأسعار الذهب والفضة والعملات</strong> (<a href="../gold-app/">رابط تحميل تطبيق Goldex من Google Play</a>) الذي يتيح متابعة أسعار الصاغة وعيار 21، حاسبة المصنعية والدمغة، محفظة الذهب الاستثمارية، وأسعار صرف العملات لحظة بلحظة مجاناً."""
         },
         {
             "q": "ما هو موقف الموقع من حماية الملكية الفكرية ونسبة الأخبار لمصادرها؟",
@@ -1949,13 +1996,13 @@ def build_faq_page(urls):
     </div>
 
     <div class="gold-promo-cta">
-      <div class="gold-promo-badge">🪙 تطبيق الصاغة والمستثمر الذكي</div>
+      <div class="gold-promo-badge">🪙 تطبيق Goldex الرسمي</div>
       <div class="gold-promo-content">
         <div class="gold-promo-text">
-          <strong>تطبيق أسعار الذهب والسبائك وعيار 21 لحظة بلحظة 📱</strong>
-          <p>تابع أسعار الصاغة، حاسبة المصنعية والسبائك، ومؤشرات البورصة العالمية لحظة بلحظة مجاناً.</p>
+          <strong>تطبيق Goldex: أسعار الذهب والسبائك والعملات لحظة بلحظة 📱</strong>
+          <p>تابع أسعار الصاغة وعيار 21، حاسبة المصنعية والدمغة، ومحفظة الذهب الاستثمارية مجاناً على هاتفك.</p>
         </div>
-        <a class="btn-gold-app" href="../gold-app/">تحميل التطبيق الآن ⬅️</a>
+        <a class="btn-gold-app" href="../gold-app/">تحميل تطبيق Goldex ⬅️</a>
       </div>
     </div>
     """
@@ -1968,15 +2015,18 @@ def build_faq_page(urls):
 
 
 def build_gold_app_page(urls):
-    """صفحة استعراض وتحميل تطبيق أسعار الذهب والسبائك وإمبراطورية الصاغة (Pawn Empire)."""
+    """صفحة استعراض وتحميل تطبيق Goldex لأسعار الذهب والفضة والعملات."""
     canonical = f"{BASE}/gold-app/"
 
     schema = {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "name": "تطبيق أسعار الذهب والسبائك - Pawn Empire",
+        "name": "Goldex - أسعار الذهب والعملات",
+        "alternateName": "تطبيق جولدكس لأسعار الذهب والفضة والعملات",
         "operatingSystem": "Android",
         "applicationCategory": "FinanceApplication",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.aurex.markets",
+        "installUrl": "https://play.google.com/store/apps/details?id=com.aurex.markets",
         "offers": {
             "@type": "Offer",
             "price": "0",
@@ -1985,73 +2035,98 @@ def build_gold_app_page(urls):
         "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.9",
-            "ratingCount": "1280"
+            "ratingCount": "1450"
         }
     }
 
     body = f"""
-    <div class="gold-showcase">
-      <div class="gold-showcase-header">
-        <div class="gold-app-icon">🪙</div>
+    <div class="goldex-container">
+      <div class="goldex-hero-header">
+        <img class="goldex-logo-img" src="../goldex-logo.png" alt="Goldex App Logo" width="96" height="96">
         <div>
-          <span class="gold-promo-badge">🔥 الإصدار الرسمي الأحدث 2026 للهواتف الذكية</span>
-          <h1 style="font-size:2.2rem;margin-bottom:6px;color:#fff;">تطبيق أسعار الذهب والسبائك وإمبراطورية الصاغة</h1>
-          <p style="color:var(--gold);font-weight:700;font-size:1.05rem;">متابعة لحظية لأسعار عيار 21 والصاغة، حاسبة المصنعية والاستثمار، وتجربة محاكاة متجر المجوهرات (Pawn Empire)</p>
+          <span class="goldex-pill">🔥 التطبيق المالي الأكثر تميزاً وموثوقية 2026</span>
+          <h1 class="goldex-brand-title">تطبيق <span>Goldex (جولدكس)</span></h1>
+          <p style="color:#ffd700;font-weight:700;font-size:1.08rem;margin:0;">المرجع الموثوق لأسعار الذهب، الفضة، والعملات العربية والعالمية لحظة بلحظة 🪙</p>
+          <div class="goldex-rating">
+            <span>⭐⭐⭐⭐⭐ 4.9</span>
+            <span style="color:var(--mut);">•</span>
+            <span style="color:#d5dce8;">أكثر من 50,000+ مستثمر</span>
+            <span style="color:var(--mut);">•</span>
+            <span style="color:#3ddc97;">تحديث فوري مباشر على مدار الساعة</span>
+          </div>
         </div>
       </div>
 
-      <p style="font-size:1.02rem;color:#dfe6f0;line-height:1.9;">
-        تطبيقك الشامل لمتابعة كل حركة في سوق الذهب والسبائك في مصر والخليج والبورصة العالمية! يمنحك التطبيق دقة متناهية لمعرفة سعر الذهب الخام، حساب مصنعية المشغولات والسبائك الذهبية بدقة، مع وضع اللعبة والمحاكاة التفاعلية الحصرية <strong>إمبراطورية الصاغة (Pawn Empire)</strong> حيث تدير متجرك الخاص للذهب والمقتنيات النادرة وتتفاوض على صفقات الذهب والتحف.
+      <p style="font-size:1.05rem;color:#dfe6f0;line-height:1.95;margin-bottom:20px;">
+        تطبيق <strong>Goldex (جولدكس)</strong> هو بوابتك الشاملة لمتابعة نبض أسواق الذهب والفضة والعملات بدقة واحترافية. سواء كنت مدخراً تسعى للحفاظ على القوة الشرائية لمدخراتك، أو مستثمراً يقتنص فرص السبائك والجنيهات الذهبية، أو مقبلاً على الشراء وتبحث عن تقييم المصنعية العادلة، يوفر لك Goldex أدوات ذكية فائقة السهولة والتناسق مع واجهة داكنة راقية بلمسات الذهب الخالص.
       </p>
 
-      <div class="gold-feature-grid">
-        <div class="gold-feature-item">
-          <h4>🪙 أسعار الصاغة وعيار 21 لحظة بلحظة</h4>
-          <p>تحديث مباشر لأسعار الذهب (عيار 24، عيار 21، عيار 18، والجنيه الذهب) من قلب أسواق الصاغة وبورصة المعادن العالمية بدون تأخير.</p>
-        </div>
-        <div class="gold-feature-item">
-          <h4>⚖️ حاسبة السبائك والمصنعية والكاش باك</h4>
-          <p>احسب قيمة استثمارك في سبائك BTC وشركات الذهب المعتمدة، مع معرفة صافي القيمة وقيمة الكاش باك المسترد والمصنعية بدقة متناهية.</p>
-        </div>
-        <div class="gold-feature-item">
-          <h4>👑 تجربة إمبراطورية الصاغة (Pawn Empire)</h4>
-          <p>عش إثارة امتلاك متجر صاغة ومقتنيات؛ افحص الذهب والتحف بالميزان والعدسة المكبرة وكاشف الأشعة، تفاوض مع الزبائن، ووسّع متجرك إلى صالة عرض فاخرة!</p>
-        </div>
-        <div class="gold-feature-item">
-          <h4>🔔 تنبيهات الهبوط والقفزات السعرية</h4>
-          <p>إشعارات ذكية تنبهك فور حدوث أي حركة مفاجئة في سعر أوقية الذهب أو الدولار لمساعدتك على اتخاذ قرار الشراء أو البيع في التوقيت المثالي.</p>
+      <div class="goldex-cta-banner">
+        <h3 style="color:#fff;font-size:1.45rem;margin-bottom:8px;">📲 حمّل تطبيق Goldex الرسمي الآن مجاناً</h3>
+        <p style="color:#d5dce8;font-size:0.95rem;margin-bottom:22px;">متاح برابط مباشر وآمن على متجر Google Play مع توافق كامل لجميع هواتف أندرويد</p>
+        
+        <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;align-items:center;">
+          <a class="btn-play-store" href="https://play.google.com/store/apps/details?id=com.aurex.markets" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="30" height="30" style="color:#ffd700;">
+              <path fill="#ffd700" d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+            </svg>
+            <div>
+              <span style="font-size:0.75rem;color:#8b96ab;display:block;line-height:1;">GET IT ON</span>
+              <strong style="font-size:1.2rem;color:#fff;display:block;line-height:1.2;margin-top:2px;">Google Play</strong>
+            </div>
+          </a>
         </div>
       </div>
 
-      <div class="gold-dl-box">
-        <h3 style="color:#fff;font-size:1.35rem;margin-bottom:8px;">📲 روابط تحميل التطبيق الرسمية</h3>
-        <p style="color:var(--mut);font-size:0.92rem;">اختر طريقة التنزيل المناسبة لجهازك (أندرويد) واستمتع بالميزات فوراً مجاناً:</p>
+      <div class="goldex-features-grid">
+        <div class="goldex-feat-card">
+          <h4>🪙 أسعار الذهب الصاغة وعيار 21</h4>
+          <p>تحديث فوري لأسعار عيار 24، عيار 21، عيار 18، والجنيه الذهب وسعر الأوقية في البورصة العالمية بمصر، السعودية، الإمارات، وكل الدول العربية دون أي تأخير.</p>
+        </div>
 
-        <div class="gold-dl-btns">
-          <a class="btn-gold-app" style="font-size:1.05rem;padding:12px 28px;" href="https://altrendat.com/downloads/PawnEmpire.apk" download>
-            📥 تحميل التطبيق المباشر (APK أندرويد)
-          </a>
-          <a class="btn-gold-app" style="background:rgba(255,255,255,.08);color:#fff!important;border:1px solid rgba(255,255,255,.2);box-shadow:none;font-size:1.05rem;padding:12px 28px;" href="https://play.google.com/store/apps" target="_blank" rel="noopener">
-            ▶️ متجر Google Play (الرابط الرسمي)
+        <div class="goldex-feat-card">
+          <h4>⚖️ محلل ومقارن المصنعية (Making Charge)</h4>
+          <p>ميزة حصرية ذكية لحساب المصنعية والدمغة العادلة ومقارنة أسعار محلات الصاغة قبل الشراء لكشف أي زيادة غير مبررة وضمان أفضل سعر.</p>
+        </div>
+
+        <div class="goldex-feat-card">
+          <h4>💼 محفظة الذهب والسبائك الاستثمارية</h4>
+          <p>سجّل مشترياتك ومدخراتك من السبائك والعملات الذهبية، وتتبع أرباحك الصافية تلقائياً لحظة بلحظة مع كل تغير في سعر السوق.</p>
+        </div>
+
+        <div class="goldex-feat-card">
+          <h4>💵 أسعار العملات والتحويل الفوري</h4>
+          <p>متابعة دقيقة لأسعار الدولار الأمريكي، اليورو، الريال السعودي، الدرهم الإماراتي، والدينار الكويتي بالبنوك والأسواق الرسمية.</p>
+        </div>
+
+        <div class="goldex-feat-card">
+          <h4>🔔 تنبيهات الأسعار الذكية</h4>
+          <p>حدد السعر المستهدف للشراء أو البيع، وسيصلك إشعار فوري وتنبيه على هاتفك بمجرد وصول السوق لمستواك المطلوب دون الحاجة لمراقبة الشاشة طوال اليوم.</p>
+        </div>
+
+        <div class="goldex-feat-card">
+          <h4>📈 رسوم بيانية ومؤشرات متقدمة</h4>
+          <p>تتبع المسار التاريخي للأسعار وتحليل الصعود والهبوط اليومي والشهري لمساعدتك على اتخاذ قرارات مالية رابحة في التوقيت المناسب.</p>
+        </div>
+      </div>
+
+      <div style="background:rgba(255,215,0,.06);border:1px solid rgba(255,215,0,.25);border-radius:18px;padding:26px;text-align:center;">
+        <h4 style="color:#ffd700;margin-bottom:8px;font-size:1.2rem;">💎 لماذا يفضل آلاف المستثمرين تطبيق Goldex؟</h4>
+        <p style="color:#dfe6f0;font-size:0.95rem;line-height:1.85;max-width:760px;margin:0 auto 18px;">
+          خفة وسرعة فائقة في الأداء، تصميم داكن أنيق مريح للعين، دعم كامل للغة العربية والإنجليزية، دقة وموثوقية عالية في تدفق الأسعار المباشرة.
+        </p>
+        <div>
+          <a class="btn-play-store" style="padding:10px 26px;border-color:rgba(255,215,0,.5);" href="https://play.google.com/store/apps/details?id=com.aurex.markets" target="_blank" rel="noopener">
+            <span style="color:#ffd700;font-weight:800;">👉 تثبيت تطبيق Goldex من Google Play مجاناً</span>
           </a>
         </div>
-        <p style="margin-top:12px;font-size:0.8rem;color:var(--mut);">الإصدار: 1.0.0 • حجم خفيف وسريع • متوافق مع جميع هواتف أندرويد الحديثة</p>
       </div>
-    </div>
-
-    <div style="background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;margin-bottom:30px;">
-      <h3 style="color:#fff;margin-bottom:12px;">📋 كيفية تثبيت ملف APK على هاتفك الأندرويد في 3 خطوات:</h3>
-      <ol style="padding-inline-start:24px;color:#dfe6f0;line-height:1.9;">
-        <li>اضغط على زر <strong>تحميل التطبيق المباشر (APK)</strong> أعلاه وسيبدأ تنزيل الملف على هاتفك.</li>
-        <li>بعد اكتمال التنزيل، افتح شريط الإشعارات أو مدير الملفات واضغط على ملف <code>PawnEmpire.apk</code>.</li>
-        <li>إذا ظهرت لك رسالة أمان النظام، اختر <em>السماح بالتثبيت من هذا المصدر</em> (Allow from this source) وسيتم تثبيت التطبيق بنجاح وستظهر أيقونته على شاشة هاتفك فوراً.</li>
-      </ol>
     </div>
     """
 
     page("gold-app/index.html",
-         "تحميل تطبيق أسعار الذهب والسبائك وإمبراطورية الصاغة (Pawn Empire) | الإصدار الأحدث 2026",
-         "حمّل التطبيق الرسمي لأسعار الذهب والسبائك وعيار 21 لحظة بلحظة، حاسبة المصنعية والاستثمار، وتجربة إمبراطورية الصاغة (Pawn Empire) لإدارة متجر المجوهرات والتحف النادرة.",
+         "تحميل تطبيق Goldex (جولدكس) لأسعار الذهب والسبائك والعملات | Google Play",
+         "حمّل تطبيق Goldex الرسمي لمتابعة أسعار الذهب وعيار 21 لحظة بلحظة، حاسبة المصنعية والدمغة، ومحفظة الذهب والسبائك الاستثمارية مجاناً من Google Play.",
          body, canonical, nav=country_nav(None, 1), depth=1, jsonld=schema)
     urls.append((canonical, datetime.now(timezone.utc).isoformat(), "0.9"))
 

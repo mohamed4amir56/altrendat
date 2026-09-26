@@ -427,22 +427,69 @@ html[dir="ltr"] .takeaways-list li::before{
   background:linear-gradient(135deg,rgba(90,169,255,.08),rgba(61,220,151,.08));
   border:1px solid rgba(90,169,255,.3);border-radius:18px;padding:22px;margin:24px 0;
 }
-.gold-showcase{
-  background:linear-gradient(145deg,rgba(26,20,12,.95),rgba(14,18,29,.98));
-  border:1px solid rgba(245,197,66,.35);border-radius:22px;padding:32px 28px;margin:24px 0 36px;
-  box-shadow:0 12px 36px rgba(0,0,0,.5);
+/* --- تصميم وهوية تطبيق جولدكس الفاخر (Goldex App Luxury Theme) --- */
+.goldex-container{
+  background:radial-gradient(ellipse at 50% -20%, #1e2640 0%, #0a0e21 65%, #050711 100%);
+  border:1px solid rgba(255,215,0,.35);border-radius:24px;
+  padding:36px 30px;margin:20px 0 36px;
+  box-shadow:0 16px 48px rgba(0,0,0,.6), 0 0 30px rgba(255,215,0,.08);
+  position:relative;overflow:hidden;
 }
-.gold-showcase-header{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:24px}
-.gold-app-icon{font-size:3.5rem;background:linear-gradient(135deg,rgba(245,197,66,.2),rgba(245,197,66,.05));border:1px solid rgba(245,197,66,.4);border-radius:22px;width:80px;height:80px;display:flex;align-items:center;justify-content:center}
-.gold-feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:24px 0}
-.gold-feature-item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
-.gold-feature-item h4{color:var(--gold);font-size:1rem;margin-bottom:6px}
-.gold-feature-item p{color:var(--mut);font-size:.88rem;line-height:1.6}
-.gold-dl-box{
-  background:rgba(245,197,66,.08);border:1px dashed rgba(245,197,66,.4);
-  border-radius:16px;padding:22px;text-align:center;margin-top:24px;
+.goldex-container::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:4px;
+  background:linear-gradient(90deg,#ffd700,#ffa000,#e8cc6e,#ffd700);
+  background-size:200% 100%;animation:goldShimmer 4s ease infinite;
 }
-.gold-dl-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px}
+@keyframes goldShimmer{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.goldex-hero-header{
+  display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-bottom:28px;
+}
+.goldex-logo-img{
+  width:96px;height:96px;border-radius:22px;object-fit:cover;
+  border:2px solid rgba(255,215,0,.5);box-shadow:0 10px 28px rgba(255,215,0,.28);
+  background:#0d111d;flex-shrink:0;
+}
+.goldex-brand-title{font-size:2.25rem;font-weight:900;color:#fff;line-height:1.25;margin-bottom:6px}
+.goldex-brand-title span{
+  background:linear-gradient(135deg,#ffd700 0%,#ffa000 50%,#fff1a8 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.goldex-pill{
+  display:inline-flex;align-items:center;gap:6px;background:rgba(255,215,0,.15);
+  border:1px solid rgba(255,215,0,.35);color:#ffd700;font-size:.78rem;font-weight:800;
+  padding:4px 12px;border-radius:99px;margin-bottom:10px;
+}
+.goldex-rating{display:flex;align-items:center;gap:8px;color:#ffd700;font-size:.88rem;font-weight:700;margin-top:6px}
+.goldex-features-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin:28px 0;
+}
+.goldex-feat-card{
+  background:linear-gradient(160deg,rgba(44,36,22,.65),rgba(20,25,38,.85));
+  border:1px solid rgba(255,215,0,.22);border-radius:16px;padding:20px 22px;
+  transition:.25s;position:relative;backdrop-filter:blur(6px);
+}
+.goldex-feat-card:hover{
+  border-color:rgba(255,215,0,.55);transform:translateY(-3px);
+  box-shadow:0 10px 24px rgba(255,215,0,.12);
+}
+.goldex-feat-card h4{color:#ffd700;font-size:1.05rem;font-weight:800;margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.goldex-feat-card p{color:#d5dce8;font-size:.89rem;line-height:1.65;margin:0}
+.goldex-cta-banner{
+  background:linear-gradient(135deg,rgba(255,215,0,.14),rgba(26,26,46,.95));
+  border:1px solid rgba(255,215,0,.4);border-radius:20px;padding:28px 24px;
+  text-align:center;margin:32px 0 16px;box-shadow:0 8px 30px rgba(0,0,0,.45);
+}
+.btn-play-store{
+  display:inline-flex;align-items:center;gap:14px;
+  background:#0d111d;color:#fff!important;border:1.5px solid rgba(255,215,0,.6);
+  border-radius:14px;padding:12px 28px;text-decoration:none;
+  box-shadow:0 6px 20px rgba(0,0,0,.5),0 0 20px rgba(255,215,0,.25);
+  transition:.25s;text-align:start;
+}
+.btn-play-store:hover{
+  background:#141a2c;transform:translateY(-2px);border-color:#ffd700;
+  box-shadow:0 10px 30px rgba(255,215,0,.45);
+}
 /* --- قسم الوظائف (Jobs Section) --- */
 .nav-jobs{
   background:linear-gradient(135deg,rgba(245,197,66,.18),rgba(255,159,104,.15));

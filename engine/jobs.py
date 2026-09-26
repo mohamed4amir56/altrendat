@@ -930,14 +930,14 @@ def render_jobs_index(jobs, base_url, countries_nav_html):
       {''.join(cards_html)}
     </div>
 
-    <div class="channel-cta" style="background:linear-gradient(135deg,rgba(245,197,66,.12),rgba(20,25,37,.95));border-color:rgba(245,197,66,.38);margin:28px 0 32px;">
+    <div class="channel-cta" style="background:linear-gradient(135deg,rgba(255,215,0,.12),rgba(20,25,37,.95));border-color:rgba(255,215,0,.38);margin:28px 0 32px;">
       <div class="channel-cta-text">
-        <span class="badge" style="background:rgba(245,197,66,.18);color:var(--gold);margin-bottom:8px;">🪙 تطبيق الصاغة والمستثمر الذكي</span>
-        <h4 style="color:#fff;">📱 احفظ قيمة مدخراتك من الراتب: حمّل تطبيق أسعار الذهب والسبائك</h4>
+        <span class="badge" style="background:rgba(255,215,0,.18);color:#ffd700;margin-bottom:8px;">🪙 تطبيق Goldex لمتابعة الذهب والعملات</span>
+        <h4 style="color:#fff;">📱 احفظ قيمة مدخراتك من الراتب مع تطبيق Goldex</h4>
         <p>احسب قيمة استثمارك في الذهب وعيار 21 والسبائك لحظة بلحظة مع تحديثات الصاغة المباشرة وحاسبة المصنعية.</p>
       </div>
       <div class="channel-cta-btns">
-        <a class="btn-gold-app" href="../gold-app/">حمّل التطبيق الآن 📱</a>
+        <a class="btn-gold-app" href="../gold-app/">حمّل تطبيق Goldex 📱</a>
       </div>
     </div>
 
@@ -1167,14 +1167,14 @@ def render_job_single(job, canonical, base_url, countries_nav_html, all_jobs):
       </div>
     </div>
 
-    <div class="channel-cta" style="background:linear-gradient(135deg,rgba(245,197,66,.12),rgba(20,25,37,.95));border-color:rgba(245,197,66,.38);margin:26px 0 30px;">
+    <div class="channel-cta" style="background:linear-gradient(135deg,rgba(255,215,0,.12),rgba(20,25,37,.95));border-color:rgba(255,215,0,.38);margin:26px 0 30px;">
       <div class="channel-cta-text">
-        <span class="badge" style="background:rgba(245,197,66,.18);color:var(--gold);margin-bottom:8px;">🪙 استثمار وادخار الراتب</span>
-        <h4 style="color:#fff;">📱 حمّل تطبيق أسعار الذهب والسبائك وعيار 21</h4>
-        <p>تابع أسعار الصاغة لحظة بلحظة، حاسبة الجنيه الذهب والسبائك، ومؤشرات البورصة العالمية مجاناً.</p>
+        <span class="badge" style="background:rgba(255,215,0,.18);color:#ffd700;margin-bottom:8px;">🪙 استثمار وادخار الراتب</span>
+        <h4 style="color:#fff;">📱 حمّل تطبيق Goldex لأسعار الذهب والسبائك وعيار 21</h4>
+        <p>تابع أسعار الصاغة لحظة بلحظة، حاسبة المصنعية والدمغة، ومحفظة الذهب والسبائك الاستثمارية مجاناً على Google Play.</p>
       </div>
       <div class="channel-cta-btns">
-        <a class="btn-gold-app" href="../../gold-app/">حمّل التطبيق الآن 📱</a>
+        <a class="btn-gold-app" href="../../gold-app/">حمّل تطبيق Goldex 📱</a>
       </div>
     </div>
 
@@ -1211,7 +1211,7 @@ def render_page_template(title, desc, canonical, body, countries_nav="", depth=1
     <a href="{root}eg/">مصر</a>
     <a href="{root}sa/">السعودية</a>
     <a href="{root}faq/">الأسئلة الشائعة ودليل المنصة</a>
-    <a href="{root}gold-app/">تطبيق الذهب 📱</a>
+    <a href="{root}gold-app/">تطبيق Goldex 📱</a>
     <a href="{root}about/">من نحن</a>
     <a href="{root}privacy/">سياسة الخصوصية</a>
     <a href="{root}contact/">اتصل بنا</a>
@@ -1219,8 +1219,8 @@ def render_page_template(title, desc, canonical, body, countries_nav="", depth=1
 
     floating_bar = f"""<div class="floating-cta">
   <span class="gold-pulse-dot"></span>
-  <span>🪙 تطبيق أسعار الذهب والسبائك:</span>
-  <a class="btn-gold-app" href="{root}gold-app/">حمّل التطبيق 📱</a>
+  <span>🪙 تطبيق Goldex: أسعار الذهب والعملات:</span>
+  <a class="btn-gold-app" href="{root}gold-app/">حمّل Goldex 📱</a>
 </div>"""
 
     return f"""<!DOCTYPE html>

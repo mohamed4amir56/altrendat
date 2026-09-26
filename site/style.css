@@ -264,23 +264,32 @@ td:first-child{color:var(--acc);font-weight:600}
 }
 .channel-cta h4{font-size:1.05rem;font-weight:800;color:#fff;margin-bottom:4px}
 .channel-cta p{font-size:.86rem;color:var(--mut);margin:0!important;line-height:1.55}
-.btn-tg{
-  background:#229ed9;color:#fff!important;font-weight:700;font-size:.88rem;
+.btn-tg,.btn-gold-app{
+  background:linear-gradient(135deg,#f5c542,#d49b1a);color:#0a0d14!important;font-weight:800;font-size:.88rem;
   padding:9px 20px;border-radius:99px;text-decoration:none;
-  display:inline-flex;align-items:center;gap:6px;transition:.2s;white-space:nowrap;
+  display:inline-flex;align-items:center;gap:6px;transition:.2s;white-space:nowrap;box-shadow:0 4px 14px rgba(245,197,66,.25);
 }
-.btn-tg:hover{background:#1c88bd;transform:translateY(-1px)}
+.btn-tg:hover,.btn-gold-app:hover{background:linear-gradient(135deg,#ffe071,#e5aa20);transform:translateY(-2px);box-shadow:0 6px 18px rgba(245,197,66,.45)}
+.gold-pulse-dot{
+  width:9px;height:9px;border-radius:50%;background:#f5c542;display:inline-block;
+  box-shadow:0 0 0 0 rgba(245,197,66,.7);animation:goldPulse 1.8s infinite;
+}
+@keyframes goldPulse{
+  0%{transform:scale(0.95);box-shadow:0 0 0 0 rgba(245,197,66,.7)}
+  70%{transform:scale(1);box-shadow:0 0 0 7px rgba(245,197,66,0)}
+  100%{transform:scale(0.95);box-shadow:0 0 0 0 rgba(245,197,66,0)}
+}
 .floating-cta{
   position:fixed;bottom:12px;left:50%;transform:translateX(-50%);z-index:999;
   background:rgba(17,22,34,.95);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
-  border:1px solid var(--line);box-shadow:0 8px 24px rgba(0,0,0,.5);
+  border:1px solid rgba(245,197,66,.35);box-shadow:0 8px 24px rgba(0,0,0,.5);
   border-radius:99px;padding:6px 14px;display:flex;align-items:center;gap:10px;max-width:92%;
 }
 .floating-cta span{font-size:.8rem;font-weight:600;color:var(--txt);white-space:nowrap}
 @media(max-width:560px){
   h1{font-size:1.45rem}
   .channel-cta{flex-direction:column;align-items:stretch;text-align:center}
-  .btn-tg{justify-content:center}
+  .btn-tg,.btn-gold-app{justify-content:center}
 }
 
 /* --- نظام رادار وذكاء الترندات (Trend Intelligence System) --- */
@@ -381,19 +390,59 @@ html[dir="ltr"] .takeaways-list li::before{
   font-size:.88rem;color:#b8c7db;line-height:1.65;margin:0;
 }
 
-/* --- زر متابعة تطورات الترند (Follow Trend CTA) --- */
-.trend-follow-cta{
-  background:linear-gradient(135deg,rgba(90,169,255,.12),rgba(61,220,151,.08));
-  border:1px solid rgba(90,169,255,.3);border-radius:16px;
-  padding:16px 20px;margin:24px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+/* --- بطاقة ترويج تطبيق الذهب والمستثمر الذكي (Gold App Promo CTA) --- */
+.gold-promo-cta,.trend-follow-cta{
+  background:linear-gradient(135deg,rgba(245,197,66,.12),rgba(20,25,37,.95));
+  border:1px solid rgba(245,197,66,.38);border-radius:18px;
+  padding:18px 22px;margin:24px 0 28px;position:relative;overflow:hidden;
 }
-.trend-follow-text strong{font-size:.98rem;color:#fff;display:block;margin-bottom:3px}
-.trend-follow-text span{font-size:.84rem;color:var(--mut)}
+.gold-promo-badge{
+  display:inline-block;background:rgba(245,197,66,.18);border:1px solid rgba(245,197,66,.4);
+  color:var(--gold);font-size:.76rem;font-weight:800;padding:3px 10px;border-radius:99px;margin-bottom:10px;
+}
+.gold-promo-content{
+  display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+}
+.gold-promo-text strong,.trend-follow-text strong{display:block;font-size:1.02rem;color:#fff;margin-bottom:4px}
+.gold-promo-text p,.trend-follow-text span{font-size:.86rem;color:var(--mut);margin:0!important;line-height:1.55}
 .btn-follow-tg{
-  background:#229ed9;color:#fff!important;font-size:.86rem;font-weight:700;
+  background:linear-gradient(135deg,#f5c542,#d49b1a);color:#0a0d14!important;font-size:.86rem;font-weight:800;
   padding:8px 18px;border-radius:99px;text-decoration:none;display:inline-flex;align-items:center;gap:6px;
 }
-.btn-follow-tg:hover{background:#1a8bc0}
+.btn-follow-tg:hover{background:linear-gradient(135deg,#ffe071,#e5aa20)}
+
+/* --- صفحات التوثيق والأسئلة الشائعة وتطبيق الذهب --- */
+.faq-grid{display:grid;gap:18px;margin:24px 0 36px}
+.faq-card{
+  background:linear-gradient(165deg,var(--card),var(--bg2));
+  border:1px solid var(--line);border-radius:16px;padding:22px 24px;transition:.2s;
+}
+.faq-card:hover{border-color:rgba(90,169,255,.45);box-shadow:0 6px 20px rgba(0,0,0,.35)}
+.faq-card h3{font-size:1.15rem;font-weight:800;color:#fff;margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.faq-card p{font-size:.96rem;color:#dfe6f0;line-height:1.85;margin-bottom:10px}
+.faq-card ul{padding-inline-start:20px;margin-bottom:10px}
+.faq-card li{font-size:.92rem;color:var(--mut);margin-bottom:6px;line-height:1.65}
+.faq-badge{background:rgba(90,169,255,.15);color:var(--acc);font-size:.75rem;padding:3px 9px;border-radius:99px;font-weight:700}
+.faq-authority-box{
+  background:linear-gradient(135deg,rgba(90,169,255,.08),rgba(61,220,151,.08));
+  border:1px solid rgba(90,169,255,.3);border-radius:18px;padding:22px;margin:24px 0;
+}
+.gold-showcase{
+  background:linear-gradient(145deg,rgba(26,20,12,.95),rgba(14,18,29,.98));
+  border:1px solid rgba(245,197,66,.35);border-radius:22px;padding:32px 28px;margin:24px 0 36px;
+  box-shadow:0 12px 36px rgba(0,0,0,.5);
+}
+.gold-showcase-header{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:24px}
+.gold-app-icon{font-size:3.5rem;background:linear-gradient(135deg,rgba(245,197,66,.2),rgba(245,197,66,.05));border:1px solid rgba(245,197,66,.4);border-radius:22px;width:80px;height:80px;display:flex;align-items:center;justify-content:center}
+.gold-feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:24px 0}
+.gold-feature-item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.gold-feature-item h4{color:var(--gold);font-size:1rem;margin-bottom:6px}
+.gold-feature-item p{color:var(--mut);font-size:.88rem;line-height:1.6}
+.gold-dl-box{
+  background:rgba(245,197,66,.08);border:1px dashed rgba(245,197,66,.4);
+  border-radius:16px;padding:22px;text-align:center;margin-top:24px;
+}
+.gold-dl-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:16px}
 /* --- قسم الوظائف (Jobs Section) --- */
 .nav-jobs{
   background:linear-gradient(135deg,rgba(245,197,66,.18),rgba(255,159,104,.15));

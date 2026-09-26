@@ -31,6 +31,13 @@ CATEGORIES = {
     "remote": {"name_ar": "وظائف عن بعد", "icon": "🌐", "color": "#c77dff"},
 }
 
+TYPE_LABELS = {
+    "FULL_TIME": "دوام كامل 🟢",
+    "PART_TIME": "دوام جزئي ⏱️",
+    "SEASONAL": "عقد موسمي ✈️",
+    "REMOTE": "عمل عن بعد 🌐",
+}
+
 INITIAL_JOBS = [
     {
         "id": "egypt-tax-authority-jobs-2026",
@@ -507,45 +514,165 @@ def build_jobs_site(base_url, out_dir, nav_func=None):
 
 
 def render_jobs_index(jobs, base_url, countries_nav_html):
+    n_gov = sum(1 for j in jobs if j.get("category") == "gov")
+    n_abroad = sum(1 for j in jobs if j.get("category") == "abroad")
+    n_gulf = sum(1 for j in jobs if j.get("category") == "gulf")
+    n_remote = sum(1 for j in jobs if j.get("category") == "remote")
+
     cards_html = []
     for j in jobs:
         cat_info = CATEGORIES.get(j["category"], {"name_ar": "وظائف", "icon": "💼", "color": "#f5c542"})
+        search_text = " ".join([
+            j.get("title", ""),
+            j.get("employer", ""),
+            j.get("location", ""),
+            j.get("salary", ""),
+            j.get("summary", ""),
+            j.get("country", ""),
+            cat_info["name_ar"],
+            " ".join(j.get("requirements", [])),
+            " ".join(j.get("documents", [])),
+            j.get("how_to_apply", ""),
+        ]).lower()
+
+        reqs = j.get("requirements", [])
+        req_tags = "".join([
+            f"<span class='req-tag'>✓ {E(r[:45] + ('...' if len(r)>45 else ''))}</span>"
+            for r in reqs[:2]
+        ])
+
+        type_str = TYPE_LABELS.get(j.get("employment_type", "FULL_TIME"), "دوام كامل 🟢")
+
         cards_html.append(f"""
-        <article class="job-card" data-cat="{j['category']}" data-country="{j.get('country_code', 'all')}">
+        <article class="job-card" data-cat="{j['category']}" data-country="{j.get('country_code', 'all')}" data-search="{E(search_text)}">
           <div class="job-header">
-            <span class="job-badge" style="--c:{cat_info['color']}">{cat_info['icon']} {cat_info['name_ar']}</span>
-            <span class="job-country">{j.get('flag', '')} {j.get('country', '')}</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:{cat_info['color']}">{cat_info['icon']} {cat_info['name_ar']}</span>
+              <span class="job-country">{j.get('flag', '')} {j.get('country', '')}</span>
+            </div>
+            <span class="job-type-pill">{type_str}</span>
           </div>
           <h2 class="job-title"><a href="{base_url}/jobs/{j['slug']}/">{E(j['title'])}</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 {E(j['employer'])}</span>
-            <span class="job-meta-item">📍 {E(j['location'])}</span>
-            <span class="job-meta-item">💰 {E(j['salary'])}</span>
-            <span class="job-meta-item">⏰ آخر موعد: {E(j['deadline'])}</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> {E(j['employer'][:34])}</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> {E(j['location'])}</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> {E(j['salary'])}</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> {E(j['deadline'])}</span></div>
           </div>
           <p class="job-summary">{E(j['summary'])}</p>
+          {f'<div class="job-reqs-preview">{req_tags}</div>' if req_tags else ''}
           <div class="job-footer">
-            <a class="btn-job-details" href="{base_url}/jobs/{j['slug']}/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="{base_url}/jobs/{j['slug']}/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="{j['apply_url']}" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         """)
 
-    filters_cat = """
-    <div class="job-filters-group">
-      <span class="filter-label">التصنيف:</span>
-      <button class="filter-btn active" onclick="filterJobs('cat', 'all')">الكل (جميع الوظائف)</button>
-      <button class="filter-btn" onclick="filterJobs('cat', 'gov')">🏛️ وظائف حكومية</button>
-      <button class="filter-btn" onclick="filterJobs('cat', 'abroad')">✈️ عقود عمل بالخارج</button>
-      <button class="filter-btn" onclick="filterJobs('cat', 'gulf')">🇸🇦 وظائف الخليج</button>
-      <button class="filter-btn" onclick="filterJobs('cat', 'remote')">🌐 وظائف عن بعد</button>
+    matrix_html = f"""
+    <div class="jobs-matrix">
+      <div class="matrix-card" data-cat="gov" onclick="setCategory('gov')" style="--m-color:#3ddc97;">
+        <div class="matrix-header">
+          <span class="matrix-icon">🏛️</span>
+          <span class="matrix-count">{n_gov} مسابقات</span>
+        </div>
+        <div class="matrix-title">وظائف حكومية رسمية</div>
+        <p class="matrix-sub">مصلحة الضرائب، التربية والتعليم، البريد، جدارات السعودية، كوادر قطر</p>
+      </div>
+      <div class="matrix-card" data-cat="abroad" onclick="setCategory('abroad')" style="--m-color:#5aa9ff;">
+        <div class="matrix-header">
+          <span class="matrix-icon">✈️</span>
+          <span class="matrix-count">{n_abroad} عقود وتأشيرات</span>
+        </div>
+        <div class="matrix-title">عقود سفر وهجرة للخارج</div>
+        <p class="matrix-sub">بطاقة الفرصة الألمانية، عقود كندا LMIA، إيطاليا Decreto Flussi، وفيزا بريطانيا</p>
+      </div>
+      <div class="matrix-card" data-cat="gulf" onclick="setCategory('gulf')" style="--m-color:#f5c542;">
+        <div class="matrix-header">
+          <span class="matrix-icon">🇸🇦</span>
+          <span class="matrix-count">{n_gulf} شركات رائدة</span>
+        </div>
+        <div class="matrix-title">وظائف كبرى شركات الخليج</div>
+        <p class="matrix-sub">أرامكو ونيوم، طيران الإمارات بدبي برواتب وبدلات وتأمين شامل</p>
+      </div>
+      <div class="matrix-card" data-cat="remote" onclick="setCategory('remote')" style="--m-color:#c77dff;">
+        <div class="matrix-header">
+          <span class="matrix-icon">🌐</span>
+          <span class="matrix-count">{n_remote} فرص بالدولار</span>
+        </div>
+        <div class="matrix-title">وظائف عن بعد (Remote)</div>
+        <p class="matrix-sub">خدمة عملاء دولية، تدريب الذكاء الاصطناعي وإدخال بيانات من المنزل</p>
+      </div>
+    </div>
+    """
+
+    search_box_html = f"""
+    <div class="job-search-box">
+      <div class="search-input-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="jobSearchInput" placeholder="ابحث باسم الوظيفة، التخصص، أو الدولة (مثال: ضرائب، ألمانيا، كندا، تمريض، تدخيل بيانات...)" oninput="handleSearch()">
+        <button id="clearSearchBtn" class="clear-search-btn" onclick="clearSearch()" style="display:none;" title="مسح البحث">✕</button>
+      </div>
+      <div class="search-meta-row">
+        <div id="resultsCount" class="results-count">عرض جميع الوظائف (<strong>{len(jobs)}</strong> فرصة متاحة)</div>
+        <div class="quick-tags">
+          <span class="quick-tags-label">الأكثر بحثاً:</span>
+          <button class="quick-tag" onclick="quickSearch('ألمانيا')">🇩🇪 ألمانيا</button>
+          <button class="quick-tag" onclick="quickSearch('كندا')">🇨🇦 كندا</button>
+          <button class="quick-tag" onclick="quickSearch('مصر')">🏛️ وظائف مصر</button>
+          <button class="quick-tag" onclick="quickSearch('جدارات')">🇸🇦 جدارات</button>
+          <button class="quick-tag" onclick="quickSearch('عن بعد')">💵 بالدولار</button>
+          <button class="quick-tag" onclick="quickSearch('معلم')">📚 مسابقة المعلمين</button>
+        </div>
+      </div>
+    </div>
+    """
+
+    filters_html = f"""
+    <div class="job-filters-wrap">
+      <div class="filter-row">
+        <span class="filter-label">القطاع:</span>
+        <div class="filter-pills" id="catPills">
+          <button class="pill-btn active" data-cat="all" onclick="setCategory('all')">💼 جميع القطاعات ({len(jobs)})</button>
+          <button class="pill-btn" data-cat="gov" onclick="setCategory('gov')">🏛️ حكومي ومسابقات ({n_gov})</button>
+          <button class="pill-btn" data-cat="abroad" onclick="setCategory('abroad')">✈️ عقود سفر للخارج ({n_abroad})</button>
+          <button class="pill-btn" data-cat="gulf" onclick="setCategory('gulf')">🇸🇦 وظائف الخليج ({n_gulf})</button>
+          <button class="pill-btn" data-cat="remote" onclick="setCategory('remote')">🌐 عمل عن بعد ({n_remote})</button>
+        </div>
+      </div>
+      <div class="filter-row" style="margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.05);">
+        <span class="filter-label">الدولة:</span>
+        <div class="filter-pills" id="countryPills">
+          <button class="pill-btn active" data-country="all" onclick="setCountry('all')">🌍 كل الدول</button>
+          <button class="pill-btn" data-country="eg" onclick="setCountry('eg')">🇪🇬 مصر</button>
+          <button class="pill-btn" data-country="sa" onclick="setCountry('sa')">🇸🇦 السعودية</button>
+          <button class="pill-btn" data-country="de" onclick="setCountry('de')">🇩🇪 ألمانيا</button>
+          <button class="pill-btn" data-country="ca" onclick="setCountry('ca')">🇨🇦 كندا</button>
+          <button class="pill-btn" data-country="it" onclick="setCountry('it')">🇮🇹 إيطاليا</button>
+          <button class="pill-btn" data-country="gb" onclick="setCountry('gb')">🇬🇧 بريطانيا</button>
+          <button class="pill-btn" data-country="qa" onclick="setCountry('qa')">🇶🇦 قطر</button>
+          <button class="pill-btn" data-country="ae" onclick="setCountry('ae')">🇦🇪 الإمارات</button>
+          <button class="pill-btn" data-country="remote" onclick="setCountry('remote')">🌐 دولي / عن بعد</button>
+        </div>
+      </div>
+    </div>
+    """
+
+    no_results_html = """
+    <div id="noResultsBox" class="no-results-box" style="display:none;">
+      <div class="no-results-icon">🔎</div>
+      <h3>لم نجد وظائف مطابقة لبحثك</h3>
+      <p>جرّب استخدام كلمات عامة مثل: <strong>حكومي، ألمانيا، كندا، محاسبة، تمريض</strong> أو اضغط على الزر أدناه لإعادة ضبط الفلاتر.</p>
+      <button class="btn-reset-filters" onclick="resetAllFilters()">إعادة ضبط البحث وعرض جميع الوظائف 🔄</button>
     </div>
     """
 
     body = f"""
     <div class="jobs-hero">
-      <h1>💼 دليل وظائف اليوم وعقود العمل الرسمية</h1>
-      <p class="jobs-lead">بوابتك اليومية الموثوقة لأحدث الوظائف الحكومية، عقود العمل بالخارج والهجرة، وظائف شركات الخليج، والعمل عن بعد بالدولار مع روابط التقديم الرسمية المباشرة بدون وسطاء.</p>
+      <h1 style="font-size:2.1rem;margin-bottom:8px;">💼 دليل وظائف اليوم وعقود العمل الرسمية 2026</h1>
+      <p class="jobs-lead">بوابتك الذكية والموثوقة لأحدث الوظائف الحكومية والمسابقات الرسمية، عقود العمل وتأشيرات الهجرة بالخارج، وظائف كبرى شركات الخليج، والعمل عن بعد بالدولار مع روابط التقديم الرسمية المباشرة بدون وسطاء.</p>
     </div>
+
+    {matrix_html}
 
     <div class="safety-box">
       <span class="safety-icon">🛡️</span>
@@ -555,9 +682,11 @@ def render_jobs_index(jobs, base_url, countries_nav_html):
       </div>
     </div>
 
-    <div class="job-filters-wrap">
-      {filters_cat}
-    </div>
+    {search_box_html}
+
+    {filters_html}
+
+    {no_results_html}
 
     <div class="jobs-list" id="jobsContainer">
       {''.join(cards_html)}
@@ -575,19 +704,125 @@ def render_jobs_index(jobs, base_url, countries_nav_html):
 
     <script>
     let activeCat = 'all';
-    function filterJobs(type, val) {{
-      if (type === 'cat') {{
-        activeCat = val;
-        document.querySelectorAll('.job-filters-group .filter-btn').forEach(b => {{
-          b.classList.remove('active');
-          if (b.getAttribute('onclick').includes("'" + val + "'")) b.classList.add('active');
-        }});
+    let activeCountry = 'all';
+    let searchQuery = '';
+
+    function setCategory(cat) {{
+      activeCat = (activeCat === cat && cat !== 'all') ? 'all' : cat;
+      updateFilterButtons();
+      applyFilters();
+    }}
+
+    function setCountry(country) {{
+      activeCountry = (activeCountry === country && country !== 'all') ? 'all' : country;
+      updateFilterButtons();
+      applyFilters();
+    }}
+
+    function quickSearch(keyword) {{
+      const input = document.getElementById('jobSearchInput');
+      if (input) {{
+        input.value = keyword;
+        handleSearch();
       }}
-      document.querySelectorAll('.job-card').forEach(card => {{
-        const matchCat = (activeCat === 'all' || card.getAttribute('data-cat') === activeCat);
-        card.style.display = matchCat ? 'block' : 'none';
+    }}
+
+    function clearSearch() {{
+      const input = document.getElementById('jobSearchInput');
+      if (input) {{
+        input.value = '';
+        handleSearch();
+        input.focus();
+      }}
+    }}
+
+    function handleSearch() {{
+      const input = document.getElementById('jobSearchInput');
+      searchQuery = (input ? input.value : '').trim().toLowerCase();
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) {{
+        clearBtn.style.display = searchQuery ? 'inline-flex' : 'none';
+      }}
+      applyFilters();
+    }}
+
+    function resetAllFilters() {{
+      activeCat = 'all';
+      activeCountry = 'all';
+      searchQuery = '';
+      const input = document.getElementById('jobSearchInput');
+      if (input) input.value = '';
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) clearBtn.style.display = 'none';
+      updateFilterButtons();
+      applyFilters();
+    }}
+
+    function updateFilterButtons() {{
+      document.querySelectorAll('#catPills .pill-btn').forEach(btn => {{
+        btn.classList.toggle('active', btn.getAttribute('data-cat') === activeCat);
+      }});
+      document.querySelectorAll('.jobs-matrix .matrix-card').forEach(card => {{
+        card.classList.toggle('active', card.getAttribute('data-cat') === activeCat);
+      }});
+      document.querySelectorAll('#countryPills .pill-btn').forEach(btn => {{
+        btn.classList.toggle('active', btn.getAttribute('data-country') === activeCountry);
       }});
     }}
+
+    function applyFilters() {{
+      const cards = document.querySelectorAll('.job-card');
+      let visibleCount = 0;
+
+      cards.forEach(card => {{
+        const cardCat = card.getAttribute('data-cat');
+        const cardCountry = card.getAttribute('data-country');
+        const cardText = card.getAttribute('data-search') || '';
+
+        const matchCat = (activeCat === 'all' || cardCat === activeCat);
+        const matchCountry = (activeCountry === 'all' || cardCountry === activeCountry);
+        const matchSearch = (!searchQuery || cardText.includes(searchQuery));
+
+        if (matchCat && matchCountry && matchSearch) {{
+          card.style.display = 'block';
+          visibleCount++;
+        }} else {{
+          card.style.display = 'none';
+        }}
+      }});
+
+      const countEl = document.getElementById('resultsCount');
+      if (countEl) {{
+        if (searchQuery || activeCat !== 'all' || activeCountry !== 'all') {{
+          countEl.innerHTML = `تم العثور على <strong>${{visibleCount}}</strong> وظيفة مطابقة`;
+        }} else {{
+          countEl.innerHTML = `عرض جميع الوظائف (<strong>${{visibleCount}}</strong> فرصة متاحة)`;
+        }}
+      }}
+
+      const noResults = document.getElementById('noResultsBox');
+      if (noResults) {{
+        noResults.style.display = (visibleCount === 0) ? 'block' : 'none';
+      }}
+    }}
+
+    window.addEventListener('DOMContentLoaded', () => {{
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get('q');
+      const cat = params.get('cat');
+      const country = params.get('country');
+
+      if (q) {{
+        const input = document.getElementById('jobSearchInput');
+        if (input) input.value = q;
+        searchQuery = q.trim().toLowerCase();
+      }}
+      if (cat) activeCat = cat;
+      if (country) activeCountry = country;
+
+      updateFilterButtons();
+      applyFilters();
+    }});
     </script>
     """
 

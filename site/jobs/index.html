@@ -30,9 +30,46 @@
 </header>
 <main>
     <div class="jobs-hero">
-      <h1>💼 دليل وظائف اليوم وعقود العمل الرسمية</h1>
-      <p class="jobs-lead">بوابتك اليومية الموثوقة لأحدث الوظائف الحكومية، عقود العمل بالخارج والهجرة، وظائف شركات الخليج، والعمل عن بعد بالدولار مع روابط التقديم الرسمية المباشرة بدون وسطاء.</p>
+      <h1 style="font-size:2.1rem;margin-bottom:8px;">💼 دليل وظائف اليوم وعقود العمل الرسمية 2026</h1>
+      <p class="jobs-lead">بوابتك الذكية والموثوقة لأحدث الوظائف الحكومية والمسابقات الرسمية، عقود العمل وتأشيرات الهجرة بالخارج، وظائف كبرى شركات الخليج، والعمل عن بعد بالدولار مع روابط التقديم الرسمية المباشرة بدون وسطاء.</p>
     </div>
+
+    
+    <div class="jobs-matrix">
+      <div class="matrix-card" data-cat="gov" onclick="setCategory('gov')" style="--m-color:#3ddc97;">
+        <div class="matrix-header">
+          <span class="matrix-icon">🏛️</span>
+          <span class="matrix-count">3 مسابقات</span>
+        </div>
+        <div class="matrix-title">وظائف حكومية رسمية</div>
+        <p class="matrix-sub">مصلحة الضرائب، التربية والتعليم، البريد، جدارات السعودية، كوادر قطر</p>
+      </div>
+      <div class="matrix-card" data-cat="abroad" onclick="setCategory('abroad')" style="--m-color:#5aa9ff;">
+        <div class="matrix-header">
+          <span class="matrix-icon">✈️</span>
+          <span class="matrix-count">4 عقود وتأشيرات</span>
+        </div>
+        <div class="matrix-title">عقود سفر وهجرة للخارج</div>
+        <p class="matrix-sub">بطاقة الفرصة الألمانية، عقود كندا LMIA، إيطاليا Decreto Flussi، وفيزا بريطانيا</p>
+      </div>
+      <div class="matrix-card" data-cat="gulf" onclick="setCategory('gulf')" style="--m-color:#f5c542;">
+        <div class="matrix-header">
+          <span class="matrix-icon">🇸🇦</span>
+          <span class="matrix-count">4 شركات رائدة</span>
+        </div>
+        <div class="matrix-title">وظائف كبرى شركات الخليج</div>
+        <p class="matrix-sub">أرامكو ونيوم، طيران الإمارات بدبي برواتب وبدلات وتأمين شامل</p>
+      </div>
+      <div class="matrix-card" data-cat="remote" onclick="setCategory('remote')" style="--m-color:#c77dff;">
+        <div class="matrix-header">
+          <span class="matrix-icon">🌐</span>
+          <span class="matrix-count">2 فرص بالدولار</span>
+        </div>
+        <div class="matrix-title">وظائف عن بعد (Remote)</div>
+        <p class="matrix-sub">خدمة عملاء دولية، تدريب الذكاء الاصطناعي وإدخال بيانات من المنزل</p>
+      </div>
+    </div>
+    
 
     <div class="safety-box">
       <span class="safety-icon">🛡️</span>
@@ -42,252 +79,365 @@
       </div>
     </div>
 
-    <div class="job-filters-wrap">
-      
-    <div class="job-filters-group">
-      <span class="filter-label">التصنيف:</span>
-      <button class="filter-btn active" onclick="filterJobs('cat', 'all')">الكل (جميع الوظائف)</button>
-      <button class="filter-btn" onclick="filterJobs('cat', 'gov')">🏛️ وظائف حكومية</button>
-      <button class="filter-btn" onclick="filterJobs('cat', 'abroad')">✈️ عقود عمل بالخارج</button>
-      <button class="filter-btn" onclick="filterJobs('cat', 'gulf')">🇸🇦 وظائف الخليج</button>
-      <button class="filter-btn" onclick="filterJobs('cat', 'remote')">🌐 وظائف عن بعد</button>
+    
+    <div class="job-search-box">
+      <div class="search-input-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="jobSearchInput" placeholder="ابحث باسم الوظيفة، التخصص، أو الدولة (مثال: ضرائب، ألمانيا، كندا، تمريض، تدخيل بيانات...)" oninput="handleSearch()">
+        <button id="clearSearchBtn" class="clear-search-btn" onclick="clearSearch()" style="display:none;" title="مسح البحث">✕</button>
+      </div>
+      <div class="search-meta-row">
+        <div id="resultsCount" class="results-count">عرض جميع الوظائف (<strong>13</strong> فرصة متاحة)</div>
+        <div class="quick-tags">
+          <span class="quick-tags-label">الأكثر بحثاً:</span>
+          <button class="quick-tag" onclick="quickSearch('ألمانيا')">🇩🇪 ألمانيا</button>
+          <button class="quick-tag" onclick="quickSearch('كندا')">🇨🇦 كندا</button>
+          <button class="quick-tag" onclick="quickSearch('مصر')">🏛️ وظائف مصر</button>
+          <button class="quick-tag" onclick="quickSearch('جدارات')">🇸🇦 جدارات</button>
+          <button class="quick-tag" onclick="quickSearch('عن بعد')">💵 بالدولار</button>
+          <button class="quick-tag" onclick="quickSearch('معلم')">📚 مسابقة المعلمين</button>
+        </div>
+      </div>
     </div>
     
+
+    
+    <div class="job-filters-wrap">
+      <div class="filter-row">
+        <span class="filter-label">القطاع:</span>
+        <div class="filter-pills" id="catPills">
+          <button class="pill-btn active" data-cat="all" onclick="setCategory('all')">💼 جميع القطاعات (13)</button>
+          <button class="pill-btn" data-cat="gov" onclick="setCategory('gov')">🏛️ حكومي ومسابقات (3)</button>
+          <button class="pill-btn" data-cat="abroad" onclick="setCategory('abroad')">✈️ عقود سفر للخارج (4)</button>
+          <button class="pill-btn" data-cat="gulf" onclick="setCategory('gulf')">🇸🇦 وظائف الخليج (4)</button>
+          <button class="pill-btn" data-cat="remote" onclick="setCategory('remote')">🌐 عمل عن بعد (2)</button>
+        </div>
+      </div>
+      <div class="filter-row" style="margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.05);">
+        <span class="filter-label">الدولة:</span>
+        <div class="filter-pills" id="countryPills">
+          <button class="pill-btn active" data-country="all" onclick="setCountry('all')">🌍 كل الدول</button>
+          <button class="pill-btn" data-country="eg" onclick="setCountry('eg')">🇪🇬 مصر</button>
+          <button class="pill-btn" data-country="sa" onclick="setCountry('sa')">🇸🇦 السعودية</button>
+          <button class="pill-btn" data-country="de" onclick="setCountry('de')">🇩🇪 ألمانيا</button>
+          <button class="pill-btn" data-country="ca" onclick="setCountry('ca')">🇨🇦 كندا</button>
+          <button class="pill-btn" data-country="it" onclick="setCountry('it')">🇮🇹 إيطاليا</button>
+          <button class="pill-btn" data-country="gb" onclick="setCountry('gb')">🇬🇧 بريطانيا</button>
+          <button class="pill-btn" data-country="qa" onclick="setCountry('qa')">🇶🇦 قطر</button>
+          <button class="pill-btn" data-country="ae" onclick="setCountry('ae')">🇦🇪 الإمارات</button>
+          <button class="pill-btn" data-country="remote" onclick="setCountry('remote')">🌐 دولي / عن بعد</button>
+        </div>
+      </div>
     </div>
+    
+
+    
+    <div id="noResultsBox" class="no-results-box" style="display:none;">
+      <div class="no-results-icon">🔎</div>
+      <h3>لم نجد وظائف مطابقة لبحثك</h3>
+      <p>جرّب استخدام كلمات عامة مثل: <strong>حكومي، ألمانيا، كندا، محاسبة، تمريض</strong> أو اضغط على الزر أدناه لإعادة ضبط الفلاتر.</p>
+      <button class="btn-reset-filters" onclick="resetAllFilters()">إعادة ضبط البحث وعرض جميع الوظائف 🔄</button>
+    </div>
+    
 
     <div class="jobs-list" id="jobsContainer">
       
-        <article class="job-card" data-cat="gov" data-country="eg">
+        <article class="job-card" data-cat="gov" data-country="eg" data-search="مسابقة وظائف مصلحة الضرائب المصرية 2026 — شروط ومواعيد التقديم بالرابط الرسمي مصلحة الضرائب المصرية — الجهاز المركزي للتنظيم والإدارة جميع محافظات مصر رواتب تبدأ من 7,500 إلى 11,000 جنيه + حوافز وبدلات إعلان الجهاز المركزي للتنظيم والإدارة عن فتح باب التقديم لمسابقة مصلحة الضرائب المصرية لتعيين مأموري ضرائب فحص وحجز وباحثين قانونيين وتقنيي حاسب آلي بجميع المحافظات. مصر وظائف حكومية الحصول على بكالوريوس تجارة (شعبة محاسبة) أو ليسانس حقوق/شريعة وقانون بتقدير عام جيد على الأقل. ألا يزيد سن المتقدم عن 35 عاماً في تاريخ نشر الإعلان. إجادة استخدام الحاسب الآلي وتطبيقات قواعد البيانات. اجتياز الامتحانات الإلكترونية والمقابلة الشخصية بمركز تقييم القدرات والمسابقات. صورة بطاقة الرقم القومي سارية (وجهين). أصل المؤهل الدراسي وشهادة التخرج. الموقف من التجنيد للذكور أو الخدمة العامة للإناث. فيش جنائي موجه للجهاز المركزي للتنظيم والإدارة أو مصلحة الضرائب. إيصال الإيداع البنكي بحساب الجهاز في أحد البنوك الحكومية. يتم التقديم إلكترونياً وبشكل حصري من خلال بوابة الوظائف الحكومية الرسمية (jobs.caoa.gov.eg) بعد استيفاء الأوراق ورفعها بصيغة pdf.">
           <div class="job-header">
-            <span class="job-badge" style="--c:#3ddc97">🏛️ وظائف حكومية</span>
-            <span class="job-country">🇪🇬 مصر</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#3ddc97">🏛️ وظائف حكومية</span>
+              <span class="job-country">🇪🇬 مصر</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
           </div>
           <h2 class="job-title"><a href="https://altrendat.com/jobs/egypt-tax-authority-jobs-2026/">مسابقة وظائف مصلحة الضرائب المصرية 2026 — شروط ومواعيد التقديم بالرابط الرسمي</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 مصلحة الضرائب المصرية — الجهاز المركزي للتنظيم والإدارة</span>
-            <span class="job-meta-item">📍 جميع محافظات مصر</span>
-            <span class="job-meta-item">💰 رواتب تبدأ من 7,500 إلى 11,000 جنيه + حوافز وبدلات</span>
-            <span class="job-meta-item">⏰ آخر موعد: 2026-10-31</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> مصلحة الضرائب المصرية — الجهاز الم</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> جميع محافظات مصر</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> رواتب تبدأ من 7,500 إلى 11,000 جنيه + حوافز وبدلات</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> 2026-10-31</span></div>
           </div>
           <p class="job-summary">إعلان الجهاز المركزي للتنظيم والإدارة عن فتح باب التقديم لمسابقة مصلحة الضرائب المصرية لتعيين مأموري ضرائب فحص وحجز وباحثين قانونيين وتقنيي حاسب آلي بجميع المحافظات.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ الحصول على بكالوريوس تجارة (شعبة محاسبة) أو ل...</span><span class='req-tag'>✓ ألا يزيد سن المتقدم عن 35 عاماً في تاريخ نشر ...</span></div>
           <div class="job-footer">
-            <a class="btn-job-details" href="https://altrendat.com/jobs/egypt-tax-authority-jobs-2026/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="https://altrendat.com/jobs/egypt-tax-authority-jobs-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://jobs.caoa.gov.eg/" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         
-        <article class="job-card" data-cat="abroad" data-country="de">
+        <article class="job-card" data-cat="abroad" data-country="de" data-search="عقود عمل في ألمانيا 2026 — كل ما تريد معرفته عن بطاقة الفرصة (chancenkarte) ورابط التقديم وكالة التوظيف الفيدرالية الألمانية (bundesagentur für arbeit) ألمانيا (جميع المقاطعات) متوسط رواتب 2,800 إلى 4,500 يورو شهرياً حسب المهنة والتخصص دليل التقديم على بطاقة الفرصة الألمانية (chancenkarte) التي تتيح السفر والبحث عن عمل في ألمانيا لمدة عام بدون عقد مسبق اعتماداً على نظام النقاط والمؤهلات واللغة. ألمانيا عقود عمل بالخارج الحصول على مؤهل جامعي معترف به في ألمانيا أو شهادة مهنية معتمدة سنتين على الأقل. إتقان اللغة الألمانية بمستوى a1 على الأقل، أو اللغة الإنجليزية بمستوى b2. جمع 6 نقاط على الأقل في حاسبة النقاط الألمانية (العمر، الخبرة، اللغة، الشهادة). إثبات القدرة المالية للمعيشة خلال فترة البحث عبر حساب بنكي مغلق أو كفالة رسمية. جواز سفر ساري المفعول. شهادات التخرج وبيان الدرجات مع الترجمة المعتمدة للألمانية أو الإنجليزية. شهادة اللغة الرسمية (goethe / telc للألماني أو ielts / toefl للإنجليزي). سيرة ذاتية وفق النموذج الأوروبي europass. تأمين صحي للسفر يغطي فترة الإقامة الأولى. التقديم الرسمي يتم عبر بوابة التأشيرات التابعة للخارجية الألمانية ومنصة make it in germany، وحجز موعد في السفارة الألمانية في بلدك.">
           <div class="job-header">
-            <span class="job-badge" style="--c:#5aa9ff">✈️ عقود عمل بالخارج</span>
-            <span class="job-country">🇩🇪 ألمانيا</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#5aa9ff">✈️ عقود عمل بالخارج</span>
+              <span class="job-country">🇩🇪 ألمانيا</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
           </div>
           <h2 class="job-title"><a href="https://altrendat.com/jobs/germany-chancenkarte-opportunity-card-2026/">عقود عمل في ألمانيا 2026 — كل ما تريد معرفته عن بطاقة الفرصة (Chancenkarte) ورابط التقديم</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 وكالة التوظيف الفيدرالية الألمانية (Bundesagentur für Arbeit)</span>
-            <span class="job-meta-item">📍 ألمانيا (جميع المقاطعات)</span>
-            <span class="job-meta-item">💰 متوسط رواتب 2,800 إلى 4,500 يورو شهرياً حسب المهنة والتخصص</span>
-            <span class="job-meta-item">⏰ آخر موعد: مفتوح على مدار العام 2026</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> وكالة التوظيف الفيدرالية الألمانية</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> ألمانيا (جميع المقاطعات)</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> متوسط رواتب 2,800 إلى 4,500 يورو شهرياً حسب المهنة والتخصص</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> مفتوح على مدار العام 2026</span></div>
           </div>
           <p class="job-summary">دليل التقديم على بطاقة الفرصة الألمانية (Chancenkarte) التي تتيح السفر والبحث عن عمل في ألمانيا لمدة عام بدون عقد مسبق اعتماداً على نظام النقاط والمؤهلات واللغة.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ الحصول على مؤهل جامعي معترف به في ألمانيا أو ...</span><span class='req-tag'>✓ إتقان اللغة الألمانية بمستوى A1 على الأقل، أو...</span></div>
           <div class="job-footer">
-            <a class="btn-job-details" href="https://altrendat.com/jobs/germany-chancenkarte-opportunity-card-2026/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="https://altrendat.com/jobs/germany-chancenkarte-opportunity-card-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://www.make-it-in-germany.com/en/visa-residence/types/job-search-opportunity-card" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         
-        <article class="job-card" data-cat="abroad" data-country="ca">
+        <article class="job-card" data-cat="abroad" data-country="ca" data-search="فرص عمل في كندا 2026 مع توفير تأشيرة العمل (lmia) — المهن المطلوبة ورابط بنك الوظائف الكندي شركات كندية معتمدة (عبر job bank canada) مقاطعات أونتاريو، ألبرتا، بريتيش كولومبيا، كندا من 22 إلى 42 دولار كندي/ساعة (3,500 - 6,500 cad شهرياً) تفاصيل فرص العمل المتاحة في كندا الموجهة للمتقدمين من خارج كندا مع تصريح العمل المعتمد (lmia) في قطاعات البناء، النقل، الضيافة، الرعاية، والتقنية. كندا عقود عمل بالخارج خبرة عملية موثقة في المهنة المطلوبة من عامين إلى 3 أعوام. مستوى لغة إنجليزية متوسط (ielts general بمستوى 5.0 فأعلى) أو فرنسية للمقاطعات الفرنكوفونية. سيرة ذاتية متوافقة مع النمط الكندي (canadian resume format). شهادة خلو من السوابق الجنائية وفحص طبي معتمد. نسخة جواز السفر ساري الصلاحية. شهادات الخبرة السابقة وعقود العمل الموثقة. المؤهل الدراسي وشهادة معادلة wes إن وجدت. خطابات توصية من أصحاب عمل سابقين. ابحث في بنك الوظائف الكندي الحكومي (job bank) عبر فلتر &#x27;المتقدمين الدوليين من خارج كندا&#x27; (canadians and international candidates) وقدّم مباشرة مع صاحب العمل.">
           <div class="job-header">
-            <span class="job-badge" style="--c:#5aa9ff">✈️ عقود عمل بالخارج</span>
-            <span class="job-country">🇨🇦 كندا</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#5aa9ff">✈️ عقود عمل بالخارج</span>
+              <span class="job-country">🇨🇦 كندا</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
           </div>
           <h2 class="job-title"><a href="https://altrendat.com/jobs/canada-skilled-trades-work-permit-2026/">فرص عمل في كندا 2026 مع توفير تأشيرة العمل (LMIA) — المهن المطلوبة ورابط بنك الوظائف الكندي</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 شركات كندية معتمدة (عبر Job Bank Canada)</span>
-            <span class="job-meta-item">📍 مقاطعات أونتاريو، ألبرتا، بريتيش كولومبيا، كندا</span>
-            <span class="job-meta-item">💰 من 22 إلى 42 دولار كندي/ساعة (3,500 - 6,500 CAD شهرياً)</span>
-            <span class="job-meta-item">⏰ آخر موعد: مفتوح حسب كل شواغر كل شركة</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> شركات كندية معتمدة (عبر Job Bank C</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> مقاطعات أونتاريو، ألبرتا، بريتيش كولومبيا، كندا</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> من 22 إلى 42 دولار كندي/ساعة (3,500 - 6,500 CAD شهرياً)</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> مفتوح حسب كل شواغر كل شركة</span></div>
           </div>
           <p class="job-summary">تفاصيل فرص العمل المتاحة في كندا الموجهة للمتقدمين من خارج كندا مع تصريح العمل المعتمد (LMIA) في قطاعات البناء، النقل، الضيافة، الرعاية، والتقنية.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ خبرة عملية موثقة في المهنة المطلوبة من عامين ...</span><span class='req-tag'>✓ مستوى لغة إنجليزية متوسط (IELTS General بمستو...</span></div>
           <div class="job-footer">
-            <a class="btn-job-details" href="https://altrendat.com/jobs/canada-skilled-trades-work-permit-2026/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="https://altrendat.com/jobs/canada-skilled-trades-work-permit-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://www.jobbank.gc.ca/jobsearch/jobsearch?fnoncan=1" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         
-        <article class="job-card" data-cat="gulf" data-country="sa">
+        <article class="job-card" data-cat="gulf" data-country="sa" data-search="وظائف منصة جدارات الحكومية 2026 بالسعودية — الشروط ورابط التقديم على الوظائف الإدارية والتقنية المنصة الوطنية الموحدة للتوظيف (جدارات) — الوزارات والهيئات السعودية الرياض، مكة، جدة، الشرقية، جميع مناطق المملكة سلالم رواتب الخدمة المدنية (من 6,000 إلى 16,000 ريال سعودي) طرح عدد من الجهات الحكومية والوزارات بالمملكة العربية السعودية وظائف شاغرة بالمراتب من الرابعة حتى العاشرة عبر منصة جدارات الموحدة للرجال والنساء. السعودية وظائف الخليج أن يكون المتقدم حاصلاً على المؤهل العلمي المناسب (دبلوم، بكالوريوس، ماجستير). اجتياز اختبار القدرة المعرفية للوظائف الإدارية لدرجة البكالوريوس فأعلى. معادلة الشهادة الصادرة من خارج المملكة لدى وزارة التعليم. التفرغ التام وعدم شغل وظيفة حكومية حالياً. وثيقة التخرج وسجل الدرجات الأكاديمي. شهادة التصنيف المهني والتسجيل إن كانت الوظيفة تخصصية (صحية أو هندسية). شهادة اختبار القدرة المعرفية من هيئة تقويم التعليم والتدريب. تسجيل الدخول عبر النفاذ الوطني الموحد على منصة جدارات (jadarat.sa)، وتحديث الملف الشخصي ثم اختيار الإعلانات الوظيفية المتاحة والتقديم عليها.">
           <div class="job-header">
-            <span class="job-badge" style="--c:#f5c542">🇸🇦 وظائف الخليج</span>
-            <span class="job-country">🇸🇦 السعودية</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#f5c542">🇸🇦 وظائف الخليج</span>
+              <span class="job-country">🇸🇦 السعودية</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
           </div>
           <h2 class="job-title"><a href="https://altrendat.com/jobs/saudi-jadarat-gov-careers-2026/">وظائف منصة جدارات الحكومية 2026 بالسعودية — الشروط ورابط التقديم على الوظائف الإدارية والتقنية</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 المنصة الوطنية الموحدة للتوظيف (جدارات) — الوزارات والهيئات السعودية</span>
-            <span class="job-meta-item">📍 الرياض، مكة، جدة، الشرقية، جميع مناطق المملكة</span>
-            <span class="job-meta-item">💰 سلالم رواتب الخدمة المدنية (من 6,000 إلى 16,000 ريال سعودي)</span>
-            <span class="job-meta-item">⏰ آخر موعد: مستمر حسب الإعلانات الوظيفية لكل جهة</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> المنصة الوطنية الموحدة للتوظيف (جد</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> الرياض، مكة، جدة، الشرقية، جميع مناطق المملكة</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> سلالم رواتب الخدمة المدنية (من 6,000 إلى 16,000 ريال سعودي)</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> مستمر حسب الإعلانات الوظيفية لكل جهة</span></div>
           </div>
           <p class="job-summary">طرح عدد من الجهات الحكومية والوزارات بالمملكة العربية السعودية وظائف شاغرة بالمراتب من الرابعة حتى العاشرة عبر منصة جدارات الموحدة للرجال والنساء.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ أن يكون المتقدم حاصلاً على المؤهل العلمي المن...</span><span class='req-tag'>✓ اجتياز اختبار القدرة المعرفية للوظائف الإداري...</span></div>
           <div class="job-footer">
-            <a class="btn-job-details" href="https://altrendat.com/jobs/saudi-jadarat-gov-careers-2026/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="https://altrendat.com/jobs/saudi-jadarat-gov-careers-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://jadarat.sa/" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         
-        <article class="job-card" data-cat="gov" data-country="eg">
+        <article class="job-card" data-cat="gov" data-country="eg" data-search="مسابقة وزارة التربية والتعليم 2026 لتعيين 30 ألف معلم مساعد — التخصصات والأوراق المطلوبة وزارة التربية والتعليم والتعليم الفني بالتعاون مع التنظيم والإدارة المديريات التعليمية بالمحافظات رواتب المعلمين المساعدين وفقاً للدرجة الوظيفية وحوافز التطوير إعلان تفاصيل المرحلة الجديدة من مسابقة تعيين المعلمين المساعدين بوزارة التربية والتعليم لتخصصات رياض الأطفال، معلم فصل للمرحلة الابتدائية، والمواد الأساسية. مصر وظائف حكومية خريج كليات التربية أو كليات الآداب والعلوم ودار العلوم الحاصلين على دبلوم تربوي عام. ألا يقل التقدير العام عن جيد. ألا يزيد سن المتقدم عن 40 سنة في تاريخ نشر الإعلان. التقديم في النطاق الجغرافي المسجل ببطاقة الرقم القومي للمحافظة. أصل شهادة التخرج والمؤهل الدراسي. الدبلوم التربوي لغير خريجي كليات التربية. شهادة الموقف من التجنيد أو الخدمة العامة. صورة بطاقة الرقم القومي سارية وصحيفة الحالة الجنائية. التقديم عبر بوابة الوظائف الحكومية المصرية خلال فترة فتح باب التسجيل المعلنة رسمياً.">
           <div class="job-header">
-            <span class="job-badge" style="--c:#3ddc97">🏛️ وظائف حكومية</span>
-            <span class="job-country">🇪🇬 مصر</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#3ddc97">🏛️ وظائف حكومية</span>
+              <span class="job-country">🇪🇬 مصر</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
           </div>
           <h2 class="job-title"><a href="https://altrendat.com/jobs/egypt-education-teachers-competition-2026/">مسابقة وزارة التربية والتعليم 2026 لتعيين 30 ألف معلم مساعد — التخصصات والأوراق المطلوبة</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 وزارة التربية والتعليم والتعليم الفني بالتعاون مع التنظيم والإدارة</span>
-            <span class="job-meta-item">📍 المديريات التعليمية بالمحافظات</span>
-            <span class="job-meta-item">💰 رواتب المعلمين المساعدين وفقاً للدرجة الوظيفية وحوافز التطوير</span>
-            <span class="job-meta-item">⏰ آخر موعد: 2026-10-25</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> وزارة التربية والتعليم والتعليم ال</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> المديريات التعليمية بالمحافظات</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> رواتب المعلمين المساعدين وفقاً للدرجة الوظيفية وحوافز التطوير</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> 2026-10-25</span></div>
           </div>
           <p class="job-summary">إعلان تفاصيل المرحلة الجديدة من مسابقة تعيين المعلمين المساعدين بوزارة التربية والتعليم لتخصصات رياض الأطفال، معلم فصل للمرحلة الابتدائية، والمواد الأساسية.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ خريج كليات التربية أو كليات الآداب والعلوم ود...</span><span class='req-tag'>✓ ألا يقل التقدير العام عن جيد.</span></div>
           <div class="job-footer">
-            <a class="btn-job-details" href="https://altrendat.com/jobs/egypt-education-teachers-competition-2026/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="https://altrendat.com/jobs/egypt-education-teachers-competition-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://jobs.caoa.gov.eg/" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         
-        <article class="job-card" data-cat="abroad" data-country="it">
+        <article class="job-card" data-cat="abroad" data-country="it" data-search="عقود عمل في إيطاليا 2026 (decreto flussi) — شروط السفر والعمل الموسمي بالقطاعين الزراعي والسياحي مزارع وفنادق ومؤسسات إيطالية معتمدة إيطاليا (ميلانو، روما، صقلية، فلورنسا) 1,400 إلى 2,200 يورو شهرياً + إمكانية توفير السكن تفاصيل قانون العمل الموسمي وغير الموسمي الإيطالي (ديكريتو فلوسي) الذي يمنح آلاف العقود للمواطنين من خارج الاتحاد الأوروبي للعمل في قطاعات الزراعة، الفنادق، والنقل. إيطاليا عقود عمل بالخارج وجود صاحب عمل في إيطاليا يقدم طلب تصريح العمل (nulla osta) باسم العامل. جواز سفر ساري المفعول لمدة لا تقل عن سنتين. ألا يكون لدى المتقدم سوابق ترحيل من دول الاتحاد الأوروبي. الالتزام بمدة العقد الموسمي والعودة أو تحويله إلى إقامة عمل دائمة قانونياً. جواز السفر وشهادة الميلاد المترجمة والمصدقة. عقد العمل المعتمد من مكتب العمل الإيطالي (sportello unico). نموذج طلب التأشيرة معبأ بالكامل. يقوم صاحب العمل في إيطاليا بالتقديم عبر بوابة وزارة الداخلية الإيطالية، ثم يستلم العامل تصريح nulla osta لاستخراج فيزا العمل من السفارة الإيطالية.">
           <div class="job-header">
-            <span class="job-badge" style="--c:#5aa9ff">✈️ عقود عمل بالخارج</span>
-            <span class="job-country">🇮🇹 إيطاليا</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#5aa9ff">✈️ عقود عمل بالخارج</span>
+              <span class="job-country">🇮🇹 إيطاليا</span>
+            </div>
+            <span class="job-type-pill">عقد موسمي ✈️</span>
           </div>
           <h2 class="job-title"><a href="https://altrendat.com/jobs/italy-seasonal-worker-decreto-flussi-2026/">عقود عمل في إيطاليا 2026 (Decreto Flussi) — شروط السفر والعمل الموسمي بالقطاعين الزراعي والسياحي</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 مزارع وفنادق ومؤسسات إيطالية معتمدة</span>
-            <span class="job-meta-item">📍 إيطاليا (ميلانو، روما، صقلية، فلورنسا)</span>
-            <span class="job-meta-item">💰 1,400 إلى 2,200 يورو شهرياً + إمكانية توفير السكن</span>
-            <span class="job-meta-item">⏰ آخر موعد: حسب الحصص الرسمية لمرسوم التدفقات</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> مزارع وفنادق ومؤسسات إيطالية معتمد</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> إيطاليا (ميلانو، روما، صقلية، فلورنسا)</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> 1,400 إلى 2,200 يورو شهرياً + إمكانية توفير السكن</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> حسب الحصص الرسمية لمرسوم التدفقات</span></div>
           </div>
           <p class="job-summary">تفاصيل قانون العمل الموسمي وغير الموسمي الإيطالي (ديكريتو فلوسي) الذي يمنح آلاف العقود للمواطنين من خارج الاتحاد الأوروبي للعمل في قطاعات الزراعة، الفنادق، والنقل.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ وجود صاحب عمل في إيطاليا يقدم طلب تصريح العمل...</span><span class='req-tag'>✓ جواز سفر ساري المفعول لمدة لا تقل عن سنتين.</span></div>
           <div class="job-footer">
-            <a class="btn-job-details" href="https://altrendat.com/jobs/italy-seasonal-worker-decreto-flussi-2026/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="https://altrendat.com/jobs/italy-seasonal-worker-decreto-flussi-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://portaleservizi.dlci.interno.it/" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         
-        <article class="job-card" data-cat="gulf" data-country="sa">
+        <article class="job-card" data-cat="gulf" data-country="sa" data-search="وظائف شركة أرامكو السعودية ونيوم 2026 — شواغر كبرى للتخصصات الهندسية والإدارية والفنية شركة الزيت العربية السعودية (أرامكو) ومشاريع نيوم الظهران، الرياض، تبوك، نيوم، رأس تنورة رواتب مجزية جداً + بدل سكن، تأمين طبي شامل، وبدل مواصلات فتح باب التوظيف المباشر في أرامكو السعودية ومشروع نيوم العالمي للمهندسين، مسؤولي السلامة، المحاسبين، ومطوري البرمجيات، وخبراء سلاسل الإمداد. السعودية وظائف الخليج مؤهل جامعي مناسب في الهندسة، علوم الحاسب، الإدارة المالية، أو السلامة المهنية. إتقان اللغة الإنجليزية تحدثاً وكتابة. خبرة مهنية تبدأ من عامين للمحترفين أو برامج مخصصة لحديثي التخرج المتميزين. مهارات حل المشكلات والعمل ضمن فرق عمل متعددة الثقافات. السيرة الذاتية المفصلة باللغة الإنجليزية. نسخ مصدقة من المؤهلات الأكاديمية والشهادات المهنية المعتمدة (pmp, nebosh, etc.). صورة من بطاقة الهوية أو الإقامة/جواز السفر. التقديم حصرياً ومباشرة عبر بوابة أرامكو الرسمية للتوظيف وإنشاء ملف شخصي واختيار رقم الوظيفة الشاغرة.">
           <div class="job-header">
-            <span class="job-badge" style="--c:#f5c542">🇸🇦 وظائف الخليج</span>
-            <span class="job-country">🇸🇦 السعودية</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#f5c542">🇸🇦 وظائف الخليج</span>
+              <span class="job-country">🇸🇦 السعودية</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
           </div>
           <h2 class="job-title"><a href="https://altrendat.com/jobs/aramco-saudi-careers-2026/">وظائف شركة أرامكو السعودية ونيوم 2026 — شواغر كبرى للتخصصات الهندسية والإدارية والفنية</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 شركة الزيت العربية السعودية (أرامكو) ومشاريع نيوم</span>
-            <span class="job-meta-item">📍 الظهران، الرياض، تبوك، نيوم، رأس تنورة</span>
-            <span class="job-meta-item">💰 رواتب مجزية جداً + بدل سكن، تأمين طبي شامل، وبدل مواصلات</span>
-            <span class="job-meta-item">⏰ آخر موعد: مستمر عبر البوابة الإلكترونية</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> شركة الزيت العربية السعودية (أرامك</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> الظهران، الرياض، تبوك، نيوم، رأس تنورة</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> رواتب مجزية جداً + بدل سكن، تأمين طبي شامل، وبدل مواصلات</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> مستمر عبر البوابة الإلكترونية</span></div>
           </div>
           <p class="job-summary">فتح باب التوظيف المباشر في أرامكو السعودية ومشروع نيوم العالمي للمهندسين، مسؤولي السلامة، المحاسبين، ومطوري البرمجيات، وخبراء سلاسل الإمداد.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ مؤهل جامعي مناسب في الهندسة، علوم الحاسب، الإ...</span><span class='req-tag'>✓ إتقان اللغة الإنجليزية تحدثاً وكتابة.</span></div>
           <div class="job-footer">
-            <a class="btn-job-details" href="https://altrendat.com/jobs/aramco-saudi-careers-2026/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="https://altrendat.com/jobs/aramco-saudi-careers-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://www.aramco.com/ar/careers" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         
-        <article class="job-card" data-cat="gulf" data-country="ae">
+        <article class="job-card" data-cat="gulf" data-country="ae" data-search="وظائف طيران الإمارات في دبي 2026 — خدمة العملاء والضيافة الجوية والعمليات الأرضية مجموعة الإمارات (emirates group) دبي، الإمارات العربية المتحدة 9,000 إلى 18,000 درهم إماراتي معفاة من الضرائب + تذاكر طيران وسكن حملة توظيف واسعة تطلقها مجموعة الإمارات في دبي للكوادر العربية من مختلف الدول في مجالات الضيافة الجوية، خدمة العملاء بالمطارات، المبيعات، والدعم اللوجستي. الإمارات وظائف الخليج إتقان اللغة الإنجليزية تحدثاً وكتابة بطلاقة تامة (تعتبر اللغات الإضافية ميزة). شهادة الثانوية العامة كحد أدنى، ويفضل المؤهلات الجامعية. مهارات تواصل استثنائية والقدرة على التعامل مع جنسيات متعددة. اللياقة البدنية والمظهر اللائق. سيرة ذاتية حديثة باللغة الإنجليزية. صورة شخصية رسمية وصورة كاملة وفق معايير شركات الطيران. جواز سفر ساري المفعول. التقديم عبر بوابة emirates group careers الرسمية، حيث يتم فرز الطلبات ودعوة المرشحين لأيام التوظيف المفتوحة (open days) والمقابلات.">
           <div class="job-header">
-            <span class="job-badge" style="--c:#f5c542">🇸🇦 وظائف الخليج</span>
-            <span class="job-country">🇦🇪 الإمارات</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#f5c542">🇸🇦 وظائف الخليج</span>
+              <span class="job-country">🇦🇪 الإمارات</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
           </div>
           <h2 class="job-title"><a href="https://altrendat.com/jobs/emirates-airline-group-careers-dubai/">وظائف طيران الإمارات في دبي 2026 — خدمة العملاء والضيافة الجوية والعمليات الأرضية</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 مجموعة الإمارات (Emirates Group)</span>
-            <span class="job-meta-item">📍 دبي، الإمارات العربية المتحدة</span>
-            <span class="job-meta-item">💰 9,000 إلى 18,000 درهم إماراتي معفاة من الضرائب + تذاكر طيران وسكن</span>
-            <span class="job-meta-item">⏰ آخر موعد: مفتوح على مدار العام</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> مجموعة الإمارات (Emirates Group)</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> دبي، الإمارات العربية المتحدة</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> 9,000 إلى 18,000 درهم إماراتي معفاة من الضرائب + تذاكر طيران وسكن</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> مفتوح على مدار العام</span></div>
           </div>
           <p class="job-summary">حملة توظيف واسعة تطلقها مجموعة الإمارات في دبي للكوادر العربية من مختلف الدول في مجالات الضيافة الجوية، خدمة العملاء بالمطارات، المبيعات، والدعم اللوجستي.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ إتقان اللغة الإنجليزية تحدثاً وكتابة بطلاقة ت...</span><span class='req-tag'>✓ شهادة الثانوية العامة كحد أدنى، ويفضل المؤهلا...</span></div>
           <div class="job-footer">
-            <a class="btn-job-details" href="https://altrendat.com/jobs/emirates-airline-group-careers-dubai/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="https://altrendat.com/jobs/emirates-airline-group-careers-dubai/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://www.emiratesgroupcareers.com/" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         
-        <article class="job-card" data-cat="remote" data-country="remote">
+        <article class="job-card" data-cat="remote" data-country="remote" data-search="وظائف خدمة عملاء عن بعد (remote) بالدولار 2026 — العمل من المنزل لشركات عالمية شركات تقنية وتجارة إلكترونية عالمية (عبر منصات التوظيف المباشر) العمل من المنزل (remote من أي دولة عربية) من 800 إلى 1,400 دولار أمريكي شهرياً فرص عمل بدوام كامل وجزئي لمتحدثي اللغتين العربية والإنجليزية لتقديم الدعم الفني وخدمة العملاء عبر الشات والإيميل والهاتف لشركات أجنبية برواتب بالدولار. عالمي (عن بعد) وظائف عن بعد إجادة اللغة الإنجليزية بمستوى جيد جداً أو ممتاز كتابة ومحادثة. توفر جهاز كمبيوتر سريع وإنترنت فائق السرعة ومستقر وسماعة عازلة للضوضاء. الصبر ومهارات حل مشاكل العملاء بلباقة واحترافية. القدرة على العمل في نوبات مرنة ومسائية إن تطلب الأمر. سيرة ذاتية باللغة الإنجليزية تبرز مهارات التواصل وسرعة الكتابة. حساب بنكي بالدولار أو وسيلة دفع دولية معتمدة (مثل payoneer / wise) لاستلام المستحقات. التقديم عبر المنصات العالمية الموثوقة للعمل عن بعد مثل remotive و we work remotely ومواقع الشركات المباشرة.">
           <div class="job-header">
-            <span class="job-badge" style="--c:#c77dff">🌐 وظائف عن بعد</span>
-            <span class="job-country">🌐 عالمي (عن بعد)</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#c77dff">🌐 وظائف عن بعد</span>
+              <span class="job-country">🌐 عالمي (عن بعد)</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
           </div>
           <h2 class="job-title"><a href="https://altrendat.com/jobs/remote-customer-support-specialist-2026/">وظائف خدمة عملاء عن بعد (Remote) بالدولار 2026 — العمل من المنزل لشركات عالمية</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 شركات تقنية وتجارة إلكترونية عالمية (عبر منصات التوظيف المباشر)</span>
-            <span class="job-meta-item">📍 العمل من المنزل (Remote من أي دولة عربية)</span>
-            <span class="job-meta-item">💰 من 800 إلى 1,400 دولار أمريكي شهرياً</span>
-            <span class="job-meta-item">⏰ آخر موعد: مستمر</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> شركات تقنية وتجارة إلكترونية عالمي</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> العمل من المنزل (Remote من أي دولة عربية)</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> من 800 إلى 1,400 دولار أمريكي شهرياً</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> مستمر</span></div>
           </div>
           <p class="job-summary">فرص عمل بدوام كامل وجزئي لمتحدثي اللغتين العربية والإنجليزية لتقديم الدعم الفني وخدمة العملاء عبر الشات والإيميل والهاتف لشركات أجنبية برواتب بالدولار.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ إجادة اللغة الإنجليزية بمستوى جيد جداً أو ممت...</span><span class='req-tag'>✓ توفر جهاز كمبيوتر سريع وإنترنت فائق السرعة وم...</span></div>
           <div class="job-footer">
-            <a class="btn-job-details" href="https://altrendat.com/jobs/remote-customer-support-specialist-2026/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="https://altrendat.com/jobs/remote-customer-support-specialist-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://remotive.com/remote-jobs/customer-support" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         
-        <article class="job-card" data-cat="remote" data-country="remote">
+        <article class="job-card" data-cat="remote" data-country="remote" data-search="وظائف إدخال بيانات ومراجعة محتوى من المنزل 2026 — برواتب بالدولار والعمل الحر منصات البيانات والتدريب الذكاء الاصطناعي (appen, telus, oneforma) من المنزل (flexible hours) من 6 إلى 12 دولار في الساعة حسب المشروع والمهام فرص موثوقة للعمل من البيت في مجالات إدخال البيانات، تقييم نتائج محركات البحث، وتدريب نماذج الذكاء الاصطناعي باللغة العربية مع شركات تقنية كبرى. عالمي (عن بعد) وظائف عن بعد معرفة جيدة بالقراءة والكتابة باللغتين العربية والإنجليزية. دقة الملاحظة والالتزام بإرشادات التقييم والمهام الموكلة. جهاز كمبيوتر وهاتف ذكي متصلين بالإنترنت. القدرة على الالتزام بـ 15 إلى 20 ساعة عمل أسبوعياً. بريد إلكتروني رسمي ومستند إثبات هوية لتأكيد الحساب. اجتياز اختبارات تقييم قصيرة مجانية على المنصة قبل بدء استلام المهام. التسجيل في مجتمعات تقييم البيانات المعتمدة دولياً مثل telus ai community أو oneforma واختيار المشاريع الداعمة للغة العربية.">
           <div class="job-header">
-            <span class="job-badge" style="--c:#c77dff">🌐 وظائف عن بعد</span>
-            <span class="job-country">🌐 عالمي (عن بعد)</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#c77dff">🌐 وظائف عن بعد</span>
+              <span class="job-country">🌐 عالمي (عن بعد)</span>
+            </div>
+            <span class="job-type-pill">دوام جزئي ⏱️</span>
           </div>
           <h2 class="job-title"><a href="https://altrendat.com/jobs/remote-data-entry-content-moderator-2026/">وظائف إدخال بيانات ومراجعة محتوى من المنزل 2026 — برواتب بالدولار والعمل الحر</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 منصات البيانات والتدريب الذكاء الاصطناعي (Appen, Telus, OneForma)</span>
-            <span class="job-meta-item">📍 من المنزل (Flexible Hours)</span>
-            <span class="job-meta-item">💰 من 6 إلى 12 دولار في الساعة حسب المشروع والمهام</span>
-            <span class="job-meta-item">⏰ آخر موعد: مفتوح على مدار العام</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> منصات البيانات والتدريب الذكاء الا</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> من المنزل (Flexible Hours)</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> من 6 إلى 12 دولار في الساعة حسب المشروع والمهام</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> مفتوح على مدار العام</span></div>
           </div>
           <p class="job-summary">فرص موثوقة للعمل من البيت في مجالات إدخال البيانات، تقييم نتائج محركات البحث، وتدريب نماذج الذكاء الاصطناعي باللغة العربية مع شركات تقنية كبرى.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ معرفة جيدة بالقراءة والكتابة باللغتين العربية...</span><span class='req-tag'>✓ دقة الملاحظة والالتزام بإرشادات التقييم والمه...</span></div>
           <div class="job-footer">
-            <a class="btn-job-details" href="https://altrendat.com/jobs/remote-data-entry-content-moderator-2026/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="https://altrendat.com/jobs/remote-data-entry-content-moderator-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://www.telusinternational.com/careers/ai-community" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         
-        <article class="job-card" data-cat="gov" data-country="eg">
+        <article class="job-card" data-cat="gov" data-country="eg" data-search="مسابقة وظائف الهيئة القومية للبريد المصري 2026 — شروط ورابط تقديم مهندسين ومحامين وأخصائيي بريد الهيئة القومية للبريد المصري — الجهاز المركزي للتنظيم والإدارة جميع محافظات ومكاتب بريد الجمهورية رواتب ومكافآت وحوافز أداء بريدية مجزية طبقاً للائحة الهيئة إعلان الجهاز المركزي للتنظيم والإدارة عن مسابقة كبرى لشغل وظائف شاغرة بالهيئة القومية للبريد تشمل تخصصات مهندس ميكانيكا/كهرباء، مهندس تخطيط نقل، أخصائي بريد، وأخصائي خدمة عملاء ومحامين بجميع المحافظات. مصر وظائف حكومية الحصول على المؤهل العالي المناسب للتخصص المطلوب (هندسة، تجارة، حقوق/شريعة وقانون). ألا يقل التقدير العام التراكمي عن جيد للمؤهلات العليا. ألا يزيد عمر المتقدم عن 30 عاماً في تاريخ نشر الإعلان. اجتياز الامتحانات الإلكترونية المقررة بنظام تقييم القدرات التابع للجهاز. أصل بطاقة الرقم القومي سارية المفعول. شهادة المؤهل الدراسي وشهادة القيد بنقابة المهندسين أو المحامين إن تطلب التخصص. صحيفة الحالة الجنائية سارية وموجهة للجهاز المركزي للتنظيم والإدارة أو هيئة البريد. الموقف من التجنيد للذكور أو الخدمة العامة للإناث. إيصال سداد الرسوم المقررة بحساب الجهاز المركزي للتنظيم والإدارة. التقديم حصرياً عبر بوابة الوظائف الحكومية الإلكترونية (jobs.caoa.gov.eg) برفع المستندات المطلوبة ملونة بصيغة pdf.">
           <div class="job-header">
-            <span class="job-badge" style="--c:#3ddc97">🏛️ وظائف حكومية</span>
-            <span class="job-country">🇪🇬 مصر</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#3ddc97">🏛️ وظائف حكومية</span>
+              <span class="job-country">🇪🇬 مصر</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
           </div>
           <h2 class="job-title"><a href="https://altrendat.com/jobs/egypt-post-office-competition-2026/">مسابقة وظائف الهيئة القومية للبريد المصري 2026 — شروط ورابط تقديم مهندسين ومحامين وأخصائيي بريد</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 الهيئة القومية للبريد المصري — الجهاز المركزي للتنظيم والإدارة</span>
-            <span class="job-meta-item">📍 جميع محافظات ومكاتب بريد الجمهورية</span>
-            <span class="job-meta-item">💰 رواتب ومكافآت وحوافز أداء بريدية مجزية طبقاً للائحة الهيئة</span>
-            <span class="job-meta-item">⏰ آخر موعد: 2026-11-15</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> الهيئة القومية للبريد المصري — الج</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> جميع محافظات ومكاتب بريد الجمهورية</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> رواتب ومكافآت وحوافز أداء بريدية مجزية طبقاً للائحة الهيئة</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> 2026-11-15</span></div>
           </div>
           <p class="job-summary">إعلان الجهاز المركزي للتنظيم والإدارة عن مسابقة كبرى لشغل وظائف شاغرة بالهيئة القومية للبريد تشمل تخصصات مهندس ميكانيكا/كهرباء، مهندس تخطيط نقل، أخصائي بريد، وأخصائي خدمة عملاء ومحامين بجميع المحافظات.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ الحصول على المؤهل العالي المناسب للتخصص المطل...</span><span class='req-tag'>✓ ألا يقل التقدير العام التراكمي عن جيد للمؤهلا...</span></div>
           <div class="job-footer">
-            <a class="btn-job-details" href="https://altrendat.com/jobs/egypt-post-office-competition-2026/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="https://altrendat.com/jobs/egypt-post-office-competition-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://jobs.caoa.gov.eg/" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         
-        <article class="job-card" data-cat="gulf" data-country="qa">
+        <article class="job-card" data-cat="gulf" data-country="qa" data-search="وظائف منصة كوادر الحكومية في قطر 2026 — شواغر كبرى في الوزارات والهيئات الحكومية ديوان الخدمة المدنية والتطوير الحكومي — قطر (منصة كوادر الوطنية) الدوحة، قطر سلالم رواتب الخدمة المدنية القطرية + بدلات سكن وتأمين صحي طرح مئات الوظائف التخصصية والإدارية والتعليمية بالوزارات والهيئات الحكومية القطرية عبر المنصة الوطنية للتوظيف (كوادر) لحاملي الشهادات الجامعية والدبلومات. قطر وظائف الخليج مؤهل تعليمي معتمد (بكالوريوس أو دبلوم) في التخصص المعلن. إجادة استخدام الحاسب الآلي والأنظمة الحكومية الرقمية. اجتياز المقابلة الشخصية واختبارات الجدارة الوظيفية المقررة من ديوان الخدمة المدنية. السيرة الذاتية المحدثة. الشهادات الأكاديمية وكشف الدرجات ومعادلة الشهادة للمتخرجين من خارج الدولة. صورة من البطاقة الشخصية وجواز السفر. يتم التقديم بالدخول إلى منصة كوادر الوطنية للتوظيف (kawader.gov.qa) واختيار الوظيفة المناسبة واستكمال مسار الترشيح.">
           <div class="job-header">
-            <span class="job-badge" style="--c:#f5c542">🇸🇦 وظائف الخليج</span>
-            <span class="job-country">🇶🇦 قطر</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#f5c542">🇸🇦 وظائف الخليج</span>
+              <span class="job-country">🇶🇦 قطر</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
           </div>
           <h2 class="job-title"><a href="https://altrendat.com/jobs/qatar-kawader-government-jobs-2026/">وظائف منصة كوادر الحكومية في قطر 2026 — شواغر كبرى في الوزارات والهيئات الحكومية</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 ديوان الخدمة المدنية والتطوير الحكومي — قطر (منصة كوادر الوطنية)</span>
-            <span class="job-meta-item">📍 الدوحة، قطر</span>
-            <span class="job-meta-item">💰 سلالم رواتب الخدمة المدنية القطرية + بدلات سكن وتأمين صحي</span>
-            <span class="job-meta-item">⏰ آخر موعد: مستمر حسب شواغر كل وزارة</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> ديوان الخدمة المدنية والتطوير الحك</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> الدوحة، قطر</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> سلالم رواتب الخدمة المدنية القطرية + بدلات سكن وتأمين صحي</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> مستمر حسب شواغر كل وزارة</span></div>
           </div>
           <p class="job-summary">طرح مئات الوظائف التخصصية والإدارية والتعليمية بالوزارات والهيئات الحكومية القطرية عبر المنصة الوطنية للتوظيف (كوادر) لحاملي الشهادات الجامعية والدبلومات.</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ مؤهل تعليمي معتمد (بكالوريوس أو دبلوم) في الت...</span><span class='req-tag'>✓ إجادة استخدام الحاسب الآلي والأنظمة الحكومية ...</span></div>
           <div class="job-footer">
-            <a class="btn-job-details" href="https://altrendat.com/jobs/qatar-kawader-government-jobs-2026/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="https://altrendat.com/jobs/qatar-kawader-government-jobs-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://kawader.gov.qa/" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         
-        <article class="job-card" data-cat="abroad" data-country="gb">
+        <article class="job-card" data-cat="abroad" data-country="gb" data-search="عقود عمل في بريطانيا 2026 مع توفير تأشيرة الرعاية الصحية والتمريض (health and care visa) هيئة الخدمات الصحية الوطنية البريطانية (nhs) ودور الرعاية المعتمدة لندن، مانشستر، برمنغهام، إنجلترا، المملكة المتحدة من 23,200 إلى 34,500 جنيه إسترليني سنوياً + تغطية رسوم التأشيرة الصحية تفاصيل عقود العمل وتأشيرة الرعاية الصحية البريطانية التي توفر مساراً سريعاً للهجرة والإقامة القانونية للممرضين، الأطباء، ومقدمي الرعاية الصحية المؤهلين مع إعفاء كامل من الرسوم الصحية الإضافية (ihs). بريطانيا عقود عمل بالخارج الحصول على عرض عمل معتمد وشهادة كفالة (certificate of sponsorship - cos) من جهة مرخصة في بريطانيا. إتقان اللغة الإنجليزية واجتياز اختبار ielts academic أو oet بمستوى معتمد. شهادة تخرج في التمريض أو الطب أو مؤهل مهني معترف به في الرعاية. شهادة فحص السجل الجنائي وفحص مرض الدرن (tb test). جواز سفر ساري المفعول ورقم مرجعي لشهادة الكفالة (cos). شهادة الكفاءة في اللغة الإنجليزية معتمدة من ukvi. السيرة الذاتية المهنية وشهادات التخرج والترخيص المهني. البحث عن الشواغر المعتمدة عبر موقع توظيف nhs jobs الرسمي أو بوابات كفلاء التأشيرات المعتمدين لدى الحكومة البريطانية ثم التقديم على التأشيرة عبر gov.uk.">
           <div class="job-header">
-            <span class="job-badge" style="--c:#5aa9ff">✈️ عقود عمل بالخارج</span>
-            <span class="job-country">🇬🇧 بريطانيا</span>
+            <div class="job-header-left">
+              <span class="job-badge" style="--c:#5aa9ff">✈️ عقود عمل بالخارج</span>
+              <span class="job-country">🇬🇧 بريطانيا</span>
+            </div>
+            <span class="job-type-pill">دوام كامل 🟢</span>
           </div>
           <h2 class="job-title"><a href="https://altrendat.com/jobs/uk-health-and-care-worker-visa-2026/">عقود عمل في بريطانيا 2026 مع توفير تأشيرة الرعاية الصحية والتمريض (Health and Care Visa)</a></h2>
-          <div class="job-meta">
-            <span class="job-meta-item">🏢 هيئة الخدمات الصحية الوطنية البريطانية (NHS) ودور الرعاية المعتمدة</span>
-            <span class="job-meta-item">📍 لندن، مانشستر، برمنغهام، إنجلترا، المملكة المتحدة</span>
-            <span class="job-meta-item">💰 من 23,200 إلى 34,500 جنيه إسترليني سنوياً + تغطية رسوم التأشيرة الصحية</span>
-            <span class="job-meta-item">⏰ آخر موعد: مفتوح على مدار العام</span>
+          <div class="job-fast-facts">
+            <div class="fact-item">🏢 <span><strong>الجهة:</strong> هيئة الخدمات الصحية الوطنية البريط</span></div>
+            <div class="fact-item">📍 <span><strong>المكان:</strong> لندن، مانشستر، برمنغهام، إنجلترا، المملكة المتحدة</span></div>
+            <div class="fact-item">💰 <span><strong>الراتب:</strong> من 23,200 إلى 34,500 جنيه إسترليني سنوياً + تغطية رسوم التأشيرة الصحية</span></div>
+            <div class="fact-item">⏰ <span><strong>آخر موعد:</strong> مفتوح على مدار العام</span></div>
           </div>
           <p class="job-summary">تفاصيل عقود العمل وتأشيرة الرعاية الصحية البريطانية التي توفر مساراً سريعاً للهجرة والإقامة القانونية للممرضين، الأطباء، ومقدمي الرعاية الصحية المؤهلين مع إعفاء كامل من الرسوم الصحية الإضافية (IHS).</p>
+          <div class="job-reqs-preview"><span class='req-tag'>✓ الحصول على عرض عمل معتمد وشهادة كفالة (Certif...</span><span class='req-tag'>✓ إتقان اللغة الإنجليزية واجتياز اختبار IELTS A...</span></div>
           <div class="job-footer">
-            <a class="btn-job-details" href="https://altrendat.com/jobs/uk-health-and-care-worker-visa-2026/">عرض الشروط والتفاصيل الكاملة ⬅️</a>
+            <a class="btn-job-details" href="https://altrendat.com/jobs/uk-health-and-care-worker-visa-2026/">عرض الشروط والتقديم ⬅️</a>
+            <a class="btn-job-apply-direct" href="https://www.gov.uk/health-care-worker-visa" target="_blank" rel="noopener nofollow">الرابط الرسمي المباشر 🔗</a>
           </div>
         </article>
         
@@ -305,19 +455,125 @@
 
     <script>
     let activeCat = 'all';
-    function filterJobs(type, val) {
-      if (type === 'cat') {
-        activeCat = val;
-        document.querySelectorAll('.job-filters-group .filter-btn').forEach(b => {
-          b.classList.remove('active');
-          if (b.getAttribute('onclick').includes("'" + val + "'")) b.classList.add('active');
-        });
+    let activeCountry = 'all';
+    let searchQuery = '';
+
+    function setCategory(cat) {
+      activeCat = (activeCat === cat && cat !== 'all') ? 'all' : cat;
+      updateFilterButtons();
+      applyFilters();
+    }
+
+    function setCountry(country) {
+      activeCountry = (activeCountry === country && country !== 'all') ? 'all' : country;
+      updateFilterButtons();
+      applyFilters();
+    }
+
+    function quickSearch(keyword) {
+      const input = document.getElementById('jobSearchInput');
+      if (input) {
+        input.value = keyword;
+        handleSearch();
       }
-      document.querySelectorAll('.job-card').forEach(card => {
-        const matchCat = (activeCat === 'all' || card.getAttribute('data-cat') === activeCat);
-        card.style.display = matchCat ? 'block' : 'none';
+    }
+
+    function clearSearch() {
+      const input = document.getElementById('jobSearchInput');
+      if (input) {
+        input.value = '';
+        handleSearch();
+        input.focus();
+      }
+    }
+
+    function handleSearch() {
+      const input = document.getElementById('jobSearchInput');
+      searchQuery = (input ? input.value : '').trim().toLowerCase();
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) {
+        clearBtn.style.display = searchQuery ? 'inline-flex' : 'none';
+      }
+      applyFilters();
+    }
+
+    function resetAllFilters() {
+      activeCat = 'all';
+      activeCountry = 'all';
+      searchQuery = '';
+      const input = document.getElementById('jobSearchInput');
+      if (input) input.value = '';
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) clearBtn.style.display = 'none';
+      updateFilterButtons();
+      applyFilters();
+    }
+
+    function updateFilterButtons() {
+      document.querySelectorAll('#catPills .pill-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-cat') === activeCat);
+      });
+      document.querySelectorAll('.jobs-matrix .matrix-card').forEach(card => {
+        card.classList.toggle('active', card.getAttribute('data-cat') === activeCat);
+      });
+      document.querySelectorAll('#countryPills .pill-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-country') === activeCountry);
       });
     }
+
+    function applyFilters() {
+      const cards = document.querySelectorAll('.job-card');
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const cardCat = card.getAttribute('data-cat');
+        const cardCountry = card.getAttribute('data-country');
+        const cardText = card.getAttribute('data-search') || '';
+
+        const matchCat = (activeCat === 'all' || cardCat === activeCat);
+        const matchCountry = (activeCountry === 'all' || cardCountry === activeCountry);
+        const matchSearch = (!searchQuery || cardText.includes(searchQuery));
+
+        if (matchCat && matchCountry && matchSearch) {
+          card.style.display = 'block';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      const countEl = document.getElementById('resultsCount');
+      if (countEl) {
+        if (searchQuery || activeCat !== 'all' || activeCountry !== 'all') {
+          countEl.innerHTML = `تم العثور على <strong>${visibleCount}</strong> وظيفة مطابقة`;
+        } else {
+          countEl.innerHTML = `عرض جميع الوظائف (<strong>${visibleCount}</strong> فرصة متاحة)`;
+        }
+      }
+
+      const noResults = document.getElementById('noResultsBox');
+      if (noResults) {
+        noResults.style.display = (visibleCount === 0) ? 'block' : 'none';
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get('q');
+      const cat = params.get('cat');
+      const country = params.get('country');
+
+      if (q) {
+        const input = document.getElementById('jobSearchInput');
+        if (input) input.value = q;
+        searchQuery = q.trim().toLowerCase();
+      }
+      if (cat) activeCat = cat;
+      if (country) activeCountry = country;
+
+      updateFilterButtons();
+      applyFilters();
+    });
     </script>
     </main>
 <footer class="site">

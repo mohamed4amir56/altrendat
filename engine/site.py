@@ -372,8 +372,8 @@ CAT_EN = {
 def page(path, title, desc, body, canonical, nav="", image=None,
          ogtype="website", jsonld=None, depth=0, is_en=False):
     root = "../" * depth if depth else "./"
-    ogimage = ('<meta property="og:image" content="{}">'.format(E(image))
-               if image else "")
+    og_img = image or (BASE + "/og-default.jpg")
+    ogimage = '<meta property="og:image" content="{}">'.format(E(og_img))
     ld = ('<script type="application/ld+json">{}</script>'.format(
         json.dumps(jsonld, ensure_ascii=False)) if jsonld else "")
 
@@ -1206,6 +1206,12 @@ def main():
     cards_src = os.path.join(ROOT, "output", "cards")
     if os.path.isdir(cards_src):
         shutil.copytree(cards_src, os.path.join(OUT, "cards"))
+
+    # ملفات ثابتة (الصورة الافتراضية، اللوجو...)
+    static_src = os.path.join(ROOT, "static")
+    if os.path.isdir(static_src):
+        for fname in os.listdir(static_src):
+            shutil.copy2(os.path.join(static_src, fname), os.path.join(OUT, fname))
 
     with open(os.path.join(OUT, "style.css"), "w", encoding="utf-8") as f:
         f.write(STYLE)

@@ -756,7 +756,9 @@ def render_page_template(title, desc, canonical, body, countries_nav="", depth=1
 <meta property="og:description" content="{E(desc)}">
 <meta property="og:url" content="{E(canonical)}">
 <meta property="og:site_name" content="الترندات">
+<meta property="og:image" content="https://altrendat.com/og-default.jpg">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://altrendat.com/og-default.jpg">
 <meta name="twitter:title" content="{E(title)}">
 <meta name="twitter:description" content="{E(desc)}">
 <link rel="preconnect" href="https://fonts.googleapis.com">

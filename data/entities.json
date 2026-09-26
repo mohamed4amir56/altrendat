@@ -3060,7 +3060,7 @@
         "headlines": [
           "الحرب في تيغراي: هل يتسع نطاق الصراع الإثيوبي ليشمل دولاً عربية؟",
           "\"أعداء الأمس\" يقاتلون معًا ضد آبي أحمد.. ماذا يجري في إثيوبيا؟",
-          "السفارة الأمريكية في إثيوبيا: اشتباكات عنيفة قرب لاليبيلا وتعليق الرحلات الجوية إلى المنطقة"
+          "تعطل الانترنت في شمال إثيوبيا مع احتدام المعارك بين القوات الفدرالية ومتمردي تيغراي"
         ]
       }
     ],
@@ -10482,9 +10482,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "\"طيرهم في الجو ودهسهم\".. أسرة ضحايا حادث شبين الكوم تروي تفاصيل الواقعة (فيديو وصور)",
-          "مصرع سيدة وإصابة زوجها فى حادث تصادم سيارة بعامود إنارة فى المنوفية",
-          "بعد الفجر بلحظات.. مصرع سيدة وإصابة آخرين في حادث تصادم بالمنوفية -صور"
+          "إصابة 5 من أسرة واحدة فى انقلاب سيارة ملاكى بالصحراوي الشرقي بسوهاج",
+          "تشييع جثمانى أم وطفلتها لقيتا مصرعهما فى حادث طريق بسوهاج",
+          "أسرة كاملة على طريق الخطر.. إصابة 5 أشخاص بينهم بانقلاب سيارة بسوهاج"
         ]
       }
     ],
@@ -10756,12 +10756,12 @@
         "country_name": "مصر",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "فن ومشاهير",
-        "publishable": true,
+        "category": "عام",
+        "publishable": false,
         "headlines": [
           "9-25: Celebrating Dolly Day in Nashville",
-          "In true Dolly Parton fashion, SoCal celebrates day honoring country music star with book drives and donations",
-          "'None of y'all working 9 to 5': San Francisco shows up for Dolly Parton Day"
+          "Dolly Day takes over Nashville: Where to find pink, music, specials and fireworks",
+          "Portland declares 9/25 Dolly Parton Day, a nod to ‘9 to 5’"
         ]
       }
     ],
@@ -10771,7 +10771,7 @@
       "eg"
     ],
     "peak_traffic": 500,
-    "category": "فن ومشاهير"
+    "category": "عام"
   },
   "مسلسل-القصة-الكاملة": {
     "slug": "مسلسل-القصة-الكاملة",
@@ -10957,14 +10957,14 @@
         "date": "2026-09-26",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "+2100",
-        "traffic_num": 2100,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "How to Watch Turkiye vs. France on TV, Live Stream",
+          "What will be Zidane's BIGGEST CHALLENGE coaching France? REACTION to win vs. Turkiye",
           "How to watch Turkey vs. France online for free",
-          "Turkiye vs France: UEFA Nations League – teams, kickoff time, lineups"
+          "How to Watch Turkiye vs. France on TV, Live Stream"
         ]
       },
       {
@@ -10989,7 +10989,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 2100,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "احمد-الزند": {
@@ -11368,5 +11368,34 @@
     ],
     "peak_traffic": 1000,
     "category": "شخصية"
+  },
+  "malaysia-vs-oman": {
+    "slug": "malaysia-vs-oman",
+    "name": "malaysia vs oman",
+    "first_seen": "2026-09-26",
+    "appearances": [
+      {
+        "key": "2026-09-26|sa",
+        "date": "2026-09-26",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Malaysia vs Oman Live Streaming: When And Where To Watch MAS vs OMA Asian Games 2026 Match",
+          "MAL vs OMN Today’s Match Prediction & Cricket Betting Tips: Asian Games 2026, Match 6, September 26",
+          "Malaysia vs Oman 6th T20I Live Scores and InPlay Updates"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-26",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
   }
 }

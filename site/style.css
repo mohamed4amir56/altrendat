@@ -282,6 +282,118 @@ td:first-child{color:var(--acc);font-weight:600}
   .channel-cta{flex-direction:column;align-items:stretch;text-align:center}
   .btn-tg{justify-content:center}
 }
+
+/* --- نظام رادار وذكاء الترندات (Trend Intelligence System) --- */
+.trend-intel-box{
+  background:linear-gradient(150deg,rgba(21,27,41,.98),rgba(14,18,29,.98));
+  border:1px solid rgba(245,197,66,.28);border-radius:18px;
+  padding:20px 22px;margin:18px 0 24px;position:relative;overflow:hidden;
+}
+.trend-intel-box::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,#ff5c7c,var(--gold),var(--acc));
+}
+.trend-intel-header{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px;flex-wrap:wrap;
+}
+.trend-intel-badge{
+  display:inline-flex;align-items:center;gap:6px;font-size:.76rem;font-weight:800;
+  color:var(--gold);background:rgba(245,197,66,.12);border:1px solid rgba(245,197,66,.3);
+  padding:3px 12px;border-radius:99px;
+}
+.trend-intel-metrics{
+  display:flex;gap:8px;flex-wrap:wrap;font-size:.74rem;color:var(--mut);
+}
+.trend-intel-metric-pill{
+  background:rgba(255,255,255,.05);border:1px solid var(--line);
+  padding:2px 10px;border-radius:99px;color:#dce5f2;
+}
+.trend-why-title{
+  font-size:1.15rem;font-weight:800;color:#fff;margin-bottom:8px;display:flex;align-items:center;gap:8px;
+}
+.trend-why-desc{
+  font-size:1.02rem;line-height:1.75;color:#f0f4fa;margin:0 0 14px;font-weight:600;
+}
+.takeaways-box{
+  background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.06);
+  border-radius:14px;padding:14px 16px;margin-top:14px;
+}
+.takeaways-header{
+  font-size:.88rem;font-weight:800;color:#5aa9ff;margin-bottom:8px;display:flex;align-items:center;gap:6px;
+}
+.takeaways-list{
+  list-style:none;padding:0;margin:0;display:grid;gap:8px;
+}
+.takeaways-list li{
+  font-size:.9rem;line-height:1.6;color:#cdd7e5;position:relative;padding-inline-start:22px;
+}
+.takeaways-list li::before{
+  content:"✓";position:absolute;right:0;color:#3ddc97;font-weight:800;font-size:.9rem;
+}
+html[dir="ltr"] .takeaways-list li::before{
+  right:auto;left:0;
+}
+
+/* --- مؤشر التأثير على الأسواق وأسعار الذهب والعملات (Market & Gold Pulse) --- */
+.market-gold-pulse{
+  background:linear-gradient(135deg,rgba(245,197,66,.09),rgba(255,92,124,.07));
+  border:1px solid rgba(245,197,66,.35);border-radius:16px;
+  padding:18px 20px;margin:22px 0 24px;
+}
+.pulse-header{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px;flex-wrap:wrap;
+}
+.pulse-title{
+  font-size:1.02rem;font-weight:800;color:var(--gold);display:flex;align-items:center;gap:8px;margin:0;
+}
+.pulse-desc{
+  font-size:.92rem;line-height:1.7;color:#e8edf5;margin:0 0 12px;
+}
+.pulse-badges{
+  display:flex;gap:8px;flex-wrap:wrap;
+}
+.pulse-pill{
+  font-size:.76rem;font-weight:700;padding:3px 12px;border-radius:99px;
+  background:rgba(10,13,20,.6);border:1px solid rgba(245,197,66,.25);color:var(--txt);
+}
+
+/* --- بطاقات الأسئلة الأكثر بحثًا (FAQ Cards / People Also Ask) --- */
+.trend-faq-section{
+  margin:28px 0;border-top:1px solid var(--line);padding-top:22px;
+}
+.trend-faq-section h3{
+  font-size:1.15rem;font-weight:800;color:#fff;margin-bottom:14px;display:flex;align-items:center;gap:8px;
+}
+.faq-grid{
+  display:grid;gap:12px;
+}
+.faq-card{
+  background:rgba(255,255,255,.025);border:1px solid var(--line);
+  border-radius:14px;padding:14px 16px;transition:.2s;
+}
+.faq-card:hover{
+  border-color:rgba(90,169,255,.4);background:rgba(255,255,255,.035);
+}
+.faq-question{
+  font-size:.94rem;font-weight:700;color:var(--acc);margin-bottom:6px;display:flex;align-items:center;gap:6px;
+}
+.faq-answer{
+  font-size:.88rem;color:#b8c7db;line-height:1.65;margin:0;
+}
+
+/* --- زر متابعة تطورات الترند (Follow Trend CTA) --- */
+.trend-follow-cta{
+  background:linear-gradient(135deg,rgba(90,169,255,.12),rgba(61,220,151,.08));
+  border:1px solid rgba(90,169,255,.3);border-radius:16px;
+  padding:16px 20px;margin:24px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+}
+.trend-follow-text strong{font-size:.98rem;color:#fff;display:block;margin-bottom:3px}
+.trend-follow-text span{font-size:.84rem;color:var(--mut)}
+.btn-follow-tg{
+  background:#229ed9;color:#fff!important;font-size:.86rem;font-weight:700;
+  padding:8px 18px;border-radius:99px;text-decoration:none;display:inline-flex;align-items:center;gap:6px;
+}
+.btn-follow-tg:hover{background:#1a8bc0}
 /* --- قسم الوظائف (Jobs Section) --- */
 .nav-jobs{
   background:linear-gradient(135deg,rgba(245,197,66,.18),rgba(255,159,104,.15));

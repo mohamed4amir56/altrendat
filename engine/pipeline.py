@@ -38,18 +38,30 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 1. التصنيف — قواعد كلمات مفتاحية، مجانية وفورية
 # ==================================================
 CATEGORIES = [
+    ("سياسة", "🏛️", "#ff5c7c", [
+        "رئيس", "حكومة", "وزير", "وزارة", "البرلمان", "مجلس النواب", "مجلس الشيوخ",
+        "السيسي", "ولي العهد", "الملك", "محمد بن سلمان", "قمة", "مؤتمر", "مفاوضات",
+        "اتفاقية", "معاهدة", "هدنة", "مجلس الأمن", "الأمم المتحدة", "الخارجية",
+        "سفير", "سفارة", "دبلوماسي", "عقوبات", "بريكس", "جامعة الدول", "وقف إطلاق النار",
+        "البيت الأبيض", "ترامب", "بايدن", "بوتين", "الكرملين", "بكين", "الكونغرس",
+        "انتخابات", "استفتاء", "قرار جمهوري", "مرسوم", "سياسي", "سياسية", "وزراء",
+        "president", "prime minister", "minister", "parliament", "senate", "congress",
+        "white house", "summit", "diplomacy", "treaty", "sanctions", "election",
+        "elections", "ceasefire", "brics", "un", "united nations", "geopolitics",
+    ]),
+    ("اقتصاد", "💰", "#f5c542", [
+        "سعر", "أسعار", "دولار", "ذهب", "عيار", "فضة", "بنك", "فائدة", "شهادات", "بورصة",
+        "عملة", "جنيه", "ريال", "درهم", "دينار", "تموين", "دواجن", "لحوم", "سلع",
+        "مخبز", "خبز", "وقود", "بنزين", "تضخم", "راتب", "معاش", "استثمار", "صندوق النقد",
+        "البنك المركزي", "سندات", "رأس الحكمة", "تعويم", "المركزي",
+        "stock", "stocks", "price", "prices", "inflation", "fed rate", "interest rate",
+        "crypto", "bitcoin", "dollar", "gold price", "gold", "market", "economy", "bank", "dow",
+        "nasdaq", "s&p", "earnings", "revenue", "tariff", "tariffs", "imf",
+    ]),
     ("طقس", "🌤️", "#7fd8ff", [
         "طقس", "أمطار", "حرارة", "عاصفة", "رياح", "الأرصاد",
         "weather", "forecast", "storm", "hurricane", "tornado", "snow",
         "blizzard", "heatwave", "flood", "flooding", "nor'easter", "wind", "winds",
-    ]),
-    ("اقتصاد", "💰", "#f5c542", [
-        "سعر", "أسعار", "دولار", "ذهب", "فضة", "بنك", "فائدة", "شهادات", "بورصة",
-        "عملة", "جنيه", "ريال", "درهم", "دينار", "تموين", "دواجن", "لحوم", "سلع",
-        "مخبز", "خبز", "وقود", "بنزين", "تضخم", "راتب", "معاش", "استثمار",
-        "stock", "stocks", "price", "prices", "inflation", "fed rate", "interest rate",
-        "crypto", "bitcoin", "dollar", "gold price", "market", "economy", "bank", "dow",
-        "nasdaq", "s&p", "earnings", "revenue", "tariff", "tariffs",
     ]),
     ("رياضة", "⚽", "#3ddc97", [
         "منتخب", "مباراة", "الأهلي", "الزمالك", "الهلال", "النصر", "الاتحاد",
@@ -211,6 +223,15 @@ def classify(title, news_titles):
     if word:
         return ("حوادث وقضايا", "⛔", "#ff6b6b",
                 "ورد لفظ حسّاس: " + word, False)
+
+    # 1.5) استبعاد البحث الملاحي عن مواقع وتطبيقات خارجية (Navigational Noise)
+    norm_t = normalize(title).lower().strip()
+    nav_noise = ["في الجول", "يلا كورة", "يلا كوره", "يلا شوت", "yallakora", "filgoal",
+                 "tod", "kooora", "kora extra", "as goal", "كورة لايف", "بين سبورت",
+                 "beinsports", "bein sports"]
+    if any(n == norm_t or norm_t.startswith(n + " ") or norm_t.endswith(" " + n) for n in nav_noise):
+        return ("تصفح ومواقع", "🔗", "#8b96ab",
+                "اسم موقع أو تطبيق بحث ملاحي — مستبعد لضمان الجودة", False)
 
     # 2) تصنيف من عنوان الترند نفسه
     hit = _match(title)

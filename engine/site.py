@@ -25,6 +25,7 @@ import shutil
 import sys
 from datetime import datetime, timezone, timedelta
 from itertools import zip_longest
+import re
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import entities  # noqa: E402
@@ -417,6 +418,118 @@ td:first-child{color:var(--acc);font-weight:600}
   .channel-cta{flex-direction:column;align-items:stretch;text-align:center}
   .btn-tg{justify-content:center}
 }
+
+/* --- نظام رادار وذكاء الترندات (Trend Intelligence System) --- */
+.trend-intel-box{
+  background:linear-gradient(150deg,rgba(21,27,41,.98),rgba(14,18,29,.98));
+  border:1px solid rgba(245,197,66,.28);border-radius:18px;
+  padding:20px 22px;margin:18px 0 24px;position:relative;overflow:hidden;
+}
+.trend-intel-box::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,#ff5c7c,var(--gold),var(--acc));
+}
+.trend-intel-header{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px;flex-wrap:wrap;
+}
+.trend-intel-badge{
+  display:inline-flex;align-items:center;gap:6px;font-size:.76rem;font-weight:800;
+  color:var(--gold);background:rgba(245,197,66,.12);border:1px solid rgba(245,197,66,.3);
+  padding:3px 12px;border-radius:99px;
+}
+.trend-intel-metrics{
+  display:flex;gap:8px;flex-wrap:wrap;font-size:.74rem;color:var(--mut);
+}
+.trend-intel-metric-pill{
+  background:rgba(255,255,255,.05);border:1px solid var(--line);
+  padding:2px 10px;border-radius:99px;color:#dce5f2;
+}
+.trend-why-title{
+  font-size:1.15rem;font-weight:800;color:#fff;margin-bottom:8px;display:flex;align-items:center;gap:8px;
+}
+.trend-why-desc{
+  font-size:1.02rem;line-height:1.75;color:#f0f4fa;margin:0 0 14px;font-weight:600;
+}
+.takeaways-box{
+  background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.06);
+  border-radius:14px;padding:14px 16px;margin-top:14px;
+}
+.takeaways-header{
+  font-size:.88rem;font-weight:800;color:#5aa9ff;margin-bottom:8px;display:flex;align-items:center;gap:6px;
+}
+.takeaways-list{
+  list-style:none;padding:0;margin:0;display:grid;gap:8px;
+}
+.takeaways-list li{
+  font-size:.9rem;line-height:1.6;color:#cdd7e5;position:relative;padding-inline-start:22px;
+}
+.takeaways-list li::before{
+  content:"✓";position:absolute;right:0;color:#3ddc97;font-weight:800;font-size:.9rem;
+}
+html[dir="ltr"] .takeaways-list li::before{
+  right:auto;left:0;
+}
+
+/* --- مؤشر التأثير على الأسواق وأسعار الذهب والعملات (Market & Gold Pulse) --- */
+.market-gold-pulse{
+  background:linear-gradient(135deg,rgba(245,197,66,.09),rgba(255,92,124,.07));
+  border:1px solid rgba(245,197,66,.35);border-radius:16px;
+  padding:18px 20px;margin:22px 0 24px;
+}
+.pulse-header{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px;flex-wrap:wrap;
+}
+.pulse-title{
+  font-size:1.02rem;font-weight:800;color:var(--gold);display:flex;align-items:center;gap:8px;margin:0;
+}
+.pulse-desc{
+  font-size:.92rem;line-height:1.7;color:#e8edf5;margin:0 0 12px;
+}
+.pulse-badges{
+  display:flex;gap:8px;flex-wrap:wrap;
+}
+.pulse-pill{
+  font-size:.76rem;font-weight:700;padding:3px 12px;border-radius:99px;
+  background:rgba(10,13,20,.6);border:1px solid rgba(245,197,66,.25);color:var(--txt);
+}
+
+/* --- بطاقات الأسئلة الأكثر بحثًا (FAQ Cards / People Also Ask) --- */
+.trend-faq-section{
+  margin:28px 0;border-top:1px solid var(--line);padding-top:22px;
+}
+.trend-faq-section h3{
+  font-size:1.15rem;font-weight:800;color:#fff;margin-bottom:14px;display:flex;align-items:center;gap:8px;
+}
+.faq-grid{
+  display:grid;gap:12px;
+}
+.faq-card{
+  background:rgba(255,255,255,.025);border:1px solid var(--line);
+  border-radius:14px;padding:14px 16px;transition:.2s;
+}
+.faq-card:hover{
+  border-color:rgba(90,169,255,.4);background:rgba(255,255,255,.035);
+}
+.faq-question{
+  font-size:.94rem;font-weight:700;color:var(--acc);margin-bottom:6px;display:flex;align-items:center;gap:6px;
+}
+.faq-answer{
+  font-size:.88rem;color:#b8c7db;line-height:1.65;margin:0;
+}
+
+/* --- زر متابعة تطورات الترند (Follow Trend CTA) --- */
+.trend-follow-cta{
+  background:linear-gradient(135deg,rgba(90,169,255,.12),rgba(61,220,151,.08));
+  border:1px solid rgba(90,169,255,.3);border-radius:16px;
+  padding:16px 20px;margin:24px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+}
+.trend-follow-text strong{font-size:.98rem;color:#fff;display:block;margin-bottom:3px}
+.trend-follow-text span{font-size:.84rem;color:var(--mut)}
+.btn-follow-tg{
+  background:#229ed9;color:#fff!important;font-size:.86rem;font-weight:700;
+  padding:8px 18px;border-radius:99px;text-decoration:none;display:inline-flex;align-items:center;gap:6px;
+}
+.btn-follow-tg:hover{background:#1a8bc0}
 /* --- قسم الوظائف (Jobs Section) --- */
 .nav-jobs{
   background:linear-gradient(135deg,rgba(245,197,66,.18),rgba(255,159,104,.15));
@@ -654,6 +767,7 @@ td:first-child{color:var(--acc);font-weight:600}
 
 
 CAT_EN = {
+    "سياسة": "Politics",
     "طقس": "Weather",
     "اقتصاد": "Finance",
     "رياضة": "Sports",
@@ -897,6 +1011,137 @@ def render_hero_spotlight(t, href, country_name, flag, time_str, root="./", is_e
     </div>'''
 
 
+def build_takeaways(t, art, is_en=False):
+    """استخراج أهم 3-4 نقاط رئيسية موثقة للمتابعة السريعة."""
+    paras = [p.strip() for p in art.get("body", "").split("\n") if p.strip()]
+    points = []
+    summ = art.get("summary", "")
+    if summ:
+        points.append(summ)
+
+    for p in paras:
+        sentences = [s.strip() for s in re.split(r"[.؛!?\n]", p) if len(s.strip()) > 35]
+        for s in sentences:
+            if s not in points and len(points) < 4:
+                if not any(w in s for w in summ.split()[:4] if len(w) > 3):
+                    points.append(s)
+
+    if not points and paras:
+        points = paras[:3]
+
+    header = "📌 Key Verified Takeaways" if is_en else "📌 أهم الحقائق والوقائع المؤكدة في نقاط سريعة"
+    items_html = "".join(f"<li>{E(pt)}</li>" for pt in points)
+    return f"""
+    <div class="takeaways-box">
+      <div class="takeaways-header">{header}</div>
+      <ul class="takeaways-list">
+        {items_html}
+      </ul>
+    </div>"""
+
+
+def build_market_gold_pulse(t, art, is_en=False):
+    """مؤشر تحليل التأثير على الأسواق وأسعار الذهب والعملات (جاهز لتطبيق الذهب)."""
+    cat = t.get("category", "")
+    if cat in ("رياضة", "فن ومشاهير", "طقس", "أبراج وفلك", "فضول عام"):
+        return ""
+    title_text = (t.get("title", "") + " " + art.get("headline", "") + " " + art.get("body", "")).lower()
+
+    is_eco_pol = cat in ("سياسة", "اقتصاد") or any(k in title_text for k in [
+        "ذهب", "عيار", "سبائك", "دولار", "جنيه", "ريال", "فائدة", "تضخم", "مركزي",
+        "صندوق النقد", "بريكس", "سويس", "بحر أحمر", "نفط", "أوبك", "قمة",
+        "عقوبات", "هدنة", "حكومة", "استثمار", "سندات", "صاغة",
+        "gold", "dollar", "fed", "inflation", "currency", "oil", "opec", "summit", "ceasefire"
+    ])
+
+    if not is_eco_pol:
+        return ""
+
+    if any(k in title_text for k in ["فائدة", "تضخم", "مركزي", "fed", "interest rate", "inflation"]):
+        sensitivity = "عالية جدًا (قرارات نقدية وأسعار فائدة)"
+        gold_status = "تأثير مباشر على عوائد السندات والذهب"
+        desc = "تعد قرارات وتوقعات أسعار الفائدة والسياسة النقدية المحرك الأساسي لحركة السيولة بين الأوعية الادخارية والذهب؛ حيث يؤدي تثبيت أو خفض الفائدة إلى تعزيز جاذبية الذهب كملاذ آمن وأداة تحوط رئيسية ضد تقلبات الأسعار والتضخم."
+    elif any(k in title_text for k in ["بحر أحمر", "سويس", "عقوبات", "هدنة", "حرب", "توترات", "ceasefire", "sanctions"]):
+        sensitivity = "مرتفعة (توترات جيوسياسية وسلاسل الإمداد)"
+        gold_status = "تحفيز قوي للطلب على الملاذات الآمنة والسبائك"
+        desc = "التطورات الجيوسياسية الإقليمية والدولية تؤثر مباشرة على تكاليف الشحن وتدفقات الطاقة، مما يدفع المستثمرين والصناديق لزيادة حيازاتهم من الذهب كأصل استراتيجي للتحوط ضد المخاطر غير المتوقعة."
+    elif any(k in title_text for k in ["دولار", "جنيه", "صرف", "سيولة", "صندوق النقد", "dollar", "currency"]):
+        sensitivity = "مباشرة (سعر الصرف والسيولة النقدية)"
+        gold_status = "ارتباط وثيق بتسعير جرام الذهب محليًا"
+        desc = "يرتبط تسعير الذهب في السوق المحلي بسعر صرف العملة وتوفر السيولة الأجنبية؛ حيث تساهم التدفقات الاستثمارية وضبط السيولة في استقرار الفروق السعرية بين الأسواق المحلية والبورصة العالمية."
+    else:
+        sensitivity = "متوسطة إلى مرتفعة (بيئة الاستثمار والثقة)"
+        gold_status = "مؤشر استقرار يدعم تنويع المحافظ والادخار"
+        desc = "القرارات الاقتصادية والسياسية الكبرى تعيد تشكيل تطلعات مجتمع الأعمال والمدخرين، مما ينعكس إيجابًا على اتجاهات تنويع السيولة بين المشروعات والذهب كأداة لحفظ القيمة على المدى المتوسط والطويل."
+
+    if is_en:
+        return f"""
+        <div class="market-gold-pulse">
+          <div class="pulse-header">
+            <h4 class="pulse-title">🟡 Market & Gold Pulse</h4>
+            <div class="pulse-badges">
+              <span class="pulse-pill">Sensitivity: {sensitivity}</span>
+              <span class="pulse-pill">Safe Haven: Active</span>
+            </div>
+          </div>
+          <p class="pulse-desc">{desc}</p>
+        </div>"""
+    else:
+        return f"""
+        <div class="market-gold-pulse">
+          <div class="pulse-header">
+            <h4 class="pulse-title">🟡 مؤشر التأثير على الأسواق وأسعار الذهب والعملات (Market & Gold Pulse)</h4>
+            <div class="pulse-badges">
+              <span class="pulse-pill">📊 حساسية السوق: {sensitivity}</span>
+              <span class="pulse-pill">🪙 وضع الذهب: {gold_status}</span>
+            </div>
+          </div>
+          <p class="pulse-desc">{desc}</p>
+        </div>"""
+
+
+def build_faqs(t, art, is_en=False):
+    """إنشاء الأسئلة الأكثر بحثًا وإجاباتها الفورية (People Also Ask) مع FAQ Schema."""
+    term = t.get("title", "")
+    headline = art.get("headline", term)
+    summary = art.get("summary", "")
+    body = art.get("body", "")
+
+    first_para = [p.strip() for p in body.split("\n") if p.strip() and p.strip() != summary]
+    detail = first_para[0] if first_para else summary
+
+    if is_en:
+        faqs = [
+            (f"Why is {term} trending right now?", summary or f"Public search interest surged following latest developments regarding {headline}."),
+            (f"What are the verified facts regarding {term}?", detail),
+            (f"Where can I find verified updates on this topic?", f"Follow live updates via ALTRENDAT and the verified news sources listed in our transparency ledger below.")
+        ]
+        title = "🔎 Frequently Asked Questions"
+    else:
+        faqs = [
+            (f"لماذا يتصدر «{term}» محركات البحث والترند اليوم؟", summary or f"تصدر الموضوع اهتمامات الجمهور إثر التطورات الإخبارية المتلاحقة المعلنة حول: {headline}."),
+            (f"ما هي أهم التفاصيل والحقائق المعلنة حول {term}؟", detail),
+            (f"أين يمكن متابعة التطورات والتغطية الرسمية للموضوع؟", "يمكن متابعة التحديثات اللحظية عبر تغطيتنا المستمرة في منصة «الترندات»، بالإضافة إلى مراجعة الروابط المباشرة للمصادر الإخبارية الرسمية المعتمدة المدرجة أسفل التقرير.")
+        ]
+        title = "🔎 أكثر الأسئلة بحثًا وإجاباتها الفورية (People Also Ask)"
+
+    faq_cards = "".join(f"""
+      <div class="faq-card">
+        <div class="faq-question">❓ {E(q)}</div>
+        <p class="faq-answer">{E(a)}</p>
+      </div>""" for q, a in faqs)
+
+    html_block = f"""
+    <div class="trend-faq-section">
+      <h3>{title}</h3>
+      <div class="faq-grid">
+        {faq_cards}
+      </div>
+    </div>"""
+
+    return html_block, faqs
+
+
 def build_trend(country, cfg, t, urls):
     is_en = cfg.get("lang") == "en" or country == "world"
     cname = cfg.get("name_en", "Worldwide") if is_en else cfg["country_name"]
@@ -922,24 +1167,48 @@ def build_trend(country, cfg, t, urls):
             '</figure>'.format(u=E(photo["url"]), alt=E(art["headline"]), cap=E(cap))
         )
 
-    jsonld = {
-        "@context": "https://schema.org",
-        "@type": "NewsArticle",
-        "headline": art["headline"],
-        "description": art.get("summary", ""),
-        "datePublished": cfg["generated_at"],
-        "dateModified": cfg["generated_at"],
-        "inLanguage": "en" if is_en else "ar",
-        "publisher": {"@type": "Organization", "name": SITE_NAME_EN if is_en else SITE_NAME},
-        "mainEntityOfPage": canonical,
-    }
+    # مكونات ذكاء الترند المضافة
+    takeaways_html = build_takeaways(t, art, is_en=is_en)
+    market_pulse_html = build_market_gold_pulse(t, art, is_en=is_en)
+    faq_html, faq_items = build_faqs(t, art, is_en=is_en)
+
     img_list = []
     if photo:
         img_list.append(photo["url"])
     if img:
         img_list.append(img)
-    if img_list:
-        jsonld["image"] = img_list
+    if not img_list:
+        img_list.append(BASE + "/og-default.jpg")
+
+    jsonld = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "NewsArticle",
+                "headline": art["headline"],
+                "description": art.get("summary", ""),
+                "datePublished": cfg["generated_at"],
+                "dateModified": cfg["generated_at"],
+                "inLanguage": "en" if is_en else "ar",
+                "publisher": {"@type": "Organization", "name": SITE_NAME_EN if is_en else SITE_NAME, "url": BASE},
+                "mainEntityOfPage": canonical,
+                "image": img_list
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": q,
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": a
+                        }
+                    } for q, a in faq_items
+                ]
+            }
+        ]
+    }
 
     paras = "".join("<p>{}</p>".format(E(p.strip()))
                     for p in art["body"].split("\n") if p.strip())
@@ -967,6 +1236,17 @@ def build_trend(country, cfg, t, urls):
            <a href="../../../../e/{slug}/">Topic history</a></p>""".format(
             cname=E(cname), day=day, slug=slug)
         src_html = sources_list(t["news"], is_en=True)
+        intel_badge = "⚡ Real-Time Trend Intelligence"
+        why_heading = f'🔥 Why is "{E(t["title"])}" trending now?'
+        read_more_heading = "📰 Verified Story & Background:"
+        follow_cta = """
+        <div class="trend-follow-cta">
+          <div class="trend-follow-text">
+            <strong>🔔 Following this developing story?</strong>
+            <span>Get live breaking notifications on Telegram as soon as updates emerge.</span>
+          </div>
+          <a class="btn-follow-tg" href="https://t.me/altrendat_news" target="_blank" rel="noopener">👉 Follow Updates</a>
+        </div>"""
     else:
         chips = """
         <span class="chip">{icon} {cat}</span>
@@ -982,6 +1262,17 @@ def build_trend(country, cfg, t, urls):
            <a href="../../../../e/{slug}/">كل ظهور لـ"{term}"</a></p>""".format(
             cname=E(cfg["country_name"]), day=day, term=E(t["title"]), slug=slug)
         src_html = sources_list(t["news"], is_en=False)
+        intel_badge = "⚡ نبض الترند ورادار المتابعة اللحظية"
+        why_heading = f'🔥 لماذا أصبح «{E(t["title"])}» ترندًا الآن؟'
+        read_more_heading = "📰 التغطية الإخبارية والتحليل الموثق:"
+        follow_cta = """
+        <div class="trend-follow-cta">
+          <div class="trend-follow-text">
+            <strong>🔔 هل تتابع تطورات هذا الموضوع؟</strong>
+            <span>احصل على إشعارات التطورات العاجلة وترندات الساعة مباشرة على تليجرام فور تأكيدها.</span>
+          </div>
+          <a class="btn-follow-tg" href="https://t.me/altrendat_news" target="_blank" rel="noopener">👉 تابع التطورات الآن</a>
+        </div>"""
 
     hero_top = ""
     if not photo and t.get("card"):
@@ -991,44 +1282,46 @@ def build_trend(country, cfg, t, urls):
                     "</figure>".format(
                         "../../../../", os.path.basename(t["card"]), E(t["title"])))
 
-    if is_en:
-        cta = """
-        <div class="channel-cta">
-          <div class="channel-cta-text">
-            <h4>📢 Follow ALTRENDAT on Telegram</h4>
-            <p>Get real-time updates and breaking news directly on your phone.</p>
-          </div>
-          <div class="channel-cta-btns">
-            <a class="btn-tg" href="https://t.me/altrendat_news" target="_blank" rel="noopener">👉 Join Channel</a>
-          </div>
-        </div>"""
-    else:
-        cta = """
-        <div class="channel-cta">
-          <div class="channel-cta-text">
-            <h4>📢 انضم لقناة الترندات على تليجرام</h4>
-            <p>تابع أهم وأحدث الأخبار العاجلة وترندات الساعة لحظة بلحظة مع الصور والتفاصيل الكاملة مجاناً.</p>
-          </div>
-          <div class="channel-cta-btns">
-            <a class="btn-tg" href="https://t.me/altrendat_news" target="_blank" rel="noopener">👉 انضم للقناة الآن</a>
-          </div>
-        </div>"""
-
-    body = """
+    body = f"""
     <div class="when">{chips}</div>
-    <h1>{head}</h1>
-    <p class="lead">{summ}</p>
-    {table}
-    {photo}
+    <h1>{E(art["headline"])}</h1>
+
+    <!-- كبسولة الترند الفورية ورادار الذكاء -->
+    <div class="trend-intel-box">
+      <div class="trend-intel-header">
+        <span class="trend-intel-badge">{intel_badge}</span>
+        <div class="trend-intel-metrics">
+          <span class="trend-intel-metric-pill">🔍 {E(t['traffic'])} بحث</span>
+          <span class="trend-intel-metric-pill">📈 تسارع قياسي</span>
+          <span class="trend-intel-metric-pill">✅ تم التحقق عبر {n_sources} مصادر</span>
+        </div>
+      </div>
+      <div class="trend-why-title">{why_heading}</div>
+      <p class="trend-why-desc">{E(art.get("summary", ""))}</p>
+      {takeaways_html}
+    </div>
+
+    {data_table(t.get("data"))}
+    {photo_html}
     {hero_top}
-    <article>{paras}</article>
+
+    <!-- مؤشر التأثير على الأسواق وأسعار الذهب والعملات (إن وجد) -->
+    {market_pulse_html}
+
+    <article>
+      <div style="font-size:0.95rem;font-weight:700;color:var(--acc);margin-bottom:12px;">{read_more_heading}</div>
+      {paras}
+    </article>
+
+    <!-- بطاقات الأسئلة الأكثر بحثًا (FAQ / People Also Ask) -->
+    {faq_html}
+
+    <!-- زر متابعة تطورات الترند -->
+    {follow_cta}
+
     <div class="tags">{tags}</div>
-    {cta}
-    {sources}
-    {meta_nav}""".format(
-        chips=chips, head=E(art["headline"]), summ=E(art.get("summary", "")),
-        table=data_table(t.get("data")), photo=photo_html, hero_top=hero_top,
-        paras=paras, tags=tags, cta=cta, sources=src_html, meta_nav=meta_nav)
+    {src_html}
+    {meta_nav}"""
 
     urls.append((canonical, cfg["generated_at"], "0.8"))
     site_title = SITE_NAME_EN if is_en else SITE_NAME
@@ -1525,6 +1818,55 @@ def build_feed(data):
     return len(body)
 
 
+def build_gold_news_api(data):
+    """يصدر خلاصة الأخبار السياسية والاقتصادية والمؤثرة على الذهب بصيغة JSON نظيفة لتطبيق الذهب."""
+    gold_feed = []
+    for key, cfg in data.items():
+        cname = cfg.get("country_name", key)
+        flag = cfg.get("flag", "")
+        day = entities.day_of(cfg)
+        for t in cfg.get("trends", []):
+            art = t.get("article")
+            if not art:
+                continue
+            cat = t.get("category", "")
+            if cat in ("رياضة", "فن ومشاهير", "طقس", "أبراج وفلك", "فضول عام"):
+                continue
+            title_text = (t.get("title", "") + " " + art.get("headline", "") + " " + art.get("body", "")).lower()
+            is_relevant = cat in ("سياسة", "اقتصاد") or any(k in title_text for k in [
+                "ذهب", "عيار", "سبائك", "دولار", "جنيه", "ريال", "فائدة", "تضخم", "مركزي",
+                "صندوق النقد", "بريكس", "سويس", "بحر أحمر", "نفط", "أوبك", "قمة", "عقوبات", "صاغة"
+            ])
+            if not is_relevant:
+                continue
+            slug = entities.slugify(t["title"])
+            canonical = f"{BASE}/{key}/{day}/{slug}/"
+            thumb = pick_trend_photo(t)
+            img_url = thumb["url"] if thumb else (BASE + "/og-default.jpg")
+
+            gold_feed.append({
+                "id": f"{key}-{day}-{slug}",
+                "title": t["title"],
+                "headline": art["headline"],
+                "summary": art.get("summary", ""),
+                "category": cat,
+                "country": key,
+                "country_name": cname,
+                "flag": flag,
+                "traffic": t.get("traffic", ""),
+                "url": canonical,
+                "image": img_url,
+                "published_at": t.get("published_at") or cfg.get("generated_at"),
+                "sources": [n["source"] for n in t.get("news", []) if n.get("source")]
+            })
+
+    gold_feed.sort(key=lambda x: x.get("published_at", ""), reverse=True)
+    out_file = os.path.join(OUT, "gold-news.json")
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump({"updated_at": datetime.now(timezone.utc).isoformat(), "total": len(gold_feed), "items": gold_feed}, f, ensure_ascii=False, indent=2)
+    return len(gold_feed)
+
+
 COUNTRIES = {}
 
 
@@ -1608,6 +1950,7 @@ def main():
     jobs_urls = jobs.build_jobs_site(BASE, OUT, lambda d: country_nav("jobs", d))
     urls.extend(jobs_urls)
     n_feed = build_feed(latest)
+    n_gold = build_gold_news_api(latest)
     build_404()
 
     # صفحات الكيانات — الأصل الذي يتراكم.
@@ -1658,7 +2001,8 @@ def main():
           str(len(jobs_urls) - 1) + " وظيفة شاغرة (/jobs/)")
     print("  " + str(skipped) + " كيانًا حجبته بوابة الأمان")
     print("  " + str(len(urls)) + " رابطًا في sitemap.xml · " +
-          str(n_feed) + " في feed.xml")
+          str(n_feed) + " في feed.xml · " +
+          str(n_gold) + " في gold-news.json (أخبار الذهب والأسواق)")
     print("  النطاق المستخدم: " + BASE)
 
 

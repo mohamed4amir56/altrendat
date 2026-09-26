@@ -150,7 +150,7 @@ html[dir="ltr"] .lead, html[dir="ltr"] .meta, html[dir="ltr"] .item{
 }
 a{color:inherit}
 header.site,footer.site{
-  max-width:860px;margin:0 auto;padding:20px 18px;
+  max-width:1040px;margin:0 auto;padding:20px 18px;
   display:flex;align-items:center;justify-content:space-between;gap:14px;
 }
 footer.site{display:block;border-top:1px solid var(--line);margin-top:48px;
@@ -163,6 +163,7 @@ footer.site{display:block;border-top:1px solid var(--line);margin-top:48px;
 article ul{margin:0 0 16px;padding-inline-start:22px}
 article li{margin-bottom:7px;color:#dfe6f0}
 article a{color:var(--acc)}
+article{max-width:820px;margin:0 auto}
 .brand{
   font-size:1.5rem;font-weight:800;text-decoration:none;
   background:linear-gradient(95deg,var(--gold),#ff9f68);
@@ -174,7 +175,7 @@ nav a{
   border:1px solid var(--line);border-radius:99px;padding:4px 13px;
 }
 nav a:hover{color:var(--txt);border-color:var(--acc)}
-main{max-width:860px;margin:0 auto;padding:8px 18px 30px}
+main{max-width:1040px;margin:0 auto;padding:8px 18px 30px}
 h1{font-size:2rem;font-weight:800;line-height:1.4;margin-bottom:12px;
   letter-spacing:-.4px}
 h2{font-size:1.25rem;font-weight:800;margin:28px 0 10px}
@@ -215,6 +216,151 @@ article p:first-child{font-size:1.12rem;color:var(--txt)}
 .item h3{font-size:1.04rem;font-weight:700;margin-bottom:5px}
 .item .sub{color:var(--mut);font-size:.8rem}
 .rank{color:var(--gold);font-weight:800;margin-inline-end:8px}
+
+/* --- بطاقات الدول السريعة (Country Deck) --- */
+.country-deck{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:14px;margin:18px 0 28px;
+}
+.country-deck-card{
+  background:linear-gradient(145deg,rgba(21,27,41,.9),rgba(17,22,34,.9));
+  border:1px solid var(--line);border-radius:16px;padding:16px 18px;
+  text-decoration:none;display:flex;flex-direction:column;justify-content:space-between;
+  gap:10px;transition:all .25s ease;position:relative;overflow:hidden;
+}
+.country-deck-card::after{
+  content:"";position:absolute;top:0;left:0;right:0;height:3px;
+  background:var(--deck-accent,var(--acc));opacity:.85;
+}
+.country-deck-card:hover{
+  border-color:var(--deck-accent,var(--acc));transform:translateY(-3px);
+  box-shadow:0 10px 24px rgba(0,0,0,.35);
+}
+.deck-card-top{display:flex;align-items:center;justify-content:space-between}
+.deck-card-title{font-size:1.15rem;font-weight:800;color:var(--txt);display:flex;align-items:center;gap:8px}
+.deck-card-badge{font-size:.76rem;font-weight:700;padding:3px 10px;border-radius:99px;background:rgba(255,255,255,.07);color:var(--gold)}
+.deck-card-top-trend{font-size:.84rem;color:#cfd8e5;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.deck-card-action{font-size:.8rem;font-weight:700;color:var(--deck-accent,var(--acc));display:inline-flex;align-items:center;gap:6px}
+
+/* --- شبكة كروت الأخبار والترندات الاحترافية (Trends Grid) --- */
+.trends-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));
+  gap:20px;margin:22px 0 36px;
+}
+.trend-card{
+  background:linear-gradient(165deg,var(--card),var(--bg2));
+  border:1px solid var(--line);border-radius:18px;overflow:hidden;
+  display:flex;flex-direction:column;transition:all .25s cubic-bezier(.16,1,.3,1);
+  position:relative;
+}
+.trend-card:hover{
+  border-color:var(--acc);transform:translateY(-4px);
+  box-shadow:0 14px 30px rgba(0,0,0,.4);
+}
+.trend-card-link{
+  text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%;
+}
+.trend-card-media{
+  position:relative;width:100%;height:185px;background:#0d121c;overflow:hidden;
+}
+.trend-card-media img{
+  width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s ease;
+}
+.trend-card:hover .trend-card-media img{
+  transform:scale(1.04);
+}
+.trend-card-badges{
+  position:absolute;top:10px;right:10px;display:flex;gap:6px;flex-wrap:wrap;z-index:2;
+}
+.badge-cat,.badge-traffic{
+  font-size:.72rem;font-weight:700;padding:3px 9px;border-radius:99px;
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  box-shadow:0 2px 8px rgba(0,0,0,.3);
+}
+.badge-cat{background:rgba(10,13,20,.85);border:1px solid rgba(255,255,255,.15);color:var(--c,var(--gold))}
+.badge-traffic{background:rgba(245,197,66,.92);color:#0a0d14}
+.trend-card-rank{
+  position:absolute;bottom:8px;left:10px;font-size:.78rem;font-weight:800;
+  padding:2px 9px;border-radius:8px;background:rgba(10,13,20,.85);
+  border:1px solid rgba(255,255,255,.12);color:var(--gold);z-index:2;
+}
+.trend-card-body{
+  padding:16px 18px 18px;display:flex;flex-direction:column;flex-grow:1;
+}
+.trend-card-meta{
+  display:flex;align-items:center;gap:8px;font-size:.78rem;color:var(--mut);margin-bottom:8px;
+}
+.trend-country-pill{
+  font-weight:700;color:#c9d5e8;display:inline-flex;align-items:center;gap:4px;
+}
+.trend-card-title{
+  font-size:1.08rem;font-weight:800;line-height:1.5;color:var(--txt);margin-bottom:8px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  transition:color .2s ease;
+}
+.trend-card:hover .trend-card-title{color:var(--acc)}
+.trend-card-summary{
+  font-size:.86rem;color:#a6b4c9;line-height:1.6;margin-bottom:14px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  flex-grow:1;
+}
+.trend-card-footer{
+  display:flex;align-items:center;justify-content:space-between;
+  border-top:1px solid rgba(255,255,255,.05);padding-top:12px;margin-top:auto;font-size:.78rem;
+}
+.trend-sources-tag{color:var(--mut)}
+.trend-arrow{color:var(--gold);font-weight:700;transition:transform .2s}
+.trend-card:hover .trend-arrow{transform:translateX(-3px)}
+
+/* --- كارت القصة المتصدرة المميزة (Spotlight) --- */
+.hero-spotlight{
+  background:linear-gradient(165deg,rgba(21,27,41,.95),rgba(13,17,27,.95));
+  border:1px solid rgba(90,169,255,.35);border-radius:20px;overflow:hidden;
+  margin:18px 0 26px;display:grid;grid-template-columns:1.1fr 1fr;transition:all .25s ease;
+}
+.hero-spotlight:hover{
+  border-color:var(--acc);box-shadow:0 16px 36px rgba(0,0,0,.45);
+}
+.hero-spotlight-media{
+  position:relative;min-height:260px;overflow:hidden;background:#0d121c;
+}
+.hero-spotlight-media img{
+  width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s ease;
+}
+.hero-spotlight:hover .hero-spotlight-media img{transform:scale(1.03)}
+.hero-spotlight-content{
+  padding:24px 26px;display:flex;flex-direction:column;justify-content:space-between;
+}
+.spotlight-top-badge{
+  display:inline-flex;align-items:center;gap:6px;font-size:.76rem;font-weight:800;
+  color:#ff9f68;background:rgba(255,159,104,.12);border:1px solid rgba(255,159,104,.3);
+  padding:4px 12px;border-radius:99px;align-self:flex-start;margin-bottom:12px;
+}
+.hero-spotlight-title{
+  font-size:1.32rem;font-weight:800;line-height:1.45;color:#fff;margin-bottom:10px;
+}
+.hero-spotlight-desc{
+  font-size:.92rem;color:#b8c6d8;line-height:1.7;margin-bottom:18px;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
+}
+.hero-spotlight-cta{
+  display:inline-flex;align-items:center;gap:8px;
+  background:linear-gradient(135deg,var(--acc),#3d8bff);
+  color:#0a0d14!important;font-weight:800;font-size:.88rem;
+  padding:9px 20px;border-radius:99px;text-decoration:none;align-self:flex-start;
+  transition:.2s;
+}
+.hero-spotlight-cta:hover{
+  transform:translateY(-2px);box-shadow:0 6px 18px rgba(90,169,255,.35);
+}
+@media(max-width:768px){
+  .hero-spotlight{grid-template-columns:1fr}
+  .hero-spotlight-media{min-height:190px}
+  .hero-spotlight-content{padding:18px}
+  .hero-spotlight-title{font-size:1.15rem}
+  .trends-grid{grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}
+}
+
 table{width:100%;border-collapse:collapse;font-size:.92rem;margin:14px 0;
   display:block;overflow-x:auto;white-space:nowrap;
   background:rgba(255,255,255,.02);border:1px solid var(--line);
@@ -486,6 +632,116 @@ def pick_trend_photo(t):
     return None
 
 
+def get_card_thumb_url(t, root="./"):
+    """يرجع أفضل صورة صالحة للترند لعرضها في الكارت (صورة التغطية أو المصغر أو الكارت أو الشعار)."""
+    photo = pick_trend_photo(t)
+    if photo and photo.get("url"):
+        return photo["url"]
+
+    for n in t.get("news", []):
+        img = (n.get("og_image") or n.get("thumb") or "").strip()
+        if img and img.startswith(("http://", "https://")) and not any(bad in img for bad in ("<", ">", "\n", "\r")):
+            if not any(x in img.lower() for x in ("favicon", "logo_square", "avatar", "placeholder")):
+                return img
+
+    g_img = (t.get("image") or "").strip()
+    if g_img and g_img.startswith(("http://", "https://")):
+        return g_img
+
+    if t.get("card"):
+        return "{}cards/{}".format(root, os.path.basename(t["card"]))
+
+    return "{}og-default.jpg".format(root)
+
+
+def render_trend_card(t, href, rank, country_name, flag, time_str, root="./", is_en=False):
+    art = t.get("article") or {}
+    headline = art.get("headline") or t.get("title", "")
+    summary = art.get("summary") or ""
+    if not summary and art.get("body"):
+        summary = art["body"].split("\n")[0][:130]
+
+    cat_label = CAT_EN.get(t.get("category", ""), t.get("category", "")) if is_en else t.get("category", "")
+    cat_color = t.get("color", "var(--gold)")
+    traffic_label = t.get("traffic", "")
+    if is_en and traffic_label:
+        traffic_label += " searches"
+
+    img_url = get_card_thumb_url(t, root=root)
+    n_sources = len([n for n in t.get("news", []) if n.get("ok")])
+
+    time_html = f"<span class='trend-time-tag'>🕒 {E(time_str)}</span>" if time_str else ""
+    sources_text = f"{n_sources} sources" if is_en else f"{n_sources} مصادر موثقة"
+    read_more = "Details →" if is_en else "التفاصيل ⬅️"
+
+    return f'''
+    <article class="trend-card">
+      <a class="trend-card-link" href="{href}">
+        <div class="trend-card-media">
+          <img src="{E(img_url)}" alt="{E(headline)}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='{root}og-default.jpg'">
+          <div class="trend-card-badges">
+            <span class="badge-cat" style="--c:{cat_color}">{t.get('icon', '🔥')} {E(cat_label)}</span>
+            <span class="badge-traffic">🔥 {E(traffic_label)}</span>
+          </div>
+          <div class="trend-card-rank">#{rank}</div>
+        </div>
+        <div class="trend-card-body">
+          <div class="trend-card-meta">
+            <span class="trend-country-pill">{flag} {E(country_name)}</span>
+            {time_html}
+          </div>
+          <h3 class="trend-card-title">{E(headline)}</h3>
+          <p class="trend-card-summary">{E(summary)}</p>
+          <div class="trend-card-footer">
+            <span class="trend-sources-tag">📎 {sources_text}</span>
+            <span class="trend-arrow">{read_more}</span>
+          </div>
+        </div>
+      </a>
+    </article>'''
+
+
+def render_hero_spotlight(t, href, country_name, flag, time_str, root="./", is_en=False):
+    art = t.get("article") or {}
+    headline = art.get("headline") or t.get("title", "")
+    summary = art.get("summary") or ""
+    if not summary and art.get("body"):
+        summary = art["body"].split("\n")[0][:180]
+
+    cat_label = CAT_EN.get(t.get("category", ""), t.get("category", "")) if is_en else t.get("category", "")
+    traffic = t.get("traffic", "")
+    img_url = get_card_thumb_url(t, root=root)
+    n_sources = len([n for n in t.get("news", []) if n.get("ok")])
+
+    tag_text = "🔥 Trending Spotlight" if is_en else "🔥 الأكثر بحثاً وتداولاً الآن"
+    cta_text = "قراءة التغطية والمصادر ⬅️" if not is_en else "Read Full Story →"
+
+    return f'''
+    <div class="hero-spotlight">
+      <div class="hero-spotlight-media">
+        <img src="{E(img_url)}" alt="{E(headline)}" loading="eager" decoding="async" onerror="this.onerror=null;this.src='{root}og-default.jpg'">
+      </div>
+      <div class="hero-spotlight-content">
+        <div>
+          <span class="spotlight-top-badge">{tag_text}</span>
+          <div class="trend-card-meta" style="margin-bottom:10px;">
+            <span class="trend-country-pill">{flag} {E(country_name)}</span>
+            <span>·</span>
+            <span>{t.get('icon', '🔥')} {E(cat_label)}</span>
+            <span>·</span>
+            <span style="color:var(--gold);font-weight:700;">🔍 {E(traffic)} بحث</span>
+          </div>
+          <h2 class="hero-spotlight-title">{E(headline)}</h2>
+          <p class="hero-spotlight-desc">{E(summary)}</p>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-top:16px;flex-wrap:wrap;gap:12px;">
+          <a class="hero-spotlight-cta" href="{href}">{cta_text}</a>
+          <span style="font-size:0.8rem;color:var(--mut);">📎 {n_sources} مصادر موثقة</span>
+        </div>
+      </div>
+    </div>'''
+
+
 def build_trend(country, cfg, t, urls):
     is_en = cfg.get("lang") == "en" or country == "world"
     cname = cfg.get("name_en", "Worldwide") if is_en else cfg["country_name"]
@@ -717,17 +973,9 @@ def build_day(country, day, cfg, urls, prev_day, next_day):
 
     items = []
     for i, x in enumerate(pub, 1):
-        cat_label = CAT_EN.get(x["category"], x["category"]) if is_en else x["category"]
-        traffic_label = "🔍 " + x["traffic"] + (" searches" if is_en else "")
         x_time = format_time(x.get("published_at") or cfg.get("generated_at"), is_en=is_en, country=country)
-        time_part = " · 🕒 " + x_time if x_time else ""
-        items.append(
-            "<a class='item' href='{s}/'>"
-            "<h3><span class='rank'>{i}</span>{h}</h3>"
-            "<p class='sub'>{ic} {cat} · {tr}{tm}</p></a>".format(
-                s=entities.slugify(x["title"]), i=i,
-                h=E(x["article"]["headline"]), ic=x["icon"],
-                cat=E(cat_label), tr=E(traffic_label), tm=E(time_part)))
+        x_href = "{}/".format(entities.slugify(x["title"]))
+        items.append(render_trend_card(x, x_href, i, cname, cfg["flag"], x_time, root="../../", is_en=is_en))
 
     around = []
     all_days_text = "All Days" if is_en else "كل الأيام"
@@ -742,13 +990,11 @@ def build_day(country, day, cfg, urls, prev_day, next_day):
                else "{flag} الأكثر بحثًا في {name} — {day}").format(
         flag=cfg["flag"], name=E(cname), day=day)
     meta_topics = ("{} topics" if is_en else "{} موضوعًا").format(len(pub))
-    body = """
+    body = f"""
     <h1>{heading}</h1>
-    <p class="meta">{meta}</p>
-    <div class="list">{items}</div>
-    <p class="meta nav-days">{around}</p>""".format(
-        heading=heading, meta=meta_topics,
-        items="".join(items), around=" · ".join(around))
+    <p class="meta">{meta_topics}</p>
+    <div class="trends-grid">{''.join(items)}</div>
+    <p class="meta nav-days">{' · '.join(around)}</p>"""
 
     urls.append((canonical, cfg["generated_at"], "0.7"))
     sname = SITE_NAME_EN if is_en else SITE_NAME
@@ -802,19 +1048,19 @@ def build_country(country, cfg, urls):
     pub = [t for t in clean_trends if t.get("article")]
     pub.sort(key=lambda x: -x["traffic_num"])
 
-    items = []
-    for i, t in enumerate(pub, 1):
-        slug = entities.slugify(t["title"])
-        cat_label = CAT_EN.get(t["category"], t["category"]) if is_en else t["category"]
-        traffic_label = "🔍 " + t["traffic"] + (" searches" if is_en else "")
-        t_time = format_time(t.get("published_at") or cfg.get("generated_at"), is_en=is_en, country=country)
-        time_part = " · 🕒 " + t_time if t_time else ""
-        items.append(
-            "<a class='item' href='{d}/{s}/'>"
-            "<h3><span class='rank'>{i}</span>{h}</h3>"
-            "<p class='sub'>{ic} {cat} · {tr}{tm}</p></a>".format(
-                d=day, s=slug, i=i, h=E(t["article"]["headline"]),
-                ic=t["icon"], cat=E(cat_label), tr=E(traffic_label), tm=E(time_part)))
+    cards = []
+    spotlight_html = ""
+    if pub:
+        top_t = pub[0]
+        top_time = format_time(top_t.get("published_at") or cfg.get("generated_at"), is_en=is_en, country=country)
+        top_href = "{}/{}/".format(day, entities.slugify(top_t["title"]))
+        spotlight_html = render_hero_spotlight(top_t, top_href, cname, cfg["flag"], top_time, root="../", is_en=is_en)
+
+        for i, t in enumerate(pub[1:], 2):
+            slug = entities.slugify(t["title"])
+            t_time = format_time(t.get("published_at") or cfg.get("generated_at"), is_en=is_en, country=country)
+            t_href = "{}/{}/".format(day, slug)
+            cards.append(render_trend_card(t, t_href, i, cname, cfg["flag"], t_time, root="../", is_en=is_en))
 
     names = [t["title"] for t in pub[:3]]
     canonical = "{}/{}/".format(BASE, country)
@@ -823,29 +1069,23 @@ def build_country(country, cfg, urls):
         intro_text = "Most searched topics in {} on {}: {}.".format(
             cname, day, ", ".join(names)) if names else ""
         lead_html = "<p class='lead'>{} Explained with verified sources.</p>".format(E(intro_text)) if intro_text else ""
-        body = """
-        <h1>{flag} Trending Searches Today in {name}</h1>
-        {lead}
-        <p class="meta">{day} · {n} topics ·
-           <a href="archive/">Previous Days Archive</a></p>
-        <div class="list">{items}</div>""".format(
-            flag=cfg["flag"], name=E(cname), lead=lead_html, day=day,
-            n=len(pub), items="".join(items))
+        body = f"""
+        <h1>{cfg["flag"]} Trending Searches Today in {E(cname)}</h1>
+        {lead_html}
+        <p class="meta">{day} · {len(pub)} topics · <a href="archive/">Previous Days Archive</a></p>
+        {spotlight_html}
+        <div class="trends-grid">{''.join(cards)}</div>"""
         page_title = "Trending Searches Today in {} | {}".format(cname, SITE_NAME_EN)
         page_desc = intro_text or "Trending search topics today in {}, explained with sources.".format(cname)
     else:
         intro = "أكثر ما بحث عنه الناس في {} يوم {}: {}.".format(
             cfg["country_name"], day, "، و".join(names)) if names else ""
-        body = """
-        <h1>{flag} الأكثر بحثًا اليوم في {name}</h1>
-        {intro}
-        <p class="meta">{day} · {n} موضوعًا ·
-           <a href="archive/">أرشيف الأيام السابقة</a></p>
-        <div class="list">{items}</div>""".format(
-            flag=cfg["flag"], name=E(cfg["country_name"]), day=day,
-            intro="<p class='lead'>{} نشرح كل موضوع بمصادره.</p>".format(E(intro))
-                  if intro else "",
-            n=len(pub), items="".join(items))
+        body = f"""
+        <h1>{cfg["flag"]} الأكثر بحثًا اليوم في {E(cfg["country_name"])}</h1>
+        <p class="lead">{E(intro)} نشرح كل موضوع بمصادره وتفاصيله الموثقة.</p>
+        <p class="meta">{day} · {len(pub)} موضوعًا · <a href="archive/">أرشيف الأيام السابقة 📅</a></p>
+        {spotlight_html}
+        <div class="trends-grid">{''.join(cards)}</div>"""
         page_title = "الأكثر بحثًا اليوم في {} | {}".format(cfg["country_name"], SITE_NAME)
         page_desc = intro or "أهم ما يبحث عنه الناس اليوم في {}، مشروحًا بمصادره.".format(cfg["country_name"])
 
@@ -888,65 +1128,92 @@ def build_entity(ent, urls):
 
 
 def build_home(data, urls):
-    cards = []
+    deck_cards = []
     for key, cfg in data.items():
         pub = [t for t in cfg["trends"] if t.get("article")]
         top = max(pub, key=lambda x: x["traffic_num"], default=None)
-        cards.append(
-            "<a class='item' href='{k}/'><h3>{f} {n}</h3>"
-            "<p class='sub'>{c} موضوعًا اليوم{t}</p></a>".format(
-                k=key, f=cfg["flag"], n=E(cfg["country_name"]),
-                c=len(pub),
-                t=" · أبرزها: " + E(top["title"]) if top else ""))
+        top_title = ("أبرزها: " + top["article"]["headline"]) if top else ""
+        accent = "#5aa9ff" if key == "eg" else "#3ddc97"
+        deck_cards.append(f"""
+        <a class='country-deck-card' href='{key}/' style='--deck-accent:{accent};'>
+          <div class='deck-card-top'>
+            <span class='deck-card-title'>{cfg["flag"]} {E(cfg["country_name"])}</span>
+            <span class='deck-card-badge'>{len(pub)} موضوع نشط</span>
+          </div>
+          <p class='deck-card-top-trend'>{E(top_title)}</p>
+          <span class='deck-card-action'>تصفح ترندات {E(cfg["country_name"])} ⬅️</span>
+        </a>""")
 
-    # أبرز الأخبار مباشرة من الرئيسة.
-    #
-    # كانت الرئيسة تربط بالبلدان وحدها، فالخبر على بعد نقرتين منها.
-    # والرئيسة أقوى صفحة عند Google وأول ما يُزحف إليه، فرابط مباشر منها
-    # يوصل الزاحف إلى الخبر في زيارته الأولى — وهو ما يُفهرس ويُبحث عنه.
-    # بالتناوب بين البلدان: أرقام بحث مصر أكبر، فالترتيب بالرقم وحده
-    # يُخفي السعودية كلها.
+    # إضافة بطاقة قسم الوظائف ضمن بطاقات التصفح السريع
+    deck_cards.append("""
+        <a class='country-deck-card' href='jobs/' style='--deck-accent:#f5c542;'>
+          <div class='deck-card-top'>
+            <span class='deck-card-title'>💼 وظائف اليوم</span>
+            <span class='deck-card-badge' style='background:rgba(245,197,66,.15);color:#f5c542;'>13 فرصة متاحة</span>
+          </div>
+          <p class='deck-card-top-trend'>مسابقات حكومية، عقود ألمانيا وإيطاليا وكندا، والعمل عن بعد بالدولار مع روابط تقديم مباشرة مجانية.</p>
+          <span class='deck-card-action'>استعراض جميع الوظائف ⬅️</span>
+        </a>""")
+
+    # بالتناوب بين البلدان لضمان تمثيل متوازن لمصر والسعودية
     per = []
     for key, cfg in data.items():
         pub = sorted([t for t in cfg["trends"] if t.get("article")],
                      key=lambda x: -x["traffic_num"])
         per.append([(key, cfg, t) for t in pub])
-    mixed = [x for row in zip_longest(*per) for x in row if x][:12]
+    mixed = [x for row in zip_longest(*per) for x in row if x][:18]
 
-    news = []
-    for i, (key, cfg, t) in enumerate(mixed, 1):
-        t_time = format_time(t.get("published_at") or cfg.get("generated_at"), is_en=False, country=key)
-        time_part = " · 🕒 " + t_time if t_time else ""
-        news.append(
-            "<a class='item' href='{k}/{d}/{s}/'>"
-            "<h3><span class='rank'>{i}</span>{h}</h3>"
-            "<p class='sub'>{f} {n} · {ic} {cat} · 🔍 {tr}{tm}</p></a>".format(
-                k=key, d=entities.day_of(cfg), s=entities.slugify(t["title"]),
-                i=i, h=E(t["article"]["headline"]), f=cfg["flag"],
-                n=E(cfg["country_name"]), ic=t["icon"],
-                cat=E(t["category"]), tr=E(t["traffic"]), tm=E(time_part)))
+    spotlight_html = ""
+    news_cards = []
+
+    if mixed:
+        # القصة المتصدرة كـ Spotlight مميز في الواجهة
+        first_key, first_cfg, first_t = mixed[0]
+        first_time = format_time(first_t.get("published_at") or first_cfg.get("generated_at"), is_en=False, country=first_key)
+        first_href = "{}/{}/{}/".format(first_key, entities.day_of(first_cfg), entities.slugify(first_t["title"]))
+        spotlight_html = render_hero_spotlight(
+            first_t, first_href, first_cfg["country_name"], first_cfg["flag"], first_time, root="./", is_en=False)
+
+        # باقي الأخبار في شبكة الكروت المصورة
+        for i, (key, cfg, t) in enumerate(mixed[1:], 2):
+            t_time = format_time(t.get("published_at") or cfg.get("generated_at"), is_en=False, country=key)
+            t_href = "{}/{}/{}/".format(key, entities.day_of(cfg), entities.slugify(t["title"]))
+            news_cards.append(render_trend_card(
+                t, t_href, i, cfg["country_name"], cfg["flag"], t_time, root="./", is_en=False))
 
     jobs_banner = """
-    <div class="channel-cta" style="background:linear-gradient(135deg,rgba(61,220,151,.12),rgba(90,169,255,.08));border-color:rgba(61,220,151,.35);margin:18px 0 24px;">
+    <div class="channel-cta" style="background:linear-gradient(135deg,rgba(61,220,151,.12),rgba(90,169,255,.08));border-color:rgba(61,220,151,.35);margin:24px 0 30px;">
       <div class="channel-cta-text">
         <h4 style="color:#3ddc97;">💼 دليل وظائف اليوم وعقود العمل الرسمية 2026</h4>
-        <p>وظائف حكومية ومسابقات رسمية، عقود عمل بالخارج (ألمانيا، كندا، إيطاليا)، وظائف الخليج، والعمل عن بعد بالدولار مع روابط التقديم المباشرة.</p>
+        <p>مسابقات حكومية، عقود عمل بالخارج (ألمانيا، كندا، إيطاليا)، وظائف كبرى شركات الخليج، والعمل عن بعد بالدولار مع روابط التقديم المباشرة.</p>
       </div>
       <div class="channel-cta-btns">
         <a class="btn-tg" style="background:#3ddc97;color:#0a0d14!important;font-weight:800;" href="./jobs/">استعرض جميع الوظائف ⬅️</a>
       </div>
     </div>"""
 
-    body = """
-    <h1>ما الذي يبحث عنه العرب اليوم؟</h1>
-    <p class="lead">الترند قبل أن يبرد… ما يشغل الملايين الآن ⚡</p>
+    body = f"""
+    <div style="margin-bottom:18px;">
+      <h1 style="font-size:2.1rem;margin-bottom:8px;">ما الذي يبحث عنه العرب اليوم؟</h1>
+      <p class="lead">الترند قبل أن يبرد… ما يشغل الملايين في مصر والسعودية لحظة بلحظة ⚡</p>
+    </div>
+
+    <div class="country-deck">
+      {"".join(deck_cards)}
+    </div>
+
+    {spotlight_html}
+
     {jobs_banner}
-    <div class="list">{cards}</div>
-    {news}""".format(
-        jobs_banner=jobs_banner,
-        cards="".join(cards),
-        news=("<h2>أبرز أخبار اليوم</h2><div class='list'>" +
-              "".join(news) + "</div>") if news else "")
+
+    <div style="display:flex;align-items:center;justify-content:space-between;margin:32px 0 16px;flex-wrap:wrap;gap:8px;">
+      <h2 style="margin:0;font-size:1.45rem;">🔥 أحدث التغطيات وترندات الساعة</h2>
+      <span style="font-size:0.85rem;color:var(--mut);">تحديث ورصد مباشر على مدار الساعة</span>
+    </div>
+
+    <div class="trends-grid">
+      {"".join(news_cards)}
+    </div>"""
 
     urls.append((BASE + "/", datetime.now(timezone.utc).isoformat(), "1.0"))
     return page("index.html", "{} — الأكثر بحثًا اليوم في العالم العربي".format(

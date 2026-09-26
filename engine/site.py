@@ -1029,7 +1029,7 @@ def build_takeaways(t, art, is_en=False):
     if not points and paras:
         points = paras[:3]
 
-    header = "📌 Key Verified Takeaways" if is_en else "📌 أهم الحقائق والوقائع المؤكدة في نقاط سريعة"
+    header = "⚡ The Story in 30 Seconds (Quick Takeaways)" if is_en else "⚡ إيه الحكاية؟ القصة باختصار في 30 ثانية"
     items_html = "".join(f"<li>{E(pt)}</li>" for pt in points)
     return f"""
     <div class="takeaways-box">
@@ -1112,18 +1112,18 @@ def build_faqs(t, art, is_en=False):
 
     if is_en:
         faqs = [
-            (f"Why is {term} trending right now?", summary or f"Public search interest surged following latest developments regarding {headline}."),
-            (f"What are the verified facts regarding {term}?", detail),
-            (f"Where can I find verified updates on this topic?", f"Follow live updates via ALTRENDAT and the verified news sources listed in our transparency ledger below.")
+            (f"What is the story and background behind {term}?", summary or f"Major developments emerged regarding: {headline}."),
+            (f"What are the key facts regarding {term}?", detail),
+            (f"Where can I find verified updates on this story?", f"Follow live updates via ALTRENDAT and the verified news sources listed in our transparency ledger below.")
         ]
-        title = "🔎 Frequently Asked Questions"
+        title = "🔎 People Also Ask (Key Questions)"
     else:
         faqs = [
-            (f"لماذا يتصدر «{term}» محركات البحث والترند اليوم؟", summary or f"تصدر الموضوع اهتمامات الجمهور إثر التطورات الإخبارية المتلاحقة المعلنة حول: {headline}."),
-            (f"ما هي أهم التفاصيل والحقائق المعلنة حول {term}؟", detail),
-            (f"أين يمكن متابعة التطورات والتغطية الرسمية للموضوع؟", "يمكن متابعة التحديثات اللحظية عبر تغطيتنا المستمرة في منصة «الترندات»، بالإضافة إلى مراجعة الروابط المباشرة للمصادر الإخبارية الرسمية المعتمدة المدرجة أسفل التقرير.")
+            (f"ما أصل الحكاية وما سر إثارة الجدل حول «{term}»؟", summary or f"شهدت الأحداث تطورات متسارعة أثارت اهتمامًا واسعًا حول: {headline}."),
+            (f"ما هي كواليس وأهم تفاصيل ما حدث حول «{term}»؟", detail),
+            (f"أين يمكن متابعة التطورات والتغطية الرسمية للحدث أولاً بأول؟", "يمكن متابعة التحديثات اللحظية عبر تغطيتنا المستمرة في منصة «الترندات»، بالإضافة إلى مراجعة الروابط المباشرة للمصادر الإخبارية الرسمية المعتمدة المدرجة أسفل التقرير.")
         ]
-        title = "🔎 أكثر الأسئلة بحثًا وإجاباتها الفورية (People Also Ask)"
+        title = "🔎 تساؤلات يبحث عنها الجميع (People Also Ask)"
 
     faq_cards = "".join(f"""
       <div class="faq-card">
@@ -1236,9 +1236,9 @@ def build_trend(country, cfg, t, urls):
            <a href="../../../../e/{slug}/">Topic history</a></p>""".format(
             cname=E(cname), day=day, slug=slug)
         src_html = sources_list(t["news"], is_en=True)
-        intel_badge = "⚡ Real-Time Trend Intelligence"
-        why_heading = f'🔥 Why is "{E(t["title"])}" trending now?'
-        read_more_heading = "📰 Verified Story & Background:"
+        intel_badge = "⚡ Real-Time Coverage & Breaking Insight"
+        why_heading = f'🔥 Inside the Story: What Just Happened'
+        read_more_heading = "📰 Full Coverage & Verified Details:"
         follow_cta = """
         <div class="trend-follow-cta">
           <div class="trend-follow-text">
@@ -1262,9 +1262,9 @@ def build_trend(country, cfg, t, urls):
            <a href="../../../../e/{slug}/">كل ظهور لـ"{term}"</a></p>""".format(
             cname=E(cfg["country_name"]), day=day, term=E(t["title"]), slug=slug)
         src_html = sources_list(t["news"], is_en=False)
-        intel_badge = "⚡ نبض الترند ورادار المتابعة اللحظية"
-        why_heading = f'🔥 لماذا أصبح «{E(t["title"])}» ترندًا الآن؟'
-        read_more_heading = "📰 التغطية الإخبارية والتحليل الموثق:"
+        intel_badge = "⚡ التفاصيل الكاملة من قلب الحدث"
+        why_heading = f'🔥 كواليس القصة وما جرى في اللحظات الأخيرة:'
+        read_more_heading = "📰 التفاصيل الكاملة والتحليل الموثق:"
         follow_cta = """
         <div class="trend-follow-cta">
           <div class="trend-follow-text">
@@ -1818,13 +1818,23 @@ def build_feed(data):
     return len(body)
 
 
-def build_gold_news_api(data):
+def build_gold_news_api(days_dict):
     """يصدر خلاصة الأخبار السياسية والاقتصادية والمؤثرة على الذهب بصيغة JSON نظيفة لتطبيق الذهب."""
     gold_feed = []
-    for key, cfg in data.items():
+    seen = set()
+    items_to_check = []
+    if all(isinstance(k, tuple) for k in days_dict.keys()):
+        sorted_keys = sorted(days_dict.keys(), key=lambda x: x[1], reverse=True)
+        for (key, day) in sorted_keys:
+            items_to_check.append((key, day, days_dict[(key, day)]))
+    else:
+        for key, cfg in days_dict.items():
+            day = entities.day_of(cfg)
+            items_to_check.append((key, day, cfg))
+
+    for key, day, cfg in items_to_check:
         cname = cfg.get("country_name", key)
         flag = cfg.get("flag", "")
-        day = entities.day_of(cfg)
         for t in cfg.get("trends", []):
             art = t.get("article")
             if not art:
@@ -1835,11 +1845,16 @@ def build_gold_news_api(data):
             title_text = (t.get("title", "") + " " + art.get("headline", "") + " " + art.get("body", "")).lower()
             is_relevant = cat in ("سياسة", "اقتصاد") or any(k in title_text for k in [
                 "ذهب", "عيار", "سبائك", "دولار", "جنيه", "ريال", "فائدة", "تضخم", "مركزي",
-                "صندوق النقد", "بريكس", "سويس", "بحر أحمر", "نفط", "أوبك", "قمة", "عقوبات", "صاغة"
+                "صندوق النقد", "بريكس", "سويس", "بحر أحمر", "نفط", "أوبك", "قمة", "عقوبات", "صاغة",
+                "gold", "dollar", "fed", "inflation", "currency", "oil", "opec"
             ])
             if not is_relevant:
                 continue
             slug = entities.slugify(t["title"])
+            uid = f"{key}-{slug}"
+            if uid in seen:
+                continue
+            seen.add(uid)
             canonical = f"{BASE}/{key}/{day}/{slug}/"
             thumb = pick_trend_photo(t)
             img_url = thumb["url"] if thumb else (BASE + "/og-default.jpg")
@@ -1859,6 +1874,10 @@ def build_gold_news_api(data):
                 "published_at": t.get("published_at") or cfg.get("generated_at"),
                 "sources": [n["source"] for n in t.get("news", []) if n.get("source")]
             })
+            if len(gold_feed) >= 15:
+                break
+        if len(gold_feed) >= 15:
+            break
 
     gold_feed.sort(key=lambda x: x.get("published_at", ""), reverse=True)
     out_file = os.path.join(OUT, "gold-news.json")
@@ -1950,7 +1969,7 @@ def main():
     jobs_urls = jobs.build_jobs_site(BASE, OUT, lambda d: country_nav("jobs", d))
     urls.extend(jobs_urls)
     n_feed = build_feed(latest)
-    n_gold = build_gold_news_api(latest)
+    n_gold = build_gold_news_api(days)
     build_404()
 
     # صفحات الكيانات — الأصل الذي يتراكم.

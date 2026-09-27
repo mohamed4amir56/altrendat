@@ -4,7 +4,7 @@
   "name_en": "Egypt",
   "lang": "ar",
   "flag": "🇪🇬",
-  "generated_at": "2026-09-27T07:30:44.905858+00:00",
+  "generated_at": "2026-09-27T07:45:53.688620+00:00",
   "day": "2026-09-27",
   "trends": [
     {
@@ -173,10 +173,11 @@
           "url": "https://www.youm7.com/story/2026/9/27/%D9%85%D9%88%D8%A7%D9%82%D9%8A%D8%AA-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF-27-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1-2026-%D8%A8%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9/7558334",
           "source": "اليوم السابع",
           "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRSGLtq7giIyLi5uCVsLB69kzPqbUcDAQ7L5w-J_qxHNRTKgRJW3xc_c8B8_r4",
-          "og_title": "مواقيت الصلاة اليوم الأحد 27 سبتمبر 2026 بمحافظات الجمهورية  - اليوم السابع",
-          "og_desc": "لقرائنا الراغبين فى التعرف على مواقيت الصلاة الصحيحة بمحافظات مصر، يقدم \"اليوم السابع\" مواقيت الصلاة الخمسة اليوم الأحد 27 سبتمبر 2026، فى عدد من محافظات مصر..",
-          "og_image": "https://img.youm7.com/xlarge/201810050651195119.jpg",
-          "ok": true
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "TimeoutError"
         },
         {
           "title": "أذان المغرب.. الموعد والأدعية المستحبة وقت الغروب",
@@ -203,128 +204,8 @@
       "category": "ديني",
       "icon": "🕌",
       "color": "#4dd0b1",
-      "reason": "العنوان يطابق: أذان · بيانات حيّة مرفقة",
-      "publishable": true,
-      "data": {
-        "kind": "prayer_times",
-        "title": "مواقيت الصلاة اليوم",
-        "columns": [
-          "الفجر",
-          "الشروق",
-          "الظهر",
-          "العصر",
-          "المغرب",
-          "العشاء"
-        ],
-        "rows": [
-          {
-            "city": "القاهرة",
-            "times": {
-              "الفجر": "05:19",
-              "الشروق": "06:46",
-              "الظهر": "12:46",
-              "العصر": "16:12",
-              "المغرب": "18:46",
-              "العشاء": "20:03"
-            }
-          },
-          {
-            "city": "الإسكندرية",
-            "times": {
-              "الفجر": "05:24",
-              "الشروق": "06:51",
-              "الظهر": "12:51",
-              "العصر": "16:18",
-              "المغرب": "18:51",
-              "العشاء": "20:09"
-            }
-          },
-          {
-            "city": "الجيزة",
-            "times": {
-              "الفجر": "05:20",
-              "الشروق": "06:46",
-              "الظهر": "12:46",
-              "العصر": "16:13",
-              "المغرب": "18:46",
-              "العشاء": "20:03"
-            }
-          },
-          {
-            "city": "أسوان",
-            "times": {
-              "الفجر": "05:17",
-              "الشروق": "06:39",
-              "الظهر": "12:39",
-              "العصر": "16:05",
-              "المغرب": "18:40",
-              "العشاء": "19:53"
-            }
-          },
-          {
-            "city": "الأقصر",
-            "times": {
-              "الفجر": "05:17",
-              "الشروق": "06:40",
-              "الظهر": "12:40",
-              "العصر": "16:07",
-              "المغرب": "18:41",
-              "العشاء": "19:55"
-            }
-          },
-          {
-            "city": "الغردقة",
-            "times": {
-              "الفجر": "05:11",
-              "الشروق": "06:35",
-              "الظهر": "12:36",
-              "العصر": "16:02",
-              "المغرب": "18:36",
-              "العشاء": "19:51"
-            }
-          },
-          {
-            "city": "شرم الشيخ",
-            "times": {
-              "الفجر": "05:08",
-              "الشروق": "06:33",
-              "الظهر": "12:34",
-              "العصر": "16:00",
-              "المغرب": "18:33",
-              "العشاء": "19:49"
-            }
-          },
-          {
-            "city": "بورسعيد",
-            "times": {
-              "الفجر": "05:14",
-              "الشروق": "06:42",
-              "الظهر": "12:42",
-              "العصر": "16:08",
-              "المغرب": "18:41",
-              "العشاء": "20:00"
-            }
-          }
-        ],
-        "hijri": "16-04-1448",
-        "gregorian": "27 Sep 2026",
-        "source": "Egyptian General Authority of Survey",
-        "source_url": "https://aladhan.com"
-      },
-      "article": {
-        "headline": "أذان الفجر غداً في القاهرة 05:19.. مواقيت الصلاة الكاملة بمحافظات مصر",
-        "summary": "هيئة المساحة المصرية تعلن مواقيت الصلاة الخمس ليوم الأحد 27 سبتمبر 2026 في جميع محافظات الجمهورية بدقة رسمية.",
-        "body": "أعلنت الهيئة المصرية العامة للمساحة مواقيت الصلاة ليوم غد الأحد 27 سبتمبر 2026 عبر محافظات مصر. وفق البيانات الرسمية، يؤذن للفجر في القاهرة والجيزة الساعة 05:19 و05:20 على التوالي، بينما يؤذن في الإسكندرية الساعة 05:24 في الوقت الذي يؤذن فيه في أسوان والأقصر 05:17، أما الغردقة فيبكر الفجر فيها قليلاً عند الساعة 05:11. وتشهد فترة الخريف تغييرات تدريجية في مواقيت الصلاة كل يوم، إذ تتأثر بتغيير موقع الشمس مع تقدم الفصول. أما موعد الشروق فيتوقع الساعة 06:46 بالقاهرة والجيزة، و06:51 بالإسكندرية، و06:39 بأسوان، و06:40 بالأقصر، و06:35 بالغردقة. صلاة الظهر تأتي الساعة 12:46 بالقاهرة والجيزة، و12:51 بالإسكندرية، و12:39 بأسوان، و12:40 بالأقصر، و12:36 بالغردقة. العصر يؤذن لها 16:12 بالقاهرة، و16:18 بالإسكندرية، و16:05 بأسوان، و16:07 بالأقصر، و16:02 بالغردقة. المغرب تكون مواقيته 18:46 بالقاهرة والجيزة، و18:51 بالإسكندرية، و18:40 بأسوان، و18:41 بالأقصر، و18:36 بالغردقة. وأخيراً العشاء يؤذن لها 20:03 بالقاهرة والجيزة، و20:09 بالإسكندرية، و19:53 بأسوان، و19:55 بالأقصر، و19:51 بالغردقة، وفقاً لـ \"اليوم السابع\".",
-        "tags": [
-          "مواقيت الصلاة",
-          "أذان الفجر",
-          "مصر",
-          "محافظات",
-          "هيئة المساحة"
-        ],
-        "_had_data": true,
-        "_localized": false
-      },
+      "reason": "مصادر غير كافية (أقل من خبرين بنص)",
+      "publishable": false,
       "card": "cards/eg-2026-09-27-موعد-اذان-الفجر.png",
       "published_at": "2026-09-27T02:49:23.173942+00:00"
     },
@@ -1194,23 +1075,23 @@
           "ok": true
         },
         {
-          "title": "‘Thank You’—Lamine Yamal Details Emotional Embrace With Lionel Messi After World Cup Final",
-          "url": "https://www.si.com/soccer/thank-you-lamine-yamal-emotional-embrace-lionel-messi-world-cup-final",
-          "source": "Sports Illustrated",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8uFN9s-s76fVqhB7kexGqvUuYTkX38uYTV9riqA1i5VbfMMbB2yS0GO2ow6s",
-          "og_title": "‘Thank You’—Lamine Yamal Details Emotional Embrace With Lionel Messi After World Cup Final",
-          "og_desc": "Lamine Yamal hugging Lionel Messi after the 2026 World Cup final is an image that will go down in soccer history.",
-          "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_55,w_1024,h_576/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01m3fgr8mn7j01bx31t4.jpg",
+          "title": "Barcelona’s Lamine Yamal reveals his post-World Cup final message to Lionel Messi",
+          "url": "https://getfootballnewsspain.com/barcelonas-lamine-yamal-reveals-his-post-world-cup-final-message-to-lionel-messi/",
+          "source": "Get Spanish Football News",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ87UX3VUZFEKLBeDC7qhNVuf08dGxI8WxZTKiU2H0JPXBqiYwVZ3VSBty9RLs",
+          "og_title": "Barcelona's Lamine Yamal reveals his post-World Cup final message to Lionel Messi - Get Spanish Football News",
+          "og_desc": "Barcelona star Lamine Yamal has this weekend provided an insight into the details of the personal message he sent the way of Blaugrana icon Lionel Messi",
+          "og_image": "https://getfootballnewsspain.com/wp-content/uploads/2026/07/spain-v-argentina-final-fifa-world-cup-2026-6-1024x715.jpg",
           "ok": true
         },
         {
-          "title": "Lamine Yamal reveals what he told Barcelona legend Lionel Messi after Spain beat Argentina in World Cup final",
-          "url": "https://www.barcablaugranes.com/barcelona-la-liga/133507/lamine-yamal-lionel-messi-world-cup-final",
-          "source": "Barca Blaugranes",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQZ1T6teEm0cd9Pco0QL6Dms_-vpLcwUdbJhlJCfxFTRHtGMs2SQRk5Cnp5tiM",
-          "og_title": "Lamine Yamal reveals what he told Barcelona legend Lionel Messi after Spain beat Argentina in World Cup final",
-          "og_desc": "The teenager spoke from the heart.",
-          "og_image": "https://platform.barcablaugranes.com/wp-content/uploads/sites/21/2026/07/gettyimages-2286807577.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "title": "Lamine Yamal’s Confession to Lionel Messi After Winning the World Cup",
+          "url": "https://www.beinsports.com/en-us/soccer/la-liga/articles/lamine-yamal-s-confession-to-lionel-messi-after-winning-the-world-cup-2026-09-26",
+          "source": "beIN SPORTS",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcReehw-PvM9i2mPdERCCDTXeijZ9aBMPalF3pA479pntJ_7hIq5L0qQCmjXbDM",
+          "og_title": "Lamine Yamal’s Confession to Lionel Messi After Winning the World Cup",
+          "og_desc": "Lamine Yamal revealed what he told Lionel Messi after winning the World Cup and explained why he avoided comparisons with the Argentine for years.",
+          "og_image": "https://prod-media.beinsports.com/image/Lamine%20Yamal%2C%20Lionel%20Messi.1080.JPG",
           "ok": true
         }
       ],

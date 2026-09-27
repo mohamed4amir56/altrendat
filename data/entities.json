@@ -10533,9 +10533,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
+          "4-1. Perú cae con polémica contra Estados Unidos",
           "TODOS LOS GOLES: Estados Unidos vs Perú | Amistoso Internacional",
-          "Paliza de autoridad internacional de Estados Unidos que destroza a Perú en un amistoso de infarto (VIDEO)",
-          "Perú sufrió una goleada ante Estados Unidos en el quinto partido de la era Mano Menezes"
+          "Paliza de autoridad internacional de Estados Unidos que destroza a Perú en un amistoso de infarto (VIDEO)"
         ]
       },
       {
@@ -11871,9 +11871,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
+          "Canadá se reencuentra con su gente venciendo a una descolorida e impotente selección de Chile",
           "Uno x uno en Chile: Por lejos, Vigoroux el mejor",
-          "Nicolás Córdova:”Me quedo con la actitud y coraje del equipo”",
-          "La Roja vivió una adversa jornada en el BMO Field de Toronto"
+          "“Es súper rescatable”: El factor que dejó conforme a Córdova en la nueva derrota de la Roja"
         ]
       }
     ],
@@ -13337,9 +13337,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "México vs Colombia: Johan Vásquez, capitán del Tri en la 'Era Rafa Márquez'",
           "🔴 TUDN y Canal 5 EN VIVO GRATIS | Señal transmisión México vs. Colombia ONLINE vía TV Abierta",
-          "Rafa Márquez insiste por ver a Gilberto Mora en el futbol europeo"
+          "Gol de Gil Mora ante Colombia",
+          "¡Los 11 de la tribu! Rafael Márquez presenta a su primera alineación con el Tri"
         ]
       }
     ],
@@ -15029,8 +15029,8 @@
         "publishable": true,
         "headlines": [
           "عام / مفتي عام المملكة يوجه بيانًا للمرابطين ولقوات التحالف",
-          "مفتي السعودية: الحوثي عصابة شر.. ودسيسة أعداء قامت على فساد العقيدة",
-          "مفتي السعودية: الحوثيون عصابة شر فاسدة العقيدة والمنهج"
+          "وطنٌ يحميه رجاله وتحصّنه وحدته",
+          "مفتي السعودية: الحوثي عصابة شر.. ودسيسة أعداء قامت على فساد العقيدة"
         ]
       }
     ],
@@ -16259,7 +16259,7 @@
         "publishable": true,
         "headlines": [
           "Nor'easter will slam Northeast, NYC, Boston through weekend",
-          "Nor'easter turns deadly as brunt of storm moves toward NYC area | Team coverage",
+          "First Alert Weather: Brunt of nor'easter arrives in New York - 9/26/26",
           "Live updates: Powerful Nor’easter digs in on the East Coast"
         ]
       }
@@ -16282,8 +16282,8 @@
         "date": "2026-09-27",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
@@ -16298,7 +16298,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 10000,
     "category": "اقتصاد"
   },
   "netflix-new-releases": {
@@ -16358,5 +16358,63 @@
     ],
     "peak_traffic": 500,
     "category": "رياضة"
+  },
+  "stock-market-today": {
+    "slug": "stock-market-today",
+    "name": "stock market today",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "اقتصاد",
+        "publishable": true,
+        "headlines": [
+          "McDonald’s Sell-Off Hits 30% as Big Mac Inflation Spurs Pushback",
+          "One Reason McDonald’s Stock Looks Better Than Its Price",
+          "McDonald’s Selloff Hits 30% as Big Mac Inflation Spurs Pushback"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "اقتصاد"
+  },
+  "منصه-مدرستي": {
+    "slug": "منصه-مدرستي",
+    "name": "منصه مدرستي",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|sa",
+        "date": "2026-09-27",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100000+",
+        "traffic_num": 100000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "تحويل الدراسة الحضورية إلى عن بُعد في مدارس الرياض عبر منصة مدرستي",
+          "مدارس العاصمة السعودية تتحول إلى التعليم عن بعد لمدة أسبوع بقرار حكومي",
+          "السعودية تحول الدراسة في مدارس الرياض إلى عن بعد لمدة أسبوع"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100000,
+    "category": "شخصية"
   }
 }

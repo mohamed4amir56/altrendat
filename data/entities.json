@@ -26444,8 +26444,8 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "MATCH GUIDE | Crew vs. Inter Miami CF",
           "Columbus Crew vs. Inter Miami: What to know for Sunday Night Soccer",
+          "See highlights of Columbus Crew vs. Lionel Messi, Inter Miami soccer",
           "Will Lionel Messi Play for Inter Miami vs. Columbus Crew?"
         ]
       }
@@ -26497,8 +26497,8 @@
         "date": "2026-09-27",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "عام",
         "publishable": true,
         "headlines": [
@@ -26513,7 +26513,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "عام"
   },
   "baker-mayfield": {
@@ -26777,11 +26777,11 @@
         "traffic": "200+",
         "traffic_num": 200,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "MATCH PREVIEW: Inter Miami CF in Road Action Against Columbus Crew this Sunday",
           "Lionel Messi Keeps Focus on Inter Miami Ahead of Argentina Farewell",
-          "Columbus Crew host Latino Celebration Night, presented by Sherwin-Williams, vs. Inter Miami CF on Sunday"
+          "See highlights of Columbus Crew vs. Lionel Messi, Inter Miami soccer"
         ]
       },
       {
@@ -26792,11 +26792,11 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "MATCH PREVIEW: Inter Miami CF in Road Action Against Columbus Crew this Sunday",
           "Lionel Messi Keeps Focus on Inter Miami Ahead of Argentina Farewell",
-          "Columbus Crew host Latino Celebration Night, presented by Sherwin-Williams, vs. Inter Miami CF on Sunday"
+          "See highlights of Columbus Crew vs. Lionel Messi, Inter Miami soccer"
         ]
       }
     ],
@@ -27010,6 +27010,93 @@
       "sa"
     ],
     "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "street-fighter-movie": {
+    "slug": "street-fighter-movie",
+    "name": "street fighter movie",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "فن ومشاهير",
+        "publishable": true,
+        "headlines": [
+          "'Street Fighter' Popcorn Bucket Flips Guile's Hair Into Wearable Merch",
+          "10 Movies To Watch If You Can't Wait For Street Fighter",
+          "WWE's Roman Reigns, Cody Rhodes Star in New Gameplay-Movie Comparison Trailer Ahead of Release Date"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "فن ومشاهير"
+  },
+  "spacex-starship-launch": {
+    "slug": "spacex-starship-launch",
+    "name": "spacex starship launch",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "The most powerful rocket ever built is on the verge of its biggest — and riskiest — test yet",
+          "Watch: The ups and downs of SpaceX's 13 Starship test flights",
+          "SpaceX's Starship megarocket launching to orbit for 1st time ever on Sept. 28: Watch it live"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "mike-krukow": {
+    "slug": "mike-krukow",
+    "name": "mike krukow",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Fans prepare to say goodbye to Bay Area legend Mike Krukow",
+          "Giants honor Mike Krukow and Duane Kuiper",
+          "Dodgers seek 100th win in regular-season finale vs. Giants"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
     "category": "رياضة"
   }
 }

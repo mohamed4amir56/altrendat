@@ -65,14 +65,7 @@ def send_onesignal_notification(app_id, api_key, item, base_url, lang="ar"):
 
     is_politics = cat_key == "cat_politics"
     if lang == "ar":
-        if is_politics:
-            heading = "🏛️ خبر سياسي عاجل"
-        elif cat_key == "cat_gold":
-            heading = "🥇 أسواق الذهب والمعادن"
-        elif cat_key == "cat_silver":
-            heading = "🥈 أسواق الفضة"
-        else:
-            heading = "📈 اقتصاد وعملات"
+        heading = "جولدكس - أخبار عاجلة" if is_politics else "جولدكس - أسواق الذهب"
         content = title[:130]
 
         # استهداف المستخدمين الناطقين بالعربية أو من اختار العربية في التطبيق
@@ -82,14 +75,7 @@ def send_onesignal_notification(app_id, api_key, item, base_url, lang="ar"):
             {"field": "language", "relation": "=", "value": "ar"},
         ]
     else:
-        if is_politics:
-            heading = "🏛️ Breaking Political News"
-        elif cat_key == "cat_gold":
-            heading = "🥇 Gold & Metal Markets"
-        elif cat_key == "cat_silver":
-            heading = "🥈 Silver Market Alert"
-        else:
-            heading = "📈 Economy & Currency Alert"
+        heading = "Goldex - Breaking News" if is_politics else "Goldex - Market Alert"
         content = title[:130]
 
         # استهداف المستخدمين باللغة الإنجليزية
@@ -118,8 +104,9 @@ def send_onesignal_notification(app_id, api_key, item, base_url, lang="ar"):
             "icon": icon,
         },
         "chrome_web_icon": image,
+        "large_icon": image,
         "big_picture": image,
-        "android_accent_color": "E53935" if is_politics else "FFD700",
+        "android_accent_color": "FFD700",  # شعار دائري ذهبي خالص
     }
 
     headers = {

@@ -1041,8 +1041,8 @@
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
-          "بعثة منتخب مصر تطير إلى جوبا لمواجهة جنوب السودان فى تصفيات أفريقيا.. صور",
           "لاعب الفراعنة يلحق بصلاح إلى خارج المعسكر",
+          "بعثة منتخب مصر تطير إلى جوبا لمواجهة جنوب السودان فى تصفيات أفريقيا.. صور",
           "حسام حسن يكشف سبب استبدال محمد صلاح"
         ]
       }
@@ -16806,7 +16806,7 @@
         "headlines": [
           "دانتيل شفاف وتفاصيل بقصّة المايوه.. هيفاء وهبي تخطف الأضواء في أسبوع الموضة بميلانو",
           "أبرزهن هيفاء وهبي.. 15 صورة لإطلالات النجمات العرب في أسبوع الموضة بميلانو",
-          "هيفاء وهبي وجينيفر لوبيز فى أحدث ظهور على هامش فعاليات أسبوع الموضة بـ ميلانو"
+          "هيفاء وهبي تلتقي جنيفر لوبيز خلال فعاليات أسبوع الموضة بـ ميلانو"
         ]
       }
     ],
@@ -17270,11 +17270,7 @@
         "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
-        "headlines": [
-          "وكيل اقتصادية النواب: أوقفنا حذف المواطنين من بطاقات التموين.. وفتحنا باب تقديم التظلمات بعد منعه",
-          "تحديث بطاقة التموين 2026.. خطوات التظلم لاستعادة الدعم",
-          "أيمن محسب: قانون حماية المنافسة ومنع الممارسات الاحتكارية أبرز ما قدمه «الوفد»"
-        ]
+        "headlines": []
       }
     ],
     "last_seen": "2026-09-27",
@@ -17633,10 +17629,10 @@
         "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "عام",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "India West Indies Cricket",
+          "Live Cricket Score, Schedule, Latest News, Stats & Videos",
           "India West Indies Cricket",
           "India West Indies Cricket"
         ]
@@ -17648,7 +17644,7 @@
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "عام"
+    "category": "رياضة"
   },
   "china": {
     "slug": "china",
@@ -18820,8 +18816,8 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
+          "Presidents Cup Saturday results: U.S. chips away at International Team lead, trails by 3 heading into Sunday",
           "'I don't think I've done the best job': With U.S. still down, Brandt Snedeker is already falling on his sword",
-          "Presidents Cup leaderboard, Day 4 updates, tee times, pairings, lineup",
           "Americans make small dent in International lead at Presidents Cup"
         ]
       }
@@ -18861,6 +18857,180 @@
       "world"
     ],
     "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "patriots-schedule": {
+    "slug": "patriots-schedule",
+    "name": "patriots schedule",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Patriots vs Jaguars Prediction, Pick, Odds for NFL Week 3",
+          "Patriots-Jaguars preview: What to watch for from Drake Maye, game keys and prediction",
+          "3 to Watch: Patriots Hit the Road to Jacksonville for Week 3 AFC Showdown with Jaguars"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "ice": {
+    "slug": "ice",
+    "name": "ice",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "USA-MIGRATION/SHOOTING",
+          "Texas Congressmember Says Venezuelan Immigrant Shot by ICE Still Has Bullet Lodged in Back",
+          "US government continues to torture gunshot victim Wilber Garces Perez"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
+  },
+  "top-25-college-football-rankings": {
+    "slug": "top-25-college-football-rankings",
+    "name": "top 25 college football rankings",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Tomorrow's Top 25 Today: Florida into top 10, Michigan and Penn State fall from college football rankings",
+          "Mississippi likely out of top 5 in new AP Top 25; big shuffle on tap after 7 ranked teams lose",
+          "College Football Rankings: Florida, LSU Up; Michigan, USC Fall — Plus 3 New Teams"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "ke-huy-quan": {
+    "slug": "ke-huy-quan",
+    "name": "ke huy quan",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Ke Huy Quan Says Steven Spielberg and George Lucas’ Temple of Doom Gift Was ‘Life-Changing’ (Exclusive)",
+          "Ke Huy Quan's First $100,000 'Indiana Jones' Residual Check Was 'Life-Changing'",
+          "Ke Huy Quan reveals first ‘Temple of Doom’ residuals check was $100,000"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "jim-banks": {
+    "slug": "jim-banks",
+    "name": "jim banks",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Massive ICE sweep fuels GOP push to lock Trump immigration crackdown into law",
+          "How to find legal help if a family member is detained by ICE",
+          "US immigration crackdown | Massive ICE operation nets 426 arrests across Indiana in five days"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "tom-banton": {
+    "slug": "tom-banton",
+    "name": "tom banton",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|sa",
+        "date": "2026-09-27",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Ball by Ball Commentary & Live Score - ENG vs SL, 3rd ODI",
+          "Sri Lanka beat England by 16 runs after 121 by captain Mendis to take ODI series to a decider",
+          "Headingley offers hope, but hard calls remain"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
     "category": "رياضة"
   }
 }

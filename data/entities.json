@@ -2694,7 +2694,8 @@
         "publishable": true,
         "headlines": [
           "حالة الطقس غدا الإثنين 28 سبتمبر 2026 في مصر.. درجات الحرارة والأمطار",
-          "الطقس غدا.. أجواء خريفية وتحذير من شبورة صباحا والعظمى بالقاهرة 32 درجة"
+          "الطقس غدا.. أجواء خريفية وتحذير من شبورة صباحا والعظمى بالقاهرة 32 درجة",
+          "الأرصاد: منخفض جوي في طبقات الجو العليا وراء أمطار السلوم وسيوة"
         ]
       }
     ],
@@ -20887,7 +20888,7 @@
         "traffic": "5000+",
         "traffic_num": 5000,
         "category": "ديني",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "مواقيت الصلاة اليوم الأحد 27 سبتمبر 2026 في القاهرة والمحافظات",
           "موعد أذان المغرب اليوم الأحد \"15 ربيع الآخر\" في القاهرة والمحافظات",
@@ -20916,11 +20917,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "الزمالك يفوز على مودرن 4 - 3 وديا استعدادا لمواجهة زد",
           "الزمالك يجهز ثلاثي الهجوم لحل أزمة التهديف",
-          "اليوم.. الزمالك يخوض أولى ودياته خلال فترة التوقف الدولي"
+          "الزمالك يهزم مودرن سبورت وديًا برباعية"
         ]
       },
       {
@@ -21807,9 +21808,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Oranje wint nipt in Servië (1-2) • Meerdink maakt beide goals",
-          "LIVE: Nederland gaat in Servië op zoek naar eerste zege onder Xavi, Van Bommel mag al snel invallen na blessure Gakpo",
-          "Volgende blessure in aanval Oranje: Cody Gakpo valt uit na harde tackle Saša Lukic"
+          "Eerste overwinning onder bondscoach Xavi is binnen: Oranje wint met 2-1 van Servië in Nations League",
+          "Mexx Meerdink in voetsporen van Vincent Janssen, maar vier spelers scoorden zelfs bij Oranje-debuut uit penalty",
+          "LIVE - Alles te herdoen voor Nederland: Jovic trapt Servië minuut na rust al langszij met flipperkastgoal"
         ]
       },
       {
@@ -22079,10 +22080,10 @@
         "date": "2026-09-27",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+7000",
-        "traffic_num": 7000,
+        "traffic": "+15000",
+        "traffic_num": 15000,
         "category": "شخصية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "موعد مباراة النرويج ضد البرتغال فى دوري الأمم الأوروبية والقنوات الناقلة",
           "جدول مباريات اليوم الأحد 27 سبتمبر 2026 .. القنوات الناقلة والمعلقين",
@@ -22097,11 +22098,11 @@
         "traffic": "+10000",
         "traffic_num": 10000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "جدول مباريات اليوم الأحد 27 سبتمبر 2026 .. القنوات الناقلة والمعلقين",
           "كما فعل يامال مع ميسي.. هل يوجه هالاند ضربة النهاية لكريستيانو رونالدو؟",
-          "موعد مباراة النرويج ضد البرتغال في دوري الأمم الأوروبية والقنوات الناقلة"
+          "صدام ناري بين النرويج والبرتغال فى دوري الأمم الأوروبية الليلة"
         ]
       }
     ],
@@ -22111,7 +22112,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 15000,
     "category": "شخصية"
   },
   "البحرين-ضد-الإمارات": {
@@ -22124,14 +22125,14 @@
         "date": "2026-09-27",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
+          "بث مباشر .. شاهد مباراة قطر واليمن في كأس الخليج العربي \"خليجي 27\"",
           "زلاتكو: الفوز ولاغيره أمام البحرين",
-          "منتخب الإمارات يلتقي نظيره البحريني اليوم في الجولة الثانية من «خليجي 27»",
-          "الإمارات تهدد حامل اللقب بالخروج المبكر"
+          "منتخب الإمارات يلتقي نظيره البحريني اليوم في الجولة الثانية من «خليجي 27»"
         ]
       }
     ],
@@ -22140,7 +22141,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "دول وأماكن"
   },
   "سامي-الجابر": {
@@ -22160,7 +22161,7 @@
         "headlines": [
           "\"خليجي 27\".. سامي الجابر يرد على منتقدي مهاجم السعودية: \"في قلوبكم غل\"",
           "محمد نور: قرار دونيس سيدمر هذا اللاعب!",
-          "عاجل.. والد عبدالله الحمدان يرد على الهجوم ضد نجله بسبب مباراة الكويت"
+          "لماذا أصبح الحمدان هو المباراة؟"
         ]
       }
     ],
@@ -22182,14 +22183,14 @@
         "date": "2026-09-27",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "20000+",
-        "traffic_num": 20000,
+        "traffic": "50000+",
+        "traffic_num": 50000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "Tomorrow's Top 25 Today: Florida into top 10, Michigan and Penn State fall from college football rankings",
-          "A big college football shuffle is on tap after Florida railroads Ole Miss",
-          "Mississippi likely out of top 5 in new AP Top 25; big shuffle on tap after 7 ranked teams lose"
+          "AP College Football Poll 2026 Week 5 Rankings Released with Top Risers and Fallers",
+          "Josh Furlong's AP Top 25: Texas adds to resume as Florida takes giant leap in rankings"
         ]
       }
     ],
@@ -22198,7 +22199,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 20000,
+    "peak_traffic": 50000,
     "category": "رياضة"
   },
   "jets": {
@@ -22298,14 +22299,14 @@
         "date": "2026-09-27",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "category": "عام",
-        "publishable": true,
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
         "headlines": [
-          "‘Like Seeing Your Ex’ Jaguars’ Jakobi Meyers Reveals What’s it Like Facing Ex-Team Patriots",
-          "Examining the roster ties between Patriots, Jaguars ahead of Week 3",
-          "Tom Brady’s Former 359-Yard WR Set for Patriots Reunion in Jacksonville"
+          "Jaylen Warren's 35-yard run gets Steelers into Bengals' territory very quickly",
+          "Was Devin Lloyd’s dominant day at Atlanta the greatest performance by a Panthers LB? - The Athletic",
+          "Panthers in awe of LB Devin Lloyd's 'dominant' game"
         ]
       }
     ],
@@ -22314,8 +22315,8 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
-    "category": "عام"
+    "peak_traffic": 2000,
+    "category": "رياضة"
   },
   "ncis-new-york": {
     "slug": "ncis-new-york",
@@ -22333,7 +22334,7 @@
         "publishable": true,
         "headlines": [
           "CBS Finally Fixes an Obvious NCIS Mistake With Jimmy Palmer",
-          "Major NCIS Star Returns in Trailer for First New Spinoff Since Tony & Ziva Cancellation",
+          "8 NCIS Characters Who Needs To Return In New York Spinoff",
           "Free full episodes of NCIS: New York on GlobalTV.com | Cast photos, gossip and news from NCIS: New York"
         ]
       }
@@ -22361,7 +22362,7 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Dalton Schultz Elevated role expected again",
+          "Texans' Dalton Schultz: Elevated role expected again",
           "AFC Notes: Dalton Schultz, Alec Pierce, Colts, Jaguars, Texans",
           "Using Vegas Prop Lines to Make Week 3 Fantasy Football Start-Sit Decisions Featuring Dalton Schultz"
         ]
@@ -22417,9 +22418,11 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Efton Chism III - Fantasy Football Fallers, Bust Candidates for Week 3 (2026)? - NFL News"
+          "Efton Chism III - Fantasy Football Fallers, Bust Candidates for Week 3 (2026)? - NFL News",
+          "Andy Borregales connects on two field goals in Week 2 win",
+          "Patriots' Andy Borregales: Misses 47-yard field goal in Week 2 win"
         ]
       }
     ],
@@ -22470,8 +22473,8 @@
         "date": "2026-09-27",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
@@ -22502,7 +22505,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "دول وأماكن"
   },
   "germany-vs-greece": {
@@ -22520,9 +22523,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Jurgen Klopp baffled by Marc-Andre ter Stegen criticism despite dropping Germany goalkeeper for Greece clash",
-          "Nmecha, Schlotterbeck to face Karetsas as Germany play Greece",
-          "Germany vs Greece: UEFA Nations League stats & head-to-head"
+          "Jurgen Klopp explains decision to drop Marc-Andre ter Stegen despite being ‘very, very happy’ with Barcelona loanee",
+          "Germany vs Greece – Prediction, Where to Watch, Kick-off Time and Lineups 27-09",
+          "How to Watch Germany National Football Team vs Greece National Football Team Today: TV Channel and Live Stream"
         ]
       },
       {
@@ -22535,9 +22538,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Jurgen Klopp baffled by Marc-Andre ter Stegen criticism despite dropping Germany goalkeeper for Greece clash",
+          "Germany vs Greece: UEFA Nations League stats & head-to-head",
           "Nmecha, Schlotterbeck to face Karetsas as Germany play Greece",
-          "Germany vs Greece: UEFA Nations League stats & head-to-head"
+          "Germany vs Greece – Prediction, Where to Watch, Kick-off Time and Lineups 27-09"
         ]
       }
     ],
@@ -22549,5 +22552,150 @@
     ],
     "peak_traffic": 1000,
     "category": "رياضة"
+  },
+  "leo-chenal": {
+    "slug": "leo-chenal",
+    "name": "leo chenal",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Should Commanders fans give up because of losses in 2 NFC East road games? - Daily Slop",
+          "Commanders Can’t Catch A Break | Sports Junkies",
+          "Watch Who should feel worse: New York Giants or Washington Commanders fans? - Wake Up Barstool"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "دول وأماكن"
+  },
+  "travis-hunter": {
+    "slug": "travis-hunter",
+    "name": "travis hunter",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Why are the Jaguars using CB/WR Travis Hunter sparingly?",
+          "O-Zone: Yet Another Big One",
+          "‘I Have No Idea What’s Going On’ — Deion Sanders Shocked by Jaguars’ Questionable Usage of Travis Hunter"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "dexter-lawrence": {
+    "slug": "dexter-lawrence",
+    "name": "dexter lawrence",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "The best trade of the NFL offseason has made the Bengals a bona fide contender - The Athletic",
+          "Dexter Lawrence is adding, among many things, personality to the Bengals defense",
+          "Dexter Lawrence opens up on how he knew his Giants run was over — and his return to ‘dominance’ with Bengals"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "hurricane-central": {
+    "slug": "hurricane-central",
+    "name": "hurricane central",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "طقس",
+        "publishable": true,
+        "headlines": [
+          "2 tropical storms in the Atlantic after a slow start to the 2026 season",
+          "Tracking 2 tropical storms in the Atlantic Basin",
+          "Today's tropical weather forecast"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "طقس"
+  },
+  "deutschland-griechenland": {
+    "slug": "deutschland-griechenland",
+    "name": "deutschland – griechenland",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|eg",
+        "date": "2026-09-27",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": true,
+        "headlines": [
+          "Nationalmannschaft: Riesen-Überraschung in unserer Startelf",
+          "Wer überträgt Deutschland gegen Griechenland heute live im TV & Stream?",
+          "Bundestrainer Jürgen Klopp streicht BVB-Star aus Griechenland-Kader"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
   }
 }

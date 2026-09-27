@@ -1036,13 +1036,13 @@
         "date": "2026-09-27",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
+          "صلاح يعيد الجدل.. هل النجيل الصناعي أخطر على اللاعبين؟",
           "بعد استبعاد صلاح وعبد المنعم.. هل تسبب ملاعب \"الترتان\" خطورة للاعبين؟",
-          "هل سيتم ضم مدافع جديد بدل من محمد عبد المنعم؟ الجهاز الفنى يوضح..",
           "بعثة منتخب مصر تطير إلى جوبا لمواجهة جنوب السودان فى تصفيات أفريقيا.. صور"
         ]
       }
@@ -1053,7 +1053,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "دول وأماكن"
   },
   "ماركو-روبيو": {
@@ -4882,10 +4882,25 @@
           "مؤشر سوق الأسهم السعودية يغلق منخفضًا عند 10,598 نقطة",
           "81 نقطة انخفاض للأسهم.. التداولات 3.5 مليار ريال"
         ]
+      },
+      {
+        "key": "2026-09-27|sa",
+        "date": "2026-09-27",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "مؤشر سوق الأسهم السعودية يغلق على ارتفاع بعد 7 جلسات من التراجع",
+          "مؤشر الأسهم السعودية يرتفع 82.96 نقطة ويتجاوز مستوى 10681 نقطة",
+          "نظرة على أداء السوق السعودي لهذا الأسبوع (آراء محللين بالداخل)"
+        ]
       }
     ],
-    "last_seen": "2026-09-24",
-    "total": 1,
+    "last_seen": "2026-09-27",
+    "total": 2,
     "countries": [
       "sa"
     ],
@@ -18612,14 +18627,14 @@
         "date": "2026-09-27",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "Time running out for Tennessee killer Christa Pike who says she's too damaged for death row",
-          "Too traumatized to die? Women rally to halt execution of rape survivor",
-          "Tennessee’s Only Woman on Death Row Speaks Out Days Before Execution for Murder She Committed at 18"
+          "Opinion | Governor Lee, This Woman Should Not Be on Death Row",
+          "The “Satanic Panic” Made Her a True-Crime Obsession. The Truth Is More Haunting."
         ]
       }
     ],
@@ -18628,7 +18643,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "حوادث وقضايا"
   },
   "kuldeep-yadav": {
@@ -18791,7 +18806,7 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "ملف يلا كورة.. مصير حسام حسن.. وكيف يفكر الأهلي؟",
+          "44 يومًا حاسمة.. هل تنهي أزمة صلاح والشناوي سطوة حسام حسن في المنتخب؟ (صور)",
           "لماذا هاجم حسام حسن ما يقدم في الدوري المصري؟.. فيديو",
           "أزمة الشناوي تتصاعد.. بيان حاد من الأهلي ردا على حسام حسن"
         ]
@@ -19021,11 +19036,11 @@
         "traffic": "200+",
         "traffic_num": 200,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "England vs Sri Lanka LIVE: Third ODI, The Oval - cricket score, commentary & video highlights",
-          "England's Tom Banton hammers his maiden ODI hundred: Key stats",
-          "Tom Banton credits Brendon McCullum pep talk for England resurgence"
+          "Tom Banton scores first England century in series decider against Sri Lanka",
+          "Live Cricket Score, Schedule, Latest News, Stats & Videos"
         ]
       }
     ],
@@ -19076,14 +19091,14 @@
         "date": "2026-09-27",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "category": "عام",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Buttler out of Oval decider as Lawrence earns ODI call-up",
-          "Sri Lanka Latest Breaking News and Headlines - Print Edition England change ODI squad before Sri Lanka decider",
-          "Opportunity knocks for Jordan Cox after Jos Buttler injury"
+          "Ball by Ball Commentary & Live Score - ENG vs SL, 3rd ODI",
+          "Sri Lanka beat England by 16 runs after 121 by captain Mendis to take ODI series to a decider",
+          "Headingley offers hope, but hard calls remain"
         ]
       }
     ],
@@ -19092,8 +19107,8 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
-    "category": "عام"
+    "peak_traffic": 2000,
+    "category": "رياضة"
   },
   "autumn-clock-change-2026-schedule": {
     "slug": "autumn-clock-change-2026-schedule",
@@ -19161,8 +19176,8 @@
         "date": "2026-09-27",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -19177,7 +19192,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "david-miller": {
@@ -19335,14 +19350,14 @@
         "date": "2026-09-27",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "category": "شخصية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "اليمن.. القوات المسلحة تستهدف مواقع ومخازن الحوثيين شرق تعز",
-          "غارات الجيش اليمني تدك معسكرات الحوثيين في تعز",
-          "القوات اليمنية تستهدف مواقع ومخازن أسلحة للمليشيات الحوثية في تعز"
+          "الحوثيون يعلنون مقتل 7 أشخاص وإصابة 40 في غارة سعودية على تعز",
+          "اليمن: السعودية تشن 52 غارة وصاروخا خلال 24 ساعة ونزوح أكثر من 149 ألف شخص",
+          "الصحة اليمنية: 7 شهداء وأكثر من 40 جريحاً جراء غارات سعودية على تعز"
         ]
       }
     ],
@@ -19351,8 +19366,8 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
-    "category": "شخصية"
+    "peak_traffic": 2000,
+    "category": "حوادث وقضايا"
   },
   "trade-war": {
     "slug": "trade-war",
@@ -19364,14 +19379,14 @@
         "date": "2026-09-27",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
-        "category": "دول وأماكن",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
         "publishable": true,
         "headlines": [
-          "‘It’s devastating’: The US-Canada trade war is putting protein on the menu",
-          "Trump's top trade envoy says U.S. 'comfortable' with state of relationship with Canada",
-          "Trump sees no urgency for Canada deal as trade dispute deepens, USTR says"
+          "‘It’s just getting worse’: anger in Maine over Trump’s trade war with close neighbor Canada",
+          "Anxiety over trade war with Canada provides backdrop for Michigan U.S. Senate race",
+          "Anthony Scaramucci to Newsmax: Trump Needs Canada Deal"
         ]
       }
     ],
@@ -19380,8 +19395,8 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
-    "category": "دول وأماكن"
+    "peak_traffic": 200,
+    "category": "سياسة"
   },
   "nfl-schedule-today": {
     "slug": "nfl-schedule-today",
@@ -19456,9 +19471,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "How to Watch Chiefs vs. Dolphins: TV Channel, Live Stream, Time",
+          "How to Watch and Listen | Week 3: Chiefs vs. Dolphins",
           "Madden Simulation Week 3: A business trip to Miami for the Chiefs",
-          "Chiefs vs. Dolphins prediction markets: NFL picks, predictions available with Kalshi promo code CBSSPORTS55"
+          "How to Watch Chiefs vs. Dolphins: TV Channel, Live Stream, Time"
         ]
       }
     ],
@@ -19482,11 +19497,11 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "عام",
+        "category": "رياضة",
         "publishable": true,
         "headlines": [
           "Islanders sign Logan Stanley to one-year contract",
-          "Islanders, Logan Stanley have mutual interest in one-year, $1.5M deal",
+          "NHL Status Report: Islanders sign Stanley to 1-year contract",
           "Islanders sign D Stanley to one-year contract"
         ]
       }
@@ -19497,7 +19512,7 @@
       "world"
     ],
     "peak_traffic": 500,
-    "category": "عام"
+    "category": "رياضة"
   },
   "vmas-2026": {
     "slug": "vmas-2026",
@@ -19512,7 +19527,7 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "عام",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "The MTV VMAs are here with Taylor Swift making history and Madonna leading the nods: How to watch",
           "MTV VMAs 2026: Everything to Know About the Show",
@@ -19567,14 +19582,14 @@
         "date": "2026-09-27",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "عام",
         "publishable": true,
         "headlines": [
           "Lawndale, Chicago fire today: 2 seriously injured in apartment fire in 2200-block of South Keeler Avenue, fire department says",
-          "Fire spreads to apartment building, home and RV in Los Angeles",
-          "Los Angeles firefighter struck by vehicle, 2 others injured during structure fire in Westlake"
+          "Los Angeles firefighter struck by vehicle, 2 others injured during structure fire in Westlake",
+          "Fire spreads to apartment building, home and RV in Los Angeles"
         ]
       }
     ],
@@ -19583,7 +19598,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "عام"
   },
   "cbs-sunday-morning": {
@@ -19596,14 +19611,14 @@
         "date": "2026-09-27",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "عام",
         "publishable": true,
         "headlines": [
+          "This week on \"Sunday Morning\" (Sept. 27)",
           "Sylvester Stallone jokes about one of his wildest jobs before fame",
-          "CBS News Sunday Morning September 27: Sylvester Stallone, Raye",
-          "This week on \"Sunday Morning\" (Sept. 27)"
+          "CBS News Sunday Morning September 27: Sylvester Stallone, Raye"
         ]
       }
     ],
@@ -19612,7 +19627,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "عام"
   },
   "علياء-بسيوني": {
@@ -19654,8 +19669,8 @@
         "date": "2026-09-27",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "سياسة",
         "publishable": true,
         "headlines": [
@@ -19670,7 +19685,65 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "سياسة"
+  },
+  "iran-news": {
+    "slug": "iran-news",
+    "name": "iran news",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "سياسة",
+        "publishable": true,
+        "headlines": [
+          "Iran insists on diplomatic solution after Trump rejects peace plan",
+          "‘Better deal’: What’s behind Trump’s rejection of Iran’s truce offer?",
+          "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "سياسة"
+  },
+  "bengals-vs-steelers": {
+    "slug": "bengals-vs-steelers",
+    "name": "bengals vs steelers",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Steelers vs. Bengals Week 3, broadcast map: Here's what fans should know",
+          "How to watch Cincinnati Bengals-Pittsburgh Steelers NFL game for free today",
+          "Four-Down Territory: Navigating the North"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
   }
 }

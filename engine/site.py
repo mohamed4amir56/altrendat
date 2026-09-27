@@ -2407,7 +2407,10 @@ def build_feed(data):
 
 
 def build_gold_news_api(days_dict):
-    """يصدر خلاصة الأخبار السياسية والاقتصادية والمؤثرة على الذهب بصيغة JSON نظيفة لتطبيق الذهب."""
+    """يصدر خلاصة الأخبار السياسية والاقتصادية والمؤثرة على الذهب بصيغة JSON نظيفة لتطبيق الذهب مع أولوية قصوى للسياسة."""
+    def is_ar_text(txt):
+        return any("\u0600" <= c <= "\u06FF" for c in (txt or ""))
+
     gold_feed = []
     seen = set()
     items_to_check = []
@@ -2431,46 +2434,105 @@ def build_gold_news_api(days_dict):
             if cat in ("رياضة", "فن ومشاهير", "طقس", "أبراج وفلك", "فضول عام"):
                 continue
             title_text = (t.get("title", "") + " " + art.get("headline", "") + " " + art.get("body", "")).lower()
-            is_relevant = cat in ("سياسة", "اقتصاد") or any(k in title_text for k in [
-                "ذهب", "عيار", "سبائك", "دولار", "جنيه", "ريال", "فائدة", "تضخم", "مركزي",
-                "صندوق النقد", "بريكس", "سويس", "بحر أحمر", "نفط", "أوبك", "قمة", "عقوبات", "صاغة",
-                "gold", "dollar", "fed", "inflation", "currency", "oil", "opec"
+            
+            is_politics = cat == "سياسة" or any(k in title_text for k in [
+                "سياس", "حكوم", "برلمان", "مجلس الأمن", "انتخاب", "قمة", "عقوبات", "وزير", "رئيس",
+                "دبلوماس", "مفاوض", "معاهدة", "هدنة", "حرب", "جيش", "قوات", "غارة", "استخبارات",
+                "politics", "president", "election", "biden", "trump", "white house", "congress",
+                "senate", "parliament", "summit", "sanctions", "ballot", "voter", "truce", "military"
             ])
-            if not is_relevant:
+            is_gold = any(k in title_text for k in ["ذهب", "عيار", "سبائك", "أوقية", "صاغة", "gold", "bullion", "karat"])
+            is_silver = any(k in title_text for k in ["فضة", "silver"])
+            is_econ = cat == "اقتصاد" or any(k in title_text for k in [
+                "اقتصاد", "دولار", "جنيه", "ريال", "فائدة", "تضخم", "مركزي", "صندوق النقد", "بريكس",
+                "سويس", "بحر أحمر", "نفط", "أوبك", "سندات", "بورصة", "أسهم", "رواتب", "معاش",
+                "dollar", "fed", "inflation", "currency", "oil", "opec", "market", "economy", "central bank", "stocks"
+            ])
+            if not (is_politics or is_gold or is_silver or is_econ):
                 continue
+
             slug = entities.slugify(t["title"])
             uid = f"{key}-{slug}"
             if uid in seen:
                 continue
             seen.add(uid)
+
+            pub_time = t.get("published_at") or cfg.get("generated_at") or datetime.now(timezone.utc).isoformat()
+            
+            # حساب الأولوية: السياسة رقم 1 دائماً (طلب صاحب التطبيق)، تليها أخبار الذهب، ثم الفضة، ثم الاقتصاد
+            if is_politics:
+                cat_key = "cat_politics"
+                icon = "🏛️"
+                impact = "breaking"
+                prio = 3000000000
+            elif is_gold:
+                cat_key = "cat_gold"
+                icon = "🥇"
+                impact = "bullish" if any(w in title_text for w in ["ارتفاع", "صعود", "مكاسب", "surge", "rise", "gain"]) else "neutral"
+                prio = 2000000000
+            elif is_silver:
+                cat_key = "cat_silver"
+                icon = "🥈"
+                impact = "neutral"
+                prio = 1500000000
+            else:
+                cat_key = "cat_fed"
+                icon = "📈"
+                impact = "bearish" if any(w in title_text for w in ["هبوط", "تراجع", "انخفاض", "خسائر", "drop", "fall"]) else "neutral"
+                prio = 1000000000
+
+            try:
+                ts = int(datetime.fromisoformat(pub_time.replace("Z", "+00:00")).timestamp())
+            except Exception:
+                ts = 0
+
             canonical = f"{BASE}/{key}/{day}/{slug}/"
             thumb = pick_trend_photo(t)
             img_url = thumb["url"] if thumb else (BASE + "/og-default.jpg")
 
+            headline = art.get("headline") or t.get("title", "")
+            is_ar = is_ar_text(t.get("title", "")) or is_ar_text(headline)
+            is_en = not is_ar
+
             gold_feed.append({
                 "id": f"{key}-{day}-{slug}",
-                "title": t["title"],
-                "headline": art["headline"],
-                "summary": art.get("summary", ""),
-                "category": cat,
+                "title": headline,
+                "detail": art.get("summary") or ((art.get("body", "")[:280] + "...") if art.get("body") else headline),
+                "categoryKey": cat_key,
+                "category": cat or ("سياسة" if is_politics else "اقتصاد"),
+                "publishedAt": pub_time,
+                "published_at": pub_time,
+                "impact": impact,
+                "icon": icon,
+                "source": f"التريندات • {cname}" if not is_en else f"Altrendat • {cname}",
+                "sourceUrl": canonical,
+                "url": canonical,
+                "image": img_url,
                 "country": key,
                 "country_name": cname,
                 "flag": flag,
+                "lang": "en" if is_en else "ar",
                 "traffic": t.get("traffic", ""),
-                "url": canonical,
-                "image": img_url,
-                "published_at": t.get("published_at") or cfg.get("generated_at"),
-                "sources": [n["source"] for n in t.get("news", []) if n.get("source")]
+                "sources": [n["source"] for n in t.get("news", []) if n.get("source")],
+                "_prio": prio + ts
             })
-            if len(gold_feed) >= 15:
-                break
-        if len(gold_feed) >= 15:
-            break
 
-    gold_feed.sort(key=lambda x: x.get("published_at", ""), reverse=True)
+    # ترتيب نهائي: الأخبار السياسية أولاً، ثم الأحدث فالأحدث
+    gold_feed.sort(key=lambda x: x["_prio"], reverse=True)
+    for item in gold_feed:
+        item.pop("_prio", None)
+
+    # الاحتفاظ بأفضل 60 خبراً لضمان تغطية وافية باللغتين العربية والإنجليزية
+    gold_feed = gold_feed[:60]
+
     out_file = os.path.join(OUT, "gold-news.json")
     with open(out_file, "w", encoding="utf-8") as f:
-        json.dump({"updated_at": datetime.now(timezone.utc).isoformat(), "total": len(gold_feed), "items": gold_feed}, f, ensure_ascii=False, indent=2)
+        json.dump({
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+            "total": len(gold_feed),
+            "priority": "politics_first",
+            "items": gold_feed
+        }, f, ensure_ascii=False, indent=2)
     return len(gold_feed)
 
 

@@ -1918,6 +1918,16 @@ def build_faq_page(urls):
 </ul>"""
         },
         {
+            "q": "ما هي تغطية منصة الترندات للأخبار والموضوعات الأكثر بحثاً حول العالم (Worldwide Trends)؟",
+            "badge": "🌐 رادار الترندات العالمية (Worldwide)",
+            "a": """تخصص منصة الترندات قسماً دولياً مستقلاً باللغة الإنجليزية (<a href="../world/">altrendat.com/world/</a>) يرصد قفزات البحث والظواهر الرائجة في أمريكا، بريطانيا، كندا، وأوروبا لحظة بلحظة مع:
+<ul>
+  <li><strong>تغطية لحظية على مدار 24 ساعة:</strong> مواكبة ترندات الرياضة العالمية (الدوريات الأوروبية وكؤوس العالم)، أخبار الذكاء الاصطناعي والتكنولوجيا، والسينما، والأحداث الاقتصادية الدولية.</li>
+  <li><strong>سياق مكثف وسريع بالإنجليزية (The 30-Second Context):</strong> تلخيص فوري لسبب تصدر الموضوع في ثوانٍ معدودة.</li>
+  <li><strong>توثيق عالمي موثوق:</strong> ربط مباشر بالمصادر الصحفية الدولية الرائدة (Reuters, BBC, AP, ESPN وغيرها).</li>
+</ul>"""
+        },
+        {
             "q": "أين أجد عقود عمل موثقة بدون سماسرة أو رسوم سفر إلى أوروبا والخليج؟",
             "badge": "✈️ عقود السفر والعمل بالخارج",
             "a": """يقدم قسم الوظائف بمنصة الترندات (<a href="../jobs/">altrendat.com/jobs/</a>) تغطية حصرية ومحدثة لعقود العمل المعتمدة دولياً، بما يشمل:
@@ -1982,6 +1992,16 @@ def build_faq_page(urls):
   <li><strong>Multi-Source Cross-Verification:</strong> Every trending development is validated across 3 to 6 reputable, accredited news outlets with primary source links provided for transparency.</li>
   <li><strong>Factual Key Takeaways:</strong> Clear bulleted data points and official statements without sensationalized headlines or clickbait.</li>
   <li><strong>Market & Economic Context:</strong> Real-time analysis of how breaking news affects purchasing power, currencies, and gold prices.</li>
+</ul>"""
+        },
+        {
+            "q": "How does Al Trendat track real-time Worldwide Trends and global viral topics in English?",
+            "badge": "🌐 Global Worldwide Trend Radar",
+            "a": """Al Trendat hosts a dedicated international English edition (<a href="../world/">altrendat.com/world/</a>) designed to track exploding search queries and breaking phenomena across North America, the UK, Europe, Latin America, and Asia:
+<ul>
+  <li><strong>24/7 Global Surveillance:</strong> Continuous ingestion of high-velocity searches across international football leagues, major entertainment events, breakthrough AI developments, and global financial markets.</li>
+  <li><strong>Fact-First 30-Second Hooks:</strong> Rapid contextual briefs in crisp English answering 'Why is this trending?' before the topic peaks.</li>
+  <li><strong>Primary Source Linking:</strong> Every international event is cross-referenced with premier global outlets (Reuters, AP, BBC, ESPN, Bloomberg) for total editorial transparency.</li>
 </ul>"""
         },
         {

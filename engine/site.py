@@ -2522,15 +2522,14 @@ def build_gold_news_api(days_dict):
     for item in gold_feed:
         item.pop("_prio", None)
 
-    # الاحتفاظ بأفضل 60 خبراً لضمان تغطية وافية باللغتين العربية والإنجليزية
-    gold_feed = gold_feed[:60]
+    # الاحتفاظ بـ 15 خبر فقط كما كان الأصل دون زيادة حجم الملف أو التأثير على الموقع
+    gold_feed = gold_feed[:15]
 
     out_file = os.path.join(OUT, "gold-news.json")
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump({
             "updated_at": datetime.now(timezone.utc).isoformat(),
             "total": len(gold_feed),
-            "priority": "politics_first",
             "items": gold_feed
         }, f, ensure_ascii=False, indent=2)
     return len(gold_feed)

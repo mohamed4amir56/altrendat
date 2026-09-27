@@ -118,7 +118,10 @@ SHELL = """<!DOCTYPE html>
 </head>
 <body>
 <header class="site">
-  <a class="brand" href="{brand_href}">{site}</a>
+  <a class="brand" href="{brand_href}">
+    <img src="{root}logo.png" alt="{site}" class="brand-logo" width="38" height="38">
+    <span class="brand-text">{site}</span>
+  </a>
   <nav>{nav}</nav>
 </header>
 <main>{body}</main>
@@ -171,7 +174,16 @@ article li{margin-bottom:7px;color:#dfe6f0}
 article a{color:var(--acc)}
 article{max-width:820px;margin:0 auto}
 .brand{
-  font-size:1.5rem;font-weight:800;text-decoration:none;
+  display:inline-flex;align-items:center;gap:10px;text-decoration:none;
+}
+.brand-logo{
+  width:38px;height:38px;border-radius:50%;object-fit:cover;flex-shrink:0;
+  box-shadow:0 0 14px rgba(255,159,104,.4);
+  border:1px solid rgba(255,159,104,.35);
+  display:block;
+}
+.brand-text{
+  font-size:1.5rem;font-weight:800;
   background:linear-gradient(95deg,var(--gold),#ff9f68);
   -webkit-background-clip:text;background-clip:text;color:transparent;
 }
@@ -424,6 +436,8 @@ td:first-child{color:var(--acc);font-weight:600}
 }
 .floating-cta span{font-size:.8rem;font-weight:600;color:var(--txt);white-space:nowrap}
 @media(max-width:560px){
+  .brand-logo{width:32px;height:32px;}
+  .brand-text{font-size:1.3rem;}
   h1{font-size:1.45rem}
   .channel-cta{flex-direction:column;align-items:stretch;text-align:center}
   .btn-tg,.btn-gold-app{justify-content:center}

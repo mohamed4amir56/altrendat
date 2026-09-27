@@ -2352,10 +2352,10 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "طقس",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "ارتفاع طفيف ومؤقت.. الأرصاد تكشف تفاصيل حالة الطقس وأعلى درجات حرارة متوقعة",
-          "\"أمطار وشبورة وحرارة مرتفعة\".. الأرصاد تكشف تفاصيل حالة الطقس حتى الجمعة",
+          "الطقس اليوم.. تغيرات مفاجئة وأمطار ببعض المناطق وشبورة والعظمى بالقاهرة 34 درجة",
+          "الأرصاد تحذر من أمطار متفاوتة اليوم على عدة مناطق",
           "الأرصاد: ارتفاع طفيف ومؤقت في درجات الحرارة على أغلب الأنحاء اليوم الأحد"
         ]
       }
@@ -16921,12 +16921,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "فن ومشاهير",
+        "category": "عام",
         "publishable": true,
         "headlines": [
-          "Cleary injures leg as Crossland sent off",
-          "‘Awful’ Cleary injury rocks finals as Knights star sent off, Panthers ‘blow up’ — LIVE",
-          "NRL finals 2026 LIVE updates: Nathan Cleary suffers compound fracture, Newcastle open second half scoring following Crossland send-off"
+          "Live: 12-man Newcastle through to grand final after Cleary's horrific leg break",
+          "NRL finals 2026 results: Newcastle to face Roosters in NRL grand final after 12-man second half following Crossland send off",
+          "Smith stunner sends Knights to the GF"
         ]
       }
     ],
@@ -16936,7 +16936,7 @@
       "world"
     ],
     "peak_traffic": 200,
-    "category": "فن ومشاهير"
+    "category": "عام"
   },
   "kailua-shooting": {
     "slug": "kailua-shooting",
@@ -17070,7 +17070,7 @@
         "publishable": true,
         "headlines": [
           "Le Castellet (FRA), 17th to 20th September 2026. BMW Motorrad Motorsport, FIM Endurance World Championship FIM EWC, Bol d'Or, 24 hours, Circuit Paul Ricard, Champion-HERT powered by MRT, #38 BMW M 1000 RR, Balint Kovacs (HUN), Jan Bühn (G",
-          "Krämpfe beim Finish: Assefa verpasst Marathon-Weltrekord",
+          "Berlin-Marathon ohne Sawe - schnelle Frauen im Fokus",
           "BMW BERLIN-MARATHON 2026 mit dem neuen vollelektrischen BMW i3 an der Spitze."
         ]
       }
@@ -17213,7 +17213,11 @@
         "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
-        "headlines": []
+        "headlines": [
+          "بطاقة التموين من البيت.. 6 خدمات إلكترونية توفر عليك مشوار مكتب التموين",
+          "رابط بوابة مصر الرقمية للاستعلام عن بطاقة التموين 2026",
+          "خطوات استخراج بدل فاقد لبطاقة التموين إلكترونيًا في 2026"
+        ]
       }
     ],
     "last_seen": "2026-09-27",
@@ -17422,14 +17426,130 @@
         "date": "2026-09-27",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "السيطرة على حريق بمخزن كتب مدرسة الميناء في الغردقة",
           "بسبب ماس كهربائي.. تعطيل الدراسة في مدرسة بالبحر الأحمر لمدة يومين",
-          "تعليم البحر الأحمر: تعطيل الدراسة بمدرسة الميناء التجريبية لمدة يومين بعد حريق مخزن الكتب"
+          "دون خسائر بشرية.. حريق داخل مخزن للكتب بمدرسة في الغردقة"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
+  },
+  "wi-vs-ind": {
+    "slug": "wi-vs-ind",
+    "name": "wi vs ind",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "India wins toss and opts to bowl in first ODI against West Indies",
+          "+!(OFFICIAL-TV) IND v WI : Live stream, TV channel & start time for HS Football in 2026",
+          "India wins toss and opts to bowl in first ODI against West Indies"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "england-cricket-team-vs-sri-lanka-national-cricket-team-match-scorecard": {
+    "slug": "england-cricket-team-vs-sri-lanka-national-cricket-team-match-scorecard",
+    "name": "england cricket team vs sri lanka national cricket team match scorecard",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|sa",
+        "date": "2026-09-27",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Sri Lanka beat England by 16 runs after 121 by captain Mendis to take ODI series to a decider",
+          "Headingley offers hope, but hard calls remain",
+          "Mendis’ ton, Wellalage’s three-for help Sri Lanka file an equalizer"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "justin-greaves": {
+    "slug": "justin-greaves",
+    "name": "justin greaves",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|sa",
+        "date": "2026-09-27",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          ")+ω#*[WATCHLIvE]HQ*!] West Indies v India 1st ODI 𝐋𝐈𝐕𝐄 Ｆｒｅｅ Ｓｔｒｅａｍ ＯＮ Ｔｖ Ｃｈａｎｎｅｌ",
+          "xDC13__xD835_ODAY MATCH IND vs WI Live Stream Free",
+          "𝚆𝙰𝚃𝙲𝙷 (𝐓ODAY) West Indies vs India LIVE Stream"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "nitish-kumar-reddy": {
+    "slug": "nitish-kumar-reddy",
+    "name": "nitish kumar reddy",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|sa",
+        "date": "2026-09-27",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "India West Indies Cricket",
+          "IND vs WI 1st ODI: Virat Kohli and Shubman Gill face off? Video of heated moment during practice goes viral",
+          "India West Indies Cricket"
         ]
       }
     ],
@@ -17439,6 +17559,35 @@
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "حوادث وقضايا"
+    "category": "رياضة"
+  },
+  "china": {
+    "slug": "china",
+    "name": "china",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|sa",
+        "date": "2026-09-27",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": true,
+        "headlines": [
+          "Pandas Ping Ping and Fu Shuang head to Zoo Atlanta for 10-year stay",
+          "Photo Flash | Two giant pandas set off from Chengdu for 10-year stay at Zoo Atlanta",
+          "Licensable video: China: China to send pair of giant pandas to US"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "دول وأماكن"
   }
 }

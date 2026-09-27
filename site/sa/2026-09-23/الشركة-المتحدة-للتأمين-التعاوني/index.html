@@ -43,6 +43,10 @@
         <span class="chip">📎 3 مصادر</span></div>
     <h1>هيئة التأمين توقف المتحدة للتأمين التعاوني عن إصدار وتجديد وثائق جميع منتجاتها</h1>
 
+    <figure class="article-photo"><img src="https://argaamplus.s3.amazonaws.com/1cd33d99-acfb-4475-8dd0-9e5a346e42fc.png" alt="هيئة التأمين توقف المتحدة للتأمين التعاوني عن إصدار وتجديد وثائق جميع منتجاتها" loading="eager" decoding="async"><figcaption>صورة من التغطية الإخبارية · المصدر: ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي</figcaption></figure>
+    
+    
+
     <!-- كبسولة الترند الفورية ورادار الذكاء -->
     <div class="trend-intel-box">
       <div class="trend-intel-header">
@@ -57,16 +61,12 @@
       <p class="trend-why-desc">أعلنت هيئة التأمين السعودية يوم الثلاثاء إيقاف الشركة المتحدة للتأمين التعاوني عن إصدار أو تجديد وثائق التأمين لجميع منتجاتها، ومنها منتجات الأفراد والضمان الممتد.</p>
       
     <div class="takeaways-box">
-      <div class="takeaways-header">⚡ إيه الحكاية؟ القصة باختصار في 30 ثانية</div>
+      <div class="takeaways-header">⚡ القصة باختصار في 30 ثانية</div>
       <ul class="takeaways-list">
         <li>أعلنت هيئة التأمين السعودية يوم الثلاثاء إيقاف الشركة المتحدة للتأمين التعاوني عن إصدار أو تجديد وثائق التأمين لجميع منتجاتها، ومنها منتجات الأفراد والضمان الممتد.</li><li>وذكر موقع معلومات مباشر، من الرياض، أن الإيقاف يشمل المنتجات التي تقدمها الشركة لعملائها من الأفراد، إضافة إلى منتج الضمان الممتد</li><li>وتتفق المصادر الثلاثة، أرقام ومعلومات مباشر وصحيفة مال، على نطاق القرار، وهو أنه لا يقتصر على منتج بعينه بل يمتد إلى كامل محفظة المنتجات التي تسوقها الشركة</li><li>ولم تنشر هذه المصادر، في ما أتيح منها، أسباب القرار أو مدته، ولا أي تعليق من الشركة المتحدة للتأمين التعاوني على الإجراء، كما لم تتطرق إلى وضع الوثائق السارية حاليًا لدى عملاء الشركة</li>
       </ul>
     </div>
     </div>
-
-    
-    <figure class="article-photo"><img src="https://argaamplus.s3.amazonaws.com/1cd33d99-acfb-4475-8dd0-9e5a346e42fc.png" alt="هيئة التأمين توقف المتحدة للتأمين التعاوني عن إصدار وتجديد وثائق جميع منتجاتها" loading="eager" decoding="async"><figcaption>صورة من التغطية الإخبارية · المصدر: ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي</figcaption></figure>
-    
 
     <!-- مؤشر التأثير على الأسواق وأسعار الذهب والعملات (إن وجد) -->
     
@@ -127,6 +127,87 @@
   <span>🪙 تطبيق Goldex: أسعار الذهب والعملات:</span>
   <a class="btn-gold-app" href="../../../../gold-app/">حمّل Goldex 📱</a>
 </div>
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+window.OneSignalDeferred = window.OneSignalDeferred || [];
+OneSignalDeferred.push(async function(OneSignal) {
+  try {
+    await OneSignal.init({
+      appId: "a624b9fa-0c01-46de-a5c2-99e05d1a5bb5",
+      serviceWorkerParam: { scope: "/" },
+      serviceWorkerPath: "../../../../OneSignalSDKWorker.js",
+      allowLocalhostAsSecureOrigin: true,
+      autoRegister: false
+    });
+  } catch(e) {}
+});
+
+(function() {
+  var STORAGE_KEY = "altrendat_notif_prompt_v1";
+  var dismissed = localStorage.getItem(STORAGE_KEY);
+  if (dismissed && (Date.now() - parseInt(dismissed, 10) < 7 * 86400 * 1000)) return;
+  if (window.Notification && Notification.permission === "granted") return;
+
+  setTimeout(function() {
+    if (window.Notification && Notification.permission === "granted") return;
+    if (document.getElementById("notif-toast-prompt")) return;
+
+    var wrap = document.createElement("div");
+    wrap.id = "notif-toast-prompt";
+    wrap.className = "notif-toast-wrap";
+    wrap.setAttribute("role", "alertdialog");
+
+    var isEn = false;
+    var title = isEn ? "🔔 Enable Live Notifications" : "🔔 تفعيل الإشعارات الفورية";
+    var desc = isEn
+      ? "Get instant breaking news, trending updates, and live gold & currency alerts as they happen."
+      : "احصل على تنبيهات عاجلة بأهم التريندات وأسعار الذهب والأنباء العاجلة فور حدوثها.";
+    var allowText = isEn ? "Allow Notifications" : "تفعيل الإشعارات";
+    var closeText = isEn ? "Later" : "لاحقاً";
+
+    wrap.innerHTML = '<div class="notif-toast-card">' +
+      '<div class="notif-toast-header">' +
+        '<div class="notif-toast-icon">⚡</div>' +
+        '<div class="notif-toast-info">' +
+          '<strong class="notif-toast-title">' + title + '</strong>' +
+          '<p class="notif-toast-desc">' + desc + '</p>' +
+        '</div>' +
+      '</div>' +
+      '<div class="notif-toast-actions">' +
+        '<button type="button" class="btn-notif-close" id="btn-notif-dismiss">' + closeText + '</button>' +
+        '<button type="button" class="btn-notif-allow" id="btn-notif-request">' + allowText + '</button>' +
+      '</div>' +
+    '</div>';
+
+    document.body.appendChild(wrap);
+
+    document.getElementById("btn-notif-dismiss").addEventListener("click", function() {
+      localStorage.setItem(STORAGE_KEY, Date.now().toString());
+      wrap.remove();
+    });
+
+    document.getElementById("btn-notif-request").addEventListener("click", async function() {
+      try {
+        if (window.OneSignalDeferred) {
+          window.OneSignalDeferred.push(async function(OneSignal) {
+            try {
+              await OneSignal.Notifications.requestPermission();
+              await OneSignal.User.addTags({
+                news_lang: isEn ? "en" : "ar",
+                site: "altrendat"
+              });
+            } catch(err) {}
+          });
+        } else if (window.Notification && Notification.requestPermission) {
+          await Notification.requestPermission();
+        }
+      } catch(e) {}
+      localStorage.setItem(STORAGE_KEY, Date.now().toString());
+      wrap.remove();
+    });
+  }, 20000);
+})();
+</script>
 
 </body>
 </html>

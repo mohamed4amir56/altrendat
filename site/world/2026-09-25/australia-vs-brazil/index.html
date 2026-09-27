@@ -43,6 +43,10 @@
         <span class="chip">📎 7 sources</span></div>
     <h1>Australia Faces Brazil in Men&#x27;s International Football Friendly Match</h1>
 
+    <figure class="article-photo"><img src="https://i.guim.co.uk/img/media/6cb209b2692abf69fb74b576e3740bc3768e25f7/842_0_6070_4856/master/6070.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;precrop=40:21,offset-x50,offset-y0&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&amp;enable=upscale&amp;s=71ad3d746eb43cae5e04b650f9ac801c" alt="Australia Faces Brazil in Men&#x27;s International Football Friendly Match" loading="eager" decoding="async"><figcaption>News coverage photo · Source: The Guardian</figcaption></figure>
+    
+    
+
     <!-- كبسولة الترند الفورية ورادار الذكاء -->
     <div class="trend-intel-box">
       <div class="trend-intel-header">
@@ -63,10 +67,6 @@
       </ul>
     </div>
     </div>
-
-    
-    <figure class="article-photo"><img src="https://i.guim.co.uk/img/media/6cb209b2692abf69fb74b576e3740bc3768e25f7/842_0_6070_4856/master/6070.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;precrop=40:21,offset-x50,offset-y0&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&amp;enable=upscale&amp;s=71ad3d746eb43cae5e04b650f9ac801c" alt="Australia Faces Brazil in Men&#x27;s International Football Friendly Match" loading="eager" decoding="async"><figcaption>News coverage photo · Source: The Guardian</figcaption></figure>
-    
 
     <!-- مؤشر التأثير على الأسواق وأسعار الذهب والعملات (إن وجد) -->
     
@@ -127,6 +127,87 @@
   <span>🪙 Goldex App: Live Gold & Currencies:</span>
   <a class="btn-gold-app" href="../../../../gold-app/">Get Goldex 📱</a>
 </div>
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+window.OneSignalDeferred = window.OneSignalDeferred || [];
+OneSignalDeferred.push(async function(OneSignal) {
+  try {
+    await OneSignal.init({
+      appId: "a624b9fa-0c01-46de-a5c2-99e05d1a5bb5",
+      serviceWorkerParam: { scope: "/" },
+      serviceWorkerPath: "../../../../OneSignalSDKWorker.js",
+      allowLocalhostAsSecureOrigin: true,
+      autoRegister: false
+    });
+  } catch(e) {}
+});
+
+(function() {
+  var STORAGE_KEY = "altrendat_notif_prompt_v1";
+  var dismissed = localStorage.getItem(STORAGE_KEY);
+  if (dismissed && (Date.now() - parseInt(dismissed, 10) < 7 * 86400 * 1000)) return;
+  if (window.Notification && Notification.permission === "granted") return;
+
+  setTimeout(function() {
+    if (window.Notification && Notification.permission === "granted") return;
+    if (document.getElementById("notif-toast-prompt")) return;
+
+    var wrap = document.createElement("div");
+    wrap.id = "notif-toast-prompt";
+    wrap.className = "notif-toast-wrap";
+    wrap.setAttribute("role", "alertdialog");
+
+    var isEn = true;
+    var title = isEn ? "🔔 Enable Live Notifications" : "🔔 تفعيل الإشعارات الفورية";
+    var desc = isEn
+      ? "Get instant breaking news, trending updates, and live gold & currency alerts as they happen."
+      : "احصل على تنبيهات عاجلة بأهم التريندات وأسعار الذهب والأنباء العاجلة فور حدوثها.";
+    var allowText = isEn ? "Allow Notifications" : "تفعيل الإشعارات";
+    var closeText = isEn ? "Later" : "لاحقاً";
+
+    wrap.innerHTML = '<div class="notif-toast-card">' +
+      '<div class="notif-toast-header">' +
+        '<div class="notif-toast-icon">⚡</div>' +
+        '<div class="notif-toast-info">' +
+          '<strong class="notif-toast-title">' + title + '</strong>' +
+          '<p class="notif-toast-desc">' + desc + '</p>' +
+        '</div>' +
+      '</div>' +
+      '<div class="notif-toast-actions">' +
+        '<button type="button" class="btn-notif-close" id="btn-notif-dismiss">' + closeText + '</button>' +
+        '<button type="button" class="btn-notif-allow" id="btn-notif-request">' + allowText + '</button>' +
+      '</div>' +
+    '</div>';
+
+    document.body.appendChild(wrap);
+
+    document.getElementById("btn-notif-dismiss").addEventListener("click", function() {
+      localStorage.setItem(STORAGE_KEY, Date.now().toString());
+      wrap.remove();
+    });
+
+    document.getElementById("btn-notif-request").addEventListener("click", async function() {
+      try {
+        if (window.OneSignalDeferred) {
+          window.OneSignalDeferred.push(async function(OneSignal) {
+            try {
+              await OneSignal.Notifications.requestPermission();
+              await OneSignal.User.addTags({
+                news_lang: isEn ? "en" : "ar",
+                site: "altrendat"
+              });
+            } catch(err) {}
+          });
+        } else if (window.Notification && Notification.requestPermission) {
+          await Notification.requestPermission();
+        }
+      } catch(e) {}
+      localStorage.setItem(STORAGE_KEY, Date.now().toString());
+      wrap.remove();
+    });
+  }, 20000);
+})();
+</script>
 
 </body>
 </html>

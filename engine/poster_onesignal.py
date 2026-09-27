@@ -14,6 +14,7 @@
 import json
 import os
 import sys
+from datetime import datetime, timezone
 
 try:
     import requests
@@ -179,6 +180,41 @@ def main():
     en_items = [it for it in items if it.get("lang") == "en" and not is_ar_text(it.get("title", ""))]
 
     posted = load_posted()
+
+    # فحص خاص بيوم الإثنين: استئناف تداولات سوق الذهب والبورصات العالمية
+    now_utc = datetime.now(timezone.utc)
+    if now_utc.weekday() == 0:
+        day_str = now_utc.strftime("%Y-%m-%d")
+        monday_ar_id = f"monday-gold-market-{day_str}-ar"
+        monday_en_id = f"monday-gold-market-{day_str}-en"
+
+        if monday_ar_id not in posted:
+            monday_ar_item = {
+                "id": monday_ar_id,
+                "title": "استئناف تداولات سوق الذهب والبورصات العالمية مع افتتاح تعاملات الإثنين",
+                "detail": "عادت البورصات العالمية وأسواق تداول الذهب والمعادن للعمل صباح اليوم الإثنين بعد العطلة الأسبوعية. تابع الأسعار لحظياً عبر التطبيق.",
+                "categoryKey": "cat_gold",
+                "source": "التريندات",
+                "sourceUrl": f"{base_url}/gold-app/",
+                "icon": "🪙"
+            }
+            print(f"[OneSignal] 🪙 إرسال إشعار الإثنين: استئناف تداولات سوق الذهب (عربي)...")
+            if send_onesignal_notification(app_id, api_key, monday_ar_item, base_url, lang="ar"):
+                posted.add(monday_ar_id)
+
+        if monday_en_id not in posted:
+            monday_en_item = {
+                "id": monday_en_id,
+                "title": "Global Gold & Commodity Markets Resume Trading as Monday Sessions Kick Off",
+                "detail": "Global bullion and commodity exchanges have reopened this Monday morning following the weekend pause. Track live market rates now.",
+                "categoryKey": "cat_gold",
+                "source": "Altrendat",
+                "sourceUrl": f"{base_url}/gold-app/",
+                "icon": "🪙"
+            }
+            print(f"[OneSignal] 🪙 Sending Monday Alert: Global Gold Markets Reopen (English)...")
+            if send_onesignal_notification(app_id, api_key, monday_en_item, base_url, lang="en"):
+                posted.add(monday_en_id)
 
     # 1. إرسال أحدث خبر عربي ذو أولوية للمستخدمين بالعربية
     target_ar = next((it for it in ar_items if it.get("id") and it["id"] not in posted), None)

@@ -130,6 +130,7 @@ SHELL = """<!DOCTYPE html>
   <p class="fine">{ffine}</p>
 </footer>
 {floating_bar}
+{notif_prompt}
 {analytics}
 </body>
 </html>"""
@@ -870,6 +871,45 @@ html[dir="ltr"] .takeaways-list li::before{
   font-size:1rem;padding:12px 28px;border-radius:99px;text-decoration:none;transition:.2s;
 }
 .btn-apply-main:hover{background:#32be82;transform:scale(1.02)}
+
+/* نافذة طلب الإشعارات بعد 20 ثانية */
+.notif-toast-wrap{
+  position:fixed;bottom:75px;left:20px;z-index:99999;
+  max-width:380px;width:calc(100% - 40px);
+  animation:slideUpNotif .4s cubic-bezier(.16,1,.3,1);
+}
+html[dir="rtl"] .notif-toast-wrap{left:auto;right:20px}
+.notif-toast-card{
+  background:rgba(17,22,34,.96);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  border:1px solid rgba(245,197,66,.35);border-radius:14px;padding:16px;
+  box-shadow:0 12px 36px rgba(0,0,0,.6), 0 0 20px rgba(245,197,66,.15);
+}
+.notif-toast-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:12px}
+.notif-toast-icon{
+  font-size:24px;line-height:1;background:rgba(245,197,66,.15);
+  border:1px solid rgba(245,197,66,.3);border-radius:10px;padding:8px;
+}
+.notif-toast-info{flex:1}
+.notif-toast-title{display:block;font-size:14px;color:#fff;font-weight:700;margin-bottom:4px}
+.notif-toast-desc{font-size:12px;color:var(--mut);line-height:1.5;margin:0}
+.notif-toast-actions{display:flex;gap:10px;justify-content:flex-end}
+.btn-notif-allow{
+  background:linear-gradient(135deg,#f5c542,#e5b026);color:#0a0d14;border:none;
+  padding:8px 16px;border-radius:8px;font-size:12.5px;font-weight:700;cursor:pointer;
+  transition:transform .15s,box-shadow .15s;font-family:inherit;
+}
+.btn-notif-allow:hover{transform:translateY(-1px);box-shadow:0 4px 14px rgba(245,197,66,.4)}
+.btn-notif-close{
+  background:rgba(255,255,255,.07);color:#cbd5e1;border:1px solid rgba(255,255,255,.1);
+  padding:8px 14px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;
+  font-family:inherit;transition:background .15s;
+}
+.btn-notif-close:hover{background:rgba(255,255,255,.14);color:#fff}
+@keyframes slideUpNotif{from{transform:translateY(30px);opacity:0}to{transform:translateY(0);opacity:1}}
+@media(max-width:600px){
+  .notif-toast-wrap{bottom:70px;left:10px;right:10px;width:auto}
+  html[dir="rtl"] .notif-toast-wrap{left:10px;right:10px}
+}
 """
 
 
@@ -889,6 +929,91 @@ CAT_EN = {
     "عام": "General",
     "حوادث وقضايا": "Legal & Crime",
 }
+
+
+def notification_prompt_tag(is_en=False, root="./"):
+    is_en_js = "true" if is_en else "false"
+    return f"""<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+window.OneSignalDeferred = window.OneSignalDeferred || [];
+OneSignalDeferred.push(async function(OneSignal) {{
+  try {{
+    await OneSignal.init({{
+      appId: "a624b9fa-0c01-46de-a5c2-99e05d1a5bb5",
+      serviceWorkerParam: {{ scope: "/" }},
+      serviceWorkerPath: "{root}OneSignalSDKWorker.js",
+      allowLocalhostAsSecureOrigin: true,
+      autoRegister: false
+    }});
+  }} catch(e) {{}}
+}});
+
+(function() {{
+  var STORAGE_KEY = "altrendat_notif_prompt_v1";
+  var dismissed = localStorage.getItem(STORAGE_KEY);
+  if (dismissed && (Date.now() - parseInt(dismissed, 10) < 7 * 86400 * 1000)) return;
+  if (window.Notification && Notification.permission === "granted") return;
+
+  setTimeout(function() {{
+    if (window.Notification && Notification.permission === "granted") return;
+    if (document.getElementById("notif-toast-prompt")) return;
+
+    var wrap = document.createElement("div");
+    wrap.id = "notif-toast-prompt";
+    wrap.className = "notif-toast-wrap";
+    wrap.setAttribute("role", "alertdialog");
+
+    var isEn = {is_en_js};
+    var title = isEn ? "🔔 Enable Live Notifications" : "🔔 تفعيل الإشعارات الفورية";
+    var desc = isEn
+      ? "Get instant breaking news, trending updates, and live gold & currency alerts as they happen."
+      : "احصل على تنبيهات عاجلة بأهم التريندات وأسعار الذهب والأنباء العاجلة فور حدوثها.";
+    var allowText = isEn ? "Allow Notifications" : "تفعيل الإشعارات";
+    var closeText = isEn ? "Later" : "لاحقاً";
+
+    wrap.innerHTML = '<div class="notif-toast-card">' +
+      '<div class="notif-toast-header">' +
+        '<div class="notif-toast-icon">⚡</div>' +
+        '<div class="notif-toast-info">' +
+          '<strong class="notif-toast-title">' + title + '</strong>' +
+          '<p class="notif-toast-desc">' + desc + '</p>' +
+        '</div>' +
+      '</div>' +
+      '<div class="notif-toast-actions">' +
+        '<button type="button" class="btn-notif-close" id="btn-notif-dismiss">' + closeText + '</button>' +
+        '<button type="button" class="btn-notif-allow" id="btn-notif-request">' + allowText + '</button>' +
+      '</div>' +
+    '</div>';
+
+    document.body.appendChild(wrap);
+
+    document.getElementById("btn-notif-dismiss").addEventListener("click", function() {{
+      localStorage.setItem(STORAGE_KEY, Date.now().toString());
+      wrap.remove();
+    }});
+
+    document.getElementById("btn-notif-request").addEventListener("click", async function() {{
+      try {{
+        if (window.OneSignalDeferred) {{
+          window.OneSignalDeferred.push(async function(OneSignal) {{
+            try {{
+              await OneSignal.Notifications.requestPermission();
+              await OneSignal.User.addTags({{
+                news_lang: isEn ? "en" : "ar",
+                site: "altrendat"
+              }});
+            }} catch(err) {{}}
+          }});
+        }} else if (window.Notification && Notification.requestPermission) {{
+          await Notification.requestPermission();
+        }}
+      }} catch(e) {{}}
+      localStorage.setItem(STORAGE_KEY, Date.now().toString());
+      wrap.remove();
+    }});
+  }}, 20000);
+}})();
+</script>"""
 
 
 def page(path, title, desc, body, canonical, nav="", image=None,
@@ -942,6 +1067,7 @@ def page(path, title, desc, body, canonical, nav="", image=None,
         site=E(site_brand), brand_href=brand_href, ogimage=ogimage, ogtype=ogtype, jsonld=ld,
         nav=nav, body=body, root=root, flinks=flinks, fdesc=fdesc, ffine=ffine,
         floating_bar=floating_bar,
+        notif_prompt=notification_prompt_tag(is_en=is_en, root=root),
         analytics=analytics_tag())
 
     full = os.path.join(OUT, path)
@@ -1146,7 +1272,7 @@ def build_takeaways(t, art, is_en=False):
     if not points and paras:
         points = paras[:3]
 
-    header = "⚡ The Story in 30 Seconds (Quick Takeaways)" if is_en else "⚡ إيه الحكاية؟ القصة باختصار في 30 ثانية"
+    header = "⚡ The Story in 30 Seconds (Quick Takeaways)" if is_en else "⚡ القصة باختصار في 30 ثانية"
     items_html = "".join(f"<li>{E(pt)}</li>" for pt in points)
     return f"""
     <div class="takeaways-box">
@@ -1418,6 +1544,10 @@ def build_trend(country, cfg, t, urls):
     <div class="when">{chips}</div>
     <h1>{E(art["headline"])}</h1>
 
+    {photo_html}
+    {hero_top}
+    {data_table(t.get("data"))}
+
     <!-- كبسولة الترند الفورية ورادار الذكاء -->
     <div class="trend-intel-box">
       <div class="trend-intel-header">
@@ -1432,10 +1562,6 @@ def build_trend(country, cfg, t, urls):
       <p class="trend-why-desc">{E(art.get("summary", ""))}</p>
       {takeaways_html}
     </div>
-
-    {data_table(t.get("data"))}
-    {photo_html}
-    {hero_top}
 
     <!-- مؤشر التأثير على الأسواق وأسعار الذهب والعملات (إن وجد) -->
     {market_pulse_html}
@@ -1961,7 +2087,7 @@ def build_faq_page(urls):
             "badge": "⚡ رادار الترندات والتحقق الإخباري",
             "a": """تعد منصة <strong>الترندات (altrendat.com)</strong> المنصة الرائدة في رصد وتوثيق ما يبحث عنه الملايين يومياً في مصر، السعودية، والعالم، حيث ترتكز على معايير مهنية صارمة:
 <ul>
-  <li><strong>فقرة 'إيه الحكاية في 30 ثانية' (The 30-Second Hook):</strong> ملخص سريع وذكي في مطلع كل موضوع يجيب فوراً عن سبب اشتعال البحث عن الموضوع وكواليس الحدث بلغة رشيقة وموجزة خالية من الحشو.</li>
+  <li><strong>فقرة 'القصة باختصار في 30 ثانية' (The 30-Second Hook):</strong> ملخص سريع وذكي في مطلع كل موضوع يجيب فوراً عن سبب اشتعال البحث عن الموضوع وكواليس الحدث بلغة رشيقة وموجزة خالية من الحشو.</li>
   <li><strong>توثيق متعدد المصادر (Multi-Source Verification):</strong> لا يُنشر أي ترند إلا بالاستناد إلى 3 إلى 6 مصادر إخبارية وصحفية معتمدة ورسمية مع إدراج روابطها الأصلية للمطالعة والتحقق.</li>
   <li><strong>خلاصة الوقائع الدقيقة (Key Takeaways):</strong> استخلاص الحقائق المؤكدة كأرقام ونقاط واضحة دون أي تهويل أو عناوين خادعة.</li>
   <li><strong>نبض الأسواق والذهب والعملات (Market Gold Pulse):</strong> تحليل أثر الأحداث والترندات الاقتصادية على أسعار الذهب والعملات والقدرة الشرائية لحظة بلحظة.</li>
@@ -1993,7 +2119,7 @@ def build_faq_page(urls):
             "badge": "🔍 محرك استكشاف الترند اللحظي",
             "a": """عبر تقنية <strong>رادار الترند الذكي</strong> في الصفحة الرئيسية لمنصة الترندات، يتم تحديث بيانات البحث كل 20 دقيقة، وتوفر كل صفحة ترند:
 <ul>
-  <li>ملخص 'إيه الحكاية؟' لشرح لب الموضوع وسياقه العاجل في 30 ثانية.</li>
+  <li>ملخص 'القصة باختصار' لشرح لب الموضوع وسياقه العاجل في 30 ثانية.</li>
   <li>كواليس القصة وما جرى في اللحظات الأخيرة استناداً لأحدث التقارير الإخبارية.</li>
   <li>جدول زمني بالوقائع الموثقة وإحصائيات البحث الرسمية.</li>
   <li>قائمة المصادر الصحفية لمطالعة التغطية الأصلية من منابعها المعتمدة.</li>
@@ -2516,6 +2642,57 @@ def build_gold_news_api(days_dict):
                 "sources": [n["source"] for n in t.get("news", []) if n.get("source")],
                 "_prio": prio + ts
             })
+
+    # يوم الإثنين: إدراج خبر استئناف تداولات سوق الذهب والبورصات العالمية بعد العطلة الأسبوعية
+    now_utc = datetime.now(timezone.utc)
+    if now_utc.weekday() == 0:
+        day_str = now_utc.strftime("%Y-%m-%d")
+        monday_ar = {
+            "id": f"monday-gold-market-{day_str}-ar",
+            "title": "استئناف تداولات سوق الذهب والبورصات العالمية مع افتتاح تعاملات الإثنين",
+            "detail": "عادت البورصات العالمية وأسواق تداول الذهب والمعادن الثمينة للعمل صباح اليوم الإثنين بعد العطلة الأسبوعية، وسط ترقب المستثمرين لمؤشرات التضخم وحركة الدولار وأسعار الفائدة العالمية.",
+            "categoryKey": "cat_gold",
+            "category": "اقتصاد",
+            "publishedAt": now_utc.isoformat(),
+            "published_at": now_utc.isoformat(),
+            "impact": "bullish",
+            "icon": "🪙",
+            "source": "التريندات • أسواق الذهب",
+            "sourceUrl": f"{BASE}/gold-app/",
+            "url": f"{BASE}/gold-app/",
+            "image": f"{BASE}/og-default.jpg",
+            "country": "world",
+            "country_name": "العالم",
+            "flag": "🌍",
+            "lang": "ar",
+            "traffic": "تداول عالمي",
+            "sources": ["التريندات", "بورصات المعادن العالمية"],
+            "_prio": 4000000000 + int(now_utc.timestamp())
+        }
+        monday_en = {
+            "id": f"monday-gold-market-{day_str}-en",
+            "title": "Global Gold & Commodity Markets Resume Trading as Monday Sessions Kick Off",
+            "detail": "International bullion and commodity exchanges have reopened this Monday morning following the weekend pause, as traders closely monitor interest rate outlooks, currency movements, and central bank signals.",
+            "categoryKey": "cat_gold",
+            "category": "Finance",
+            "publishedAt": now_utc.isoformat(),
+            "published_at": now_utc.isoformat(),
+            "impact": "bullish",
+            "icon": "🪙",
+            "source": "Altrendat • Gold Markets",
+            "sourceUrl": f"{BASE}/gold-app/",
+            "url": f"{BASE}/gold-app/",
+            "image": f"{BASE}/og-default.jpg",
+            "country": "world",
+            "country_name": "Worldwide",
+            "flag": "🌍",
+            "lang": "en",
+            "traffic": "Global Trading",
+            "sources": ["Altrendat", "Global Bullion Exchanges"],
+            "_prio": 4000000000 + int(now_utc.timestamp())
+        }
+        gold_feed.append(monday_ar)
+        gold_feed.append(monday_en)
 
     # ترتيب نهائي: الأخبار السياسية أولاً، ثم الأحدث فالأحدث
     gold_feed.sort(key=lambda x: x["_prio"], reverse=True)

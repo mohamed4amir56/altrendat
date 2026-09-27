@@ -43,6 +43,10 @@
         <span class="chip">📎 3 مصادر</span></div>
     <h1>وزير التموين: طرح 18 سلعة جديدة ضمن مبادرة خفض الأسعار بدءًا من 25 سبتمبر</h1>
 
+    <figure class="article-photo"><img src="https://img.youm7.com/xlarge/20231231013102312.jpg" alt="وزير التموين: طرح 18 سلعة جديدة ضمن مبادرة خفض الأسعار بدءًا من 25 سبتمبر" loading="eager" decoding="async"><figcaption>صورة من التغطية الإخبارية · المصدر: اليوم السابع</figcaption></figure>
+    
+    
+
     <!-- كبسولة الترند الفورية ورادار الذكاء -->
     <div class="trend-intel-box">
       <div class="trend-intel-header">
@@ -57,16 +61,12 @@
       <p class="trend-why-desc">أعلن وزير التموين والتجارة الداخلية شريف فاروق توسيع قائمة سلع مبادرة خفض الأسعار بإضافة 18 سلعة جديدة اعتبارًا من الجمعة 25 سبتمبر 2026، بالتزامن مع استمرار طرح سلع المبادرة في 35 منفذًا بالجيزة.</p>
       
     <div class="takeaways-box">
-      <div class="takeaways-header">⚡ إيه الحكاية؟ القصة باختصار في 30 ثانية</div>
+      <div class="takeaways-header">⚡ القصة باختصار في 30 ثانية</div>
       <ul class="takeaways-list">
         <li>أعلن وزير التموين والتجارة الداخلية شريف فاروق توسيع قائمة سلع مبادرة خفض الأسعار بإضافة 18 سلعة جديدة اعتبارًا من الجمعة 25 سبتمبر 2026، بالتزامن مع استمرار طرح سلع المبادرة في 35 منفذًا بالجيزة.</li><li>وفي محافظة الجيزة، ذكرت صحيفة اليوم السابع أن الوزارة شددت على مواصلة توفير السلع المخفضة ضمن المبادرة عبر 35 منفذًا تموينيًا، تضم مجمعات استهلاكية إلى جانب منافذ مشروع «جمعيتي»، بهدف ضمان وصول المنتجات إلى المواطنين في مختلف مناطق المحافظة</li><li>وعلى صعيد الشركات التابعة للوزارة، أفادت جريدة المال بأن شركة مطاحن شمال القاهرة، إحدى شركات الشركة القابضة للصناعات الغذائية، تشارك بأربعة فروع في منافذ «كاري أون» لتوفير السلع والخبز المدعم</li><li>ونقلت الجريدة ذلك عن سلامة سلطان، العضو المنتدب المالي بالشركة</li>
       </ul>
     </div>
     </div>
-
-    
-    <figure class="article-photo"><img src="https://img.youm7.com/xlarge/20231231013102312.jpg" alt="وزير التموين: طرح 18 سلعة جديدة ضمن مبادرة خفض الأسعار بدءًا من 25 سبتمبر" loading="eager" decoding="async"><figcaption>صورة من التغطية الإخبارية · المصدر: اليوم السابع</figcaption></figure>
-    
 
     <!-- مؤشر التأثير على الأسواق وأسعار الذهب والعملات (إن وجد) -->
     
@@ -137,6 +137,87 @@
   <span>🪙 تطبيق Goldex: أسعار الذهب والعملات:</span>
   <a class="btn-gold-app" href="../../../../gold-app/">حمّل Goldex 📱</a>
 </div>
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+window.OneSignalDeferred = window.OneSignalDeferred || [];
+OneSignalDeferred.push(async function(OneSignal) {
+  try {
+    await OneSignal.init({
+      appId: "a624b9fa-0c01-46de-a5c2-99e05d1a5bb5",
+      serviceWorkerParam: { scope: "/" },
+      serviceWorkerPath: "../../../../OneSignalSDKWorker.js",
+      allowLocalhostAsSecureOrigin: true,
+      autoRegister: false
+    });
+  } catch(e) {}
+});
+
+(function() {
+  var STORAGE_KEY = "altrendat_notif_prompt_v1";
+  var dismissed = localStorage.getItem(STORAGE_KEY);
+  if (dismissed && (Date.now() - parseInt(dismissed, 10) < 7 * 86400 * 1000)) return;
+  if (window.Notification && Notification.permission === "granted") return;
+
+  setTimeout(function() {
+    if (window.Notification && Notification.permission === "granted") return;
+    if (document.getElementById("notif-toast-prompt")) return;
+
+    var wrap = document.createElement("div");
+    wrap.id = "notif-toast-prompt";
+    wrap.className = "notif-toast-wrap";
+    wrap.setAttribute("role", "alertdialog");
+
+    var isEn = false;
+    var title = isEn ? "🔔 Enable Live Notifications" : "🔔 تفعيل الإشعارات الفورية";
+    var desc = isEn
+      ? "Get instant breaking news, trending updates, and live gold & currency alerts as they happen."
+      : "احصل على تنبيهات عاجلة بأهم التريندات وأسعار الذهب والأنباء العاجلة فور حدوثها.";
+    var allowText = isEn ? "Allow Notifications" : "تفعيل الإشعارات";
+    var closeText = isEn ? "Later" : "لاحقاً";
+
+    wrap.innerHTML = '<div class="notif-toast-card">' +
+      '<div class="notif-toast-header">' +
+        '<div class="notif-toast-icon">⚡</div>' +
+        '<div class="notif-toast-info">' +
+          '<strong class="notif-toast-title">' + title + '</strong>' +
+          '<p class="notif-toast-desc">' + desc + '</p>' +
+        '</div>' +
+      '</div>' +
+      '<div class="notif-toast-actions">' +
+        '<button type="button" class="btn-notif-close" id="btn-notif-dismiss">' + closeText + '</button>' +
+        '<button type="button" class="btn-notif-allow" id="btn-notif-request">' + allowText + '</button>' +
+      '</div>' +
+    '</div>';
+
+    document.body.appendChild(wrap);
+
+    document.getElementById("btn-notif-dismiss").addEventListener("click", function() {
+      localStorage.setItem(STORAGE_KEY, Date.now().toString());
+      wrap.remove();
+    });
+
+    document.getElementById("btn-notif-request").addEventListener("click", async function() {
+      try {
+        if (window.OneSignalDeferred) {
+          window.OneSignalDeferred.push(async function(OneSignal) {
+            try {
+              await OneSignal.Notifications.requestPermission();
+              await OneSignal.User.addTags({
+                news_lang: isEn ? "en" : "ar",
+                site: "altrendat"
+              });
+            } catch(err) {}
+          });
+        } else if (window.Notification && Notification.requestPermission) {
+          await Notification.requestPermission();
+        }
+      } catch(e) {}
+      localStorage.setItem(STORAGE_KEY, Date.now().toString());
+      wrap.remove();
+    });
+  }, 20000);
+})();
+</script>
 
 </body>
 </html>

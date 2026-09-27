@@ -118,7 +118,7 @@ SHELL = """<!DOCTYPE html>
 </head>
 <body>
 <header class="site">
-  <a class="brand" href="{root}">{site}</a>
+  <a class="brand" href="{brand_href}">{site}</a>
   <nav>{nav}</nav>
 </header>
 <main>{body}</main>
@@ -571,6 +571,8 @@ html[dir="ltr"] .takeaways-list li::before{
 .faq-card[dir="ltr"] h3{direction:ltr;text-align:left;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 .faq-card[dir="ltr"] p,.faq-card[dir="ltr"] li{direction:ltr;text-align:left;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 .faq-card[dir="ltr"] ul{padding-left:22px;padding-right:0}
+.nav-lang-btn{border:1px solid rgba(90,169,255,.35);background:rgba(90,169,255,.08);border-radius:99px;padding:3px 12px;font-weight:700;transition:.2s;font-size:.85rem;display:inline-flex;align-items:center;gap:5px;color:var(--txt)!important}
+.nav-lang-btn:hover{background:rgba(90,169,255,.22);border-color:var(--acc);color:#fff!important}
 
 /* --- تصميم وهوية تطبيق جولدكس الفاخر (Goldex App Luxury Theme) --- */
 .goldex-container{
@@ -932,10 +934,12 @@ def page(path, title, desc, body, canonical, nav="", image=None,
   <a class="btn-gold-app" href="{root}gold-app/">حمّل Goldex 📱</a>
 </div>"""
 
+    brand_href = f"{root}world/" if is_en else root
+
     out = SHELL.format(
         lang=lang, dir=direction, locale=locale,
         title=E(title), desc=E(desc[:300]), canonical=E(canonical),
-        site=E(site_brand), ogimage=ogimage, ogtype=ogtype, jsonld=ld,
+        site=E(site_brand), brand_href=brand_href, ogimage=ogimage, ogtype=ogtype, jsonld=ld,
         nav=nav, body=body, root=root, flinks=flinks, fdesc=fdesc, ffine=ffine,
         floating_bar=floating_bar,
         analytics=analytics_tag())
@@ -1526,15 +1530,29 @@ def load_days():
 def country_nav(current, depth, is_en=False):
     root = "../" * depth if depth else "./"
     out = []
-    jobs_label = "💼 Jobs" if is_en else "💼 وظائف اليوم"
-    mark = " ●" if current == "jobs" else ""
-    out.append("<a href='{r}jobs/' class='nav-jobs'>{l}{m}</a>".format(
-        r=root, l=jobs_label, m=mark))
-    for key, cfg in COUNTRIES.items():
-        mark = " ●" if key == current else ""
-        name = cfg.get("name_en") if is_en else cfg.get("name_ar")
-        out.append("<a href='{r}{k}/'>{f} {n}{m}</a>".format(
-            r=root, k=key, f=cfg["flag"], n=E(name or key), m=mark))
+    if is_en:
+        mark_jobs = " ●" if current == "jobs" else ""
+        out.append(f"<a href='{root}jobs/' class='nav-jobs'>💼 Jobs{mark_jobs}</a>")
+        mark_world = " ●" if current == "world" else ""
+        out.append(f"<a href='{root}world/'>🌐 Worldwide{mark_world}</a>")
+        for key, cfg in COUNTRIES.items():
+            if key == "world":
+                continue
+            mark = " ●" if key == current else ""
+            name = cfg.get("name_en") or cfg.get("name_ar") or key
+            out.append(f"<a href='{root}{key}/'>{cfg['flag']} {E(name)}{mark}</a>")
+        out.append(f"<a href='{root}' class='nav-lang-btn' style='border-color:rgba(245,197,66,.4);background:rgba(245,197,66,.1);color:#f5c542!important;' title='الانتقال إلى النسخة العربية'>🇸🇦 العربية</a>")
+    else:
+        mark_jobs = " ●" if current == "jobs" else ""
+        out.append(f"<a href='{root}jobs/' class='nav-jobs'>💼 وظائف اليوم{mark_jobs}</a>")
+        for key, cfg in COUNTRIES.items():
+            if key == "world":
+                continue
+            mark = " ●" if key == current else ""
+            name = cfg.get("name_ar") or cfg.get("name_en") or key
+            out.append(f"<a href='{root}{key}/'>{cfg['flag']} {E(name)}{mark}</a>")
+        mark_world = " ●" if current == "world" else ""
+        out.append(f"<a href='{root}world/' class='nav-lang-btn' title='Switch to English Worldwide Edition'>🌐 English{mark_world}</a>")
     return "".join(out)
 
 
@@ -1705,35 +1723,67 @@ def build_entity(ent, urls):
 
 def build_home(data, urls):
     deck_cards = []
-    for key, cfg in data.items():
-        pub = [t for t in cfg["trends"] if t.get("article")]
-        top = max(pub, key=lambda x: x["traffic_num"], default=None)
-        top_title = ("أبرزها: " + top["article"]["headline"]) if top else ""
-        accent = "#5aa9ff" if key == "eg" else "#3ddc97"
+
+    # 1. بطاقة مصر
+    if "eg" in data:
+        eg_cfg = data["eg"]
+        eg_pub = [t for t in eg_cfg["trends"] if t.get("article")]
+        eg_top = max(eg_pub, key=lambda x: x["traffic_num"], default=None)
+        eg_top_title = ("أبرزها: " + eg_top["article"]["headline"]) if eg_top else ""
         deck_cards.append(f"""
-        <a class='country-deck-card' href='{key}/' style='--deck-accent:{accent};'>
+        <a class='country-deck-card' href='eg/' style='--deck-accent:#5aa9ff;'>
           <div class='deck-card-top'>
-            <span class='deck-card-title'>{cfg["flag"]} {E(cfg["country_name"])}</span>
-            <span class='deck-card-badge'>{len(pub)} موضوع نشط</span>
+            <span class='deck-card-title'>🇪🇬 مصر</span>
+            <span class='deck-card-badge'>{len(eg_pub)} موضوع نشط</span>
           </div>
-          <p class='deck-card-top-trend'>{E(top_title)}</p>
-          <span class='deck-card-action'>تصفح ترندات {E(cfg["country_name"])} ⬅️</span>
+          <p class='deck-card-top-trend'>{E(eg_top_title)}</p>
+          <span class='deck-card-action'>تصفح ترندات مصر ⬅️</span>
         </a>""")
 
-    # إضافة بطاقة قسم الوظائف ضمن بطاقات التصفح السريع
+    # 2. بطاقة السعودية
+    if "sa" in data:
+        sa_cfg = data["sa"]
+        sa_pub = [t for t in sa_cfg["trends"] if t.get("article")]
+        sa_top = max(sa_pub, key=lambda x: x["traffic_num"], default=None)
+        sa_top_title = ("أبرزها: " + sa_top["article"]["headline"]) if sa_top else ""
+        deck_cards.append(f"""
+        <a class='country-deck-card' href='sa/' style='--deck-accent:#3ddc97;'>
+          <div class='deck-card-top'>
+            <span class='deck-card-title'>🇸🇦 السعودية</span>
+            <span class='deck-card-badge'>{len(sa_pub)} موضوع نشط</span>
+          </div>
+          <p class='deck-card-top-trend'>{E(sa_top_title)}</p>
+          <span class='deck-card-action'>تصفح ترندات السعودية ⬅️</span>
+        </a>""")
+
+    # 3. إضافة بطاقة قسم الوظائف ضمن بطاقات التصفح السريع
     deck_cards.append("""
         <a class='country-deck-card' href='jobs/' style='--deck-accent:#f5c542;'>
           <div class='deck-card-top'>
             <span class='deck-card-title'>💼 وظائف اليوم</span>
-            <span class='deck-card-badge' style='background:rgba(245,197,66,.15);color:#f5c542;'>13 فرصة متاحة</span>
+            <span class='deck-card-badge' style='background:rgba(245,197,66,.15);color:#f5c542;'>وظائف موثوقة 2026</span>
           </div>
           <p class='deck-card-top-trend'>مسابقات حكومية، عقود ألمانيا وإيطاليا وكندا، والعمل عن بعد بالدولار مع روابط تقديم مباشرة مجانية.</p>
           <span class='deck-card-action'>استعراض جميع الوظائف ⬅️</span>
         </a>""")
 
-    # بالتناوب بين البلدان لضمان تمثيل متوازن لمصر والسعودية
+    # 4. بطاقة الترند العالمي (Worldwide - English Edition)
+    if "world" in data:
+        deck_cards.append("""
+        <a class='country-deck-card' href='world/' style='--deck-accent:#9d65ff;'>
+          <div class='deck-card-top'>
+            <span class='deck-card-title'>🌐 الترند العالمي (Worldwide)</span>
+            <span class='deck-card-badge' style='background:rgba(157,101,255,.18);color:#b892ff;'>English Edition 🇬🇧</span>
+          </div>
+          <p class='deck-card-top-trend'>متابعة حية لأكثر الموضوعات والظواهر بحثاً في أمريكا وأوروبا باللغة الإنجليزية لحظة بلحظة.</p>
+          <span class='deck-card-action'>Explore English Trends ➡️</span>
+        </a>""")
+
+    # بالتناوب بين الدول العربية فقط (مصر والسعودية) لضمان واجهة عربية خالصة 100% بدون مقالات إنجليزية
     per = []
-    for key, cfg in data.items():
+    arabic_keys = [k for k in data if data[k].get("lang") == "ar" or k in ("eg", "sa")]
+    for key in arabic_keys:
+        cfg = data[key]
         pub = sorted([t for t in cfg["trends"] if t.get("article")],
                      key=lambda x: -x["traffic_num"])
         per.append([(key, cfg, t) for t in pub])
@@ -2279,6 +2329,27 @@ def build_gold_app_page(urls):
     urls.append((canonical, datetime.now(timezone.utc).isoformat(), "0.9"))
 
 
+def build_en_redirect():
+    """توجيه رابط /en/ مباشرة إلى الواجهة الإنجليزية /world/."""
+    html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url={BASE}/world/">
+<link rel="canonical" href="{BASE}/world/">
+<title>Redirecting to English Edition | ALTRENDAT</title>
+</head>
+<body style="background:#0a0d14;color:#e8ecf4;font-family:sans-serif;text-align:center;padding:50px 20px;">
+  <h2>Redirecting to ALTRENDAT English Edition...</h2>
+  <p><a href="{BASE}/world/" style="color:#5aa9ff;">Click here if you are not redirected automatically.</a></p>
+</body>
+</html>"""
+    en_dir = os.path.join(OUT, "en")
+    os.makedirs(en_dir, exist_ok=True)
+    with open(os.path.join(en_dir, "index.html"), "w", encoding="utf-8") as f:
+        f.write(html)
+
+
 def build_404():
     """صفحة الخطأ — يخدمها Cloudflare لأي رابط غير موجود."""
     body = """
@@ -2490,6 +2561,7 @@ def main():
     n_feed = build_feed(latest)
     n_gold = build_gold_news_api(days)
     build_404()
+    build_en_redirect()
 
     # صفحات الكيانات — الأصل الذي يتراكم.
     #

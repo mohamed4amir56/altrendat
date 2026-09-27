@@ -435,6 +435,8 @@ html[dir="ltr"] .takeaways-list li::before{
 .faq-card[dir="ltr"] h3{direction:ltr;text-align:left;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 .faq-card[dir="ltr"] p,.faq-card[dir="ltr"] li{direction:ltr;text-align:left;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 .faq-card[dir="ltr"] ul{padding-left:22px;padding-right:0}
+.nav-lang-btn{border:1px solid rgba(90,169,255,.35);background:rgba(90,169,255,.08);border-radius:99px;padding:3px 12px;font-weight:700;transition:.2s;font-size:.85rem;display:inline-flex;align-items:center;gap:5px;color:var(--txt)!important}
+.nav-lang-btn:hover{background:rgba(90,169,255,.22);border-color:var(--acc);color:#fff!important}
 
 /* --- تصميم وهوية تطبيق جولدكس الفاخر (Goldex App Luxury Theme) --- */
 .goldex-container{

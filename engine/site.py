@@ -2358,7 +2358,7 @@ def build_gold_app_page(urls):
         },
         "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingValue": "4.9",
+            "ratingValue": "4.5",
             "ratingCount": "1450"
         }
     }
@@ -2372,9 +2372,7 @@ def build_gold_app_page(urls):
           <h1 class="goldex-brand-title">تطبيق <span>Goldex (جولدكس)</span></h1>
           <p style="color:#ffd700;font-weight:700;font-size:1.08rem;margin:0;">المرجع الموثوق لأسعار الذهب، الفضة، والعملات العربية والعالمية لحظة بلحظة 🪙</p>
           <div class="goldex-rating">
-            <span>⭐⭐⭐⭐⭐ 4.9</span>
-            <span style="color:var(--mut);">•</span>
-            <span style="color:#d5dce8;">أكثر من 50,000+ مستثمر</span>
+            <span>⭐⭐⭐⭐⭐ 4.5</span>
             <span style="color:var(--mut);">•</span>
             <span style="color:#3ddc97;">تحديث فوري مباشر على مدار الساعة</span>
           </div>
@@ -2426,11 +2424,6 @@ def build_gold_app_page(urls):
         <div class="goldex-feat-card">
           <h4>🔔 تنبيهات الأسعار الذكية</h4>
           <p>حدد السعر المستهدف للشراء أو البيع، وسيصلك إشعار فوري وتنبيه على هاتفك بمجرد وصول السوق لمستواك المطلوب دون الحاجة لمراقبة الشاشة طوال اليوم.</p>
-        </div>
-
-        <div class="goldex-feat-card">
-          <h4>📈 رسوم بيانية ومؤشرات متقدمة</h4>
-          <p>تتبع المسار التاريخي للأسعار وتحليل الصعود والهبوط اليومي والشهري لمساعدتك على اتخاذ قرارات مالية رابحة في التوقيت المناسب.</p>
         </div>
       </div>
 

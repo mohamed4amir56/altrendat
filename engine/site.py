@@ -119,7 +119,7 @@ SHELL = """<!DOCTYPE html>
 <body>
 <header class="site">
   <a class="brand" href="{brand_href}">
-    <img src="{root}logo.png" alt="{site}" class="brand-logo" width="38" height="38">
+    <img src="{root}logo.png" alt="{site}" class="brand-logo" width="56" height="56">
     <span class="brand-text">{site}</span>
   </a>
   <nav>{nav}</nav>
@@ -174,18 +174,24 @@ article li{margin-bottom:7px;color:#dfe6f0}
 article a{color:var(--acc)}
 article{max-width:820px;margin:0 auto}
 .brand{
-  display:inline-flex;align-items:center;gap:10px;text-decoration:none;
+  display:inline-flex;align-items:center;gap:13px;text-decoration:none;
 }
 .brand-logo{
-  width:38px;height:38px;border-radius:50%;object-fit:cover;flex-shrink:0;
-  box-shadow:0 0 14px rgba(255,159,104,.4);
-  border:1px solid rgba(255,159,104,.35);
+  width:56px;height:56px;border-radius:50%;object-fit:cover;flex-shrink:0;
+  box-shadow:0 0 18px rgba(255,159,104,.45), 0 2px 10px rgba(0,0,0,.6);
+  border:1.5px solid rgba(255,159,104,.45);
   display:block;
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+.brand:hover .brand-logo{
+  transform:scale(1.05);
+  box-shadow:0 0 24px rgba(255,159,104,.65), 0 3px 12px rgba(0,0,0,.7);
 }
 .brand-text{
-  font-size:1.5rem;font-weight:800;
+  font-size:1.68rem;font-weight:800;
   background:linear-gradient(95deg,var(--gold),#ff9f68);
   -webkit-background-clip:text;background-clip:text;color:transparent;
+  letter-spacing:-.3px;
 }
 nav{display:flex;gap:10px;flex-wrap:wrap}
 nav a{
@@ -436,8 +442,9 @@ td:first-child{color:var(--acc);font-weight:600}
 }
 .floating-cta span{font-size:.8rem;font-weight:600;color:var(--txt);white-space:nowrap}
 @media(max-width:560px){
-  .brand-logo{width:32px;height:32px;}
-  .brand-text{font-size:1.3rem;}
+  .brand{gap:10px;}
+  .brand-logo{width:46px;height:46px;}
+  .brand-text{font-size:1.4rem;}
   h1{font-size:1.45rem}
   .channel-cta{flex-direction:column;align-items:stretch;text-align:center}
   .btn-tg,.btn-gold-app{justify-content:center}

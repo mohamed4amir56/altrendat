@@ -358,15 +358,23 @@ def fetch_og(url):
 
 
 def enrich(trends, workers=12):
-    """يثري كل الأخبار بالتوازي — 30 صفحة في ثوانٍ بدل دقائق."""
+    """يثري كل الأخبار بالتوازي — 30 صفحة في ثوانٍ بدل دقائق مع مهلة قصوى صارمة."""
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
-        jobs = [(n, pool.submit(fetch_og, n["url"]))
-                for t in trends for n in t["news"]]
-        for news_item, future in jobs:
+        future_to_item = {pool.submit(fetch_og, n["url"]): n
+                          for t in trends for n in t["news"]}
+        # مهلة قصوى صارمة 35 ثانية لكافة الروابط منعاً لتعليق الخادم على أي موقع بطيء
+        done, not_done = concurrent.futures.wait(future_to_item.keys(), timeout=35)
+        for future in done:
+            news_item = future_to_item[future]
             try:
-                news_item.update(future.result())
+                news_item.update(future.result(timeout=1))
             except Exception:
                 news_item["ok"] = False
+        for future in not_done:
+            future.cancel()
+            news_item = future_to_item[future]
+            news_item["ok"] = False
+            news_item["error"] = "Timeout"
     return trends
 
 

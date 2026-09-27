@@ -64,24 +64,52 @@ def send_onesignal_notification(app_id, api_key, item, base_url, lang="ar"):
     source = item.get("source", "التريندات")
 
     is_politics = cat_key == "cat_politics"
+    country = (item.get("country") or "").strip().lower()
+
     if lang == "ar":
-        heading = "جولدكس - أخبار عاجلة" if is_politics else "جولدكس - أسواق الذهب"
+        heading = "Goldex - أخبار عاجلة" if is_politics else "Goldex - أسواق الذهب"
         content = title[:130]
 
-        # استهداف المستخدمين الناطقين بالعربية أو من اختار العربية في التطبيق
-        filters = [
-            {"field": "tag", "key": "news_lang", "relation": "=", "value": "ar"},
-            {"operator": "OR"},
-            {"field": "language", "relation": "=", "value": "ar"},
-        ]
+        if country == "sa":
+            filters = [
+                {"field": "tag", "key": "news_region", "relation": "=", "value": "sa"},
+                {"operator": "OR"},
+                {"field": "tag", "key": "news_region", "relation": "=", "value": "all"},
+                {"operator": "OR"},
+                {"field": "tag", "key": "news_region", "relation": "not_exists"},
+                {"field": "language", "relation": "!=", "value": "en"},
+            ]
+        elif country == "eg":
+            filters = [
+                {"field": "tag", "key": "news_region", "relation": "=", "value": "eg"},
+                {"operator": "OR"},
+                {"field": "tag", "key": "news_region", "relation": "=", "value": "all"},
+                {"operator": "OR"},
+                {"field": "tag", "key": "news_region", "relation": "not_exists"},
+                {"field": "language", "relation": "!=", "value": "en"},
+            ]
+        else:
+            filters = [
+                {"field": "tag", "key": "news_lang", "relation": "=", "value": "ar"},
+                {"operator": "OR"},
+                {"field": "tag", "key": "news_lang", "relation": "=", "value": "all"},
+                {"operator": "OR"},
+                {"field": "tag", "key": "news_lang", "relation": "not_exists"},
+                {"field": "language", "relation": "!=", "value": "en"},
+            ]
     else:
         heading = "Goldex - Breaking News" if is_politics else "Goldex - Market Alert"
         content = title[:130]
 
-        # استهداف المستخدمين باللغة الإنجليزية
+        # استهداف المستخدمين باللغة الإنجليزية أو تريندات العالم
         filters = [
+            {"field": "tag", "key": "news_region", "relation": "=", "value": "world"},
+            {"operator": "OR"},
             {"field": "tag", "key": "news_lang", "relation": "=", "value": "en"},
             {"operator": "OR"},
+            {"field": "tag", "key": "news_lang", "relation": "=", "value": "all"},
+            {"operator": "OR"},
+            {"field": "tag", "key": "news_lang", "relation": "not_exists"},
             {"field": "language", "relation": "=", "value": "en"},
         ]
 

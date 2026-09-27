@@ -21852,11 +21852,11 @@
         "traffic": "200+",
         "traffic_num": 200,
         "category": "عام",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "Bondscoach Xavi houdt Jeremie Frimpong buiten selectie Oranje tegen Servië",
-          "Zes conclusies: jongensboek voor Meerdink, Veerman de regisseur van Oranje",
-          "Nations League: kijk live mee naar de Servië - Nederland (0-0)"
+          "Meerdink spreekt van 'jongensdroom' na hoofdrol bij basisdebuut",
+          "Nations League: Nederland vlak na rust op gelijke hoogte met Servië, kijk live mee (1-1)"
         ]
       },
       {
@@ -22126,14 +22126,14 @@
         "date": "2026-09-27",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+30000",
-        "traffic_num": 30000,
+        "traffic": "+50600",
+        "traffic_num": 50600,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "موعد مباراة النرويج ضد البرتغال فى دوري الأمم الأوروبية والقنوات الناقلة",
-          "جدول مباريات اليوم الأحد 27 سبتمبر 2026 .. القنوات الناقلة والمعلقين",
-          "قلق في مانشستر يونايتد بعد إصابة برونو فرنانديز مع البرتغال"
+          "جيسوس: برونو فرنانديز يلعب مع مانشستر يونايتد مصابًا",
+          "جدول مباريات اليوم الأحد 27 سبتمبر 2026 .. القنوات الناقلة والمعلقين"
         ]
       },
       {
@@ -22141,8 +22141,8 @@
         "date": "2026-09-27",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "+20000",
-        "traffic_num": 20000,
+        "traffic": "+30200",
+        "traffic_num": 30200,
         "category": "شخصية",
         "publishable": true,
         "headlines": [
@@ -22158,7 +22158,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 30000,
+    "peak_traffic": 50600,
     "category": "شخصية"
   },
   "البحرين-ضد-الإمارات": {
@@ -22505,20 +22505,36 @@
         "date": "2026-09-27",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "Israel vs Republic of Ireland: UEFA Nations League stats & head-to-head",
-          "Irish footballers to wear black armbands in Israel match over Gaza conflict",
-          "Ireland Players Vote to Play Israel Tie despite Gaza Unease"
+          "Who is Gavin Bazunu, and why is he boycotting the Ireland vs Israel match?",
+          "Irish footballers to wear black armbands in Israel match over Gaza conflict"
+        ]
+      },
+      {
+        "key": "2026-09-27|eg",
+        "date": "2026-09-27",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Ireland goalkeeper Bazunu boycotts Nations League games vs Israel over its killings in Gaza - World - Sports",
+          "Republic of Ireland to wear black armbands for Israel game",
+          "Republic of Ireland’s Gavin Bazunu boycotts Israel match ‘as a person of principle’"
         ]
       }
     ],
     "last_seen": "2026-09-27",
-    "total": 2,
+    "total": 3,
     "countries": [
+      "eg",
       "sa",
       "world"
     ],
@@ -22580,14 +22596,14 @@
         "date": "2026-09-27",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "Jurgen Klopp baffled by Marc-Andre ter Stegen criticism despite dropping Germany goalkeeper for Greece clash",
-          "Nmecha, Schlotterbeck to face Karetsas as Germany play Greece",
-          "Germany vs Greece – Prediction, Where to Watch, Kick-off Time and Lineups 27-09"
+          "Germany Greece Nations League Soccer",
+          "Nmecha, Schlotterbeck to face Karetsas as Germany play Greece"
         ]
       },
       {
@@ -22601,8 +22617,8 @@
         "publishable": true,
         "headlines": [
           "Germany vs Greece: UEFA Nations League stats & head-to-head",
-          "Nmecha, Schlotterbeck to face Karetsas as Germany play Greece",
-          "Why isn’t Jamal Musiala playing for Germany vs Greece in 2026-27 Nations League?"
+          "Jurgen Klopp baffled by Marc-Andre ter Stegen criticism despite dropping Germany goalkeeper for Greece clash",
+          "Nmecha, Schlotterbeck to face Karetsas as Germany play Greece"
         ]
       }
     ],
@@ -22748,7 +22764,7 @@
         "headlines": [
           "Wer überträgt Deutschland gegen Griechenland heute live im TV & Stream?",
           "Jürgen Klopp streicht Nico Schlotterbeck aus dem Kader gegen Griechenland",
-          "Sogar die Polizei möchte beim DFB-Fanmarsch ein Foto"
+          "ran Fußball - DFB-Team: Nübel wird im Tor stehen - \"Hat er sich verdient\""
         ]
       }
     ],
@@ -23120,7 +23136,7 @@
         "publishable": false,
         "headlines": [
           "!![LIVE*sTrEaMs] Jordan vs Syria Live Free soccer League Event",
-          "Jordan vs Syria match lineup | Friendlies · 27 Sep 2026",
+          "Draw settles friendly match between Syria and Jordan in Oman",
           "Jordan vs Syria Prediction: Both teams are struggling defensively"
         ]
       }
@@ -23306,5 +23322,324 @@
     ],
     "peak_traffic": 500,
     "category": "فن ومشاهير"
+  },
+  "cardinals-vs-49ers": {
+    "slug": "cardinals-vs-49ers",
+    "name": "cardinals vs 49ers",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Ways to Watch and Listen: Cardinals vs. 49ers | Week 3",
+          "Cardinals vs. 49ers predictions, NFL picks: Get a $55 bonus by using the latest Kalshi promo code CBSSPORTS55",
+          "49ers vs Cardinals live updates: Score, highlights, analysis"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "رياضة"
+  },
+  "vikings-vs-buccaneers": {
+    "slug": "vikings-vs-buccaneers",
+    "name": "vikings vs buccaneers",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "How to Watch, Listen to & Stream Vikings at Buccaneers in 2026 Week 3 Game",
+          "Vikings at Buccaneers: Predictions, picks and odds for NFL Week 3 game",
+          "See images as Bucs seek 1st win of season against Vikings in Tampa"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "رياضة"
+  },
+  "fever-vs-aces": {
+    "slug": "fever-vs-aces",
+    "name": "fever vs aces",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Indiana Fever vs. Las Vegas Aces (First Round, Game 1)",
+          "Indiana Fever vs. Aces in WNBA playoffs: Caitlin Clark points, stats",
+          "Caitlin Clark, Fever visit surging Aces for playoff opener"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "رياضة"
+  },
+  "pirates-vs-tigers": {
+    "slug": "pirates-vs-tigers",
+    "name": "pirates vs tigers",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Tigers and Pirates duke it out in final game of 2026 regular season",
+          "Pittsburgh Pirates vs. Detroit Tigers: Jared Jones vs. River Ryan",
+          "Reynolds nearing 162-game milestone for 1st time in career"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "رياضة"
+  },
+  "jahmyr-gibbs": {
+    "slug": "jahmyr-gibbs",
+    "name": "jahmyr gibbs",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Jahmyr Gibbs scores amazing 17-yard TD to extend Lions' lead over Jets",
+          "Detroit Lions quarterback Jared Goff hits wide receiver Amon-Ra St. Brown on fade route for 4-yard TD",
+          "Jahmyr Gibbs puts Lions on top with Barry Sanders-esque touchdown: watch"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "رياضة"
+  },
+  "jalen-coker": {
+    "slug": "jalen-coker",
+    "name": "jalen coker",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Week 3 Inactives at Cleveland: Xavier Legette out this week",
+          "Panthers get Jalen Coker injury update during Browns Week 3 matchup",
+          "Is Jalen Coker Playing Week 3? Fantasy Football Injury Update"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "trevor-lawrence": {
+    "slug": "trevor-lawrence",
+    "name": "trevor lawrence",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Lawrence's 12-yard TD laser locates Josh Cameron",
+          "Trevor Lawrence finding scoring connection with rookie Josh Cameron",
+          "WATCH: Trevor Lawrence connects with Josh Cameron for TD vs Patriots"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "sonny-styles": {
+    "slug": "sonny-styles",
+    "name": "sonny styles",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Dan Quinn delivers lofty praise for Commanders rookie Sonny Styles",
+          "Marcus Mariota connects with Treylon Burks for 11-yard TD, giving Commanders lead over Seahawks | NFL Highlights",
+          "How To Watch, Listen And Follow Seahawks at Commanders In Week 3 On Sunday, September 27"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "breece-hall": {
+    "slug": "breece-hall",
+    "name": "breece hall",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Breece Hall Fantasy Week 3 Start or Sit: A Top-15 Back Even in a Blowout",
+          "Who Should I Start? Breece Hall or Tyson Bagent",
+          "Breece Hall Player Props Week 3: Anytime TD Props and Odds vs. the Lions"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "nick-martinez": {
+    "slug": "nick-martinez",
+    "name": "nick martinez",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
+        "publishable": true,
+        "headlines": [
+          "‘Why aren’t we the Brewers?’ How the Reds remain in limbo while other small-market clubs succeed - The Athletic",
+          "Reds Ownership Confirms Nick Krall Will Return With Statement That Raises More Questions",
+          "Why the Brewers Are Consistent Winners and the Reds Are Not"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "اقتصاد"
+  },
+  "norwegia-vs-portugal": {
+    "slug": "norwegia-vs-portugal",
+    "name": "norwegia vs portugal",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|sa",
+        "date": "2026-09-27",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Norway vs Portugal: UEFA Nations League stats & head-to-head",
+          "Ronaldo vs Haaland Steals The Show as Gulf Cup 27 and Nations League Return",
+          "Why Isn’t Cristiano Ronaldo Starting Against Norway?"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
   }
 }

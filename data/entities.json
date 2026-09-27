@@ -2186,8 +2186,8 @@
         "date": "2026-09-27",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
@@ -4158,8 +4158,8 @@
         "date": "2026-09-27",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -4167,12 +4167,28 @@
           "Proteas batting standout makes World Cup vow after win over Australia",
           "Cummins nearing return against Proteas"
         ]
+      },
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "SA vs AUS 2026/27, SA vs AUS 2nd ODI Match Preview - South Africa look to secure the early honours over Australia",
+          "(3) South Africa v Australia: second men’s one-day international – live",
+          "“Probably Going To Do That Again”: Matthew Breetzke’s Unapologetic World Cup Vow After Historic ODI Knock"
+        ]
       }
     ],
     "last_seen": "2026-09-27",
-    "total": 2,
+    "total": 3,
     "countries": [
-      "sa"
+      "sa",
+      "world"
     ],
     "peak_traffic": 10000,
     "category": "رياضة"
@@ -4202,14 +4218,14 @@
         "date": "2026-09-27",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "category": "رياضة",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "ZIMW vs WIW, 2nd ODI, West Indies Women tour of Zimbabwe, 2026 - Commentary",
-          "False start for Lady Chevrons",
-          "Alleyne stresses importance of sticking to plans ahead of second ODI"
+          "LADY CHEVRONS CRASH TO 99-RUN DEFEAT",
+          "Matthews likes leading from the front"
         ]
       }
     ],
@@ -4219,7 +4235,7 @@
       "sa"
     ],
     "peak_traffic": 2000,
-    "category": "رياضة"
+    "category": "حوادث وقضايا"
   },
   "national-day-saudi-arabia": {
     "slug": "national-day-saudi-arabia",
@@ -11886,7 +11902,7 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "شخصية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "توقعات مباراة كندا ضد تشيلي - مباراة ودية دولية",
           "وديا..كندا تتغلب على تشيلي وتعادل المكسيك وكولومبيا",
@@ -11948,8 +11964,8 @@
         "publishable": true,
         "headlines": [
           "Gabriel Suazo: \"No cambiaría para nada la mentalidad del equipo\"",
-          "Canadá se reencuentra con su gente venciendo a una descolorida e impotente selección de Chile",
-          "¿Por qué no juega Ben Brereton en el Chile vs Canadá por el amistoso en Toronto?"
+          "Alphonso Davies sorprende con su ausencia en Canadá: ¿por qué no juega ante Chile?",
+          "Jonathan David no se detiene: gol decisivo también con Canadá. Juventus, ¡los 25 millones del rescate por parte del Atlético son pocos!"
         ]
       }
     ],
@@ -13557,9 +13573,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "التعادل الإيجابي يحسم مباراة المكسيك ضد كولومبيا.. فيديو",
           "توقعات مباراة المكسيك وكولومبيا: مواجهة بين فريقين يتمتعان بمستوى جيد.",
-          "المكسيك 0 - 1 كولومبيا (٢٧‏/٠٩): مجريات المباراة، الإحصائيات، والتشكيلات، والمواجهات ، المباشرة، والقنوات الناقلة.",
-          "ملخص المباراة المكسيك - كولومبيا | مباراة ودية | يلا شووت"
+          "المكسيك 0 - 1 كولومبيا (٢٧‏/٠٩): مجريات المباراة، الإحصائيات، والتشكيلات، والمواجهات ، المباشرة، والقنوات الناقلة."
         ]
       },
       {
@@ -16514,12 +16530,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "حوادث وقضايا",
-        "publishable": false,
+        "category": "عام",
+        "publishable": true,
         "headlines": [
-          "Halle Berry, 60, Reveals the Changes in Herself That She’s ‘Embracing’ with Age, Says It’s a ‘Natural Part of Life’",
-          "‘Crime 101’ Star Halle Berry Opens Up About Embracing Her ‘New Face and Body’ at 60",
-          "Halle Berry doesn't want to fight age"
+          "Zendaya's Transformative Halle Berry-Inspired Pixie Haircut Proves She Can Rock Any Length",
+          "Halle Berry Reveals Her Friendship with ‘Little Sweetheart’ Zendaya (Exclusive)",
+          "Zendaya's Emmys Pixie Cut Earns Praise from Halle Berry, Who Dreams of Future Project Together"
         ]
       }
     ],
@@ -16529,7 +16545,7 @@
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "حوادث وقضايا"
+    "category": "عام"
   },
   "عاجل-السعودية": {
     "slug": "عاجل-السعودية",
@@ -16682,8 +16698,8 @@
         "date": "2026-09-27",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -16698,7 +16714,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "هيفاء-وهبي": {
@@ -16711,14 +16727,14 @@
         "date": "2026-09-27",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": true,
         "headlines": [
           "بفستان أسود بدون بطانة.. هيفاء وهبي تتألق في أحدث جلسة تصوير",
-          "مصعد هيفاء وهبي يضج بالجاذبية: 4 إطلالات تكسر قواعد الأنوثة الكلاسيكية",
-          "هيفاء وهبي بميلانو..فستان شفاف يبرز مفاتنها من Dolce&Gabbana"
+          "هيفاء وهبي بميلانو..فستان شفاف يبرز مفاتنها من Dolce&Gabbana",
+          "إطلالة هيفاء وهبي في أحدث ظهور.. أناقة لافتة بالأسود والجينز"
         ]
       }
     ],
@@ -16727,7 +16743,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "sa-vs-aus": {
@@ -16787,8 +16803,8 @@
         "publishable": true,
         "headlines": [
           "Kanye West Joins Chris Brown and Usher for Surprise Performance in Los Angeles",
-          "Kanye West surprises fans at Chris Brown, Usher's concert",
-          "Kanye West Makes Surprise Appearance During Chris Brown and Usher’s SoFi Stadium Show"
+          "Kanye West Surprises Fans at Usher & Chris Brown's Tour",
+          "Kanye West surprises fans at Chris Brown, Usher's concert"
         ]
       }
     ],
@@ -16810,8 +16826,8 @@
         "date": "2026-09-27",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -16825,14 +16841,14 @@
         "date": "2026-09-27",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "India start their final lap for 2027 ODI World Cup without Bumrah, Hardik",
-          "Where to watch India vs. West Indies live stream, TV channel, start time and lineups for 1st ODI",
-          "'Ro-Ko' record hunt: Rohit-Virat eye several milestones ahead of 1st ODI against WI"
+          "'Ro-Ko' record hunt: Rohit-Virat eye several milestones ahead of 1st ODI against WI",
+          "WEST INDIES SET FOR EAGERLY ANTICIPATED LIMITED OVERS SERIES AGAINST INDIA"
         ]
       }
     ],
@@ -16842,7 +16858,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "marshals-season-2": {
@@ -16855,8 +16871,8 @@
         "date": "2026-09-27",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "فن ومشاهير",
         "publishable": true,
         "headlines": [
@@ -16871,7 +16887,94 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "فن ومشاهير"
+  },
+  "nrl": {
+    "slug": "nrl",
+    "name": "nrl",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Cleary injures leg as Crossland sent off",
+          "Penrith’s Nathan Cleary suffers compound fracture in NRL preliminary final against Newcastle",
+          "Live: Nathan Cleary taken to hospital with horrific leg injury, Crossland sent off"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "kailua-shooting": {
+    "slug": "kailua-shooting",
+    "name": "kailua shooting",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|world",
+        "date": "2026-09-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "1 dead after shooting in Kailua Target parking lot",
+          "HPD open murder investigation in Kailua",
+          "Kailua Target shooting reports: What's happening near Kailua Fall Festival in Oahu? | Hindustan Times"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "missile": {
+    "slug": "missile",
+    "name": "missile",
+    "first_seen": "2026-09-27",
+    "appearances": [
+      {
+        "key": "2026-09-27|sa",
+        "date": "2026-09-27",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Saudi Arabia intercepts Houthi drones, ballistic missile targeting Riyadh, Khamis Mushait",
+          "GCC Chief Condemns Terrorist Houthi Attacks on Riyadh and Khamis Mushait",
+          "Houthis say they attacked Riyadh and Aramco facilities in Yanbu"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-27",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
   }
 }

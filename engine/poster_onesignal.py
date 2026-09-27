@@ -14,7 +14,7 @@
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 try:
     import requests
@@ -49,6 +49,20 @@ def save_posted(posted):
 
 def is_ar_text(txt):
     return any("\u0600" <= c <= "\u06FF" for c in (txt or ""))
+
+
+def is_global_market_holiday(dt):
+    """
+    التحقق مما إذا كان التاريخ يوافق عطلة رسمية توقف تداولات سوق الذهب والبورصات العالمية:
+    - رأس السنة الميلادية (1 و 2 يناير)
+    - عطلات أعياد الميلاد ونهاية العام (24 إلى 26 ديسمبر)
+    """
+    m, d = dt.month, dt.day
+    if m == 1 and d in (1, 2):
+        return True
+    if m == 12 and d in (24, 25, 26):
+        return True
+    return False
 
 
 def send_onesignal_notification(app_id, api_key, item, base_url, lang="ar"):
@@ -196,10 +210,13 @@ def main():
 
     posted = load_posted()
 
-    # فحص خاص بيوم الإثنين: استئناف تداولات سوق الذهب والبورصات العالمية
-    now_utc = datetime.now(timezone.utc)
-    if now_utc.weekday() == 0:
-        day_str = now_utc.strftime("%Y-%m-%d")
+    # فحص خاص بافتتاح تعاملات سوق الذهب والبورصات العالمية كل إثنين بعد البدأ بربع ساعة
+    # تفتح البورصة العالمية والذهب عند الساعة 1:00 صباحاً بتوقيت مكة/القاهرة (UTC+3)، ويرسل الإشعار عند 1:15 صباحاً (بعد البدأ بربع ساعة)
+    local_tz = timezone(timedelta(hours=3))
+    now_local = datetime.now(timezone.utc).astimezone(local_tz)
+
+    if now_local.weekday() == 0 and not is_global_market_holiday(now_local):
+        day_str = now_local.strftime("%Y-%m-%d")
         monday_ar_id = f"monday-gold-market-{day_str}-ar"
         monday_en_id = f"monday-gold-market-{day_str}-en"
 

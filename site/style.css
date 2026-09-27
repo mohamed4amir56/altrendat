@@ -321,19 +321,12 @@ td:first-child{color:var(--acc);font-weight:600}
   background:linear-gradient(90deg,#ff5c7c,var(--gold),var(--acc));
 }
 .trend-intel-header{
-  display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px;flex-wrap:wrap;
+  display:flex;align-items:center;margin-bottom:12px;
 }
 .trend-intel-badge{
   display:inline-flex;align-items:center;gap:6px;font-size:.76rem;font-weight:800;
   color:var(--gold);background:rgba(245,197,66,.12);border:1px solid rgba(245,197,66,.3);
   padding:3px 12px;border-radius:99px;
-}
-.trend-intel-metrics{
-  display:flex;gap:8px;flex-wrap:wrap;font-size:.74rem;color:var(--mut);
-}
-.trend-intel-metric-pill{
-  background:rgba(255,255,255,.05);border:1px solid var(--line);
-  padding:2px 10px;border-radius:99px;color:#dce5f2;
 }
 .trend-why-title{
   font-size:1.15rem;font-weight:800;color:#fff;margin-bottom:8px;display:flex;align-items:center;gap:8px;
@@ -359,29 +352,6 @@ td:first-child{color:var(--acc);font-weight:600}
 }
 html[dir="ltr"] .takeaways-list li::before{
   right:auto;left:0;
-}
-
-/* --- مؤشر التأثير على الأسواق وأسعار الذهب والعملات (Market & Gold Pulse) --- */
-.market-gold-pulse{
-  background:linear-gradient(135deg,rgba(245,197,66,.09),rgba(255,92,124,.07));
-  border:1px solid rgba(245,197,66,.35);border-radius:16px;
-  padding:18px 20px;margin:22px 0 24px;
-}
-.pulse-header{
-  display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px;flex-wrap:wrap;
-}
-.pulse-title{
-  font-size:1.02rem;font-weight:800;color:var(--gold);display:flex;align-items:center;gap:8px;margin:0;
-}
-.pulse-desc{
-  font-size:.92rem;line-height:1.7;color:#e8edf5;margin:0 0 12px;
-}
-.pulse-badges{
-  display:flex;gap:8px;flex-wrap:wrap;
-}
-.pulse-pill{
-  font-size:.76rem;font-weight:700;padding:3px 12px;border-radius:99px;
-  background:rgba(10,13,20,.6);border:1px solid rgba(245,197,66,.25);color:var(--txt);
 }
 
 /* --- بطاقات الأسئلة الأكثر بحثًا (FAQ Cards / People Also Ask) --- */

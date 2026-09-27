@@ -461,19 +461,12 @@ td:first-child{color:var(--acc);font-weight:600}
   background:linear-gradient(90deg,#ff5c7c,var(--gold),var(--acc));
 }
 .trend-intel-header{
-  display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px;flex-wrap:wrap;
+  display:flex;align-items:center;margin-bottom:12px;
 }
 .trend-intel-badge{
   display:inline-flex;align-items:center;gap:6px;font-size:.76rem;font-weight:800;
   color:var(--gold);background:rgba(245,197,66,.12);border:1px solid rgba(245,197,66,.3);
   padding:3px 12px;border-radius:99px;
-}
-.trend-intel-metrics{
-  display:flex;gap:8px;flex-wrap:wrap;font-size:.74rem;color:var(--mut);
-}
-.trend-intel-metric-pill{
-  background:rgba(255,255,255,.05);border:1px solid var(--line);
-  padding:2px 10px;border-radius:99px;color:#dce5f2;
 }
 .trend-why-title{
   font-size:1.15rem;font-weight:800;color:#fff;margin-bottom:8px;display:flex;align-items:center;gap:8px;
@@ -499,29 +492,6 @@ td:first-child{color:var(--acc);font-weight:600}
 }
 html[dir="ltr"] .takeaways-list li::before{
   right:auto;left:0;
-}
-
-/* --- مؤشر التأثير على الأسواق وأسعار الذهب والعملات (Market & Gold Pulse) --- */
-.market-gold-pulse{
-  background:linear-gradient(135deg,rgba(245,197,66,.09),rgba(255,92,124,.07));
-  border:1px solid rgba(245,197,66,.35);border-radius:16px;
-  padding:18px 20px;margin:22px 0 24px;
-}
-.pulse-header{
-  display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px;flex-wrap:wrap;
-}
-.pulse-title{
-  font-size:1.02rem;font-weight:800;color:var(--gold);display:flex;align-items:center;gap:8px;margin:0;
-}
-.pulse-desc{
-  font-size:.92rem;line-height:1.7;color:#e8edf5;margin:0 0 12px;
-}
-.pulse-badges{
-  display:flex;gap:8px;flex-wrap:wrap;
-}
-.pulse-pill{
-  font-size:.76rem;font-weight:700;padding:3px 12px;border-radius:99px;
-  background:rgba(10,13,20,.6);border:1px solid rgba(245,197,66,.25);color:var(--txt);
 }
 
 /* --- بطاقات الأسئلة الأكثر بحثًا (FAQ Cards / People Also Ask) --- */
@@ -1305,63 +1275,7 @@ def build_takeaways(t, art, is_en=False):
 
 
 def build_market_gold_pulse(t, art, is_en=False):
-    """مؤشر تحليل التأثير على الأسواق وأسعار الذهب والعملات (جاهز لتطبيق الذهب)."""
-    cat = t.get("category", "")
-    if cat in ("رياضة", "فن ومشاهير", "طقس", "أبراج وفلك", "فضول عام"):
-        return ""
-    title_text = (t.get("title", "") + " " + art.get("headline", "") + " " + art.get("body", "")).lower()
-
-    is_eco_pol = cat in ("سياسة", "اقتصاد") or any(k in title_text for k in [
-        "ذهب", "عيار", "سبائك", "دولار", "جنيه", "ريال", "فائدة", "تضخم", "مركزي",
-        "صندوق النقد", "بريكس", "سويس", "بحر أحمر", "نفط", "أوبك", "قمة",
-        "عقوبات", "هدنة", "حكومة", "استثمار", "سندات", "صاغة",
-        "gold", "dollar", "fed", "inflation", "currency", "oil", "opec", "summit", "ceasefire"
-    ])
-
-    if not is_eco_pol:
-        return ""
-
-    if any(k in title_text for k in ["فائدة", "تضخم", "مركزي", "fed", "interest rate", "inflation"]):
-        sensitivity = "عالية جدًا (قرارات نقدية وأسعار فائدة)"
-        gold_status = "تأثير مباشر على عوائد السندات والذهب"
-        desc = "تعد قرارات وتوقعات أسعار الفائدة والسياسة النقدية المحرك الأساسي لحركة السيولة بين الأوعية الادخارية والذهب؛ حيث يؤدي تثبيت أو خفض الفائدة إلى تعزيز جاذبية الذهب كملاذ آمن وأداة تحوط رئيسية ضد تقلبات الأسعار والتضخم."
-    elif any(k in title_text for k in ["بحر أحمر", "سويس", "عقوبات", "هدنة", "حرب", "توترات", "ceasefire", "sanctions"]):
-        sensitivity = "مرتفعة (توترات جيوسياسية وسلاسل الإمداد)"
-        gold_status = "تحفيز قوي للطلب على الملاذات الآمنة والسبائك"
-        desc = "التطورات الجيوسياسية الإقليمية والدولية تؤثر مباشرة على تكاليف الشحن وتدفقات الطاقة، مما يدفع المستثمرين والصناديق لزيادة حيازاتهم من الذهب كأصل استراتيجي للتحوط ضد المخاطر غير المتوقعة."
-    elif any(k in title_text for k in ["دولار", "جنيه", "صرف", "سيولة", "صندوق النقد", "dollar", "currency"]):
-        sensitivity = "مباشرة (سعر الصرف والسيولة النقدية)"
-        gold_status = "ارتباط وثيق بتسعير جرام الذهب محليًا"
-        desc = "يرتبط تسعير الذهب في السوق المحلي بسعر صرف العملة وتوفر السيولة الأجنبية؛ حيث تساهم التدفقات الاستثمارية وضبط السيولة في استقرار الفروق السعرية بين الأسواق المحلية والبورصة العالمية."
-    else:
-        sensitivity = "متوسطة إلى مرتفعة (بيئة الاستثمار والثقة)"
-        gold_status = "مؤشر استقرار يدعم تنويع المحافظ والادخار"
-        desc = "القرارات الاقتصادية والسياسية الكبرى تعيد تشكيل تطلعات مجتمع الأعمال والمدخرين، مما ينعكس إيجابًا على اتجاهات تنويع السيولة بين المشروعات والذهب كأداة لحفظ القيمة على المدى المتوسط والطويل."
-
-    if is_en:
-        return f"""
-        <div class="market-gold-pulse">
-          <div class="pulse-header">
-            <h4 class="pulse-title">🟡 Market & Gold Pulse</h4>
-            <div class="pulse-badges">
-              <span class="pulse-pill">Sensitivity: {sensitivity}</span>
-              <span class="pulse-pill">Safe Haven: Active</span>
-            </div>
-          </div>
-          <p class="pulse-desc">{desc}</p>
-        </div>"""
-    else:
-        return f"""
-        <div class="market-gold-pulse">
-          <div class="pulse-header">
-            <h4 class="pulse-title">🟡 مؤشر التأثير على الأسواق وأسعار الذهب والعملات (Market & Gold Pulse)</h4>
-            <div class="pulse-badges">
-              <span class="pulse-pill">📊 حساسية السوق: {sensitivity}</span>
-              <span class="pulse-pill">🪙 وضع الذهب: {gold_status}</span>
-            </div>
-          </div>
-          <p class="pulse-desc">{desc}</p>
-        </div>"""
+    return ""
 
 
 def build_faqs(t, art, is_en=False):
@@ -1433,7 +1347,6 @@ def build_trend(country, cfg, t, urls):
 
     # مكونات ذكاء الترند المضافة
     takeaways_html = build_takeaways(t, art, is_en=is_en)
-    market_pulse_html = build_market_gold_pulse(t, art, is_en=is_en)
     faq_html, faq_items = build_faqs(t, art, is_en=is_en)
 
     img_list = []
@@ -1552,15 +1465,6 @@ def build_trend(country, cfg, t, urls):
                     "</figure>".format(
                         "../../../../", os.path.basename(t["card"]), E(t["title"])))
 
-    if is_en:
-        metric_traffic = f"🔍 {E(t['traffic'])} searches"
-        metric_speed = "📈 Record Velocity"
-        metric_sources = f"✅ Verified across {n_sources} sources"
-    else:
-        metric_traffic = f"🔍 {E(t['traffic'])} بحث"
-        metric_speed = "📈 تسارع قياسي"
-        metric_sources = f"✅ تم التحقق عبر {n_sources} مصادر"
-
     body = f"""
     <div class="when">{chips}</div>
     <h1>{E(art["headline"])}</h1>
@@ -1573,19 +1477,11 @@ def build_trend(country, cfg, t, urls):
     <div class="trend-intel-box">
       <div class="trend-intel-header">
         <span class="trend-intel-badge">{intel_badge}</span>
-        <div class="trend-intel-metrics">
-          <span class="trend-intel-metric-pill">{metric_traffic}</span>
-          <span class="trend-intel-metric-pill">{metric_speed}</span>
-          <span class="trend-intel-metric-pill">{metric_sources}</span>
-        </div>
       </div>
       <div class="trend-why-title">{why_heading}</div>
       <p class="trend-why-desc">{E(art.get("summary", ""))}</p>
       {takeaways_html}
     </div>
-
-    <!-- مؤشر التأثير على الأسواق وأسعار الذهب والعملات (إن وجد) -->
-    {market_pulse_html}
 
     <article>
       <div style="font-size:0.95rem;font-weight:700;color:var(--acc);margin-bottom:12px;">{read_more_heading}</div>

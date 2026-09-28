@@ -303,15 +303,17 @@ def write_one(client, trend, country_name, is_en=False, country_key="world"):
 
     article["_v"] = WRITER_VERSION
     article["written_at"] = datetime.now(timezone.utc).isoformat()
-    # صورة حرة الرخصة عالية الدقة: من ويكيبيديا بالاسم (أشخاص وفرق وأماكن)،
-    # وإلا صورة تعبيرية لفئته من كومنز. لا صور صحف.
+    # صورة حرة الرخصة تخص الخبر: صاحبه أو أحد أعلامه من ويكيبيديا، أو صورة
+    # تعبيرية تطابق موضوعه، وإلا لا شيء (فيُعرض كارت الموقع). لا صور صحف.
     try:
-        article["photo"] = photos.photo_for(
+        photos.mark(article, photos.photo_for(
             trend["title"], trend.get("category", ""), country_key,
-            ("en",) if is_en else ("ar", "en"))
+            ("en",) if is_en else ("ar", "en"), article))
     except Exception:
+        # تعذّر الاتصال: صورة تعبيرية إن طابقت، وتكمل photos.py الباقي لاحقًا
         article["photo"] = photos.stock_photo(
-            trend["title"], trend.get("category", ""), country_key)
+            trend["title"], trend.get("category", ""), country_key,
+            photos.photo_text(article))
     return article
 
 
@@ -381,9 +383,6 @@ def main():
             if k in store and not force and not stale:
                 if store[k].get("declined") or store[k].get("rejected"):
                     continue          # حُسم أمره سابقًا؛ لا مال يُنفق ثانية
-                if not store[k].get("photo"):
-                    store[k]["photo"] = photos.stock_photo(
-                        t["title"], t.get("category", ""), key)
                 t["article"] = store[k]
                 cached += 1
                 continue

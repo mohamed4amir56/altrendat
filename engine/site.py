@@ -955,6 +955,88 @@ aside.gold-promo-cta{margin-top:30px}
 /* الصورة كاملة بلا قص: صور الأشخاص طولية، والقص من المنتصف يقطع الوجه */
 .article-photo img{max-height:460px;object-fit:contain;background:#0d121c}
 .hero-spotlight-media img{object-position:center 22%}
+
+/* --- قسم الوظائف: بحث وتصفية، وشروط وخطوات تقديم واضحة --- */
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.jobs-hero{background:radial-gradient(120% 140% at 100% 0%,rgba(245,197,66,.13),transparent 55%),
+  linear-gradient(165deg,var(--card),var(--bg2));border:1px solid var(--line);border-radius:20px;
+  padding:26px 22px 16px;margin:10px 0 16px}
+.jobs-hero h1{margin:0 0 8px;font-size:1.65rem;line-height:1.45}
+.jobs-sub{color:var(--mut);margin:0 0 16px;line-height:1.85}
+.job-search{position:relative;display:flex;gap:8px}
+.job-search::before{content:"🔍";position:absolute;inset-inline-start:14px;top:50%;
+  transform:translateY(-50%);opacity:.7;pointer-events:none;font-size:.95rem}
+.job-search input{flex:1;min-width:0;background:var(--bg);border:1px solid var(--line);border-radius:14px;
+  color:var(--txt);font:inherit;font-size:1rem;padding:13px 14px;padding-inline-start:42px;outline:none;
+  transition:border-color .2s,box-shadow .2s}
+.job-search input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(245,197,66,.18)}
+.job-search button{background:var(--gold);color:#1a1405;border:0;border-radius:14px;font:inherit;
+  font-weight:800;padding:0 20px;cursor:pointer}
+.job-search.mini{margin:22px 0 6px}
+.job-filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.job-filter{background:rgba(255,255,255,.04);border:1px solid var(--line);color:var(--txt);border-radius:99px;
+  padding:7px 15px;font:inherit;font-size:.86rem;font-weight:700;cursor:pointer;transition:.2s}
+.job-filter:hover{border-color:rgba(245,197,66,.55)}
+.job-filter[aria-pressed=true]{background:var(--gold);border-color:var(--gold);color:#1a1405}
+.job-count{color:var(--mut);font-size:.85rem;margin:12px 0 0;min-height:1.3em}
+.job-group[hidden],.job-card[hidden]{display:none}
+.job-grid{display:grid;gap:14px;grid-template-columns:1fr}
+@media(min-width:760px){.job-grid{grid-template-columns:1fr 1fr}}
+.job-card{display:flex;flex-direction:column;gap:8px;background:linear-gradient(165deg,var(--card),var(--bg2));
+  border:1px solid var(--line);border-radius:16px;padding:16px 18px;color:var(--txt);text-decoration:none;
+  transition:border-color .2s,transform .2s}
+.job-card:hover{border-color:rgba(245,197,66,.55);transform:translateY(-2px)}
+.job-card-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:.8rem;color:var(--mut)}
+.job-flag{font-size:1.3rem;line-height:1}
+.job-kind{margin-inline-start:auto;background:rgba(90,169,255,.1);color:var(--acc);border-radius:99px;
+  padding:2px 10px;font-weight:700;font-size:.74rem}
+.job-card h3{margin:0;font-size:1.04rem;line-height:1.65}
+.job-card p{margin:0;color:var(--mut);font-size:.88rem;line-height:1.75;display:-webkit-box;
+  -webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.job-card-meta{margin-top:auto;padding-top:10px;display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.79rem;
+  color:var(--mut);border-top:1px dashed var(--line)}
+.job-go{margin-inline-start:auto;color:var(--gold);font-weight:800}
+.job-empty{text-align:center;color:var(--mut);padding:30px 12px;border:1px dashed var(--line);
+  border-radius:16px;margin-top:12px}
+.job-safety{display:block;padding:12px 18px}
+.job-safety summary{cursor:pointer;display:flex;align-items:center;gap:10px;list-style:none}
+.job-safety summary::-webkit-details-marker{display:none}
+.job-safety summary strong{color:var(--acc);font-size:.95rem}
+.job-safety summary::after{content:"▾";margin-inline-start:auto;color:var(--mut)}
+.job-safety[open] summary::after{content:"▴"}
+.job-safety ul{margin:10px 0 2px;padding-inline-start:22px;color:var(--mut);font-size:.9rem;line-height:1.8}
+.job-facts{display:grid;gap:10px;grid-template-columns:1fr;margin:0 0 18px}
+@media(min-width:700px){.job-facts{grid-template-columns:repeat(3,1fr)}}
+.job-fact{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.job-fact span{display:block;color:var(--mut);font-size:.78rem;margin-bottom:4px}
+.job-fact strong{font-size:.92rem;line-height:1.65;display:block}
+.job-fact a{color:var(--gold)}
+.job-block{background:linear-gradient(165deg,var(--card),var(--bg2));border:1px solid var(--line);
+  border-radius:18px;padding:4px 18px 16px;margin:0 0 16px}
+.job-block h2{margin:16px 0 14px}
+.job-checks,.job-docs{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.job-checks li,.job-docs li{position:relative;padding-inline-start:34px;line-height:1.85}
+.job-checks li::before{content:"✓";position:absolute;inset-inline-start:0;top:.25em;width:23px;height:23px;
+  border-radius:50%;background:rgba(74,222,128,.14);color:#4ade80;font-weight:900;font-size:.8rem;
+  display:grid;place-items:center}
+.job-docs li::before{content:"📄";position:absolute;inset-inline-start:2px;top:0}
+.job-steps{list-style:none;counter-reset:step;margin:0;padding:0}
+.job-steps li{counter-increment:step;position:relative;padding-inline-start:48px;padding-bottom:18px;line-height:1.85}
+.job-steps li::before{content:counter(step);position:absolute;inset-inline-start:0;top:0;width:33px;height:33px;
+  border-radius:50%;background:var(--gold);color:#1a1405;font-weight:900;display:grid;place-items:center}
+.job-steps li::after{content:"";position:absolute;inset-inline-start:16px;top:36px;bottom:2px;width:2px;
+  background:var(--line)}
+.job-steps li:last-child{padding-bottom:4px}
+.job-steps li:last-child::after{display:none}
+.job-apply{display:flex;align-items:center;justify-content:center;gap:8px;margin:14px 0 8px;
+  background:linear-gradient(95deg,var(--gold),#ff9f68);color:#1a1405!important;font-weight:900;
+  border-radius:14px;padding:14px 18px;text-decoration:none;text-align:center;line-height:1.6}
+.job-apply:hover{filter:brightness(1.06)}
+.job-apply-note{color:var(--mut);font-size:.8rem;text-align:center;margin:0}
+.job-notes{background:rgba(255,160,60,.07);border:1px solid rgba(255,160,60,.32);border-radius:16px;
+  padding:12px 18px;margin:0 0 16px}
+.job-notes strong{color:#ffb454}
+.job-notes ul{margin:6px 0 0;padding-inline-start:20px;line-height:1.8}
 """
 
 
@@ -1233,7 +1315,7 @@ def render_hero_spotlight(t, href, country_name, flag, time_str, root="./", is_e
     return f'''
     <div class="hero-spotlight">
       <div class="hero-spotlight-media">
-        <img src="{E(img_url)}" alt="{E(headline)}" loading="eager" decoding="async" onerror="this.onerror=null;this.src='{root}og-default.jpg'">
+        <img src="{E(img_url)}" alt="{E(headline)}" loading="eager" decoding="async" onerror="this.onerror=null;this.src='{E(get_card_thumb_url(t, root=root))}'">
         {credit}
       </div>
       <div class="hero-spotlight-content">
@@ -1259,12 +1341,15 @@ def render_hero_spotlight(t, href, country_name, flag, time_str, root="./", is_e
 
 def photo_credit(photo, is_en=False):
     """سطر المصدر الذي تشترطه رخصة الصورة: المصوّر والرخصة ورابط الملف.
-    الصورة التعبيرية تُوسم بذلك، فلا يظنها القارئ من الحدث نفسه."""
-    label = "Photo:" if is_en else "الصورة:"
+    ويسبقه من في الصورة، أو أنها تعبيرية — فلا يظنها القارئ من الحدث نفسه."""
     if photo.get("stock"):
-        label = ("Illustrative photo:" if is_en else "صورة تعبيرية:")
-    return "{} {} · {} · <a href='{}' target='_blank' rel='noopener'>{}</a>".format(
-        label, E(photo.get("artist", "")),
+        who = "Illustrative photo · " if is_en else "صورة تعبيرية · "
+    elif photo.get("wiki_title"):
+        who = ("Pictured: {} · " if is_en else "في الصورة: {} · ").format(E(photo["wiki_title"]))
+    else:
+        who = ""
+    return "{}{} {} · {} · <a href='{}' target='_blank' rel='noopener'>{}</a>".format(
+        who, "Photo:" if is_en else "تصوير:", E(photo.get("artist", "")),
         E(photo.get("license", "")), E(photo.get("file_page", "")),
         "Wikimedia Commons" if is_en else "ويكيميديا كومنز")
 
@@ -1277,16 +1362,30 @@ def photo_srcset(url):
                      for w in (500, 960)) + ", {} 1280w".format(url)
 
 
-def photo_figure(photo, alt, is_en=False):
-    """صورة حرة الرخصة تحتها مصدرها. صور الصحف لا تُعرض (حقوقها لناشريها)."""
+def photo_figure(photo, alt, is_en=False, card=None):
+    """صورة حرة الرخصة تحتها مصدرها. صور الصحف لا تُعرض (حقوقها لناشريها).
+    card: كارت الموقع (رابط نسبي، 1200×675، عليه العنوان نفسه) — يُعرض حين
+    لا صورة تخص الخبر، ويحل محل الصورة إن تعذّر تحميلها فلا تظهر صورة مكسورة."""
     if not photo or not photo.get("url"):
-        return ""
+        if not card:
+            return ""
+        return ("<figure class='article-photo'><img src='{u}' alt='{a}' width='1200' "
+                "height='675' loading='eager' fetchpriority='high' decoding='async'>"
+                "</figure>").format(u=E(card), a=E(alt))
     size = ""
     if photo.get("width") and photo.get("height"):
         size = " width='{}' height='{}'".format(int(photo["width"]), int(photo["height"]))
     srcset = photo_srcset(photo["url"])
     if srcset:
         size += " srcset='{}' sizes='(max-width: 820px) 100vw, 820px'".format(E(srcset))
+    if card:
+        size += (" onerror=\"this.onerror=null;this.removeAttribute('srcset');"
+                 "this.src='{}';var c=this.parentNode.querySelector('figcaption');"
+                 "if(c)c.remove()\"").format(E(card))
+    if photo.get("stock"):
+        alt = ("Illustrative photo: " if is_en else "صورة تعبيرية: ") + alt
+    elif photo.get("wiki_title"):
+        alt = photo["wiki_title"]
     return ("<figure class='article-photo'><img src='{u}' alt='{a}'{s} loading='eager' "
             "fetchpriority='high' decoding='async'>"
             "<figcaption>{c}</figcaption></figure>").format(
@@ -1413,7 +1512,8 @@ def build_trend(country, cfg, t, urls, hubs=None, news=None):
     <h1>{E(art["headline"])}</h1>
     {byline}
     <p class="lead">{E(summ)}</p>
-    {photo_figure(art.get("photo"), art["headline"], is_en)}
+    {photo_figure(art.get("photo"), art["headline"], is_en,
+                  card=get_card_thumb_url(t, root="../../../../") if t.get("card") else None)}
     {facts_box(art, is_en)}
     {data_table(t.get("data"))}
     <article class="story">{body_html}</article>
@@ -2386,14 +2486,15 @@ def main():
     for entries in by_country.values():
         entries.sort(key=lambda x: x[0], reverse=True)
 
-    # لكل مقال صورة: ما لم تصله photos.py (مقال كُتب لتوّه) يأخذ صورة فئته
-    # التعبيرية من data/stock_photos.json، بلا اتصال بالشبكة.
+    # مقال لم تصله photos.py يأخذ صورة تعبيرية إن طابق موضوعها كلماته
+    # (بلا اتصال بالشبكة)، وإلا يُعرض كارت الموقع مكانها — لا صورة غريبة.
     for key, entries in by_country.items():
         for _, cfg in entries:
             for t in cfg["trends"]:
                 art = t.get("article")
                 if art and not art.get("photo"):
-                    art["photo"] = photos.stock_photo(t["title"], t.get("category", ""), key)
+                    art["photo"] = photos.stock_photo(t["title"], t.get("category", ""), key,
+                                                      photos.photo_text(art))
 
     # الصفحة الرئيسة وصفحات البلاد تُبنى من أحدث يوم مؤرشف لكل بلد،
     # فلا يسقط بلد من الموقع بسبب تشغيلة فشل فيها جلبه.

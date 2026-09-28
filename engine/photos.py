@@ -2,21 +2,31 @@
 """
 صور مرخصة من ويكيبيديا وويكيميديا كومنز — البديل القانوني لصور الصحف.
 
-صور الصحف حقوقها لناشريها، وعلامتها المائية (اليوم السابع، CNN...) علامة
-حقوقهم، وإزالتها مخالفة للقانون. لذلك:
-- نبحث عن صفحة ويكيبيديا بعنوان الترند نفسه (مع التحويلات)، بالعربية ثم
-  بالإنجليزية. بلا بحث تقريبي: عنوان مطابق أو لا صورة، فلا تظهر صورة
-  شخص آخر.
-- نأخذ الصورة الرئيسية للصفحة فقط إن كانت برخصة حرة (pilicense=free)،
-  ونستبعد صفحات التوضيح.
-- نقرأ اسم المصوّر والرخصة من بيانات الملف، ويُكتبان تحت الصورة (شرط
-  الرخصة). الحارس (guard.py) يرفض أي صورة من كومنز بلا هذا السطر.
-- الجودة: نعرض نسخة بعرض 1280 (مقاس قياسي عند ويكيميديا، وفوق حد Google
-  Discover وهو 1200). الصور التعبيرية أصلها 1280 فأكثر، وصورة الشخص نفسه
-  تُقبل من 960.
-- ما لا صورة له بالاسم يأخذ صورة تعبيرية من مجموعة منتقاة لفئته (STOCK):
-  ملفات كومنز حرة عالية الدقة، بياناتها في data/stock_photos.json،
-  ويُكتب تحتها «صورة تعبيرية». فلا يبقى مقال بلا صورة.
+صور الصحف حقوقها لناشريها وإن ذُكر مصدرها، وعلامتها المائية علامة حقوقهم.
+لذلك كل صورة هنا برخصة حرة (CC، ملكية عامة، OGL)، وتحتها المصوّر والرخصة
+ورابط الملف (شرط الرخصة؛ والحارس guard.py يرفض صورة كومنز بلا هذا السطر).
+
+الصورة يجب أن تخص الخبر نفسه، وصورة لا علاقة لها بالخبر تضلل القارئ فلا
+تُوضع أبدًا. المصادر بالترتيب، وكل مصدر يحتاط لما قبله:
+
+  صاحب الخبر (عنوان الترند، ثم أول وسوم المقال):
+    1. صورة صفحة ويكيبيديا بالاسم نفسه (عربي ثم إنجليزي، مع التحويلات).
+    2. صورة الكيان في ويكي بيانات (P18) — الأصل الكامل حين تكون صورة
+       الصفحة مقتطعة صغيرة.
+    3. تصنيف الشخص أو الفريق في كومنز (P373): أحدث صورة عالية الدقة له.
+    ويُشترط (بويكي بيانات) أن يكون الكيان من النوع الصحيح:
+    - شخص باسمه الكامل («رونالدو» وحدها صفحة لاعب آخر)، ورد اسمه في
+      العنوان إن جاء من الوسوم.
+    - فريق أو بطولة بأسمائها.
+    - مكان هو موضوع الخبر، لا مكان وقوعه («قرطاج» في خبر عن مهرجان).
+    - عنوان ملتبس (صفحة توضيح، مثل «Luis Suárez») يوقف البحث بالاسم.
+  4. صورة تعبيرية إن طابق الخبر موضوعها بكلماته (ذهب، بورصة، انتخابات،
+     مستشفى...)، من مجموعة منتقاة محفوظة محليًا (data/stock_photos.json)،
+     فتعمل ولو تعذّر الاتصال. يُكتب تحتها «صورة تعبيرية».
+  5. لا شيء: الموقع يعرض كارته (العنوان نفسه على خلفية الموقع).
+
+الجودة: نعرض نسخة بعرض 1280 (مقاس قياسي عند ويكيميديا، وفوق حد Google
+Discover وهو 1200)، وأصل صورة صاحب الخبر 960 بكسل فأكثر.
 
   python engine/photos.py            # يملأ صور المقالات التي لم تُجرَّب بعد
   python engine/photos.py --recheck  # يعيد التجربة لكل المقالات
@@ -37,60 +47,168 @@ if hasattr(sys.stdout, "reconfigure"):
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API = "https://{lang}.wikipedia.org/w/api.php"
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
+WIKIDATA_API = "https://www.wikidata.org/w/api.php"
 UA = "AltrendatBot/1.0 (https://altrendat.com; info@altrendat.com)"
-# أسماء أعلام فقط. «مجلس الشيوخ» في السياسة قد تكون صفحته عن مجلس بلد آخر،
-# فلا صور بالاسم لفئات المصطلحات العامة (تأخذ صورة تعبيرية بدلها).
-PHOTO_CATEGORIES = {"شخصية", "رياضة", "فن ومشاهير", "دول وأماكن"}
-FREE = re.compile(r"(cc[\s-]?by|cc0|public domain|^pd\b|gfdl)", re.I)
+# OGL: رخصة الحكومة البريطانية المفتوحة (الاستخدام التجاري مسموح بشرط النسب)
+FREE = re.compile(r"(cc[\s-]?by|cc0|public domain|^pd\b|gfdl|\bogl\b|no restrictions)", re.I)
 NOT_FREE = re.compile(r"(\bnc\b|\bnd\b|non-?commercial|no-?deriv|fair use)", re.I)
 TAGS = re.compile(r"<[^>]+>")
 WIDTH = 1280                       # عرض العرض، ومقاس قياسي لمصغّرات ويكيميديا
-# صورة الشخص نفسه بعرض 960 أنفع من صورة تعبيرية، وتبقى حادة في عمود المقال
-MIN_NAMED = 960
+MIN_NAMED = 960                    # أقل عرض لأصل صورة صاحب الخبر
+MAX_TAGS = 4                       # الوسوم الأولى هي أصحاب الخبر
 RASTER = re.compile(r"\.(jpe?g|png|webp)$", re.I)
+PHOTO_FILE = re.compile(r"\.jpe?g$", re.I)        # الصور الفوتوغرافية في التصنيفات
+NOT_PHOTO = re.compile(r"(logo|signature|autograph|coat of arms|emblem|crest|flag|"
+                       r"map\b|poster|screenshot|stamp|شعار|توقيع|علم)", re.I)
 STOCK_PATH = os.path.join(ROOT, "data", "stock_photos.json")
 
-# صور تعبيرية لكل فئة: ملفات من ويكيميديا كومنز برخص حرة، كلها أعرض من
-# 1600 بكسل. «فئة@بلد» تخص نسخة بعينها وتسبق الفئة العامة، والفئات غير
-# المذكورة («عام»، «دول وأماكن»...) تأخذ صورة بلد النسخة (@eg، @sa، @world). غيّر القائمة ثم شغّل: python engine/photos.py --stock
+# أنواع الكيانات في ويكي بيانات (P31)
+HUMAN = "Q5"
+TEAM_TYPES = {"Q476028", "Q6979593", "Q135408445", "Q103229495", "Q20639856",
+              "Q12973014", "Q847017", "Q67145856", "Q17376093", "Q10651067"}
+COMPETITION_TYPES = {"Q34542757", "Q500834", "Q34262807", "Q15991303", "Q34542827",
+                     "Q135741070", "Q623109", "Q27020041", "Q51036091", "Q13406554",
+                     "Q18608583", "Q1079023"}
+# منتجات بأسمائها (طائرة، سيارة، هاتف): صورتها صورة الخبر إن كانت هي العنوان
+OBJECT_TYPES = {"Q15056993", "Q15056995", "Q3231690", "Q19723451", "Q10929058"}
+# فئات صورة المكان فيها ليست صورة الخبر (المباراة ليست صورة المدينة)
+NO_PLACE = {"رياضة", "فن ومشاهير", "ديني", "طقس", "أبراج وفلك", "تعليم", "شخصية"}
+# عنوان مباراة أو بطولة («تركيا ضد إيطاليا»، «gulf cup»): صورة البلد أو المدينة
+# ليست صورة الخبر
+MATCH = re.compile(r"(\sضد\s|\svs\.?\s|\sv\s|×|مباراة|كأس|كاس|دوري|بطولة|تصفيات|"
+                   r"\scup\s|\sleague\s|championship|qualif)", re.I)
+# صور وكالات الأنباء عليها شعارها (مرخصة، لكنها تبدو صورة صحيفة)
+AGENCY = re.compile(r"(news agency|وكالة|mehrnews|tasnimnews|farsnews|isna\.ir|irna\.ir|"
+                    r"xinhua|anadolu|aa\.com\.tr|\bmehr\b|\btasnim\b)", re.I)
+EXTMETA = "Artist|Credit|LicenseShortName|LicenseUrl"
+SPORT_TOPICS = {"football", "tennis", "basketball", "cricket"}
+# فئات يُعرف أصحابها باسم واحد (المغنون والممثلون)
+MONONYM_OK = {"فن ومشاهير"}
+
+# ── الصور التعبيرية ──────────────────────────────────────────────────
+# ملفات حرة من كومنز أعرض من 1600 بكسل، لكل موضوع كلماته في TOPIC_WORDS.
+# «موضوع@بلد» يسبق الموضوع العام لنسخته؛ وموضوع بلا صورة عامة لا يُستخدم
+# إلا في نسخته. غيّر القائمة ثم شغّل: python engine/photos.py --stock
 STOCK = {
-    "سياسة": ["United Nations General Assembly Hall (3).jpg",
-              "United Nations General Assembly 2024.jpg",
-              "Vecteezy stack-of-newspaper 1961329.jpg"],
-    "اقتصاد": ["Gold bullion bars.jpg",
-               "Frankfurt Stock Exchange (Ank Kumar) 03.jpg",
-               "Container ship NYK Themis at the Port of Los Angeles.jpg"],
-    "رياضة": ["Adidas soccer ball on a grass pitch (Unsplash).jpg",
-              "The Peninsula Stadium at night - Salford City - Aug 24.jpg",
-              "Cairo International Stadium 2019.jpg"],
-    "رياضة@sa": ["Adidas soccer ball on a grass pitch (Unsplash).jpg",
-                 "King Fahd International Stadium 2020s.jpg"],
-    "طقس": ["Close-up of the rain drops on a car window. Car in a blurry background.jpg",
-            "Lightning in Dallas 2015.jpg",
-            "Cloud cumulonimbus at baltic sea(1).jpg"],
-    "ديني": ["Masjid al-Haram 2022.jpg",
-             "The Courtyard of Al-Azhar Mosque, Cairo, Egypt.jpg"],
-    "تقنية": ["Black smartphone in hand (Unsplash).jpg",
-              "Datacenter Server Racks (22370909788).jpg"],
-    "تعليم": ["Hamamatsu Municipal Sakuma Library reading room ac (1).jpg"],
-    "تعليم@sa": ["King Saud University Entrance Gate, Riyadh.jpg"],
-    "تعليم@eg": ["Cairouni.jpg"],
-    "فن ومشاهير": ["Beach-Please-2022-crowd-stage-lights-night-performance.jpg",
-                   "A large crowd enjoys a music concert illuminated by colorful lights and a stunning stage display.jpg"],
-    "أبراج وفلك": ["Beneath the Milky Way.jpg"],
-    "حوادث وقضايا": ["Courtroom One Gavel - Flickr - Joe Gratz.jpg"],
-    "شخصية": ["Vecteezy stack-of-newspaper 1961329.jpg"],
-    "@eg": ["Cairo skyline, Nile River, Egypt.jpg",
-            "Cairo skyline, Panoramic view, Egypt.jpg"],
-    "@sa": ["Riyadh Skyline.jpg",
-            "Riyadh Skyline showing the King Abdullah Financial District (KAFD) and the famous Kingdom Tower .jpg"],
-    "@world": ["Shore of the East River with Headquarters of the United Nations, New York City, 20231005 1131 2226.jpg",
-               "Vecteezy stack-of-newspaper 1961329.jpg"],
+    "tennis": ["Tennis ball on tennis court 20170619.jpg"],
+    "basketball": ["Basketball Hoop (45655562422).jpg"],
+    "cricket": ["Cricket match and Marina Bay Sands Hotel in Singapore.jpg"],
+    "football": ["Adidas soccer ball on a grass pitch (Unsplash).jpg",
+                 "The Peninsula Stadium at night - Salford City - Aug 24.jpg"],
+    "football@eg": ["Adidas soccer ball on a grass pitch (Unsplash).jpg",
+                    "Cairo International Stadium 2019.jpg"],
+    "football@sa": ["Adidas soccer ball on a grass pitch (Unsplash).jpg",
+                    "Entire King Saud University Stadium.jpg"],
+    "un": ["United Nations General Assembly Hall (3).jpg",
+           "United Nations General Assembly 2024.jpg"],
+    "court": ["Courtroom One Gavel - Flickr - Joe Gratz.jpg"],
+    "parliament@eg": ["The Egyptian Parliament building.jpg"],
+    "parliament@world": ["Capitol at Dusk 2.jpg"],
+    "elections": ["Ballot dropped into ballot box 2024 Swedish EU election at Stångenässkolan, Brastad.jpg",
+                  "Ballot with ballot box in Sonoma, California - November 2022 - Sarah Stierch 02.jpg"],
+    "oil": ["Oil platform P-51 (Brazil).jpg", "LostHillsPumpjacksSunset.JPG"],
+    "gold": ["Gold bullion bars.jpg"],
+    "crypto": ["Bitcoin BTC golden coin with the symbol.jpg"],
+    "stocks": ["Frankfurt Stock Exchange (Ank Kumar) 03.jpg"],
+    "money": ["1 United States dollar banknotes (348734).jpg"],
+    "inflation": ["SPAR kolonial mat varehandel hyller (Supermarket interior GROCERY store aisle "
+                  "shelves) Frokostblandinger gryn müsli Axa frukt energi 4-korn blåbær (cereals "
+                  "muesli) etc Tjøme NORWAY 2023-08-31 IMG 1095.jpg"],
+    "housing": ["Residential Street in Otford - geograph.org.uk - 6913848.jpg"],
+    "housing@eg": ["Central business district, New Administrative Capital.jpg"],
+    "housing@sa": ["Residential building on Olaya street (12753702893).jpg"],
+    "capital@eg": ["Central business district, New Administrative Capital.jpg"],
+    "trade": ["Container ship NYK Themis at the Port of Los Angeles.jpg"],
+    "aviation": ["Airliner wing and clouds over South Pacific.jpg"],
+    "space": ["2016 Falcon 9 at Vandenberg Air Force Base.jpg"],
+    "ai": ["Datacenter Server Racks (22370909788).jpg"],
+    "phone": ["Black smartphone in hand (Unsplash).jpg"],
+    "games": ["Hands holding video game controller (50811892858).jpg"],
+    "health": ["Corridor on the second level - NÄL hospital 1.jpg",
+               "2023 Stetoskop.jpg"],
+    "exams": ["Richard Huish College Exam Hall.jpg"],
+    "ramadan": ["Ramadan lanterns.jpg", "Fanous Ramadan.jpg"],
+    "hajj": ["Masjid al-Haram 2022.jpg"],
+    "tourism@eg": ["All Gizah Pyramids.jpg"],
+    "cinema": ["Kino Atlas Interier J.jpg"],
+    "music": ["Beach-Please-2022-crowd-stage-lights-night-performance.jpg"],
+    "weather": ["Close-up of the rain drops on a car window. Car in a blurry background.jpg",
+                "Lightning in Dallas 2015.jpg",
+                "Cloud cumulonimbus at baltic sea(1).jpg"],
+    "prayer": ["Masjid al-Haram 2022.jpg",
+               "The Courtyard of Al-Azhar Mosque, Cairo, Egypt.jpg"],
+    "prayer@eg": ["The Courtyard of Al-Azhar Mosque, Cairo, Egypt.jpg"],
+    "prayer@sa": ["Masjid al-Haram 2022.jpg"],
+    "sky": ["Beneath the Milky Way.jpg"],
 }
+# كلمات كل موضوع، تُطابَق كلمةً كاملة في العنوان والعنوان الصحفي والوسوم.
+# الترتيب مهم (الأخص أولًا)، والكلمات الملتبسة مستبعدة عمدًا: «ذهب» فعل،
+# «أسهم» فعل، «الريال» نادٍ، «رمضان» اسم، «هاتفي» اتصال، «تطبيق» القانون.
+TOPIC_WORDS = [
+    ("tennis", ["تنس", "التنس", "tennis", "wimbledon"]),
+    ("basketball", ["كرة السلة", "لكرة السلة", "nba", "basketball"]),
+    ("cricket", ["كريكيت", "الكريكيت", "cricket"]),
+    ("football", ["كرة القدم", "كرة قدم", "لكرة القدم", "soccer", "fifa", "فيفا", "الفيفا"]),
+    ("un", ["الأمم المتحدة", "مجلس الأمن", "الجمعية العامة", "united nations",
+            "security council", "general assembly"]),
+    ("court", ["محكمة", "المحكمة", "النيابة", "النيابة العامة", "court", "convicted",
+               "sentenced", "indicted", "lawsuit", "judge", "verdict"]),
+    ("parliament", ["مجلس النواب", "مجلس الشيوخ", "البرلمان", "مجلس الشورى",
+                    "congress", "senate", "house of representatives", "capitol"]),
+    ("elections", ["انتخابات", "الانتخابات", "الاقتراع", "التصويت", "election",
+                   "elections", "ballot", "voters", "approval rating", "polls"]),
+    ("oil", ["نفط", "النفط", "أوبك", "برنت", "oil price", "oil prices", "crude", "opec", "brent"]),
+    ("gold", ["الذهب", "سعر الذهب", "أسعار الذهب", "سبائك", "gold price", "gold prices", "bullion"]),
+    ("crypto", ["بيتكوين", "البيتكوين", "العملات المشفرة", "العملات الرقمية", "bitcoin",
+                "crypto", "cryptocurrency", "ethereum"]),
+    ("stocks", ["البورصة", "بورصة", "الأسهم", "سوق الأسهم", "stock", "stocks", "nasdaq",
+                "dow", "s&p", "shares", "etf", "wall street"]),
+    ("money", ["الدولار", "سعر الدولار", "الجنيه", "الجنيه المصري", "الريال السعودي",
+               "سعر الصرف", "العملة", "البنك المركزي", "أسعار الفائدة", "سعر الفائدة",
+               "dollar", "currency", "exchange rate", "central bank", "federal reserve",
+               "interest rate", "interest rates", "fed"]),
+    ("inflation", ["التضخم", "السلع الغذائية", "inflation", "consumer prices", "grocery prices"]),
+    ("housing", ["عقارات", "العقارات", "التمويل العقاري", "الإسكان", "الإيجار", "الإيجارات",
+                 "شقق", "mortgage", "mortgages", "housing", "real estate", "home prices"]),
+    ("capital", ["العاصمة الإدارية", "العاصمة الإدارية الجديدة", "العاصمة الجديدة"]),
+    ("trade", ["ميناء", "الموانئ", "الجمارك", "جمارك", "رسوم جمركية", "tariff", "tariffs",
+               "shipping", "exports", "imports"]),
+    ("aviation", ["طيران", "الطيران", "مطار", "المطار", "airline", "airlines", "flight",
+                  "flights", "airport", "boeing", "airbus"]),
+    ("space", ["الفضاء", "ناسا", "nasa", "spacex", "rocket"]),
+    ("ai", ["الذكاء الاصطناعي", "ai", "artificial intelligence", "nvidia", "openai",
+            "chatgpt", "anthropic", "chips", "semiconductor", "semiconductors", "data center"]),
+    ("phone", ["آيفون", "ايفون", "هواتف", "الهواتف", "الهواتف الذكية", "المحفظة الرقمية",
+               "الخدمات الإلكترونية", "iphone", "smartphone", "smartphones", "samsung",
+               "whatsapp", "واتساب"]),
+    ("games", ["بلايستيشن", "ألعاب الفيديو", "playstation", "ps5", "xbox", "nintendo",
+               "video game", "video games", "gaming"]),
+    ("health", ["مستشفى", "المستشفى", "المستشفيات", "وزارة الصحة", "الأطباء", "أدوية",
+                "لقاح", "hospital", "hospitals", "healthcare", "health care", "medicare",
+                "medicaid", "fda", "vaccine"]),
+    ("exams", ["امتحانات", "الامتحانات", "الثانوية العامة", "exams", "exam"]),
+    ("ramadan", ["شهر رمضان", "رمضان المبارك", "الإفطار", "السحور", "ramadan"]),
+    ("hajj", ["الحج", "العمرة", "الحجاج", "المعتمرين", "المسجد الحرام", "hajj", "umrah"]),
+    ("tourism", ["السياحة", "السياح", "الأهرامات", "tourism", "tourists", "pyramids"]),
+    ("cinema", ["فيلم", "الفيلم", "السينما", "شباك التذاكر", "movie", "film", "box office"]),
+    ("music", ["حفل غنائي", "حفلة غنائية", "ألبوم", "concert", "album"]),
+    ("weather", ["طقس", "الطقس", "الأرصاد", "أمطار", "الأمطار", "درجات الحرارة",
+                 "weather", "hurricane", "tornado"]),
+    ("prayer", ["أذان", "اذان", "مواقيت الصلاة", "صلاة", "الصلاة", "prayer"]),
+    ("sky", ["خسوف", "كسوف", "eclipse", "meteor"]),
+]
+# فئات صورتها التعبيرية صادقة لكل أخبارها، ولو خلت من كلمات الموضوع
+CATEGORY_TOPIC = {"طقس": "weather", "ديني": "prayer", "أبراج وفلك": "sky"}
 
 
+# ── الاتصال ──────────────────────────────────────────────────────────
 def _get_json(lang, params):
-    base = COMMONS_API if lang == "commons" else API.format(lang=lang)
+    if lang == "commons":
+        base = COMMONS_API
+    elif lang == "wikidata":
+        base = WIKIDATA_API
+    else:
+        base = API.format(lang=lang)
     url = base + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=15) as r:
@@ -102,50 +220,85 @@ def _clean(value):
     return re.sub(r"\s+", " ", text).strip()
 
 
+_claims_cache = {}
+
+
 def _claims(qid, prop):
-    """قيم خاصية من ويكي بيانات، مثل P31 (نوع الكيان)."""
-    url = "https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode(
-        {"action": "wbgetclaims", "entity": qid, "property": prop, "format": "json"})
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=15) as r:
-        data = json.loads(r.read().decode("utf-8"))
-    out = []
-    for c in (data.get("claims") or {}).get(prop, []):
-        v = ((c.get("mainsnak") or {}).get("datavalue") or {}).get("value")
-        out.append(v.get("id") if isinstance(v, dict) and "id" in v else v)
-    return out
-
-
-def matches_kind(qid, category):
-    """هل الصفحة من نوع الترند؟ الفئة «شخصية» تشمل عبارات قصيرة ليست
-    أشخاصًا: «مجلس الوزراء» طابقت صورة لحكومة أمريكا 1981. لذلك:
-    الأشخاص يجب أن يكونوا بشرًا (Q5)، والأماكن لها إحداثيات (P625)."""
+    """قيم خاصية من ويكي بيانات: P31 (النوع)، P625 (الإحداثيات)، P18 (الصورة)،
+    P373 (تصنيف كومنز)."""
     if not qid:
+        return []
+    key = (qid, prop)
+    if key not in _claims_cache:
+        data = _get_json("wikidata", {"action": "wbgetclaims", "entity": qid,
+                                      "property": prop, "format": "json"})
+        out = []
+        for c in (data.get("claims") or {}).get(prop, []):
+            v = ((c.get("mainsnak") or {}).get("datavalue") or {}).get("value")
+            out.append(v.get("id") if isinstance(v, dict) and "id" in v else v)
+        _claims_cache[key] = out
+    return _claims_cache[key]
+
+
+def entity_kind(qid):
+    """«human» أو «team» أو «competition» أو «place» أو None (مفهوم عام،
+    برنامج تلفزيوني، مؤسسة...)."""
+    kinds = set(_claims(qid, "P31"))
+    if HUMAN in kinds:
+        return "human"
+    if kinds & TEAM_TYPES:
+        return "team"
+    if kinds & COMPETITION_TYPES:
+        return "competition"
+    if kinds & OBJECT_TYPES:
+        return "object"
+    if _claims(qid, "P625"):
+        return "place"
+    return None
+
+
+# ── مطابقة النصوص ────────────────────────────────────────────────────
+_DIACRITICS = re.compile(r"[ً-ْـ]")
+GENERIC_WORDS = {"منتخب", "نادي", "فريق", "لكره", "كره", "القدم", "الوطني", "fc", "cf",
+                 "sc", "club", "national", "team", "football", "soccer", "cup", "league"}
+
+
+def _norm(text):
+    """نص للمطابقة: حروف صغيرة، بلا تشكيل، والألف والتاء والياء موحّدة."""
+    s = _DIACRITICS.sub("", (text or "").lower())
+    s = re.sub("[إأآ]", "ا", s).replace("ة", "ه").replace("ى", "ي")
+    s = re.sub(r"[^\w&+]+", " ", s)
+    return " " + re.sub(r"\s+", " ", s).strip() + " "
+
+
+def mentioned(name, text, kind):
+    """هل ورد الكيان في عنوان الخبر أو مقدمته؟ الشخص باسمه أو بلقبه (الاسم
+    الأخير)، والفريق بأي كلمة مميزة من اسمه، والمكان باسمه كاملًا."""
+    n, t = _norm(name), _norm(text)
+    if n.strip() and n in t:
+        return True
+    words = [w for w in n.split() if len(w) >= 3 and w not in GENERIC_WORDS]
+    if not words:
         return False
-    if category in ("شخصية", "فن ومشاهير"):
-        return "Q5" in _claims(qid, "P31")
-    if category == "دول وأماكن":
-        return bool(_claims(qid, "P625"))
-    return True          # الرياضة: فرق وبطولات ولاعبون بأسمائهم
+    if kind == "human":
+        return " " + words[-1] + " " in t
+    if kind in ("team", "competition"):
+        return any(" " + w + " " in t for w in words)
+    return False
 
 
-def _file_info(lang, name, min_width=WIDTH):
-    """بيانات ملف: الرخصة والمصوّر ومصغّر بعرض WIDTH، أو None إن لم يصلح."""
-    if not RASTER.search(name):
-        return None                    # الشعارات والخرائط (svg) ليست صورًا
-    meta = _get_json(lang, {
-        "action": "query", "format": "json", "formatversion": "2",
-        "titles": "File:" + name, "prop": "imageinfo",
-        "iiprop": "extmetadata|url|size", "iiurlwidth": str(WIDTH),
-        "iiextmetadatafilter": "Artist|LicenseShortName|LicenseUrl",
-    })
-    info = ((meta.get("query", {}).get("pages") or [{}])[0].get("imageinfo") or [{}])[0]
+# ── ملفات الصور ──────────────────────────────────────────────────────
+def _photo_from_info(info, name, min_width):
+    """صورة من بيانات ملف في كومنز، أو None إن صغرت أو لم تكن رخصتها حرة."""
     if (info.get("width") or 0) < min_width or not info.get("thumburl"):
-        return None                    # أصغر من أن تكون صورة عالية الجودة
+        return None
     em = info.get("extmetadata") or {}
     lic = _clean((em.get("LicenseShortName") or {}).get("value", ""))
     if not lic or not FREE.search(lic) or NOT_FREE.search(lic):
         return None
+    raw_credit = (em.get("Artist") or {}).get("value", "") + " " + (em.get("Credit") or {}).get("value", "")
+    if AGENCY.search(raw_credit):
+        return None                    # صورة وكالة أنباء: عليها شعارها
     artist = _clean((em.get("Artist") or {}).get("value", ""))
     if not artist or artist.lower().startswith(("see ", "unknown")):
         artist = "مصور غير مذكور"
@@ -160,37 +313,141 @@ def _file_info(lang, name, min_width=WIDTH):
     }
 
 
-def find_photo(title, category, langs=("ar", "en")):
-    """صورة حرة الرخصة عالية الدقة لصفحة ويكيبيديا بعنوان الترند، أو None."""
-    if category not in PHOTO_CATEGORIES or not title.strip():
-        return None
-    for lang in langs:
-        try:
-            data = _get_json(lang, {
-                "action": "query", "format": "json", "formatversion": "2",
-                "titles": title.strip(), "redirects": "1",
-                "prop": "pageimages|pageprops", "piprop": "name",
-                "pilicense": "free",
-            })
-            page = (data.get("query", {}).get("pages") or [{}])[0]
-            props = page.get("pageprops") or {}
-            if page.get("missing") or "disambiguation" in props:
-                continue
-            name = page.get("pageimage")
-            if not name:
-                continue
-            if not matches_kind(props.get("wikibase_item"), category):
-                return None      # الصفحة موجودة لكنها ليست من نوع الترند
-            photo = _file_info(lang, name, MIN_NAMED)
-            if not photo:
-                continue
-            photo.update({"wiki_title": page.get("title", title), "wiki_lang": lang})
-            return photo
-        except Exception:
+def _file_info(lang, name, min_width=WIDTH):
+    """بيانات ملف بالاسم: الرخصة والمصوّر ومصغّر بعرض WIDTH، أو None."""
+    if not RASTER.search(name or ""):
+        return None                    # الشعارات والأعلام والخرائط (svg) ليست صورًا
+    meta = _get_json(lang, {
+        "action": "query", "format": "json", "formatversion": "2",
+        "titles": "File:" + name, "prop": "imageinfo",
+        "iiprop": "extmetadata|url|size", "iiurlwidth": str(WIDTH),
+        "iiextmetadatafilter": EXTMETA,
+    })
+    info = ((meta.get("query", {}).get("pages") or [{}])[0].get("imageinfo") or [{}])[0]
+    return _photo_from_info(info, name, min_width)
+
+
+def _category_photo(category):
+    """أحدث صورة عالية الدقة في تصنيف كومنز لشخص أو فريق، والأفقية أولًا."""
+    data = _get_json("commons", {
+        "action": "query", "format": "json", "formatversion": "2",
+        "generator": "categorymembers", "gcmtitle": "Category:" + category,
+        "gcmtype": "file", "gcmlimit": "50", "gcmsort": "timestamp", "gcmdir": "desc",
+        "prop": "imageinfo", "iiprop": "extmetadata|url|size|timestamp",
+        "iiurlwidth": str(WIDTH),
+        "iiextmetadatafilter": EXTMETA,
+    })
+    best = []
+    for pg in data.get("query", {}).get("pages", []):
+        name = pg.get("title", "").split(":", 1)[-1]
+        if not PHOTO_FILE.search(name) or NOT_PHOTO.search(name):
             continue
+        info = (pg.get("imageinfo") or [{}])[0]
+        photo = _photo_from_info(info, name, WIDTH)
+        if photo:
+            landscape = (info.get("width") or 0) >= (info.get("height") or 1)
+            best.append((landscape, info.get("timestamp", ""), photo))
+    best.sort(key=lambda b: (b[0], b[1]), reverse=True)
+    return best[0][2] if best else None
+
+
+# ── صاحب الخبر ───────────────────────────────────────────────────────
+_pages = {}
+
+
+def _page(name, lang):
+    """صفحة ويكيبيديا بهذا الاسم تمامًا (مع التحويلات): dict أو «dis» أو None."""
+    key = (name, lang)
+    if key not in _pages:
+        data = _get_json(lang, {
+            "action": "query", "format": "json", "formatversion": "2",
+            "titles": name, "redirects": "1",
+            "prop": "pageimages|pageprops", "piprop": "name", "pilicense": "free",
+        })
+        page = (data.get("query", {}).get("pages") or [{}])[0]
+        props = page.get("pageprops") or {}
+        if page.get("missing") or page.get("invalid") or not props.get("wikibase_item"):
+            _pages[key] = None
+        elif "disambiguation" in props:
+            _pages[key] = "dis"
+        else:
+            _pages[key] = {"title": page.get("title", name), "qid": props["wikibase_item"],
+                           "image": page.get("pageimage") or ""}
+    return _pages[key]
+
+
+def _entity_photo(lang, page, kind):
+    """صورة الكيان: صورة صفحته، ثم صورته في ويكي بيانات، ثم تصنيفه في كومنز."""
+    photo = _file_info(lang, page["image"], MIN_NAMED)
+    for alt in ([] if photo else _claims(page["qid"], "P18")[:2]):
+        photo = _file_info("commons", alt, MIN_NAMED)
+        if photo:
+            break
+    if not photo and kind in ("human", "team"):
+        for cat in _claims(page["qid"], "P373")[:1]:
+            photo = _category_photo(cat)
+    if photo:
+        photo.update({"wiki_title": page["title"], "wiki_lang": lang})
+    return photo
+
+
+def _accept(kind, name, category, from_tag, text, sporty=False):
+    """هل صورة هذا الكيان صورة الخبر؟ sporty: خبر مباراة أو رياضة."""
+    if kind is None:
+        return False
+    if kind == "object":
+        return not from_tag            # المنتج صورة الخبر إن كان هو العنوان فقط
+    if kind == "human":
+        if len(name.split()) < 2 and category not in MONONYM_OK:
+            return False               # «رونالدو» وحدها قد تكون لاعبًا آخر
+        return not from_tag or mentioned(name, text, kind)
+    if kind in ("team", "competition"):
+        return not from_tag or mentioned(name, text, kind)
+    # مكان: موضوع الخبر، لا مكان وقوعه
+    if category in NO_PLACE or sporty:
+        return False
+    return not from_tag or mentioned(name, text, kind)
+
+
+def _variants(title):
+    """العنوان كما هو، وبأحرف كبيرة للإنجليزي («jos buttler» ← «Jos Buttler»)."""
+    title = title.strip()
+    out = [title]
+    if re.search(r"[a-z]", title) and title == title.lower():
+        out.append(title.title())
+    return out
+
+
+def find_photo(title, category, langs=("ar", "en"), tags=(), text=""):
+    """صورة صاحب الخبر أو None. text: العنوان الصحفي؛ الشخص أو المكان المأخوذ
+    من الوسوم يجب أن يرد فيه أو في عنوان الترند، فيكون موضوع الخبر لا ذكرًا
+    عابرًا فيه (لاعب معتزل في خبر مباراة)."""
+    text = title + " " + (text or "")
+    sporty = (category == "رياضة" or bool(MATCH.search(" " + title + " ")) or
+              topic_of(text + " " + " ".join(tags or []), category) in SPORT_TOPICS)
+    names = [(v, False) for v in _variants(title)]
+    names += [(t.strip(), True) for t in list(tags or [])[:MAX_TAGS]
+              if t and t.strip() and t.strip() != title.strip()]
+    for name, from_tag in names:
+        for lang in langs:
+            try:
+                page = _page(name, lang)
+                if page == "dis" and not from_tag:
+                    return None        # عنوان ملتبس: لا تخمين بصورة شخص آخر
+                if not isinstance(page, dict):
+                    continue
+                kind = entity_kind(page["qid"])
+                if not _accept(kind, name, category, from_tag, text, sporty):
+                    break              # الصفحة موجودة لكنها ليست صورة الخبر
+                photo = _entity_photo(lang, page, kind)
+                if photo:
+                    return photo
+            except Exception:
+                continue
     return None
 
 
+# ── الصور التعبيرية ──────────────────────────────────────────────────
 _stock = None
 
 
@@ -205,11 +462,23 @@ def load_stock():
     return _stock
 
 
-def stock_photo(title, category, country):
-    """صورة تعبيرية من مجموعة الفئة (أو صورة البلد)، ثابتة لكل عنوان."""
+def topic_of(text, category):
+    """موضوع الخبر من كلماته، أو من فئته إن كانت صورتها صادقة لكل أخبارها."""
+    t = _norm(text)
+    for topic, keys in TOPIC_WORDS:
+        for k in keys:
+            if _norm(k) in t:
+                return topic
+    return CATEGORY_TOPIC.get(category)
+
+
+def stock_photo(title, category, country, text=""):
+    """صورة تعبيرية تطابق موضوع الخبر، ثابتة لكل عنوان — أو None."""
+    topic = topic_of(title + " " + (text or ""), category)
+    if not topic:
+        return None
     pool = load_stock()
-    choices = (pool.get(category + "@" + country) or pool.get(category) or
-               pool.get("@" + country) or pool.get("@world") or [])
+    choices = pool.get(topic + "@" + country) or pool.get(topic) or []
     if not choices:
         return None
     seed = sum(ord(c) for c in title)          # ثابت بين التشغيلات، بخلاف hash()
@@ -218,9 +487,17 @@ def stock_photo(title, category, country):
     return photo
 
 
-def photo_for(title, category, country, langs=("ar", "en")):
-    """صورة بالاسم إن وُجدت، وإلا صورة تعبيرية — فلكل مقال صورة."""
-    return find_photo(title, category, langs) or stock_photo(title, category, country)
+def photo_text(art):
+    """كلمات موضوع الصورة التعبيرية: العنوان الصحفي والوسوم."""
+    art = art or {}
+    return " ".join([art.get("headline", "")] + list(art.get("tags") or []))
+
+
+def photo_for(title, category, country, langs=("ar", "en"), art=None):
+    """صورة تخص الخبر، أو None (فيعرض الموقع كارته). art: المقال المكتوب."""
+    art = art or {}
+    return (find_photo(title, category, langs, art.get("tags"), art.get("headline", "")) or
+            stock_photo(title, category, country, photo_text(art)))
 
 
 def refresh_stock():
@@ -239,53 +516,110 @@ def refresh_stock():
             else:
                 print("  ✗ لا تصلح: " + name)
             time.sleep(0.2)
-        print("  " + key + ": " + str(len(out[key])) + " صورة")
     with open(STOCK_PATH, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
+    print("✓ " + str(sum(len(v) for v in out.values())) + " صورة تعبيرية في " +
+          str(len(out)) + " موضوعًا")
 
 
-def backfill(recheck=False):
-    """يجرّب مرة واحدة لكل مقال لم تُجرَّب صورته، في الأرشيف ومخزن المقالات.
-    recheck: يعيد التجربة لكل المقالات (بعد تغيير قواعد المطابقة)."""
+# رقم قواعد الاختيار الحالية. مقال صورته بقواعد أقدم (أو بلا رقم) يُعاد
+# اختيار صورته تلقائيًا في التشغيلة الدورية. ارفعه عند تغيير القواعد.
+PHOTO_VERSION = 4
+
+
+def mark(art, photo):
+    """يضع الصورة في المقال مع رقم القواعد التي اختارتها."""
+    art["photo"] = photo
+    art["photo_v"] = PHOTO_VERSION
+
+
+def _snapshots():
+    """ملفات البيانات التي فيها مقالات: ملف اليوم، ثم الأرشيف الأحدث أولًا."""
     days = os.path.join(ROOT, "data", "days")
+    out = []
+    live = os.path.join(ROOT, "data", "trends.json")
+    if os.path.exists(live):
+        out.append((live, None, None))
+    names = [n for n in os.listdir(days) if n.endswith(".json")]
+    for name in sorted(names, key=lambda n: n.split("-", 1)[-1], reverse=True):
+        key, day = name[:-5].split("-", 1)
+        out.append((os.path.join(days, name), key, day))
+    return out
+
+
+def backfill(recheck=False, budget=None, only_mark=False):
+    """يختار صور المقالات التي لم تُختر صورتها بالقواعد الحالية، في ملف اليوم
+    والأرشيف ومخزن المقالات، الأحدث أولًا.
+    recheck: يعيد الاختيار لكل المقالات.
+    budget: أقصى ثوانٍ للتشغيلة (التشغيلة الدورية محدودة الوقت)، والباقي
+            يكمل في التشغيلات التالية.
+    only_mark: يضع رقم القواعد الحالية على الصور الموجودة بلا بحث (بعد إعادة
+               اختيار كاملة جرت بالقواعد نفسها)."""
     store_path = os.path.join(ROOT, "data", "articles.json")
     with open(store_path, encoding="utf-8") as f:
         store = json.load(f)
-    named = tried = 0
-    for name in sorted(os.listdir(days)):
-        if not name.endswith(".json"):
-            continue
-        key, day = name[:-5].split("-", 1)
-        path = os.path.join(days, name)
+    start = time.time()
+    named = stock = tried = 0
+    out_of_time = False
+    for path, key, day in _snapshots():
         with open(path, encoding="utf-8") as f:
-            snap = json.load(f)
-        langs = ("en",) if key == "world" else ("ar", "en")
+            data = json.load(f)
+        if key is None:               # trends.json: {بلد: {..., trends}}
+            groups = [(k, v.get("day") or v.get("generated_at", "")[:10], v)
+                      for k, v in data.items() if isinstance(v, dict)]
+        else:
+            groups = [(key, day, data)]
         changed = False
-        for t in snap.get("trends", []):
-            art = t.get("article")
-            if not art or (art.get("photo") and not recheck):
-                continue
-            art["photo"] = photo_for(t["title"], t.get("category", ""), key, langs)
-            tried += 1
-            k = key + "|" + day + "|" + t["title"]
-            if k in store and isinstance(store[k], dict) and store[k].get("body"):
-                store[k]["photo"] = art["photo"]
-            changed = True
-            if art["photo"] and not art["photo"].get("stock"):
-                named += 1
-                print("  📷 " + t["title"] + " ← " + art["photo"]["license"])
-            time.sleep(0.2)
+        for gkey, gday, snap in groups:
+            langs = ("en",) if gkey == "world" else ("ar", "en")
+            for t in snap.get("trends", []):
+                art = t.get("article")
+                if not isinstance(art, dict) or not art.get("body"):
+                    continue
+                if art.get("photo_v") == PHOTO_VERSION and not recheck:
+                    continue
+                if budget and time.time() - start > budget:
+                    out_of_time = True
+                    break
+                if only_mark:
+                    mark(art, art.get("photo"))
+                else:
+                    mark(art, photo_for(t["title"], t.get("category", ""), gkey, langs, art))
+                    tried += 1
+                    p = art["photo"]
+                    if p and p.get("stock"):
+                        stock += 1
+                    elif p:
+                        named += 1
+                    print("  {} {} ← {}".format(gkey, t["title"], (p or {}).get("wiki_title") or
+                                                 ("تعبيرية" if p else "كارت الموقع")))
+                k = gkey + "|" + gday + "|" + t["title"]
+                if k in store and isinstance(store[k], dict) and store[k].get("body"):
+                    mark(store[k], art["photo"])
+                changed = True
+            if out_of_time:
+                break
         if changed:
             with open(path, "w", encoding="utf-8") as f:
-                json.dump(snap, f, ensure_ascii=False, indent=2)
+                json.dump(data, f, ensure_ascii=False, indent=2)
+        if out_of_time:
+            break
     with open(store_path, "w", encoding="utf-8") as f:
         json.dump(store, f, ensure_ascii=False, indent=2)
-    print("✓ جُرّب " + str(tried) + " مقالًا: " + str(named) +
-          " بصورة بالاسم، والباقي بصورة تعبيرية")
+    if only_mark:
+        print("✓ وُضع رقم القواعد " + str(PHOTO_VERSION) + " على صور المقالات")
+    else:
+        print("✓ اختيرت صور " + str(tried) + " مقالًا: " + str(named) + " بصورة صاحب الخبر، " +
+              str(stock) + " بصورة تعبيرية مطابقة، والباقي بكارت الموقع" +
+              (" — ويكمل الباقي في التشغيلة التالية" if out_of_time else ""))
 
 
 if __name__ == "__main__":
     if "--stock" in sys.argv:
         refresh_stock()
     else:
-        backfill(recheck="--recheck" in sys.argv)
+        budget = None
+        if "--budget" in sys.argv:
+            budget = float(sys.argv[sys.argv.index("--budget") + 1])
+        backfill(recheck="--recheck" in sys.argv, budget=budget,
+                 only_mark="--mark" in sys.argv)

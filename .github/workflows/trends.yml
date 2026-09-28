@@ -48,6 +48,13 @@ jobs:
         continue-on-error: true
         run: python engine/writer.py
 
+      # صور المقالات: ما لم تُختر صورته، أو اختيرت بقواعد أقدم (photos.py).
+      # محدودة بتسعين ثانية لأن التشغيلة كلها ثماني دقائق، والباقي يكمل في
+      # التشغيلة التالية. فشلها لا يُسقط التشغيلة: الموقع يعرض الكارت مكانها.
+      - name: صور المقالات
+        continue-on-error: true
+        run: python engine/photos.py --budget 90
+
       - name: توليد الكروت
         run: python engine/cards.py
 

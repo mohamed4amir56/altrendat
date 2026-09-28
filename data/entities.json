@@ -229,14 +229,14 @@
         "date": "2026-09-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
-        "category": "طقس",
-        "publishable": false,
+        "traffic": "+3000",
+        "traffic_num": 3000,
+        "category": "اقتصاد",
+        "publishable": true,
         "headlines": [
+          "Malaysia beat Hong Kong, Malaysia won by 8 wickets (with 48 balls remaining)",
           "Rain threat looms over lopsided India vs Afghanistan quarter-final",
-          "Weather forecast for Nisshin: Chances of rain and washouts at Korogi Sports Park for complete Asian Games 2026 men's cricket knockouts",
-          "Asian Games men’s cricket competition 2026, live streaming and TV channels: Where to watch live and match timings for Asian Games"
+          "'When there are expectations, you want to deliver': Shreyas Iyer on Gold Medal aspirations"
         ]
       }
     ],
@@ -245,8 +245,8 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 2000,
-    "category": "طقس"
+    "peak_traffic": 3000,
+    "category": "اقتصاد"
   },
   "england-vs-sri-lanka": {
     "slug": "england-vs-sri-lanka",
@@ -25894,9 +25894,9 @@
         "category": "طقس",
         "publishable": true,
         "headlines": [
+          "حالة الطقس اليوم الاثنين في مصر.. شبورة مائية وأمطار خفيفة",
           "أمطار وشبورة وانخفاض الحرارة.. الأرصاد تعلن خريطة طقس الأيام المقبلة",
-          "حالة الطقس غدًا الاثنين في مصر.. شبورة مائية ونشاط للرياح",
-          "«الأرصاد» تحذر من اضطراب البحر الأحمر وتكشف خارطة طقس الإثنين بالدرجات"
+          "حالة الطقس غدًا الاثنين في مصر.. شبورة مائية ونشاط للرياح"
         ]
       }
     ],
@@ -26809,9 +26809,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
+          "!+【【4K】】 Inter Miami vs Columbus EN VIVO GRATIS Partido de Fútbol",
           "Messi erzielt einen Traum-Freistoß aus einem unmöglichen Winkel in der MLS",
-          "Lionel Messi’s unreal free-kick goal vs Columbus Crew puts him on the brink of historic record",
-          "UNREAL! Columbus Crew stun Inter Miami with late winner"
+          "Jamal Thiaré scores in 9th minute of stoppage time, Crew beats Inter Miami and Leo Messi 2-1"
         ]
       },
       {
@@ -26851,10 +26851,10 @@
         "country_name": "مصر",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "اعترافات صانعة محتوى: نشرت فيديوهات الرقص لزيادة المشاهدات وتحقيق أرباح",
+          "القبض على صانعة محتوى بالدقهلية بتهمة نشر فيديوهات خادشة للحياء",
           "بهدف زيادة المشاهدات.. ضبط صانعة محتوى بالدقهلية بسبب مقاطع متداولة",
           "ضبط صانعة محتوي لقيامها بنشر مقاطع فيديو تتنافي مع القيم المجتمعية بالقاهرة"
         ]
@@ -26866,7 +26866,7 @@
       "eg"
     ],
     "peak_traffic": 1000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "فيلم-شيش-دو": {
     "slug": "فيلم-شيش-دو",
@@ -26884,8 +26884,8 @@
         "publishable": true,
         "headlines": [
           "ميشيل ميلاد عن كواليس شيش دو: التصوير مع الحيوانات المفترسة تجربة مرعبة",
-          "ابنة بيومي فؤاد تخوض التمثيل أخيرًا.. كيف أقنعت والدها رغم رفضه؟",
-          "«شيش دو»... كوميديا سوداء «تفقد البوصلة»"
+          "بيومي فؤاد: أقدم مصطفى النحاس في شمس الزناتي 2.. وابتعد عن الكوميديا في الشخصيات الحقيقية",
+          "ابنة بيومي فؤاد تخوض التمثيل أخيرًا.. كيف أقنعت والدها رغم رفضه؟"
         ]
       }
     ],
@@ -28102,9 +28102,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Curaçao vs Nicaragua: Concacaf Nations League stats & head-to-head",
-          "Preview: Curacao vs Nicaragua - prediction, team news, lineups",
-          "Match Highlights Curaçao - Nicaragua"
+          "Back-to-back victories for Curaçao, Haiti and Dominican Republic in Group A",
+          "Curacao v Nicaragua Odds",
+          "Preview: Curacao vs Nicaragua - prediction, team news, lineups"
         ]
       }
     ],
@@ -30249,7 +30249,7 @@
         "headlines": [
           "América vs Necaxa line-ups – Apertura 2026",
           "The $7 Million 'Gift' Set to Shine: Carlos Álvarez Makes His First Start for Club América",
-          "Necaxa vs America LIVE Score Updates in Liga MX Match"
+          "Necaxa vs América Preview"
         ]
       }
     ],
@@ -30324,15 +30324,30 @@
           "Sean Payton pleased with performance of Evan Engram and Nate Adkins thus far",
           "Evan Engram hauls in 17-yard pass in Week 2"
         ]
+      },
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Sean Payton pleased with performance of Evan Engram and Nate Adkins thus far",
+          "Evan Engram hauls in 17-yard pass in Week 2",
+          "Evan Engram Held to one catch vs. Jacksonville"
+        ]
       }
     ],
-    "last_seen": "2026-09-27",
-    "total": 1,
+    "last_seen": "2026-09-28",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "hufanga": {
     "slug": "hufanga",
@@ -30587,14 +30602,14 @@
         "date": "2026-09-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "Rain threat looms over lopsided India vs Afghanistan quarter-final",
-          "IND vs AFG, Asian Games 2026 cricket quarter-final: Schedule and watch India vs Afghanistan live streaming and telecast",
-          "We look to transcend the standards we've set in every match: Shreyas Iyer"
+          "India vs. Afghanistan live win probability, score, chances of victory for Asian Games 2026 quarterfinal",
+          "IND vs AFG, Asian Games 2026 cricket quarter-final: Schedule and watch India vs Afghanistan live streaming and telecast"
         ]
       }
     ],
@@ -30603,7 +30618,65 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 10000,
+    "category": "رياضة"
+  },
+  "case-keenum": {
+    "slug": "case-keenum",
+    "name": "case keenum",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Bears QB Bagent clears protocol; Keenum likely to start vs. Eagles",
+          "Bears' Tyson Bagent clears concussion protocol ahead of Monday's game vs. Eagles; Caleb Williams out",
+          "Injury Update: Bears rule out Caleb Williams, will start Tyson Bagent or Case Keenum vs. Eagles"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "cris-collinsworth": {
+    "slug": "cris-collinsworth",
+    "name": "cris collinsworth",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "‘Truly the Most Insufferable,’ ‘The Guy Is Unbearable’ — NFL Fans Vent Frustration Over Cris Collinsworth’s Broncos-Rams SNF Commentary",
+          "Cris Collinsworth admits to his deep love for Chiefs’ Patrick Mahomes",
+          "Cris Collinsworth's 'gushing' over Patrick Mahomes called out by comedian in SNF intro"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
     "category": "رياضة"
   }
 }

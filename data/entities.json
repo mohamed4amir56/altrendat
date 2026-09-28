@@ -21257,7 +21257,7 @@
         "publishable": true,
         "headlines": [
           "مواقيت الصلاة اليوم الإثنين 28 سبتمبر 2026 بمحافظات الجمهورية",
-          "موعد أذان المغرب اليوم الأحد \"15 ربيع الآخر\" في القاهرة والمحافظات",
+          "مواقيت الصلاة اليوم الإثنين 28 سبتمبر 2026 في القاهرة والمحافظات",
           "مواقيت الصلاة اليوم الإثنين 28 سبتمبر 2026 في القاهرة والمحافظات"
         ]
       }
@@ -29225,11 +29225,11 @@
         "traffic": "100+",
         "traffic_num": 100,
         "category": "شخصية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "সিঙ্গাপুরের কাছে ১–০ গোলে হারল বাংলাদেশ",
-          "সেই হ্যারিসের গোলেই আবার হারল বাংলাদেশ",
-          "অল্প ব্যবধানে বাংলাদেশকে পরাজিত করে ফিফা আসিয়ান কাপের অবিসংবাদিত চ্যাম্পিয়ন নির্ধারিত হয়েছে।"
+          "জাতিসংঘ মহাসচিব আয়োজিত স্বাগত প্রাতরাশে বাংলাদেশের প্রধানমন্ত্রী তারেক ও তাঁর সহধর্মিণী ডা. জুবাইদা",
+          "জাতিসংঘে প্রধানমন্ত্রীর নেতৃত্বে বাংলাদেশের অংশগ্রহণ সফল: পররাষ্ট্র প্রতিমন্ত্রী",
+          "নিউইয়র্ক থেকে দেশে ফিরলেন প্রধানমন্ত্রী"
         ]
       }
     ],
@@ -29396,14 +29396,14 @@
         "date": "2026-09-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "حالته الصحية أبعدته عن الأضواء.. فنان مصري يكشف أسباب إقامته بدار رعاية الفنانين",
           "إسعاد يونس تفتح نافذة على دار رعاية كبار الفنانين فى حلقتها من صاحبة السعادة",
-          "محيي إسماعيل: أحلم بأسرتي الراحلة لأن الأمان والدفء كان معهم.. ولا أتابع أي شيء في الحياة"
+          "محيي إسماعيل: أتمنى تجسيد شخصية معمر القذافي.. والشخصية لا يمكن أن تتجزأ"
         ]
       }
     ],
@@ -29412,7 +29412,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "السعوديه-والعراق": {
@@ -29459,9 +29459,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "وزير التموين: لن نتهاون مع مخالفات أسعار وأوزان الخبز السياحى والفينو",
+          "التموين: لا زيادة فى أسعار الخبز السياحى والحر والفينو.. تفاصيل",
           "نشرة التوك شو| حقيقة رفع أسعار الفينو والخبز. وشكاوى من تطبيق الضرائب العقارية",
-          "رئيس شعبة المخابز: تأجيل إعادة النظر في سعر الخبز السياحي والفينو أسبوعًا"
+          "التموين تشدد الرقابة على المخابز السياحية.. وتحذر من التلاعب في الأوزان والأسعار"
         ]
       }
     ],
@@ -29628,23 +29628,8 @@
         "date": "2026-09-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "category": "رياضة",
-        "publishable": true,
-        "headlines": [
-          "Today's (Monday) match schedule and broadcasting channels: Belgium faces France in the UEFA Nations League",
-          "How to watch today's Finland vs Belarus UEFA Nations League C game anywhere in the world with a VPN",
-          "LIVE: Belgium vs France – Nations League"
-        ]
-      },
-      {
-        "key": "2026-09-28|sa",
-        "date": "2026-09-28",
-        "country": "sa",
-        "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -29652,15 +29637,46 @@
           "Today's (Monday) match schedule and broadcasting channels: Belgium faces France in the UEFA Nations League",
           "How to watch today's Finland vs Belarus UEFA Nations League C game anywhere in the world with a VPN"
         ]
+      },
+      {
+        "key": "2026-09-28|sa",
+        "date": "2026-09-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "La Francia completa l’ultimo allenamento a Bruxelles prima della sfida al Belgio",
+          "Today's (Monday) match schedule and broadcasting channels: Belgium faces France in the UEFA Nations League",
+          "How to watch today's Finland vs Belarus UEFA Nations League C game anywhere in the world with a VPN"
+        ]
+      },
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Belgium vs France: UEFA Nations League stats & head-to-head",
+          "🚨Confirmed line-ups: France visit Brussels without Mbappé",
+          "Belgium vs France – Nations League: Team line-ups, head-to-head, Mbappe"
+        ]
       }
     ],
     "last_seen": "2026-09-28",
-    "total": 2,
+    "total": 3,
     "countries": [
       "eg",
-      "sa"
+      "sa",
+      "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 20000,
     "category": "رياضة"
   },
   "كأس-السوبر-المصري": {
@@ -29702,8 +29718,8 @@
         "date": "2026-09-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
@@ -29717,8 +29733,8 @@
         "date": "2026-09-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
@@ -29734,7 +29750,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 2000,
     "category": "دول وأماكن"
   },
   "السعودية-ضد-العراق": {
@@ -29779,11 +29795,11 @@
         "traffic": "100+",
         "traffic_num": 100,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "Gold Drops More than 2% on US Rate-hike Bets",
-          "WHY XAU PRICE IS DECLINING: 5 FORCES BEHIND GOLD'S SLIDE",
-          "Gold breaks key support, slides below $4,230 as danger zone gives way"
+          "G Mining Ventures at Mining Forum Americas 2026: oко west nears first gold",
+          "GMIN: Oko West nears first gold as exploration and expansion target 1M oz annual output",
+          "Why G Mining Ventures (TSX:GMIN) Is the S&P/TSX Composite's Fast-Rising Gold Builder"
         ]
       }
     ],
@@ -29794,5 +29810,314 @@
     ],
     "peak_traffic": 100,
     "category": "اقتصاد"
+  },
+  "bélgica---francia": {
+    "slug": "bélgica---francia",
+    "name": "bélgica - francia",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Bautismo de fuego para Zidane",
+          "¿Cómo ver el partido Bélgica vs Francia en TV y streaming?",
+          "Apuestas y pronósticos Bélgica vs Francia"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "رياضة"
+  },
+  "fda-chlorthalidone-dissolution-testing-recall": {
+    "slug": "fda-chlorthalidone-dissolution-testing-recall",
+    "name": "fda chlorthalidone dissolution testing recall",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "FDA Announces New Nationwide Blood Pressure Medication Recall",
+          "FDA Announces Recall on Blood Pressure Medication—More Than 13,000 Bottles Affected Nationwide",
+          "Common Blood Pressure Medication Recalled"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "عام"
+  },
+  "türkiye-vs-italy": {
+    "slug": "türkiye-vs-italy",
+    "name": "türkiye vs italy",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "🚨XIs ready: Italy seek a revival against Turkey",
+          "Turkey vs. Italy Nations League prediction, start time, how to watch",
+          "Turkey vs. Italy 2026 livestream: How to watch Nations League for free"
+        ]
+      },
+      {
+        "key": "2026-09-28|eg",
+        "date": "2026-09-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Turkey vs Italy: UEFA Nations League stats & head-to-head",
+          "🚨XIs ready: Italy seek a revival against Turkey",
+          "Terim: Italy have ‘significant potential’ but no identity"
+        ]
+      },
+      {
+        "key": "2026-09-28|sa",
+        "date": "2026-09-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Turkey vs Italy: UEFA Nations League stats & head-to-head",
+          "🚨XIs ready: Italy seek a revival against Turkey",
+          "Terim: Italy have ‘significant potential’ but no identity"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 3,
+    "countries": [
+      "eg",
+      "sa",
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "romania-vs-bosnia-and-herzegovina": {
+    "slug": "romania-vs-bosnia-and-herzegovina",
+    "name": "romania vs bosnia and herzegovina",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Romania vs Bosnia-Herzegovina: UEFA Nations League stats & head-to-head",
+          "Preview: Romania vs Bosnia-Herzegovina - prediction, team news, lineups",
+          "A new Test for the Dragons: BiH Tonight against Romania in Bucharest"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "sweden-vs-poland": {
+    "slug": "sweden-vs-poland",
+    "name": "sweden vs poland",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Sweden vs Poland: UEFA Nations League stats & head-to-head",
+          "Sweden vs. Poland Nations League prediction, start time, how to watch",
+          "Football Bet of the Day: Jamie Griffith has a 19-20 selection from the Nations League"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "brian-dawkins": {
+    "slug": "brian-dawkins",
+    "name": "brian dawkins",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "NFL asks Homeland Security to take down video of Hall of Famer Brian Dawkins",
+          "NFL asks DHS to take down video featuring highlights of former Eagles star Brian Dawkins - The Athletic",
+          "NFL asks Trump admin to remove Hall of Famer highlight video referencing immigration"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "jonathan-mckinsey": {
+    "slug": "jonathan-mckinsey",
+    "name": "jonathan mckinsey",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Parents-in-law accused of killing Dublin man, New York Times staffer at sports park",
+          "New York Times exec allegedly shot dead by in-laws at Bay Area park",
+          "New York Times games engineering director allegedly shot in Dublin by in-laws"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "حوادث وقضايا"
+  },
+  "تركيا-ضد-إيطاليا": {
+    "slug": "تركيا-ضد-إيطاليا",
+    "name": "تركيا ضد إيطاليا",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|eg",
+        "date": "2026-09-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "تركيا تستضيف إيطاليا في لقاء خارج التوقعات بدوري الأمم الأوروبية",
+          "مانشيني للإيطاليين: بالغتم في ردود الفعل بعد الخسارة أمام بلجيكا",
+          "منتخب إيطاليا يستبعد 10 لاعبين من رحلة تركيا"
+        ]
+      },
+      {
+        "key": "2026-09-28|sa",
+        "date": "2026-09-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": true,
+        "headlines": [
+          "مانشيني للإيطاليين: بالغتم في ردود الفعل بعد الخسارة أمام بلجيكا",
+          "إيطاليا أمام خطر الهبوط في دوري الأمم",
+          "ما القنوات الناقلة لمباراة تركيا وإيطاليا في دوري الأمم الأوروبية 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 500,
+    "category": "دول وأماكن"
+  },
+  "أمير-منطقة-الجوف": {
+    "slug": "أمير-منطقة-الجوف",
+    "name": "أمير منطقة الجوف",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|sa",
+        "date": "2026-09-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": true,
+        "headlines": [
+          "أمير الجوف يشكر القيادة لتمديد خدمته لمدة أربع سنوات",
+          "محافظ طبرجل يرفع التهنئة لأمير منطقة الجوف بمناسبة التمديد له",
+          "أمر ملكي بتمديد خدمة أمير الجوف لمدة 4 سنوات"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
   }
 }

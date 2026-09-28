@@ -114,10 +114,18 @@ jobs:
       #   continue-on-error: true
       #   run: python engine/poster_onesignal.py "${SITE_BASE:-https://altrendat.com}"
 
+      # دفعة من أداة أخرى أثناء التشغيلة (تعديل كود مثلًا) كانت تُسقط الحفظ
+      # كله فتضيع مقالات دُفع ثمنها. نعيد البناء على أحدث نسخة ثم ندفع، حتى
+      # ثلاث مرات. تعارض في ملفات البيانات يوقف الحفظ، والتشغيلة التالية تعيده.
       - name: حفظ النتائج
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ output/ site/
-          git diff --staged --quiet || git commit -m "رصد: $(date -u '+%Y-%m-%d %H:%M') UTC"
-          git push
+          git diff --staged --quiet && exit 0
+          git commit -q -m "رصد: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase -q origin master || { git rebase --abort; exit 1; }
+          done
+          exit 1

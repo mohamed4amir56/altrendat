@@ -259,7 +259,7 @@ def _call(client, sys_prompt, schema, messages):
     return None, None
 
 
-def write_one(client, trend, country_name, is_en=False):
+def write_one(client, trend, country_name, is_en=False, country_key="world"):
     """يكتب مقال ترند واحد. يعيد dict، أو {"declined": True}، أو
     {"rejected": سبب} إن خالف الرد القواعد مرتين، أو None عند الفشل."""
     person = bool(trend.get("person"))
@@ -303,12 +303,15 @@ def write_one(client, trend, country_name, is_en=False):
 
     article["_v"] = WRITER_VERSION
     article["written_at"] = datetime.now(timezone.utc).isoformat()
-    # صورة حرة الرخصة من ويكيبيديا إن وُجدت (أشخاص وفرق وأماكن). لا صور صحف.
+    # صورة حرة الرخصة عالية الدقة: من ويكيبيديا بالاسم (أشخاص وفرق وأماكن)،
+    # وإلا صورة تعبيرية لفئته من كومنز. لا صور صحف.
     try:
-        article["photo"] = photos.find_photo(
-            trend["title"], trend.get("category", ""), ("en",) if is_en else ("ar", "en"))
+        article["photo"] = photos.photo_for(
+            trend["title"], trend.get("category", ""), country_key,
+            ("en",) if is_en else ("ar", "en"))
     except Exception:
-        article["photo"] = None
+        article["photo"] = photos.stock_photo(
+            trend["title"], trend.get("category", ""), country_key)
     return article
 
 
@@ -378,13 +381,16 @@ def main():
             if k in store and not force and not stale:
                 if store[k].get("declined") or store[k].get("rejected"):
                     continue          # حُسم أمره سابقًا؛ لا مال يُنفق ثانية
+                if not store[k].get("photo"):
+                    store[k]["photo"] = photos.stock_photo(
+                        t["title"], t.get("category", ""), key)
                 t["article"] = store[k]
                 cached += 1
                 continue
 
             attempts += 1
             try:
-                article = write_one(client, t, cname, is_en=is_en)
+                article = write_one(client, t, cname, is_en=is_en, country_key=key)
                 if article and article.get("declined"):
                     store[k] = {"declined": True}
                     declined += 1

@@ -33,6 +33,7 @@ import dedup  # noqa: E402
 import jobs  # noqa: E402
 import sources  # noqa: E402
 import config  # noqa: E402
+import photos  # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -48,8 +49,14 @@ ROBOTS_NOINDEX = "noindex, follow"
 
 
 def indexed(country):
-    """هل تُفهرس صفحات هذه النسخة؟ النسخة العالمية للتطبيق وحده."""
+    """هل تُفهرس صفحات هذه النسخة؟ (config.INDEXED_EDITIONS)"""
     return country in config.INDEXED_EDITIONS
+
+
+def has_hubs(country):
+    """صفحات المواضيع (/e/) عربية؛ النسخة الإنجليزية لا تدخلها، فلا يختلط
+    خبر إنجليزي بصفحة عربية ولا يُحوَّل رابطه إلى موضوع عربي."""
+    return indexed(country) and country != "world"
 
 
 def format_time(dt_str, is_en=False, country="eg"):
@@ -1251,11 +1258,23 @@ def render_hero_spotlight(t, href, country_name, flag, time_str, root="./", is_e
 
 
 def photo_credit(photo, is_en=False):
-    """سطر المصدر الذي تشترطه رخصة الصورة: المصوّر والرخصة ورابط الملف."""
+    """سطر المصدر الذي تشترطه رخصة الصورة: المصوّر والرخصة ورابط الملف.
+    الصورة التعبيرية تُوسم بذلك، فلا يظنها القارئ من الحدث نفسه."""
+    label = "Photo:" if is_en else "الصورة:"
+    if photo.get("stock"):
+        label = ("Illustrative photo:" if is_en else "صورة تعبيرية:")
     return "{} {} · {} · <a href='{}' target='_blank' rel='noopener'>{}</a>".format(
-        "Photo:" if is_en else "الصورة:", E(photo.get("artist", "")),
+        label, E(photo.get("artist", "")),
         E(photo.get("license", "")), E(photo.get("file_page", "")),
         "Wikimedia Commons" if is_en else "ويكيميديا كومنز")
+
+
+def photo_srcset(url):
+    """مقاسات ويكيميديا القياسية للصورة نفسها، ليأخذ الهاتف الأصغر."""
+    if "/1280px-" not in url:
+        return ""
+    return ", ".join("{} {}w".format(url.replace("/1280px-", "/{}px-".format(w)), w)
+                     for w in (500, 960)) + ", {} 1280w".format(url)
 
 
 def photo_figure(photo, alt, is_en=False):
@@ -1265,7 +1284,11 @@ def photo_figure(photo, alt, is_en=False):
     size = ""
     if photo.get("width") and photo.get("height"):
         size = " width='{}' height='{}'".format(int(photo["width"]), int(photo["height"]))
-    return ("<figure class='article-photo'><img src='{u}' alt='{a}'{s} loading='eager' decoding='async'>"
+    srcset = photo_srcset(photo["url"])
+    if srcset:
+        size += " srcset='{}' sizes='(max-width: 820px) 100vw, 820px'".format(E(srcset))
+    return ("<figure class='article-photo'><img src='{u}' alt='{a}'{s} loading='eager' "
+            "fetchpriority='high' decoding='async'>"
             "<figcaption>{c}</figcaption></figure>").format(
         u=E(photo["url"]), a=E(alt), s=size, c=photo_credit(photo, is_en))
 
@@ -1312,9 +1335,13 @@ def build_trend(country, cfg, t, urls, hubs=None, news=None):
     art = t["article"]
     path = "{}/{}/{}/index.html".format(country, day, slug)
     canonical = "{}/{}/{}/{}/".format(BASE, country, day, slug)
-    is_indexed = indexed(country)
+    # خبر من مصدر واحد لا يُفهرس (شرط الحارس نفسه) — في كل النسخ
+    is_indexed = indexed(country) and len(sources.good_sources(t.get("news", []))) >= 2
 
-    img = BASE + "/cards/" + os.path.basename(t["card"]) if t.get("card") else BASE + "/og-default.jpg"
+    card = BASE + "/cards/" + os.path.basename(t["card"]) if t.get("card") else BASE + "/og-default.jpg"
+    # صورة المشاركة وDiscover: الصورة الحقيقية (1280 عرضًا) أولًا، ثم كارت الموقع
+    photo = art.get("photo") or {}
+    img = photo.get("url") or card
     published = t.get("published_at") or cfg["generated_at"]
     modified = art.get("written_at") or published
 
@@ -1402,7 +1429,7 @@ def build_trend(country, cfg, t, urls, hubs=None, news=None):
                 "@type": "NewsArticle",
                 "headline": art["headline"][:110],
                 "description": summ,
-                "image": ([art["photo"]["url"]] if art.get("photo") else []) + [img],
+                "image": ([photo["url"]] if photo.get("url") else []) + [card],
                 "datePublished": published,
                 "dateModified": modified,
                 "inLanguage": "en" if is_en else "ar",
@@ -1669,10 +1696,10 @@ MIN_TOPIC_INDEXED = 3        # أقل عدد لتُفهرس في جوجل
 
 
 def collect_topics(by_country):
-    """كل موضوع ومقالاته المنشورة عبر الأيام، في النسخ المفهرسة فقط."""
+    """كل موضوع ومقالاته المنشورة عبر الأيام، في النسخ العربية المفهرسة."""
     topics = {}
     for key, entries in by_country.items():
-        if not indexed(key):
+        if not has_hubs(key):
             continue
         for day, cfg in entries:
             for t in cfg["trends"]:
@@ -2013,7 +2040,10 @@ def build_gold_app_page(urls):
 
 
 def build_en_redirect():
-    """توجيه /en/ إلى النسخة العالمية (خارج الفهرسة)."""
+    """توجيه /en/ إلى النسخة الإنجليزية (/world/): تحويل 301 من Cloudflare
+    عبر ملف _redirects، وهذه الصفحة احتياط لو لم يُقرأ الملف."""
+    with open(os.path.join(OUT, "_redirects"), "w", encoding="utf-8") as f:
+        f.write("/en /world/ 301\n/en/ /world/ 301\n")
     doc = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -2041,12 +2071,13 @@ def build_404():
          BASE + "/404.html", nav="", depth=0, robots=ROBOTS_NOINDEX)
 
 
-def build_feed(pairs):
+def build_feed(pairs, english=False):
     """خلاصة RSS لأحدث 40 خبرًا من النسخ المفهرسة، عبر كل الأيام.
+    العربية في /feed.xml، والإنجليزية (النسخة العالمية) في /world/feed.xml.
     pairs: [(بلد, بيانات يوم), ...]"""
     items = []
     for key, cfg in pairs:
-        if not indexed(key):
+        if not indexed(key) or (key == "world") != english:
             continue
         for t in cfg["trends"]:
             art = t.get("article")
@@ -2058,21 +2089,34 @@ def build_feed(pairs):
     for pub, key, cfg, t, art in items[:40]:
         link = "{}/{}/{}/{}/".format(BASE, key, entities.day_of(cfg), entities.slugify(t["title"]))
         img = ""
-        if t.get("card"):
+        photo = art.get("photo") or {}
+        if photo.get("url"):
+            img = '<enclosure url="{}" type="image/jpeg"/>'.format(E(photo["url"]))
+        elif t.get("card"):
             img = '<enclosure url="{}/cards/{}" type="image/png"/>'.format(BASE, os.path.basename(t["card"]))
+        cat = CAT_EN.get(t["category"], t["category"]) if english else t["category"]
         body.append(
             "<item><title>{t}</title><link>{l}</link><guid>{l}</guid>"
             "<description>{d}</description><category>{c}</category>{img}</item>".format(
                 t=E(art["headline"]), l=E(link), d=E(art.get("summary", "")),
-                c=E(t["category"]), img=img))
+                c=E(cat), img=img))
 
+    if english:
+        title, home, desc, lang, path = (SITE_NAME_EN, BASE + "/world/",
+                                         "What the world is searching for, explained with sources",
+                                         "en", os.path.join(OUT, "world", "feed.xml"))
+    else:
+        title, home, desc, lang, path = (SITE_NAME, BASE + "/",
+                                         "ما يبحث عنه الناس في مصر والسعودية",
+                                         "ar", os.path.join(OUT, "feed.xml"))
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
            '<rss version="2.0"><channel>'
-           '<title>{s}</title><link>{b}/</link>'
-           '<description>ما يبحث عنه الناس في مصر والسعودية</description>'
-           '<language>ar</language>{items}</channel></rss>').format(
-        s=E(SITE_NAME), b=BASE, items="".join(body))
-    with open(os.path.join(OUT, "feed.xml"), "w", encoding="utf-8") as f:
+           '<title>{s}</title><link>{h}</link>'
+           '<description>{d}</description>'
+           '<language>{lang}</language>{items}</channel></rss>').format(
+        s=E(title), h=home, d=E(desc), lang=lang, items="".join(body))
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
         f.write(xml)
     return len(body)
 
@@ -2342,6 +2386,15 @@ def main():
     for entries in by_country.values():
         entries.sort(key=lambda x: x[0], reverse=True)
 
+    # لكل مقال صورة: ما لم تصله photos.py (مقال كُتب لتوّه) يأخذ صورة فئته
+    # التعبيرية من data/stock_photos.json، بلا اتصال بالشبكة.
+    for key, entries in by_country.items():
+        for _, cfg in entries:
+            for t in cfg["trends"]:
+                art = t.get("article")
+                if art and not art.get("photo"):
+                    art["photo"] = photos.stock_photo(t["title"], t.get("category", ""), key)
+
     # الصفحة الرئيسة وصفحات البلاد تُبنى من أحدث يوم مؤرشف لكل بلد،
     # فلا يسقط بلد من الموقع بسبب تشغيلة فشل فيها جلبه.
     latest = {k: by_country[k][0][1]
@@ -2379,7 +2432,7 @@ def main():
                 n_days += 1
             for t in cfg["trends"]:
                 if t.get("article"):
-                    build_trend(key, cfg, t, urls, hubs=hubs if indexed(key) else None, news=news)
+                    build_trend(key, cfg, t, urls, hubs=hubs if has_hubs(key) else None, news=news)
                     n_trends += 1
         build_archive(key, [(d, c, len([x for x in c["trends"] if x.get("article")]))
                             for d, c in entries], urls)
@@ -2395,7 +2448,8 @@ def main():
     build_gold_app_page(urls)
     jobs_urls = jobs.build_jobs_site(BASE, OUT, lambda d: country_nav("jobs", d), page)
     urls.extend(jobs_urls)
-    n_feed = build_feed([(k, c) for k, entries in by_country.items() for _, c in entries])
+    all_days = [(k, c) for k, entries in by_country.items() for _, c in entries]
+    n_feed = build_feed(all_days) + build_feed(all_days, english=True)
     n_gold = build_gold_news_api(days)
     build_404()
     build_en_redirect()
@@ -2416,7 +2470,7 @@ def main():
     n_stubs = 0
     for p in load_pruned():
         key, day, slug = p["country"], p["day"], p["slug"]
-        if indexed(key) and slug in hubs:
+        if has_hubs(key) and slug in hubs:
             target = "{}/e/{}/".format(BASE, slug)
         elif os.path.exists(os.path.join(OUT, key, day, "index.html")):
             target = "{}/{}/{}/".format(BASE, key, day)

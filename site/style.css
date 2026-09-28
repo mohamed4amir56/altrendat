@@ -791,3 +791,11 @@ aside.gold-promo-cta{margin-top:30px}
 .sources .t,.sources .d{display:block}
 .sources .t{overflow-wrap:anywhere}
 .list .item .chip{display:inline-block;margin-bottom:6px}
+
+/* --- سطر مصدر الصورة (شرط رخصة ويكيميديا) --- */
+.photo-credit{position:absolute;inset-inline:0;bottom:0;font-size:.7rem;line-height:1.5;
+  color:#e8ecf4;background:linear-gradient(transparent,rgba(0,0,0,.78));padding:18px 12px 7px}
+.photo-credit a,.article-photo figcaption a{color:inherit;text-decoration:underline}
+/* الصورة كاملة بلا قص: صور الأشخاص طولية، والقص من المنتصف يقطع الوجه */
+.article-photo img{max-height:460px;object-fit:contain;background:#0d121c}
+.hero-spotlight-media img{object-position:center 22%}

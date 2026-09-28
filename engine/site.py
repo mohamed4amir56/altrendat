@@ -940,6 +940,14 @@ aside.gold-promo-cta{margin-top:30px}
 .sources .t,.sources .d{display:block}
 .sources .t{overflow-wrap:anywhere}
 .list .item .chip{display:inline-block;margin-bottom:6px}
+
+/* --- سطر مصدر الصورة (شرط رخصة ويكيميديا) --- */
+.photo-credit{position:absolute;inset-inline:0;bottom:0;font-size:.7rem;line-height:1.5;
+  color:#e8ecf4;background:linear-gradient(transparent,rgba(0,0,0,.78));padding:18px 12px 7px}
+.photo-credit a,.article-photo figcaption a{color:inherit;text-decoration:underline}
+/* الصورة كاملة بلا قص: صور الأشخاص طولية، والقص من المنتصف يقطع الوجه */
+.article-photo img{max-height:460px;object-fit:contain;background:#0d121c}
+.hero-spotlight-media img{object-position:center 22%}
 """
 
 
@@ -1146,35 +1154,9 @@ def sources_list(news, is_en=False):
     return "<h2>{}</h2><ul class='sources'>{}</ul>".format(title, "".join(items))
 
 
-def pick_trend_photo(t):
-    """صور الصحف لا تُعرض على الموقع: حقوقها لناشريها، وعرضها مخاطرة
-    على AdSense. الموقع يستخدم كروته (get_card_thumb_url)."""
-    return None
-
-
-def publisher_photo(t):
-    """صورة الخبر من ناشره — لخلاصة تطبيق Goldex وحدها، لا لصفحات الموقع."""
-    if t.get("data"):
-        return None
-
-    for n in t.get("news", []):
-        img = (n.get("og_image") or "").strip()
-        if img and img.startswith(("http://", "https://")) and not any(bad in img for bad in ("<", ">", "\n", "\r")):
-            if any(x in img.lower() for x in ("favicon", "logo_square", "avatar", "placeholder")):
-                continue
-            return {
-                "url": img,
-                "source": n.get("source") or "مصدر إخباري",
-            }
-
-    g_img = (t.get("image") or "").strip()
-    if g_img and g_img.startswith(("http://", "https://")):
-        return {
-            "url": g_img,
-            "source": t.get("image_source") or "تغطية إخبارية",
-        }
-
-    return None
+# صور الصحف لا تُستخدم في أي مكان: لا في الموقع ولا التطبيق ولا تليجرام.
+# عليها علامات ناشريها المائية وحقوقهم. البديل: كارت الموقع، أو صورة حرة
+# الرخصة من ويكيميديا مع سطر مصدرها (photos.py و photo_figure).
 
 
 def get_card_thumb_url(t, root="./"):
@@ -1230,7 +1212,10 @@ def render_hero_spotlight(t, href, country_name, flag, time_str, root="./", is_e
 
     cat_label = CAT_EN.get(t.get("category", ""), t.get("category", "")) if is_en else t.get("category", "")
     traffic = t.get("traffic", "")
-    img_url = get_card_thumb_url(t, root=root)
+    photo = art.get("photo")
+    img_url = photo["url"] if photo else get_card_thumb_url(t, root=root)
+    credit = ("<span class='photo-credit'>{}</span>".format(photo_credit(photo, is_en))
+              if photo else "")
     n_sources = len(sources.good_sources(t.get("news", [])))
 
     tag_text = "🔥 Top story" if is_en else "🔥 الأكثر بحثًا الآن"
@@ -1242,6 +1227,7 @@ def render_hero_spotlight(t, href, country_name, flag, time_str, root="./", is_e
     <div class="hero-spotlight">
       <div class="hero-spotlight-media">
         <img src="{E(img_url)}" alt="{E(headline)}" loading="eager" decoding="async" onerror="this.onerror=null;this.src='{root}og-default.jpg'">
+        {credit}
       </div>
       <div class="hero-spotlight-content">
         <div>
@@ -1262,6 +1248,26 @@ def render_hero_spotlight(t, href, country_name, flag, time_str, root="./", is_e
         </div>
       </div>
     </div>'''
+
+
+def photo_credit(photo, is_en=False):
+    """سطر المصدر الذي تشترطه رخصة الصورة: المصوّر والرخصة ورابط الملف."""
+    return "{} {} · {} · <a href='{}' target='_blank' rel='noopener'>{}</a>".format(
+        "Photo:" if is_en else "الصورة:", E(photo.get("artist", "")),
+        E(photo.get("license", "")), E(photo.get("file_page", "")),
+        "Wikimedia Commons" if is_en else "ويكيميديا كومنز")
+
+
+def photo_figure(photo, alt, is_en=False):
+    """صورة حرة الرخصة تحتها مصدرها. صور الصحف لا تُعرض (حقوقها لناشريها)."""
+    if not photo or not photo.get("url"):
+        return ""
+    size = ""
+    if photo.get("width") and photo.get("height"):
+        size = " width='{}' height='{}'".format(int(photo["width"]), int(photo["height"]))
+    return ("<figure class='article-photo'><img src='{u}' alt='{a}'{s} loading='eager' decoding='async'>"
+            "<figcaption>{c}</figcaption></figure>").format(
+        u=E(photo["url"]), a=E(alt), s=size, c=photo_credit(photo, is_en))
 
 
 def article_date(iso, is_en=False):
@@ -1373,6 +1379,7 @@ def build_trend(country, cfg, t, urls, hubs=None, news=None):
     <h1>{E(art["headline"])}</h1>
     {byline}
     <p class="lead">{E(summ)}</p>
+    {photo_figure(art.get("photo"), art["headline"], is_en)}
     {facts_box(art, is_en)}
     {data_table(t.get("data"))}
     <article class="story">{body_html}</article>
@@ -1388,7 +1395,7 @@ def build_trend(country, cfg, t, urls, hubs=None, news=None):
                 "@type": "NewsArticle",
                 "headline": art["headline"][:110],
                 "description": summ,
-                "image": [img],
+                "image": ([art["photo"]["url"]] if art.get("photo") else []) + [img],
                 "datePublished": published,
                 "dateModified": modified,
                 "inLanguage": "en" if is_en else "ar",
@@ -2191,8 +2198,10 @@ def build_gold_news_api(days_dict):
                 ts = 0
 
             canonical = f"{BASE}/{key}/{day}/{slug}/"
-            thumb = publisher_photo(t)
-            img_url = thumb["url"] if thumb else (BASE + "/og-default.jpg")
+            # كارت الموقع لا صورة الصحيفة: صور الصحف عليها علاماتهم وحقوقهم،
+            # والتطبيق لا يعرض سطر المصدر الذي تشترطه صور ويكيميديا.
+            img_url = (BASE + "/cards/" + os.path.basename(t["card"])) if t.get("card") \
+                else (BASE + "/og-default.jpg")
 
             headline = art.get("headline") or t.get("title", "")
             is_ar = is_ar_text(t.get("title", "")) or is_ar_text(headline)

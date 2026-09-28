@@ -177,24 +177,22 @@ def find_card_path(trend):
 
 
 def pick_telegram_image(trend):
-    """اختيار أفضل صورة للمنشور: نفضل صور التغطية الإخبارية الحقيقية عالية الدقة، ثم الكارت المحلي المصمم."""
-    # 1. صورة الخبر الصحفي الحقيقي (og:image)
-    for n in trend.get("news", []):
-        img = n.get("og_image")
-        if img and img.startswith("http") and not any(bad in img.lower() for bad in ("logo", "icon", "placeholder", "avatar", "default")):
-            return None, img
-
-    # 2. الكارت المحلي المصمم
+    """صورة المنشور: صورة حرة الرخصة من ويكيميديا (ويُضاف مصدرها للنص)، ثم
+    كارت الموقع. صور الصحف لا تُنشر: عليها علامات ناشريها وحقوقهم."""
+    photo = (trend.get("article") or {}).get("photo")
     card_path = find_card_path(trend)
-    if card_path:
-        return card_path, None
+    if photo and photo.get("url"):
+        return card_path, photo["url"]
+    return card_path, None
 
-    # 3. صورة جوجل تريندز البديلة
-    fallback = trend.get("image")
-    if fallback and fallback.startswith("http"):
-        return None, fallback
 
-    return None, None
+def photo_credit_line(trend):
+    """سطر مصدر الصورة الذي تشترطه رخصتها."""
+    photo = (trend.get("article") or {}).get("photo")
+    if not photo:
+        return ""
+    return "\n\n📷 الصورة: {} · {} · ويكيميديا كومنز".format(
+        html.escape(photo.get("artist", "")), html.escape(photo.get("license", "")))
 
 
 def send_to_telegram(token, chat_id, caption, card_path=None, fallback_image_url=None):
@@ -322,6 +320,8 @@ def main():
     for key, ckey, day, t in selected:
         caption = build_telegram_caption(t, ckey, day, base)
         card_path, photo_url = pick_telegram_image(t)
+        if photo_url:
+            caption += photo_credit_line(t)
 
         print(f"\nإرسال الترند [{ckey.upper()}]: {t.get('title')}")
         ok = send_to_telegram(token, chat_id, caption, card_path=card_path, fallback_image_url=photo_url)

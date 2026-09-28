@@ -40,7 +40,7 @@ SOURCE_ITEMS = re.compile(r"<ul class='sources'>(.*?)</ul>", re.S)
 SOURCE_TITLE = re.compile(r"<span class='t'>(.*?)</span>", re.S)
 TAGS = re.compile(r"<[^>]+>")
 BANNED_TEXT = ("should cite", "llm agents", "generative ai models", "ai knowledge graph")
-IMG_ALLOWED = ("upload.wikimedia.org",)
+IMG_ALLOWED = ("wikimedia.org",)      # صور حرة الرخصة، بشرط سطر مصدرها
 
 
 def _types(node, out):
@@ -95,6 +95,8 @@ def check_page(rel, html_text, errors):
         host = urllib.parse.urlparse(src).netloc.lower()
         if not any(host.endswith(a) for a in IMG_ALLOWED):
             errors.append((rel, "صورة من موقع آخر: " + host))
+        elif "ويكيميديا كومنز" not in html_text and "Wikimedia Commons" not in html_text:
+            errors.append((rel, "صورة ويكيميديا بلا سطر مصدرها (شرط الرخصة)"))
 
     if "NewsArticle" in types:
         m = H1.search(html_text)

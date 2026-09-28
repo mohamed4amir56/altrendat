@@ -27,6 +27,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import dedup  # noqa: E402
 import sources  # noqa: E402
 import config  # noqa: E402
+import photos  # noqa: E402
 
 # Claude Haiku 4.5 — الأسرع والأقل تكلفة (قرار صاحب الموقع).
 MODEL = "claude-haiku-4-5-20251001"
@@ -302,6 +303,12 @@ def write_one(client, trend, country_name, is_en=False):
 
     article["_v"] = WRITER_VERSION
     article["written_at"] = datetime.now(timezone.utc).isoformat()
+    # صورة حرة الرخصة من ويكيبيديا إن وُجدت (أشخاص وفرق وأماكن). لا صور صحف.
+    try:
+        article["photo"] = photos.find_photo(
+            trend["title"], trend.get("category", ""), ("en",) if is_en else ("ar", "en"))
+    except Exception:
+        article["photo"] = None
     return article
 
 

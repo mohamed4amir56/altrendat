@@ -742,3 +742,52 @@ html[dir="rtl"] .notif-toast-wrap{left:auto;right:20px}
   .notif-toast-wrap{bottom:70px;left:10px;right:10px;width:auto}
   html[dir="rtl"] .notif-toast-wrap{left:10px;right:10px}
 }
+
+/* --- الكروت النصية: العنوان والملخص هما المحتوى --- */
+.trend-card{border-top:3px solid var(--c,var(--gold))}
+.trend-card .trend-card-meta{flex-wrap:wrap}
+.cat-chip{font-size:.74rem;font-weight:700;padding:2px 10px;border-radius:99px;
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);color:var(--c,var(--gold))}
+.trend-card-title{-webkit-line-clamp:3}
+.trend-card-summary{-webkit-line-clamp:3}
+
+/* --- صفحة الخبر --- */
+.byline{color:var(--mut);font-size:.86rem;margin:-4px 0 16px}
+.byline a{color:var(--txt);text-decoration:none;border-bottom:1px solid var(--line)}
+.byline a:hover{border-color:var(--acc)}
+.story{margin-top:8px}
+.facts{background:linear-gradient(165deg,var(--card),var(--bg2));border:1px solid var(--line);
+  border-radius:16px;padding:16px 18px;margin:0 0 24px}
+.facts h2{font-size:1rem;margin:0 0 10px;color:var(--gold)}
+.facts dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px 18px;margin:0}
+.facts .fact{display:grid;gap:2px}
+.facts dt{font-size:.78rem;color:var(--mut)}
+.facts dd{margin:0;font-weight:700;font-variant-numeric:tabular-nums}
+aside.gold-promo-cta{margin-top:30px}
+
+/* --- صفحات المواضيع --- */
+.topic-list{list-style:none;padding:0;margin:18px 0;display:grid;gap:10px}
+.topic-list a{display:grid;gap:4px;text-decoration:none;background:linear-gradient(165deg,var(--card),var(--bg2));
+  border:1px solid var(--line);border-radius:14px;padding:13px 16px}
+.topic-list a:hover{border-color:var(--acc)}
+.topic-list .t{font-weight:700;line-height:1.6}
+.topic-list .d{font-size:.8rem;color:var(--mut)}
+
+/* --- الرئيسية والأسئلة --- */
+.home-head{margin-bottom:18px}
+.home-head h1{font-size:2.1rem;margin-bottom:8px}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;flex-wrap:wrap;margin:32px 0 14px}
+.section-head h2{margin:0;font-size:1.45rem}
+.faq-list{display:grid;gap:14px;margin:20px 0}
+.faq-item{background:linear-gradient(165deg,var(--card),var(--bg2));border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.faq-item h2{font-size:1.05rem;margin:0 0 6px}
+.faq-item p{margin:0;color:#dfe6f0}
+@media(max-width:560px){.home-head h1{font-size:1.5rem}}
+
+/* --- أدلة الوظائف --- */
+.safety-text ul{margin:6px 0 0;padding-inline-start:18px;display:grid;gap:4px}
+.safety-text li{font-size:.85rem;color:var(--mut);line-height:1.6}
+.guide ul{margin:0 0 16px;padding-inline-start:22px}
+.sources .t,.sources .d{display:block}
+.sources .t{overflow-wrap:anywhere}
+.list .item .chip{display:inline-block;margin-bottom:6px}

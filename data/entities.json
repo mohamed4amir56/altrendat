@@ -3709,12 +3709,12 @@
         "country_name": "مصر",
         "traffic": "5000+",
         "traffic_num": 5000,
-        "category": "حوادث وقضايا",
-        "publishable": false,
+        "category": "طقس",
+        "publishable": true,
         "headlines": [
-          "136 trekkers, mountaineers stranded in Uttarkashi due to snowfall; 5 evacuated | India News",
-          "Five-year-old dies in rockfall on Kedarnath route; around 1,000 pilgrims rescued",
-          "Char Dham Yatra resumes in Uttarakhand after improvement in weather"
+          "طقس الأيام المقبلة.. أجواء حارة وفرص أمطار خفيفة على بعض المناطق",
+          "حالة الطقس اليوم الاثنين 28-9-2026 في مصر.. شبورة مائية ونشاط للرياح",
+          "حالة الطقس غدًا الاثنين في مصر.. شبورة مائية ونشاط للرياح"
         ]
       }
     ],
@@ -3724,7 +3724,7 @@
       "eg"
     ],
     "peak_traffic": 10000,
-    "category": "حوادث وقضايا"
+    "category": "طقس"
   },
   "إنستاباي": {
     "slug": "إنستاباي",
@@ -6050,14 +6050,29 @@
           "مصر: تراجع الدولار يضغط على أسعار الذهب",
           "5 جنيهات تراجع فى سعر الذهب اليوم 24 سبتمبر 2026.. وعيار 21 يسجل هذا الرقم"
         ]
+      },
+      {
+        "key": "2026-09-28|sa",
+        "date": "2026-09-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "سعر الذهب في مصر ينهي سلسلة الخسائر",
+          "أسعار الذهب في مصر اليوم الأحد 27 سبتمبر 2026.. هل تنوي الشراء؟",
+          "أسعار الذهب خلال تعاملات اليوم الاثنين في السوق المحلي"
+        ]
       }
     ],
-    "last_seen": "2026-09-25",
-    "total": 1,
+    "last_seen": "2026-09-28",
+    "total": 2,
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "اقتصاد"
   },
   "australie-brésil": {
@@ -26826,9 +26841,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "الدوري الأميركي: ميسي يسجل مجددا دون تجنيب إنتر ميامي الخسارة أمام كولومبوس",
-          "نتيجة وملخص وأهداف مباراة كولومبوس كرو وإنتر ميامي في الدوري الأمريكي",
-          "هل يتفوق على \"الأفضل\"؟.. 4 أهداف تفصل ميسي عن عرش أسطوري"
+          "فيديو: ركلة حرة أسطورية من ميسي.. وكولومبوس كرو يسرق المباراة في الدقيقة 98",
+          "هدف رائع لكن غير كاف.. ميسي يسجل في خسارة إنتر ميامي أمام كولومبوس كرو",
+          "ميسي يطارد جونينيو.. أكثر اللاعبين تسجيلًا من الركلات الحرة في التاريخ"
         ]
       },
       {
@@ -26869,11 +26884,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
+          "WATCHLIVE]4KTV!!] :Columbus vs Columbus 𝐋𝐈𝐕𝐄 Ｓｔｒｅａｍｓ ＯＮ Ｔｖ Ｃｈａｎｎｅｌ free 27.09.2026",
           "Messi erzielt einen Traum-Freistoß aus einem unmöglichen Winkel in der MLS",
-          "Columbus Crew 2-1 Inter Miami: Thiaré wins it late",
-          "Licensable picture: Columbus Crew defender Eric Bailly (3) dribbles during the MLS match against the Inter Miami CF at ScottsMiracle-Gro Field in"
+          "Jamal Thiaré scores in 9th minute of stoppage time, Crew beats Inter Miami and Leo Messi 2-1"
         ]
       },
       {
@@ -26917,8 +26932,8 @@
         "publishable": false,
         "headlines": [
           "اعترافات صانعة محتوى: نشرت فيديوهات الرقص لزيادة المشاهدات وتحقيق أرباح",
-          "بهدف زيادة المشاهدات.. ضبط صانعة محتوى بالدقهلية بسبب مقاطع متداولة",
-          "ضبط صانعة محتوي لقيامها بنشر مقاطع فيديو تتنافي مع القيم المجتمعية بالقاهرة"
+          "لزيادة المشاهدات.. ضبط صانعة محتوى لبث فيديوهات خادشة بالدقهلية",
+          "بهدف زيادة المشاهدات.. ضبط صانعة محتوى بالدقهلية بسبب مقاطع متداولة"
         ]
       }
     ],
@@ -27977,7 +27992,7 @@
         "headlines": [
           "Pakistan through to Asian Games semi-finals after washout against Hong Kong",
           "Pakistan to face Hong Kong in Asian Games quarter-final on Monday",
-          "India and Pakistan advance to Asian Games cricket semifinals after quarterfinal washouts"
+          "1st Quarter-Final, Asian Games Men's Cricket Competition at Nisshin, Sep 28 2026"
         ]
       }
     ],
@@ -29829,7 +29844,7 @@
         "category": "ديني",
         "publishable": true,
         "headlines": [
-          "جدول مواقيت الصلاة الإثنبن 28 سبتمبر 2026 بمحافظات مصر",
+          "مواقيت الصلاة اليوم الإثنين 28 سبتمبر 2026 في القاهرة والمحافظات",
           "موعد أذان المغرب اليوم الأحد \"15 ربيع الآخر\" في القاهرة والمحافظات",
           "موعد أذان الظهر.. تعرف على مواقيت الصلاة اليوم في القاهرة والمحافظات"
         ]
@@ -30639,8 +30654,8 @@
         "date": "2026-09-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -30655,7 +30670,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "ind-vs-afg": {
@@ -30790,7 +30805,7 @@
         "publishable": false,
         "headlines": [
           "Washout against Afghanistan sends India into semi-finals",
-          "IND vs AFG, Asian Games 2026 cricket quarter-final: Schedule and watch India vs Afghanistan live streaming and telecast",
+          "IND vs AFG, Asian Games 2026 cricket: India reach semis after quarter-final washout",
           "'When there are expectations, you want to deliver': Shreyas Iyer on Gold Medal aspirations"
         ]
       }
@@ -30989,12 +31004,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "دول وأماكن",
-        "publishable": true,
+        "category": "حوادث وقضايا",
+        "publishable": false,
         "headlines": [
-          "France forces the EU to lift sanctions on a Russian oligarch",
-          "EU removes two oligarchs from Russia sanctions list as deadline looms",
-          "She grew up under Soviet rule. Now EU's top diplomat warns Europe against giving Russia what it wants"
+          "Russia loses 1,710 soldiers and 96 artillery systems over past day",
+          "Over 258,000 Russian soldiers killed in Ukraine identified by media investigation",
+          "Russia loses 1,690 troops in war against Ukraine over past day"
         ]
       }
     ],
@@ -31004,7 +31019,7 @@
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "دول وأماكن"
+    "category": "حوادث وقضايا"
   },
   "مصطفى-أحمد-شوبير": {
     "slug": "مصطفى-أحمد-شوبير",
@@ -31021,9 +31036,9 @@
         "category": "شخصية",
         "publishable": true,
         "headlines": [
-          "بعد أنباء تورط والده.. أول تحرك من مصطفى شوبير لاحتواء أزمة الشناوي",
-          "\"التافه\".. شوبير يدخل على خط أزمة الشناوي وحسام حسن برسالة نارية",
-          "ليس ملكاً للشناوي.. أحمد شوبير يحسم جدل القميص رقم 1 مع منتخب مصر"
+          "بعد أن أشعلها حسام حسن.. معركة الشناوي وشوبير تنتقل إلى الأهلي المصري",
+          "محمد سعيد يرد على شوبير: التشكيك في إصابة الشناوي لا يجب السكوت عليه",
+          "\"التافه\".. شوبير يدخل على خط أزمة الشناوي وحسام حسن برسالة نارية"
         ]
       }
     ],
@@ -31135,11 +31150,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "دول وأماكن",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "Asian Games BMX Cycling",
-          "(SP)JAPAN-NAGOYA-ASIAN GAMES-CYCLING BMX RACING-WOMEN-MOTOS RUN",
-          "Asian Games BMX Cycling"
+          "(SP)JAPAN-NAGOYA-ASIAN GAMES-CYCLING BMX RACING-MEN-FINAL",
+          "Asian Games Athletics"
         ]
       }
     ],
@@ -31164,7 +31179,7 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "2026 CSL Match 2 (VIRGINIA, NC STATE, GEORGIA, ALABAMA): Live Recap",
           "Virginia Opens the Season With a CSL Match Win",
@@ -31311,9 +31326,9 @@
         "category": "سياسة",
         "publishable": true,
         "headlines": [
-          "يشهد إعلان نتائج أول طرح للتنقيب عن المعادن.. أبرز معلومات منتدى التعدين 2026",
-          "مصر تبحث مع كينيا وتنزانيا توسيع التعاون في التعدين وتوطين الصناعات",
-          "الرئيس السيسي يستقبل الرئيس التنفيذي لشركة أنجلو جولد أشانتي"
+          "رئيس أنجلو جولد أشانتى: مصر تمثل إحدى الوجهات الاستثمارية ذات الأولوية للشركة",
+          "مصر تدعو لبناء سلاسل قيمة جديدة لثروات إفريقيا المعدنية",
+          "متحدث البترول: مصر من أكبر 3 دول باحتياطيات الفوسفات.. واتفاقيات استكشاف للذهب قريبا"
         ]
       }
     ],
@@ -31341,8 +31356,8 @@
         "publishable": true,
         "headlines": [
           "América vs Necaxa line-ups – Apertura 2026",
-          "Necaxa vs America LIVE Updates, Borja puts the Eagles ahead (2-3)",
-          "The $7 Million 'Gift' Set to Shine: Carlos Álvarez Makes His First Start for Club América"
+          "Necaxa vs Club America: How to watch, Live Stream, TV Channel and Time for Liga MX game on September 27, 2026",
+          "Highlights and goals of Necaxa 2-4 América in 2026 Liga MX Apertur"
         ]
       }
     ],
@@ -31367,7 +31382,7 @@
         "traffic": "5000+",
         "traffic_num": 5000,
         "category": "فن ومشاهير",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "‘Lanterns’ Stars Kyle Chandler & Aaron Pierre On Going Deeper Into Hal’s Psyche And The Jordan Boys Legacy",
           "‘Lanterns’ Episode 7 Recap: No-Hit Hal",
@@ -31454,7 +31469,7 @@
         "traffic": "200+",
         "traffic_num": 200,
         "category": "عام",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "¡Henry presiona! Así quedó la Tabla de Goleo del Apertura 2026 al término de la Jornada 10",
           "¡América alcanza en la cima al Toluca! Así va la Tabla General de Liga MX 2026 terminada la Jornada 10",
@@ -31469,5 +31484,34 @@
     ],
     "peak_traffic": 200,
     "category": "عام"
+  },
+  "hurricanes-weather": {
+    "slug": "hurricanes-weather",
+    "name": "hurricanes weather",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "Hurricane season is broken. Two oceans are historically out of whack",
+          "The Pacific is churning with hurricanes. The Atlantic is quiet. Blame El Niño",
+          "Hurricane season maps tracker: latest forecasts and more"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "طقس"
   }
 }

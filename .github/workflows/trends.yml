@@ -99,14 +99,14 @@ jobs:
         continue-on-error: true
         run: python engine/poster_telegram.py "${SITE_BASE:-https://altrendat.com}"
 
-      # إرسال إشعارات لتطبيق Goldex عبر OneSignal مع أولوية قصوى للأخبار السياسية
-      - name: إرسال إشعارات لتطبيق Goldex (OneSignal)
-        env:
-          ONESIGNAL_APP_ID: "a624b9fa-0c01-46de-a5c2-99e05d1a5bb5"
-          ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
-          SITE_BASE: ${{ vars.SITE_BASE }}
-        continue-on-error: true
-        run: python engine/poster_onesignal.py "${SITE_BASE:-https://altrendat.com}"
+      # إشعارات OneSignal تُرسل مركزياً كل 6 ساعات عبر مستودع gold-news-bot لمنع التكرار والإزعاج
+      # - name: إرسال إشعارات لتطبيق Goldex (OneSignal)
+      #   env:
+      #     ONESIGNAL_APP_ID: "a624b9fa-0c01-46de-a5c2-99e05d1a5bb5"
+      #     ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+      #     SITE_BASE: ${{ vars.SITE_BASE }}
+      #   continue-on-error: true
+      #   run: python engine/poster_onesignal.py "${SITE_BASE:-https://altrendat.com}"
 
       - name: حفظ النتائج
         run: |

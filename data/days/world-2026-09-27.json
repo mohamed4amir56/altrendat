@@ -4,7 +4,7 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-09-28T03:01:04.592967+00:00",
+  "generated_at": "2026-09-28T03:16:29.842084+00:00",
   "day": "2026-09-27",
   "trends": [
     {
@@ -600,8 +600,8 @@
     },
     {
       "title": "the lobster house",
-      "traffic": "+62000",
-      "traffic_num": 62000,
+      "traffic": "+72000",
+      "traffic_num": 72000,
       "published": "Sun, 27 Sep 2026 14:10:00 -0700",
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbnFwsA43EkRUb1bKIsiyCdp4HWvwoDvemtrvtiO2OXc0KN2WaXg8rKIsRLQ",
       "image_source": "FOX Weather",
@@ -688,6 +688,14 @@
           "url": "https://www.vice.com/en/article/2026-mtv-vmas-gener8ion-and-yung-lean-smash-a-moonman-while-performing-storm-ii-live-with-a-mesmerizing-dance-crew/",
           "source": "VICE",
           "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRwkDV3ahKpHyv1J-NEUCuoRnTo_2UxDwmcMKY4yHQIz2QJUXar8Y094OGIL_I",
+          "ok": false,
+          "error": "Timeout"
+        },
+        {
+          "title": "Yung Lean & GENER8ION Recreate The \"Storm\" Video At The VMAs",
+          "url": "https://stereogum.com/2512824/vmas-2026-yung-lean-makes-his-us-tv-debut-performing-with-gener8ion/news",
+          "source": "Stereogum",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQWQMtoghMnlgE59yueYo-9vSOpYbHz2VlJfR4ENYduNnEm8zMj2vrrtEaTLrE",
           "ok": false,
           "error": "Timeout"
         }
@@ -969,6 +977,47 @@
       },
       "card": "cards/world-2026-09-27-phillies-game.png",
       "published_at": "2026-09-27T19:15:48.003970+00:00"
+    },
+    {
+      "title": "necaxa - américa",
+      "traffic": "50000+",
+      "traffic_num": 50000,
+      "published": "Sun, 27 Sep 2026 19:10:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRV4XDvL-YN7CUrpJMKZ_3giEvJSZWSYYW6O730JuI0oV8z3IQsrNuKz2LoOG8",
+      "image_source": "TUDN",
+      "news": [
+        {
+          "title": "A qué hora y dónde ver el Necaxa vs. América de Liga MX",
+          "url": "https://www.tudn.com/futbol/liga-mx/necaxa-vs-america-a-que-hora-y-donde-ver-el-partido-de-la-jornada-10-de-la-liga-mx-apertura-2026",
+          "source": "TUDN",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRV4XDvL-YN7CUrpJMKZ_3giEvJSZWSYYW6O730JuI0oV8z3IQsrNuKz2LoOG8",
+          "ok": false,
+          "error": "Timeout"
+        },
+        {
+          "title": "¿Cómo le fue a Juan Reynoso contra América con sus otros equipos?",
+          "url": "https://espndeportes.espn.com/futbol/mexico/nota/_/id/17299390/juan-reynoso-america-necaxa-cruz-azul-puebla-liga-mx",
+          "source": "ESPN Deportes",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSg7-sWgO_kKfPhebm89aa4_iUtWRcmHfZfIAj48g3Lz1qj7uTnelO00QMHXos",
+          "ok": false,
+          "error": "Timeout"
+        },
+        {
+          "title": "¿Cuándo juega el América? Hora, canal y posibles alineaciones de la Jornada 10",
+          "url": "https://www.lavozarizona.com/story/deportes/futbol/2026/09/27/necaxa-vs-america-horario-donde-ver-alineaciones-apertura-liga-mx-previa/91913444007/",
+          "source": "azcentral.com and The Arizona Republic",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRE6BfZIYKiv7czoBWLkUmlgWrdUYohWPMITtLqpjO0Wu8ychk4LbqkjY10H8o",
+          "ok": false,
+          "error": "Timeout"
+        }
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين بنص)",
+      "publishable": false,
+      "card": "cards/world-2026-09-27-necaxa---américa.png",
+      "published_at": "2026-09-28T02:46:09.497630+00:00"
     },
     {
       "title": "astros",
@@ -1291,49 +1340,6 @@
       "publishable": false,
       "card": "cards/world-2026-09-27-raiders.png",
       "published_at": "2026-09-27T21:15:49.141789+00:00"
-    },
-    {
-      "title": "necaxa - américa",
-      "traffic": "20000+",
-      "traffic_num": 20000,
-      "published": "Sun, 27 Sep 2026 19:10:00 -0700",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRV4XDvL-YN7CUrpJMKZ_3giEvJSZWSYYW6O730JuI0oV8z3IQsrNuKz2LoOG8",
-      "image_source": "TUDN",
-      "news": [
-        {
-          "title": "A qué hora y dónde ver el Necaxa vs. América de Liga MX",
-          "url": "https://www.tudn.com/futbol/liga-mx/necaxa-vs-america-a-que-hora-y-donde-ver-el-partido-de-la-jornada-10-de-la-liga-mx-apertura-2026",
-          "source": "TUDN",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRV4XDvL-YN7CUrpJMKZ_3giEvJSZWSYYW6O730JuI0oV8z3IQsrNuKz2LoOG8",
-          "ok": false,
-          "error": "Timeout"
-        },
-        {
-          "title": "¿Cómo le fue a Juan Reynoso contra América con sus otros equipos?",
-          "url": "https://espndeportes.espn.com/futbol/mexico/nota/_/id/17299390/juan-reynoso-america-necaxa-cruz-azul-puebla-liga-mx",
-          "source": "ESPN Deportes",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSg7-sWgO_kKfPhebm89aa4_iUtWRcmHfZfIAj48g3Lz1qj7uTnelO00QMHXos",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false
-        },
-        {
-          "title": "¿Cuándo juega el América? Hora, canal y posibles alineaciones de la Jornada 10",
-          "url": "https://www.lavozarizona.com/story/deportes/futbol/2026/09/27/necaxa-vs-america-horario-donde-ver-alineaciones-apertura-liga-mx-previa/91913444007/",
-          "source": "azcentral.com and The Arizona Republic",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRE6BfZIYKiv7czoBWLkUmlgWrdUYohWPMITtLqpjO0Wu8ychk4LbqkjY10H8o",
-          "ok": false,
-          "error": "Timeout"
-        }
-      ],
-      "category": "رياضة",
-      "icon": "⚽",
-      "color": "#3ddc97",
-      "reason": "مصادر غير كافية (أقل من خبرين بنص)",
-      "publishable": false,
-      "card": "cards/world-2026-09-27-necaxa---américa.png",
-      "published_at": "2026-09-28T02:46:09.497630+00:00"
     },
     {
       "title": "denver broncos",
@@ -2714,8 +2720,8 @@
     },
     {
       "title": "rams game",
-      "traffic": "+8000",
-      "traffic_num": 8000,
+      "traffic": "+10000",
+      "traffic_num": 10000,
       "published": "Sun, 27 Sep 2026 17:00:00 -0700",
       "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR2p7pTu-H7N2oXwfxgZt1psiIYRhdi83GsUYlr_anbnkc-00q9OrM9WW2D0Yg",
       "image_source": "CBS Sports",
@@ -7875,6 +7881,154 @@
       "published_at": "2026-09-28T02:46:09.497630+00:00"
     },
     {
+      "title": "jessica shepard",
+      "traffic": "2000+",
+      "traffic_num": 2000,
+      "published": "Sun, 27 Sep 2026 19:00:00 -0700",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR2fH7h2HbIcm-CiGE-nI9T8Kyrx9EYadLvO_tAVjT3Egqu8GQLk9e8T3n8VGU",
+      "image_source": "ESPN",
+      "news": [
+        {
+          "title": "Wings' Bueckers touts big-game experience ahead of WNBA playoffs",
+          "url": "https://www.espn.com/wnba/story/_/id/50038431/wings-bueckers-touts-big-game-experience-ahead-wnba-playoffs",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR2fH7h2HbIcm-CiGE-nI9T8Kyrx9EYadLvO_tAVjT3Egqu8GQLk9e8T3n8VGU",
+          "ok": false,
+          "error": "Timeout"
+        },
+        {
+          "title": "‘The Disrespect Is Insane,’ ‘So Ridiculous’ — Outrage Erupts As AP Names Paige Bueckers to All-WNBA Second Team",
+          "url": "https://sports.yahoo.com/articles/disrespect-insane-ridiculous-outrage-erupts-160846543.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ70lsXvkCSvSRZgmb0Wr8GAFTfYE1atEWI5FzL7y6qG5Vlu-_tLtxX7ReK5qM",
+          "ok": false,
+          "error": "Timeout"
+        },
+        {
+          "title": "Paige Bueckers' all-world scoring presents biggest threat to Valkyries in Game 1 vs. Wings",
+          "url": "https://www.dallasnews.com/sports/wings/article/paige-bueckers-scoring-threat-valkyries-game-1-22451901.php",
+          "source": "Dallas News",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLNncAwhuJCvWO5sqhKcPlaPDxOaVjnV57_-JTVTenXYXLCb87TurEA3IsrQw",
+          "ok": false,
+          "error": "Timeout"
+        }
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين بنص)",
+      "publishable": false,
+      "card": "cards/world-2026-09-27-jessica-shepard.png",
+      "published_at": "2026-09-28T02:15:48.913135+00:00"
+    },
+    {
+      "title": "stan kroenke",
+      "traffic": "2000+",
+      "traffic_num": 2000,
+      "published": "Sun, 27 Sep 2026 19:50:00 -0700",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbSFoCKVWynud1_92nPtF6ADwJClj8mZYHb4p7EJOZgfRwlvFL6L63gQnKGr8",
+      "image_source": "USA Today",
+      "news": [
+        {
+          "title": "Angels had worst season in franchise history, but future is bright in Anaheim",
+          "url": "https://www.usatoday.com/story/sports/mlb/angels/2026/09/27/angels-lose-100-games/91978292007/",
+          "source": "USA Today",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbSFoCKVWynud1_92nPtF6ADwJClj8mZYHb4p7EJOZgfRwlvFL6L63gQnKGr8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Angels' optimism for '27 grows as they trend in right direction",
+          "url": "https://www.mlb.com/news/angels-optimistic-about-2027-season",
+          "source": "MLB.com",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVwJmQuNOOkma-Y2nG08z4B-p7A_1Og7RviDSU_89jIJUPNe2-es8U9ySpQGM",
+          "og_title": "Angels' optimism for '27 grows as they trend in right direction",
+          "og_desc": "This story was excerpted from Rhett Bollinger’s Angels Beat newsletter. To read the full newsletter, click here. And subscribe to get it regularly in your inbox.",
+          "og_image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/ztt7hfhqvpae8vpkspdd.jpg",
+          "ok": true
+        },
+        {
+          "title": "When Will the Angels Be Competitive Again?",
+          "url": "https://blogs.fangraphs.com/when-will-the-angels-be-competitive-again/",
+          "source": "FanGraphs",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS1y7zdTJnM6YPLhUYHwcZj2cPNrjrdI331DDQHLmPJTVzkLIpAKwfe5Txs8Z4",
+          "og_title": "When Will the Angels Be Competitive Again?",
+          "og_desc": "The road to contention is likely to be a long, relatively unpleasant journey for the Angels.",
+          "og_image": "https://blogs.fangraphs.com/wp-content/uploads/2026/09/2026-09-21T001550Z_1360282591_MT1USATODAY29877759_RTRMADP_3_MLB-MINNESOTA-TWINS-AT-LOS-ANGELES-ANGELS.jpg",
+          "ok": true
+        }
+      ],
+      "category": "فن ومشاهير",
+      "icon": "🎬",
+      "color": "#c77dff",
+      "reason": "المصادر لا تذكر الموضوع — تحتاج مراجعة",
+      "publishable": false,
+      "card": "cards/world-2026-09-27-stan-kroenke.png",
+      "published_at": "2026-09-28T03:16:29.842084+00:00"
+    },
+    {
+      "title": "nate adkins",
+      "traffic": "2000+",
+      "traffic_num": 2000,
+      "published": "Sun, 27 Sep 2026 19:40:00 -0700",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQbHsnVlc5oR9lW3QhODUSmtZf1nTl6_3Gq_IPSC40CcTEwZqQ2TjTlIiX7cas",
+      "image_source": "Yahoo Sports",
+      "news": [
+        {
+          "title": "Sean Payton's Excitement About Evan Engram Could Hint at Bigger Things",
+          "url": "https://sports.yahoo.com/articles/sean-paytons-excitement-evan-engram-190915270.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQbHsnVlc5oR9lW3QhODUSmtZf1nTl6_3Gq_IPSC40CcTEwZqQ2TjTlIiX7cas",
+          "ok": false,
+          "error": "Timeout"
+        },
+        {
+          "title": "Sean Payton pleased with performance of Evan Engram and Nate Adkins thus far",
+          "url": "https://www.milehighreport.com/denver-broncos-news/186310/sean-payton-pleased-with-performance-of-evan-engram-and-nate-adkins-thus-far",
+          "source": "Mile High Report",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR1Q4jQfiLFFnKdxCvRIKqU4VoTcowuKea6Us2VZIpH28cexBIBrpEZ__aL6gc",
+          "og_title": "Sean Payton pleased with performance of Evan Engram and Nate Adkins thus far",
+          "og_desc": "Tight ends Evan Engram and Nate Adkins have each had an impressive performance early on in the 2026 season.",
+          "og_image": "https://platform.milehighreport.com/wp-content/uploads/sites/108/2026/09/gettyimages-2296303036.jpg?quality=90&strip=all&crop=0%2C10.735604714662%2C100%2C78.528790570675&w=1200",
+          "ok": true
+        },
+        {
+          "title": "Evan Engram hauls in 17-yard pass in Week 2",
+          "url": "https://www.fantasypros.com/nfl/news/609515/evan-engram-hauls-17-yard-pass-week-2.php",
+          "source": "FantasyPros",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSaY1rtkFAv4SLkDKTrwoTHmfWfwpDcUn0S7SQffHSNEV17r9PWGN7NX1UHbp0",
+          "og_title": "Evan Engram hauls in 17-yard pass in Week 2",
+          "og_desc": "Engram was quiet in the comeback win after posting a productive outing back in Week 1. The veteran tight end has now caught five passes for 60 yards and a touchdown through two games. He will be a low-end TE2 in fantasy for Week 3 against the Rams.",
+          "og_image": "https://cdn.fantasypros.com/wp-content/images/EVAN_ENGRAM_BRONCOS_4-1/1470x650.jpg",
+          "ok": true
+        }
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "بلا تصنيف واضح",
+      "publishable": true,
+      "article": {
+        "headline": "Nate Adkins Emerges as Breakout Tight End in Denver Broncos 2026 Season",
+        "summary": "Coach Sean Payton praised the early-season performance of tight ends Evan Engram and Nate Adkins, with both players making immediate offensive impacts for the Broncos.",
+        "body": "The Denver Broncos have found unexpected depth at the tight end position as the 2026 NFL season unfolds. Head Coach Sean Payton expressed enthusiasm about the development of Nate Adkins alongside veteran Evan Engram, citing their impressive early contributions to the team's offensive scheme.\n\nAdkins has captured Payton's attention through productive outings in the season's opening weeks, signaling a potential breakout campaign for the young tight end. The Broncos' coaching staff has integrated both Engram and Adkins into their passing attack with tangible results, as both players have demonstrated reliability and execution in the early portion of the schedule.\n\nEngram, the veteran presence in Denver's tight end room, posted a strong Week 1 performance before a quieter Week 2 outing in the Broncos' comeback victory. Through two games, Engram has accumulated five receptions for 60 yards and one touchdown, according to FantasyPros. In Week 2 specifically, Engram hauled in a 17-yard reception, further showcasing his value as a receiving option.\n\nWith Payton's offensive system requiring dynamic tight end play, the emergence of Adkins alongside Engram provides the Broncos with multiple attacking options in the passing game. As Denver prepares for Week 3 against the Los Angeles Rams, the dual-threat tight end approach may prove crucial to sustaining offensive momentum. The early-season success of both players suggests the Broncos have developed genuine depth at a position that can significantly impact playoff positioning.",
+        "tags": [
+          "Nate Adkins",
+          "Evan Engram",
+          "Denver Broncos",
+          "Sean Payton",
+          "NFL 2026 season",
+          "tight end"
+        ],
+        "_had_data": false,
+        "_localized": false
+      },
+      "card": "cards/world-2026-09-27-nate-adkins.png",
+      "published_at": "2026-09-28T03:16:29.842084+00:00"
+    },
+    {
       "title": "serbia vs netherlands",
       "traffic": "+1500",
       "traffic_num": 1500,
@@ -12400,47 +12554,6 @@
       "published_at": "2026-09-28T02:15:48.913135+00:00"
     },
     {
-      "title": "jessica shepard",
-      "traffic": "1000+",
-      "traffic_num": 1000,
-      "published": "Sun, 27 Sep 2026 19:00:00 -0700",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR2fH7h2HbIcm-CiGE-nI9T8Kyrx9EYadLvO_tAVjT3Egqu8GQLk9e8T3n8VGU",
-      "image_source": "ESPN",
-      "news": [
-        {
-          "title": "Wings' Bueckers touts big-game experience ahead of WNBA playoffs",
-          "url": "https://www.espn.com/wnba/story/_/id/50038431/wings-bueckers-touts-big-game-experience-ahead-wnba-playoffs",
-          "source": "ESPN",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR2fH7h2HbIcm-CiGE-nI9T8Kyrx9EYadLvO_tAVjT3Egqu8GQLk9e8T3n8VGU",
-          "ok": false,
-          "error": "Timeout"
-        },
-        {
-          "title": "‘The Disrespect Is Insane,’ ‘So Ridiculous’ — Outrage Erupts As AP Names Paige Bueckers to All-WNBA Second Team",
-          "url": "https://sports.yahoo.com/articles/disrespect-insane-ridiculous-outrage-erupts-160846543.html",
-          "source": "Yahoo Sports",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ70lsXvkCSvSRZgmb0Wr8GAFTfYE1atEWI5FzL7y6qG5Vlu-_tLtxX7ReK5qM",
-          "ok": false,
-          "error": "Timeout"
-        },
-        {
-          "title": "Paige Bueckers' all-world scoring presents biggest threat to Valkyries in Game 1 vs. Wings",
-          "url": "https://www.dallasnews.com/sports/wings/article/paige-bueckers-scoring-threat-valkyries-game-1-22451901.php",
-          "source": "Dallas News",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLNncAwhuJCvWO5sqhKcPlaPDxOaVjnV57_-JTVTenXYXLCb87TurEA3IsrQw",
-          "ok": false,
-          "error": "Timeout"
-        }
-      ],
-      "category": "رياضة",
-      "icon": "⚽",
-      "color": "#3ddc97",
-      "reason": "مصادر غير كافية (أقل من خبرين بنص)",
-      "publishable": false,
-      "card": "cards/world-2026-09-27-jessica-shepard.png",
-      "published_at": "2026-09-28T02:15:48.913135+00:00"
-    },
-    {
       "title": "rob lowe",
       "traffic": "1000+",
       "traffic_num": 1000,
@@ -12453,10 +12566,8 @@
           "url": "https://www.usatoday.com/story/entertainment/tv-streaming/awards/2026/09/25/rob-lowe-happy-oscars-slap-will-smith-chris-rock/91943239007/",
           "source": "USA Today",
           "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSW1nUWxrP7UQ5nFO300SJ2Tmyc3BtDsGVVx8O9g2A69tcaq4vT6eh4HskOsi0",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false
+          "ok": false,
+          "error": "Timeout"
         },
         {
           "title": "Rob Lowe Explains Why He Was The 'Only Person' Who Was 'Happy' Will Smith Slapped Chris Rock",
@@ -12523,6 +12634,55 @@
       "publishable": false,
       "card": "cards/world-2026-09-27-marines.png",
       "published_at": "2026-09-28T02:46:09.497630+00:00"
+    },
+    {
+      "title": "ball arena",
+      "traffic": "1000+",
+      "traffic_num": 1000,
+      "published": "Sun, 27 Sep 2026 19:50:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTHME1DlYM7Fqe6_Zx-_MyFYWDoZfN8DwT5BtkXGhhKGvWyszoVBGnxr6C8Awo",
+      "image_source": "9News",
+      "news": [
+        {
+          "title": "Motorcyclist killed in Denver crash",
+          "url": "https://www.9news.com/article/news/local/motorcyclist-killed-denver-crash/73-8d4b3ad3-d111-4f34-b847-fe32fb4bb76c",
+          "source": "9News",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTHME1DlYM7Fqe6_Zx-_MyFYWDoZfN8DwT5BtkXGhhKGvWyszoVBGnxr6C8Awo",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Motorcyclist killed, passenger injured in Denver crash near Ball Arena",
+          "url": "https://www.denverpost.com/2026/09/27/motorcycle-crash-denver-ball-arena/",
+          "source": "The Denver Post",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSloadktYHheTcaKJcspx8-d0Bfub7nn_pfe-xyGiMpxDDREx4GjoaiG-q4ntY",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "URLError"
+        },
+        {
+          "title": "Motorcyclist dead, passenger hospitalized after crash near Ball Arena",
+          "url": "https://www.denvergazette.com/2026/09/27/motorcyclist-dead-passenger-hospitalized-after-crash-near-ball-arena/",
+          "source": "Denver Gazette",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSlHQTnNe6dtD4ofpxNkHHu6nsiUPWXGpgOQW6v0XgH-T9p1-VFqw2IUbKrwrg",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        }
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: dead",
+      "publishable": false,
+      "card": "cards/world-2026-09-27-ball-arena.png",
+      "published_at": "2026-09-28T03:16:29.842084+00:00"
     },
     {
       "title": "patriots schedule",

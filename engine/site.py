@@ -472,26 +472,7 @@ td:first-child{color:var(--acc);font-weight:600}
   font-size:1.15rem;font-weight:800;color:#fff;margin-bottom:8px;display:flex;align-items:center;gap:8px;
 }
 .trend-why-desc{
-  font-size:1.02rem;line-height:1.75;color:#f0f4fa;margin:0 0 14px;font-weight:600;
-}
-.takeaways-box{
-  background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.06);
-  border-radius:14px;padding:14px 16px;margin-top:14px;
-}
-.takeaways-header{
-  font-size:.88rem;font-weight:800;color:#5aa9ff;margin-bottom:8px;display:flex;align-items:center;gap:6px;
-}
-.takeaways-list{
-  list-style:none;padding:0;margin:0;display:grid;gap:8px;
-}
-.takeaways-list li{
-  font-size:.9rem;line-height:1.6;color:#cdd7e5;position:relative;padding-inline-start:22px;
-}
-.takeaways-list li::before{
-  content:"✓";position:absolute;right:0;color:#3ddc97;font-weight:800;font-size:.9rem;
-}
-html[dir="ltr"] .takeaways-list li::before{
-  right:auto;left:0;
+  font-size:1.02rem;line-height:1.75;color:#f0f4fa;margin:0;font-weight:600;
 }
 
 /* --- بطاقات الأسئلة الأكثر بحثًا (FAQ Cards / People Also Ask) --- */
@@ -1246,32 +1227,8 @@ def render_hero_spotlight(t, href, country_name, flag, time_str, root="./", is_e
 
 
 def build_takeaways(t, art, is_en=False):
-    """استخراج أهم 3-4 نقاط رئيسية موثقة للمتابعة السريعة."""
-    paras = [p.strip() for p in art.get("body", "").split("\n") if p.strip()]
-    points = []
-    summ = art.get("summary", "")
-    if summ:
-        points.append(summ)
-
-    for p in paras:
-        sentences = [s.strip() for s in re.split(r"[.؛!?\n]", p) if len(s.strip()) > 35]
-        for s in sentences:
-            if s not in points and len(points) < 4:
-                if not any(w in s for w in summ.split()[:4] if len(w) > 3):
-                    points.append(s)
-
-    if not points and paras:
-        points = paras[:3]
-
-    header = "⚡ The Story in 30 Seconds (Quick Takeaways)" if is_en else "⚡ القصة باختصار في 30 ثانية"
-    items_html = "".join(f"<li>{E(pt)}</li>" for pt in points)
-    return f"""
-    <div class="takeaways-box">
-      <div class="takeaways-header">{header}</div>
-      <ul class="takeaways-list">
-        {items_html}
-      </ul>
-    </div>"""
+    """تم إيقاف النقاط المتكررة لضمان انتقال مباشر وسلس من الشرح الأولي إلى التفاصيل الكاملة."""
+    return ""
 
 
 def build_market_gold_pulse(t, art, is_en=False):
@@ -1346,7 +1303,6 @@ def build_trend(country, cfg, t, urls):
         )
 
     # مكونات ذكاء الترند المضافة
-    takeaways_html = build_takeaways(t, art, is_en=is_en)
     faq_html, faq_items = build_faqs(t, art, is_en=is_en)
 
     img_list = []
@@ -1387,8 +1343,22 @@ def build_trend(country, cfg, t, urls):
         ]
     }
 
-    paras = "".join("<p>{}</p>".format(E(p.strip()))
-                    for p in art["body"].split("\n") if p.strip())
+    body_paras = [p.strip() for p in art["body"].split("\n") if p.strip()]
+    summ_clean = art.get("summary", "").strip()
+
+    # تنقية أول فقرة لتفادي أي تكرار لجملة الافتتاحية/الملخص
+    filtered_paras = []
+    for i, p in enumerate(body_paras):
+        if i == 0 and summ_clean:
+            norm_p = re.sub(r'[\s\.\،\:\-\_]+', '', p)
+            norm_s = re.sub(r'[\s\.\،\:\-\_]+', '', summ_clean)
+            if norm_p == norm_s or (len(norm_s) > 20 and norm_p.startswith(norm_s[:25])) or (len(norm_p) > 20 and norm_s.startswith(norm_p[:25])):
+                continue
+        filtered_paras.append(p)
+    if not filtered_paras and body_paras:
+        filtered_paras = body_paras
+
+    paras = "".join(f"<p>{E(p)}</p>" for p in filtered_paras)
     tags = "".join("<span class='tag'>{}</span>".format(E(x))
                    for x in art.get("tags", []))
 
@@ -1480,7 +1450,6 @@ def build_trend(country, cfg, t, urls):
       </div>
       <div class="trend-why-title">{why_heading}</div>
       <p class="trend-why-desc">{E(art.get("summary", ""))}</p>
-      {takeaways_html}
     </div>
 
     <article>

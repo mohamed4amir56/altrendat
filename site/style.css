@@ -332,26 +332,7 @@ td:first-child{color:var(--acc);font-weight:600}
   font-size:1.15rem;font-weight:800;color:#fff;margin-bottom:8px;display:flex;align-items:center;gap:8px;
 }
 .trend-why-desc{
-  font-size:1.02rem;line-height:1.75;color:#f0f4fa;margin:0 0 14px;font-weight:600;
-}
-.takeaways-box{
-  background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.06);
-  border-radius:14px;padding:14px 16px;margin-top:14px;
-}
-.takeaways-header{
-  font-size:.88rem;font-weight:800;color:#5aa9ff;margin-bottom:8px;display:flex;align-items:center;gap:6px;
-}
-.takeaways-list{
-  list-style:none;padding:0;margin:0;display:grid;gap:8px;
-}
-.takeaways-list li{
-  font-size:.9rem;line-height:1.6;color:#cdd7e5;position:relative;padding-inline-start:22px;
-}
-.takeaways-list li::before{
-  content:"✓";position:absolute;right:0;color:#3ddc97;font-weight:800;font-size:.9rem;
-}
-html[dir="ltr"] .takeaways-list li::before{
-  right:auto;left:0;
+  font-size:1.02rem;line-height:1.75;color:#f0f4fa;margin:0;font-weight:600;
 }
 
 /* --- بطاقات الأسئلة الأكثر بحثًا (FAQ Cards / People Also Ask) --- */

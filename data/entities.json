@@ -600,11 +600,11 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "اقتصاد",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "سعر الدولار في مصر يعود لتسجيل المكاسب",
-          "ارتفاع سعر الدولار مقابل الجنيه خلال منتصف تعاملات اليوم",
-          "28 سبتمبر 2026.. تحركات متباينة للدولار ف بداية تعاملات اليوم"
+          "سعر الدولار يواصل الارتفاع مقابل الجنيه فى البنوك اليوم الإثنين",
+          "28 سبتمبر 2026.. تحركات متباينة للدولار ف بداية تعاملات اليوم",
+          "استقرار أسعار العملات العربية في بداية تعاملات اليوم 28 سبتمبر 2026"
         ]
       }
     ],
@@ -3230,8 +3230,8 @@
         "date": "2026-09-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -3247,7 +3247,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "صبري-عبد-المنعم": {
@@ -24065,15 +24065,30 @@
           "Week 3 Tracker: Latest news, notes & roster moves",
           "Giants linebacker Brian Burns active for Sunday's game against Titans"
         ]
+      },
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "فن ومشاهير",
+        "publishable": true,
+        "headlines": [
+          "Brian Burns goes down with injury again in major Giants worry",
+          "New York Giants have 'some hope' Brian Burns injury isn't season-ending",
+          "Week 3 Tracker: Latest news, notes & roster moves"
+        ]
       }
     ],
-    "last_seen": "2026-09-27",
-    "total": 1,
+    "last_seen": "2026-09-28",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
-    "category": "رياضة"
+    "peak_traffic": 2000,
+    "category": "فن ومشاهير"
   },
   "cj-gardner-johnson": {
     "slug": "cj-gardner-johnson",
@@ -26539,14 +26554,14 @@
         "date": "2026-09-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "'One Goal Short of South Korea's All-Time Record' Son Heung-min to Start! Lee Kang-in Also in Lineup... Moreno's Squad Announces Starting XI for Uruguay Match [Sangam Field]",
           "Will Son Heung-min (LAFC) become the best player in Korean soccer.Son Heung-min will challenge South..",
-          "Lee Kang-in to Make Debut under Moreno in Uruguay Match... Son Heung-min and Oh Hyun-gyu Paired Up Front Again"
+          "[Photo] Kim Seung-gyu concedes second goal - CHOSUNBIZ"
         ]
       },
       {
@@ -26554,8 +26569,8 @@
         "date": "2026-09-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -26889,8 +26904,8 @@
         "date": "2026-09-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -26905,7 +26920,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "ثعبان": {
@@ -26981,7 +26996,7 @@
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
-          "مصر للطيران تعلن عن وظيفة جديدة للعمل بنظام التعاقد.. الشروط وموعد التقديم",
+          "مصر للطيران للصيانة تعلن عن وظائف جديدة بنظام التعاقد.. الشروط وموعد التقديم",
           "مصر للطيران تعلن وظيفة شيف تنفيذي.. تعرف على شروط التقديم",
           "«مصر للطيران» تواصل استقبال الطيارين المتقدمين لبرامج التدريب"
         ]
@@ -27039,9 +27054,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "وفاة زوجة رئيس الوزراء الماليزي الأسبق مهاتير محمد",
           "وفاة زوجة مهاتير محمد أطول رؤساء وزراء ماليزيا بقاء في المنصب",
-          "وفاة زوجة مهاتير محمد أطول رؤساء وزراء ماليزيا بقاء في المنصب"
+          "وفاة زوجة مهاتير محمد أطول رؤساء وزراء ماليزيا بقاء في المنصب",
+          "بعد إكمالها الـ 100 عام.. وفاة زوجة مهاتير محمد"
         ]
       }
     ],
@@ -27258,8 +27273,8 @@
         "publishable": true,
         "headlines": [
           "Japan vs Venezuela: Friendlies stats & head-to-head",
-          "Japan vs. Venezuela Lineups, Live Streaming, How & Where to Watch on TV",
-          "Aramburu and Yangel Herrera face Kubo’s Japan in Hiroshima friendly today"
+          "Aramburu and Yangel Herrera face Kubo’s Japan in Hiroshima friendly today",
+          "Japan - Venezuela prediction & picks 28.09.2026"
         ]
       }
     ],
@@ -27288,8 +27303,8 @@
         "publishable": true,
         "headlines": [
           "The Witcher 3 Remastered Download Size, Global Release Times and Review Embargo Lift Dates Revealed",
-          "Here's When You Can Play The Witcher 3: Wild Hunt – Remastered in Your Region",
-          "The Witcher 3 Remastered a 45GB PS5 Patch, Release Times Revealed"
+          "The Witcher 3 Remastered a 45GB PS5 Patch, Release Times Revealed",
+          "The Witcher 3 Remastered Is Still A Blast on the Steam Deck"
         ]
       }
     ],
@@ -27313,12 +27328,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "اقتصاد",
+        "category": "طقس",
         "publishable": true,
         "headlines": [
+          "Sen Kennedy says no living politicians should have buildings named after them after Trump's moves",
           "Live updates: Trump releases taxpayer-funded PSA resembling 2024 campaign ad",
-          "Trump airs more taxpayer-funded ads, Trump administration to lower fuel economy standards",
-          "Sen Kennedy says no living politicians should have buildings named after them after Trump's moves"
+          "Trump stirs new storm by posing as strongman in taxpayer-funded video"
         ]
       }
     ],
@@ -27328,7 +27343,7 @@
       "world"
     ],
     "peak_traffic": 500,
-    "category": "اقتصاد"
+    "category": "طقس"
   },
   "إمام-عاشور": {
     "slug": "إمام-عاشور",
@@ -27346,8 +27361,8 @@
         "publishable": false,
         "headlines": [
           "بعد محمد الشناوي.. حسام حسن يوبخ إمام عاشور",
-          "معلق أردني عن تصريحات حسام حسن: الدوري المصري قوي وعودة الفاخوري تطور مع بيراميدز",
-          "مايفوتكش| إصابة في منتخب مصر وقرار عموتة في الأهلي وانتقادات حسام حسن"
+          "مايفوتكش| إصابة في منتخب مصر وقرار عموتة في الأهلي وانتقادات حسام حسن",
+          "\"مفيش فريق في الدوري بيقدم كورة\".. تصرف مفاجئ من عموتة بعد تصريحات حسام حسن"
         ]
       }
     ],
@@ -27369,8 +27384,8 @@
         "date": "2026-09-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -27385,7 +27400,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "حوادث وقضايا"
   },
   "evan-gershkovich": {
@@ -27398,8 +27413,8 @@
         "date": "2026-09-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -27414,7 +27429,36 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
+  },
+  "وظيفة": {
+    "slug": "وظيفة",
+    "name": "وظيفة",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|eg",
+        "date": "2026-09-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": true,
+        "headlines": [
+          "التنظيم والإدارة يعلن نتيجة الامتحان الإلكتروني لشغل عدد 275 وظيفة بوزارة العدل",
+          "برقم القومي وكود التسجيل.. «التنظيم والإدارة» يعلن نتيجة الامتحان الإلكتروني لـ275 وظيفة بمصلحة الخبراء",
+          "ظهرت الآن، نتيجة امتحان وظائف مصلحة الخبراء وطريقة الاستعلام"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
   }
 }

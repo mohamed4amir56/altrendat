@@ -28966,7 +28966,7 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Sources: Giants acquire QB J.J. McCarthy in trade with Vikings",
+          "Giants acquire QB J.J. McCarthy in trade with Vikings",
           "NFL Network: Giants to trade for Vikings QB J.J. McCarthy following Jaxson Dart injury",
           "Harbaugh brothers really love J.J. McCarthy and that's one reason he's going to the New York Giants in a trade"
         ]
@@ -29309,8 +29309,8 @@
         "date": "2026-09-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -29325,7 +29325,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "عام"
   },
   "jaycee-horn": {
@@ -29340,12 +29340,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "عام",
+        "category": "رياضة",
         "publishable": true,
         "headlines": [
           "Sources: Panthers CB Jaycee Horn out indefinitely with torn quad",
           "Panthers CB Jaycee Horn to miss significant time with a quad injury",
-          "Panthers monitoring a number of injuries after loss to Browns"
+          "Panthers could be down 2 key defensive backs vs. Lions"
         ]
       }
     ],
@@ -29355,7 +29355,7 @@
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "كيك": {
     "slug": "كيك",
@@ -29454,14 +29454,14 @@
         "date": "2026-09-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "وزير التموين: لن نتهاون مع مخالفات أسعار وأوزان الخبز السياحى والفينو",
           "نشرة التوك شو| حقيقة رفع أسعار الفينو والخبز. وشكاوى من تطبيق الضرائب العقارية",
-          "مطالب بزيادة أسعار الخبز السياحي في مصر 15%"
+          "رئيس شعبة المخابز: تأجيل إعادة النظر في سعر الخبز السياحي والفينو أسبوعًا"
         ]
       }
     ],
@@ -29470,7 +29470,94 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
+  },
+  "snow": {
+    "slug": "snow",
+    "name": "snow",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "Map Shows Where America Is Bracing For Heavy Snow This Winter",
+          "As nor'easter exits, what can we expect this winter? Check predictions",
+          "What will winter be like near you? Here’s what the outlooks suggest"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "طقس"
+  },
+  "health-care-fraud": {
+    "slug": "health-care-fraud",
+    "name": "health care fraud",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "اقتصاد",
+        "publishable": true,
+        "headlines": [
+          "Texas clinic owner convicted in $26M military health fraud tied to gold-plated Cybertruck",
+          "Frisco counselor convicted in $26 million health care fraud over depression treatments",
+          "Clinic owner stole millions from military health program to buy luxuries like gold-plated Cybertruck, DOJ says"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "اقتصاد"
+  },
+  "rod-stewart": {
+    "slug": "rod-stewart",
+    "name": "rod stewart",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Rod Stewart confirms final tour after heart procedure and health scares",
+          "Rod Stewart retiring from touring after more than 6 decades",
+          "Rod Stewart announces final tour for 2027: ‘Most definitely my last’"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
   }
 }

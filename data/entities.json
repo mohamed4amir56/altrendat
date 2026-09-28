@@ -97,14 +97,14 @@
         "date": "2026-09-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "سعر الذهب في مصر يسجل خسائر حادة وفجوة التسعير ترتفع",
-          "أسعار الذهب في مصر اليوم الأحد 27 سبتمبر 2026.. هل تنوي الشراء؟",
-          "يفقد 840 جنيها.. هبوط قوي في سعر الجنيه الذهب بمنتصف تعاملات الإثنين"
+          "سعر الذهب ينخفض مع دعم صعود النفط ارتفاع عوائد السندات الأميركية",
+          "عاجل: الذهب والفضة يفقدان أكثر من تريليون دولار مع سقوط عنيف",
+          "مع توجه \"الفيدرالي\" لرفع الفائدة.. كيف تتحرك أسعار الذهب؟"
         ]
       }
     ],
@@ -113,7 +113,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 2000,
     "category": "اقتصاد"
   },
   "موعد-اذان-المغرب": {
@@ -600,11 +600,11 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "سعر الدولار يواصل الارتفاع مقابل الجنيه فى البنوك اليوم الإثنين",
-          "28 سبتمبر 2026.. تحركات متباينة للدولار ف بداية تعاملات اليوم",
-          "استقرار أسعار العملات العربية في بداية تعاملات اليوم 28 سبتمبر 2026"
+          "سعر الدولار في مصر يعود لتسجيل المكاسب",
+          "سعر الدولار يرتفع مقابل الجنيه خلال منتصف تعاملات الاثنين و يقترب من 52 جنيها",
+          "28 سبتمبر 2026.. تحركات متباينة للدولار ف بداية تعاملات اليوم"
         ]
       }
     ],
@@ -3215,14 +3215,14 @@
         "date": "2026-09-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "category": "حوادث وقضايا",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
           "من السودان إلى إثيوبيا وتشاد.. حرب البرهان تهدد الإقليم",
-          "الجيش السوداني يرد على إثيوبيا بعد اتهامه بدعم مجموعات متمردة ضد حكومة آبي أحمد",
-          "استهداف مبنى التلفزيون العام في تيغراي مع تقدُّم المتمردين في شمال إثيوبيا"
+          "استهداف مبنى التلفزيون العام في تيغراي مع تقدُّم المتمردين في شمال إثيوبيا",
+          "خريف الغضب الإثيوبى!"
         ]
       },
       {
@@ -6630,12 +6630,12 @@
         "country_name": "مصر",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "أحمد سعد يعلق على خبر طلاقه من علياء بسيوني: \"سيبوا عائلتي في حالها\"",
-          "\"سيبوا عائلتي في حالها\".. أحمد سعد يؤكد متانة علاقته بزوجته",
-          "طلاق المطرب أحمد سعد وعلياء البسيونى غيابيًا"
+          "خبر سار يهز ريال مدريد.. ومورينيو يتنفس الصعداء",
+          "ميليتاو يعود للتدريبات الجماعية في ريال مدريد",
+          "أصيب لمدة خمسة أشهر.. ريال مدريد يتلقى أنباءً سعيدة بشأن مبابي ونجمه الغائب!"
         ]
       }
     ],
@@ -6646,7 +6646,7 @@
       "sa"
     ],
     "peak_traffic": 2000,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "وقود": {
     "slug": "وقود",
@@ -7688,7 +7688,7 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "هجوم مضاد يربك الحوثيين.. تحليل عسكري لتحركات القوات الحكومية جنوب اليمن",
+          "باب المندب.. هل تقلب جبال كهبوب المعركة ضد الحوثيين؟",
           "من البحر الأحمر إلى تعز ومأرب.. كيف يوسّع الحوثيون نفوذهم؟",
           "من جمود الجبهات إلى تماس متحرك.. ماذا تغيّر في خريطة السيطرة العسكرية باليمن؟"
         ]
@@ -18339,9 +18339,13 @@
         "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
-        "headlines": []
+        "headlines": [
+          "دخلا حمام الفتيات بالخطأ.. سقوط مروع لشقيقين من نافذة المدرسة بالفيوم",
+          "انهيار عقار من 3 طوابق في مصر... وفاة إمرأة والبحث عن عالقين",
+          "مصدر يكشف: قرار إزالة لعقار المنيا المنهار منذ 2019 و3 منازل مجاورة على أراضي الوقف"
+        ]
       }
     ],
     "last_seen": "2026-09-28",
@@ -18350,7 +18354,7 @@
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "كولومبيا": {
     "slug": "كولومبيا",
@@ -24077,8 +24081,8 @@
         "publishable": true,
         "headlines": [
           "Sources: Giants' Brian Burns believed to have torn ACL",
-          "New York Giants have 'some hope' Brian Burns injury isn't season-ending",
-          "Week 3 Tracker: Latest news, notes & roster moves"
+          "Week 3 Tracker: Latest news, notes & roster moves",
+          "New York Giants have 'some hope' Brian Burns injury isn't season-ending"
         ]
       }
     ],
@@ -26559,8 +26563,8 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "[Photo] Nuñez flexes muscles, 'successfully seizes the initiative'",
-          "[Photo] Kim Min-jae concedes third goal, 'wants to cry' - CHOSUNBIZ",
+          "LIVE: Korea vs. Uruguay",
+          "[Photo] De Arasqueta, this is a killer goal",
           "Will Son Heung-min (LAFC) become the best player in Korean soccer.Son Heung-min will challenge South.."
         ]
       },
@@ -26574,9 +26578,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "[Photo] Nuñez flexes muscles, 'successfully seizes the initiative'",
-          "Will Lee Kang-in (Atletico Madrid), who is showing his best skills, show off his skills on the natio..",
-          "[Photo] Moreno and Forlán exchange greetings - CHOSUNBIZ"
+          "LIVE: Korea vs. Uruguay",
+          "[Photo] De Arasqueta, this is a killer goal",
+          "Will Son Heung-min (LAFC) become the best player in Korean soccer.Son Heung-min will challenge South.."
         ]
       }
     ],
@@ -26859,8 +26863,8 @@
         "date": "2026-09-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -26874,8 +26878,8 @@
         "date": "2026-09-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -26891,7 +26895,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "علاء-مبارك": {
@@ -26996,9 +27000,9 @@
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
-          "مصر للطيران للصيانة تعلن عن وظائف جديدة بنظام التعاقد.. الشروط وموعد التقديم",
-          "مصر للطيران تعلن وظيفة شيف تنفيذي.. تعرف على شروط التقديم",
-          "«مصر للطيران» تواصل استقبال الطيارين المتقدمين لبرامج التدريب"
+          "مصر للطيران تتيح تقسيط تذاكر الطيران 12 شهراً دون فوائد.. وخصم 50% لكبار السن",
+          "«بنك قناة السويس» يتيح تقسيط تذاكر «مصر للطيران» حتى 12 شهرًا بدون فوائد",
+          "«مصر للطيران» تطرح خصومات على رحلاتها لـ6 وجهات عالمية.. تصل إلى 60%"
         ]
       }
     ],
@@ -27258,8 +27262,8 @@
         "publishable": true,
         "headlines": [
           "Japan vs Venezuela: Friendlies stats & head-to-head",
-          "Aramburu and Yangel Herrera face Kubo’s Japan in Hiroshima friendly today",
-          "Preview: Japan vs Venezuela - prediction, team news, lineups"
+          "Preview: Japan vs Venezuela - prediction, team news, lineups",
+          "Aramburu and Yangel Herrera face Kubo’s Japan in Hiroshima friendly today"
         ]
       },
       {
@@ -27273,8 +27277,8 @@
         "publishable": true,
         "headlines": [
           "Japan vs Venezuela: Friendlies stats & head-to-head",
-          "Aramburu and Yangel Herrera face Kubo’s Japan in Hiroshima friendly today",
-          "Preview: Japan vs Venezuela - prediction, team news, lineups"
+          "Preview: Japan vs Venezuela - prediction, team news, lineups",
+          "Aramburu and Yangel Herrera face Kubo’s Japan in Hiroshima friendly today"
         ]
       }
     ],
@@ -27297,8 +27301,8 @@
         "date": "2026-09-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "عام",
         "publishable": true,
         "headlines": [
@@ -27313,7 +27317,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "عام"
   },
   "politician": {
@@ -27420,7 +27424,7 @@
         "headlines": [
           "The Cellmate Who Taught Me the Codes of Russian Prison",
           "A Reporter’s 16 Months in Russian Custody",
-          "Raging Putin’s Table-Slamming Meltdown Revealed"
+          "1-on-1 with Evan Gershkovich: ABC News exclusive"
         ]
       }
     ],
@@ -27471,14 +27475,14 @@
         "date": "2026-09-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+1000",
-        "traffic_num": 1000,
+        "traffic": "+2000",
+        "traffic_num": 2000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
           "Map Shows Where America Is Bracing For Heavy Snow This Winter",
           "As nor'easter exits, what can we expect this winter? Check predictions",
-          "Map Shows US States Facing the Most Snow This Winter"
+          "NWS, Farmers' Almanac winter forecasts for KY conflict. What each says"
         ]
       }
     ],
@@ -27487,7 +27491,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "طقس"
   },
   "daniil-medvedev": {
@@ -27500,8 +27504,8 @@
         "date": "2026-09-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -27516,7 +27520,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "susie-wiles": {
@@ -27534,8 +27538,8 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Susie Wiles opens up about breast cancer journey",
           "Susie Wiles: I'm cancer-free, but the fight is unrelenting | Exclusive",
+          "Susie Wiles opens up about breast cancer journey",
           "Susie Wiles says breast cancer gave her 'deeper appreciation' for life"
         ]
       }
@@ -27547,5 +27551,34 @@
     ],
     "peak_traffic": 200,
     "category": "حوادث وقضايا"
+  },
+  "nvda-stock": {
+    "slug": "nvda-stock",
+    "name": "nvda stock",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Stocks making the biggest moves premarket: Meta Platforms, United Airlines, Nvidia & more",
+          "Yield to None: Big Tech Shrugs Off Spiking Treasury Yields as AI Rally Rolls On",
+          "Sock Market Today: Akamai Jumps on Anthropic Deal, Yields Hit 19-Year High - Vanguard S&P 500 ETF (ARCA:V"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "اقتصاد"
   }
 }

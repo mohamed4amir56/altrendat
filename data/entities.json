@@ -28935,9 +28935,9 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "أكثر من 49 مليون عملية إلكترونية عبر منصة \"أبشر\" في أغسطس 2026م",
+          "عام / أكثر من (49) مليون عملية إلكترونية عبر منصة \"أبشر\" في أغسطس 2026م",
           "«أبشر» تنفّذ أكثر من 49 مليون عملية إلكترونية خلال أغسطس",
           "السعودية: أبشر تنفذ أكثر من 49 مليون عملية إلكترونية في أغسطس"
         ]
@@ -28966,7 +28966,7 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Giants acquire QB J.J. McCarthy in trade with Vikings",
+          "NFL trade deadline grades: J.J. McCarthy to the Giants",
           "NFL Network: Giants to trade for Vikings QB J.J. McCarthy following Jaxson Dart injury",
           "Harbaugh brothers really love J.J. McCarthy and that's one reason he's going to the New York Giants in a trade"
         ]
@@ -29164,8 +29164,8 @@
         "date": "2026-09-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "تقنية",
         "publishable": true,
         "headlines": [
@@ -29180,7 +29180,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "تقنية"
   },
   "armenia-vs-montenegro": {
@@ -29285,9 +29285,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
+          "John Mayer Sets Sphere Residency for Spring 2027, Combining Full Band, Trio and Solo Sets",
           "John Mayer Will Return to the Sphere in 2027",
-          "John Mayer maps Sphere shows with innovative format",
-          "John Mayer Sets April 2027 Sphere Shows With Solo, Full-Band & Trio Performances"
+          "John Mayer maps Sphere shows with innovative format"
         ]
       }
     ],
@@ -29427,12 +29427,12 @@
         "country_name": "السعودية",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "دول وأماكن",
-        "publishable": true,
+        "category": "حوادث وقضايا",
+        "publishable": false,
         "headlines": [
+          "رياضي / مساعد المدير الفني للمنتخب السعودي يؤكد جاهزية المنتخب لمواجهة العراق بكأس الخليج",
           "\"خليجي 27\": السعودية والعراق في قمة المجموعة الأولى وعمان تبحث عن معجزة أمام الكويت",
-          "رياضي / مدرب المنتخب العراقي يؤكد جاهزية مواجهة المنتخب السعودي في كأس الخليج",
-          "مساعد دونيس: سنجري تغييرات على القائمة الأساسية أمام العراق"
+          "المرض يضرب دونيس قبل معركة السعودية والعراق"
         ]
       }
     ],
@@ -29442,7 +29442,7 @@
       "sa"
     ],
     "peak_traffic": 1000,
-    "category": "دول وأماكن"
+    "category": "حوادث وقضايا"
   },
   "رغيف": {
     "slug": "رغيف",
@@ -29558,6 +29558,35 @@
       "world"
     ],
     "peak_traffic": 500,
+    "category": "عام"
+  },
+  "trump-approval-rating": {
+    "slug": "trump-approval-rating",
+    "name": "trump approval rating",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Trump approval slips to historic low in Wall Street Journal survey",
+          "Trump’s midterm woes deepen amid worsened economic backdrop: CNN poll",
+          "Donald Trump’s Approval Rating Flips With White Voters in Red States"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
     "category": "عام"
   }
 }

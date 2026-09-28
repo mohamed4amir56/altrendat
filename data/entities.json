@@ -100,11 +100,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "سعر الذهب في مصر ينهي سلسلة الخسائر",
-          "سعر جرام الذهب اليوم الأحد.. استقرار عيار 21 والجنيه الذهب",
-          "جولد بيليون: الذهب في مصر يتداول بخصم 37 جنيها للجرام مع زيادة المعروض"
+          "ماذا حدث لسعر الذهب اليوم الاثنين في بداية التعاملات الصباحية؟",
+          "28 سبتمبر 2026.. أسعار الذهب تهبط 135 جنيها وعيار 21 يسجل 6100 جنيه"
         ]
       }
     ],
@@ -6727,16 +6727,31 @@
           "أبوظبي تحتفي باليوبيل الذهبي لصندوق النقد العربي 28 سبتمبر",
           "مكتوم بن محمد: الإمارات ملتقى الطموحات وأرض خصبة للفرص والخير والمستقبل"
         ]
+      },
+      {
+        "key": "2026-09-28|eg",
+        "date": "2026-09-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "تضامن تونسي مع تلميذ اعتُقل بعد دعوته للإفراج عن نشطاء أسطول الصمود",
+          "مذكرات إيداع بالسجن بحق نشطاء سياسيين ومدنيين تشعل جدلاً في تونس",
+          "آدم مبارك... تلميذ تونسي مسجون لدعمه أسطول الصمود"
+        ]
       }
     ],
-    "last_seen": "2026-09-27",
-    "total": 2,
+    "last_seen": "2026-09-28",
+    "total": 3,
     "countries": [
       "eg",
       "sa"
     ],
     "peak_traffic": 2000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "وقود": {
     "slug": "وقود",
@@ -16780,9 +16795,9 @@
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "Nor’easter Weakens but Remains a Threat",
-          "Storm surge damages seawalls in Scituate, Massachusetts, during nor'easter",
-          "Live updates: Deadly nor'easter floods the coast as dangerous winds whip through the Northeast"
+          "Live updates: Deadly nor'easter floods the coast as dangerous winds whip through the Northeast",
+          "Rescues, beach erosion mark storm's impact in New Jersey",
+          "Nor’easter Weakens but Remains a Threat"
         ]
       }
     ],
@@ -16943,7 +16958,7 @@
         "headlines": [
           "Stocks fall as Middle East stalemate boosts oil",
           "US Stocks Slide With Bonds as Oil Resumes Advance: Markets Wrap",
-          "Stock Market Today: Rejected Iran Truce Pushes Oil, Yields Higher; Dow Futures Slip — Live Updates"
+          "Stock market today: Dow, S&P 500, Nasdaq slip as AI safety concerns and US-Iran tensions resurface"
         ]
       }
     ],
@@ -31204,7 +31219,7 @@
         "headlines": [
           "القناة الناقلة لمباراة مصر وجنوب السودان فى تصفيات أمم أفريقيا 2027",
           "صلاح يعيد الجدل.. هل النجيل الصناعي أخطر على اللاعبين؟",
-          "فتحي سند يعلق على مشهد الكرة المصرية : شماعة الترتان"
+          "«النجوم الساطعة» متحفز لـ «الفراعنة»المدرب البلجيكى يسعى لتحقيق المفاجأة رغم الفوارق الفنية والتاريخية"
         ]
       }
     ],
@@ -31509,7 +31524,7 @@
         "publishable": true,
         "headlines": [
           "خبير اقتصادى: الثروات التعدينية فرصة لتعزيز الإنتاج وجذب الاستثمارات للاقتصاد المصري",
-          "\"السيسي\" يبحث مع \"أنجلو جولد أشانتي\" تعزيز الاستثمار في التعدين",
+          "خلال اجتماع مع الرئيس .. \"أنجلو جولد أشانتي\" تعتزم زيادة استثماراتها في مصر",
           "وزير البترول: نحرص على تذليل أي عقبات أمام المستثمرين"
         ]
       }
@@ -31822,8 +31837,8 @@
         "date": "2026-09-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -31838,7 +31853,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "russia-ukraine": {
@@ -32315,14 +32330,14 @@
         "date": "2026-09-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "Moreno starts Lee Kang-in with Son and Oh in South Korea two-striker lineup - CHOSUNBIZ",
-          "'One Goal Short of South Korea's All-Time Record' Son Heung-min to Start! Lee Kang-in Also in Lineup... Moreno's Squad Announces Starting XI for Uruguay Match [Sangam Field]",
-          "Lee Kang-in: \"All Players Unified as One Team\""
+          "Will Son Heung-min (LAFC) become the best player in Korean soccer.Son Heung-min will challenge South..",
+          "'One Goal Short of South Korea's All-Time Record' Son Heung-min to Start! Lee Kang-in Also in Lineup... Moreno's Squad Announces Starting XI for Uruguay Match [Sangam Field]"
         ]
       },
       {
@@ -32336,8 +32351,8 @@
         "publishable": true,
         "headlines": [
           "'One Goal Short of South Korea's All-Time Record' Son Heung-min to Start! Lee Kang-in Also in Lineup... Moreno's Squad Announces Starting XI for Uruguay Match [Sangam Field]",
-          "Lee Kang-in (Atletico Madrid) sent a message of request to fans in the atmosphere of stagnant Korean..",
-          "Lee Kang-in: \"All Players Unified as One Team\""
+          "Will Son Heung-min (LAFC) become the best player in Korean soccer.Son Heung-min will challenge South..",
+          "Lee Kang-in to Make Debut under Moreno in Uruguay Match... Son Heung-min and Oh Hyun-gyu Paired Up Front Again"
         ]
       },
       {
@@ -32345,13 +32360,13 @@
         "date": "2026-09-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "'One Goal Short of South Korea's All-Time Record' Son Heung-min to Start! Lee Kang-in Also in Lineup... Moreno's Squad Announces Starting XI for Uruguay Match [Sangam Field]",
-          "Coach Robert Moreno, the interim head coach of the South Korean national soccer team, will take the",
+          "Will Son Heung-min (LAFC) become the best player in Korean soccer.Son Heung-min will challenge South..",
           "Lee Kang-in: \"All Players Unified as One Team\""
         ]
       }
@@ -32363,7 +32378,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "temperature": {
@@ -32434,8 +32449,8 @@
         "date": "2026-09-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "عام",
         "publishable": true,
         "headlines": [
@@ -32450,7 +32465,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "عام"
   },
   "ثعبان": {
@@ -32507,8 +32522,8 @@
         "date": "2026-09-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -32524,7 +32539,94 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
+  },
+  "atlantic-city": {
+    "slug": "atlantic-city",
+    "name": "atlantic city",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Atlantic City’s Sheraton owner says convention business can't sustain hotel",
+          "‘Imagine the devastation’ on Atlantic City if state builds new convention center in Meadowlands, official tells governor",
+          "Atlantic City official seeks rescue plan for Sheraton hotel"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "한국-대-우루과이": {
+    "slug": "한국-대-우루과이",
+    "name": "한국 대 우루과이",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "손흥민, 오늘 우루과이전서 차범근의 대기록에 도전...이강인-손흥민 투톱 뜰까",
+          "손흥민, 우루과이전 선봉 ‘차범근 최다골’ 도전...이강인도 선발",
+          "한 템포 쉰 이강인, 우루과이전 뜬다...모레노호 난적 상대 ‘진짜 시험대’"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "trial": {
+    "slug": "trial",
+    "name": "trial",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Attorney for lone holdout juror in Lindsay Clancy mistrial pushes back on claims of refusing the law",
+          "Lindsay Clancy will appear in court for the first time since her mistrial. Here’s what you should know",
+          "Judge in Lindsay Clancy case indefinitely impounds jury questionnaires"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
   }
 }

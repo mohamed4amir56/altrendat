@@ -4,7 +4,7 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-09-28T10:30:41.171572+00:00",
+  "generated_at": "2026-09-28T10:45:38.437021+00:00",
   "day": "2026-09-28",
   "trends": [
     {
@@ -191,9 +191,29 @@
       "traffic": "10000+",
       "traffic_num": 10000,
       "published": "Mon, 28 Sep 2026 03:00:00 -0700",
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS6tOkJmT6-rXCuUBQJZ9E9ZdWEkkl_jPI9Ck7yZwKU-H0zklEwlXyd-unQpjk",
-      "image_source": "The New York Times",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbnFwsA43EkRUb1bKIsiyCdp4HWvwoDvemtrvtiO2OXc0KN2WaXg8rKIsRLQ",
+      "image_source": "FOX Weather",
       "news": [
+        {
+          "title": "Live updates: Deadly nor'easter floods the coast as dangerous winds whip through the Northeast",
+          "url": "https://www.foxweather.com/live-news/live-updates-deadly-nor-easter-floods-the-coast-as-dangerous-winds-whip-through-the-northeast",
+          "source": "FOX Weather",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbnFwsA43EkRUb1bKIsiyCdp4HWvwoDvemtrvtiO2OXc0KN2WaXg8rKIsRLQ",
+          "og_title": "Live updates: Deadly nor'easter floods the coast as dangerous winds whip through the Northeast",
+          "og_desc": "Track live updates as a dangerous nor'easter brings severe coastal flooding, beach erosion, and damaging winds to the Northeast.Get the latest radar, power outage reports, and weather forecasts from FOX Weather.",
+          "og_image": "https://static.foxnews.com/static/orion/styles/img/fox-weather/og/og-fox-weather.png",
+          "ok": true
+        },
+        {
+          "title": "Rescues, beach erosion mark storm's impact in New Jersey",
+          "url": "https://abc7ny.com/post/rescues-beach-erosion-mark-storms-impact-new-jersey/19882855/",
+          "source": "ABC7 New York",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSC4odmSBt3uERPcMheRV0-x7_QIbkV0Z3m_RgngZWvXSFeOLudZlJGWVvjgVM",
+          "og_title": "Rescues, beach erosion mark storm's impact in New Jersey",
+          "og_desc": "Flood cleanup is underway across New Jersey after a powerful Northeast storm triggered rescues, beach erosion, power outages and widespread flooding.",
+          "og_image": "https://cdn.abcotvs.com/dip/images/19882853_092826-wabc-jersey-shore-flooding-img.jpg?w=1600",
+          "ok": true
+        },
         {
           "title": "Nor’easter Weakens but Remains a Threat",
           "url": "https://www.nytimes.com/2026/09/27/well/noreaster-storm-new-jersey-new-york-weather-forecast.html",
@@ -204,26 +224,6 @@
           "og_image": "",
           "ok": false,
           "error": "HTTPError"
-        },
-        {
-          "title": "Storm surge damages seawalls in Scituate, Massachusetts, during nor'easter",
-          "url": "https://www.wcvb.com/article/storm-surge-damages-sea-walls-in-scituate-massachusetts-during-noreaster/73921648",
-          "source": "WCVB",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSsU4u7Hz2epZ5ZNtzqk-INR-gFgXD-1Uctrb7lxSIvqWVnFUXsAdcftCq2Y-w",
-          "og_title": "Storm surge damages seawalls in Scituate during nor'easter",
-          "og_desc": "Coastal communities along Massachusetts’ South Shore were hit hard over the weekend as a nor’easter brought strong waves and winds.",
-          "og_image": "https://kubrick.htvapps.com/vidthumb/94015f13-ccd7-49cc-ad8c-f81518ca658b/742892c0-1f70-48be-80c6-796e4c2dfb1a.png?crop=1xw%3A1xh%3Bcenter%2Ctop&resize=1200%3A*",
-          "ok": true
-        },
-        {
-          "title": "Live updates: Deadly nor'easter floods the coast as dangerous winds whip through the Northeast",
-          "url": "https://www.foxweather.com/live-news/live-updates-deadly-nor-easter-floods-the-coast-as-dangerous-winds-whip-through-the-northeast",
-          "source": "FOX Weather",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbnFwsA43EkRUb1bKIsiyCdp4HWvwoDvemtrvtiO2OXc0KN2WaXg8rKIsRLQ",
-          "og_title": "Live updates: Deadly nor'easter floods the coast as dangerous winds whip through the Northeast",
-          "og_desc": "Track live updates as a dangerous nor'easter brings severe coastal flooding, beach erosion, and damaging winds to the Northeast.Get the latest radar, power outage reports, and weather forecasts from FOX Weather.",
-          "og_image": "https://static.foxnews.com/static/orion/styles/img/fox-weather/og/og-fox-weather.png",
-          "ok": true
         }
       ],
       "category": "طقس",
@@ -472,15 +472,14 @@
           "error": "HTTPError"
         },
         {
-          "title": "Stock Market Today: Rejected Iran Truce Pushes Oil, Yields Higher; Dow Futures Slip — Live Updates",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-28-2026",
-          "source": "WSJ",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRjIpbrYl70vMTQCMzHauIHk9Rj6wOFXXuAbyAQbcsSSFSpiTRmeVkOO18wLRs",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
+          "title": "Stock market today: Dow, S&P 500, Nasdaq slip as AI safety concerns and US-Iran tensions resurface",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html",
+          "source": "Yahoo Finance",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR6sGvia2adSZ_6IEPtcdp6u0N1K-AO1-0G66buto3W2ybq5Uf-P1uDgLrCqnQ",
+          "og_title": "Stock market today: Dow, S&P 500, Nasdaq slip as AI safety concerns and US-Iran tensions resurface",
+          "og_desc": "Markets were on edge as US-Iran tensions resurfaced and concerns about AI safety intensified ahead of an economic data-packed week.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/d1d20a0faa87d5be9fc3b3aba7ad75a1613c73ded54ca872a5fc89eae2da3965/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2Fab814ee6-f506-422c-8878-87324c1e2cdf",
+          "ok": true
         }
       ],
       "category": "اقتصاد",
@@ -964,6 +963,98 @@
       "publishable": false,
       "card": "cards/world-2026-09-28-russia.png",
       "published_at": "2026-09-28T05:16:11.839615+00:00"
+    },
+    {
+      "title": "south korea vs uruguay",
+      "traffic": "+2200",
+      "traffic_num": 2200,
+      "published": "Mon, 28 Sep 2026 03:10:00 -0700",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSeyvqcDWz-C_fe2C-HwXIpZ2-VUBjNoffKCo3SIY4tQ3TPZ5pSBuQ-M7mMkBU",
+      "image_source": "Chosunbiz",
+      "news": [
+        {
+          "title": "Moreno starts Lee Kang-in with Son and Oh in South Korea two-striker lineup - CHOSUNBIZ",
+          "url": "https://biz.chosun.com/en/en-sports/2026/09/28/66QKHSLT3NCVHK36T2K3PHHZVY/",
+          "source": "Chosunbiz",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSeyvqcDWz-C_fe2C-HwXIpZ2-VUBjNoffKCo3SIY4tQ3TPZ5pSBuQ-M7mMkBU",
+          "og_title": "Moreno starts Lee Kang-in with Son and Oh in South Korea two-striker lineup",
+          "og_desc": "Moreno starts Lee Kang-in with Son and Oh in South Korea two-striker lineup",
+          "og_image": "https://biz.chosun.com/resizer/v2/MMYTQMZXGIZGEOBTGQ2WGMRSGQ.jpg?auth=3c593e949c80ac68250a010332686d5b521bb70d1d8e36ca6c295fa66632d05d&width=572&height=300&smart=true",
+          "ok": true
+        },
+        {
+          "title": "Will Son Heung-min (LAFC) become the best player in Korean soccer.Son Heung-min will challenge South..",
+          "url": "https://www.mk.co.kr/en/sports/12162631",
+          "source": "매일경제",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5MvsOPizMRqOHowjIbD9G8bVZh6G8MMjUQ1jecs4PdMradlui8iIri_DkaKI",
+          "og_title": "Will Son Heung-min (LAFC) become the best player in Korean soccer.Son Heung-min will challenge South.. - MK",
+          "og_desc": "Will Son Heung-min (LAFC) become the best player in Korean soccer.Son Heung-min will challenge South Korea",
+          "og_image": "https://pimg.mk.co.kr/news/cms/202609/28/news-p.v1.20260928.b57c0574bf6442b2926f022bd7f1f207_R.png",
+          "ok": true
+        },
+        {
+          "title": "'One Goal Short of South Korea's All-Time Record' Son Heung-min to Start! Lee Kang-in Also in Lineup... Moreno's Squad Announces Starting XI for Uruguay Match [Sangam Field]",
+          "url": "https://www.starnewskorea.com/en/sports/2026/09/28/2026092817582221443",
+          "source": "스타뉴스",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQRo09aJmFeWtWAhjkGftp8l49oE3MYXrUkVsvIjRXDI35VAbuiLs3LK_qU4OQ",
+          "og_title": "'One Goal Short of South Korea's All-Time Record' Son Heung-min to Start! Lee Kang-in Also in Lineup... Moreno's Squad Announces Starting XI for Uruguay Match [Sangam Field] | STARNEWS",
+          "og_desc": "'Captain' Son Heung-min (LAFC) aims to challenge for joint first place on South Korea's all-time list of most goals scored in men's A-matches.The South Korean national football team, led by head coach Robert Moreno, will face Uruguay at 8 p.m. on the 28th at Seoul World Cup Stadium in a friendly mat",
+          "og_image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=739,fit=cover,q=high,sharpen=2/21/2026/09/2026092817582221443_1.jpg",
+          "ok": true
+        },
+        {
+          "title": "손흥민, 오늘 우루과이전서 차범근의 대기록에 도전...이강인-손흥민 투톱 뜰까",
+          "url": "https://www.chosun.com/sports/football/2026/09/28/INHM5YBIN5CGJIOKIJA4R5PU4A/",
+          "source": "조선일보",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTwfF8vAXH47WPeyIerWcpidzz3R9T4grGJzqyX1rjNqQBLzdkAIHYkpUy-zj8",
+          "og_title": "손흥민, 오늘 우루과이전서 차범근 대기록에 도전... 이강인과 투톱 뜰까",
+          "og_desc": "대한민국 축구 대표팀이 28일 상암월드컵경기장에서 우루과이와 평가전을 치릅니다. 손흥민은 이번 경기에서 A매치 58호 골을 기록하여 차범근의 최다 득점 기록에 도전합니다. 이강인의 출전이 유력한 가운데 손흥민과의 공격 조합이 주목받고 있으며, 한국은 우루과이와의 역대 전적 열세를 극복하고 승리를 목표로 하고 있습니다.",
+          "og_image": "https://www.chosun.com/resizer/v2/HAYDMNZXMUZGGNRQMVTDGZRUGY.jpg?auth=ab66df2351e8d8eca10162e9dbe3c5a64a28234aa770afe777be06be82997c66&width=1200&height=630&smart=true",
+          "ok": true
+        },
+        {
+          "title": "손흥민, 우루과이전 선봉 ‘차범근 최다골’ 도전...이강인도 선발",
+          "url": "https://www.koreadaily.com/article/20260928030037659",
+          "source": "미주중앙일보",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTcR12lPsRt0hcVPn0RHbW334lg3g9fznzVRiQK3jiX97h-InEyJDTwfBZKhvE",
+          "og_title": "손흥민, 우루과이전 선봉 ‘차범근 최다골’ 도전...이강인도 선발 | 미주중앙일보",
+          "og_desc": "한국축구 원투펀치 손흥민(LAFC)과 이강인(아틀레티코 마드리드)이 남미의 강호 우루과이와 평가전에 동시에 선발출전한다. 로베르트 모레노(49·스페인) 감독이 이끄는 한국축구대표팀은 28일 오후 8시부터 서울월드컵경...",
+          "og_image": "https://www.koreadaily.com/data/photo/thumbnail/2026/09/28/4c3c434a-e620-49f3-9d40-450aaee6f111.jpg",
+          "ok": true
+        },
+        {
+          "title": "한 템포 쉰 이강인, 우루과이전 뜬다...모레노호 난적 상대 ‘진짜 시험대’",
+          "url": "https://www.joongang.co.kr/article/25465012",
+          "source": "중앙일보",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTefKGQ13YTclw0I-iAXAK83EKD4Ljj6BSuFfOGD4xUJEloGtwO_xHILmWcf_E",
+          "og_title": "한 템포 쉰 이강인, 우루과이전 뜬다...모레노호 난적 상대 ‘진짜 시험대’ | 중앙일보",
+          "og_desc": "한국 축구대표팀 데뷔전에서 에콰도르를 완파한 로베르트 모레노(스페인) 감독이 ‘난적’ 우루과이를 상대로 ‘진짜 시험대’에 오른다. 모레노 감독이 이끄는 한국은 28일 오후 8시 서울월드컵경기장에서 남미의 강호 우루과이와 9∼10월 A매치 4연전의 두 번째 경기를 치른다. 지난 7월 북중미 월드컵에서 졸전 끝에 조별리그에서 탈락한 한국 축구는 홍명보 전 감독의 후임으로 모레노를 선임했다. 9~11월까지 이어지는 A매치 6경기를 이끌 임시 사령탑이다.",
+          "og_image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202609/27/82bc7f67-9b90-4bbc-9e6f-a0ef6de1d8dd.jpg",
+          "ok": true
+        }
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "العنوان يطابق: vs",
+      "publishable": true,
+      "article": {
+        "headline": "Son Heung-min Chases All-Time Record as South Korea Faces Uruguay Tonight",
+        "summary": "Son Heung-min starts for South Korea against Uruguay seeking one goal to tie the nation's all-time scoring record, with Lee Kang-in also in Coach Moreno's attacking two-striker lineup.",
+        "body": "South Korea's national football team will clash with Uruguay tonight at Seoul World Cup Stadium at 8 p.m. in a high-stakes friendly match, according to Chosunbiz. Head coach Robert Moreno has named captain Son Heung-min in the starting XI alongside Lee Kang-in in a two-striker formation, with Oh in the lineup as well.\n\nSon, currently playing for LAFC, is just one goal away from matching South Korea's all-time record for goals scored in men's A-matches, according to StarNews Korea. The veteran forward will have a prime opportunity to etch his name into history on home soil at Seoul World Cup Stadium.\n\nLee Kang-in, speaking at an official press conference held at the stadium a day before kickoff, expressed confidence in the squad's cohesion. \"All players worked hard for the team,\" Lee told reporters via SBS News. \"I have high expectations as I am playing a match in Korea after a long time.\"\n\nThis friendly serves as a crucial test for Moreno's tactical approach following his managerial debut against Ecuador. The two-striker system featuring Son and Lee Kang-in represents an aggressive attacking strategy designed to penetrate Uruguay's defense. With Son hunting the historic goal milestone and Lee Kang-in energized by playing domestically, South Korea aims to deliver a commanding performance in front of their home crowd.",
+        "tags": [
+          "Son Heung-min",
+          "South Korea vs Uruguay",
+          "Robert Moreno",
+          "Lee Kang-in",
+          "Korea National Football Team",
+          "Seoul World Cup Stadium"
+        ],
+        "_had_data": false,
+        "_localized": false
+      },
+      "card": "cards/world-2026-09-28-south-korea-vs-uruguay.png",
+      "published_at": "2026-09-28T10:30:41.171572+00:00"
     },
     {
       "title": "digger",
@@ -1700,68 +1791,6 @@
       },
       "card": "cards/world-2026-09-28-japón---venezuela.png",
       "published_at": "2026-09-28T09:45:55.569849+00:00"
-    },
-    {
-      "title": "south korea vs uruguay",
-      "traffic": "1000+",
-      "traffic_num": 1000,
-      "published": "Mon, 28 Sep 2026 03:10:00 -0700",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSeyvqcDWz-C_fe2C-HwXIpZ2-VUBjNoffKCo3SIY4tQ3TPZ5pSBuQ-M7mMkBU",
-      "image_source": "Chosunbiz",
-      "news": [
-        {
-          "title": "Moreno starts Lee Kang-in with Son and Oh in South Korea two-striker lineup - CHOSUNBIZ",
-          "url": "https://biz.chosun.com/en/en-sports/2026/09/28/66QKHSLT3NCVHK36T2K3PHHZVY/",
-          "source": "Chosunbiz",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSeyvqcDWz-C_fe2C-HwXIpZ2-VUBjNoffKCo3SIY4tQ3TPZ5pSBuQ-M7mMkBU",
-          "og_title": "Moreno starts Lee Kang-in with Son and Oh in South Korea two-striker lineup",
-          "og_desc": "Moreno starts Lee Kang-in with Son and Oh in South Korea two-striker lineup",
-          "og_image": "https://biz.chosun.com/resizer/v2/MMYTQMZXGIZGEOBTGQ2WGMRSGQ.jpg?auth=3c593e949c80ac68250a010332686d5b521bb70d1d8e36ca6c295fa66632d05d&width=572&height=300&smart=true",
-          "ok": true
-        },
-        {
-          "title": "'One Goal Short of South Korea's All-Time Record' Son Heung-min to Start! Lee Kang-in Also in Lineup... Moreno's Squad Announces Starting XI for Uruguay Match [Sangam Field]",
-          "url": "https://www.starnewskorea.com/en/sports/2026/09/28/2026092817582221443",
-          "source": "스타뉴스",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQRo09aJmFeWtWAhjkGftp8l49oE3MYXrUkVsvIjRXDI35VAbuiLs3LK_qU4OQ",
-          "og_title": "'One Goal Short of South Korea's All-Time Record' Son Heung-min to Start! Lee Kang-in Also in Lineup... Moreno's Squad Announces Starting XI for Uruguay Match [Sangam Field] | STARNEWS",
-          "og_desc": "'Captain' Son Heung-min (LAFC) aims to challenge for joint first place on South Korea's all-time list of most goals scored in men's A-matches.The South Korean national football team, led by head coach Robert Moreno, will face Uruguay at 8 p.m. on the 28th at Seoul World Cup Stadium in a friendly mat",
-          "og_image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=739,fit=cover,q=high,sharpen=2/21/2026/09/2026092817582221443_1.jpg",
-          "ok": true
-        },
-        {
-          "title": "Lee Kang-in: \"All Players Unified as One Team\"",
-          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008771648",
-          "source": "news.sbs.co.kr",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm41JK9_kpEPG_-6AciTMOG-tKbj2x8M-1VNKvE9buoQFPCLklYW6iY8H7n7Q",
-          "og_title": "Lee Kang-in: \"All Players Unified as One Team\"",
-          "og_desc": "Lee Kang-in , who watched South Korean national football team interim manager Robert Moreno's managerial debut match against Ecuador from the stands, assessed, \"All players worked hard for the team.\" Attending an official press conference held today  at the Seoul World Cup Stadium a day ahead of the friendly match against Uruguay, Lee emphasized, \"I have high expectations as I am playing a match in Korea after a long time.",
-          "og_image": "https://img.sbs.co.kr/newimg/news/20260927/202226177_1280.jpg",
-          "ok": true
-        }
-      ],
-      "category": "رياضة",
-      "icon": "⚽",
-      "color": "#3ddc97",
-      "reason": "العنوان يطابق: vs",
-      "publishable": true,
-      "article": {
-        "headline": "Son Heung-min Chases All-Time Record as South Korea Faces Uruguay Tonight",
-        "summary": "Son Heung-min starts for South Korea against Uruguay seeking one goal to tie the nation's all-time scoring record, with Lee Kang-in also in Coach Moreno's attacking two-striker lineup.",
-        "body": "South Korea's national football team will clash with Uruguay tonight at Seoul World Cup Stadium at 8 p.m. in a high-stakes friendly match, according to Chosunbiz. Head coach Robert Moreno has named captain Son Heung-min in the starting XI alongside Lee Kang-in in a two-striker formation, with Oh in the lineup as well.\n\nSon, currently playing for LAFC, is just one goal away from matching South Korea's all-time record for goals scored in men's A-matches, according to StarNews Korea. The veteran forward will have a prime opportunity to etch his name into history on home soil at Seoul World Cup Stadium.\n\nLee Kang-in, speaking at an official press conference held at the stadium a day before kickoff, expressed confidence in the squad's cohesion. \"All players worked hard for the team,\" Lee told reporters via SBS News. \"I have high expectations as I am playing a match in Korea after a long time.\"\n\nThis friendly serves as a crucial test for Moreno's tactical approach following his managerial debut against Ecuador. The two-striker system featuring Son and Lee Kang-in represents an aggressive attacking strategy designed to penetrate Uruguay's defense. With Son hunting the historic goal milestone and Lee Kang-in energized by playing domestically, South Korea aims to deliver a commanding performance in front of their home crowd.",
-        "tags": [
-          "Son Heung-min",
-          "South Korea vs Uruguay",
-          "Robert Moreno",
-          "Lee Kang-in",
-          "Korea National Football Team",
-          "Seoul World Cup Stadium"
-        ],
-        "_had_data": false,
-        "_localized": false
-      },
-      "card": "cards/world-2026-09-28-south-korea-vs-uruguay.png",
-      "published_at": "2026-09-28T10:30:41.171572+00:00"
     },
     {
       "title": "broncos coach",
@@ -2600,6 +2629,177 @@
       "published_at": "2026-09-28T10:30:41.171572+00:00"
     },
     {
+      "title": "fat bear",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 28 Sep 2026 03:10:00 -0700",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRyIrZbIRd4GEaNhwak_DZAAFtgFUBS9VXkjbpqYdjh0XREn9ao8nz2AUcZsbA",
+      "image_source": "The New York Times",
+      "news": [
+        {
+          "title": "Fat Bear Week Is Back. Meet Some of Our Favorite Contenders.",
+          "url": "https://www.nytimes.com/2026/09/22/style/fat-bear-week-alaska.html",
+          "source": "The New York Times",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRyIrZbIRd4GEaNhwak_DZAAFtgFUBS9VXkjbpqYdjh0XREn9ao8nz2AUcZsbA",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Fat Bear Week returns as Alaska's biggest bears compete for the crown",
+          "url": "https://www.euronews.com/2026/09/26/fat-bear-week",
+          "source": "Euronews.com",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ0FdD7QkvFwIiC_emSsa6y0MoflDCd6-8qGag9PPQw5fLpmMPJjqOYW-DKKTM",
+          "og_title": "Fat Bear Week returns as Alaska's biggest bears compete for the crown",
+          "og_desc": "Online voting has opened for Fat Bear Week, the annual competition celebrating the brown bears of Alaska's Katmai National Park and Preserve as they prepare for winter hibernation.",
+          "og_image": "https://images.euronews.com/articles/stories/09/92/89/77/1200x675_cmsv2_95e29581-66c3-5068-94b1-9190b4ddda5a-9928977.jpg",
+          "ok": true
+        },
+        {
+          "title": "Fat Bear Week: Which bear has put on the most weight?",
+          "url": "https://www.bbc.com/news/videos/cvde0p045e4ko",
+          "source": "BBC",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0qwTB0hUb2yIn7wwk1Cv_bpSpkelvvuOdwfsHziJwTjyN1mJ4YKqgSg1T3wU",
+          "og_title": "Fat Bear Week: Which bear will put on the most weight?",
+          "og_desc": "The iconic contest run by Katmai National Park in Alaska will run from 22-29 of September this year and votes can be cast online.",
+          "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/3989/live/32513620-b609-11f1-a430-4d16ee157c41.jpg",
+          "ok": true
+        }
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "بلا تصنيف واضح",
+      "publishable": true,
+      "article": {
+        "headline": "Alaska's Fattest Bears Battle For Crowning Glory In Annual Online Voting Showdown",
+        "summary": "Katmai National Park's beloved Fat Bear Week competition has launched, inviting voters worldwide to crown the heaviest brown bear preparing for winter hibernation.",
+        "body": "Fat Bear Week, the annual celebration of Alaska's most robust brown bears, has returned with online voting now open through September 29, according to BBC reporting. The iconic contest, run by Katmai National Park and Preserve, showcases the park's bears at their peak weight as they gorge on salmon ahead of winter hibernation.\n\nThe competition draws global attention each year as wildlife enthusiasts cast votes for their favorite contenders. Euronews reports that this year's voting period runs from September 22-29, with participants competing to determine which bear has accumulated the most impressive weight gain during the pre-hibernation feeding frenzy.\n\nKatmai's brown bears consume enormous quantities of salmon during the spawning season, with dominant bears catching dozens of fish daily. This hyperphagia phase—when bears eat voraciously to build fat reserves—represents a critical survival mechanism for surviving months without food during winter sleep.\n\nThe park's bears depend on abundant salmon runs to successfully prepare for hibernation. According to BBC, the Fat Bear Week voting has become a beloved tradition that educates the public about bear ecology while providing entertaining real-world competition data. Each year, park rangers document and photograph the bears, creating a compelling visual record of their transformations.\n\nThe event celebrates these magnificent creatures during their most visually impressive season, combining wildlife education with interactive engagement. Fat Bear Week demonstrates how citizen participation can support conservation awareness and appreciation for Alaska's iconic fauna during one of nature's most dramatic seasonal transformations.",
+        "tags": [
+          "Fat Bear Week",
+          "Katmai National Park",
+          "Alaska bears",
+          "Brown bears",
+          "Wildlife competition",
+          "Hibernation"
+        ],
+        "_had_data": false,
+        "_localized": false
+      },
+      "card": "cards/world-2026-09-28-fat-bear.png",
+      "published_at": "2026-09-28T10:30:41.171572+00:00"
+    },
+    {
+      "title": "atlantic city",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 28 Sep 2026 03:30:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT4sUjfCAuZmD5-UiA7c-niUK9LCeKt1Kq7md4qauC5wPBWmbR5IqSbJicfWkg",
+      "image_source": "WHYY",
+      "news": [
+        {
+          "title": "Atlantic City’s Sheraton owner says convention business can't sustain hotel",
+          "url": "https://whyy.org/articles/atlantic-city-sheraton-conventions-overhaul-proposal/",
+          "source": "WHYY",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT4sUjfCAuZmD5-UiA7c-niUK9LCeKt1Kq7md4qauC5wPBWmbR5IqSbJicfWkg",
+          "og_title": "Atlantic City’s Sheraton owner says convention business can't sustain hotel",
+          "og_desc": "The developer behind a proposed $100 million overhaul says partial residential conversion is the only way to keep it viable without a state subsidy.",
+          "og_image": "https://d1fw4rghwibahr.cloudfront.net/wp-content/uploads/2026/09/atlantic-city-convention-center-sheraton-file.jpg",
+          "ok": true
+        },
+        {
+          "title": "‘Imagine the devastation’ on Atlantic City if state builds new convention center in Meadowlands, official tells governor",
+          "url": "https://cdcgaming.com/brief/imagine-the-devastation-on-atlantic-city-if-state-builds-new-convention-center-in-meadowlands-official-tells-governor/",
+          "source": "CDC Gaming",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTGZNsuvdNNi6WEHHA7flsy1_HQa9oppkWLMwaYtt_eHAaTZnCIoTQZd9btfmo",
+          "og_title": "‘Imagine the devastation’ on Atlantic City if state builds new convention center in Meadowlands, official tells governor – CDC Gaming",
+          "og_desc": "The Atlantic City Convention Center and an adjacent hotel at risk of closing in December need help from the state, not competition that could put them out of bu",
+          "og_image": "https://cdcgaming.com/wp-content/uploads/og-cache/146008.jpg",
+          "ok": true
+        },
+        {
+          "title": "Atlantic City official seeks rescue plan for Sheraton hotel",
+          "url": "https://focusgn.com/atlantic-city-official-seeks-rescue-plan-for-sheraton-hotel",
+          "source": "Focus Gaming News",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQgZRm_hSjxMiB0ChQSa0uzHEKohEIL03k3L0-LUhR6eUgOdoaU07EtUe66e50",
+          "og_title": "Atlantic City official seeks rescue plan for Sheraton hotel",
+          "og_desc": "A Casino Reinvestment Development Authority board member wants state backing to explore options for keeping the Sheraton Atlantic City Convention Center Hotel open.",
+          "og_image": "https://focusgn.com/wp-content/uploads/2026/09/8d091a75-2a95-46c6-8dac-07a42b77ccdb-1200x630.jpg",
+          "ok": true
+        }
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "بلا تصنيف واضح",
+      "publishable": true,
+      "article": {
+        "headline": "Atlantic City's Iconic Sheraton Hotel Faces December Closure Without State Rescue",
+        "summary": "The Sheraton Atlantic City Convention Center Hotel risks permanent closure this December unless state officials intervene with emergency funding or subsidies to save the struggling property.",
+        "body": "Atlantic City's convention infrastructure faces an existential crisis as the Sheraton hotel owner warns that traditional business models can no longer sustain the property. According to WHYY, the developer spearheading a proposed $100 million overhaul states that partial residential conversion represents the only viable path forward without direct state financial backing.\n\nThe stakes have intensified as officials sound alarms about competing threats. CDC Gaming reported that an Atlantic City official told Governor Phil Murphy that a new convention center in the Meadowlands would trigger devastating consequences for the city's existing convention economy, potentially forcing both the Atlantic City Convention Center and its adjacent Sheraton hotel into closure.\n\nThe Sheraton's December deadline has triggered urgent action. According to Focus Gaming News, a Casino Reinvestment Development Authority board member is actively seeking a comprehensive state rescue plan to explore all available options for keeping the property operational. The hotel, which anchors Atlantic City's convention business, has become a flashpoint in debates over the city's economic future.\n\nWithout intervention, industry insiders warn the closures would cripple Atlantic City's ability to attract large conventions and conferences—a revenue stream crucial to the city's casino economy and employment base. State officials now face mounting pressure to either fund the Sheraton's transformation or block competing projects like the proposed Meadowlands convention center that could accelerate the hotel's decline. The outcome will determine whether Atlantic City can maintain its relevance as a convention destination or surrender that market entirely.",
+        "tags": [
+          "Atlantic City Sheraton hotel",
+          "Convention center closure",
+          "Atlantic City economy",
+          "New Jersey casino industry",
+          "Meadowlands convention center"
+        ],
+        "_had_data": false,
+        "_localized": false
+      },
+      "card": "cards/world-2026-09-28-atlantic-city.png",
+      "published_at": "2026-09-28T10:45:38.437021+00:00"
+    },
+    {
+      "title": "trial",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 28 Sep 2026 03:20:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTxvYkTK6MqFpVMzgyPBmzzIoZhRagB9G8YraS_pOSe0oAux-Kcq_InSoBpiiI",
+      "image_source": "Fox News",
+      "news": [
+        {
+          "title": "Attorney for lone holdout juror in Lindsay Clancy mistrial pushes back on claims of refusing the law",
+          "url": "https://www.foxnews.com/us/attorney-lone-holdout-juror-lindsay-clancy-mistrial-pushes-back-claims-refusing-law",
+          "source": "Fox News",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTxvYkTK6MqFpVMzgyPBmzzIoZhRagB9G8YraS_pOSe0oAux-Kcq_InSoBpiiI",
+          "og_title": "Attorney for lone holdout juror in Lindsay Clancy mistrial pushes back on claims of refusing the law",
+          "og_desc": "Lindsay Clancy's holdout juror had \"zero doubt\" about his position, his attorney tells Kayleigh McEnany, citing \"a mountain of evidence\" for conviction.",
+          "og_image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/09/Michael-Clancy-1.jpg",
+          "ok": true
+        },
+        {
+          "title": "Lindsay Clancy will appear in court for the first time since her mistrial. Here’s what you should know",
+          "url": "https://www.cnn.com/2026/09/27/us/lindsay-clancy-court-hearing",
+          "source": "CNN",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSf44diqoG-fDmjViyS8IkEWxT-hEv-cbjnCQTSjTTR92EpYoRTyGjgo3Qqukg",
+          "og_title": "Lindsay Clancy to appear in court for the first time since her mistrial | CNN",
+          "og_desc": "",
+          "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/clancy-02-gettyimages-2292989149.jpg?c=16x9&q=w_800,c_fill",
+          "ok": true
+        },
+        {
+          "title": "Judge in Lindsay Clancy case indefinitely impounds jury questionnaires",
+          "url": "https://abcnews.com/GMA/News/judge-lindsay-clancy-case-indefinitely-impounds-jury-questionnaires/story?id=136694294",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEAoAo6BWni1D61E-_xBq1aKBTz5nMnVi0FK_9YL3M7cA_vVnz2_uOXbIjHM4",
+          "og_title": "Judge in Lindsay Clancy case indefinitely impounds jury questionnaires",
+          "og_desc": "Clancy's five-week trial ended in a mistrial on Sept. 4 when jurors failed to reach a unanimous verdict.",
+          "og_image": "https://i.abcnewsfe.com/a/02522327-e4d7-4c95-80df-ec57b6cda76c/clancy-main_1790076546114_hpMain_16x9.jpg?w=1600",
+          "ok": true
+        }
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: court",
+      "publishable": false,
+      "card": "cards/world-2026-09-28-trial.png",
+      "published_at": "2026-09-28T10:45:38.437021+00:00"
+    },
+    {
       "title": "jaime faria",
       "traffic": "100+",
       "traffic_num": 100,
@@ -2693,69 +2893,6 @@
       "publishable": false,
       "card": "cards/world-2026-09-28-jonathan-lipnicki.png",
       "published_at": "2026-09-28T09:30:55.661785+00:00"
-    },
-    {
-      "title": "fat bear",
-      "traffic": "100+",
-      "traffic_num": 100,
-      "published": "Mon, 28 Sep 2026 03:10:00 -0700",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRyIrZbIRd4GEaNhwak_DZAAFtgFUBS9VXkjbpqYdjh0XREn9ao8nz2AUcZsbA",
-      "image_source": "The New York Times",
-      "news": [
-        {
-          "title": "Fat Bear Week Is Back. Meet Some of Our Favorite Contenders.",
-          "url": "https://www.nytimes.com/2026/09/22/style/fat-bear-week-alaska.html",
-          "source": "The New York Times",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRyIrZbIRd4GEaNhwak_DZAAFtgFUBS9VXkjbpqYdjh0XREn9ao8nz2AUcZsbA",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Fat Bear Week returns as Alaska's biggest bears compete for the crown",
-          "url": "https://www.euronews.com/2026/09/26/fat-bear-week",
-          "source": "Euronews.com",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ0FdD7QkvFwIiC_emSsa6y0MoflDCd6-8qGag9PPQw5fLpmMPJjqOYW-DKKTM",
-          "og_title": "Fat Bear Week returns as Alaska's biggest bears compete for the crown",
-          "og_desc": "Online voting has opened for Fat Bear Week, the annual competition celebrating the brown bears of Alaska's Katmai National Park and Preserve as they prepare for winter hibernation.",
-          "og_image": "https://images.euronews.com/articles/stories/09/92/89/77/1200x675_cmsv2_95e29581-66c3-5068-94b1-9190b4ddda5a-9928977.jpg",
-          "ok": true
-        },
-        {
-          "title": "Fat Bear Week: Which bear has put on the most weight?",
-          "url": "https://www.bbc.com/news/videos/cvde0p045e4ko",
-          "source": "BBC",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0qwTB0hUb2yIn7wwk1Cv_bpSpkelvvuOdwfsHziJwTjyN1mJ4YKqgSg1T3wU",
-          "og_title": "Fat Bear Week: Which bear will put on the most weight?",
-          "og_desc": "The iconic contest run by Katmai National Park in Alaska will run from 22-29 of September this year and votes can be cast online.",
-          "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/3989/live/32513620-b609-11f1-a430-4d16ee157c41.jpg",
-          "ok": true
-        }
-      ],
-      "category": "عام",
-      "icon": "🌐",
-      "color": "#9aa4b2",
-      "reason": "بلا تصنيف واضح",
-      "publishable": true,
-      "article": {
-        "headline": "Alaska's Fattest Bears Battle For Crowning Glory In Annual Online Voting Showdown",
-        "summary": "Katmai National Park's beloved Fat Bear Week competition has launched, inviting voters worldwide to crown the heaviest brown bear preparing for winter hibernation.",
-        "body": "Fat Bear Week, the annual celebration of Alaska's most robust brown bears, has returned with online voting now open through September 29, according to BBC reporting. The iconic contest, run by Katmai National Park and Preserve, showcases the park's bears at their peak weight as they gorge on salmon ahead of winter hibernation.\n\nThe competition draws global attention each year as wildlife enthusiasts cast votes for their favorite contenders. Euronews reports that this year's voting period runs from September 22-29, with participants competing to determine which bear has accumulated the most impressive weight gain during the pre-hibernation feeding frenzy.\n\nKatmai's brown bears consume enormous quantities of salmon during the spawning season, with dominant bears catching dozens of fish daily. This hyperphagia phase—when bears eat voraciously to build fat reserves—represents a critical survival mechanism for surviving months without food during winter sleep.\n\nThe park's bears depend on abundant salmon runs to successfully prepare for hibernation. According to BBC, the Fat Bear Week voting has become a beloved tradition that educates the public about bear ecology while providing entertaining real-world competition data. Each year, park rangers document and photograph the bears, creating a compelling visual record of their transformations.\n\nThe event celebrates these magnificent creatures during their most visually impressive season, combining wildlife education with interactive engagement. Fat Bear Week demonstrates how citizen participation can support conservation awareness and appreciation for Alaska's iconic fauna during one of nature's most dramatic seasonal transformations.",
-        "tags": [
-          "Fat Bear Week",
-          "Katmai National Park",
-          "Alaska bears",
-          "Brown bears",
-          "Wildlife competition",
-          "Hibernation"
-        ],
-        "_had_data": false,
-        "_localized": false
-      },
-      "card": "cards/world-2026-09-28-fat-bear.png",
-      "published_at": "2026-09-28T10:30:41.171572+00:00"
     }
   ]
 }

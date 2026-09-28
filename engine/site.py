@@ -1640,7 +1640,8 @@ def country_nav(current, depth, is_en=False):
         out.append(f"<a href='{root}world/'>🌐 Worldwide{mark_world}</a>")
         out.append(f"<a href='{root}' class='nav-lang-btn' title='الانتقال إلى النسخة العربية'>العربية</a>")
     else:
-        # النسخة العالمية خارج قائمة التنقل العربية: صفحاتها لتطبيق Goldex.
+        # النسخة الإنجليزية زر لغة في آخر القائمة، لا بلد بين البلاد. ولينكها
+        # من كل صفحة عربية يجعلها غير يتيمة، فيزحف لها جوجل ويفهرسها أسرع.
         for key, cfg in COUNTRIES.items():
             if key == "world":
                 continue
@@ -1649,6 +1650,9 @@ def country_nav(current, depth, is_en=False):
             out.append(f"<a href='{root}{key}/'>{cfg['flag']} {E(name)}{mark}</a>")
         mark_jobs = " ●" if current == "jobs" else ""
         out.append(f"<a href='{root}jobs/' class='nav-jobs'>💼 وظائف وهجرة{mark_jobs}</a>")
+        if "world" in COUNTRIES:
+            out.append(f"<a href='{root}world/' class='nav-lang-btn' lang='en' hreflang='en' "
+                       f"title='English edition: world news'>🌐 English</a>")
     return "".join(out)
 
 
@@ -1896,6 +1900,21 @@ def build_home(data, urls):
           </div>
           <p class='deck-card-top-trend'>{E(top_title)}</p>
           <span class='deck-card-action'>كل أخبار {E(cfg['country_name'])} ←</span>
+        </a>""")
+    # النسخة الإنجليزية: أخبار السياسة والاقتصاد عالميًا
+    if "world" in data:
+        wcfg = data["world"]
+        wpub = [t for t in wcfg["trends"] if t.get("article")]
+        wtop = max(wpub, key=lambda x: x["traffic_num"], default=None)
+        wtitle = ("Top story: " + wtop["article"]["headline"]) if wtop else ""
+        deck_cards.append(f"""
+        <a class='country-deck-card' href='world/' style='--deck-accent:#b39ddb;' hreflang='en'>
+          <div class='deck-card-top'>
+            <span class='deck-card-title'>🌐 English · Worldwide</span>
+            <span class='deck-card-badge'>{len(wpub)} خبرًا اليوم</span>
+          </div>
+          <p class='deck-card-top-trend' lang='en' dir='ltr'>{E(wtitle)}</p>
+          <span class='deck-card-action'>أخبار السياسة والاقتصاد بالإنجليزي ←</span>
         </a>""")
     deck_cards.append("""
         <a class='country-deck-card' href='jobs/' style='--deck-accent:#f5c542;'>

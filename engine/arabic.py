@@ -1,9 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-تشكيل النص العربي للرسم على الصور بدقة متناهية.
-يستخدم arabic-reshaper و python-bidi لضمان اتصال الحروف واتجاهها السليم من اليمين لليسار.
+تشكيل النص العربي للرسم على الصور.
+
+Pillow على خادم GitHub فيه محرك raqm يشكّل الحروف ويعكس الاتجاه بنفسه،
+وعلى ويندوز لا. النص المشكَّل مسبقًا انعكس مرتين على الخادم، فخرجت كروت
+25 سبتمبر وما بعدها بحروف مقطّعة ومقلوبة.
+
+الحل: الخطوط تُفتح دائمًا بالمحرك البسيط (font أدناه)، والنص يُشكَّل هنا
+بـ arabic-reshaper و python-bidi. فيخرج الكارت نفسه على الجهاز والخادم.
 """
 import re
+
+from PIL import ImageFont
 
 try:
     import arabic_reshaper
@@ -11,6 +19,11 @@ try:
     HAS_BIDI = True
 except ImportError:
     HAS_BIDI = False
+
+
+def font(path, size):
+    """خط بالمحرك البسيط — لا يعيد تشكيل ما شكّلناه."""
+    return ImageFont.truetype(path, size, layout_engine=ImageFont.Layout.BASIC)
 
 ARABIC_RE = re.compile(r"[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]")
 

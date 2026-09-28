@@ -1,16 +1,23 @@
 # -*- coding: utf-8 -*-
 """
-طبقة الكتابة — تحوّل المصادر المُثراة إلى شرح عربي أصلي.
+طبقة الكتابة — تحوّل المصادر إلى خبر عربي أصلي.
 
-هذه هي الخطوة التي تفصل الموقع عن مواقع النسخ: كل منافس يأخذ نفس
-ملف RSS المجاني، والفرق هو ما يُكتب منه.
+القارئ وصل لأنه بحث عن موضوع، ويريد الخبر نفسه: ماذا حدث ومتى وأين،
+والرقم أو الميعاد إن وُجد. لذلك:
+- الكاتب يقرأ نص الخبر من صفحته (sources.fetch_text)، لا الملخص القصير
+  الذي فوقه. نقص المعلومات كان يدفعه لملء الفراغ بكلام إثارة.
+- العنوان خبري دقيق. صياغة «X.. ماذا يخبئ؟» وكلمات الإثارة مرفوضة، والرد
+  الذي يخالفها يُعاد مرة واحدة ثم يُترك.
+- «المعلومات السريعة» (facts) تُملأ فقط بما في المصادر.
 
 التشغيل يتطلب مفتاحًا:   setx ANTHROPIC_API_KEY "sk-ant-..."
 والمكتبة:                pip install anthropic
 """
+import concurrent.futures
 import json
 import os
 import sys
+from datetime import datetime, timezone
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -18,16 +25,20 @@ if hasattr(sys.stdout, "reconfigure"):
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import dedup  # noqa: E402
-# المعرّف مأخوذ من client.models.list() لا من التخمين.
-# نستخدم نموذج Claude Haiku 4.5: أسرع نموذج وأقلها تكلفة (~95% توفير).
+import sources  # noqa: E402
+import config  # noqa: E402
+
+# Claude Haiku 4.5 — الأسرع والأقل تكلفة (قرار صاحب الموقع).
 MODEL = "claude-haiku-4-5-20251001"
 
-# مخزن الشروح — منفصل عمدًا عن trends.json.
+# رقم إصدار الكاتب. المقالات القديمة بلا هذا الرقم كُتبت بالبرومبت القديم.
+WRITER_VERSION = 2
+
+# مخزن المقالات — منفصل عمدًا عن trends.json.
 #
-# السبب: pipeline.py يعيد بناء trends.json من الصفر في كل تشغيلة، فلو
-# خُزّن الشرح داخله لضاع كل 20 دقيقة، ولأُعيدت كتابة كل الترندات من
-# جديد: 72 تشغيلة يوميًا × 10 ترندات = 720 نداءً بدل 10. أي 72 ضعف
-# الفاتورة. المفتاح هنا (عنوان + يوم) يبقى ثابتًا عبر التشغيلات.
+# pipeline.py يعيد بناء trends.json من الصفر في كل تشغيلة، فلو خُزّن
+# المقال داخله لضاع مع كل تشغيلة ولأُعيدت كتابة كل الترندات. المفتاح هنا
+# (بلد + يوم + عنوان) يبقى ثابتًا عبر التشغيلات.
 ARTICLES = os.path.join(ROOT, "data", "articles.json")
 
 
@@ -47,234 +58,251 @@ def save_articles(store):
 def article_key(trend, country_key, day):
     return country_key + "|" + day + "|" + trend["title"]
 
-# تعليمات ثابتة عبر كل الطلبات — لذلك تُخزَّن مؤقتًا (prompt caching)
-# فيُقرأ ما يقارب عُشر تكلفة الإدخال في كل نداء بعد الأول.
-SYSTEM = """أنت محرر صحفي استقصائي ومحترف في الصحافة الرقمية السريعة والذكية. مهمتك كتابة الخبر وصياغة عناوينه بأسلوب Hook مشوق يشد القارئ ويشعل فضوله من أول نظرة، اعتمادًا على المصادر المرفقة وحدها وبلا كذب أو تضليل.
 
-القواعد:
-- العنوان هو خُطّاف القراءة الأهم (Headline Hook): صغ عنوانًا مشوقًا من 8 إلى 14 كلمة يثير الفضول بذكاء ويدفع القارئ للنقر والقراءة فورًا. ركّز على المفاجأة، أو التحول الدرامي في الأحداث، أو كواليس ما حدث، أو الأثر المباشر على القارئ والأسواق (مثل: "مفاجأة في قرار المركزي.. ماذا يعني تثبيت الفائدة لأسعار الذهب غداً؟" أو "بهدف خيالي.. كيف خطف مرموش أنظار العالم الليلة؟"). تجنب العناوين الباردة الميتة التي تشبه البيانات الحكومية الروتينية.
-- الافتتاحية الساخنة (Hook Lead): صغ ملخصاً مكثفاً في جملة واحدة فقط لحقل (summary) يشرح الحدث مباشرة ويشد القارئ.
-- متن الخبر (body): اكتب تفاصيل الخبر كاملة 150 إلى 250 كلمة مقسمة إلى فقرات مركزة. شرط حاسم لمنع التكرار: ممنوع منعاً باتاً تكرار أو إعادة صياغة جملة الافتتاحية (summary) في بداية متن الخبر أو داخله؛ بل اجعل متن الخبر يبدأ مباشرة بسرد الوقائع والخلفيات وكواليس ما جرى دون أي تكرار.
-- اكتب بعربية فصيحة سلسة وذكية يفهمها القارئ العادي.
-- لا تكتب عن البحث ولا عن الترند ولا عن الخوارزميات. القارئ جاء ليعرف القصة والحدث، لا ليقرأ تقريرًا عن عادات الإنترنت. عبارات مثل "يرجع ارتفاع البحث" و"يتصدر الترند" و"أثار اهتمام الجمهور" ممنوعة منعًا باتًا في المقال وفي العنوان.
-- كل جملة يجب أن تضيف معلومة وحقيقة أو تُحذف؛ تجنب الجمل الإنشائية الفارغة.
-- انسب كل معلومة إلى مصدرها بالاسم داخل النص.
-- لا تذكر رقمًا أو تاريخًا أو اقتباسًا غير موجود في المصادر.
-- إن كان الموضوع عن شخص، صِف ما أوردته المصادر حول نشاطه العام وتصريحاته، ولا تنسب إليه اتهامًا أو تخوض في حياته الخاصة.
-- إن أُرفقت بيانات أو أرقام، اذكرها فورًا لأنها جوهر ما يبحث عنه القارئ.
-- في حقل tags ضع من 3 إلى 6 كلمات مفتاحية عربية دقيقة."""
+# تعليمات ثابتة عبر كل الطلبات — تُخزَّن مؤقتًا (prompt caching).
+SYSTEM = """أنت محرر أخبار في موقع «الترندات». القارئ وصل لأنه بحث عن موضوع بعينه، ويريد أن يعرف الخبر نفسه بسرعة ودقة.
 
-SYSTEM_EN = """You are a world-class digital investigative editor and master of high-engagement news storytelling. Your mission is to craft irresistible Hook Headlines and fact-rich, thrilling news stories based SOLELY on the provided sources, completely free of fluff or falsehoods.
+اكتب من المصادر المرفقة وحدها. أي معلومة غير موجودة فيها ممنوعة: رقم أو تاريخ أو ميعاد أو نتيجة أو اقتباس أو وصف لحدث.
 
-Core Directives:
-- Headline Hook (The Click Magnet): Craft a compelling, curiosity-igniting headline of 8 to 14 words in Title Case. Center it on the unexpected twist, the high stakes, breaking controversy, or dramatic outcome (e.g. "Shocking Verdict: Man City Found Guilty of 114 Financial Breaches as Historic Sanctions Loom" or "Stunning Last-Minute Strike: How Modern Stars Redrew the Nations League Race"). Never produce dry, bureaucratic press release titles.
-- Hot Hook Lead (summary field): A gripping, urgent 1-sentence hook summarizing the climax or central breakthrough.
-- Rich & Fact-Packed Body (body field): Write in authoritative, vibrant, and precise English (180 to 280 words) organized into short, punchy paragraphs. CRITICAL: NEVER repeat or paraphrase the summary sentence at the beginning of the body; start the body directly with fresh facts, background context, and verified details. Empty filler phrases are strictly banned.
-- Absolutely Zero Meta-Talk: Never mention search engines, Google Trends, search spikes, algorithms, or "searches surged". The reader wants the real story, not internet traffic reports.
-- Source Attribution: Explicitly attribute every key claim to its named source (e.g., "according to Reuters", "The Athletic reported").
-- Public Figure Standards: Focus strictly on public actions, official statements, and career milestones. Do not speculate on private personal lives.
-- Search Intent Tags: Provide 3 to 6 high-intent English keywords in the tags field."""
+العنوان (headline):
+- جملة خبرية دقيقة من 7 إلى 14 كلمة تقول أهم ما حدث، وكل ما فيها موجود في المصادر.
+- ممنوع العنوان المعلّق بسؤال بعد نقطتين، وممنوعة كلمات الإثارة والمبالغة.
+- لا تذكر أن الموضوع رائج أو أن الناس يبحثون عنه.
+
+الملخص (summary):
+- جملة واحدة تجيب عما يبحث عنه القارئ: من، وماذا حدث، ومتى أو أين. إن كان في المصادر رقم أو ميعاد أو نتيجة فضعه في هذه الجملة.
+
+المتن (body):
+- من 180 إلى 350 كلمة، في 3 إلى 5 فقرات قصيرة يفصل بينها سطر فارغ.
+- ابدأ بتفاصيل جديدة ولا تكرر جملة الملخص.
+- انسب كل معلومة إلى مصدرها بالاسم.
+- إن اختلفت المصادر في معلومة فاذكر الاختلاف.
+- لا تكتب عن البحث أو الترند أو اهتمام الجمهور، ولا عبارات إنشائية فارغة.
+
+المعلومات السريعة (facts):
+- من 0 إلى 6 أسطر بصيغة «عنوان: قيمة» للمعلومات العملية الموجودة في المصادر فقط، مثل: الموعد، القناة الناقلة، النتيجة، السعر، المكان، الجهة الرسمية.
+- إن لم تكن في المصادر معلومات عملية فاتركها فارغة.
+
+الوسوم (tags): من 3 إلى 6 كلمات مفتاحية عربية دقيقة.
+
+إن كان الموضوع عن شخص فصف نشاطه العام كما أوردته المصادر، ولا تنسب إليه اتهامًا ولا تخض في حياته الخاصة.
+اكتب بعربية فصحى بسيطة."""
+
+SYSTEM_EN = """You are a news editor at ALTRENDAT. The reader arrived because they searched for a specific topic and wants the actual news, fast and accurate.
+
+Write only from the attached sources. Anything not in them is forbidden: numbers, dates, times, results, quotes, or descriptions of events.
+
+headline:
+- An accurate, factual sentence of 7 to 14 words stating what happened; everything in it must appear in the sources.
+- No question-style teaser headlines, no hype or sensational words.
+- Never mention that the topic is trending or being searched.
+
+summary: one sentence that answers what the reader is looking for (who, what happened, when or where), including any number, time or result from the sources.
+
+body: 180 to 350 words in 3 to 5 short paragraphs separated by blank lines. Start with new details and never repeat the summary. Attribute every claim to its named source. If sources disagree, say so. No filler and no talk about search interest.
+
+facts: 0 to 6 practical "label: value" items found in the sources (date, time, TV channel, score, price, place, official body). Leave empty if none.
+
+tags: 3 to 6 precise English keywords.
+
+For people, describe public activity as reported; no accusations, no private life."""
+
+FACT = {
+    "type": "object",
+    "properties": {
+        "label": {"type": "string", "description": "اسم المعلومة، مثل: الموعد"},
+        "value": {"type": "string", "description": "القيمة كما وردت في المصادر"},
+    },
+    "required": ["label", "value"],
+    "additionalProperties": False,
+}
 
 SCHEMA = {
     "type": "object",
     "properties": {
-        "headline": {"type": "string",
-                     "description": "عنوان صحفي مشوق ومحفز للنقر (Hook Headline) من 8-14 كلمة يثير الفضول بذكاء، بلا ذكر ترند أو بحث"},
-        "summary": {"type": "string", "description": "افتتاحية ساخنة وسريعة تلخص المفاجأة أو الحدث الأساسي في جملة واحدة"},
-        "body":     {"type": "string", "description": "الخبر كاملًا 150-250 كلمة مركزة ومقسمة لفقرات"},
-        "tags":     {"type": "array", "items": {"type": "string"},
-                     "description": "من 3 إلى 6 كلمات مفتاحية عربية للبحث"},
+        "headline": {"type": "string", "description": "عنوان خبري دقيق من 7 إلى 14 كلمة"},
+        "summary": {"type": "string", "description": "جملة واحدة تجيب عما يبحث عنه القارئ"},
+        "body": {"type": "string", "description": "المتن 180-350 كلمة في فقرات يفصلها سطر فارغ"},
+        "facts": {"type": "array", "items": FACT,
+                  "description": "0-6 معلومات عملية من المصادر فقط"},
+        "tags": {"type": "array", "items": {"type": "string"},
+                 "description": "من 3 إلى 6 كلمات مفتاحية"},
     },
-    "required": ["headline", "summary", "body", "tags"],
+    "required": ["headline", "summary", "body", "facts", "tags"],
     "additionalProperties": False,
 }
 
-SCHEMA_EN = {
-    "type": "object",
-    "properties": {
-        "headline": {
-            "type": "string",
-            "description": "Magnetic, curiosity-piquing hook headline (8-14 words, Title Case, no search meta-talk, zero false clickbait)",
-        },
-        "summary": {
-            "type": "string",
-            "description": "Urgent, gripping hook lead summarizing the climax or central breakthrough in one punchy sentence",
-        },
-        "body": {
-            "type": "string",
-            "description": "Full informative story (180-280 words) packed with verified facts, divided into crisp paragraphs, citing sources by name",
-        },
-        "tags": {
-            "type": "array",
-            "items": {"type": "string"},
-            "description": "3 to 6 high-intent English search keywords or entity names",
-        },
-    },
-    "required": ["headline", "summary", "body", "tags"],
-    "additionalProperties": False,
-}
 
-SCHEMA_PERSON = {
-    "type": "object",
-    "properties": dict(SCHEMA["properties"], decline={
-        "type": "boolean",
-        "description": "true إن امتنعت عن الكتابة؛ عندها اترك بقية الحقول فارغة"}),
-    "required": SCHEMA["required"] + ["decline"],
-    "additionalProperties": False,
-}
+def _with_decline(schema, desc):
+    return {
+        "type": "object",
+        "properties": dict(schema["properties"], decline={"type": "boolean", "description": desc}),
+        "required": schema["required"] + ["decline"],
+        "additionalProperties": False,
+    }
 
-SCHEMA_PERSON_EN = {
-    "type": "object",
-    "properties": dict(SCHEMA_EN["properties"], decline={
-        "type": "boolean",
-        "description": "Set to true if declining to write about a private non-public individual or sensitive legal/personal issue; leave other fields empty"}),
-    "required": SCHEMA_EN["required"] + ["decline"],
-    "additionalProperties": False,
-}
+
+SCHEMA_PERSON = _with_decline(SCHEMA, "true إن امتنعت عن الكتابة؛ عندها اترك بقية الحقول فارغة")
+SCHEMA_PERSON_EN = _with_decline(
+    SCHEMA, "true if declining (private individual or sensitive legal/personal topic); leave other fields empty")
 
 PERSON_RULES = """
-هذا الاسم قد يكون شخصًا وقد لا يكون. إن كان موضوعًا أو مكانًا أو حدثًا
-فاكتب عنه كالمعتاد.
-إن كان شخصًا فاكتب فقط إن كان شخصية عامة معروفة (فنان، لاعب، مدرب، مسؤول،
-إعلامي) والمصادر عن نشاطه العام: عمله، مبارياته، أعماله، تصريحاته المنشورة.
-أعد decline=true وبقية الحقول فارغة إن كان الشخص فردًا عاديًا، أو تدور
-المصادر حول اتهام أو قضية أو وفاة أو مرض أو حياة خاصة أو عائلية، أو كان
-قاصرًا، أو لم تضف المصادر معلومة جديدة عنه.
-لا تنسب إليه رأيًا أو فعلًا لم تذكره المصادر، وانسب كل قول لقائله بالاسم.
+هذا الاسم قد يكون شخصًا وقد لا يكون. إن كان موضوعًا أو مكانًا أو حدثًا فاكتب عنه كالمعتاد.
+إن كان شخصًا فاكتب فقط إن كان شخصية عامة معروفة (فنان، لاعب، مدرب، مسؤول، إعلامي) والمصادر عن نشاطه العام.
+أعد decline=true وبقية الحقول فارغة إن كان الشخص فردًا عاديًا، أو تدور المصادر حول اتهام أو قضية أو وفاة أو مرض أو حياة خاصة أو عائلية، أو كان قاصرًا، أو لم تضف المصادر معلومة جديدة عنه.
 """
 
 PERSON_RULES_EN = """
-This trending query might be a person.
-- If it is a known public figure (athlete, artist, filmmaker, CEO, public official) and the news covers their public career, works, games, or official statements, write the explanation.
-- Return decline=true and leave other fields empty if the person is a private non-public individual, or if the sources focus on violent crime, court prosecution, death, tragic accident, sexual assault, personal scandal, or private medical details.
+This query might be a person. Write only about a known public figure and their public work or statements.
+Return decline=true with other fields empty for a private individual, or if the sources focus on crime, court cases, death, accidents, sexual assault, scandal or private medical details.
 """
 
+# ألفاظ الحديث عن البحث نفسه — القارئ جاء للخبر لا لتقرير عن الإنترنت.
+META_WORDS = ("ترند", "تريند", "الأكثر بحث", "محركات البحث", "عمليات البحث",
+              "trending", "search volume", "google trends")
 
-def build_prompt_en(trend, country_name):
-    sources = []
-    for i, n in enumerate(trend["news"], 1):
-        if not n.get("ok"):
-            continue
-        sources.append(
-            "Source {i} — {src}\nTitle: {t}\nSummary: {d}\nURL: {u}".format(
-                i=i, src=n.get("source") or "Unknown", t=n["title"],
-                d=n.get("og_desc") or n.get("og_title") or "(no description)",
-                u=n["url"]))
 
+def problems(article):
+    """أسباب رفض المقال، أو قائمة فارغة إن كان سليمًا."""
+    out = []
+    why = sources.hype_reason(article.get("headline", ""))
+    if why:
+        out.append("العنوان مرفوض: " + why)
+    if sources.word_count(article.get("headline", "")) > 18:
+        out.append("العنوان أطول من 18 كلمة")
+    n = sources.word_count(article.get("body", ""))
+    if n < config.MIN_BODY_WORDS:
+        out.append("المتن {} كلمة فقط، والمطلوب {} على الأقل".format(n, config.MIN_BODY_WORDS))
+    head = (article.get("headline", "") + " " + article.get("summary", "")).lower()
+    if any(w in head for w in META_WORDS):
+        out.append("العنوان أو الملخص يتحدث عن البحث أو الترند")
+    return out
+
+
+def fetch_texts(items):
+    """نص كل مصدر من صفحته، بالتوازي ومع مهلة. يُضاف في الحقل text."""
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+        futures = {pool.submit(sources.fetch_text, n["url"]): n for n in items}
+        done, _ = concurrent.futures.wait(futures, timeout=25)
+        for fut in done:
+            try:
+                futures[fut]["text"] = fut.result(timeout=1)
+            except Exception:
+                futures[fut]["text"] = ""
+
+
+def _sources_block(items, is_en):
+    parts = []
+    for i, n in enumerate(items, 1):
+        desc = n.get("og_desc") or n.get("og_title") or ""
+        text = (n.get("text") or "").strip()
+        if is_en:
+            parts.append("Source {} — {}\nTitle: {}\nSummary: {}\nArticle text:\n{}\nURL: {}".format(
+                i, n.get("source") or "Unknown", n["title"], desc or "(none)",
+                text or "(could not be read — rely on the title and summary)", n["url"]))
+        else:
+            parts.append("المصدر {} — {}\nالعنوان: {}\nالملخص: {}\nنص الخبر:\n{}\nالرابط: {}".format(
+                i, n.get("source") or "غير معروف", n["title"], desc or "(بلا ملخص)",
+                text or "(تعذّرت قراءة الصفحة — اعتمد على العنوان والملخص)", n["url"]))
+    return "\n\n".join(parts)
+
+
+def build_prompt(trend, country_name, items, is_en=False):
     block = ""
-    if trend.get("person"):
-        block = PERSON_RULES_EN + "\n"
-
-    return (
-        "Trending Search Query: {title}\n"
-        "Region: {country}\n"
-        "Search Traffic: {traffic}\n"
-        "Category: {cat}\n\n"
-        "{block}"
-        "News Sources:\n\n{sources}"
-    ).format(title=trend["title"], country=country_name,
-             traffic=trend["traffic"], cat=trend["category"],
-             block=block, sources="\n\n".join(sources))
-
-
-def build_prompt(trend, country_name):
-    sources = []
-    for i, n in enumerate(trend["news"], 1):
-        if not n.get("ok"):
-            continue
-        sources.append(
-            "المصدر {i} — {src}\nالعنوان: {t}\nالملخص: {d}\nالرابط: {u}".format(
-                i=i, src=n.get("source") or "غير معروف", t=n["title"],
-                d=n.get("og_desc") or n.get("og_title") or "(بلا ملخص)",
-                u=n["url"]))
+    if is_en:
+        if trend.get("person"):
+            block = PERSON_RULES_EN + "\n"
+        return ("Search query: {title}\nRegion: {country}\nCategory: {cat}\n\n{block}"
+                "News sources:\n\n{src}").format(
+            title=trend["title"], country=country_name, cat=trend["category"],
+            block=block, src=_sources_block(items, True))
 
     # البيانات المؤكدة تسبق المصادر: هي جواب القارئ، والخبر سياق حولها.
-    block = ""
     data = trend.get("data")
     if data:
-        lines = [
-            "",
-            "=== بيانات مؤكدة من جهتها الرسمية ===",
-            data["title"] + " — " + data.get("gregorian", "") +
-            " / " + data.get("hijri", ""),
-            "الجهة: " + data.get("source", ""),
-            "",
-            " | ".join(["المدينة"] + data["columns"]),
-        ]
+        lines = ["", "=== بيانات مؤكدة من جهتها الرسمية ===",
+                 data["title"] + " — " + data.get("gregorian", "") + " / " + data.get("hijri", ""),
+                 "الجهة: " + data.get("source", ""), "",
+                 " | ".join(["المدينة"] + data["columns"])]
         for r in data["rows"]:
-            lines.append(" | ".join(
-                [r["city"]] + [r["times"][c] for c in data["columns"]]))
-        lines += [
-            "",
-            "هذه الأرقام مؤكدة ومتاحة لك. اذكر أهمها في العنوان وفي أول "
-            "جملتين، ولا تقل إن المواعيد غير متوفرة.",
-            "",
-        ]
+            lines.append(" | ".join([r["city"]] + [r["times"][c] for c in data["columns"]]))
+        lines += ["", "هذه الأرقام مؤكدة. اذكر أهمها في العنوان وفي الملخص وفي المعلومات السريعة.", ""]
         block = "\n".join(lines)
-
-    # موضوع محلي (انظر LOCAL_CATEGORIES في pipeline): مصادره اختيرت لأنها
-    # عن هذا البلد، والمقال يبقى عنه ولا يستطرد إلى غيره.
+    # موضوع محلي: مصادره عن هذا البلد، والمقال يبقى عنه ولا يستطرد إلى غيره.
     if trend.get("local_only"):
-        block = ("\nهذا موضوع محلي: اكتب عن " + country_name +
-                 " وحدها، ولا تنقل أخبار بلد آخر.\n") + block
-
+        block = "\nهذا موضوع محلي: اكتب عن " + country_name + " وحدها.\n" + block
     if trend.get("person"):
         block = PERSON_RULES + block
 
-    return (
-        "المصطلح الأكثر بحثًا: {title}\n"
-        "البلد: {country}\n"
-        "حجم البحث التقريبي: {traffic}\n"
-        "الفئة: {cat}\n"
-        "{block}\n"
-        "المصادر الصحفية:\n\n{sources}"
-    ).format(title=trend["title"], country=country_name,
-             traffic=trend["traffic"], cat=trend["category"],
-             block=block, sources="\n\n".join(sources))
+    return ("ما بحث عنه القارئ: {title}\nالبلد: {country}\nالفئة: {cat}\n{block}\n"
+            "المصادر الصحفية:\n\n{src}").format(
+        title=trend["title"], country=country_name, cat=trend["category"],
+        block=block, src=_sources_block(items, False))
+
+
+def _call(client, sys_prompt, schema, messages):
+    response = client.messages.create(
+        model=MODEL,
+        max_tokens=3000,
+        system=[{"type": "text", "text": sys_prompt, "cache_control": {"type": "ephemeral"}}],
+        output_config={"format": {"type": "json_schema", "schema": schema}},
+        messages=messages,
+    )
+    if response.stop_reason == "refusal":
+        return None, None
+    if response.stop_reason == "max_tokens":
+        return None, None
+    for block in response.content:
+        if block.type == "text":
+            return json.loads(block.text), block.text
+    return None, None
 
 
 def write_one(client, trend, country_name, is_en=False):
-    """يكتب شرح ترند واحد. يعيد dict، أو {"declined": True} إن امتنع
-    الكاتب عن شخص غير مناسب، أو None عند الفشل."""
+    """يكتب مقال ترند واحد. يعيد dict، أو {"declined": True}، أو
+    {"rejected": سبب} إن خالف الرد القواعد مرتين، أو None عند الفشل."""
     person = bool(trend.get("person"))
     sys_prompt = SYSTEM_EN if is_en else SYSTEM
     if is_en:
-        active_schema = SCHEMA_PERSON_EN if person else SCHEMA_EN
-        user_prompt = build_prompt_en(trend, country_name)
+        schema = SCHEMA_PERSON_EN if person else SCHEMA
     else:
-        active_schema = SCHEMA_PERSON if person else SCHEMA
-        user_prompt = build_prompt(trend, country_name)
+        schema = SCHEMA_PERSON if person else SCHEMA
 
-    response = client.messages.create(
-        model=MODEL,
-        max_tokens=2000,
-        system=[{
-            "type": "text",
-            "text": sys_prompt,
-            "cache_control": {"type": "ephemeral"},
-        }],
-        output_config={
-            "format": {"type": "json_schema",
-                       "schema": active_schema},
-        },
-        messages=[{"role": "user", "content": user_prompt}],
-    )
+    items = sources.good_sources(trend.get("news", []))[:4]
+    fetch_texts(items)
+    prompt = build_prompt(trend, country_name, items, is_en=is_en)
+    # النص الكامل للكتابة فقط: لو بقي في الترند لانتقل إلى trends.json
+    # وأرشيف الأيام وتضخّم المستودع مع كل تشغيلة.
+    for n in items:
+        n.pop("text", None)
+    messages = [{"role": "user", "content": prompt}]
 
-    if response.stop_reason == "refusal":
-        cat = getattr(response.stop_details, "category", None)
-        print("    ⛔ رفض النموذج الكتابة (" + str(cat) + ") — يُحال للمراجعة")
+    article, raw = _call(client, sys_prompt, schema, messages)
+    if article is None:
         return None
+    if person and (article.pop("decline", False) or not article.get("body")):
+        return {"declined": True}
+    article.pop("decline", None)
 
-    for block in response.content:
-        if block.type == "text":
-            article = json.loads(block.text)
-            if person:
-                # جسم فارغ بلا امتناع صريح يُعامل امتناعًا أيضًا: الأسلم
-                # ألا تُنشر صفحة فارغة عن شخص.
-                if article.pop("decline", False) or not article.get("body"):
-                    return {"declined": True}
-            return article
-    return None
+    issues = problems(article)
+    if issues:
+        # محاولة ثانية واحدة مع سبب الرفض
+        messages += [
+            {"role": "assistant", "content": raw},
+            {"role": "user", "content": "الرد مرفوض للأسباب التالية:\n- " + "\n- ".join(issues) +
+             "\nأعد كتابة الرد كاملًا مع الالتزام بالقواعد، ومن المصادر نفسها فقط."},
+        ]
+        article, raw = _call(client, sys_prompt, schema, messages)
+        if article is None:
+            return None
+        article.pop("decline", None)
+        issues = problems(article)
+        if issues:
+            return {"rejected": "؛ ".join(issues)}
+
+    article["_v"] = WRITER_VERSION
+    article["written_at"] = datetime.now(timezone.utc).isoformat()
+    return article
 
 
 def main():
@@ -286,85 +314,63 @@ def main():
 
     if not os.environ.get("ANTHROPIC_API_KEY"):
         print("✗ لا يوجد مفتاح.  شغّل:  setx ANTHROPIC_API_KEY \"sk-ant-...\"")
-        print("  ثم أعد فتح نافذة الأوامر.")
         return 1
 
     path = os.path.join(ROOT, "data", "trends.json")
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
 
-    # حدّ اختياري للتجربة:  python engine/writer.py --limit 1
+    # حد اختياري للتجربة:  python engine/writer.py --limit 1
     limit = None
     if "--limit" in sys.argv:
         limit = int(sys.argv[sys.argv.index("--limit") + 1])
         print("⚠ وضع التجربة: " + str(limit) + " ترند فقط")
-
-    # لا تُعد كتابة ما كُتب — إعادة التشغيل لا تُضاعف الفاتورة
     force = "--force" in sys.argv
 
     client = anthropic.Anthropic()
     store = load_articles()
-    written = skipped = failed = cached = declined = 0
+    written = skipped = failed = cached = declined = rejected = 0
     attempts = 0
-    streak = 0          # فشل متتالٍ
+    streak = 0          # فشل متتالٍ = خطأ في الإعداد لا في ترند بعينه
 
     for key, d in data.items():
         is_en = d.get("lang") == "en" or key == "world"
         cname = d.get("name_en", "Worldwide") if is_en else d["country_name"]
-        print("\n" + d["flag"] + "  " + (cname if is_en else d["country_name"]))
-        # نفس قاعدة entities.day_of: اليوم بتوقيت البلد
+        print("\n" + d["flag"] + "  " + cname)
         day = d.get("day") or d["generated_at"][:10]
         lang = d.get("lang", "en" if is_en else "ar")
         d["trends"] = dedup.dedup_trends(d.get("trends", []), lang=lang)
 
         for t in d["trends"]:
-            # الحد يحسب المحاولات لا النجاحات: لو حسب النجاحات وحدها،
-            # لواصل خطأ منهجي استهلاك الطلبات حتى آخر ترند.
             if limit is not None and attempts >= limit:
                 break
-            # قاطع دورة: ثلاثة إخفاقات متتالية تعني خطأً في الإعداد
-            # لا مشكلة في ترند بعينه — توقّف بدل مهاجمة الخدمة.
             if streak >= 3:
                 print("  ⏹ توقّف: ثلاثة إخفاقات متتالية — راجع الإعداد")
                 break
             k = article_key(t, key, day)
 
-            # القاعدة الحاسمة: لا يُكتب إلا ما أجازته طبقة الأمان
+            # لا يُكتب إلا ما أجازته طبقة الأمان. وما كُتب قبل أن يتشدّد
+            # الفلتر يُحذف الآن، فالمنع يسري على ما سبق أيضًا.
             if not t["publishable"]:
-                # وإن كان مكتوبًا قبل أن يتشدّد الفلتر، يُحذف الآن.
-                # بوابة الأمان يجب أن تُبطل ما أجازته سابقًا بالخطأ،
-                # وإلا بقي مقال عن شخص مخزَّنًا بعد منع النشر عنه.
                 if store.pop(k, None) is not None:
                     save_articles(store)
                     print("  🗑 حُذف مقال قديم: " + t["title"])
-                print("  ⛔ تخطّي: " + t["title"] + " — " + t["reason"])
                 skipped += 1
                 continue
-            # مقال كُتب قبل أن يُربط مزوّد بيانات بهذا الترند لا يحمل
-            # أرقامه، فيبقى يدور حول الموضوع بلا أن يعطيه. إضافة مزوّد
-            # تُبطل المخزون، وإلا ظلّت الصفحة القديمة تُعرض بلا أرقام.
-            # الشرط ضيّق عمدًا: يُعاد فقط ما صارت له بيانات ولم تكن له.
-            # المقارنة المتماثلة (`!=`) أعادت كتابة كل شيء أول مرة، لأن
-            # المقالات القديمة لا تحمل الحقل أصلًا فيعود None ويخالف
-            # False. وفقدان البيانات لا يستدعي إنفاقًا: النص المكتوب
-            # يبقى صحيحًا ومنسوبًا لوقته.
-            has_data = bool(t.get("data"))
-            stale = k in store and has_data and not store[k].get("_had_data")
-            if stale:
-                print("  ♻ إعادة كتابة (تغيّرت البيانات): " + t["title"])
 
-            # وبالقاعدة الضيقة نفسها: مقال كُتب من مصادر عن بلد آخر، ثم
-            # استُبدلت بها أخبار البلد (localize في pipeline)، يُعاد — وإلا
-            # عُرض نص عن طقس الإمارات فوق مصادر مصرية.
+            # مقال كُتب قبل أن يُربط مزوّد بيانات أو قبل استبدال مصادره
+            # بأخبار البلد نفسه يُعاد، وإلا بقي بلا أرقامه أو عن بلد آخر.
+            has_data = bool(t.get("data"))
             localized = bool(t.get("localized"))
-            if (k in store and localized and not stale
-                    and not store[k].get("_localized")):
-                stale = True
-                print("  ♻ إعادة كتابة (مصادر محلية): " + t["title"])
+            stale = k in store and (
+                (has_data and not store[k].get("_had_data")) or
+                (localized and not store[k].get("_localized")))
+            if stale:
+                print("  ♻ إعادة كتابة (تغيّرت البيانات أو المصادر): " + t["title"])
 
             if k in store and not force and not stale:
-                if store[k].get("declined"):
-                    continue          # امتنع الكاتب عنه سابقًا؛ لا مال يُنفق ثانية
+                if store[k].get("declined") or store[k].get("rejected"):
+                    continue          # حُسم أمره سابقًا؛ لا مال يُنفق ثانية
                 t["article"] = store[k]
                 cached += 1
                 continue
@@ -374,25 +380,26 @@ def main():
                 article = write_one(client, t, cname, is_en=is_en)
                 if article and article.get("declined"):
                     store[k] = {"declined": True}
-                    save_articles(store)
                     declined += 1
                     streak = 0
                     print("  ⤫ امتنع الكاتب (شخص غير مناسب للنشر): " + t["title"])
+                elif article and article.get("rejected"):
+                    store[k] = {"rejected": article["rejected"]}
+                    rejected += 1
+                    streak = 0
+                    print("  ✗ رُفض بعد محاولتين (" + article["rejected"] + "): " + t["title"])
                 elif article:
-                    n_tags = len(article.get("tags") or [])
-                    if n_tags < 3:
-                        print("  ⚠ " + str(n_tags) + " كلمة مفتاحية فقط")
                     article["_had_data"] = has_data
                     article["_localized"] = localized
                     t["article"] = article
                     store[k] = article
-                    save_articles(store)   # حفظ فوري: انقطاع لا يضيّع ما دُفع ثمنه
                     written += 1
                     streak = 0
                     print("  ✓ " + article["headline"])
                 else:
                     failed += 1
                     streak += 1
+                save_articles(store)   # حفظ فوري: انقطاع لا يضيّع ما دُفع ثمنه
             except Exception as e:
                 failed += 1
                 streak += 1
@@ -404,8 +411,8 @@ def main():
 
     print("\n" + "=" * 46)
     print("  كُتب الآن: " + str(written) + "   مكتوب سابقًا: " + str(cached))
-    print("  تُخطّي (أمان): " + str(skipped) + "   امتنع الكاتب: " +
-          str(declined) + "   فشل: " + str(failed))
+    print("  تُخطّي (أمان): " + str(skipped) + "   امتنع الكاتب: " + str(declined) +
+          "   رُفض: " + str(rejected) + "   فشل: " + str(failed))
     print("=" * 46)
     return 0
 

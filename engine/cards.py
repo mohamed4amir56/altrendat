@@ -126,10 +126,11 @@ def make_card(trend, country_name, out_path, site="الترندات", is_en=Fals
     # شريط علوي بلون الفئة
     d.rectangle([0, 0, W, 8], fill=accent)
 
-    f_title = ImageFont.truetype(FONT_BOLD, 76)
-    f_cat = ImageFont.truetype(FONT_BOLD, 30)
-    f_meta = ImageFont.truetype(FONT_REG, 28)
-    f_site = ImageFont.truetype(FONT_BOLD, 34)
+    # المحرك البسيط دائمًا — انظر arabic.py لسبب ذلك
+    f_title = arabic.font(FONT_BOLD, 76)
+    f_cat = arabic.font(FONT_BOLD, 30)
+    f_meta = arabic.font(FONT_REG, 28)
+    f_site = arabic.font(FONT_BOLD, 34)
 
     lines = arabic.wrap(trend["title"], f_title, W - PAD * 2, d, max_lines=3)
 

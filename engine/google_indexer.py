@@ -1,16 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Google Indexing API — إشعار Googlebot لحظيًا بالصفحات والمقالات الجديدة.
+Google Indexing API — لصفحات الوظائف الحقيقية وحدها.
 
-لماذا هذه الخطوة حاسمة للترندات؟
-- الفهرسة الطبيعية عبر Sitemap و Google Search Console تستغرق من عدة أيام إلى أسابيع.
-- الترند يعيش ساعات فقط ويموت؛ إن لم يُفهرس فوراً تضيع كل زياراته.
-- Google Indexing API ترسل إشعارًا مباشرًا إلى خوارزميات الفهرسة،
-  فيبدأ زاحف Googlebot بزيارة الصفحة وفهرستها خلال دقائق معدودة.
+جوجل تسمح باستخدام هذه الواجهة فقط لصفحات فيها JobPosting (وظيفة حقيقية)
+أو بث مباشر (BroadcastEvent). استخدامها لأخبار عادية مخالف لشروطها وقد
+يوقف الوصول إليها. الأخبار تصل جوجل عبر sitemap.xml و sitemap-news.xml.
 
-الحصة المجانية لـ Google:
-- 200 طلب فهرسة يومياً لكل مشروع، وهو كافٍ جداً لتغطية كافة ترندات اليوم.
-- السكربت يحتفظ بما أُرسل في data/google_indexed.json حتى لا يكرر إرسال الرابط.
+لذلك يرسل هذا السكربت فقط صفحات site/jobs/ التي فيها JobPosting موثّق
+(data-job-verified). ولا توجد حاليًا وظائف حقيقية منشورة، فلا يرسل شيئًا.
 """
 import json
 import os
@@ -70,16 +67,21 @@ def get_credentials():
     return None
 
 
-def urls_from_sitemap():
-    path = os.path.join(SITE, "sitemap.xml")
-    if not os.path.exists(path):
-        return []
-    ns = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
-    try:
-        root = ET.parse(path).getroot()
-        return [el.text.strip() for el in root.iter(ns + "loc") if el.text]
-    except Exception:
-        return []
+def urls_from_sitemap(base):
+    """صفحات الوظائف الحقيقية فقط: JobPosting موثّق في site/jobs/."""
+    jobs_dir = os.path.join(SITE, "jobs")
+    out = []
+    if not os.path.isdir(jobs_dir):
+        return out
+    for slug in sorted(os.listdir(jobs_dir)):
+        page = os.path.join(jobs_dir, slug, "index.html")
+        if not os.path.exists(page):
+            continue
+        with open(page, encoding="utf-8") as f:
+            text = f.read()
+        if '"JobPosting"' in text and "data-job-verified" in text:
+            out.append("{}/jobs/{}/".format(base, slug))
+    return out
 
 
 def load_sent():
@@ -128,15 +130,14 @@ def main():
         print("  ⏸ نطاق تجريبي (" + host + ") — لا يُرسل لـ Google Indexing API.")
         return 0
 
+    all_urls = urls_from_sitemap(base)
+    if not all_urls:
+        print("  ℹ لا وظائف حقيقية منشورة — لا شيء يُرسل لـ Indexing API.")
+        return 0
+
     creds = get_credentials()
     if not creds:
         print("  ℹ تخطي Google Indexing API: لم يتم ضبط Service Account بعد.")
-        print("    (ضع المفتاح في GitHub Secrets باسم GOOGLE_SERVICE_ACCOUNT_JSON لتفعيله)")
-        return 0
-
-    all_urls = urls_from_sitemap()
-    if not all_urls:
-        print("  ✗ لم يتم العثور على روابط في sitemap.xml")
         return 0
 
     # تصفية الروابط الجديدة التابعة للنطاق

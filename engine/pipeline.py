@@ -23,6 +23,8 @@ from datetime import datetime, timedelta, timezone
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import providers  # noqa: E402
 import dedup  # noqa: E402
+import sources  # noqa: E402
+import config  # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -629,6 +631,16 @@ def build(country_key, cfg):
     ok = sum(1 for t in trends for n in t["news"] if n.get("ok"))
     print("  ✓ استُخرج النص من " + str(ok) + " صفحة")
 
+    # مواقع البث المقرصن والسبام تظهر أحيانًا ضمن أخبار Google Trends.
+    # تُحذف قبل التصنيف: لا تُعرض ولا تُحسب مصدرًا.
+    spam = 0
+    for t in trends:
+        before = len(t["news"])
+        t["news"] = [n for n in t["news"] if not sources.is_spam(n)]
+        spam += before - len(t["news"])
+    if spam:
+        print("  🧹 حُذف " + str(spam) + " مصدر بث/سبام")
+
     for t in trends:
         cat, icon, color, reason, publishable = classify(
             t["title"], [n["title"] for n in t["news"]])
@@ -659,10 +671,22 @@ def build(country_key, cfg):
             if not any(about_here(n, cfg) for n in t["news"] if n.get("ok")):
                 localize(t, cfg)
 
-        # صفحة بلا مصدرين على الأقل = صفحة رقيقة، لا تُنشر
-        if t["publishable"] and len([n for n in t["news"] if n.get("ok")]) < 2:
+        # صفحة بلا مصدرين حقيقيين = صفحة رقيقة، لا تُنشر. والصفحة
+        # الرئيسية لموقع ما لا تُحسب مصدرًا.
+        if t["publishable"] and len(sources.good_sources(t["news"])) < 2:
             t["publishable"] = False
-            t["reason"] = "مصادر غير كافية (أقل من خبرين بنص)"
+            t["reason"] = "مصادر غير كافية (أقل من خبرين حقيقيين)"
+
+        # ترند صغير لا يستحق صفحة: يُرصد في الذاكرة ولا يُكتب عنه.
+        if t["publishable"] and t.get("traffic_num", 0) < config.MIN_TRAFFIC:
+            t["publishable"] = False
+            t["reason"] = "حجم بحث أقل من " + str(config.MIN_TRAFFIC)
+
+        # النسخة العالمية تخدم أخبار تطبيق Goldex: سياسة واقتصاد فقط.
+        if (country_key == "world" and t["publishable"]
+                and t["category"] not in config.WORLD_CATEGORIES):
+            t["publishable"] = False
+            t["reason"] = "النسخة العالمية: سياسة واقتصاد فقط"
 
         # ترند بيانات: أحضر الأرقام من مصدرها بدل انتظارها من نص خبر.
         if t["publishable"]:

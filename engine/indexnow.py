@@ -111,6 +111,15 @@ def main():
     sent = load_sent()
     new = [u for u in all_urls if u not in sent]
 
+    # الروابط المحذوفة لضعفها (prune.py): نخبر المحركات بها مرة واحدة،
+    # فتعيد زيارتها وتجد التحويل بدل أن تبقى في نتائجها.
+    pruned_path = os.path.join(ROOT, "data", "pruned.json")
+    if os.path.exists(pruned_path):
+        with open(pruned_path, encoding="utf-8") as f:
+            gone = ["{}/{}/{}/{}/".format(base, p["country"], p["day"], p["slug"])
+                    for p in json.load(f)]
+        new += [u for u in gone if u not in sent and u not in new]
+
     print("  ملف التحقق: site/" + name)
     print("  في الخريطة: " + str(len(all_urls)) + " · جديد: " + str(len(new)))
 

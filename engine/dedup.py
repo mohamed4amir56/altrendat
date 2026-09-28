@@ -63,6 +63,39 @@ TEAM_MAP = {
     "uruguay": "uruguay", "اوروغواي": "uruguay", "أوروغواي": "uruguay",
     "denmark": "denmark", "الدنمارك": "denmark",
     "norway": "norway", "النرويج": "norway",
+    # منتخبات تكررت بالعربية والإنجليزية في اليوم نفسه (إيطاليا وتركيا، فرنسا وبلجيكا…)
+    "italy": "italy", "italia": "italy", "ايطاليا": "italy", "إيطاليا": "italy",
+    "turkey": "turkey", "turkiye": "turkey", "türkiye": "turkey", "تركيا": "turkey",
+    "france": "france", "فرنسا": "france",
+    "belgium": "belgium", "بلجيكا": "belgium",
+    "spain": "spain", "اسبانيا": "spain", "إسبانيا": "spain",
+    "england": "england", "انجلترا": "england", "إنجلترا": "england",
+    "croatia": "croatia", "كرواتيا": "croatia",
+    "czechia": "czechia", "czech": "czechia", "التشيك": "czechia",
+    "greece": "greece", "اليونان": "greece",
+    "ireland": "ireland", "ايرلندا": "ireland", "أيرلندا": "ireland",
+    "switzerland": "switzerland", "سويسرا": "switzerland",
+    "egypt": "egypt", "مصر": "egypt",
+    "sudan": "sudan", "السودان": "sudan",
+    "south sudan": "south_sudan", "جنوب السودان": "south_sudan",
+    "angola": "angola", "انجولا": "angola", "أنجولا": "angola", "أنغولا": "angola",
+    "north korea": "north_korea", "كوريا الشمالية": "north_korea",
+    "morocco": "morocco", "المغرب": "morocco",
+    "algeria": "algeria", "الجزائر": "algeria",
+    "iraq": "iraq", "العراق": "iraq",
+    "oman": "oman", "عمان": "oman", "عُمان": "oman",
+    "qatar": "qatar", "قطر": "qatar",
+    "yemen": "yemen", "اليمن": "yemen",
+    "jordan": "jordan", "الاردن": "jordan", "الأردن": "jordan",
+    "argentina": "argentina", "الارجنتين": "argentina", "الأرجنتين": "argentina",
+    "usa": "usa", "الولايات المتحدة": "usa", "امريكا": "usa", "أمريكا": "usa",
+    "peru": "peru", "بيرو": "peru",
+    "mexico": "mexico", "المكسيك": "mexico",
+    "colombia": "colombia", "كولومبيا": "colombia",
+    "canada": "canada", "كندا": "canada",
+    "chile": "chile", "تشيلي": "chile",
+    "korea": "south_korea", "كوريا الجنوبية": "south_korea",
+    "venezuela": "venezuela", "فنزويلا": "venezuela",
 }
 
 MATCH_SPLIT = re.compile(r"\s+(?:vs\.?|v\.?|ضد|–|-)\s+", re.I)
@@ -99,26 +132,33 @@ def headline_similarity(h1, h2):
     return len(w1 & w2) / min(len(w1), len(w2))
 
 
+_TEAM_NORM = None
+
+
+def _team_map():
+    """الخريطة بمفاتيح مطبّعة بنفس تطبيع العناوين (ة→ه، إ→ا…)."""
+    global _TEAM_NORM
+    if _TEAM_NORM is None:
+        _TEAM_NORM = {norm_text(k).strip(): v for k, v in TEAM_MAP.items()}
+    return _TEAM_NORM
+
+
 def extract_match_teams(title):
     """استخراج وتطبيع طرفي المباراة إذا كان الترند لمباراة."""
     parts = MATCH_SPLIT.split(title.strip())
     if len(parts) == 2:
-        t1, t2 = parts[0].strip(), parts[1].strip()
-        # تنظيف كل طرف
-        c1 = " ".join([w for w in norm_text(t1).split() if w not in STOP_WORDS])
-        c2 = " ".join([w for w in norm_text(t2).split() if w not in STOP_WORDS])
-        
-        # محاولة رسم الخريطة المعيارية
-        m1 = TEAM_MAP.get(c1, c1)
-        m2 = TEAM_MAP.get(c2, c2)
-        # فحص إن كانت إحدى الكلمات موجودة في الخريطة
-        for k, v in TEAM_MAP.items():
-            if k in c1.split():
-                m1 = v
-            if k in c2.split():
-                m2 = v
-        if m1 and m2:
-            return frozenset([m1, m2])
+        teams = _team_map()
+        out = []
+        for side in parts:
+            c = " ".join([w for w in norm_text(side).split() if w not in STOP_WORDS])
+            m = teams.get(c)
+            if m is None:
+                # كلمة من الطرف موجودة في الخريطة («portugal fc»). الاسم الكامل
+                # أولًا: «جنوب السودان» ليست «السودان».
+                m = next((teams[w] for w in c.split() if w in teams), c)
+            out.append(m)
+        if all(out):
+            return frozenset(out)
     return None
 
 

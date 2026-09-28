@@ -1330,17 +1330,24 @@ def build_trend(country, cfg, t, urls, hubs=None, news=None):
     cat_label = CAT_EN.get(t["category"], t["category"]) if is_en else t["category"]
 
     editor_url = "../../../../{}/".format(config.EDITOR_PATH)
+    # «آخر تحديث» فقط لتحديث حقيقي، لا لدقيقة بين الرصد والكتابة
+    try:
+        gap = (datetime.fromisoformat(modified.replace("Z", "+00:00")) -
+               datetime.fromisoformat(published.replace("Z", "+00:00"))).total_seconds()
+    except Exception:
+        gap = 0
+    updated = gap > 1800
     if is_en:
         byline = ("<p class='byline'>By <a href='{u}'>{n}</a> · Published {p}"
                   "{m}</p>").format(
             u=editor_url, n=E(config.EDITOR_NAME_EN), p=E(article_date(published, True)),
-            m=(" · Updated " + E(article_date(modified, True))) if modified != published else "")
+            m=(" · Updated " + E(article_date(modified, True))) if updated else "")
         crumbs_home, crumbs_country = "Home", "{} trends".format(cname)
     else:
         byline = ("<p class='byline'>كتبه <a href='{u}'>{n}</a> · نُشر {p}"
                   "{m}</p>").format(
             u=editor_url, n=E(config.EDITOR_NAME), p=E(article_date(published)),
-            m=(" · آخر تحديث " + E(article_date(modified))) if modified != published else "")
+            m=(" · آخر تحديث " + E(article_date(modified))) if updated else "")
         crumbs_home, crumbs_country = "الرئيسية", "ترندات " + cname
 
     chips = ("<span class='chip'>{icon} {cat}</span>"

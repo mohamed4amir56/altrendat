@@ -100,11 +100,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "اقتصاد",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "سعر الذهب في مصر ينهي سلسلة الخسائر",
-          "ماذا حدث لسعر الذهب اليوم الاثنين في بداية التعاملات الصباحية؟",
-          "28 سبتمبر 2026.. أسعار الذهب تهبط 135 جنيها وعيار 21 يسجل 6100 جنيه"
+          "سعر جرام الذهب اليوم الأحد.. استقرار عيار 21 والجنيه الذهب",
+          "جولد بيليون: الذهب في مصر يتداول بخصم 37 جنيها للجرام مع زيادة المعروض"
         ]
       }
     ],
@@ -3225,15 +3225,31 @@
           "العاشرة | صراع مسلح يندلع في إثيوبيا.. والشرع: الجولان أرض سورية",
           "وكالة الأنباء الفرنسية: قوات تيجراي سيطرت على مطار عاصمة الإقليم في شمال إثيوبيا"
         ]
+      },
+      {
+        "key": "2026-09-28|sa",
+        "date": "2026-09-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "الجيش السوداني يرد على إثيوبيا بعد اتهامه بدعم مجموعات متمردة ضد حكومة آبي أحمد",
+          "السودان ينفي التدخل في شؤون إثيوبيا... ومُسيرة تستهدف مبنى تلفزيون تيغراي",
+          "فانو وتيغراي وجيش تحرير أورومو في تحالف واحد ضد حكومة آبي أحمد"
+        ]
       }
     ],
-    "last_seen": "2026-09-24",
-    "total": 1,
+    "last_seen": "2026-09-28",
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 100,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "صبري-عبد-المنعم": {
     "slug": "صبري-عبد-المنعم",
@@ -3727,9 +3743,9 @@
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "طقس اليوم الإثنين.. 42 درجة وأمطار وشبورة ورياح على عدة مناطق",
-          "طقس الأيام المقبلة.. أجواء حارة وفرص أمطار خفيفة على بعض المناطق",
-          "حالة الطقس اليوم الاثنين 28-9-2026 في مصر.. شبورة مائية ونشاط للرياح"
+          "حالة الطقس اليوم الاثنين 28-9-2026 في مصر.. شبورة مائية ونشاط للرياح",
+          "منخفض جوى يضرب غرب مصر.. الأرصاد تكشف خريطة الأمطار خلال الساعات المقبلة",
+          "الأرصاد: منخفض جوي في طبقات الجو العليا وراء أمطار السلوم وسيوة"
         ]
       }
     ],
@@ -28194,8 +28210,8 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Back-to-back victories for Curaçao, Haiti and Dominican Republic in Group A",
-          "Curacao v Nicaragua Odds",
+          "Preview: Curacao vs Nicaragua - prediction, team news, lineups",
+          "Match Highlights Curaçao - Nicaragua",
           "Curaçao vs Nicaragua: Concacaf Nations League stats & head-to-head"
         ]
       }
@@ -29859,9 +29875,9 @@
         "category": "ديني",
         "publishable": true,
         "headlines": [
-          "مواقيت الصلاة اليوم الإثنين 28 سبتمبر 2026 في القاهرة والمحافظات",
+          "أذان الظهر إمتى؟ مواقيت الصلاة اليوم في القاهرة والجيزة والمحافظات",
           "موعد أذان المغرب اليوم الأحد \"15 ربيع الآخر\" في القاهرة والمحافظات",
-          "موعد أذان الظهر.. تعرف على مواقيت الصلاة اليوم في القاهرة والمحافظات"
+          "مواقيت الصلاة اليوم الإثنين 28 سبتمبر 2026 في القاهرة والمحافظات"
         ]
       }
     ],
@@ -30685,8 +30701,8 @@
         "date": "2026-09-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -30701,7 +30717,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "حوادث وقضايا"
   },
   "ind-vs-afg": {
@@ -31004,8 +31020,8 @@
         "date": "2026-09-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -31020,7 +31036,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "شخصية"
   },
   "russia": {
@@ -31062,14 +31078,14 @@
         "date": "2026-09-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "النجيل الصناعي يهدد مشاركة محمد صلاح مع طرابزون فى دوري المؤتمر الأوروبي",
           "عندما يلعب صلاح في أوروبا على العشب الصناعي.. أين تذهب حجة \"الحماية\"؟",
-          "رسالة خاصة من أبوريدة للاعبي منتخب مصر بعد الوصول لجنوب السودان"
+          "مصطفى شوبير يواصل حماية عرين منتخب مصر أمام جنوب السودان",
+          "صلاح يعيد الجدل.. هل النجيل الصناعي أخطر على اللاعبين؟"
         ]
       }
     ],
@@ -31078,7 +31094,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "شخصية"
   },
   "rams-coach": {
@@ -31629,8 +31645,8 @@
         "date": "2026-09-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "عام",
         "publishable": true,
         "headlines": [
@@ -31645,7 +31661,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "عام"
   },
   "jaime-faria": {
@@ -31716,14 +31732,14 @@
         "date": "2026-09-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Russian drones kill two in market outside Kyiv, three others in different regions, officials say",
-          "Ukraine war briefing: Zelenskyy says Moscow terrorising Ukrainians as fresh strikes kill eight",
-          "Russian and Ukrainian strikes leave 10 dead as Trump calls on Zelenskyy to 'settle with Putin'"
+          "Russia loses 2,090 soldiers over past day",
+          "Russia's war casualty toll in Ukraine up by over 2,000 over past day",
+          "Ukraine-Russia war latest: Over 258,000 of Putin’s soldiers killed in action identified"
         ]
       }
     ],
@@ -31732,7 +31748,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "mail": {
@@ -31774,8 +31790,8 @@
         "date": "2026-09-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -31790,7 +31806,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "alarm": {
@@ -31919,14 +31935,14 @@
         "date": "2026-09-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "¿Cómo y dónde ver? Japón vs Venezuela | EN VIVO | Copa Kirin",
-          "Aramburu y Yangel Herrera ante el Japón de Kubo hoy en Hiroshima",
-          "Exámen para La Vinotinto contra Japón"
+          "Japón - Venezuela, en directo: amistosos internacionales, hoy en vivo",
+          "Aramburu y Yangel Herrera ante el Japón de Kubo hoy en Hiroshima"
         ]
       }
     ],
@@ -31935,7 +31951,65 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "رياضة"
+  },
+  "fighter-jets": {
+    "slug": "fighter-jets",
+    "name": "fighter jets",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Supersonic Russian jets trigger joint scramble by NATO allies amid Putin 'clowns' jab",
+          "Swedish, Finnish fighter jets intercept group of Russian military aircraft",
+          "Fighter jets scrambled to intercept Russian aircraft in NATO first"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "علاء-مبارك": {
+    "slug": "علاء-مبارك",
+    "name": "علاء مبارك",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|eg",
+        "date": "2026-09-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "\"ليس موطنا لتصفية الحسابات\".. علاء مبارك ينشر تدوينة عن \"الشماتة في الموت\"",
+          "أمين الفتوى يحذر من الشماتة في الموت: هكذا تعرف أهل الشر",
+          "دار الإفتاء عن الشماتة في الموت: لا يجوز شرعًا الفرح بمصائب الآخرين"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
   }
 }

@@ -23,7 +23,8 @@
   4. صورة تعبيرية إن طابق الخبر موضوعها بكلماته (ذهب، بورصة، انتخابات،
      مستشفى...)، من مجموعة منتقاة محفوظة محليًا (data/stock_photos.json)،
      فتعمل ولو تعذّر الاتصال. يُكتب تحتها «صورة تعبيرية».
-  5. لا شيء: الموقع يعرض كارته (العنوان نفسه على خلفية الموقع).
+  5. لا موضوع مطابق: مدينة بلد الخبر إن عُرف من كلماته (القاهرة، الرياض)،
+     وإلا صورة صحف عامة — فلكل مقال صورة، ويُكتب تحتها «صورة تعبيرية».
 
 الجودة: نعرض نسخة بعرض 1280 (مقاس قياسي عند ويكيميديا، وفوق حد Google
 Discover وهو 1200)، وأصل صورة صاحب الخبر 960 بكسل فأكثر.
@@ -162,6 +163,15 @@ STOCK = {
     "prayer@eg": ["The Courtyard of Al-Azhar Mosque, Cairo, Egypt.jpg"],
     "prayer@sa": ["Masjid al-Haram 2022.jpg"],
     "sky": ["Beneath the Milky Way.jpg"],
+    "school": ["Students in a classroom.jpg"],
+    "nationalday@sa": ["Royal Saudi Air Force jets doing a fly past next to the Jeddah Corniche "
+                       "on the 90th Saudi National Day.jpg", "Riyadh Skyline.jpg"],
+    # آخر الاحتياط: مدينة بلد الخبر، وإلا صحف (خبر بلا موضوع ولا بلد معروف)
+    "city@eg": ["Cairo skyline, Panoramic view, Egypt.jpg", "Cairo and Nile Skyline.jpg"],
+    "city@sa": ["Riyadh Skyline.jpg",
+                "Riyadh Skyline showing the King Abdullah Financial District (KAFD) and the "
+                "famous Kingdom Tower .jpg"],
+    "news": ["Vecteezy stack-of-newspaper 1961329.jpg"],
 }
 # كلمات كل موضوع، تُطابَق كلمةً كاملة في العنوان والعنوان الصحفي والوسوم.
 # الترتيب مهم (الأخص أولًا)، والكلمات الملتبسة مستبعدة عمدًا: «ذهب» فعل،
@@ -169,10 +179,12 @@ STOCK = {
 TOPIC_WORDS = [
     ("tennis", ["تنس", "التنس", "tennis", "wimbledon"]),
     ("basketball", ["كرة السلة", "لكرة السلة", "nba", "basketball"]),
-    ("cricket", ["كريكيت", "الكريكيت", "cricket"]),
+    ("cricket", ["كريكيت", "الكريكيت", "cricket", "wicket", "wickets", "innings", "t20",
+                 "الرمي أولًا", "الرمي أولا", "الضرب أولًا", "الضرب أولا"]),
     ("football", ["كرة القدم", "كرة قدم", "لكرة القدم", "soccer", "fifa", "فيفا", "الفيفا",
                   "كأس العالم", "دوري أبطال", "concacaf", "uefa", "nations league",
-                  "world cup", "premier league", "mls"]),
+                  "world cup", "premier league", "mls", "كأس الخليج", "خليجي", "gulf cup",
+                  "أمم أفريقيا", "أمم إفريقيا"]),
     ("un", ["الأمم المتحدة", "مجلس الأمن", "الجمعية العامة", "united nations",
             "security council", "general assembly"]),
     ("court", ["محكمة", "المحكمة", "النيابة", "النيابة العامة", "احتيال", "court", "convicted",
@@ -190,7 +202,8 @@ TOPIC_WORDS = [
     ("money", ["الدولار", "سعر الدولار", "الجنيه", "الجنيه المصري", "الريال السعودي",
                "سعر الصرف", "العملة", "البنك المركزي", "أسعار الفائدة", "سعر الفائدة",
                "dollar", "currency", "exchange rate", "central bank", "federal reserve",
-               "interest rate", "interest rates", "fed"]),
+               "interest rate", "interest rates", "fed", "بنك", "البنك", "البنوك", "التأمين",
+               "bank", "banks", "insurance"]),
     ("inflation", ["التضخم", "السلع الغذائية", "inflation", "consumer prices", "grocery prices"]),
     ("capital", ["العاصمة الإدارية", "العاصمة الإدارية الجديدة", "العاصمة الجديدة"]),
     ("housing", ["عقارات", "العقارات", "التمويل العقاري", "الإسكان", "الإيجار", "الإيجارات",
@@ -210,6 +223,9 @@ TOPIC_WORDS = [
     ("health", ["مستشفى", "المستشفى", "المستشفيات", "وزارة الصحة", "الأطباء", "أدوية",
                 "لقاح", "hospital", "hospitals", "healthcare", "health care", "medicare",
                 "medicaid", "fda", "vaccine"]),
+    ("nationalday", ["اليوم الوطني", "national day"]),
+    ("school", ["المدارس", "مدرسة", "المدرسة", "الطلاب", "طلاب", "التعليم", "التربية والتعليم",
+                "school", "schools", "students", "teachers"]),
     ("exams", ["امتحانات", "الامتحانات", "الثانوية العامة", "exams", "exam"]),
     ("ramadan", ["شهر رمضان", "رمضان المبارك", "الإفطار", "السحور", "ramadan"]),
     ("hajj", ["الحج", "العمرة", "الحجاج", "المعتمرين", "المسجد الحرام", "hajj", "umrah"]),
@@ -222,7 +238,8 @@ TOPIC_WORDS = [
     ("sky", ["خسوف", "كسوف", "eclipse", "meteor"]),
 ]
 # فئات صورتها التعبيرية صادقة لكل أخبارها، ولو خلت من كلمات الموضوع
-CATEGORY_TOPIC = {"طقس": "weather", "ديني": "prayer", "أبراج وفلك": "sky"}
+CATEGORY_TOPIC = {"طقس": "weather", "ديني": "prayer", "أبراج وفلك": "sky",
+                  "رياضة": "football"}      # أغلب أخبار الرياضة هنا كرة قدم
 
 
 # ── الاتصال ──────────────────────────────────────────────────────────
@@ -502,11 +519,15 @@ def stock_photo(title, category, country, text=""):
     # كلمات الترند نفسه أولًا («qqq stock» بورصة، ولو ذكر خبره الانتخابات)
     topic = topic_of(title, None) or topic_of(title + " " + (text or ""), category)
     # صورة بلد الخبر لا بلد النسخة: خبر العاصمة الإدارية في ترند السعودية مصري
-    country = story_country(title, text) or country
-    if not topic:
-        return None
+    # والملعب المحلي لمباراة محلية فقط: «النرويج ضد الدنمارك» في ترند السعودية
+    # ليست في ملعب سعودي
+    country = story_country(title, text) or ("" if topic in SPORT_TOPICS else country)
     pool = load_stock()
-    choices = pool.get(topic + "@" + country) or pool.get(topic) or []
+    choices = (topic and (pool.get(topic + "@" + country) or pool.get(topic))) or []
+    if not choices:
+        # لا موضوع مطابق: مدينة بلد الخبر إن عُرف من كلماته، وإلا صحف
+        where = story_country(title, text)
+        choices = pool.get("city@" + where) or pool.get("news") or []
     if not choices:
         return None
     seed = sum(ord(c) for c in title)          # ثابت بين التشغيلات، بخلاف hash()
@@ -552,7 +573,7 @@ def refresh_stock():
 
 # رقم قواعد الاختيار الحالية. مقال صورته بقواعد أقدم (أو بلا رقم) يُعاد
 # اختيار صورته تلقائيًا في التشغيلة الدورية. ارفعه عند تغيير القواعد.
-PHOTO_VERSION = 5                 # 5: صورة بلد الخبر، ورياضة العنوان الصحفي
+PHOTO_VERSION = 6                 # 6: لكل مقال صورة (رياضة/مدرسة/مدينة/صحف)
 
 
 def mark(art, photo):

@@ -1099,7 +1099,7 @@
           "file_page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_03.jpg",
           "stock": true
         },
-        "photo_v": 5
+        "photo_v": 6
       },
       "card": "cards/world-2026-09-28-nasdaq-today.png",
       "published_at": "2026-09-28T14:30:42.742554+00:00"
@@ -1313,8 +1313,17 @@
         ],
         "_v": 3,
         "written_at": "2026-09-29T00:48:20.219722+00:00",
-        "photo": null,
-        "photo_v": 5,
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Vecteezy_stack-of-newspaper_1961329.jpg/1280px-Vecteezy_stack-of-newspaper_1961329.jpg",
+          "width": 1280,
+          "height": 853,
+          "artist": "Bernerlover",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Vecteezy_stack-of-newspaper_1961329.jpg",
+          "stock": true
+        },
+        "photo_v": 6,
         "_had_data": false,
         "_localized": false
       },
@@ -1780,7 +1789,7 @@
         },
         "_had_data": false,
         "_localized": false,
-        "photo_v": 5
+        "photo_v": 6
       },
       "card": "cards/world-2026-09-28-trump-approval.png",
       "published_at": "2026-09-28T19:31:00.720403+00:00"
@@ -2029,6 +2038,54 @@
       "publishable": false,
       "card": "cards/world-2026-09-28-bears-game-today.png",
       "published_at": "2026-09-28T22:07:24.195149+00:00"
+    },
+    {
+      "title": "makai lemon",
+      "traffic": "+3000",
+      "traffic_num": 3000,
+      "published": "Mon, 28 Sep 2026 15:10:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwNLNbFMKQGGqgrCh9IeOSbv0oKHAg21WaFel82brwUXIxYZARfkOoXIpSmhc",
+      "image_source": "Yahoo Sports",
+      "news": [
+        {
+          "title": "Nick Sirianni explains why Makai Lemon’s role could grow with Eagles",
+          "url": "https://sports.yahoo.com/articles/nick-sirianni-explains-why-makai-195929033.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwNLNbFMKQGGqgrCh9IeOSbv0oKHAg21WaFel82brwUXIxYZARfkOoXIpSmhc",
+          "og_title": "Nick Sirianni explains why Makai Lemon’s role could grow with Eagles",
+          "og_desc": "Nick Sirianni believes, despite a slow start, Makai Lemon is still impacting games in ways that don't always show up on the stat sheet.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/28454ef15d7c9f35e6a6513eeba184086d2d7a2bb3769f2c1bea335696a5780f/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fphiladelphia_eagles_wire_usa_today_sports_articles_352%2F6f1c8868a0ea0c09edbc0eba96c79ff7.jpg",
+          "ok": true
+        },
+        {
+          "title": "Eagles rookie report card: Titans game",
+          "url": "https://www.bleedinggreennation.com/philadelphia-eagles-analysis/183984/eagles-rookie-report-card-titans-game",
+          "source": "Bleeding Green Nation",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZiNVj4tWfpYRSPClbV7-niiwCsuY5u_-jgXreMl8coPqG6db1PGnXFsNnL04",
+          "og_title": "Eagles rookie report card: Titans game",
+          "og_desc": "Keeping an eye on Philadelphia’s 2026 NFL Draft class.",
+          "og_image": "https://platform.bleedinggreennation.com/wp-content/uploads/sites/36/2026/09/gettyimages-2296320543.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "ok": true
+        },
+        {
+          "title": "Is Makai Lemon About To Shock The NFL On Monday Night Football?",
+          "url": "https://www.9news.com/video/sports/locked-on/lo-philadelphia/eagles-show/is-makai-lemon-about-to-shock-the-nfl-on-monday-night-football/535-d7d98ee9-610d-49df-ad7c-e56c9b445215",
+          "source": "9News",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJbfQc_vK2pfsEUdcI4zTztVEaPOmDcsXGWGoXh2ad9m59OWUBy666YQ9GbEo",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "النسخة العالمية: سياسة واقتصاد فقط",
+      "publishable": false,
+      "card": "cards/world-2026-09-28-makai-lemon.png",
+      "published_at": "2026-09-28T22:30:41.440426+00:00"
     },
     {
       "title": "ps5 emulation",
@@ -3414,54 +3471,6 @@
       "published_at": "2026-09-29T00:47:51.061986+00:00"
     },
     {
-      "title": "makai lemon",
-      "traffic": "+2000",
-      "traffic_num": 2000,
-      "published": "Mon, 28 Sep 2026 15:10:00 -0700",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwNLNbFMKQGGqgrCh9IeOSbv0oKHAg21WaFel82brwUXIxYZARfkOoXIpSmhc",
-      "image_source": "Yahoo Sports",
-      "news": [
-        {
-          "title": "Nick Sirianni explains why Makai Lemon’s role could grow with Eagles",
-          "url": "https://sports.yahoo.com/articles/nick-sirianni-explains-why-makai-195929033.html",
-          "source": "Yahoo Sports",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwNLNbFMKQGGqgrCh9IeOSbv0oKHAg21WaFel82brwUXIxYZARfkOoXIpSmhc",
-          "og_title": "Nick Sirianni explains why Makai Lemon’s role could grow with Eagles",
-          "og_desc": "Nick Sirianni believes, despite a slow start, Makai Lemon is still impacting games in ways that don't always show up on the stat sheet.",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/28454ef15d7c9f35e6a6513eeba184086d2d7a2bb3769f2c1bea335696a5780f/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fphiladelphia_eagles_wire_usa_today_sports_articles_352%2F6f1c8868a0ea0c09edbc0eba96c79ff7.jpg",
-          "ok": true
-        },
-        {
-          "title": "Eagles rookie report card: Titans game",
-          "url": "https://www.bleedinggreennation.com/philadelphia-eagles-analysis/183984/eagles-rookie-report-card-titans-game",
-          "source": "Bleeding Green Nation",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZiNVj4tWfpYRSPClbV7-niiwCsuY5u_-jgXreMl8coPqG6db1PGnXFsNnL04",
-          "og_title": "Eagles rookie report card: Titans game",
-          "og_desc": "Keeping an eye on Philadelphia’s 2026 NFL Draft class.",
-          "og_image": "https://platform.bleedinggreennation.com/wp-content/uploads/sites/36/2026/09/gettyimages-2296320543.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-          "ok": true
-        },
-        {
-          "title": "Is Makai Lemon About To Shock The NFL On Monday Night Football?",
-          "url": "https://www.9news.com/video/sports/locked-on/lo-philadelphia/eagles-show/is-makai-lemon-about-to-shock-the-nfl-on-monday-night-football/535-d7d98ee9-610d-49df-ad7c-e56c9b445215",
-          "source": "9News",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJbfQc_vK2pfsEUdcI4zTztVEaPOmDcsXGWGoXh2ad9m59OWUBy666YQ9GbEo",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        }
-      ],
-      "category": "رياضة",
-      "icon": "⚽",
-      "color": "#3ddc97",
-      "reason": "النسخة العالمية: سياسة واقتصاد فقط",
-      "publishable": false,
-      "card": "cards/world-2026-09-28-makai-lemon.png",
-      "published_at": "2026-09-28T22:30:41.440426+00:00"
-    },
-    {
       "title": "fat bear week",
       "traffic": "1000+",
       "traffic_num": 1000,
@@ -3643,8 +3652,17 @@
         ],
         "_had_data": false,
         "_localized": false,
-        "photo": null,
-        "photo_v": 5
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Vecteezy_stack-of-newspaper_1961329.jpg/1280px-Vecteezy_stack-of-newspaper_1961329.jpg",
+          "width": 1280,
+          "height": 853,
+          "artist": "Bernerlover",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Vecteezy_stack-of-newspaper_1961329.jpg",
+          "stock": true
+        },
+        "photo_v": 6
       },
       "card": "cards/world-2026-09-28-politician.png",
       "published_at": "2026-09-28T12:46:13.876013+00:00"
@@ -3909,7 +3927,7 @@
           "file_page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_03.jpg",
           "stock": true
         },
-        "photo_v": 5
+        "photo_v": 6
       },
       "card": "cards/world-2026-09-28-qqq-stock.png",
       "published_at": "2026-09-28T14:15:46.161790+00:00"
@@ -3981,7 +3999,7 @@
           "file_page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_03.jpg",
           "stock": true
         },
-        "photo_v": 5
+        "photo_v": 6
       },
       "card": "cards/world-2026-09-28-msft-stock.png",
       "published_at": "2026-09-28T14:30:42.742554+00:00"
@@ -4244,7 +4262,7 @@
           "file_page": "https://commons.wikimedia.org/wiki/File:Courtroom_One_Gavel_-_Flickr_-_Joe_Gratz.jpg",
           "stock": true
         },
-        "photo_v": 5
+        "photo_v": 6
       },
       "card": "cards/world-2026-09-28-health-care-fraud.png",
       "published_at": "2026-09-28T17:40:16.882534+00:00"
@@ -5560,7 +5578,7 @@
           "wiki_title": "Atlantic City, New Jersey",
           "wiki_lang": "en"
         },
-        "photo_v": 5
+        "photo_v": 6
       },
       "card": "cards/world-2026-09-28-atlantic-city.png",
       "published_at": "2026-09-28T11:00:47.958169+00:00"
@@ -6143,7 +6161,7 @@
           "wiki_title": "Kimberly Guilfoyle",
           "wiki_lang": "en"
         },
-        "photo_v": 5,
+        "photo_v": 6,
         "_had_data": false,
         "_localized": false
       },
@@ -6318,8 +6336,17 @@
         ],
         "_v": 3,
         "written_at": "2026-09-29T00:31:32.512747+00:00",
-        "photo": null,
-        "photo_v": 5,
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/1_United_States_dollar_banknotes_%28348734%29.jpg/1280px-1_United_States_dollar_banknotes_%28348734%29.jpg",
+          "width": 1280,
+          "height": 1114,
+          "artist": "Hamster28",
+          "license": "Public domain",
+          "license_url": "",
+          "file_page": "https://commons.wikimedia.org/wiki/File:1_United_States_dollar_banknotes_(348734).jpg",
+          "stock": true
+        },
+        "photo_v": 6,
         "_had_data": false,
         "_localized": false
       },
@@ -6530,7 +6557,7 @@
           "file_page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_03.jpg",
           "stock": true
         },
-        "photo_v": 5
+        "photo_v": 6
       },
       "card": "cards/world-2026-09-28-tsla-stock.png",
       "published_at": "2026-09-28T11:00:47.958169+00:00"

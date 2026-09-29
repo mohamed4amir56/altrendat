@@ -955,6 +955,8 @@ aside.gold-promo-cta{margin-top:30px}
 /* الصورة كاملة بلا قص: صور الأشخاص طولية، والقص من المنتصف يقطع الوجه */
 .article-photo img{max-height:460px;object-fit:contain;background:#0d121c}
 .hero-spotlight-media img{object-position:center 22%}
+.trend-card-media img{object-position:center 22%}
+.trend-card-media .photo-credit{font-size:.62rem;padding:14px 10px 5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 
 /* --- قسم الوظائف: بحث وتصفية، وشروط وخطوات تقديم واضحة --- */
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
@@ -1266,8 +1268,22 @@ def render_trend_card(t, href, rank, country_name, flag, time_str, root="./", is
     cat_color = t.get("color", "var(--gold)")
     n_sources = len(sources.good_sources(t.get("news", [])))
 
-    # كارت نصي: العنوان والملخص هما المحتوى. صور الصحف لا تُعرض (حقوقها
-    # لناشريها)، وكارت الموقع يكرر العنوان نفسه فلا حاجة له هنا.
+    # صورة الخبر نفسه (حرة الرخصة من photos.py) وإلا كارت الموقع — لا صور الصحف.
+    # سطر المصدر نص بلا رابط (الكارت كله رابط)، والرابط الكامل في صفحة المقال.
+    photo = art.get("photo") or {}
+    card_url = get_card_thumb_url(t, root=root)
+    if photo.get("url"):
+        img_url = photo["url"].replace("/1280px-", "/500px-")
+        credit_txt = "{}{} {} · {}".format(
+            ("Illustrative photo · " if is_en else "صورة تعبيرية · ") if photo.get("stock") else "",
+            "Photo:" if is_en else "تصوير:", photo.get("artist", ""), photo.get("license", ""))
+        credit = "<span class='photo-credit'>{}</span>".format(E(credit_txt))
+    else:
+        img_url, credit = card_url, ""
+    media = ('<div class="trend-card-media"><img src="{u}" alt="{a}" loading="lazy" '
+             'decoding="async" width="500" height="281" '
+             'onerror="this.onerror=null;this.src=\'{c}\'">{cr}</div>').format(
+        u=E(img_url), a=E(headline), c=E(card_url), cr=credit)
     time_html = f"<span class='trend-time-tag'>🕒 {E(time_str)}</span>" if time_str else ""
     sources_text = f"{n_sources} sources" if is_en else f"{n_sources} مصادر"
     read_more = "Details →" if is_en else "التفاصيل ←"
@@ -1275,6 +1291,7 @@ def render_trend_card(t, href, rank, country_name, flag, time_str, root="./", is
     return f'''
     <article class="trend-card" style="--c:{cat_color}">
       <a class="trend-card-link" href="{href}">
+        {media}
         <div class="trend-card-body">
           <div class="trend-card-meta">
             <span class="cat-chip">{t.get('icon', '🔥')} {E(cat_label)}</span>

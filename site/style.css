@@ -799,6 +799,8 @@ aside.gold-promo-cta{margin-top:30px}
 /* الصورة كاملة بلا قص: صور الأشخاص طولية، والقص من المنتصف يقطع الوجه */
 .article-photo img{max-height:460px;object-fit:contain;background:#0d121c}
 .hero-spotlight-media img{object-position:center 22%}
+.trend-card-media img{object-position:center 22%}
+.trend-card-media .photo-credit{font-size:.62rem;padding:14px 10px 5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 
 /* --- قسم الوظائف: بحث وتصفية، وشروط وخطوات تقديم واضحة --- */
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}

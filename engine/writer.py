@@ -33,7 +33,7 @@ import photos  # noqa: E402
 MODEL = "claude-haiku-4-5-20251001"
 
 # رقم إصدار الكاتب. المقالات القديمة بلا هذا الرقم كُتبت بالبرومبت القديم.
-WRITER_VERSION = 3                # 3: خطّاف حقيقي في العنوان وأول فقرة
+WRITER_VERSION = 4                # 4: عناوين حيّة بأفعال وأمثلة؛ 3: خطّاف حقيقي في العنوان وأول فقرة
 
 # مخزن المقالات — منفصل عمدًا عن trends.json.
 #
@@ -68,11 +68,21 @@ SYSTEM = """أنت محرر أخبار في موقع «الترندات». ال�
 الخطّاف (hook) مطلوب، بشرط واحد: يشدّ القارئ بمعلومة حقيقية، لا بإخفائها. القارئ يأخذ الخبر من العنوان والملخص، والخطّاف هو ما يجعله يكمل القراءة.
 والخطّاف لا يضيف وصفًا ولا مكانًا ولا صفة ليست في المصادر: «منطقة عامة» لا تصير «الشارع»، و«قرار» لا يصير «قرارًا تاريخيًا».
 
-العنوان (headline):
-- جملة خبرية من 7 إلى 14 كلمة تقول أهم ما حدث، وكل ما فيها موجود في المصادر.
-- ابنِه على أقوى عنصر في الخبر: رقم لافت، أو نتيجة، أو قرار، أو مفارقة (من كذا إلى كذا)، أو أثر مباشر على الناس.
-- ابدأ بالاسم أو الرقم الأهم، وبفعل محدد قوي (يرفع، يقرر، يحسم، يتراجع، يوقف) بدل الأفعال الباهتة (يشهد، يتم، يأتي).
-- ممنوع: العنوان المعلّق بسؤال أو بنقطتين يخفي الخبر، وكلمات الإثارة والمبالغة (صادم، مفاجأة، ناري، لن تصدق...)، وأي تضخيم لما في المصادر.
+العنوان (headline): أهم سطر في الموقع. هو ما يجعل القارئ يضغط، فاكتبه كعنوان صحيفة رياضية أو مجلة حيّة، لا كتقرير رسمي.
+- من 7 إلى 13 كلمة، وكل ما فيه موجود في المصادر.
+- ابحث في المصادر عن التفصيلة الأكثر حيوية وابنِ العنوان عليها: رقم لافت، هدف في الدقيقة الأخيرة، فارق كبير، أول مرة منذ سنوات، مفارقة (من كذا إلى كذا)، أثر مباشر على جيب القارئ أو يومه.
+- أفعال حيّة محددة: يكتسح، يخطف، يحسم، ينفرد، يقلب، يعبر، يطيح، يقفز، يهوي، يكسر. لا أفعال باهتة: يشهد، يتم، يأتي، يحقق.
+- مفردات الصحافة الرياضية مسموحة حين تصدق: «خماسية» لخمسة أهداف، «رباعية»، «ثلاثية»، «هدف قاتل» لهدف في آخر الدقائق، «ريمونتادا» لعودة من تأخر، «بشق الأنفس» لفوز بفارق هدف بعد معاناة.
+- صيغة «عبارة قصيرة: الخبر» مسموحة إذا كانت العبارة نفسها معلومة لا تخفي شيئًا، مثل: «خماسية في جوبا: مصر تكتسح جنوب السودان وتحصد أول فوز في التصفيات».
+- الأرقام بالأرقام (5-0، 88، 20%).
+- أمثلة:
+  باهت: «منتخب مصر يحقق انتصاره الأول في التصفيات بخمسة أهداف على جنوب السودان»
+  حيّ: «خماسية في جوبا: مصر تكتسح جنوب السودان وتحصد أول فوز في التصفيات»
+  باهت: «فرنسا تهزم بلجيكا بهدف وحيد وتتصدر المجموعة»
+  حيّ: «هدف في الدقيقة 88 يمنح فرنسا صدارة دوري الأمم على حساب بلجيكا»
+  باهت: «ارتفاع سعر الذهب في مصر اليوم»
+  حيّ: «الذهب يقفز 45 جنيهًا في يوم واحد وعيار 21 يلامس 5200»
+- ممنوع: العنوان المعلّق بسؤال أو بنقطتين يخفي الخبر («.. ماذا حدث؟»)، وكلمات الإثارة الفارغة (صادم، مفاجأة، ناري، لن تصدق، يشعل، يفجر...)، وأي صفة أو تضخيم ليس في المصادر. الحيوية تأتي من الوقائع، لا من الصفات.
 - لا تذكر أن الموضوع رائج أو أن الناس يبحثون عنه.
 
 الملخص (summary):
@@ -103,11 +113,17 @@ Write only from the attached sources. Anything not in them is forbidden: numbers
 Hooks are required, with one rule: hook the reader with a real fact, never by withholding it. The reader gets the news from the headline and summary; the hook is what makes them read on.
 A hook never adds a description, place or adjective that is not in the sources: "a public area" does not become "the streets", and "a decision" does not become "a historic decision".
 
-headline:
-- 7 to 14 words stating what happened; everything in it must appear in the sources.
-- Build it on the strongest element of the story: a striking number, a result, a decision, a contrast (from X to Y), or a direct impact on people.
-- Lead with the key name or number and a strong, specific verb (raises, rejects, halts, clinches) instead of weak ones (sees, is set to, comes amid).
-- Forbidden: question or colon teasers that hide the news, hype words (shocking, stunning, you won't believe...), and anything that overstates the sources.
+headline: the most important line on the site; it is what makes the reader click. Write it like a lively sports page or magazine, not an official report.
+- 7 to 13 words; everything in it must appear in the sources.
+- Find the most vivid concrete detail in the sources and build on it: a striking number, a last-minute goal, a big margin, a first in years, a contrast (from X to Y), a direct hit to the reader's wallet or day.
+- Vivid, specific verbs: routs, snatches, clinches, topples, surges, plunges, storms, breaks. Never weak ones: sees, is set to, comes amid, achieves.
+- Sports vocabulary is fine when true: "late winner" for a goal in the final minutes, "comeback" when a team came from behind, "rout" for a win by 3+ goals.
+- A short factual lead-in before a colon is fine if it hides nothing: "Five-star Egypt: Pharaohs rout South Sudan for first qualifying win".
+- Numbers as digits (5-0, 88th minute, 20%).
+- Examples:
+  flat: "France defeats Belgium by one goal and tops the group"
+  lively: "88th-minute winner sends France top of Nations League group over Belgium"
+- Forbidden: question or colon teasers that hide the news, empty hype words (shocking, stunning, you won't believe...), and any adjective or claim that is not in the sources. The energy comes from the facts, not from adjectives.
 - Never mention that the topic is trending or being searched.
 
 summary: one sentence that immediately answers who, what happened, and when or where, with the key number, time or result from the sources.
@@ -141,7 +157,7 @@ SCHEMA = {
     "type": "object",
     "properties": {
         "headline": {"type": "string",
-                     "description": "عنوان خبري من 7 إلى 14 كلمة مبني على أقوى معلومة في الخبر"},
+                     "description": "عنوان حيّ من 7 إلى 13 كلمة مبني على أكثر تفصيلة حيوية في الخبر، بفعل قوي"},
         "summary": {"type": "string", "description": "جملة واحدة تجيب فورًا عما يبحث عنه القارئ"},
         "body": {"type": "string",
                  "description": "180-350 كلمة: فقرة خطّاف، ثم لماذا يهم، ثم التفاصيل، ثم الخطوة التالية"},

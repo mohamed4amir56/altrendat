@@ -40,10 +40,11 @@ ART_DIR = os.path.join(ROOT, "output", "art")   # يُنسخ إلى site/art ع�
 BASE = os.environ.get("SITE_BASE") or "https://altrendat.com"
 MODEL = "claude-haiku-4-5-20251001"
 CF_MODEL = "@cf/black-forest-labs/flux-1-schnell"
-MAX_AGE_DAYS = 10                  # كل مقال في الأرشيف الحالي (بدأ 22 سبتمبر)
-# كان هنا AI_SINCE يقصر الرسم على ما كُتب بعد 29/9 08:30. المستخدم طلب بعدها
-# صورة لكل مقال، فأُلغي. الأحدث يُرسم أولًا، والحد لكل تشغيلة (--max) يوزّع
-# الباقي على التشغيلات التالية.
+MAX_AGE_DAYS = 2                   # ملفات الأيام التي تُفحص أصلًا
+# الأخبار الجديدة فقط (قرار المستخدم 29/9: «القديمة مش مهم»). نافذة متحركة
+# لا تاريخ ثابت: الحصة المجانية اليومية محدودة، فتذهب كلها للجديد. 12 ساعة
+# تغطي ما كُتب بعد نفاد الحصة مساءً، فيُرسم عند تجدّدها (00:00 UTC).
+MAX_AGE_HOURS = 12
 SIZE = (1024, 576)                 # 16:9 مثل كروت الموقع
 
 # بلد كل نسخة: يعطي المشهد مكانه وألوان فريقه بدل ملعب لا هوية له.
@@ -79,6 +80,12 @@ Sports:
   behind or in motion blur, in a packed stadium of fans in the same colours waving the
   national flag, flares and floodlights. Loss: players on their knees, heads down, empty
   seats. Transfer or signing: a jersey in the club colours in a stadium tunnel.
+
+Economy, politics, tech, entertainment: think like a magazine-cover art director. Build
+one bold, surprising visual idea from real objects in a real place, e.g. a gold bar
+glowing under a spotlight on a Cairo street at night, a smartphone towering like a
+skyscraper over Riyadh, an oil tanker sailing across a trading-floor screen. Make the
+reader curious in one glance.
 
 Hard rules (never break):
 - Never a recognisable face of a real person. Players, officials and celebrities appear
@@ -193,6 +200,8 @@ def run(budget=150, cap=12):
     with open(store_p, encoding="utf-8") as f:
         store = json.load(f)
     cutoff = (datetime.date.today() - datetime.timedelta(days=MAX_AGE_DAYS)).isoformat()
+    fresh_since = (datetime.datetime.now(datetime.timezone.utc) -
+                   datetime.timedelta(hours=MAX_AGE_HOURS)).isoformat()
     start, made, failed, store_changed = time.time(), 0, 0, False
     errors, stopped = [], False
     done = {}                                              # عنوان صحفي -> صورة (أُعيد استخدامه)
@@ -211,6 +220,9 @@ def run(budget=150, cap=12):
             for t in snap.get("trends", []):
                 art = t.get("article")
                 if not isinstance(art, dict) or not art.get("body") or not wants_art(art):
+                    continue
+                # written_at بصيغة ISO بتوقيت UTC، فالمقارنة النصية مقارنة زمنية
+                if (art.get("written_at") or "") < fresh_since:
                     continue
                 head = art.get("headline") or t["title"]
                 photo = done.get(head)

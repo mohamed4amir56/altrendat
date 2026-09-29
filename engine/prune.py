@@ -62,7 +62,8 @@ def is_synthetic(t):
 def weak_reason(key, t):
     """سبب حذف المقال، أو None إن كان سليمًا."""
     art = t.get("article") or {}
-    if key == "world" and t.get("category") not in config.WORLD_CATEGORIES:
+    if (key == "world" and config.WORLD_CATEGORIES
+            and t.get("category") not in config.WORLD_CATEGORIES):
         return "النسخة العالمية خارج السياسة والاقتصاد"
     if len(sources.good_sources(t.get("news", []))) < 2:
         return "أقل من مصدرين حقيقيين"

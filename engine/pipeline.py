@@ -702,7 +702,7 @@ def build(country_key, cfg):
             t["reason"] = "حجم بحث أقل من " + str(config.MIN_TRAFFIC)
 
         # النسخة العالمية تخدم أخبار تطبيق Goldex: سياسة واقتصاد فقط.
-        if (country_key == "world" and t["publishable"]
+        if (country_key == "world" and t["publishable"] and config.WORLD_CATEGORIES
                 and t["category"] not in config.WORLD_CATEGORIES):
             t["publishable"] = False
             t["reason"] = "النسخة العالمية: سياسة واقتصاد فقط"

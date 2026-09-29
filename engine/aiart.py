@@ -119,8 +119,11 @@ def art_photo(headline, data):
 
 
 def wants_art(art):
-    """كل المقالات تأخذ رسمًا (قرار المستخدم)؛ صورة ويكيبيديا تبقى احتياطًا لو فشل التوليد."""
+    """خبر عن شخص أو مكان له صورة حقيقية من ويكيبيديا يبقى بها (القارئ يرى الوجه
+    الحقيقي، ولا نصنع شبه أحد). الباقي (تعبيرية أو بلا صورة) يأخذ صورة مولّدة."""
     p = art.get("photo") or {}
+    if p.get("url") and not p.get("stock") and not p.get("ai"):
+        return False
     # ملف الرسم ضاع (كان يُحفظ داخل site/ الذي يُمسح كل بناء) فيُعاد توليده
     return not p.get("ai") or not os.path.exists(
         os.path.join(ART_DIR, os.path.basename(p.get("url", ""))))

@@ -35,7 +35,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import photos  # noqa: E402
 
 ROOT = photos.ROOT
-ART_DIR = os.path.join(ROOT, "site", "art")
+ART_DIR = os.path.join(ROOT, "output", "art")   # يُنسخ إلى site/art عند البناء
 BASE = os.environ.get("SITE_BASE") or "https://altrendat.com"
 MODEL = "claude-haiku-4-5-20251001"
 CF_MODEL = "@cf/black-forest-labs/flux-1-schnell"
@@ -117,7 +117,10 @@ def art_photo(headline, data):
 
 def wants_art(art):
     """كل المقالات تأخذ رسمًا (قرار المستخدم)؛ صورة ويكيبيديا تبقى احتياطًا لو فشل التوليد."""
-    return not (art.get("photo") or {}).get("ai")
+    p = art.get("photo") or {}
+    # ملف الرسم ضاع (كان يُحفظ داخل site/ الذي يُمسح كل بناء) فيُعاد توليده
+    return not p.get("ai") or not os.path.exists(
+        os.path.join(ART_DIR, os.path.basename(p.get("url", ""))))
 
 
 def run(budget=150, cap=12):

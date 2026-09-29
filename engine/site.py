@@ -2604,6 +2604,10 @@ def main():
     cards_src = os.path.join(ROOT, "output", "cards")
     if os.path.isdir(cards_src):
         shutil.copytree(cards_src, os.path.join(OUT, "cards"))
+    # صور aiart.py: تُحفظ في output/art (مثل الكروت) لأن site/ يُمسح كل بناء
+    art_src = os.path.join(ROOT, "output", "art")
+    if os.path.isdir(art_src):
+        shutil.copytree(art_src, os.path.join(OUT, "art"))
     static_src = os.path.join(ROOT, "static")
     if os.path.isdir(static_src):
         for fname in os.listdir(static_src):

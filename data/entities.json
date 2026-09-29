@@ -6559,11 +6559,11 @@
         "traffic": "+30000",
         "traffic_num": 30000,
         "category": "شخصية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "ما القنوات الناقلة لمباراة أستراليا والبرازيل الودية؟ وكيف تشاهدها عبر الإنترنت؟",
           "بث مباشر لمباراة البرازيل ضد أستراليا",
-          "موعد مباراة البرازيل ضد أستراليا الودية والقنوات الناقلة والتشكيل المتوقع"
+          "أنشيلوتي: لن أسمح للانتقادات بالتأثير على خططي مع البرازيل"
         ]
       },
       {
@@ -6578,7 +6578,7 @@
         "headlines": [
           "ما القنوات الناقلة لمباراة أستراليا والبرازيل الودية؟ وكيف تشاهدها عبر الإنترنت؟",
           "منتخب البرازيل يهاجم أستراليا بـ فينيسيوس ورافينيا وديًا",
-          "\"الانتقادات لا تؤثر علي\".. كارلو أنشيلوتي يرد على الهجوم بسبب تراجع البرازيل تحت قيادته!"
+          "\"لا أتأثر بها على الإطلاق\".. أنشيلوتي لا يبالي بالانتقادات"
         ]
       }
     ],
@@ -27945,10 +27945,25 @@
           "Hubert Hurkacz - Denis Shapovalov w półfinale turnieju ATP 250 w Chengdu. Relacja na żywo",
           "Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         ]
+      },
+      {
+        "key": "2026-09-29|world",
+        "date": "2026-09-29",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "ATP Chengdu: Hubert Hurkacz - Alejandro Davidovich Fokina [RELACJA NA ŻYWO]",
+          "Hubert Hurkacz - Alejandro Davidovich Fokina w finale turnieju ATP 250 w Chengdu. Relacja na żywo",
+          "Wydarzenia sportowe"
+        ]
       }
     ],
-    "last_seen": "2026-09-28",
-    "total": 1,
+    "last_seen": "2026-09-29",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -35624,10 +35639,10 @@
         "date": "2026-09-29",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "Adam Scott's latest Presidents Cup heartbreak ended with an uncomfortable truth | News",
           "Presidents Cup - Day four highlights",
@@ -35640,7 +35655,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "balón-de-oro": {
@@ -35827,8 +35842,8 @@
         "date": "2026-09-29",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "سياسة",
         "publishable": true,
         "headlines": [
@@ -35843,7 +35858,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "سياسة"
   },
   "حسام-عبد-المجيد": {
@@ -35856,8 +35871,8 @@
         "date": "2026-09-29",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": true,
         "headlines": [
@@ -35872,7 +35887,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "vanderson": {
@@ -35890,8 +35905,8 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Rayan é titular e Andrey Santos e Douglas Luiz começam no banco o amistoso da Seleção Brasileira contra a Austrália",
-          "Posse de Bola vai ao ar hoje, logo após Brasil X Austrália"
+          "Posse de Bola vai ao ar hoje, logo após Brasil X Austrália",
+          "Quem é Vanderson, autor do primeiro gol do Brasil contra a Austrália?"
         ]
       }
     ],
@@ -35942,8 +35957,8 @@
         "date": "2026-09-29",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -35958,7 +35973,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "wwe-wrestlers": {
@@ -35978,7 +35993,7 @@
         "headlines": [
           "Details begin to emerge in death of All Elite Wrestling star Pac",
           "Wrestler Pac reportedly discovered slumped in a car outside a restaurant",
-          "All Elite Wrestling Announces Passing of Benjamin Satterley, aka Pac"
+          "Exclusive | AEW star Pac discovered slumped over in vehicle outside CAVA restaurant before death"
         ]
       }
     ],
@@ -36031,12 +36046,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "رياضة",
+        "category": "عام",
         "publishable": true,
         "headlines": [
-          "Carlo Ancelotti set to copy Hansi Flick's Barcelona blueprint by deploying Raphinha in new role for Brazil",
-          "Brazil boss Carlo Ancelotti targeting 'new generation' of players ahead of next Copa América and World Cup",
-          "Brazil line-up and where to watch the friendly v Australia"
+          "Barcelona hit by injury scare as Raphinha taken off at half-time of Brazil friendly",
+          "A nightmare for Barcelona: Raphinha limps off injured in Australia clash",
+          "What to watch on TV today (24 Sept, 2026)"
         ]
       }
     ],
@@ -36046,7 +36061,7 @@
       "world"
     ],
     "peak_traffic": 500,
-    "category": "رياضة"
+    "category": "عام"
   },
   "payton-tolle": {
     "slug": "payton-tolle",
@@ -36058,10 +36073,10 @@
         "date": "2026-09-29",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "Chad Tracy could swing the series between the Red Sox and Yankees",
           "Payton Tolle's Game 1 start places his name next to Babe Ruth in playoff history",
@@ -36074,7 +36089,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "houston-weather": {
@@ -36134,5 +36149,34 @@
     ],
     "peak_traffic": 200,
     "category": "حوادث وقضايا"
+  },
+  "طريق-وادي-النطرون-العلمين": {
+    "slug": "طريق-وادي-النطرون-العلمين",
+    "name": "طريق وادي النطرون العلمين",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|eg",
+        "date": "2026-09-29",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "النقل: زيادة رسوم استعمال مرور السيارات على طريق وادى النطرون - العلمين",
+          "«النقل» تقرر زيادة رسوم طريق العلمين.. وغرامة جديدة عند الهروب من بوابات التحصيل",
+          "20 جنيهًا للملاكي و30 للأتوبيس.. زيادة رسوم طريق وادي النطرون - العلمين"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
   }
 }

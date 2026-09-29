@@ -1274,9 +1274,12 @@ def render_trend_card(t, href, rank, country_name, flag, time_str, root="./", is
     card_url = get_card_thumb_url(t, root=root)
     if photo.get("url"):
         img_url = photo["url"].replace("/1280px-", "/500px-")
-        credit_txt = "{}{} {} · {}".format(
+        # المصدر (ويكيميديا كومنز) جزء من سطر الحقوق: شرط الرخصة، والحارس يرفض
+        # صفحة فيها صورة ويكيميديا بلا ذكره
+        credit_txt = "{}{} {} · {} · {}".format(
             ("Illustrative photo · " if is_en else "صورة تعبيرية · ") if photo.get("stock") else "",
-            "Photo:" if is_en else "تصوير:", photo.get("artist", ""), photo.get("license", ""))
+            "Photo:" if is_en else "تصوير:", photo.get("artist", ""), photo.get("license", ""),
+            "Wikimedia Commons" if is_en else "ويكيميديا كومنز")
         credit = "<span class='photo-credit'>{}</span>".format(E(credit_txt))
     else:
         img_url, credit = card_url, ""

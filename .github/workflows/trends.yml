@@ -121,9 +121,11 @@ jobs:
       #   continue-on-error: true
       #   run: python engine/poster_onesignal.py "${SITE_BASE:-https://altrendat.com}"
 
-      # دفعة من أداة أخرى أثناء التشغيلة (تعديل كود مثلًا) كانت تُسقط الحفظ
-      # كله فتضيع مقالات دُفع ثمنها. نعيد البناء على أحدث نسخة ثم ندفع، حتى
-      # ثلاث مرات. تعارض في ملفات البيانات يوقف الحفظ، والتشغيلة التالية تعيده.
+      # دفعة من أداة أخرى أثناء التشغيلة (تعديل كود وصفحات مبنية مثلًا) كانت
+      # تُسقط الحفظ كله فتضيع مقالات دُفع ثمنها. نعيد التأسيس على أحدث نسخة ثم
+      # ندفع، حتى ثلاث مرات. وعند تعارض الأسطر نأخذ نسخة هذه التشغيلة
+      # (-X theirs = التزام التشغيلة أثناء إعادة التأسيس): صفحات site/ تُبنى من
+      # جديد في كل تشغيلة، فالتشغيلة التالية تبنيها بأحدث كود على أي حال.
       - name: حفظ النتائج
         run: |
           git config user.name  "github-actions[bot]"
@@ -133,6 +135,6 @@ jobs:
           git commit -q -m "رصد: $(date -u '+%Y-%m-%d %H:%M') UTC"
           for i in 1 2 3; do
             git push && exit 0
-            git pull --rebase -q origin master || { git rebase --abort; exit 1; }
+            git pull --rebase -X theirs -q origin master || { git rebase --abort; exit 1; }
           done
           exit 1

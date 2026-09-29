@@ -6755,10 +6755,25 @@
           "Wetterbericht für Nordrhein-Westfalen (25.09.2026)",
           "Wetterprognose: Wochenende mit bis zu 26 Grad in Nordrhein-Westfalen"
         ]
+      },
+      {
+        "key": "2026-09-29|eg",
+        "date": "2026-09-29",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Wetter: Mildes Herbstwetter im Norden erwartet",
+          "Wetterwechsel: Schleswig-Holstein bekommt noch Sonne bevor der Regen kommt",
+          "Wetterbericht für Schleswig-Holstein/Hamburg (29.09.2026)"
+        ]
       }
     ],
-    "last_seen": "2026-09-25",
-    "total": 1,
+    "last_seen": "2026-09-29",
+    "total": 2,
     "countries": [
       "eg"
     ],
@@ -29515,8 +29530,8 @@
         "date": "2026-09-29",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -31523,7 +31538,7 @@
         "publishable": true,
         "headlines": [
           "Tunisia’s Miserable Run Continues After Botswana Draw in AFCON Qualifiers",
-          "Tunisia continues to struggle in the Africa Cup of Nations qualifiers with a dramatic draw against Botswana (Video)",
+          "Tunisia vs Botswana match lineup | Africa Cup of Nations Qualification · 28 Sep 2026",
           "El Chaoualy lashes out at Tunisia's national team: fiery words after Botswana \"disappointment\""
         ]
       },
@@ -34178,7 +34193,7 @@
         "publishable": false,
         "headlines": [
           "National reports say Donald Trump was booed in Knoxville. We were there; here’s what happened",
-          "Trump Booed at the Tennessee vs. Texas Football Game as He Appeared on the Jumbotron",
+          "Important Game Day Information for Tennessee vs. Texas at Neyland Stadium",
           "President Trump at Nelyand Stadium, starting with an Air Force One flyover"
         ]
       }
@@ -34463,12 +34478,12 @@
         "date": "2026-09-29",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+2500",
-        "traffic_num": 2500,
+        "traffic": "+3000",
+        "traffic_num": 3000,
         "category": "طقس",
         "publishable": false,
         "headlines": [
-          "Hurricane Nolo strengthens as it passes Hawaii, bringing heavy rain. See its path.",
+          "Major Hurricane Nolo weakens slightly, on track away from main Hawaiian islands",
           "County of Maui urges residents to prepare for prolonged power and communications outages",
           "‘Storm fatigue’: Hawaiians reeling from back-to-back hurricanes as Nolo’s threats diminish"
         ]
@@ -34479,7 +34494,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2500,
+    "peak_traffic": 3000,
     "category": "طقس"
   },
   "jimmy-kimmel": {
@@ -34497,9 +34512,9 @@
         "category": "سياسة",
         "publishable": true,
         "headlines": [
-          "Desi Lydic Loses It Over A Trump-Xi Moment You Might Have Missed",
+          "Jon Stewart Takes Aim at Trump’s Meeting With Chinese President: ‘How Does America Even Stay on the Map?’",
           "Jimmy Kimmel: ‘The only thing more unwelcome in the Oval Office than CNN is a salad’",
-          "Jon Stewart Takes Aim at Trump’s Meeting With Chinese President: ‘How Does America Even Stay on the Map?’"
+          "Jimmy Kimmel roasts Trump's meeting with Xi Jinping"
         ]
       }
     ],
@@ -34568,5 +34583,34 @@
     ],
     "peak_traffic": 500,
     "category": "فن ومشاهير"
+  },
+  "طلال-التويجري": {
+    "slug": "طلال-التويجري",
+    "name": "طلال التويجري",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|sa",
+        "date": "2026-09-29",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "«وقاية» تعيّن الدكتور طلال التويجري رئيساً تنفيذياً للهيئة",
+          "آل طالع يحتفلون بزواج «هشام»",
+          "عام / تعيين طلال التويجري رئيسًا تنفيذيًا لهيئة الصحة العامة \"وقاية\""
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

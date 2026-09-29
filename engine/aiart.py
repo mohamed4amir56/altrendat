@@ -40,6 +40,9 @@ BASE = os.environ.get("SITE_BASE") or "https://altrendat.com"
 MODEL = "claude-haiku-4-5-20251001"
 CF_MODEL = "@cf/black-forest-labs/flux-1-schnell"
 MAX_AGE_DAYS = 3                   # لا نرسم الأرشيف القديم
+# الأخبار الجديدة فقط: ما كُتب قبل هذا الوقت يبقى بصورته (ويكيبيديا/تعبيرية).
+# قرار المستخدم: لا رسم للقديم.
+AI_SINCE = "2026-09-29T08:30:00+00:00"
 SIZE = (1024, 576)                 # 16:9 مثل كروت الموقع
 
 STYLE = ("photorealistic editorial photograph, natural but dramatic lighting, rich vivid "
@@ -150,6 +153,8 @@ def run(budget=150, cap=12):
             for t in snap.get("trends", []):
                 art = t.get("article")
                 if not isinstance(art, dict) or not art.get("body") or not wants_art(art):
+                    continue
+                if (art.get("written_at") or "") < AI_SINCE:
                     continue
                 head = art.get("headline") or t["title"]
                 photo = done.get(head)

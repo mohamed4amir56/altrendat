@@ -26,6 +26,7 @@ import json
 import os
 import sys
 import time
+import urllib.error
 import urllib.request
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -115,13 +116,21 @@ def generate(prompt):
         img = Image.new("RGB", (1024, 1024), (30, 40, 90))
     else:
         acct = os.environ["CLOUDFLARE_ACCOUNT_ID"]
+        # 4 خطوات لا 8: FLUX-schnell مصمَّم لـ1-4 خطوات، والتكلفة بالخطوة، فالثماني
+        # كانت تستهلك ضعف الحصة المجانية اليومية بلا فرق يُرى في الصورة.
         req = urllib.request.Request(
             "https://api.cloudflare.com/client/v4/accounts/{}/ai/run/{}".format(acct, CF_MODEL),
-            data=json.dumps({"prompt": (prompt + ", " + STYLE)[:2000], "steps": 8}).encode(),
+            data=json.dumps({"prompt": (prompt + ", " + STYLE)[:2000], "steps": 4}).encode(),
             headers={"Authorization": "Bearer " + os.environ["CLOUDFLARE_API_TOKEN"],
                      "Content-Type": "application/json"})
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            data = json.load(resp)
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                data = json.load(resp)
+        except urllib.error.HTTPError as e:
+            # نص الرد فيه السبب الحقيقي (حصة، صلاحية، فلتر محتوى)؛ بدونه يظهر
+            # "HTTP Error 429" وحده ولا يُعرف ماذا نصلح.
+            body = e.read().decode("utf-8", "replace")[:300]
+            raise RuntimeError("HTTP {}: {}".format(e.code, body))
         if not data.get("success"):
             raise RuntimeError(str(data.get("errors"))[:200])
         img = Image.open(io.BytesIO(base64.b64decode(data["result"]["image"]))).convert("RGB")
@@ -154,10 +163,30 @@ def wants_art(art):
         os.path.join(ART_DIR, os.path.basename(p.get("url", ""))))
 
 
+STATUS = os.path.join(ROOT, "data", "aiart_status.json")
+
+
+def quota_error(msg):
+    """رفض بسبب الحصة أو كثرة الطلبات: لا فائدة من المحاولة ثانية في التشغيلة نفسها."""
+    m = msg.lower()
+    return ("429" in m or "4006" in m or "allocation" in m or "neurons" in m
+            or "rate limit" in m or "quota" in m)
+
+
+def save_status(made, failed, errors, stopped):
+    """خلاصة آخر تشغيلة في ملف يُحفظ مع data/: سجلات GitHub لا تُقرأ بلا تسجيل
+    دخول، فتوقّف الرسم ست ساعات يوم 29/9 بلا أي أثر يوضح السبب."""
+    with open(STATUS, "w", encoding="utf-8") as f:
+        json.dump({"at": datetime.datetime.now(datetime.timezone.utc).isoformat()[:19],
+                   "made": made, "failed": failed, "stopped_on_quota": stopped,
+                   "errors": errors[:5]}, f, ensure_ascii=False, indent=2)
+
+
 def run(budget=150, cap=12):
     if not (os.environ.get("AIART_FAKE") or
             (os.environ.get("CLOUDFLARE_ACCOUNT_ID") and os.environ.get("CLOUDFLARE_API_TOKEN"))):
         print("لا مفاتيح Cloudflare — تخطي الرسوم (الموقع يبقى على صوره الحالية)")
+        save_status(0, 0, ["no Cloudflare keys in environment"], False)
         return
     client = _client()
     store_p = os.path.join(ROOT, "data", "articles.json")
@@ -165,6 +194,7 @@ def run(budget=150, cap=12):
         store = json.load(f)
     cutoff = (datetime.date.today() - datetime.timedelta(days=MAX_AGE_DAYS)).isoformat()
     start, made, failed, store_changed = time.time(), 0, 0, False
+    errors, stopped = [], False
     done = {}                                              # عنوان صحفي -> صورة (أُعيد استخدامه)
     for path, key, day in photos._snapshots():
         if day and day < cutoff:
@@ -185,7 +215,7 @@ def run(budget=150, cap=12):
                 head = art.get("headline") or t["title"]
                 photo = done.get(head)
                 if photo is None:
-                    if made >= cap or time.time() - start > budget:
+                    if stopped or made >= cap or time.time() - start > budget:
                         continue
                     try:
                         prompt = scene_prompt(client, head, art.get("summary", ""),
@@ -196,7 +226,12 @@ def run(budget=150, cap=12):
                         print("  ✓ {} ← {}".format(head[:50], prompt[:70]))
                     except Exception as e:
                         failed += 1
-                        print("  ✗ {}: {}".format(head[:50], str(e)[:120]))
+                        msg = type(e).__name__ + ": " + str(e)
+                        errors.append(msg[:300])
+                        print("  ✗ {}: {}".format(head[:50], msg[:200]))
+                        if quota_error(msg):
+                            stopped = True
+                            print("  ⏸ الحصة/حد الطلبات — توقف الرسم لهذه التشغيلة")
                         continue
                     done[head] = photo
                 photos.mark(art, photo)
@@ -211,6 +246,7 @@ def run(budget=150, cap=12):
     if store_changed:
         with open(store_p, "w", encoding="utf-8") as f:
             json.dump(store, f, ensure_ascii=False, indent=2)
+    save_status(made, failed, errors, stopped)
     print("✓ رُسم {} مقالًا، وفشل {}".format(made, failed))
 
 

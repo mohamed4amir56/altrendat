@@ -110,6 +110,8 @@ SYSTEM_EN = """You are a news editor at ALTRENDAT. The reader searched for a spe
 
 Write only from the attached sources. Anything not in them is forbidden: numbers, dates, times, results, quotes, or descriptions of events.
 
+Always write in English, even when a source is in Spanish or another language.
+
 Hooks are required, with one rule: hook the reader with a real fact, never by withholding it. The reader gets the news from the headline and summary; the hook is what makes them read on.
 A hook never adds a description, place or adjective that is not in the sources: "a public area" does not become "the streets", and "a decision" does not become "a historic decision".
 
@@ -390,7 +392,19 @@ def main():
         lang = d.get("lang", "en" if is_en else "ar")
         d["trends"] = dedup.dedup_trends(d.get("trends", []), lang=lang)
 
-        for t in d["trends"]:
+        # النسخة الإنجليزية: حد يومي (config.WORLD_DAILY_MAX) والأكبر بحثًا أولًا،
+        # فالحد يروح لأهم الترندات لا لأول ما وصل.
+        order = d["trends"]
+        world_left = None
+        if key == "world":
+            order = sorted(d["trends"], key=lambda x: -x.get("traffic_num", 0))
+            done_today = sum(1 for sk, a in store.items()
+                             if sk.startswith("world|" + day + "|") and isinstance(a, dict)
+                             and a.get("body"))
+            world_left = max(0, config.WORLD_DAILY_MAX - done_today)
+            print("  الحد اليومي: كُتب {} من {}".format(done_today, config.WORLD_DAILY_MAX))
+
+        for t in order:
             if limit is not None and attempts >= limit:
                 break
             if streak >= 3:
@@ -424,6 +438,10 @@ def main():
                 cached += 1
                 continue
 
+            if world_left is not None and world_left <= 0 and not stale:
+                skipped += 1          # الحد اليومي للإنجليزي اكتمل؛ يُرصد ولا يُكتب
+                continue
+
             attempts += 1
             try:
                 article = write_one(client, t, cname, is_en=is_en, country_key=key)
@@ -444,6 +462,8 @@ def main():
                     store[k] = article
                     written += 1
                     streak = 0
+                    if world_left is not None and not stale:
+                        world_left -= 1
                     print("  ✓ " + article["headline"])
                 else:
                     failed += 1

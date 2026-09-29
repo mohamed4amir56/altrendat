@@ -587,6 +587,27 @@ def fetch_with_retry(geo, tries=3):
     raise err
 
 
+_ES_WORDS = {"el", "la", "los", "las", "del", "y", "por", "para", "con", "contra", "ante",
+             "que", "se", "su", "sus", "una", "un", "es", "al", "más", "cómo", "qué", "tras"}
+_EN_WORDS = {"the", "and", "of", "to", "in", "for", "with", "on", "at", "is", "after",
+             "from", "as", "by", "his", "her", "their", "a", "an"}
+
+
+def spanish_sources(news):
+    """أغلب عناوين المصادر بالإسباني؟ بالكلمات الوظيفية لا بالحروف: «Saldaña»
+    و«González» أسماء في خبر إنجليزي، أما «el/la/contra/ante» فلغة الجملة."""
+    if not news:
+        return False
+    es = 0
+    for n in news:
+        words = re.findall(r"[a-záéíóúñü]+", (n.get("title") or "").lower())
+        s = sum(w in _ES_WORDS for w in words)
+        e = sum(w in _EN_WORDS for w in words)
+        if s >= 2 and s > e:
+            es += 1
+    return es * 2 > len(news)
+
+
 def person_ok(trend):
     """هل يُكتب عن هذا الاسم؟ (نعم/لا، السبب)
 
@@ -697,9 +718,17 @@ def build(country_key, cfg):
             t["reason"] = "مصادر غير كافية (أقل من خبرين حقيقيين)"
 
         # ترند صغير لا يستحق صفحة: يُرصد في الذاكرة ولا يُكتب عنه.
-        if t["publishable"] and t.get("traffic_num", 0) < config.MIN_TRAFFIC:
+        min_traffic = config.WORLD_MIN_TRAFFIC if country_key == "world" else config.MIN_TRAFFIC
+        if t["publishable"] and t.get("traffic_num", 0) < min_traffic:
             t["publishable"] = False
-            t["reason"] = "حجم بحث أقل من " + str(config.MIN_TRAFFIC)
+            t["reason"] = "حجم بحث أقل من " + str(min_traffic)
+
+        # النسخة الإنجليزية لا تكتب عن ترند مصادره بالإسباني: ترندات أمريكا فيها
+        # بحث الجالية اللاتينية، والكاتب نقل لغة المصادر فخرجت مقالات إسبانية.
+        if (country_key == "world" and t["publishable"]
+                and spanish_sources(sources.good_sources(t["news"]))):
+            t["publishable"] = False
+            t["reason"] = "مصادر بالإسباني — النسخة إنجليزية فقط"
 
         # النسخة العالمية تخدم أخبار تطبيق Goldex: سياسة واقتصاد فقط.
         if (country_key == "world" and t["publishable"] and config.WORLD_CATEGORIES

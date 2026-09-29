@@ -5,7 +5,7 @@
     "name_en": "Worldwide",
     "lang": "en",
     "flag": "🌐",
-    "generated_at": "2026-09-29T21:46:00.906159+00:00",
+    "generated_at": "2026-09-29T22:01:29.720512+00:00",
     "day": "2026-09-29",
     "trends": [
       {
@@ -13,9 +13,19 @@
         "traffic": "20000+",
         "traffic_num": 20000,
         "published": "Tue, 29 Sep 2026 14:00:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSDoOV1AFtvjLAw6bgGsoJwr3KhPDMLxFU3okB0jTP3L-Zlq0sYzRG27Yanwuk",
-        "image_source": "KOMO",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRhm8imy83VLGhFx1qS_ItBAKHDG6WkJiNfZ_Eybx8Ugjy0GpLtZALPacw0JVg",
+        "image_source": "The Seattle Times",
         "news": [
+          {
+            "title": "4.3 quake jolts Western Washington",
+            "url": "https://www.seattletimes.com/seattle-news/4-3-quake-jolts-western-washington/",
+            "source": "The Seattle Times",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRhm8imy83VLGhFx1qS_ItBAKHDG6WkJiNfZ_Eybx8Ugjy0GpLtZALPacw0JVg",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
+          },
           {
             "title": "Magnitude 4.2 quake hits Puget Sound area centered west-northwest of Gig Harbor",
             "url": "https://komonews.com/news/local/magnitude-43-quake-hits-puget-sound-area-centered-west-northwest-of-wauna-gig-harbor-belfair-key-peninula-shake-purdy-washington-pierce-county",
@@ -24,16 +34,6 @@
             "og_title": "Magnitude 4.2 quake hits Puget Sound area centered west-northwest of Gig Harbor",
             "og_desc": "A preliminary magnitude 4.2 earthquake struck the Puget Sound region Tuesday afternoon, according to initial earthquake reports.The quake was recorded at 2:05 p",
             "og_image": "https://komonews.com/resources/media2/16x9/413/1320/105x192/90/2884a05b-cd43-4804-afa5-c13160508391-d685f455e42e4198bd39fbb2099221f2.jpg",
-            "ok": true
-          },
-          {
-            "title": "Yes, that was an earthquake",
-            "url": "https://westseattleblog.com/2026/09/yes-that-was-an-earthquake-2/",
-            "source": "West Seattle Blog...",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR9Rf2k38Sxw7P-nqr2ZbvzAKL1PmtOkmItIOrYSKO6WmF-KWpRyxmGUHAXx-M",
-            "og_title": "Yes, that was an earthquake",
-            "og_desc": "We didn",
-            "og_image": "https://westseattleblog.com/blog/wp-content/uploads/2016/01/logo012016.jpg",
             "ok": true
           },
           {
@@ -51,7 +51,7 @@
         "category": "عام",
         "icon": "🌐",
         "color": "#9aa4b2",
-        "reason": "المصادر لا تذكر الموضوع — تحتاج مراجعة",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
         "publishable": false,
         "card": "cards/world-2026-09-29-earthquakes-today.png"
       },
@@ -103,41 +103,42 @@
         "card": "cards/world-2026-09-29-tsa.png"
       },
       {
-        "title": "mlb scores today",
-        "traffic": "2000+",
-        "traffic_num": 2000,
-        "published": "Tue, 29 Sep 2026 14:00:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRhA2tnNWrnV0K5GwmbM6EjDti4eBF1Wu8Y3N7o30CT7bxuloc2JbMWzTw5-tA",
-        "image_source": "ESPN",
+        "title": "astros score",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "published": "Tue, 29 Sep 2026 14:40:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTUmsttuwCEkjLxui94rXxuZHVkicisMN3fDDEj3EG3BD16iXC83vpGSuh2JTw",
+        "image_source": "The New York Times",
         "news": [
           {
-            "title": "Athletics' Zack Gelof sues Tigers after hitting metal fence",
-            "url": "https://www.espn.com/mlb/story/_/id/50059756/athletics-zack-gelof-sues-tigers-hitting-metal-fence",
-            "source": "ESPN",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRhA2tnNWrnV0K5GwmbM6EjDti4eBF1Wu8Y3N7o30CT7bxuloc2JbMWzTw5-tA",
+            "title": "A definitive ranking of all 12 teams in the Major League Baseball postseason - The Athletic",
+            "url": "https://www.nytimes.com/athletic/7642399/2026/09/29/mlb-postseason-teams-rankings/",
+            "source": "The New York Times",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTUmsttuwCEkjLxui94rXxuZHVkicisMN3fDDEj3EG3BD16iXC83vpGSuh2JTw",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
-            "ok": false
+            "ok": false,
+            "error": "HTTPError"
           },
           {
-            "title": "A's player Zack Gelof sues Tigers for damages after right knee slammed into Comerica Park fence",
-            "url": "https://lancasteronline.com/sports/mlb/as-player-zack-gelof-sues-tigers-for-damages-after-right-knee-slammed-into-comerica-park/article_2ca03b51-adc8-518d-a26f-ca5740ed735e.html",
-            "source": "LancasterOnline",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSapSbUqUG2DoTcpkvISPmM63HOpciWSYpysiXpuiRxdCvYeiLyipBbW1m9lS8",
-            "og_title": "A",
-            "og_desc": "Athletics utility player Zack Gelof has filed a lawsuit against the Detroit Tigers, Ilitch Holdings and the Detroit-Wayne County Stadium Authority for damages after his right knee slammed into a",
-            "og_image": "https://bloximages.newyork1.vip.townnews.com/lancasteronline.com/content/tncms/assets/v3/editorial/d/34/d347b434-75ca-53b0-8845-3a970800ff13/6abbebebddc12.image.jpg?crop=1763%2C926%2C0%2C125&resize=1200%2C630&order=crop%2Cresize",
+            "title": "Here's how the 2026 postseason teams were built",
+            "url": "https://www.mlb.com/news/how-the-2026-mlb-playoff-teams-were-built",
+            "source": "MLB.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS3rc7xzpM6-e4QbGSXNY0D0rhZV83s_CpPPHHEEE5JfPCh5KNqGMJW0mlU_W0",
+            "og_title": "Here's how the 2026 postseason teams were built",
+            "og_desc": "There’s more than one way to build a winning baseball club.\nYou can rely almost exclusively on homegrown talent, like the Guardians are doing this year with 16 players on their projected postseason roster coming from the Draft or international signing processes. You can be active traders like the Rays",
+            "og_image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/v1790713707/mlb/crinnh1hvz69yfgdl0yr.jpg",
             "ok": true
           },
           {
-            "title": "Athletics player sues Detroit Tigers after injury in July at Comerica Park",
-            "url": "https://www.fox2detroit.com/news/athletics-player-sues-detroit-tigers-after-injury-july-comerica-park",
-            "source": "FOX 2 Detroit",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTz94uvFT-Pl4Jd7jKFjwOhHyzycJFNGHqdp9lmKenRCZViLSIt-T1sQjg4iFA",
-            "og_title": "Athletics player sues Detroit Tigers after injury in July at Comerica Park",
-            "og_desc": "Zack Gelof, a 26-year-old player for the Athletics, has filed a 16-page lawsuit against the Tigers, Ilitch Holdings and the Detroit-Wayne County Stadium Authority.",
-            "og_image": "https://images.foxtv.com/static.fox2detroit.com/www.fox2detroit.com/content/uploads/2026/09/1200/630/gettyimages-2284800608.jpg?ve=1&tl=1",
+            "title": "Ranking the offenses of all 12 MLB playoff teams: Can anyone out-power the Cubs?",
+            "url": "https://www.cbssports.com/mlb/news/2026-mlb-playoffs-ranking-offenses/",
+            "source": "CBS Sports",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ842P_dTuiIKvOHmDU6qzLgmx2iTEFW6nKzJX5Kyotow138HBtDxKBdP5G1tw",
+            "og_title": "Ranking the offenses of all 12 MLB playoff teams: Can anyone out-power the Cubs?",
+            "og_desc": "Home runs play in the postseason, but slugging isn",
+            "og_image": "https://sportshub.cbsistatic.com/i/r/2026/09/28/8c088f6b-facd-42d1-b823-589a8ae43f13/thumbnail/1200x675/336d5b2e9a02dbb3dbd216c1399cca3a/pca-bregman-getty.png",
             "ok": true
           }
         ],
@@ -146,7 +147,7 @@
         "color": "#3ddc97",
         "reason": "حجم بحث أقل من 5000",
         "publishable": false,
-        "card": "cards/world-2026-09-29-mlb-scores-today.png"
+        "card": "cards/world-2026-09-29-astros-score.png"
       },
       {
         "title": "sox",
@@ -178,20 +179,21 @@
             "error": "HTTPError"
           },
           {
-            "title": "Yankees-Red Sox Preview + David Stearns Press Conference Takeaways | The Show Ep. 220",
-            "url": "https://nypost.com/video/yankees-red-sox-preview-david-stearns-press-conference-takeaways-the-show-ep-220/",
-            "source": "New York Post",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQLNztoq3dKvsLb9RLk0x1Z5Kp9ckwnsGcZMt5ouZfKNVO2pB83Hn2CDOc93cg",
-            "og_title": "Yankees-Red Sox Preview + David Stearns Press Conference Takeaways | The Show Ep. 220",
-            "og_desc": "On a new episode of “The Show,” Joel Sherman & Jon Heyman preview the Yankees-Red Sox Wild Card Series. What are the challenges the Red Sox present for the Yankees? What are the Yan…",
-            "og_image": "https://nypost.com/wp-content/uploads/sites/2/2026/09/wp_66a4c8.jpg?quality=90&strip=all&w=1200",
-            "ok": true
+            "title": "Yankees, Red Sox Wild Card Series rosters: Giancarlo Stanton, Aaron Judge, Garrett Crochet decisions in",
+            "url": "https://www.nj.com/yankees/2026/09/yankees-red-sox-wild-card-series-rosters-giancarlo-stanton-aaron-judge-gerrett-crochet-decisions-in.html",
+            "source": "NJ.com",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe6JHSRfDg5SKqEv9hVXcCyUWkmbkOaNkft0BpF6_BU_mIZLT--iSjdVRjtxg",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
           }
         ],
         "category": "رياضة",
         "icon": "⚽",
         "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 5000",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
         "publishable": false,
         "card": "cards/world-2026-09-29-sox.png"
       },
@@ -229,9 +231,9 @@
             "url": "https://www.si.com/nfl/packers/onsi/packers-hosting-former-wisconsin-badger-on-a-free-agent-visit",
             "source": "Sports Illustrated",
             "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmKO5318RB725q_jcEmkkDEqAKJYmHPdud2bpLBqtW275h-TRjM1yzmjgUnAk",
-            "og_title": "Packers Hosting Former Wisconsin Badger on a Free Agent Visit",
+            "og_title": "Packers Host Veteran Guard Kevin Zeitler on Free-Agent Visit; Here’s How He’d Fit",
             "og_desc": "Better late than never? The Green Bay Packers are continuing to look into ways to bolster their offensive line. Veteran guard Laken Tomlinson was signed off the",
-            "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_7525,h_4232/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/packer_central/01m3qh1qevncm1rdtwhk.jpg",
+            "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_307,w_1488,h_837/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/packer_central/01m3qjbcyd8exayxbdw2.jpg",
             "ok": true
           }
         ],
@@ -259,7 +261,7 @@
             "og_desc": "",
             "og_image": "",
             "ok": false,
-            "error": "HTTPError"
+            "error": "RemoteDisconnected"
           },
           {
             "title": "Lady A singer Charles Kelley reveals he's been diagnosed with rare blood cancer",
@@ -332,37 +334,37 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "published": "Tue, 29 Sep 2026 14:00:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRl3HhEBfkfADGPQRvlCHJ9P5plCigR2DRoT0ZFhpxyTa4lCyOwe92e2ZoNT_k",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ2xEbe0r7zqfc1LFjKxxyqqRW7QRApL18ussfi4Jxj_3RPztQtx5TPJnHfYlA",
         "image_source": "Yahoo Sports",
         "news": [
           {
-            "title": "Vikings bolster depth with former Saints RB Devin Neal",
-            "url": "https://sports.yahoo.com/articles/vikings-bolster-depth-former-saints-210734710.html",
+            "title": "Recently-cut Saints RB signs with one of their next opponents",
+            "url": "https://sports.yahoo.com/articles/recently-cut-saints-rb-signs-212155969.html",
             "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRl3HhEBfkfADGPQRvlCHJ9P5plCigR2DRoT0ZFhpxyTa4lCyOwe92e2ZoNT_k",
-            "og_title": "Vikings bolster depth with former Saints RB Devin Neal",
-            "og_desc": "Minnesota has added an intriguing option to its running back room.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/ced45e7b3fb715d778b1a7cfa26890b572a57659ecd6622aa7d955b60025f4c0/lightyear_networkapi/resizefill_w1200_h630%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbringmethesports_121%2F84c5784ad0b4357989e6678781168bae.jpg",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ2xEbe0r7zqfc1LFjKxxyqqRW7QRApL18ussfi4Jxj_3RPztQtx5TPJnHfYlA",
+            "og_title": "Recently-cut Saints RB signs with one of their next opponents",
+            "og_desc": "Devin Neal's hamstring must be feeling better. He's signing with the Minnesota Vikings just two weeks before they visit the New Orleans Saints.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/e882cdbbbdb4feb99ac8cab0771f8c83fc5ed771b58d14c20f171f3b6125a63d/lightyear_networkapi/resizefill_w1200_h630%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnew_orleans_saints_wire_usa_today_sports_articles_211%2F737f193bb4bcea2856c5aea3ba36fdb8.jpg",
             "ok": true
           },
           {
-            "title": "Recently-cut Saints RB signs with one of their next opponents",
-            "url": "https://saintswire.usatoday.com/story/sports/nfl/saints/2026/09/29/vikings-sign-former-saints-draft-pick-devin-neal-injury/92011379007/",
-            "source": "Saints Wire",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0VZYGvIP4xx-F8qp6_jlz6Mm97sL8e-I5PcBM9bIx4k45K24JlT0DdLpNY4U",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
+            "title": "Vikings Signing RB Devin Neal",
+            "url": "https://nfltraderumors.co/vikings-signing-rb-devin-neal/",
+            "source": "NFLTradeRumors.co",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR2J8RfDzkYLfVOoQFrSAY5kqmT2ruFMOVDrfcsVZfDwHZHo6Zij9u5Nb1RMFw",
+            "og_title": "Vikings Signing RB Devin Neal",
+            "og_desc": "Jordan Schultz reports the Vikings are signing RB Devin Neal to a contract. Neal, 23, was a sixth-round pick by the Saints in the 2025 NFL Draft out of Kansas. He signed a four-year, $4,451,312",
+            "og_image": "https://i0.wp.com/nfltraderumors.co/wp-content/uploads/2025/12/USATSI_27817217_168383805_lowres.jpg?fit=2500%2C1666&ssl=1",
+            "ok": true
           },
           {
-            "title": "Vikings Tried Out Nine Free Agents",
-            "url": "https://nfltraderumors.co/vikings-tried-out-nine-free-agents/",
-            "source": "NFLTradeRumors.co",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRwESge0wgiidRA24uCFGJy8XA5-_GtX8AM6TyklQNmWRuAoBJQCFL6SEn_jsk",
-            "og_title": "Vikings Tried Out Nine Free Agents",
-            "og_desc": "The Minnesota Vikings officially hosted nine free agents for workouts on Tuesday, according to the NFL transactions wire. The full list includes: DE Keshawn Banks NT Jahmeer Carter TE Devin Culp RB Audric Estime C",
-            "og_image": "https://i0.wp.com/nfltraderumors.co/wp-content/uploads/2024/12/USATSI_25004192_168383805_lowres-scaled.jpg?fit=1717%2C1080&ssl=1",
+            "title": "Minnesota Vikings add intriguing piece on offense who compares directly to an offensive starter",
+            "url": "https://atozsports.com/nfl/minnesota-vikings-news/minnesota-vikings-add-rb-devin-neal-practice-squad-aaron-jones-comparison/",
+            "source": "A to Z Sports",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJVBgPIu8SUzzt4qdAAHqhCT8-rI7KsNvOrmXrHa5lXaEj3sAWfz4uPm3J3EQ",
+            "og_title": "Minnesota Vikings add intriguing piece on offense who compares directly to an offensive starter",
+            "og_desc": "The running back position is a difficult one for the Minnesota Vikings, and they are taking multiple swings to fortify it.",
+            "og_image": "https://atozsports.com/wp-content/uploads/2026/09/2025-12-14T230224Z_1161706833_MT1USATODAY27817234_RTRMADP_3_NFL-CAROLINA-PANTHERS-AT-NEW-ORLEANS-SAINTS-scaled.jpg",
             "ok": true
           }
         ],
@@ -406,10 +408,8 @@
             "url": "https://nhlrumors.com/nhl-rumors-buffalo-sabres-new-york-rangers-and-the-leo-carlsson-pursuit/2026/09/25/",
             "source": "NHLRumors.com",
             "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSo06nv2nrP_mjGyG5roHqAXLIp7MMyJ4Mv7hQq7zYKwGmSSExV1GkPaB6uHRs",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
+            "ok": false,
+            "error": "Timeout"
           }
         ],
         "category": "رياضة",
@@ -473,25 +473,25 @@
     "name_en": "Egypt",
     "lang": "ar",
     "flag": "🇪🇬",
-    "generated_at": "2026-09-29T21:46:05.754285+00:00",
+    "generated_at": "2026-09-29T22:01:32.672365+00:00",
     "day": "2026-09-30",
     "trends": [
       {
         "title": "إسبانيا ضد كرواتيا",
-        "traffic": "+40000",
-        "traffic_num": 40000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "published": "Tue, 29 Sep 2026 10:50:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTAUfDzlo9i7QmJZxYCi4gdohs5QYWTQETh0Wy8byMqA1CFkJ8B1SMX8JX_EKA",
-        "image_source": "Kooora",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTm2bdPox8HqGR4zDw4Yqj9nmka1sQqEExSScSFo-Kh_fBs3IynTpHHeWujduA",
+        "image_source": "اليوم السابع",
         "news": [
           {
-            "title": "فيديو: ليلة استثنائية ليامال.. إسبانيا تدك حصون كرواتيا برباعية وتغرد في الصدارة",
-            "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%84%D9%8A%D9%84%D8%A9-%D8%A7%D8%B3%D8%AA%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A%D8%A9-%D9%84%D9%8A%D8%A7%D9%85%D8%A7%D9%84--%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-%D8%AA%D8%AF%D9%83-%D8%AD%D8%B5%D9%88%D9%86-%D9%83%D8%B1%D9%88%D8%A7%D8%AA%D9%8A%D8%A7-%D9%88%D8%AA%D8%BA%D8%B1%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9/blt892701c06628121c",
-            "source": "Kooora",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTAUfDzlo9i7QmJZxYCi4gdohs5QYWTQETh0Wy8byMqA1CFkJ8B1SMX8JX_EKA",
-            "og_title": "فيديو: ليلة استثنائية ليامال.. إسبانيا تدك حصون كرواتيا برباعية وتغرد في الصدارة | كووورة",
-            "og_desc": "واصلت إسبانيا توهجها بتحقيق فوز جديد، وجاء على حساب كرواتيا، بنتيجة 3/1، في اللقاء الذي جمعهما مساء اليوم الثلاثاء، بملعب رامون سانشيز بيزخوان في مدينة إشبيلية،  ضمن الجولة الثانية لدور المجموعات بدوري الأمم الأوروبية.",
-            "og_image": "https://assets.kooora.com/images/v3/getty-2297228475/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2297228475.jpg",
+            "title": "استبعاد 4 لاعبين من قائمة إسبانيا لمواجهة كرواتيا فى قمة دورى الأمم",
+            "url": "https://www.youm7.com/story/2026/9/29/%D8%A7%D8%B3%D8%AA%D8%A8%D8%B9%D8%A7%D8%AF-4-%D9%84%D8%A7%D8%B9%D8%A8%D9%8A%D9%86-%D9%85%D9%86-%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D9%83%D8%B1%D9%88%D8%A7%D8%AA%D9%8A%D8%A7-%D9%81%D9%89-%D9%82%D9%85%D8%A9/7561537",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTm2bdPox8HqGR4zDw4Yqj9nmka1sQqEExSScSFo-Kh_fBs3IynTpHHeWujduA",
+            "og_title": "استبعاد 4 لاعبين من قائمة إسبانيا لمواجهة كرواتيا فى قمة دورى الأمم - اليوم السابع",
+            "og_desc": "أعلن لويس دي لا فوينتي مدرب منتخب إسبانيا، قائمة الماتدور لمواجهة كرواتيا، في المباراة المقرر إقامتها في العاشرة إلا ربع مساء اليوم.",
+            "og_image": "https://img.youm7.com/xlarge/202510111129242924.jpg",
             "ok": true
           },
           {
@@ -514,26 +514,6 @@
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
-          },
-          {
-            "title": "Spain 4-1 Croatia (Sep 29, 2026) Game Analysis",
-            "url": "https://www.espn.com/soccer/report/_/gameId/401861084",
-            "source": "ESPN",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTllNG1dTdMI5i4nAR-ZXi2eGutDjQr4EeES6rRbuv2tBd2vo8MA05XrFcDu5E",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
-          },
-          {
-            "title": "Spain vs Croatia Highlights ⚽ UEFA Nations League",
-            "url": "https://www.foxsports.com/watch/fmc-kkhz5ewp853v9csm",
-            "source": "FOX Sports",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThpN19xwE-nndpPgWtlb6ziq12if92ae4qXCMDk8otpN0VeH41oH3E81Peh8s",
-            "og_title": "Spain vs Croatia Highlights ⚽ UEFA Nations League",
-            "og_desc": "Check out the full game highlights from Lamine Yamal and Spain as they took on Croatia in the 2026 UEFA Nations League!",
-            "og_image": "https://a57.foxsports.com/static-media.fox.com/fmc/prod/sports/VX-17046138/1280/720/58jzr8syx3ic0drl.jpg?ve=1&tl=1",
-            "ok": true
           }
         ],
         "category": "دول وأماكن",
@@ -793,44 +773,44 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "published": "Tue, 29 Sep 2026 11:10:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSPfPwnRIcpeJuSmZwIHhQmKj2aM0fkdgdLcfvBzhUc01tQYmflqX3yp76SCI",
-        "image_source": "Goal.com",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRB-1SU4lpSXYE-IfOhdX7nTpPSinWJH-FBagPMrLDLcDkqgdxCpjOSTv0J4g4",
+        "image_source": "اليوم السابع",
         "news": [
+          {
+            "title": "سويسرا تضرب إسكتلندا بثلاثية وتتصدر مجموعتها في دوري الأمم الأوروبية",
+            "url": "https://www.youm7.com/story/2026/9/30/%D8%B3%D9%88%D9%8A%D8%B3%D8%B1%D8%A7-%D8%AA%D8%B6%D8%B1%D8%A8-%D8%A5%D8%B3%D9%83%D8%AA%D9%84%D9%86%D8%AF%D8%A7-%D8%A8%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A9-%D9%88%D8%AA%D8%AA%D8%B5%D8%AF%D8%B1-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%AA%D9%87%D8%A7-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9/7562308",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRB-1SU4lpSXYE-IfOhdX7nTpPSinWJH-FBagPMrLDLcDkqgdxCpjOSTv0J4g4",
+            "og_title": "سويسرا تضرب إسكتلندا بثلاثية وتتصدر مجموعتها في دوري الأمم الأوروبية - اليوم السابع",
+            "og_desc": "حقق منتخب سويسرا فوزًا كبيرًا على مضيفه إسكتلندا بثلاثة أهداف دون رد، في المباراة التي جمعتهما مساء الثلاثاء، على ملعب هامبدن بارك، ضمن منافسات الجولة الثانية من دور المجموعات ببطولة دوري الأمم الأوروبية.",
+            "og_image": "https://img.youm7.com/xlarge/2026070802000303_22650.jpg",
+            "ok": true
+          },
+          {
+            "title": "سويسرا تكتسح اسكتلندا أمام جماهيرها بثلاثية في دوري الأمم الأوروبية",
+            "url": "https://www.yallakora.com/uefa-nations-league/3025/news/567644/%D8%B3%D9%88%D9%8A%D8%B3%D8%B1%D8%A7-%D8%AA%D9%83%D8%AA%D8%B3%D8%AD-%D8%A7%D8%B3%D9%83%D8%AA%D9%84%D9%86%D8%AF%D8%A7-%D8%A3%D9%85%D8%A7%D9%85-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1%D9%87%D8%A7-%D8%A8%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9",
+            "source": "يلاكورة",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSUCSf1fFzrapi8uLbNrqL43gcYYkVI292piU7ti0a1s6huDXmif4I-CMUMzS8",
+            "og_title": "نتائج أبرز مباريات اليوم في دوري الأمم الأوروبية",
+            "og_desc": "تغلب منتخب سويسرا على مضيفه، اسكتلندا، بثلاثة أهداف دون رد، في المباراة التي جمعت الفريقين، مساء الثلاثاء، لحساب منافسات الجولة الثانية من دور المجموعات لبطولة دوري الأمم الأوروبية",
+            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/7/3/gettyimages-2284418572-612x6122026_7_3_7_44.webp",
+            "ok": true
+          },
           {
             "title": "كيفية الحصول على تذاكر سويسرا ضد سلوفينيا: أسعار دوري الأمم الأوروبية B، معلومات المباراة، المبيعات في اللحظات الأخيرة والمزيد",
             "url": "https://www.goal.com/ar/%D8%A7%D9%84%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D8%A7%D9%84%D8%B3%D9%81%D8%B1/%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9/%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%84-%D8%B9%D9%84%D9%89-%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D8%B3%D9%88%D9%8A%D8%B3%D8%B1%D8%A7-%D8%B6%D8%AF-%D8%B3%D9%84%D9%88%D9%81%D9%8A%D9%86%D9%8A%D8%A7-%D8%A7%D9%94%D8%B3%D8%B9%D8%A7%D8%B1-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9-b-%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D9%84%D8%AD%D8%B8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D9%8A%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF/A~blt3c8362639eb278fe",
             "source": "Goal.com",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSPfPwnRIcpeJuSmZwIHhQmKj2aM0fkdgdLcfvBzhUc01tQYmflqX3yp76SCI",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2caLw17wkcv89BVDLMcKU8ANrta9qSclrU4PkHkJ_o5ahSlflMU1nb6fw1AQ",
             "og_title": "كيفية الحصول على تذاكر سويسرا ضد سلوفينيا: أسعار دوري الأمم الأوروبية - المستوى الثاني، ومعلومات المباراة، والمبيعات في اللحظات الأخيرة والمزيد | العربية Goal.com",
             "og_desc": "يقدم GOAL كل ما تحتاج إلى معرفته عن شراء تذاكر مباراة سويسرا ضد سلوفينيا، بما في ذلك أسعار التذاكر والمعلومات الخاصة بها وأماكن شرائها.",
             "og_image": "https://assets.goal.com/images/v3/9D65wsv9SA18EDYv0W08N_DESKTOP/image.jpg",
-            "ok": true
-          },
-          {
-            "title": "كيفية الحصول على تذاكر مباراة اسكتلندا ضد مقدونيا الشمالية: أسعار دوري الأمم الأوروبية - المستوى الثاني، ومعلومات المباراة، والمبيعات في اللحظات الأخيرة والمزيد",
-            "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%84-%D8%B9%D9%84%D9%89-%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D8%B3%D9%83%D8%AA%D9%84%D9%86%D8%AF%D8%A7-%D8%B6%D8%AF-%D9%85%D9%82%D8%AF%D9%88%D9%86%D9%8A%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%94%D8%B3%D8%B9%D8%A7%D8%B1-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9-b-%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D9%84%D8%AD%D8%B8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D9%8A%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF/blt3286900439da08e2",
-            "source": "Kooora",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxt46JtoRAmATVwZq3BOGk3uZuD05JnXqqWsmiR9fTU6EbraRASUKtJa7jj_o",
-            "og_title": "كيفية الحصول على تذاكر مباراة اسكتلندا ضد مقدونيا الشمالية: أسعار دوري الأمم الأوروبية - المستوى الثاني، ومعلومات المباراة، والمبيعات في اللحظات الأخيرة والمزيد | كووورة",
-            "og_desc": "يقدّم GOAL كل ما تحتاج إلى معرفته عن شراء تذاكر مباراة اسكتلندا ضد مقدونيا الشمالية، بما في ذلك أسعار التذاكر، والمعلومات، وأماكن الشراء.",
-            "og_image": "https://assets.kooora.com/images/v3/MfpSQxweu6SVHarA_gfP2_DESKTOP/image.jpg",
-            "ok": true
-          },
-          {
-            "title": "كيفية الحصول على تذاكر اسكتلندا ضد سويسرا: أسعار دوري الأمم الأوروبية، معلومات المباراة، المبيعات في اللحظات الأخيرة والمزيد",
-            "url": "https://www.goal.com/ar/%D8%A7%D9%84%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D8%A7%D9%84%D8%B3%D9%81%D8%B1/%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9/%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%84-%D8%B9%D9%84%D9%89-%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D8%A7%D8%B3%D9%83%D8%AA%D9%84%D9%86%D8%AF%D8%A7-%D8%B6%D8%AF-%D8%B3%D9%88%D9%8A%D8%B3%D8%B1%D8%A7-%D8%A7%D9%94%D8%B3%D8%B9%D8%A7%D8%B1-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9-%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D9%84%D8%AD%D8%B8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D9%8A%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF/A~bltc97191a2aadffe9b",
-            "source": "Goal.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXrRDL3Qsw2VSflWczIkpkNHd2VQ8oT5aFAx8GEKBz0xQcZDPMmsLiiBEwPfo",
-            "og_title": "كيفية الحصول على تذاكر اسكتلندا ضد سويسرا: أسعار دوري الأمم الأوروبية، معلومات المباراة، المبيعات في اللحظات الأخيرة والمزيد | العربية Goal.com",
-            "og_desc": "يستعرض GOAL كل ما تحتاج إلى معرفته عن شراء تذاكر مباراة اسكتلندا ضد سويسرا على ملعب هامبدن بارك في غلاسكو، بما في ذلك أسعار التذاكر والمعلومات وأماكن الشراء.",
-            "og_image": "https://assets.goal.com/images/v3/getty-2282420636/crop/MM5DENZQGQ5DCNJSGE5G433XMU5DMOJYHIZDONY=/GettyImages-2282420636.jpg",
             "ok": true
           }
         ],
         "category": "شخصية",
         "icon": "👤",
         "color": "#ffd166",
-        "reason": "شخصية: 2 مصادر تذكر الاسم بلا ألفاظ حسّاسة",
+        "reason": "شخصية: 3 مصادر تذكر الاسم بلا ألفاظ حسّاسة",
         "publishable": true,
         "person": true,
         "article": {
@@ -999,13 +979,13 @@
             "ok": true
           },
           {
-            "title": "Somalia vs Ivory Coast AFCON Qualifier prediction: Match preview, team news, key stats & h2h",
-            "url": "https://blog.ke.sportpesa.com/2026/09/28/somalia-vs-ivory-coast-afcon-qualifier-prediction-match-preview-team-news-key-stats-h2h/",
+            "title": "Somalia vs Ivory Coast: AFCON 2027 Qualifier, Team News & Match Guide",
+            "url": "https://blog.ke.sportpesa.com/2026/09/29/somalia-vs-ivory-coast/",
             "source": "SportPesa Blog",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRXrvH98qmN0rFKo1f-X0KFsb9rPeAfW1JqnXqh6yNA-BJgp1hPWQTU2B1cH6M",
-            "og_title": "Somalia vs Ivory Coast AFCON Qualifier prediction: Match preview, team news, key stats & h2h - Kenya's sports news, betting and casino updates | SportPesa Kenya blog",
-            "og_desc": "Ivory Coast are looking to make it two consecutive 2027 Africa Cup of Nations qualifier wins when they take on Somalia in their second Group C game on Tuesday evening.",
-            "og_image": "https://i0.wp.com/blog.ke.sportpesa.com/wp-content/uploads/2026/09/AFP__20260924__C9BJ4G3__v1__HighRes__FblCaf2027QualifierCivGha.jpg",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY7N1JGdMg-6SARtvr_UesYbBwSW84sjvD0VVDq0F2R9Q-fHv0stF_BErzJXk",
+            "og_title": "Somalia vs Ivory Coast: H2H, Stats, Lineups & AFCON Guide | SportPesa",
+            "og_desc": "Explore Somalia vs Ivory Coast team news, lineups, stats, results, Group C standings and AFCON 2027 qualifier information, with football updates from SportPesa.",
+            "og_image": "https://i0.wp.com/blog.ke.sportpesa.com/wp-content/uploads/2026/09/a2qws.webp",
             "ok": true
           },
           {
@@ -1071,6 +1051,52 @@
         "reason": "حجم بحث أقل من 500",
         "publishable": false,
         "card": "cards/eg-2026-09-30-scotland-vs-switzerland.png"
+      },
+      {
+        "title": "برلمان",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Tue, 29 Sep 2026 14:50:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRpWZSJK76X7zDBquWFvVhmTcVzbm_KEGgLCFgRnlE6lfD1OypkIkBMm6jOt5k",
+        "image_source": "اليوم السابع",
+        "news": [
+          {
+            "title": "بدعوة من رئيس الجمهورية.. مجلس النواب يعقد جلسة طارئة غدًا الأربعاء",
+            "url": "https://www.youm7.com/story/2026/9/29/%D8%A8%D8%AF%D8%B9%D9%88%D8%A9-%D9%85%D9%86-%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D9%86%D9%88%D8%A7%D8%A8-%D9%8A%D8%B9%D9%82%D8%AF-%D8%AC%D9%84%D8%B3%D8%A9-%D8%B7%D8%A7%D8%B1%D8%A6%D8%A9-%D8%BA%D8%AF%D9%8B%D8%A7/7562211",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRpWZSJK76X7zDBquWFvVhmTcVzbm_KEGgLCFgRnlE6lfD1OypkIkBMm6jOt5k",
+            "og_title": "بدعوة من رئيس الجمهورية.. مجلس النواب يعقد جلسة طارئة غدًا الأربعاء - اليوم السابع",
+            "og_desc": "يعقد مجلس النواب جلسة طارئة غدا الأربعاء 30 سبتمبر 2026، في تمام الساعة 11 صباحا، وذلك بناء على قرار صادر اليوم من رئيس الجمهورية بدعوة المجلس للانعقاد.",
+            "og_image": "https://img.youm7.com/xlarge/20260622123906396_12604.jpg",
+            "ok": true
+          },
+          {
+            "title": "الرئيس السيسي يدعو مجلس النواب لعقد جلسة طارئة غدا",
+            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=29092026&id=78f38d97-23ac-467f-9d33-b83143088ebc",
+            "source": "بوابة الشروق",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRvDS0tK68SAdvmnROyNhKfyulx3aZopd6dg_qQ_alJ9iSy8tKW24B3e42H0DQ",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/23ي2صي23بؤ2333333333333333333333333333333333333.JPG",
+            "ok": false
+          },
+          {
+            "title": "جلسة البرلمان الطارئة.. مدبولي في مجلس النواب غداً",
+            "url": "https://www.masrawy.com/news/news_egypt/details/2026/9/29/3055687/%D8%AC%D9%84%D8%B3%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%B7%D8%A7%D8%B1%D8%A6%D8%A9-%D9%85%D8%AF%D8%A8%D9%88%D9%84%D9%8A-%D9%81%D9%8A-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D9%86%D9%88%D8%A7%D8%A8-%D8%BA%D8%AF%D8%A7-",
+            "source": "Masrawy",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9LPWSPMgoeCQbYZ3SXZeShV37D-AzG4aWMEwKI3yfQlkoKrKOx-KYkwd_xbI",
+            "og_title": "مصادر: مدبولي يزور مجلس النواب بالتزامن مع جلسة طارئة | مصراوي",
+            "og_desc": "كشفت مصادر عن زيارة مرتقبة لمصطفى مدبولي إلى مجلس النواب غدا الأربعاء بالتزامن مع جلسة طارئة تسبق افتتاح دور الانعقاد العادي الثاني المقرر الخميس المقبل | مصراوي",
+            "og_image": "https://media.gemini.media/img/large/2026/7/28/2026_7_28_14_57_59_686.webp",
+            "ok": true
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "شخصية لا يرد اسمها في مصدرين",
+        "publishable": false,
+        "card": "cards/eg-2026-09-30-برلمان.png"
       }
     ]
   },
@@ -1080,7 +1106,7 @@
     "name_en": "Saudi Arabia",
     "lang": "ar",
     "flag": "🇸🇦",
-    "generated_at": "2026-09-29T21:46:11.377922+00:00",
+    "generated_at": "2026-09-29T22:01:43.220189+00:00",
     "day": "2026-09-30",
     "trends": [
       {
@@ -1088,24 +1114,24 @@
         "traffic": "50000+",
         "traffic_num": 50000,
         "published": "Tue, 29 Sep 2026 12:10:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSOGUVEhN6An_iDI5LtIZfCD_FMC3OEMkQ29G2ezwZLNWCSSFXRWgjRMNPgGNQ",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVv3M-UYa3_i5gQzhuBlN0b90YR2nBvt6x6IMXc1Qygceyfyh-OX2GYsnznvU",
         "image_source": "Kooora",
         "news": [
           {
-            "title": "فوز خارج الملعب.. القرعة تنصر منتخب عمان على العراق وتؤهله لنصف نهائي خليجي 27",
-            "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%88%D8%B2-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D9%84%D9%85%D9%84%D8%B9%D8%A8--%D8%A7%D9%84%D9%82%D8%B1%D8%B9%D8%A9-%D8%AA%D9%86%D8%B5%D8%B1-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%B9%D9%85%D8%A7%D9%86-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D9%88%D8%AA%D9%88%D9%94%D9%87%D9%84%D9%87-%D9%84%D9%86%D8%B5%D9%81-%D9%86%D9%87%D8%A7%D9%8A%D9%94%D9%8A-%D8%AE%D9%84%D9%8A%D8%AC%D9%8A-27/blte4467376157ec530",
+            "title": "خالف لوائح الفيفا.. هل ظلم اتحاد الخليج منتخب العراق بقرعة عمان؟",
+            "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AE%D8%A7%D9%84%D9%81-%D9%84%D9%88%D8%A7%D9%8A%D9%94%D8%AD-%D8%A7%D9%84%D9%81%D9%8A%D9%81%D8%A7--%D9%87%D9%84-%D8%B8%D9%84%D9%85-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D8%A8%D9%82%D8%B1%D8%B9%D8%A9-%D8%B9%D9%85%D8%A7%D9%86/blt69f959d65e9e5ac1",
             "source": "Kooora",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSOGUVEhN6An_iDI5LtIZfCD_FMC3OEMkQ29G2ezwZLNWCSSFXRWgjRMNPgGNQ",
-            "og_title": "فوز خارج الملعب.. القرعة تنصر منتخب عمان على العراق وتؤهله لنصف نهائي خليجي 27 | كووورة",
-            "og_desc": "حسمت القرعة تأهل منتخب عمان إلى الدور نصف النهائي من بطولة كأس الخليج العربي في نسختها السابعة والعشرين \"خليجي 27\"، على حساب نظيره العراقي.",
-            "og_image": "https://assets.kooora.com/images/v3/getty-2245846409/crop/MM5DIOBYGE5DENZUGY5G433XMU5DAORSGU2A====/GettyImages-2245846409.jpg",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVv3M-UYa3_i5gQzhuBlN0b90YR2nBvt6x6IMXc1Qygceyfyh-OX2GYsnznvU",
+            "og_title": "خالف لوائح الفيفا.. هل ظلم اتحاد الخليج منتخب العراق بقرعة عمان؟ | كووورة",
+            "og_desc": "واقعة فريدة شهدتها النسخة السابعة والعشرون من بطولة كأس الخليج العربي \"خليجي 27\"، بعدما تم حسم المتأهل الثاني من المجموعة الأولى للدور نصف النهائي رفقة السعودية عن طريق القرعة.",
+            "og_image": "https://assets.kooora.com/images/v3/getty-2245843595/crop/MM5DIMBZG45DEMZQGU5G433XMU5DAORSGEZQ====/GettyImages-2245843595.jpg",
             "ok": true
           },
           {
             "title": "4 منتخبات ضمنت تأهلها إلى نصف نهائي \"خليجي 27\".. فمن هي؟",
             "url": "https://arabic.cnn.com/sport/article/2026/09/29/saudi-arabia-iraq-qatar-uae-gulf-cup",
             "source": "CNN Arabic",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSFWut6lWiMlbBQytw4-5Wz_LCDniLiavP1iK8tOivaq_Mf3dLjytCgQFYKSHg",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRuNUelDXXiDKxabytzo7nwoyHJiIbmrf2G_yQ9KDtqhmYEILmbRoa-Z8gcUVw",
             "og_title": "4 منتخبات ضمنت تأهلها إلى نصف نهائي \"خليجي 27\".. فمن هي؟ | CNN Arabic | CNN",
             "og_desc": "",
             "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/345569.jpg?c=16x9&q=w_800,c_fill",
@@ -1179,45 +1205,45 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "published": "Tue, 29 Sep 2026 12:40:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRbL11kWH2X5uBGRJW5ZTTDzZNygtShl2MBrdEOSuJh_N1ScGhsWyEqk6d4BF8",
-        "image_source": "العربية",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRl0UmdEUVTJRu_eYFyMTPVPAaYddLoYqVPS3ecneYEZfbiHqdUWPWvCe9XKKQ",
+        "image_source": "Kooora",
         "news": [
           {
-            "title": "مبابي ينجو من إصابة كانت ستنهي موسمه",
-            "url": "https://www.alarabiya.net/sport/2026/09/29/%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%8A%D9%86%D8%AC%D9%88-%D9%85%D9%86-%D8%A7%D8%B5%D8%A7%D8%A8%D8%A9-%D9%83%D8%A7%D9%86%D8%AA-%D8%B3%D8%AA%D9%86%D9%87%D9%8A-%D9%85%D9%88%D8%B3%D9%85%D9%87",
+            "title": "عاجل.. رابطة البريميرليج تعلن رسميًا إدانة مانشستر سيتي في مخالفات مالية خطيرة | كووورة",
+            "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B9%D8%A7%D8%AC%D9%84--%D8%B1%D8%A7%D8%A8%D8%B7%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D8%B1%D9%84%D9%8A%D8%AC-%D8%AA%D8%B9%D9%84%D9%86-%D8%B1%D8%B3%D9%85%D9%8A%D9%8B%D8%A7-%D8%A7%D9%95%D8%AF%D8%A7%D9%86%D8%A9-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%81%D9%8A-%D9%85%D8%AE%D8%A7%D9%84%D9%81%D8%A7%D8%AA-%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AE%D8%B7%D9%8A%D8%B1%D8%A9/bltbe70ce2ce395b186",
+            "source": "Kooora",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRl0UmdEUVTJRu_eYFyMTPVPAaYddLoYqVPS3ecneYEZfbiHqdUWPWvCe9XKKQ",
+            "og_title": "عاجل.. رابطة البريميرليج تعلن رسميًا إدانة مانشستر سيتي في مخالفات مالية خطيرة | كووورة",
+            "og_desc": "أعلنت رابطة الدوري الإنجليزي الممتاز أن لجنة مستقلة أدانت مانشستر سيتي بارتكاب جميع المخالفات المتعلقة بخرق قواعد المسابقة المالية على مدار 9 مواسم، بين 2009/10 و2017/18، إلى جانب إدانته بثلاثة من أصل أربعة اتهامات تتعلق بعدم التعاون مع تحقيق الرابطة.",
+            "og_image": "https://assets.kooora.com/images/v3/getty-2296159693/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2296159693.jpg",
+            "ok": true
+          },
+          {
+            "title": "\"لم نفعل ما يكفي\".. روني يرفض لقب السيتي بأثر رجعي",
+            "url": "https://www.aljazeera.net/sport/2026/9/29/%D9%88%D8%A7%D9%8A%D9%86-%D8%B1%D9%88%D9%86%D9%8A-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%8A%D9%88%D9%86%D8%A7%D8%AA%D9%8A%D8%AF-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A",
+            "source": "الجزيرة نت",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQuQ9UCj8lODvBNKARC4A76sbsWrI_lRMz6M52Kfm6W8RRRFu_fgXEsShSujlo",
+            "og_title": "\"لم نفعل ما يكفي\".. روني يرفض لقب السيتي بأثر رجعي",
+            "og_desc": "تتوالى تداعيات قضية التهم المنسوبة لنادي مانشستر سيتي، مع تصاعد الأصوات والتصريحات الداعمة لقرار تجريد سيتي من ألقابه، وتلك المتضامنة مع الفريق.",
+            "og_image": "https://www.aljazeera.net/wp-content/uploads/2026/09/getty_6abbda1161-1790695953.jpg?resize=1920%2C1440",
+            "ok": true
+          },
+          {
+            "title": "الدوري الإنجليزي يدين سيتي بانتهاكات مالية جسيمة.. والنادي يرد",
+            "url": "https://www.alarabiya.net/sport/2026/09/29/%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-%D9%8A%D8%AF%D9%8A%D9%86-%D8%B3%D9%8A%D8%AA%D9%8A-%D8%A8%D8%A7%D9%86%D8%AA%D9%87%D8%A7%D9%83%D8%A7%D8%AA-%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AC%D8%B3%D9%8A%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%8A-%D9%8A%D8%B1%D8%AF",
             "source": "العربية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRbL11kWH2X5uBGRJW5ZTTDzZNygtShl2MBrdEOSuJh_N1ScGhsWyEqk6d4BF8",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYt_HfjezsuAw0cyARf72RIg2LgCHfKq9U7-g2hAykb2_Bjcrpkw0qQo9rwIE",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
-          },
-          {
-            "title": "التوقف الدولي يضرب.. والأندية تترقب.. 9 أسماء على قائمة الإصابات أبرزهم مدمرة النادي الملكي.. فمن يعود؟",
-            "url": "https://www.okaz.com.sa/multimedia/video/2268370",
-            "source": "عكاظ",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcStv7IWRx7m4jW5IimBN6h8ZVwc-XenqyVLIXcLPcgAgKAMwdfdhYVIw4xFTug",
-            "og_title": "التوقف الدولي يضرب.. والأندية تترقب.. 9 أسماء على قائمة الإصابات أبرزهم مدمرة النادي الملكي.. فمن يعود؟",
-            "og_desc": "",
-            "og_image": "https://www.okaz.com.sa/VOD/images/2026/09/29/2772906.jpg",
-            "ok": true
-          },
-          {
-            "title": "بعد إصابة الأوتار.. مبابي جاهزٌ لقيادة \"الملكي\" أمام فياريال",
-            "url": "https://sabq.org/article/1zntnnj",
-            "source": "صحيفة سبق الإلكترونية",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRasOJqIrmw936f644Cw7ibtf60KAV_dehejPIByKW6eJ_0MlQYpR42uA_Di34",
-            "og_title": "بعد إصابة الأوتار.. مبابي جاهزٌ لقيادة \"الملكي\" أمام فياريال | سبق",
-            "og_desc": "كيليان مبابي نجم ريال مدريد يتعافى من تمدد مفرط في الركبة ويستعد للمشاركة أمام فياريال بعد التوقف الدولي، وسط حرص النادي على تجهيزه للكلاسيكو ضد برشلونة واحتمال",
-            "og_image": "https://media.sabq.org/news/2026/09/bbf4b3b9-23e6-46a3-a03d-2725c8482c96/w750.webp",
-            "ok": true
           }
         ],
         "category": "شخصية",
         "icon": "👤",
         "color": "#ffd166",
-        "reason": "شخصية لا يرد اسمها في مصدرين",
+        "reason": "شخصية ورد في مصادرها لفظ حسّاس: اتهام",
         "publishable": false,
         "card": "cards/sa-2026-09-30-كورة.png"
       },
@@ -1226,45 +1252,45 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "published": "Tue, 29 Sep 2026 11:50:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQ1taJtktytXsTa3q3uRYq6q4TREf2crnzHbXgqnuPOXgy9zsKrUzyoPU4_D4",
-        "image_source": "Kooora",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQScqyLhJptRulFqFtcRSAImpGmhDjY36bYqgqo9rtjVIuvNctlQ9xb0t202u8",
+        "image_source": "سكاي نيوز عربية",
         "news": [
           {
-            "title": "مدرب العراق يطالب باللجوء إلى الفيفا: لن يكون من العدل تأهل عمان!",
-            "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%AF%D8%B1%D8%A8-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D9%8A%D8%B7%D8%A7%D9%84%D8%A8-%D8%A8%D8%A7%D9%84%D9%84%D8%AC%D9%88%D8%A1-%D8%A7%D9%95%D9%84%D9%89-%D8%A7%D9%84%D9%81%D9%8A%D9%81%D8%A7-%D9%84%D9%86-%D9%8A%D9%83%D9%88%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%B9%D8%AF%D9%84-%D8%AA%D8%A7%D9%94%D9%87%D9%84-%D8%B9%D9%85%D8%A7%D9%86/blt14f9861f88a950c0",
-            "source": "Kooora",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQ1taJtktytXsTa3q3uRYq6q4TREf2crnzHbXgqnuPOXgy9zsKrUzyoPU4_D4",
-            "og_title": "مدرب العراق يطالب باللجوء إلى الفيفا: لن يكون من العدل تأهل عمان! | كووورة",
-            "og_desc": "طالب الأسترالي جراهام أرنولد، المدير الفني لمنتخب العراق، باللجوء إلى لوائح الاتحاد الدولي لكرة القدم، من أجل حسم المتأهل الثاني إلى الدور نصف النهائي من بطولة كأس الخليج العربي \"خليجي 27\"، رفقة السعودية.",
-            "og_image": "https://assets.kooora.com/images/v3/getty-2282847089/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2282847089.jpg",
+            "title": "بعد الجولة الأولى.. صدارة إماراتية وسعودية لمجموعتي \"خليجي 27\"",
+            "url": "https://www.skynewsarabia.com/radio/atheer_alkora/1894790-%D8%A7%D9%84%D8%AC%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A%D8%A9-%D9%88%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%84%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%AA%D9%8A-%D8%AE%D9%84%D9%8A%D8%AC%D9%8A-27",
+            "source": "سكاي نيوز عربية",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQScqyLhJptRulFqFtcRSAImpGmhDjY36bYqgqo9rtjVIuvNctlQ9xb0t202u8",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
+          },
+          {
+            "title": "المنتخبات المتأهلة إلى نصف نهائي خليجي 27 في السعودية",
+            "url": "https://www.annahar.com/sports/352032/%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%A3%D9%87%D9%84%D8%A9-%D8%A5%D9%84%D9%89-%D9%86%D8%B5%D9%81-%D9%86%D9%87%D8%A7%D8%A6%D9%8A-%D8%AE%D9%84%D9%8A%D8%AC%D9%8A-27-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
+            "source": "annahar.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT-ofV6Z79KFaV5eVyJNNi08jqkY9aaJ2DI_PA4gXx39EYsECPoqbpazU_HzXg",
+            "og_title": "المنتخبات المتأهلة إلى نصف نهائي خليجي 27 في السعودية",
+            "og_desc": "تعرف على المنتخبات المتأهلة إلى نصف نهائي خليجي 27 في السعودية بعد انتهاء الجولة الثانية من دور المجموعات ومع انطلاق الجولة الثالثة الأخيرة",
+            "og_image": "https://www.annahar.com/Assets/ContentPhotos/Photos/HTP7w_tbUAEQZ3F_103926.webp?width=1416&height=805&mode=crop&scale=both",
             "ok": true
           },
           {
-            "title": "من الأفضل لمواجهة الأخضر السعودي في نصف نهائي «خليجي 27»؟",
-            "url": "https://ajel.sa/sports/28o3eird0",
-            "source": "عاجل",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT-dVQSmi7uVMhNTALOEiYimWD1wb4MQzXCAHkLdEtNGUEQF_MNOoWHQscILYk",
-            "og_title": "من الأفضل لمواجهة الأخضر السعودي في نصف نهائي «خليجي 27»؟",
-            "og_desc": "يرى الناقد الرياضي عبدالله الحنيان أن مواجهة المنتخب السعودي أمام نظيره العراقي غدا في بطولة كأس الخليج العربي «خليجي 27» لا تمثل أهمية كبيرة للمنتخب السعودي من الناحية الفنية، بينما تظل قيمة الفوز فيها معنوية.",
-            "og_image": "https://ajel.sa/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=auto,format=jpeg/https://cdn.ajel.sa/articles/2026-09/%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-a41H1qM5.jpg",
-            "ok": true
-          },
-          {
-            "title": "\"خلع القميص\" يحرم منتخب عُمان من التأهل مباشرة إلى نصف نهائي خليجي 27",
-            "url": "https://www.eremnews.com/sports/00eabib",
-            "source": "إرم نيوز",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqAsvsdSusui0u0pQHkxrbv71Z_hRjv1n9BeD29keTLzzKceGi_r7ng4aFUec",
-            "og_title": "\"خلع القميص\" يحرم منتخب عُمان من التأهل مباشرة إلى نصف نهائي خليجي 27 | إرم نيوز",
-            "og_desc": "بطاقة صفراء بسبب خلع القميص تحرم منتخب عُمان من حسم التأهل إلى نصف نهائي خليجي 27 مباشرة، وتدفع إلى إجراء قرعة مع العراق لتحديد المتأهل.",
-            "og_image": "https://cdn.eremnews.com/media/b7ad3621-7916-407d-b4ad-9197ec3d1a2f_v3",
-            "ok": true
+            "title": "حصاد خليجي27.. اكتمال أضلاع المربع الذهبي مبكراً ومفاجأة مدوية بخروج حامل اللقب",
+            "url": "http://alwatan.kuwait.tt/articledetails.aspx?id=833515&yearquarter=20263",
+            "source": "جـريـدة الوطن",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrRaZBeLPQvBMTNYw5yJQH8ecH-mj2kJ_YFubAly5Dq5IDnAdfU-1vL9C3jE",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
           }
         ],
         "category": "رياضة",
         "icon": "⚽",
         "color": "#3ddc97",
-        "reason": "العنوان يطابق: كأس",
-        "publishable": true,
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
         "card": "cards/sa-2026-09-30-ترتيب-كاس-الخليج.png"
       },
       {
@@ -1360,54 +1386,6 @@
         "card": "cards/sa-2026-09-30-ترتيب-بطولة-الخليج.png"
       },
       {
-        "title": "مجلس الوزراء السعودي",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Tue, 29 Sep 2026 11:40:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn6NaMxB2awDADByEOs9-Nw1HzzX6I2M-ofMLCOzOLSxyq6PfoWCC--x2IrAY",
-        "image_source": "صحيفة الوئام",
-        "news": [
-          {
-            "title": "اعتداء الفئات الضالة.. اعتداء على حرمات الله",
-            "url": "https://www.alweeam.com.sa/1296613/2026/%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D9%81%D8%A6%D8%A7%D8%AA-%D8%A7%D9%84%D8%B6%D8%A7%D9%84%D8%A9-%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1-%D8%B9%D9%84%D9%89-%D8%AD%D8%B1%D9%85%D8%A7%D8%AA/",
-            "source": "صحيفة الوئام",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn6NaMxB2awDADByEOs9-Nw1HzzX6I2M-ofMLCOzOLSxyq6PfoWCC--x2IrAY",
-            "og_title": "اعتداء الفئات الضالة.. اعتداء على حرمات الله - صحيفة الوئام",
-            "og_desc": "الدكتور عيسى محمد العميري- كاتب كويتي تظل مكة المكرمة، بما تحتضنه من المسجد الحرام والكعبة المشرفة، أقدس بقاع الأرض ومهوى أفئدة المسلمين في مختلف أنحاء العالم، ومكاناً ارتبط في وجدان الأمة الإسلامية بمعاني الأمن والسلام والعبادة والطمأنينة. ومن هنا، فإن أي تهديد يطال أمن مكة المكرمة أو محيطها لا يمكن النظر إليه باعتباره مجرد تطور",
-            "og_image": "https://www.alweeam.com.sa/wp-content/uploads/2026/03/الدكتور-عيسى-محمد-العميري-e1775502330950.jpeg",
-            "ok": true
-          },
-          {
-            "title": "العاهل السعودي يصف الحوثيين بـ\"ميليشيا إرهابية\" والجماعة تتهم الرياض بشن ضربات دامية على مواقعها",
-            "url": "https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20260922-%D8%A7%D9%84%D8%B9%D8%A7%D9%87%D9%84-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%8A%D8%B5%D9%81-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%8A%D9%86-%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D8%A9-%D8%AA%D8%AA%D9%87%D9%85-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D8%B4%D9%86-%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA-%D8%AF%D8%A7%D9%85%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D9%85%D9%88%D8%A7%D9%82%D8%B9%D9%87%D8%A7",
-            "source": "France 24",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGd9gqfiu99dtsLb_2NJYGGaVrNtpH5c1QQPLo_8E1KZ9t1JW6Xl2kCOalkbI",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "مجلس الوزراء السعودي يشدد على أهمية ضمان حماية حرية الملاحة",
-            "url": "https://asharq.com/politics/197894/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%8A%D8%B4%D8%AF%D8%AF-%D8%B9%D9%84%D9%89-%D8%A3%D9%87%D9%85%D9%8A%D8%A9-%D8%B6%D9%85%D8%A7%D9%86-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%AD%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%AD%D8%A9/",
-            "source": "الشرق للأخبار",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUtkh2g5OZuFqnJ4ANzytM28M_52LEUFuNLlvxgjnoANgL9C1hMi6ZWMft9L8",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "category": "سياسة",
-        "icon": "🏛️",
-        "color": "#ff5c7c",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/sa-2026-09-30-مجلس-الوزراء-السعودي.png"
-      },
-      {
         "title": "التوازن العقاري",
         "traffic": "200+",
         "traffic_num": 200,
@@ -1460,14 +1438,24 @@
         "traffic": "200+",
         "traffic_num": 200,
         "published": "Tue, 29 Sep 2026 12:40:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQmHR56f8QWlKeTxStZMdeCGfXTzSTAGxMvLmLd5isqpba36_2rr8pC2U4t7Jg",
-        "image_source": "العربية",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR82NlrXhonURjrx_VgR3la64erT6heuTR-mMOHDwHJ89knhTDNZ2_rrgfSRrg",
+        "image_source": "Kooora",
         "news": [
           {
-            "title": "منتخب تونس يواصل نتائجه السلبية ويتعادل مع بوتسوانا",
-            "url": "https://www.alarabiya.net/sport/2026/09/29/%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%AA%D9%88%D9%86%D8%B3-%D9%8A%D9%88%D8%A7%D8%B5%D9%84-%D9%86%D8%AA%D8%A7%D8%A6%D8%AC%D9%87-%D8%A7%D9%84%D8%B3%D9%84%D8%A8%D9%8A%D8%A9-%D9%88%D9%8A%D8%AA%D8%B9%D8%A7%D8%AF%D9%84-%D9%85%D8%B9-%D8%A8%D9%88%D8%AA%D8%B3%D9%88%D8%A7%D9%86%D8%A7",
+            "title": "إسبانيا تكتب التاريخ بسلسلة استثنائية.. و6 مباريات تفصل نجمها عن رقم أسطوري",
+            "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-%D8%AA%D9%83%D8%AA%D8%A8-%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A8%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%A7%D8%B3%D8%AA%D8%AB%D9%86%D8%A7%D9%8A%D9%94%D9%8A%D8%A9--%D9%886-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%AA%D9%81%D8%B5%D9%84-%D9%86%D8%AC%D9%85%D9%87%D8%A7-%D8%B9%D9%86-%D8%B1%D9%82%D9%85-%D8%A7%D9%94%D8%B3%D8%B7%D9%88%D8%B1%D9%8A/bltaf12dcddf46c48e9",
+            "source": "Kooora",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR82NlrXhonURjrx_VgR3la64erT6heuTR-mMOHDwHJ89knhTDNZ2_rrgfSRrg",
+            "og_title": "إسبانيا تكتب التاريخ بسلسلة استثنائية.. و6 مباريات تفصل نجمها عن رقم أسطوري | كووورة",
+            "og_desc": "لم يعد تألق المنتخب الإسباني تحت قيادة لويس دي لا فوينتي مقتصرًا على الألقاب والنتائج، بعدما كتب \"لا روخا\" سجلًا تاريخيًا جديدًا بوصفه صاحب أطول سلسلة من المباريات المتتالية",
+            "og_image": "https://assets.kooora.com/images/v3/imago-sport-1083846487/crop/MM5DKMBVGE5DEOBUGE5G433XMU5DAORSGMZA====/imago-image.jpeg",
+            "ok": true
+          },
+          {
+            "title": "غوردون: لعبنا بالهوية الإنجليزية",
+            "url": "https://www.alarabiya.net/sport/2026/09/27/%D8%BA%D9%88%D8%B1%D8%AF%D9%88%D9%86-%D9%84%D8%B9%D8%A8%D9%86%D8%A7-%D8%A8%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9",
             "source": "العربية",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQmHR56f8QWlKeTxStZMdeCGfXTzSTAGxMvLmLd5isqpba36_2rr8pC2U4t7Jg",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSjZ0HkwsYqdmMylqliWWIDHbXivFRxXahKyACwCuhxEYDbYSmEfGfxl-Tmcbs",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -1475,23 +1463,13 @@
             "error": "HTTPError"
           },
           {
-            "title": "الشوالي يجلد منتخب تونس.. كلمات نارية بعد \"خيبة\" بوتسوانا",
-            "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D9%84%D9%8A-%D9%8A%D8%AC%D9%84%D8%AF-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%AA%D9%88%D9%86%D8%B3--%D9%83%D9%84%D9%85%D8%A7%D8%AA-%D9%86%D8%A7%D8%B1%D9%8A%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%AE%D9%8A%D8%A8%D8%A9-%D8%A8%D9%88%D8%AA%D8%B3%D9%88%D8%A7%D9%86%D8%A7/blt7e395775c662506b",
-            "source": "Kooora",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQVcFq9ufK0JiZ-EE5aedHG0iUdQPfrBC71bm4YY8m8W3-c15F9b-65J84rv1Y",
-            "og_title": "الشوالي يجلد منتخب تونس.. كلمات نارية بعد \"خيبة\" بوتسوانا | كووورة",
-            "og_desc": "انفجر المعلق الرياضي التونسي عصام الشوالي غضبًا بعد تعادل منتخب بلاده مع بوتسوانا 2-2، في ملعب حمادي العقربي برادس، ضمن الجولة الثانية من التصفيات المؤهلة إلى كأس الأمم الأفريقية 2027.",
-            "og_image": "https://assets.kooora.com/images/v3/getty-2282810982/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2282810982.jpg",
-            "ok": true
-          },
-          {
-            "title": "المنتخب التونسي في مأزق",
-            "url": "https://www.elkhabar.com/sport/%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A-%D9%81%D9%8A-%D9%85%D8%A3%D8%B2%D9%82-274979",
-            "source": "الخبر",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSyD0zHI_DFb3dTfFigk8gkaZP0MNPn4sColyoPVBRD5wiigqP-qwkYpieiaDI",
-            "og_title": "المنتخب التونسي في مأزق - رياضة : الخبر",
-            "og_desc": "تصفيات كأس أمم إفريقيا 2027.",
-            "og_image": "https://www.elkhabar.com/storage/images/article/g_45239fe3d7e64f7c4492d73de24a2869.webp",
+            "title": "هاري كين: المنتخب الإنجليزي «من أفضل منتخبات العالم»",
+            "url": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/5323170-%D9%87%D8%A7%D8%B1%D9%8A-%D9%83%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-%D9%85%D9%86-%D8%A3%D9%81%D8%B6%D9%84-%D9%85%D9%86%D8%AA%D8%AE%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85",
+            "source": "الشرق الأوسط",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSGBdQJZucG0vawfLBi8VMgLT_jwtflf0N45469CGw8_iPGd2QwfGcLhKBWUzs",
+            "og_title": "هاري كين: المنتخب الإنجليزي «من أفضل منتخبات العالم»",
+            "og_desc": "قال هاري كين، قائد المنتخب الإنجليزي، إن فريقه كان قريباً من مستوى المنتخب الإسباني، بطل العالم، رغم خسارته أمامه.",
+            "og_image": "https://static.srpcdigital.com/styles/1200x600/public/2026-09/1797395.jpeg.webp?VersionId=ZhWkedu_QwMyzweJZcyy_uWt5VNyp74v",
             "ok": true
           }
         ],
@@ -1503,51 +1481,98 @@
         "card": "cards/sa-2026-09-30-نتيجة-مباريات-اليوم.png"
       },
       {
-        "title": "الحمدان",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Tue, 29 Sep 2026 12:10:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprHUI3tqPzbd8I1vujbKLFdwduZuD7QOgZ3bZ6q1C9CddFAS2DYOMXJOK__E",
-        "image_source": "أخبار 24",
+        "title": "حزب الله",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Tue, 29 Sep 2026 14:40:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQAbYaBZsKO31zMAhQuFUJqexu10ueP4XkNPF7_C0-q_kdBHWL5JFGgLA9GQOw",
+        "image_source": "العربية",
         "news": [
           {
-            "title": "الحمدان: نطمح لمواصلة الأداء القوي.. ونتمنى أن نٌسعد شعبنا بالبطولة",
-            "url": "https://www.akhbaar24.com/%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-24/%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/%D8%A7%D9%84%D8%AD%D9%85%D8%AF%D8%A7%D9%86-%D9%86%D8%B7%D9%85%D8%AD-%D9%84%D9%85%D9%88%D8%A7%D8%B5%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D9%82%D9%88%D9%8A-%D9%88%D9%86%D8%AA%D9%85%D9%86%D9%89-%D8%A3%D9%86-%D9%86%D8%B3%D8%B9%D8%AF-%D8%B4%D8%B9%D8%A8%D9%86%D8%A7-%D8%A8%D8%A7%D9%84%D8%A8%D8%B7%D9%88%D9%84%D8%A9-771161",
-            "source": "أخبار 24",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprHUI3tqPzbd8I1vujbKLFdwduZuD7QOgZ3bZ6q1C9CddFAS2DYOMXJOK__E",
-            "og_title": "الحمدان: نطمح لمواصلة الأداء القوي.. ونتمنى أن نٌسعد شعبنا بالبطولة",
-            "og_desc": "أكد عبد الله الحمدان، لاعب المنتخب السعودي، أن الفريق قدم مستوى مميزًا في الفوز على العراق 2-0 ضمن بطولة خليجي 27، مشيدًا بأداء زملائه وطموحهم للمضي قدمًا نحو النهائي. وشدد الحمدان على أهمية الجهد والتركيز في الملعب، معبرًا عن أمله في إسعاد الجماهير السعودية بالبطولة.",
-            "og_image": "https://assets.maestronewsroom.com/media/b6b5fbfc-544f-4e99-86a1-58234460e4ef/proxies/7aa76edf-8fae-4cd9-8dac-c17a1af05972.webp",
+            "title": "سوريا تعلن إحباط مخطط تخريبي لخلية تابعة لحزب الله في درعا",
+            "url": "https://www.alarabiya.net/arab-and-world/syria/2026/09/29/%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D8%AD%D8%A8%D8%A7%D8%B7-%D9%85%D8%AE%D8%B7%D8%B7-%D8%AA%D8%AE%D8%B1%D9%8A%D8%A8%D9%8A-%D9%84%D8%AE%D9%84%D9%8A%D8%A9-%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9-%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%87-%D9%81%D9%8A-%D8%AF%D8%B1%D8%B9%D8%A7",
+            "source": "العربية",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQAbYaBZsKO31zMAhQuFUJqexu10ueP4XkNPF7_C0-q_kdBHWL5JFGgLA9GQOw",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "سوريا تعلن توقيف خلية تابعة لحزب الله الإرهابي كانت تجهز منصات إطلاق صواريخ لشن هجمات لزعزعة الأمن والاستقرار",
+            "url": "https://www.al-madina.com/article/1007326/%D8%AF%D9%88%D9%84%D9%8A%D8%A9/%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D8%AA%D8%B9%D9%84%D9%86-%D8%AA%D9%88%D9%82%D9%8A%D9%81-%D8%AE%D9%84%D9%8A%D8%A9-%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9-%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A-%D9%83%D8%A7%D9%86%D8%AA-%D8%AA%D8%AC%D9%87%D8%B2-%D9%85%D9%86%D8%B5%D8%A7%D8%AA-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D9%84%D8%B4%D9%86-%D9%87%D8%AC%D9%85%D8%A7%D8%AA-%D9%84%D8%B2%D8%B9%D8%B2%D8%B9%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1",
+            "source": "جريدة المدينة - صحيفة المدينة",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRfIEqwkSW-C8JSwDHp8DOo9JNbOReesTBC9mwRj33a9PTKQIOV8D1CNK-1bRs",
+            "og_title": "سوريا تعلن توقيف خلية تابعة لحزب الله الإرهابي كانت تجهز منصات إطلاق صواريخ لشن هجمات لزعزعة الأمن والاستقرار",
+            "og_desc": "سوريا تعلن توقيف خلية تابعة لحزب الله الإرهابي كانت تجهز منصات إطلاق صواريخ لشن هجمات لزعزعة الأمن والاستقرار",
+            "og_image": "https://www.al-madina.com/uploads/images/2026/09/29/2666448.jpg",
             "ok": true
           },
           {
-            "title": "الحمدان: التسجيل توفيق.. وهدفنا إسعاد الشعب السعودي",
-            "url": "https://al-kas.com/166555/",
-            "source": "صحيفة الكأس الرياضية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSsQQ8KTKpNkHmY5TdbIidc-Cc81COQjinxXtnBz_Zw2I6jqD83DdsVT5829MM",
-            "og_title": "الحمدان: التسجيل توفيق.. وهدفنا إسعاد الشعب السعودي - صحيفة الكأس الرياضية",
-            "og_desc": "جدة – عبدالله الينبعاوي   أكد عبدالله الحمدان، مهاجم المنتخب السعودي، أن «الأخضر» قدم مستوى كبيرًا خلال الدور الأول من خليجي 27، مؤكدًا طموحه وزملائه مواصلة المشوار والوصول إلى النهائي.   وقال الحمدان: «الحمد لله، توفيق من رب العالمين، قدمنا اليوم مستوى كبيرًا، ونطمح إن شاء الله أن نكمل على هذا المستوى …",
-            "og_image": "http://al-kas.com/wp-content/uploads/2026/09/IMG-20260929-WA0036.jpg",
-            "ok": true
-          },
-          {
-            "title": "سامي الجابر : أفرحني هدف عبدالله الحمدان وتحركه كان رائعاً .. فيديو",
-            "url": "https://slaati.com/2026/09/29/p2868171.html",
-            "source": "صحيفة صدى الالكترونية",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiPrrWNFX5UMjA0W3XNTQO5RaispleCtoDwVYc2SVYpGm3ynsrxrG3Ktl1nZE",
-            "og_title": "سامي الجابر : أفرحني هدف عبدالله الحمدان وتحركه كان رائعاً .. فيديو",
-            "og_desc": "أشاد سامي الجابر، نجم المنتخب السعودي السابق ، بالمستوى الذي قدمه الأخضر خلال بطولة خليجي.",
-            "og_image": "https://cp.slaati.com//wp-content/uploads/2026/09/95eb67b6-0060-4738-b06f-fde4bdec86bd.jpg",
+            "title": "السلطات السورية تعلن الإطاحة بخلية مرتبطة بـ\"حزب الله\" في درعا",
+            "url": "https://www.aa.com.tr/ar/%D8%B3%D9%88%D8%B1%D9%8A%D8%A7/%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%A5%D8%B7%D8%A7%D8%AD%D8%A9-%D8%A8%D8%AE%D9%84%D9%8A%D8%A9-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7%D8%A9-%D8%A8%D9%80%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%87-%D9%81%D9%8A-%D8%AF%D8%B1%D8%B9%D8%A7/4073021",
+            "source": "Anadolu Ajansı",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTd_TfgT0o7JQGOSJD4UhDZbxY6gpAlEhaZdxVztmL0VJ-ii4xxWXE50xRqc0",
+            "og_title": "السلطات السورية تعلن الإطاحة بخلية مرتبطة بـ\"حزب الله\" في درعا",
+            "og_desc": "خلال عملية لجهاز الاستخبارات العامة بالتعاون مع قوى الأمن الداخلي.. دون تعليق فوري من حزب الله | Anadolu",
+            "og_image": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/09/29/thumbs_b_c_d3d814325674c8a14d3f14b13f4732f8.jpg",
             "ok": true
           }
         ],
-        "category": "شخصية",
-        "icon": "👤",
-        "color": "#ffd166",
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: توقيف",
+        "publishable": false,
+        "card": "cards/sa-2026-09-30-حزب-الله.png"
+      },
+      {
+        "title": "spain",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Tue, 29 Sep 2026 13:10:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxoOihi6cmFMpa8HNbm5ge4m2E5pIYPSFIIxG8bx4ibC_0ILWFdI8t0lQoywM",
+        "image_source": "BBC",
+        "news": [
+          {
+            "title": "Spain announces ban on evictions after protests over 87-year-old woman's removal from flat",
+            "url": "https://www.bbc.com/news/articles/cwm2qmjgy93do",
+            "source": "BBC",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxoOihi6cmFMpa8HNbm5ge4m2E5pIYPSFIIxG8bx4ibC_0ILWFdI8t0lQoywM",
+            "og_title": "Spain announces ban on evictions after protests over 87-year-old woman's removal from flat",
+            "og_desc": "The ban is part of a number of proposals that must be approved in parliament within 30 days.",
+            "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/8cc7/live/fb735b70-bbfc-11f1-90b9-913e4354ed35.jpg",
+            "ok": true
+          },
+          {
+            "title": "Spain protests: Evicted 87-year-old woman to return to Madrid home",
+            "url": "https://www.aljazeera.com/news/2026/9/29/spain-protests-evicted-87-year-old-woman-to-return-to-madrid-home",
+            "source": "Al Jazeera",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT6qjDTXpfFDmTGSGAwKa3820Z52Y8qMyOAs7Z6QxGL5gXRkZDOooVkdhM_O_c",
+            "og_title": "Spain protests: Evicted 87-year-old woman to return to Madrid home",
+            "og_desc": "The real estate firm backs down and restores her old rent after mass protests over Spain's housing crisis.",
+            "og_image": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6abc02fe-1790706430.jpg?resize=1920%2C1440",
+            "ok": true
+          },
+          {
+            "title": "87-Year-Old Woman Who Was Evicted After 71 Years Allowed Home After Nearly 10,000 People Protest in the Streets",
+            "url": "https://people.com/woman-87-evicted-after-71-years-allowed-home-after-nearly-10-000-people-protest-in-the-streets-12146703",
+            "source": "People.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTufEwFuky5WtCH0kW7pAoqQxisAUBVxEy7A534H4k6p4DwNfAGUxOy8Qfb3yY",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
         "reason": "حجم بحث أقل من 500",
         "publishable": false,
-        "person": true,
-        "card": "cards/sa-2026-09-30-الحمدان.png"
+        "card": "cards/sa-2026-09-30-spain.png"
       },
       {
         "title": "خليجي ٢٧",
@@ -1601,28 +1626,29 @@
         "traffic": "100+",
         "traffic_num": 100,
         "published": "Tue, 29 Sep 2026 12:10:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPLQ4IECKwrZxtxMGlqy3Y5pYe2R87h1-cq_bPye0OsfddU0i6rEdbZNvldio",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKWa3qISl8Lsq-lwHqaUm0t1fZoXLmVVbZuXudK_qndUjNR-B1mlUX1X90LOA",
         "image_source": "Vietnam.vn",
         "news": [
           {
-            "title": "Prediksi Spanyol vs Kroasia, 01:45 pada 30 September: The Raging Bulls",
-            "url": "https://www.vietnam.vn/id/nhan-dinh-tay-ban-nha-vs-croatia-01h45-ngay-30-9-bo-tot-cuong-no",
+            "title": "Jadwal pertandingan Nations League hari ini, 29 September: Pertandingan unggulan adalah Spanyol vs Kroasia.",
+            "url": "https://www.vietnam.vn/id/lich-thi-dau-nations-league-hom-nay-29-9-tam-diem-tay-ban-nha-vs-croatia",
             "source": "Vietnam.vn",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPLQ4IECKwrZxtxMGlqy3Y5pYe2R87h1-cq_bPye0OsfddU0i6rEdbZNvldio",
-            "og_title": "Prediksi Spanyol vs Kroasia, 01:45 pada 30 September: The Raging Bulls",
-            "og_desc": "TPO - Prediksi sepak bola untuk Spanyol vs Kroasia, Grup C Liga A Nations League 2026/27 - berita tim, susunan pemain yang diharapkan, performa, dan sejarah pertemuan. Kemenangan akan membantu Spanyol atau Kroasia melangkah lebih jauh dalam perebutan posisi puncak. Jadi, akankah keuntungan bermain di kandang sendiri cukup untuk membantu La Roja mengalahkan Luka Modric dan rekan-rekannya?",
-            "og_image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/09/29/1790654618562_gemini-generated-image-tuz7stuz7stuz7st-png.webp",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKWa3qISl8Lsq-lwHqaUm0t1fZoXLmVVbZuXudK_qndUjNR-B1mlUX1X90LOA",
+            "og_title": "Jadwal pertandingan Nations League hari ini, 29 September: Pertandingan unggulan adalah Spanyol vs Kroasia.",
+            "og_desc": "Hasil Nations League hari ini (29 September) memperlihatkan Prancis mengalahkan Belgia, Italia menang telak melawan Turki; babak selanjutnya mempertemukan Republik Ceko melawan Inggris dan Spanyol melawan Kroasia.",
+            "og_image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/09/29/1790639622900_lich-thi-dau-nations-league-hom-nay-jpg.webp",
             "ok": true
           },
           {
-            "title": "Yamal bersinar: Pecahkan rekor Raul dan capai yang gagal diraih bintang-bintang Eropa selama 66 tahun",
-            "url": "https://www.goal.com/id/berita/yamal-bersinar-pecahkan-rekor-raul-dan-capai-yang-gagal-diraih-bintang-bintang-eropa-selama-66-tahun/bltdd149190c1b8af19",
-            "source": "Goal.com",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ZLKoK6kVhrbPbPg58jx9QsOQAih3gPFAdYNjRlJdk2DzzzrQqzemW7agQZ8",
-            "og_title": "Yamal bersinar: Menumbangkan rekor Raul dan meraih apa yang tak mampu dicapai bintang-bintang Eropa selama 66 tahun | Goal.com Indonesia",
-            "og_desc": "Lamine Yamal melanjutkan penampilan gemilangnya bersama timnas Spanyol, setelah membukukan sejumlah rekor dalam laga menghadapi Kroasia, sehingga mengukuhkan statusnya sebagai salah satu talenta paling menonjol dalam sepak bola Eropa.",
-            "og_image": "https://assets.goal.com/images/v3/getty-2297760842/crop/MM5DKMBTGE5DEOBTGA5G433XMU5DAORSGQ2Q====/GettyImages-2297760842.jpg",
-            "ok": true
+            "title": "Fermin Lopez Siap Tampil Melawan Kroasia setelah Dipuji Pelatih",
+            "url": "https://rri.co.id/medan/sepak-bola/2771053/fermin-lopez-siap-tampil-melawan-kroasia-setelah-dipuji-pelatih",
+            "source": "RRI.co.id",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT6PV1DeLj9GlKxo3o9F4bt4WwBDsStrUuAuYgTHH4DGbuZ8CJtfPR2o3ajg9k",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
           },
           {
             "title": "Setelah Satu Dasawarsa Sesama Peraih Ballon d’Or",

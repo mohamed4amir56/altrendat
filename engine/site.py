@@ -1314,7 +1314,7 @@ def render_trend_card(t, href, rank, country_name, flag, time_str, root="./", is
         # المصدر (ويكيميديا كومنز) جزء من سطر الحقوق: شرط الرخصة، والحارس يرفض
         # صفحة فيها صورة ويكيميديا بلا ذكره
         if photo.get("ai"):
-            credit_txt = "AI-generated illustration" if is_en else "رسم توضيحي بالذكاء الاصطناعي"
+            credit_txt = "AI-generated image" if is_en else "صورة مولّدة بالذكاء الاصطناعي"
         else:
             credit_txt = "{}{} {} · {} · {}".format(
                 ("Illustrative photo · " if is_en else "صورة تعبيرية · ") if photo.get("stock") else "",
@@ -1403,7 +1403,7 @@ def photo_credit(photo, is_en=False):
     """سطر المصدر الذي تشترطه رخصة الصورة: المصوّر والرخصة ورابط الملف.
     ويسبقه من في الصورة، أو أنها تعبيرية — فلا يظنها القارئ من الحدث نفسه."""
     if photo.get("ai"):
-        return "AI-generated illustration" if is_en else "رسم توضيحي بالذكاء الاصطناعي"
+        return "AI-generated image" if is_en else "صورة مولّدة بالذكاء الاصطناعي"
     if photo.get("stock"):
         who = "Illustrative photo · " if is_en else "صورة تعبيرية · "
     elif photo.get("wiki_title"):
@@ -1445,7 +1445,7 @@ def photo_figure(photo, alt, is_en=False, card=None):
                  "this.src='{}';var c=this.parentNode.querySelector('figcaption');"
                  "if(c)c.remove()\"").format(E(card))
     if photo.get("ai"):
-        alt = ("Illustration: " if is_en else "رسم توضيحي: ") + alt
+        alt = ("AI image: " if is_en else "صورة مولّدة: ") + alt
     elif photo.get("stock"):
         alt = ("Illustrative photo: " if is_en else "صورة تعبيرية: ") + alt
     elif photo.get("wiki_title"):
@@ -2395,7 +2395,7 @@ def gold_news_image(t, art, is_en):
     thumb = url.replace("/1280px-", "/500px-") if "/1280px-" in url else url
     if photo.get("ai"):
         return {"image": url, "thumb": thumb, "imageCredit":
-                "AI-generated illustration" if is_en else "رسم توضيحي بالذكاء الاصطناعي"}
+                "AI-generated image" if is_en else "صورة مولّدة بالذكاء الاصطناعي"}
     credit = "{} {} · {} · {}".format(
         "Photo:" if is_en else "تصوير:", photo.get("artist", ""), photo.get("license", ""),
         "Wikimedia Commons" if is_en else "ويكيميديا كومنز")

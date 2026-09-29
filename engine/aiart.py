@@ -1,16 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-رسوم توضيحية بالذكاء الاصطناعي لأخبار الموقع.
+صور واقعية مولّدة بالذكاء الاصطناعي لأخبار الموقع.
 
-ما تحلّه: الصورة التعبيرية الجاهزة (جرايد، مدينة، كورة) تتكرر في عشرات المقالات.
-هنا لكل مقال رسم مخصوص لموضوعه، بأسلوب واحد ثابت، ويُكتب تحته «رسم توضيحي
-بالذكاء الاصطناعي» فلا يظنه القارئ لقطة من الحدث.
+لكل مقال صورة مخصوصة لموضوعه بأسلوب واحد، ويُكتب تحتها «صورة مولّدة بالذكاء
+الاصطناعي» فلا يظنها القارئ لقطة حقيقية من الحدث.
 
 القواعد (سياسة الموقع، لا تُخفَّف):
-  - صورة صاحب الخبر الحقيقية من ويكيبيديا (photos.py) تبقى ولا تُستبدل.
-  - الرسم يحل محل الصورة التعبيرية أو غياب الصورة فقط.
-  - لا شبه أشخاص حقيقيين ولا نصوص ولا شعارات ولا دماء: الرسم رمزي بشخصيات
-    مرسومة عامة. الأخبار المأساوية بتعبير رمزي هادئ.
+  - لا شبه أشخاص حقيقيين (لا بورتريه لسياسي أو لاعب) ولا نصوص ولا شعارات ولا
+    دماء: المشهد مكان وأدوات وأشخاص عامون غير معروفين. الأخبار المأساوية
+    بتعبير رمزي هادئ (شموع، مطر، أضواء إنقاذ).
+  - صور ويكيبيديا القديمة تبقى احتياطًا لو فشل التوليد ولا تُحذف.
 
 المزوّد: Cloudflare Workers AI (FLUX-1-schnell). المفاتيح من متغيرات البيئة
 (GitHub Secrets)، وبدونها تخرج الخطوة بلا خطأ فيبقى الموقع على صوره الحالية:
@@ -43,18 +42,19 @@ CF_MODEL = "@cf/black-forest-labs/flux-1-schnell"
 MAX_AGE_DAYS = 3                   # لا نرسم الأرشيف القديم
 SIZE = (1024, 576)                 # 16:9 مثل كروت الموقع
 
-STYLE = ("flat vector editorial illustration, bold simple shapes, rich vibrant colors, "
-         "dramatic lighting, cinematic wide composition, subject centered, "
-         "deep navy and warm gold accents, clean and modern, no text, no letters, "
-         "no logos, no watermark")
+STYLE = ("photorealistic editorial photograph, natural but dramatic lighting, rich vivid "
+         "colors, sharp focus, shallow depth of field, cinematic wide composition, "
+         "subject centered, high detail, professional news photography look, "
+         "no text, no letters, no logos, no watermark")
 
 SCENE_SYSTEM = """You write one-paragraph image prompts for a news site's illustrations.
 Given a news headline and summary, describe ONE clear, eye-catching visual scene that
 symbolises the story (objects, setting, action, mood), 40-60 words, English only.
 Rules:
-- Never depict a real, named person's likeness. If the story is about a person, show
-  a generic stylised character (e.g. "a stylised politician silhouette at a podium")
-  or objects/setting instead.
+- The image is photorealistic. Never depict a real, named person's likeness. If the story
+  is about a person, show the setting and objects (a podium with microphones, a stadium,
+  a courtroom, a stage) or generic unidentifiable people seen from behind or at a
+  distance, never a recognisable portrait of that person.
 - No text, numbers, flags with writing, logos, brand marks or newspaper headlines.
 - Tragedy, violence, death or disaster: symbolic and calm (candles, empty chairs,
   rain, rescue lights). Never blood, bodies or weapons in use.
@@ -116,8 +116,8 @@ def art_photo(headline, data):
 
 
 def wants_art(art):
-    p = art.get("photo")
-    return not p or (p.get("stock") and not p.get("ai"))
+    """كل المقالات تأخذ رسمًا (قرار المستخدم)؛ صورة ويكيبيديا تبقى احتياطًا لو فشل التوليد."""
+    return not (art.get("photo") or {}).get("ai")
 
 
 def run(budget=150, cap=12):

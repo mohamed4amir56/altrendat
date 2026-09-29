@@ -192,7 +192,7 @@ def photo_credit_line(trend):
     if not photo:
         return ""
     if photo.get("ai"):
-        return "\n\n🎨 رسم توضيحي بالذكاء الاصطناعي"
+        return "\n\n🎨 صورة مولّدة بالذكاء الاصطناعي"
     return "\n\n📷 الصورة: {} · {} · ويكيميديا كومنز".format(
         html.escape(photo.get("artist", "")), html.escape(photo.get("license", "")))
 

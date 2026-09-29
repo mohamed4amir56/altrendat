@@ -209,10 +209,11 @@ article{max-width:820px;margin:0 auto}
   -webkit-background-clip:text;background-clip:text;color:transparent;
   letter-spacing:-.3px;
 }
-nav{display:flex;gap:10px;flex-wrap:wrap}
+nav{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 nav a{
-  font-size:.84rem;text-decoration:none;color:var(--mut);
-  border:1px solid var(--line);border-radius:99px;padding:4px 13px;
+  font-size:.92rem;text-decoration:none;color:var(--mut);font-weight:600;
+  border:1px solid var(--line);border-radius:99px;padding:7px 17px;
+  transition:.2s;
 }
 nav a:hover{color:var(--txt);border-color:var(--acc)}
 main{max-width:1040px;margin:0 auto;padding:8px 18px 30px}
@@ -259,28 +260,53 @@ article p:first-child{font-size:1.12rem;color:var(--txt)}
 
 /* --- بطاقات الدول السريعة (Country Deck) --- */
 .country-deck{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-  gap:14px;margin:18px 0 28px;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:16px;margin:20px 0 30px;
 }
 .country-deck-card{
-  background:linear-gradient(145deg,rgba(21,27,41,.9),rgba(17,22,34,.9));
-  border:1px solid var(--line);border-radius:16px;padding:16px 18px;
+  background:linear-gradient(160deg,rgba(24,30,46,.95),rgba(15,19,30,.95));
+  border:1px solid var(--line);border-radius:18px;padding:20px 20px 18px;
   text-decoration:none;display:flex;flex-direction:column;justify-content:space-between;
-  gap:10px;transition:all .25s ease;position:relative;overflow:hidden;
+  gap:11px;transition:all .28s cubic-bezier(.16,1,.3,1);position:relative;overflow:hidden;
+}
+.country-deck-card::before{
+  content:"";position:absolute;inset:0;opacity:0;transition:opacity .28s ease;
+  background:radial-gradient(120px 90px at 88% -10%,var(--deck-accent,var(--acc)),transparent 70%);
 }
 .country-deck-card::after{
   content:"";position:absolute;top:0;left:0;right:0;height:3px;
-  background:var(--deck-accent,var(--acc));opacity:.85;
+  background:var(--deck-accent,var(--acc));opacity:.9;
 }
 .country-deck-card:hover{
-  border-color:var(--deck-accent,var(--acc));transform:translateY(-3px);
-  box-shadow:0 10px 24px rgba(0,0,0,.35);
+  border-color:var(--deck-accent,var(--acc));transform:translateY(-4px);
+  box-shadow:0 14px 30px rgba(0,0,0,.4);
 }
-.deck-card-top{display:flex;align-items:center;justify-content:space-between}
-.deck-card-title{font-size:1.15rem;font-weight:800;color:var(--txt);display:flex;align-items:center;gap:8px}
-.deck-card-badge{font-size:.76rem;font-weight:700;padding:3px 10px;border-radius:99px;background:rgba(255,255,255,.07);color:var(--gold)}
-.deck-card-top-trend{font-size:.84rem;color:#cfd8e5;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.deck-card-action{font-size:.8rem;font-weight:700;color:var(--deck-accent,var(--acc));display:inline-flex;align-items:center;gap:6px}
+.country-deck-card:hover::before{opacity:.14}
+.deck-card-top{display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1}
+.deck-card-flag{
+  font-size:1.7rem;line-height:1;width:44px;height:44px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);
+}
+.deck-card-title{
+  font-size:1.22rem;font-weight:800;color:var(--txt);position:relative;z-index:1;
+  letter-spacing:-.2px;
+}
+.deck-card-badge{
+  font-size:.74rem;font-weight:800;padding:4px 11px;border-radius:99px;
+  background:var(--deck-accent,var(--gold));color:#0a0d14;white-space:nowrap;
+}
+.deck-card-top-trend{
+  font-size:.86rem;color:#c3ccdb;line-height:1.55;position:relative;z-index:1;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  flex-grow:1;
+}
+.deck-card-action{
+  font-size:.83rem;font-weight:700;color:var(--deck-accent,var(--acc));
+  display:inline-flex;align-items:center;gap:6px;position:relative;z-index:1;
+}
+.deck-arrow{transition:transform .2s ease}
+.country-deck-card:hover .deck-arrow{transform:translateX(-3px)}
 
 /* --- شبكة كروت الأخبار والترندات الاحترافية (Trends Grid) --- */
 .trends-grid{
@@ -464,6 +490,9 @@ td:first-child{color:var(--acc);font-weight:600}
   h1{font-size:1.45rem}
   .channel-cta{flex-direction:column;align-items:stretch;text-align:center}
   .btn-tg,.btn-gold-app{justify-content:center}
+  nav{gap:8px}
+  nav a{font-size:.86rem;padding:6px 14px}
+  .nav-lang-btn{font-size:.92rem;padding:7px 16px}
 }
 
 /* --- نظام رادار وذكاء الترندات (Trend Intelligence System) --- */
@@ -560,8 +589,16 @@ td:first-child{color:var(--acc);font-weight:600}
 .faq-card[dir="ltr"] h3{direction:ltr;text-align:left;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 .faq-card[dir="ltr"] p,.faq-card[dir="ltr"] li{direction:ltr;text-align:left;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 .faq-card[dir="ltr"] ul{padding-left:22px;padding-right:0}
-.nav-lang-btn{border:1px solid rgba(90,169,255,.35);background:rgba(90,169,255,.08);border-radius:99px;padding:3px 12px;font-weight:700;transition:.2s;font-size:.85rem;display:inline-flex;align-items:center;gap:5px;color:var(--txt)!important}
-.nav-lang-btn:hover{background:rgba(90,169,255,.22);border-color:var(--acc);color:#fff!important}
+/* زر اللغة (English/العربية) أبرز أزرار القائمة عمدًا: هو الطريق
+   الوحيد من نسخة لغة إلى الأخرى، فحجمه الصغير كان يخفيه بين البلاد. */
+.nav-lang-btn{
+  border:1.5px solid rgba(90,169,255,.5);background:rgba(90,169,255,.14);
+  border-radius:99px;padding:8px 19px;font-weight:800;transition:.2s;
+  font-size:1rem;display:inline-flex;align-items:center;gap:6px;
+  color:#fff!important;
+}
+.nav-lang-btn:hover{background:rgba(90,169,255,.28);border-color:var(--acc);
+  transform:translateY(-1px)}
 
 /* --- تصميم وهوية تطبيق جولدكس الفاخر (Goldex App Luxury Theme) --- */
 .goldex-container{
@@ -630,7 +667,7 @@ td:first-child{color:var(--acc);font-weight:600}
 .nav-jobs{
   background:linear-gradient(135deg,rgba(245,197,66,.18),rgba(255,159,104,.15));
   border-color:rgba(245,197,66,.5)!important;color:var(--gold)!important;
-  font-weight:700;
+  font-weight:800;
 }
 .jobs-hero{margin:10px 0 24px}
 .jobs-lead{font-size:1.08rem;color:var(--txt);line-height:1.75;margin-top:6px}
@@ -1912,6 +1949,19 @@ def news_time(t, cfg):
     return max(times) if times else (cfg.get("generated_at") or "")
 
 
+def _deck_badge(n, cfg, unit="خبرًا"):
+    """شارة الكارت: "اليوم" فقط إن كان محتوى اليوم فعلًا، وإلا تاريخه.
+
+    كانت تكتب "اليوم" دائمًا، فقالت كارت Worldwide أحيانًا "0 أخبار
+    اليوم" حين لا يُنشر عن العالم بعد صباحًا (النسخة العالمية سياسة
+    واقتصاد فقط، أندر من أخبار البلدين)، أو "12 خبرًا اليوم" وهي أخبار
+    أمس فعلًا بعد أن يسقط build_home إلى آخر يوم فيه محتوى.
+    """
+    if cfg.get("_is_today", True):
+        return f"{n} {unit} اليوم"
+    return f"{n} {unit} · {entities.day_of(cfg)}"
+
+
 def build_home(data, urls):
     deck_cards = []
     for key, accent in (("eg", "#5aa9ff"), ("sa", "#3ddc97")):
@@ -1920,39 +1970,42 @@ def build_home(data, urls):
         cfg = data[key]
         pub = [t for t in cfg["trends"] if t.get("article")]
         top = max(pub, key=lambda x: x["traffic_num"], default=None)
-        top_title = ("أبرزها: " + top["article"]["headline"]) if top else ""
+        top_title = (top["article"]["headline"]) if top else "تابع أهم الأخبار أولًا بأول"
         deck_cards.append(f"""
         <a class='country-deck-card' href='{key}/' style='--deck-accent:{accent};'>
           <div class='deck-card-top'>
-            <span class='deck-card-title'>{cfg['flag']} {E(cfg['country_name'])}</span>
-            <span class='deck-card-badge'>{len(pub)} خبرًا اليوم</span>
+            <span class='deck-card-flag'>{cfg['flag']}</span>
+            <span class='deck-card-badge'>{_deck_badge(len(pub), cfg)}</span>
           </div>
+          <span class='deck-card-title'>{E(cfg['country_name'])}</span>
           <p class='deck-card-top-trend'>{E(top_title)}</p>
-          <span class='deck-card-action'>كل أخبار {E(cfg['country_name'])} ←</span>
+          <span class='deck-card-action'>كل أخبار {E(cfg['country_name'])} <span class="deck-arrow">←</span></span>
         </a>""")
     # النسخة الإنجليزية: أخبار السياسة والاقتصاد عالميًا
     if "world" in data:
         wcfg = data["world"]
         wpub = [t for t in wcfg["trends"] if t.get("article")]
         wtop = max(wpub, key=lambda x: x["traffic_num"], default=None)
-        wtitle = ("Top story: " + wtop["article"]["headline"]) if wtop else ""
+        wtitle = (wtop["article"]["headline"]) if wtop else "Follow world politics & economy"
         deck_cards.append(f"""
         <a class='country-deck-card' href='world/' style='--deck-accent:#b39ddb;' hreflang='en'>
           <div class='deck-card-top'>
-            <span class='deck-card-title'>🌐 English · Worldwide</span>
-            <span class='deck-card-badge'>{len(wpub)} خبرًا اليوم</span>
+            <span class='deck-card-flag'>🌐</span>
+            <span class='deck-card-badge'>{_deck_badge(len(wpub), wcfg)}</span>
           </div>
+          <span class='deck-card-title'>English · Worldwide</span>
           <p class='deck-card-top-trend' lang='en' dir='ltr'>{E(wtitle)}</p>
-          <span class='deck-card-action'>أخبار السياسة والاقتصاد بالإنجليزي ←</span>
+          <span class='deck-card-action'>أخبار السياسة والاقتصاد بالإنجليزي <span class="deck-arrow">←</span></span>
         </a>""")
     deck_cards.append("""
         <a class='country-deck-card' href='jobs/' style='--deck-accent:#f5c542;'>
           <div class='deck-card-top'>
-            <span class='deck-card-title'>💼 وظائف وهجرة</span>
-            <span class='deck-card-badge'>أدلة من المصادر الرسمية</span>
+            <span class='deck-card-flag'>💼</span>
+            <span class='deck-card-badge'>أدلة رسمية</span>
           </div>
+          <span class='deck-card-title'>وظائف وهجرة</span>
           <p class='deck-card-top-trend'>إزاي تقدّم على وظائف الحكومة في مصر والسعودية، وتأشيرات العمل في ألمانيا وكندا وأستراليا، والعمل عن بعد، وإزاي تكشف الإعلانات المضروبة.</p>
-          <span class='deck-card-action'>تصفح الأدلة ←</span>
+          <span class='deck-card-action'>تصفح الأدلة <span class="deck-arrow">←</span></span>
         </a>""")
 
     # الخبر الأبرز: الأكثر بحثًا الآن في البلدين. والباقي «أحدث الأخبار» فعلًا:
@@ -2577,8 +2630,25 @@ def main():
 
     # الصفحة الرئيسة وصفحات البلاد تُبنى من أحدث يوم مؤرشف لكل بلد،
     # فلا يسقط بلد من الموقع بسبب تشغيلة فشل فيها جلبه.
-    latest = {k: by_country[k][0][1]
-              for k in sorted(by_country, key=lambda k: rank.get(k, len(rank)))}
+    #
+    # وأحدث يوم "بمحتوى" لا أحدث يوم بالتقويم: النسخة العالمية تُنشر
+    # فيها سياسة واقتصاد فقط (WORLD_CATEGORIES)، فأول تشغيلات اليوم قد
+    # تمر بصفر مقالات قبل أن يظهر خبر يطابق الشرط. لولا هذا السقوط إلى
+    # آخر يوم فيه مقالات، كانت الرئيسة وتبويب Worldwide يعرضان "0
+    # أخبار اليوم" لساعات كل صباح رغم وجود أخبار أمس الحقيقية.
+    def _has_articles(cfg):
+        return any(t.get("article") for t in cfg["trends"])
+
+    latest = {}
+    for k in sorted(by_country, key=lambda k: rank.get(k, len(rank))):
+        entries = by_country[k]
+        newest_day = entries[0][0]
+        day_with_content = next((c for d, c in entries if _has_articles(c)), None)
+        cfg = day_with_content if day_with_content else entries[0][1]
+        # يُقرأ في build_home ليختار "اليوم" أو التاريخ في شارة الكارت،
+        # فلا تقول "5 أخبار اليوم" وهي في الحقيقة أخبار أمس.
+        cfg["_is_today"] = entities.day_of(cfg) == newest_day
+        latest[k] = cfg
     COUNTRIES = {k: {
         "flag": v["flag"],
         "name_ar": c_defs.get(k, {}).get("name_ar", v["country_name"]),

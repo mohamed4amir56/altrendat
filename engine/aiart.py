@@ -39,30 +39,54 @@ ART_DIR = os.path.join(ROOT, "output", "art")   # يُنسخ إلى site/art ع�
 BASE = os.environ.get("SITE_BASE") or "https://altrendat.com"
 MODEL = "claude-haiku-4-5-20251001"
 CF_MODEL = "@cf/black-forest-labs/flux-1-schnell"
-MAX_AGE_DAYS = 3                   # لا نرسم الأرشيف القديم
-# الأخبار الجديدة فقط: ما كُتب قبل هذا الوقت يبقى بصورته (ويكيبيديا/تعبيرية).
-# قرار المستخدم: لا رسم للقديم.
-AI_SINCE = "2026-09-29T08:30:00+00:00"
+MAX_AGE_DAYS = 10                  # كل مقال في الأرشيف الحالي (بدأ 22 سبتمبر)
+# كان هنا AI_SINCE يقصر الرسم على ما كُتب بعد 29/9 08:30. المستخدم طلب بعدها
+# صورة لكل مقال، فأُلغي. الأحدث يُرسم أولًا، والحد لكل تشغيلة (--max) يوزّع
+# الباقي على التشغيلات التالية.
 SIZE = (1024, 576)                 # 16:9 مثل كروت الموقع
 
-STYLE = ("photorealistic editorial photograph, natural but dramatic lighting, rich vivid "
-         "colors, sharp focus, shallow depth of field, cinematic wide composition, "
-         "subject centered, high detail, professional news photography look, "
-         "no text, no letters, no logos, no watermark")
+# بلد كل نسخة: يعطي المشهد مكانه وألوان فريقه بدل ملعب لا هوية له.
+EDITION_COUNTRY = {"eg": "Egypt", "sa": "Saudi Arabia", "world": ""}
 
-SCENE_SYSTEM = """You write one-paragraph image prompts for a news site's illustrations.
-Given a news headline and summary, describe ONE clear, eye-catching visual scene that
-symbolises the story (objects, setting, action, mood), 40-60 words, English only.
-Rules:
-- The image is photorealistic. Never depict a real, named person's likeness. If the story
-  is about a person, show the setting and objects (a podium with microphones, a stadium,
-  a courtroom, a stage) or generic unidentifiable people seen from behind or at a
-  distance, never a recognisable portrait of that person.
-- No text, numbers, flags with writing, logos, brand marks or newspaper headlines.
-- Tragedy, violence, death or disaster: symbolic and calm (candles, empty chairs,
-  rain, rescue lights). Never blood, bodies or weapons in use.
-- Sports: stadium, ball, crowd energy, generic players seen from behind.
-Return only the scene description."""
+STYLE = ("photorealistic sports-magazine / news-agency photograph, dramatic cinematic "
+         "lighting, high contrast, rich saturated colors, dynamic diagonal composition, "
+         "strong emotion, shallow depth of field, crisp detail, "
+         "plain jerseys without numbers or names, "
+         "no text, no letters, no numbers, no logos, no crests, no watermark")
+
+# الصورة القديمة كانت "كرة على عشب" لكل خبر رياضي: صحيحة ولا تشد أحدًا. المطلوب
+# لحظة الذروة في الخبر نفسه (فوز، هدف، جمهور)، بألوان الفريق الحقيقية، ومع ذلك
+# بلا وجه حقيقي معروف: لاعبون مجهولون من الخلف أو في حركة. القاعدة ثابتة.
+SCENE_SYSTEM = """You write the image prompt for the photo at the top of a news article.
+The photo must stop a reader scrolling their feed: the most dramatic, emotional moment of
+THIS specific story, not a generic symbol. 45-70 words, English only, one paragraph.
+
+How to build it:
+- Find the peak moment in the story and show it happening: the winning celebration, the
+  crowd erupting, the market screen turning red, the storm hitting the city.
+- Be specific: the country, the city, the venue, the time of day, the team colours.
+- Put people and emotion in the frame whenever the story has them. Never just an object
+  lying still (a ball on grass, a gavel on a desk) unless the story is about that object.
+- Choose a striking angle: low angle, close action, silhouettes against floodlights,
+  confetti or flares, golden-hour or night light.
+
+Sports:
+- Name the team's real kit colours: Egypt national team red shirts, white shorts, black
+  socks; Saudi national team white or green; Al Ahly red; Zamalek white with red chest
+  stripes; Al Hilal blue; Al Nassr yellow; Al Ittihad yellow and black; Pyramids FC navy.
+- Win or goal: players in that kit celebrating together, jumping, arms raised, seen from
+  behind or in motion blur, in a packed stadium of fans in the same colours waving the
+  national flag, flares and floodlights. Loss: players on their knees, heads down, empty
+  seats. Transfer or signing: a jersey in the club colours in a stadium tunnel.
+
+Hard rules (never break):
+- Never a recognisable face of a real person. Players, officials and celebrities appear
+  anonymous: from behind, silhouetted, in motion blur, or too far to identify. No portraits.
+- No readable text, numbers, scoreboards, jersey numbers, logos, crests or brand marks.
+  National flags are allowed (they have no writing).
+- Death, violence, crime, disaster: calm and symbolic (candles, rain on a window, rescue
+  lights at a distance). Never blood, bodies, weapons or injured people.
+Return only the prompt."""
 
 
 def _client():
@@ -72,13 +96,14 @@ def _client():
     return anthropic.Anthropic()
 
 
-def scene_prompt(client, headline, summary, category):
+def scene_prompt(client, headline, summary, category, country=""):
     if client is None:
         return headline
     r = client.messages.create(
-        model=MODEL, max_tokens=200, system=SCENE_SYSTEM,
+        model=MODEL, max_tokens=250, system=SCENE_SYSTEM,
         messages=[{"role": "user", "content":
-                   "Headline: {}\nSummary: {}\nCategory: {}".format(headline, summary, category)}])
+                   "Headline: {}\nSummary: {}\nCategory: {}\nSite edition country: {}".format(
+                       headline, summary, category, country or "international")}])
     text = "".join(b.text for b in r.content if b.type == "text").strip()
     return text or headline
 
@@ -157,8 +182,6 @@ def run(budget=150, cap=12):
                 art = t.get("article")
                 if not isinstance(art, dict) or not art.get("body") or not wants_art(art):
                     continue
-                if (art.get("written_at") or "") < AI_SINCE:
-                    continue
                 head = art.get("headline") or t["title"]
                 photo = done.get(head)
                 if photo is None:
@@ -166,7 +189,8 @@ def run(budget=150, cap=12):
                         continue
                     try:
                         prompt = scene_prompt(client, head, art.get("summary", ""),
-                                              t.get("category", ""))
+                                              t.get("category", ""),
+                                              EDITION_COUNTRY.get(gkey, ""))
                         photo = art_photo(head, generate(prompt))
                         made += 1
                         print("  ✓ {} ← {}".format(head[:50], prompt[:70]))

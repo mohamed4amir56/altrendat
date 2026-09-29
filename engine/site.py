@@ -258,56 +258,6 @@ article p:first-child{font-size:1.12rem;color:var(--txt)}
 .item .sub{color:var(--mut);font-size:.8rem}
 .rank{color:var(--gold);font-weight:800;margin-inline-end:8px}
 
-/* --- بطاقات الدول السريعة (Country Deck) --- */
-.country-deck{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-  gap:16px;margin:20px 0 30px;
-}
-.country-deck-card{
-  background:linear-gradient(160deg,rgba(24,30,46,.95),rgba(15,19,30,.95));
-  border:1px solid var(--line);border-radius:18px;padding:20px 20px 18px;
-  text-decoration:none;display:flex;flex-direction:column;justify-content:space-between;
-  gap:11px;transition:all .28s cubic-bezier(.16,1,.3,1);position:relative;overflow:hidden;
-}
-.country-deck-card::before{
-  content:"";position:absolute;inset:0;opacity:0;transition:opacity .28s ease;
-  background:radial-gradient(120px 90px at 88% -10%,var(--deck-accent,var(--acc)),transparent 70%);
-}
-.country-deck-card::after{
-  content:"";position:absolute;top:0;left:0;right:0;height:3px;
-  background:var(--deck-accent,var(--acc));opacity:.9;
-}
-.country-deck-card:hover{
-  border-color:var(--deck-accent,var(--acc));transform:translateY(-4px);
-  box-shadow:0 14px 30px rgba(0,0,0,.4);
-}
-.country-deck-card:hover::before{opacity:.14}
-.deck-card-top{display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1}
-.deck-card-flag{
-  font-size:1.7rem;line-height:1;width:44px;height:44px;border-radius:50%;
-  display:flex;align-items:center;justify-content:center;flex-shrink:0;
-  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);
-}
-.deck-card-title{
-  font-size:1.22rem;font-weight:800;color:var(--txt);position:relative;z-index:1;
-  letter-spacing:-.2px;
-}
-.deck-card-badge{
-  font-size:.74rem;font-weight:800;padding:4px 11px;border-radius:99px;
-  background:var(--deck-accent,var(--gold));color:#0a0d14;white-space:nowrap;
-}
-.deck-card-top-trend{
-  font-size:.86rem;color:#c3ccdb;line-height:1.55;position:relative;z-index:1;
-  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
-  flex-grow:1;
-}
-.deck-card-action{
-  font-size:.83rem;font-weight:700;color:var(--deck-accent,var(--acc));
-  display:inline-flex;align-items:center;gap:6px;position:relative;z-index:1;
-}
-.deck-arrow{transition:transform .2s ease}
-.country-deck-card:hover .deck-arrow{transform:translateX(-3px)}
-
 /* --- شبكة كروت الأخبار والترندات الاحترافية (Trends Grid) --- */
 .trends-grid{
   display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));
@@ -1956,65 +1906,7 @@ def news_time(t, cfg):
     return max(times) if times else (cfg.get("generated_at") or "")
 
 
-def _deck_badge(n, cfg, unit="خبرًا"):
-    """شارة الكارت: "اليوم" فقط إن كان محتوى اليوم فعلًا، وإلا تاريخه.
-
-    كانت تكتب "اليوم" دائمًا، فقالت كارت Worldwide أحيانًا "0 أخبار
-    اليوم" حين لا يُنشر عن العالم بعد صباحًا (النسخة العالمية سياسة
-    واقتصاد فقط، أندر من أخبار البلدين)، أو "12 خبرًا اليوم" وهي أخبار
-    أمس فعلًا بعد أن يسقط build_home إلى آخر يوم فيه محتوى.
-    """
-    if cfg.get("_is_today", True):
-        return f"{n} {unit} اليوم"
-    return f"{n} {unit} · {entities.day_of(cfg)}"
-
-
 def build_home(data, urls):
-    deck_cards = []
-    for key, accent in (("eg", "#5aa9ff"), ("sa", "#3ddc97")):
-        if key not in data:
-            continue
-        cfg = data[key]
-        pub = [t for t in cfg["trends"] if t.get("article")]
-        top = max(pub, key=lambda x: x["traffic_num"], default=None)
-        top_title = (top["article"]["headline"]) if top else "تابع أهم الأخبار أولًا بأول"
-        deck_cards.append(f"""
-        <a class='country-deck-card' href='{key}/' style='--deck-accent:{accent};'>
-          <div class='deck-card-top'>
-            <span class='deck-card-flag'>{cfg['flag']}</span>
-            <span class='deck-card-badge'>{_deck_badge(len(pub), cfg)}</span>
-          </div>
-          <span class='deck-card-title'>{E(cfg['country_name'])}</span>
-          <p class='deck-card-top-trend'>{E(top_title)}</p>
-          <span class='deck-card-action'>كل أخبار {E(cfg['country_name'])} <span class="deck-arrow">←</span></span>
-        </a>""")
-    # النسخة الإنجليزية: أخبار السياسة والاقتصاد عالميًا
-    if "world" in data:
-        wcfg = data["world"]
-        wpub = [t for t in wcfg["trends"] if t.get("article")]
-        wtop = max(wpub, key=lambda x: x["traffic_num"], default=None)
-        wtitle = (wtop["article"]["headline"]) if wtop else "Follow world politics & economy"
-        deck_cards.append(f"""
-        <a class='country-deck-card' href='world/' style='--deck-accent:#b39ddb;' hreflang='en'>
-          <div class='deck-card-top'>
-            <span class='deck-card-flag'>🌐</span>
-            <span class='deck-card-badge'>{_deck_badge(len(wpub), wcfg)}</span>
-          </div>
-          <span class='deck-card-title'>English · Worldwide</span>
-          <p class='deck-card-top-trend' lang='en' dir='ltr'>{E(wtitle)}</p>
-          <span class='deck-card-action'>أخبار السياسة والاقتصاد بالإنجليزي <span class="deck-arrow">←</span></span>
-        </a>""")
-    deck_cards.append("""
-        <a class='country-deck-card' href='jobs/' style='--deck-accent:#f5c542;'>
-          <div class='deck-card-top'>
-            <span class='deck-card-flag'>💼</span>
-            <span class='deck-card-badge'>أدلة رسمية</span>
-          </div>
-          <span class='deck-card-title'>وظائف وهجرة</span>
-          <p class='deck-card-top-trend'>إزاي تقدّم على وظائف الحكومة في مصر والسعودية، وتأشيرات العمل في ألمانيا وكندا وأستراليا، والعمل عن بعد، وإزاي تكشف الإعلانات المضروبة.</p>
-          <span class='deck-card-action'>تصفح الأدلة <span class="deck-arrow">←</span></span>
-        </a>""")
-
     # الخبر الأبرز: الأكثر بحثًا الآن في البلدين. والباقي «أحدث الأخبار» فعلًا:
     # من الأحدث نشرًا للأقدم، فيظهر الخبر الجديد أول ما يُنشر (لا حسب حجم البحث)
     pool = [(key, data[key], t) for key in ("eg", "sa") if key in data
@@ -2043,7 +1935,6 @@ def build_home(data, urls):
       <h1>إيه اللي بيدور عليه الناس دلوقتي؟</h1>
       <p class="lead">أكثر ما يبحث عنه الناس في مصر والسعودية الآن، وكل خبر بمصادره.</p>
     </div>
-    <div class="country-deck">{"".join(deck_cards)}</div>
     {spotlight_html}
     <div class="section-head">
       <h2>أحدث الأخبار</h2>
@@ -2652,13 +2543,8 @@ def main():
     latest = {}
     for k in sorted(by_country, key=lambda k: rank.get(k, len(rank))):
         entries = by_country[k]
-        newest_day = entries[0][0]
-        day_with_content = next((c for d, c in entries if _has_articles(c)), None)
-        cfg = day_with_content if day_with_content else entries[0][1]
-        # يُقرأ في build_home ليختار "اليوم" أو التاريخ في شارة الكارت،
-        # فلا تقول "5 أخبار اليوم" وهي في الحقيقة أخبار أمس.
-        cfg["_is_today"] = entities.day_of(cfg) == newest_day
-        latest[k] = cfg
+        day_with_content = next((c for _, c in entries if _has_articles(c)), None)
+        latest[k] = day_with_content if day_with_content else entries[0][1]
     COUNTRIES = {k: {
         "flag": v["flag"],
         "name_ar": c_defs.get(k, {}).get("name_ar", v["country_name"]),

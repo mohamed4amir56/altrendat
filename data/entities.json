@@ -2023,14 +2023,14 @@
         "date": "2026-09-29",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "وكالة أنباء الإمارات: الرئيس الإماراتي استقبل رئيس وزراء إسرائيل أمس الأحد",
           "لماذا ذهب نتنياهو سراً إلى الإمارات الآن؟ وماذا طلب من بن زايد؟",
-          "بعد تسريبات إعلامية .. الإمارات وإسرائيل تؤكدان لقاء محمد بن زايد ونتنياهو في أبوظبي",
-          "محمد بن زايد يستقبل رئيس وزراء إسرائيل في أبوظبي"
+          "بعد تسريبات إعلامية .. الإمارات وإسرائيل تؤكدان لقاء محمد بن زايد ونتنياهو في أبوظبي"
         ]
       }
     ],
@@ -2040,7 +2040,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "شخصية"
   },
   "أحمد-سراج": {
@@ -2469,11 +2469,10 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "طقس",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "حالة الطقس اليوم الثلاثاء 29 سبتمبر 2026.. أجواء خريفية وفرص أمطار وشبورة صباحا",
-          "الأرصاد: غدا طقس حار نهارا معتدل ليلا.. والعظمى بالقاهرة 31",
-          "مفاجآت الطقس مستمرة.. ارتفاع في الحرارة وأمطار تضرب عدة مناطق في مصر"
+          "الأرصاد: 4 ظواهر جوية تؤثر بشدة على طقس الثلاثاء في القاهرة وعدة محافظات",
+          "أخبار مصر : شبورة وأمطار ودرجات حرارة مفاجئة.. الأرصاد تكشف حالة الطقس الأيام المقبلة"
         ]
       }
     ],
@@ -30655,8 +30654,8 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "موعد مباراة مصر وجنوب السودان فى التصفيات المؤهلة لأمم أفريقيا 2027",
           "حسام حسن يتحدث عن موقف صلاح وتصريحاته عن الشناوي",
+          "ترتيب مجموعة مصر قبل مواجهة جنوب السودان.. الفراعنة فى المركز الثالث",
           "العميد اختار التهدئة.. هل أنهت رسائل حسام حسن أزمات منتخب مصر؟ (صور)"
         ]
       }
@@ -32680,14 +32679,14 @@
         "date": "2026-09-29",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "3rd Quarter-Final, Nisshin, September 29, 2026, Asian Games Men's Cricket Competition",
-          "Rain knocks Nepal out of Asian Games as Sri Lanka advances on higher T20 ranking",
-          "Japan Washed Out of Asian Games 2026"
+          "Ball by Ball Commentary & Live Score - NEP vs SL, 3rd Quarter-Final",
+          "India to face Afghanistan in Asian Games quarter-final after Nepal-Japan game washed out",
+          "Asian Games, men's cricket: SL reach semifinal with another washout"
         ]
       }
     ],
@@ -32696,7 +32695,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 10000,
     "category": "رياضة"
   },
   "zach-ertz": {
@@ -33524,7 +33523,7 @@
         "publishable": false,
         "headlines": [
           "Albany’s Lexi Stephens lands 4-chair turn on NBC’s The Voice",
-          "The Voice Night 3 Recap: Coaches Fight for Top Talent",
+          "Why Lexi Stephens' \"Masterful\" Blind Audition on The Voice Left Everyone Hanging",
           "A 4-chair turn! Dayton native Amanda Mikkel impresses judges on ‘The Voice’"
         ]
       }
@@ -33610,9 +33609,9 @@
         "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
-          "Casey Affleck on Matt Damon Rivalry, a Chris Nolan Phone Call and Being a Proud “Hollywood Outsider”",
+          "Casey Affleck Recalls ‘Traumatic’ Oscars Night, Praises Christopher Nolan, and Says ‘Company’ Isn’t Finished Yet: ‘There Are Things I Want to Change’",
           "Ben Affleck’s Brother Has Blunt Take on Matt Damon: ‘Always a Bit of a Showoff’",
-          "Casey Affleck admits he was ‘mad’ after being called a Hollywood outsider in 2016"
+          "Casey Affleck on Matt Damon Rivalry, a Chris Nolan Phone Call and Being a Proud “Hollywood Outsider”"
         ]
       }
     ],
@@ -33640,7 +33639,8 @@
         "publishable": false,
         "headlines": [
           "Bears LT Braxton Jones questionable to return with knee injury",
-          "Braxton Jones Injury Update: Latest News on Bears LT's Status in Week 3 Game"
+          "Bears LT Braxton Jones leaves Eagles game with injury",
+          "Bears' Braxton Jones: Questionable to return to MNF"
         ]
       }
     ],
@@ -33651,5 +33651,295 @@
     ],
     "peak_traffic": 1000,
     "category": "رياضة"
+  },
+  "super-bowl-2026": {
+    "slug": "super-bowl-2026",
+    "name": "super bowl 2026",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "2 megastars being targeted for Super Bowl halftime show: Here’s what we know",
+          "Is Jay-Z Losing His Grip On The NFL Halftime Show?",
+          "Cam’ron Calls Cap on Claims Roc Nation Can’t Find a Super Bowl Halftime Headliner"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "protect-college-sports-act": {
+    "slug": "protect-college-sports-act",
+    "name": "protect college sports act",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "تعليم",
+        "publishable": false,
+        "headlines": [
+          "Senate Resoundingly Approves Sweeping College Sports Measure",
+          "Senate passes bipartisan bill to overhaul college sports",
+          "US Senate Passes Legislation to Limit College Player Transfers"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "تعليم"
+  },
+  "martha-stewart": {
+    "slug": "martha-stewart",
+    "name": "martha stewart",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Martha Stewart's $17 T.J. Maxx Pumpkins Are the Key to Unlocking a Chic Fall Porch",
+          "Sorry Faux Pumpkins, Martha Stewart's $10 T.J. Maxx Candles Are The Fall Dinner Party Essential Elegant People Are Buying Instead",
+          "Martha Stewart's T.J. Maxx Candles Are Perfect for Fall"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "عام"
+  },
+  "line-of-fire": {
+    "slug": "line-of-fire",
+    "name": "line of fire",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Peter Krause Enters the ‘Line of Fire’ and Opens Up About His Shocking ‘9-1-1’ Exit",
+          "Who Is Charlie Barnett's Line of Fire Character? The Premiere's Reveal Explained",
+          "Peter Krause’s ‘Line of Fire’ Is a Promising and Engaging NBC Procedural Drama: TV Review"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "عام"
+  },
+  "wladimir-klitschko-kaya-guardianship-filing": {
+    "slug": "wladimir-klitschko-kaya-guardianship-filing",
+    "name": "wladimir klitschko kaya guardianship filing",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Hayden Panettiere’s Ex-Fiancé Wladimir Klitschko Files Guardianship Petition of Actress’ Estate",
+          "Hayden Panettiere’s ex alleges missing jewelry and accessed emails as he seeks to protect Kaya's inheritance",
+          "Hayden Panettiere’s ex-fiancé makes ‘urgent’ legal move to protect daughter Kaya’s inheritance: docs"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "monangai": {
+    "slug": "monangai",
+    "name": "monangai",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Fantasy Football Start or Sit Week 3: Luther Burden, Kyle Monangai, Cairo Santos",
+          "Luther Burden III Receiving Yards Pick for Eagles vs. Bears",
+          "Luther Burden or Malik Willis"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "angela-paxton-texas-election-remarks": {
+    "slug": "angela-paxton-texas-election-remarks",
+    "name": "angela paxton texas election remarks",
+    "first_seen": "2026-09-28",
+    "appearances": [
+      {
+        "key": "2026-09-28|world",
+        "date": "2026-09-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "‘We cannot ignore the elephant in the room’: Ken Paxton’s estranged wife speaks to GOP women",
+          "Angela Paxton finally weighs in on Ken Paxton’s Senate race",
+          "Angela Paxton breaks silence on Texas Senate race — sort of"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "سياسة"
+  },
+  "رئيس": {
+    "slug": "رئيس",
+    "name": "رئيس",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|eg",
+        "date": "2026-09-29",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "سياسة",
+        "publishable": true,
+        "headlines": [
+          "الإدارة العامة للاستكشاف: 400 شركة تتنافس على فرص التعدين في مصر",
+          "وزير البترول المصري يبحث مع وزير المناجم الكونغولي تعزيز التعاون في التعدين",
+          "وزارة الصناعة وميتسو الفنلندية توقعان مذكرة تفاهم لتعزيز معالجة واستخلاص المعادن في مصر"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 1000,
+    "category": "سياسة"
+  },
+  "منصور-بن-زايد-آل-نهيان": {
+    "slug": "منصور-بن-زايد-آل-نهيان",
+    "name": "منصور بن زايد آل نهيان",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|sa",
+        "date": "2026-09-29",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "سياسة",
+        "publishable": true,
+        "headlines": [
+          "الأمير خالد بن سلمان يوجه دعوة للشيخ منصور بن زايد لزيارة السعودية غداً",
+          "\"زيارة أخوية\" رفيعة المستوى بين الرياض وأبوظبي تختبر فرص تجاوز الخلافات",
+          "وزير الدفاع السعودي يدعو منصور بن زايد لزيارة المملكة الثلاثاء"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "سياسة"
+  },
+  "رينان-لودي": {
+    "slug": "رينان-لودي",
+    "name": "رينان لودي",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|sa",
+        "date": "2026-09-29",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "قضية رينان لودي: الهلال ينفذ خطة برشلونة.. تأمين المنافسة على الثلاثية التاريخية والتخلص من صداع سالم الدوسري مبكرًا!",
+          "أزمة الهلال ولودي تعود إلى الواجهة.. وكيل البرازيلي يكشف آخر التفاصيل",
+          "قضية لودي والهلال: روايتان متضاربتان ومصير مجهول أمام \"فيفا\""
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
   }
 }

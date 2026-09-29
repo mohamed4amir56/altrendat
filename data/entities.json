@@ -6559,11 +6559,11 @@
         "traffic": "+30000",
         "traffic_num": 30000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "ما القنوات الناقلة لمباراة أستراليا والبرازيل الودية؟ وكيف تشاهدها عبر الإنترنت؟",
           "بث مباشر لمباراة البرازيل ضد أستراليا",
-          "أنشيلوتي: لن أسمح للانتقادات بالتأثير على خططي مع البرازيل"
+          "موعد مباراة البرازيل ضد أستراليا الودية والقنوات الناقلة والتشكيل المتوقع"
         ]
       },
       {
@@ -27858,15 +27858,30 @@
           "ATP Hangzhou Semifinal Predictions Including Daniil Medvedev vs Roman Safiullin",
           "Medvedev Pushes into Hangzhou Semis"
         ]
+      },
+      {
+        "key": "2026-09-29|world",
+        "date": "2026-09-29",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Highlights: Medvedev marches past Safiullin to reach Hangzhou 2026 final",
+          "Rublev Secures 400th Career Win, and Spot Alongside Medvedev in Hangzhou Final",
+          "LIVE Hangzhou Open Final | No.1 seed Daniil Medvedev faces fellow countryman Andrey Rublev with silverware on the line"
+        ]
       }
     ],
-    "last_seen": "2026-09-28",
-    "total": 1,
+    "last_seen": "2026-09-29",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "رياضة"
+    "category": "عام"
   },
   "susie-wiles": {
     "slug": "susie-wiles",
@@ -27953,12 +27968,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "عام",
+        "category": "تعليم",
         "publishable": false,
         "headlines": [
           "ATP Chengdu: Hubert Hurkacz - Alejandro Davidovich Fokina [RELACJA NA ŻYWO]",
           "Hubert Hurkacz - Alejandro Davidovich Fokina w finale turnieju ATP 250 w Chengdu. Relacja na żywo",
-          "Wydarzenia sportowe"
+          "Hurkacz czekał na to 16 miesięcy. Tak wygląda ranking ATP po sukcesie Polaka"
         ]
       }
     ],
@@ -27968,7 +27983,7 @@
       "world"
     ],
     "peak_traffic": 500,
-    "category": "عام"
+    "category": "تعليم"
   },
   "مجلس-الشيوخ": {
     "slug": "مجلس-الشيوخ",
@@ -34774,12 +34789,12 @@
         "country_name": "السعودية",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "هيلين ميرين بين عالم الجريمة والغموض.. نجمة الثمانين تواصل تحدي أدوارها في «موب لاند» و«موهبة للقتل»",
-          "احتفال \"جنوني\" لزيدان بهدف فوز فرنسا على بلجيكا",
-          "\"كلمات نابية ودفع\".. دي بروين يهين حكم مباراة بلجيكا وفرنسا"
+          "مبادرة أسرتي قوتي تنظم فعاليات لاكتشاف مواهب طلاب التربية الخاصة",
+          "إيمان كريم تكشف تفاصيل مبادرة أسرتى قوتى تحت رعاية قرينة رئيس الجمهورية",
+          "القومي ذوي الإعاقة يدشن مبادرة أسرتي قوتي ويتفقد عددًا من الخدمات في بني سويف"
         ]
       }
     ],
@@ -34789,7 +34804,7 @@
       "sa"
     ],
     "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "jackie-chan": {
     "slug": "jackie-chan",
@@ -35124,9 +35139,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "റിയാദ് സീസൺ 2026 ഒക്ടോബർ 21 മുതൽ: വിനോദത്തി​െൻറ അപൂർവ വിരുന്നൊരുക്കാൻ സൗദി അറേബ്യ | Madhyamam",
+          "വിനോദത്തിന്‍റെ അപൂർവ വിരുന്നൊരുക്കാൻ റിയാദ് സീസൺ; ഏഴാം പതിപ്പ് ഒക്ടോബർ 21 മുതൽ",
           "ആവേശകരമായ കായിക-വിനോദ മാമാങ്കത്തിന് കളമൊരുങ്ങി? റിയാദ് സീസൺ ഒക്ടോബർ 21ന് തുടക്കമാകും",
-          "റിയാദ് സീസണിന് ഒക്ടോബർ 21 ന് കിക്കോഫ്"
+          "റിയാദ് സീസൺ 2026 ഒക്ടോബർ 21 മുതൽ: വിനോദത്തി​െൻറ അപൂർവ വിരുന്നൊരുക്കാൻ സൗദി അറേബ്യ | Madhyamam"
         ]
       }
     ],
@@ -35903,8 +35918,9 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "عام",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
+          "Austrália 2 x 4 Brasil | Amistosos da Seleção Brasileira: melhores momentos",
           "Posse de Bola vai ao ar hoje, logo após Brasil X Austrália",
           "Quem é Vanderson, autor do primeiro gol do Brasil contra a Austrália?"
         ]
@@ -36044,14 +36060,14 @@
         "date": "2026-09-29",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "عام",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
+          "Barcelona captain Raphinha suffers thigh discomfort during Australia friendly",
           "Barcelona hit by injury scare as Raphinha taken off at half-time of Brazil friendly",
-          "A nightmare for Barcelona: Raphinha limps off injured in Australia clash",
-          "What to watch on TV today (24 Sept, 2026)"
+          "A nightmare for Barcelona: Raphinha limps off injured in Australia clash"
         ]
       }
     ],
@@ -36060,7 +36076,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "عام"
   },
   "payton-tolle": {
@@ -36076,7 +36092,7 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "Chad Tracy could swing the series between the Red Sox and Yankees",
           "Payton Tolle's Game 1 start places his name next to Babe Ruth in playoff history",
@@ -36162,12 +36178,12 @@
         "country_name": "مصر",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "عام",
+        "category": "اقتصاد",
         "publishable": true,
         "headlines": [
           "النقل: زيادة رسوم استعمال مرور السيارات على طريق وادى النطرون - العلمين",
           "«النقل» تقرر زيادة رسوم طريق العلمين.. وغرامة جديدة عند الهروب من بوابات التحصيل",
-          "20 جنيهًا للملاكي و30 للأتوبيس.. زيادة رسوم طريق وادي النطرون - العلمين"
+          "زيادة رسوم طريق العلمين في مصر.. الأسعار الجديدة وموعد التطبيق"
         ]
       }
     ],
@@ -36177,6 +36193,299 @@
       "eg"
     ],
     "peak_traffic": 1000,
+    "category": "اقتصاد"
+  },
+  "wnba-playoffs": {
+    "slug": "wnba-playoffs",
+    "name": "wnba playoffs",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|world",
+        "date": "2026-09-29",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Game Recap: Indiana Fever Fall in Game One of 2026 WNBA Playoffs",
+          "‘Red out’ for Fever’s playoff game against Aces",
+          "A'ja Wilson, defending champion Aces dominate Fever in opener"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "south-sudan-vs-egypt": {
+    "slug": "south-sudan-vs-egypt",
+    "name": "south sudan vs egypt",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|world",
+        "date": "2026-09-29",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Egypt rest Mohamed Salah for South Sudan qualifier amid artificial pitch concerns",
+          "When Salah plays in Europe on artificial turf: where does the \"protection\" argument go?",
+          "The Incredible Reason Why Mohamed Salah Has Been Left Off Egypt Roster"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "sylvester-stallone": {
+    "slug": "sylvester-stallone",
+    "name": "sylvester stallone",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|world",
+        "date": "2026-09-29",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Sylvester Stallone Hid His Struggles for Decades. Now He’s Coming Clean.",
+          "Sylvester Stallone on the fight to make \"Rocky\"",
+          "Exclusive | Sylvester Stallone, 80, gets candid about his life — including not attending his mom’s funeral, the perils of stardom and death of his son"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "حوادث وقضايا"
+  },
+  "mike-lee-blocks-kennedy-center-bill": {
+    "slug": "mike-lee-blocks-kennedy-center-bill",
+    "name": "mike lee blocks kennedy center bill",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|world",
+        "date": "2026-09-29",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "GOP senator blocks bill to stop Trump from demolishing Kennedy Center",
+          "Senate Democrats put Trump's D.C. makeover on notice",
+          "Merkley Slams Senate Republicans for Rubberstamping Trump Arch"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "سياسة"
+  },
+  "harry-and-meghan-news": {
+    "slug": "harry-and-meghan-news",
+    "name": "harry and meghan news",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|world",
+        "date": "2026-09-29",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Royal family unclear of Harry and Meghan’s motives as ‘frustration’ lingers: expert",
+          "Prince Harry & Meghan Markle Keep Falling Into One Royal ‘Trap’ After UK Return — Expert",
+          "Prince Harry’s Six Impending Moments of Conflict With the Royals"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
     "category": "عام"
+  },
+  "جنوب-السودان-ضد-مصر": {
+    "slug": "جنوب-السودان-ضد-مصر",
+    "name": "جنوب السودان ضد مصر",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|eg",
+        "date": "2026-09-29",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "+70000",
+        "traffic_num": 70000,
+        "category": "دول وأماكن",
+        "publishable": true,
+        "headlines": [
+          "مرموش وزيكو وهيثم حسن فى التشكيل الرسمى لمنتخب مصر أمام جنوب السودان",
+          "بالتردد.. قناة مجانية تنقل مباراة جنوب السودان ضد مصر",
+          "حسام حسن يتحدث عن موقف صلاح وتصريحاته عن الشناوي"
+        ]
+      },
+      {
+        "key": "2026-09-29|sa",
+        "date": "2026-09-29",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "+7000",
+        "traffic_num": 7000,
+        "category": "دول وأماكن",
+        "publishable": true,
+        "headlines": [
+          "ما القنوات الناقلة لمباراة جنوب السودان ومصر في تصفيات كأس أمم أفريقيا 2027؟ وكيف تشاهدها عبر الإنترنت؟",
+          "حسام حسن يكشف حقيقة خلافه مع صلاح.. ويوضّح: الشناوي أخ وابن لي",
+          "العميد اختار التهدئة.. هل أنهت رسائل حسام حسن أزمات منتخب مصر؟ (صور)"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 70000,
+    "category": "دول وأماكن"
+  },
+  "lesotho-vs-morocco": {
+    "slug": "lesotho-vs-morocco",
+    "name": "lesotho vs morocco",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|eg",
+        "date": "2026-09-29",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Morocco's superstars in good spirits in Bloem",
+          "Morocco Holds Final Training Session Ahead of Lesotho AFCON 2027 Qualifier",
+          "Ouahbi: Morocco’s New Players Need Time to Grow"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "ليسوتو-ضد-المغرب": {
+    "slug": "ليسوتو-ضد-المغرب",
+    "name": "ليسوتو ضد المغرب",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|eg",
+        "date": "2026-09-29",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "محمد وهبى يحذر لاعبى منتخب المغرب من التهاون أمام ليسوتو",
+          "تصفيات أمم إفريقيا.. بداية قوية للمغرب والجزائر وتعثر مصري",
+          "أسود الأطلس يتطلعون إلى تحقيق الفوز الثاني"
+        ]
+      },
+      {
+        "key": "2026-09-29|sa",
+        "date": "2026-09-29",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "وهبي يرفض المجازفة.. نجم المغرب خارج مواجهة ليسوتو",
+          "بث مباشر لمباراة المغرب ضد ليسوتو في تصفيات كأس أمم أفريقيا",
+          "بعد دياز وبن طيب.. منتخب المغرب يفتقد نايف أكرد ضد ليسوتو بتصفيات أمم إفريقيا"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "دول وأماكن"
+  },
+  "فينيسيوس-جونيور": {
+    "slug": "فينيسيوس-جونيور",
+    "name": "فينيسيوس جونيور",
+    "first_seen": "2026-09-29",
+    "appearances": [
+      {
+        "key": "2026-09-29|eg",
+        "date": "2026-09-29",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "هل تم استبدال فينيسيوس؟ اتهامات خطيرة تطارد نجم ريال مدريد في البرازيل",
+          "تسبب في إقالة تشابي ألونسو.. الكشف عن كواليس غضب ريال مدريد من فينيسيوس",
+          "هل أخفت الاستخبارات الأمريكية فينيسيوس جونيور واستبدلته بشبيه؟"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-29",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
   }
 }

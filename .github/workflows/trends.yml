@@ -64,7 +64,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           SITE_BASE: ${{ vars.SITE_BASE }}
-        run: python engine/aiart.py --budget 150 --max 12
+        run: python engine/aiart.py --budget 170 --max 20
 
       - name: توليد الكروت
         run: python engine/cards.py

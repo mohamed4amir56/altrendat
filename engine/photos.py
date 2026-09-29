@@ -77,6 +77,28 @@ NO_PLACE = {"رياضة", "فن ومشاهير", "ديني", "طقس", "أبرا
 # ليست صورة الخبر
 MATCH = re.compile(r"(\sضد\s|\svs\.?\s|\sv\s|×|مباراة|كأس|كاس|دوري|بطولة|تصفيات|"
                    r"\scup\s|\sleague\s|championship|qualif)", re.I)
+# بلد الخبر من كلماته، لا من النسخة التي رصدته: ترند السعودية قد يكون خبرًا عن
+# مصر (مصريون كثيرون هناك يبحثون عن أخبار بلدهم)، وخبر ملك الأردن ليس محليًا
+# سعوديًا. يحدد صورة البلد التعبيرية، ويوجّه إشعار التطبيق (site.py).
+_AR_WORD = r"(?<![\w])[وبلفك]?(?:{})(?![\w])"
+EG_MARKERS = re.compile(_AR_WORD.format("|".join((
+    "مصر", "مصري", "مصرية", "المصري", "المصرية", "المصريين", "المصريون", "القاهرة",
+    "الجيزة", "الإسكندرية", "الجنيه", "الجنيه المصري", "العاصمة الإدارية", "السيسي",
+    "مدبولي", "egypt", "egyptian", "cairo"))), re.I)
+SA_MARKERS = re.compile(_AR_WORD.format("|".join((
+    "السعودية", "السعودي", "السعوديين", "سعودي", "الرياض", "جدة", "مكة", "المدينة المنورة",
+    "الدمام", "الريال السعودي", "أبشر", "نيوم", "saudi", "riyadh", "jeddah"))), re.I)
+
+
+def story_country(*texts):
+    """«eg» أو «sa» إن كان الخبر عن بلد واحد منهما، وإلا «» (يهم كل القراء)."""
+    t = " ".join(x or "" for x in texts)
+    eg, sa = bool(EG_MARKERS.search(t)), bool(SA_MARKERS.search(t))
+    if eg != sa:
+        return "eg" if eg else "sa"
+    return ""
+
+
 # صور وكالات الأنباء عليها شعارها (مرخصة، لكنها تبدو صورة صحيفة)
 AGENCY = re.compile(r"(news agency|وكالة|mehrnews|tasnimnews|farsnews|isna\.ir|irna\.ir|"
                     r"xinhua|anadolu|aa\.com\.tr|\bmehr\b|\btasnim\b)", re.I)
@@ -148,11 +170,13 @@ TOPIC_WORDS = [
     ("tennis", ["تنس", "التنس", "tennis", "wimbledon"]),
     ("basketball", ["كرة السلة", "لكرة السلة", "nba", "basketball"]),
     ("cricket", ["كريكيت", "الكريكيت", "cricket"]),
-    ("football", ["كرة القدم", "كرة قدم", "لكرة القدم", "soccer", "fifa", "فيفا", "الفيفا"]),
+    ("football", ["كرة القدم", "كرة قدم", "لكرة القدم", "soccer", "fifa", "فيفا", "الفيفا",
+                  "كأس العالم", "دوري أبطال", "concacaf", "uefa", "nations league",
+                  "world cup", "premier league", "mls"]),
     ("un", ["الأمم المتحدة", "مجلس الأمن", "الجمعية العامة", "united nations",
             "security council", "general assembly"]),
-    ("court", ["محكمة", "المحكمة", "النيابة", "النيابة العامة", "court", "convicted",
-               "sentenced", "indicted", "lawsuit", "judge", "verdict"]),
+    ("court", ["محكمة", "المحكمة", "النيابة", "النيابة العامة", "احتيال", "court", "convicted",
+               "sentenced", "indicted", "lawsuit", "judge", "verdict", "fraud"]),
     ("parliament", ["مجلس النواب", "مجلس الشيوخ", "البرلمان", "مجلس الشورى",
                     "congress", "senate", "house of representatives", "capitol"]),
     ("elections", ["انتخابات", "الانتخابات", "الاقتراع", "التصويت", "election",
@@ -168,9 +192,9 @@ TOPIC_WORDS = [
                "dollar", "currency", "exchange rate", "central bank", "federal reserve",
                "interest rate", "interest rates", "fed"]),
     ("inflation", ["التضخم", "السلع الغذائية", "inflation", "consumer prices", "grocery prices"]),
+    ("capital", ["العاصمة الإدارية", "العاصمة الإدارية الجديدة", "العاصمة الجديدة"]),
     ("housing", ["عقارات", "العقارات", "التمويل العقاري", "الإسكان", "الإيجار", "الإيجارات",
                  "شقق", "mortgage", "mortgages", "housing", "real estate", "home prices"]),
-    ("capital", ["العاصمة الإدارية", "العاصمة الإدارية الجديدة", "العاصمة الجديدة"]),
     ("trade", ["ميناء", "الموانئ", "الجمارك", "جمارك", "رسوم جمركية", "tariff", "tariffs",
                "shipping", "exports", "imports"]),
     ("aviation", ["طيران", "الطيران", "مطار", "المطار", "airline", "airlines", "flight",
@@ -423,7 +447,8 @@ def find_photo(title, category, langs=("ar", "en"), tags=(), text=""):
     من الوسوم يجب أن يرد فيه أو في عنوان الترند، فيكون موضوع الخبر لا ذكرًا
     عابرًا فيه (لاعب معتزل في خبر مباراة)."""
     text = title + " " + (text or "")
-    sporty = (category == "رياضة" or bool(MATCH.search(" " + title + " ")) or
+    # العنوان الصحفي أيضًا: ترند «honduras» خبره عن دوري الأمم (Nations League)
+    sporty = (category == "رياضة" or bool(MATCH.search(" " + text + " ")) or
               topic_of(text + " " + " ".join(tags or []), category) in SPORT_TOPICS)
     names = [(v, False) for v in _variants(title)]
     names += [(t.strip(), True) for t in list(tags or [])[:MAX_TAGS]
@@ -474,7 +499,10 @@ def topic_of(text, category):
 
 def stock_photo(title, category, country, text=""):
     """صورة تعبيرية تطابق موضوع الخبر، ثابتة لكل عنوان — أو None."""
-    topic = topic_of(title + " " + (text or ""), category)
+    # كلمات الترند نفسه أولًا («qqq stock» بورصة، ولو ذكر خبره الانتخابات)
+    topic = topic_of(title, None) or topic_of(title + " " + (text or ""), category)
+    # صورة بلد الخبر لا بلد النسخة: خبر العاصمة الإدارية في ترند السعودية مصري
+    country = story_country(title, text) or country
     if not topic:
         return None
     pool = load_stock()
@@ -524,7 +552,7 @@ def refresh_stock():
 
 # رقم قواعد الاختيار الحالية. مقال صورته بقواعد أقدم (أو بلا رقم) يُعاد
 # اختيار صورته تلقائيًا في التشغيلة الدورية. ارفعه عند تغيير القواعد.
-PHOTO_VERSION = 4
+PHOTO_VERSION = 5                 # 5: صورة بلد الخبر، ورياضة العنوان الصحفي
 
 
 def mark(art, photo):

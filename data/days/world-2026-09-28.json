@@ -236,8 +236,8 @@
     },
     {
       "title": "eagles schedule 2026",
-      "traffic": "+40000",
-      "traffic_num": 40000,
+      "traffic": "+50000",
+      "traffic_num": 50000,
       "published": "Mon, 28 Sep 2026 15:40:00 -0700",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYbE0ukb9FT_OFwiMW6-M_wlCURJXvx-qBrTZ-04k9BlsZfFGokcKIAFWvtws",
       "image_source": "NFL.com",
@@ -353,8 +353,8 @@
     },
     {
       "title": "snow",
-      "traffic": "+25000",
-      "traffic_num": 25000,
+      "traffic": "+29000",
+      "traffic_num": 29000,
       "published": "Mon, 28 Sep 2026 10:00:00 -0700",
       "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQF1UwKQF0zMB6awmVgKBdlMOSInr8XLNzLggJYJ7N0Y9YeZxvPtakMPRDhFvg",
       "image_source": "Autoblog",
@@ -953,16 +953,16 @@
         "_had_data": false,
         "_localized": false,
         "photo": {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/LostHillsPumpjacksSunset.JPG/1280px-LostHillsPumpjacksSunset.JPG",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_03.jpg/1280px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_03.jpg",
           "width": 1280,
           "height": 853,
-          "artist": "Arne Hückelheim",
-          "license": "CC BY-SA 3.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-          "file_page": "https://commons.wikimedia.org/wiki/File:LostHillsPumpjacksSunset.JPG",
+          "artist": "Ank Kumar",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_03.jpg",
           "stock": true
         },
-        "photo_v": 4
+        "photo_v": 5
       },
       "card": "cards/world-2026-09-28-nasdaq-today.png",
       "published_at": "2026-09-28T14:30:42.742554+00:00"
@@ -1150,6 +1150,55 @@
       "published_at": "2026-09-29T00:00:38.697294+00:00"
     },
     {
+      "title": "el salvador vs guatemala",
+      "traffic": "+10000",
+      "traffic_num": 10000,
+      "published": "Mon, 28 Sep 2026 16:20:00 -0700",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQyr_ZnkPEFa4P3Bm99eImx66uvbBAwZJ_MyEJF_DenUyg4dgOl_0xb8U3Guo0",
+      "image_source": "ESPN Deportes",
+      "news": [
+        {
+          "title": "Luis Fernando Tena: \"El Salvador tiene delanteros muy buenos y eso los hace peligrosos\"",
+          "url": "https://espndeportes.espn.com/video/clip/_/id/17312097/luis-fernando-tena-el-salvador-tiene-delanteros-muy-buenos-y-eso-los-hace-peligrosos",
+          "source": "ESPN Deportes",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQyr_ZnkPEFa4P3Bm99eImx66uvbBAwZJ_MyEJF_DenUyg4dgOl_0xb8U3Guo0",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "“Será imperdonable que Guatemala no le gane a El Salvador”",
+          "url": "https://www.elgrafico.com/selecciones/sera-imperdonable-que-guatemala-no-le-gane-a-el-salvador-20260927-0014.html",
+          "source": "El Gráfico",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSN_r_PoU3XI9pdTF6gwcdB7AYNAvfcpGKO5ZFEbWJmvqcyQgRpPJpTSghMr4I",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "¿Dónde ver el Guatemala-El Salvador de la Liga de Naciones de la CONCACAF?",
+          "url": "https://www.laprensagrafica.com/deportes/donde-ver-el-guatemala-el-salvador-de-la-liga-de-naciones-de-la-concacaf-20260927-0067.html",
+          "source": "La Prensa Gráfica",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdG6-DjaerZ3Y12LmcnzfYg68FknjZlWdmdncXWnbQgF2o9nWwfKi8eJUqEog",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-09-28-el-salvador-vs-guatemala.png",
+      "published_at": "2026-09-28T23:45:33.400615+00:00"
+    },
+    {
       "title": "slipknot tour 2027",
       "traffic": "+7000",
       "traffic_num": 7000,
@@ -1333,55 +1382,6 @@
       "publishable": false,
       "card": "cards/world-2026-09-28-national-coffee-day-2026.png",
       "published_at": "2026-09-28T19:00:49.166646+00:00"
-    },
-    {
-      "title": "el salvador vs guatemala",
-      "traffic": "+6000",
-      "traffic_num": 6000,
-      "published": "Mon, 28 Sep 2026 16:20:00 -0700",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQyr_ZnkPEFa4P3Bm99eImx66uvbBAwZJ_MyEJF_DenUyg4dgOl_0xb8U3Guo0",
-      "image_source": "ESPN Deportes",
-      "news": [
-        {
-          "title": "Luis Fernando Tena: \"El Salvador tiene delanteros muy buenos y eso los hace peligrosos\"",
-          "url": "https://espndeportes.espn.com/video/clip/_/id/17312097/luis-fernando-tena-el-salvador-tiene-delanteros-muy-buenos-y-eso-los-hace-peligrosos",
-          "source": "ESPN Deportes",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQyr_ZnkPEFa4P3Bm99eImx66uvbBAwZJ_MyEJF_DenUyg4dgOl_0xb8U3Guo0",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false
-        },
-        {
-          "title": "“Será imperdonable que Guatemala no le gane a El Salvador”",
-          "url": "https://www.elgrafico.com/selecciones/sera-imperdonable-que-guatemala-no-le-gane-a-el-salvador-20260927-0014.html",
-          "source": "El Gráfico",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSN_r_PoU3XI9pdTF6gwcdB7AYNAvfcpGKO5ZFEbWJmvqcyQgRpPJpTSghMr4I",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "¿Dónde ver el Guatemala-El Salvador de la Liga de Naciones de la CONCACAF?",
-          "url": "https://www.laprensagrafica.com/deportes/donde-ver-el-guatemala-el-salvador-de-la-liga-de-naciones-de-la-concacaf-20260927-0067.html",
-          "source": "La Prensa Gráfica",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdG6-DjaerZ3Y12LmcnzfYg68FknjZlWdmdncXWnbQgF2o9nWwfKi8eJUqEog",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        }
-      ],
-      "category": "رياضة",
-      "icon": "⚽",
-      "color": "#3ddc97",
-      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-      "publishable": false,
-      "card": "cards/world-2026-09-28-el-salvador-vs-guatemala.png",
-      "published_at": "2026-09-28T23:45:33.400615+00:00"
     },
     {
       "title": "matthew knies",
@@ -1657,7 +1657,7 @@
         },
         "_had_data": false,
         "_localized": false,
-        "photo_v": 4
+        "photo_v": 5
       },
       "card": "cards/world-2026-09-28-trump-approval.png",
       "published_at": "2026-09-28T19:31:00.720403+00:00"
@@ -3329,7 +3329,7 @@
         "_had_data": false,
         "_localized": false,
         "photo": null,
-        "photo_v": 4
+        "photo_v": 5
       },
       "card": "cards/world-2026-09-28-politician.png",
       "published_at": "2026-09-28T12:46:13.876013+00:00"
@@ -3585,16 +3585,16 @@
         "_had_data": false,
         "_localized": false,
         "photo": {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Ballot_with_ballot_box_in_Sonoma%2C_California_-_November_2022_-_Sarah_Stierch_02.jpg/1280px-Ballot_with_ballot_box_in_Sonoma%2C_California_-_November_2022_-_Sarah_Stierch_02.jpg",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_03.jpg/1280px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_03.jpg",
           "width": 1280,
-          "height": 960,
-          "artist": "Missvain",
-          "license": "CC BY 4.0",
-          "license_url": "https://creativecommons.org/licenses/by/4.0",
-          "file_page": "https://commons.wikimedia.org/wiki/File:Ballot_with_ballot_box_in_Sonoma,_California_-_November_2022_-_Sarah_Stierch_02.jpg",
+          "height": 853,
+          "artist": "Ank Kumar",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_03.jpg",
           "stock": true
         },
-        "photo_v": 4
+        "photo_v": 5
       },
       "card": "cards/world-2026-09-28-qqq-stock.png",
       "published_at": "2026-09-28T14:15:46.161790+00:00"
@@ -3666,7 +3666,7 @@
           "file_page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_03.jpg",
           "stock": true
         },
-        "photo_v": 4
+        "photo_v": 5
       },
       "card": "cards/world-2026-09-28-msft-stock.png",
       "published_at": "2026-09-28T14:30:42.742554+00:00"
@@ -3929,7 +3929,7 @@
           "file_page": "https://commons.wikimedia.org/wiki/File:Courtroom_One_Gavel_-_Flickr_-_Joe_Gratz.jpg",
           "stock": true
         },
-        "photo_v": 4
+        "photo_v": 5
       },
       "card": "cards/world-2026-09-28-health-care-fraud.png",
       "published_at": "2026-09-28T17:40:16.882534+00:00"
@@ -5096,7 +5096,7 @@
           "wiki_title": "Atlantic City, New Jersey",
           "wiki_lang": "en"
         },
-        "photo_v": 4
+        "photo_v": 5
       },
       "card": "cards/world-2026-09-28-atlantic-city.png",
       "published_at": "2026-09-28T11:00:47.958169+00:00"
@@ -5679,7 +5679,7 @@
           "wiki_title": "Kimberly Guilfoyle",
           "wiki_lang": "en"
         },
-        "photo_v": 4,
+        "photo_v": 5,
         "_had_data": false,
         "_localized": false
       },
@@ -5945,7 +5945,7 @@
           "file_page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_03.jpg",
           "stock": true
         },
-        "photo_v": 4
+        "photo_v": 5
       },
       "card": "cards/world-2026-09-28-tsla-stock.png",
       "published_at": "2026-09-28T11:00:47.958169+00:00"

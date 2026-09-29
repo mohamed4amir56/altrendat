@@ -2287,6 +2287,31 @@ def build_sitemaps(urls, news):
     return len(rows), len(items)
 
 
+# بلد الخبر من كلماته، لا من النسخة التي رصدته (photos.story_country): بوت
+# الإشعارات يوجّه الخبر المحلي لمشتركي بلده (حقل about).
+story_country = photos.story_country
+
+
+def gold_news_image(t, art, is_en):
+    """صورة الخبر للتطبيق والإشعار: الصورة الحقيقية (مقاسان) مع حقوقها، وإلا الكارت.
+    حقوق الصورة مكتوبة أيضًا في صفحة الخبر التي يفتحها الإشعار (رابطها sourceUrl)،
+    وهذا ما تسمح به رخص المشاع الإبداعي حين لا يتسع المكان لسطر المصدر."""
+    photo = art.get("photo") or {}
+    url = photo.get("url")
+    if not url:
+        card = (BASE + "/cards/" + os.path.basename(t["card"])) if t.get("card") \
+            else (BASE + "/og-default.jpg")
+        return {"image": card, "thumb": card}
+    thumb = url.replace("/1280px-", "/500px-") if "/1280px-" in url else url
+    credit = "{} {} · {} · {}".format(
+        "Photo:" if is_en else "تصوير:", photo.get("artist", ""), photo.get("license", ""),
+        "Wikimedia Commons" if is_en else "ويكيميديا كومنز")
+    if photo.get("stock"):
+        credit = ("Illustrative photo · " if is_en else "صورة تعبيرية · ") + credit
+    return {"image": url, "thumb": thumb, "imageCredit": credit,
+            "imageCreditUrl": photo.get("file_page", "")}
+
+
 def build_gold_news_api(days_dict):
     """يصدر خلاصة الأخبار السياسية والاقتصادية والمؤثرة على الذهب بصيغة JSON نظيفة لتطبيق الذهب مع أولوية قصوى للسياسة."""
     def is_ar_text(txt):
@@ -2368,14 +2393,15 @@ def build_gold_news_api(days_dict):
                 ts = 0
 
             canonical = f"{BASE}/{key}/{day}/{slug}/"
-            # كارت الموقع لا صورة الصحيفة: صور الصحف عليها علاماتهم وحقوقهم،
-            # والتطبيق لا يعرض سطر المصدر الذي تشترطه صور ويكيميديا.
-            img_url = (BASE + "/cards/" + os.path.basename(t["card"])) if t.get("card") \
-                else (BASE + "/og-default.jpg")
-
             headline = art.get("headline") or t.get("title", "")
             is_ar = is_ar_text(t.get("title", "")) or is_ar_text(headline)
             is_en = not is_ar
+            # صورة الخبر الحقيقية (حرة الرخصة) لا صور الصحف، وإلا كارت الموقع
+            img = gold_news_image(t, art, is_en)
+            img_url = img["image"]
+            # بلد الخبر من كلماته (للإشعار المحلي)؛ النسخة الإنجليزية بلا بلد
+            about = story_country(headline, art.get("summary", ""),
+                                  " ".join(art.get("tags") or [])) if key in ("eg", "sa") else ""
 
             gold_feed.append({
                 "id": f"{key}-{day}-{slug}",
@@ -2391,7 +2417,11 @@ def build_gold_news_api(days_dict):
                 "sourceUrl": canonical,
                 "url": canonical,
                 "image": img_url,
+                "thumb": img["thumb"],
+                "imageCredit": img.get("imageCredit", ""),
+                "imageCreditUrl": img.get("imageCreditUrl", ""),
                 "country": key,
+                "about": about,
                 "country_name": cname,
                 "flag": flag,
                 "lang": "en" if is_en else "ar",

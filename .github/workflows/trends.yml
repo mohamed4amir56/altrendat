@@ -55,6 +55,17 @@ jobs:
         continue-on-error: true
         run: python engine/photos.py --budget 90
 
+      # رسوم توضيحية بالذكاء الاصطناعي (aiart.py) تحل محل الصور التعبيرية
+      # العامة. بلا مفاتيح Cloudflare تخرج بلا خطأ، وفشلها لا يُسقط التشغيلة.
+      - name: رسوم المقالات
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          SITE_BASE: ${{ vars.SITE_BASE }}
+        run: python engine/aiart.py --budget 150 --max 12
+
       - name: توليد الكروت
         run: python engine/cards.py
 

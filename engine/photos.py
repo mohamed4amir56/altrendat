@@ -627,6 +627,8 @@ def backfill(recheck=False, budget=None, only_mark=False):
                     continue
                 if art.get("photo_v") == PHOTO_VERSION and not recheck:
                     continue
+                if (art.get("photo") or {}).get("ai"):     # رسم aiart.py لا يُستبدل
+                    continue
                 if budget and time.time() - start > budget:
                     out_of_time = True
                     break

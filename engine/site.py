@@ -1903,6 +1903,15 @@ def redirect_stub(path, target):
     return True
 
 
+def news_time(t, cfg):
+    """وقت آخر نشر حقيقي للخبر: كتابة مقاله أو ظهور الترند، أيهما أحدث.
+    published_at وقت أول ظهور للترند في يومه، ومقال النتيجة قد يُكتب بعده
+    بساعات («تونس ضد بوتسوانا» ظهر 00:01 ومقال النتيجة كُتب 05:01)."""
+    art = t.get("article") or {}
+    times = [x for x in (t.get("published_at"), art.get("written_at")) if x]
+    return max(times) if times else (cfg.get("generated_at") or "")
+
+
 def build_home(data, urls):
     deck_cards = []
     for key, accent in (("eg", "#5aa9ff"), ("sa", "#3ddc97")):
@@ -1946,24 +1955,25 @@ def build_home(data, urls):
           <span class='deck-card-action'>تصفح الأدلة ←</span>
         </a>""")
 
-    # بالتناوب بين مصر والسعودية
-    per = []
-    for key in (k for k in ("eg", "sa") if k in data):
-        cfg = data[key]
-        pub = sorted([t for t in cfg["trends"] if t.get("article")], key=lambda x: -x["traffic_num"])
-        per.append([(key, cfg, t) for t in pub])
-    mixed = [x for row in zip_longest(*per) for x in row if x][:18]
+    # الخبر الأبرز: الأكثر بحثًا الآن في البلدين. والباقي «أحدث الأخبار» فعلًا:
+    # من الأحدث نشرًا للأقدم، فيظهر الخبر الجديد أول ما يُنشر (لا حسب حجم البحث)
+    pool = [(key, data[key], t) for key in ("eg", "sa") if key in data
+            for t in data[key]["trends"] if t.get("article")]
+    top = max(pool, key=lambda x: x[2]["traffic_num"], default=None)
+    rest = sorted((x for x in pool if x is not top),
+                  key=lambda x: news_time(x[2], x[1]), reverse=True)
+    mixed = ([top] if top else []) + rest[:17]
 
     spotlight_html = ""
     news_cards = []
     if mixed:
         first_key, first_cfg, first_t = mixed[0]
-        first_time = format_time(first_t.get("published_at") or first_cfg.get("generated_at"), is_en=False, country=first_key)
+        first_time = format_time(news_time(first_t, first_cfg), is_en=False, country=first_key)
         first_href = "{}/{}/{}/".format(first_key, entities.day_of(first_cfg), entities.slugify(first_t["title"]))
         spotlight_html = render_hero_spotlight(
             first_t, first_href, first_cfg["country_name"], first_cfg["flag"], first_time, root="./", is_en=False)
         for i, (key, cfg, t) in enumerate(mixed[1:], 2):
-            t_time = format_time(t.get("published_at") or cfg.get("generated_at"), is_en=False, country=key)
+            t_time = format_time(news_time(t, cfg), is_en=False, country=key)
             t_href = "{}/{}/{}/".format(key, entities.day_of(cfg), entities.slugify(t["title"]))
             news_cards.append(render_trend_card(
                 t, t_href, i, cfg["country_name"], cfg["flag"], t_time, root="./", is_en=False))

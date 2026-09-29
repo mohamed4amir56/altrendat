@@ -67,14 +67,16 @@ jobs:
       # النطاق يُمرَّر كمتغيّر: قبل حجزه يبني على عنوان Cloudflare
       # المجاني، وبعده تُغيَّر القيمة مرة واحدة هنا فقط.
       - name: بناء الموقع
+        id: build
         env:
           SITE_BASE: ${{ vars.SITE_BASE }}
         run: python engine/site.py "${SITE_BASE:-https://altrendat.com}"
 
       # حارس السياسات: أي مخالفة (وظيفة بلا إعلان رسمي، تقييم مكتوب، مصدر
-      # بث مقرصن، عنوان مبالغ فيه...) توقف التشغيلة قبل الحفظ، فيبقى آخر
-      # موقع سليم منشورًا. بلا continue-on-error عمدًا.
+      # بث مقرصن، عنوان مبالغ فيه...) توقف نشر الصفحات، فيبقى آخر موقع سليم
+      # منشورًا. بلا continue-on-error عمدًا. والبيانات تُحفظ رغم ذلك (خطوة الحفظ).
       - name: حارس السياسات
+        id: guard
         run: python engine/guard.py
 
       # الفهرسة تحسين لا شرط — فشلها لا يُسقط التشغيلة
@@ -126,13 +128,26 @@ jobs:
       # ندفع، حتى ثلاث مرات. وعند تعارض الأسطر نأخذ نسخة هذه التشغيلة
       # (-X theirs = التزام التشغيلة أثناء إعادة التأسيس): صفحات site/ تُبنى من
       # جديد في كل تشغيلة، فالتشغيلة التالية تبنيها بأحدث كود على أي حال.
+      # يعمل حتى لو أوقف الحارس النشر: المقالات المكتوبة (data/) مدفوعة الثمن،
+      # وضياعها يعني كتابتها ودفع ثمنها مرة أخرى في التشغيلة التالية. أما صفحات
+      # site/ فلا تُحفظ إلا إن وافق الحارس، فيبقى آخر موقع سليم منشورًا.
       - name: حفظ النتائج
+        if: always() && steps.build.outcome == 'success'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ output/ site/
+          if [ "${{ steps.guard.outcome }}" = "success" ]; then
+            git add data/ output/ site/
+            msg="رصد: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          else
+            git add data/ output/
+            # صفحات هذه التشغيلة مرفوضة: تُعاد لآخر نسخة منشورة (ولولا ذلك
+            # لتعذّر pull --rebase بسبب ملفات معدّلة غير محفوظة)
+            git checkout -- site/ && git clean -fdq -- site/
+            msg="رصد (بيانات فقط، الحارس أوقف نشر الصفحات): $(date -u '+%Y-%m-%d %H:%M') UTC"
+          fi
           git diff --staged --quiet && exit 0
-          git commit -q -m "رصد: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git commit -q -m "$msg"
           for i in 1 2 3; do
             git push && exit 0
             git pull --rebase -X theirs -q origin master || { git rebase --abort; exit 1; }

@@ -73,7 +73,8 @@ CATEGORIES = [
         "المقاولون", "إنبي", "الزوراء", "الشرطة", "الوحدة", "السد",
         "vs", "nba", "nfl", "mlb", "nhl", "premier league", "champions league",
         "cup", "match", "game", "score", "scores", "fc", "club", "coach", "player",
-        "tournament", "lakers", "celtics", "warriors", "chiefs", "ufc", "wwe",
+        "tournament", "lakers", "celtics", "warriors", "chiefs", "ufc", "wwe", "aew",
+        "wrestling", "wrestlemania", "smackdown",
         "football", "basketball", "baseball", "soccer", "tennis", "phillies", "magic number",
     ]),
     ("تقنية", "💻", "#5aa9ff", [
@@ -208,9 +209,27 @@ def blocked_hit(text, words=None):
     return None
 
 
+# عبارات فيها كلمة من فئة أخرى: «Money in the Bank» عرض مصارعة لا خبر بنوك،
+# فتُستبدل قبل التصنيف بما يدل على فئتها الحقيقية
+PHRASE_FIX = {
+    "money in the bank": "wwe",
+    "royal rumble": "wwe",
+    "survivor series": "wwe",
+    "super bowl": "nfl",
+    "world series": "mlb",
+    "stock car": "race",
+}
+
+
+def _fix_phrases(norm):
+    for phrase, repl in PHRASE_FIX.items():
+        norm = norm.replace(phrase, repl)
+    return norm
+
+
 def _match(text):
     """يعيد أول فئة تطابق النص، أو None."""
-    norm = normalize(text)
+    norm = _fix_phrases(normalize(text))
     for name, icon, color, keywords in CATEGORIES:
         for word in keywords:
             if _word_re(word).search(norm):
@@ -248,7 +267,7 @@ def classify(title, news_titles):
             return ("شخصية", "👤", "#ffd166",
                     "اسم شخص على الأرجح — يحتاج مراجعة", False)
 
-    # 4) وأخيرًا من عناوين الأخبار
+    # 4) وأخيرًا من عناوين الأخبار (بعد تصحيح العبارات المضللة في _match)
     hit = _match(" ".join(news_titles))
     if hit:
         name, icon, color, word = hit

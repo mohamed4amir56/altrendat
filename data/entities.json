@@ -1923,11 +1923,11 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "شخصية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "عاجل: مكتب نتنياهو يستبعد اختطاف طائرة فلاي دبي المتجهة إلى تل أبيب، مع احتمال هبوطها في السعودية",
-          "متحدث باسم نتنياهو: واقعة طائرة فلاي دبي ليست عملية خطف",
-          "اشتباك بين الطيارين يحول مسار طائرة إماراتية متجهة إلى إسرائيل"
+          "ماذا نعلم عمّا حدث برحلة \"فلاي دبي\" المتجهة إلى تل أبيب بعد إرسال إشارة طوارئ؟",
+          "اشتباك بين الطيّارين يحول مسار طائرة إماراتية متجهة إلى إسرائيل",
+          "متحدث باسم نتنياهو: واقعة طائرة فلاي دبي ليست عملية خطف"
         ]
       },
       {
@@ -1942,7 +1942,7 @@
         "headlines": [
           "عاجل: مكتب نتنياهو يستبعد اختطاف طائرة فلاي دبي المتجهة إلى تل أبيب، مع احتمال هبوطها في السعودية",
           "متحدث باسم نتنياهو: واقعة طائرة فلاي دبي ليست عملية خطف",
-          "نزاع روسي وأوكراني وطائرة إماراتية.. لماذا حركت إسرائيل مقاتلاتها للسعودية؟"
+          "شكوك إسرائيلية بمحاولة أحد الطيارين إسقاط الطائرة المتجهة من دبي لإسرائيل"
         ]
       }
     ],
@@ -4506,7 +4506,7 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "ZIMW vs WIW, 1st ODI, West Indies Women tour of Zimbabwe, 2026 - Commentary",
           "IT’S THE LADY CHEVS’ DATE WITH HISTORY",
@@ -42537,7 +42537,6 @@
         "publishable": false,
         "headlines": [
           "Albert, 17, breaks Pulisic mark as youngest USMNT scorer",
-          "Young U.S. men's soccer team has ups and downs in 4-2 victory over Chile",
           "Starting XI & Lineup Notes: USMNT vs. Chile"
         ]
       }
@@ -47181,12 +47180,12 @@
         "country_name": "السعودية",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "حوادث وقضايا",
+        "category": "عام",
         "publishable": false,
         "headlines": [
-          "Israel-bound flight diverts to Saudi Arabia after 'fight' between pilots",
           "Live updates: Israel-bound flight diverted to Saudi Arabia after ‘violent incident’ between pilots",
-          "‘We heard screams, the plane dived’: Suspicion pilot on flydubai flight to Tel Aviv tried to crash plane"
+          "Israel-bound flight diverts to Saudi Arabia after 'fight' between pilots",
+          "Israel-bound flight diverted to Saudi Arabia after brawl between pilots, Israeli official says"
         ]
       },
       {
@@ -47212,7 +47211,7 @@
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "حوادث وقضايا"
+    "category": "عام"
   },
   "market": {
     "slug": "market",
@@ -47287,8 +47286,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "إيران لبحث الرد الأميركي على خطتها لبناء الثقة",
           "طهران تعلن تسلم المقترح الأميركي… والخلاف على ترتيب الخطوات",
+          "إيران تبحث الرد الأميركي على مقترحها لإنهاء الحرب (تغطية حية)",
           "عراقجي يكشف تفاصيل لقاء الوسطاء القطريين في نيويورك.. وهذا ما قاله عن مضيق هرمز والملف النووي"
         ]
       }
@@ -47403,9 +47402,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "نشوب حريق هائل داخل مطعم مأكولات شهير بأكتوبر",
           "مأساة أسرة في مصر.. حريق يودي بحياة أم وأبنائها الثلاثة",
-          "من الاستعداد للخطوبة إلى المشرحة.. شهود عيان يرون مأساة أسرة كاملة في حريق فيصل"
+          "من الاستعداد للخطوبة إلى المشرحة.. شهود عيان يرون مأساة أسرة كاملة في حريق فيصل",
+          "فاجعة شقة فيصل.. ارتفاع عدد الضحايا إلى 4 جثث و5 مصابين"
         ]
       }
     ],
@@ -47427,14 +47426,14 @@
         "date": "2026-09-30",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "category": "رياضة",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
         "publishable": false,
         "headlines": [
+          "WATCH TODAY IND v WI ODI Live Broadcast",
           "Kuldeep's four-for helps India tide over Greaves' hundred to restrict WI to 295/7",
-          "[Reddit/Streams]!! India vs West Indies 1st ODI in the 2026 HS Football",
-          "$+⚽️+【Live Sports)@+!】 India vs West Indies 𝐋𝐈𝐕𝐄 online"
+          "[STream]HERE'S*! India v West Indies ODI LIVE Updates"
         ]
       }
     ],
@@ -47443,8 +47442,8 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 1000,
-    "category": "رياضة"
+    "peak_traffic": 2000,
+    "category": "عام"
   },
   "apartments": {
     "slug": "apartments",
@@ -47456,14 +47455,14 @@
         "date": "2026-09-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "category": "حوادث وقضايا",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "تعليم",
         "publishable": false,
         "headlines": [
-          "Middletown police investigating ‘suspicious death’ of woman at Northwoods Apartments",
-          "Woman Found Dead Inside Apartment In Middletown: Police",
-          "Officer-involved shooting in Hartford is connected to Middletown homicide: police"
+          "UGA senior awake, recovering after surviving eighth-floor fall in Athens",
+          "911 audio reveals moment student fell from window",
+          "University of Georgia student dancing on couch near window falls 8 stories and survives"
         ]
       }
     ],
@@ -47472,8 +47471,8 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 10000,
+    "category": "تعليم"
   },
   "eli-raridon-family-news": {
     "slug": "eli-raridon-family-news",
@@ -47578,8 +47577,8 @@
         "publishable": false,
         "headlines": [
           "Meghan Markle’s Former Agent Ari Emanuel Gives Blunt Response When Asked About Her Career",
-          "Meghan Markle’s Hollywood Future Gets a Terse Response From Ex-Agent",
-          "Meghan Markle's former agent makes eyebrow-raising comment about duchess' career after parting ways in 2025"
+          "Meghan Markle's former agent makes eyebrow-raising comment about duchess' career after parting ways in 2025",
+          "Hollywood Agent’s Blunt Take Puts Meghan Markle’s Acting Career in Focus"
         ]
       }
     ],
@@ -47606,9 +47605,9 @@
         "category": "سياسة",
         "publishable": true,
         "headlines": [
-          "تشريعية النواب توافق على تأجيل تطبيق قانون الإجراءات الجنائية لمدة عام",
-          "ننشر نص مشروع قانون تأجيل تطبيق قانون الإجراءات الجنائية إلى أكتوبر 2027",
-          "مصر.. السيسي يدعو البرلمان إلى جلسة طارئة صباح الأربعاء"
+          "جلسة طارئة لبرلمان مصر اليوم بسبب قانون مهم.. مصادر تكشف",
+          "بدء جلسة النواب الطارئة لمناقشة تأجيل تطبيق قانون الإجراءات الجنائية",
+          "جلسة البرلمان الطارئة.. مدبولي يصل مجلس النواب"
         ]
       }
     ],
@@ -47619,5 +47618,179 @@
     ],
     "peak_traffic": 2000,
     "category": "سياسة"
+  },
+  "redsox-score": {
+    "slug": "redsox-score",
+    "name": "redsox score",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Red Sox add Garrett Crochet to wild-card roster vs. Yankees",
+          "Red Sox manager Chad Tracy says decision to add Crochet to playoff roster 'not overly difficult'",
+          "Garrett Crochet Included On Red Sox’ Wild Card Roster"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "ryan-blaney-carson-hocevar-bristol": {
+    "slug": "ryan-blaney-carson-hocevar-bristol",
+    "name": "ryan blaney carson hocevar bristol",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Ross Chastain calls Ryan Blaney's fight with Carson Hocevar at Bristol Motor Speedway 'NASCAR 101'",
+          "Blaney brushes off fight with Hocevar as 'just a racing' thing",
+          "Saturday Kansas Speedway Notebook"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "slipknot-tour-support-act-backlash": {
+    "slug": "slipknot-tour-support-act-backlash",
+    "name": "slipknot tour support act backlash",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "One of the biggest bands in the world is playing Golden Gate Park in 2027",
+          "Slipknot fans in uproar over Marilyn Manson support slot: ‘This is so disappointing’",
+          "Legendary metal band is coming to Hersheypark Stadium: Here’s how to get tickets"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "البوابة-المصرية-الموحدة-للحج": {
+    "slug": "البوابة-المصرية-الموحدة-للحج",
+    "name": "البوابة المصرية الموحدة للحج",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|eg",
+        "date": "2026-09-30",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "ديني",
+        "publishable": false,
+        "headlines": [
+          "اليوم.. إجراء نتيجة قرعة الحج السياحي والإعلان عن الفائزين",
+          "بدء القرعة الإلكترونية للحج السياحي لموسم 1448هـ",
+          "استعدادات جديدة لحج الجمعيات الأهلية لعام 2027 تشمل تفاصيل البرامج وتكاليف المستويات المختلفة"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "ديني"
+  },
+  "عبد-الله-الحمدان": {
+    "slug": "عبد-الله-الحمدان",
+    "name": "عبد الله الحمدان",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|sa",
+        "date": "2026-09-30",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "\"التعصب للأندية أمر مستهجن\".. أمير سعودي يرد على منتقدي عبدالله الحمدان",
+          "محمد نور: قرار دونيس سيدمر هذا اللاعب!",
+          "سامي الجابر يعلق على الهجوم ضد عبدالله الحمدان: «بعض الأشخاص في قلوبهم غل ضده»"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "مسجد": {
+    "slug": "مسجد",
+    "name": "مسجد",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|sa",
+        "date": "2026-09-30",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "ديني",
+        "publishable": false,
+        "headlines": [
+          "مستوطنون يصعدون بالضفة.. اعتداءات واقتحام المسجد الأقصى",
+          "سياسي / رابطةُ العالم الإسلامي تُدين الاقتحامات والاعتداءات الإسرائيلية المتواصلة على حرمة المسجد الأقصى المبارك",
+          "أمين مجلس التعاون يدين اقتحام متطرفين المسجد الأقصى ويطالب بتحرك دولي عاجل"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "ديني"
   }
 }

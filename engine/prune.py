@@ -10,7 +10,8 @@
 ما يُحذف:
 1. «ترندات» مصطنعة: كل مصادرها صفحات رئيسية لمواقع، فلا هي من Google
    Trends ولا أخبارها مقالات. تُحذف من الأرشيف والذاكرة كليًا.
-2. مقالات النسخة العالمية خارج السياسة والاقتصاد.
+2. مقالات النسخة العالمية خارج السياسة والاقتصاد، ومقالات الكريكيت في
+   النسختين العربيتين (بحث الجالية بالإنجليزي؛ انظر pipeline.is_cricket).
 3. مقالات لها أقل من مصدرين حقيقيين بعد حذف مواقع البث والسبام.
 4. مقالات متنها أقل من 120 كلمة.
 5. مقالات عنوانها مبالغ فيه (sources.hype_reason).
@@ -65,6 +66,10 @@ def weak_reason(key, t):
     if (key == "world" and config.WORLD_CATEGORIES
             and t.get("category") not in config.WORLD_CATEGORIES):
         return "النسخة العالمية خارج السياسة والاقتصاد"
+    if key != "world":
+        from pipeline import is_cricket    # نفس قاعدة الرصد (pipeline.py)
+        if is_cricket(t):
+            return "كريكيت في نسخة عربية: بحث الجالية بالإنجليزي"
     if len(sources.good_sources(t.get("news", []))) < 2:
         return "أقل من مصدرين حقيقيين"
     if sources.word_count(art.get("body", "")) < MIN_OLD_BODY:

@@ -608,6 +608,20 @@ def spanish_sources(news):
     return es * 2 > len(news)
 
 
+# علامات الكريكيت في عنوان الترند وعناوين مصادره وأسمائها. «ICC» وحدها ليست
+# علامة (المحكمة الجنائية الدولية أيضًا)، و«innings» تأتي في البيسبول
+_CRICKET = re.compile(
+    r"(?<![\w])(cricket|cricinfo|espncricinfo|cricbuzz|bcci|wicket|wickets|odi|odis|t20|t20i|"
+    r"ipl|psl|test series|ashes)(?![\w])|كريكيت", re.I)
+
+
+def is_cricket(trend):
+    """ترند كريكيت؟ علامتان على الأقل، فلا يُستبعد خبر ذُكر فيه الكريكيت مرة."""
+    text = trend.get("title", "") + " " + " ".join(
+        (n.get("title") or "") + " " + (n.get("source") or "") for n in trend.get("news", []))
+    return len(_CRICKET.findall(text)) >= 2
+
+
 def person_ok(trend):
     """هل يُكتب عن هذا الاسم؟ (نعم/لا، السبب)
 
@@ -729,6 +743,13 @@ def build(country_key, cfg):
                 and spanish_sources(sources.good_sources(t["news"]))):
             t["publishable"] = False
             t["reason"] = "مصادر بالإسباني — النسخة إنجليزية فقط"
+
+        # النسخ العربية لا تكتب عن الكريكيت: ترندات السعودية (ومصر) فيها بحث
+        # الجالية الهندية والباكستانية بالإنجليزي، ومصادره كلها إنجليزية. المقال
+        # العربي لا يصل لمن بحث، ولا يهم القارئ العربي، ويُدفع ثمنه.
+        if country_key != "world" and t["publishable"] and is_cricket(t):
+            t["publishable"] = False
+            t["reason"] = "كريكيت — بحث الجالية بالإنجليزي، لا يُكتب بالعربي"
 
         # النسخة العالمية تخدم أخبار تطبيق Goldex: سياسة واقتصاد فقط.
         if (country_key == "world" and t["publishable"] and config.WORLD_CATEGORIES

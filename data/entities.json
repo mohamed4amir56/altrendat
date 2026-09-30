@@ -11941,8 +11941,8 @@
         "date": "2026-10-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+3000",
-        "traffic_num": 3000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
@@ -21369,9 +21369,9 @@
         "category": "شخصية",
         "publishable": true,
         "headlines": [
-          "تعرض 3 ناقلات لهجمات في مضيق هرمز",
           "ناقلة نفط تتعرض لضربة بمقذوف مجهول في مضيق هرمز",
-          "هجوم بمقذوف وشحنة غاز وناقلتان معاقبتان.. ماذا حدث بمضيق هرمز؟"
+          "هجوم بمقذوف وشحنة غاز وناقلتان معاقبتان.. ماذا حدث بمضيق هرمز؟",
+          "إصابة 3 سفن بمقذوفات في مضيق هرمز"
         ]
       }
     ],
@@ -40841,15 +40841,30 @@
           "Alec Bohm represents changes that might be coming to the Phillies. Who else could be on the way out?",
           "Phillies news: Alec Bohm, Luis Arraez, Paul Skenes"
         ]
+      },
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Cardinals Notes: Third Base, Burleson, Walker",
+          "Hochman: Who’s on third for Cardinals in 2027? Nolan Gorman? Jesus Baez? Alec Bohm?",
+          "2 External Candidates to Fill Third Base Need for Cardinals"
+        ]
       }
     ],
-    "last_seen": "2026-09-29",
-    "total": 1,
+    "last_seen": "2026-09-30",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
-    "category": "رياضة"
+    "peak_traffic": 2000,
+    "category": "عام"
   },
   "منتخب-الجزائر-لكرة-القدم": {
     "slug": "منتخب-الجزائر-لكرة-القدم",
@@ -50639,9 +50654,9 @@
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "بالفيديو: سيناريو مجنون في خليجي 27.. اليمن يقلب الطاولة ويمطر شباك البحرين برباعية",
           "اليمن يهزم البحرين بخماسية ويودع خليجي 27 بصورة مشرفة",
-          "نور الدين ولد علي: الملعب وحده معيار الاختيار للمنتخب اليمني"
+          "نور الدين ولد علي: الملعب وحده معيار الاختيار للمنتخب اليمني",
+          "اليمن يكتب التاريخ في ليلة \"بكاء الجماهير وتقليد كريستيانو رونالدو\".. وهناك ما هو أخطر من الخسارة الكارثية يا البحرين!"
         ]
       }
     ],
@@ -51151,9 +51166,9 @@
         "category": "شخصية",
         "publishable": true,
         "headlines": [
-          "محافظة: برنامج المدارس الرقمية يعكس أهمية دمج التكنولوجيا بالعملية التعليمية",
-          "محافظة والرئيس التنفيذي لأورنج الأردن يزوران مدرسة تابعة لبرنامج \"المدارس الرقمية\"",
-          "بعد فتح باب تسجيل الاستمارة.. رسوم امتحان الشهادة الإعدادية بالعام 2027"
+          "التعليم العالي تكثف حملاتها ضد الكيانات الوهمية وتغلق منشأة بالمنيا",
+          "التعليم العالي تحذر من الكيانات الوهمية.. وقائمة سوداء للجهات غير المعتمدة",
+          "التعليم العالي تغلق كيانًا وهميًا في المنيا يقبل الطلاب بمجموع 50%"
         ]
       }
     ],
@@ -52039,8 +52054,8 @@
         "publishable": false,
         "headlines": [
           "Phil Mickelson Entered Treatment Center for Family Trauma and Addiction",
-          "Phil Mickelson Entered Treatment for Family Trauma and Addiction",
-          "Phil Mickelson checked into treatment center; What we know"
+          "Golf legend Phil Mickelson reportedly checked into addiction treatment center",
+          "Phil Mickelson went to rehab for ‘family trauma and addiction’"
         ]
       }
     ],
@@ -52091,10 +52106,10 @@
         "date": "2026-10-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "تمرد مفاجئ.. حقيقة إلغاء مباراة المغرب وغانا",
           "البديل جاهز.. أزمة مالية لمنتخب غانا تلغي وديته مع المغرب",
@@ -52107,7 +52122,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 200,
     "category": "رياضة"
   },
   "الهيئة-العامة-للنقل": {
@@ -52137,6 +52152,267 @@
       "sa"
     ],
     "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "white-sox---astros": {
+    "slug": "white-sox---astros",
+    "name": "white sox - astros",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "50000+",
+        "traffic_num": 50000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Astros frustrated by boos from sparse crowd during wild-card opener",
+          "New $50 Polymarket referral code “OREGON” updated for White Sox-Astros Game 2",
+          "Astros players blast their own fans for booing, not showing up to playoff loss - The Athletic"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 50000,
+    "category": "رياضة"
+  },
+  "drake-baldwin": {
+    "slug": "drake-baldwin",
+    "name": "drake baldwin",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Walt Weiss “leans on personal history” for lineup choices in Game 2 of Wild Card Series",
+          "Atlanta Braves Make Matt Olson Move During Wild Card Series vs. Phillies",
+          "Atlanta Braves Announce Ronald Acuna Jr. Move Before Game 2 vs. Phillies"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "andrew-painter": {
+    "slug": "andrew-painter",
+    "name": "andrew painter",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Phillies make minor tweak to starting rotation ahead of final weekend of the season",
+          "Phillies may be preparing Andrew Painter for a bullpen role by keeping him on normal rest for his next start",
+          "Phillies Reveal Lineup For Must-Win Game vs Rays"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "googl-stock": {
+    "slug": "googl-stock",
+    "name": "googl stock",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Alphabet Has More Growth Engines Than Investors Think, We See 63% Upside",
+          "What Is The One Risk Every Google Stock Investor Should Know?",
+          "Alphabet: The AI Winner Nobody Is Talking About (NASDAQ:GOOGL)"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "اقتصاد"
+  },
+  "northern-lights": {
+    "slug": "northern-lights",
+    "name": "northern lights",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Science begins for Smile",
+          "New spacecraft captures burst of northern lights around North Pole",
+          "SMILE Satellite Ends 18-Year Northern Lights Gap; X-Ray Magnetic Shield View Weeks Away"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "vaccine": {
+    "slug": "vaccine",
+    "name": "vaccine",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Andrea Shaw Says Vaccines Killed Her Twins. Authorities Say She Suffocated Them.",
+          "Whatcom County offering free flu, COVID-19 vaccines",
+          "Minneapolis Animal Care & Control offering free vaccines, microchips for one day in October"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
+  },
+  "karl-anthony-towns": {
+    "slug": "karl-anthony-towns",
+    "name": "karl-anthony towns",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Karl-Anthony Towns had the last laugh. And he’s not done smiling yet",
+          "Karl-Anthony Towns Gushes Over ‘12/10’ Wife Jordyn Woods and Their Recent Wedding",
+          "“It was a much more freeing experience now being an …"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "dunkin-halloween-menu": {
+    "slug": "dunkin-halloween-menu",
+    "name": "dunkin halloween menu",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Dunkin' is serving up new Halloween-inspired drinks",
+          "Dunkin’ Is Launching an All-New Halloween Menu—and We Tried It First",
+          "Dunkin' Kicks Off Halloween With a Slate of New Beverages"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "غادة-عادل": {
+    "slug": "غادة-عادل",
+    "name": "غادة عادل",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|eg",
+        "date": "2026-10-01",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "مجدي الهواري وغادة عادل يحتفلان بخطوبة ابنتهما في أجواء عائلية (فيديو)",
+          "صور| رقص غادة عادل ومجدي الهواري في حفل خطوبة ابنتهما",
+          "غادة عادل تحتفل بخطوبة ابنتها في أجواء عائلية"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
     "category": "شخصية"
   }
 }

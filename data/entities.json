@@ -17802,7 +17802,7 @@
         "publishable": true,
         "headlines": [
           "India look to solidify 2027 World Cup plans, West Indies seek more bowling bite",
-          "CWI – Limited Squads for the Tour of India",
+          "Guwahati weather forecast for India vs. West Indies: Chances of rain, average temperature for IND vs. WI 2nd ODI",
           "India’s pace puzzle, Kohlis purple patch in focus as WI face must-win second ODI"
         ]
       },
@@ -17817,7 +17817,7 @@
         "publishable": false,
         "headlines": [
           "India look to solidify 2027 World Cup plans, West Indies seek more bowling bite",
-          "West Indies wary of the India challenge, says Hope",
+          "India wins toss and opts to bowl against West Indies in second ODI",
           "India’s new-ball puzzle: West Indies series offers young pacers a chance to stake claim"
         ]
       }
@@ -43117,7 +43117,7 @@
         "headlines": [
           "وزير الداخلية يكشف تفاصيل إعادة صياغة منظومة المرور: التعامل ماليًا مع شباك واحد ولمرة واحدة",
           "بدء التشغيل التجريبى لنظام التحصيل الإلكتروني بوحدات المرور من الغد",
-          "\"تعامل مالي واحد\".. وزير الداخلية يكشف آلية الشباك الواحد بمنظومة المرور الجديدة"
+          "الداخلية بعد توجيهات الرئيس: المواطن سيتعامل ماليًا مع «شباك واحد» في منظومة المرور الجديدة"
         ]
       }
     ],
@@ -46120,7 +46120,7 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "اقتصاد",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "استقرار بورصة أسعار الدواجن فى الأقصر.. اليوم الثلاثاء 29 سبتمبر 2026",
           "أسعار السلع الغذائية والبيض في الأسواق اليوم الأربعاء 30 سبتمبر 2026",
@@ -46931,12 +46931,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "عام",
+        "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "A Supermarket Opened a Pub to Get Around Liquor Laws. Now It Needs Bouncers.",
-          "Bouncers Wanted at Store's Pub | The Wall Street Journal - newspaper",
-          "A grocery store tried something unexpected, and now people are flying in to see it"
+          "Russia strikes warehouses belonging to supermarket chain in Kyiv Oblast",
+          "Russian Drone Strikes McDonald’s Food Warehouse in Kyiv",
+          "Russian Attack Injures Three People in Brovary, Two Suffer Shrapnel Wounds"
         ]
       }
     ],
@@ -46946,7 +46946,7 @@
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "دول وأماكن"
   },
   "india-vs-west-indies": {
     "slug": "india-vs-west-indies",
@@ -47120,12 +47120,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "عام",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "‘Violent incident’ between pilots sparks diversion of Israel-bound flight to Saudi Arabia, sources say",
           "Israel-bound flight diverted to Saudi Arabia after brawl between pilots, Israeli official says",
-          "A commercial plane traveling from Dubai to Israel is diverted to Saudi Arabia after a distress call"
+          "Unconfirmed reports: One pilot attempted to crash plane, second pilot stopped him with passengers' help",
+          "Flydubai flight to Tel Aviv veers off course, lands in Saudi Arabia after hijacking scare"
         ]
       }
     ],
@@ -47179,9 +47179,13 @@
         "country_name": "السعودية",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "عام",
+        "category": "رياضة",
         "publishable": false,
-        "headlines": []
+        "headlines": [
+          "\"Why Not Play Mohammad Siraj?\" Ex-KKR Player Questions BCCI's Selection Process",
+          "India vs West Indies 2nd ODI Playing 11: IND look to maintain consistency in hunt for series win",
+          "Aakash Chopra raises questions over India’s XI after IND vs WI 2026 1st ODI"
+        ]
       }
     ],
     "last_seen": "2026-09-30",
@@ -47190,7 +47194,7 @@
       "sa"
     ],
     "peak_traffic": 500,
-    "category": "عام"
+    "category": "رياضة"
   },
   "طهران": {
     "slug": "طهران",
@@ -47208,7 +47212,7 @@
         "publishable": false,
         "headlines": [
           "عراقجي يكشف تفاصيل لقاء الوسطاء القطريين في نيويورك.. وهذا ما قاله عن مضيق هرمز والملف النووي",
-          "إيران تتسلم الرد الأميركي على \"مقترح الأيام السبعة\"",
+          "مصدر رفيع يؤكد نقل رد واشنطن إلى وزير الخارجية الإيراني عبر الوسطاء",
           "الخامسة | ترمب ينفي تخفيف العقوبات عن إيران.. وغارات تستهدف مواقع الحوثيين في مأرب"
         ]
       }
@@ -47278,5 +47282,34 @@
     ],
     "peak_traffic": 500,
     "category": "رياضة"
+  },
+  "عيد-الفطر": {
+    "slug": "عيد-الفطر",
+    "name": "عيد الفطر",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|eg",
+        "date": "2026-09-30",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "ديني",
+        "publishable": true,
+        "headlines": [
+          "أول أيام عيد الفطر 2027 وفق الحسابات الفلكية",
+          "فلكيًا.. موعد شهر رمضان 2027 فى السعودية والإمارات",
+          "باقي 132 يومًا.. تعرّف على موعد بداية شهر رمضان 2027"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 1000,
+    "category": "ديني"
   }
 }

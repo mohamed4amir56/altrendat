@@ -1925,9 +1925,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "شكوك إسرائيلية بمحاولة أحد الطيارين إسقاط الطائرة المتجهة من دبي لإسرائيل",
           "غموض بعد «حادثة» حوّلت مسار طائرة إماراتية متجهة إلى إسرائيل",
-          "متحدث باسم نتنياهو: واقعة طائرة فلاي دبي ليست عملية خطف"
+          "مسؤولان إسرائيليان: ما حدث برحلة \"فلاي دبي\" ربما كان محاولة هجوم إرهابي.. وهذا ما قالته راكبة",
+          "شجار بين الطيارين يحوّل مسار طائرة \"فلاي دبي\" المتجهة إلى إسرائيل نحو السعودية"
         ]
       },
       {
@@ -1935,14 +1935,14 @@
         "date": "2026-09-30",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "شكوك إسرائيلية بمحاولة أحد الطيارين إسقاط الطائرة المتجهة من دبي لإسرائيل",
-          "متحدث باسم نتنياهو: واقعة طائرة فلاي دبي ليست عملية خطف",
-          "نزاع روسي وأوكراني وطائرة إماراتية.. لماذا حركت إسرائيل مقاتلاتها للسعودية؟"
+          "طائرة من دبي إلى إسرائيل تهبط في السعودية \"بعد شجار على متنها\"",
+          "مسؤولان إسرائيليان: ما حدث برحلة \"فلاي دبي\" ربما كان محاولة هجوم إرهابي.. وهذا ما قالته راكبة",
+          "متحدث باسم نتنياهو: واقعة طائرة فلاي دبي ليست عملية خطف"
         ]
       }
     ],
@@ -14091,15 +14091,30 @@
           "Campaña busca rescatar a negocios latinos golpeados por las redadas de ICE",
           "La política migratoria de Trump asfixia a los empresarios: “No hay gente para trabajar”"
         ]
+      },
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Newsom promulga nuevas leyes en California para frenar a ICE",
+          "Nueva ley de California prohíbe que policías usen guantes que dan descargas eléctricas",
+          "Nuevas leyes buscan proteger a comunidad inmigrante en California"
+        ]
       }
     ],
-    "last_seen": "2026-09-26",
-    "total": 1,
+    "last_seen": "2026-09-30",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "دول وأماكن"
   },
   "junior-caminero": {
     "slug": "junior-caminero",
@@ -28333,10 +28348,25 @@
           "A Reporter’s 16 Months in Russian Custody",
           "1-on-1 with Evan Gershkovich: ABC News exclusive"
         ]
+      },
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "'I was lured into a trap': Evan Gershkovich on moment that led to 16 months in Russian jail",
+          "In Evan Gershkovich’s new memoir, prison is a microcosm of Russia",
+          "The Cellmate Who Taught Me the Codes of Russian Prison"
+        ]
       }
     ],
-    "last_seen": "2026-09-28",
-    "total": 1,
+    "last_seen": "2026-09-30",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -47384,14 +47414,14 @@
         "date": "2026-09-30",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "ديني",
         "publishable": true,
         "headlines": [
           "أول أيام عيد الفطر 2027 وفق الحسابات الفلكية",
           "فلكيًا.. موعد شهر رمضان 2027 فى السعودية والإمارات",
-          "باقي 132 يومًا.. تعرّف على موعد بداية شهر رمضان 2027"
+          "موعد عيد الفطر 2027.. أول أيام شهر شوال وفق الحسابات الفلكية"
         ]
       }
     ],
@@ -47400,7 +47430,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "ديني"
   },
   "حريق": {
@@ -47418,9 +47448,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "مأساة أسرة في مصر.. حريق يودي بحياة أم وأبنائها الثلاثة",
-          "من الاستعداد للخطوبة إلى المشرحة.. شهود عيان يرون مأساة أسرة كاملة في حريق فيصل",
-          "فاجعة شقة فيصل.. ارتفاع عدد الضحايا إلى 4 جثث و5 مصابين"
+          "إخماد حريق داخل شقة سكنية فى بولاق الدكرور دون إصابات",
+          "إخماد حريق داخل شقة سكنية في بولاق الدكرور دون إصابات",
+          "السيطرة على حريق داخل شقة سكنية ببولاق الدكرور"
         ]
       }
     ],
@@ -47444,12 +47474,12 @@
         "country_name": "السعودية",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "عام",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
           "Kuldeep's four-for helps India tide over Greaves' hundred to restrict WI to 295/7",
-          "+!(OFFICIAL-TV) IND v WI ＬＩＶＥ Ｓｔｒｅａｍ in 25 September 2026",
-          "WATCH TODAY WI v IND LIVE STreams ON TV Channel 29 July 2026"
+          "[STream]HERE'S*! West Indies v India 1st ODI Live 𝐒𝐭𝐫𝐞𝐚𝐦 HS Football",
+          "+++【CRICK![LIVES'TREAMs!SKY+TV] IND vs WI 1st ODI Live Broadcast"
         ]
       }
     ],
@@ -47459,7 +47489,7 @@
       "sa"
     ],
     "peak_traffic": 2000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "apartments": {
     "slug": "apartments",
@@ -47732,14 +47762,14 @@
         "date": "2026-09-30",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "ديني",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "اليوم.. إجراء نتيجة قرعة الحج السياحي والإعلان عن الفائزين",
           "بدء القرعة الإلكترونية للحج السياحي لموسم 1448هـ",
-          "استعدادات جديدة لحج الجمعيات الأهلية لعام 2027 تشمل تفاصيل البرامج وتكاليف المستويات المختلفة"
+          "بعد ساعات.. نتيجة قرعة الحج السياحي 2027 ورابط الاستعلام بالرقم القومي"
         ]
       }
     ],
@@ -47748,7 +47778,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "ديني"
   },
   "عبد-الله-الحمدان": {
@@ -47877,14 +47907,14 @@
         "date": "2026-09-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "تعليم",
         "publishable": false,
         "headlines": [
-          "Hedge fund CEO Ken Griffin donates $3 billion to Carnegie Mellon as part of his bet on Florida",
           "Donor Gives $3 Billion to Carnegie Mellon, the Largest University Gift Ever",
-          "CMU's $3 billion gift creates new Miami campus"
+          "Hedge fund CEO Ken Griffin donates $3 billion to Carnegie Mellon as part of his bet on Florida",
+          "Exclusive | Ken Griffin Is Making the Largest Donation to Higher Education in U.S. History"
         ]
       }
     ],
@@ -47893,7 +47923,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "تعليم"
   },
   "bond": {
@@ -48126,6 +48156,208 @@
       "sa"
     ],
     "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "youth-soccer": {
+    "slug": "youth-soccer",
+    "name": "youth soccer",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Mitchell Soccer Association continues to grow, build momentum for youth soccer",
+          "PCHS soccer to host Youth Soccer Night on Oct. 12",
+          "PCHS varsity soccer teams to host Youth Soccer Night"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "tj-friedl": {
+    "slug": "tj-friedl",
+    "name": "tj friedl",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Cincinnati Reds Former Standout Becomes Free Agent After Disappointing 2026",
+          "Cincinnati Reds Lose Long-Time Outfielder to Free Agency"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "san-antonio-weather": {
+    "slug": "san-antonio-weather",
+    "name": "san antonio weather",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "FIRST ALERT: One last push of rainfall amidst flooding",
+          "Quarter-size hail and tornado risk threaten Texas ahead of cold front. Here's where.",
+          "Flood Watch ahead of heavy rain threat later this week"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "طقس"
+  },
+  "جلسة-عامة": {
+    "slug": "جلسة-عامة",
+    "name": "جلسة عامة",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|eg",
+        "date": "2026-09-30",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "جلسة طارئة لبرلمان مصر اليوم بسبب قانون مهم.. مصادر تكشف",
+          "بدء جلسة النواب الطارئة لمناقشة تأجيل تطبيق قانون الإجراءات الجنائية",
+          "ننشر نص مشروع قانون تأجيل تطبيق قانون الإجراءات الجنائية إلى أكتوبر 2027"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 5000,
+    "category": "شخصية"
+  },
+  "سلامة": {
+    "slug": "سلامة",
+    "name": "سلامة",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|eg",
+        "date": "2026-09-30",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "\"الأنف النانوي الإلكتروني\" من جامعة باخ خوا - حل علمي للسلامة العامة.",
+          "أوبن إيه آي تحقق قفزة تاريخية.. الإيرادات السنوية تقترب من 70 مليار دولار",
+          "أوبن إيه آي تخطط لجولة تمويلية بقيمة 30 مليار دولار"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "gurnoor-brar": {
+    "slug": "gurnoor-brar",
+    "name": "gurnoor brar",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|sa",
+        "date": "2026-09-30",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "India West Indies Cricket",
+          "India West Indies Cricket",
+          "India West Indies Cricket"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "നയസ": {
+    "slug": "നയസ",
+    "name": "ന്യൂസ്",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|sa",
+        "date": "2026-09-30",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "കുളിമുറിയിലെ ടാങ്കിൽ കുട്ടികളെ മരിച്ചനിലയിൽ കണ്ടെത്തിയത് കൊലപാതകം; കുറ്റം സമ്മതിച്ച് അമ്മ; നടുക്കം",
+          "വീട്ടിലെ വെള്ളത്തൊട്ടിയിൽ വീണ് രണ്ട് കുഞ്ഞുങ്ങൾക്ക് ദാരുണാന്ത്യം",
+          "കളിക്കുന്നതിനിടെ വീട്ടിലെ വാട്ടര്‍ ടാങ്കില്‍ വീണു; പാലക്കാട് കൊഴിഞ്ഞാമ്പാറയില്‍ സഹോദരങ്ങളായ കുഞ്ഞുങ്ങള്‍ മരിച്ചു"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
     "category": "شخصية"
   }
 }

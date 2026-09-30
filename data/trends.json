@@ -5,7 +5,7 @@
     "name_en": "Worldwide",
     "lang": "en",
     "flag": "🌐",
-    "generated_at": "2026-09-30T05:46:02.906699+00:00",
+    "generated_at": "2026-09-30T06:01:07.868755+00:00",
     "day": "2026-09-30",
     "trends": [
       {
@@ -31,10 +31,8 @@
             "url": "https://www.usatoday.com/story/sports/mlb/playoffs/2026/09/30/joe-musgrove-padres-stats-injury-playoffs/92016955007/",
             "source": "USA Today",
             "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS84PZdrLFV1TLDGj95inBn4e-FSYhgrtwItKjK380eUB8oBJJt9bAxZkP7q-w",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
+            "ok": false,
+            "error": "Timeout"
           },
           {
             "title": "Padres add Joe Musgrove, out since 2024, to wild-card roster",
@@ -88,16 +86,14 @@
             "url": "https://abc7ny.com/post/nyc-pied-terre-tax-judge-rules-taxes-saying-implementation-was-flawed-city-can-appeal/19888754/",
             "source": "ABC7 New York",
             "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRPU-dw0m_g_ES2OND4IHpO_fx52EoaRrQQhx9ZsrYxOn_0MMfSoq-NN-7piBE",
-            "og_title": "NYC pied-à-terre tax: Judge sides with homeowners, finds rollout flawed",
-            "og_desc": "Judge Ozzi didn't rule on the legality of the tax, but instead, said the way it was implemented was flawed.",
-            "og_image": "https://cdn.abcotvs.com/dip/images/19889966_092926-wabc-pied-a-terre-tax-img.jpg?w=1600",
-            "ok": true
+            "ok": false,
+            "error": "Timeout"
           }
         ],
         "category": "عام",
         "icon": "🌐",
         "color": "#9aa4b2",
-        "reason": "حجم بحث أقل من 5000",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
         "publishable": false,
         "card": "cards/world-2026-09-30-casino.png"
       },
@@ -114,37 +110,30 @@
             "url": "https://www.yahoo.com/entertainment/celebrity/articles/josh-allen-wife-hailee-steinfeld-194157186.html",
             "source": "Yahoo",
             "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzFcBkk-cArxVtsH2sPYqMJCRK6XzPmcZ0igXyAmBoWREld54PjUSEAiVb_gw",
-            "og_title": "Josh Allen’s Wife Hailee Steinfeld Shares Exciting News Before Bills-Chargers Game",
-            "og_desc": "Bills quarterback Josh Allen's wife, Hailee Steinfeld, is set to appear on national TV this week after the Chargers game. The post Josh Allen’s Wife Hailee Steinfeld Shares Exciting News Before Bills-...",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/297aca94903ac797209a5d70e40b6635822a72cd8f1dd405776841d4385a3705/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fheavy_214%2F8a20aca2857f70b97a5627d70488027b.jpg",
-            "ok": true
+            "ok": false,
+            "error": "Timeout"
           },
           {
             "title": "'Knocked me mentally and emotionally': Hailee Steinfeld opens up about mental struggle amid hectic week w",
             "url": "https://timesofindia.indiatimes.com/sports/nfl/news/knocked-me-mentally-and-emotionally-hailee-steinfeld-opens-up-about-mental-struggle-amid-hectic-week-with-josh-allens-family/articleshow/134498084.cms",
             "source": "The Times of India",
             "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxf5-wsHKKoAqJdgmGDCclRxwqnPx6976JDFCBKyRLCjbXmPtUXT9spzeMJ3U",
-            "og_title": "\"Knocked me mentally and emotionally\": Hailee Steinfeld opens up about mental struggle amid hectic week with Josh Allen's family",
-            "og_desc": "Hailee Steinfeld is opening up about a difficult week at home while husband Josh Allen prepares for another NFL test with the Buffalo Bills. The actress and mother gave fans a candid glimpse into the less glamorous side of family life, from caring for a sick pet to managing a tired child’s bedtime.",
-            "og_image": "https://static.toiimg.com/thumb/msid-134498097,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "ok": true
+            "ok": false,
+            "error": "Timeout"
           },
           {
             "title": "Josh Allen's Wife, Hailee Steinfield, Announces Difficult Personal News Before Chargers-Bills",
             "url": "https://heavy.com/sports/nfl/buffalo-bills/josh-allen-wife-girlfriend-hailee-steinfield-news-dog/",
             "source": "Heavy.com",
             "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQWa8GvXeieXegHUOXp9D_Zldkfv_n2StkPLw4rhTRDzpEtXDYi8WgW--KSC4o",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
             "ok": false,
-            "error": "URLError"
+            "error": "Timeout"
           }
         ],
         "category": "رياضة",
         "icon": "⚽",
         "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 5000",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
         "publishable": false,
         "card": "cards/world-2026-09-30-hailee-steinfeld.png"
       },
@@ -195,100 +184,162 @@
         "card": "cards/world-2026-09-30-tommy-paul.png"
       },
       {
-        "title": "amy schumer",
+        "title": "sean burke",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "published": "Tue, 29 Sep 2026 21:20:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-fiqfdG3LWWBe9CydCD6PR1pRGHdMDERp2vhHnSes76Gw6rM6QG6P5xu18Rs",
-        "image_source": "Asbury Park Press",
+        "published": "Tue, 29 Sep 2026 21:40:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIPS0Zk2Y4QrGbxjslxIN5ii2eb3VsqNiUEHudYIUiiFpJbHxCnawbPidqzkA",
+        "image_source": "Chicago Sun-Times",
         "news": [
           {
-            "title": "Bruce Springsteen to miss 'Jimmy Kimmel' appearance with Tom Morello",
-            "url": "https://www.app.com/story/entertainment/music/2026/09/28/bruce-springsteen-jimmy-kimmel-live-tom-morello/91989186007/",
-            "source": "Asbury Park Press",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-fiqfdG3LWWBe9CydCD6PR1pRGHdMDERp2vhHnSes76Gw6rM6QG6P5xu18Rs",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
+            "title": "After a prospect path marked by injury, White Sox starter Sean Burke is grateful for postseason opportunity",
+            "url": "https://chicago.suntimes.com/white-sox/2026/09/29/after-a-prospect-path-marked-by-injury-white-sox-starter-sean-burke-is-grateful-for-postseason-opportunity-sam-antonacci-hagen-smith-will-venable-tristan-peters",
+            "source": "Chicago Sun-Times",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIPS0Zk2Y4QrGbxjslxIN5ii2eb3VsqNiUEHudYIUiiFpJbHxCnawbPidqzkA",
             "ok": false,
-            "error": "HTTPError"
+            "error": "Timeout"
           },
           {
-            "title": "Jimmy Kimmel Live Schedule for the Week of 9/28/2026",
-            "url": "https://abc.com/news/0b85202d-7c21-4820-a51d-347f3b9ab699/category/154926",
-            "source": "ABC Network",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRm4cPxM1H_c1nWd76iUWwJshr_DTs14Q9X6W72f79sg_-jLw4FN5WWs5YKF-A",
-            "og_title": "Jimmy Kimmel Live Schedule for the Week of 9/28/2026 | Jimmy Kimmel Live!",
-            "og_desc": "Jimmy Kimmel Live Schedule for Week of 9/28/2026.",
-            "og_image": "https://cdn1.edgedatg.com/aws/v2/abc/JimmyKimmelLive/blog/4718662/e156d5c341e42b16a05a948d0905b61a/512x288-Q90_e156d5c341e42b16a05a948d0905b61a.jpg",
+            "title": "Sean Burke against the Astros",
+            "url": "https://www.mlb.com/whitesox/video/sean-burke-against-the-astros-x9873",
+            "source": "MLB.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2WbCa2W88GyWk4C0GbX00GtjybrSLIFaofep8t8AZVJ2ezwiX5w-2KJzUU5c",
+            "ok": false,
+            "error": "Timeout"
+          },
+          {
+            "title": "White Sox's Sean Burke Drops Legendary Quote Ahead of MLB Wild Card Game 2 Start vs. Astros",
+            "url": "https://bleacherreport.com/articles/25504931-white-soxs-sean-burke-drops-legendary-quote-ahead-mlb-wild-card-game-2-start-vs-astros",
+            "source": "Bleacher Report",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTDmTPTxfQ1QvqHPE82L_JezQaHO1cbn5A0woD1qKiB8N2Wy7hcmJoIjG5QGJA",
+            "og_title": "White Sox's Sean Burke Drops Legendary Quote Ahead of MLB Wild Card Game 2 Start vs. Astros",
+            "og_desc": "Sean Burke led the Chicago White Sox in innings pitched this season and will take the ball Wednesday with a chance to close out the Houston Astros in Game 2 of their Wild Card Series.",
+            "og_image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/getty_images/2026-09/2297645706_large_cropped.jpg?w=1120&h=630",
             "ok": true
-          },
-          {
-            "title": "Paul McCartney, Howard Stern, Pete Davidson, TV on the Radio, Bernie Sanders and Goose to Join Jimmy Kimmel in Brooklyn This Week",
-            "url": "https://jambands.com/news/2026/09/28/paul-mccartney-howard-stern-pete-davidson-tv-on-the-radio-bernie-sanders-and-goose-to-join-jimmy-kimmel-in-brooklyn-this-week/",
-            "source": "Jambands",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR_oxMA-veM-qUT_b-zBfZYBAR9ey-9tYHeiCRUGYJzQVnaKGFo5pWDsXBL-XI",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "RemoteDisconnected"
           }
         ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
         "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
         "publishable": false,
-        "card": "cards/world-2026-09-30-amy-schumer.png"
+        "card": "cards/world-2026-09-30-sean-burke.png"
       },
       {
-        "title": "ty france",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "title": "reggie",
+        "traffic": "+700",
+        "traffic_num": 700,
         "published": "Tue, 29 Sep 2026 21:20:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSBlBSR9DemFLalj8VBeWWWlJfg8zZB83a_b_rnRWKTW-yoKguuw8V461irtyA",
-        "image_source": "San Diego Union-Tribune",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR67C6SCHPrLJQ8DIzsqUePZwvwzNKwR4z7NloEosaX_q_N2xVJ7tcgqjm_L5E",
+        "image_source": "FOX 2",
         "news": [
           {
-            "title": "The Replacements: These minor-league signings and valuable vets have been key to the Padres' 2026 success",
-            "url": "https://www.sandiegouniontribune.com/2026/09/27/much-of-padres-success-in-26-owes-to-finding-the-replacements/",
-            "source": "San Diego Union-Tribune",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSBlBSR9DemFLalj8VBeWWWlJfg8zZB83a_b_rnRWKTW-yoKguuw8V461irtyA",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
+            "title": "Crystal Carter named interim Dellwood mayor following Reggie Jones’ death",
+            "url": "https://fox2now.com/news/missouri/crystal-carter-named-interim-dellwood-mayor-following-reggie-jones-death/",
+            "source": "FOX 2",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR67C6SCHPrLJQ8DIzsqUePZwvwzNKwR4z7NloEosaX_q_N2xVJ7tcgqjm_L5E",
             "ok": false,
-            "error": "URLError"
+            "error": "Timeout"
           },
           {
-            "title": "San Diego's Ty France Named As Potential Playoff Star",
-            "url": "https://roundtable.io/sports/mlb/padres/news/san-diegos-ty-france-named-as-potential-playoff-star",
-            "source": "roundtable.io",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjG1dEM_O_TuucadTfLx-SISo6KjD6WFVkf36ubG7FENnlLMe7VuNRiJh72Yo",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
+            "title": "Dellwood may appoint interim mayor this week",
+            "url": "https://www.firstalert4.com/2026/09/28/dellwood-may-appoint-interim-mayor-this-week/",
+            "source": "KMOV",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRst39dtTpNiDDF5QfSirvc607vT58HLBPpUdpgz-qOHyi5zy0QpSn3AkjPM58",
             "ok": false,
-            "error": "RemoteDisconnected"
+            "error": "Timeout"
           },
           {
-            "title": "This underrated player will make or break Padres’ chances vs. Cubs in NL Wild Card round",
-            "url": "https://clutchpoints.com/mlb/san-diego-padres/this-underrated-player-will-make-or-break-padres-chances-vs-cubs-in-nl-wc",
-            "source": "ClutchPoints",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJij5r08Bl_TI815PU9oDUgmVxbWHgQjyGqkKW5pWhMFLKTPZdQiPcAfF8C9I",
-            "og_title": "This underrated player will make or break Padres’ chances vs. Cubs in NL Wild Card round",
-            "og_desc": "The San Diego Padres take on the Chicago Cubs for the National League Wild Card starting Tuesday night at Petco Park.",
-            "og_image": "https://wp.clutchpoints.com/wp-content/uploads/2026/09/This-overlooked-player-will-make-or-break-Padres-chances.jpg",
+            "title": "Dellwood selects interim mayor following death of Mayor Reggie Jones",
+            "url": "https://www.yahoo.com/news/videos/dellwood-selects-interim-mayor-following-153329751.html",
+            "source": "Yahoo",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2YpLbCyLW4fhfOlKqjCI1JXrLduViXpYJWyfvWVAdmdVIwD_WQujJSxDCqMA",
+            "ok": false,
+            "error": "Timeout"
+          },
+          {
+            "title": "Twitch streamer Reggie Travers accuses brother of sexual abuse in tearful video",
+            "url": "https://nz.news.yahoo.com/twitch-streamer-reggie-travers-accuses-183728568.html",
+            "source": "Yahoo News New Zealand",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8rBt9aIRzyhaIHrIh_wYwukYhdf3Mz-Rj-LxpDBjlN6uNiA3qTlnqUn2CNPE",
+            "og_title": "Twitch streamer Reggie Travers accuses brother of sexual abuse in tearful video",
+            "og_desc": "YouTube and Twitch streamer Reggie Travers shared a tearful video alleging he was abused by his brother, and calling out popular influencer Kai Cenat.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/884c1bebbd4ed6b79ffcdef33cfd841d369fa4f2daaa5d945a1bc783a220972d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_entertainment_893%2F673fad941970073950e1e9b1445e8bac.jpg",
+            "ok": true
+          },
+          {
+            "title": "RaKai denies Reggie’s childhood abuse allegations and breaks silence on the viral controversy",
+            "url": "https://timesofindia.indiatimes.com/world/us-streamers/rakai-denies-reggies-childhood-abuse-allegations-and-breaks-silence-on-the-viral-controversy/articleshow/134561193.cms",
+            "source": "The Times of India",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWZUdezWv7tBU0-lCwD1Z0hjJIYPaLYVN1Bux8ptKwxw2Rgyvr4PfMxSEsYZU",
+            "og_title": "RaKai denies Reggie’s childhood abuse allegations and breaks silence on the viral controversy",
+            "og_desc": "I never got touched in any way growing up and not by my family or my friends. I already get enough hate and controversy as it is to now have this on my back.",
+            "og_image": "https://static.toiimg.com/thumb/msid-134561245,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "ok": true
+          },
+          {
+            "title": "Reggie Gets Emotional While Discussing His Exit From Clover Boyz & Why He No Longer Wants To Be Around Kai Cenat (VIDEOS)",
+            "url": "https://theshaderoom.com/reggie-gets-emotional-exit-clover-boyz-no-longer-wants-to-be-around-kai-cenat-videos/",
+            "source": "The Shade Room",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRk1EVwCClvabZXLbTXu08ZSRgDfYLMk5NFOcPM5FrpA491Hp98Zb6LycaSXHs",
+            "og_title": "Reggie Gets Emotional While Discussing His Exit From Clover Boyz & Why He No Longer Wants To Be Around Kai Cenat (VIDEOS)",
+            "og_desc": "In emotional clips, streamer Reggie gets candid about why he left the Clover Boyz and now no longer wants to be around Kai Cenat.",
+            "og_image": "https://theshaderoom.com/wp-content/uploads/2026/09/IMG_6788-e1790560891357.jpg",
             "ok": true
           }
         ],
-        "category": "دول وأماكن",
-        "icon": "🗺️",
-        "color": "#79c0ff",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: death",
         "publishable": false,
-        "card": "cards/world-2026-09-30-ty-france.png"
+        "card": "cards/world-2026-09-30-reggie.png"
+      },
+      {
+        "title": "evan bouchard",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Tue, 29 Sep 2026 22:00:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRlXZHU1hDUVXpYaDj6A04osi1lAcWx83aQgKbwgydg_68YRYIuWUyGFjuVJjE",
+        "image_source": "Sportsnet.ca",
+        "news": [
+          {
+            "title": "Oilers' Bouchard pots first hat trick by a defenceman in season opener since 1980",
+            "url": "https://www.sportsnet.ca/nhl/article/oilers-bouchard-pots-first-hat-trick-by-a-defenceman-in-season-opener-since-1980/",
+            "source": "Sportsnet.ca",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRlXZHU1hDUVXpYaDj6A04osi1lAcWx83aQgKbwgydg_68YRYIuWUyGFjuVJjE",
+            "og_title": "Oilers' Bouchard pots first hat trick by a defenceman in season opener since 1980",
+            "og_desc": "",
+            "og_image": "https://www.sportsnet.ca/wp-content/uploads/2026/09/bouchard.jpg",
+            "ok": true
+          },
+          {
+            "title": "Bouchard earns second hat trick",
+            "url": "https://www.nhl.com/video/van-edm-bouchard-has-a-hat-trick-against-the-canucks-6405939435112",
+            "source": "NHL.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRY6KarQldgLOIhenYpGzGBRIYWIYlvzsuSV99HI_Y-MKGguer3T3D_orYEPAo",
+            "og_title": "Bouchard earns second hat trick | NHL.com",
+            "og_desc": "Evan Bouchard cashes in on a goal in each period to record the second hat trick of his career in the 2026-27 season opener",
+            "og_image": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/v1790743169/prd/iry8zzwotfo83zvhmfe6.jpg",
+            "ok": true
+          },
+          {
+            "title": "Evan Bouchard begins redemption year by scoring first goal of the Oilers season",
+            "url": "https://oilonwhyte.com/evan-bouchard-begins-redemption-year-by-scoring-first-goal-of-the-oilers-season-01m3r2w29cw6",
+            "source": "Oil On Whyte",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR9dZzwHIfSDrDvwh83lTxf4WExGbILnZ8zoUhtnvlSHKmBHP-molL8L0q97so",
+            "og_title": "Evan Bouchard begins redemption year by scoring first goal of the Oilers season",
+            "og_desc": "Evan Bouchard kicked off the Oilers season with a blast from the point, scoring the first goal for the Oilers 2026-27 season",
+            "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_3143,h_1767/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/156/01m3r309sjxet6k6j4ay.jpg",
+            "ok": true
+          }
+        ],
+        "category": "فن ومشاهير",
+        "icon": "🎬",
+        "color": "#c77dff",
+        "reason": "حجم بحث أقل من 5000",
+        "publishable": false,
+        "card": "cards/world-2026-09-30-evan-bouchard.png"
       },
       {
         "title": "maya joint",
@@ -323,10 +374,11 @@
             "url": "https://www.statsinsider.com.au/news/maya-joint-vs-sinja-kraus-prediction-wta-china-open-2026",
             "source": "Stats Insider",
             "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTlea_Ri4XbQMFv2JxfnyffOoraXCine1Vb5cnsReyyQ5L3WCSmuFcS9UTsq3g",
-            "og_title": "Maya Joint vs Sinja Kraus Prediction - WTA China Open 2026",
-            "og_desc": "Maya Joint will sqaure off with Sinja Kraus in the round of 128 at the 2026 WTA China Open tournament on Wednesday.",
-            "og_image": "http://cdn.cosmicjs.com/cced4da0-bbfd-11f1-b244-b7ec9c1d049e-TEN_2026_1_WTA_8843_776340_315609.png",
-            "ok": true
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "URLError"
           }
         ],
         "category": "رياضة",
@@ -349,131 +401,34 @@
             "url": "https://sports.yahoo.com/articles/cubs-slugger-beaten-mason-miller-213604405.html",
             "source": "Yahoo Sports",
             "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPxEUMpjILQ2KBXb5Nx5EC6ryXiUxmR7Vga-IuYhNuvnDfTfaUeS5Rs7Qghog",
-            "og_title": "Cubs Slugger Has Beaten Mason Miller’s Slider. Will He See It Again?",
-            "og_desc": "Seiya Suzuki beat Mason Miller’s slider for a June walk-off. Their potential Cubs-Padres postseason rematch presents a different challenge. The post Cubs Slugger Has Beaten Mason Miller’s Slider. Will He See It Again? appeared first on HEAVY.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/177206d3624816bcb71e64d0d45a84734d974b2ec9d7096469ecfd7b1fc32e8e/lightyear_networkapi/resizefill_w1200_h630%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fheavy_214%2Fd636f4fb29022bd38b04d94a788c3d93.jpg",
-            "ok": true
+            "ok": false,
+            "error": "Timeout"
           },
           {
             "title": "Ty France, Mason Miller Among 7 Padres' All-MLB Nominees",
             "url": "https://sports.yahoo.com/articles/ty-france-mason-miller-among-110035018.html",
             "source": "Yahoo Sports",
             "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQQydYOzl32lHuWs1vV--E9OMCmcogfv9-5-nk_nHgLkTh1aDDoxXL-da0Sqo",
-            "og_title": "Ty France, Mason Miller Among 7 Padres' All-MLB Nominees",
-            "og_desc": "From Mason Miller’s dominant saves to Michael King’s rotation mastery, seven stars fueled San Diego’s improbable postseason surge and earned recognition among baseball’s elite performers this season.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/a4db0d350273a03c8bb2893272efef242e43b94b645d8818ea362f61f149ec03/lightyear_networkapi/resizefill_w1200_h630%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Froundtable_sports_san_diego_padres_654%2F70a641b9f605819ab371727f7acb8d5e.jpg",
-            "ok": true
+            "ok": false,
+            "error": "Timeout"
           },
           {
-            "title": "Boyd tabbed as Cubs' first 'out-getter' for Game 1 vs. Padres",
-            "url": "https://www.mlb.com/news/matthew-boyd-cubs-nl-wild-card-game-1-starter",
-            "source": "MLB.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSW_TVcB7dBxOwt95K97kKe5dx7a6qu_GpJ1ny0ygmxn7FGMOtryOPy5hfejOI",
-            "og_title": "Boyd tabbed as Cubs' first 'out-getter' for Game 1 vs. Padres",
-            "og_desc": "SAN DIEGO – Handing the ball to Matthew Boyd to begin a National League Wild Card Series against the Padres worked out well a year ago at Wrigley Field. The veteran lefty subdued San Diego’s lineup and put the North Siders on a path to the next round with an",
-            "og_image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/gzarbbh52t9vayvxout1.jpg",
-            "ok": true
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 5000",
-        "publishable": false,
-        "card": "cards/world-2026-09-30-mason-miller.png"
-      },
-      {
-        "title": "sean burke",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Tue, 29 Sep 2026 21:40:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIPS0Zk2Y4QrGbxjslxIN5ii2eb3VsqNiUEHudYIUiiFpJbHxCnawbPidqzkA",
-        "image_source": "Chicago Sun-Times",
-        "news": [
-          {
-            "title": "After a prospect path marked by injury, White Sox starter Sean Burke is grateful for postseason opportunity",
-            "url": "https://chicago.suntimes.com/white-sox/2026/09/29/after-a-prospect-path-marked-by-injury-white-sox-starter-sean-burke-is-grateful-for-postseason-opportunity-sam-antonacci-hagen-smith-will-venable-tristan-peters",
-            "source": "Chicago Sun-Times",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIPS0Zk2Y4QrGbxjslxIN5ii2eb3VsqNiUEHudYIUiiFpJbHxCnawbPidqzkA",
-            "og_title": "After a prospect path marked by injury, White Sox starter Sean Burke is grateful for postseason opportunity",
-            "og_desc": "After being the team's best starting pitcher in the regular season, Burke will get the nod to start Game 2 and attempt to deliver the White Sox to the ALDS.",
-            "og_image": "https://cst.brightspotcdn.com/dims4/default/8f3e3ad/2147483647/strip/true/crop/3138x1791+0+150/resize/1461x834!/quality/90/?url=https%3A%2F%2Fchorus-production-cst-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2F05%2Fc7%2F2c2956a74b31bacff1e7ecce4baa%2F2297162078.jpg",
-            "ok": true
-          },
-          {
-            "title": "Sean Burke against the Astros",
-            "url": "https://www.mlb.com/whitesox/video/sean-burke-against-the-astros-x9873",
-            "source": "MLB.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2WbCa2W88GyWk4C0GbX00GtjybrSLIFaofep8t8AZVJ2ezwiX5w-2KJzUU5c",
-            "og_title": "Sean Burke against the Astros | 09/30/2026",
-            "og_desc": "The Official Site of Major League Baseball",
-            "og_image": "https://img.mlbstatic.com/mlb-images/image/upload/ar_16:9,g_auto,q_auto:good,w_1536,c_fill,f_jpg/mlb/jhbavnqhbi5nhbbaiba4",
-            "ok": true
-          },
-          {
-            "title": "White Sox's Sean Burke Drops Legendary Quote Ahead of MLB Wild Card Game 2 Start vs. Astros",
-            "url": "https://bleacherreport.com/articles/25504931-white-soxs-sean-burke-drops-legendary-quote-ahead-mlb-wild-card-game-2-start-vs-astros",
-            "source": "Bleacher Report",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTDmTPTxfQ1QvqHPE82L_JezQaHO1cbn5A0woD1qKiB8N2Wy7hcmJoIjG5QGJA",
-            "og_title": "White Sox's Sean Burke Drops Legendary Quote Ahead of MLB Wild Card Game 2 Start vs. Astros",
-            "og_desc": "Sean Burke led the Chicago White Sox in innings pitched this season and will take the ball Wednesday with a chance to close out the Houston Astros in Game 2 of their Wild Card Series.",
-            "og_image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/getty_images/2026-09/2297645706_large_cropped.jpg?w=1120&h=630",
-            "ok": true
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 5000",
-        "publishable": false,
-        "card": "cards/world-2026-09-30-sean-burke.png"
-      },
-      {
-        "title": "reggie",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Tue, 29 Sep 2026 21:20:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR67C6SCHPrLJQ8DIzsqUePZwvwzNKwR4z7NloEosaX_q_N2xVJ7tcgqjm_L5E",
-        "image_source": "FOX 2",
-        "news": [
-          {
-            "title": "Crystal Carter named interim Dellwood mayor following Reggie Jones’ death",
-            "url": "https://fox2now.com/news/missouri/crystal-carter-named-interim-dellwood-mayor-following-reggie-jones-death/",
-            "source": "FOX 2",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR67C6SCHPrLJQ8DIzsqUePZwvwzNKwR4z7NloEosaX_q_N2xVJ7tcgqjm_L5E",
+            "title": "Cubs 0-8 Padres (Sep 29, 2026) Final Score",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401907974/cubs-padres",
+            "source": "ESPN",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLcuXDOkWwl5acw8Tvj8qIabG4pWAIuM-m3w0PqMcvqKxZszslFgOldZzspoU",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Dellwood may appoint interim mayor this week",
-            "url": "https://www.firstalert4.com/2026/09/28/dellwood-may-appoint-interim-mayor-this-week/",
-            "source": "KMOV",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRst39dtTpNiDDF5QfSirvc607vT58HLBPpUdpgz-qOHyi5zy0QpSn3AkjPM58",
-            "og_title": "Dellwood chooses alderwoman to be interim mayor",
-            "og_desc": "Dellwood has appointed an interim following the death of Mayor Reggie Jones, 53, last month.",
-            "og_image": "https://gray-kmov-prod.gtv-cdn.com/resizer/v2/TPAAAOLKAFFXNLOVJAZBEMHTZY.jpg?auth=8f2fc558ed5672cbb0b06a6879884f0d0d78866f931a58c3908d359e3d212c9e&width=1200&height=600&smart=true",
-            "ok": true
-          },
-          {
-            "title": "Dellwood chooses new mayor to finish Reggie Jones’ term",
-            "url": "https://www.stlpr.org/news-briefs/2026-09-29/dellwoodnew-mayor-reggie-jones",
-            "source": "STLPR",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPzsXT7uzvS8MRCmQxzIv8mi1Q8OrPGwV4cBPPVetyDSKTTRHUoJkqZ01qXBE",
-            "og_title": "Dellwood chooses new mayor to finish Reggie Jones’ term",
-            "og_desc": "4th Ward Councilwoman Crystal Carter will finish out the term of Reggie Jones, who died unexpectedly in late August. He had held the position since 2013.",
-            "og_image": "https://npr.brightspotcdn.com/dims4/default/3d64b61/2147483647/strip/true/crop/965x507+0+68/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff1%2F63%2Ffd8d25064942934d451e8628c3b2%2Fcrystalcarter-dellwood.png",
-            "ok": true
+            "ok": false
           }
         ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: death",
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
         "publishable": false,
-        "card": "cards/world-2026-09-30-reggie.png"
+        "card": "cards/world-2026-09-30-mason-miller.png"
       }
     ]
   },
@@ -483,7 +438,7 @@
     "name_en": "Egypt",
     "lang": "ar",
     "flag": "🇪🇬",
-    "generated_at": "2026-09-30T05:46:15.999162+00:00",
+    "generated_at": "2026-09-30T06:01:20.885757+00:00",
     "day": "2026-09-30",
     "trends": [
       {
@@ -495,23 +450,13 @@
         "image_source": "معلومات مباشر",
         "news": [
           {
-            "title": "أسعار الداوجن واللحوم في مصر اليوم الأربعاء",
-            "url": "https://www.mubasher.info/news/4678629/%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D8%A7%D9%88%D8%AC%D9%86-%D9%88%D8%A7%D9%84%D9%84%D8%AD%D9%88%D9%85-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1/",
+            "title": "أسعار الدواجن واللحوم في مصر اليوم الأربعاء",
+            "url": "https://www.mubasher.info/news/4678629/%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D8%AC%D9%86-%D9%88%D8%A7%D9%84%D9%84%D8%AD%D9%88%D9%85-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1/",
             "source": "معلومات مباشر",
             "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSO-u_aUuvyzYexe5574_1JMSqdA-qswgsxSlNZov37E3cg_dnMlsuUwEPvyeY",
             "og_title": "أسعار الدواجن واللحوم في مصر اليوم الأربعاء",
             "og_desc": "القاهرة - مباشر: استقرت أسعار الدواجن واللحوم في السوق المصرية، خلال تعاملات اليوم الأربعاء، مقارنةً بمستوياتها أمس؛ وفق بيانات بوابة الأسعار المحلية والعالمية التابعة لمركز معلومات مجلس الوزراء. ويرصد \"معلومات مباشر\" متوسط أسعار الدواجن الحية …",
             "og_image": "https://static.mubasher.info/File.Story_Image/4e1b6ab5d352f38e5d056a91ac4a095c/640.jpg",
-            "ok": true
-          },
-          {
-            "title": "استقرار بورصة أسعار الدواجن فى الأقصر.. اليوم الثلاثاء 29 سبتمبر 2026",
-            "url": "https://www.youm7.com/story/2026/9/29/%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D8%A8%D9%88%D8%B1%D8%B5%D8%A9-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D8%AC%D9%86-%D9%81%D9%89-%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-29-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1/7561460",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTb4pvb3CP0fmOImAAKfyEnkubkvuqSz-IQTNJKRlD2690sIWHvwvDoM55IjXU",
-            "og_title": "استقرار بورصة أسعار الدواجن فى الأقصر.. اليوم الثلاثاء 29 سبتمبر 2026 - اليوم السابع",
-            "og_desc": "سجلت بورصة أسعار الدواجن والبط في محلات وأسواق محافظة الأقصر، اليوم الثلاثاء 29 سبتمبر 2026، حالة من الاستقرار في الأسعار",
-            "og_image": "https://img.youm7.com/xlarge/202604200910141014_23666.jpg",
             "ok": true
           },
           {
@@ -522,6 +467,16 @@
             "og_title": "سعر الفراخ البيضاء للمستهلك اليوم الأربعاء 30 سبتمبر 2026.. وبورصة الدواجن الآن | المصري اليوم",
             "og_desc": "حافظت أسعار الفراخ على ارتفاعها الأخير في الأسواق اليوم الأربعاء 30 سبتمبر 2026، وسجل كيلو الفراخ البيضاء نحو 85 جنيها للمستهلك، مقابل 73 جنيها داخل المزارع، فيما بلغ سعر الفراخ...",
             "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/09/30/2029615.webp",
+            "ok": true
+          },
+          {
+            "title": "خريطة الأسعار اليوم: ارتفاع الدواجن والبيض وانخفاض الذهب",
+            "url": "https://www.masrawy.com/news/news_economy/details/2026/9/29/3055425/%D8%AE%D8%B1%D9%8A%D8%B7%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D8%AC%D9%86-%D9%88%D8%A7%D9%84%D8%A8%D9%8A%D8%B6-%D9%88%D8%A7%D9%86%D8%AE%D9%81%D8%A7%D8%B6-%D8%A7%D9%84%D8%B0%D9%87%D8%A8",
+            "source": "Masrawy",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ-OABtfHS0JQpzL3S16XhfYLqAiOp5KwUSIYD_WB_LORa5xW6CDgd9ynX-IJM",
+            "og_title": "ارتفاع الدواجن والبيض وانخفاض الذهب..  خريطة الأسعار اليوم 29-9-2026 | مصراوي",
+            "og_desc": "أسعار الدواجن والبيض والأسمنت ترتفع خلال تعاملات اليوم الثلاثاء 29 9 2026 حسب بيانات بوابة الأسعار العالمية والمحلية التابعة لمركز معلومات مجلس الوزراء | مصراوي",
+            "og_image": "https://media.gemini.media/img/large/2026/8/11/2026_8_11_15_4_32_307.webp",
             "ok": true
           }
         ],
@@ -932,27 +887,27 @@
         "traffic": "100+",
         "traffic_num": 100,
         "published": "Tue, 29 Sep 2026 21:50:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQfvL_A48UrVf6wWfZj2svWguj1ve8UYaox_Ft7m6v6Mz-yik0c2CcEUwNu7IM",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTulWoi_bDAb8Md4MqGGQcqunszDVwzWEcD1dtFx_MhYvn3rv-ljMVT2vtEaKo",
         "image_source": "اليوم السابع",
         "news": [
           {
-            "title": "الأمطار تعود.. تفاصيل حالة الطقس اليوم الأربعاء 30 سبتمبر 2026",
-            "url": "https://www.youm7.com/story/2026/9/30/%D8%A7%D9%84%D8%A3%D9%85%D8%B7%D8%A7%D8%B1-%D8%AA%D8%B9%D9%88%D8%AF-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%AD%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B7%D9%82%D8%B3-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1-30-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1-2026/7561694",
+            "title": "الطقس اليوم.. انخفاض بالحرارة وأمطار ببعض المناطق والعظمى بالقاهرة 30 درجة",
+            "url": "https://www.youm7.com/story/2026/9/30/%D8%A7%D9%84%D8%B7%D9%82%D8%B3-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%86%D8%AE%D9%81%D8%A7%D8%B6-%D8%A8%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D8%A9-%D9%88%D8%A3%D9%85%D8%B7%D8%A7%D8%B1-%D8%A8%D8%A8%D8%B9%D8%B6-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B7%D9%82-%D9%88%D8%A7%D9%84%D8%B9%D8%B8%D9%85%D9%89-%D8%A8%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-30/7561676",
             "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQfvL_A48UrVf6wWfZj2svWguj1ve8UYaox_Ft7m6v6Mz-yik0c2CcEUwNu7IM",
-            "og_title": "الأمطار تعود.. تفاصيل حالة الطقس اليوم الأربعاء 30 سبتمبر 2026 - اليوم السابع",
-            "og_desc": "تتوقع الهيئة العامة للأرصاد الجوية، أن يشهد اليوم الأربعاء 30 سبتمبر 2026، طقس خريفي معتدل الحرارة في الصباح الباكر.",
-            "og_image": "https://img.youm7.com/xlarge/202402180140214021.jpg",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTulWoi_bDAb8Md4MqGGQcqunszDVwzWEcD1dtFx_MhYvn3rv-ljMVT2vtEaKo",
+            "og_title": "الطقس اليوم.. انخفاض بالحرارة وأمطار ببعض المناطق والعظمى بالقاهرة 30 درجة - اليوم السابع",
+            "og_desc": "تتوقع الهيئة العامة للأرصاد الجوية أن يشهد اليوم الأربعاء 30 سبتمبر 2026، طقسا خريفيا معتدل الحرارة في الصباح الباكر، مائلا للحرارة نهاراً على السواحل الشمالية.",
+            "og_image": "https://img.youm7.com/xlarge/202605250928102810_23666.jpg",
             "ok": true
           },
           {
-            "title": "«الأرصاد»: طقس مائل للحرارة وفرص لأمطار خفيفة اليوم الثلاثاء",
-            "url": "https://www.nogoumfm.net/2026/09/%D8%A7%D9%84%D8%A3%D8%B1%D8%B5%D8%A7%D8%AF-%D8%B7%D9%82%D8%B3-%D9%85%D8%A7%D8%A6%D9%84-%D9%84%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D8%A9-%D9%88%D9%81%D8%B1%D8%B5-%D9%84%D8%A3%D9%85%D8%B7%D8%A7/",
+            "title": "«الأرصاد»: طقس حار وفرص لأمطار خفيفة اليوم الأربعاء",
+            "url": "https://www.nogoumfm.net/2026/09/%D8%A7%D9%84%D8%A3%D8%B1%D8%B5%D8%A7%D8%AF-%D8%B7%D9%82%D8%B3-%D9%85%D8%A7%D8%A6%D9%84-%D9%84%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D8%A9-%D9%88%D9%81%D8%B1%D8%B5-%D9%84%D8%A3%D9%85%D8%B7%D8%A7-2/",
             "source": "نجوم إف إم",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ2PwH9vtnldN6ou2-xoKU60_RKdrlS9hyzUJE5B0f7CZ_g20hwXzIDf2IALHE",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwywXOXnpFHKgbdx-d_zGnKla5eRZmLIaTnqyfWXTd77jPsi30qVZsbdj6UJ8",
             "og_title": "",
-            "og_desc": "كشفت الهيئة العامة للأرصاد الجوية، عبر صفحتها الرسمية، عن تفاصيل حالة الطقس المتوقعة اليوم الثلاثاء 29 سبتمبر 2026.",
-            "og_image": "https://www.nogoumfm.net/wp-content/uploads/2026/06/e505348e-weather2.png",
+            "og_desc": "كشفت الهيئة العامة للأرصاد الجوية، عبر صفحتها الرسمية، عن تفاصيل حالة الطقس المتوقعة اليوم الأربعاء 30 سبتمبر 2026.وجاءت تفاصيل حالة الطقس كالتالي:",
+            "og_image": "https://www.nogoumfm.net/wp-content/uploads/2025/09/5e2d9595-weather-2.jpg",
             "ok": true
           },
           {
@@ -996,7 +951,7 @@
             "title": "Young U.S. men's soccer team has ups and downs in 4-2 victory over Chile",
             "url": "https://sports.yahoo.com/soccer/article/young-us-mens-soccer-team-has-ups-and-downs-in-4-2-victory-over-chile-023206085.html",
             "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQnnaJmGotH27r-ul2dLx2mQKEuOgE2cKXb1eRW2qfd7DyMVQ1v1KCLSyvjIeg",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ8F9G37ltHPmVOudMHonu79bOMdWgLkZpI5xrc1tzyE2Mbvl_TOnzQ322PrT4",
             "og_title": "Young U.S. men's soccer team has ups and downs in 4-2 victory over Chile",
             "og_desc": "But all in all, it was another good result and fun outing for a program returning from the World Cup with the second of four friendlies over 11 days.",
             "og_image": "https://s.yimg.com/lo/mysterio/api/0ebcc791fd07e94a7c2861156dadbe12a1d4b14b55ef94429ec9b1c9fcb54133/lightyear_networkapi/resizefill_w1200_h630%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2F18c395bc-37d9-45e9-9bf1-6704a8c9a192",
@@ -1028,7 +983,7 @@
     "name_en": "Saudi Arabia",
     "lang": "ar",
     "flag": "🇸🇦",
-    "generated_at": "2026-09-30T05:46:26.489408+00:00",
+    "generated_at": "2026-09-30T06:01:26.193790+00:00",
     "day": "2026-09-30",
     "trends": [
       {
@@ -1130,7 +1085,7 @@
             "title": "Young U.S. men's soccer team has ups and downs in 4-2 victory over Chile",
             "url": "https://sports.yahoo.com/soccer/article/young-us-mens-soccer-team-has-ups-and-downs-in-4-2-victory-over-chile-023206085.html",
             "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQnnaJmGotH27r-ul2dLx2mQKEuOgE2cKXb1eRW2qfd7DyMVQ1v1KCLSyvjIeg",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ8F9G37ltHPmVOudMHonu79bOMdWgLkZpI5xrc1tzyE2Mbvl_TOnzQ322PrT4",
             "og_title": "Young U.S. men's soccer team has ups and downs in 4-2 victory over Chile",
             "og_desc": "But all in all, it was another good result and fun outing for a program returning from the World Cup with the second of four friendlies over 11 days.",
             "og_image": "https://s.yimg.com/lo/mysterio/api/0ebcc791fd07e94a7c2861156dadbe12a1d4b14b55ef94429ec9b1c9fcb54133/lightyear_networkapi/resizefill_w1200_h630%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2F18c395bc-37d9-45e9-9bf1-6704a8c9a192",
@@ -1576,9 +1531,19 @@
         "traffic": "100+",
         "traffic_num": 100,
         "published": "Tue, 29 Sep 2026 20:10:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk1cR26FLuul1le1WuS8YK7ydO1j5xzw5WJo443uuQkY3BT6rS3e0x_Xko22w",
-        "image_source": "العربية",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTpnhdeVQZZDZdYHe0xVjG003aFFi7aFNFsCznHEniHN05e-xzWxnJyZ0SfOD4",
+        "image_source": "BBC",
         "news": [
+          {
+            "title": "فاطمة الزهراء المنصوري: ماذا نعرف عن أول امرأة تترأس الحكومة بالمغرب؟",
+            "url": "https://www.bbc.com/arabic/articles/c6ly7j8p58v8o",
+            "source": "BBC",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTpnhdeVQZZDZdYHe0xVjG003aFFi7aFNFsCznHEniHN05e-xzWxnJyZ0SfOD4",
+            "og_title": "فاطمة الزهراء المنصوري: ماذا نعرف عن أول امرأة تترأس الحكومة بالمغرب؟ - BBC News عربي",
+            "og_desc": "عين العاهل المغربي الملك محمد السادس فاطمة الزهراء المنصوري رئيسة للحكومة بعد تصدر حزب الأصالة والمعاصرة الانتخابات التشريعية، لتصبح أول امرأة تتولى المنصب في تاريخ المغرب.",
+            "og_image": "https://ichef.bbci.co.uk/news/1200/branded_arabic/08c6/live/312959a0-bc38-11f1-8aad-1971dfe6fef8.jpg",
+            "ok": true
+          },
           {
             "title": "فاطمة الزهراء المنصوري.. أول امرأة تقود حكومة المغرب",
             "url": "https://www.alarabiya.net/north-africa/morocco/2026/09/29/%D9%81%D8%A7%D8%B7%D9%85%D8%A9-%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D9%8A-%D8%A7%D9%88%D9%84-%D8%A7%D9%85%D8%B1%D8%A7%D8%A9-%D8%AA%D9%82%D9%88%D8%AF-%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
@@ -1599,23 +1564,12 @@
             "og_desc": "بالنظر إلى السيناريوهات المحتملة لما بعد يوم الاقتراع، أرجّح أن تدفع نتائج الانتخابات التشريعية المغربية نحو تجديد التحالف بين «الأصالة والمعاصرة»",
             "og_image": "",
             "ok": true
-          },
-          {
-            "title": "سمو ولي العهد رئيس مجلس الوزراء يهنئ معالي السيدة فاطمة الزهراء المنصوري بمناسبة الثقة الملكية بتعيينها رئيسة للحكومة في المملكة المغربية",
-            "url": "https://www.alayam.com/online/local/1146632/News.html",
-            "source": "الأيام البحرينية",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRGnLuTAbXhpph92Rj-gGLJyjogw1STKXYkDQEJnkTdxr8YmataGANSs2B7iwQ",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
           }
         ],
         "category": "دول وأماكن",
         "icon": "🗺️",
         "color": "#79c0ff",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "reason": "حجم بحث أقل من 500",
         "publishable": false,
         "card": "cards/sa-2026-09-30-ملك-المغرب.png"
       },

@@ -6056,11 +6056,11 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "دول وأماكن",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "محافظة الإسكندرية تواصل رصف ورفع كفاءة 14 شارعا وموقعا بمختلف الأحياء",
-          "محافظ الإسكندرية يوجه برفع كفاءة الطرق وصيانة 14 شارعا وموقعا بالأحياء",
-          "الإسكندرية تعلن عن خطة لمواجهة التكدسات المرورية بـ«المندرة»"
+          "الأرصاد تكشف آخر تطورات أمطار الإسكندرية وتحدد مسارها الساعات المقبلة",
+          "أمطار متوسطة تضرب مناطق متفرقة بالإسكندرية.. والصرف الصحي يرفع درجة الاستعداد",
+          "أمطار متوسطة على الإسكندرية مع بداية نوة رياح الصليب| صور وفيديو"
         ]
       }
     ],
@@ -11963,7 +11963,7 @@
         "headlines": [
           "البنك المركزي الكولومبي يرفع سعر الفائدة إلى 12.25%",
           "تعرف على أعلى عائد على شهادات الادخار فى البنوك بعد تثبيت أسعار الفائدة",
-          "بعائد يصل 22%.. أعلى فوائد شهادات البنك الأهلي 2026"
+          "شروط الاستثمار في الشهادة البلاتينية بالبنك الأهلي المصري.. كم فوائد 200 ألف جنيه؟"
         ]
       }
     ],
@@ -50669,8 +50669,8 @@
         "publishable": true,
         "headlines": [
           "خليجي 27.. منتخب الإمارات يقتنص صدارة المجموعة بالتعادل مع قطر",
-          "مواعيد مباراتي السعودية وقطر والإمارات وعُمان في نصف نهائي \"خليجي 27\"",
-          "مواعيد مباريات نصف نهائي كأس الخليج العربي"
+          "داليتش يحذر من فخ نصف نهائي خليجي 27.. ولوبيتيجي يتوعد السعودية",
+          "مواعيد مباراتي السعودية وقطر والإمارات وعُمان في نصف نهائي \"خليجي 27\""
         ]
       }
     ],
@@ -51238,11 +51238,11 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "شخصية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "بعد فتح باب تسجيل الاستمارة.. رسوم امتحان الشهادة الإعدادية بالعام 2027",
-          "تعليمات عاجلة من التعليم للمدارس بشأن استمارة الشهادة الإعدادية",
-          "استمارة الشهادة الإعدادية 2027 بالقاهرة.. بدء التسجيل اليوم وآخر موعد 22 أكتوبر"
+          "جامعات تنفذ فعاليات لتعزيز جودة التعليم والبحث العلمي",
+          "سبعة برامج أكاديميّة في الجامعةِ الأردنيّة تحصلُ على الاعتماد الدَّوليّ من FIBAA لمدة خمس سنوات",
+          "جامعات تنظم عددا من الفعاليات والورش التدريبية"
         ]
       }
     ],
@@ -51476,15 +51476,30 @@
           "القوات المسلحة اليمنية: نفذنا 468 استهدافا ضد الحوثيين بالجبهة الشرقية والبيضاء والوازعية",
           "القوات المسلحة اليمنية تنفذ 414 عملية استهداف دقيقة ضد تعزيزات وقدرات الحوثيين خلال 24 ساعة"
         ]
+      },
+      {
+        "key": "2026-10-01|sa",
+        "date": "2026-10-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "القوات اليمنية تنفّذ 8 عمليات استهداف دقيقة لتعزيزات الحوثيين وأسلحتهم",
+          "الطيران اليمني يستهدف تعزيزات وتجمعات للحوثيين في مأرب",
+          "معارك تعز ولحج.. أكثر من 100 قتيل قرب باب المندب"
+        ]
       }
     ],
-    "last_seen": "2026-09-30",
-    "total": 1,
+    "last_seen": "2026-10-01",
+    "total": 2,
     "countries": [
       "sa"
     ],
-    "peak_traffic": 1000,
-    "category": "دول وأماكن"
+    "peak_traffic": 2000,
+    "category": "حوادث وقضايا"
   },
   "winter-storm": {
     "slug": "winter-storm",
@@ -52187,7 +52202,7 @@
         "headlines": [
           "تمرد مفاجئ.. حقيقة إلغاء مباراة المغرب وغانا",
           "البديل جاهز.. أزمة مالية لمنتخب غانا تلغي وديته مع المغرب",
-          "رسميا.. المغرب يواجه مالي وديًا بعد اعتذار غانا"
+          "تقرير: لاعبو غانا يرفضون السفر لمواجهة المغرب"
         ]
       }
     ],
@@ -52816,14 +52831,14 @@
         "date": "2026-09-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Falcons, DT Gervon Dexter Sr. agree to terms on four-year contract extension",
-          "Seahawks S Love resumes practicing, S Okada DNP",
-          "Gervon Dexter, Falcons Agree to Contract Extension After Trade from Bears, Details Revealed"
+          "Falcons sign DT Gervon Dexter Sr. to four-year extension",
+          "Falcons DT Gervon Dexter agrees to four-year extension",
+          "Falcons, DT Gervon Dexter Sr. agree to terms on four-year contract extension"
         ]
       }
     ],
@@ -52832,7 +52847,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "عام"
   },
   "dream-vs-mystics": {
@@ -52845,8 +52860,8 @@
         "date": "2026-09-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -52860,7 +52875,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "رياضة"
   },
   "alex-eala": {
@@ -52931,8 +52946,8 @@
         "date": "2026-09-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -52947,7 +52962,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "عام"
   },
   "eastern-box-turtle-painted-blue": {
@@ -53022,9 +53037,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Noah Cameron strikes out three against the Guardians",
-          "Former Seminoles Star Should Shine in the MLB Playoffs",
-          "Noah Cameron gets tagged for six in last start"
+          "Cam Smith Advances with Houston Astros in MLB Playoffs",
+          "White Sox-Astros AL Wild Card Series Game 2 FAQ, lineups (5 ET, Peacock/NBCSN)",
+          "Polymarket promo code CBSSPORTS: Claim $50 bonus for MLB Playoffs on Wednesday, Browns-Steelers, NFL Week 4"
         ]
       }
     ],
@@ -53046,8 +53061,8 @@
         "date": "2026-09-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -53062,7 +53077,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "عام"
   },
   "ماء-الشرب": {
@@ -53092,6 +53107,89 @@
       "eg"
     ],
     "peak_traffic": 500,
+    "category": "شخصية"
+  },
+  "kai-cenat": {
+    "slug": "kai-cenat",
+    "name": "kai cenat",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Twitch streamer Reggie Travers accuses brother of sexual abuse in tearful video",
+          "RaKai denies Reggie’s childhood abuse allegations and breaks silence on the viral controversy",
+          "\"Trying To Manipulate My Cameraman\": Reggie Crashes Out On A Call With Raud Over Kai Cenat"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "حوادث وقضايا"
+  },
+  "جدة": {
+    "slug": "جدة",
+    "name": "جدة",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|sa",
+        "date": "2026-10-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "أمانة جدة ترفع النطاق الأحمر عن 1147 قطعة أرض في مخططات طيبة وجوهرة العروس",
+          "أمانة جدة ترفع القيود عن 3787 قطعة أرض بمخططات منح المليساء",
+          "أمانة جدة ترفع النطاق الأحمر عن 1,147 قطعة أرض في مخططات طيبة وجوهرة العروس"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "دول وأماكن"
+  },
+  "اكتوبر": {
+    "slug": "اكتوبر",
+    "name": "اكتوبر",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|sa",
+        "date": "2026-10-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": []
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
     "category": "شخصية"
   }
 }

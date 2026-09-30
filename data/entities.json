@@ -1925,9 +1925,9 @@
         "category": "شخصية",
         "publishable": true,
         "headlines": [
+          "عاجل: مكتب نتنياهو يستبعد اختطاف طائرة فلاي دبي المتجهة إلى تل أبيب، مع احتمال هبوطها في السعودية",
           "متحدث باسم نتنياهو: واقعة طائرة فلاي دبي ليست عملية خطف",
-          "اشتباك بين الطيارين يحول مسار طائرة إماراتية متجهة إلى إسرائيل",
-          "«فلاي دبي»: هبوط طائرة في تبوك بعد تعرضها لـ«واقعة» أثناء التحليق"
+          "اشتباك بين الطيارين يحول مسار طائرة إماراتية متجهة إلى إسرائيل"
         ]
       }
     ],
@@ -17811,14 +17811,14 @@
         "date": "2026-09-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "India look to solidify 2027 World Cup plans, West Indies seek more bowling bite",
           "India wins toss and opts to bowl against West Indies in second ODI",
-          "India’s new-ball puzzle: West Indies series offers young pacers a chance to stake claim"
+          "West Indies wary of the India challenge, says Hope"
         ]
       }
     ],
@@ -18823,8 +18823,8 @@
         "publishable": true,
         "headlines": [
           "India look to solidify 2027 World Cup plans, West Indies seek more bowling bite",
-          "Guwahati weather forecast for India vs. West Indies: Chances of rain, average temperature for IND vs. WI 2nd ODI",
-          "India’s pace puzzle, Kohlis purple patch in focus as WI face must-win second ODI"
+          "India wins toss and opts to bowl against West Indies in second ODI",
+          "Auqib Nabi earns maiden India cap, makes India debut"
         ]
       },
       {
@@ -42649,11 +42649,11 @@
         "country_name": "مصر",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "جلسة طارئة لبرلمان مصر اليوم بسبب قانون مهم.. مصادر تكشف",
-          "لقاء خماسى قبل اجتماع تشريعية النواب لتأجيل تطبيق قانون الإجراءات الجنائية",
+          "تشريعية النواب: تأجيل تطبيق قانون الإجراءات لا يحرم المتهمين من المزايا",
           "مصر.. السيسي يدعو البرلمان إلى جلسة طارئة صباح الأربعاء"
         ]
       }
@@ -42664,7 +42664,7 @@
       "eg"
     ],
     "peak_traffic": 2000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "حزب-الله": {
     "slug": "حزب-الله",
@@ -43110,8 +43110,8 @@
         "date": "2026-09-30",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "سياسة",
         "publishable": true,
         "headlines": [
@@ -43126,7 +43126,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "سياسة"
   },
   "yankees-game-today": {
@@ -46155,11 +46155,27 @@
           "قهوة الصباح تؤثر على جودة النوم",
           "«ليست مجرد كافيين».. ما علاقة القهوة ببكتيريا الأمعاء والحالة المزاجية؟"
         ]
+      },
+      {
+        "key": "2026-09-30|eg",
+        "date": "2026-09-30",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "القهوة ليست كما تظن.. دراسة تكشف سرًا مذهلًا عنها",
+          "«ليست مجرد كافيين».. ما علاقة القهوة ببكتيريا الأمعاء والحالة المزاجية؟",
+          "القهوة في مواجهة ألزهايمر.. دراسة تكشف فوائد صحية متعددة"
+        ]
       }
     ],
     "last_seen": "2026-09-30",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 1000,
@@ -46239,8 +46255,8 @@
         "publishable": false,
         "headlines": [
           "سلوى خطاب تكشف سر عدم إنجابها.. \"كنت خايفة\"",
-          "سلوى خطاب عن جملتها الشهيرة «أنا جوايا ست مؤدبة»: مكنتش قاصدة يبقى إفيه.. واتفقنا على تقديم الجزء الثاني من نيللي وشريهان",
-          "سلوى خطاب: الخوف من المسؤولية وراء قرار عدم الإنجاب .. ولهذا السبب لجأت إلى التجميل"
+          "لميس الحديدي: سلوى خطاب نجمة محبوبة من كل الناس وعندها مشوار كبير في الفن",
+          "سلوى خطاب عن جملتها الشهيرة «أنا جوايا ست مؤدبة»: مكنتش قاصدة يبقى إفيه.. واتفقنا على تقديم الجزء الثاني من نيللي وشريهان"
         ]
       }
     ],
@@ -46987,8 +47003,8 @@
         "date": "2026-09-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -47003,7 +47019,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "week-4-defense-rankings": {
@@ -47106,11 +47122,11 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "عام",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "Israel-bound flight diverted to Saudi Arabia after ‘violent incident’ between pilots",
-          "Diverted Flydubai flight not a kidnapping, Israeli PM confirms",
-          "Dubai-Tel Aviv Flight Diverted, Lands In Saudi Arabia. Hijacking Ruled Out"
+          "Israel-bound flight diverted to Saudi Arabia after brawl between pilots, Israeli official says",
+          "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert"
         ]
       },
       {
@@ -47240,9 +47256,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "الأربعاء.. الهلال يستأنف وإنزاجي يستنجد بـ«النخبة»",
           "التوقف الدولي يربك حسابات الاتحاد قبل مواجهة الهلال في الكلاسيكو",
-          "مدرب نيجيريا يرعب الاتحاد السعودي بسبب جورج إلينيخينا",
-          "بأمر إنزاجي.. دوري جوي للنخبة يجهز الهلال لكلاسيكو الاتحاد"
+          "مدرب نيجيريا يرعب الاتحاد السعودي بسبب جورج إلينيخينا"
         ]
       }
     ],
@@ -47327,9 +47343,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
+          "نشوب حريق هائل داخل مطعم مأكولات شهير بأكتوبر",
           "مأساة أسرة في مصر.. حريق يودي بحياة أم وأبنائها الثلاثة",
-          "من الاستعداد للخطوبة إلى المشرحة.. شهود عيان يرون مأساة أسرة كاملة في حريق فيصل",
-          "فاجعة شقة فيصل.. ارتفاع عدد الضحايا إلى 4 جثث و5 مصابين"
+          "من الاستعداد للخطوبة إلى المشرحة.. شهود عيان يرون مأساة أسرة كاملة في حريق فيصل"
         ]
       }
     ],
@@ -47356,8 +47372,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "[Reddit/Streams]!! India vs West Indies 1st ODI 𝐋𝐈𝐕𝐄 Ｓｔｒｅａｍ Ｆｒｅｅ ＯＮ Ｔｖ Ｃｈａｎｎｅｌ HDTV Coverage 25 June 2026",
-          "Kuldeep's four-for helps India tide over Greaves' hundred to restrict WI to 295/7"
+          "Kuldeep's four-for helps India tide over Greaves' hundred to restrict WI to 295/7",
+          "[Reddit/Streams]!! India vs West Indies 1st ODI in the 2026 HS Football",
+          "$+⚽️+【Live Sports)@+!】 India vs West Indies 𝐋𝐈𝐕𝐄 online"
         ]
       }
     ],
@@ -47368,5 +47385,34 @@
     ],
     "peak_traffic": 200,
     "category": "رياضة"
+  },
+  "apartments": {
+    "slug": "apartments",
+    "name": "apartments",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Middletown police investigating ‘suspicious death’ of woman at Northwoods Apartments",
+          "Police investigate ‘suspicious death' at Middletown apartment",
+          "Woman Found Dead Inside Apartment In Middletown: Police"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
   }
 }

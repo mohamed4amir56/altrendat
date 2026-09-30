@@ -4,7 +4,7 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-09-30T06:16:48.211720+00:00",
+  "generated_at": "2026-09-30T06:31:50.425684+00:00",
   "day": "2026-09-30",
   "trends": [
     {
@@ -252,21 +252,16 @@
           "url": "https://www.foxnews.com/politics/nyc-judge-orders-mamdani-redo-second-home-tax-rollout",
           "source": "Fox News",
           "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ43Tu7Y4OguDE4mGqdLwz9Jc2PTA31VKBCzCkert8tLCQs_TRBw2n5xiZU-xQ",
-          "og_title": "NYC judge orders Mamdani to redo second-home tax rollout",
-          "og_desc": "Judge Wayne Ozzi ruled city officials violated property owners’ due process rights by sending tax notices without verifying their primary residences.",
-          "og_image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/09/mamdani.jpg",
-          "ok": true
+          "ok": false,
+          "error": "Timeout"
         },
         {
           "title": "Casino mogul and former Trump secretary join forces to take on NYC’s pied-à-terre tax",
           "url": "https://apnews.com/article/nyc-mamdani-tax-wynn-ross-86c57ed102e4988f971ae322f6f805ff",
           "source": "AP News",
           "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbaQcJyQ6wA8grj9AEO4-ZfeYgfAkLZyY2jVKs-GNh4bCIMBthd3hfCfYPDs",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
           "ok": false,
-          "error": "HTTPError"
+          "error": "Timeout"
         },
         {
           "title": "NYC pied-à-terre tax rollout flawed, judge rules",
@@ -290,34 +285,30 @@
       "traffic": "2000+",
       "traffic_num": 2000,
       "published": "Tue, 29 Sep 2026 21:50:00 -0700",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxNgGwxjaNGMN8QdzdUEzBTYFW28GZ9m1b91Y80SV-3hrhVgTHx69dZtQl-Mk",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEjbZL50cGBkM40NglAtGkFt4JOPf3g9IPNdny2uTkVVPBaRPPDrinuhe1LOc",
       "image_source": "Sky Sports",
       "news": [
         {
           "title": "Sports News, Transfers, Scores | Watch Live Sport",
           "url": "https://www.skysports.com/tennis/watch/8440750305019955112/kinoshita-group-japan-open-tennis-championships-2026",
           "source": "Sky Sports",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxNgGwxjaNGMN8QdzdUEzBTYFW28GZ9m1b91Y80SV-3hrhVgTHx69dZtQl-Mk",
-          "og_title": "Sky Sports - Sports News, Transfers, Scores | Watch Live Sport",
-          "og_desc": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores.",
-          "og_image": "",
-          "ok": true
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEjbZL50cGBkM40NglAtGkFt4JOPf3g9IPNdny2uTkVVPBaRPPDrinuhe1LOc",
+          "ok": false,
+          "error": "Timeout"
         },
         {
           "title": "ATP Tokyo Day 1 Predictions Including Alejandro Tabilo vs Tommy Paul",
           "url": "https://lastwordonsports.com/tennis/2026/09/29/atp-tokyo-day-1-predictions-tabilo-paul/",
           "source": "Last Word On Sports",
           "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYpK7AJstP3I3qElMvsWHIwtgDzhfuffkGrGu8vEI4PTRTrsrKyqN0Pl_zzpk",
-          "og_title": "ATP Tokyo Day 1 Predictions Including Tabilo vs Paul",
-          "og_desc": "Three Top 10 players and Carlos Alcaraz will headline the ATP 500 event in Tokyo, with the tournament notably being Kei Nishikori's final event.",
-          "og_image": "https://lastwordonsports.com/tennis/wp-content/uploads/sites/17/2024/02/USATSI_22335121_168400550_lowres.jpg",
-          "ok": true
+          "ok": false,
+          "error": "Timeout"
         },
         {
-          "title": "Alejandro Tabilo vs. Tommy Paul prediction, odds, picks for ATP Japan Open 2026",
-          "url": "https://www.dimers.com/tennis/news/alejandro-tabilo-vs-tommy-paul-tennis-prediction-atp-japan-open-2026-ac",
-          "source": "Dimers",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQKH1UcGboMnPDAk-fgc17jWcC2Y0GpqT7E_ilJ0-1ZCHvsnnPQ6YT-I9_Zwrc",
+          "title": "Alejandro Tabilo vs Tommy Paul Prediction - ATP Japan Open 2026",
+          "url": "https://www.statsinsider.com.au/news/alejandro-tabilo-vs-tommy-paul-prediction-atp-japan-open-2026",
+          "source": "Stats Insider",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQfNHUu2eunnEs8jxPVE_7FD4cruv1kDdO6DT-icdpx998OVRtlTk_wU8aOtNQ",
           "ok": false,
           "error": "Timeout"
         }
@@ -325,7 +316,7 @@
       "category": "رياضة",
       "icon": "⚽",
       "color": "#3ddc97",
-      "reason": "حجم بحث أقل من 5000",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
       "publishable": false,
       "card": "cards/world-2026-09-30-tommy-paul.png",
       "published_at": "2026-09-30T05:17:02.904807+00:00"
@@ -625,32 +616,24 @@
           "url": "https://www.app.com/story/entertainment/music/2026/09/28/bruce-springsteen-jimmy-kimmel-live-tom-morello/91989186007/",
           "source": "Asbury Park Press",
           "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-fiqfdG3LWWBe9CydCD6PR1pRGHdMDERp2vhHnSes76Gw6rM6QG6P5xu18Rs",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
           "ok": false,
-          "error": "HTTPError"
+          "error": "Timeout"
         },
         {
           "title": "Jimmy Kimmel Live Schedule for the Week of 9/28/2026",
           "url": "https://abc.com/news/0b85202d-7c21-4820-a51d-347f3b9ab699/category/154926",
           "source": "ABC Network",
           "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRm4cPxM1H_c1nWd76iUWwJshr_DTs14Q9X6W72f79sg_-jLw4FN5WWs5YKF-A",
-          "og_title": "Jimmy Kimmel Live Schedule for the Week of 9/28/2026 | Jimmy Kimmel Live!",
-          "og_desc": "Jimmy Kimmel Live Schedule for Week of 9/28/2026.",
-          "og_image": "https://cdn1.edgedatg.com/aws/v2/abc/JimmyKimmelLive/blog/4718662/e156d5c341e42b16a05a948d0905b61a/512x288-Q90_e156d5c341e42b16a05a948d0905b61a.jpg",
-          "ok": true
+          "ok": false,
+          "error": "Timeout"
         },
         {
           "title": "Paul McCartney, Howard Stern, Pete Davidson, TV on the Radio, Bernie Sanders and Goose to Join Jimmy Kimmel in Brooklyn This Week",
           "url": "https://jambands.com/news/2026/09/28/paul-mccartney-howard-stern-pete-davidson-tv-on-the-radio-bernie-sanders-and-goose-to-join-jimmy-kimmel-in-brooklyn-this-week/",
           "source": "Jambands",
           "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR_oxMA-veM-qUT_b-zBfZYBAR9ey-9tYHeiCRUGYJzQVnaKGFo5pWDsXBL-XI",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
           "ok": false,
-          "error": "RemoteDisconnected"
+          "error": "Timeout"
         }
       ],
       "category": "عام",
@@ -753,71 +736,41 @@
     },
     {
       "title": "reggie",
-      "traffic": "+700",
-      "traffic_num": 700,
+      "traffic": "1000+",
+      "traffic_num": 1000,
       "published": "Tue, 29 Sep 2026 21:20:00 -0700",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR67C6SCHPrLJQ8DIzsqUePZwvwzNKwR4z7NloEosaX_q_N2xVJ7tcgqjm_L5E",
-      "image_source": "FOX 2",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8rBt9aIRzyhaIHrIh_wYwukYhdf3Mz-Rj-LxpDBjlN6uNiA3qTlnqUn2CNPE",
+      "image_source": "Yahoo",
       "news": [
         {
-          "title": "Crystal Carter named interim Dellwood mayor following Reggie Jones’ death",
-          "url": "https://fox2now.com/news/missouri/crystal-carter-named-interim-dellwood-mayor-following-reggie-jones-death/",
-          "source": "FOX 2",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR67C6SCHPrLJQ8DIzsqUePZwvwzNKwR4z7NloEosaX_q_N2xVJ7tcgqjm_L5E",
-          "ok": false,
-          "error": "Timeout"
-        },
-        {
-          "title": "Dellwood may appoint interim mayor this week",
-          "url": "https://www.firstalert4.com/2026/09/28/dellwood-may-appoint-interim-mayor-this-week/",
-          "source": "KMOV",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRst39dtTpNiDDF5QfSirvc607vT58HLBPpUdpgz-qOHyi5zy0QpSn3AkjPM58",
-          "ok": false,
-          "error": "Timeout"
-        },
-        {
-          "title": "Dellwood chooses new mayor to finish Reggie Jones’ term",
-          "url": "https://www.stlpr.org/news-briefs/2026-09-29/dellwoodnew-mayor-reggie-jones",
-          "source": "STLPR",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPzsXT7uzvS8MRCmQxzIv8mi1Q8OrPGwV4cBPPVetyDSKTTRHUoJkqZ01qXBE",
-          "ok": false,
-          "error": "Timeout"
-        },
-        {
           "title": "Twitch streamer Reggie Travers accuses brother of sexual abuse in tearful video",
-          "url": "https://nz.news.yahoo.com/twitch-streamer-reggie-travers-accuses-183728568.html",
-          "source": "Yahoo News New Zealand",
+          "url": "https://www.yahoo.com/entertainment/celebrity/articles/twitch-streamer-reggie-travers-accuses-183728568.html",
+          "source": "Yahoo",
           "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8rBt9aIRzyhaIHrIh_wYwukYhdf3Mz-Rj-LxpDBjlN6uNiA3qTlnqUn2CNPE",
-          "og_title": "Twitch streamer Reggie Travers accuses brother of sexual abuse in tearful video",
-          "og_desc": "YouTube and Twitch streamer Reggie Travers shared a tearful video alleging he was abused by his brother, and calling out popular influencer Kai Cenat.",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/884c1bebbd4ed6b79ffcdef33cfd841d369fa4f2daaa5d945a1bc783a220972d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_entertainment_893%2F673fad941970073950e1e9b1445e8bac.jpg",
-          "ok": true
+          "ok": false,
+          "error": "Timeout"
         },
         {
           "title": "RaKai denies Reggie’s childhood abuse allegations and breaks silence on the viral controversy",
           "url": "https://timesofindia.indiatimes.com/world/us-streamers/rakai-denies-reggies-childhood-abuse-allegations-and-breaks-silence-on-the-viral-controversy/articleshow/134561193.cms",
           "source": "The Times of India",
           "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWZUdezWv7tBU0-lCwD1Z0hjJIYPaLYVN1Bux8ptKwxw2Rgyvr4PfMxSEsYZU",
-          "og_title": "RaKai denies Reggie’s childhood abuse allegations and breaks silence on the viral controversy",
-          "og_desc": "I never got touched in any way growing up and not by my family or my friends. I already get enough hate and controversy as it is to now have this on my back.",
-          "og_image": "https://static.toiimg.com/thumb/msid-134561245,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-          "ok": true
+          "ok": false,
+          "error": "Timeout"
         },
         {
           "title": "Reggie Gets Emotional While Discussing His Exit From Clover Boyz & Why He No Longer Wants To Be Around Kai Cenat (VIDEOS)",
           "url": "https://theshaderoom.com/reggie-gets-emotional-exit-clover-boyz-no-longer-wants-to-be-around-kai-cenat-videos/",
           "source": "The Shade Room",
           "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRk1EVwCClvabZXLbTXu08ZSRgDfYLMk5NFOcPM5FrpA491Hp98Zb6LycaSXHs",
-          "og_title": "Reggie Gets Emotional While Discussing His Exit From Clover Boyz & Why He No Longer Wants To Be Around Kai Cenat (VIDEOS)",
-          "og_desc": "In emotional clips, streamer Reggie gets candid about why he left the Clover Boyz and now no longer wants to be around Kai Cenat.",
-          "og_image": "https://theshaderoom.com/wp-content/uploads/2026/09/IMG_6788-e1790560891357.jpg",
-          "ok": true
+          "ok": false,
+          "error": "Timeout"
         }
       ],
       "category": "حوادث وقضايا",
       "icon": "⛔",
       "color": "#ff6b6b",
-      "reason": "ورد لفظ حسّاس: death",
+      "reason": "ورد لفظ حسّاس: sexual",
       "publishable": false,
       "card": "cards/world-2026-09-30-reggie.png",
       "published_at": "2026-09-30T04:45:34.945708+00:00"
@@ -963,16 +916,6 @@
           "ok": true
         },
         {
-          "title": "Bouchard earns second hat trick",
-          "url": "https://www.nhl.com/video/van-edm-bouchard-has-a-hat-trick-against-the-canucks-6405939435112",
-          "source": "NHL.com",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRY6KarQldgLOIhenYpGzGBRIYWIYlvzsuSV99HI_Y-MKGguer3T3D_orYEPAo",
-          "og_title": "Bouchard earns second hat trick | NHL.com",
-          "og_desc": "Evan Bouchard cashes in on a goal in each period to record the second hat trick of his career in the 2026-27 season opener",
-          "og_image": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/v1790743169/prd/iry8zzwotfo83zvhmfe6.jpg",
-          "ok": true
-        },
-        {
           "title": "Evan Bouchard tallies goal vs. Oilers",
           "url": "https://www.espn.com/video/clip/_/id/50063949/evan-bouchard-tallies-goal-vs-oilers",
           "source": "ESPN",
@@ -981,12 +924,20 @@
           "og_desc": "",
           "og_image": "",
           "ok": false
+        },
+        {
+          "title": "Bouchard earns second hat trick",
+          "url": "https://www.nhl.com/video/van-edm-bouchard-has-a-hat-trick-against-the-canucks-6405939435112",
+          "source": "NHL.com",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRY6KarQldgLOIhenYpGzGBRIYWIYlvzsuSV99HI_Y-MKGguer3T3D_orYEPAo",
+          "ok": false,
+          "error": "Timeout"
         }
       ],
       "category": "رياضة",
       "icon": "⚽",
       "color": "#3ddc97",
-      "reason": "حجم بحث أقل من 5000",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
       "publishable": false,
       "card": "cards/world-2026-09-30-evan-bouchard.png",
       "published_at": "2026-09-30T05:17:02.904807+00:00"
@@ -1039,9 +990,17 @@
       "traffic": "500+",
       "traffic_num": 500,
       "published": "Tue, 29 Sep 2026 21:50:00 -0700",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSpPbd20_76q345CDng1xLDGFEnXCp026GsbSPAxi-mAddv5ZzLLS0s4AuCt4Q",
-      "image_source": "SuaraGarut.ID",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbUyL6x3S9oEohtWw4CAeFo91HOlrjTsiH2BDWzEs1UxXXxegRV-KP1vwdpUM",
+      "image_source": "Last Word On Sports",
       "news": [
+        {
+          "title": "WTA Beijing First Round Best Bets Including Maya Joint vs Sinja Kraus",
+          "url": "https://lastwordonsports.com/tennis/2026/09/29/wta-beijing-joint-kraus/",
+          "source": "Last Word On Sports",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbUyL6x3S9oEohtWw4CAeFo91HOlrjTsiH2BDWzEs1UxXXxegRV-KP1vwdpUM",
+          "ok": false,
+          "error": "Timeout"
+        },
         {
           "title": "Maya Joint Secures Ambassador Role and Enters China Open",
           "url": "https://suaragarut.id/en/maya-joint-secures-ambassador-role-china-open",
@@ -1049,16 +1008,6 @@
           "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSpPbd20_76q345CDng1xLDGFEnXCp026GsbSPAxi-mAddv5ZzLLS0s4AuCt4Q",
           "ok": false,
           "error": "Timeout"
-        },
-        {
-          "title": "WTA Beijing First Round Best Bets Including Maya Joint vs Sinja Kraus",
-          "url": "https://lastwordonsports.com/tennis/2026/09/29/wta-beijing-joint-kraus/",
-          "source": "Last Word On Sports",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbUyL6x3S9oEohtWw4CAeFo91HOlrjTsiH2BDWzEs1UxXXxegRV-KP1vwdpUM",
-          "og_title": "WTA Beijing Best Bets Including Maya Joint vs Sinja Kraus",
-          "og_desc": "WTA Beijing action begins on Wednesday. LWOS has our best bets for three matches. Post your best bets and thoughts in the comments.",
-          "og_image": "https://lastwordonsports.com/tennis/wp-content/uploads/sites/17/2026/09/2026-09-05T011622Z_1567801848_UP1EM9503J9XE_RTRMADP_3_TENNIS-USOPEN.webp",
-          "ok": true
         },
         {
           "title": "Maya Joint vs Sinja Kraus Prediction - WTA China Open 2026",

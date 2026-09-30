@@ -1923,10 +1923,10 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "ماذا نعلم عمّا حدث برحلة \"فلاي دبي\" المتجهة إلى تل أبيب بعد إرسال إشارة طوارئ؟",
-          "اشتباك بين الطيّارين يحول مسار طائرة إماراتية متجهة إلى إسرائيل",
+          "شكوك إسرائيلية بمحاولة أحد الطيارين إسقاط الطائرة المتجهة من دبي لإسرائيل",
+          "شجار بين الطيارين يغيّر مسار طائرة من دبي إلى إسرائيل",
           "متحدث باسم نتنياهو: واقعة طائرة فلاي دبي ليست عملية خطف"
         ]
       },
@@ -1940,9 +1940,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "عاجل: مكتب نتنياهو يستبعد اختطاف طائرة فلاي دبي المتجهة إلى تل أبيب، مع احتمال هبوطها في السعودية",
-          "متحدث باسم نتنياهو: واقعة طائرة فلاي دبي ليست عملية خطف",
-          "شكوك إسرائيلية بمحاولة أحد الطيارين إسقاط الطائرة المتجهة من دبي لإسرائيل"
+          "شكوك إسرائيلية بمحاولة أحد الطيارين إسقاط الطائرة المتجهة من دبي لإسرائيل",
+          "اشتباك بين الطيّارين يحول مسار طائرة إماراتية متجهة إلى إسرائيل",
+          "متحدث باسم نتنياهو: واقعة طائرة فلاي دبي ليست عملية خطف"
         ]
       }
     ],
@@ -4506,18 +4506,34 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "ZIMW vs WIW, 1st ODI, West Indies Women tour of Zimbabwe, 2026 - Commentary",
           "IT’S THE LADY CHEVS’ DATE WITH HISTORY",
           "South Africa vs Australia prediction and betting tips 30 September 2026"
         ]
+      },
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Gwanzura's all-round show helps Zimbabwe stun West Indies",
+          "Zimbabwe Women vs West Indies Women Live Streaming: When And Where To Watch ZIM vs WI Women 3rd ODI",
+          "IT’S THE LADY CHEVS’ DATE WITH HISTORY"
+        ]
       }
     ],
     "last_seen": "2026-09-30",
-    "total": 3,
+    "total": 4,
     "countries": [
-      "sa"
+      "sa",
+      "world"
     ],
     "peak_traffic": 2000,
     "category": "رياضة"
@@ -18016,8 +18032,8 @@
         "date": "2026-09-30",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "20000+",
-        "traffic_num": 20000,
+        "traffic": "+50200",
+        "traffic_num": 50200,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -18032,7 +18048,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 20000,
+    "peak_traffic": 50200,
     "category": "رياضة"
   },
   "berlin-marathon-2026": {
@@ -46220,8 +46236,8 @@
         "date": "2026-09-30",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -47287,7 +47303,7 @@
         "publishable": false,
         "headlines": [
           "طهران تعلن تسلم المقترح الأميركي… والخلاف على ترتيب الخطوات",
-          "إيران تبحث الرد الأميركي على مقترحها لإنهاء الحرب (تغطية حية)",
+          "الخامسة | ترمب ينفي تخفيف العقوبات عن إيران.. وغارات تستهدف مواقع الحوثيين في مأرب",
           "عراقجي يكشف تفاصيل لقاء الوسطاء القطريين في نيويورك.. وهذا ما قاله عن مضيق هرمز والملف النووي"
         ]
       }
@@ -47431,9 +47447,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "WATCH TODAY IND v WI ODI Live Broadcast",
           "Kuldeep's four-for helps India tide over Greaves' hundred to restrict WI to 295/7",
-          "[STream]HERE'S*! India v West Indies ODI LIVE Updates"
+          "+!(OFFICIAL-TV) IND v WI ＬＩＶＥ Ｓｔｒｅａｍ in 25 September 2026",
+          "WATCH TODAY WI v IND LIVE STreams ON TV Channel 29 July 2026"
         ]
       }
     ],
@@ -47606,8 +47622,8 @@
         "publishable": true,
         "headlines": [
           "جلسة طارئة لبرلمان مصر اليوم بسبب قانون مهم.. مصادر تكشف",
-          "بدء جلسة النواب الطارئة لمناقشة تأجيل تطبيق قانون الإجراءات الجنائية",
-          "جلسة البرلمان الطارئة.. مدبولي يصل مجلس النواب"
+          "ننشر نص قانون تأجيل تطبيق قانون الإجراءات الجنائية لمدة عام",
+          "تشريعية النواب توافق نهائيًا على تأجيل تطبيق قانون الإجراءات الجنائية حتى 2027"
         ]
       }
     ],
@@ -47716,8 +47732,8 @@
         "date": "2026-09-30",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "ديني",
         "publishable": false,
         "headlines": [
@@ -47732,7 +47748,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "ديني"
   },
   "عبد-الله-الحمدان": {
@@ -47779,7 +47795,7 @@
         "category": "ديني",
         "publishable": false,
         "headlines": [
-          "مستوطنون يصعدون بالضفة.. اعتداءات واقتحام المسجد الأقصى",
+          "500 مستوطن يقتحمون الأقصى.. \"فتية التلال\" تصعد عنفها",
           "سياسي / رابطةُ العالم الإسلامي تُدين الاقتحامات والاعتداءات الإسرائيلية المتواصلة على حرمة المسجد الأقصى المبارك",
           "أمين مجلس التعاون يدين اقتحام متطرفين المسجد الأقصى ويطالب بتحرك دولي عاجل"
         ]
@@ -47792,5 +47808,266 @@
     ],
     "peak_traffic": 200,
     "category": "ديني"
+  },
+  "swimming-facility": {
+    "slug": "swimming-facility",
+    "name": "swimming facility",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Trump Floats Removing White House Briefing Room to Revive Hidden ‘FDR Pool’ After Barring CNN from Air Force One",
+          "Trump muses about demolishing another part of the White House",
+          "Trump hints at replacing White House press room with swimming pool amid media row"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "سياسة"
+  },
+  "alex-karp-swedish-forest-purchase": {
+    "slug": "alex-karp-swedish-forest-purchase",
+    "name": "alex karp swedish forest purchase",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Palantir CEO Alex Karl quietly purchased 37,000 acres of forests in Sweden",
+          "Palantir founder purchases large swath of forest in Sweden",
+          "Palantir CEO Alex Karp buys 15,000 hectares of Swedish forest"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "ken-griffin": {
+    "slug": "ken-griffin",
+    "name": "ken griffin",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تعليم",
+        "publishable": false,
+        "headlines": [
+          "Ken Griffin pledges $3 billion to Carnegie Mellon University in 'historic' gift",
+          "Hedge fund CEO Ken Griffin donates $3 billion to Carnegie Mellon as part of his bet on Florida",
+          "CMU's $3 billion gift creates new Miami campus"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "تعليم"
+  },
+  "bond": {
+    "slug": "bond",
+    "name": "bond",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Pressure on U.S. Treasurys eases after 30-year yield hits highest level since 2002",
+          "Bonds set for bruising September but stocks little fazed",
+          "Stock Market News, Sept. 29, 2026: 10-Year Treasury Yield Pushes Higher Despite Oil-Price Decline"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
+  },
+  "warehouse": {
+    "slug": "warehouse",
+    "name": "warehouse",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Ukraine’s forces strike another Russian Kasta radar station – General Staff",
+          "Ukrainian drones cannot breach Russian military factories, expert warns",
+          "Ukraine’s HUR Hits Russian L-39 Jet, Three Boats, Radars and Railway Bridge in One Operation"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "housing-development": {
+    "slug": "housing-development",
+    "name": "housing development",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "400-unit senior housing development approved for Glendale site that sat vacant for over a decade",
+          "Long-vacant Glendale site eyed for 400-unit senior housing | Exclusive",
+          "Placer County surf resort plans to bring surf and skate culture inland"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "kickboxing": {
+    "slug": "kickboxing",
+    "name": "kickboxing",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Kickboxing Equipment Market To 2035: Fitness Boom and Combat Sports Drive Growth - News and Statistics",
+          "Eersel Vs. Jarvis II: 4 Keys To Victory In ONE Lightweight Muay Thai World Title Rematch At The Inner Circle 33",
+          "3 Reasons To Watch The Inner Circle 33 On October 2"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
+  },
+  "swimming-competition": {
+    "slug": "swimming-competition",
+    "name": "swimming competition",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "2026 South African SC Championships: Tatjana Smith Was Dominant In W 200 Breast",
+          "'I lost my love for swimming' - Smith comes out of retirement",
+          "Armand Landmann Nails Down World Champs Berth in 50 Freestyle at South African Titles"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "wssc": {
+    "slug": "wssc",
+    "name": "wssc",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Montgomery, Prince George's counties urged to limit water use after WSSC power outage",
+          "WSSC Water asks customers to keep conserving as Potomac filtration plant returns to operation",
+          "1.9M WSSC customers asked to conserve water after power outage at water filtration plant"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
   }
 }

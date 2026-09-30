@@ -6056,11 +6056,11 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "دول وأماكن",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "الأرصاد تكشف آخر تطورات أمطار الإسكندرية وتحدد مسارها الساعات المقبلة",
-          "أمطار متوسطة تضرب مناطق متفرقة بالإسكندرية.. والصرف الصحي يرفع درجة الاستعداد",
-          "أمطار متوسطة على الإسكندرية مع بداية نوة رياح الصليب| صور وفيديو"
+          "محافظة الإسكندرية تواصل رصف ورفع كفاءة 14 شارعا وموقعا بمختلف الأحياء",
+          "محافظ الإسكندرية يوجه برفع كفاءة الطرق وصيانة 14 شارعا وموقعا بالأحياء",
+          "الإسكندرية تعلن عن خطة لمواجهة التكدسات المرورية بـ«المندرة»"
         ]
       }
     ],
@@ -8637,8 +8637,8 @@
         "date": "2026-10-01",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -11956,14 +11956,14 @@
         "date": "2026-10-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "+6000",
+        "traffic_num": 6000,
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
-          "فائدة الرهن العقاري الأمريكي ترتفع للأسبوع السادس وتخفض الطلب 6%",
-          "سوق العقارات أمام اختبار جديد مع صعود عوائد السندات",
-          "وعود ترامب تتبخر... 6 سياسات تبدد رهانات فريقه الاقتصادي"
+          "البنك المركزي الكولومبي يرفع سعر الفائدة إلى 12.25%",
+          "تعرف على أعلى عائد على شهادات الادخار فى البنوك بعد تثبيت أسعار الفائدة",
+          "بعائد يصل 22%.. أعلى فوائد شهادات البنك الأهلي 2026"
         ]
       }
     ],
@@ -11972,7 +11972,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 3000,
+    "peak_traffic": 6000,
     "category": "اقتصاد"
   },
   "مشروب": {
@@ -17573,15 +17573,30 @@
           "Data Viz: Jeremy Peña's 425-foot home run",
           "Astros' Jeremy Pena: Monster game Saturday"
         ]
+      },
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Analyzing Jeremy Peña's home run through bat tracking",
+          "Jeremy Pena goes yard twice in rout of Athletics",
+          "Jeremy Peña homers twice as Astros top A’s"
+        ]
       }
     ],
-    "last_seen": "2026-09-27",
-    "total": 1,
+    "last_seen": "2026-09-30",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
-    "category": "رياضة"
+    "peak_traffic": 500,
+    "category": "عام"
   },
   "تقني": {
     "slug": "تقني",
@@ -50816,8 +50831,8 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Draw settles UAE and Qatar clash in Arabian Gulf Cup 27",
-          "Dalić warns of a Gulf 27 semi-final trap, while Lopetegui makes a vow against Saudi Arabia",
+          "Qatar draw with UAE to set up Gulf Cup semi-final showdown with Saudi Arabia",
+          "Gulf Cup 27: What did Dalic say about a potential cla…",
           "Today’s (Wednesday) match schedule and broadcast channels: UAE faces Qatar"
         ]
       }
@@ -51205,14 +51220,14 @@
         "date": "2026-10-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+700",
-        "traffic_num": 700,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": true,
         "headlines": [
-          "تعليم القاهرة تعلن نتيجة المرحلة الثالثة لرياض الأطفال غدًا وتفتح باب تعديل الرغبات",
-          "غدًا.. إعلان نتيجة المرحلة الثالثة لرياض الأطفال بالقاهرة للعام الدراسي 2026-2027",
-          "نتيجة المرحلة الثالثة لرياض الأطفال بالقاهرة 2026 .. إعلان النتيجة غدًا وفتح باب التعديل"
+          "بعد فتح باب تسجيل الاستمارة.. رسوم امتحان الشهادة الإعدادية بالعام 2027",
+          "تعليمات عاجلة من التعليم للمدارس بشأن استمارة الشهادة الإعدادية",
+          "استمارة الشهادة الإعدادية 2027 بالقاهرة.. بدء التسجيل اليوم وآخر موعد 22 أكتوبر"
         ]
       }
     ],
@@ -51604,7 +51619,7 @@
         "headlines": [
           "كيف أطلّت ممثلة أمريكية بزي يشبه بدلة الرقص الشرقي على السجادة الحمراء؟",
           "داكوتا جونسون بإطلالة بيضاء ناعمة من Calvin Klein في نيويورك",
-          "المرأة والجمال - داكوتا جونسون تتألق بإطلالة جريئة من الدانتيل على السجادة الحمراء في لندن"
+          "دانتيل شفاف وملابس داخلية.. داكوتا جونسون بإطلالة جريئة على السجادة الحمراء بلندن"
         ]
       }
     ],
@@ -51894,8 +51909,8 @@
         "publishable": true,
         "headlines": [
           "خليجي 27.. منتخب الإمارات يقتنص صدارة المجموعة بالتعادل مع قطر",
-          "مواعيد مباراتي السعودية وقطر والإمارات وعُمان في نصف نهائي \"خليجي 27\"",
-          "فيديو: الإمارات تتعادل مع قطر.. وتحديد أطراف مواجهتي نصف نهائي خليجي 27"
+          "الإمارات تتصدر مجموعتها وتضرب موعدا مع عمان",
+          "مواعيد مباراتي السعودية وقطر والإمارات وعُمان في نصف نهائي \"خليجي 27\""
         ]
       }
     ],
@@ -52687,6 +52702,294 @@
       "sa"
     ],
     "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "playstation-plus-monthly-games": {
+    "slug": "playstation-plus-monthly-games",
+    "name": "playstation plus monthly games",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "PlayStation Plus Monthly Games for October: F1 25, Hunt: Showdown 1896, Earth Defense Force: World Brothers 2",
+          "PlayStation Plus First Free Game For October 2026 Officially Confirmed",
+          "PlayStation’s Free PS Plus Games For October Aren’t Really Scary At All"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "رياضة"
+  },
+  "guillermo-rodriguez-dancing-with-the-stars": {
+    "slug": "guillermo-rodriguez-dancing-with-the-stars",
+    "name": "guillermo rodriguez dancing with the stars",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Witney Carson Knows ‘DWTS’ Fans Are Worried for Her and Guillermo—Here’s What She Has to Say",
+          "'DWTS': Witney Carson Claps Back at Season 35 Critics",
+          "Pregnant pro Witney Carson addresses rumor she wants to be eliminated from ‘DWTS’"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "فن ومشاهير"
+  },
+  "infection": {
+    "slug": "infection",
+    "name": "infection",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "More than 2 million new cancer cases caused by infections in 2024, study finds",
+          "One in eight cancers are likely caused by an infection worldwide – new study",
+          "1 in 8 Cancers Are Caused by Infections. The Biggest Culprit Isn’t HPV"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "حوادث وقضايا"
+  },
+  "gervon-dexter": {
+    "slug": "gervon-dexter",
+    "name": "gervon dexter",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Falcons reach 4-year, $78 million extension with DT Gervon Dexter weeks after landing him in a trade",
+          "Seahawks S Love resumes practicing, S Okada DNP",
+          "Gervon Dexter, Falcons Agree to Contract Extension After Trade from Bears, Details Revealed"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "dream-vs-mystics": {
+    "slug": "dream-vs-mystics",
+    "name": "dream vs mystics",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Dream 92-77 Mystics (Sep 27, 2026) Final Score",
+          "Turnovers plague the Mystics in opening playoff loss to the Dream"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "alex-eala": {
+    "slug": "alex-eala",
+    "name": "alex eala",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Alex Eala secures Asian Games medal with win over Joanna Garland",
+          "Alex Eala battles Wang Xiyu for spot in Asian Games tennis final",
+          "Asiad: Eala through to quarterfinals, makes quick work of Thailand’s Cheapchandej"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "senate-democrats-block-data-center-bill": {
+    "slug": "senate-democrats-block-data-center-bill",
+    "name": "senate democrats block data center bill",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Republicans’ last-ditch effort to lower costs ahead of midterms fails in key Senate vote",
+          "Democrats block data center bill in Senate",
+          "Jim Justice says he has a ‘short’ timeline for deciding on governor run - Live Updates"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "سياسة"
+  },
+  "farrah-abraham": {
+    "slug": "farrah-abraham",
+    "name": "farrah abraham",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Farrah Abraham Looks Unrecognizable After Major Jaw Surgery, Manager Says She’s in ‘Excruciating Pain’",
+          "Teen Mom’s Farrah Abraham Undergoes Jaw Surgery, Shows Intense Swelling Amid Liquid Diet Recovery",
+          "Farrah Abraham's Scary Stitching Revealed After Major Jaw Surgery"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "eastern-box-turtle-painted-blue": {
+    "slug": "eastern-box-turtle-painted-blue",
+    "name": "eastern box turtle painted blue",
+    "first_seen": "2026-09-30",
+    "appearances": [
+      {
+        "key": "2026-09-30|world",
+        "date": "2026-09-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "A Turtle with a Bright Blue Shell Was Found in Kentucky. Now Wildlife Experts Are Racing to Undo the Damage",
+          "Shockingly blue turtle discovered in Kentucky backyard"
+        ]
+      }
+    ],
+    "last_seen": "2026-09-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "ميزانية": {
+    "slug": "ميزانية",
+    "name": "ميزانية",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|sa",
+        "date": "2026-10-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "الميزانية التقديرية للمملكة لعام 2027: الإيرادات 1202 مليار ريال والنفقات 1392 مليار ريال",
+          "\"اختياري وتنموي\".. عجز الميزانية السعودية يعكس استمرار الاستثمار في النمو",
+          "وزارة المالية تعلن البيان التمهيدي لميزانية العام المالي 2027م بنفقات تُقدر بـ1,392 مليار ريال وإيرادات تُقدر بـ1,202 مليار ريال"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 1000,
     "category": "شخصية"
   }
 }

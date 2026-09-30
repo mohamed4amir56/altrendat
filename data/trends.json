@@ -5,7 +5,7 @@
     "name_en": "Worldwide",
     "lang": "en",
     "flag": "🌐",
-    "generated_at": "2026-09-30T13:07:04.958479+00:00",
+    "generated_at": "2026-09-30T13:21:00.681277+00:00",
     "day": "2026-09-30",
     "trends": [
       {
@@ -21,31 +21,82 @@
             "url": "https://www.fox4news.com/weather/dallas-weather-flood-watch-effect-cooler-weather-heavy-rain-move-region",
             "source": "FOX 4 News Dallas-Fort Worth",
             "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQlbU8ByHHph5lyErCXs_arc9BsV3ukx4NXfuT6P5BtVVEO9VqPPO9vKDGbkM",
-            "ok": false,
-            "error": "Timeout"
+            "og_title": "Dallas weather: Flood Watch in effect as cooler weather and heavy rain move into the region",
+            "og_desc": "A multi-day stretch of wet, stormy weather is heading toward North Texas, bringing rising flood concerns and relief from unseasonable heat ahead of a weekend cold front.",
+            "og_image": "https://images.foxtv.com/static-media.fox.com/fmcv3/prod/fts/kkj6oky8au15hphl/1200/630/0ouik45p7cufq8gs.jpg?ve=1&tl=1",
+            "ok": true
           },
           {
-            "title": "Dallas weather forecast: Warm temperatures and thunderstorms expected today, September 28, 2026",
-            "url": "https://timesofindia.indiatimes.com/weather/us/dallas-weather-forecast-warm-temperatures-and-thunderstorms-expected-today-september-28-2026/articleshow/134542287.cms",
-            "source": "The Times of India",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWnHw4VW3WIaJdbNARXyND_oS_POnUakBfXNYuspFdBCdCP4fwQmIaMykKAks",
-            "ok": false,
-            "error": "Timeout"
+            "title": "Eye Opener: Storms sweep across Southwest",
+            "url": "https://www.cbsnews.com/video/eye-opener-storms-sweep-across-southwest/",
+            "source": "CBS News",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSxcr34xulbDL-YxJMCqL5pquScGmRa-v-zuDvuKfq0px0ZlaEtrAjfATXFhV4",
+            "og_title": "Eye Opener: Storms sweep across Southwest",
+            "og_desc": "Storms sweeping through the Southwest are causing major flooding. Meanwhile, public outrage continues to grow as new details emerge on the Cornell rape case. All that and all that matters in today",
+            "og_image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/09/30/a31cf13b-c01b-4d8a-89c4-b1a9604eebd2/thumbnail/1200x630/54ab268f0c3976623482349412a5a237/cbsn-fusion-eye-opener-storms-sweep-across-southwest-thumbnail.jpg",
+            "ok": true
           },
           {
-            "title": "DFW weather: Where is this heavy rainfall coming from?",
-            "url": "https://www.wfaa.com/video/weather/dfw-weather-where-is-this-heavy-rainfall-coming-from/287-61de8147-a0ef-4985-8557-c1cab770b058",
-            "source": "WFAA",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRghctcUjUxquL-QY5O5Bo2RZ8cG98FG7al0FFa4DhAK0QwpRSDHT0_-x7Srrw",
-            "ok": false,
-            "error": "Timeout"
+            "title": "FIRST ALERT: One last push of rainfall amidst flooding",
+            "url": "https://www.newschannel10.com/2026/09/28/first-alert-more-flooding-potential-beginning-tuesday/",
+            "source": "NewsChannel 10",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ_GeMOdafHybVpCBnSWARU1RliiqQhC8IMVBeipmVmc-6KFodbAQOhKEjSP0E",
+            "og_title": "FIRST ALERT: One last push of rainfall amidst flooding",
+            "og_desc": "After a couple days break from heavy rainfall, we’re now looking at another stretch of heavy rainfall and flooding concerns beginning as soon as overnight Monday into Tuesday.",
+            "og_image": "https://gray-kfda-prod.gtv-cdn.com/resizer/v2/YA5HLW4DXFGL5C2Z2W32BFQAUE.png?auth=44476be486c226cce3b251eca757e580fa4f27ec13aad7ecfdd8543d80ae0b99&width=1200&height=600&smart=true",
+            "ok": true
           }
         ],
         "category": "طقس",
         "icon": "🌤️",
         "color": "#7fd8ff",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
+        "reason": "العنوان يطابق: flood",
+        "publishable": true,
+        "article": {
+          "headline": "2-to-4 inches of rain triggers flood watch across North Texas through Friday",
+          "summary": "A multi-day stretch of wet, stormy weather is bringing a flood watch to North Texas through 7 a.m. Friday, with widespread rainfall of 2 to 4 inches expected and isolated amounts reaching 5 to 6 inches over 24 to 48 hours.",
+          "body": "Scattered showers and thunderstorms are expected to develop across North Texas by Wednesday afternoon, with a flood watch now in effect through 7 a.m. Friday. The National Weather Service has issued the watch due to expected widespread totals of 2 to 4 inches over a 24- to 48-hour period, with some isolated areas receiving 5 to 6 inches.\n\nThe flooding risk is particularly acute because the ground in the region is exceptionally dry, meaning rapid runoff will quickly heighten the risk of localized flooding. Multiple rounds of precipitation are expected to continue through Thursday and Friday as an upper-level system stalls to the west.\n\nWednesday will bring peaks near 92 degrees under humid conditions with gusty winds between 25 and 30 mph even before storms arrive. Areas west of the metroplex are under a marginal risk for severe weather, with threats including gusty winds up to 60 mph and small hail. A true cold front is slated to sweep through on Friday, ushering in cooler conditions with highs dropping into the upper 70s and lower 80s by late week and the weekend.",
+          "facts": [
+            {
+              "label": "Flood Watch Duration",
+              "value": "Through 7 a.m. Friday"
+            },
+            {
+              "label": "Expected Rainfall",
+              "value": "2 to 4 inches over 24 to 48 hours"
+            },
+            {
+              "label": "Isolated Maximum Rainfall",
+              "value": "5 to 6 inches"
+            },
+            {
+              "label": "Wednesday High Temperature",
+              "value": "Near 92 degrees"
+            },
+            {
+              "label": "Weekend High Temperatures",
+              "value": "Upper 70s and lower 80s"
+            }
+          ],
+          "tags": [
+            "flood watch",
+            "North Texas",
+            "severe weather",
+            "heavy rain",
+            "cold front"
+          ],
+          "_v": 4,
+          "written_at": "2026-09-30T13:21:32.426260+00:00",
+          "photo": {
+            "url": "https://altrendat.com/art/84241c392c2043.jpg",
+            "ai": true,
+            "width": 1024,
+            "height": 576
+          },
+          "photo_v": 6,
+          "_had_data": false,
+          "_localized": false
+        },
         "card": "cards/world-2026-09-30-flood-watch.png"
       },
       {
@@ -61,8 +112,10 @@
             "url": "https://www.cnbc.com/2026/09/29/trump-accounts-auto-enroll.html",
             "source": "CNBC",
             "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtGswLX1UrrQnLjWC9ajxuiVryGgSuSZgo6Fa3us4iXhmoBBe6j4ZWkdGzJ-U",
-            "ok": false,
-            "error": "Timeout"
+            "og_title": "Trump Accounts will auto-enroll children, potentially adding 60 million accounts: Treasury",
+            "og_desc": "The Treasury Department announced that Trump Accounts will begin auto-enrolling eligible children. Here's what families need to know.",
+            "og_image": "https://image.cnbcfm.com/api/v1/image/108270385-1772113136410-gettyimages-2258113506-TRUMP_ACCOUNTS.jpeg?v=1790711176&w=1920&h=1080",
+            "ok": true
           },
           {
             "title": "Trump Accounts will automatically be created for up to 60 million kids, Treasury says",
@@ -75,62 +128,197 @@
             "ok": true
           },
           {
-            "title": "60 million US children will be auto enrolled in Trump accounts, some eligible for $1,000 seed money",
-            "url": "https://www.yahoo.com/news/politics/articles/60-million-us-children-auto-110129367.html",
-            "source": "Yahoo",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR76_IEN2KUknPm48-2yeW7SrmONhcgPcj08SiI9kDUH0Usi8dNcUMMiabi-28",
-            "ok": false,
-            "error": "Timeout"
+            "title": "Treasury auto-enrolling 60 million children in Trump accounts, IRS CEO says",
+            "url": "https://www.foxbusiness.com/video/6405956196112",
+            "source": "Fox Business",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTFicT0lbH8kZbel13tDKRmJjGRvrRGNEPp18JBKy9ZlW7sLCr4RxsuNMSSrOQ",
+            "og_title": "Treasury auto-enrolling 60 million children in Trump accounts, IRS CEO says | Fox Business Video",
+            "og_desc": "Frank Bisignano, IRS CEO and Commissioner of the Social Security Administration, joins Larry Kudlow to discuss the Treasury Department auto-enrolling 60 million children in Trump accounts to distribute donor gifts and promote growth.",
+            "og_image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/854081161001/e6fcfaea-795f-4420-860d-23b81d2b2dd3/28aacea6-1ce7-4e39-9f49-65fd8f5c84b4/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
+            "ok": true
           }
         ],
         "category": "عام",
         "icon": "🌐",
         "color": "#9aa4b2",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "reason": "حجم بحث أقل من 5000",
         "publishable": false,
         "card": "cards/world-2026-09-30-trump-accounts.png"
       },
       {
-        "title": "citibank",
+        "title": "pce",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "published": "Wed, 30 Sep 2026 05:40:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdwAMEtCuczbOtAIF41dkUYKOmBsSsgrsVbFbeIIQfQwTDXAG1ROPAjD_QzNI",
-        "image_source": "The Korea Times",
+        "published": "Wed, 30 Sep 2026 05:30:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQjqsFp7BeHMfb4lV7Lqle3AoWDYAVhKU50Jew0GSg870sRlQDnmyDBI1QoeA0",
+        "image_source": "CNBC",
         "news": [
           {
-            "title": "Citi supports Hana Bank's first $100 mil. digital bond issuance",
-            "url": "https://www.koreatimes.co.kr/business/banking-finance/20260930/citi-supports-hana-banks-first-100-mil-digital-bond-issuance",
-            "source": "The Korea Times",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdwAMEtCuczbOtAIF41dkUYKOmBsSsgrsVbFbeIIQfQwTDXAG1ROPAjD_QzNI",
-            "ok": false,
-            "error": "Timeout"
-          },
-          {
-            "title": "Hana Bank becomes the first Korean bank to issue digitally native notes on Euroclear’s D-FMI",
-            "url": "https://www.sc.com/en/press-release/hana-bank-becomes-the-first-korean-bank-to-issue-digitally-native-notes-on-euroclears-d-fmi/",
-            "source": "www.sc.com",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc7EajBUD1bnH2mH3qSxX8pLDWxfL9__hHT6Y4Gyg7jq53o-rd6bCepzYW3Go",
-            "og_title": "Hana Bank becomes the first Korean bank to issue digitally native notes on Euroclear’s D-FMI",
-            "og_desc": "Singapore, South Korea – Hana Bank has successfully issued USD100 million in five-year floating-rate digital bonds, making it the first Korean bank to issue a digital bond on Euroclear’s blockchain-based Digital Financial Market Infrastructure (D-FMI) platform.",
-            "og_image": "https://www.sc.com/en/tachyon/sites/66/content/images/The-front-of-Standard-Chartereds-London-HQ-homepage-slot-1-mobile-announcement.jpg?webp=1",
+            "title": "Fed’s preferred gauge showed core inflation at 3.0% in August, much lighter than expected",
+            "url": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
+            "source": "CNBC",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQjqsFp7BeHMfb4lV7Lqle3AoWDYAVhKU50Jew0GSg870sRlQDnmyDBI1QoeA0",
+            "og_title": "Fed’s preferred gauge showed core inflation at 3.0% in August, much lighter than expected",
+            "og_desc": "The personal consumption expenditures price index was projected to show an annual gain of 3.7% on headline and 3.3% for core, according to the Dow Jones consensus.",
+            "og_image": "https://image.cnbcfm.com/api/v1/image/108369304-1790685689139-gettyimages-2297102830-AFP_C9LU96K.jpeg?v=1790685734&w=1920&h=1080",
             "ok": true
           },
           {
-            "title": "Citi supports Hana Bank’s first digitally native note on Euroclear platform",
-            "url": "https://www.globalcustodian.com/citi-supports-hana-banks-first-digitally-native-note-on-euroclear-platform/",
-            "source": "Global Custodian",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSpS7RKQy_JwEhI2PHq3bYbrAxIYNe84Sz4_mCrzNH4IS8BNY3_Y1AgYBeONkw",
+            "title": "US Consumer Spending Rises by Most in a Year, Core PCE Up 0.2%",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-30/us-consumer-spending-rises-by-most-in-a-year-core-pce-up-0-2",
+            "source": "Bloomberg.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTgXcNA48BPQ7-GFc8cFTINxYLZ_NnJtSR4llvh_dG59aR5NTSywhzJlfQlnss",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
             "ok": false,
-            "error": "Timeout"
+            "error": "HTTPError"
+          },
+          {
+            "title": "US inflation remained stubborn last month as Iran war continued to lift prices",
+            "url": "https://www.cnn.com/2026/09/30/economy/us-pce-inflation-consumer-spending-august",
+            "source": "CNN",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTEsJv6NqGgSEgeaMsgP8a8hQGjwlGj7AoJEhezk5-Yeiv2FwnOt7LimiFdn-A",
+            "og_title": "US inflation remained stubborn last month as Iran war continued to lift prices | CNN Business",
+            "og_desc": "",
+            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-2291508071.jpg?c=16x9&q=w_800,c_fill",
+            "ok": true
           }
         ],
         "category": "اقتصاد",
         "icon": "💰",
         "color": "#f5c542",
+        "reason": "حجم بحث أقل من 5000",
+        "publishable": false,
+        "card": "cards/world-2026-09-30-pce.png"
+      },
+      {
+        "title": "djokovic",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "published": "Wed, 30 Sep 2026 05:00:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTL97OSklo-sic56yKVImLStG16RI50aMrkdmiWSa0mbQ_DGNpxu_6-Pj4Do3g",
+        "image_source": "Слободен печат",
+        "news": [
+          {
+            "title": "VIDEO | Minor incident in Shanghai: fan hits Djokovic with hat",
+            "url": "https://www.slobodenpecat.mk/en/video-mal-incident-vo-shangaj-navivach-go-udri-gjokovikj-so-kapa/",
+            "source": "Слободен печат",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTL97OSklo-sic56yKVImLStG16RI50aMrkdmiWSa0mbQ_DGNpxu_6-Pj4Do3g",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "“This Is Not Ok” – Tennis World Shocked As Novak Djokovic Gets Hit In The Face By Fan-Thrown Cap At China Open Practice",
+            "url": "https://www.aol.com/articles/not-ok-tennis-world-shocked-084030000.html",
+            "source": "AOL.com",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWk_XzLHGucZfUfKfWgDUCBVCT9gP-ILn6KxV84DIs2785zZpFNhdMFU2RyQ0",
+            "og_title": "“This Is Not Ok” – Tennis World Shocked As Novak Djokovic Gets Hit In The Face By Fan-Thrown Cap At China Open Practice - AOL",
+            "og_desc": "The tennis world was left in shock after Novak Djokovic was struck in the face by a cap thrown from the stands during his China Open warm-up session. The incident happened when the Serb was interacting with his fans, signing autographs.",
+            "og_image": "https://hermes.media.transform.aol.com/6f5ee5bc062bc0af9840e0d3d1970cfda0767ce6/w_1200,c_scale,f_auto,q_auto/https://hermes.media.static.aol.com/media/2026/09/29/f760c660-c0fb-3f76-b6ae-2222421fc810/6128cb8f-137a-428b-8aab-6c17c1017b32.jpg",
+            "ok": true
+          },
+          {
+            "title": "Djokovic gives fitness update & discusses China's 'NoleFam' ahead of Beijing",
+            "url": "https://www.atptour.com/en/news/djokovic-beijing-2026-preview",
+            "source": "ATP Tour",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSz_fNYBCpwXm2fYqp1aVhNVg2UDlnPoarRVby1UQGasPExQgSINEpCblW4RMQ",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
         "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
         "publishable": false,
-        "card": "cards/world-2026-09-30-citibank.png"
+        "card": "cards/world-2026-09-30-djokovic.png"
+      },
+      {
+        "title": "burke high school",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Wed, 30 Sep 2026 05:50:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTS7yDWV72SEnfvMn8XyV_fjtOYnk7lBXKYbtatkpTHgZjX28m61AwJHadbinY",
+        "image_source": "KETV",
+        "news": [
+          {
+            "title": "Shooting at Burke High School Wednesday morning",
+            "url": "https://www.ketv.com/article/shooting-at-burke-high-school-wednesday-morning/73956803",
+            "source": "KETV",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTS7yDWV72SEnfvMn8XyV_fjtOYnk7lBXKYbtatkpTHgZjX28m61AwJHadbinY",
+            "og_title": "Shooting at Burke High School Wednesday morning",
+            "og_desc": "Officials have confirmed to KETV that there has been a shooting at Burke High School. What we know",
+            "og_image": "https://kubrick.htvapps.com/htv-prod/images/3a46d2ad-2ee6-4e04-a3ae-2b02d4266af9.jpg?crop=1.00xw%3A0.753xh%3B0%2C0.0586xh&resize=1200%3A*",
+            "ok": true
+          },
+          {
+            "title": "1 injured in shooting near Omaha Burke High School",
+            "url": "https://www.wowt.com/2026/09/30/omaha-police-respond-shooting-near-burke-high-school/",
+            "source": "WOWT",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPnbnuQ9Oc8RLNnwgwn63OafxhVwvcwyMRR-BofbpglXJDN54gIdivCGqvD0M",
+            "og_title": "1 injured in shooting near Omaha Burke High School",
+            "og_desc": "Police are on the scene of a reported shooting near Omaha Burke High School on Wednesday morning.",
+            "og_image": "https://gray-wowt-prod.gtv-cdn.com/resizer/v2/GYSVFJZ4OBEMXBSFAFNZURPF2E.jpg?auth=de384676ea6900d28a5ec44edff044b345cf0b04570beb038c9dc8a3c226155e&width=1200&height=600&smart=true",
+            "ok": true
+          }
+        ],
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: shooting",
+        "publishable": false,
+        "card": "cards/world-2026-09-30-burke-high-school.png"
+      },
+      {
+        "title": "us-iran",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Wed, 30 Sep 2026 05:40:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAAfHRZGjBVfrkeOYRpTeJlNtU0bM0M3NPH_AOFG6ncpd2iNiS3OPshD64wtI",
+        "image_source": "Al Jazeera",
+        "news": [
+          {
+            "title": "Iran war live: US response to proposal under review after Qatar mediation",
+            "url": "https://www.aljazeera.com/news/liveblog/2026/9/30/iran-war-live-trump-claims-war-will-end-very-soon-provides-no-details",
+            "source": "Al Jazeera",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAAfHRZGjBVfrkeOYRpTeJlNtU0bM0M3NPH_AOFG6ncpd2iNiS3OPshD64wtI",
+            "og_title": "Iran receives US response to peace proposal as pressure mounts to end war",
+            "og_desc": "Top leadership in Iran reviews latest US response offer to end war as economic turmoil and political concerns rise.",
+            "og_image": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP26257334780051-1-1790768554.jpg?resize=1920%2C1440",
+            "ok": true
+          },
+          {
+            "title": "Where things stand with gas prices and the Strait of Hormuz",
+            "url": "https://www.cbsnews.com/video/where-things-stand-with-gas-prices-and-the-strait-of-hormuz/",
+            "source": "CBS News",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTbX0y7f8VX8yXnGjWIx2mU5VtXHfS8uWgNbocO1V16SSzoWPOTdDvpgsMsVcI",
+            "og_title": "Where things stand with gas prices and the Strait of Hormuz",
+            "og_desc": "Iranian authorities say they received a formal response from the U.S. on their proposal for a ceasefire and the phased reopening of the Strait of Hormuz, days after President Trump said he rejected their plan. Columbia University Center on Global Energy Policy senior fellow Daniel Sternoff has more details on where things stand.",
+            "og_image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/09/30/cd82005a-ace8-4ab5-91c8-5cd1b43a1461/thumbnail/1200x630/a0e6fa682e19b2a3c0afca38aa7be587/cbsn-fusion-where-things-stand-with-fuel-prices-and-the-strait-of-hormuz-thumbnail.jpg",
+            "ok": true
+          },
+          {
+            "title": "Analysis | Trump says he has an off-ramp to his biggest political problem. He refuses to take it.",
+            "url": "https://www.washingtonpost.com/politics/2026/09/28/trump-says-he-has-an-off-ramp-his-biggest-political-problem-he-refuses-take-it/",
+            "source": "The Washington Post",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZtxE8LnaQZM8deEqxcLD_0LMU6gkyR4yc2bVSU4p-XL5qCkqnfe9HSuVv2PI",
+            "ok": false,
+            "error": "Timeout"
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "شخصية لا يرد اسمها في مصدرين",
+        "publishable": false,
+        "card": "cards/world-2026-09-30-us-iran.png"
       },
       {
         "title": "heated rivalry",
@@ -165,8 +353,10 @@
             "url": "https://www.theglobeandmail.com/culture/film-and-tv/television/article-heated-rivalry-production-launches-real-life-irina-foundation/",
             "source": "The Globe and Mail",
             "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQpwXvDIO-he4rBmvX-sPZqj5EfCE1r9sWtfG8_DpXqMGxVHscynea_BYUAOqU",
-            "ok": false,
-            "error": "Timeout"
+            "og_title": "Heated Rivalry production company launches real-life Irina Foundation to support inclusivity in sports and arts",
+            "og_desc": "Created by Accent Aigu Entertainment co-founders Jacob Tierney and Brendan Brady, new fund is based on Shane and Ilya’s fictional charity",
+            "og_image": "https://www.theglobeandmail.com/resizer/v2/BHZIX4ZWEFG7XKB7ADOVISDVWM.JPG?auth=c3dc4b203891a0d99a1a828be21ef0ac7df9438962512fe4eea83682e73b9bdc&width=1200&height=800&quality=80&smart=true",
+            "ok": true
           }
         ],
         "category": "عام",
@@ -175,53 +365,6 @@
         "reason": "حجم بحث أقل من 5000",
         "publishable": false,
         "card": "cards/world-2026-09-30-heated-rivalry.png"
-      },
-      {
-        "title": "us-iran",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Wed, 30 Sep 2026 05:40:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAAfHRZGjBVfrkeOYRpTeJlNtU0bM0M3NPH_AOFG6ncpd2iNiS3OPshD64wtI",
-        "image_source": "Al Jazeera",
-        "news": [
-          {
-            "title": "Iran war live: US response to proposal under review after Qatar mediation",
-            "url": "https://www.aljazeera.com/news/liveblog/2026/9/30/iran-war-live-trump-claims-war-will-end-very-soon-provides-no-details",
-            "source": "Al Jazeera",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAAfHRZGjBVfrkeOYRpTeJlNtU0bM0M3NPH_AOFG6ncpd2iNiS3OPshD64wtI",
-            "og_title": "Iran receives US response to peace proposal as pressure mounts to end war",
-            "og_desc": "Top leadership in Iran reviews latest US response offer to end war as economic turmoil and political concerns rise.",
-            "og_image": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP26257334780051-1-1790768554.jpg?resize=1920%2C1440",
-            "ok": true
-          },
-          {
-            "title": "Iran indicates it’s received an official US response to its latest offer on ending the war",
-            "url": "https://apnews.com/article/iran-war-hormuz-trump-proposal-2c42d71d8a4be3443147cd65a6ee9193",
-            "source": "AP News",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRDvtc9a00VZrbXU15BVtsoCEYLlfEzXfgSQV-zoXGJ9TjyLakxkd-1_4DX17w",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Iran live updates: Tehran waiting for US response to 7-point proposal, Araghchi says",
-            "url": "https://www.yahoo.com/news/politics/articles/iran-live-updates-saudi-foreign-080920533.html",
-            "source": "Yahoo",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRtkZgYRAqJfvjCr_JnfPgCGRmWIGpFO5QOqPHHPJD8ol60l8JQZ0J3eDhVUjA",
-            "og_title": "Iran live updates: Tanker attacked in Strait of Hormuz on Tuesday, UKMTO says",
-            "og_desc": "Trump said on Tuesday that the U.S. has \"total control of the Hormuz Strait.\"",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/61c2fe1a1533d7cdcc7da8b07e487287c6694b35a065a11c74f7b74168104919/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fus.abcnews.go.com%2Fb77085b6d7b7a7f4a1cb12bb643753af.jpg",
-            "ok": true
-          }
-        ],
-        "category": "شخصية",
-        "icon": "👤",
-        "color": "#ffd166",
-        "reason": "شخصية لا يرد اسمها في مصدرين",
-        "publishable": false,
-        "card": "cards/world-2026-09-30-us-iran.png"
       },
       {
         "title": "savannah james",
@@ -253,7 +396,7 @@
             "title": "Savannah James and April McDaniel Say They're Not ‘Delusional’ About Their ‘Different Lifestyles’",
             "url": "https://www.complex.com/sports/a/jaelaniturnerwilliams/savannah-james-april-mcdaniel-lifestyles",
             "source": "Complex",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSaP4REa2hb6sNY8pVy7clCQ2DDofwrF1YKC-YC9Nzms6fV956EsdUmRMPnb-E",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnpXMzgstkDwZmGg9Z6iAuYZ_xkc1XFnQtFIPWDNjjeW_EyBD3NgWKW1A5mmg",
             "og_title": "Savannah James and April McDaniel Say They're Not ‘Delusional’ About Their ‘Different Lifestyles’",
             "og_desc": "McDaniel doesn't \"feel the need\" to be in first class wit...",
             "og_image": "https://images.complex.com/complex/image/upload/c_crop,h_1079,w_1920,x_0,y_0/g_auto:aoi_768_432_384_216,ar_1.91,c_fill,q_auto,w_1200/sanity-new/hturdbcvhbxkt2uy77hu",
@@ -266,51 +409,6 @@
         "reason": "حجم بحث أقل من 5000",
         "publishable": false,
         "card": "cards/world-2026-09-30-savannah-james.png"
-      },
-      {
-        "title": "pce",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Wed, 30 Sep 2026 05:30:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQjqsFp7BeHMfb4lV7Lqle3AoWDYAVhKU50Jew0GSg870sRlQDnmyDBI1QoeA0",
-        "image_source": "CNBC",
-        "news": [
-          {
-            "title": "Fed’s preferred gauge showed core inflation at 3.0% in August, much lighter than expected",
-            "url": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
-            "source": "CNBC",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQjqsFp7BeHMfb4lV7Lqle3AoWDYAVhKU50Jew0GSg870sRlQDnmyDBI1QoeA0",
-            "og_title": "Fed’s preferred gauge showed core inflation at 3.0% in August, much lighter than expected",
-            "og_desc": "The personal consumption expenditures price index was projected to show an annual gain of 3.7% on headline and 3.3% for core, according to the Dow Jones consensus.",
-            "og_image": "https://image.cnbcfm.com/api/v1/image/108369304-1790685689139-gettyimages-2297102830-AFP_C9LU96K.jpeg?v=1790685734&w=1920&h=1080",
-            "ok": true
-          },
-          {
-            "title": "U.S. core PCE rises 0.2% month-on-month in August, cooler than expected",
-            "url": "https://www.investing.com/news/economic-indicators/us-core-pce-rises-02-monthonmonth-in-august-cooler-than-expected-4925143",
-            "source": "Investing.com",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHBNo-vZG00l8O_DQ5cACbzu7OYDil24PA_nd_GlqAYkXsq6VXScJLPyjivtQ",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Stock market today: Dow, S&P 500, Nasdaq futures edge lower ahead of PCE inflation data",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-30-dow-sp-500-nasdaq-080339262.html",
-            "source": "Yahoo Finance",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSdBsbq1IghiIFwY5t6iHuh3k_TFXUr_3C0bvq0J31QB-aarelirFx24EpISHo",
-            "ok": false,
-            "error": "Timeout"
-          }
-        ],
-        "category": "اقتصاد",
-        "icon": "💰",
-        "color": "#f5c542",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/world-2026-09-30-pce.png"
       },
       {
         "title": "donald faison",
@@ -346,8 +444,10 @@
             "url": "https://www.al.com/life/2026/09/scrubs-cast-changes-see-whos-not-returning-for-the-revivals-second-season.html",
             "source": "AL.com",
             "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRsO4Ez_ibn8_jDaRrMDYbJBp14yHVPm4CcqGumL_GIK1I0ossEkSED46x_2PI",
-            "ok": false,
-            "error": "Timeout"
+            "og_title": "‘Scrubs’ cast changes: See who’s not returning for the revival’s second season",
+            "og_desc": "Season 2 of the 'Scrubs' revival premieres on Sept. 30",
+            "og_image": "https://www.al.com/resizer/v2/HSQQAQJMUNFHBDTOFPW6NRXAVU.jpg?auth=84028204f4abe92352d52eb939dff257090cf508a7ddaf3907f723431781fa05&width=1280&smart=true&quality=90",
+            "ok": true
           }
         ],
         "category": "فن ومشاهير",
@@ -370,72 +470,38 @@
             "url": "https://abc7ny.com/post/kianna-underwood-death-arrest-made-brooklyn-fatal-hit-run-former-nickelodeon-star/19889657/",
             "source": "ABC7 New York",
             "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1UQroNj6GCP3NInjQGeD33qtD2W6VYD1EZB9csHb9AxD2uulPrtMgv6R20eY",
-            "ok": false,
-            "error": "Timeout"
+            "og_title": "Arrest made in Brooklyn hit-and-run death of former Nickelodeon star Kianna Underwood",
+            "og_desc": "Police arrested and charged 72-year-old Brooklyn resident Michael Griffiths in connection to the death of Kianna Underwood, a former Nickelodeon child star.",
+            "og_image": "https://cdn.abcotvs.com/dip/images/19889960_092926-wabc-bk-hit-and-run-arrest-img.jpg?w=1600",
+            "ok": true
           },
           {
             "title": "Man, 72, arrested in fatal crash that killed former Nickelodeon child star Kianna Underwood",
             "url": "https://www.nydailynews.com/2026/09/29/man-72-arrested-in-fatal-crash-that-killed-former-nickelodeon-child-star-kianna-underwood/",
             "source": "New York Daily News",
             "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS6JQGDwXAcGuIiIiGuYsKgVyLnDFUeNV2K_rqpB_KZKxIbPEVlBFZC3_H_SCI",
-            "ok": false,
-            "error": "Timeout"
+            "og_title": "Man, 72, arrested in fatal crash that killed former Nickelodeon child star Kianna Underwood",
+            "og_desc": "Michael Griffiths, 72, was charged with leaving the scene of an accident resulting in death and leaving the scene of an accident with injury – prior for striking Underwood with his SUV and then continuing without stopping, police said.",
+            "og_image": "https://www.nydailynews.com/wp-content/uploads/2026/01/TNY-P39-20260116-080628copy2.jpg?w=3000&h=1800",
+            "ok": true
           },
           {
-            "title": "Driver, 72, arrested in NYC hit-and-run that killed ex-Nickelodeon star Kianna Underwood",
-            "url": "https://nypost.com/2026/09/30/us-news/driver-72-arrested-in-nyc-hit-and-run-that-killed-ex-nickelodeon-star-kianna-underwood/",
-            "source": "New York Post",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSopN_hynYq1Dz2iWa40JSwzXCWOGc_1CINoiqbKow5CLBymdCT-Y5q_KoYbQY",
-            "ok": false,
-            "error": "Timeout"
+            "title": "Suspect in hit-and-run death of former Nickelodeon actress Kianna Underwood arrested",
+            "url": "https://www.cbsnews.com/newyork/news/kianna-underwood-hit-and-run-death-suspect-arrested/",
+            "source": "CBS News",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTpFf8Tha6uFHh1kERgvRwmJ3lwNujLVlDtbAiUHP4SxlrOMDSlW-dH6aVLbP4",
+            "og_title": "Suspect in hit-and-run death of former Nickelodeon actress Kianna Underwood arrested",
+            "og_desc": "A Brooklyn man has been arrested in connection to the hit-and-run death of former Nickelodeon actress Kianna Underwood.",
+            "og_image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/01/17/c857bee5-0c05-49ed-9e76-297260991e6d/thumbnail/1200x630/861a1f01ea00efa19043dcfbc81f9167/kliger-5p-pkg-bk-fatal-wcbsgg60-hi-res-still-00-00-4118.jpg",
+            "ok": true
           }
         ],
         "category": "حوادث وقضايا",
         "icon": "⛔",
         "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: killed",
+        "reason": "ورد لفظ حسّاس: death",
         "publishable": false,
         "card": "cards/world-2026-09-30-kianna-underwood.png"
-      },
-      {
-        "title": "flyers",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Wed, 30 Sep 2026 04:50:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSmx5nbThGE-TlaxxXzfKD7PeEf92RYp_U6IIzmkcu-CqV_qEMQpOLVEAo3Ino",
-        "image_source": "ESPN",
-        "news": [
-          {
-            "title": "NHL tonight: What to watch, key stats, betting intel for Wednesday",
-            "url": "https://www.espn.com/nhl/story/_/id/50059344/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
-            "source": "ESPN",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSmx5nbThGE-TlaxxXzfKD7PeEf92RYp_U6IIzmkcu-CqV_qEMQpOLVEAo3Ino",
-            "ok": false,
-            "error": "Timeout"
-          },
-          {
-            "title": "Game Preview: Pittsburgh Penguins @ Philadelphia Flyers 9/30/2026",
-            "url": "https://www.pensburgh.com/penguins-lines-game-time-watch/81202/game-preview-pittsburgh-penguins-philadelphia-flyers-9-30-2026",
-            "source": "PensBurgh",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT-5wUa10pxif88gJDxnb2a63FMaYn-_zAg_2S_4vEszxyyEQsTOikSr0YkvNk",
-            "ok": false,
-            "error": "Timeout"
-          },
-          {
-            "title": "Penguins visit the Flyers to start season",
-            "url": "https://www.tribdem.com/sports/penguins-visit-the-flyers-to-start-season/article_2d9f3da9-8f37-5e2c-aa69-9325eadd96e9.html",
-            "source": "The Tribune-Democrat",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR5bF-BBAhXQpAUFZo-W-KDlJEaQi0Urh-2KVr1siGB9-kvyQDgmfll-Z11Fww",
-            "ok": false,
-            "error": "Timeout"
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/world-2026-09-30-flyers.png"
       }
     ]
   },
@@ -445,7 +511,7 @@
     "name_en": "Egypt",
     "lang": "ar",
     "flag": "🇪🇬",
-    "generated_at": "2026-09-30T13:07:09.485232+00:00",
+    "generated_at": "2026-09-30T13:21:17.521942+00:00",
     "day": "2026-09-30",
     "trends": [
       {
@@ -497,33 +563,13 @@
         "card": "cards/eg-2026-09-30-جلسة-عامة.png"
       },
       {
-        "title": "فلاي دبي",
+        "title": "طائرة فلاي دبي",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "published": "Wed, 30 Sep 2026 03:40:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQmPrZAHGgMxxb3XO7kyztQBJ8fY0EBAVIdZxkgIg9ZEjbqB3bnP-EEXkBxZe4",
-        "image_source": "سكاي نيوز عربية",
+        "published": "Wed, 30 Sep 2026 04:40:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ8_MSpYMEUhTdvqjqBkzmQBGhK4nNKqA_LSpjRo-LIDFOIIrxJoPreAMK_kAM",
+        "image_source": "الجزيرة نت",
         "news": [
-          {
-            "title": "\"فلاي دبي\" تعلن تعرض رحلة من دبي إلى تل أبيب لـ\"واقعة\"",
-            "url": "https://www.skynewsarabia.com/middle-east/1895327-%D9%81%D9%84%D8%A7%D9%8A-%D8%AF%D8%A8%D9%8A-%D8%AA%D8%B9%D9%84%D9%86-%D8%AA%D8%B9%D8%B1%D8%B6-%D8%B1%D8%AD%D9%84%D8%A9-%D8%AF%D8%A8%D9%8A-%D8%AA%D9%84-%D8%A3%D8%A8%D9%8A%D8%A8-%D9%84-%D9%88%D8%A7%D9%82%D8%B9%D8%A9",
-            "source": "سكاي نيوز عربية",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQmPrZAHGgMxxb3XO7kyztQBJ8fY0EBAVIdZxkgIg9ZEjbqB3bnP-EEXkBxZe4",
-            "og_title": "\"فلاي دبي\" تعلن تعرض رحلة من دبي إلى تل أبيب لـ\"واقعة\"",
-            "og_desc": "أعلنت شركة \"فلاي دبي\" أن الرحلة رقم 1073 المتجهة من دبي إلى تل أبيب، الأربعاء، تعرضت لواقعة أثناء تحليقها.",
-            "og_image": "https://www.skynewsarabia.com/images/v1/2026/09/30/1895324/1200/630/1-1895324.jpg",
-            "ok": true
-          },
-          {
-            "title": "رحلة \"فلاي دبي\".. مزاعم بمحاولة طعن قائد الطائرة وكاميرا ترصد ما يبدو أنه رد فعل الركاب بعد الهبوط",
-            "url": "https://arabic.cnn.com/middle-east/video/2026/09/30/v202669-flydubai-flight-passengers-reaction-after-landing",
-            "source": "CNN Arabic",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRdwo8K51mB3d_I526sps2sadvOMAARu9wDlHbTBlQYqpHD9lAnZi5OWoTak1o",
-            "og_title": "رحلة \"فلاي دبي\".. كاميرا ترصد ما يبدو أنه رد فعل الركاب بعد الهبوط | CNN Arabic | CNN",
-            "og_desc": "",
-            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/cnnarabic-2026-09-30-images-345636.jpg?c=16x9&q=w_800,c_fill",
-            "ok": true
-          },
           {
             "title": "طائرة فلاي دبي.. إسرائيل تتحدث عن \"عمل إرهابي\" ومطار تبوك يعلق",
             "url": "https://www.ajnet.me/news/2026/9/30/%D8%B9%D8%A7%D8%AC%D9%84-%D8%A8%D9%84%D8%A7%D8%BA-%D8%B9%D9%86-%D8%AD%D8%AF%D8%AB-%D8%A3%D9%85%D9%86%D9%8A-%D8%B9%D9%84%D9%89-%D9%85%D8%AA%D9%86-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9",
@@ -533,59 +579,34 @@
             "og_desc": "تسبب شجار بين طاقم طائرة إماراتية كانت في طريقها من دبي إلى تل أبيب في إطلاق نداء استغاثة \"خاطئ\" باحتمال اختطافها، وسط شكوك إسرائيلية في محاولة أحد الطيارين السيطرة على الطائرة وإسقاطها.",
             "og_image": "https://www.ajnet.me/wp-content/uploads/2026/09/46a8s4d1as-1790751591.jpg?resize=1920%2C1365",
             "ok": true
+          },
+          {
+            "title": "بيان سعودي: قائد ومساعد طيار رحلة \"فلاي دبي\" أصيبا خلال الحادث وتلقيا العلاج في المملكة",
+            "url": "https://arabic.cnn.com/middle-east/article/2026/09/30/captain-and-co-pilot-taken-to-hospital-with-injuries-saudi-aviation-operator-says",
+            "source": "CNN Arabic",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcScOPs6fmHEOEH4FACtUnvl3mE4RvF_06yrxSa6li10REI7_IZyDsl42_LQaus",
+            "og_title": "بيان سعودي: قائد ومساعد طيار رحلة \"فلاي دبي\" أصيبا خلال الحادث | CNN Arabic | CNN",
+            "og_desc": "",
+            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/345635.jpg?c=16x9&q=w_800,c_fill",
+            "ok": true
+          },
+          {
+            "title": "\"فلاي دبي\" تعلن تعرض رحلة من دبي إلى تل أبيب لـ\"واقعة\"",
+            "url": "https://www.skynewsarabia.com/middle-east/1895327-%D9%81%D9%84%D8%A7%D9%8A-%D8%AF%D8%A8%D9%8A-%D8%AA%D8%B9%D9%84%D9%86-%D8%AA%D8%B9%D8%B1%D8%B6-%D8%B1%D8%AD%D9%84%D8%A9-%D8%AF%D8%A8%D9%8A-%D8%AA%D9%84-%D8%A3%D8%A8%D9%8A%D8%A8-%D9%88%D8%A7%D9%82%D8%B9%D8%A9",
+            "source": "سكاي نيوز عربية",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQmPrZAHGgMxxb3XO7kyztQBJ8fY0EBAVIdZxkgIg9ZEjbqB3bnP-EEXkBxZe4",
+            "og_title": "\"فلاي دبي\" تعلن تعرض رحلة من دبي إلى تل أبيب لـ\"واقعة\"",
+            "og_desc": "أعلنت شركة \"فلاي دبي\" أن الرحلة رقم 1073 المتجهة من دبي إلى تل أبيب، الأربعاء، تعرضت لواقعة أثناء تحليقها.",
+            "og_image": "https://www.skynewsarabia.com/images/v1/2026/09/30/1895324/1200/630/1-1895324.jpg",
+            "ok": true
           }
         ],
-        "category": "دول وأماكن",
-        "icon": "🗺️",
-        "color": "#79c0ff",
-        "reason": "العنوان يطابق: دبي",
-        "publishable": true,
-        "article": {
-          "headline": "طعن في قمرة القيادة وهبوط حاد: رحلة فلاي دبي تنقذ من كارثة",
-          "summary": "رحلة فلاي دبي من دبي إلى تل أبيب الأربعاء تعرضت لشجار عنيف بين الطيار والمساعد في قمرة القيادة تسبب في هبوط حاد فقدرت الطائرة 4 آلاف متر، وحقق ركاب إسرائيليون والطاقم السيطرة على الموقف قبل هبوطها بسلام في تبوك بالسعودية.",
-          "body": "طائرة تهوي نحو 4 آلاف متر في دقائق معدودة، وإشارة اختطاف تشعّ من قمرتها، وركاب يرون الدماء تنزف من القيادة. هكذا بدأت دراما رحلة فلاي دبي التي استنفرت الأجهزة الأمنية الإسرائيلية والسعودية، بعد أن تحول نزاع حاد بين الطيار الروسي ومساعده الأوكراني إلى عراك جسدي عنيف داخل مقصورة القيادة.\n\nوحسب تقارير إسرائيلية، أقدم أحد الطيارين على طعن الآخر بسكين أثناء الاشتباك، مما تسبب في فقدانه للوعي وفي دخول الطائرة في هبوط حاد ومفاجئ. أطلق أحدهما إشارة الاختطاف \"7700\" تنبيهاً للأزمة، ما دفع جيش الاحتلال الإسرائيلي إلى تحريك مقاتلات سلاح الجو للمنطقة استعداداً لسيناريو إرهابي. وصفت الأجهزة الأمنية الإسرائيلية الموقف بأنه كان قريباً جداً من كارثة تشبه هجمات 11 سبتمبر.\n\nلكن ركاب إسرائيليين وأفراد طاقم الطائرة اقتحموا قمرة القيادة بعد انفتاح بابها ورؤيتهم الدماء، وتمكنوا من السيطرة على الطيار وتحييده، واستعادوا التحكم بالطائرة قبل فقدانها. اتجهت الطائرة للهبوط الاضطراري في مطار تبوك بالسعودية على مقربة من الحدود الأردنية، حيث هبطت بسلام وكان جميع الركاب (أكثر من 150 راكب معظمهم إسرائيليون) بخير.\n\nأصدرت شركة فلاي دبي بيان تأكيد تعرض الرحلة 1073 في 30 سبتمبر لحادث طارئ وغير معتاد أثناء الطيران، مشددة على سلامة جميع المسافرين ووضع أمنهم في مقدمة أولوياتها. ولم تؤكد الشركة تفاصيل التقارير الإسرائيلية، كما لم تعلق السلطات السعودية أو الإماراتية على الروايات حتى وقت النشر. أرسلت الإمارات طائرة خاصة لإعادة الركاب الإسرائيليين من السعودية. تفاصيل دوافع الشجار تظل مجهولة، ودوائر أمنية لم تستبعد فرضيات محاولة خطف أو عمل عنيف.",
-          "facts": [
-            {
-              "label": "رقم الرحلة",
-              "value": "FZ1073"
-            },
-            {
-              "label": "المسار",
-              "value": "دبي إلى تل أبيب"
-            },
-            {
-              "label": "مكان الهبوط",
-              "value": "مطار تبوك بالسعودية"
-            },
-            {
-              "label": "التاريخ",
-              "value": "30 سبتمبر"
-            },
-            {
-              "label": "عدد الركاب",
-              "value": "أكثر من 150 راكب"
-            }
-          ],
-          "tags": [
-            "فلاي دبي",
-            "حادثة طيران",
-            "تبوك",
-            "الطيران المدني",
-            "السعودية"
-          ],
-          "_v": 4,
-          "written_at": "2026-09-30T12:01:31.916449+00:00",
-          "photo": {
-            "url": "https://altrendat.com/art/dd9b3a773da3b4.jpg",
-            "ai": true,
-            "width": 1024,
-            "height": 576
-          },
-          "photo_v": 6,
-          "_had_data": false,
-          "_localized": false
-        },
-        "card": "cards/eg-2026-09-30-فلاي-دبي.png"
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: حادث",
+        "publishable": false,
+        "card": "cards/eg-2026-09-30-طائرة-فلاي-دبي.png"
       },
       {
         "title": "البوابة المصرية الموحدة للحج",
@@ -776,53 +797,92 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "published": "Wed, 30 Sep 2026 04:30:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8gj0vGC_Egpv_XINZltG-jfLhPHBx4y5zOe7btaoIY8Dy7zDWyV1gxGqCgXA",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR7LUBY2vJN9ms1HU8Ry7vuFlx1rvg0_wk_9t8PDS8dss3iumK8YDLHmmBu1JM",
         "image_source": "اليوم السابع",
         "news": [
           {
-            "title": "سعر الدولار يواصل التراجع أمام الجنيه خلال منتصف تعاملات اليوم",
-            "url": "https://www.youm7.com/story/2026/9/30/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%8A%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%AE%D9%84%D8%A7%D9%84-%D9%85%D9%86%D8%AA%D8%B5%D9%81-%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85/7562608",
+            "title": "مؤشر البورصة الرئيسي يهوي بأكثر من 2% ويتراجع لـ51 ألف نقطة",
+            "url": "https://www.youm7.com/story/2026/9/30/%D9%85%D8%A4%D8%B4%D8%B1-%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%B5%D8%A9-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A-%D9%8A%D9%87%D9%88%D9%8A-%D8%A8%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-2-%D9%88%D9%8A%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D9%84%D9%8051-%D8%A3%D9%84%D9%81/7562666",
             "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8gj0vGC_Egpv_XINZltG-jfLhPHBx4y5zOe7btaoIY8Dy7zDWyV1gxGqCgXA",
-            "og_title": "سعر الدولار يواصل التراجع أمام الجنيه خلال منتصف تعاملات اليوم - اليوم السابع",
-            "og_desc": "واصل سعر الدولار الأمريكى تراجعه أمام الجنيه المصرى، خلال منتصف تعاملات اليوم الأربعاء 30 سبتمبر 2026.",
-            "og_image": "https://img.youm7.com/xlarge/20241222090611611.jpg",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR7LUBY2vJN9ms1HU8Ry7vuFlx1rvg0_wk_9t8PDS8dss3iumK8YDLHmmBu1JM",
+            "og_title": "مؤشر البورصة الرئيسي يهوي بأكثر من 2% ويتراجع لـ51 ألف نقطة - اليوم السابع",
+            "og_desc": "واصلت مؤشرات البورصة المصرية، تراجعها بمنتصف تعاملات جلسة اليوم الأربعاء، بضغوط مبيعات المتعاملين المصريين والعرب فيما مالت تعاملات الأجانب للشراء، وسط تداولات اقتربت من 4 مليارات جنيه خلال ساعتين.",
+            "og_image": "https://img.youm7.com/xlarge/202507301038273827.jpg",
             "ok": true
           },
           {
-            "title": "سعر الدولار اليوم الأربعاء 30 سبتمبر 2026 في البنوك",
-            "url": "https://gate.ahram.org.eg/News/5936342.aspx",
-            "source": "بوابة الأهرام",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlLbo_saEJ88lpuT8u6gNpUOG264o30Yqw6nWhdMS4Jv4-HDqz9HgBtAWcq6A",
-            "og_title": "",
+            "title": "مصر.. مخاوف الفائدة والمضاربات والبيع الإجباري تعمق خسائر البورصة",
+            "url": "https://arabic.cnn.com/middle-east/article/2026/09/29/egypt-interest-rate-concerns-speculation-forced-selling-stock-market-losses",
+            "source": "CNN Arabic",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS9iLWVxUbt35xPmolCCSgGa2B0wEN4PpKG5Ptj6C2cE0zdQDC4-0SLZI6p_9U",
+            "og_title": "مصر.. مخاوف الفائدة والمضاربات والبيع الإجباري تعمق خسائر البورصة | CNN Arabic | CNN",
             "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
+            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/345554.jpg?c=16x9&q=w_800,c_fill",
+            "ok": true
           },
           {
-            "title": "سعر الدولار في مصر يتراجع بعد قفزات قياسية",
-            "url": "https://www.alarabiya.net/aswaq/special-stories/2026/09/30/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D9%8A%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%A8%D8%B9%D8%AF-%D9%82%D9%81%D8%B2%D8%A7%D8%AA-%D9%82%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNFFtPxPYiE50FD5c3inEb7lz24S8hFV_ohw-ZXVl8h8sNycReiv6r9zNFZ_Y",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
+            "title": "كمال: أحجام التداول تراجعت في البورصة المصرية مؤخرا",
+            "url": "https://www.skynewsarabia.com/video/1895119-%D9%83%D9%85%D8%A7%D9%84-%D8%A3%D8%AD%D8%AC%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D8%AF%D8%A7%D9%88%D9%84-%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9%D8%AA-%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%B5%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D8%A4%D8%AE%D8%B1%D8%A7",
+            "source": "سكاي نيوز عربية",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnGY1MD7ZXHGNB0P45Kuh2IAPmjkUaap3Yrxy3Fv06s3HvYa_mL2WtAzqGcs",
+            "og_title": "كمال: التوترات الجيوسياسية واضطرابات البحر الأحمر تلقي بظلالها على البورصة المصرية",
+            "og_desc": "قال عضو مجلس إداره الاتحاد المصري للأوراق المالية - محمد كمال إن التوترات الجيوسياسية واضطرابات البحر الأحمر تلقي بظلالها على البورصة المصرية، موضحا أن أحجام التداول تراجعت في البورصة المصرية مؤخرا",
+            "og_image": "https://www.skynewsarabia.com/images/v1/2022/11/09/1569998/1200/630/1-1569998.jpg?videoOverlay=true",
+            "ok": true
           }
         ],
         "category": "اقتصاد",
         "icon": "💰",
         "color": "#f5c542",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
+        "reason": "العنوان يطابق: جنيه",
+        "publishable": true,
+        "article": {
+          "headline": "البورصة المصرية تهوي بأكثر من 2% والمؤشر الرئيسي ينهار إلى 51 ألف نقطة",
+          "summary": "تراجعت مؤشرات البورصة المصرية بنسبة تجاوزت 2% اليوم الأربعاء بضغط مبيعات المصريين والعرب، وسط تحذيرات من مخاوف الفائدة والمضاربات.",
+          "body": "انهار مؤشر «إيجي إكس 30» الرئيسي بنسبة 2.02% ليهبط إلى 51242 نقطة، في جلسة شهدت تداولات بقيمة 4 مليارات جنيه خلال ساعتين فقط. وتوالت الخسائر عبر كل مؤشرات البورصة، إذ انخفض مؤشر «إيجي إكس 30 محدد الأوزان» بنسبة 2% ليصل إلى 63645 نقطة، فيما هبط مؤشر العائد الكلي بنسبة 2.01%، ومؤشر «EGX35-LV» بنسبة 2.15% إلى 6130 نقطة.\n\nالخسائر لم تتوقف عند المؤشرات الكبرى. فمؤشر الشركات المتوسطة والصغيرة تراجع بنسبة 1.82%، ومؤشر تميز انخفض بنسبة 1.55%. وجاءت الضغوط من بيعات المتعاملين المصريين والعرب، بينما فضل الأجانب جانب الشراء، وفقًا لما ذكرته اليوم السابع.\n\nالتراجع يعكس مناخًا استثماريًا متوترًا. عضو مجلس إدارة الاتحاد المصري للأوراق المالية محمد كمال أرجع تراجع أحجام التداول إلى التوترات الجيوسياسية واضطرابات البحر الأحمر. وعزت وسائل إعلام أخرى الخسائر إلى مخاوف من ارتفاع أسعار الفائدة والمضاربات والبيع الإجباري.\n\nوكان من بين التداعيات أن أوقفت إدارة البورصة التداول على 9 أسهم لمدة 10 دقائق بعد تجاوزها نسبة 5% صعودًا أو هبوطًا، منها مطاحن مصر العليا وكرستمارك وجولدن تكس وجلاكسو سميثكلاين.",
+          "facts": [
+            {
+              "label": "المؤشر الرئيسي",
+              "value": "51242 نقطة"
+            },
+            {
+              "label": "نسبة الهبوط",
+              "value": "2.02%"
+            },
+            {
+              "label": "حجم التداول في الساعتين الأوليين",
+              "value": "4 مليارات جنيه"
+            },
+            {
+              "label": "عدد الأسهم الموقوفة عن التداول",
+              "value": "9 أسهم"
+            }
+          ],
+          "tags": [
+            "البورصة المصرية",
+            "الأسهم",
+            "التداول",
+            "الاستثمار",
+            "الأزمة المالية"
+          ],
+          "_v": 4,
+          "written_at": "2026-09-30T13:21:46.509803+00:00",
+          "photo": {
+            "url": "https://altrendat.com/art/35533db0a9302b.jpg",
+            "ai": true,
+            "width": 1024,
+            "height": 576
+          },
+          "photo_v": 6,
+          "_had_data": false,
+          "_localized": false
+        },
         "card": "cards/eg-2026-09-30-جنيه.png"
       },
       {
         "title": "حركة المرور",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "published": "Wed, 30 Sep 2026 03:50:00 -0700",
         "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTfo1Yl7AeqD1XE3fzY9Q565Pp07OzSmLZVlJLO20XBVqfVpaE_0YOqHYwv0TY",
         "image_source": "اليوم السابع",
@@ -1005,23 +1065,23 @@
             "ok": true
           },
           {
-            "title": "فحص سلامة الأغذية، والإيرادات والنفقات، وقبول الطلاب في المدارس.",
-            "url": "https://www.vietnam.vn/ar/kiem-tra-an-toan-thuc-pham-thu-chi-va-tuyen-sinh-tai-cac-truong-hoc",
-            "source": "Vietnam.vn",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRNG-GI0CDM27JXpcoH8pvn5rgFZy18LiVzf5ENqo6Ii6mvLnx_pbEJZZDNaYE",
-            "og_title": "فحص سلامة الأغذية، والإيرادات والنفقات، وقبول الطلاب في المدارس.",
-            "og_desc": "HNN.VN - في الفترة من 29 إلى 30 سبتمبر، أجرت إدارة التعليم والتدريب (GD&ĐT) عمليات تفتيش على سلامة الأغذية وإدارة الإيرادات والنفقات وتسجيل الطلاب وإدارة المؤسسات التعليمية بعد إعادة الهيكلة في المرافق التعليمية في منطقتي ثوان هوا وفو شوان.",
-            "og_image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/09/30/1790761677318_1-copy.jpeg",
+            "title": "10 ملايين دولار وتدابير جديدة.. كانساس تشدد الرقابة على «روبلوكس»",
+            "url": "https://cnnbusinessarabic.com/from-cnn-business/1149248/10-%D9%85%D9%84%D8%A7%D9%8A%D9%8A%D9%86-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%88%D8%AA%D8%AF%D8%A7%D8%A8%D9%8A%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%83%D8%A7%D9%86%D8%B3%D8%A7%D8%B3-%D8%AA%D8%B4%D8%AF%D8%AF-%D8%A7%D9%84%D8%B1%D9%82%D8%A7%D8%A8%D8%A9-%D8%B9%D9%84%D9%89-%D8%B1%D9%88%D8%A8%D9%84%D9%88%D9%83%D8%B3",
+            "source": "CNN الاقتصادية",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTPrVc179T3oPtqPVDM-mvu6AMp2KWFYngff_CTdAMLE6x7T1z2fbo6DVHpvE",
+            "og_title": "10 ملايين دولار وتدابير جديدة.. كانساس تشدد الرقابة على «روبلوكس» : CNN الاقتصادية",
+            "og_desc": "توصلت ولاية كانساس ومنصة الألعاب عبر الإنترنت «روبلوكس» إلى تسوية بشأن مخاوف تتعلق بسلامة الأطفال، حيث أعلن المدعي العام للولاية، كريس كوباخ، أمس الثلاثاء، أن الاتفاقية تضمن التزامات مالية تتجاوز 10 ملايين دولار، وتلزم «روبلوكس» بتطبيق تدابير حماية أكثر صرامة لضمان سلامة الأطفال.",
+            "og_image": "https://cnnbusinessarabic.com/businesscnn/uploads/images/2026/09/30/1707372.webp",
             "ok": true
           },
           {
-            "title": "فحص وتوحيد الإجراءات لضمان سلامة الغذاء لبرامج وجبات الغداء المدرسية.",
-            "url": "https://www.vietnam.vn/ar/kiem-tra-chuan-hoa-quy-trinh-bao-dam-an-toan-thuc-pham-bua-an-ban-tru",
-            "source": "Vietnam.vn",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSc5up1insacpt8HKrvCa0Zf_Ucw-EqB657brvbH5yi9aVsYFODFj6R7BZYcEI",
-            "og_title": "فحص وتوحيد الإجراءات لضمان سلامة الغذاء لبرامج وجبات الغداء المدرسية.",
-            "og_desc": "وفقًا للتوجيه رقم 33/CT-TTg لرئيس الوزراء والإرشاد رقم 02/HD-BCĐ للجنة التوجيهية لسلامة الأغذية في مدينة هانوي، قام فريق التفتيش المشترك بين الوكالات رقم 01 في المدينة، بقيادة نائب مدير إدارة الصحة في هانوي فو كاو كوونغ، في 30 سبتمبر، بإجراء تفتيش مفاجئ لبرامج وجبات الغداء المدرسية في حي كيم لين.",
-            "og_image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/09/30/1790760263653_thai-thinh-1.jpeg",
+            "title": "ولية تونسية تحذر من لعبة «روبلوكس»: «قاعدين تهزّوا في صغاركم إلى هاوية»",
+            "url": "https://www.babnet.net/rttdetail-336686.asp",
+            "source": "Babnet",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmw90QnJyDT2GL3GOLJAvlbG_12AF-RZYeph3baagtN_Bt5BjCvQnRkvyyyYs",
+            "og_title": "���� ������ ���� �� ���� �������ӻ: ������� ������ �� ������ ��� ����ɻ",
+            "og_desc": "����� ���� ������ ���� �� ����� ��� ����� ������� ���������� ��� ����� ���� ����� ��� ������ �� �����ߡ ����� ��� ���� ���� �� ������� �� ���� �������",
+            "og_image": "https://www.babnet.net/images/4b/6ab6159ef2add8.18112281_fipklonhmgqej.jpg",
             "ok": true
           }
         ],
@@ -1062,13 +1122,13 @@
             "ok": true
           },
           {
-            "title": "مصرع شخصين وإصابة 24 بينهم مدير الحماية المدنية في حريق ضخم بمصنع في دمنهور",
-            "url": "https://www.almasryalyoum.com/news/details/4371725",
-            "source": "المصري اليوم",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYj1YkVqlG5ebPpHj4jsyZzglY3T0Ya-MlxdE79RM7Pm_5NGu5nTkNH2IXHgQ",
-            "og_title": "مصرع شخصين وإصابة 24 بينهم مدير الحماية المدنية في حريق ضخم بمصنع في دمنهور | المصري اليوم",
-            "og_desc": "لقى شخصان مصرعهما، وأصيب 24 آخرين بحالات اختناق وإجهاد حرارى، من بينهم مدير إدارة الحماية المدنية، ورجال من الإطفاء، أثناء مشاركتهم فى عمليات إخماد حريق هائل نشب داخل مصنع على...",
-            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/09/30/2030602.webp",
+            "title": "مصرع شخصين وإصابة 24 آخرين إثر حريق داخل مصنع في دمنهور بالبحيرة",
+            "url": "https://www.cairo24.com/2503634",
+            "source": "القاهرة 24",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRvy4y_O4KHr556QCngexpN06_282c8UAJbig-4HnvYnAYg-mZAUPkTvhp70-o",
+            "og_title": "مصرع شخصين وإصابة 24 آخرين إثر حريق داخل مصنع في دمنهور بالبحيرة",
+            "og_desc": "لقي شخصان مصرعهما، وأصيب 24 آخرون، إثر اندلاع حريق داخل أحد المصانع بمدينة دمنهور بمحافظة البحيرة..........",
+            "og_image": "https://www.cairo24.com/UploadCache/libfiles/192/9/600x338o/554.jpg",
             "ok": true
           }
         ],
@@ -1087,59 +1147,13 @@
     "name_en": "Saudi Arabia",
     "lang": "ar",
     "flag": "🇸🇦",
-    "generated_at": "2026-09-30T13:07:24.701511+00:00",
+    "generated_at": "2026-09-30T13:21:26.088082+00:00",
     "day": "2026-09-30",
     "trends": [
       {
-        "title": "فلاي دبي",
-        "traffic": "20000+",
-        "traffic_num": 20000,
-        "published": "Wed, 30 Sep 2026 01:40:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSiN9IiGU6NwkaL4TjO0KXArp-re6zRBKDVCXk6mgUNr30mjwO9A1iF8rH32WU",
-        "image_source": "الشرق الأوسط",
-        "news": [
-          {
-            "title": "غموض بعد «حادثة» حوّلت مسار طائرة إماراتية متجهة إلى إسرائيل",
-            "url": "https://aawsat.com/%D8%B4%D8%A4%D9%88%D9%86-%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A%D8%A9/5324200-%D8%BA%D9%85%D9%88%D8%B6-%D8%A8%D8%B9%D8%AF-%D8%AD%D8%A7%D8%AF%D8%AB%D8%A9-%D8%AD%D9%88%D9%91%D9%84%D8%AA-%D9%85%D8%B3%D8%A7%D8%B1-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A%D8%A9-%D9%85%D8%AA%D8%AC%D9%87%D8%A9-%D8%A5%D9%84%D9%89-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84",
-            "source": "الشرق الأوسط",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSiN9IiGU6NwkaL4TjO0KXArp-re6zRBKDVCXk6mgUNr30mjwO9A1iF8rH32WU",
-            "og_title": "غموض بعد «حادثة» حوّلت مسار طائرة إماراتية متجهة إلى إسرائيل",
-            "og_desc": "تسبب اشتباك عنيف بين الطيّارين في تحويل مسار رحلة جوية بين الإمارات وإسرائيل الأربعاء.",
-            "og_image": "https://static.srpcdigital.com/styles/1200x600/public/2026-09/1802170.jpeg.webp?VersionId=iN2SKaeIGa0BLE7VJVWfj1H4pw2K_ztP",
-            "ok": true
-          },
-          {
-            "title": "بيان سعودي: قائد ومساعد طيار رحلة \"فلاي دبي\" أصيبا خلال الحادث وتلقيا العلاج في المملكة",
-            "url": "https://arabic.cnn.com/middle-east/article/2026/09/30/captain-and-co-pilot-taken-to-hospital-with-injuries-saudi-aviation-operator-says",
-            "source": "CNN Arabic",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcScOPs6fmHEOEH4FACtUnvl3mE4RvF_06yrxSa6li10REI7_IZyDsl42_LQaus",
-            "og_title": "بيان سعودي: قائد ومساعد طيار رحلة \"فلاي دبي\" أصيبا خلال الحادث | CNN Arabic | CNN",
-            "og_desc": "",
-            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/345635.jpg?c=16x9&q=w_800,c_fill",
-            "ok": true
-          },
-          {
-            "title": "هبوط اضطراري لطائرة فلاي دبي في مطار تبوك وإصابة طاقمها",
-            "url": "https://sabq.org/article/zxw4z9d",
-            "source": "صحيفة سبق الإلكترونية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT3dTkggnH_J3PCJsAERRznC3PHyNDx9iWaTWPyHR3hP3Sz3JaecUEkCMXlXx8",
-            "og_title": "هبوط اضطراري لطائرة فلاي دبي في مطار تبوك وإصابة طاقمها | سبق",
-            "og_desc": "مطار الأمير سلطان بن عبدالعزيز في تبوك يعلن هبوطاً اضطرارياً ناجحاً لرحلة فلاي دبي FZ1073 صباح 30 سبتمبر 2026، مع إصابة قائد الطائرة ومساعده ونقلهما للمستشفى، و",
-            "og_image": "https://media.sabq.org/news/2026/09/d24a1783-d97d-481f-b773-09c73483a8c3/w1266.webp",
-            "ok": true
-          }
-        ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: حادث",
-        "publishable": false,
-        "card": "cards/sa-2026-09-30-فلاي-دبي.png"
-      },
-      {
         "title": "amir jangoo",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "50000+",
+        "traffic_num": 50000,
         "published": "Wed, 30 Sep 2026 03:00:00 -0700",
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLLse8JdckBxcGkJUi-QM_CpoCn1EPYdB0hAYybidh1yfKLjJh543XEen0u80",
         "image_source": "BCCI",
@@ -1170,7 +1184,7 @@
             "source": "Rediff",
             "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRNkM9Rbyd9o8s5GYbFneb1Gw-R3EH6x7QAGZhwQDVvtZpNSMaS5u9f2_4REM",
             "og_title": "",
-            "og_desc": "India vs WI, 2nd ODI Updates: West Indies set India record 406 for victory",
+            "og_desc": "India vs WI, 2nd ODI Updates: Rohit Sharma off to a flyer",
             "og_image": "https://im.rediff.com/worldrediff/pix/livelisting1.jpg",
             "ok": true
           }
@@ -1184,12 +1198,33 @@
       },
       {
         "title": "australia vs south africa",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "+6000",
+        "traffic_num": 6000,
         "published": "Wed, 30 Sep 2026 04:40:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQaXBonafpUMuw18TGFvpuTcifOcTbVazDdEeCVJnq4eUUkVCGLas9mcBaw0Qk",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT0VpmitzoJFImm4TNvw1I2imHbCdFjG-DtwWeH-hPZoHDIV8HZI99BDL4zlJc",
         "image_source": "Cricinfo",
         "news": [
+          {
+            "title": "Ball by Ball Commentary & Live Score - SA vs AUS, 3rd ODI",
+            "url": "https://www.cricinfo.com/series/australia-in-south-africa-2026-27-1525634/south-africa-vs-australia-3rd-odi-1525657/ball-by-ball-commentary",
+            "source": "Cricinfo",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT0VpmitzoJFImm4TNvw1I2imHbCdFjG-DtwWeH-hPZoHDIV8HZI99BDL4zlJc",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "(5) South Africa v Australia: third men’s one-day international – live",
+            "url": "https://www.theguardian.com/sport/live/2026/sep/30/south-africa-v-australia-third-mens-odi-live",
+            "source": "The Guardian",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRZq8ACqIPC9aVOUCRXBDZI9WL6q3keRlel6wO4xQOserERkfCCSFTOOhA7QG4",
+            "og_title": "South Africa v Australia: third men’s one-day international – live",
+            "og_desc": "Over-by-over report: The series is lost but Australia can still claw back some pride in the final ODI at NWC Oval. Join our writers for updates",
+            "og_image": "https://i.guim.co.uk/img/media/d438ce9780a5413bc818e6ee8273864e769871c8/1414_583_2606_2085/master/2606.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=cf90ec96e8ac0d2079f41a2553674fd5",
+            "ok": true
+          },
           {
             "title": "Eyes on weather as Australia look to avoid clean sweep against South Africa",
             "url": "https://www.cricinfo.com/series/australia-in-south-africa-2026-27-1525634/south-africa-vs-australia-3rd-odi-1525657/match-preview",
@@ -1411,13 +1446,23 @@
         "card": "cards/sa-2026-09-30-مسجد.png"
       },
       {
-        "title": "keacy carty",
+        "title": "naman dhir",
         "traffic": "500+",
         "traffic_num": 500,
-        "published": "Wed, 30 Sep 2026 02:00:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQpsOGJC5yxD30ZJnmob7DrdfiE7G08pZS3i42Fc6iAqoNa4gM2-39Q77m8_8M",
-        "image_source": "Cricbuzz",
+        "published": "Wed, 30 Sep 2026 02:40:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTzpVtplU1lLClEtN2n2UUItS89fWfjPMTW7JCTi-s9YHrgz0dyriKREAvstz0",
+        "image_source": "Khel Now",
         "news": [
+          {
+            "title": "Blow for India! Naman Dhir INJURED in 2nd IND vs WI ODI; Know here",
+            "url": "https://khelnow.com/cricket/naman-dhir-injured-2nd-ind-vs-wi-odi-202609",
+            "source": "Khel Now",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTzpVtplU1lLClEtN2n2UUItS89fWfjPMTW7JCTi-s9YHrgz0dyriKREAvstz0",
+            "og_title": "Blow for India! Naman Dhir INJURED in 2nd IND vs WI ODI; Know here",
+            "og_desc": "Naman Dhir got injured while bowling in the second IND vs WI ODI. Here the update on his inury which happened in Guwahati.",
+            "og_image": "https://assets.khelnow.com/news/uploads/2026/09/Naman-Dhir-2.jpeg",
+            "ok": true
+          },
           {
             "title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
             "url": "https://www.cricbuzz.com/player-match-performance/match/151543/player/11217/batting",
@@ -1444,7 +1489,7 @@
         "color": "#3ddc97",
         "reason": "كريكيت — بحث الجالية بالإنجليزي، لا يُكتب بالعربي",
         "publishable": false,
-        "card": "cards/sa-2026-09-30-keacy-carty.png"
+        "card": "cards/sa-2026-09-30-naman-dhir.png"
       },
       {
         "title": "cricinfo",
@@ -1546,44 +1591,13 @@
         "traffic": "100+",
         "traffic_num": 100,
         "published": "Wed, 30 Sep 2026 03:30:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsditevKaG63eYlLZuk3iOiNiLDQUKGY3bKC4XYolRGQPZl72-hzOKE1nqTGg",
-        "image_source": "Asianet News Malayalam",
-        "news": [
-          {
-            "title": "6 മാസം ഉപയോ​ഗിക്കാത്ത റേഷൻ കാർഡുകൾക്കെതിരെ നടപടിക്ക് നീക്കം; യഥാർത്ഥ ഉടമയെങ്കിൽ തെളിയിക്കാൻ 3 മാസം സമയം",
-            "url": "https://www.asianetnews.com/india-news/move-to-take-action-against-ration-cards-unused-for-six-months-articleshow-0yu0yd0",
-            "source": "Asianet News Malayalam",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsditevKaG63eYlLZuk3iOiNiLDQUKGY3bKC4XYolRGQPZl72-hzOKE1nqTGg",
-            "og_title": "6 മാസം ഉപയോ​ഗിക്കാത്ത റേഷൻ കാർഡുകൾക്കെതിരെ നടപടിക്ക് നീക്കം; യഥാർത്ഥ ഉടമയെങ്കിൽ തെളിയിക്കാൻ 3 മാസം സമയം",
-            "og_desc": "വ്യാജ കാർഡുകളും ഡ്യൂപ്ലിക്കേറ്റ് കാർഡുകളും സംശയാസ്പദമായ കാർഡുകളും ഒഴിവാക്കാനാണ് നീക്കം എന്നാണ് റിപ്പോർട്ട് ചൂണ്ടിക്കാട്ടുന്നത്.",
-            "og_image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m3p8ss2gd59wxb4pdk8qc17e,imgname-mixcollage-29-sep-2026-03-11-pm-814-1790675051600.jpg",
-            "ok": true
-          },
-          {
-            "title": "നാളെ മുതല്‍ ഈ കാര്‍ഡുകള്‍ക്ക് റേഷന്‍ കിട്ടില്ല; ഒരുകോടി 58 ലക്ഷം കാര്‍ഡുകള്‍ മരവിപ്പിക്കാന്‍ കേന്ദ്രം",
-            "url": "https://www.manoramanews.com/india/latest/2026/09/30/center-freezes-158-crore-inactive-ration-cards-e-kyc-details.html",
-            "source": "Manorama News",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBeWl02U5BU8rP4X_ZoWovFVmgcAR6nAJ99XC8EDn4tK1Deks6rjfcERMYYCA",
-            "og_title": "നാളെ മുതല്‍ ഈ കാര്‍ഡുകള്‍ക്ക് റേഷന്‍ കിട്ടില്ല; ഒരുകോടി 58 ലക്ഷം കാര്‍ഡുകള്‍ മരവിപ്പിക്കാന്‍ കേന്ദ്രം",
-            "og_desc": "ആറുമാസമായി ഉപയോഗിക്കാത്ത റേഷന്‍കാര്‍ഡുകള്‍ മരവിപ്പിക്കാന്‍ കേന്ദ്രസര്‍ക്കാര്‍. ഇത്തരം കാര്‍ഡുകള്‍ ഉപയോഗിച്ച് നാളെ മുതല്‍ റേഷന്‍ വാങ്ങാന്‍",
-            "og_image": "https://img.manoramanews.com/content/dam/mm/mnews/archive/india/latest/images/2026/9/30/ration-card.jpg",
-            "ok": true
-          },
-          {
-            "title": "മുൻഗണനാ റേഷൻകാർഡ്: അനർഹരെ കണ്ടെത്താൻ പരിശോധന തുടങ്ങി - LOCAL - PALAKKAD",
-            "url": "https://keralakaumudi.com/local/palakkad/local-news-palakkad-1807240",
-            "source": "Kerala Kaumudi",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcAzjmi4DEx6dkIg7e4MevVG2wuTYYk6sZMNae03GUlbWI4Kwd6-iwtehnYIs",
-            "og_title": "മുൻഗണനാ റേഷൻകാർഡ്: \r\nഅനർഹരെ കണ്ടെത്താൻ\r\nപരിശോധന തുടങ്ങി",
-            "og_desc": "മുൻഗണനാ വിഭാഗത്തിലുള്ള റേഷൻ കാർഡുകളിൽ അനർഹർ ഉൾപ്പെട്ടിട്ടുണ്ടോയെന്ന് കണ്ടെത്തുന്നതിനുള്ള പരിശോധനയും കാർഡ് തരംമാറ്റൽ നടപടികളും പാലക്കാട് ജില്ലയിൽ ആരംഭിച്ചു.",
-            "og_image": "https://keralakaumudi.com/web-news/2026/09/NPKD0107831/image/ration-cards.1790264697.webp",
-            "ok": true
-          }
-        ],
+        "image": "",
+        "image_source": "",
+        "news": [],
         "category": "شخصية",
         "icon": "👤",
         "color": "#ffd166",
-        "reason": "شخصية لا يرد اسمها في مصدرين",
+        "reason": "شخصية بأقل من مصدرين",
         "publishable": false,
         "card": "cards/sa-2026-09-30-നയസ.png"
       }

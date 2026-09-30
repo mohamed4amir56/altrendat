@@ -34,6 +34,7 @@ import jobs  # noqa: E402
 import sources  # noqa: E402
 import config  # noqa: E402
 import photos  # noqa: E402
+import evergreen  # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -1162,6 +1163,9 @@ def page(path, title, desc, body, canonical, nav="", image=None,
                   '<a href="{r}privacy/">سياسة الخصوصية</a>'
                   '<a href="{r}terms/">شروط الاستخدام</a>'
                   '<a href="{r}gold-app/">تطبيق Goldex</a>'
+                  '<a href="{r}gold-price/egypt/">سعر الذهب في مصر</a>'
+                  '<a href="{r}gold-price/saudi/">سعر الذهب في السعودية</a>'
+                  '<a href="{r}saudi-payment-dates/">مواعيد الصرف في السعودية</a>'
                   '<a href="{r}contact/">اتصل بنا</a>').format(r=root, ed=config.EDITOR_PATH)
         fdesc = "{site} — ما يبحث عنه الناس في مصر والسعودية، مشروحًا بمصادره.".format(site=E(site_brand))
         ffine = "الأخبار منسوبة إلى مصادرها وروابطها، والأرقام إلى جهاتها."
@@ -1530,6 +1534,7 @@ def build_trend(country, cfg, t, urls, hubs=None, news=None):
                   card=get_card_thumb_url(t, root="../../../../") if t.get("card") else None)}
     {facts_box(art, is_en)}
     {data_table(t.get("data"))}
+    {"" if is_en else evergreen.related_box(t["title"], country, "../../../../")}
     <article class="story">{body_html}</article>
     <div class="tags">{tags}</div>
     {sources_list(t["news"], is_en=is_en)}
@@ -1664,6 +1669,10 @@ def country_nav(current, depth, is_en=False):
             out.append(f"<a href='{root}{key}/'>{cfg['flag']} {E(name)}{mark}</a>")
         mark_jobs = " ●" if current == "jobs" else ""
         out.append(f"<a href='{root}jobs/' class='nav-jobs'>💼 وظائف وهجرة{mark_jobs}</a>")
+        mark_gold = " ●" if current == "gold" else ""
+        out.append(f"<a href='{root}gold-price/egypt/'>🪙 سعر الذهب{mark_gold}</a>")
+        mark_pay = " ●" if current == "pay" else ""
+        out.append(f"<a href='{root}saudi-payment-dates/'>📅 مواعيد الصرف{mark_pay}</a>")
         if "world" in COUNTRIES:
             out.append(f"<a href='{root}world/' class='nav-lang-btn' lang='en' hreflang='en' "
                        f"title='English edition: world news'>🌐 English</a>")
@@ -2594,6 +2603,9 @@ def main():
     build_gold_app_page(urls)
     jobs_urls = jobs.build_jobs_site(BASE, OUT, lambda d: country_nav("jobs", d), page)
     urls.extend(jobs_urls)
+    # صفحات دائمة (سعر الذهب ومواعيد الصرف): أسعار حيّة تُجلب هنا في كل بناء
+    urls.extend(evergreen.build_evergreen_site(
+        BASE, lambda d: country_nav("gold" if d == 2 else "pay", d), page))
     all_days = [(k, c) for k, entries in by_country.items() for _, c in entries]
     n_feed = build_feed(all_days) + build_feed(all_days, english=True)
     n_gold = build_gold_news_api(days)

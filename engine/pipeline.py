@@ -611,8 +611,9 @@ def spanish_sources(news):
 # علامات الكريكيت في عنوان الترند وعناوين مصادره وأسمائها. «ICC» وحدها ليست
 # علامة (المحكمة الجنائية الدولية أيضًا)، و«innings» تأتي في البيسبول
 _CRICKET = re.compile(
-    r"(?<![\w])(cricket|cricinfo|espncricinfo|cricbuzz|bcci|wicket|wickets|odi|odis|t20|t20i|"
-    r"ipl|psl|test series|ashes)(?![\w])|كريكيت", re.I)
+    r"(?<![\w])(cricket|cricinfo|espncricinfo|cricbuzz|bcci|wisden|wicket|wickets|odi|odis|"
+    r"t20|t20i|ipl|psl|test series|test match|ashes|one-day international|one-day internationals|"
+    r"proteas|batting|batter|bowler|bowling|run chase|super over)(?![\w])|كريكيت", re.I)
 
 
 def is_cricket(trend):

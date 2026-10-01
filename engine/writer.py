@@ -60,6 +60,47 @@ def article_key(trend, country_key, day):
     return country_key + "|" + day + "|" + trend["title"]
 
 
+# قياس الاستهلاك الفعلي: كل نداء لـ Claude يُحسب هنا ثم يُجمع في data/usage.json
+# حسب اليوم، فنعرف التكلفة بالرقم لا بالتقدير. الأسعار لكل مليون توكن (Haiku 4.5).
+USAGE_FILE = os.path.join(ROOT, "data", "usage.json")
+PRICE_IN, PRICE_OUT = 1.0, 5.0
+RUN_USAGE = {"calls": 0, "input": 0, "output": 0, "cut": 0, "refused": 0}
+
+# مقال فشل (قُطع رده أو رُفض) يُعاد في كل تشغيلة ويُدفع ثمنه كل مرة؛
+# بعد هذا العدد من الإخفاقات في اليوم نتركه.
+FAILURES_FILE = os.path.join(ROOT, "data", "write_failures.json")
+MAX_FAILURES = 2
+
+
+def _load_json(path):
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def _save_json(path, obj):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=1)
+
+
+def save_usage():
+    if not RUN_USAGE["calls"]:
+        return
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    log = _load_json(USAGE_FILE)
+    d = log.setdefault(today, {"calls": 0, "input": 0, "output": 0, "cut": 0,
+                               "refused": 0, "written": 0, "usd": 0.0})
+    for k in ("calls", "input", "output", "cut", "refused"):
+        d[k] += RUN_USAGE[k]
+    d["written"] += RUN_USAGE.get("written", 0)
+    d["usd"] = round(d["input"] * PRICE_IN / 1e6 + d["output"] * PRICE_OUT / 1e6, 3)
+    for old in sorted(log)[:-14]:                      # أسبوعان فقط
+        del log[old]
+    _save_json(USAGE_FILE, log)
+
+
 # تعليمات ثابتة عبر كل الطلبات — تُخزَّن مؤقتًا (prompt caching).
 SYSTEM = """أنت محرر أخبار في موقع «الترندات». القارئ وصل لأنه بحث عن موضوع بعينه، ويريد الخبر نفسه بسرعة ودقة، مكتوبًا بطريقة تشدّه حتى آخر سطر.
 
@@ -288,9 +329,16 @@ def _call(client, sys_prompt, schema, messages):
         output_config={"format": {"type": "json_schema", "schema": schema}},
         messages=messages,
     )
+    u = response.usage
+    RUN_USAGE["calls"] += 1
+    RUN_USAGE["input"] += (u.input_tokens or 0) + (getattr(u, "cache_creation_input_tokens", 0) or 0) \
+        + (getattr(u, "cache_read_input_tokens", 0) or 0)
+    RUN_USAGE["output"] += u.output_tokens or 0
     if response.stop_reason == "refusal":
+        RUN_USAGE["refused"] += 1
         return None, None
     if response.stop_reason == "max_tokens":
+        RUN_USAGE["cut"] += 1
         return None, None
     for block in response.content:
         if block.type == "text":
@@ -380,6 +428,8 @@ def main():
 
     client = anthropic.Anthropic()
     store = load_articles()
+    failures = _load_json(FAILURES_FILE)
+    failures = {k: v for k, v in failures.items() if v.get("day") == datetime.now(timezone.utc).strftime("%Y-%m-%d")}
     written = skipped = failed = cached = declined = rejected = 0
     attempts = 0
     streak = 0          # فشل متتالٍ = خطأ في الإعداد لا في ترند بعينه
@@ -442,6 +492,10 @@ def main():
                 skipped += 1          # الحد اليومي للإنجليزي اكتمل؛ يُرصد ولا يُكتب
                 continue
 
+            if failures.get(k, {}).get("n", 0) >= MAX_FAILURES and not force:
+                skipped += 1          # فشل مرتين اليوم؛ لا ندفع ثمنه ثالثة
+                continue
+
             attempts += 1
             try:
                 article = write_one(client, t, cname, is_en=is_en, country_key=key)
@@ -461,6 +515,8 @@ def main():
                     t["article"] = article
                     store[k] = article
                     written += 1
+                    RUN_USAGE["written"] = RUN_USAGE.get("written", 0) + 1
+                    failures.pop(k, None)
                     streak = 0
                     if world_left is not None and not stale:
                         world_left -= 1
@@ -468,6 +524,9 @@ def main():
                 else:
                     failed += 1
                     streak += 1
+                    f = failures.setdefault(k, {"n": 0})
+                    f["n"] += 1
+                    f["day"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
                 save_articles(store)   # حفظ فوري: انقطاع لا يضيّع ما دُفع ثمنه
             except Exception as e:
                 failed += 1
@@ -475,10 +534,14 @@ def main():
                 print("  ✗ " + t["title"] + ": " + type(e).__name__ + ": " + str(e))
 
     save_articles(store)
+    _save_json(FAILURES_FILE, failures)
+    save_usage()
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
     print("\n" + "=" * 46)
+    print("  استهلاك التشغيلة: {calls} نداء، {input} دخل، {output} خرج، "
+          "قُطع {cut}، رُفض {refused}".format(**RUN_USAGE))
     print("  كُتب الآن: " + str(written) + "   مكتوب سابقًا: " + str(cached))
     print("  تُخطّي (أمان): " + str(skipped) + "   امتنع الكاتب: " + str(declined) +
           "   رُفض: " + str(rejected) + "   فشل: " + str(failed))

@@ -56,6 +56,7 @@ NOT_FREE = re.compile(r"(\bnc\b|\bnd\b|non-?commercial|no-?deriv|fair use)", re.
 TAGS = re.compile(r"<[^>]+>")
 WIDTH = 1280                       # عرض العرض، ومقاس قياسي لمصغّرات ويكيميديا
 MIN_NAMED = 960                    # أقل عرض لأصل صورة صاحب الخبر
+MIN_SMALL = 600                    # الحد الثاني حين لا صورة أكبر للشخص أو الفريق
 MAX_TAGS = 4                       # الوسوم الأولى هي أصحاب الخبر
 RASTER = re.compile(r"\.(jpe?g|png|webp)$", re.I)
 PHOTO_FILE = re.compile(r"\.jpe?g$", re.I)        # الصور الفوتوغرافية في التصنيفات
@@ -381,15 +382,19 @@ def _category_photo(category):
     best = []
     for pg in data.get("query", {}).get("pages", []):
         name = pg.get("title", "").split(":", 1)[-1]
-        if not PHOTO_FILE.search(name) or NOT_PHOTO.search(name):
+        if NOT_PHOTO.search(name):
             continue
         info = (pg.get("imageinfo") or [{}])[0]
+        # png: صور لاعبي الـNFL وغيرهم تُرفع png؛ نقبلها كبيرة (1600+) وبعد jpg
+        is_jpg = bool(PHOTO_FILE.search(name))
+        if not is_jpg and not (RASTER.search(name) and (info.get("width") or 0) >= 1600):
+            continue
         photo = _photo_from_info(info, name, WIDTH)
         if photo:
             landscape = (info.get("width") or 0) >= (info.get("height") or 1)
-            best.append((landscape, info.get("timestamp", ""), photo))
-    best.sort(key=lambda b: (b[0], b[1]), reverse=True)
-    return best[0][2] if best else None
+            best.append((is_jpg, landscape, info.get("timestamp", ""), photo))
+    best.sort(key=lambda b: b[:3], reverse=True)
+    return best[0][3] if best else None
 
 
 # ── صاحب الخبر ───────────────────────────────────────────────────────
@@ -427,6 +432,13 @@ def _entity_photo(lang, page, kind):
     if not photo and kind in ("human", "team"):
         for cat in _claims(page["qid"], "P373")[:1]:
             photo = _category_photo(cat)
+    if not photo and kind in ("human", "team"):
+        # لا شيء بعرض 960: صورة أصغر (600+) للشخص نفسه أحسن من صورة لا تخصه
+        photo = _file_info(lang, page["image"], MIN_SMALL)
+        for alt in ([] if photo else _claims(page["qid"], "P18")[:2]):
+            photo = _file_info("commons", alt, MIN_SMALL)
+            if photo:
+                break
     if photo:
         photo.update({"wiki_title": page["title"], "wiki_lang": lang})
     return photo
@@ -459,6 +471,81 @@ def _variants(title):
     return out
 
 
+# ── مصادر إضافية لصور الأشخاص (كلها من أسرة ويكيميديا، فتبقى رخصتها حرة) ──────
+# ما لا تجده الصفحة العربية/الإنجليزية: شخص بلا صفحة بالاسم نفسه، أو صفحته بلا
+# صورة وله غيرها في كومنز. الترتيب: بحث ويكي بيانات بالاسم ثم تصنيف كومنز بالاسم
+# الإنجليزي ثم بحث ملفات كومنز. كلها تشترط الاسم الكامل (كلمتين فأكثر).
+def _wd_humans(name, lang):
+    """كيانات ويكي بيانات من نوع إنسان تطابق الاسم تمامًا (التسمية أو اسم مستعار)."""
+    data = _get_json("wikidata", {"action": "wbsearchentities", "search": name,
+                                  "language": lang, "uselang": lang, "type": "item",
+                                  "limit": "6", "format": "json"})
+    want, out = _norm(name), []
+    for r in data.get("search", []):
+        if _norm(r.get("label", "")) != want and _norm((r.get("match") or {}).get("text", "")) != want:
+            continue
+        if entity_kind(r["id"]) == "human":
+            out.append(r["id"])
+    return out
+
+
+def _en_label(qid):
+    data = _get_json("wikidata", {"action": "wbgetentities", "ids": qid, "props": "labels",
+                                  "languages": "en", "format": "json"})
+    return ((data.get("entities", {}).get(qid, {}).get("labels") or {}).get("en") or {}).get("value", "")
+
+
+def _commons_search(name):
+    """أحدث صورة حرة عالية الدقة في كومنز يذكر اسم ملفها الاسم كاملًا."""
+    data = _get_json("commons", {
+        "action": "query", "format": "json", "formatversion": "2",
+        "generator": "search", "gsrsearch": '"' + name + '" filetype:bitmap',
+        "gsrnamespace": "6", "gsrlimit": "30",
+        "prop": "imageinfo", "iiprop": "extmetadata|url|size|timestamp",
+        "iiurlwidth": str(WIDTH), "iiextmetadatafilter": EXTMETA,
+    })
+    want, best = _norm(name), []
+    for pg in data.get("query", {}).get("pages", []):
+        fname = pg.get("title", "").split(":", 1)[-1]
+        if want.strip() not in _norm(re.sub(r"\.\w+$", "", fname)):
+            continue
+        if not PHOTO_FILE.search(fname) or NOT_PHOTO.search(fname):
+            continue
+        info = (pg.get("imageinfo") or [{}])[0]
+        photo = _photo_from_info(info, fname, MIN_NAMED)
+        if photo:
+            landscape = (info.get("width") or 0) >= (info.get("height") or 1)
+            best.append((landscape, info.get("timestamp", ""), photo))
+    best.sort(key=lambda b: (b[0], b[1]), reverse=True)
+    return best[0][2] if best else None
+
+
+def _more_person_photo(name):
+    """صورة شخص باسمه من المصادر الإضافية، أو None. لا يُعتمد إلا شخص واحد في
+    ويكي بيانات يطابق الاسم تمامًا: الاسمان المتشابهان («Patrick Garcia» جندي
+    أمريكي ومغنٍّ فلبيني) يعنيان أننا لا نعرف أيهما، فلا صورة أفضل من صورة غلط."""
+    for lang in ("ar", "en"):
+        humans = _wd_humans(name, lang)
+        if len(humans) != 1:
+            continue
+        qid = humans[0]
+        found = lambda ph: (ph.update({"wiki_title": name, "wiki_lang": lang}) or ph)
+        for alt in _claims(qid, "P18")[:2]:
+            photo = _file_info("commons", alt, MIN_NAMED)
+            if photo:
+                return found(photo)
+        for cat in _claims(qid, "P373")[:1]:
+            photo = _category_photo(cat)
+            if photo:
+                return found(photo)
+        label = _en_label(qid)                 # كيان موثّق بلا صورة مربوطة: ابحث باسمه في كومنز
+        if label and len(label.split()) >= 2:
+            photo = _commons_search(label)
+            if photo:
+                return found(photo)
+    return None
+
+
 def find_photo(title, category, langs=("ar", "en"), tags=(), text=""):
     """صورة صاحب الخبر أو None. text: العنوان الصحفي؛ الشخص أو المكان المأخوذ
     من الوسوم يجب أن يرد فيه أو في عنوان الترند، فيكون موضوع الخبر لا ذكرًا
@@ -486,6 +573,20 @@ def find_photo(title, category, langs=("ar", "en"), tags=(), text=""):
                     return photo
             except Exception:
                 continue
+    # لا الصفحة ولا ويكي بيانات أعطت صورة: المصادر الإضافية، للأشخاص فقط
+    for name, from_tag in names:
+        if len(name.split()) < 2 and category not in MONONYM_OK:
+            continue
+        if from_tag and not mentioned(name, text, "human"):
+            continue
+        if sporty and not from_tag and len(name.split()) < 2:
+            continue
+        try:
+            photo = _more_person_photo(name)
+        except Exception:
+            photo = None
+        if photo:
+            return photo
     return None
 
 
@@ -573,7 +674,7 @@ def refresh_stock():
 
 # رقم قواعد الاختيار الحالية. مقال صورته بقواعد أقدم (أو بلا رقم) يُعاد
 # اختيار صورته تلقائيًا في التشغيلة الدورية. ارفعه عند تغيير القواعد.
-PHOTO_VERSION = 6                 # 6: لكل مقال صورة (رياضة/مدرسة/مدينة/صحف)
+PHOTO_VERSION = 7                 # 7: مصادر إضافية للأشخاص (ويكي بيانات بالاسم، png كبيرة، 600px كحد ثانٍ)
 
 
 def mark(art, photo):

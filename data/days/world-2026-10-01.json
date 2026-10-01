@@ -4,7 +4,7 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-10-01T06:15:39.115373+00:00",
+  "generated_at": "2026-10-01T06:30:41.570904+00:00",
   "day": "2026-10-01",
   "trends": [
     {
@@ -518,8 +518,8 @@
     },
     {
       "title": "nlds",
-      "traffic": "+4000",
-      "traffic_num": 4000,
+      "traffic": "+5000",
+      "traffic_num": 5000,
       "published": "Wed, 30 Sep 2026 22:00:00 -0700",
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTCMw7wo3hm_G4_K6ShVT88xqHz7EDkn9EQEXl5jxHyrFDZfHbDEAopWYQIitI",
       "image_source": "WISN",
@@ -836,18 +836,19 @@
       "traffic": "2000+",
       "traffic_num": 2000,
       "published": "Wed, 30 Sep 2026 22:30:00 -0700",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ_H7S9d45HAizFbPovTn85n-fr0NWUIXmtwbInL8-01bzgJhoCZvsBvRnv1D8",
-      "image_source": "Page Six",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSYWnt9bZrVIN7TrnTfiZg9l2yrEk_YoufWva7LPgdJJUAlfV7Eh07RSbmgJaU",
+      "image_source": "Financial Times",
       "news": [
         {
-          "title": "Netflix's 'East Of Eden' New York premiere red carpet: Florence Pugh, Christopher Abbott, more",
-          "url": "https://pagesix.com/2026/09/30/entertainment/netflixs-east-of-eden-new-york-premiere-red-carpet-florence-pugh-christopher-abbott-more/",
-          "source": "Page Six",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ_H7S9d45HAizFbPovTn85n-fr0NWUIXmtwbInL8-01bzgJhoCZvsBvRnv1D8",
-          "og_title": "Netflix’s ‘East Of Eden’ New York premiere red carpet: Florence Pugh, Christopher Abbott, more",
-          "og_desc": "See all the looks from the New York premiere.",
-          "og_image": "https://pagesix.com/wp-content/uploads/sites/3/2026/09/eden.jpg?quality=90&strip=all&w=1200",
-          "ok": true
+          "title": "East of Eden TV review — Florence Pugh is unleashed in a pungent retelling of Steinbeck",
+          "url": "https://www.ft.com/content/58ef9b2e-80bc-47fd-83f1-7cc8ea160a1d",
+          "source": "Financial Times",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSYWnt9bZrVIN7TrnTfiZg9l2yrEk_YoufWva7LPgdJJUAlfV7Eh07RSbmgJaU",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         },
         {
           "title": "Zoe Kazan Reimagines \"East of Eden\"",
@@ -870,9 +871,9 @@
           "ok": true
         }
       ],
-      "category": "دول وأماكن",
-      "icon": "🗺️",
-      "color": "#79c0ff",
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
       "reason": "حجم بحث أقل من 5000",
       "publishable": false,
       "card": "cards/world-2026-10-01-florence-pugh.png",
@@ -883,19 +884,9 @@
       "traffic": "2000+",
       "traffic_num": 2000,
       "published": "Wed, 30 Sep 2026 22:00:00 -0700",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFiGCMmqzaXlmbA_dwnmY8D3jNIfQkxKiyk_nCv2UcdLslTSsnHsHHCeVSCYs",
-      "image_source": "CBS Sports",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQLy-FW1-282NnYpfhfwy1RhPRgUyN1voRD2jav3oZKAw17T4gwO0rlbMW0X_8",
+      "image_source": "Bleacher Report",
       "news": [
-        {
-          "title": "Yankees, Rays Set for ALDS Showdown Stream of Major League Baseball",
-          "url": "https://www.cbssports.com/watch/mlb/video/yankees-rays-set-for-alds-showdown",
-          "source": "CBS Sports",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFiGCMmqzaXlmbA_dwnmY8D3jNIfQkxKiyk_nCv2UcdLslTSsnHsHHCeVSCYs",
-          "og_title": "Yankees, Rays Set for ALDS Showdown Stream of Major League Baseball",
-          "og_desc": "Yankees, Rays Set for ALDS Showdown",
-          "og_image": "https://sportshub.cbsistatic.com/i/2026/10/01/88857a1b-3183-4db1-891c-34a69fb9b4fb/3.jpg",
-          "ok": true
-        },
         {
           "title": "Updated MLB Playoff Bracket 2026, Yankees vs. Rays ALDS Odds, Preview",
           "url": "https://bleacherreport.com/articles/25505354-updated-mlb-playoff-bracket-2026-yankees-vs-rays-alds-odds-preview",
@@ -904,6 +895,16 @@
           "og_title": "Updated MLB Playoff Bracket 2026, Yankees vs. Rays ALDS Odds, Preview",
           "og_desc": "The New York Yankees finalized the ALDS bracket with their sweep of the Boston Red Sox on Wednesday night.",
           "og_image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/2026-09/mlb-playoff-yankees_0.jpg?w=1120&h=630",
+          "ok": true
+        },
+        {
+          "title": "Yankees, Rays Set for ALDS Showdown Stream of Major League Baseball",
+          "url": "https://www.cbssports.com/watch/mlb/video/yankees-rays-set-for-alds-showdown",
+          "source": "CBS Sports",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFiGCMmqzaXlmbA_dwnmY8D3jNIfQkxKiyk_nCv2UcdLslTSsnHsHHCeVSCYs",
+          "og_title": "Yankees, Rays Set for ALDS Showdown Stream of Major League Baseball",
+          "og_desc": "Yankees, Rays Set for ALDS Showdown",
+          "og_image": "https://sportshub.cbsistatic.com/i/2026/10/01/88857a1b-3183-4db1-891c-34a69fb9b4fb/3.jpg",
           "ok": true
         },
         {
@@ -1820,6 +1821,53 @@
       "publishable": false,
       "card": "cards/world-2026-10-01-lamelo-ball.png",
       "published_at": "2026-10-01T06:15:39.115373+00:00"
+    },
+    {
+      "title": "quentin halys",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Wed, 30 Sep 2026 23:10:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSnYmvOcYq5t5tbRK6AmB0hOax2UVwPYhm0ktSZLCvHi2amU0HPMEZ5GVu7gM8",
+      "image_source": "Tennisnerd",
+      "news": [
+        {
+          "title": "China Open Previews and Predictions: Griekspoor vs. Rublev and Tien vs. Hurkacz",
+          "url": "https://www.tennisnerd.net/betting-blog/china-open-previews-and-predictions-griekspoor-vs-rublev-and-tien-vs-hurkacz/69719",
+          "source": "Tennisnerd",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSnYmvOcYq5t5tbRK6AmB0hOax2UVwPYhm0ktSZLCvHi2amU0HPMEZ5GVu7gM8",
+          "og_title": "China Open Previews and Predictions: Griekspoor vs. Rublev and Tien vs. Hurkacz",
+          "og_desc": "Griekspoor vs. Rublev and Tien vs. Hurkacz previews, from the 2026 China Open in Beijing, with our betting predictions.",
+          "og_image": "https://www.tennisnerd.net/wp-content/uploads/2026/03/learnertien.webp",
+          "ok": true
+        },
+        {
+          "title": "October 1, 2026: Katie Volynets vs Elise Mertens: Set 2 Winner Tennis Prediction Market",
+          "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/katie-volynets-vs-elise-mertens-set-2-winner-oct-01-2026/",
+          "source": "Robinhood",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT8t5wBjdXbU6bMZF6OpaAHY_yzWZaaRfqMZzg2dN61FN-wwfxzPByg1Oh2tQ",
+          "og_title": "740\" property=\"og:image:height\"/><meta content=\"image/png\" property=\"og:image:type\"/><meta content=\"1300\" property=\"og:image:width\"/><meta content=\"en_US\" property=\"og:locale\"/><meta content=\"Robinhood\" property=\"og:site_name\"/><meta content=\"website\" property=\"og:type\"/><meta content=\"674753905956192\" property=\"fb:app_id\"/><meta content=\"@RobinhoodApp\" property=\"twitter:site\"/><link href=\"/us/en/rh_favicon_32.png?v=2024\" rel=\"shortcut icon\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_32.png?v=2024\" rel=\"icon\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_60.png?v=2024\" rel=\"apple-touch-icon\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_76.png?v=2024\" rel=\"apple-touch-icon\" sizes=\"76x76\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_120.png?v=2024\" rel=\"apple-touch-icon\" sizes=\"120x120\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_152.png?v=2024\" rel=\"apple-touch-icon\" sizes=\"152x152\" type=\"image/png\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/CapsuleSansText-Bold__0ef7c688bd1385a7df6941a13f3b4e980cd2f90f01b9268c9bb3e95394eec486.woff2\" rel=\"preload\" type=\"font/woff2\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/CapsuleSansText-Book__6573ba5ca76b29d5ffe83d94b27a4a8a09c8d5c8d5f2ca0719aaeef6856042d8.woff2\" rel=\"preload\" type=\"font/woff2\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/CapsuleSansText-Medium__d6e0f9a85b076741a771ec8574c1278fb65fe34160e73bd8beffa2f927831302.woff2\" rel=\"preload\" type=\"font/woff2\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/MartinaPlantijn-Regular__e02ea76d18e952604fbe5636471d4c7e48f8db1c01fa15ee0e0170347f966405.woff2\" rel=\"preload\" type=\"font/woff2\"/><meta charSet=\"utf-8\"/><script async=\"\" data-ruleset-id=\"M6Jkl5BTgFMHMJ\" id=\"usercentrics-cmp\" src=\"https://cdn.robinhood.com/assets/generated_assets/webapp/vendor/user_centrics/3.90.0/bundle.js\"></script><meta content=\"width=device-width, initial-scale=1, viewport-fit=cover\" name=\"viewport\"/><title>October 1, 2026: Katie Volynets vs Elise Mertens: Set 2 Winner Prediction Market</title><meta content=\" \" name=\"twitter:title\"/><meta content=",
+          "og_desc": "740\" property=\"og:image:height\"/><meta content=\"image/png\" property=\"og:image:type\"/><meta content=\"1300\" property=\"og:image:width\"/><meta content=\"en_US\" property=\"og:locale\"/><meta content=\"Robinhood\" property=\"og:site_name\"/><meta content=\"website\" property=\"og:type\"/><meta content=\"674753905956192\" property=\"fb:app_id\"/><meta content=\"@RobinhoodApp\" property=\"twitter:site\"/><link href=\"/us/en/rh_favicon_32.png?v=2024\" rel=\"shortcut icon\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_32.png?v=2024\" rel=\"icon\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_60.png?v=2024\" rel=\"apple-touch-icon\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_76.png?v=2024\" rel=\"apple-touch-icon\" sizes=\"76x76\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_120.png?v=2024\" rel=\"apple-touch-icon\" sizes=\"120x120\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_152.png?v=2024\" rel=\"apple-touch-icon\" sizes=\"152x152\" type=\"image/png\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/CapsuleSansText-Bold__0ef7c688bd1385a7df6941a13f3b4e980cd2f90f01b9268c9bb3e95394eec486.woff2\" rel=\"preload\" type=\"font/woff2\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/CapsuleSansText-Book__6573ba5ca76b29d5ffe83d94b27a4a8a09c8d5c8d5f2ca0719aaeef6856042d8.woff2\" rel=\"preload\" type=\"font/woff2\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/CapsuleSansText-Medium__d6e0f9a85b076741a771ec8574c1278fb65fe34160e73bd8beffa2f927831302.woff2\" rel=\"preload\" type=\"font/woff2\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/MartinaPlantijn-Regular__e02ea76d18e952604fbe5636471d4c7e48f8db1c01fa15ee0e0170347f966405.woff2\" rel=\"preload\" type=\"font/woff2\"/><meta charSet=\"utf-8\"/><script async=\"\" data-ruleset-id=\"M6Jkl5BTgFMHMJ\" id=\"usercentrics-cmp\" src=\"https://cdn.robinhood.com/assets/generated_assets/webapp/vendor/user_centrics/3.90.0/bundle.js\"></script><meta content=\"width=device-width, initial-scale=1, viewport-fit=cover\" name=\"viewport\"/><title>October 1, 2026: Katie Volynets vs Elise Mertens: Set 2 Winner Prediction Market</title><meta content=\" \" name=\"twitter:title\"/><meta content=\" \" property=\"og:title\"/><meta content=\"Who will win Katie Volynets vs Elise Mertens Set 2 (Oct 1)? Get paid $1 per contract when your prediction is correct, or $0 if not.\" name=\"description\"/><meta content=\"Who will win Katie Volynets vs Elise Mertens Set 2 (Oct 1)? Get paid $1 per contract when your prediction is correct, or $0 if not.\" name=\"twitter:description\"/><meta content=",
+          "og_image": "",
+          "ok": true
+        },
+        {
+          "title": "September 30, 2026: Tomas Martin Etcheverry vs Stefanos Tsitsipas: Set 2 Winner Tennis Prediction Market",
+          "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/tomas-martin-etcheverry-vs-stefanos-tsitsipas-set-2-winner-sep-30-2026/",
+          "source": "Robinhood",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRybWKYN8D1C0j1GVmAEbNB1y53r9nch_8Ae5cqEDXr6HRFICg8DOuiCLnvZFw",
+          "og_title": "740\" property=\"og:image:height\"/><meta content=\"image/png\" property=\"og:image:type\"/><meta content=\"1300\" property=\"og:image:width\"/><meta content=\"en_US\" property=\"og:locale\"/><meta content=\"Robinhood\" property=\"og:site_name\"/><meta content=\"website\" property=\"og:type\"/><meta content=\"674753905956192\" property=\"fb:app_id\"/><meta content=\"@RobinhoodApp\" property=\"twitter:site\"/><link href=\"/us/en/rh_favicon_32.png?v=2024\" rel=\"shortcut icon\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_32.png?v=2024\" rel=\"icon\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_60.png?v=2024\" rel=\"apple-touch-icon\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_76.png?v=2024\" rel=\"apple-touch-icon\" sizes=\"76x76\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_120.png?v=2024\" rel=\"apple-touch-icon\" sizes=\"120x120\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_152.png?v=2024\" rel=\"apple-touch-icon\" sizes=\"152x152\" type=\"image/png\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/CapsuleSansText-Bold__0ef7c688bd1385a7df6941a13f3b4e980cd2f90f01b9268c9bb3e95394eec486.woff2\" rel=\"preload\" type=\"font/woff2\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/CapsuleSansText-Book__6573ba5ca76b29d5ffe83d94b27a4a8a09c8d5c8d5f2ca0719aaeef6856042d8.woff2\" rel=\"preload\" type=\"font/woff2\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/CapsuleSansText-Medium__d6e0f9a85b076741a771ec8574c1278fb65fe34160e73bd8beffa2f927831302.woff2\" rel=\"preload\" type=\"font/woff2\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/MartinaPlantijn-Regular__e02ea76d18e952604fbe5636471d4c7e48f8db1c01fa15ee0e0170347f966405.woff2\" rel=\"preload\" type=\"font/woff2\"/><meta charSet=\"utf-8\"/><script async=\"\" data-ruleset-id=\"M6Jkl5BTgFMHMJ\" id=\"usercentrics-cmp\" src=\"https://cdn.robinhood.com/assets/generated_assets/webapp/vendor/user_centrics/3.90.0/bundle.js\"></script><meta content=\"width=device-width, initial-scale=1, viewport-fit=cover\" name=\"viewport\"/><title>September 30, 2026: Tomas Martin Etcheverry vs Stefanos Tsitsipas: Set 2 Winner Prediction Market</title><meta content=\" \" name=\"twitter:title\"/><meta content=",
+          "og_desc": "740\" property=\"og:image:height\"/><meta content=\"image/png\" property=\"og:image:type\"/><meta content=\"1300\" property=\"og:image:width\"/><meta content=\"en_US\" property=\"og:locale\"/><meta content=\"Robinhood\" property=\"og:site_name\"/><meta content=\"website\" property=\"og:type\"/><meta content=\"674753905956192\" property=\"fb:app_id\"/><meta content=\"@RobinhoodApp\" property=\"twitter:site\"/><link href=\"/us/en/rh_favicon_32.png?v=2024\" rel=\"shortcut icon\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_32.png?v=2024\" rel=\"icon\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_60.png?v=2024\" rel=\"apple-touch-icon\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_76.png?v=2024\" rel=\"apple-touch-icon\" sizes=\"76x76\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_120.png?v=2024\" rel=\"apple-touch-icon\" sizes=\"120x120\" type=\"image/png\"/><link href=\"/us/en/rh_favicon_152.png?v=2024\" rel=\"apple-touch-icon\" sizes=\"152x152\" type=\"image/png\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/CapsuleSansText-Bold__0ef7c688bd1385a7df6941a13f3b4e980cd2f90f01b9268c9bb3e95394eec486.woff2\" rel=\"preload\" type=\"font/woff2\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/CapsuleSansText-Book__6573ba5ca76b29d5ffe83d94b27a4a8a09c8d5c8d5f2ca0719aaeef6856042d8.woff2\" rel=\"preload\" type=\"font/woff2\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/CapsuleSansText-Medium__d6e0f9a85b076741a771ec8574c1278fb65fe34160e73bd8beffa2f927831302.woff2\" rel=\"preload\" type=\"font/woff2\"/><link as=\"font\" crossorigin=\"\" href=\"https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/fonts/MartinaPlantijn-Regular__e02ea76d18e952604fbe5636471d4c7e48f8db1c01fa15ee0e0170347f966405.woff2\" rel=\"preload\" type=\"font/woff2\"/><meta charSet=\"utf-8\"/><script async=\"\" data-ruleset-id=\"M6Jkl5BTgFMHMJ\" id=\"usercentrics-cmp\" src=\"https://cdn.robinhood.com/assets/generated_assets/webapp/vendor/user_centrics/3.90.0/bundle.js\"></script><meta content=\"width=device-width, initial-scale=1, viewport-fit=cover\" name=\"viewport\"/><title>September 30, 2026: Tomas Martin Etcheverry vs Stefanos Tsitsipas: Set 2 Winner Prediction Market</title><meta content=\" \" name=\"twitter:title\"/><meta content=\" \" property=\"og:title\"/><meta content=\"Who will win Tomas Martin Etcheverry vs Stefanos Tsitsipas Set 2 (Sep 29)? Get paid $1 per contract when your prediction is correct, or $0 if not.\" name=\"description\"/><meta content=\"Who will win Tomas Martin Etcheverry vs Stefanos Tsitsipas Set 2 (Sep 29)? Get paid $1 per contract when your prediction is correct, or $0 if not.\" name=\"twitter:description\"/><meta content=",
+          "og_image": "",
+          "ok": true
+        }
+      ],
+      "category": "اقتصاد",
+      "icon": "💰",
+      "color": "#f5c542",
+      "reason": "حجم بحث أقل من 5000",
+      "publishable": false,
+      "card": "cards/world-2026-10-01-quentin-halys.png",
+      "published_at": "2026-10-01T06:30:41.570904+00:00"
     }
   ]
 }

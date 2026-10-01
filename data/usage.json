@@ -1,16 +1,16 @@
 {
  "2026-10-01": {
-  "calls": 66,
-  "input": 373147,
-  "output": 54684,
+  "calls": 88,
+  "input": 463979,
+  "output": 66675,
   "cut": 0,
   "refused": 0,
-  "written": 57,
-  "usd": 0.647,
+  "written": 76,
+  "usd": 0.797,
   "g_calls": 0,
   "g_input": 0,
   "g_output": 0,
-  "g_errors": 10,
+  "g_errors": 32,
   "gemini_usd_if_paid": 0.0,
   "last_gemini_error": "RuntimeError: Gemini HTTP 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE"
  }

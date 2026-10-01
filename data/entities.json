@@ -215,10 +215,10 @@
         "date": "2026-10-01",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "رفض أوروبا.. رياض محرز يختار ناديه الجديد",
           "خيتافي الإسباني يريد محرز وبن زيمة خلال فترة الانتقالات الشتوية – الشروق أونلاين",
@@ -1177,8 +1177,8 @@
         "publishable": true,
         "headlines": [
           "إيران تعلق على تقارير \"طرد بعثتها من نيويورك\"",
-          "غادروا فورا.. ماذا فعل وزير الخارجية الأمريكى مع الوفد الإيرانى فى نيويورك؟",
-          "روبيو طالب وفد إيران بمغادرة أميركا بعد تعثر المفاوضات.. مسؤول يكشف"
+          "روبيو طالب وفد إيران بمغادرة أميركا بعد تعثر المفاوضات.. مسؤول يكشف",
+          "غادروا فورا.. ماذا فعل وزير الخارجية الأمريكى مع الوفد الإيرانى فى نيويورك؟"
         ]
       },
       {
@@ -52964,14 +52964,29 @@
           "Idaho Woman Faces Murder Charge as Health Agency Offers Vaccines",
           "Most Americans do not believe childhood vaccines cause autism, poll finds"
         ]
+      },
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Think you’re protected? New research shows how perceptions of immunity shape vaccine decisions",
+          "Nine Patients Received a Personalized Kidney Cancer Vaccine. None Had a Recurrence.",
+          "Bristol student describes how cat helped saved her life after developing MenB"
+        ]
       }
     ],
-    "last_seen": "2026-09-30",
-    "total": 1,
+    "last_seen": "2026-10-01",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 2000,
     "category": "حوادث وقضايا"
   },
   "karl-anthony-towns": {
@@ -53466,8 +53481,8 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "Alex Eala settles for Asian Games tennis bronze, falls to Wang Xiyu",
           "Alex Eala denied by Wang Xiyu, settles for Asian Games bronze again",
+          "Alex Eala settles for Asian Games tennis bronze, falls to Wang Xiyu",
           "Asian Games: Eala takes on Wang with gold in her sights, Olympics in her dreams"
         ]
       }
@@ -54172,7 +54187,7 @@
         "headlines": [
           "Argentina vs Bolivia: Friendlies stats & head-to-head",
           "'It's exciting to see their faces!' – Lionel Scaloni opens up on giving debuts in Cordoba",
-          "Argentina 4-0 Bolivia: Post-Messi era begins with emphatic victory"
+          "Argentina vs Bolivia: Post-Messi Era Begins With 4-0 Win in Córdoba as Scaloni's New Generation Shines"
         ]
       }
     ],
@@ -55344,11 +55359,11 @@
         "traffic": "5000+",
         "traffic_num": 5000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "BAN vs PAK Cricket Scorecard, 1st Semi-Final at Nisshin, October 01, 2026",
-          "Pakistan men’s team reach their first-ever Asian Games cricket final",
-          "India to face Pakistan for Asian Games cricket gold"
+          "India to face Pakistan for Asian Games cricket gold",
+          "Pakistan men’s team reach their first-ever Asian Games cricket final"
         ]
       }
     ],
@@ -56185,11 +56200,11 @@
         "traffic": "+12000",
         "traffic_num": 12000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "IND vs SL Cricket Scorecard, 2nd Semi-Final at Nisshin, October 01, 2026",
+          "India enter Asian Games final after Kishan and Bumrah ride roughshod over Sri Lanka",
           "Ishan Kishan press conference: On batting approach, tricky pitch & playing for a gold medal",
-          "India enter Asian Games final after Kishan and Bumrah ride roughshod over Sri Lanka"
+          "Games-India thrash Sri Lanka to set up cricket gold medal showdown with Pakistan"
         ]
       },
       {
@@ -57318,7 +57333,7 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "Broadcast Information For All Whites and Ford Football Ferns Fixtures",
           "Live coverage confirmed for four Ferns matches, including Panama series"
@@ -57418,11 +57433,11 @@
         "traffic": "5000+",
         "traffic_num": 5000,
         "category": "تقنية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
-          "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
-          "Attacks exploiting ChatGPT's 'Custom GPT' to lead to malware infections, using legitimate ChatGPT pages as entry points."
+          "Introducing dots",
+          "The Cute Agentic AI Saga Continues With OpenAI's New Dots",
+          "Why OpenAI’s DevDay Looked Like Catch-Up"
         ]
       }
     ],
@@ -57708,12 +57723,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "عام",
-        "publishable": false,
+        "category": "سياسة",
+        "publishable": true,
         "headlines": [
           "Alcaraz gana en su debut en Tokio, Nishikori se retira del tenis",
           "Así están los octavos de final del ATP 500 de Tokio 2026 tras la victoria de Alcaraz",
-          "Alcaraz evita el susto ante Michelsen"
+          "Alcaraz vence a Michelsen en un partido muy igualado y pasa a octavos en Tokio"
         ]
       }
     ],
@@ -57723,7 +57738,7 @@
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "عام"
+    "category": "سياسة"
   },
   "daycares": {
     "slug": "daycares",
@@ -57793,8 +57808,8 @@
         "date": "2026-10-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+1200",
-        "traffic_num": 1200,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
@@ -57809,7 +57824,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1200,
+    "peak_traffic": 2000,
     "category": "دول وأماكن"
   },
   "قانون-التصالح": {
@@ -57879,11 +57894,11 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "دول وأماكن",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "النفط يرتفع أكثر من 2% متجاوزاً 100 دولار للبرميل وسط حظر صيني لصادرات الوقود",
-          "النفط يرتفع 2% مع تعليق الصين لصادرات الوقود وشح إمدادات الديزل",
-          "سعر \"برنت\" يصعد إلى 100 دولار وسط ارتفاع التدفقات وتوترات الشرق الأوسط"
+          "سياسي / خادم الحرمين الشريفين يهنئ رئيس جمهورية الصين الشعبية بذكرى اليوم الوطني لبلاده",
+          "سمو نائب الأمير يهنئ الرئيس الصيني",
+          "قبل 77 سنة.. هكذا أعلن عن ظهور جمهورية الصين الشعبية"
         ]
       }
     ],
@@ -58403,8 +58418,8 @@
         "publishable": false,
         "headlines": [
           "قرار جمهوري بتعيين دفعة جديدة من معاونى ومعاونات النيابة العامة",
-          "الجريدة الرسمية تنشر قرار التعيينات القضائية الجديدة بمجلس الدولة",
-          "الرئيس السيسي يصدر قرارات بتعيين دفعات جديدة في 4 جهات قضائية"
+          "الرئيس السيسي يصدر قرارات بتعيين دفعات جديدة في 4 جهات قضائية",
+          "الجريدة الرسمية تنشر قرار التعيينات القضائية الجديدة بمجلس الدولة"
         ]
       }
     ],
@@ -58455,10 +58470,10 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+8200",
-        "traffic_num": 8200,
+        "traffic": "10,000+",
+        "traffic_num": 10000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "“Va a ser un partido para nosotros pensar en cosas grandes”: Alan Franco avisa las pretensiones de La Tri ante Japón (VIDEO)",
           "Japón - Ecuador, en directo: Kirin Cup, hoy en vivo",
@@ -58488,11 +58503,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "El balance negativo de la selección de Ecuador ante Japón",
-          "“Va a ser un partido para nosotros pensar en cosas grandes”: Alan Franco avisa las pretensiones de La Tri ante Japón (VIDEO)",
-          "¡Armadura de colección en Asia! La Tri alista camiseta especial con el Cóndor y la Grulla para medir a Japón"
+          "“Va a ser un buen partido para evaluar”: Marcelo Gallardo afina detalles para el segundo reto de Ecuador (VIDEO)",
+          "Japón - Ecuador, en directo: Kirin Cup, hoy en vivo",
+          "(VIDEO) ALAN FRANCO: “ESTAMOS A LA ALTURA”"
         ]
       }
     ],
@@ -58503,7 +58518,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 8200,
+    "peak_traffic": 10000,
     "category": "رياضة"
   },
   "baseball-playoffs": {
@@ -58835,8 +58850,8 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -58851,7 +58866,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "paramount-hbo-max-streaming-combination": {
@@ -58921,8 +58936,8 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
@@ -58937,7 +58952,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "فن ومشاهير"
   },
   "الماجستير-المهني-في-التدريس": {
@@ -59010,12 +59025,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "10000+",
         "traffic_num": 10000,
-        "category": "دول وأماكن",
-        "publishable": false,
+        "category": "عام",
+        "publishable": true,
         "headlines": [
-          "Is this Dennis Trillo's reaction to Patrick Garcia's interview about Jennylyn and son Jazz?",
+          "Nikka Garcia shows support for husband Patrick Garcia",
           "Patrick Garcia sinupalpal",
-          "Saksi: (Part 3) Panalo nina Carlo Paalam, Alex Eala at Alas Pilipinas; Jennylyn Mercado, hindi na magkokomento sa mga pahayag ni Patrick Garcia; Chihuahua bilang national guard sa Mexico"
+          "Jennylyn Mercado stays silent, Dennis Trillo reacts to Patrick Garcia revelations"
         ]
       }
     ],
@@ -59025,7 +59040,7 @@
       "world"
     ],
     "peak_traffic": 10000,
-    "category": "دول وأماكن"
+    "category": "عام"
   },
   "october-1": {
     "slug": "october-1",
@@ -59040,7 +59055,7 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "أبراج وفلك",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "Horoscope Today: October 1, 2026",
           "4 Zodiac Signs Attract Lasting Abundance & Luck Starting On Thursday",
@@ -59069,7 +59084,7 @@
         "traffic": "7,000+",
         "traffic_num": 7000,
         "category": "عام",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "WhatsApp introduces optional parental controls for teenagers",
           "Big WhatsApp changes for parents in South Africa",
@@ -59187,8 +59202,8 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Hollywood actor involved in Auckland crash",
           "Tesla v taxi: Hollywood star Cliff Curtis injured in waterfront crash",
+          "Hollywood actor involved in Auckland crash",
           "Kiwi actor Cliff Curtis seriously injured in Auckland crash"
         ]
       }
@@ -59217,8 +59232,8 @@
         "publishable": false,
         "headlines": [
           "History repeats: New World Rototuna checkout manager admits $50K in thefts",
-          "Manager behind $50,000 New World thefts faces court",
-          "Supermarket manager Amandeep Kaur Singh pleads guilty to stealing almost $50,000 through fake refunds and transactions"
+          "Supermarket manager Amandeep Kaur Singh pleads guilty to stealing almost $50,000 through fake refunds and transactions",
+          "Manager behind $50,000 New World thefts faces court"
         ]
       }
     ],
@@ -59272,7 +59287,7 @@
         "traffic": "5000+",
         "traffic_num": 5000,
         "category": "سياسة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "By-elections: Can APC’s winning streak shape 2027?",
           "4 new senators, 2 Reps: What impact within 8 months?",
@@ -59298,14 +59313,14 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "عام",
         "publishable": true,
         "headlines": [
           "Danny Boyle Says ‘28 Years Later Part 3’ Will ‘Have a Lot of Cillian Murphy in It’ and Backs Jack O’Connell as the Next James Bond",
-          "28 Years Later part 3 WILL happen and will feature a lot of 'gorgeous' Cillian Murphy, says Danny Boyle",
-          "Danny Boyle endorses Jack O'Connell as the next James Bond"
+          "Ex-Bond director reveals his pick for 007 – and it’s not a frontrunner",
+          "28 Years Later part 3 WILL happen and will feature a lot of 'gorgeous' Cillian Murphy, says Danny Boyle"
         ]
       }
     ],
@@ -59314,7 +59329,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "عام"
   },
   "trump-canada": {
@@ -59416,12 +59431,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "حوادث وقضايا",
+        "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
-          "Gunmen kill 7 on bus in Syria as pipeline blast knocks out 3 power plants",
-          "Seven people killed, four injured after bus attacked by gunfire in Syria's Homs",
-          "Masked gunmen kill seven in attack on bus in Syria's Homs province"
+          "Fast-acting students stop Blair County school bus after driver suffers medical episode",
+          "Video shows students saving their school bus, driver: \"Our bus driver just passed out\"",
+          "4 Students Rush to Stop Bus After Driver Experiences Medical Emergency"
         ]
       }
     ],
@@ -59431,7 +59446,7 @@
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "حوادث وقضايا"
+    "category": "فن ومشاهير"
   },
   "cashmere-club-licensing-decision": {
     "slug": "cashmere-club-licensing-decision",
@@ -59475,11 +59490,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "طقس",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "Heavy rain and 90km/h gusts set to hit school holiday weekend",
-          "Snow batters South Island highways followed by frost, but windy phenomenon on the way",
-          "Heavy rain, strong winds to sweep NZ over school holiday weekend"
+          "Heavy rain, strong winds to sweep NZ over school holiday weekend",
+          "Sections of SH7, 73 closed, cars stuck as heavy snow hits South Island passes"
         ]
       }
     ],
@@ -59504,11 +59519,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "سياسة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Wike challenges governors, vows to resign if Tinubu loses FCT, Rivers",
-          "[VIDEO] 2027: I’ll Resign As Minister If Tinubu Loses In FCT, Rivers — Wike",
-          "Wike backing Tinubu, not APC – Oshiomhole"
+          "Nigeria @66: Vote leaders who’ll sustain infrastructure development, Wike urges Nigerians",
+          "Dateline Abuja on Channels 24: full details and when it's on",
+          "Independence Day: Minister Describes Abuja as Nigeria’s Unity Symbol"
         ]
       }
     ],
@@ -59533,7 +59548,7 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "عام",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "Kenya Power turns the heat on homeowners for rooftop solar installations",
           "Explainer on the Net-metering electricity",
@@ -59562,7 +59577,7 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "Golden State Valkyries vs Dallas Wings Sep 30, 2026 Play-by-Play",
           "How The Golden State Valkyries Built A WNBA Business Powerhouse",
@@ -59620,7 +59635,7 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "عام",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "No jackpot winners in Sept. 29 PCSO lotto draws",
           "PCSO Lotto Results | September 30, 2026",
@@ -59649,7 +59664,7 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "عام",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "Competition watchdog acts against fake review provider, 45 businesses for fabricating online reviews",
           "Inside Singapore’s fake review trade",
@@ -59678,10 +59693,10 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "عام",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "DFI to take control of Starbucks in Asia, cease to own brands like Genki Sushi, Shake Shack",
-          "DFI Retail to take over Maxim's Starbucks-licensed business in seven Asian markets",
+          "DFI Retail swaps Maxim’s stake for Starbucks in Asia, US$340m cash",
           "DFI to pocket US$340 mil exchanging assets with long time F&B partner"
         ]
       }
@@ -59733,8 +59748,8 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -59749,7 +59764,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "الراجحي": {
@@ -59809,5 +59824,237 @@
     ],
     "peak_traffic": 200,
     "category": "فن ومشاهير"
+  },
+  "south-africa-green-id-end-date": {
+    "slug": "south-africa-green-id-end-date",
+    "name": "south africa green id end date",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "End date for green ID books in South Africa announced",
+          "Still using a Green ID book? Here’s how long you have left",
+          "The first digital ID in South Africa — Photos"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "عام"
+  },
+  "scoot": {
+    "slug": "scoot",
+    "name": "scoot",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Scoot removes woman from S'pore-bound flight over disruptive behaviour, passengers clap as she's taken away",
+          "Scoot removes passenger from S’pore-bound flight in Macau over disruptive behaviour",
+          "Disruptive passenger causes 2-hour delay on Scoot flight from Macau, Asia News"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "عام"
+  },
+  "steelers-vs-browns": {
+    "slug": "steelers-vs-browns",
+    "name": "steelers vs browns",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "How to bet Steelers Browns on TNF: Analysis, tips and top prop plays",
+          "‘There is something about Cleveland’: Inexplicable Steelers losses have defined the Browns rivalry lately",
+          "How to watch tonight's Pittsburgh Steelers vs. Cleveland Browns game in Week 4 of the NFL schedule"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "jihad-ward": {
+    "slug": "jihad-ward",
+    "name": "jihad ward",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "NY Giants turn to familiar face for edge depth",
+          "Giants Sign Jihad Ward to Bolster Pass Rush After Brian Burns Injury",
+          "Giants Sign Jihad Ward Off Vikings' Practice Squad; Arvell Reese Rush Opportunities To Increase"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "nail": {
+    "slug": "nail",
+    "name": "nail",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "BBC removes article linking bare nails trend to ‘white supremacist standards of beauty’",
+          "BBC removes article linking bare nails to white supremacy",
+          "Opinion | Your Outrage Is Out of Fashion"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "sydney-colson": {
+    "slug": "sydney-colson",
+    "name": "sydney colson",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Aces' Wilson T'd up for confronting fan in Game 2 loss to Fever",
+          "Who is A'ja Wilson? WNBA star who confronted an Indiana Fever fan at a playoff game",
+          "Sophie Cunningham mocks A’ja Wilson, Fever fan altercation & raises suspension question"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "محمد-ثروت": {
+    "slug": "محمد-ثروت",
+    "name": "محمد ثروت",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|eg",
+        "date": "2026-10-01",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "\"لن أشارك في إهانة الفن المصري\".. محمد ثروت ينسحب من مهرجان الموسيقى العربية",
+          "بعد استقالة رئيس الأوبرا وأزمة الاعتذارات.. مصير الدورة الـ 34 لمهرجان الموسيقى العربية",
+          "رضا الوكيل يعتذر عن رئاسة دار الأوبرا: لن أقبل التحكم في اختياراتي لفنان مصري"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "ولي-العهد-محمد-بن-سلمان": {
+    "slug": "ولي-العهد-محمد-بن-سلمان",
+    "name": "ولي العهد محمد بن سلمان",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|sa",
+        "date": "2026-10-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "سياسة",
+        "publishable": true,
+        "headlines": [
+          "الأمير محمد بن سلمان: \"حلف مكة الدفاعي\" يعزز أمن واستقرار المنطقة",
+          "أمراء ومسؤولون: الخطاب الملكي يؤكد ثوابت الدولة ويستعرض منجزات رؤية 2030",
+          "عام / إنجازات لجان مجلس الشورى المتخصصة خلال السنة الثانية من الدورة التاسعة"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 5000,
+    "category": "سياسة"
   }
 }

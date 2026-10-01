@@ -1156,8 +1156,8 @@
         "date": "2026-10-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -1171,10 +1171,10 @@
         "date": "2026-10-01",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "\"توبيخ دبلوماسي\".. روبيو طالب الوفد الإيراني في الأمم المتحدة بالمغادرة فورا",
           "إيران تعلق على تقارير \"طرد بعثتها من نيويورك\"",
@@ -1188,7 +1188,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "sachindu-colombage": {
@@ -3927,9 +3927,9 @@
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "أمطار غزيرة تضرب الإسكندرية يصاحبها تقلبات جوية.. فيديو",
-          "حالة الطقس اليوم الخميس.. أمطار ورياح نشطة ودرجات حرارة مرتفعة جنوبًا",
-          "الأرصاد: طقس حار نهارًا اليوم الخميس.. والعظمى في القاهرة 30"
+          "الطقس اليوم.. انخفاض بالحرارة وأمطار ببعض المناطق والعظمى بالقاهرة 30 درجة",
+          "الأرصاد: طقس حار نهارًا اليوم الخميس.. والعظمى في القاهرة 30",
+          "من الشبورة إلى الأمطار.. ماذا ينتظر المصريين الساعات المقبلة؟"
         ]
       }
     ],
@@ -48128,10 +48128,25 @@
           "Bouncers Wanted at Store's Pub | The Wall Street Journal - newspaper",
           "A grocery store tried something unexpected, and now people are flying in to see it"
         ]
+      },
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Hungary’s first smart supermarket opens: say goodbye to closing time",
+          "List: 164 Auchan supermarkets set to become Intermarché or Netto",
+          "Auchan Completes French Supermarket Overhaul"
+        ]
       }
     ],
-    "last_seen": "2026-09-30",
-    "total": 1,
+    "last_seen": "2026-10-01",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -53545,7 +53560,7 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "شخصية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "تعرف على مشروعات الصرف الصحى بالغريزات والجلاوية ضمن «حياة كريمة» بسوهاج",
           "رئيس «مياه أسيوط» يتفقد أعمال تنفيذ التوصيلات المنزلية للصرف الصحي بقرية بني عدي",
@@ -53972,7 +53987,7 @@
         "traffic": "20000+",
         "traffic_num": 20000,
         "category": "شخصية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "ما القنوات الناقلة لمباراة الأرجنتين وبوليفيا الودية؟ وكيف تشاهدها عبر الإنترنت؟",
           "ملخص وأهداف مباراة الأرجنتين أمام بوليفيا فى أول ظهور بعد المونديال",
@@ -56363,14 +56378,14 @@
         "date": "2026-10-01",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "50000+",
-        "traffic_num": 50000,
+        "traffic": "+54000",
+        "traffic_num": 54000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "IND vs SL live score, Asian Games (Men) 2026: SL 19/5 (4 ov, Nuwanidu Fernando 3*, Chamika Karunaratne 0*, Washington Sundar 0/1, 2nd Semi-Final, Korogi Sports Park, Nisshin, October 01, 2026",
           "SL 0/1 (0.2) vs IND 169/7 (Lasith Croospulle 0(0) ) | India vs Sri Lanka, 2nd Semi-Final, Asian Games 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in USA & Canada",
-          "India vs Sri Lanka, Asian Games 2026 cricket semi-finals: Schedule and watch IND vs SL live streaming and telecast",
-          "Sri Lanka bowl first in semi final clash against India"
+          "Asian Games 2026 live, October 1: Know India scores, updates and results from Day 12"
         ]
       }
     ],
@@ -56379,7 +56394,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 50000,
+    "peak_traffic": 54000,
     "category": "رياضة"
   },
   "بقيق": {
@@ -56759,11 +56774,11 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "Micron tops Q4 estimates on top and bottom lines, offers strong Q1 outlook",
-          "Stock Market Today: Dow, S&P 500 and Nasdaq eye mixed start as Micron lifts tech as 10-year yield climbs to highest since 2002",
-          "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold"
+          "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+          "Micron’s AI-driven outlook; Nike to report - what’s moving markets",
+          "Asian Stocks Eye Rough Start After US Reversal: Markets Wrap"
         ]
       }
     ],
@@ -57251,11 +57266,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "تقنية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
-          "Fake ChatGPT Model on Real chatgpt.com Delivers 8-Stage RAT via ClickFix",
-          "New Attack Vector Abuses ChatGPT Custom GPTs with Fake CAPTCHA to Deploy Remote Access Trojans"
+          "Introducing dots",
+          "Why OpenAI’s DevDay Looked Like Catch-Up",
+          "The future of work is a group chat of AI bots talking to each other"
         ]
       },
       {
@@ -57263,8 +57278,8 @@
         "date": "2026-10-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "تقنية",
         "publishable": true,
         "headlines": [
@@ -57280,7 +57295,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "تقنية"
   },
   "paula-badosa": {
@@ -57554,14 +57569,14 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Michelsen, rival de Alcaraz, aprendió a jugar en su garaje",
+          "Alcaraz - Michelsen, en directo: última hora del Torneo de Tokio, hoy en vivo",
           "ATP Tokio: Fechas, horarios, favoritos y dónde ver",
-          "Alcaraz - Michelsen y Jódar - Vallejo, en directo hoy la primera ronda del ATP 500 de Tokio 2026"
+          "Michelsen, rival de Alcaraz, aprendió a jugar en su garaje"
         ]
       }
     ],
@@ -57570,7 +57585,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "عام"
   },
   "daycares": {
@@ -57641,14 +57656,14 @@
         "date": "2026-10-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "دول وأماكن",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "الرئيس السيسى يدعو مؤسسات الدولة والخبراء والشعب للتسجيل بمنتدى مصر",
-          "الرئيس السيسي يعلن إطلاق الجلسات التحضيرية لـ منتدى مصر 2026 ويحدد موعد انعقاده",
-          "السيسى يعلن إطلاق الجلسات التحضيرية والموقع الإلكترونى الخاص بمنتدى مصر 2026"
+          "الرئيس عبد الفتاح السيسي يعلن إطلاق الجلسات التحضيرية والموقع الإلكتروني الخاص بـ \"منتدى مصر ٢٠٢٦\"",
+          "تنفيذا لتوجيهات رئيس الجمهورية.. مجلس الوزراء يطلق موقع «منتدى مصر 2026»",
+          "الرئيس السيسي يعلن إطلاق الجلسات التحضيرية لـ منتدى مصر 2026 ويحدد موعد انعقاده"
         ]
       }
     ],
@@ -57657,7 +57672,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "دول وأماكن"
   },
   "قانون-التصالح": {
@@ -57733,9 +57748,9 @@
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "قبل 77 سنة.. هكذا أعلن عن ظهور جمهورية الصين الشعبية",
-          "سمو نائب الأمير يهنئ الرئيس الصيني",
-          "سمو ولي العهد رئيس مجلس الوزراء يهنئ رئيس جمهورية الصين الشعبية بذكرى اليوم الوطني"
+          "شي يدعو إلى تعزيز الجهود نحو إعادة التوحيد مع تايوان",
+          "شي جين بينغ يجدد التزامه بالأهداف الاقتصادية ويعارض استقلال تايوان",
+          "(وسائط متعددة) متحدثة باسم البر الرئيسي: المعارضة الحازمة لما يسمى \"استقلال تايوان\" تخدم المصالح المشتركة للصين والولايات المتحدة"
         ]
       }
     ],
@@ -57852,6 +57867,64 @@
           "Microsoft Jewel Comes to Mobile with XBOX Achievements and Game Pass Benefits",
           "Microsoft Jewel is Now Available on Mobile With Xbox Achievements",
           "Microsoft Jewel Launches on Mobile With Xbox Achievements and Game Pass Perks"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "coffee-shops-near-me": {
+    "slug": "coffee-shops-near-me",
+    "name": "coffee shops near me",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Which Starbucks locations closed? See list",
+          "Starbucks closing three Wisconsin stores as part of nationwide cuts",
+          "More Ohio Starbucks locations added to list of closing stores"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "alex-michelsen": {
+    "slug": "alex-michelsen",
+    "name": "alex michelsen",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Sports News, Transfers, Scores | Watch Live Sport",
+          "ATP Tokyo 2026 Preview – Players, Prize Money, Schedule for Japan Open",
+          "What Carlos Alcaraz can achieve for the first time in over 30 years at the 2026 Japan Open"
         ]
       }
     ],

@@ -2,9 +2,10 @@
 """
 Google Indexing API — إخطار جوجل بصفحات الموقع الجديدة.
 
-قرار صاحب الموقع (2 أكتوبر 2026): يعود الإرسال لكل صفحات خريطة الموقع كما
-كان قبل 28 سبتمبر. من 28 سبتمبر اقتصر على صفحات الوظائف الموثقة (ولا
-توجد)، فلم يُرسل لجوجل شيء، وتزامن ذلك مع هبوط الظهور في Search Console.
+قرار صاحب الموقع (2 أكتوبر 2026): يعود الإرسال لصفحات المقالات كما كان قبل
+28 سبتمبر، لكن لنصفها فقط: الأعلى بحثًا من مقالات كل يوم في كل نسخة (SHARE).
+من 28 سبتمبر اقتصر على صفحات الوظائف الموثقة (ولا توجد)، فلم يُرسل لجوجل
+شيء، وتزامن ذلك مع هبوط الظهور في Search Console.
 
 للعلم: جوجل تخصص هذه الواجهة رسميًا لصفحات JobPosting والبث المباشر
 (BroadcastEvent)؛ إخطارها بصفحات أخرى قد يُتجاهل، وقد يوقف الوصول للواجهة.
@@ -13,9 +14,11 @@ Google Indexing API — إخطار جوجل بصفحات الموقع الجدي
 
 - يُرسل ما هو منشور فعلًا الآن فقط (من الخريطة المنشورة): هذه الخطوة تعمل
   قبل حفظ التشغيلة ونشرها، وإخطار جوجل بصفحة لم تُنشر يجعلها تزور 404.
-- المقالات الأحدث أولًا: الحصة 200 رابط في اليوم، فالخبر الجديد قبل القديم.
+- المقالات الأحدث أولًا، وفي اليوم الواحد الأعلى بحثًا أولًا: الحصة 200 رابط
+  في اليوم، فالخبر الجديد الذي عليه بحث قبل غيره.
 """
 import json
+import math
 import os
 import sys
 import time
@@ -100,12 +103,53 @@ def article_day(url, base):
     return ""
 
 
-def send_order(url, base):
-    """ترتيب الإرسال: المقالات أولًا والأحدث يومًا قبل الأقدم، ثم باقي الصفحات."""
-    day = article_day(url, base)
-    if day:
-        return (0, "".join(chr(255 - ord(c)) for c in day))   # تاريخ تنازلي
-    return (1, url)
+SHARE = 0.5       # نصف مقالات كل يوم في كل نسخة: الأعلى بحثًا (قرار صاحب الموقع)
+
+
+def traffic_of(base, cutoff):
+    """حجم بحث كل مقال حديث من أرشيف الأيام: {الرابط: traffic_num}."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import entities
+    out = {}
+    days_dir = os.path.join(ROOT, "data", "days")
+    for name in os.listdir(days_dir):
+        if not name.endswith(".json"):
+            continue
+        key, _, day = name[:-5].partition("-")
+        if not day or day < cutoff:
+            continue
+        try:
+            with open(os.path.join(days_dir, name), encoding="utf-8") as f:
+                snap = json.load(f)
+        except Exception:
+            continue
+        for t in snap.get("trends", []):
+            if t.get("article"):
+                url = "{}/{}/{}/{}/".format(base, key, day, entities.slugify(t["title"]))
+                out[url] = t.get("traffic_num", 0) or 0
+    return out
+
+
+def strongest_half(all_urls, sent, base, cutoff):
+    """المقالات التي تُرسل: نصف مقالات كل يوم في كل نسخة، الأعلى بحثًا. الخبر
+    الذي عليه بحث كثير هو ما تفيده سرعة الفهرسة؛ والباقي تجده جوجل من الخريطة
+    والخلاصة. ما أُرسل سابقًا يُحسب من النصف، فلا يتجاوزه اليوم مهما كبر."""
+    traffic = traffic_of(base, cutoff)
+    groups = {}
+    for u in all_urls:
+        day = article_day(u, base)
+        if day and day >= cutoff:
+            edition = u[len(base):].strip("/").split("/")[0]
+            groups.setdefault((day, edition), []).append(u)
+    picked = []
+    for (day, edition), urls in groups.items():
+        allowed = math.ceil(len(urls) * SHARE)               # نصف العدد مقرّبًا للأعلى
+        left = allowed - sum(u in sent for u in urls)
+        fresh = sorted((u for u in urls if u not in sent),
+                       key=lambda u: -traffic.get(u, 0))
+        picked += [(day, traffic.get(u, 0), u) for u in fresh[:max(left, 0)]]
+    picked.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    return [u for _, _, u in picked]
 
 
 def load_sent():
@@ -167,15 +211,17 @@ def main():
     # تصفية الروابط الجديدة التابعة للنطاق
     all_urls = [u for u in all_urls if u.startswith(base)]
     sent = load_sent()
-    new_urls = [u for u in all_urls if u not in sent]
 
-    # مقالات آخر يومين والصفحات الثابتة فقط؛ الأحدث أولًا (انظر send_order)
+    # نصف مقالات آخر يومين (الأعلى بحثًا) والصفحات الثابتة فقط (انظر FRESH_DAYS و SHARE)
     cutoff = (datetime.now(timezone.utc) - timedelta(days=FRESH_DAYS)).strftime("%Y-%m-%d")
-    new_urls = [u for u in new_urls if not article_day(u, base) or article_day(u, base) >= cutoff]
-    new_urls.sort(key=lambda u: send_order(u, base))
+    static = [u for u in all_urls if not article_day(u, base) and u not in sent]
+    picked = strongest_half(all_urls, sent, base, cutoff)
+    # الأحدث يومًا أولًا، وفي اليوم الواحد الأعلى بحثًا أولًا، ثم الصفحات الثابتة
+    new_urls = picked + sorted(static)
     to_send = new_urls[:BATCH_LIMIT]
 
-    print("  إجمالي الخريطة: " + str(len(all_urls)) + " · مرسل سابقاً: " + str(len(sent)) + " · بانتظار الإرسال: " + str(len(to_send)))
+    print("  إجمالي الخريطة: " + str(len(all_urls)) + " · مرسل سابقاً: " + str(len(sent))
+          + " · بانتظار الإرسال: " + str(len(new_urls)) + " (في هذه التشغيلة: " + str(len(to_send)) + ")")
     if not to_send:
         print("  لا توجد روابط جديدة لإرسالها لـ Google ✓")
         return 0

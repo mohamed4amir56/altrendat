@@ -675,9 +675,52 @@ def person_ok(trend):
                   "بلا ألفاظ حسّاسة")
 
 
+def _latin_title(title):
+    """عنوان بحروف لاتينية؟ ترندات الهند ونيجيريا فيها أحيانًا نص بلغات أخرى."""
+    letters = [c for c in title if c.isalpha()]
+    return bool(letters) and sum(c.isascii() for c in letters) / len(letters) >= 0.8
+
+
+def fetch_world_trends(cfg):
+    """النسخة العالمية: ترندات أمريكا كاملة + أكبر ترندات الدول الناطقة بالإنجليزية،
+    مدموجة بالعنوان (البحث يُجمع والمصادر تتوحّد). دولة تفشل لا توقف البقية."""
+    geos = cfg.get("trends_geos") or [cfg["trends_geo"]]
+    merged, order = {}, []
+    for i, geo in enumerate(geos):
+        try:
+            got = fetch_with_retry(geo, tries=3 if i == 0 else 2)
+        except Exception as e:
+            if i == 0:
+                raise                                   # الأساس لو فشل فالتشغيلة فاشلة
+            print("  ⚠ تخطي " + geo + ": " + type(e).__name__)
+            continue
+        got = [t for t in got if _latin_title(t["title"])]
+        if i > 0:                                       # الدول الإضافية: الأكبر بحثًا فقط
+            got = [t for t in got if t["traffic_num"] >= config.WORLD_MIN_TRAFFIC]
+            got = sorted(got, key=lambda t: -t["traffic_num"])[:config.WORLD_EXTRA_PER_GEO]
+        for t in got:
+            k = normalize(t["title"])
+            if k in merged:
+                m = merged[k]
+                m["traffic_num"] += t["traffic_num"]
+                m["traffic"] = format(m["traffic_num"], ",") + "+"
+                seen = {n["url"] for n in m["news"]}
+                m["news"] += [n for n in t["news"] if n["url"] not in seen]
+                m["geos"].append(geo)
+            else:
+                t["geos"] = [geo]
+                merged[k] = t
+                order.append(k)
+        print("  ✓ " + geo + ": " + str(len(got)) + " ترند")
+    return [merged[k] for k in order]
+
+
 def build(country_key, cfg):
     print("  ↓ جلب ترندات " + cfg["name_ar"] + " ...")
-    trends = fetch_with_retry(cfg["trends_geo"])
+    if cfg.get("trends_geos"):
+        trends = fetch_world_trends(cfg)
+    else:
+        trends = fetch_with_retry(cfg["trends_geo"])
     print("  ✓ " + str(len(trends)) + " ترند")
 
     n_pages = sum(len(t["news"]) for t in trends)

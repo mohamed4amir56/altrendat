@@ -1,7 +1,7 @@
 {
   "world": {
     "code": "US", "name_ar": "عالمي (Worldwide)", "name_en": "Worldwide", "flag": "🌐",
-    "trends_geo": "US", "lang": "en", "currency": "USD",
+    "trends_geo": "US", "trends_geos": ["US", "GB", "CA", "AU", "IE", "NZ", "ZA", "NG", "KE", "PH", "SG"], "lang": "en", "currency": "USD",
     "tz": "America/New_York", "utc_offset": -4,
     "gnews": "hl=en-US&gl=US&ceid=US:en", "enabled": true,
     "places": ["usa", "world", "global", "us", "america", "united states", "uk", "international"]

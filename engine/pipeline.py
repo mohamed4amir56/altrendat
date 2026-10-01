@@ -286,7 +286,9 @@ def _get(url, timeout=TIMEOUT):
         "Accept-Encoding": "gzip",
     })
     with urllib.request.urlopen(req, timeout=timeout) as r:
-        raw = r.read()
+        # حد للوقت الكلي والحجم، مش لكل قراءة بس (sources.read_capped): موقع بطيء
+        # كان بيعلّق الخطوة كلها لحد ما GitHub يلغي التشغيلة.
+        raw = sources.read_capped(r, 3_000_000, deadline=timeout * 2)
         if r.headers.get("Content-Encoding") == "gzip":
             raw = gzip.decompress(raw)
         return raw
@@ -337,16 +339,21 @@ def fetch_trends(geo):
 # ==================================================
 # 3. الإثراء — استخراج ما لا تعطيه Google
 # ==================================================
+_CONTENT = r"""content=(?:"([^"]*)"|'([^']*)')"""
+
+
 def _og_patterns(prop):
-    """المواقع تكتب الوسم بترتيبين مختلفين — نطابق الاثنين."""
-    return [
-        re.compile(
-            r'<meta[^>]+property=["\']og:' + prop +
-            r'["\'][^>]*content=["\'](.*?)["\']', re.I | re.S),
-        re.compile(
-            r'<meta[^>]+content=["\'](.*?)["\'][^>]*property=["\']og:' +
-            prop + r'["\']', re.I | re.S),
-    ]
+    """المواقع تكتب الوسم بترتيبين مختلفين — نطابق الاثنين.
+
+    كل جزء محصور جوه الوسم الواحد ([^>]) والقيمة لحد علامة التنصيص المقفولة. النسخة
+    القديمة كانت (.*?) مع re.S، فلكل <meta> بتدوّر لآخر الصفحة: صفحة CNN عربي واحدة
+    (400 ألف حرف) خدت 3.7 ثانية معالج، ومحرّك re ماسك الـGIL، فمهلة الإثراء نفسها
+    ما كانتش بتشتغل، وخطوة الالتقاط علّقت لحد ما GitHub لغى التشغيلة (2026-10-01).
+    الجديدة: 36 صفحة حقيقية في 0.04 ثانية بنفس النتايج بالظبط.
+    """
+    p = r"""property=["']og:""" + prop + r"""["']"""
+    return [re.compile(r"<meta\b[^>]*?" + p + r"[^>]*?" + _CONTENT, re.I),
+            re.compile(r"<meta\b[^>]*?" + _CONTENT + r"[^>]*?" + p, re.I)]
 
 
 OG = {
@@ -361,11 +368,16 @@ def fetch_og(url):
     out = {"og_title": "", "og_desc": "", "og_image": "", "ok": False}
     try:
         page = _get(url, timeout=12)[:400_000].decode("utf-8", errors="replace")
+        # وسوم og في الـhead؛ ولو مفيش </head> في أول 400 ألف حرف (CNN بتحطها بعد
+        # 323 ألف حرف) بندوّر في الصفحة كلها، والبحث بقى سريع فمش فارقة.
+        end = page.lower().find("</head>")
+        if end > 0:
+            page = page[:end]
         for key, patterns in OG.items():
             for pat in patterns:
                 m = pat.search(page)
                 if m:
-                    val = html.unescape(m.group(1)).strip()
+                    val = html.unescape(m.group(1) if m.group(1) is not None else m.group(2)).strip()
                     if key == "og_image":
                         # استبعاد الروابط غير الصالحة أو التي تحوي وسوماً متسربة
                         if not val.startswith(("http://", "https://")) or any(c in val for c in ("<", ">", "\n", "\r")):
@@ -380,22 +392,26 @@ def fetch_og(url):
 
 def enrich(trends, workers=12):
     """يثري كل الأخبار بالتوازي — 30 صفحة في ثوانٍ بدل دقائق مع مهلة قصوى صارمة."""
-    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
-        future_to_item = {pool.submit(fetch_og, n["url"]): n
-                          for t in trends for n in t["news"]}
-        # مهلة قصوى صارمة 35 ثانية لكافة الروابط منعاً لتعليق الخادم على أي موقع بطيء
-        done, not_done = concurrent.futures.wait(future_to_item.keys(), timeout=35)
-        for future in done:
-            news_item = future_to_item[future]
-            try:
-                news_item.update(future.result(timeout=1))
-            except Exception:
-                news_item["ok"] = False
-        for future in not_done:
-            future.cancel()
-            news_item = future_to_item[future]
+    # من غير "with": الخروج من with بيستنى كل الخيوط تخلص، فالمهلة كانت بتتعدّى
+    # ويفضل مستني الصفحة المعلّقة برضه (2026-10-01). دلوقتي بعد المهلة بنكمل على
+    # طول، والخيوط المتأخرة بتخلص لوحدها في حدود مهلة read_capped.
+    pool = concurrent.futures.ThreadPoolExecutor(max_workers=workers)
+    future_to_item = {pool.submit(fetch_og, n["url"]): n
+                      for t in trends for n in t["news"]}
+    # مهلة قصوى صارمة 35 ثانية لكافة الروابط منعاً لتعليق الخادم على أي موقع بطيء
+    done, not_done = concurrent.futures.wait(future_to_item.keys(), timeout=35)
+    for future in done:
+        news_item = future_to_item[future]
+        try:
+            news_item.update(future.result(timeout=1))
+        except Exception:
             news_item["ok"] = False
-            news_item["error"] = "Timeout"
+    for future in not_done:
+        future.cancel()
+        news_item = future_to_item[future]
+        news_item["ok"] = False
+        news_item["error"] = "Timeout"
+    pool.shutdown(wait=False, cancel_futures=True)
     return trends
 
 

@@ -271,14 +271,17 @@ def problems(article):
 
 def fetch_texts(items):
     """نص كل مصدر من صفحته، بالتوازي ومع مهلة. يُضاف في الحقل text."""
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-        futures = {pool.submit(sources.fetch_text, n["url"]): n for n in items}
-        done, _ = concurrent.futures.wait(futures, timeout=25)
-        for fut in done:
-            try:
-                futures[fut]["text"] = fut.result(timeout=1)
-            except Exception:
-                futures[fut]["text"] = ""
+    # من غير "with" (زي pipeline.enrich): الخروج منه كان بيستنى أي صفحة معلّقة
+    # ويلغي فايدة المهلة.
+    pool = concurrent.futures.ThreadPoolExecutor(max_workers=4)
+    futures = {pool.submit(sources.fetch_text, n["url"]): n for n in items}
+    done, _ = concurrent.futures.wait(futures, timeout=25)
+    for fut in done:
+        try:
+            futures[fut]["text"] = fut.result(timeout=1)
+        except Exception:
+            futures[fut]["text"] = ""
+    pool.shutdown(wait=False, cancel_futures=True)
 
 
 def _sources_block(items, is_en):

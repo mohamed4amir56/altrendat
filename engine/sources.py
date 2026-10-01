@@ -11,6 +11,7 @@
 import gzip
 import html
 import re
+import time
 import urllib.parse
 import urllib.request
 
@@ -203,6 +204,28 @@ def extract_text(page, max_chars=2400):
     return text
 
 
+def read_capped(r, max_bytes=600_000, deadline=20.0):
+    """يقرأ رد HTTP بحد أقصى للحجم وللوقت الكلي.
+
+    مهلة urlopen بتسري على كل قراءة لوحدها، فموقع بيبعت الصفحة بالبطيء (بايت كل
+    كام ثانية) كان بيعلّق القراءة للأبد. ده اللي حصل 2026-10-01: خطوة «التقاط
+    وإثراء وتصنيف» علّقت لحد ما GitHub لغى التشغيلة (8 دقايق) 5 مرات ورا بعض،
+    فالموقع وقف تحديث ساعات. read1 بيرجّع اللي وصل بس، فبنبص على الساعة بين
+    كل جزء والتاني.
+    """
+    end = time.monotonic() + deadline
+    chunks, size = [], 0
+    while size < max_bytes:
+        if time.monotonic() > end:
+            raise TimeoutError("page took longer than {}s".format(deadline))
+        b = r.read1(min(65536, max_bytes - size))
+        if not b:
+            break
+        chunks.append(b)
+        size += len(b)
+    return b"".join(chunks)
+
+
 def fetch_text(url, max_chars=1800, timeout=10):
     """يجلب صفحة الخبر ويعيد نصه، أو نصًا فارغًا عند أي فشل."""
     try:
@@ -210,7 +233,7 @@ def fetch_text(url, max_chars=1800, timeout=10):
             "User-Agent": UA, "Accept-Language": "ar,en;q=0.8",
             "Accept-Encoding": "gzip"})
         with urllib.request.urlopen(req, timeout=timeout) as r:
-            raw = r.read(600_000)
+            raw = read_capped(r, 600_000, deadline=timeout * 2)
             if r.headers.get("Content-Encoding") == "gzip":
                 raw = gzip.decompress(raw)
             cs = _charset(r.headers, raw[:4000])

@@ -3891,14 +3891,14 @@
         "date": "2026-10-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+25000",
-        "traffic_num": 25000,
+        "traffic": "+25200",
+        "traffic_num": 25200,
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "انكسار الحرارة ورياح تلطف الأجواء.. تفاصيل طقس الأيام القادمة في مصر",
-          "الطقس اليوم.. أجواء خريفية وشبورة كثيفة وأمطار والعظمى بالقاهرة 30 درجة",
-          "طقس مصر من الجمعة إلى الثلاثاء.. أجواء حارة نهارًا وشديدة الحرارة جنوبًا"
+          "الأمطار تعود.. تفاصيل حالة الطقس اليوم الأربعاء 30 سبتمبر 2026",
+          "الأرصاد: طقس حار نهارًا اليوم الخميس.. والعظمى في القاهرة 30",
+          "القاهرة تسجل 30 وأمطار متفرقة.. الأرصاد تُحذر من انخفاض درجات الحرارة وبرودة الليل"
         ]
       }
     ],
@@ -17257,7 +17257,7 @@
         "headlines": [
           "2026 Cubs Playoff Heroes and Goats: Seiya Suzuki is the Superhero vs. the Padres",
           "Cubs Slugger Has Beaten Mason Miller’s Slider. Will He See It Again?",
-          "Nick Pivetta departs in fourth against Cubs"
+          "Mason Miller notches save as Padres advance"
         ]
       }
     ],
@@ -36402,15 +36402,30 @@
           "Florence Pugh says 'East of Eden' series finds humanity in Steinbeck's 'monster', Cathy",
           "Florence Pugh, Christopher Abbott, Mike Faist, & More Promote New Netflix Series 'East of Eden' in NYC"
         ]
+      },
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Netflix's 'East Of Eden' New York premiere red carpet: Florence Pugh, Christopher Abbott, more",
+          "Zoe Kazan Reimagines \"East of Eden\"",
+          "Florence Pugh, Zoe Kazan, Paul Dano, Vanity Fair, and More Toast to 'East of Eden'"
+        ]
       }
     ],
-    "last_seen": "2026-09-29",
-    "total": 1,
+    "last_seen": "2026-10-01",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "فن ومشاهير"
+    "category": "دول وأماكن"
   },
   "belgium-national-football-team-vs-france-national-football-team-standings": {
     "slug": "belgium-national-football-team-vs-france-national-football-team-standings",
@@ -53914,8 +53929,8 @@
         "publishable": true,
         "headlines": [
           "ما القنوات الناقلة لمباراة الأرجنتين وبوليفيا الودية؟ وكيف تشاهدها عبر الإنترنت؟",
-          "قائد الأرجنتين الجديد يسجل في اكتساح بوليفيا وديًا برباعية نظيفة (فيديو)",
-          "هدف الارجنتين الثالث في مرمي بوليفيا"
+          "ملخص وأهداف مباراة الأرجنتين أمام بوليفيا فى أول ظهور بعد المونديال",
+          "خليفة ميسي.. تقييم استثنائي لنيكو باز بعد تألقه في ودية الأرجنتين وبوليفيا"
         ]
       },
       {
@@ -55478,10 +55493,10 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "عام",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "Argentina goleó a Bolivia en el arranque de la era post-Messi: reviví lo mejor",
-          "En vivo: Cuti Romero ganó de cabeza y Argentina golea 3-0 a Bolivia en Córdoba",
+          "Gran asistencia de Palacios y brillante definición de Nico Paz",
           "De Inglaterra a Bolivia: Lautaro Martínez volvió a meterla"
         ]
       }
@@ -56619,13 +56634,13 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "category": "رياضة",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
           "Dodgers Dugout: Answering a few questions about the playoffs",
-          "Dodgers NLDS Game 1 locked into 1 p.m. start time, on Fox",
+          "Who should the Dodgers be rooting for in the Wild Card Series?",
           "Dodgers playoff schedule for 2026"
         ]
       }
@@ -56635,8 +56650,8 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
-    "category": "رياضة"
+    "peak_traffic": 1000,
+    "category": "فن ومشاهير"
   },
   "mlb-bracket-2026": {
     "slug": "mlb-bracket-2026",
@@ -56753,5 +56768,121 @@
     ],
     "peak_traffic": 100000,
     "category": "عام"
+  },
+  "mlb-postseason-bracket": {
+    "slug": "mlb-postseason-bracket",
+    "name": "mlb postseason bracket",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Radio Call of Yankees advancing to the ALDS",
+          "Yankees in 'good spot' heading into ALDS vs. Rays",
+          "Updated MLB Playoff Bracket 2026, Yankees vs. Rays ALDS Odds, Preview"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "frances-tiafoe": {
+    "slug": "frances-tiafoe",
+    "name": "frances tiafoe",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Nishikori ready for final tournament: ‘This is my last moment’",
+          "Sports News, Transfers, Scores | Watch Live Sport",
+          "Kei Nishikori Retires: Farewell From Coach Gabe Jaramillo Who Chose the Fearless Boy"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "jim-carrey": {
+    "slug": "jim-carrey",
+    "name": "jim carrey",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Jim Carrey Marries His Longtime Girlfriend Min Ah",
+          "Jim Carrey marries girlfriend Min Ah in private ceremony",
+          "Jim Carrey, 64, marries longtime girlfriend Min Ah, 32, in secret Los Angeles ceremony"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "فن ومشاهير"
+  },
+  "الارجنتين": {
+    "slug": "الارجنتين",
+    "name": "الارجنتين",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|sa",
+        "date": "2026-10-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "روما يمنع نجميه الأرجنتينيين من حضور وداع ميسي",
+          "نادي روما يوضّح سبب منع لاعبيه من حضور حفل وداع ميسي مع الأرجنتين",
+          "روما يمنع ديبالا ومولينا من المشاركة في وداع ميسي"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
   }
 }

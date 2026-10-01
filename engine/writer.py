@@ -17,6 +17,8 @@ import concurrent.futures
 import json
 import os
 import sys
+import urllib.error
+import urllib.request
 from datetime import datetime, timezone
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -64,7 +66,11 @@ def article_key(trend, country_key, day):
 # حسب اليوم، فنعرف التكلفة بالرقم لا بالتقدير. الأسعار لكل مليون توكن (Haiku 4.5).
 USAGE_FILE = os.path.join(ROOT, "data", "usage.json")
 PRICE_IN, PRICE_OUT = 1.0, 5.0
-RUN_USAGE = {"calls": 0, "input": 0, "output": 0, "cut": 0, "refused": 0}
+RUN_USAGE = {"calls": 0, "input": 0, "output": 0, "cut": 0, "refused": 0,
+             "g_calls": 0, "g_input": 0, "g_output": 0, "g_errors": 0}
+G_PRICE_IN, G_PRICE_OUT = 0.25, 1.50          # Gemini 3.1 Flash-Lite (المدفوع؛ المجاني بلا تكلفة)
+GEMINI_MODEL = "gemini-3.1-flash-lite"
+LAST_GEMINI_ERROR = [""]
 
 # مقال فشل (قُطع رده أو رُفض) يُعاد في كل تشغيلة ويُدفع ثمنه كل مرة؛
 # بعد هذا العدد من الإخفاقات في اليوم نتركه.
@@ -86,16 +92,19 @@ def _save_json(path, obj):
 
 
 def save_usage():
-    if not RUN_USAGE["calls"]:
+    if not (RUN_USAGE["calls"] or RUN_USAGE["g_calls"] or RUN_USAGE["g_errors"]):
         return
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     log = _load_json(USAGE_FILE)
-    d = log.setdefault(today, {"calls": 0, "input": 0, "output": 0, "cut": 0,
-                               "refused": 0, "written": 0, "usd": 0.0})
-    for k in ("calls", "input", "output", "cut", "refused"):
-        d[k] += RUN_USAGE[k]
-    d["written"] += RUN_USAGE.get("written", 0)
+    d = log.setdefault(today, {})
+    for k in ("calls", "input", "output", "cut", "refused", "written",
+              "g_calls", "g_input", "g_output", "g_errors"):
+        d[k] = d.get(k, 0) + RUN_USAGE.get(k, 0)
+    # usd = ما كان سيُدفع لو كان Gemini مدفوعًا + ما دُفع فعلًا لـ Claude
     d["usd"] = round(d["input"] * PRICE_IN / 1e6 + d["output"] * PRICE_OUT / 1e6, 3)
+    d["gemini_usd_if_paid"] = round(d["g_input"] * G_PRICE_IN / 1e6 + d["g_output"] * G_PRICE_OUT / 1e6, 4)
+    if LAST_GEMINI_ERROR[0]:
+        d["last_gemini_error"] = LAST_GEMINI_ERROR[0]
     for old in sorted(log)[:-14]:                      # أسبوعان فقط
         del log[old]
     _save_json(USAGE_FILE, log)
@@ -321,7 +330,62 @@ def build_prompt(trend, country_name, items, is_en=False):
         block=block, src=_sources_block(items, False))
 
 
+def _call_gemini(sys_prompt, schema, messages):
+    """نداء Gemini عبر REST. يعيد (dict، النص) أو (None، None) إن قُطع/حُجب.
+    يرفع استثناء عند أي خطأ آخر فيرجع _call إلى Claude."""
+    contents = [{"role": "model" if m["role"] == "assistant" else "user",
+                 "parts": [{"text": m["content"]}]} for m in messages]
+    cats = ("HARM_CATEGORY_HARASSMENT", "HARM_CATEGORY_HATE_SPEECH",
+            "HARM_CATEGORY_SEXUALLY_EXPLICIT", "HARM_CATEGORY_DANGEROUS_CONTENT")
+    body = {
+        "systemInstruction": {"parts": [{"text": sys_prompt}]},
+        "contents": contents,
+        "generationConfig": {"responseMimeType": "application/json",
+                             "responseJsonSchema": schema, "maxOutputTokens": 6000},
+        # أخبار الحروب والجرائم تُحجب بالإعدادات الافتراضية؛ نخفّف إلى الحد الأعلى فقط.
+        "safetySettings": [{"category": c, "threshold": "BLOCK_ONLY_HIGH"} for c in cats],
+    }
+    req = urllib.request.Request(
+        "https://generativelanguage.googleapis.com/v1beta/models/{}:generateContent".format(GEMINI_MODEL),
+        data=json.dumps(body).encode("utf-8"),
+        headers={"Content-Type": "application/json",
+                 "x-goog-api-key": os.environ["GEMINI_API_KEY"]})
+    try:
+        with urllib.request.urlopen(req, timeout=90) as resp:
+            data = json.load(resp)
+    except urllib.error.HTTPError as e:
+        raise RuntimeError("Gemini HTTP {}: {}".format(e.code, e.read().decode("utf-8", "replace")[:300]))
+    u = data.get("usageMetadata", {})
+    RUN_USAGE["g_calls"] += 1
+    RUN_USAGE["g_input"] += u.get("promptTokenCount", 0)
+    RUN_USAGE["g_output"] += u.get("candidatesTokenCount", 0) + u.get("thoughtsTokenCount", 0)
+    cands = data.get("candidates") or []
+    if not cands:                                      # حُجب الطلب كله
+        RUN_USAGE["refused"] += 1
+        return None, None
+    c = cands[0]
+    if c.get("finishReason") == "MAX_TOKENS":
+        RUN_USAGE["cut"] += 1
+        return None, None
+    if c.get("finishReason") in ("SAFETY", "PROHIBITED_CONTENT", "BLOCKLIST", "SPII", "RECITATION"):
+        RUN_USAGE["refused"] += 1
+        return None, None
+    text = "".join(p.get("text", "") for p in c.get("content", {}).get("parts", []))
+    return json.loads(text), text
+
+
 def _call(client, sys_prompt, schema, messages):
+    if os.environ.get("GEMINI_API_KEY") and os.environ.get("WRITER_PROVIDER", "gemini") == "gemini":
+        try:
+            return _call_gemini(sys_prompt, schema, messages)
+        except Exception as e:                         # حصة، شبكة، JSON مكسور: Claude يكمل
+            RUN_USAGE["g_errors"] += 1
+            LAST_GEMINI_ERROR[0] = (type(e).__name__ + ": " + str(e))[:300]
+            print("  ⚠ Gemini فشل، التحويل إلى Claude: " + LAST_GEMINI_ERROR[0][:160])
+    return _call_claude(client, sys_prompt, schema, messages)
+
+
+def _call_claude(client, sys_prompt, schema, messages):
     response = client.messages.create(
         model=MODEL,
         max_tokens=3000,
@@ -542,6 +606,7 @@ def main():
     print("\n" + "=" * 46)
     print("  استهلاك التشغيلة: {calls} نداء، {input} دخل، {output} خرج، "
           "قُطع {cut}، رُفض {refused}".format(**RUN_USAGE))
+    print("  Gemini: {g_calls} نداء، {g_input} دخل، {g_output} خرج، أخطاء {g_errors}".format(**RUN_USAGE))
     print("  كُتب الآن: " + str(written) + "   مكتوب سابقًا: " + str(cached))
     print("  تُخطّي (أمان): " + str(skipped) + "   امتنع الكاتب: " + str(declined) +
           "   رُفض: " + str(rejected) + "   فشل: " + str(failed))

@@ -44,6 +44,7 @@ jobs:
       - name: كتابة الشروح
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         # لا توقف التشغيلة كلها لو تعذّرت الكتابة — البيانات أهم
         continue-on-error: true
         run: python engine/writer.py

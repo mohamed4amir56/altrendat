@@ -37,4 +37,4 @@ WORLD_MIN_TRAFFIC = 5000
 WORLD_DAILY_MAX = 10
 
 # أقل طول لمتن المقال بالكلمات. ما دونه صفحة رقيقة لا تُنشر.
-MIN_BODY_WORDS = 150
+MIN_BODY_WORDS = 130

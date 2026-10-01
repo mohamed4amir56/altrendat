@@ -3894,11 +3894,11 @@
         "traffic": "+25000",
         "traffic_num": 25000,
         "category": "طقس",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "الأمطار تعود.. تفاصيل حالة الطقس اليوم الأربعاء 30 سبتمبر 2026",
-          "«الأرصاد»: طقس حار وفرص لأمطار خفيفة اليوم الأربعاء",
-          "الأرصاد تكشف تفاصيل طقس الخميس وحالة البحرين ودرجات الحرارة بالمدن"
+          "انكسار الحرارة ورياح تلطف الأجواء.. تفاصيل طقس الأيام القادمة في مصر",
+          "الطقس اليوم.. أجواء خريفية وشبورة كثيفة وأمطار والعظمى بالقاهرة 30 درجة",
+          "طقس مصر من الجمعة إلى الثلاثاء.. أجواء حارة نهارًا وشديدة الحرارة جنوبًا"
         ]
       }
     ],
@@ -7453,9 +7453,9 @@
         "category": "عام",
         "publishable": true,
         "headlines": [
-          "Mdaka hopes the Algeria fixtures will give indication of the way forward",
-          "What Mdaka hopes to achieve in successive Algeria friendlies",
-          "PSL stars dominate the SA Under-23 Olympics squad"
+          "Uganda Cranes turn focus to DR Congo friendlies",
+          "AFCON 2027 (Q): Uganda safely arrive in South Africa for DR Congo friendlies",
+          "Mdaka hopes the Algeria fixtures will give indication of the way forward"
         ]
       }
     ],
@@ -17256,7 +17256,8 @@
         "publishable": true,
         "headlines": [
           "2026 Cubs Playoff Heroes and Goats: Seiya Suzuki is the Superhero vs. the Padres",
-          "Cubs Slugger Has Beaten Mason Miller’s Slider. Will He See It Again?"
+          "Cubs Slugger Has Beaten Mason Miller’s Slider. Will He See It Again?",
+          "Nick Pivetta departs in fourth against Cubs"
         ]
       }
     ],
@@ -46731,7 +46732,7 @@
   },
   "pete-crow-armstrong": {
     "slug": "pete-crow-armstrong",
-    "name": "pete crow armstrong",
+    "name": "pete crow-armstrong",
     "first_seen": "2026-09-29",
     "appearances": [
       {
@@ -46763,14 +46764,29 @@
           "Pete Crow-Armstrong just wrapped up one of the best Cubs seasons ever, and he's not done yet",
           "Pete Crow-Armstrong — with ‘more to prove’ — is eager to help Chicago Cubs start the postseason strong"
         ]
+      },
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Chicago Cubs at San Diego Padres Preview - 09/30/2026",
+          "Pete Crow-Armstrong just wrapped up one of the best Cubs seasons ever, and he's not done yet",
+          "Pete Crow-Armstrong — with ‘more to prove’ — is eager to help Chicago Cubs start the postseason strong"
+        ]
       }
     ],
-    "last_seen": "2026-09-30",
-    "total": 2,
+    "last_seen": "2026-10-01",
+    "total": 3,
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "عام"
   },
   "patrick-kane": {
@@ -53937,8 +53953,8 @@
         "date": "2026-10-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -54219,7 +54235,6 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "الأردن.. رفع أسعار المحروقات يعيد الجدل حول \"تكلفة الدعم والضرائب الفعلية\"",
           "الأردن يرفع أسعار البنزين والسولار ويقرر تثبيت الكيروسين والغاز لشهر أكتوبر",
           "وزارة الطاقة: مخزون المشتقات النفطية في المملكة يكفي لنحو 60 يوما"
         ]
@@ -55118,7 +55133,7 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "BAN vs PAK Cricket Scorecard, 1st Semi-Final at Nisshin, October 01, 2026",
+          "1st Semi-Final, Nisshin, October 01, 2026, Asian Games Men's Cricket Competition",
           "PAK 112/4 (11.3) vs BAN 111/7 (Hasan Nawaz 27(22) Abdul Samad 30(15)) | Pakistan vs Bangladesh, 1st Semi-Final, Asian Games 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in USA & Canada",
           "Pakistan win toss, elect to field against Bangladesh in 13-over semi-final"
         ]
@@ -55460,14 +55475,14 @@
         "date": "2026-10-01",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "عام",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Gran jugada de Flores y puntinazo: así fue el primer gol del Flaco López en la selección argentina",
-          "El Flaco López anotó el cuarto",
-          "Con gol del «Flaco» López, Argentina goleó a Bolivia"
+          "Argentina goleó a Bolivia en el arranque de la era post-Messi: reviví lo mejor",
+          "En vivo: Cuti Romero ganó de cabeza y Argentina golea 3-0 a Bolivia en Córdoba",
+          "De Inglaterra a Bolivia: Lautaro Martínez volvió a meterla"
         ]
       }
     ],
@@ -55476,7 +55491,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "عام"
   },
   "azzi-fudd": {
@@ -55734,8 +55749,8 @@
         "date": "2026-10-01",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -55750,7 +55765,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "bangladesh-national-cricket-team": {
@@ -56287,14 +56302,14 @@
         "date": "2026-10-01",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "+20500",
-        "traffic_num": 20500,
+        "traffic": "+21000",
+        "traffic_num": 21000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "India vs Sri Lanka, 2nd Semi-Final, Asian Games 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in USA & Canada",
           "Rain stays away as India and Sri Lanka look for fair contest to enter final",
-          "India vs Sri Lanka, Asian Games 2026 cricket semi-finals: Schedule and watch IND vs SL live streaming and telecast"
+          "Pakistan to face Hong Kong in Asian Games quarter-final on Monday"
         ]
       }
     ],
@@ -56303,7 +56318,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 20500,
+    "peak_traffic": 21000,
     "category": "رياضة"
   },
   "بقيق": {
@@ -56467,8 +56482,8 @@
         "publishable": false,
         "headlines": [
           "Wild Card series should remind Cubs why Adrian Morejon is worth splurging on this offseason",
-          "Padres 8-0 Cubs (Sep 29, 2026) Final Score",
-          "Cubs-Padres NL Wild Card Series Game 2: LIVE on Peacock/NBCSN"
+          "Padres make quick work of Cubs to sweep Wild Card Series",
+          "Padres silence Cubs' bats again, finish off 2-game wild-card sweep"
         ]
       }
     ],
@@ -56606,12 +56621,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "فن ومشاهير",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Who should the Dodgers be rooting for in the Wild Card Series?",
-          "“I Would Prefer”: Dave Roberts Reveals Dodgers’ Wish Ahead of Challenging Playoff Conditions",
-          "Dodgers Dugout: Answering a few questions about the playoffs"
+          "Dodgers Dugout: Answering a few questions about the playoffs",
+          "Dodgers NLDS Game 1 locked into 1 p.m. start time, on Fox",
+          "Dodgers playoff schedule for 2026"
         ]
       }
     ],
@@ -56621,7 +56636,7 @@
       "world"
     ],
     "peak_traffic": 500,
-    "category": "فن ومشاهير"
+    "category": "رياضة"
   },
   "mlb-bracket-2026": {
     "slug": "mlb-bracket-2026",
@@ -56680,5 +56695,63 @@
     ],
     "peak_traffic": 500,
     "category": "اقتصاد"
+  },
+  "avs-game": {
+    "slug": "avs-game",
+    "name": "avs game",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "MacKinnon strikes again",
+          "Avalanche 8-4 Kings (Sep 30, 2026) Game Recap",
+          "Nathan MacKinnon scores twice, fights in wild Avalanche season-opening win against Kings"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "ishan-kishan": {
+    "slug": "ishan-kishan",
+    "name": "ishan kishan",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|sa",
+        "date": "2026-10-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100000+",
+        "traffic_num": 100000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "'This is not cricket, this is only batting' - Gambhir after India's record ODI chase",
+          "Shubman Gill hits double hundred as India beat West Indies in ODI run-fest",
+          "India and Shubman Gill's record-breaking night"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100000,
+    "category": "عام"
   }
 }

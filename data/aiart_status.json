@@ -1,9 +1,9 @@
 {
-  "at": "2026-10-01T16:35:43",
+  "at": "2026-10-01T17:37:07",
   "made": 0,
   "failed": 1,
   "stopped_on_quota": true,
   "errors": [
-    "RuntimeError: HTTP 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (d3452a42-3d3a-43a0-9fc6-1e598a80b6ea)\",\"code\":4006}],\"success\":false,\"result\":{},\"mes"
+    "RuntimeError: HTTP 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (02aace99-0d02-4276-8b89-fefc9ba8860c)\",\"code\":4006}],\"success\":false,\"result\":{},\"mes"
   ]
 }

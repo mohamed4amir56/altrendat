@@ -1171,8 +1171,8 @@
         "date": "2026-10-01",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": true,
         "headlines": [
@@ -12855,10 +12855,25 @@
           "NYC man killed from falling tree as nor’easter bears down tri-state with extreme wind gusts",
           "NYCHA employee killed by falling tree in Brooklyn as nor'easter impacts region"
         ]
+      },
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Man Killed After Bag Gets Stuck in Subway Doors, Police Say",
+          "Horrifying new details emerge in man's subway bag death",
+          "Man killed after bag caught in A train doors at Brooklyn subway station"
+        ]
       }
     ],
-    "last_seen": "2026-09-26",
-    "total": 1,
+    "last_seen": "2026-10-01",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -49350,14 +49365,29 @@
           "Quarter-size hail and tornado risk threaten Texas ahead of cold front. Here's where.",
           "Flood Watch ahead of heavy rain threat later this week"
         ]
+      },
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "طقس",
+        "publishable": true,
+        "headlines": [
+          "Austin weather: Flood Watch in CTX",
+          "Heavy rainfall slowly pushing east toward San Antonio",
+          "When will flooding rain start in San Antonio? Here’s a timeline."
+        ]
       }
     ],
-    "last_seen": "2026-09-30",
-    "total": 1,
+    "last_seen": "2026-10-01",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 5000,
     "category": "طقس"
   },
   "جلسة-عامة": {
@@ -54018,11 +54048,11 @@
         "traffic": "20000+",
         "traffic_num": 20000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "\"نيكو باز خليفة ميسي؟\".. الأرجنتين تسحق بوليفيا في الظهور الأول بعد المونديال",
-          "القنوات الناقلة لمباراة الأرجنتين وبوليفيا مباشر والموعد.. هل يشارك ميسي؟",
-          "الأرجنتين تهزم بوليفيا في أول مباراة بعد اعتزال ميسي"
+          "ما القنوات الناقلة لمباراة الأرجنتين وبوليفيا الودية؟ وكيف تشاهدها عبر الإنترنت؟",
+          "ملخص وأهداف مباراة الأرجنتين أمام بوليفيا فى أول ظهور بعد المونديال",
+          "في غياب ميسي.. منتخب الأرجنتين يسحق بوليفيا برباعية"
         ]
       },
       {
@@ -54314,7 +54344,7 @@
         "publishable": true,
         "headlines": [
           "رحمة محسن تبتعد عن الأجواء الشعبية وتراهن على الدراما في أنا الخسارة",
-          "رحمة محسن تستعد لطرح «أنا الخسارة» وتكشف عن ملامح ألبومها «ملوش تاني»",
+          "رحمة محسن تظهر بشكل مختلف في كليب «ملوش تاني»",
           "رحمة محسن تغيّر جلدها «الشعبي» وتراهن على الإحساس"
         ]
       }
@@ -57692,9 +57722,9 @@
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
-          "الرئيس عبد الفتاح السيسي يعلن إطلاق الجلسات التحضيرية والموقع الإلكتروني الخاص بـ \"منتدى مصر ٢٠٢٦\"",
           "تنفيذا لتوجيهات رئيس الجمهورية.. مجلس الوزراء يطلق موقع «منتدى مصر 2026»",
-          "السيسي يطلق تحضيرات \"منتدى مصر 2026\" ويدعو لمشاركة واسعة"
+          "الرئيس السيسي يعلن إطلاق الجلسات التحضيرية لـ منتدى مصر 2026 ويحدد موعد انعقاده",
+          "مجلس الوزراء يطلق الموقع الإلكتروني لمنتدى مصر 2026 ويفتح باب المشاركة"
         ]
       }
     ],
@@ -57751,8 +57781,8 @@
         "publishable": true,
         "headlines": [
           "ثقافي / في اليوم العالمي للقهوة.. البُن السعودي من جذور الأرض إلى مستقبل عالمي",
-          "يتجاوز مجرد الطعم المنعش: أفضل عروض يوم القهوة العالمي في دبي",
-          "البن السعودي.. موروث جازان وثروة جبالها"
+          "البن السعودي.. موروث جازان وثروة جبالها",
+          "يتجاوز مجرد الطعم المنعش: أفضل عروض يوم القهوة العالمي في دبي"
         ]
       }
     ],
@@ -57780,7 +57810,7 @@
         "publishable": true,
         "headlines": [
           "قبل 77 سنة.. هكذا أعلن عن ظهور جمهورية الصين الشعبية",
-          "الملك سلمان وولي العهد يهنئان الرئيس الصيني باليوم الوطني لبلاده",
+          "سمو نائب الأمير يهنئ الرئيس الصيني",
           "سياسي / خادم الحرمين الشريفين يهنئ رئيس جمهورية الصين الشعبية بذكرى اليوم الوطني لبلاده"
         ]
       }
@@ -58069,9 +58099,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "رئيس هيئة التأمينات يستعرض محطات تطوير سيستم الهيئة: نقدم 171 خدمة لقطاعات مختلفة",
-          "نشرة التوك شو: «فلوس» التأمينات في عهد مبارك.. عودة البحارة المصريون.. خدمات المعاشات وفق نظام التأمينات الجديد",
-          "\"التأمينات\": نتعامل مع 9.5 مليون ملف معاشات.. وعدد المؤمن عليهم 13.8 مليون"
+          "استرداد ديون التأمين بقوة وحماية حقوق العمال.",
+          "يقوم حي دونغ نغاك بنشر لوائح جديدة بشأن قانون العمل والنقابات العمالية.",
+          "وزارة العدل تنظم ورشة تعريفية بقانون التأمينات الاجتماعية ولائحته التنفيذية"
         ]
       }
     ],
@@ -58388,9 +58418,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Gallardo ve en duelo ante Japón \"una prueba interesante para observar y evaluar\" a Ecuador",
           "“Va a ser un partido para nosotros pensar en cosas grandes”: Alan Franco avisa las pretensiones de La Tri ante Japón (VIDEO)",
-          "Japón - Ecuador, en directo: Kirin Cup, hoy en vivo"
+          "Ecuador vs. Japón EN VIVO: dónde ver Teleamazonas y TC Televisión gratis online",
+          "¡Armadura de colección en Asia! La Tri alista camiseta especial con el Cóndor y la Grulla para medir a Japón"
         ]
       }
     ],
@@ -58472,8 +58502,8 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -58488,7 +58518,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "عام"
   },
   "nasa-perseverance-rover-jezero-crater-water": {
@@ -58519,5 +58549,179 @@
     ],
     "peak_traffic": 100,
     "category": "فضول عام"
+  },
+  "ridley-scott": {
+    "slug": "ridley-scott",
+    "name": "ridley scott",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Ridley Scott’s ‘Treasure Island’, ‘24 Jump Street’ & Others Get 2027 Sony Release Dates",
+          "‘24 Jump Street,’ Ridley Scott’s ‘Treasure Island’ Get 2027 Release Dates at Sony",
+          "’24 Jump Street,’ Hugh Jackman’s ‘Treasure Island’ Remake Get Holiday 2027 Release Dates"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "عام"
+  },
+  "larry-krasner": {
+    "slug": "larry-krasner",
+    "name": "larry krasner",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Philly DA Larry Krasner said the federal judge who accused him of crimes should be removed from the case",
+          "Philly DA Krasner calls judge's DOJ referral ‘virtually unprecedented'",
+          "Philadelphia’s DA, the Dean of Progressive Prosecutors, Has His Own Legal Trouble"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "brett-rypien": {
+    "slug": "brett-rypien",
+    "name": "brett rypien",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Ex-Broncos quarterback visits Bucs; Vikings host ex-Denver running back",
+          "With Baker Mayfield expected to miss at least three weeks, Rypien brings another QB with ties to Zac Robinson",
+          "Roster Moves: Jalen McMillan to IR, QB Added to Practice Squad"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "zohran-mamdani": {
+    "slug": "zohran-mamdani",
+    "name": "zohran mamdani",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Pete Davidson calls out NYC mayor Zohran Mamdani over highway mess",
+          "Pete Davidson comes in hot with a blunt request for Mayor Mamdani",
+          "Trump administration grants Mamdani security clearance 9 months into his term"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "chicago-pd": {
+    "slug": "chicago-pd",
+    "name": "chicago p.d.",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Jason Beghe Hints at \"Real Change\" in Upcoming Season of Chicago P.D. (EXCLUSIVE)",
+          "The Full Cast of Chicago P.D. Season 14: Bios, Photos, Details",
+          "‘Chicago P.D.’s Arienne Mandi Previews What’s Next for Imani & Her Sister in Season 14"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
+  },
+  "casa-encantada-130-million-sale": {
+    "slug": "casa-encantada-130-million-sale",
+    "name": "casa encantada 130 million sale",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Peter Thiel buys troubled Bel-Air mega-mansion for $130 million",
+          "Exclusive | Billionaire Peter Thiel Is Behind the $130 Million Purchase of Casa Encantada",
+          "Peter Thiel revealed as buyer of Casa Encantada estate"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
   }
 }

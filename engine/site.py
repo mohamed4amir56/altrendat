@@ -35,6 +35,7 @@ import sources  # noqa: E402
 import config  # noqa: E402
 import photos  # noqa: E402
 import evergreen  # noqa: E402
+import idphoto  # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -1166,6 +1167,7 @@ def page(path, title, desc, body, canonical, nav="", image=None,
                   '<a href="{r}gold-price/egypt/">سعر الذهب في مصر</a>'
                   '<a href="{r}gold-price/saudi/">سعر الذهب في السعودية</a>'
                   '<a href="{r}saudi-payment-dates/">مواعيد الصرف في السعودية</a>'
+                  '<a href="{r}passport-photo/">صور الجواز والتأشيرة</a>'
                   '<a href="{r}contact/">اتصل بنا</a>').format(r=root, ed=config.EDITOR_PATH)
         fdesc = "{site} — ما يبحث عنه الناس في مصر والسعودية، مشروحًا بمصادره.".format(site=E(site_brand))
         ffine = "الأخبار منسوبة إلى مصادرها وروابطها، والأرقام إلى جهاتها."
@@ -1535,6 +1537,7 @@ def build_trend(country, cfg, t, urls, hubs=None, news=None):
     {facts_box(art, is_en)}
     {data_table(t.get("data"))}
     {"" if is_en else evergreen.related_box(t["title"], country, "../../../../")}
+    {"" if is_en else idphoto.related_box(t["title"], "../../../../")}
     <article class="story">{body_html}</article>
     <div class="tags">{tags}</div>
     {sources_list(t["news"], is_en=is_en)}
@@ -1673,6 +1676,8 @@ def country_nav(current, depth, is_en=False):
         out.append(f"<a href='{root}gold-price/egypt/'>🪙 سعر الذهب{mark_gold}</a>")
         mark_pay = " ●" if current == "pay" else ""
         out.append(f"<a href='{root}saudi-payment-dates/'>📅 مواعيد الصرف{mark_pay}</a>")
+        mark_photo = " ●" if current == "photo" else ""
+        out.append(f"<a href='{root}{idphoto.SLUG}/'>📸 صور الجواز{mark_photo}</a>")
         if "world" in COUNTRIES:
             out.append(f"<a href='{root}world/' class='nav-lang-btn' lang='en' hreflang='en' "
                        f"title='English edition: world news'>🌐 English</a>")
@@ -1987,6 +1992,8 @@ PAGES = [
       <h2>ملفات تعريف الارتباط والإعلانات</h2>
       <p>قد يعرض الموقع إعلانات عبر شبكات خارجية منها Google AdSense، وتستخدم هذه الشبكات ملفات تعريف ارتباط لعرض إعلانات تناسب اهتماماتك بناءً على زياراتك لهذا الموقع ولمواقع أخرى.</p>
       <p>يمكنك تعطيل الإعلانات المخصصة من <a href="https://www.google.com/settings/ads" rel="nofollow noopener" target="_blank">إعدادات إعلانات Google</a>، أو منع ملفات تعريف الارتباط من إعدادات متصفحك.</p>
+      <h2>أداة صور الجواز والتأشيرة</h2>
+      <p>الصورة التي تختارها في <a href="../passport-photo/">أداة صور الجواز</a> تُعالَج داخل متصفحك ولا تُرفع إلى خوادمنا ولا نحتفظ بها. يحمّل المتصفح مكتبات المعالجة ونماذجها فقط من خدمات jsDelivr وGoogle وHugging Face، وهذه الخدمات ترى عنوان IP كأي طلب تحميل، ولا تصلها صورتك.</p>
       <h2>الروابط الخارجية</h2>
       <p>نضع روابط إلى الصحف التي نقلنا عنها، ولا نتحكم في سياسات تلك المواقع.</p>
       <h2>الأطفال</h2>
@@ -2664,6 +2671,8 @@ def main():
     # صفحات دائمة (سعر الذهب ومواعيد الصرف): أسعار حيّة تُجلب هنا في كل بناء
     urls.extend(evergreen.build_evergreen_site(
         BASE, lambda d: country_nav("gold" if d == 2 else "pay", d), page))
+    # أداة صور الجواز والتأشيرة: صفحات ثابتة + سكربت يعمل داخل المتصفح
+    urls.extend(idphoto.build_idphoto_site(BASE, OUT, lambda d: country_nav("photo", d), page))
     all_days = [(k, c) for k, entries in by_country.items() for _, c in entries]
     n_feed = build_feed(all_days) + build_feed(all_days, english=True)
     n_gold = build_gold_news_api(days)

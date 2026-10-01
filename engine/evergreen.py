@@ -148,6 +148,7 @@ def links_row(root, current):
     items = [("gold-price/egypt/", "🇪🇬 سعر الذهب في مصر"),
              ("gold-price/saudi/", "🇸🇦 سعر الذهب في السعودية"),
              ("saudi-payment-dates/", "📅 مواعيد الصرف في السعودية"),
+             ("passport-photo/", "📸 صور الجواز والتأشيرة"),
              ("gold-app/", "📱 تطبيق Goldex")]
     return "<nav class='eg-links'>" + "".join(
         "<a href='{}{}'>{}</a>".format(root, p, E(t)) for p, t in items if p != current) + "</nav>"

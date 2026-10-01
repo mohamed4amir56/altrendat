@@ -356,7 +356,7 @@ def write_one(client, trend, country_name, is_en=False, country_key="world"):
     else:
         schema = SCHEMA_PERSON if person else SCHEMA
 
-    items = sources.good_sources(trend.get("news", []))[:4]
+    items = sources.good_sources(trend.get("news", []))[:3]
     fetch_texts(items)
     prompt = build_prompt(trend, country_name, items, is_en=is_en)
     # النص الكامل للكتابة فقط: لو بقي في الترند لانتقل إلى trends.json

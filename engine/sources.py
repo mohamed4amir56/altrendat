@@ -203,7 +203,7 @@ def extract_text(page, max_chars=2400):
     return text
 
 
-def fetch_text(url, max_chars=2400, timeout=10):
+def fetch_text(url, max_chars=1800, timeout=10):
     """يجلب صفحة الخبر ويعيد نصه، أو نصًا فارغًا عند أي فشل."""
     try:
         req = urllib.request.Request(url, headers={

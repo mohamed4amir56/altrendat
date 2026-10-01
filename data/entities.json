@@ -1159,7 +1159,7 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "روبيو يطرد الوفد الإيراني.. ويأمره بمغادرة نيويورك \"فورا\"",
           "غادروا فورا.. ماذا فعل وزير الخارجية الأمريكى مع الوفد الإيرانى فى نيويورك؟",
@@ -1177,8 +1177,8 @@
         "publishable": true,
         "headlines": [
           "\"توبيخ دبلوماسي\".. روبيو طالب الوفد الإيراني في الأمم المتحدة بالمغادرة فورا",
-          "إيران تعلق على تقارير \"طرد بعثتها من نيويورك\"",
-          "روبيو طالب وفد إيران بمغادرة أميركا بعد تعثر المفاوضات.. مسؤول يكشف"
+          "روبيو يطلب من الوفد الإيراني مغادرة أميركا.. تعثر المفاوضات وتصاعد الخلاف بين واشنطن وطهران",
+          "إيران تعلق على تقارير \"طرد بعثتها من نيويورك\""
         ]
       }
     ],
@@ -3927,9 +3927,9 @@
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "الطقس اليوم.. انخفاض بالحرارة وأمطار ببعض المناطق والعظمى بالقاهرة 30 درجة",
+          "أمطار وأجواء خريفية.. تفاصيل حالة الطقس اليوم الخميس 1 أكتوبر 2026",
           "الأرصاد: طقس حار نهارًا اليوم الخميس.. والعظمى في القاهرة 30",
-          "من الشبورة إلى الأمطار.. ماذا ينتظر المصريين الساعات المقبلة؟"
+          "«الأرصاد»: انخفاض في درجات الحرارة والعظمى بالقاهرة 30 درجة"
         ]
       }
     ],
@@ -16737,12 +16737,28 @@
           "Microsoft CEO: Autopilot is the 'next generation' of enterprise AI",
           "Microsoft integrates Word and Excel more deeply into Copilot"
         ]
+      },
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "How to get the Windows 11 2026 Update",
+          "Microsoft Launches Windows 11 26H2 Update",
+          "Windows 11 version 27H2: Everything we know so far"
+        ]
       }
     ],
-    "last_seen": "2026-09-27",
-    "total": 1,
+    "last_seen": "2026-10-01",
+    "total": 2,
     "countries": [
-      "sa"
+      "sa",
+      "world"
     ],
     "peak_traffic": 200,
     "category": "تقنية"
@@ -53560,7 +53576,7 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "تعرف على مشروعات الصرف الصحى بالغريزات والجلاوية ضمن «حياة كريمة» بسوهاج",
           "رئيس «مياه أسيوط» يتفقد أعمال تنفيذ التوصيلات المنزلية للصرف الصحي بقرية بني عدي",
@@ -53987,7 +54003,7 @@
         "traffic": "20000+",
         "traffic_num": 20000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "ما القنوات الناقلة لمباراة الأرجنتين وبوليفيا الودية؟ وكيف تشاهدها عبر الإنترنت؟",
           "ملخص وأهداف مباراة الأرجنتين أمام بوليفيا فى أول ظهور بعد المونديال",
@@ -57281,11 +57297,11 @@
         "traffic": "5000+",
         "traffic_num": 5000,
         "category": "تقنية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
-          "Fake ChatGPT Model on Real chatgpt.com Delivers 8-Stage RAT via ClickFix",
-          "New Attack Vector Abuses ChatGPT Custom GPTs with Fake CAPTCHA to Deploy Remote Access Trojans"
+          "Introducing dots",
+          "Why OpenAI’s DevDay Looked Like Catch-Up",
+          "The future of work is a group chat of AI bots talking to each other"
         ]
       }
     ],
@@ -57659,11 +57675,11 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "دول وأماكن",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "الرئيس عبد الفتاح السيسي يعلن إطلاق الجلسات التحضيرية والموقع الإلكتروني الخاص بـ \"منتدى مصر ٢٠٢٦\"",
           "تنفيذا لتوجيهات رئيس الجمهورية.. مجلس الوزراء يطلق موقع «منتدى مصر 2026»",
-          "الرئيس السيسي يعلن إطلاق الجلسات التحضيرية لـ منتدى مصر 2026 ويحدد موعد انعقاده"
+          "\"شارك برأيك\".. رابط التسجيل في منتدى مصر 2026"
         ]
       }
     ],
@@ -57685,8 +57701,8 @@
         "date": "2026-10-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -57701,7 +57717,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "اليوم-العالمي-للقهوة": {
@@ -57717,11 +57733,11 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "ثقافي / في اليوم العالمي للقهوة.. البُن السعودي من جذور الأرض إلى مستقبل عالمي",
           "البن السعودي.. موروث جازان وثروة جبالها",
-          "أكثر من 600 ألف شتلة بُن تعزز مكانة الباحة في زراعة القهوة السعودية"
+          "يتجاوز مجرد الطعم المنعش: أفضل عروض يوم القهوة العالمي في دبي"
         ]
       }
     ],
@@ -57895,7 +57911,7 @@
         "headlines": [
           "Which Starbucks locations closed? See list",
           "Starbucks closing three Wisconsin stores as part of nationwide cuts",
-          "More Ohio Starbucks locations added to list of closing stores"
+          "Two Boise-area Starbucks locations have shut down amid national company closures"
         ]
       }
     ],
@@ -57922,9 +57938,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "Alcaraz faces opening Michelsen test in Tokyo, Nishikori to play Tiafoe in farewell",
           "Sports News, Transfers, Scores | Watch Live Sport",
-          "ATP Tokyo 2026 Preview – Players, Prize Money, Schedule for Japan Open",
-          "What Carlos Alcaraz can achieve for the first time in over 30 years at the 2026 Japan Open"
+          "How to watch the men’s Rakuten Japan Open Tennis Championships: Streaming options for the Round of 32"
         ]
       }
     ],
@@ -57934,6 +57950,151 @@
       "world"
     ],
     "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "fortnite": {
+    "slug": "fortnite",
+    "name": "fortnite",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "FNAF Fortnite Bundle Revealed: All Skins, Prices and Release Date",
+          "‘Fortnite’ Getting ‘Obsession’ Skins For Fortnitemares In Record Turnaround Time",
+          "New 'Fortnitemares' Cinematic Trailer Teases 'Obsession' and Fully Reveals Freddy Krueger!"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
+  },
+  "alexander-zverev": {
+    "slug": "alexander-zverev",
+    "name": "alexander zverev",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Alexander Zverev names the young ATP player who he thinks will be ‘unbelievable’ by 2028",
+          "October 1, 2026: Jelena Ostapenko vs Paula Badosa: Set 2 Winner Tennis Prediction Market",
+          "China Open Previews and Predictions: Griekspoor vs. Rublev and Tien vs. Hurkacz"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
+  },
+  "adele-zaikman": {
+    "slug": "adele-zaikman",
+    "name": "adele zaikman",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "‘Dancing with the Stars: The Next Pro’ Stars Adele Zaikman and Allen Genkin Confirm Relationship",
+          "New DWTS pro shocks fans by announcing relationship with fellow DWTS: The Next Pro contestant",
+          "DWTS: Next Pro Winner Adele Zaikman Is Dating This Fellow Dancer"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
+  },
+  "التأمينات-الاجتماعية": {
+    "slug": "التأمينات-الاجتماعية",
+    "name": "التأمينات الاجتماعية",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|sa",
+        "date": "2026-10-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "استرداد ديون التأمين بقوة وحماية حقوق العمال.",
+          "يقوم حي دونغ نغاك بنشر لوائح جديدة بشأن قانون العمل والنقابات العمالية.",
+          "وزارة العدل تنظم ورشة تعريفية بقانون التأمينات الاجتماعية ولائحته التنفيذية"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 1000,
+    "category": "شخصية"
+  },
+  "axar-patel": {
+    "slug": "axar-patel",
+    "name": "axar patel",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|sa",
+        "date": "2026-10-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Jadeja or Axar? India to make 'utility' decision ahead of 2027 World Cup",
+          "Jadeja’s relevance has faded, and he is no longer India’s Mr Utility",
+          "'He's very much in our plans': Ravindra Jadeja ‘in mix’ for 2027 ODI World Cup, says batting coach"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 500,
     "category": "رياضة"
   }
 }

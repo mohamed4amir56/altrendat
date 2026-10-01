@@ -3894,10 +3894,11 @@
         "traffic": "+25000",
         "traffic_num": 25000,
         "category": "طقس",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "انكسار الحرارة ورياح تلطف الأجواء.. تفاصيل طقس الأيام القادمة في مصر",
-          "طقس مصر من الجمعة إلى الثلاثاء.. أجواء حارة نهارًا وشديدة الحرارة جنوبًا"
+          "الأمطار تعود.. تفاصيل حالة الطقس اليوم الأربعاء 30 سبتمبر 2026",
+          "«الأرصاد»: طقس حار وفرص لأمطار خفيفة اليوم الأربعاء",
+          "الأرصاد تكشف تفاصيل طقس الخميس وحالة البحرين ودرجات الحرارة بالمدن"
         ]
       }
     ],
@@ -17243,14 +17244,28 @@
           "Ty France, Mason Miller Among 7 Padres' All-MLB Nominees",
           "Padres's Strong Bullpen Could Carry Them Throughout Playoffs"
         ]
+      },
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "2026 Cubs Playoff Heroes and Goats: Seiya Suzuki is the Superhero vs. the Padres",
+          "Cubs Slugger Has Beaten Mason Miller’s Slider. Will He See It Again?"
+        ]
       }
     ],
-    "last_seen": "2026-09-30",
-    "total": 2,
+    "last_seen": "2026-10-01",
+    "total": 3,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 5000,
     "category": "رياضة"
   },
   "santos-laguna": {
@@ -52554,14 +52569,14 @@
         "date": "2026-10-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "البديل جاهز.. أزمة مالية لمنتخب غانا تلغي وديته مع المغرب",
-          "رسميا.. المغرب يواجه مالي وديًا بعد اعتذار غانا",
-          "المنتخب الوطني يواجه نظيره المالي وديا بطنجة بدلا من المنتخب الغاني"
+          "تصفيات كأس إفريقيا للأقل من 20 سنة (دورة اتحاد شمال إفريقيا): تشكيلة المنتخب الوطني أمام الجزائر",
+          "تصفيات شمال إفريقيا - المغرب تحقق الفوز الأول وتخطف الصدارة بثلاثية أمام الجزائر",
+          "أشبال الأطلس يهزمون المنتخب الجزائري بثلاثية في تصفيات شمال إفريقيا"
         ]
       }
     ],
@@ -52570,7 +52585,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "رياضة"
   },
   "الهيئة-العامة-للنقل": {
@@ -53883,8 +53898,8 @@
         "publishable": true,
         "headlines": [
           "ما القنوات الناقلة لمباراة الأرجنتين وبوليفيا الودية؟ وكيف تشاهدها عبر الإنترنت؟",
-          "خليفة ميسي.. تقييم استثنائي لنيكو باز بعد تألقه في ودية الأرجنتين وبوليفيا",
-          "هدف لاوتارو مارتينيز في مرمي بوليفيا .. مباراة ودية"
+          "قائد الأرجنتين الجديد يسجل في اكتساح بوليفيا وديًا برباعية نظيفة (فيديو)",
+          "هدف الارجنتين الثالث في مرمي بوليفيا"
         ]
       },
       {
@@ -53925,11 +53940,11 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "Argentina’s post-Messi era begins against Bolivia, future of No. 10 jersey discussed - World - Sports",
           "'The energy is still the same!' – Lautaro Martinez speaks out after firing Argentina to 4-0 win",
-          "Argentina vs Bolivia match lineup | Friendlies · 1 Oct 2026"
+          "Licensable picture: International Friendly - Argentina v Bolivia"
         ]
       },
       {
@@ -54582,8 +54597,8 @@
         "publishable": false,
         "headlines": [
           "Argentina goleó a Bolivia en el arranque de la era post-Messi: reviví lo mejor",
-          "De Inglaterra a Bolivia: Lautaro Martínez volvió a meterla",
-          "¿Por qué no juega Lionel Messi en el amistoso entre Argentina y Bolivia?"
+          "En vivo: Cuti Romero ganó de cabeza y Argentina golea 3-0 a Bolivia en Córdoba",
+          "De Inglaterra a Bolivia: Lautaro Martínez volvió a meterla"
         ]
       }
     ],
@@ -55726,7 +55741,7 @@
         "headlines": [
           "عبداللطيف جميل للسيارات - لكزس تدشن حقبة جديدة من الفخامة مع وصول سيارة ES الجديدة كلياً",
           "لكزس الساير تفتتح فصلا جديدا في عالم السيارات الكهربائية بالكويت",
-          "أسعار ومواصفات لكزس LC 2026 في المملكة"
+          "تم تسريب مواصفات سيارة لكزس ES50e قبل إطلاقها في فيتنام."
         ]
       }
     ],
@@ -56127,13 +56142,13 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
-        "category": "عام",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
-          "Intempéries: deux départements du Sud en vigilance rouge pour pluie-inondations",
           "Premier épisode cévenol : alerte rouge aux fortes pluies et orages",
+          "Episode méditerranéen remarquable dans le Sud-Est : attention aux pluies et inondations",
           "« Le danger des épisodes méditerranéens, ce sont les crues éclair : tout déborde très vite »"
         ]
       }
@@ -56143,8 +56158,8 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
-    "category": "عام"
+    "peak_traffic": 5000,
+    "category": "فن ومشاهير"
   },
   "flash-flood-warning": {
     "slug": "flash-flood-warning",
@@ -56272,8 +56287,8 @@
         "date": "2026-10-01",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "20000+",
-        "traffic_num": 20000,
+        "traffic": "+20500",
+        "traffic_num": 20500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -56288,7 +56303,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 20000,
+    "peak_traffic": 20500,
     "category": "رياضة"
   },
   "بقيق": {
@@ -56448,10 +56463,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "فن ومشاهير",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Wild Card series should remind Cubs why Adrian Morejon is worth splurging on this offseason"
+          "Wild Card series should remind Cubs why Adrian Morejon is worth splurging on this offseason",
+          "Padres 8-0 Cubs (Sep 29, 2026) Final Score",
+          "Cubs-Padres NL Wild Card Series Game 2: LIVE on Peacock/NBCSN"
         ]
       }
     ],
@@ -56461,7 +56478,7 @@
       "world"
     ],
     "peak_traffic": 500,
-    "category": "فن ومشاهير"
+    "category": "رياضة"
   },
   "كأس-الخليج-العربي": {
     "slug": "كأس-الخليج-العربي",
@@ -56537,8 +56554,8 @@
         "publishable": false,
         "headlines": [
           "Student dies after falling from building at high school in Highland Park",
-          "Death investigation at Franklin High School in Highland Park prompts lockdown",
-          "Student at Franklin High School dies after fourth-floor fall: LAPD"
+          "Investigation underway after student dies in fall from balcony at Highland Park high school",
+          "Death investigation at Franklin High School in Highland Park prompts lockdown"
         ]
       }
     ],
@@ -56576,5 +56593,92 @@
     ],
     "peak_traffic": 500,
     "category": "عام"
+  },
+  "nlds-schedule-2026": {
+    "slug": "nlds-schedule-2026",
+    "name": "nlds schedule 2026",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Who should the Dodgers be rooting for in the Wild Card Series?",
+          "“I Would Prefer”: Dave Roberts Reveals Dodgers’ Wish Ahead of Challenging Playoff Conditions",
+          "Dodgers Dugout: Answering a few questions about the playoffs"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "فن ومشاهير"
+  },
+  "mlb-bracket-2026": {
+    "slug": "mlb-bracket-2026",
+    "name": "mlb bracket 2026",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "MLB playoffs 2026: First-look preview of division series matchups",
+          "What you need to know about the Division Series matchups",
+          "How to Watch the 2026 NLDS on DIRECTV: Schedule, Channels and Times"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "outlook": {
+    "slug": "outlook",
+    "name": "outlook",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|sa",
+        "date": "2026-10-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+          "Watch AI Boom Powers Micron Earnings, OpenAI Blames Moonshoot for Data Extraction",
+          "Micron's AI-fueled revenue forecast blows past estimates, backlog swells"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 500,
+    "category": "اقتصاد"
   }
 }

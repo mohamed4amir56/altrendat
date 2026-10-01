@@ -2492,6 +2492,64 @@ def build_gold_news_api(days_dict):
     return len(gold_feed)
 
 
+def build_trends_feed(days_dict, hours=48, limit=60):
+    """trends-feed.json: كل أخبار آخر hours ساعة من كل الفئات، لإشعارات Goldex فقط.
+
+    gold-news.json يبقى سياسة واقتصاد وذهب (هو شاشة الأخبار في التطبيق). أما
+    الإشعار فيُرسل الأقوى بحثًا أيًّا كانت فئته، رياضة أو فن (قرار صاحب التطبيق
+    2026-10-01)، فيقرأ البوت الملفين ويختار. نفس شكل عناصر gold-news.json، فلا
+    يتغير شيء في قراءة البوت، ومعها traffic للترتيب.
+    """
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
+    items, seen = [], set()
+    for (key, day), cfg in days_dict.items():
+        cname = cfg.get("country_name", key)
+        is_en = key == "world" or cfg.get("lang") == "en"
+        for t in cfg.get("trends", []):
+            art = t.get("article")
+            if not art or not art.get("body"):
+                continue
+            pub = news_time(t, cfg)
+            try:
+                when = datetime.fromisoformat(pub.replace("Z", "+00:00"))
+            except Exception:
+                continue
+            if when < cutoff:
+                continue
+            slug = entities.slugify(t["title"])
+            if (key, slug) in seen:
+                continue
+            seen.add((key, slug))
+            headline = art.get("headline") or t.get("title", "")
+            img = gold_news_image(t, art, is_en)
+            canonical = f"{BASE}/{key}/{day}/{slug}/"
+            items.append({
+                "id": f"{key}-{day}-{slug}",
+                "title": headline,
+                "detail": art.get("summary") or headline,
+                "categoryKey": "cat_trend",
+                "category": t.get("category", ""),
+                "icon": t.get("icon", "🔥"),
+                "publishedAt": pub,
+                "source": f"Altrendat • {cname}" if is_en else f"التريندات • {cname}",
+                "sourceUrl": canonical,
+                "url": canonical,
+                "image": img["image"],
+                "thumb": img["thumb"],
+                "country": key,
+                "about": "" if is_en else story_country(headline, art.get("summary", ""),
+                                                        " ".join(art.get("tags") or [])),
+                "lang": "en" if is_en else "ar",
+                "traffic": t.get("traffic", ""),
+            })
+    items.sort(key=lambda x: x["publishedAt"], reverse=True)
+    items = items[:limit]
+    with open(os.path.join(OUT, "trends-feed.json"), "w", encoding="utf-8") as f:
+        json.dump({"updated_at": datetime.now(timezone.utc).isoformat(),
+                   "total": len(items), "items": items}, f, ensure_ascii=False, indent=2)
+    return len(items)
+
+
 COUNTRIES = {}
 
 
@@ -2609,6 +2667,7 @@ def main():
     all_days = [(k, c) for k, entries in by_country.items() for _, c in entries]
     n_feed = build_feed(all_days) + build_feed(all_days, english=True)
     n_gold = build_gold_news_api(days)
+    n_notify = build_trends_feed(days)   # إشعارات Goldex: كل الفئات
     build_404()
     build_en_redirect()
 
@@ -2662,7 +2721,7 @@ def main():
           str(len(jobs.GUIDES)) + " دليل وظائف")
     print("  " + str(n_map) + " رابطًا في sitemap.xml · " + str(n_news) +
           " في sitemap-news.xml · " + str(n_feed) + " في feed.xml · " +
-          str(n_gold) + " في gold-news.json")
+          str(n_gold) + " في gold-news.json · " + str(n_notify) + " في trends-feed.json")
     print("  " + str(n_stubs) + " تحويلًا لروابط لم تعد صفحات")
     print("  النطاق المستخدم: " + BASE)
 

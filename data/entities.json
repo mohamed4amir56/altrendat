@@ -1156,8 +1156,8 @@
         "date": "2026-10-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -1176,9 +1176,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "روبيو طالب وفد إيران بمغادرة أميركا بعد تعثر المفاوضات.. مسؤول يكشف",
-          "«توبيخ دبلوماسي»... روبيو «طرد» الوفد الإيراني من أميركا بعد تعثر المفاوضات",
-          "إيران تعلق على تقارير \"طرد بعثتها من نيويورك\""
+          "\"توبيخ دبلوماسي\".. روبيو طالب الوفد الإيراني في الأمم المتحدة بالمغادرة فورا",
+          "إيران تعلق على تقارير \"طرد بعثتها من نيويورك\"",
+          "روبيو طالب وفد إيران بمغادرة أميركا بعد تعثر المفاوضات.. مسؤول يكشف"
         ]
       }
     ],
@@ -52943,7 +52943,7 @@
         "headlines": [
           "مجدي الهواري وغادة عادل يحتفلان بخطوبة ابنتهما في أجواء عائلية (فيديو)",
           "صور| رقص غادة عادل ومجدي الهواري في حفل خطوبة ابنتهما",
-          "غادة عادل تحتفل بخطوبة ابنتها في أجواء عائلية"
+          "تفاصيل إطلالة زوجة مجدى الهوارى"
         ]
       }
     ],
@@ -53545,11 +53545,11 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "شخصية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "تعرف على مشروعات الصرف الصحى بالغريزات والجلاوية ضمن «حياة كريمة» بسوهاج",
-          "رئيس «مياه أسيوط» يتفقد أعمال تنفيذ التوصيلات المنزلية للصرف الصحي بقرية بني عدي",
-          "الإسكان: مشروعان لتحسين خدمات الصرف الصحي في المقطم وتوسعات شرق القاهرة"
+          "قطع المياه عن عدة مناطق بحلوان والمعادى لمدة 12 ساعة.. الجمعة المقبلة",
+          "كسر بخط مياه قطر 1000 مم يقطع الخدمة عن 8 مناطق بحلوان لمدة 12 ساعة",
+          "انقطاع المياه في حلوان اليوم.. 9 مناطق متأثرة ورقم طلب سيارات المياه المجانية"
         ]
       }
     ],
@@ -56653,8 +56653,23 @@
         "date": "2026-10-01",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Sri Lanka and Bangladesh advance as rain washes out cricket again",
+          "India vs Sri Lanka, Asian Games 2026 cricket semi-finals: Schedule and watch IND vs SL live streaming and telecast",
+          "Samson: 'Small margins for error' in T20 cricket"
+        ]
+      },
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -56665,11 +56680,12 @@
       }
     ],
     "last_seen": "2026-10-01",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "sa"
+      "sa",
+      "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "nlds-schedule-2026": {
@@ -57035,9 +57051,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "October 1, 2026: Elena Rybakina vs Alina Charaeva: Set 1 Winner Tennis Prediction Market",
+          "October 1, 2026: Marie Bouzkova vs Kimberly Birrell: Set 1 Winner Tennis Prediction Market",
           "China Open Previews and Predictions: Griekspoor vs. Rublev and Tien vs. Hurkacz",
-          "October 1, 2026: Tallon Griekspoor vs Andrey Rublev: Game Spread Tennis Prediction Market"
+          "October 1, 2026: Alexander Bublik vs Jakub Mensik: Game Spread Prediction Market"
         ]
       }
     ],
@@ -57146,14 +57162,14 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+1200",
-        "traffic_num": 1200,
+        "traffic": "+1400",
+        "traffic_num": 1400,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "All Whites captain Chris Wood guarded on World Cup views as he joins team in Japan",
-          "New Zealand Panama Soccer",
-          "All Whites captain coy on Fifa World Cup verdict, ahead of NZ football review"
+          "Broadcast Information For All Whites and Ford Football Ferns Fixtures",
+          "International Preview for September",
+          "Marcador en vivo Panamá vs Nueva Zelanda: Ben Waine pone a prueba la defensa centroamericana."
         ]
       }
     ],
@@ -57162,7 +57178,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1200,
+    "peak_traffic": 1400,
     "category": "رياضة"
   },
   "india-national-cricket-team-vs-sri-lanka-national-cricket-team-match-scorecard": {
@@ -57175,8 +57191,8 @@
         "date": "2026-10-01",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "+133000",
-        "traffic_num": 133000,
+        "traffic": "100000+",
+        "traffic_num": 100000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -57191,7 +57207,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 133000,
+    "peak_traffic": 100000,
     "category": "رياضة"
   },
   "jasprit-bumrah": {
@@ -57204,14 +57220,13 @@
         "date": "2026-10-01",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "+6000",
-        "traffic_num": 6000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Sri Lanka and Bangladesh advance as rain washes out cricket again",
-          "Samson: 'Small margins for error' in T20 cricket",
-          "Where to watch India vs. Sri Lanka live stream, TV channel, start time and lineups for Asian Games 2026 semi-final"
+          "Playing XI - IND vs SL 2nd Semi-Final | Asian Games Men's Cricket Competition Squad",
+          "2nd Semi-Final, Nisshin, October 01, 2026, Asian Games Men's Cricket Competition"
         ]
       }
     ],
@@ -57220,7 +57235,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 6000,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "chatgpt": {
@@ -57383,5 +57398,92 @@
     ],
     "peak_traffic": 200,
     "category": "شخصية"
+  },
+  "valve-deadlock-development-update": {
+    "slug": "valve-deadlock-development-update",
+    "name": "valve deadlock development update",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Deadlock City Never Sleeps Update Adds 6 New Heroes and Makes Numerous Map and UI Changes",
+          "Valve Rolls Out Huge Update for Hero Shooter Deadlock as Game Hits All-Time Peak",
+          "‘Deadlock’ Shatters Playercount Records After ‘City Never Sleeps’ Update"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "تقنية"
+  },
+  "sahan-arachchige": {
+    "slug": "sahan-arachchige",
+    "name": "sahan arachchige",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|sa",
+        "date": "2026-10-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "India vs Sri Lanka, 2nd Semi-Final, Asian Games 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in USA & Canada",
+          "Rain stays away as India and Sri Lanka look for fair contest to enter final",
+          "Sri Lanka bowl first in semi final clash against India"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "shivam-dube": {
+    "slug": "shivam-dube",
+    "name": "shivam dube",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|sa",
+        "date": "2026-10-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Vaibhav Sooryavanshi to replace Tilak Varma or Shivam Dube in ‘six months’, predicts ex-India cricketer",
+          "Tilak Varma or Shivam Dube out for Vaibhav Sooryavanshi? Mohammad Kaif's bold prediction faces a hard statistical test | Cricket",
+          "Not Samson! Vaibhav Sooryavanshi Predicted To Replace 23-Year-Old India Star 'In Six Months'"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
   }
 }

@@ -374,13 +374,19 @@ def _call_gemini(sys_prompt, schema, messages):
     return json.loads(text), text
 
 
+GEMINI_OFF = [False]       # بعد رفض حصة/رصيد لا نعيد المحاولة في بقية التشغيلة
+
+
 def _call(client, sys_prompt, schema, messages):
-    if os.environ.get("GEMINI_API_KEY") and os.environ.get("WRITER_PROVIDER", "gemini") == "gemini":
+    if (os.environ.get("GEMINI_API_KEY") and not GEMINI_OFF[0]
+            and os.environ.get("WRITER_PROVIDER", "gemini") == "gemini"):
         try:
             return _call_gemini(sys_prompt, schema, messages)
         except Exception as e:                         # حصة، شبكة، JSON مكسور: Claude يكمل
             RUN_USAGE["g_errors"] += 1
             LAST_GEMINI_ERROR[0] = (type(e).__name__ + ": " + str(e))[:300]
+            if any(c in LAST_GEMINI_ERROR[0] for c in ("HTTP 402", "HTTP 429", "HTTP 401", "HTTP 403")):
+                GEMINI_OFF[0] = True
             print("  ⚠ Gemini فشل، التحويل إلى Claude: " + LAST_GEMINI_ERROR[0][:160])
     return _call_claude(client, sys_prompt, schema, messages)
 

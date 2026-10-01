@@ -374,6 +374,7 @@ def _call_gemini(sys_prompt, schema, messages):
     return json.loads(text), text
 
 
+LAST_PROVIDER = [""]       # من كتب آخر رد ناجح: يُوسم به المقال
 GEMINI_OFF = [False]       # بعد رفض حصة/رصيد لا نعيد المحاولة في بقية التشغيلة
 
 
@@ -381,13 +382,16 @@ def _call(client, sys_prompt, schema, messages):
     if (os.environ.get("GEMINI_API_KEY") and not GEMINI_OFF[0]
             and os.environ.get("WRITER_PROVIDER", "gemini") == "gemini"):
         try:
-            return _call_gemini(sys_prompt, schema, messages)
+            out = _call_gemini(sys_prompt, schema, messages)
+            LAST_PROVIDER[0] = "gemini"
+            return out
         except Exception as e:                         # حصة، شبكة، JSON مكسور: Claude يكمل
             RUN_USAGE["g_errors"] += 1
             LAST_GEMINI_ERROR[0] = (type(e).__name__ + ": " + str(e))[:300]
             if any(c in LAST_GEMINI_ERROR[0] for c in ("HTTP 402", "HTTP 429", "HTTP 401", "HTTP 403")):
                 GEMINI_OFF[0] = True
             print("  ⚠ Gemini فشل، التحويل إلى Claude: " + LAST_GEMINI_ERROR[0][:160])
+    LAST_PROVIDER[0] = "claude"
     return _call_claude(client, sys_prompt, schema, messages)
 
 
@@ -459,6 +463,7 @@ def write_one(client, trend, country_name, is_en=False, country_key="world"):
             return {"rejected": "؛ ".join(issues)}
 
     article["_v"] = WRITER_VERSION
+    article["_by"] = LAST_PROVIDER[0]       # gemini أو claude، للمراجعة والمقارنة
     article["written_at"] = datetime.now(timezone.utc).isoformat()
     # صورة حرة الرخصة تخص الخبر: صاحبه أو أحد أعلامه من ويكيبيديا، أو صورة
     # تعبيرية تطابق موضوعه، وإلا لا شيء (فيُعرض كارت الموقع). لا صور صحف.

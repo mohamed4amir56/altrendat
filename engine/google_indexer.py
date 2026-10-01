@@ -1,13 +1,19 @@
 # -*- coding: utf-8 -*-
 """
-Google Indexing API — لصفحات الوظائف الحقيقية وحدها.
+Google Indexing API — إخطار جوجل بصفحات الموقع الجديدة.
 
-جوجل تسمح باستخدام هذه الواجهة فقط لصفحات فيها JobPosting (وظيفة حقيقية)
-أو بث مباشر (BroadcastEvent). استخدامها لأخبار عادية مخالف لشروطها وقد
-يوقف الوصول إليها. الأخبار تصل جوجل عبر sitemap.xml و sitemap-news.xml.
+قرار صاحب الموقع (2 أكتوبر 2026): يعود الإرسال لكل صفحات خريطة الموقع كما
+كان قبل 28 سبتمبر. من 28 سبتمبر اقتصر على صفحات الوظائف الموثقة (ولا
+توجد)، فلم يُرسل لجوجل شيء، وتزامن ذلك مع هبوط الظهور في Search Console.
 
-لذلك يرسل هذا السكربت فقط صفحات site/jobs/ التي فيها JobPosting موثّق
-(data-job-verified). ولا توجد حاليًا وظائف حقيقية منشورة، فلا يرسل شيئًا.
+للعلم: جوجل تخصص هذه الواجهة رسميًا لصفحات JobPosting والبث المباشر
+(BroadcastEvent)؛ إخطارها بصفحات أخرى قد يُتجاهل، وقد يوقف الوصول للواجهة.
+صاحب الموقع يعلم ذلك واختار الإرسال. والطريق الرسمي يعمل معه: الخرائط
+و WebSub (engine/indexnow.py). لا تُضاف بيانات JobPosting لصفحة ليست وظيفة.
+
+- يُرسل ما هو منشور فعلًا الآن فقط (من الخريطة المنشورة): هذه الخطوة تعمل
+  قبل حفظ التشغيلة ونشرها، وإخطار جوجل بصفحة لم تُنشر يجعلها تزور 404.
+- المقالات الأحدث أولًا: الحصة 200 رابط في اليوم، فالخبر الجديد قبل القديم.
 """
 import json
 import os
@@ -16,6 +22,7 @@ import time
 import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -68,20 +75,37 @@ def get_credentials():
 
 
 def urls_from_sitemap(base):
-    """صفحات الوظائف الحقيقية فقط: JobPosting موثّق في site/jobs/."""
-    jobs_dir = os.path.join(SITE, "jobs")
-    out = []
-    if not os.path.isdir(jobs_dir):
-        return out
-    for slug in sorted(os.listdir(jobs_dir)):
-        page = os.path.join(jobs_dir, slug, "index.html")
-        if not os.path.exists(page):
-            continue
-        with open(page, encoding="utf-8") as f:
-            text = f.read()
-        if '"JobPosting"' in text and "data-job-verified" in text:
-            out.append("{}/jobs/{}/".format(base, slug))
-    return out
+    """روابط خريطة الموقع المنشورة فعلًا الآن (لا المبنية في هذه التشغيلة ولم
+    تُنشر بعد)، وهي الصفحات المفهرسة فقط."""
+    req = urllib.request.Request(base + "/sitemap.xml",
+                                 headers={"User-Agent": "AltrendatBot/1.0 (+https://altrendat.com)"})
+    try:
+        with urllib.request.urlopen(req, timeout=25) as r:
+            root = ET.fromstring(r.read())
+    except Exception as e:
+        print("  ⚠ تعذّرت قراءة الخريطة المنشورة: " + type(e).__name__)
+        return []
+    ns = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+    return [el.text.strip() for el in root.iter(ns + "loc") if el.text]
+
+
+FRESH_DAYS = 2    # مقالات آخر يومين فقط: الحصة للخبر الجديد، والقديم تجده جوجل من الخريطة
+
+
+def article_day(url, base):
+    """يوم المقال من رابطه (/النسخة/YYYY-MM-DD/العنوان/)، أو "" لغير المقالات."""
+    parts = url[len(base):].strip("/").split("/")
+    if len(parts) == 3 and len(parts[1]) == 10 and parts[1][:2] == "20":
+        return parts[1]
+    return ""
+
+
+def send_order(url, base):
+    """ترتيب الإرسال: المقالات أولًا والأحدث يومًا قبل الأقدم، ثم باقي الصفحات."""
+    day = article_day(url, base)
+    if day:
+        return (0, "".join(chr(255 - ord(c)) for c in day))   # تاريخ تنازلي
+    return (1, url)
 
 
 def load_sent():
@@ -132,7 +156,7 @@ def main():
 
     all_urls = urls_from_sitemap(base)
     if not all_urls:
-        print("  ℹ لا وظائف حقيقية منشورة — لا شيء يُرسل لـ Indexing API.")
+        print("  ℹ لا روابط في الخريطة المنشورة — لا شيء يُرسل لـ Indexing API.")
         return 0
 
     creds = get_credentials()
@@ -145,17 +169,10 @@ def main():
     sent = load_sent()
     new_urls = [u for u in all_urls if u not in sent]
 
-    # أولوية الإرسال لمقالات الأخبار اليومية (الروابط ذات العمق)
-    def priority(u):
-        # المقالات تحوي تاريخ وتصنيف: أولوية عليا (1)، ثم صفحات الأيام (2)، ثم الباقي (3)
-        parts = u.strip("/").split("/")
-        if len(parts) >= 4:
-            return 1
-        elif len(parts) == 3:
-            return 2
-        return 3
-
-    new_urls.sort(key=priority)
+    # مقالات آخر يومين والصفحات الثابتة فقط؛ الأحدث أولًا (انظر send_order)
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=FRESH_DAYS)).strftime("%Y-%m-%d")
+    new_urls = [u for u in new_urls if not article_day(u, base) or article_day(u, base) >= cutoff]
+    new_urls.sort(key=lambda u: send_order(u, base))
     to_send = new_urls[:BATCH_LIMIT]
 
     print("  إجمالي الخريطة: " + str(len(all_urls)) + " · مرسل سابقاً: " + str(len(sent)) + " · بانتظار الإرسال: " + str(len(to_send)))

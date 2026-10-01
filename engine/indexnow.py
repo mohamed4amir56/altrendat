@@ -17,6 +17,8 @@ Google لا تدعمه، فتبقى خريطة الموقع و Search Console ط
 import json
 import os
 import sys
+import urllib.error
+import urllib.parse
 import urllib.request
 import uuid
 import xml.etree.ElementTree as ET
@@ -29,8 +31,25 @@ SITE = os.path.join(ROOT, "site")
 STATE = os.path.join(ROOT, "data", "indexnow_sent.json")
 KEYFILE = os.path.join(ROOT, "data", "indexnow_key.txt")
 
-ENDPOINT = "https://api.indexnow.org/IndexNow"
+# كل محرك بعنوانه: العنوان المشترك api.indexnow.org يرفض الطلب كله إن رفضه
+# محرك واحد (Bing ظل يرد 403 من 23 سبتمبر فلم يصل شيء لأحد). والمحركات
+# المشاركة تتبادل الروابط المقبولة فيما بينها.
+ENDPOINTS = [
+    ("Bing", "https://www.bing.com/indexnow"),
+    ("Yandex", "https://yandex.com/indexnow"),
+    ("Naver", "https://searchadvisor.naver.com/indexnow"),
+    ("Seznam", "https://search.seznam.cz/indexnow"),
+    ("Yep", "https://indexnow.yep.com/indexnow"),
+]
 BATCH = 10000   # الحد الأقصى لكل طلب
+
+# WebSub (PubSubHubbub): إخطار مركز جوجل العام بأن خلاصتي الموقع تحدّثتا. هو
+# الطريق الذي تذكره جوجل نفسها لاكتشاف جديد خلاصات RSS بسرعة (جوجل لا تدعم
+# IndexNow، و Indexing API عندها لصفحات الوظائف والبث فقط). الخلاصتان تعلنان
+# عن المركز بوسم rel="hub" (site.py).
+WEBSUB_HUB = "https://pubsubhubbub.appspot.com/"
+FEEDS = ("/feed.xml", "/world/feed.xml")
+UA = "AltrendatBot/1.0 (+https://altrendat.com)"
 
 
 def get_key():
@@ -77,7 +96,8 @@ def save_sent(sent):
         json.dump(sorted(sent), f, ensure_ascii=False, indent=1)
 
 
-def submit(base, key, urls):
+def submit(endpoint, base, key, urls):
+    """يرسل الروابط لمحرك واحد ويعيد كود الرد (200/202 = قُبل)."""
     host = base.split("//", 1)[-1].split("/", 1)[0]
     payload = {
         "host": host,
@@ -86,12 +106,40 @@ def submit(base, key, urls):
         "urlList": urls[:BATCH],
     }
     req = urllib.request.Request(
-        ENDPOINT,
+        endpoint,
         data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json; charset=utf-8"},
+        headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": UA},
         method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=25) as r:
+            return r.status
+    except urllib.error.HTTPError as e:
+        return e.code
+
+
+def live_urls(base):
+    """روابط خريطة الموقع المنشورة فعلًا الآن. هذه الخطوة تعمل قبل حفظ
+    التشغيلة ونشرها، فصفحات هذه التشغيلة ليست على الموقع بعد؛ إخطار المحرك
+    بها الآن يجعله يزور صفحة غير موجودة. تُرسل في التشغيلة التالية."""
+    req = urllib.request.Request(base + "/sitemap.xml", headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=25) as r:
-        return r.status
+        root = ET.fromstring(r.read())
+    ns = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+    return {el.text.strip() for el in root.iter(ns + "loc") if el.text}
+
+
+def ping_websub(base):
+    """يخطر مركز WebSub بتحديث الخلاصتين (الرد 204 = استلم)."""
+    data = urllib.parse.urlencode(
+        [("hub.mode", "publish")] + [("hub.url", base + f) for f in FEEDS]).encode("utf-8")
+    req = urllib.request.Request(
+        WEBSUB_HUB, data=data, method="POST",
+        headers={"Content-Type": "application/x-www-form-urlencoded", "User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=25) as r:
+            return r.status
+    except urllib.error.HTTPError as e:
+        return e.code
 
 
 def main():
@@ -145,16 +193,42 @@ def main():
         print("  لا جديد يُرسل ✓")
         return 0
 
+    # الفهرسة تحسين لا شرط — لا تُسقط التشغيلة بسببها
     try:
-        status = submit(base, key, new)
-        print("  أُرسل " + str(len(new)) + " رابطًا — الرد: " + str(status))
-        if status in (200, 202):
-            sent.update(new)
-            save_sent(sent)
+        live = live_urls(base)
     except Exception as e:
-        # الفهرسة تحسين لا شرط — لا تُسقط التشغيلة بسببها
-        print("  ⚠ تعذّر الإرسال: " + type(e).__name__ + ": " + str(e))
+        print("  ⚠ تعذّرت قراءة الخريطة المنشورة: " + type(e).__name__ + " — يؤجَّل للتشغيلة التالية")
         return 0
+    in_map = set(all_urls)
+    # المنشور الآن فقط؛ والروابط المحذوفة (تحويلات قديمة) ليست في الخريطة أصلًا
+    ready = [u for u in new if u in live or u not in in_map]
+    waiting = len(new) - len(ready)
+    if waiting:
+        print("  " + str(waiting) + " رابطًا لم يُنشر بعد — يُرسل في التشغيلة التالية")
+    if not ready:
+        return 0
+
+    accepted = []
+    for engine, endpoint in ENDPOINTS:
+        try:
+            status = submit(endpoint, base, key, ready)
+        except Exception as e:
+            status = type(e).__name__
+        ok = status in (200, 202)
+        print("  {} {}: {}".format("✓" if ok else "✗", engine, status))
+        if ok:
+            accepted.append(engine)
+    if accepted:
+        sent.update(ready)
+        save_sent(sent)
+        print("  أُرسل " + str(len(ready)) + " رابطًا إلى: " + "، ".join(accepted))
+    else:
+        print("  ⚠ لم يقبل أي محرك الإرسال — يُعاد في التشغيلة التالية")
+
+    try:
+        print("  WebSub (خلاصتا الموقع ← مركز جوجل): " + str(ping_websub(base)))
+    except Exception as e:
+        print("  ⚠ WebSub: " + type(e).__name__)
     return 0
 
 

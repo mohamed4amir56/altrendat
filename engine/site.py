@@ -24,6 +24,7 @@ import os
 import shutil
 import sys
 from datetime import datetime, timezone, timedelta
+from email.utils import format_datetime
 from itertools import zip_longest
 import re
 
@@ -48,6 +49,8 @@ SITE_NAME = config.SITE_NAME
 SITE_NAME_EN = config.SITE_NAME_EN
 ROBOTS_INDEX = "index, follow, max-image-preview:large, max-snippet:-1"
 ROBOTS_NOINDEX = "noindex, follow"
+# مركز WebSub العام من جوجل: تُعلن عنه الخلاصتان، ويُخطَر بعد كل نشر
+WEBSUB_HUB = "https://pubsubhubbub.appspot.com/"
 
 
 def indexed(country):
@@ -2211,10 +2214,18 @@ def build_feed(pairs, english=False):
         elif t.get("card"):
             img = '<enclosure url="{}/cards/{}" type="image/png"/>'.format(BASE, os.path.basename(t["card"]))
         cat = CAT_EN.get(t["category"], t["category"]) if english else t["category"]
+        # تاريخ النشر بصيغة RSS: به يعرف القارئ الآلي الجديد من القديم
+        try:
+            when = datetime.fromisoformat(pub.replace("Z", "+00:00"))
+            if when.tzinfo is None:
+                when = when.replace(tzinfo=timezone.utc)
+            pub_date = "<pubDate>{}</pubDate>".format(format_datetime(when))
+        except Exception:
+            pub_date = ""
         body.append(
-            "<item><title>{t}</title><link>{l}</link><guid>{l}</guid>"
+            "<item><title>{t}</title><link>{l}</link><guid>{l}</guid>{p}"
             "<description>{d}</description><category>{c}</category>{img}</item>".format(
-                t=E(art["headline"]), l=E(link), d=E(art.get("summary", "")),
+                t=E(art["headline"]), l=E(link), p=pub_date, d=E(art.get("summary", "")),
                 c=E(cat), img=img))
 
     if english:
@@ -2225,12 +2236,19 @@ def build_feed(pairs, english=False):
         title, home, desc, lang, path = (SITE_NAME, BASE + "/",
                                          "ما يبحث عنه الناس في مصر والسعودية",
                                          "ar", os.path.join(OUT, "feed.xml"))
+    # rel="hub": مركز WebSub الذي يُخطَر عند كل تحديث (engine/indexnow.py)، وهو
+    # طريق جوجل المعتمد لاكتشاف جديد الخلاصات بسرعة. rel="self": عنوان الخلاصة.
+    self_url = home + "feed.xml"
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
-           '<rss version="2.0"><channel>'
+           '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>'
            '<title>{s}</title><link>{h}</link>'
            '<description>{d}</description>'
-           '<language>{lang}</language>{items}</channel></rss>').format(
-        s=E(title), h=home, d=E(desc), lang=lang, items="".join(body))
+           '<language>{lang}</language>'
+           '<atom:link href="{self}" rel="self" type="application/rss+xml"/>'
+           '<atom:link href="{hub}" rel="hub"/>'
+           '{items}</channel></rss>').format(
+        s=E(title), h=home, d=E(desc), lang=lang, self=self_url, hub=WEBSUB_HUB,
+        items="".join(body))
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         f.write(xml)

@@ -2951,9 +2951,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "محمد صلاح يغادر إنجلترا للانضمام لتدريبات طرابزون سبور",
           "خطاب مفاجئ واستياء.. يلا كورة يكشف كواليس مغادرة عبد المنعم لمعسكر منتخب مصر",
-          "نيس يكشف سبب مغادرة محمد عبد المنعم معسكر منتخب مصر"
+          "محمد صلاح يغادر إنجلترا للانضمام لتدريبات طرابزون سبور",
+          "نيس يعلن مغادرة عبدالمنعم معسكر منتخب مصر حفاظًا على سلامته"
         ]
       }
     ],
@@ -6295,11 +6295,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "فن ومشاهير",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "كندة علوش تتعاقد على حكاية المتاهة ضمن مسلسل القصة الكاملة",
-          "ياسمينا العبد تشارك كندة علوش في عمليات السرقة ضمن أحداث «خمسين خمسين»",
-          "كندة علوش تكشف تفاصيل ظهور عمرو يوسف في «50/50»: «دايما معايا في كل مشروع»"
+          "كندة علوش تكشف تفاصيل ظهور عمرو يوسف في «50/50»: «دايما معايا في كل مشروع»",
+          "كندة علوش: أتمنى العودة إلى الدراما السورية بعمل قوي"
         ]
       }
     ],
@@ -9091,15 +9091,30 @@
           "Prince Harry & Meghan Markle Keep Falling Into One Royal ‘Trap’ After UK Return — Expert",
           "Prince Harry’s Six Impending Moments of Conflict With the Royals"
         ]
+      },
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "تعليم",
+        "publishable": false,
+        "headlines": [
+          "Paparazzi Spotted at Prince Archie and Princess Lilibet’s School in U.K.",
+          "Harry and Meghan blame ‘extraordinarily reckless’ paparazzi for security scare at children’s school",
+          "Prince Harry, Meghan Markle speak out after photographers allegedly spotted at Archie and Lilibet’s school"
+        ]
       }
     ],
-    "last_seen": "2026-09-29",
-    "total": 2,
+    "last_seen": "2026-10-01",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 5000,
-    "category": "عام"
+    "category": "تعليم"
   },
   "سعر-الذهب": {
     "slug": "سعر-الذهب",
@@ -16362,14 +16377,29 @@
           "التحالف: تدمير صاروخين باليستيين في خميس مشيط وجازان",
           "الدفاع المدني: سقوط شظايا اعتراض صاروخ باليستي في محافظة خميس مشيط نتج عنه أضرار مادية محدودة"
         ]
+      },
+      {
+        "key": "2026-10-02|sa",
+        "date": "2026-10-02",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "التحالف: تدمير صاروخين باليستيين في خميس مشيط وجازان",
+          "الدفاع المدني: سقوط شظايا اعتراض صاروخ باليستي في محافظة خميس مشيط نتج عنه أضرار مادية محدودة",
+          "عاجل| الدفاع المدني السعودي: أضرار مادية في خميس مشيط بعد سقوط شظايا"
+        ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 2,
+    "last_seen": "2026-10-02",
+    "total": 3,
     "countries": [
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "شخصية"
   },
   "وزارة-التعليم": {
@@ -25146,24 +25176,54 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "15,000+",
         "traffic_num": 15000,
-        "category": "حوادث وقضايا",
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Portugal, Man United, Real Madrid: Cristiano Ronaldo's long history of rows with coaches",
+          "Is this the end for 'betrayed' Ronaldo - and would Portugal miss him?",
+          "Jesus, FPF chief fail in airport bid to stop Ronaldo leaving Portugal camp, Marca reports"
+        ]
+      },
+      {
+        "key": "2026-10-02|eg",
+        "date": "2026-10-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "Is this the end for 'betrayed' Ronaldo - and would Portugal miss him?",
           "Cristiano Ronaldo leaves Portugal camp after coach says he'd be benched again",
-          "👀Jorge Jesus gets major backing after Cristiano scandal",
-          "Football Daily | An impressive new entry for the Cristiano Ronaldo catalogue of petulance"
+          "'Is this the end?' Ronaldo's future with Portugal unclear after veteran star leaves team - World - Sports"
+        ]
+      },
+      {
+        "key": "2026-10-02|sa",
+        "date": "2026-10-02",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Is this the end for 'betrayed' Ronaldo - and would Portugal miss him?",
+          "Cristiano Ronaldo leaves Portugal camp after coach says he'd be benched again",
+          "\"You old traitor coach\": overwhelming Saudi support for Cristiano and a fierce attack on Jesus"
         ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 5,
+    "last_seen": "2026-10-02",
+    "total": 7,
     "countries": [
       "eg",
       "sa",
       "world"
     ],
     "peak_traffic": 15000,
-    "category": "حوادث وقضايا"
+    "category": "رياضة"
   },
   "kanal-d": {
     "slug": "kanal-d",
@@ -27952,14 +28012,14 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "عام",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Saints RB Travis Etienne Jr. to sit with hamstring injury",
-          "Saints lose $47M free agent acquisition to injured reserve",
-          "Fleur-de-Links: Another Saints playmaker goes down with a hamstring injury"
+          "Saints putting RB Travis Etienne (hamstring) on IR",
+          "Saints put Travis Etienne on injured reserve",
+          "Travis Etienne went on injured reserve, three other Saints starters miss Thursday practice"
         ]
       }
     ],
@@ -59927,11 +59987,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "Washington Mystics vs Atlanta Dream Sep 27, 2026 Game Summary",
           "WNBA: Dream reach semifinals with Game 2 win over Mystics",
-          "Dream Mystics Basketball"
+          "Isobel tolls for Amoore's Washington Mystics in Dream sweep",
+          "Sonia Citron Points Leader in Washington Mystics vs. Atlanta Dream - Top Points"
         ]
       }
     ],
@@ -63790,14 +63850,14 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+79000",
-        "traffic_num": 79000,
+        "traffic": "+91000",
+        "traffic_num": 91000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Denmark 2-4 Portugal: Is this the end for 'betrayed' Ronaldo?",
-          "Cancelo produces exquisite chip to break the deadlock",
-          "Licensable picture: Denmark V Portugal: Group Stage - UEFA Nations League"
+          "Denmark vs Portugal: UEFA Nations League stats & head-to-head",
+          "Portugal edge Denmark in Ronaldo’s absence",
+          "Denmark vs Portugal: LIVE – UEFA Nations League"
         ]
       }
     ],
@@ -63806,7 +63866,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 79000,
+    "peak_traffic": 91000,
     "category": "رياضة"
   },
   "wales-vs-norway": {
@@ -63819,14 +63879,14 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+9000",
-        "traffic_num": 9000,
+        "traffic": "27,000+",
+        "traffic_num": 27000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Wales 2-1 Norway, Denmark 2-4 Portugal, Ireland game interrupted by Palestine protests: Nations League – live",
           "Wales v Norway, Denmark v Portugal, Germany v Serbia: Nations League – live",
-          "Wales vs. Norway in Nations League 2026: TV channel, how to watch in UK, kick-off time, live stream, referee, line-ups"
+          "Ireland game interrupted by Palestine protests, Wales v Norway, Denmark v Portugal: Nations League – live",
+          "Neco Williams fires revitalised Wales to fightback win against 10-man Norway"
         ]
       },
       {
@@ -63851,7 +63911,7 @@
       "eg",
       "world"
     ],
-    "peak_traffic": 9000,
+    "peak_traffic": 27000,
     "category": "رياضة"
   },
   "germany-vs-serbia": {
@@ -63864,14 +63924,14 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "12,000+",
-        "traffic_num": 12000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Germany vs Serbia: UEFA Nations League stats & head-to-head",
-          "Serge Gnabry to start over Lennart Karl for Germany per report",
-          "Klopp: This is how I will choose Kimmich's successor, and I have no time for stupidity"
+          "Germany 2-0 Serbia: Florian Wirtz scores as Jurgen Klopp clinches first win as Germany boss",
+          "2026 UEFA Nations League | Predicted Germany XI vs Serbia- Can Germany get its first win under Klopp?",
+          "Germany player ratings vs Serbia: Florian Wirtz pulls the strings as clinical hosts dominate at the Allianz Arena"
         ]
       },
       {
@@ -63911,7 +63971,7 @@
       "eg",
       "world"
     ],
-    "peak_traffic": 12000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "flash-flooding": {
@@ -63958,8 +64018,8 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Luneau signs six-year contract with Ducks; has 14 games of NHL experience",
           "Tristan Luneau agrees to six-year, $43.2-million extension with Ducks",
+          "Luneau signs six-year contract with Ducks; has 14 games of NHL experience",
           "Ducks sign D Luneau to six-year, $43.2 million contract extension"
         ]
       }
@@ -63987,19 +64047,35 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Greece vs Netherlands: UEFA Nations League stats & head-to-head",
+          "Greece 2-2 Netherlands: Christos Tzolis injury, Dutch draw after fightback",
           "'Why can't we do it in Greece?' – Ivan Jovanovic issues bold home challenge before Netherlands test",
           "How to Watch Greece vs. Netherlands on TV, Live Stream"
         ]
+      },
+      {
+        "key": "2026-10-02|eg",
+        "date": "2026-10-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Licensable picture: UEFA Nations League - Group A2 - Greece v Netherlands",
+          "Xavi's Netherlands overcome torrid first half to snatch late draw in Greece",
+          "APTOPIX Greece Netherlands Nations League Soccer"
+        ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 1,
+    "last_seen": "2026-10-02",
+    "total": 2,
     "countries": [
+      "eg",
       "world"
     ],
     "peak_traffic": 9000,
-    "category": "حوادث وقضايا"
+    "category": "رياضة"
   },
   "man-city-vs-real-madrid": {
     "slug": "man-city-vs-real-madrid",
@@ -64017,8 +64093,8 @@
         "publishable": true,
         "headlines": [
           "Women's Champions League: Mead goes close with Man City and Real Madrid level",
-          "Man City Women vs Real Madrid Women LIVE! Women's Champions League match updates, news and score",
-          "Britain Women's Champions League Soccer"
+          "Manchester City 1-1 Real Madrid: Women’s Champions League – as it happened",
+          "Man City Women vs Real Madrid Women LIVE! Women's Champions League match updates, news and score"
         ]
       },
       {
@@ -64046,9 +64122,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "(1) Manchester City v Real Madrid: Women’s Champions League – live",
+          "Manchester City 1-1 Real Madrid: Women’s Champions League – as it happened",
           "Licensable picture: UEFA Women's Champions League - Manchester City v Real Madrid",
-          "Britain Women's Champions League Soccer"
+          "Women's Champions League: Mead goes close with Man City and Real Madrid level"
         ]
       }
     ],
@@ -64071,14 +64147,14 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
           "Nike stock drops as revenue falls short of estimates, China sales plunge again",
-          "Nike stock sinks as revenue misses estimates",
-          "Nike quarterly sales miss estimates as China weakness, competition weigh"
+          "What's gone wrong at Nike? How the world's sportswear giant lost its mojo",
+          "Nike stock sinks on disappointing Q1 earnings results: Analyst takeaways"
         ]
       }
     ],
@@ -64087,7 +64163,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 20000,
     "category": "اقتصاد"
   },
   "retirement-age": {
@@ -64221,7 +64297,8 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Judge dismisses sexual assault case against Trailer Park Boys star Mike Smith",
+          "‘Trailer Park Boys’ actor Mike Smith has sexual assault charge dismissed",
+          "Mike Smith, Bubbles on ‘Trailer Park Boys,’ Has Sexual Assault Charge Dropped",
           "Sexual assault trial for ‘Trailer Park Boys’ actor Mike Smith dismissed"
         ]
       }
@@ -64515,14 +64592,29 @@
           "مفاجأة.. خيسوس يستعد للاعتذار لـ كريستيانو رونالدو",
           "ما هي العقوبة المحتملة لرونالدو بعد مغادرة معسكر البرتغال؟"
         ]
+      },
+      {
+        "key": "2026-10-02|eg",
+        "date": "2026-10-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "استطلاع يفجر مفاجأة بشأن رونالدو.. ماذا يريد مشجعو البرتغال؟",
+          "جيسوس عن أزمة رونالدو: ضميري مرتاح.. وأتحدث بعد مواجهة الدنمارك",
+          "تقارير: خيسوس يعتزم تقديم اعتذار علني لرونالدو"
+        ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 1,
+    "last_seen": "2026-10-02",
+    "total": 2,
     "countries": [
       "eg"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "رياضة"
   },
   "ألمانيا-ضد-صربيا": {
@@ -64600,8 +64692,8 @@
         "publishable": false,
         "headlines": [
           "«خيانة خيسوس» وراء رحيل رونالدو… وعقوبة الـ6 أشهر تنتظره",
-          "قبل رونالدو وبعده.. كيف غيّر الدون خوارزميات كرة القدم",
-          "\"لن أهرب\".. جيسوس يتوعد كريستيانو رونالدو"
+          "\"لن أهرب\".. جيسوس يتوعد كريستيانو رونالدو",
+          "في غياب رونالدو.. رافائيل لياو يرتدي القميص رقم 7 مع البرتغال لأول مرة"
         ]
       }
     ],
@@ -64644,8 +64736,8 @@
         "publishable": true,
         "headlines": [
           "التحالف: ميليشيا الحوثي استهدفت محطة طيبة لتوزيع الكهرباء في المدينة المنورة",
-          "جمعية أهل الحديث المركزية بباكستان: استهداف المدينة المنورة أمر مرفوض ومدان بأشد العبارات",
-          "الحوثيون يستهدفون محطة كهرباء بالمدينة المنورة"
+          "الحوثيون يستهدفون محطة كهرباء بالمدينة المنورة",
+          "الأردن يدين استهداف ميليشيا الحوثي محطة كهرباء في المدينة المنورة"
         ]
       }
     ],
@@ -64711,14 +64803,14 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "4,000+",
-        "traffic_num": 4000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "Ireland encounter with Austria paused by fan protests and pitch invaders over Israel fixtures",
-          "Ireland vs Austria preview: Nations League test in Dublin",
-          "Licensable picture: Ireland v Austria - UEFA Nations League, League B"
+          "How the Irish players rated — Troy Parrott shines in draw against Austria",
+          "Video | TOD and Stephen Kelly pre Austria | RTÉ"
         ]
       }
     ],
@@ -64728,7 +64820,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 4000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "غراهام-أرنولد": {
@@ -64834,9 +64926,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "كواليس قرار منتخب أيرلندا حول مواجهة الكيان الصهيوني",
-          "دوري الأمم الأوروبية: مدرب إيرلندا يؤكد خوض المباراة الثانية مع إسرائيل",
-          "دعوات لمقاطعة إسرائيل.. احتجاجات بالأعلام الفلسطينية تعطل مباراة أيرلندا والنمسا"
+          "منتخب كوسوفو يحقق انتصارً صعباً على أيرلندا",
+          "إيرلندا الشمالية والمجر يتعادلان سلبيا في دوري الأمم الأوروبية",
+          "موعد مباراة أيرلندا والنمسا في دوري الأمم الأوروبية"
         ]
       },
       {
@@ -64938,8 +65030,8 @@
         "publishable": false,
         "headlines": [
           "Conrad ‘Cronos’ Lant, frontman of UK heavy metal band Venom, dies aged 63",
-          "Venom vocalist Conrad ‘Cronos’ Lant has died aged 63",
-          "Original VENOM Guitarist JEFF 'MANTAS' DUNN Pays Tribute To CONRAD 'CRONOS' LANT: 'We Changed The History Of Metal As We Know It'"
+          "Venom Singer and Bassist Conrad ‘Cronos’ Lant Dies at 63: ‘His Voice Will Never Fade,’ Says Bandmates",
+          "Conrad ‘Cronos’ Lant, Singer and Bassist of Black Metal Pioneers Venom, Dead at 63"
         ]
       }
     ],
@@ -64990,13 +65082,13 @@
         "date": "2026-10-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "Weekend Predictions: Falcons look to keep flying high at Saints",
-          "Saints look to relive 2006 MNF magic vs. Falcons",
+          "Falcons legend makes prediction ahead of MNF game vs. Saints",
           "Monday Night Football predictions, picks, odds for Saints vs Falcons"
         ]
       }
@@ -65006,7 +65098,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "aja-wilson-suspension": {
@@ -65021,12 +65113,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "رياضة",
+        "category": "عام",
         "publishable": false,
         "headlines": [
           "Source - No discipline for A'ja Wilson over fan confrontation",
-          "WNBA reveals why A'ja Wilson was not ejected for approaching Fever fan during playoff game",
-          "Sophie Cunningham reacts to A'ja Wilson's finger pointing at Indiana Fever fan"
+          "WNBA veteran Natasha Cloud smears Fever fan with wild domestic abuse claim over pointing finger at A'ja Wilson",
+          "A’ja Wilson will not face repercussions from WNBA for interaction with fan - The Athletic"
         ]
       }
     ],
@@ -65036,7 +65128,7 @@
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "رياضة"
+    "category": "عام"
   },
   "supplemental-nutrition-assistance-program-changes": {
     "slug": "supplemental-nutrition-assistance-program-changes",
@@ -65141,8 +65233,8 @@
         "publishable": false,
         "headlines": [
           "تسلسل زمني.. فتوح والزمالك من العرض الليبي إلى القرار النهائي",
-          "مصدر مقرب من فتوح : الأولوية ستكون للزمالك في الدورى المصرى",
-          "الزمالك يتحرك بهذا القرار بشأن تجديد عقد فتوح"
+          "حسين السيد يتولى ملف تجديد أحمد فتوح مع الزمالك",
+          "بعد فشل صفقة فتوح.. أهلي بنغازي يبحث عن بديل في الدوري الخليجي"
         ]
       }
     ],
@@ -65173,15 +65265,31 @@
           "James Trafford keeps a clean sheet in England’s victory over ten-man Czechia",
           "0-2: Bellingham and Trent contribute to England's victory"
         ]
+      },
+      {
+        "key": "2026-10-02|eg",
+        "date": "2026-10-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Licensable picture: SOCCER - UEFA Nations League - Israel vs. Kosovo",
+          "Grbic and Poland Meet France Tonight in Euro Final",
+          "【LIVESTREAMS】#eSPN!! Poland vs France Voleyball 𝐋𝐈𝐕𝐄 𝐒𝐭𝐫𝐞𝐚𝐦 Ｔｖ Ｃｈａｎｎｅｌ 26 september 2026"
+        ]
       }
     ],
     "last_seen": "2026-10-02",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "بنك-السودان-المركزي": {
     "slug": "بنك-السودان-المركزي",
@@ -65251,8 +65359,8 @@
         "date": "2026-10-02",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -65267,7 +65375,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "حوادث وقضايا"
   },
   "كريستيانو-جونيور": {
@@ -65297,6 +65405,266 @@
       "sa"
     ],
     "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "luke-humphries": {
+    "slug": "luke-humphries",
+    "name": "luke humphries",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+12000",
+        "traffic_num": 12000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "World Grand Prix Darts, day four LIVE! Luke Humphries, James Wade, Gary Anderson and Gian van Veen in action at double-in, double-out event",
+          "World Grand Prix Darts 2026: 'Double-in, double out' format, schedule, results, prize money & winners",
+          "Luke Littler endures shock defeat by Luke Woodhouse in World Grand Prix opener"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 12000,
+    "category": "عام"
+  },
+  "big-brother-finale": {
+    "slug": "big-brother-finale",
+    "name": "big brother finale",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Big Brother: Dee Backlash About Jury, Julie’s Winner Pick & Afp Poll",
+          "Who's winning America's Favorite Houseguest? 'Big Brother' AFH polls split"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "عام"
+  },
+  "warning-strike": {
+    "slug": "warning-strike",
+    "name": "warning strike",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "اقتصاد",
+        "publishable": true,
+        "headlines": [
+          "Workers declare three-day warning strike over economic hardship, minimum wage",
+          "'We Stand At Crossroads Of Full-Scale Survival Crisis,' NLC Demands Wage Increase, Petrol Price Cut",
+          "Nigerian workers threaten warning strike over high petrol prices, minimum wage"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "اقتصاد"
+  },
+  "the-oval-office": {
+    "slug": "the-oval-office",
+    "name": "the oval office",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Tearing down the Oval Office? Trump says he rejected Secret Service plan",
+          "Trump Defends White House Construction Projects—Claims White House Had ‘Massive Gaping Wounds’",
+          "Trump says Secret Service wants him to ‘take down’ Oval Office"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "سياسة"
+  },
+  "diesel": {
+    "slug": "diesel",
+    "name": "diesel",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "U.S. reportedly threatens EU diesel export ban unless reserve fuel released",
+          "EXCLUSIVE: US tells France and Germany to release diesel stocks or face US export ban, sources say",
+          "Trump says diesel export ban is still on the table"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "اقتصاد"
+  },
+  "damien-shanklin": {
+    "slug": "damien-shanklin",
+    "name": "damien shanklin",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Police investigating rape allegation against LSU football player",
+          "Louisiana DA opens investigation into alleged sexual assault involving LSU student-athlete",
+          "EXCLUSIVE: LSU student says university failed her after Title IX finding against football player in sexual assault case"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "حوادث وقضايا"
+  },
+  "ciara": {
+    "slug": "ciara",
+    "name": "ciara",
+    "first_seen": "2026-10-01",
+    "appearances": [
+      {
+        "key": "2026-10-01|world",
+        "date": "2026-10-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Russell Wilson Jokes About Nanny Plans as Wife Ciara Prepares to Give Birth to Baby No. 5",
+          "Ciara Kept Pregnancy Secret From Kids Until Daughter Almost Let the Cat Out",
+          "Ciara Says Her 9-Year-Old Daughter Nearly Spoiled Baby No. 5 Surprise: ‘She’s Got This Sixth Sense’"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "مطر": {
+    "slug": "مطر",
+    "name": "مطر",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|eg",
+        "date": "2026-10-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "الطقس غدا.. أجواء خريفية وشبورة كثيفة وأمطار ببعض المناطق والعظمى 30 درجة",
+          "الأرصاد: طقس الغد حار نهارا معتدل ليلا على أغلب الأنحاء",
+          "الأرصاد تكشف أبرز الظواهر الجوية المتوقعة اليوم على كافة الأنحاء"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 20000,
+    "category": "شخصية"
+  },
+  "مريم-مجدي-الهواري": {
+    "slug": "مريم-مجدي-الهواري",
+    "name": "مريم مجدي الهواري",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|sa",
+        "date": "2026-10-02",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "غادة عادل تحتفل بخطوبة ابنتها ومجوهراتها الناعمة تخطف الأنظار",
+          "مجدي الهواري وغادة عادل يحتفلان بخطوبة ابنتهما في أجواء عائلية (فيديو)",
+          "صور| رقص غادة عادل ومجدي الهواري في حفل خطوبة ابنتهما"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
     "category": "شخصية"
   }
 }

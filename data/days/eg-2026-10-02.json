@@ -4,13 +4,13 @@
   "name_en": "Egypt",
   "lang": "ar",
   "flag": "🇪🇬",
-  "generated_at": "2026-10-02T09:31:43.758919+00:00",
+  "generated_at": "2026-10-02T10:01:05.000342+00:00",
   "day": "2026-10-02",
   "trends": [
     {
       "title": "الطقس اليوم",
-      "traffic": "+20000",
-      "traffic_num": 20000,
+      "traffic": "+25000",
+      "traffic_num": 25000,
       "published": "Thu, 1 Oct 2026 21:40:00 -0700",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMjXeeQYQcIPAOQ8W8L6RgyQ5p2PSPaMMzdXTWjQWPc-shj1VK9KTtxFgFlo8",
       "image_source": "اليوم السابع",
@@ -127,6 +127,210 @@
       "published_at": "2026-10-02T08:31:00.171100+00:00"
     },
     {
+      "title": "موعد اذان الظهر",
+      "traffic": "20000+",
+      "traffic_num": 20000,
+      "published": "Fri, 2 Oct 2026 02:20:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRSGLtq7giIyLi5uCVsLB69kzPqbUcDAQ7L5w-J_qxHNRTKgRJW3xc_c8B8_r4",
+      "image_source": "اليوم السابع",
+      "news": [
+        {
+          "title": "مواقيت الصلاة اليوم الجمعة 2 أكتوبر 2026 بمحافظات الجمهورية",
+          "url": "https://www.youm7.com/story/2026/10/2/%D9%85%D9%88%D8%A7%D9%82%D9%8A%D8%AA-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-2-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1-2026-%D8%A8%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9/7563780",
+          "source": "اليوم السابع",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRSGLtq7giIyLi5uCVsLB69kzPqbUcDAQ7L5w-J_qxHNRTKgRJW3xc_c8B8_r4",
+          "og_title": "مواقيت الصلاة اليوم الجمعة 2 أكتوبر 2026 بمحافظات الجمهورية - اليوم السابع",
+          "og_desc": "يقدم \"اليوم السابع\" مواقيت الصلاة الخمسة اليوم الجمعة 2 أكتوبر 2026، فى عدد من محافظات مصر، شاملة صلاة الفجر وشروق الشمس وصلوات الظهيرة والعصر والمغرب والعشاء.",
+          "og_image": "https://img.youm7.com/xlarge/201810050651195119.jpg",
+          "ok": true
+        },
+        {
+          "title": "موعد أذان ظهر الجمعة في القاهرة والمحافظات",
+          "url": "https://www.vetogate.com/5736952",
+          "source": "فيتو",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcREczLp7EClSnEDns-9vK_yDBCtJY25gHUMPjTLJqFtg_kv4m0Xq4Lg-nlXHm8",
+          "og_title": "موعد أذان ظهر الجمعة في القاهرة والمحافظات",
+          "og_desc": "مواقيت الصلاة اليوم، للصلاة فوائد عظيمة، وثمراتٌ جليلة، فقدها من لم يحافظ على هذه الفريضة الموقوتة، واشتملت على فوائد دينية وقلبية ونفسية واجتماعية وغيرها...",
+          "og_image": "https://www.vetogate.com/UploadCache/libfiles/595/7/600x338o/461.jpg",
+          "ok": true
+        },
+        {
+          "title": "مواقيت الصلاة اليوم الجمعة 2 أكتوبر 2026 في القاهرة والمحافظات",
+          "url": "https://gate.ahram.org.eg/News/5936471.aspx",
+          "source": "بوابة الأهرام",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSXEtlbjITMMojJKPyEbvvFamNrKn1frAUIE2xcBPWx_IYUksM66ZYElAfrZg4",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "category": "ديني",
+      "icon": "🕌",
+      "color": "#4dd0b1",
+      "reason": "العنوان يطابق: أذان · بيانات حيّة مرفقة",
+      "publishable": true,
+      "data": {
+        "kind": "prayer_times",
+        "title": "مواقيت الصلاة اليوم",
+        "columns": [
+          "الفجر",
+          "الشروق",
+          "الظهر",
+          "العصر",
+          "المغرب",
+          "العشاء"
+        ],
+        "rows": [
+          {
+            "city": "القاهرة",
+            "times": {
+              "الفجر": "05:22",
+              "الشروق": "06:49",
+              "الظهر": "12:44",
+              "العصر": "16:09",
+              "المغرب": "18:40",
+              "العشاء": "19:57"
+            }
+          },
+          {
+            "city": "الإسكندرية",
+            "times": {
+              "الفجر": "05:27",
+              "الشروق": "06:55",
+              "الظهر": "12:50",
+              "العصر": "16:14",
+              "المغرب": "18:44",
+              "العشاء": "20:02"
+            }
+          },
+          {
+            "city": "الجيزة",
+            "times": {
+              "الفجر": "05:23",
+              "الشروق": "06:49",
+              "الظهر": "12:45",
+              "العصر": "16:09",
+              "المغرب": "18:40",
+              "العشاء": "19:57"
+            }
+          },
+          {
+            "city": "أسوان",
+            "times": {
+              "الفجر": "05:19",
+              "الشروق": "06:41",
+              "الظهر": "12:38",
+              "العصر": "16:03",
+              "المغرب": "18:35",
+              "العشاء": "19:48"
+            }
+          },
+          {
+            "city": "الأقصر",
+            "times": {
+              "الفجر": "05:19",
+              "الشروق": "06:42",
+              "الظهر": "12:39",
+              "العصر": "16:04",
+              "المغرب": "18:35",
+              "العشاء": "19:49"
+            }
+          },
+          {
+            "city": "الغردقة",
+            "times": {
+              "الفجر": "05:14",
+              "الشروق": "06:38",
+              "الظهر": "12:34",
+              "العصر": "15:59",
+              "المغرب": "18:30",
+              "العشاء": "19:45"
+            }
+          },
+          {
+            "city": "شرم الشيخ",
+            "times": {
+              "الفجر": "05:11",
+              "الشروق": "06:36",
+              "الظهر": "12:32",
+              "العصر": "15:57",
+              "المغرب": "18:28",
+              "العشاء": "19:43"
+            }
+          },
+          {
+            "city": "بورسعيد",
+            "times": {
+              "الفجر": "05:17",
+              "الشروق": "06:45",
+              "الظهر": "12:40",
+              "العصر": "16:04",
+              "المغرب": "18:35",
+              "العشاء": "19:53"
+            }
+          }
+        ],
+        "hijri": "21-04-1448",
+        "gregorian": "02 Oct 2026",
+        "source": "Egyptian General Authority of Survey",
+        "source_url": "https://aladhan.com"
+      },
+      "article": {
+        "headline": "مواقيت الصلاة اليوم: الظهر في القاهرة 12:44 والإسكندرية 12:50 ظهرًا",
+        "summary": "يحل موعد أذان الظهر اليوم الجمعة 2 أكتوبر 2026 في القاهرة عند الساعة 12:44، وفي الإسكندرية عند الساعة 12:50 وفقًا للهيئة المصرية العامة للمساحة.",
+        "body": "يؤذن لصلاة الظهر في العاصمة القاهرة اليوم الجمعة الموافق 2 أكتوبر 2026 في تمام الساعة 12:44 ظهرًا، وهو التوقيت الذي يترقبه المصلون لأداء الفريضة في وقتها المحدد. وتختلف هذه الساعة من محافظة لأخرى، حيث يصل الموعد في الإسكندرية إلى 12:50، بينما يحين في مدينة شرم الشيخ في 12:32، وفي أسوان 12:38، وفي الأقصر 12:39، وفي الغردقة 12:34، وفي الإسماعيلية 12:40، وفي بورسعيد 12:40، وفي الجيزة 12:45 وفقًا للبيانات الرسمية الصادرة عن الهيئة المصرية العامة للمساحة.\n\nتعد معرفة مواقيت الصلاة بدقة أمرًا أساسيًا للمسلم في يومه، حيث تُعد الصلاة الركن الثاني من أركان الإسلام وعماد الدين. ويشدد العلماء على أهمية المحافظة على هذه العبادة الموقوتة، لما لها من فوائد روحية ونفسية واجتماعية، فهي راحة للقلب وطمأنينة للروح، كما أن أدائها في وقتها يمثل صلة مستمرة بين العبد وخالقه.\n\nتأتي هذه المواقيت وفق البيانات الموثقة التي نشرتها الهيئة المصرية العامة للمساحة لهذا اليوم. وتتفاوت الأوقات بين المدن المصرية تبعًا لمواقعها الجغرافية، مما يجعل كل مدينة مرتبطة بتوقيت محلي خاص بها لأذان الظهر والصلوات الخمس الأخرى. يذكر أن صلاة الظهر هي الصلاة الثانية في اليوم بعد صلاة الفجر، ويتبعها العصر والمغرب والعشاء، وتتغير هذه التوقيتات بشكل طفيف يوميًا بناءً على حركة الشمس.\n\nيحرص المسلمون على متابعة هذه المواعيد بدقة لضمان إقامة الصلاة في أوقاتها، خاصة صلاة الجمعة التي تتطلب حضورًا في المساجد للمشاركة في الشعائر الجماعية. وتُعد هذه البيانات مرجعًا دقيقًا للمواطنين في كافة المحافظات للتعرف على مواعيد دخول وقت الصلاة وفق التوقيت المحلي لكل منطقة.",
+        "facts": [
+          {
+            "label": "تاريخ اليوم",
+            "value": "2 أكتوبر 2026"
+          },
+          {
+            "label": "أذان الظهر بالقاهرة",
+            "value": "12:44"
+          },
+          {
+            "label": "أذان الظهر بالإسكندرية",
+            "value": "12:50"
+          },
+          {
+            "label": "أذان الظهر بشرم الشيخ",
+            "value": "12:32"
+          },
+          {
+            "label": "أذان الظهر بأسوان",
+            "value": "12:38"
+          }
+        ],
+        "tags": [
+          "مواقيت الصلاة",
+          "أذان الظهر",
+          "مصر",
+          "الجمعة",
+          "أوقات الصلاة"
+        ],
+        "_v": 4,
+        "_by": "gemini",
+        "written_at": "2026-10-02T10:01:47.553990+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/The_Courtyard_of_Al-Azhar_Mosque%2C_Cairo%2C_Egypt.jpg/1280px-The_Courtyard_of_Al-Azhar_Mosque%2C_Cairo%2C_Egypt.jpg",
+          "width": 1280,
+          "height": 853,
+          "artist": "Vyacheslav Argenberg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:The_Courtyard_of_Al-Azhar_Mosque,_Cairo,_Egypt.jpg",
+          "stock": true
+        },
+        "photo_v": 7,
+        "_had_data": true,
+        "_localized": false
+      },
+      "card": "cards/eg-2026-10-02-موعد-اذان-الظهر.png",
+      "published_at": "2026-10-02T10:01:05.000342+00:00"
+    },
+    {
       "title": "التوقيت الشتوي",
       "traffic": "10000+",
       "traffic_num": 10000,
@@ -139,11 +343,10 @@
           "url": "https://www.youm7.com/story/2026/10/2/%D9%85%D9%88%D8%B9%D8%AF-%D8%AA%D8%B9%D8%AF%D9%8A%D9%84-%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A9-%D8%A7%D8%B9%D8%B1%D9%81-%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D9%8A%D8%AA-%D8%A7%D9%84%D8%B4%D8%AA%D9%88%D9%89-2026-%D9%81%D9%89/7564475",
           "source": "اليوم السابع",
           "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRYu8LQ2tMI-DuTiiXE6zK5bnwPdrlt2j2ZzFCbZ7UHoX8sPYnrkMnCMsqB_uA",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "TimeoutError"
+          "og_title": "موعد تعديل الساعة.. اعرف بداية تطبيق التوقيت الشتوى 2026 فى مصر - اليوم السابع",
+          "og_desc": "مع بداية شهر أكتوبر، يقترب موعد بدء العمل بـ التوقيت الشتوي في مصر،  حيث يستعد المواطنون لتغيير الساعة والانتقال من التوقيت الصيفي إلى التوقيت الشتوي.",
+          "og_image": "https://img.youm7.com/xlarge/202607150436123612_12629.jpg",
+          "ok": true
         },
         {
           "title": "التوقيت الشتوي يقترب.. موعد تغيير الساعة في مصر وفقًا للقانون",
@@ -170,15 +373,70 @@
       "category": "شخصية",
       "icon": "👤",
       "color": "#ffd166",
-      "reason": "شخصية بأقل من مصدرين",
-      "publishable": false,
+      "reason": "شخصية: 2 مصادر تذكر الاسم بلا ألفاظ حسّاسة",
+      "publishable": true,
+      "person": true,
+      "article": {
+        "headline": "الشتاء في أكتوبر: مصر تأخر الساعة 60 دقيقة وتعدّل مواعيد المحلات والمطاعم",
+        "summary": "مصر تبدأ التوقيت الشتوي عقب نهاية الخميس الأخير من أكتوبر 2026، مع تأخير الساعة ساعة كاملة وتغيير مواعيد عمل المحلات والمطاعم والمولات.",
+        "body": "ستشهد مصر تحولًا زمنيًا مهمًا مع نهاية أكتوبر: الساعة ستتأخر 60 دقيقة بعد انتهاء يوم الخميس الأخير من الشهر، لتعود إلى التوقيت المعتاد قبل تطبيق النظام الصيفي. هذا التغيير ينظمه القانون رقم 34 لسنة 2023 بشأن التوقيت الصيفي.\n\nالتحول يؤثر على حياة المصريين اليومية بشكل مباشر. ساعات العمل ستختلف في المحلات والمطاعم والمولات والورش، ما يتطلب من المواطنين معرفة المواعيد الجديدة. المصادر تشير إلى أن هذا التنظيم يهدف إلى ضمان الانضباط في الشوارع وترشيد استهلاك الطاقة وتحقيق احتياجات السكان.\n\nالمحلات والمولات التجارية ستفتح من الساعة 7 صباحًا وتغلق الساعة 10 مساءً في الأيام العادية، مع تمديد ساعة إضافية يومي الخميس والجمعة والإجازات الرسمية ليكون الغلق في 11 مساءً. أما المطاعم والكافيهات والبازارات فتعمل من 5 صباحًا حتى منتصف الليل في الأيام العادية، و حتى الساعة 1 صباحًا يومي الخميس والجمعة والأعياد. خدمات التيك أواي والتوصيل تستمر على مدار 24 ساعة.",
+        "facts": [
+          {
+            "label": "موعد بدء التوقيت الشتوي",
+            "value": "عقب نهاية الخميس الأخير من أكتوبر 2026"
+          },
+          {
+            "label": "تأخير الساعة",
+            "value": "60 دقيقة"
+          },
+          {
+            "label": "فتح المحلات والمولات",
+            "value": "7 صباحًا"
+          },
+          {
+            "label": "غلق المحلات في الأيام العادية",
+            "value": "10 مساءً"
+          },
+          {
+            "label": "فتح المطاعم والكافيهات",
+            "value": "5 صباحًا"
+          },
+          {
+            "label": "غلق المطاعم في الأيام العادية",
+            "value": "منتصف الليل"
+          }
+        ],
+        "tags": [
+          "التوقيت الشتوي",
+          "مصر 2026",
+          "مواعيد العمل",
+          "ساعات المحلات",
+          "التوقيت الصيفي"
+        ],
+        "_v": 4,
+        "_by": "claude",
+        "written_at": "2026-10-02T10:02:05.101743+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Cairo_skyline%2C_Panoramic_view%2C_Egypt.jpg/1280px-Cairo_skyline%2C_Panoramic_view%2C_Egypt.jpg",
+          "width": 1280,
+          "height": 853,
+          "artist": "Vyacheslav Argenberg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Cairo_skyline,_Panoramic_view,_Egypt.jpg",
+          "stock": true
+        },
+        "photo_v": 7,
+        "_had_data": false,
+        "_localized": false
+      },
       "card": "cards/eg-2026-10-02-التوقيت-الشتوي.png",
       "published_at": "2026-10-01T22:02:03.494683+00:00"
     },
     {
       "title": "اليونان ضد هولندا",
-      "traffic": "+7600",
-      "traffic_num": 7600,
+      "traffic": "+7800",
+      "traffic_num": 7800,
       "published": "Thu, 1 Oct 2026 11:00:00 -0700",
       "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS_bVDApzQPVhJbtcl7KEWuQvtUff2V9a3SnZo5Io963CqYgAHr84LIWnOIqrk",
       "image_source": "اليوم السابع",
@@ -374,6 +632,16 @@
           "og_title": "Greece update gives latest on Arsenal’s Tzolis after injury sub",
           "og_desc": "Greece manager Ivan Jovanovic has played down concerns of a serious injury to Arsenal winger Christos Tzolis, suggesting the winger didn’t even want to come off.Photo by Alex Grimm/Getty ImagesArsen...",
           "og_image": "https://s.yimg.com/lo/mysterio/api/276c41feceb39a0d969a0f41ee75879fed4b0cbbf3c531724b0dd175f0780517/lightyear_networkapi/resizefill_w1000_h666%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdaily_cannon_articles_231%2Fb6008addb605e92e5212d76b0b27acd9.jpg",
+          "ok": true
+        },
+        {
+          "title": "Arsenal dealt another huge injury scare on international duty",
+          "url": "https://sports.yahoo.com/articles/arsenal-dealt-another-huge-injury-093000437.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRHXuvQtjMdWGtEmj5TB6clQtj7T74wm8hhuiq6SCfHjFEE5qdtMI4nxOE3Jb8",
+          "og_title": "Arsenal dealt another huge injury scare on international duty",
+          "og_desc": "Arsenal Injury News: Christos Tzolis Hamstring Scare Adds to Growing Fitness ConcernsArsenal have another problem to manage, and this one could matter quickly. Christos Tzolis went off injured during ...",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/b4dc5200b8bf01635ef271aeec33f374521e1d3692c576ba469bf14078632ced/lightyear_networkapi/resizefill_w1200_h630%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fepl_index_articles_253%2Fd932186b065704ffcc44d9aebd3fe830.jpg",
           "ok": true
         }
       ],
@@ -606,18 +874,17 @@
           "error": "HTTPError"
         },
         {
-          "title": "في 4 نقاط.. الحكاية الكاملة لطرد مستشار السفارة الإثيوبية في القاهرة.. فيديو",
-          "url": "https://www.youm7.com/story/2026/10/2/%D9%81%D9%8A-4-%D9%86%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%AD%D9%83%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%84%D8%B7%D8%B1%D8%AF-%D9%85%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1-%D8%A7%D9%84%D8%B3%D9%81%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%AB%D9%8A%D9%88%D8%A8%D9%8A%D8%A9-%D9%81%D9%8A/7564673",
-          "source": "اليوم السابع",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTcX4bj6siB-tqOM1xFQE3oSEIJqUXy7OMrdtu0NnrzfVTPhCiBwQt-vl8sEs4",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "TimeoutError"
+          "title": "دبلوماسيان «غير مرغوب فيهما» ومهلة للمغادرة.. ماذا حدث بين مصر وإثيوبيا ليلًا؟",
+          "url": "https://www.almasryalyoum.com/news/details/4373094",
+          "source": "المصري اليوم",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQZfa2A-WZnpZg2TNBXrWUAfo8qWBnyfrhMi9lbvpp7zdYoP0_unPZ986L5QOU",
+          "og_title": "دبلوماسيان «غير مرغوب فيهما» ومهلة للمغادرة.. ماذا حدث بين مصر وإثيوبيا ليلًا؟ | المصري اليوم",
+          "og_desc": "دخلت العلاقات المصرية الإثيوبية مرحلة جديدة من التوتر، أمس الخميس، بعدما أعلنت القاهرة وأديس أبابا بشكل متبادل اعتبار دبلوماسيين من البلدين شخصين غير مرغوب فيهما، مع منحهما...",
+          "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/10/02/2033444.jfif",
+          "ok": true
         },
         {
-          "title": "أزمة دبوماسية بين إثيوبيا وإريتريا، وتوتر متصاعد مع مصر",
+          "title": "أزمة دبلوماسية بين إثيوبيا وإريتريا، وسط توتر متصاعد مع مصر",
           "url": "https://www.bbc.com/arabic/articles/cqwyzy2zd9pko",
           "source": "BBC",
           "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQxzclskpXfhv9oLfKAJRNXzBVa7KEw78UwiArOFgBoSpIpPRZW-vMucvIy6gU",
@@ -630,8 +897,47 @@
       "category": "شخصية",
       "icon": "👤",
       "color": "#ffd166",
-      "reason": "شخصية بأقل من مصدرين",
-      "publishable": false,
+      "reason": "شخصية: 2 مصادر تذكر الاسم بلا ألفاظ حسّاسة",
+      "publishable": true,
+      "person": true,
+      "article": {
+        "headline": "تصعيد دبلوماسي متبادل: القاهرة وأديس أبابا تطردان دبلوماسيين بمهلة 48 ساعة",
+        "summary": "دخلت العلاقات المصرية الإثيوبية مرحلة توتر جديدة بتبادل طرد دبلوماسيين ومنحهم مهلة 48 ساعة للمغادرة.",
+        "body": "شهدت ليلة الخميس تطورات دبلوماسية متسارعة بين مصر وإثيوبيا، حيث أعلنت كل من القاهرة وأديس أبابا بشكل متبادل اعتبار دبلوماسي من البلد الآخر شخصاً غير مرغوب فيه، مع فرض مهلة زمنية قصيرة لا تتجاوز 48 ساعة لمغادرة أراضي الدولة. هذه الخطوة جاءت بعد إعلان الخارجية الإثيوبية عن إجراء مماثل تجاه دبلوماسي مصري دون الكشف عن أسباب محددة أو مخالفات معينة استوجبت هذا القرار، مكتفية بالإشارة إلى اتفاقية فيينا للعلاقات الدبلوماسية. ومن جانبها، ردت القاهرة بإجراء بالمثل تجاه مستشار في السفارة الإثيوبية، معتبرة الخطوة الإثيوبية «مؤسفة» و«غير مبررة».\n\nيأتي هذا التوتر الدبلوماسي في وقت تواجه فيه إثيوبيا ضغوطاً داخلية متزايدة، وسط صراعات على جبهات متعددة، بما في ذلك تجدد القتال في إقليم تيغراي. هذا الصراع لا يؤثر فقط على الاستقرار الإقليمي، بل يضع الحكومة الإثيوبية في مواجهة انتقادات مصرية ترى أن أديس أبابا تحاول تصدير أزماتها الداخلية وتحميل أطراف خارجية مسؤولية فشلها في إدارة ملفاتها الوطنية. وتؤكد القاهرة أن موقفها يستند إلى احترام قواعد القانون الدولي وميثاق الأمم المتحدة، مشددة على رفض التدخل في الشؤون الداخلية لأي دولة.\n\nووفقاً لما نقلته وكالة الأنباء الرسمية المصرية، فإن المسؤولين في القاهرة أكدوا أن الجانب الإثيوبي اعتاد تعليق إخفاقاته على شماعة الأطراف الخارجية للتغطية على أزماته المتكررة. وعلى الرغم من حدة الإجراءات المتبادلة، لم يصدر عن أي من الطرفين تفاصيل محددة حول الاتهامات الموجهة للدبلوماسيين المطرودين. وتأتي هذه التطورات وسط سياق إقليمي مضطرب، حيث تشهد المنطقة تحركات دبلوماسية وتوترات متصاعدة بين عدة دول في القرن الأفريقي، وهو ما يزيد من تعقيد المشهد السياسي والدبلوماسي في المنطقة خلال الفترة الراهنة.",
+        "facts": [
+          {
+            "label": "المهلة المحددة للمغادرة",
+            "value": "48 ساعة"
+          },
+          {
+            "label": "الإجراء المتبادل",
+            "value": "اعتبار دبلوماسيين أشخاصاً غير مرغوب فيهم"
+          }
+        ],
+        "tags": [
+          "مصر",
+          "إثيوبيا",
+          "دبلوماسية",
+          "أزمة",
+          "خارجية"
+        ],
+        "_v": 4,
+        "_by": "gemini",
+        "written_at": "2026-10-02T10:02:15.573731+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Cairo_and_Nile_Skyline.jpg/1280px-Cairo_and_Nile_Skyline.jpg",
+          "width": 1280,
+          "height": 960,
+          "artist": "Staeiou",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Cairo_and_Nile_Skyline.jpg",
+          "stock": true
+        },
+        "photo_v": 7,
+        "_had_data": false,
+        "_localized": false
+      },
       "card": "cards/eg-2026-10-02-إثيوبيا.png",
       "published_at": "2026-10-01T22:02:03.494683+00:00"
     },
@@ -648,11 +954,10 @@
           "url": "https://www.youm7.com/story/2026/10/1/%D9%82%D8%B1%D8%A7%D8%B1-%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A-%D8%A8%D8%AA%D8%B9%D9%8A%D9%8A%D9%86-%D8%AF%D9%81%D8%B9%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%85%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D9%89-%D9%88%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D9%8A%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9/7563692",
           "source": "اليوم السابع",
           "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnEfdxxj6RLQ52UsjdN09TfaBM0zw6Nlig5xEy34h4lgRiNhlvoiCX9Forua0",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "TimeoutError"
+          "og_title": "قرار جمهوري بتعيين دفعة جديدة من معاونى ومعاونات النيابة العامة - اليوم السابع",
+          "og_desc": "أصدر الرئيس عبد الفتاح السيسي، رئيس الجمهورية، القرار رقم ٤٠٩ لسنة ٢٠٢٦، الصادر بتاريخ ٣٠ سبتمبر ٢٠٢٦، بتعيين دفعة جديدة من خريجي وخريجات كليات الحقوق والشريعة والقانون والشرطة في وظيفة معاون نيابة.",
+          "og_image": "https://img.youm7.com/xlarge/202511241010351035.jpg",
+          "ok": true
         },
         {
           "title": "بالأسماء.. قرار جمهوري بتعيين 305 مندوبين مساعدين بمجلس الدولة",
@@ -1444,30 +1749,28 @@
       "traffic": "200+",
       "traffic_num": 200,
       "published": "Thu, 1 Oct 2026 21:20:00 -0700",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSh3EchpKVCAAJMqj30jg6xLiu9oCoEwIQbhHnfJeMNPIJNifvRZOz1JysMU28",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQymHqZeXZ1jx8JBswYCxT59Bs3UkCgXfnDIesMKfeJ_KZSQNVGZR6zin_GfrU",
       "image_source": "اليوم السابع",
       "news": [
         {
-          "title": "الصور الأولى من حفل زفاف ابن الفنانة صابرين",
-          "url": "https://www.youm7.com/story/2026/10/1/%D8%A7%D9%84%D8%B5%D9%88%D8%B1-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D9%85%D9%86-%D8%AD%D9%81%D9%84-%D8%B2%D9%81%D8%A7%D9%81-%D8%A7%D8%A8%D9%86-%D8%A7%D9%84%D9%81%D9%86%D8%A7%D9%86%D8%A9-%D8%B5%D8%A7%D8%A8%D8%B1%D9%8A%D9%86/7564413",
+          "title": "يسرا وإلهام شاهين ولبلبة وهالة صدقى فى حفل زفاف ابن صابرين.. فيديو وصور",
+          "url": "https://www.youm7.com/story/2026/10/1/%D9%8A%D8%B3%D8%B1%D8%A7-%D9%88%D8%A5%D9%84%D9%87%D8%A7%D9%85-%D8%B4%D8%A7%D9%87%D9%8A%D9%86-%D9%88%D9%84%D8%A8%D9%84%D8%A8%D8%A9-%D9%88%D9%87%D8%A7%D9%84%D8%A9-%D8%B5%D8%AF%D9%82%D9%89-%D9%81%D9%89-%D8%AD%D9%81%D9%84-%D8%B2%D9%81%D8%A7%D9%81-%D8%A7%D8%A8%D9%86/7564423",
           "source": "اليوم السابع",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSh3EchpKVCAAJMqj30jg6xLiu9oCoEwIQbhHnfJeMNPIJNifvRZOz1JysMU28",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "TimeoutError"
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQymHqZeXZ1jx8JBswYCxT59Bs3UkCgXfnDIesMKfeJ_KZSQNVGZR6zin_GfrU",
+          "og_title": "يسرا وإلهام شاهين ولبلبة وهالة صدقى فى حفل زفاف ابن صابرين.. فيديو وصور - اليوم السابع",
+          "og_desc": "حرص عدد من الفنانين على حضور حفل زفاف نجل الفنانة صابرين، المقام حالياً داخل أحد الفنادق الكبرة بالقاهرة، منهم، يسرا، الهام شاهين، لبلبة، محمود حميدة",
+          "og_image": "https://img.youm7.com/xlarge/202610011018141814_12612.jpg",
+          "ok": true
         },
         {
-          "title": "بحضور يسرا وإلهام شاهين.. نجوم الفن يحتفلون بزفاف نجل صابرين",
-          "url": "https://gate.ahram.org.eg/News/5937502.aspx",
-          "source": "بوابة الأهرام",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSizVeRvd6u-TB3pt0S5sQprnmhINP-xcMNy9ErZbnFXWEuUNeZH8xJEe6Zmu0",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
+          "title": "خالد زكي ومحمود حميدة.. الصور الأولى من حفل زفاف نجل صابرين",
+          "url": "https://www.masrawy.com/arts/zoom/details/2026/10/1/3056742/%D8%AE%D8%A7%D9%84%D8%AF-%D8%B2%D9%83%D9%8A-%D9%88%D9%85%D8%AD%D9%85%D9%88%D8%AF-%D8%AD%D9%85%D9%8A%D8%AF%D8%A9-%D8%A7%D9%84%D8%B5%D9%88%D8%B1-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D9%85%D9%86-%D8%AD%D9%81%D9%84-%D8%B2%D9%81%D8%A7%D9%81-%D9%86%D8%AC%D9%84-%D8%B5%D8%A7%D8%A8%D8%B1%D9%8A%D9%86",
+          "source": "Masrawy",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQXMIH2pYnHcDZoLvtJn_IkSnbtFVreErCjnjUPJs33kx7RZB08ZZKJPUwadPQ",
+          "og_title": "صابرين تحتفل بزفاف نجلها نور بحضور نجوم الفن.. شاهد الصور | مصراوي",
+          "og_desc": "صابرين تحتفل بزفاف نجلها نور في أحد الفنادق وسط حضور عدد من نجوم الفن بينهم خالد زكي ومحمود حميدة بعد أيام من احتفالها بعقد قرانه لمزيد من التفاصيل | مصراوي",
+          "og_image": "https://media.gemini.media/img/large/2026/10/1/2026_10_1_22_8_10_230.webp",
+          "ok": true
         },
         {
           "title": "يحيى الفخراني يحضر حفل زفاف نجل صابرين ويظهر بالعكاز (فيديو)",
@@ -1483,8 +1786,9 @@
       "category": "شخصية",
       "icon": "👤",
       "color": "#ffd166",
-      "reason": "شخصية بأقل من مصدرين",
+      "reason": "حجم بحث أقل من 500",
       "publishable": false,
+      "person": true,
       "card": "cards/eg-2026-10-02-صابرين.png",
       "published_at": "2026-10-02T04:31:02.754853+00:00"
     },

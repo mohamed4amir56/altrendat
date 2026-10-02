@@ -4099,14 +4099,14 @@
         "date": "2026-10-02",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "شخصية",
         "publishable": true,
         "headlines": [
           "عطل مفاجئ يضرب إنستاباي وخدمات التحويل الإلكتروني.. ماذا حدث؟",
           "إنستاباي يعمل بشكل طبيعي.. حقيقة العطل وسبب توقف الخدمة",
-          "بنك القاهرة يعلن تأثر خدمة «إنستاباي» بتحديثات الأنظمة"
+          "ماذا تفعل بعد تعطل وصول تحويلات إنستاباي في بنك القاهرة؟"
         ]
       }
     ],
@@ -4115,7 +4115,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "شخصية"
   },
   "المصري-اليوم": {
@@ -7358,9 +7358,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Wetterumschwung zum Wochenende: Das erwartet Baden-Württemberg",
-          "Agrarwetter: Der Herbst zeigt sich weiter von seiner milden Seite",
-          "7-Tage-Trend: Neblig, nochmals warm und eher trocken"
+          "Am Tag der Deutschen Einheit nach Hochnebel recht freundlich",
+          "Wetter: Bis zu 24 Grad am Tag der Deutschen Einheit",
+          "Bis zu 24 Grad am Tag der Deutschen Einheit"
         ]
       }
     ],
@@ -18908,8 +18908,8 @@
         "date": "2026-10-02",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "عام",
         "publishable": true,
         "headlines": [
@@ -18924,7 +18924,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "عام"
   },
   "mr-olympia-winners": {
@@ -59379,10 +59379,25 @@
           "What Cornell’s Jane Doe told police about the alleged gang rape — and what the DA says he knew",
           "SU organizations respond to Cornell University sexual assault lawsuit"
         ]
+      },
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "After rape allegations at Cornell University, why are women again being urged to talk to their sons? Why not men?",
+          "New York attorney-general to oversee Cornell rape investigation, removing case from DA",
+          "Unsealed documents detail Cornell investigation into alleged rape at fraternity house"
+        ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 1,
+    "last_seen": "2026-10-02",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -68997,14 +69012,14 @@
         "date": "2026-10-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+24000",
-        "traffic_num": 24000,
+        "traffic": "+4000",
+        "traffic_num": 4000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
+          "Gypsy Rose Blanchard Speaks Out After Partner Ken Urker’s Death, Says He Overdosed (Exclusive)",
           "Gypsy Rose's Baby Daddy Ken Urker Dead at 33",
-          "Gypsy-Rose Blanchard speaks out after ex-fiance, Ken Urker, found dead at 33",
-          "Gypsy Rose’s ex-fiance found dead at 33"
+          "Gypsy Rose Blanchard says partner Ken Urker died from overdose -- as she pays tribute to 'forever soulmate'"
         ]
       }
     ],
@@ -69013,7 +69028,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 24000,
+    "peak_traffic": 12000,
     "category": "حوادث وقضايا"
   },
   "ruby-rose": {
@@ -69497,8 +69512,7 @@
         "publishable": false,
         "headlines": [
           "Face of the 80s: Christchurch modelling icon Kirsty Lay dies",
-          "‘Our greatest model from the 80s’: Christchurch supermodel Kirsty Lay dies aged 64",
-          "One of New Zealand’s most successful international models, Kirsty Lay, dies aged 64"
+          "‘Our greatest model from the 80s’: Christchurch supermodel Kirsty Lay dies aged 64"
         ]
       }
     ],
@@ -71119,12 +71133,12 @@
         "country_name": "السعودية",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "اقتصاد",
+        "category": "سياسة",
         "publishable": false,
         "headlines": [
           "Aramco Transfers 63% Stake in S-Oil to Singapore Entity in approximately $9.7 Billion Move",
-          "Analysts set SAR 30.23 target for Saudi Aramco stock",
-          "Saudi Aramco reports first-half growth, the group behind Saudi Aramco stock"
+          "Oil prices fall over 1% as supplies recover",
+          "Oil dips as recovering Gulf exports ease supply fears, US-Iran diplomacy in focus"
         ]
       }
     ],
@@ -71134,7 +71148,7 @@
       "sa"
     ],
     "peak_traffic": 100,
-    "category": "اقتصاد"
+    "category": "سياسة"
   },
   "vladimir-putin-kaliningrad-defense-warning": {
     "slug": "vladimir-putin-kaliningrad-defense-warning",
@@ -71204,8 +71218,8 @@
         "date": "2026-10-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "عام",
         "publishable": true,
         "headlines": [
@@ -71220,7 +71234,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 20000,
     "category": "عام"
   },
   "brooke-eby": {
@@ -71587,8 +71601,8 @@
         "publishable": false,
         "headlines": [
           "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
-          "Flydubai attack gives Netanyahu new security message ahead of Israel vote",
-          "What the flydubai Flight 1073 incident means for Middle East aviation security"
+          "Gargash says FlyDubai attack ‘terrorist act’ as he praises pilot",
+          "What happened inside the Flydubai flight to Israel? What we know so far"
         ]
       }
     ],
@@ -71900,8 +71914,8 @@
         "date": "2026-10-02",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
         "publishable": true,
         "headlines": [
@@ -71915,8 +71929,8 @@
         "date": "2026-10-02",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": true,
         "headlines": [
@@ -71932,7 +71946,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "شخصية"
   },
   "speed-darlington": {
@@ -72409,8 +72423,8 @@
         "date": "2026-10-02",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "طقس",
         "publishable": false,
         "headlines": [
@@ -72425,7 +72439,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "طقس"
   },
   "coalition-intercepts-houthi-drones-yemen": {
@@ -72502,8 +72516,8 @@
         "publishable": false,
         "headlines": [
           "Earl Spencer: King’s response to my book was very aggressive",
-          "Charles Spencer Reveals the 1 Regret He Has About His Sister, Princess Diana (Exclusive)",
-          "‘Betrayed’ Prince William tangled in another royal feud after family member opens up ‘traumatic’ chapter"
+          "Charles Spencer Describes His Current Relationships with Nephews Prince William and Prince Harry",
+          "Earl Spencer attacks King over ‘very aggressive’ response to memoir"
         ]
       }
     ],
@@ -72844,14 +72858,14 @@
         "date": "2026-10-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+5200",
-        "traffic_num": 5200,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "모레노 감독 \"공격수 오현규도 첫 번째 수비수\"…전원 수비 강조",
-          "대한민국 큰일 났다! 황인범 돌아오니 김민재 부상 우려…모레노 감독 \"몸 상태 확인 뒤 출전 여부 결정\"",
-          "Exclusive | Democratic Senators Challenge Trump Officials on Pentagon’s Venezuela Oil Deal"
+          "South Korea vs Venezuela: Friendlies stats & head-to-head",
+          "Meet Minsu Kim: Inside story of South Korean's journey to Rangers",
+          "Moment Rangers star Minsu Kim stuns teammates at South Korea training by performing legend's iconic celebration"
         ]
       },
       {
@@ -72866,7 +72880,7 @@
         "headlines": [
           "South Korea vs Venezuela: Friendlies stats & head-to-head",
           "South Korea vs. Venezuela Starting Lineups, Live Streaming, How & Where to Watch on TV",
-          "South Korea vs Venezuela Prediction: South Korea will be stronger"
+          "Hwang In-beom is back, and Song Beom-geun protects the goal. Kim Min-soo, a rising newcomer, had his.."
         ]
       },
       {
@@ -72881,7 +72895,7 @@
         "headlines": [
           "South Korea vs Venezuela: Friendlies stats & head-to-head",
           "South Korea vs. Venezuela Starting Lineups, Live Streaming, How & Where to Watch on TV",
-          "South Korea vs Venezuela Prediction: South Korea will be stronger"
+          "Hwang In-beom is back, and Song Beom-geun protects the goal. Kim Min-soo, a rising newcomer, had his.."
         ]
       }
     ],
@@ -72892,7 +72906,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 5200,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "hawks-vs-36ers": {
@@ -72911,7 +72925,7 @@
         "publishable": true,
         "headlines": [
           "How to watch & talking points: Illawarra v Adelaide",
-          "Hawks hammer 36ers in NBL boilover",
+          "‘We can’t be stopped’: Unwanted NBL record broken as title contenders stunned in wild blitz",
           "Match preview: Sixers hunting Hawks in Illawarra home opener"
         ]
       }
@@ -72997,9 +73011,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "SA music legend Babsy Mlangeni dies aged 83",
+          "Legendary SA musician Babsy Mlangeni dies at 83",
           "SA music veteran Babsy Mlangeni has passed away after short illness",
-          "Legendary SA musician Babsy Mlangeni dies at 83"
+          "SA music legend Babsy Mlangeni dies aged 83"
         ]
       }
     ],
@@ -73050,8 +73064,8 @@
         "date": "2026-10-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -73066,7 +73080,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 10000,
     "category": "رياضة"
   },
   "ndubz": {
@@ -73226,12 +73240,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "دول وأماكن",
+        "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "\"Strange bedfellows\": Bernie Sanders, Florida Dems and a benchmark $250k donation",
-          "Democrats say Sanders needs to step up in midterm fight. His allies say he’s doing more than most.",
-          "Sanders ramps up his midterm play with cash boost for candidates"
+          "Can a Democratic Socialist Win in Deep-Red Florida?",
+          "Florida Senate nominee Angie Nixon says \"this is not about three letters\" amid DSA criticism",
+          "Could a far left candidate win a midterm race in a red state like Florida?"
         ]
       }
     ],
@@ -73241,7 +73255,7 @@
       "world"
     ],
     "peak_traffic": 200,
-    "category": "دول وأماكن"
+    "category": "سياسة"
   },
   "special-victims-unit": {
     "slug": "special-victims-unit",
@@ -73345,9 +73359,9 @@
         "category": "تعليم",
         "publishable": true,
         "headlines": [
+          "TOP SCHOOLS: September 2026 Civil Engineering Board Exam Results",
           "PRC Applauds the Top Performing Schools of the September 2026 GECBLE!",
-          "2 Louisian grads land Top 3, Top 7 in September 2026 GELE",
-          "A-F PASSERS: September 2026 Geodetic Engineers Licensure Exam (GELE)"
+          "2 Louisian grads land Top 3, Top 7 in September 2026 GELE"
         ]
       }
     ],
@@ -73369,14 +73383,14 @@
         "date": "2026-10-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "عام",
         "publishable": true,
         "headlines": [
           "Alison Hammond's absence explained as This Morning presenter rushes out of studio",
           "Alison Hammond pulled off air on This Morning as she vanishes during live show",
-          "This Morning viewers 'worried' after Alison Hammond suddenly runs off screen leaving Dermot to present alone"
+          "This Morning: Alison appears to clutch her chest and leave studio"
         ]
       }
     ],
@@ -73385,7 +73399,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "عام"
   },
   "rowan-atkinson": {
@@ -73429,12 +73443,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "طقس",
-        "publishable": false,
+        "category": "دول وأماكن",
+        "publishable": true,
         "headlines": [
-          "Travel surges on China's National Day holiday as tourists hit the road",
-          "China National Day Travel Boom, Storm Over Starbucks in Xinjiang",
-          "A busy start at China's largest toll station"
+          "China's railway passenger trips hit record single-day high",
+          "China's national holiday, fewer visitors to Japan expected | NHK WORLD-JAPAN News",
+          "China's Golden Week travel surge masks cautious consumer spending"
         ]
       }
     ],
@@ -73444,7 +73458,7 @@
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "طقس"
+    "category": "دول وأماكن"
   },
   "oj-simpson": {
     "slug": "oj-simpson",
@@ -73458,12 +73472,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "حوادث وقضايا",
+        "category": "عام",
         "publishable": false,
         "headlines": [
-          "Nicole Brown Simpson’s Sister Denise Says ‘I Couldn’t Save Her’ 32 Years After Domestic Violence and Murder",
-          "Nicole Brown Simpson’s Sister Confronts Painful Past Decades After O.J. Trial",
-          "Nicole Brown Simpson’s Secret Journals Detailing O.J’s Harrowing Abuse Revealed by Her Sister Denise (Exclusive)"
+          "Peacock Doc Shocker: O.J. Had An Accomplice! 09/25/2026",
+          "Ample wraps production on Peacock-commissioned O.J. Simpson doc",
+          "O.J. Simpson Documentary ‘O.J’s Accomplice’ Set at Peacock (TV News Roundup)"
         ]
       }
     ],
@@ -73473,7 +73487,7 @@
       "world"
     ],
     "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "category": "عام"
   },
   "asian-games-medal-tally": {
     "slug": "asian-games-medal-tally",
@@ -73491,8 +73505,8 @@
         "publishable": false,
         "headlines": [
           "India's Asian Games 2026 schedule today, October 2: Gold and LA 2028 quotas on offer in hockey, archery",
-          "Asian Games 2026 LIVE Medal Tally, Day 14: India’s Gold, Silver, Bronze winners list on 2nd October",
-          "Asian Games: India's Full Schedule For October 2"
+          "Asian Games: India's Full Schedule For October 2",
+          "Asian Games 2026 LIVE Medal Tally, Day 14: India’s Gold, Silver, Bronze winners list on 2nd October"
         ]
       }
     ],
@@ -73514,14 +73528,14 @@
         "date": "2026-10-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "عام",
         "publishable": false,
         "headlines": [
           "Ms Rachel builds sprawling media empire while shelling out thousands to progressive candidates",
           "Ms Rachel says she won’t work with ‘privileged’ people who stay silent on Gaza",
-          "How Ms. Rachel’s political activism is sparking pushback from parents"
+          "October, 2026"
         ]
       }
     ],
@@ -73530,7 +73544,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "عام"
   },
   "tiafoe": {
@@ -73572,13 +73586,13 @@
         "date": "2026-10-02",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "معركة الوعي في مواجهة التضليل.. كيف تُصنع الشائعات وتصل إلى الجمهور؟",
-          "خبير أمن سيبرانى: حماية البيئة المعلوماتية للوطن مسؤولية الجميع",
+          "الجندي: التضليل وصناعة التأثير من أبرز الأدوات المستخدمة لاستهداف المجتمعات",
+          "خبير أمن سيبراني: الشائعات قد تتحول لأزمات دولية خلال ساعات",
           "خبير يكشف الأدوات الأكثر استخدامًا للتضليل وصناعة التأثير | مصراوي"
         ]
       }
@@ -73588,7 +73602,268 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
+  },
+  "eddie-newton": {
+    "slug": "eddie-newton",
+    "name": "eddie newton",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Eddie Newton's son died in 40C UAE desert hike, coroner says",
+          "Ex-Chelsea star’s son dies during desert hike in UAE",
+          "Former Chelsea midfielder's son dies under tragic circumstances in UAE"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "حوادث وقضايا"
+  },
+  "olivia-dean": {
+    "slug": "olivia-dean",
+    "name": "olivia dean",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "فن ومشاهير",
+        "publishable": true,
+        "headlines": [
+          "Olivia Dean accused of copying Bill Withers' Just The Two of Us",
+          "Olivia Dean’s ‘Art of Loving’ Song Accused of Copying Bill Withers’ ‘Just the Two of Us’",
+          "Grammy-Winning Newcomer's Song Accused of Copying a Late Legend's 1981 Classic: 'Obvious and Inescapable'"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "فن ومشاهير"
+  },
+  "businesstech": {
+    "slug": "businesstech",
+    "name": "businesstech",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Capitec officially changes its name",
+          "Why Capitec hiked loan impairments by R1bn",
+          "Capitec’s non-bank bet is paying off, big time"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "اقتصاد"
+  },
+  "spacex-stock-price": {
+    "slug": "spacex-stock-price",
+    "name": "spacex stock price",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Fantastic News for SpaceX Stock Investors",
+          "Here's What a $10,000 Investment in SpaceX Stock Could Be Worth in 2035 (Hint: It's a Lot)",
+          "What's Going On With SpaceX Stock Thursday?"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "اقتصاد"
+  },
+  "arthur-gea": {
+    "slug": "arthur-gea",
+    "name": "arthur gea",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Tien, last year's runner-up, falls to Hurkacz in Beijing first round",
+          "Hubert Hurkacz vs. Arthur Gea prediction, odds, picks for ATP China Open 2026",
+          "Learner Tien vs Hubert Hurkacz ATP Beijing Tips, Prediction & Live Stream - Tien too consistent for Hurkacz at China Open"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "metallica-sphere": {
+    "slug": "metallica-sphere",
+    "name": "metallica sphere",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Metallica Sphere Setlist: Every Song From Night 1 of ‘Life Burns Faster’ Las Vegas Residency",
+          "The first reactions to Metallica’s massive show at the Sphere are in: “Epic would be an understatement!”",
+          "Metallica says there is 'much fun to be had' at Sphere debut"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "وزارة-التضامن-الاجتماعي": {
+    "slug": "وزارة-التضامن-الاجتماعي",
+    "name": "وزارة التضامن الاجتماعي",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|eg",
+        "date": "2026-10-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "بالتعاون مع مؤسسة ساويرس.. توقيع بروتوكولي تعاون لمشاركة ذوي المهمم في مهرجان الجونة",
+          "مايا مرسي تشهد توقيع بروتوكولين لتوسيع فرص تمكين ذوي الإعاقة في عدة مجالات",
+          "القومي للإعاقة و\"البسمة\" يترأسون اجتماع اللجنة العليا للتحضير لاحتفالية اليوم العالمي للأشخاص ذوي الإعاقة"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "سياسة"
+  },
+  "صلاه": {
+    "slug": "صلاه",
+    "name": "صلاه",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|eg",
+        "date": "2026-10-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "ديني",
+        "publishable": false,
+        "headlines": [
+          "وزير الأوقاف يؤدى صلاة الجمعة بمسجد السيد البدوى بطنطا",
+          "وزير الأوقاف يزور مقام سيدي أحمد البدوي ويقرأ له الفاتحة قبل مغادرته طنطا",
+          "وزير الأوقاف: أعياد المحافظات مناسبات نستحضر فيها صفحات مضيئة من تاريخ الوطن |صور"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "ديني"
+  },
+  "بوروسيا-دورتموند": {
+    "slug": "بوروسيا-دورتموند",
+    "name": "بوروسيا دورتموند",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|sa",
+        "date": "2026-10-02",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "بوروسيا دورتموند يقترب من حسم صفقة نجم الهلال",
+          "من لؤي العبيدي؟ بروسيا دورتموند يبدي إعجابه بموهبة الهلال السعودي",
+          "بوروسيا دورتموند يقترب من ضم لؤي العبيدي نجم الهلال"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "دول وأماكن"
   }
 }

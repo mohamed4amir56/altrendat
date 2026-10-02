@@ -3988,9 +3988,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Киев накроет новая волна холодов с заморозками: синоптики назвали даты — подробный прогноз",
-          "Синоптик ответила, что стоит еще надеяться на \"бабье лето\" в октябре",
-          "В Украине холодает: какой будет погода сегодня и где уже начались заморозки"
+          "Штормовые предупреждения на 2 октября: где в Казахстане выпадет снег",
+          "Снег, ураган и ливни: штормовой прогноз для Астаны, Алматы и Шымкента на 3-5 октября",
+          "Тёплые дни закончились: в Казахстане резко похолодает"
         ]
       }
     ],
@@ -4450,14 +4450,14 @@
         "date": "2026-10-02",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "5000+",
-        "traffic_num": 5000,
-        "category": "حوادث وقضايا",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "قرار جمهوري بتعيين دفعة جديدة من معاونى ومعاونات النيابة العامة",
-          "بالأسماء.. قرار جمهوري بتعيين 305 مندوبين مساعدين بمجلس الدولة",
-          "الجريدة الرسمية تنشر قرار تعيينات قضائية جديدة بمجلس الدولة | مصراوي"
+          "أخبار × 24 ساعة.. الحكومة: وقف تطبيق قرار العمل عن بُعد الأحد من كل أسبوع",
+          "أسامة كمال عن إلغاء العمل عن بُعد في الحكومة: «شيء جيد جدًا»",
+          "وقف «العمل عن بعد» أيام الأحد مدبولى: وعى المصريين حائط صد لتأمين الجبهة الداخلية"
         ]
       }
     ],
@@ -4466,8 +4466,8 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 5000,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 10000,
+    "category": "شخصية"
   },
   "مجلس-الوزراء": {
     "slug": "مجلس-الوزراء",
@@ -7358,9 +7358,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Wetteraussichten: Wochenende winkt mit sommerlichen Temperaturen",
-          "Wetter: Bis zu 24 Grad am Tag der Deutschen Einheit",
-          "Außergewöhnlich warmes Wochenende steht bevor"
+          "Außergewöhnlich warmes Wochenende steht bevor",
+          "Bis zu 24 Grad am Tag der Deutschen Einheit",
+          "Wetter: Bis zu 24 Grad am Tag der Deutschen Einheit"
         ]
       }
     ],
@@ -18908,8 +18908,8 @@
         "date": "2026-10-02",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "عام",
         "publishable": true,
         "headlines": [
@@ -18924,7 +18924,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "عام"
   },
   "mr-olympia-winners": {
@@ -41744,8 +41744,8 @@
         "category": "شخصية",
         "publishable": true,
         "headlines": [
-          "تراشق وطرد دبلوماسيين.. تفاصيل أسباب تصعيد أديس أبابا ضد القاهرة",
-          "إريتريا تقطع العلاقات مع إثيوبيا... والاتحاد الأفريقي يحث على ضبط النفس",
+          "مصر ترد على اثيوبيا وتطالب مستشار سفارة أديس ابابا بمغادرة أراضيها",
+          "إثيوبيا وإريتريا تقطعان علاقاتهما الدبلوماسية.. وسط تصاعد القتال في الشمال",
           "أزمة دبلوماسية بين إثيوبيا وإريتريا، وسط توتر متصاعد مع مصر"
         ]
       }
@@ -58445,8 +58445,8 @@
         "publishable": true,
         "headlines": [
           "ChatGPT can now virtually try on clothes for you",
-          "OpenAI takes on Google with ChatGPT's new virtual try-on feature",
-          "ChatGPT Can Now Help You Virtually Try On Clothes"
+          "ChatGPT just borrowed one of Google Shopping's best tricks",
+          "OpenAI takes on Google with ChatGPT's new virtual try-on feature"
         ]
       }
     ],
@@ -59584,10 +59584,25 @@
           "What you need to know about the Division Series matchups",
           "How to Watch the 2026 ALDS on DIRECTV: Schedule, Channels and Times"
         ]
+      },
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "MLB playoffs 2026: First-look preview of division series matchups",
+          "Updated 2026 MLB Playoffs bracket & schedule: ALDS & NLDS set",
+          "MLB Playoffs 2026 Divisional Round Picks and Predictions for Every Series"
+        ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 1,
+    "last_seen": "2026-10-02",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -61581,10 +61596,21 @@
         "category": "عام",
         "publishable": false,
         "headlines": []
+      },
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": []
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 1,
+    "last_seen": "2026-10-02",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -64587,8 +64613,8 @@
         "date": "2026-10-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "7,000+",
-        "traffic_num": 7000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -66771,11 +66797,7 @@
         "traffic_num": 100,
         "category": "تعليم",
         "publishable": false,
-        "headlines": [
-          "النواب يحيل الاعتراض الرئاسى على مشروع جامعة كيان إلى اللجنة العامة",
-          "لماذا اعترض الرئيس السيسي على المادة 25 من قانون جامعة كيان؟ التفاصيل الكاملة",
-          "مدبولي يصل البرلمان.. انطلاق دور الانعقاد الثاني للفصل التشريعي الثالث"
-        ]
+        "headlines": []
       }
     ],
     "last_seen": "2026-10-02",
@@ -68719,8 +68741,8 @@
         "publishable": true,
         "headlines": [
           "A'ja Wilson stars as Aces oust Fever from WNBA playoffs",
-          "WNBA playoffs: Caitlin Clark shines in Fever win as A’ja Wilson confronts fan after Cunningham foul",
-          "Caitlin Clark, Sophie Cunningham, A'ja Wilson's Box Score Stats, Highlights as Aces Eliminate Fever"
+          "Caitlin Clark, Sophie Cunningham, A'ja Wilson's Box Score Stats, Highlights as Aces Eliminate Fever",
+          "Caitlin Clark Drops Blunt Quote After Indiana Fever’s Playoff Elimination"
         ]
       }
     ],
@@ -68980,9 +69002,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Gypsy Rose's Baby Daddy Ken Urker Dead at 33",
           "Gypsy-Rose Blanchard speaks out after ex-fiance, Ken Urker, found dead at 33",
-          "Gypsy Rose’s ex-fiance found dead at 33"
+          "Gypsy Rose’s ex-fiance found dead at 33",
+          "Gypsy Rose Blanchard says partner Ken Urker died from overdose -- as she pays tribute to 'forever soulmate'"
         ]
       }
     ],
@@ -69474,9 +69496,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "‘One in a million’: Celebrated NZ model Kirsty Lay dies aged 64",
           "Face of the 80s: Christchurch modelling icon Kirsty Lay dies",
-          "‘Our greatest model from the 80s’: Christchurch supermodel Kirsty Lay dies aged 64"
+          "‘Our greatest model from the 80s’: Christchurch supermodel Kirsty Lay dies aged 64",
+          "One of New Zealand’s most successful international models, Kirsty Lay, dies aged 64"
         ]
       }
     ],
@@ -71100,9 +71122,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
+          "Aramco Transfers 63% Stake in S-Oil to Singapore Entity in approximately $9.7 Billion Move",
           "Analysts set SAR 30.23 target for Saudi Aramco stock",
-          "Saudi Aramco reports first-half growth, the group behind Saudi Aramco stock",
-          "Saudi Aramco stock reports SAR 251.9 billion H1 income"
+          "Saudi Aramco reports first-half growth, the group behind Saudi Aramco stock"
         ]
       }
     ],
@@ -71566,7 +71588,7 @@
         "headlines": [
           "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
           "Flydubai attack gives Netanyahu new security message ahead of Israel vote",
-          "Israeli Security Lapse That's Key In flydubai Attack And A UAE Contention"
+          "What the flydubai Flight 1073 incident means for Middle East aviation security"
         ]
       }
     ],
@@ -71762,8 +71784,8 @@
         "date": "2026-10-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -71778,7 +71800,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 10000,
     "category": "عام"
   },
   "crunchyroll": {
@@ -71881,11 +71903,11 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "الكرملين: أوكرانيا تدفع ثمن الهجمات التي تشنها في البحر الأسود",
-          "مع قرب الشتاء.. خطة روسية لإغراق أوكرانيا في الظلام والبرد",
-          "روسيا تشن هجوماً على خط إمداد أوكراني، وتقول إن كييف يجب أن \"تدفع الثمن\"، والرئيس بوتين يصر على رغبته في التفاوض."
+          "تداول 15 ألف طن و780 شاحنة بضائع عامة ومتنوعة بموانئ البحر الأحمر",
+          "ميناء سفاجا يستقبل 1120 رأس عجول حية قادمة من جيبوتي",
+          "موانئ البحر الأحمر تنعش السفر .. حركة السفن تفتح أسواق السياحة والاستثمار"
         ]
       },
       {
@@ -71893,14 +71915,14 @@
         "date": "2026-10-02",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "تداول 15 ألف طن و781 شاحنة بضائع عامة ومتنوعة بموانئ البحر الأحمر",
+          "تداول 15 ألف طن و780 شاحنة بضائع عامة ومتنوعة بموانئ البحر الأحمر",
           "ميناء سفاجا يستقبل 1120 رأس عجول حية قادمة من جيبوتي",
-          "مغادرة 52 الف طن فوسفات من سفاجا الي فيتنام"
+          "ميناء نويبع يشهد تداول 4300 طن بضائع و204 شاحنات ضمن حركة موانئ البحر الاحمر"
         ]
       }
     ],
@@ -72245,11 +72267,11 @@
         "traffic": "5000+",
         "traffic_num": 5000,
         "category": "دول وأماكن",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "France school protests: Hundreds of schools closed and 40 head teachers hurt",
           "French schools burn as student unrest spreads",
-          "France school protests escalate into ‘urban violence’ as PM calls crisis cabinet meeting"
+          "French students set schools on fire in nationwide protests over education system"
         ]
       }
     ],
@@ -72474,8 +72496,8 @@
         "date": "2026-10-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -72490,7 +72512,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "عام"
   },
   "mark-carney-canada-oil-pipeline": {
@@ -72822,14 +72844,14 @@
         "date": "2026-10-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+2200",
-        "traffic_num": 2200,
+        "traffic": "+5200",
+        "traffic_num": 5200,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "모레노 감독 \"공격수 오현규도 첫 번째 수비수\"…전원 수비 강조",
           "대한민국 큰일 났다! 황인범 돌아오니 김민재 부상 우려…모레노 감독 \"몸 상태 확인 뒤 출전 여부 결정\"",
-          "Trump Reportedly Asked Elon Musk's Grok What Would Happen if Nicolas Maduro Fell — Here's What the AI Told Him"
+          "Exclusive | Democratic Senators Challenge Trump Officials on Pentagon’s Venezuela Oil Deal"
         ]
       },
       {
@@ -72837,10 +72859,10 @@
         "date": "2026-10-02",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "South Korea vs Venezuela: Friendlies stats & head-to-head",
           "South Korea vs. Venezuela Starting Lineups, Live Streaming, How & Where to Watch on TV",
@@ -72852,14 +72874,14 @@
         "date": "2026-10-02",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "South Korea vs Venezuela: Friendlies stats & head-to-head",
           "South Korea vs. Venezuela Starting Lineups, Live Streaming, How & Where to Watch on TV",
-          "Hwang In-beom is back, and Song Beom-geun protects the goal. Kim Min-soo, a rising newcomer, had his.."
+          "South Korea vs Venezuela Prediction: South Korea will be stronger"
         ]
       }
     ],
@@ -72870,7 +72892,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 2200,
+    "peak_traffic": 5200,
     "category": "رياضة"
   },
   "hawks-vs-36ers": {
@@ -72919,7 +72941,7 @@
         "headlines": [
           "Former Liberal politician Bruce Baird dies aged 84",
           "Bruce Baird, the Liberal stalwart who fought for refugees, has died aged 84",
-          "Respected Liberal Party politician Bruce Baird has died aged 84"
+          "Bruce Baird, former federal Liberal MP and NSW minister, dies aged 84"
         ]
       }
     ],
@@ -72976,8 +72998,8 @@
         "publishable": false,
         "headlines": [
           "SA music legend Babsy Mlangeni dies aged 83",
-          "Legendary SA musician Babsy Mlangeni dies at 83",
-          "SA music veteran Babsy Mlangeni has passed away after short illness"
+          "SA music veteran Babsy Mlangeni has passed away after short illness",
+          "Legendary SA musician Babsy Mlangeni dies at 83"
         ]
       }
     ],
@@ -72988,5 +73010,295 @@
     ],
     "peak_traffic": 2000,
     "category": "حوادث وقضايا"
+  },
+  "cele-september-2026-result": {
+    "slug": "cele-september-2026-result",
+    "name": "cele september 2026 result",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "تعليم",
+        "publishable": true,
+        "headlines": [
+          "A-C Passers: September 2026 Civil Engineer Licensure Exam CELE Results",
+          "PRC Applauds the Top Performing Schools of the September 2026 GECBLE!",
+          "2 Louisian grads land Top 3, Top 7 in September 2026 GELE"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "تعليم"
+  },
+  "braves-schedule": {
+    "slug": "braves-schedule",
+    "name": "braves schedule",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Braves-Dodgers NLDS position-by-position breakdown",
+          "MLB reveals scheduled start times for NLDS between Braves and Dodgers",
+          "‘We are the team to beat.’ How the Dodgers are preparing for showdown with Braves"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "ndubz": {
+    "slug": "ndubz",
+    "name": "ndubz",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "N-DUBZ — The Legacy Tour 2027 - 360° arena experience",
+          "N-Dubz have just announced a UK arena tour. Here’s how to get tickets",
+          "Huge Noughties band reunite for epic arena tour to celebrate 20 year anniversary"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "عام"
+  },
+  "anz-kpmg": {
+    "slug": "anz-kpmg",
+    "name": "anz kpmg",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Major bank drops KPMG in wake of audit leaks scandal – as it happened",
+          "ANZ drops KPMG from audit job as accounting body fails to land a hit",
+          "New blow for KPMG as long-time client ANZ dumps it"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "حوادث وقضايا"
+  },
+  "erik-brown-diver": {
+    "slug": "erik-brown-diver",
+    "name": "erik brown diver",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Canadian diver Erik Brown, who helped in 2018 Thai cave rescue, dies at 44",
+          "Canadian diver who helped rescue Wild Boars dies at 44",
+          "Heroic scuba diver who helped rescue Thai football team trapped in flooded cave dies aged 44"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "حوادث وقضايا"
+  },
+  "israel-plane": {
+    "slug": "israel-plane",
+    "name": "israel plane",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "‘I couldn’t let everybody else die,’ says hero Flydubai pilot Smit Machchhar",
+          "‘I Couldn’t Let All of Them Die’: Pilot on FlyDubai Flight Recalls Sudden Attack",
+          "Israeli passenger says he knew what to do on flydubai plane after watching TV show"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "aryna-sabalenka": {
+    "slug": "aryna-sabalenka",
+    "name": "aryna sabalenka",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "The top quotes from Beijing media day: 'Y'all are going to be like 'What?'",
+          "Aryna Sabalenka admits what she did at the US Open this year which even surprised herself",
+          "Sabalenka 'fresh' for first tournament since losing No.1"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "angie-nixon": {
+    "slug": "angie-nixon",
+    "name": "angie nixon",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "\"Strange bedfellows\": Bernie Sanders, Florida Dems and a benchmark $250k donation",
+          "Democrats say Sanders needs to step up in midterm fight. His allies say he’s doing more than most.",
+          "Sanders ramps up his midterm play with cash boost for candidates"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "دول وأماكن"
+  },
+  "special-victims-unit": {
+    "slug": "special-victims-unit",
+    "name": "special victims unit",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "‘Law & Order: Svu’ Boss Details Benson’s Focus in Season 28",
+          "‘Law & Order: SVU’ Photos: See J. Smith-Cameron & New ADA in Season 28 Premiere",
+          "Meet the Full Cast of Law & Order: SVU Season 28 (Bios & Photos)"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "تغيير-الساعة-التوقيت-الشتوي": {
+    "slug": "تغيير-الساعة-التوقيت-الشتوي",
+    "name": "تغيير الساعة التوقيت الشتوي",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|eg",
+        "date": "2026-10-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "ديني",
+        "publishable": true,
+        "headlines": [
+          "موعد التوقيت الشتوى 2026 فى مصر.. اعرف متى تعود الساعة لوضعها الطبيعى",
+          "الساعة 12 هترجع 11 يوم خميس بالليل.. بدء التوقيت الشتوي رسميًا في هذا الموعد",
+          "بعد القرار الأخير.. رسميًا مواعيد غلق المحلات والمطاعم بالتوقيت الشتوي 2026"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 10000,
+    "category": "ديني"
   }
 }

@@ -4450,14 +4450,14 @@
         "date": "2026-10-02",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "قرار جمهوري بتعيين خريج دفعة 2020 معاونًا للنيابة العامة و5 معاونين نيابة دفعة 2021",
-          "تعيين دفعة جديدة من معاونى ومعاونات النيابة العامة",
-          "الجريدة الرسمية تنشر قرار تعيينات قضائية جديدة بمجلس الدولة | مصراوي"
+          "قرار جمهوري بتعيين دفعة جديدة من معاونى ومعاونات النيابة العامة",
+          "الجريدة الرسمية تنشر قرار تعيينات قضائية جديدة بمجلس الدولة | مصراوي",
+          "بالأسماء.. قرار جمهوري بتعيين 685 معاون نيابة عامة من خريجي دفعات 2021 و2022"
         ]
       }
     ],
@@ -4466,7 +4466,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "حوادث وقضايا"
   },
   "مجلس-الوزراء": {
@@ -11794,8 +11794,8 @@
         "publishable": false,
         "headlines": [
           "الصور الأولى من حفل زفاف ابن الفنانة صابرين",
-          "خالد زكي ومحمود حميدة.. الصور الأولى من حفل زفاف نجل صابرين",
-          "بحضور يسرا وإلهام شاهين.. نجوم الفن يحتفلون بزفاف نجل صابرين"
+          "يسرا وبوسي شلبي وإلهام شاهين.. النجوم في حفل زفاف ابن صابرين",
+          "يحيى الفخراني يحضر حفل زفاف نجل صابرين ويظهر بالعكاز (فيديو)"
         ]
       }
     ],
@@ -21430,8 +21430,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "القوات الحكومية اليمنية تعلن استهداف مواقع \"ذات قيمة عالية\" في صنعاء بعد سماع دوي انفجارات قوية",
           "اليمن مباشر.. انفجارات قوية في صنعاء وإدانات لاستهداف الحوثيين منشأة بالمدينة المنورة",
+          "القوات الحكومية اليمنية تعلن استهداف مواقع \"ذات قيمة عالية\" في صنعاء بعد سماع دوي انفجارات قوية",
           "فيديو متداول.. هل يوثق غارات حديثة على تجمعات للحوثيين في صنعاء؟ | التلفزيون العربي"
         ]
       }
@@ -41623,8 +41623,8 @@
         "category": "شخصية",
         "publishable": true,
         "headlines": [
-          "إثيوبيا وإريتريا تتبادلان قطع العلاقات، وتوتر متصاعد مع مصر",
           "مصر ترد على اثيوبيا وتطالب مستشار سفارة أديس ابابا بمغادرة أراضيها",
+          "إثيوبيا وإريتريا تتبادلان قطع العلاقات، وتوتر متصاعد مع مصر",
           "قطع علاقات وطرد دبلوماسيين.. الأزمة تتصاعد بين إثيوبيا وإريتريا ومصر"
         ]
       },
@@ -41633,14 +41633,14 @@
         "date": "2026-10-02",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": true,
         "headlines": [
           "قطع علاقات وطرد دبلوماسيين.. الأزمة تتصاعد بين إثيوبيا وإريتريا ومصر",
-          "إثيوبيا وإريتريا تتبادلان قطع العلاقات، وتوتر متصاعد مع مصر",
-          "إثيوبيا تعلن دبلوماسيًا مصريًا \"شخصًا غير مرغوب فيه\" وتطالبه بمغادرة البلاد خلال 48 ساعة"
+          "مصر ترد على اثيوبيا وتطالب مستشار سفارة أديس ابابا بمغادرة أراضيها",
+          "إثيوبيا وإريتريا تتبادلان قطع العلاقات، وتوتر متصاعد مع مصر"
         ]
       }
     ],
@@ -58312,13 +58312,29 @@
           "The Cute Agentic AI Saga Continues With OpenAI's New Dots",
           "Why OpenAI’s DevDay Looked Like Catch-Up"
         ]
+      },
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "تقنية",
+        "publishable": true,
+        "headlines": [
+          "ChatGPT can now virtually try on clothes for you",
+          "ChatGPT Can Now Help You Virtually Try On Clothes",
+          "OpenAI Rolls Out Virtual Try-On and Favorites for ChatGPT Shoppers"
+        ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 2,
+    "last_seen": "2026-10-02",
+    "total": 3,
     "countries": [
       "eg",
-      "sa"
+      "sa",
+      "world"
     ],
     "peak_traffic": 5000,
     "category": "تقنية"
@@ -64420,8 +64436,8 @@
         "date": "2026-10-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+9000",
-        "traffic_num": 9000,
+        "traffic": "7,000+",
+        "traffic_num": 7000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -64971,8 +64987,8 @@
         "publishable": true,
         "headlines": [
           "SPH Media announces changes to leadership and board, including new managing director",
-          "SPH Media elevates deputy CEO to managing director",
-          "Khaw Boon Wan, 73, retires after stepping down as SPH Media Trust chairman"
+          "'An important period of transition': PM Wong thanks Khaw Boon Wan who retired as SPH Media chairman",
+          "SPH Media elevates deputy CEO to managing director"
         ]
       }
     ],
@@ -67052,11 +67068,11 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "القوات المسلحة اليمنية تحذر المواطنين من المرور في 19 طريقًا بمحافظة تعز",
-          "لقطع إمدادات الحوثي..الجيش اليمني يدعو المواطنين لتجنب 19 طريقاً بتعز",
-          "القوات اليمنية تحذر المدنيين: تجنبوا 19 طريقاً حتى إشعار آخر"
+          "عاجل | القوات الحكومية اليمنية: إسقاط مسيرات لمليشيا الحوثي في سماء عدن قبل وصولها لأهدافها بالمناطق والأحياء المدنية",
+          "هجوم على اجتماع في مقر قيادة التحالف بعدن",
+          "هجوم باليستي حوثي يستهدف عدن ويُلحق أضراراً بمنشأة ومنازل"
         ]
       }
     ],
@@ -67716,11 +67732,11 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "Greece 2-2 Netherlands: Christos Tzolis injury, Dutch draw after fightback",
-          "Christos Tzolis injury decision quickly made as worrying Arsenal blow confirmed",
-          "Arsenal's Christos Tzolis limps off from Greece, Netherlands draw"
+          "Arsenal's Christos Tzolis limps off from Greece, Netherlands draw",
+          "Huge Arsenal blow as Christos Tzolis becomes latest star to get injured during international break"
         ]
       },
       {
@@ -67749,8 +67765,8 @@
         "publishable": false,
         "headlines": [
           "Greece 2-2 Netherlands: Christos Tzolis injury, Dutch draw after fightback",
-          "Christos Tzolis injury decision quickly made as worrying Arsenal blow confirmed",
-          "Arsenal's Christos Tzolis limps off from Greece, Netherlands draw"
+          "Arsenal's Christos Tzolis limps off from Greece, Netherlands draw",
+          "Huge Arsenal blow as Christos Tzolis becomes latest star to get injured during international break"
         ]
       },
       {
@@ -67764,8 +67780,8 @@
         "publishable": true,
         "headlines": [
           "Greece 2-2 Netherlands: Christos Tzolis injury, Dutch draw after fightback",
-          "Arsenal suffer another major new injury scare as Tzolis forced off",
-          "Mikel Arteta handed new Arsenal injury worry as star forced off after 18 minutes"
+          "Arsenal's Christos Tzolis limps off from Greece, Netherlands draw",
+          "Huge Arsenal blow as Christos Tzolis becomes latest star to get injured during international break"
         ]
       }
     ],
@@ -67971,7 +67987,7 @@
         "headlines": [
           "CCTV shows police car carrying Mia Lay moments before fatal crash",
           "Tributes pour in as fundraiser for fallen cop Mia Lay raises $28k",
-          "Mia Lay honoured on National Police Remembrance Day"
+          "Tributes for 20yo policewoman killed in Sydney crash"
         ]
       }
     ],
@@ -69262,8 +69278,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "‘One in a million’: Celebrated NZ model Kirsty Lay dies aged 64",
-          "Face of the 80s: Christchurch modelling icon Kirsty Lay dies"
+          "Face of the 80s: Christchurch modelling icon Kirsty Lay dies",
+          "One of New Zealand’s most successful international models, Kirsty Lay, dies aged 64",
+          "‘Our greatest model from the 80s’: Christchurch supermodel Kirsty Lay dies aged 64"
         ]
       }
     ],
@@ -70547,14 +70564,14 @@
         "date": "2026-10-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
           "Trump's trade rep sounds pessimistic about deal with Canada, saying issues are 'quite difficult to resolve'",
-          "Carney says he has no plans to apply further trade pressure as U.S. midterms approach",
-          "Carney laughs off Trump’s claim about apologizing"
+          "‘They were very bad’: Trump says Canada is being ‘taught a little lesson’ as trade war continues",
+          "Carney says he has no plans to apply further trade pressure as U.S. midterms approach"
         ]
       }
     ],
@@ -70563,7 +70580,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 20000,
     "category": "اقتصاد"
   },
   "browns-record": {
@@ -70728,7 +70745,7 @@
         "headlines": [
           "‘Forgotten Island’ Forgotten At Box Office With $12.8M Opening",
           "Rave Reviews, But Just a $20 Million Global Opening: Is There Any Hope for 'Forgotten Island'? | Analysis",
-          "'Forgotten Island' is a cluttered feast for the senses : Pop Culture Happy Hour"
+          "DreamWorks’ Forgotten Island is a joyous, painful love letter to the Filipino diaspora"
         ]
       }
     ],
@@ -70784,7 +70801,7 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "زيدان يعلّق على نطحة ماتيراتزي بعد 20 عامًا.. فهل يشعر بالندم؟ | CNN Arabic | CNN",
+          "زيدان يعلّق على نطحة ماتيراتزي بعد 20 عامًا.. فهل يشعر بالندم؟",
           "مانشيني: أمام فرنسا لا يمكننا اللعب إلا من أجل الفوز",
           "زيدان قبل مواجهة إيطاليا: لم أتحدث مع ماتيرازي منذ النطحة"
         ]
@@ -70953,14 +70970,14 @@
         "date": "2026-10-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "عام",
         "publishable": true,
         "headlines": [
-          "Why so many people in sunny Singapore have Vitamin D deficiency – and what you should know",
-          "October Vitamin D Demand Outlook Strengthens in US on Seasonal and Product Trends",
-          "People in UK urged to start taking 3p pill every day from Thursday"
+          "Judge approves extradition of Singaporean wanted by the US for links to global insider trading ring",
+          "Singaporean insider trading suspect loses extradition fight",
+          "Singapore man linked to alleged global insider trading scheme cleared for extradition to US"
         ]
       }
     ],
@@ -70969,7 +70986,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "عام"
   },
   "brooke-eby": {
@@ -71029,5 +71046,266 @@
     ],
     "peak_traffic": 200,
     "category": "حوادث وقضايا"
+  },
+  "amazon-kindle-colorsoft": {
+    "slug": "amazon-kindle-colorsoft",
+    "name": "amazon kindle colorsoft",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Amazon introduces a completely redesigned Kindle family",
+          "Here's how you can buy or preorder Amazon's all-new Kindles and Kindle accessories",
+          "Amazon’s New Kindle Lineup Is Lighter, Thinner, and More Metal"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "عام"
+  },
+  "putin-russia": {
+    "slug": "putin-russia",
+    "name": "putin russia",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+4000",
+        "traffic_num": 4000,
+        "category": "دول وأماكن",
+        "publishable": true,
+        "headlines": [
+          "Putin warns West that Russia is prepared to use ‘all weapons’ to protect Kaliningrad",
+          "Russia warns NATO of a possible nuclear response if Kaliningrad is cut off",
+          "Putin warns West that Russia is ready to use every weapon to protect Kaliningrad"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 4000,
+    "category": "دول وأماكن"
+  },
+  "jasmine-paolini": {
+    "slug": "jasmine-paolini",
+    "name": "jasmine paolini",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "October 2, 2026: Francisco Cerundolo vs Jakub Mensik: Game Spread Tennis Prediction Market",
+          "China Open Tennis",
+          "China Open Tennis"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "اقتصاد"
+  },
+  "verity-movie": {
+    "slug": "verity-movie",
+    "name": "verity movie",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "فن ومشاهير",
+        "publishable": true,
+        "headlines": [
+          "Verity review – Dakota Johnson leaves teethmarks as she goes back to Fifty Shades erotic thriller territory",
+          "‘Verity’ Review: Anne Hathaway and Dakota Johnson Compete in Pulpy Thriller",
+          "Anne Hathaway’s seedy, slinky Verity suffers from the most frustrating twist"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "فن ومشاهير"
+  },
+  "chery-new-bakkie-afrikaans-name": {
+    "slug": "chery-new-bakkie-afrikaans-name",
+    "name": "chery new bakkie afrikaans name",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Nou praat ons! Chery's Hilux-rivalling bakkie is getting an Afrikaans name for South Africa",
+          "Chery unveils ‘Grootman’ name for new hybrid bakkie in SA",
+          "2027 Chery KP31 double-cab bakkie: South African name announced"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "عام"
+  },
+  "november-13": {
+    "slug": "november-13",
+    "name": "november 13",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "An Old Paper Really Did Suggest A Mathematical \"Doomsday\" On 13 November 2026, But There's No Need To Worry",
+          "1960 Doomsday Math Paper Recalls November 13 Apocalypse Prediction",
+          "Scientists Once Calculated the Date of Doomsday—and It’s Next Month"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "moonshot-ai": {
+    "slug": "moonshot-ai",
+    "name": "moonshot ai",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Chinese AI model investigated after researcher says it provided instructions for bioweapons, assassinations",
+          "Chinese AI tool told researchers how to make bioweapons",
+          "How much risk do humans face in the game of breaching AI security?"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "تقنية"
+  },
+  "lancaster-property-human-remains": {
+    "slug": "lancaster-property-human-remains",
+    "name": "lancaster property human remains",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|world",
+        "date": "2026-10-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Mystery surrounds case of 2 men who disappeared, then were found in shallow desert graves",
+          "2 bodies found at Lancaster property identified as people reported missing",
+          "Police search for additional victims as two bodies discovered in California"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "الطقس-اليوم": {
+    "slug": "الطقس-اليوم",
+    "name": "الطقس اليوم",
+    "first_seen": "2026-10-02",
+    "appearances": [
+      {
+        "key": "2026-10-02|eg",
+        "date": "2026-10-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "الطقس اليوم.. أجواء خريفية وشبورة كثيفة وأمطار والعظمى بالقاهرة 31 درجة",
+          "الأرصاد: طقس الغد حار نهارا معتدل ليلا على أغلب الأنحاء",
+          "طقس خريفي وأمطار متقطعة.. الأرصاد تكشف حالة الطقس حتى الأربعاء"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-02",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "طقس"
   }
 }

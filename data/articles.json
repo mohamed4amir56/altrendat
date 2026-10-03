@@ -24820,5 +24820,97 @@
     "photo_v": 7,
     "_had_data": false,
     "_localized": false
+  },
+  "world|2026-10-03|f1 qualifying": {
+    "headline": "Ferrari Paces Challenging Friday Practice As Red Bull Remains The Team To Beat",
+    "summary": "Charles Leclerc led the field during the Bahrain Grand Prix practice in Malaysia, edging out Red Bull’s Isack Hadjar by 0.099 seconds.",
+    "body": "Kimi Antonelli narrowly escaped the elimination zone during his initial run, clocking a time just 0.263 seconds behind the benchmark set by Max Verstappen. While the timesheets show a tight field, the underlying pace tells a different story as teams grapple with a dirty, slippery track at the Sepang International Circuit. Charles Leclerc, who claimed the fastest time, admitted that the conditions were tricky and noted that the track surface is expected to evolve significantly before qualifying begins. Despite Ferrari leading the session, George Russell and Leclerc both identified Red Bull as the team to beat for the weekend. Max Verstappen opted to bypass a qualifying simulation run on soft tyres, choosing instead to prioritize race preparation as rain forecasts loomed over the circuit. This decision kept him fourth on the charts, 0.257 seconds off the top pace. Meanwhile, Mercedes remains a difficult team to read, with Lewis Hamilton finishing fifth, 0.305 seconds behind his rival. Technical director Pierre Wache noted that Red Bull began the weekend with low expectations, yet their performance suggests they remain a formidable force. With the top four teams currently separated by less than four tenths of a second, the competitive nature of the field ensures that any marginal gains in car setup or track positioning will be critical for Saturday’s qualifying session. Fans can follow live text updates and BBC Radio 5 Sports Extra commentary to see which team successfully masters the evolving track conditions to secure pole position.",
+    "facts": [
+      {
+        "label": "Fastest Practice Driver",
+        "value": "Charles Leclerc"
+      },
+      {
+        "label": "Lead Margin",
+        "value": "0.099 seconds"
+      },
+      {
+        "label": "Venue",
+        "value": "Sepang International Circuit"
+      },
+      {
+        "label": "Event",
+        "value": "Bahrain Grand Prix"
+      }
+    ],
+    "tags": [
+      "Formula 1",
+      "Bahrain Grand Prix",
+      "Sepang",
+      "Charles Leclerc",
+      "Max Verstappen"
+    ],
+    "_v": 4,
+    "_by": "gemini",
+    "written_at": "2026-10-03T09:01:21.216820+00:00",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Vecteezy_stack-of-newspaper_1961329.jpg/1280px-Vecteezy_stack-of-newspaper_1961329.jpg",
+      "width": 1280,
+      "height": 853,
+      "artist": "Bernerlover",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "file_page": "https://commons.wikimedia.org/wiki/File:Vecteezy_stack-of-newspaper_1961329.jpg",
+      "stock": true
+    },
+    "photo_v": 7,
+    "_had_data": false,
+    "_localized": false
+  },
+  "world|2026-10-03|nvidia": {
+    "headline": "NVIDIA DGX Spark 64GB Configuration Powers Local AI Development On Device",
+    "summary": "NVIDIA is launching a new 64GB unified memory version of its DGX Spark AI platform this month through manufacturer partners.",
+    "body": "Running Qwen 3.8 27B tests, two clustered 64GB units delivered up to 1.7x performance compared to a single system. This local hardware removes cloud dependency for developers, researchers, and AI enthusiasts working on experiments and agentic workflows.\n\nThe 64GB platform provides a complete environment for inference, fine-tuning, and data science by combining the GB10 Grace Blackwell Superchip with NVIDIA DGX OS and the full NVIDIA AI software stack. This configuration supports models with up to 100 billion parameters directly on the device, offering a compact supercomputing solution that allows builders to keep their data private without relying on external cloud instances.\n\nNVIDIA reports that when workloads demand more power, users can connect two units using the NVIDIA Sync Cluster Assistant without additional setup. This system is designed to scale alongside growing project requirements, offering a more accessible price point than the existing 128GB model while maintaining identical core software and architectural capabilities.\n\nMajor manufacturers including Acer, ASUS, Dell, Gigabyte, HP, and MSI are partnering with NVIDIA to offer the hardware. Specifically, Gigabyte announced the AI TOP ATOM 64GB version on October 2, 2026, while MSI has expanded its EdgeXpert lineup to include this new configuration. The hardware will be available to consumers starting this month.",
+    "facts": [
+      {
+        "label": "Release Date",
+        "value": "October 2026"
+      },
+      {
+        "label": "Unified Memory",
+        "value": "64GB"
+      },
+      {
+        "label": "Performance",
+        "value": "Up to 1.7x when clustered"
+      },
+      {
+        "label": "Partners",
+        "value": "Acer, ASUS, Dell, Gigabyte, HP, MSI"
+      }
+    ],
+    "tags": [
+      "NVIDIA",
+      "Artificial Intelligence",
+      "Hardware",
+      "DGX Spark",
+      "Edge Computing"
+    ],
+    "_v": 4,
+    "_by": "gemini",
+    "written_at": "2026-10-03T09:01:26.681495+00:00",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/1280px-Datacenter_Server_Racks_%2822370909788%29.jpg",
+      "width": 1280,
+      "height": 853,
+      "artist": "Carl Lender from Sunrise, USA",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "file_page": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+      "stock": true
+    },
+    "photo_v": 7,
+    "_had_data": false,
+    "_localized": false
   }
 }

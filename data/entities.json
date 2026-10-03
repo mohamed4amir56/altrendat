@@ -2133,14 +2133,14 @@
         "date": "2026-10-03",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "category": "حوادث وقضايا",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "معلومات جديدة عن مساعد الطيار في فلاي دبي.. درس بجامعة بريطانية",
-          "\"استُبعد من شركة طيران بسبب تشدده\".. مصادر تكشف لـ CNN عن معلومات جديدة بشأن المشتبه به في حادثة \"فلاي دبي\"",
-          "النائب العام الإماراتي: مساعد طيار \"فلاي دبي\" خطّط لتنفيذ \"عملية إرهابية\"، ومشاركة إسرائيلية في التحقيق معه"
+          "اختفاء طائرة أثناء رحلتها من برمودا إلى مدينة بوسطن بالولايات المتحدة",
+          "خفر السواحل الأميركي يبحث عن طائرة مفقودة أثناء تحليقها إلى بوسطن",
+          "فقدان الاتصال بطائرة تقل 6 أشخاص أثناء رحلة من برمودا إلى بوسطن"
         ]
       }
     ],
@@ -2151,7 +2151,7 @@
       "sa"
     ],
     "peak_traffic": 10000,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "منتخب-أنغولا-لكرة-القدم": {
     "slug": "منتخب-أنغولا-لكرة-القدم",
@@ -2868,14 +2868,29 @@
           "مؤشر الأسهم السعودية يتراجع 123.54 نقطة ويغلق عند 10455.64",
           "المزاد: تداول 5.8 مليون سهم بقيمة 130 مليون ريال"
         ]
+      },
+      {
+        "key": "2026-10-03|sa",
+        "date": "2026-10-03",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "+2500",
+        "traffic_num": 2500,
+        "category": "دول وأماكن",
+        "publishable": true,
+        "headlines": [
+          "تراجع أسعار الذهب في المملكة.. وعيار 21 يسجل 436 ريالا",
+          "سعر الذهب في السعودية يستقر اليوم.. و«عيار 24» يسجل 500 ريال",
+          "سعر الذهب اليوم في السعودية..انخفاض طفيف لـ\"الأصفر\"وعيار 24 يسجل 499.18ريال"
+        ]
       }
     ],
-    "last_seen": "2026-09-29",
-    "total": 2,
+    "last_seen": "2026-10-03",
+    "total": 3,
     "countries": [
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 2500,
     "category": "دول وأماكن"
   },
   "barcelona-vs-paris-fc": {
@@ -36555,15 +36570,30 @@
           "Ben Affleck’s Brother Has Blunt Take on Matt Damon: ‘Always a Bit of a Showoff’",
           "Casey Affleck on Matt Damon Rivalry, a Chris Nolan Phone Call and Being a Proud “Hollywood Outsider”"
         ]
+      },
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Ben Affleck insists he’s ‘good’ and ‘happy’ single: ‘I know what my priorities are’",
+          "Ben Affleck gives unexpected update on his love life 2 years after Jennifer Lopez split",
+          "Ben Affleck Says Dating Is Not a ‘Big Priority in My Life’ Amid Shakira Setup Rumor: ‘I’m Happy’"
+        ]
       }
     ],
-    "last_seen": "2026-09-28",
-    "total": 1,
+    "last_seen": "2026-10-03",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "فن ومشاهير"
+    "category": "تقنية"
   },
   "braxton-jones": {
     "slug": "braxton-jones",
@@ -43398,7 +43428,7 @@
         "headlines": [
           "بعد عقوبة الجوير.. رسالة صارمة تهز معسكر المنتخب السعودي",
           "\"لست معتادًا على كشف عورات النساء\" .. بيان شديد اللهجة من العويران بعد حملة الهجوم ضده بسبب أزمة الجوير!",
-          "شاهد | ياسر القحطاني يفتح ملف أزمة مصعب الجوير"
+          "بعدين حاسبه على خطئه! ..بالفيديو .. العويران يكشف سبب استبعاد اللاعب \"مصعب الجوير\" من المنتخب ويتمنى عودته"
         ]
       }
     ],
@@ -45654,15 +45684,30 @@
           "‘This is just the start’: Munetaka Murakami ready to lead Chicago White Sox in his 1st MLB postseason",
           "White Sox star Munetaka Murakami celebrates team's playoff berth in epic fashion"
         ]
+      },
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "White Sox, Yankees advance to next round with sweeps as Munetaka Murakami provides quote of the year",
+          "Four eye-opening performances from the Wild Card Series",
+          "Chase Meidroth, Kyle Schwarber, Xander Boegarts all factor in playoff wins Wednesday"
+        ]
       }
     ],
-    "last_seen": "2026-09-30",
-    "total": 2,
+    "last_seen": "2026-10-03",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "رياضة"
+    "category": "فن ومشاهير"
   },
   "dante-pettis": {
     "slug": "dante-pettis",
@@ -49926,12 +49971,12 @@
         "date": "2026-10-03",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+7500",
-        "traffic_num": 7500,
+        "traffic": "7,000+",
+        "traffic_num": 7000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "IND vs WI Live Score, 3rd ODI: Shai Hope delivers West Indies' first win on India tour",
+          "Ball by Ball Commentary & Live Score - IND vs WI, 3rd ODI",
           "Monumental feat! KL Rahul gets to 10K Intl runs in style",
           "India Break England's Record Of Hitting Most Sixes In A 3-Match ODI Series"
         ]
@@ -85260,11 +85305,11 @@
         "traffic": "20000+",
         "traffic_num": 20000,
         "category": "عام",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "SSS Encourages Members To Avail Of New Microloan Facility",
           "SSS rolls out P20,000 microloan",
-          "SSS, GSIS microloans offer workers\nalternative to informal lenders"
+          "Borrowing P1k up to P20k? SSS launches LoanLite digital microloan facility",
+          "SSS LoanLite offers P1K to P20K loans for qualified members' immediate needs"
         ]
       }
     ],
@@ -86189,7 +86234,7 @@
         "headlines": [
           "Man Utd 1-0 Liverpool: Zigiotti Olme's chipped winner sees off rivals",
           "Man Utd 1-0 Liverpool: Julia Zigiotti’s early chip earns Eva Olid back-to-back WSL wins",
-          "Manchester United WFC (W) - Liverpool FC Women (W) betting tip & best odds | 03.10.2026"
+          "LFC Women team news: Mao Itamura, Lucy Parry, Sophie Roman Haug and Mari Ward"
         ]
       }
     ],
@@ -87489,14 +87534,14 @@
         "date": "2026-10-03",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "60,000+",
-        "traffic_num": 60000,
+        "traffic": "57,000+",
+        "traffic_num": 57000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Croatia vs England: UEFA Nations League stats & head-to-head",
           "Croatia v England: Nations League football – live",
-          "Live Commentary - Croatia vs England | 03.10.2026"
+          "Croatia vs England: UEFA Nations League stats & head-to-head",
+          "Extra shots of England stars training ahead of Croatia challenge"
         ]
       },
       {
@@ -87521,7 +87566,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 60000,
+    "peak_traffic": 57000,
     "category": "رياضة"
   },
   "alabama-vs-ms-state": {
@@ -88258,8 +88303,8 @@
         "date": "2026-10-03",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
@@ -88274,7 +88319,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "دول وأماكن"
   },
   "vanderbilt-vs-georgia": {
@@ -88656,7 +88701,7 @@
         "headlines": [
           "الرئيس الصومالي للجزيرة: نرفض إقامة قاعدة إسرائيلية ومستعدون لمنح إثيوبيا منافذ بحرية",
           "رئيس الصومال: لن نقبل بوجود إسرائيل ببلادنا فهى تسعى لإقامة قاعدة فى بربرة",
-          "الرئيس الصومالي: لن نقبل تحت أي ظرف بوجود إسرائيلي في بلادنا"
+          "الرئيس الصومالي: لن نقبل بأي وجود عسكري إسرائيلي في بلادنا"
         ]
       }
     ],
@@ -88857,9 +88902,9 @@
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
-          "بعد تراجع عيار 24.. كم سجلت سبائك الذهب اليوم؟",
-          "مباشر الان\".. سعر جرام الذهب عيار 24 سعر الذهب اليوم يتجاوز 7100 جنيه في أحدث تحديث",
-          "سعر الذهب عيار 24 اليوم الخميس.. الجرام يخسر 125 جنيها"
+          "أسعار الذهب اليوم في مصر السبت 3 أكتوبر 2026 بالتعاملات المسائية",
+          "سعر الذهب اليوم في مصر يواصل الانخفاض منتصف تعاملات السبت",
+          "أسعار الذهب في مصر تستقر مع بداية تعاملات السبت"
         ]
       }
     ],
@@ -89087,9 +89132,9 @@
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
-          "الكويت.. بيان من هيئة الطيران المدني عن الترانزيت وإجراءات ضد \"طيران الجزيرة\"",
-          "الكويت: استمرار تعليق رحلات الترانزيت حتى إشعار آخر",
-          "«الطيران المدني»: قرار وقف عمليات الترانزيت في مطار الكويت لا يزال سارياً حتى إشعار آخر"
+          "الكويت.. الداخلية تعلن ضبط 5 مصريين وسوريين وتكشف ما فعلوه",
+          "الكويت.. ضبط مصريين وسوريين بتهمة استغلال مشروع خيري لجمع التبرعات",
+          "\"تبرعاتكم تحولت إلى تجارة\": كيف استغل 3 سوريين ومصريان مشروعاً خيرياً وحوّلوا الإحسان إلى أرباح؟"
         ]
       }
     ],
@@ -89111,14 +89156,14 @@
         "date": "2026-10-03",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "category": "رياضة",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "ديني",
         "publishable": true,
         "headlines": [
-          "فهد المسماري يفاجئ نجوم الأفريقي التونسي (فيديو)",
-          "موعد مباراة الأفريقي ضد الأهلي بنغازي والقنوات الناقلة",
-          "النادي الافريقي يلاقي أهلي بنغازي الليبي اليوم وديا"
+          "جدول مباريات اليوم السبت 3 أكتوبر 2026 .. القنوات الناقلة والمعلقين",
+          "الإمارات والسعودية والبرازيل وإسبانيا.. مواعيد مباريات اليوم والقنوات الناقلة",
+          "نهائي \"خليجي 27\" وقمم أوروبا.. أسبوع رياضي حافل بالمواجهات الكبرى"
         ]
       }
     ],
@@ -89127,8 +89172,8 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
-    "category": "رياضة"
+    "peak_traffic": 5000,
+    "category": "ديني"
   },
   "sherfane-rutherford": {
     "slug": "sherfane-rutherford",
@@ -89225,14 +89270,14 @@
         "date": "2026-10-03",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+15500",
-        "traffic_num": 15500,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Los antecedentes de Perú ante Canadá, su próximo rival en la fecha FIFA",
-          "¡Alineación confirmada! Titulares de Perú para enfrentar hoy a Canadá por amistoso 2026",
-          "\"Vamos a evaluar darle minutos a otro arquero\": Mano Menezes en la previa del duelo ante Canadá"
+          "Dónde y cómo ver en vivo y gratis Perú vs. Canadá hoy: TV y streaming online del amistoso internacional en Montreal",
+          "Perú buscará hoy una victoria ante Canadá en Montreal",
+          "Historial de Canadá vs Perú en duelos recientes"
         ]
       },
       {
@@ -89245,8 +89290,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Canadá vs Perú – Pronóstico, dónde ver, horario y alineaciones 03-10",
-          "Niko Sigur advierte sobre Perú antes del amistoso en Montreal"
+          "Dónde y cómo ver en vivo y gratis Perú vs. Canadá hoy: TV y streaming online del amistoso internacional en Montreal",
+          "Niko Sigur advierte sobre Perú antes del amistoso en Montreal",
+          "Perú buscará hoy una victoria ante Canadá en Montreal"
         ]
       },
       {
@@ -89257,10 +89303,11 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Canadá vs Perú – Pronóstico, dónde ver, horario y alineaciones 03-10",
-          "Niko Sigur advierte sobre Perú antes del amistoso en Montreal"
+          "Dónde y cómo ver en vivo y gratis Perú vs. Canadá hoy: TV y streaming online del amistoso internacional en Montreal",
+          "Posible alineaciones de Canada y Perú en amistoso",
+          "Menezes: \"Los jugadores mentalmente están muy fuertes y eso ayuda en la recuperación física\""
         ]
       }
     ],
@@ -89271,7 +89318,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 15500,
+    "peak_traffic": 10000,
     "category": "رياضة"
   },
   "air-ambulance": {
@@ -89290,8 +89337,8 @@
         "publishable": true,
         "headlines": [
           "4 Canadians aboard missing Ontario-based air ambulance flying from Bermuda",
-          "Coast Guard searching for plane with 6 aboard that lost contact on trip from Bermuda to Boston",
-          "Coast Guard searching off Nantucket for medical evacuation jet carrying 6 people heading from Bermuda to Boston"
+          "Coast Guard searches off Nantucket for missing medical transport aircraft with 6 aboard",
+          "Coast Guard searching for plane with 6 aboard that lost contact on trip from Bermuda to Boston"
         ]
       }
     ],
@@ -89516,8 +89563,8 @@
         "date": "2026-10-03",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -89532,7 +89579,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "jewel-andrew": {
@@ -89864,23 +89911,39 @@
         "date": "2026-10-03",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+700",
-        "traffic_num": 700,
+        "traffic": "+7000",
+        "traffic_num": 7000,
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
+          "مباراة فريقي إسبانيا و التشيك في بطولة دوري الأمم الأوروبية - المستوى الأول - دور المجموعات",
+          "ترتيب المجموعة الرابعة بعد فوز البرتغال وسقوط النرويج في دوري الأمم الأوروبية",
+          "جدول مباريات اليوم - 3 أكتوبر 2026 - بطولة دوري الأمم الأوروبية - المستوى الثاني"
+        ]
+      },
+      {
+        "key": "2026-10-03|sa",
+        "date": "2026-10-03",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "+10000",
+        "traffic_num": 10000,
+        "category": "دول وأماكن",
+        "publishable": true,
+        "headlines": [
+          "مدرب التشيك يرشح يامال للكرة الذهبية: «لاعب يصنع الفارق وبطل كأس العالم»",
           "مدرب إسبانيا عن أزمة رونالدو: لا أملك الحقائق",
-          "تقارير: استبعاد ثنائي منتخب إسبانيا من مواجهة التشيك",
-          "دي لا فوينتي يُمهد لقرار مفاجئ بشأن لامين يامال"
+          "فابيان رويز يغادر معسكر «لا روخا» لحضور ولادة طفله الأول"
         ]
       }
     ],
     "last_seen": "2026-10-03",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
-    "peak_traffic": 700,
+    "peak_traffic": 10000,
     "category": "دول وأماكن"
   },
   "منتخب-مصر-للشباب": {
@@ -89899,8 +89962,8 @@
         "publishable": false,
         "headlines": [
           "القنوات الناقلة وموعد مباراة مصر والمغرب للشباب فى تصفيات شمال أفريقيا",
-          "مباشر الآن مباراة منتخب مصر للشباب ضد المغرب اليوم في تصفيات شمال أفريقيا تحت 20 سنة.. (استراحة)",
-          "شوقي غريب يحفز منتخب الشباب قبل مواجهة المغرب"
+          "مباشر الآن مباراة منتخب مصر للشباب ضد المغرب اليوم في تصفيات شمال أفريقيا تحت 20 سنة.. (الشوط الثاني)",
+          "منتخب الشباب يصطدم بالمغرب فى التصفيات القارية"
         ]
       }
     ],
@@ -89940,5 +90003,410 @@
     ],
     "peak_traffic": 100,
     "category": "حوادث وقضايا"
+  },
+  "spain-vs-czechia": {
+    "slug": "spain-vs-czechia",
+    "name": "spain vs czechia",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "47,000+",
+        "traffic_num": 47000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Spain vs Czech Republic: UEFA Nations League stats & head-to-head",
+          "Will Lamine Yamal start again for Spain? Luis de la Fuente talks Barcelona star",
+          "How to Watch Spain vs. Czechia on TV, Live Stream"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 47000,
+    "category": "رياضة"
+  },
+  "is-traitors-on-tonight": {
+    "slug": "is-traitors-on-tonight",
+    "name": "is traitors on tonight",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "فن ومشاهير",
+        "publishable": true,
+        "headlines": [
+          "Traitors claim their first victim as Richard E Grant tries to save his skin",
+          "The Celebrity Traitors review – Ross Kemp really needs to get a grip",
+          "Chaos, coffins and ‘Claudiapatra’ steal the show in Celebrity Traitors"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "فن ومشاهير"
+  },
+  "españa---chequia": {
+    "slug": "españa---chequia",
+    "name": "españa - chequia",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "España vs Chequia: posibles alineaciones y probabilidades",
+          "La posible alineación titular de España para enfrentar a la República Checa",
+          "De la Fuente: “Hemos visto más maduro a Lamine”"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "رياضة"
+  },
+  "chris-appleton": {
+    "slug": "chris-appleton",
+    "name": "chris appleton",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Who is Strictly Come Dancing contestant and celeb bestie Chris Appleton?",
+          "Who is Strictly Come Dancing contestant and celeb bestie Chris Appleton?"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "عام"
+  },
+  "north-macedonia-vs-scotland": {
+    "slug": "north-macedonia-vs-scotland",
+    "name": "north macedonia vs scotland",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "6,000+",
+        "traffic_num": 6000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "North Macedonia vs Scotland LIVE: Uefa Nations League TV, radio, updates, stats & head-to-head",
+          "John McGinn hails ‘inspirational’ Andy Robertson as he prepares for 100th cap",
+          "Points must take precedence over plaudits for skipper for Scotland manager in Skopje"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 6000,
+    "category": "رياضة"
+  },
+  "heimir-hallgrímsson": {
+    "slug": "heimir-hallgrímsson",
+    "name": "heimir hallgrímsson",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Press briefing ends abruptly as FAI reject racism claims",
+          "Israel boss speaks to the media ahead of Nations League clash with Ireland",
+          "Chief Rabbi: All the good that might have come from Ireland v Israel has been lost"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "عام"
+  },
+  "lawrence-robb": {
+    "slug": "lawrence-robb",
+    "name": "lawrence robb",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "فن ومشاهير",
+        "publishable": true,
+        "headlines": [
+          "Strictly star Katya Jones clarifies viral comment from live show",
+          "Strictly’s Katya Jones clarifies what she really said about Lawrence Robb after comment caught on camera",
+          "Lawrence Robb's girlfriend responds after Strictly's Katya Jones appeared to call him 'fit'"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "فن ومشاهير"
+  },
+  "tanzania": {
+    "slug": "tanzania",
+    "name": "tanzania",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Tanzania to close schools early as El Niño rains loom",
+          "KNEC flags 18 counties as El Nino threatens exams",
+          "Tanzania reschedules National Exams ahead of El Niño rains"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "عام"
+  },
+  "switzerland-vs-slovenia": {
+    "slug": "switzerland-vs-slovenia",
+    "name": "switzerland vs slovenia",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Switzerland vs Slovenia: UEFA Nations League stats & head-to-head",
+          "Aebischer Back on the Starting Grid",
+          "Football Bet of the Day: James Milton has a 10-11 selection from the Nations League"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "alcorn-state-vs-grambling-st": {
+    "slug": "alcorn-state-vs-grambling-st",
+    "name": "alcorn state vs grambling st",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Braves Head to Grambling Following Overtime Win",
+          "Grambling set to face Alcorn for Homecoming showdown",
+          "Alcorn State @ Grambling Odds"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "dodger-game-today": {
+    "slug": "dodger-game-today",
+    "name": "dodger game today",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Braves-Dodgers NLDS Game 1 FAQ (4 p.m. ET, FOX/FOX One)",
+          "Braves hope bullpen can overcome stars in LA",
+          "‘We are the team to beat.’ How the Dodgers are preparing for showdown with Braves"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "diego-pavia": {
+    "slug": "diego-pavia",
+    "name": "diego pavia",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Diego Pavia Seemingly Turns to New Career Path Away From Football as NFL Career Appears Over After Ravens Exit",
+          "Diego Pavia Is Trying To Find His Wife With New Career As A Viral Twitch Streamer",
+          "Diego Pavia makes dramatic career switch after finding himself without NFL team"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "sherrod-brown": {
+    "slug": "sherrod-brown",
+    "name": "sherrod brown",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|world",
+        "date": "2026-10-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Woman accusing Sherrod Brown of forcing transgender surgeries isn’t from Ohio, didn’t have procedure as minor",
+          "Sherrod Brown ad uses vulgar language to target Jon Husted's remarks on poverty",
+          "Fact checking the Senate Leadership Fund’s ad that says Brown supports sex change surgery for kids"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "سياسة"
+  },
+  "منتخب-مصر-وجنوب-أفريقيا": {
+    "slug": "منتخب-مصر-وجنوب-أفريقيا",
+    "name": "منتخب مصر وجنوب أفريقيا",
+    "first_seen": "2026-10-03",
+    "appearances": [
+      {
+        "key": "2026-10-03|eg",
+        "date": "2026-10-03",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "\"ثأر العميد وتفوق موسيماني\".. كل ما تريد معرفته عن جنوب إفريقيا قبل مواجهة مصر",
+          "تدريبات في ضيافة ذئاب الجبل وزيارة للتتش .. كواليس عودة موسيماني للقاهرة",
+          "موسيماني: مواجهة منتخب مصر مثل السباحة مع القروش"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-03",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
   }
 }

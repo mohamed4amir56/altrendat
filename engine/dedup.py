@@ -305,6 +305,11 @@ def dedup_trends(trends, lang="ar"):
     for t in pool:
         matched_idx = None
         for i, existing in enumerate(kept):
+            # مقالان منشوران لا يُدمجان: الدمج يُبقي واحدًا ويُسقط رابط الآخر،
+            # فيصير 404 بعد أن نُشر وزاره جوجل. يبقيان صفحتين، والكاتب لا
+            # يكتب الثاني من الأصل (انظر published_today في writer.py).
+            if t.get("article") and existing.get("article"):
+                continue
             is_dup, reason = are_duplicates(t, existing)
             if is_dup:
                 matched_idx = i

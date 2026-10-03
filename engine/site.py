@@ -1593,6 +1593,23 @@ def build_trend(country, cfg, t, urls, hubs=None, news=None):
                 robots=ROBOTS_INDEX if is_indexed else ROBOTS_NOINDEX)
 
 
+def keep_published(old, t):
+    """ترند له مقال منشور يُحدَّث في لقطة يومه ولا يُستبدل بنسخة التشغيلة.
+
+    التشغيلة الحالية قد لا ترفق مقاله، ومصادرها من Google Trends تتبدل خلال
+    اليوم. الاستبدال الكامل كان يمحو المقال فيصير رابطه 404، أو ينزل مصادره
+    تحت اثنين فيخرج من الفهرسة. فيبقى المقال، وتُضم المصادر القديمة للجديدة.
+    """
+    if not t.get("article"):
+        for k, v in old.items():
+            t.setdefault(k, v)          # المقال وصورته وكارته كما نُشرت
+        t["article"] = old["article"]
+    seen = {n.get("url") for n in t.get("news", [])}
+    t["news"] = list(t.get("news", [])) + [
+        n for n in old.get("news", [])
+        if n.get("url") not in seen and not sources.is_spam(n)]
+
+
 def archive_today(data):
     """يؤرشف حالة اليوم الحالية قبل البناء.
 
@@ -1623,6 +1640,8 @@ def archive_today(data):
                 t["published_at"] = old["published_at"]
             elif not t.get("published_at"):
                 t["published_at"] = cfg.get("generated_at")
+            if old and old.get("article"):
+                keep_published(old, t)
             merged[t["title"]] = t
 
         snap = dict(cfg)
@@ -1895,6 +1914,9 @@ def build_topic(slug, tp, urls):
                 robots=ROBOTS_INDEX if is_indexed else ROBOTS_NOINDEX)
 
 
+STUBS = set()   # مسارات التحويلات المكتوبة في هذا البناء: ليست صفحات حية
+
+
 def redirect_stub(path, target):
     """تحويل فوري لرابط لم يعد صفحة. جوجل تعامل meta refresh الفوري
     كتحويل دائم. يُستخدم بدل ملف _redirects لأن مطابقة الروابط العربية
@@ -1902,6 +1924,7 @@ def redirect_stub(path, target):
     full = os.path.join(OUT, path)
     if os.path.exists(full):
         return False
+    STUBS.add(os.path.normpath(full))
     os.makedirs(os.path.dirname(full), exist_ok=True)
     t = E(target)
     with open(full, "w", encoding="utf-8") as f:
@@ -1912,6 +1935,84 @@ def redirect_stub(path, target):
                 '<title>{s}</title></head><body><p><a href="{t}">{s}</a></p>'
                 '</body></html>'.format(t=t, s=E(SITE_NAME)))
     return True
+
+
+PUBLISHED = os.path.join(ROOT, "data", "published_urls.json")
+DAY_RE = re.compile(r"20\d\d-\d\d-\d\d$")
+
+
+def keep_published_urls(urls, built, hubs):
+    """شبكة أمان: كل رابط ظهر في خريطة الموقع يومًا يبقى صفحة أو تحويلًا.
+
+    حتى 3 أكتوبر 2026 كان 546 رابطًا عرفها جوجل (كانت في الخريطة) ترجع 404:
+    مقالات حذفها الكاتب أو الدمج بعد نشرها، وأيام وصفحات مواضيع فرغت من
+    المقالات. السجل data/published_urls.json يضم كل رابط دخل الخريطة، وكل
+    رابط منه لم يعد صفحة يأخذ تحويلًا لأقرب صفحة حية: الخبر نفسه في يوم
+    آخر، ثم صفحة موضوعه، ثم يومه، ثم نسخته. يعمل بعد بناء كل الصفحات
+    والتحويلات الأخرى، فلا يكتب فوق صفحة أبدًا (انظر redirect_stub)."""
+    known = set()
+    if os.path.exists(PUBLISHED):
+        with open(PUBLISHED, encoding="utf-8") as f:
+            known = set(json.load(f))
+
+    def live(path):
+        """صفحة حقيقية — لا تحويل، فلا يشير تحويل إلى تحويل."""
+        full = os.path.normpath(os.path.join(OUT, path, "index.html"))
+        return os.path.exists(full) and full not in STUBS
+
+    def taken(path):
+        return os.path.exists(os.path.join(OUT, path, "index.html"))
+
+    days_of = {}
+    for key, day, slug in built:
+        days_of.setdefault((key, slug), []).append(day)
+
+    def nearest(key, slug, day):
+        ds = days_of.get((key, slug))
+        if not ds:
+            return None
+        ref = datetime.strptime(day, "%Y-%m-%d")
+        return min(ds, key=lambda d: abs((datetime.strptime(d, "%Y-%m-%d") - ref).days))
+
+    n = 0
+    for u in sorted(known):
+        if not u.startswith(BASE + "/"):
+            continue
+        path = u[len(BASE):].strip("/")
+        if not path or "." in path.rsplit("/", 1)[-1] or taken(path):
+            continue
+        p = path.split("/")
+        target = None
+        if len(p) == 3 and DAY_RE.match(p[1]):          # مقال
+            key, day, slug = p
+            near = nearest(key, slug, day)
+            if near:
+                target = "{}/{}/{}/{}/".format(BASE, key, near, slug)
+            elif has_hubs(key) and slug in hubs:
+                target = "{}/e/{}/".format(BASE, slug)
+            elif live("{}/{}".format(key, day)):
+                target = "{}/{}/{}/".format(BASE, key, day)
+        elif len(p) == 2 and DAY_RE.match(p[1]):        # يوم فرغ من المقالات
+            if live(p[0] + "/archive"):
+                target = "{}/{}/archive/".format(BASE, p[0])
+        elif len(p) == 2 and p[0] == "e":               # صفحة موضوع لم تعد صفحة
+            hits = [(d, k) for (k, s), ds in days_of.items() if s == p[1] for d in ds]
+            if hits:
+                d, k = max(hits)
+                target = "{}/{}/{}/{}/".format(BASE, k, d, p[1])
+        if not target:
+            target = "{}/{}/".format(BASE, p[0]) if live(p[0]) else BASE + "/"
+        if redirect_stub(path + "/index.html", target):
+            n += 1
+
+    # السجل للنطاق الحقيقي فقط: بناء تجريبي على عنوان محلي لا يضيف روابطه
+    host = BASE.split("//", 1)[-1].split("/", 1)[0]
+    if host.startswith(("localhost", "127.")) or host.endswith((".pages.dev", ".workers.dev")):
+        return n
+    known.update(u for u, *_ in urls)
+    with open(PUBLISHED, "w", encoding="utf-8") as f:
+        json.dump(sorted(known), f, ensure_ascii=False, indent=0)
+    return n
 
 
 def news_time(t, cfg):
@@ -2660,6 +2761,7 @@ def main():
     topics = collect_topics(by_country)
     hubs = {s for s, tp in topics.items() if len(tp["items"]) >= MIN_TOPIC_ITEMS}
     n_trends = n_days = 0
+    built = set()       # (نسخة، يوم، slug) لكل صفحة خبر بُنيت — لشبكة الأمان
 
     for key, entries in by_country.items():
         dates = [d for d, _ in entries]
@@ -2671,6 +2773,7 @@ def main():
             for t in cfg["trends"]:
                 if t.get("article"):
                     build_trend(key, cfg, t, urls, hubs=hubs if has_hubs(key) else None, news=news)
+                    built.add((key, day, entities.slugify(t["title"])))
                     n_trends += 1
         build_archive(key, [(d, c, len([x for x in c["trends"] if x.get("article")]))
                             for d, c in entries], urls)
@@ -2739,6 +2842,9 @@ def main():
         target = BASE + "/" + tp["items"][0]["href"] if tp else BASE + "/"
         if redirect_stub("e/{}/index.html".format(slug), target):
             n_stubs += 1
+
+    # وأي رابط آخر نُشر يومًا ولم يعد صفحة (انظر keep_published_urls)
+    n_stubs += keep_published_urls(urls, built, hubs)
 
     n_map, n_news = build_sitemaps(urls, news)
 

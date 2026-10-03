@@ -62,6 +62,16 @@ def article_key(trend, country_key, day):
     return country_key + "|" + day + "|" + trend["title"]
 
 
+def published_today(key, day):
+    """مقالات اليوم المنشورة فعلًا (لقطة اليوم في data/days، يكتبها site.py)."""
+    path = os.path.join(ROOT, "data", "days", "{}-{}.json".format(key, day))
+    try:
+        with open(path, encoding="utf-8") as f:
+            return [t for t in json.load(f).get("trends", []) if t.get("article")]
+    except (OSError, ValueError):
+        return []
+
+
 # قياس الاستهلاك الفعلي: كل نداء لـ Claude يُحسب هنا ثم يُجمع في data/usage.json
 # حسب اليوم، فنعرف التكلفة بالرقم لا بالتقدير. الأسعار لكل مليون توكن (Haiku 4.5).
 USAGE_FILE = os.path.join(ROOT, "data", "usage.json")
@@ -532,6 +542,7 @@ def main():
             world_left = max(0, config.WORLD_DAILY_MAX - done_today)
             print("  الحد اليومي: كُتب {} من {}".format(done_today, config.WORLD_DAILY_MAX))
 
+        today_pub = published_today(key, day)
         for t in order:
             if limit is not None and attempts >= limit:
                 break
@@ -540,13 +551,17 @@ def main():
                 break
             k = article_key(t, key, day)
 
-            # لا يُكتب إلا ما أجازته طبقة الأمان. وما كُتب قبل أن يتشدّد
-            # الفلتر يُحذف الآن، فالمنع يسري على ما سبق أيضًا.
+            # لا يُكتب إلا ما أجازته طبقة الأمان. أما مقال نُشر فعلًا فيبقى:
+            # الترند يُعاد تقييمه كل تشغيلة بمصادر Google Trends الحالية، وهي
+            # تتبدل خلال اليوم، فكان المقال المنشور يُحذف بعد ساعات لأن مصادره
+            # تغيّرت، فيصير رابطه 404 بعد أن زاره جوجل (10-20 رابطًا في اليوم
+            # حتى 3 أكتوبر). حذف المنشور قرار يتم بـ prune.py ومعه تحويل.
             if not t["publishable"]:
-                if store.pop(k, None) is not None:
-                    save_articles(store)
-                    print("  🗑 حُذف مقال قديم: " + t["title"])
-                skipped += 1
+                if isinstance(store.get(k), dict) and store[k].get("body"):
+                    t["article"] = store[k]
+                    cached += 1
+                else:
+                    skipped += 1
                 continue
 
             # مقال كُتب قبل أن يُربط مزوّد بيانات أو قبل استبدال مصادره
@@ -565,6 +580,17 @@ def main():
                 t["article"] = store[k]
                 cached += 1
                 continue
+
+            # ترند جديد هو نفس خبر منشور اليوم بعنوان آخر («البرتغال» و
+            # «portugal national football team»): لا يُكتب. كان يُكتب ثم يدمجه
+            # الموقع في المنشور، فيسقط رابطه 404 بعد أن نُشر ودُفع ثمنه.
+            if k not in store:
+                twin = next((o["title"] for o in today_pub if o["title"] != t["title"]
+                             and dedup.are_duplicates(t, o)[0]), None)
+                if twin:
+                    skipped += 1
+                    print("  ↪ نفس خبر منشور اليوم («" + twin + "»): " + t["title"])
+                    continue
 
             if world_left is not None and world_left <= 0 and not stale:
                 skipped += 1          # الحد اليومي للإنجليزي اكتمل؛ يُرصد ولا يُكتب

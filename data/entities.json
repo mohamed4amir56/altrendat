@@ -693,7 +693,7 @@
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
-          "قبل ضربة البداية.. خريطة أسعار الدولار مقابل الجنيه قبيل انطلاق تداولات الأحد",
+          "تعرف على سعر الدولار مقابل الجنيه فى البنك المركزى اليوم الأحد",
           "ارتفع في بنكين.. سعر الدولار مقابل الجنيه مع بداية تعاملات الأحد",
           "استقرار أسعار العملات العربية في ختام تعاملات اليوم 3 أكتوبر 2026"
         ]
@@ -3203,15 +3203,11 @@
         "date": "2026-10-04",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+10200",
-        "traffic_num": 10200,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "طقس",
-        "publishable": true,
-        "headlines": [
-          "A front will keep shower and storm coverage widespread through next week",
-          "Another gloomy day, but sunshine is on the horizon",
-          "Tracking high rain coverage through the weekend and next week for Central Florida"
-        ]
+        "publishable": false,
+        "headlines": []
       }
     ],
     "last_seen": "2026-10-04",
@@ -7339,8 +7335,8 @@
         "publishable": true,
         "headlines": [
           "مواقيت الصلاة اليوم الأحد 4 أكتوبر 2026 بمحافظات الجمهورية",
-          "مواقيت الصلاة اليوم السبت 3 أكتوبر 2026 في القاهرة والمحافظات",
-          "مواقيت الصلاة اليوم الأحد 4 أكتوبر 2026 في القاهرة والمحافظات"
+          "مواقيت الصلاة اليوم الأحد 4 أكتوبر 2026 في القاهرة والمحافظات",
+          "جدول مواقيت الصلاة الأحد 4 أكتوبر 2026 في محافظات مصر"
         ]
       }
     ],
@@ -30821,14 +30817,14 @@
         "date": "2026-10-04",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "October 4, 2026: Iva Jovic vs Kamilla Rakhimova: Set 1 Winner Prediction Market",
-          "October 3, 2026: Carlos Alcaraz vs Denis Shapovalov: Set 2 Winner Prediction Market",
-          "October 3, 2026: Nikola Bartunkova vs Aryna Sabalenka: Set 2 Winner Tennis Prediction Market"
+          "October 4, 2026: Martin Damm Jr vs Pavel Kotov: Set 2 Winner Tennis Prediction Market",
+          "October 4, 2026: Carlos Alcaraz vs Denis Shapovalov: Game Spread Tennis Prediction Market",
+          "October 4, 2026: Carlos Alcaraz vs Denis Shapovalov: Set 1 Winner Tennis Prediction Market"
         ]
       }
     ],
@@ -52255,9 +52251,9 @@
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
-          "Sabalenka bounced from China Open by Bartunkova in third round",
-          "China Open: Aryna Sabalenka suffers shock Beijing exit — a day after new world No 1 Elena Rybakina was knocked out",
-          "Aryna Sabalenka upset at China Open"
+          "China Open: Aryna Sabalenka stunned by Nikola Bartunkova in Beijing",
+          "Aryna Sabalenka upset at China Open",
+          "By the numbers: Bartunkova stuns Sabalenka to reach Beijing last 16"
         ]
       }
     ],
@@ -63151,14 +63147,13 @@
         "date": "2026-10-04",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "category": "عام",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "طقس",
         "publishable": false,
         "headlines": [
-          "Hot and Humid Sunday Rain Chances Increase Next Week",
-          "Stuck on Repeat: Hot and Humid Sunday",
-          "Rain Persists then Drier for Sunday"
+          "أمطار غزيرة وارتفاع درجات الحرارة توقعات الأرصاد في السعودية حتى ديسمبر 2026",
+          "أمطار أكتوبر 2026.. ماذا تقول توقعات الأرصاد عن مناطق السعودية؟"
         ]
       }
     ],
@@ -63168,7 +63163,7 @@
       "sa"
     ],
     "peak_traffic": 500,
-    "category": "عام"
+    "category": "طقس"
   },
   "south-africa-green-id-end-date": {
     "slug": "south-africa-green-id-end-date",
@@ -77124,10 +77119,25 @@
           "Heavy metals found in 99% of cat foods tested in new study",
           "Toxic chemicals found in most tested cat foods, new investigation finds"
         ]
+      },
+      {
+        "key": "2026-10-04|world",
+        "date": "2026-10-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "What’s in your cat’s food? New investigation finds lead and other toxins",
+          "Cat food investigation finds toxic contaminants across nearly all brands",
+          "Heavy Metals and Toxic Chemicals Found in Most Cat Foods, Investigation Finds"
+        ]
       }
     ],
-    "last_seen": "2026-10-02",
-    "total": 1,
+    "last_seen": "2026-10-04",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -89366,8 +89376,8 @@
         "publishable": false,
         "headlines": [
           "Orlando Pirates move to freeze R20m in alleged fraud scandal",
-          "Vote for September’s Player of the Month",
-          "Orlando Pirates break silence on R20 million fraud case involving former finance manager - 'This is a precautionary step to protect the Club’s funds during the process'"
+          "Orlando Pirates break silence on R20 million fraud case involving former finance manager - 'This is a precautionary step to protect the Club’s funds during the process'",
+          "Orlando Pirates release statement on court application linked to financial transactions"
         ]
       }
     ],
@@ -95414,9 +95424,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "\"Out with the old and in with the new\" - Karl Malone once called out the NBA for turning its back on veteran stars",
-          "Miami Heat vs Toronto Raptors Oct 3, 2026 Box Scores",
-          "Pelicans announce broadcast plans, personalities for season"
+          "Anthony Davis calls out Lakers over unwanted change, sends warning to rest of NBA",
+          "Anthony Davis sends a warning ahead of the new NBA season: \"People forgot and I take that personal\"",
+          "Anthony Davis Promises Major Comeback Season With Wizards: \"People Forgot\""
         ]
       }
     ],
@@ -95924,8 +95934,8 @@
         "publishable": false,
         "headlines": [
           "Argentina 7-0 Burkina Faso: Hosts put seven past African side after travel issues for visitors",
-          "Argentina vs Burkina Faso live score, H2H and lineups",
-          "\"What happened warrants penalties and resignations\": a scandal in Argentina before Messi's farewell"
+          "\"What happened warrants penalties and resignations\": a scandal in Argentina before Messi's farewell",
+          "What Happened With Lionel Messi & Why He’s Not Playing for Argentina vs. Burkina Faso"
         ]
       }
     ],
@@ -97523,11 +97533,11 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Cavan Sullivan, Julian Hall lead USMNT to Mexico rout",
+          "Cavan Sullivan vs. Gilberto Mora: The Battle to Impress on the Biggest Stage",
           "Licensable picture: Soccer: International Mens Friendly-Mexico at United States",
-          "Live updates: USA takes on Mexico in clash between historical rivals"
+          "USMNT vs. Mexico: Match Recap & Highlights | International Match"
         ]
       },
       {
@@ -98132,14 +98142,14 @@
         "date": "2026-10-04",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "category": "شخصية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "الرؤية الأمنية عبر قراءة التاريخ",
-          "الأمن والتاريخ عين المستقبل",
-          "عام / الحملات الميدانية المشتركة تضبط (11819) مخالفًا لأنظمة الإقامة والعمل وأمن الحدود في مناطق المملكة خلال أسبوع"
+          "دوريات المجاهدين بجازان تقبض على مقيم لنقله مخالفًا لنظام أمن الحدود",
+          "القبض على مقيم يمني لنقله ستة مخالفين إثيوبيين لنظام أمن الحدود في جازان",
+          "ضبط مقيم يمني نقل 6 مخالفين إثيوبيين في جازان"
         ]
       }
     ],
@@ -98148,8 +98158,8 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
-    "category": "شخصية"
+    "peak_traffic": 1000,
+    "category": "حوادث وقضايا"
   },
   "runescape-mmo": {
     "slug": "runescape-mmo",
@@ -98220,14 +98230,14 @@
         "date": "2026-10-04",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "Main Card Results | UFC 332: Silva vs Wang",
-          "UFC 332 results: Silva wins women's flyweight title in record-setting night",
-          "UFC 332 Results: Silva vs. Wang"
+          "UFC 332: Natalia Silva is new women's flyweight champion",
+          "Silva lands heavy front kick to Wang’s chin"
         ]
       }
     ],
@@ -98236,7 +98246,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "رياضة"
   },
   "harvard-football": {
@@ -98688,9 +98698,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Lamine Yamal stars again as Spain see off Czechia and maintain perfect start",
           "Spain 3-1 Czech Republic: World champions secure victory to maintain winning run",
-          "Spain 3-1 Czechia (Oct 3, 2026) Game Analysis"
+          "Lamine Yamal stars again as Spain see off Czechia and maintain perfect start",
+          "Captain's touch! Goalscorer Rodri hails 'mature' La Roja after breaking goal drought in Oviedo"
         ]
       }
     ],
@@ -100042,14 +100052,14 @@
         "date": "2026-10-04",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
           "استقرار أسعار الدواجن والطيور اليوم في أسواق الإسماعيلية.. اعرف الأسعار",
-          "ارتفاع أسعار الدواجن واللحوم في مصر اليوم الأحد",
-          "سعر الفراخ البيضاء للمستهلك اليوم السبت 3-10-2026 بعد الانخفاض.. أسعار الدواجن في الأسواق"
+          "سعر الفراخ البيضاء للمستهلك اليوم السبت 3-10-2026 بعد الانخفاض.. أسعار الدواجن في الأسواق",
+          "ارتفاع أسعار الدواجن واللحوم في مصر اليوم الأحد"
         ]
       }
     ],
@@ -100058,7 +100068,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "اقتصاد"
   },
   "f1": {
@@ -100071,8 +100081,8 @@
         "date": "2026-10-04",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "31,000+",
-        "traffic_num": 31000,
+        "traffic": "+35000",
+        "traffic_num": 35000,
         "category": "شخصية",
         "publishable": true,
         "headlines": [
@@ -100089,11 +100099,11 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "category": "شخصية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "Sepang F1 marshal steals the show during Bahrain GP delay: “Absolute icon”",
-          "F1 marshal goes viral in brilliant photo as Bahrain GP start delayed - and the memes write themselves",
-          "Bahrain Grand Prix in Malaysia LIVE: Race - radio commentary, text updates, times & results"
+          "Formula One: Qatar and Abu Dhabi F1 Grand Prix to go ahead: F1 boss - Omni sports - Sports",
+          "Max Verstappen Gives His Take on Qatar and Abu Dhabi GPs Amid “War Nearby”",
+          "“Bring snow chains and hand warmers” if Formula 1 moves final race to Imola"
         ]
       },
       {
@@ -100101,13 +100111,13 @@
         "date": "2026-10-04",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "Bahrain Grand Prix in Malaysia LIVE: Race - radio commentary, text updates, times & results",
-          "Driver Arrivals: Drivers arrive at the Sepang International Circuit"
+          "Start of Malaysian F1 race delayed by huge downpour"
         ]
       }
     ],
@@ -100118,7 +100128,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 31000,
+    "peak_traffic": 35000,
     "category": "شخصية"
   },
   "lucki": {
@@ -100559,7 +100569,7 @@
         "headlines": [
           "الولايات المتحدة تكرم وفادة المكسيك بثلاثية نظيفة",
           "طرد لاعب المكسيك بعد صفعه نجم المنتخب الأميركي (فيديو)",
-          "طرد لاعب المكسيك بعد صفعه نجم منتخب أمريكا (فيديو)"
+          "توقعات مباراة الولايات المتحدة الأمريكية والمكسيك: سيتم اختبار أداء الفريق خارج أرضه."
         ]
       }
     ],
@@ -100636,8 +100646,8 @@
         "date": "2026-10-04",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+2200",
-        "traffic_num": 2200,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "فن ومشاهير",
         "publishable": true,
         "headlines": [
@@ -100652,7 +100662,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2200,
+    "peak_traffic": 2000,
     "category": "فن ومشاهير"
   },
   "trump-news-today": {
@@ -100757,9 +100767,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Cliffhangers, controversy and classics: Ranking every grand final of the NRL era",
-          "'Smorgasbord': Weekend Sport's Andy McDonnell on the scene ahead of NRL grand final",
-          "Newcastle stun Penrith to reach NRL grand final, Cleary injured"
+          "NRL grand final 2026: Sydney Roosters v Newcastle Knights – live",
+          "NRL grand final 2026 LIVE updates: Nawaqanitawase hits back after Ponga scores 95-metre try",
+          "Roosters v Knights: Watson ruled out; Cant starts at hooker"
         ]
       }
     ],
@@ -100812,12 +100822,12 @@
         "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "عام / تعليم جازان يعلن تحويل الدراسة إلى التعليم عن بُعد غدًا الأحد",
-          "بناءً على تقارير «الأرصاد».. الدراسة عن بُعد في مدارس جازان غداً",
-          "مستمرة بـ'مدرستي'.. تعليق الدراسة الحضورية في جازان الأحد"
+          "توقيف أكثر من 1700 شخص بسبب الاحتجاجات الطلابية في فرنسا",
+          "ما الذي يؤجج احتجاجات طلاب المدارس في فرنسا؟",
+          "اعتقال 1747 شخصاً في احتجاجات الطلاب بفرنسا.. وتعطل 700 مدرسة"
         ]
       }
     ],
@@ -100827,7 +100837,7 @@
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "formula-1": {
     "slug": "formula-1",
@@ -100897,13 +100907,13 @@
         "date": "2026-10-04",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "عام",
         "publishable": true,
         "headlines": [
           "NRL: The secret meeting that could deliver Marky Mark back to Roosters after rugby stint",
-          "Child's play: The secret ingredient for Marky Mark's spectacular skills",
+          "Inside Marky’s ‘shocking’ NRL reality check... and when Roosters great knew he was ‘freakish’",
           "Why rugby red carpet won’t be rolled out for Roosters rock stars"
         ]
       }
@@ -100913,7 +100923,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 2000,
     "category": "عام"
   },
   "channel-9": {
@@ -100957,12 +100967,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "سياسة",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Top ANC minister in deep trouble, and hackers hit South African companies for R5 million each",
-          "AuditTeam Targets Ad***ng in Latest Ransomware Attack",
-          "South African companies that are hacked pay an average of R5.01 million in ransom"
+          "‘Andile Lungisa not entitled to public office’ - ANC",
+          "IEC software can’t override constitutional rights, ANC tells ConCourt",
+          "ANC Mangaung candidates take exclusion fight to the Constitutional Court"
         ]
       }
     ],
@@ -100972,7 +100982,7 @@
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "سياسة"
+    "category": "حوادث وقضايا"
   },
   "terry-mclaurin": {
     "slug": "terry-mclaurin",
@@ -101332,14 +101342,14 @@
         "date": "2026-10-04",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "category": "عام",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "Gate City native tops PGA champion Bryson Dechambeau for $100,000 in Backyard Games",
-          "Bryson DeChambeau Left Speechless as YouTube Golfer Defeats Him in the $100,000 Challenge",
-          "Taylor tames DeChambeau, wins 'Bryson's Backyard Games'"
+          "Bryson DeChambeau suffers a shocking defeat to high school golfers and pays the price",
+          "Walnut Grove golfers make the most of special challenge with Bryson DeChambeau",
+          "'That's Unfortunate': Bryson DeChambeau Forced to Do High School Challenge After Losing Out to Top Amateur Team"
         ]
       }
     ],
@@ -101348,8 +101358,8 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
-    "category": "عام"
+    "peak_traffic": 200,
+    "category": "اقتصاد"
   },
   "tomorrows-top-25-today": {
     "slug": "tomorrows-top-25-today",
@@ -101397,7 +101407,7 @@
         "headlines": [
           "\"انتهى زمن فرض الإملاءات\".. قاليباف: لن نفتح مضيق هرمز إلا بتنفيذ شروط إيران السبعة",
           "كبير المفاوضين الإيرانيين: طهران مستعدة لخيار المفاوضات مع الولايات المتحدة أو الحرب",
-          "رسالة إيرانية متضاربة .. عراقجي يطرح الحل السلمي وقاليباف يرهن فتح هرمز بـ7شروط"
+          "قاليباف يقول إن هرمز لن يُفتح قبل استيفاء 7 شروط، وترامب يرفض مقترحاً إيرانياً"
         ]
       }
     ],
@@ -101408,5 +101418,263 @@
     ],
     "peak_traffic": 200,
     "category": "شخصية"
+  },
+  "clive-churchill-medal": {
+    "slug": "clive-churchill-medal",
+    "name": "clive churchill medal",
+    "first_seen": "2026-10-04",
+    "appearances": [
+      {
+        "key": "2026-10-04|world",
+        "date": "2026-10-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "From the field: Daly Cherry-Evans",
+          "The real reason the Roosters brought DCE to Bondi",
+          "Justified: Foran's pride in Cherry-Evans' title bid"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "عام"
+  },
+  "spencer-leniu": {
+    "slug": "spencer-leniu",
+    "name": "spencer leniu",
+    "first_seen": "2026-10-04",
+    "appearances": [
+      {
+        "key": "2026-10-04|world",
+        "date": "2026-10-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "'It's just me': Rooster not trying to play the villain",
+          "The NRL’s rockiest 36-month rollercoaster ended back in a GF. The next stop is unknown"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "عام"
+  },
+  "electric-picnic": {
+    "slug": "electric-picnic",
+    "name": "electric picnic",
+    "first_seen": "2026-10-04",
+    "appearances": [
+      {
+        "key": "2026-10-04|world",
+        "date": "2026-10-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Electric Picnic kept DJ on same stage despite knowing about 'potential overcrowding' in advance"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "عام"
+  },
+  "max-verstappen": {
+    "slug": "max-verstappen",
+    "name": "max verstappen",
+    "first_seen": "2026-10-04",
+    "appearances": [
+      {
+        "key": "2026-10-04|world",
+        "date": "2026-10-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "فن ومشاهير",
+        "publishable": true,
+        "headlines": [
+          "F1 Bahrain GP in Malaysia LIVE: Race updates, results, stream, highlights from 16th round of 2026 Formula 1 season at Sepang",
+          "Verstappen seizes first pole of the season for Bahrain GP",
+          "The former weakness key to Red Bull's sudden supremacy"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "فن ومشاهير"
+  },
+  "tokyo-open": {
+    "slug": "tokyo-open",
+    "name": "tokyo open",
+    "first_seen": "2026-10-04",
+    "appearances": [
+      {
+        "key": "2026-10-04|world",
+        "date": "2026-10-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "ATP roundup: Carlos Alcaraz fights off 4 set points in Tokyo",
+          "Alcaraz beats Arnaldi to reach 3rd round at Japan Open",
+          "Alcaraz fends off 4 set points, then blitzes Arnaldi for Tokyo QF spot"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "دول وأماكن"
+  },
+  "amazoncom": {
+    "slug": "amazoncom",
+    "name": "amazon.com",
+    "first_seen": "2026-10-04",
+    "appearances": [
+      {
+        "key": "2026-10-04|world",
+        "date": "2026-10-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "These 55 deals are worth shopping ahead of next week’s October Prime Day sale",
+          "Prime Big Deal Days: Our biggest deals to kick off fall and holiday shopping October 6-7",
+          "October Prime Day 2026: Epic Amazon deals from Hanes, Carhartt, Apple and more before Prime Big Deal Days"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "ron-desantis": {
+    "slug": "ron-desantis",
+    "name": "ron desantis",
+    "first_seen": "2026-10-04",
+    "appearances": [
+      {
+        "key": "2026-10-04|world",
+        "date": "2026-10-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Gov. DeSantis reveals ‘major’ Publix news to start the month",
+          "DeSantis appoints Earl Glisson, David Clark to Florida faith-based advisory council",
+          "Governor Ron DeSantis Appoints Two to the Florida Faith-Based and Community-Based Advisory Council"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "دول وأماكن"
+  },
+  "bradley-ritger-wisconsin-state-patrol": {
+    "slug": "bradley-ritger-wisconsin-state-patrol",
+    "name": "bradley ritger wisconsin state patrol",
+    "first_seen": "2026-10-04",
+    "appearances": [
+      {
+        "key": "2026-10-04|world",
+        "date": "2026-10-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Wisconsin State Patrol trooper who fell from bridge dies from injuries",
+          "Wisconsin mourns Trooper Bradley Ritger, 29, after line-of-duty death",
+          "State Trooper dies in the line of duty after incident in Dunn County"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "south-cottage-grove-avenue": {
+    "slug": "south-cottage-grove-avenue",
+    "name": "south cottage grove avenue",
+    "first_seen": "2026-10-04",
+    "appearances": [
+      {
+        "key": "2026-10-04|world",
+        "date": "2026-10-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Chatham, Chicago stabbing: 7-year-old girl Edimari Hernandez Chacon stabbed to death by woman on S. Cottage Grove Ave.: officials",
+          "7-year-old stabbed to death on Chicago’s South Side: Police",
+          "Woman taken into custody after girl, 7, fatally stabbed in Chatham"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
   }
 }

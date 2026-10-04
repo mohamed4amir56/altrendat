@@ -688,14 +688,14 @@
         "date": "2026-10-04",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "اقتصاد",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "سعر الدولار يواصل الارتفاع عالميًا ومحليًا.. فما الأسباب؟",
-          "أسعار العملات العالمية اليوم الجمعة 2 أكتوبر 2026",
-          "مكاسب جديدة للدولار مع صعود النفط وتقلبات السندات"
+          "قبل ضربة البداية.. خريطة أسعار الدولار مقابل الجنيه قبيل انطلاق تداولات الأحد",
+          "ارتفع في بنكين.. سعر الدولار مقابل الجنيه مع بداية تعاملات الأحد",
+          "استقرار أسعار العملات العربية في ختام تعاملات اليوم 3 أكتوبر 2026"
         ]
       }
     ],
@@ -3208,8 +3208,8 @@
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "Nolo becomes a Category 3 Hurricane in the remote Pacific Ocean",
           "Why Hurricane Nolo could become a typhoon this weekend",
+          "Nolo becomes a Category 3 Hurricane in the remote Pacific Ocean",
           "Category 3 Hurricane Nolo heads west toward International Date Line"
         ]
       }
@@ -7327,10 +7327,25 @@
           "مواقيت الصلاة اليوم السبت 3 أكتوبر 2026 في القاهرة والمحافظات",
           "مواقيت الصلاة في أسوان اليوم السبت 3-10-2026"
         ]
+      },
+      {
+        "key": "2026-10-04|eg",
+        "date": "2026-10-04",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "ديني",
+        "publishable": true,
+        "headlines": [
+          "مواقيت الصلاة اليوم الأحد 4 أكتوبر 2026 بمحافظات الجمهورية",
+          "مواقيت الصلاة اليوم السبت 3 أكتوبر 2026 في القاهرة والمحافظات",
+          "مواقيت الصلاة اليوم الأحد 4 أكتوبر 2026 في القاهرة والمحافظات"
+        ]
       }
     ],
-    "last_seen": "2026-10-03",
-    "total": 5,
+    "last_seen": "2026-10-04",
+    "total": 6,
     "countries": [
       "eg"
     ],
@@ -14032,7 +14047,7 @@
         "headlines": [
           "What we know about an Ontario air ambulance that went missing off U.S. coast with 6 on board",
           "Search continues for 6 on board medical evacuation jet after debris field found off Nantucket",
-          "Search Underway for Missing Plane Heading From Bermuda Off Nantucket"
+          "Coast Guard searching for plane with 6 aboard that lost contact on trip from Bermuda to Boston"
         ]
       }
     ],
@@ -38051,7 +38066,7 @@
         "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "DIRECT. Vacherot - Fils, ATP 500, Tokyo, Quarts de finale : 7-5, 3-3 en direct",
+          "Tennis : le Monégasque Valentin Vacherot remporte un énorme combat face au Français Arthur Fils et file en demi-finales du tournoi de Tokyo",
           "ATP 500 de Tokyo. Arthur Fils craque en quarts de finale contre un excellent Valentin Vacherot",
           "Valentin Vacherot vs Arthur Fils – Pronostic et Cotes le 04/10/2026 | Analyse IA"
         ]
@@ -52226,7 +52241,7 @@
         "publishable": true,
         "headlines": [
           "China Open: Aryna Sabalenka suffers shock Beijing exit — a day after new world No 1 Elena Rybakina was knocked out",
-          "Sabalenka bundled out of China Open by Czech Bartunkova",
+          "Aryna Sabalenka upset at China Open",
           "Sabalenka knocked out of China Open in straight sets by Nikola Bartunkova"
         ]
       }
@@ -63115,15 +63130,30 @@
           "Heavy rain, thunderstorms and flash flood risk forecast for several Saudi regions",
           "Meteorological Department: Moderate to heavy rain and hail showers expected in 6 regions today"
         ]
+      },
+      {
+        "key": "2026-10-04|sa",
+        "date": "2026-10-04",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Hot and Humid Sunday Rain Chances Increase Next Week",
+          "Stuck on Repeat: Hot and Humid Sunday",
+          "Rain Persists then Drier for Sunday"
+        ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 1,
+    "last_seen": "2026-10-04",
+    "total": 2,
     "countries": [
       "sa"
     ],
     "peak_traffic": 500,
-    "category": "طقس"
+    "category": "عام"
   },
   "south-africa-green-id-end-date": {
     "slug": "south-africa-green-id-end-date",
@@ -75811,7 +75841,7 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "South Africa bracing for disaster next week",
+          "Warning over criminal tactics ahead of record diesel prices in South Africa",
           "Record fuel prices in October now unavoidable",
           "More for the bank and the tank, less for everything else"
         ]
@@ -89309,15 +89339,30 @@
           "MTN8 final tickets sold out",
           "Mamelodi Sundowns expected to step up in MTN8 final against Orlando Pirates despite injury setbacks - 'It gives other players a chance to show up'"
         ]
+      },
+      {
+        "key": "2026-10-04|world",
+        "date": "2026-10-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Orlando Pirates move to freeze R20m in alleged fraud scandal",
+          "Orlando Pirates break silence on R20 million fraud case involving former finance manager - 'This is a precautionary step to protect the Club’s funds during the process'",
+          "Orlando Pirates release statement on court application linked to financial transactions"
+        ]
       }
     ],
-    "last_seen": "2026-10-03",
-    "total": 1,
+    "last_seen": "2026-10-04",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
-    "category": "عام"
+    "peak_traffic": 5000,
+    "category": "حوادث وقضايا"
   },
   "black-clover-season-2": {
     "slug": "black-clover-season-2",
@@ -95354,9 +95399,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "\"Out with the old and in with the new\" - Karl Malone once called out the NBA for turning its back on veteran stars",
-          "Eric Schmitt was warned about the Jack Smith texts. He used them anyway.",
-          "Republican Senator Makes Embarrassing Mistake While Accusing Jack Smith Of Crimes"
+          "FIBA not part of NBA-EuroLeague negotiations, Jorge Garbajosa confirms",
+          "Danilo Gallinari highlighted the unique enthusiasm …",
+          "AEK owner: \"The NBA Europe proposal definitely involves absorbing the EuroLeague\""
         ]
       }
     ],
@@ -95860,12 +95905,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "32,000+",
         "traffic_num": 32000,
-        "category": "رياضة",
-        "publishable": true,
+        "category": "حوادث وقضايا",
+        "publishable": false,
         "headlines": [
           "'They respected football!' – The dramatic story behind Burkina Faso's flight chaos before 7-0 Argentina thrashing",
           "Why is Lionel Messi not playing for Argentina vs Burkina Faso in 2026 International friendly game?",
-          "Argentina vs Burkina Faso live score, H2H and lineups"
+          "Argentina 7-0 Burkina Faso: Martinez gets three goal involvements as makeshift visitors thrashed"
         ]
       }
     ],
@@ -95877,7 +95922,7 @@
       "world"
     ],
     "peak_traffic": 64000,
-    "category": "رياضة"
+    "category": "حوادث وقضايا"
   },
   "bruins-vs-wild": {
     "slug": "bruins-vs-wild",
@@ -96621,7 +96666,7 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Lacson on Trillanes’ revelations: ‘No probative value’",
+          "Gatchalian denies Escudero blocked Trillanes from testifying",
           "Gibo: Turn over ‘China money’ evidence to authorities",
           "5 explosive allegations from Trillanes after impeachment trial withdrawal"
         ]
@@ -97463,7 +97508,7 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "Cavan Sullivan vs. Gilberto Mora: The Battle to Impress on the Biggest Stage",
           "Licensable picture: Soccer: International Mens Friendly-Mexico at United States",
@@ -98570,8 +98615,8 @@
         "category": "عام",
         "publishable": true,
         "headlines": [
-          "Taylor Swift Crashes Dakota Johnson’s ‘Saturday Night Live’ Hosting Stint: “My Literal Therapist!”",
           "Taylor Swift Crashes Dakota Johnson’s ‘SNL’ Monologue as Her Breakup Therapist, Shows Travis Kelce Love with Cleveland Shoutout",
+          "Taylor Swift Crashes Dakota Johnson’s ‘Saturday Night Live’ Hosting Stint: “My Literal Therapist!”",
           "Taylor Swift pops into ‘SNL’ to joke around with host Dakota Johnson"
         ]
       }
@@ -99697,9 +99742,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "نادية الجندى: وهبت حياتى ونسيت نفسى علشان فنى والمهنة دى صعبة أوى",
-          "انطلاق الدورة السادسة من مهرجان القاهرة للسينما الفرنكوفونية.. نادية الجندي تدعو لدعم المهرجان وشريف منير: فخور بتكريمي",
-          "سوزان نجم الدين بعد تكريمها في مهرجان القاهرة للسينما الفرنكوفونية: أهدي تكريمي لكل من لم يتخل عن حلمه"
+          "اليوم.. مهرجان القاهرة للسينما الفرنكوفونية يُكرم الفنانة نادية الجندى",
+          "الليلة.. افتتاح الدورة السادسة لمهرجان القاهرة للسينما الفرنكوفونية بحضور نجوم الفن",
+          "نادية الجندي: «حب الجمهور سر رشاقتي.. والشّهرة أخدت كل حياتي»"
         ]
       }
     ],
@@ -99987,9 +100032,9 @@
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
+          "سعر كيلو الفراخ بالقليوبية السبت 3- 10- 2026.. البيضاء بـ80 جنيها للكيلو",
           "ارتفاع أسعار الدواجن واللحوم في مصر اليوم الأحد",
-          "سعر الفراخ البيضاء والساسو وطبق البيض اليوم الأحد 4 أكتوبر 2026",
-          "أسعار الدواجن والبيض ترتفع مجددًا.. قفزة في البانيه بعد شهور من التراجع"
+          "أسعار الدواجن واللحوم والبيض اليوم في مصر.. السبت 3/10/2026"
         ]
       }
     ],
@@ -100016,9 +100061,9 @@
         "category": "شخصية",
         "publishable": true,
         "headlines": [
+          "Bahrain Grand Prix in Malaysia LIVE: Race - radio commentary, text updates, times & results",
           "Bahrain GP in Malaysia: F1 race updates after long rain delay and chaotic buildup – live",
-          "Start delayed again as cars struggle in wet conditions ahead of F1’s Bahrain GP in Malaysia",
-          "What To Watch For in the Bahrain Grand Prix in Malaysia"
+          "Start delayed again as cars struggle in wet conditions ahead of F1’s Bahrain GP in Malaysia"
         ]
       },
       {
@@ -100029,10 +100074,11 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Formula One: Antonelli aims to bounce back from 'worst' weekend - Omni sports - Sports",
-          "Start of Malaysian F1 race delayed by huge downpour"
+          "Sepang F1 marshal steals the show during Bahrain GP delay: “Absolute icon”",
+          "Young Bahraini marshals shine on global F1 stage",
+          "F1 marshal goes viral in brilliant photo as Bahrain GP start delayed - and the memes write themselves"
         ]
       },
       {
@@ -100043,11 +100089,11 @@
         "traffic": "500+",
         "traffic_num": 500,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Bahrain Grand Prix in Malaysia practice, qualifying and race times, UK times, plus weather forecast",
-          "Sepang chaos: Hamilton stranded and Leclerc hit by software glitch as F1 start is suspended",
-          "Bahrain GP in Malaysia - Sunday, in photos Formula 1"
+          "Sepang F1 marshal steals the show during Bahrain GP delay: “Absolute icon”",
+          "Young Bahraini marshals shine on global F1 stage",
+          "F1 marshal goes viral in brilliant photo as Bahrain GP start delayed - and the memes write themselves"
         ]
       }
     ],
@@ -100245,8 +100291,8 @@
         "date": "2026-10-04",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -100261,7 +100307,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "مقيم": {
@@ -100982,8 +101028,8 @@
         "date": "2026-10-04",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -100998,7 +101044,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "kalyn-ponga": {
@@ -101104,8 +101150,8 @@
         "publishable": true,
         "headlines": [
           "As it happened: Roosters dominate Broncos to complete perfect season",
-          "Unstoppable Roosters take down Broncos in NRLW grand final – in pictures",
-          "Fressard's kick-off blunder starts NRLW decider"
+          "Fressard's kick-off blunder starts NRLW decider",
+          "Broncos refuse to relive 2025"
         ]
       }
     ],
@@ -101116,5 +101162,34 @@
     ],
     "peak_traffic": 20200,
     "category": "رياضة"
+  },
+  "host-snl-tonight": {
+    "slug": "host-snl-tonight",
+    "name": "host snl tonight",
+    "first_seen": "2026-10-04",
+    "appearances": [
+      {
+        "key": "2026-10-04|world",
+        "date": "2026-10-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "فن ومشاهير",
+        "publishable": true,
+        "headlines": [
+          "‘SNL’ recap: Dakota Johnson hosts, Turnstile performs",
+          "Is SNL New Tonight, October 3, 2026? About This Week's Host & Musical Guest",
+          "‘SNL’ recap: Dakota Johnson’s steady hand leads a fun episode with a Taylor Swift cameo"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "فن ومشاهير"
   }
 }

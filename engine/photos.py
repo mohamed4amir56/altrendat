@@ -57,6 +57,7 @@ TAGS = re.compile(r"<[^>]+>")
 WIDTH = 1280                       # عرض العرض، ومقاس قياسي لمصغّرات ويكيميديا
 MIN_NAMED = 960                    # أقل عرض لأصل صورة صاحب الخبر
 MIN_SMALL = 600                    # الحد الثاني حين لا صورة أكبر للشخص أو الفريق
+MIN_PERSON = 300                   # حد ثالث للأشخاص: صورة الشخص نفسه صغيرة أحسن من رسم بلا وجه (أحمد السقا 344px)
 MAX_TAGS = 4                       # الوسوم الأولى هي أصحاب الخبر
 RASTER = re.compile(r"\.(jpe?g|png|webp)$", re.I)
 PHOTO_FILE = re.compile(r"\.jpe?g$", re.I)        # الصور الفوتوغرافية في التصنيفات
@@ -108,6 +109,9 @@ EXTMETA = "Artist|Credit|LicenseShortName|LicenseUrl"
 SPORT_TOPICS = {"football", "tennis", "basketball", "cricket"}
 # فئات يُعرف أصحابها باسم واحد (المغنون والممثلون)
 MONONYM_OK = {"فن ومشاهير"}
+# اسم من كلمة في غير الفن («شيكابالا» لاعب): يُقبل لو صاحب الصفحة من بلد النسخة
+# نفسها (جنسيته في ويكي بيانات، P27). «رونالدو» في النسخة المصرية مش مصري، فيُرفض.
+CITIZEN_OF = {"eg": "Q79", "sa": "Q851"}
 
 # ── الصور التعبيرية ──────────────────────────────────────────────────
 # ملفات حرة من كومنز أعرض من 1600 بكسل، لكل موضوع كلماته في TOPIC_WORDS.
@@ -413,13 +417,35 @@ def _page(name, lang):
         page = (data.get("query", {}).get("pages") or [{}])[0]
         props = page.get("pageprops") or {}
         if page.get("missing") or page.get("invalid") or not props.get("wikibase_item"):
-            _pages[key] = None
+            # ترندات جوجل بإملاء عامي («اميره اديب»)، والصفحة «أميرة أديب»
+            alt = (_ar_spelling(name) if lang == "ar" and page.get("missing")
+                   and re.search("[\u0600-\u06ff]", name) else None)
+            _pages[key] = _page(alt, lang) if alt and alt != name else None
         elif "disambiguation" in props:
             _pages[key] = "dis"
         else:
             _pages[key] = {"title": page.get("title", name), "qid": props["wikibase_item"],
                            "image": page.get("pageimage") or ""}
     return _pages[key]
+
+
+def _ar_spelling(name):
+    """عنوان صفحة ويكيبيديا العربية لنفس الاسم بإملاء آخر: أول نتيجة بحث تطابقه
+    بعد توحيد الهمزات والتاء المربوطة والياء (_norm)، أو None."""
+    data = _get_json("ar", {"action": "query", "format": "json", "formatversion": "2",
+                            "list": "search", "srsearch": name, "srlimit": "5",
+                            "srnamespace": "0"})
+    want = _norm(name)
+    for r in data.get("query", {}).get("search", []):
+        if _norm(r.get("title", "")) == want:
+            return r["title"]
+    return None
+
+
+def _citizen(qid, edition):
+    """هل صاحب الكيان من بلد النسخة (eg / sa)؟"""
+    want = CITIZEN_OF.get(edition or "")
+    return bool(qid and want and want in _claims(qid, "P27"))
 
 
 def _entity_photo(lang, page, kind):
@@ -439,19 +465,26 @@ def _entity_photo(lang, page, kind):
             photo = _file_info("commons", alt, MIN_SMALL)
             if photo:
                 break
+    if not photo and kind == "human":
+        # ولا 600: صورة الشخص نفسه الصغيرة (عمرو دياب 398px، أحمد السقا 344px) أحسن من رسم لا يخصه
+        photo = _file_info(lang, page["image"], MIN_PERSON)
+        for alt in ([] if photo else _claims(page["qid"], "P18")[:2]):
+            photo = _file_info("commons", alt, MIN_PERSON)
+            if photo:
+                break
     if photo:
         photo.update({"wiki_title": page["title"], "wiki_lang": lang})
     return photo
 
 
-def _accept(kind, name, category, from_tag, text, sporty=False):
-    """هل صورة هذا الكيان صورة الخبر؟ sporty: خبر مباراة أو رياضة."""
+def _accept(kind, name, category, from_tag, text, sporty=False, qid=None, edition=None):
+    """هل صورة هذا الكيان صورة الخبر؟ sporty: خبر مباراة أو رياضة. edition: النسخة."""
     if kind is None:
         return False
     if kind == "object":
         return not from_tag            # المنتج صورة الخبر إن كان هو العنوان فقط
     if kind == "human":
-        if len(name.split()) < 2 and category not in MONONYM_OK:
+        if len(name.split()) < 2 and category not in MONONYM_OK and not _citizen(qid, edition):
             return False               # «رونالدو» وحدها قد تكون لاعبًا آخر
         return not from_tag or mentioned(name, text, kind)
     if kind in ("team", "competition"):
@@ -546,7 +579,7 @@ def _more_person_photo(name):
     return None
 
 
-def find_photo(title, category, langs=("ar", "en"), tags=(), text=""):
+def find_photo(title, category, langs=("ar", "en"), tags=(), text="", edition=None):
     """صورة صاحب الخبر أو None. text: العنوان الصحفي؛ الشخص أو المكان المأخوذ
     من الوسوم يجب أن يرد فيه أو في عنوان الترند، فيكون موضوع الخبر لا ذكرًا
     عابرًا فيه (لاعب معتزل في خبر مباراة)."""
@@ -566,7 +599,8 @@ def find_photo(title, category, langs=("ar", "en"), tags=(), text=""):
                 if not isinstance(page, dict):
                     continue
                 kind = entity_kind(page["qid"])
-                if not _accept(kind, name, category, from_tag, text, sporty):
+                if not _accept(kind, name, category, from_tag, text, sporty,
+                               qid=page["qid"], edition=edition):
                     break              # الصفحة موجودة لكنها ليست صورة الخبر
                 photo = _entity_photo(lang, page, kind)
                 if photo:
@@ -625,6 +659,7 @@ def stock_photo(title, category, country, text=""):
     country = story_country(title, text) or ("" if topic in SPORT_TOPICS else country)
     pool = load_stock()
     choices = (topic and (pool.get(topic + "@" + country) or pool.get(topic))) or []
+    matched = bool(choices)
     if not choices:
         # لا موضوع مطابق: مدينة بلد الخبر إن عُرف من كلماته، وإلا صحف
         where = story_country(title, text)
@@ -634,7 +669,19 @@ def stock_photo(title, category, country, text=""):
     seed = sum(ord(c) for c in title)          # ثابت بين التشغيلات، بخلاف hash()
     photo = dict(choices[seed % len(choices)])
     photo["stock"] = True
+    # موضوع الصورة لو طابقت موضوع الخبر؛ None = احتياطي (مدينة أو صحف) مش موضوعه
+    photo["topic"] = topic if matched else None
     return photo
+
+
+def close_stock(photo):
+    """صورة حقيقية لموضوع الخبر نفسه (مسجد لمواعيد الأذان، عملات لسعر الصرف،
+    طقس...) أقرب للخبر من رسم AI، فتفضل (قرار صاحب الموقع 2026-10-05: الصورة
+    الحقيقية الأول). إلا صورة الرياضة العامة (ملعب أو كورة) والاحتياطي (مدينة
+    أو صحف): رسم بألوان الفريقين أقرب للخبر منها (اشتكى من صورة كورة عامة على
+    خبر فوز مصر 5-0)."""
+    p = photo or {}
+    return bool(p.get("stock") and p.get("topic") and p["topic"] not in SPORT_TOPICS)
 
 
 def photo_text(art):
@@ -646,7 +693,8 @@ def photo_text(art):
 def photo_for(title, category, country, langs=("ar", "en"), art=None):
     """صورة تخص الخبر، أو None (فيعرض الموقع كارته). art: المقال المكتوب."""
     art = art or {}
-    return (find_photo(title, category, langs, art.get("tags"), art.get("headline", "")) or
+    return (find_photo(title, category, langs, art.get("tags"), art.get("headline", ""),
+                       edition=country) or
             stock_photo(title, category, country, photo_text(art)))
 
 
@@ -674,7 +722,8 @@ def refresh_stock():
 
 # رقم قواعد الاختيار الحالية. مقال صورته بقواعد أقدم (أو بلا رقم) يُعاد
 # اختيار صورته تلقائيًا في التشغيلة الدورية. ارفعه عند تغيير القواعد.
-PHOTO_VERSION = 7                 # 7: مصادر إضافية للأشخاص (ويكي بيانات بالاسم، png كبيرة، 600px كحد ثانٍ)
+PHOTO_VERSION = 8                 # 8: صور الأشخاص الصغيرة (300px)، الاسم الواحد لو من بلد النسخة، إملاء عربي تاني، وصورة حقيقية بدل رسم AI
+# 7: مصادر إضافية للأشخاص (ويكي بيانات بالاسم، png كبيرة، 600px كحد ثانٍ)
 
 
 def mark(art, photo):
@@ -728,7 +777,32 @@ def backfill(recheck=False, budget=None, only_mark=False):
                     continue
                 if art.get("photo_v") == PHOTO_VERSION and not recheck:
                     continue
-                if (art.get("photo") or {}).get("ai"):     # رسم aiart.py لا يُستبدل
+                if (art.get("photo") or {}).get("ai"):
+                    # رسم aiart.py يفضل، إلا لو لقينا صورة حقيقية لصاحب الخبر
+                    if budget and time.time() - start > budget:
+                        out_of_time = True
+                        break
+                    real = None
+                    if not only_mark:
+                        try:
+                            real = find_photo(t["title"], t.get("category", ""), langs,
+                                              art.get("tags"), art.get("headline", ""), edition=gkey)
+                        except Exception:
+                            real = None
+                        if not real:
+                            st = stock_photo(t["title"], t.get("category", ""), gkey, photo_text(art))
+                            real = st if close_stock(st) else None
+                        tried += 1
+                    mark(art, real or art["photo"])
+                    if real:
+                        named += 0 if real.get("stock") else 1
+                        stock += 1 if real.get("stock") else 0
+                        print("  {} {} ← {} (بدل رسم AI)".format(
+                            gkey, t["title"], real.get("wiki_title") or "صورة حقيقية لموضوعه"))
+                    k = gkey + "|" + gday + "|" + t["title"]
+                    if k in store and isinstance(store[k], dict) and store[k].get("body"):
+                        mark(store[k], art["photo"])
+                    changed = True
                     continue
                 if budget and time.time() - start > budget:
                     out_of_time = True

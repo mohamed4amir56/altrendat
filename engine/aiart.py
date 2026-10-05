@@ -159,12 +159,19 @@ def art_photo(headline, data):
             "width": SIZE[0], "height": SIZE[1]}
 
 
-def wants_art(art):
-    """خبر عن شخص أو مكان له صورة حقيقية من ويكيبيديا يبقى بها (القارئ يرى الوجه
-    الحقيقي، ولا نصنع شبه أحد). الباقي (تعبيرية أو بلا صورة) يأخذ صورة مولّدة."""
+def wants_art(art, title="", category=""):
+    """الصورة الحقيقية الأول (قرار صاحب الموقع 2026-10-05): خبر عن شخص أو مكان له
+    صورة حقيقية من ويكيبيديا يبقى بها (القارئ يرى الوجه الحقيقي، ولا نصنع شبه أحد)،
+    وكذلك صورة حقيقية لموضوع الخبر نفسه (photos.close_stock). الباقي (صورة رياضة
+    عامة، أو مدينة/صحف احتياطي، أو بلا صورة) يأخذ صورة مولّدة."""
     p = art.get("photo") or {}
     if p.get("url") and not p.get("stock") and not p.get("ai"):
         return False
+    if p.get("stock") and not p.get("ai"):
+        if "topic" not in p:          # صورة اتختارت قبل حفظ موضوعها: نحسبه
+            p = photos.stock_photo(title, category, "", photos.photo_text(art)) or {}
+        if photos.close_stock(p):
+            return False
     # ملف الرسم ضاع (كان يُحفظ داخل site/ الذي يُمسح كل بناء) فيُعاد توليده
     return not p.get("ai") or not os.path.exists(
         os.path.join(ART_DIR, os.path.basename(p.get("url", ""))))
@@ -219,7 +226,8 @@ def run(budget=150, cap=12):
                 continue
             for t in snap.get("trends", []):
                 art = t.get("article")
-                if not isinstance(art, dict) or not art.get("body") or not wants_art(art):
+                if (not isinstance(art, dict) or not art.get("body")
+                        or not wants_art(art, t["title"], t.get("category", ""))):
                     continue
                 # written_at بصيغة ISO بتوقيت UTC، فالمقارنة النصية مقارنة زمنية
                 if (art.get("written_at") or "") < fresh_since:

@@ -284,7 +284,7 @@ def fetch_texts(items):
     # من غير "with" (زي pipeline.enrich): الخروج منه كان بيستنى أي صفحة معلّقة
     # ويلغي فايدة المهلة.
     pool = concurrent.futures.ThreadPoolExecutor(max_workers=4)
-    futures = {pool.submit(sources.fetch_text, n["url"]): n for n in items}
+    futures = {pool.submit(sources.fetch_text, n["url"], config.SOURCE_CHARS): n for n in items}
     done, _ = concurrent.futures.wait(futures, timeout=25)
     for fut in done:
         try:
@@ -443,7 +443,7 @@ def write_one(client, trend, country_name, is_en=False, country_key="world"):
     else:
         schema = SCHEMA_PERSON if person else SCHEMA
 
-    items = sources.good_sources(trend.get("news", []))[:3]
+    items = sources.good_sources(trend.get("news", []))[:config.WRITER_SOURCES]
     fetch_texts(items)
     prompt = build_prompt(trend, country_name, items, is_en=is_en)
     # النص الكامل للكتابة فقط: لو بقي في الترند لانتقل إلى trends.json

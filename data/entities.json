@@ -2296,14 +2296,14 @@
         "date": "2026-10-07",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "قمرة القيادة.. الخطر من الداخل",
-          "شبكة CBS: إسرائيل كانت مستعدة لإسقاط طائرة «فلاي دبي» بعد واقعة قمرة القيادة",
-          "طيران الإمارات: تعليق عمليات مشاركة الرموز مع «فلاي دبي» من تل أبيب وإليها بأثر فوري"
+          "تقرير أمريكي يرصد خسائر قياسية.. تدمير أو إعطاب 81 طائرة ومروحية خلال حرب إيران",
+          "مقاتلات متطورة ومروحيات ومسيّرات.. تقرير يكشف حجم خسائر الجيش الأميركي في حرب إيران",
+          "3.3 مليار دولار.. خسائر المعدات الجوية الأمريكية في حرب إيران"
         ]
       },
       {
@@ -2316,9 +2316,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "تايمز أوف إسرائيل: تل أبيب كانت مستعدة لإسقاط طائرة \"فلاي دبي\"",
-          "رويترز عن مصادر: السعودية تفتح تحقيقا في واقعة طائرة فلاي دبي",
-          "جديد مساعد قائد طائرة فلاي دبي.. أكمل جزءاً من تدريبه في نيوزيلاندا"
+          "خسائر بالمليارات.. الجيش الأمريكي يفقد 81 مقاتلة و45 درون في حرب إيران",
+          "الكونجرس الأمريكي: فقدان أو تضرر 81 مركبة جوية خلال الحرب على إيران",
+          "مقاتلات متطورة ومروحيات ومسيّرات.. تقرير يكشف حجم خسائر الجيش الأميركي في حرب إيران"
         ]
       }
     ],
@@ -3381,8 +3381,8 @@
         "date": "2026-10-07",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+61000",
-        "traffic_num": 61000,
+        "traffic": "110,000+",
+        "traffic_num": 110000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
@@ -3398,7 +3398,7 @@
       "eg",
       "world"
     ],
-    "peak_traffic": 100000,
+    "peak_traffic": 110000,
     "category": "طقس"
   },
   "دينا": {
@@ -5006,14 +5006,14 @@
         "date": "2026-10-07",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "«إسكان النواب»: مد التصالح بمخالفات البناء يسهم في ضبط منظومة العمران",
-          "\"الوزراء\" يقرر تمديد تقنين الأراضي المملوكة للدولة ومخالفات البناء 6 أشهر جديدة",
-          "6 أشهر جديدة للتصالح في مخالفات البناء بمصر.. من المستفيد؟"
+          "مجلس الوزراء يوافق على تحمل الخزانة العامة قيمة ضريبة الملاهي لعدد من الفعاليات",
+          "الضرائب تتعاقد مع شركة إرنست ويونج مصر لميكنة الأعمال الضريبية",
+          "الحكومة توافق على التعاقد مع شركة دراسات استشارية لمخرجات منظومة ميكنة الأعمال الضريبية"
         ]
       }
     ],
@@ -5022,7 +5022,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 500,
     "category": "سياسة"
   },
   "مدحت-شلبي": {
@@ -126556,15 +126556,31 @@
           "شركة أرامكو هدف لهجمات الحوثيين، فما أهميتها للسعودية؟",
           "الحوثيون يعلنون استهداف مطار الرياض بصاروخ بالستي"
         ]
+      },
+      {
+        "key": "2026-10-07|eg",
+        "date": "2026-10-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "مقتل ثلاثة أشخاص وإصابة العشرات في هجمات على مطارين بالسعودية",
+          "السعودية تكشف حصيلة ضحايا استهداف مطاري أبها والملك خالد يومي الثلاثاء والأربعاء",
+          "(وسائط متعددة) الجامعة العربية: استمرار تصعيد الحوثيين يطيل أمد الأزمة اليمنية ويهدد أمن دول الجوار"
+        ]
       }
     ],
     "last_seen": "2026-10-07",
-    "total": 2,
+    "total": 3,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 2000,
-    "category": "سياسة"
+    "category": "حوادث وقضايا"
   },
   "central-park-cyclist-dog-collision": {
     "slug": "central-park-cyclist-dog-collision",
@@ -126672,10 +126688,25 @@
           "テレビ局再編のゴングは鳴ったが、リングは系列ごとに区切られていた｜境治＠MediaBorder",
           "系列２８社と放送中枢統合へ"
         ]
+      },
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "「バナナマンのせっかくグルメ！！」10月4日放送・取材先決定の経緯説明「非難するコメントの発信はお控え下さい」【全文】",
+          "TBS『バナナマンのせっかくグルメ!!』10・4放送回について説明・呼びかけ「非難するコメントの発信はお控え下さい」【全文】",
+          "『せっかくグルメ』女性のロケ “割り込み” に賛否…“女子4人組置き去り” 展開で問われる番組側の配慮と日村の不在"
+        ]
       }
     ],
-    "last_seen": "2026-10-05",
-    "total": 1,
+    "last_seen": "2026-10-07",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -147915,9 +147946,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "موعد مباراة الهلال ضد الاتحاد في دوري روشن والقنوات الناقلة",
-          "كيفية الحصول على تذاكر الفتح ضد الرياض: أسعار الدوري السعودي للمحترفين، معلومات المباراة، مبيعات اللحظات الأخيرة والمزيد",
-          "الأهلي ضد النصر: تفاصيل حجز التذاكر وأسعار المباراة"
+          "موعد انتظام ثلاثي القادسية الأجنبي في تدريبات الفريق",
+          "القنوات الناقلة لمباراة الخلود ضد القادسية في الدوري السعودي للمحترفين",
+          "3 دوليين يعودون إلى القادسية"
         ]
       }
     ],
@@ -148175,8 +148206,8 @@
         "publishable": false,
         "headlines": [
           "من فؤاد أنور إلى العويس... أربعة قادة حملوا كأس الخليج للأخضر",
-          "السعودية .. إنجاز الأمان وكأس الخليج",
-          "كيف جاءت ألقاب السعودية الثلاثة في كأس الخليج ؟"
+          "بين اللقبين.. الأبطال شاهدوه أطفالا واثنان لم يولدا",
+          "السعودية .. إنجاز الأمان وكأس الخليج"
         ]
       }
     ],
@@ -148658,8 +148689,8 @@
         "date": "2026-10-07",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
@@ -148674,7 +148705,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "سياسة"
   },
   "guardians-vs-white-sox": {
@@ -148810,7 +148841,7 @@
         "headlines": [
           "Le Canadien | Samuel Montembeault quitte l’entraînement",
           "À VOIR: Samuel Montembeault se blesse à l’entraînement",
-          "À VOIR: Samuel Montembeault se blesse à l'entraînement"
+          "Mises à jour de l’entraînement – 7 oct."
         ]
       }
     ],
@@ -148991,5 +149022,411 @@
     ],
     "peak_traffic": 100,
     "category": "رياضة"
+  },
+  "daniel-espino": {
+    "slug": "daniel-espino",
+    "name": "daniel espino",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Guardians, White Sox to start openers in ALDS Game 3",
+          "Pregame notes: Cleveland’s last stand",
+          "Here’s why the Guardians picked Daniel Espino to start win-or-go-home Game 3"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "apld-earnings": {
+    "slug": "apld-earnings",
+    "name": "apld earnings",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Applied Digital to Post Q1 Earnings: Is It Time to Hold or Fold?",
+          "Applied Digital Reports Today: What to Know",
+          "Applied Digital Q1 preview: What to expect (APLD:NASDAQ)"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "اقتصاد"
+  },
+  "white-sox-first-pitch": {
+    "slug": "white-sox-first-pitch",
+    "name": "white sox first pitch",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Who is throwing out the first pitch for the White Sox Wednesday? Rumors run wild",
+          "Chicago caught up in White Sox playoff fever ... and a mystery first-pitch guest",
+          "200 St. Gabe’s Students Surprised With ‘Once-In-A-Lifetime’ White Sox Playoff Tickets"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "lluvia": {
+    "slug": "lluvia",
+    "name": "lluvia",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Alerta naranja: sigue lloviendo y hay inundaciones en varias localidades del Conurbano",
+          "Tormentas en la región núcleo: hasta 80 mm, granizo y alerta para el campo",
+          "Estalla la tormenta y el SMN activa varios avisos a corto plazo: Dónde y qué se advierte"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "amanda-seyfried": {
+    "slug": "amanda-seyfried",
+    "name": "amanda seyfried",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Watch Amanda Seyfried’s Joni Mitchell Cover Get Interrupted by Ghostface",
+          "Amanda Seyfried Is Jump-Scared by 9-Year-Old Daughter Nina Wearing Scream Mask in Hilarious Video",
+          "'Mamma Mia!' Star Amanda Seyfried's Sweet Joni Mitchell Cover Turns Into a Scene From 'Scream' in a Matter of Seconds"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "فن ومشاهير"
+  },
+  "fiu-football": {
+    "slug": "fiu-football",
+    "name": "fiu football",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "New Mexico State vs. FIU prediction, odds, time: Week 6 college football Wednesday picks by proven model",
+          "Wednesday College Football Predictions, Picks: Our Staff’s 2 Bets for October 7",
+          "Aggies on the road after winning conference opener"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "demeco-ryans": {
+    "slug": "demeco-ryans",
+    "name": "demeco ryans",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "DeMeco Ryans taking back defensive play-calling for Texans",
+          "Texans' defense has gone from elite to struggling to close out games",
+          "Texans' DeMeco Ryans taking over defensive playcalling duties"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "michele-tafoya": {
+    "slug": "michele-tafoya",
+    "name": "michele tafoya",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Who is Michele Tafoya? Meet the sideline reporter turned GOP Senate candidate vying to turn Minnesota red",
+          "Senate GOP leader joins Tafoya on farm as Flanagan highlights cost, war concerns",
+          "Republicans see an opening for Tafoya, but their money is elsewhere"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "سياسة"
+  },
+  "disneyland-park": {
+    "slug": "disneyland-park",
+    "name": "disneyland park",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Disney World raises prices of annual passes, tickets",
+          "Disney raises some ticket prices at US theme parks",
+          "Disney increases park prices every year. Here’s how it avoids pricing out families"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
+  },
+  "المصري": {
+    "slug": "المصري",
+    "name": "المصري",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|eg",
+        "date": "2026-10-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "نتائج مباريات اليوم الأربعاء 7 - 10 - 2026 فى بطولة كأس عاصمة مصر",
+          "الفوز الأول مع أحمد سامي.. المصري ينتصر على سيراميكا كليوباترا في كأس الرابطة",
+          "محمد شيكا يقود هجوم سيراميكا كليوباترا أمام المصري في كأس عاصمة مصر"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 500,
+    "category": "شخصية"
+  },
+  "مباره-الزمالك": {
+    "slug": "مباره-الزمالك",
+    "name": "مباره الزمالك",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|eg",
+        "date": "2026-10-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "«سيدات يد الأهلي» يفوز على أبيدجان الإيفواري في بطولة إفريقيا",
+          "عبد الرحمن نبيل أفضل لاعب في مباراة الأهلى وفلاورز البنينى فى بطولة أفريقيا لليد",
+          "«يد» الأهلى يواجه فلاورز البنينى اليوم"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "فيلم-مطلوب-عائليا": {
+    "slug": "فيلم-مطلوب-عائليا",
+    "name": "فيلم مطلوب عائليا",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|eg",
+        "date": "2026-10-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "كريم عبد العزيز يكشف حقيقة تشابه فيلمى مطلوب عائليا وحرامية فى تايلاند",
+          "ياسمين صبري تتألق في العرض الخاص لـ«مطلوب عائليًا»",
+          "ملك أحمد زاهر توجه رسالة دعم لخطيبها شريف الليثي: \"فخورة بك\""
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
+  },
+  "مشروع-قانون": {
+    "slug": "مشروع-قانون",
+    "name": "مشروع قانون",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|eg",
+        "date": "2026-10-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "بإجماع الأعضاء.. تفاصيل موافقة لجنة النواب على حذف المادة 25 من قانون جامعة كيان",
+          "اللجنة البرلمانية الخاصة توافق على إلغاء المادة 25 من قانون جامعة كيان",
+          "النواب يبدأ مناقشة اعتراض الرئيس السيسي على مادة بقانون جامعة كيان"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "المؤسسة-العامة-للتدريب-التقني-والمهني": {
+    "slug": "المؤسسة-العامة-للتدريب-التقني-والمهني",
+    "name": "المؤسسة العامة للتدريب التقني والمهني",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|sa",
+        "date": "2026-10-07",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "عام / \"التدريب التقني\" يصرف مكافأة المتدربين المتفوقين للعام التدريبي 1447هـ",
+          "«التدريب التقني» تصرف مكافآت التفوق لـ3920 متدرباً ومتدربة",
+          "«التدريب التقني» تصرف مكافآت التفوق لـ 3,920 متدربًا للعام 1447هـ"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
   }
 }

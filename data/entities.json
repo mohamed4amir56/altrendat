@@ -2298,12 +2298,12 @@
         "country_name": "السعودية",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "حوادث وقضايا",
-        "publishable": false,
+        "category": "شخصية",
+        "publishable": true,
         "headlines": [
-          "32 قتيلًا جراء تحطم طائرة عسكرية في نيجيريا.. وإعلان الحداد الوطني 3 أيام",
-          "الرئيس النيجيري يأمر بفتح تحقيق في تحطم طائرة عسكرية",
-          "مصر تتقدم بخالص تعازيها لنيجيريا في ضحايا حادث تحطم طائرة عسكرية"
+          "تقرير أمريكي يرصد خسائر قياسية.. تدمير أو إعطاب 81 طائرة ومروحية خلال حرب إيران",
+          "مقاتلات متطورة ومروحيات ومسيّرات.. تقرير يكشف حجم خسائر الجيش الأميركي في حرب إيران",
+          "3.3 مليار دولار.. خسائر المعدات الجوية الأمريكية في حرب إيران"
         ]
       },
       {
@@ -2316,7 +2316,7 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "خسائر بالمليارات.. الجيش الأمريكي يفقد 81 مقاتلة و45 درون في حرب إيران",
+          "حرب إيران تضرب سلاح الجو الأمريكى.. 81 طائرة بين مفقودة ومتضررة",
           "من \"إف-35\" إلى \"ريبر\".. خسائر موجعة في الترسانة الجوية الأمريكية",
           "الكونجرس الأمريكي: فقدان أو تضرر 81 مركبة جوية خلال الحرب على إيران"
         ]
@@ -2329,7 +2329,7 @@
       "sa"
     ],
     "peak_traffic": 10000,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "منتخب-أنغولا-لكرة-القدم": {
     "slug": "منتخب-أنغولا-لكرة-القدم",
@@ -5000,15 +5000,30 @@
           "«الطيران المدني» تلغي ترخيص مكتب سفر لمخالفته القانون",
           "مجلس الوزراء يوافق على مشروعات القرارات بتنظيم مكاتب السفر والشحن الجوي"
         ]
+      },
+      {
+        "key": "2026-10-07|eg",
+        "date": "2026-10-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "مجلس الوزراء يوافق على 12 قرارا.. تعرف عليها",
+          "النائب مختار همام يطالب الحكومة بسرعة إرسال قانون التصالح الجديد لحسم الإشكاليات العالقة",
+          "\"الوزراء\" يقرر تمديد تقنين الأراضي المملوكة للدولة ومخالفات البناء 6 أشهر جديدة"
+        ]
       }
     ],
-    "last_seen": "2026-09-24",
-    "total": 1,
+    "last_seen": "2026-10-07",
+    "total": 2,
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
-    "category": "شخصية"
+    "peak_traffic": 1000,
+    "category": "سياسة"
   },
   "مدحت-شلبي": {
     "slug": "مدحت-شلبي",
@@ -25122,8 +25137,8 @@
         "publishable": true,
         "headlines": [
           "مواقيت الصلاة اليوم الأربعاء 7 أكتوبر 2026 بمحافظات الجمهورية",
-          "مواقيت الصلاة في أسوان اليوم الثلاثاء 6-10-2026",
-          "مواقيت الصلاة اليوم الثلاثاء 6 أكتوبر 2026 في القاهرة والمحافظات"
+          "مواقيت الصلاة اليوم الأربعاء 7 أكتوبر 2026 في القاهرة والمحافظات",
+          "جدول مواقيت الصلاة الأربعاء 7 أكتوبر 2026 في محافظات مصر"
         ]
       }
     ],
@@ -76315,10 +76330,25 @@
           "Hurricane Rachel strengthens to Category 3 storm off Mexico’s Pacific coast",
           "Tropical Pacific moisture drenches central U.S. as another Pacific hurricane forms"
         ]
+      },
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "Potential for high surf, beach erosion and coastal flooding on the way to San Diego County",
+          "The National Hurricane Center just drew a forecast path into California. Is the threat legit?",
+          "Hurricane Rachel forecast to turn back toward land, bringing dangerous surf to California as Simon looms"
+        ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 1,
+    "last_seen": "2026-10-07",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -111549,11 +111579,27 @@
           "مسلسل \"أحلى نصيب\".. القصة والأبطال وموعد العرض",
           "MBC1 تجهز للعرض الأول لمسلسل \"أحلى نصيب\""
         ]
+      },
+      {
+        "key": "2026-10-07|eg",
+        "date": "2026-10-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "الأحداث المتسارعة تسيطر على انطلاقة \"أحلى نصيب\" وهذه التفاصيل الكاملة عن النسخة السعودية من المسلسل التركي \"العشق مجددًا\"",
+          "مسلسل أحلى نصيب يتصدر «شاهد» بعد 6 حلقات.. أبطال المسلسل يحتفلون بالنجاح",
+          "«أحلى نصيب» يبدأ بزواج مفاجئ.. راكان ونورة أمام 6 أشهر من الأسرار والمواقف"
+        ]
       }
     ],
-    "last_seen": "2026-10-04",
-    "total": 1,
+    "last_seen": "2026-10-07",
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 200,
@@ -132730,8 +132776,8 @@
         "date": "2026-10-07",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
@@ -132746,7 +132792,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "سياسة"
   },
   "amazon-canada": {
@@ -140379,14 +140425,14 @@
         "date": "2026-10-07",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "\"الكوين لا تبكي\".. تعاطف واسع مع دموع غادة عبد الرازق (فيديو)",
-          "غادة عبد الرازق تعترف بتغيّر شخصيتها وتكشف سبب تعدد زيجاتها",
-          "غادة عبد الرازق ضيفة أنس بوخش في ABtalks.. شخصية «نعمة الله» تكشف هويتها"
+          "غادة عبد الرازق تفتح قلبها: تزوجت 5 مرات.. والجمهور أساء فهم شخصيتي",
+          "غادة عبد الرازق تفجر مفاجأة عن زيجاتها وتجربتها مع العلاج النفسي",
+          "\"الكوين لا تبكي\".. تعاطف واسع مع دموع غادة عبد الرازق (فيديو)"
         ]
       },
       {
@@ -147163,9 +147209,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "برنت قرب 102 دولار.. مخاطر الإمدادات تعيد إشعال أسواق الطاقة",
-          "النفط يستقر وسط توازن بين مخاوف الإمدادات وزيادة صادرات الشرق الأوسط",
-          "النفط يتراجع وسط تهدئة مخاوف الامدادات وتدفق الصادرات"
+          "عاجل: الأسواق تتحرك بقوة بعد محضر اجتماع الفيدرالي..الذهب يقلص الخسائر",
+          "أسعار الذهب تسجل أدنى مستوى في شهرين متأثرة بصعود الدولار",
+          "\"XTB MENA\": مشتريات البنوك المركزية وصناديق المؤشرات تعزز أساسيات الذهب"
         ]
       }
     ],
@@ -147506,8 +147552,8 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "الكل يترقب لحظة الحقيقة.. ثلاثي أوروبي يحدد البطل الشرعي لكأس أمم أفريقيا 2025",
           "السنغال أم المغرب؟ \"كاس\" تنظر الخميس في طعن يحسم بطل إفريقيا",
+          "الكل يترقب لحظة الحقيقة.. ثلاثي أوروبي يحدد البطل الشرعي لكأس أمم أفريقيا 2025",
           "أمم أفريقيا 2025: محكمة التحكيم لحسم مصير النهائي المجنون بين المغرب والسنغال"
         ]
       }
@@ -147593,8 +147639,8 @@
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
-          "Here are six reasons why fuel prices are going up on Wednesday",
           "Single biggest petrol price increase in South Africa on the cards for November",
+          "Here are six reasons why fuel prices are going up on Wednesday",
           "South Africans get poorer as taxes, rising costs and private services leave far less to spend"
         ]
       }
@@ -147796,9 +147842,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "حبس فريق \"متصدقش\" في مصر: نقابة الصحفيين تطلب الإفراج ومجلسها في انعقاد دائم",
-          "مصر.. النيابة تكشف تفاصيل ضبط 6 متهمين في قضية \"متصدقش\" وتقرر حبسهم",
-          "النيابة تأمر بحبس المتهمين فى قضية «متصدقش» 15 يوما بتهمة الانضمام للإخوان"
+          "نقابة الصحفيين الفلسطينية تستنكر تصاعد اعتداءات الاحتلال ومستوطنيه على الصحفيين",
+          "مستوطنون إسرائيليون يعتدون بالضرب على مصوّر لفرانس برس بالضفة",
+          "إرهاب المستوطنين.. اعتداء على صحفي واحتجاز اثنين آخرين بالضفة"
         ]
       }
     ],
@@ -148162,14 +148208,14 @@
         "date": "2026-10-07",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "Travis Kelce Shares the ‘Best News’ He Got on His Birthday While Celebrating with Wife Taylor Swift",
           "Introducing Taylor’s Version Of Bad Girl Style",
-          "Travis Kelce dishes on birthday dinner with Taylor Swift at NYC hotspot — and shares his bye week plans"
+          "Taylor Swift, Travis Kelce Ring in His 37th Birthday With Dinner Date in NYC"
         ]
       }
     ],
@@ -148178,7 +148224,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "رياضة"
   },
   "fed-minutes": {
@@ -148307,8 +148353,8 @@
         "date": "2026-10-07",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -148323,7 +148369,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "رياضة"
   },
   "حفيد": {
@@ -148365,8 +148411,8 @@
         "date": "2026-10-07",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "تقنية",
         "publishable": false,
         "headlines": [
@@ -148381,7 +148427,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "تقنية"
   },
   "مطار-الرياض": {
@@ -148394,14 +148440,14 @@
         "date": "2026-10-07",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "category": "حوادث وقضايا",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "السعودية: وفاة سوداني ومغربية وجزائرية في الاعتداءات على مطاري الرياض وأبها",
-          "الطيران المدني: 3 وفيات و36 إصابة في اعتداءين على مطاري أبها والملك خالد",
-          "الإمارات تعلق بعد استمرار استهداف الحوثيين للسعودية"
+          "فيديو منسوب لـ\"هجوم حوثي على مطار الملك خالد في الرياض\".. هذه حقيقته",
+          "شركة أرامكو هدف لهجمات الحوثيين، فما أهميتها للسعودية؟",
+          "الحوثيون يعلنون استهداف مطار الرياض بصاروخ بالستي"
         ]
       }
     ],
@@ -148410,8 +148456,8 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 1000,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 500,
+    "category": "دول وأماكن"
   },
   "الدوري-السعودي": {
     "slug": "الدوري-السعودي",
@@ -148423,14 +148469,14 @@
         "date": "2026-10-07",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "+2100",
-        "traffic_num": 2100,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "الهلال يواصل تحضيراته",
-          "عاجل.. جورج إلينيخينا يرد رسميا على موقفه النهائي من مباراة الاتحاد أمام الهلال",
-          "الاتحاد.. إيلينيخينا جاهز وترقب وصول ريوس ومختار"
+          "موعد انتظام ثلاثي القادسية الأجنبي في تدريبات الفريق",
+          "القنوات الناقلة لمباراة الخلود ضد القادسية في الدوري السعودي للمحترفين",
+          "3 دوليين يعودون إلى القادسية"
         ]
       }
     ],
@@ -148439,7 +148485,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 2100,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "সন": {
@@ -148481,8 +148527,8 @@
         "date": "2026-10-07",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -148497,7 +148543,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "عام"
   },
   "tank-dell": {
@@ -148539,8 +148585,8 @@
         "date": "2026-10-07",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "تقنية",
         "publishable": false,
         "headlines": [
@@ -148555,7 +148601,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "تقنية"
   },
   "المؤسسة-العامة-للتأمينات-الاجتماعية": {
@@ -148615,5 +148661,121 @@
     ],
     "peak_traffic": 100,
     "category": "سياسة"
+  },
+  "guardians-vs-white-sox": {
+    "slug": "guardians-vs-white-sox",
+    "name": "guardians vs white sox",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Guardians-White Sox ALDS Game 3 FAQ, lineups (4 ET, TBS/HBO Max)",
+          "Game Thread: Guardians at White Sox, ALDS Game 3",
+          "Chicago White Sox in the playoffs: Schedule set for AL Division Series vs. Cleveland Guardians"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "رياضة"
+  },
+  "week-5-start-em-sit-em": {
+    "slug": "week-5-start-em-sit-em",
+    "name": "week 5 start em sit em",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "NFL Fantasy 2026 Start 'Em, Sit 'Em: Running backs for Week 5",
+          "Justin Boone's Fantasy Football Full PPR RB Rankings for Week 5",
+          "High-Leverage Opportunities, Running Backs: Week 5"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "maricarmen": {
+    "slug": "maricarmen",
+    "name": "maricarmen",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Muere Maricarmen, la mujer que encendió la lucha contra los desahucios en España",
+          "Muere Maricarmen, la mujer desahuciada que se convirtió símbolo de la lucha por la vivienda",
+          "Muere Maricarmen, desahuciada de su vivienda en Madrid"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "تذاكر-فضل-شاكر": {
+    "slug": "تذاكر-فضل-شاكر",
+    "name": "تذاكر فضل شاكر",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|sa",
+        "date": "2026-10-07",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "حفل إضافي لفضل شاكر في موسم الرياض بعد نفاذ تذاكر الأول",
+          "\"كثير سألوا عنه\".. تركي آل الشيخ يعلن عودة فضل شاكر من قلب الرياض",
+          "هل تحيي شيرين عبدالوهاب حفلاً في موسم الرياض؟"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "شخصية"
   }
 }

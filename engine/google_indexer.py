@@ -2,6 +2,10 @@
 """
 Google Indexing API — إخطار جوجل بصفحات الموقع الجديدة.
 
+متوقف من 7 أكتوبر 2026 (config.GOOGLE_INDEXING_ENABLED، قرار صاحب الموقع): لم
+يُفد المقالات (مقال مُرسل بقي «URL is unknown to Google») وهو خارج ما تخصصه جوجل
+للواجهة. ما يلي وصف عمله حين يُفعَّل.
+
 قرار صاحب الموقع (2 أكتوبر 2026): يعود الإرسال لصفحات المقالات كما كان قبل
 28 سبتمبر، لكن لنصفها فقط: الأعلى بحثًا من مقالات كل يوم في كل نسخة (SHARE).
 من 28 سبتمبر اقتصر على صفحات الوظائف الموثقة (ولا توجد)، فلم يُرسل لجوجل
@@ -31,6 +35,9 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import config  # noqa: E402
+
 SITE = os.path.join(ROOT, "site")
 STATE = os.path.join(ROOT, "data", "google_indexed.json")
 LOCAL_KEY = os.path.join(ROOT, "data", "service_account.json")
@@ -188,6 +195,10 @@ def notify_google(url, token):
 
 
 def main():
+    if not config.GOOGLE_INDEXING_ENABLED:
+        print("  ⏸ Google Indexing API متوقف (config.GOOGLE_INDEXING_ENABLED) — لا يُرسل شيء.")
+        return 0
+
     base = (sys.argv[1] if len(sys.argv) > 1
             else os.environ.get("SITE_BASE", "https://altrendat.com")).rstrip("/")
 

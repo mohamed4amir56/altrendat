@@ -21,6 +21,13 @@ EDITOR_PATH = "editor"          # الرابط: /editor/
 # بشروط النسخ العربية نفسها (مصدران على الأقل، طول المتن، الحارس).
 INDEXED_EDITIONS = ("eg", "sa", "world")
 
+# Google Indexing API (google_indexer.py) متوقف — قرار المستخدم 7/10. جوجل تخصصه
+# لصفحات JobPosting والبث المباشر فقط، وإرسال المقالات ما فادش: مقال اتبعت يوم 5/10
+# طلع في Search Console «URL is unknown to Google»، وتقرير Pages فيه 441 صفحة
+# «Discovered – currently not indexed». الخرائط و IndexNow و WebSub شغالين زي ما هم.
+# True بترجّع الإرسال.
+GOOGLE_INDEXING_ENABLED = False
+
 # فئات النسخة العالمية، أو None = كل الفئات. كانت سياسة واقتصاد فقط، فتوقفت
 # النسخة عن الكتابة أيامًا (رُفض Starlink بمئة ألف بحث). تطبيق Goldex يختار
 # أخباره بنفسه (build_gold_news_api)، فلا يحتاج هذا القيد.

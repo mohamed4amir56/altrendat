@@ -98,9 +98,9 @@ jobs:
         continue-on-error: true
         run: python engine/indexnow.py "${SITE_BASE:-https://altrendat.com}"
 
-      # يخطر جوجل بنصف مقالات آخر يومين (الأعلى بحثًا) والصفحات الثابتة المنشورة
-      # فعلًا (قرار صاحب الموقع 2 أكتوبر، مع علمه أن جوجل تخصص الواجهة للوظائف
-      # والبث) — انظر google_indexer.py
+      # متوقف من 7 أكتوبر (config.GOOGLE_INDEXING_ENABLED = False): الخطوة تخرج فورًا
+      # ولا ترسل شيئًا. حين يُفعَّل: نصف مقالات آخر يومين (الأعلى بحثًا) والصفحات
+      # الثابتة المنشورة فعلًا — انظر google_indexer.py
       - name: إخطار Google Indexing API
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}

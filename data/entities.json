@@ -2298,12 +2298,12 @@
         "country_name": "السعودية",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "قمرة القيادة.. الخطر من الداخل",
-          "شبكة CBS: إسرائيل كانت مستعدة لإسقاط طائرة «فلاي دبي» بعد واقعة قمرة القيادة",
-          "طيران الإمارات: تعليق عمليات مشاركة الرموز مع «فلاي دبي» من تل أبيب وإليها بأثر فوري"
+          "32 قتيلًا جراء تحطم طائرة عسكرية في نيجيريا.. وإعلان الحداد الوطني 3 أيام",
+          "الرئيس النيجيري يأمر بفتح تحقيق في تحطم طائرة عسكرية",
+          "مصر تتقدم بخالص تعازيها لنيجيريا في ضحايا حادث تحطم طائرة عسكرية"
         ]
       },
       {
@@ -2311,14 +2311,14 @@
         "date": "2026-10-07",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "خسائر بالمليارات.. الجيش الأمريكي يفقد 81 مقاتلة و45 درون في حرب إيران",
           "من \"إف-35\" إلى \"ريبر\".. خسائر موجعة في الترسانة الجوية الأمريكية",
-          "مقاتلات متطورة ومروحيات ومسيّرات.. تقرير يكشف حجم خسائر الجيش الأميركي في حرب إيران"
+          "الكونجرس الأمريكي: فقدان أو تضرر 81 مركبة جوية خلال الحرب على إيران"
         ]
       }
     ],
@@ -2329,7 +2329,7 @@
       "sa"
     ],
     "peak_traffic": 10000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "منتخب-أنغولا-لكرة-القدم": {
     "slug": "منتخب-أنغولا-لكرة-القدم",
@@ -3375,10 +3375,25 @@
           "Tomorrow’s weather: What travellers can expect across nine provinces",
           "Wednesday’s weather: Damaging waves in Western Cape, Northern Cape, KZN; hot in Gauteng"
         ]
+      },
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "طقس",
+        "publishable": true,
+        "headlines": [
+          "Can we expect rain in Dubai this week? Here's what the NCM have to say about it",
+          "Abu Dhabi introduces new speed limit on key routes due to fog",
+          "Rain hits parts of Abu Dhabi as winds reach 40km/h"
+        ]
       }
     ],
-    "last_seen": "2026-10-06",
-    "total": 6,
+    "last_seen": "2026-10-07",
+    "total": 7,
     "countries": [
       "eg",
       "world"
@@ -68409,7 +68424,7 @@
   },
   "gears-of-war-e-day": {
     "slug": "gears-of-war-e-day",
-    "name": "gears of war e day",
+    "name": "gears of war: e-day",
     "first_seen": "2026-10-01",
     "appearances": [
       {
@@ -68426,15 +68441,30 @@
           "Gears Of War: E-Day Review In Progress",
           "Gears of War: E-Day Performance Benchmark Review - 35 GPUs Tested"
         ]
+      },
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "E-Day’s 6-Year Journey Inside the Rapidly Changing Xbox Industry",
+          "Gears of War: E-Day – Surviving the First Night of Emergence",
+          "Gears of War: E-Day Review: A Grand Reemergence"
+        ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 1,
+    "last_seen": "2026-10-07",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "رياضة"
+    "category": "عام"
   },
   "acn-stock": {
     "slug": "acn-stock",
@@ -147117,9 +147147,8 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "رويترز: حزب الله حصل على 200 مليون دولار من إيران مؤخراً",
-          "حزب الله تلقى 200 مليون دولار من إيران لمساعدة النازحين",
-          "رغم الضغوط الأميركية.. تقرير: حزب الله تلقّى 200 مليون دولار من طهران الشهر الماضي لدعم النازحين"
+          "بعد خفض قيمة الدينار أمام الدولار، كيف يحافظ العراقيون على مدخراتهم؟",
+          "الدينار العراقي قد يهبط أمام الدولار إلى 1800 دينار في السوق الموازية"
         ]
       }
     ],
@@ -147460,8 +147489,8 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "السنغال أم المغرب؟ \"كاس\" تنظر الخميس في طعن يحسم بطل إفريقيا",
           "الكل يترقب لحظة الحقيقة.. ثلاثي أوروبي يحدد البطل الشرعي لكأس أمم أفريقيا 2025",
+          "السنغال أم المغرب؟ \"كاس\" تنظر الخميس في طعن يحسم بطل إفريقيا",
           "أمم أفريقيا 2025: محكمة التحكيم لحسم مصير النهائي المجنون بين المغرب والسنغال"
         ]
       }
@@ -147547,9 +147576,9 @@
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
+          "Here are six reasons why fuel prices are going up on Wednesday",
           "Single biggest petrol price increase in South Africa on the cards for November",
-          "South Africans get poorer as taxes, rising costs and private services leave far less to spend",
-          "Petrol crosses R30 mark: Desperate calls for immediate govt relief"
+          "South Africans get poorer as taxes, rising costs and private services leave far less to spend"
         ]
       }
     ],
@@ -147859,14 +147888,14 @@
         "date": "2026-10-07",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
           "Trump floats firing top political advisers after report they helped a pro-Russian government",
           "Trump rebukes political advisers for taking other work during midterms",
-          "Trump distances himself from top advisers who reportedly traveled to Russia-aligned Bosnian territory – live"
+          "Amid Midterm Crunch, Trump Advisers Took Time to Help Russia-Aligned Government"
         ]
       }
     ],
@@ -147875,7 +147904,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 2000,
     "category": "دول وأماكن"
   },
   "electoral-fraud": {
@@ -148068,8 +148097,8 @@
         "publishable": false,
         "headlines": [
           "من فؤاد أنور إلى العويس... أربعة قادة حملوا كأس الخليج للأخضر",
-          "بين اللقبين.. الأبطال شاهدوه أطفالا واثنان لم يولدا",
-          "السعودية .. إنجاز الأمان وكأس الخليج"
+          "السعودية .. إنجاز الأمان وكأس الخليج",
+          "كيف جاءت ألقاب السعودية الثلاثة في كأس الخليج ؟"
         ]
       }
     ],
@@ -148096,6 +148125,325 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": []
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "travis-kelce-birthday-chiefs-win": {
+    "slug": "travis-kelce-birthday-chiefs-win",
+    "name": "travis kelce birthday chiefs win",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Travis Kelce Shares the ‘Best News’ He Got on His Birthday While Celebrating with Wife Taylor Swift",
+          "Travis Kelce Reveals What Topped His Birthday Dinner With Wife Taylor Swift in New York",
+          "Taylor Swift, Travis Kelce Ring in His 37th Birthday With Dinner Date in NYC"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "fed-minutes": {
+    "slug": "fed-minutes",
+    "name": "fed minutes",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Fed officials see another hike coming, but no sign as to when, minutes show",
+          "Fed’s minutes show no appetite for a series of interest-rate hikes",
+          "Fed Minutes Signal Further Rate Increase This Year, but No Urgency for October Hike"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "فن ومشاهير"
+  },
+  "jennifer-coffindaffer": {
+    "slug": "jennifer-coffindaffer",
+    "name": "jennifer coffindaffer",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Hoda Kotb reveals how Savannah Guthrie is coping as mom Nancy remains missing | Exclusive",
+          "Nancy Guthrie Update: Retired FBI Agent Receives 4 Ransom Notes",
+          "Recent ransom note related to Nancy Guthrie's disappearance isn't credible, investigators say"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "تقنية"
+  },
+  "rhamondre-stevenson": {
+    "slug": "rhamondre-stevenson",
+    "name": "rhamondre stevenson",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Stevenson and Hollins will not practice Wednesday",
+          "Former NFL rushing TD leader eyes comeback, works out for Patriots",
+          "Veteran running back among 5 free agents visiting Patriots for workout"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "surface-laptop-ultra": {
+    "slug": "surface-laptop-ultra",
+    "name": "surface laptop ultra",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Nvidia Takes Aim at Intel’s $32 Billion PC Business With Microsoft’s Surface Laptop Ultra",
+          "How Microsoft built its MacBook Pro competitor",
+          "Microsoft, Nvidia CEOs to unveil new AI laptop at San Francisco event"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "تقنية"
+  },
+  "robert-gasser": {
+    "slug": "robert-gasser",
+    "name": "robert gasser",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Pitcher traded by Padres to Brewers will face his former team in critical NLDS game",
+          "Pat Murphy Facing Chad Patrick, Robert Gasser Decision After NLDS Loss to Padres",
+          "Brewers’ Pat Murphy drops hint on pitching plans for huge Game 4 vs. Padres"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "حفيد": {
+    "slug": "حفيد",
+    "name": "حفيد",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|eg",
+        "date": "2026-10-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "مصرع شخص سقط من مركب في نهر النيل بالحوامدية",
+          "من عيد ميلاد الحفيد لمأساة.. الضفادع البشرية تبحث عن جثمان الحاج خليفة بالنيل",
+          "غرق تاجر دواجن خلال نزهة مع أسرته في مركب نيلية بالحوامدية"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "samsung-galaxy": {
+    "slug": "samsung-galaxy",
+    "name": "samsung galaxy",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|eg",
+        "date": "2026-10-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Samsung Galaxy Z Fold8 earns Which? ‘Best Buy’ endorsement as Galaxy Z Series receives recognition across the range",
+          "Samsung’s Z Fold 8 is hundreds off ahead of iPhone Duo launch",
+          "The only Android foldable phone that matters in 2026 is now down to its best price"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "تقنية"
+  },
+  "مطار-الرياض": {
+    "slug": "مطار-الرياض",
+    "name": "مطار الرياض",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|sa",
+        "date": "2026-10-07",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "السعودية: وفاة سوداني ومغربية وجزائرية في الاعتداءات على مطاري الرياض وأبها",
+          "الطيران المدني: 3 وفيات و36 إصابة في اعتداءين على مطاري أبها والملك خالد",
+          "الإمارات تعلق بعد استمرار استهداف الحوثيين للسعودية"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 1000,
+    "category": "حوادث وقضايا"
+  },
+  "الدوري-السعودي": {
+    "slug": "الدوري-السعودي",
+    "name": "الدوري السعودي",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|sa",
+        "date": "2026-10-07",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "+300",
+        "traffic_num": 300,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "عوائد دوري روشن السعودي تنمو 11.5% .. و198 مليون مشاهدة للبث الحي",
+          "كوارد ينضم إلى إدارة رابطة المحترفين",
+          "4.6 مليار ريال القيمة السوقية للدوري السعودي للمحترفين"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 300,
+    "category": "رياضة"
+  },
+  "সন": {
+    "slug": "সন",
+    "name": "সোনা",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|sa",
+        "date": "2026-10-07",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "বিশ্ববাজারে কমলো স্বর্ণের দাম",
+          "কমতে পারে সোনার দাম? রেপো রেট বৃদ্ধির জোর ধাক্কা পড়ল বাজারে",
+          "রসায়নে নোবেল জিতলেন দুজন"
+        ]
       }
     ],
     "last_seen": "2026-10-07",

@@ -2343,12 +2343,12 @@
         "country_name": "مصر",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "شخصية",
-        "publishable": true,
+        "category": "حوادث وقضايا",
+        "publishable": false,
         "headlines": [
-          "خسائر بالمليارات.. الجيش الأمريكي يفقد 81 مقاتلة و45 درون في حرب إيران",
-          "تقرير أمريكي يكشف خسارة 81 طائرة ومسيّرة خلال حرب إيران",
-          "الكونجرس الأمريكي: فقدان أو تضرر 81 مركبة جوية خلال الحرب على إيران"
+          "ألمانيا.. اعتقال راكب بعد العبث بباب طائرة خلال رحلة لشركة لوفتهانزا",
+          "رعب في الجو.. يحاول فتح باب الطائرة على ارتفاع 30 ألف قدم",
+          "تسبب بفوضى عارمة.. راكب يحاول فتح باب طائرة في السماء"
         ]
       }
     ],
@@ -2359,7 +2359,7 @@
       "sa"
     ],
     "peak_traffic": 10000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "منتخب-أنغولا-لكرة-القدم": {
     "slug": "منتخب-أنغولا-لكرة-القدم",
@@ -33373,8 +33373,8 @@
         "publishable": false,
         "headlines": [
           "سوريا تنفي إرسال قوات إلى اليمن.. وتؤكد: لا نفتح جبهات جديدة",
-          "سوريا تنفي مزاعم الانضمام إلى حرب اليمن: لا نعتزم فتح جبهات جديدة",
-          "سوريا تنفي مزاعم الانضمام إلى القتال ضد ميليشيا الحوثي في اليمن"
+          "دمشق: نقف بحزم مع السعودية والتعاون العسكري عبر القنوات الرسمية",
+          "سوريا تنفي مزاعم الانضمام إلى حرب اليمن: لا نعتزم فتح جبهات جديدة"
         ]
       }
     ],
@@ -98581,15 +98581,30 @@
           "Dodgers vs. Braves live updates, lineups: Chris Sale, Yoshinobu Yamamoto take the mound for Game 3, Shohei Ohtani drops to fifth in batting order",
           "What's behind Ohtani's NLDS struggles? It's complicated ..."
         ]
+      },
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+120000",
+        "traffic_num": 120000,
+        "category": "طقس",
+        "publishable": true,
+        "headlines": [
+          "LIVE on FS1/FOX One: Dodgers-Braves NLDS Game 4",
+          "Atlanta Braves NLDS Game 4 weather forecast",
+          "Shohei Ohtani scores, ties NLDS Game 4 on Mauricio Dubón gaffe"
+        ]
       }
     ],
-    "last_seen": "2026-10-06",
-    "total": 3,
+    "last_seen": "2026-10-07",
+    "total": 4,
     "countries": [
       "world"
     ],
-    "peak_traffic": 50000,
-    "category": "رياضة"
+    "peak_traffic": 120000,
+    "category": "طقس"
   },
   "nantucket-plane": {
     "slug": "nantucket-plane",
@@ -99366,15 +99381,30 @@
           "Dodgers’ Kyle Tucker Responds To Contract Disappointment, ‘I Don’t Really Care’",
           "Dodger notes: Kyle Tucker, Josue De Paula"
         ]
+      },
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "What struggles? Teo, Tucker continue resurgence, come out swinging in NLDS Game 1",
+          "Commentary: Kyle Tucker becomes unlikely NLDS hero with Dodgers poised for series sweep",
+          "Kyle Tucker & Max Muncy hit homers in sixth inning, extending Dodgers' lead over Braves"
+        ]
       }
     ],
-    "last_seen": "2026-10-03",
-    "total": 1,
+    "last_seen": "2026-10-07",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
-    "category": "عام"
+    "peak_traffic": 1000,
+    "category": "رياضة"
   },
   "rafael-dos-anjos": {
     "slug": "rafael-dos-anjos",
@@ -118253,14 +118283,29 @@
           "EXCLUSIVE Field-Level Views of Phillies vs. Braves",
           "Braves vs. Phillies Game 3: Where to watch, expert picks, predictions with NLDS spot on the line"
         ]
+      },
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "He quit baseball to work at an IMAX theater. Now he's a Braves playoff legend",
+          "Braves lean on Kerr, Fuentes in lieu of Sale, win NLDS Game 2",
+          "The Dodgers outsmarted themselves"
+        ]
       }
     ],
-    "last_seen": "2026-10-04",
-    "total": 1,
+    "last_seen": "2026-10-07",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "roki-sasaki": {
@@ -118683,10 +118728,25 @@
           "Josue De Paula embracing new Dodgers role, awaits playoff moment as bench bat",
           "Dodgers NLDS roster: Josue De Paula and Hyeseong Kim active vs. Braves"
         ]
+      },
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Josue De Paula the youngest Dodgers position player in postseason in 61 years",
+          "Dodgers top prospect De Paula, reliever Henriquez make NL Division Series roster",
+          "Dodgers include OF prospect Josue De Paula on NLDS roster"
+        ]
       }
     ],
-    "last_seen": "2026-10-05",
-    "total": 1,
+    "last_seen": "2026-10-07",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -127124,12 +127184,12 @@
         "country_name": "السعودية",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "استطلاع: البرتغاليون لا يريدون عودة رونالدو إلى المنتخب",
+          "جيسوس يرد على اتهامات رونالدو: قرأت البيان.. وهذا ما سأفعله",
           "مفاجأة: كريستيانو موقوف بالفعل.. ومخرج قانوني يخفف العقوبة إلى 15 يوما!",
-          "\"جيسوس ظهر مغروراً\".. بيان من رونالدو بشأن أسباب مغادرته لمعسكر البرتغال"
+          "مدرب النصر السعودي: رونالدو جاهز... و«مبروك للأخضر»"
         ]
       }
     ],
@@ -127139,7 +127199,7 @@
       "sa"
     ],
     "peak_traffic": 2000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "riyadh": {
     "slug": "riyadh",
@@ -133794,10 +133854,40 @@
           "Spain’s night skies are worth watching this week as the ‘Rocket Revolution’ begins",
           "Katara Inspires Young Explorers During World Space Week 2026"
         ]
+      },
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "فضول عام",
+        "publishable": true,
+        "headlines": [
+          "World Space Week: Which countries have sent people to space?",
+          "World Space Week 2026 celebrates a year of rocket launch milestones",
+          "World Space Week spotlights Livingston and Spokane astronauts"
+        ]
+      },
+      {
+        "key": "2026-10-08|sa",
+        "date": "2026-10-08",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فضول عام",
+        "publishable": false,
+        "headlines": [
+          "‘Rocket revolution’ opens access to space",
+          "Sharjah Space and Astronomy Hub celebrates World Space Week",
+          "World Space Week spotlights Livingston and Spokane astronauts"
+        ]
       }
     ],
-    "last_seen": "2026-10-06",
-    "total": 2,
+    "last_seen": "2026-10-08",
+    "total": 4,
     "countries": [
       "sa",
       "world"
@@ -142058,15 +142148,30 @@
           "Elaine Hendrix Breaks Silence on Shocking ‘RJ Decker’ Reveal, Pitches Return — With a ‘DWTS’ Twist",
           "Rj Decker October 6 New Episode 4 Spoilers Reveal A Murder At Fishing Tournament Scandal & More"
         ]
+      },
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Scott Speedman on first TV lead role, playing Beau Bridges’ son, and that ‘R.J. Decker’ love triangle",
+          "Beau Bridges Teases What’s Next for R.J. and His Father After That Surprise R.J. Decker Reunion (Exclusive)",
+          "R.J. Decker's Dad Beau Bridges Explains Why He's Not Who We Expected Him To Be — Plus, Shantel VanSanten Returns As Trudy!"
+        ]
       }
     ],
-    "last_seen": "2026-10-06",
-    "total": 1,
+    "last_seen": "2026-10-07",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 2000,
+    "category": "عام"
   },
   "cooper-pratt": {
     "slug": "cooper-pratt",
@@ -150223,14 +150328,14 @@
         "date": "2026-10-08",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "حبس فريق \"متصدقش\" في مصر: نقابة الصحفيين تطلب الإفراج ومجلسها في انعقاد دائم",
-          "مصر.. النيابة تكشف تفاصيل ضبط 6 متهمين في قضية \"متصدقش\" وتقرر حبسهم",
-          "النيابة تكشف تفاصيل التحقيق في قضية \"متصدقش\": أحدهم اعترف بالانتماء للإخوان والتمويل"
+          "حصرياً لـ CNN.. مصادر تكشف عن \"تهم\" جديدة من المتوقع توجيهها لنيكولاس مادورو وزوجته",
+          "نجل مادورو يكشف تدهور صحة زوجة والده في السجن",
+          "واشنطن تنظر في توجيه تهم بالتعذيب ضد مادورو وزوجته"
         ]
       }
     ],
@@ -150239,7 +150344,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 200,
     "category": "حوادث وقضايا"
   },
   "قيلولة": {
@@ -150287,7 +150392,6 @@
         "publishable": false,
         "headlines": [
           "USA vs UAE, 129th Match, ICC Cricket World Cup League Two 2023-27 - Commentary",
-          "Milind claims new record as USA script history in Dallas",
           "THIS former Delhi cricketer becomes USA’s leading six hitter in ODIs – Check details"
         ]
       }
@@ -150315,9 +150419,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "ميلا: «أحلى نصيب» تجربة أمومة مختلفة",
           "أشباح الماضي تهدد «أحلى نصيب»..",
-          "تصدر مسلسل \"أحلى نصيب\" الترند بعد عرض أولى حلقاته.. وهذا ما قاله أبطال العمل"
+          "ميلا: «أحلى نصيب» تجربة أمومة مختلفة",
+          "الأحداث المتسارعة تسيطر على انطلاقة \"أحلى نصيب\" وهذه التفاصيل الكاملة عن النسخة السعودية من المسلسل التركي \"العشق مجددًا\""
         ]
       }
     ],
@@ -150645,14 +150749,14 @@
         "date": "2026-10-08",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "الكهرباء تحذر مستخدمي العدادات الكودية من 6 مخالفات تؤدي لقطع التيار",
-          "ما المخالفات الـ6 التي تعرض أصحاب العدادات الكودية لسحب العداد وقطع الكهرباء؟",
-          "بعد إعادة بعض الحالات لنظام الشرائح.. ما مصير فروق الأموال المتحصلة من أصحاب العدادات الكودية؟.. المواطن يدفع و\"الكهرباء\" مطالبة بكشف الحساب"
+          "مهينة رئيسا للشركة القابضة للكهرباء.. ويوسف عضوا متفرغا لشئون شركات الانتاج",
+          "«الكهرباء»: قيادات جديدة للشركة القابضة لكهرباء مصر",
+          "وزير الكهرباء يصدر حركة تغييرات بقيادات القابضة لكهرباء مصر"
         ]
       }
     ],
@@ -150661,7 +150765,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "عادل-إمام": {
@@ -150997,7 +151101,7 @@
         "headlines": [
           "عبدالملك الحوثي يعدد 4 جهات وقفت مع الفلسطينيين بعد عملية \"طوفان الأقصى\"",
           "الحوثي: النظام السعودي يؤلب الجميع ضد حزب الله في جبهة واحدة مع العدو الإسرائيلي والأميركي",
-          "السيد القائد يحذر من مؤامرة أمريكية صهيونية تستهدف المقدسات الإسلامية ويؤكد: العدو السعودي أبو منشار \"ألد الخصام\""
+          "مفتاح باب المندب هناك في غزة.. هكذا ساندت اليمن طوفان الأقصى"
         ]
       }
     ],
@@ -151224,12 +151328,12 @@
         "country_name": "مصر",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "حوادث وقضايا",
+        "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "German Officials Arrest Former Spy Chief on Espionage Charges",
-          "The Spy Crisis That Threatens to Defang Germany’s Top Intelligence Agency",
-          "Germany shaken by an espionage and treason scandal"
+          "Germany’s Far Right Claims Its First Statehouse Speaker Since 1945",
+          "Germany news: Far-right AfD gets first house speaker in a German state parliament",
+          "Far-right election win leaves migrants questioning their future in eastern Germany"
         ]
       }
     ],
@@ -151239,7 +151343,7 @@
       "eg"
     ],
     "peak_traffic": 100,
-    "category": "حوادث وقضايا"
+    "category": "دول وأماكن"
   },
   "عملية-طوفان-الأقصى": {
     "slug": "عملية-طوفان-الأقصى",
@@ -151257,8 +151361,8 @@
         "publishable": false,
         "headlines": [
           "في ذكرى طوفان السنوار",
-          "السابع من أكتوبر.. ماذا جرى خلال اليوم الذي غير وجه المنطقة؟",
-          "في الذكرى الثالثة للسابع من أكتوبر: واقع فلسطيني متأزم وإسرائيل في مواجهة تداعيات الحرب."
+          "في الذكرى الثالثة للسابع من أكتوبر: واقع فلسطيني متأزم وإسرائيل في مواجهة تداعيات الحرب.",
+          "بذكرى الحرب.. حماس تتمسك بالمقاومة وأبو عبيدة يدعو للتحرك من أجل غزة"
         ]
       }
     ],
@@ -151905,5 +152009,195 @@
     ],
     "peak_traffic": 200,
     "category": "عام"
+  },
+  "yankee-game": {
+    "slug": "yankee-game",
+    "name": "yankee game",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Yankee Stadium Quietly Suffered a Summer Peanut Shortage",
+          "Yankee Stadium Quietly Suffered a Summer Peanut Shortage",
+          "Drew Rasmussen against the Yankees"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "tnt": {
+    "slug": "tnt",
+    "name": "tnt",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Ex-Oklahoma State coach Mike Gundy joins TNT as guest analyst",
+          "Mike Gundy returns to college football, making his tv analyst debut this Saturday",
+          "Former Oklahoma State football coach Mike Gundy to make studio debut, per report"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "rhyne-howard": {
+    "slug": "rhyne-howard",
+    "name": "rhyne howard",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "2026 WNBA playoffs: How Allisha Gray, Jewell Loyd injuries impact semis",
+          "Dream guard Allisha Gray out with hand injury for WNBA semifinals Game 2",
+          "Without Injured Allisha Gray, Dream Shoots for 2-0 Semifinal Lead Over Liberty"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "new-york-liberty-vs-atlanta-dream-match-player-stats": {
+    "slug": "new-york-liberty-vs-atlanta-dream-match-player-stats",
+    "name": "new york liberty vs atlanta dream match player stats",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "New York Liberty vs Atlanta Dream Oct 4, 2026 Box Scores",
+          "WNBA playoffs live scores, updates: Semifinals start time, how to watch and latest from Liberty vs. Dream",
+          "WNBA playoffs, Liberty-Dream score: New York looks to bounce back in Game 2, even semifinal series in Atlanta"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "max-fried-girlfriend": {
+    "slug": "max-fried-girlfriend",
+    "name": "max fried girlfriend",
+    "first_seen": "2026-10-07",
+    "appearances": [
+      {
+        "key": "2026-10-07|world",
+        "date": "2026-10-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Carlos Rodón against the Rays",
+          "Rays vs. Yankees live updates, lineups, where to watch: Max Fried, Nick Martinez get the start in Game 3",
+          "Max Fried will take the bump for Yankees’ ALDS Game 3 — whether his girlfriend gives birth or not"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "مسلسل-تحت-الأرض-الموسم-الثاني": {
+    "slug": "مسلسل-تحت-الأرض-الموسم-الثاني",
+    "name": "مسلسل تحت الأرض الموسم الثاني",
+    "first_seen": "2026-10-08",
+    "appearances": [
+      {
+        "key": "2026-10-08|eg",
+        "date": "2026-10-08",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "مسلسلات تركية… موعد عرض الموسم الـ2 من مسلسل \"تحت الأرض\"",
+          "مسلسل «تحت الأرض» الموسم الثاني: القصة والأبطال وموعد العرض",
+          "مسلسل تحت الأرض يرفع حماس الجمهور قبل انطلاق الموسم الثاني"
+        ]
+      },
+      {
+        "key": "2026-10-08|sa",
+        "date": "2026-10-08",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "مسلسلات تركية… موعد عرض الموسم الـ2 من مسلسل \"تحت الأرض\"",
+          "مسلسل «تحت الأرض» الموسم الثاني: القصة والأبطال وموعد العرض",
+          "مسلسل تحت الأرض الحلقة 17 الموسم الثاني .. عودة الماضي"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-08",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
   }
 }

@@ -4746,8 +4746,8 @@
         "date": "2026-10-09",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+40000",
-        "traffic_num": 40000,
+        "traffic": "+40600",
+        "traffic_num": 40600,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -8395,12 +8395,12 @@
         "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "طقس",
+        "category": "عام",
         "publishable": false,
         "headlines": [
-          "طقس الجمعة في مصر.. أمطار رعدية ورياح وحرارة تصل إلى 39 درجة",
-          "طقس مصر حتى الأربعاء 14 أكتوبر.. تحذيرات من أمطار ورياح وحرارة",
-          "متى يبدأ الإحساس بالشتاء في مصر؟.. الأرصاد تكشف الموعد"
+          "Sturm, Blitz und 30 Liter Regen: Wetter-Wende ab Donnerstag trifft Deutschland mit voller Wucht",
+          "Sturmböen im Westerwaldkreis: DWD warnt vor Gefahr ab 600 Meter",
+          "Orkanartige Böen bis 110 km/h und Gewitter: Jetzt legt der Herbst in Deutschland so richtig los"
         ]
       }
     ],
@@ -8410,7 +8410,7 @@
       "eg"
     ],
     "peak_traffic": 500,
-    "category": "طقس"
+    "category": "عام"
   },
   "বলদশ-বনম-মলযশয": {
     "slug": "বলদশ-বনম-মলযশয",
@@ -20740,15 +20740,30 @@
           "South Africa v Australia: first men’s cricket Test, day one – live",
           "South Africa name first Test XI, gun quick unavailable"
         ]
+      },
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10,500+",
+        "traffic_num": 10500,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "The long wait and low expectations of Test cricket in South Africa",
+          "Where to watch South Africa vs. Australia live stream, TV channel, start time and lineups for 1st Test",
+          "T20 ties have softened on-field rivalries, says Harmer"
+        ]
       }
     ],
     "last_seen": "2026-10-09",
-    "total": 5,
+    "total": 6,
     "countries": [
       "sa",
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 10500,
     "category": "رياضة"
   },
   "chris-brown": {
@@ -22006,10 +22021,25 @@
           "Carey, Marsh hit fifties as Australia post 322",
           "RSA vs AUS, 3rd ODI, Australia tour of South Africa, 2026 - Commentary"
         ]
+      },
+      {
+        "key": "2026-10-09|sa",
+        "date": "2026-10-09",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "World Test Championship final rematch could shape next year's decider",
+          "South Africa v Australia: first men’s cricket Test, day one – live",
+          "South Africa name first Test XI, gun quick unavailable"
+        ]
       }
     ],
-    "last_seen": "2026-09-30",
-    "total": 3,
+    "last_seen": "2026-10-09",
+    "total": 4,
     "countries": [
       "sa",
       "world"
@@ -22447,14 +22477,14 @@
         "date": "2026-10-09",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "category": "حوادث وقضايا",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "المجلس الأعلى للقضاء يُنشئ محكمة للتنفيذ ويعتمد قواعد المكاتب الفنية",
-          "المجلس الأعلى للقضاء يعتمد قواعد عمل المكاتب الفنية ويوافق على إنشاء محكمة للتنفيذ",
-          "«الأعلى للقضاء» يعتمد قواعد عمل المكاتب الفنية"
+          "رقم ألماني بصورة رئيس تحرير «عكاظ».. ورابط إلكتروني مشبوه\nتفاصيل واقعة انتحال هوية تستهدف قيادات سياسية وعسكرية يمنية.. والصحيفة تحذّر بشدة.",
+          "«عكاظ» تحذر من رقم مجهول ينتحل شخصية جميل الذيابي ويرسل روابط احتيالية",
+          "اختراق وفخ إلكتروني يستهدف العليمي وأبو زرعة برقم ألماني باسم صحيفة سعودية كبيرة"
         ]
       }
     ],
@@ -22464,8 +22494,8 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 1000,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 2000,
+    "category": "شخصية"
   },
   "كولومبيا": {
     "slug": "كولومبيا",
@@ -147233,15 +147263,30 @@
           "Google fights £1 billion UK lawsuit over app store fees in latest Big Tech case",
           "Google hit with £1.2B UK consumer claim over app prices (GOOG:NASDAQ)"
         ]
+      },
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Introducing all-new Amazon Alexa Tablets—powerful tablets with Alexa+ built in",
+          "Amazon overhauls aging devices lineup with higher-priced Alexa tablet, dumping the budget Fire",
+          "Amazon’s new Alexa Tablets drop the Fire branding but are more Android than ever"
+        ]
       }
     ],
-    "last_seen": "2026-10-07",
-    "total": 1,
+    "last_seen": "2026-10-09",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 500,
+    "category": "تقنية"
   },
   "تصفيات-كأس-أمم-أفريقيا": {
     "slug": "تصفيات-كأس-أمم-أفريقيا",
@@ -159930,10 +159975,25 @@
           "Shawn Layden Predicted Sony Wouldn’t Go Discless, But Ex-PlayStation Chief Now Calls 2028 Disc Cutoff a ‘Significant Brand Hit’",
           "Sony's consultation on physical media: better late than never | Opinion"
         ]
+      },
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Ex-PlayStation boss recalls Nintendo employee's reaction to the PSP reveal: \"You bastards\"",
+          "\"You Bastards\" - Ex-PlayStation Exec Shawn Layden Reveals What A Nintendo Counterpart Thought About PSP",
+          "Former Sony exec reveals Nintendo's sweary response to original PSP reveal"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 1,
+    "last_seen": "2026-10-09",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -169237,14 +169297,14 @@
         "date": "2026-10-09",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "بعد ميسي ورونالدو.. من يرث عرش كرة القدم؟",
-          "بكلمات \"مؤثرة\".. رونالدو يودع ميسي بعد مباراته الدولية الأخيرة",
-          "الاحتفال تحول إلى تكريم لكرة القدم.. ميسى.. الوداع الذى تجاوز حدود الأرجنتين"
+          "بالفيديو.. نيمار ينفجر في 6 دقائق لإنقاذ سانتوس من قطار فلامنجو",
+          "قدم.. نيمار ينقذ سانتوس من الخسارة أمام فلامينغو بالدوري البرازيلي",
+          "نيمار يشعل الصراع على لقب الدوري البرازيلي"
         ]
       }
     ],
@@ -169254,7 +169314,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "casey-desantis": {
@@ -169586,8 +169646,8 @@
         "date": "2026-10-09",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -169602,7 +169662,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "إل-نينيو": {
@@ -169789,14 +169849,14 @@
         "date": "2026-10-09",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "موعد مباراة محمد صلاح مع طرابزون سبور ضد سامسون في الدوري التركي",
-          "مدرب طرابزون يجتمع مع صلاح لمناقشة أزمة \"الترتان\" قبل مواجهة كوبس بالمؤتمر الأوروبي",
-          "صلاح يزين تدريبات طرابزون استعدادًا لمواجهة سامسون سبور (صور)"
+          "مدرب طرابزون يجتمع مع صلاح لحسم موقفه من مواجهة كوبس",
+          "مدرب طرابزون يجتمع مع صلاح لمناقشة أزمة \"الترتان\" قبل مواجهة كوبس بالمؤتمر الأوروبي"
         ]
       }
     ],
@@ -169805,7 +169865,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "مباريات-الدوري-السعودي-اليوم": {
@@ -169865,5 +169925,179 @@
     ],
     "peak_traffic": 100,
     "category": "شخصية"
+  },
+  "the-celebrity-traitors-episode-4": {
+    "slug": "the-celebrity-traitors-episode-4",
+    "name": "the celebrity traitors episode 4",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "50000+",
+        "traffic_num": 50000,
+        "category": "فن ومشاهير",
+        "publishable": true,
+        "headlines": [
+          "Emotions run high at the round table as Celebrity Traitors banish two players",
+          "Richard E Grant, you are the worst Traitor ever",
+          "The Celebrity Traitors: episode three – live"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 50000,
+    "category": "فن ومشاهير"
+  },
+  "cable-tv": {
+    "slug": "cable-tv",
+    "name": "cable tv",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Forget Cable TV and Streaming: Here's Walt Disney's (DIS) Most Lucrative Business Segment",
+          "Can Streaming and Sports Keep Walt Disney (NYSE:DIS) in the Lead?",
+          "Disney's Thriving Subeconomy Is One of the World's Largest. Here's How to Find Success Within It"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "avatar-seven-havens-release-time": {
+    "slug": "avatar-seven-havens-release-time",
+    "name": "avatar seven havens release time",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "‘Avatar: Seven Havens’ Review: Paramount+’s Promising Addition to a Beloved Fantasy Franchise",
+          "A New Avatar Series Is Coming to Paramount+ This Week — Here's Everything We Know About Seven Havens",
+          "Avatar: Seven Havens Clip Has The Last Airbender Fans Complaining About One Specific Thing"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "salma-hayek": {
+    "slug": "salma-hayek",
+    "name": "salma hayek",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "‘Richest’: Action star is a secret billionaire",
+          "#SHOWBIZ: Salma Hayek beyond Hollywood: Inside her US$15bil luxury dynasty and marriage",
+          "Salma Hayek Celebrates 60 With Billionaire Wealth and Swimsuit Spotlight"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
+  },
+  "الإيجار": {
+    "slug": "الإيجار",
+    "name": "الإيجار",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|eg",
+        "date": "2026-10-09",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "تطبيق نظام الأولويات على 5 مواقع مطروحة للإيجار بـ\"سكن لكل المصريين 9\"",
+          "الفرصة الأخيرة.. طريقة التقديم على شقق الإيجار التمليكي والشروط المطلوبة",
+          "مجلس الوزراء يعتمد الشروط الإضافية لمحور الإيجار ضمن برنامج «سكن كل المصريين»"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "pakistan-yemen": {
+    "slug": "pakistan-yemen",
+    "name": "pakistan yemen",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|sa",
+        "date": "2026-10-09",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Pak jets strike Houthi targets in Yemen as part of Mecca Pact, 8,000 soldiers in Saudi Arabia too",
+          "Pakistan rejects report claiming PAF aircraft used against Houthis",
+          "Pakistan reportedly joins air campaign against Houthis as missiles hit Riyadh airport"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
   }
 }

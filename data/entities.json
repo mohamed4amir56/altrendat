@@ -4569,8 +4569,8 @@
         "date": "2026-10-09",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -4710,12 +4710,42 @@
           "‘More of the same’ weather-wise as Met Office says NI to avoid a touch of frost",
           "Autumn finally arrives as colder temperatures to sweep UK this week"
         ]
+      },
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+41000",
+        "traffic_num": 41000,
+        "category": "طقس",
+        "publishable": true,
+        "headlines": [
+          "Weather: Mixed day for Cork as Met Éireann predicts weekend temperature shift",
+          "Ireland 2C cold drop with frost and ice alert as Met Eireann pinpoint 'persistent' rain before 'unsettled' switch",
+          "Mixed weather and cooler temperatures expected this week"
+        ]
+      },
+      {
+        "key": "2026-10-09|sa",
+        "date": "2026-10-09",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "طقس",
+        "publishable": true,
+        "headlines": [
+          "إنذار أحمر من الأرصاد السعودية.. أمطار غزيرة ورياح عاتية تضرب محافظتين بمكة",
+          "الأرصاد تعلن عن أعلى وأدنى درجات الحرارة في مدن سعودية"
+        ]
       }
     ],
-    "last_seen": "2026-10-07",
-    "total": 5,
+    "last_seen": "2026-10-09",
+    "total": 7,
     "countries": [
       "eg",
+      "sa",
       "world"
     ],
     "peak_traffic": 50000,
@@ -8326,10 +8356,25 @@
           "طقس اليوم الأربعاء.. ارتفاع طفيف في درجات الحرارة بالقاهرة",
           "حالة الطقس غدًا الأربعاء في مصر.. نشاط رياح وأمطار خفيفة"
         ]
+      },
+      {
+        "key": "2026-10-09|eg",
+        "date": "2026-10-09",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "طقس الجمعة في مصر.. أمطار رعدية ورياح وحرارة تصل إلى 39 درجة",
+          "طقس مصر حتى الأربعاء 14 أكتوبر.. تحذيرات من أمطار ورياح وحرارة",
+          "الأرصاد: غدا طقس خريفي مائل للحرارة نهارًا معتدل ليلًا.. والعظمى بالقاهرة 30"
+        ]
       }
     ],
-    "last_seen": "2026-10-07",
-    "total": 6,
+    "last_seen": "2026-10-09",
+    "total": 7,
     "countries": [
       "eg"
     ],
@@ -13587,13 +13632,13 @@
         "date": "2026-10-09",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "من ورق الكلك إلى قيادة القوات الجوية.. كيف كشف جهاز الاستطلاع أسرار السرب الإسرائيلي قبل أكتوبر؟",
-          "اللواء طيار حسين مسعود: الطلعة الأولى مفتاح النصر",
+          "الفريق مجدى شعراوى: الاستطلاع الجوى وثّق خط بارليف.. ومعـركـة المنصــورة ملحمــة تاريخيـة",
           "اللواء حسن راشد: نصر أكتوبر ثمرة سنوات طويلة من التدريب والتخطيط والاستعداد"
         ]
       },
@@ -21267,15 +21312,30 @@
           "China Open Tennis",
           "Alex de Minaur vs Andrey Rublev Prediction - ATP Beijing 2026"
         ]
+      },
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "ATP Shanghai Day 3 Predictions Including Andrey Rublev vs Rei Sakamoto",
+          "Rei Sakamoto vs Andrey Rublev Prediction - ATP Shanghai Masters 2026",
+          "Rublev Enters Shanghai Masters Match Against Sakamoto as Favorite"
+        ]
       }
     ],
-    "last_seen": "2026-10-04",
-    "total": 3,
+    "last_seen": "2026-10-09",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "حوادث وقضايا"
+    "category": "رياضة"
   },
   "eng-vs-sl": {
     "slug": "eng-vs-sl",
@@ -132158,15 +132218,30 @@
           "Jazz waited for the perfect time to trade Walker Kessler to the Lakers",
           "Why Concerns About the Lakers Defense Are Overblown"
         ]
+      },
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Lakers' Jake LaRavia: Won't start Thursday",
+          "Jake LaRavia News: Auditioning for starting role",
+          "Jake LaRavia fills stat line in 21 minutes"
+        ]
       }
     ],
-    "last_seen": "2026-10-06",
-    "total": 1,
+    "last_seen": "2026-10-09",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "رياضة"
+    "category": "عام"
   },
   "bryn-walker-clothing": {
     "slug": "bryn-walker-clothing",
@@ -164200,7 +164275,7 @@
         "headlines": [
           "صاعقة تضرب طائرة ركاب على ارتفاع 17 ألف قدم",
           "صاعقة رعدية تضرب طائرة ركاب في سماء الهند",
-          "صاعقة جوية تضرب طائرة هندية وترعب المسافرين (صور)"
+          "بالصور - صاعقة جوية تلحق أضراراً بمقدمة طائرة ركاب هندية"
         ]
       },
       {
@@ -165052,9 +165127,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "MENGÃO JOGANDO MUITO NA VILA! GOL DELE! DANILO! COM LEI DO EX! VAMOOOO!",
-          "Flamengo se prepara para duelo contra o Santos com mudanças na escalação",
-          "O lance do pênalti, que ocasionou a expulsão de Jorginho"
+          "Danilo marca contra o Santos e coloca Flamengo na frente pelo Brasileirão",
+          "O lance do pênalti, que ocasionou a expulsão de Jorginho",
+          "Em retorno após lesão, Neymar faz dois gols, mas evita forçar a perna direita"
         ]
       }
     ],
@@ -168342,14 +168417,14 @@
         "date": "2026-10-09",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Australia vs Bangladesh LIVE: First women's ODI, Brisbane - radio commentary & live scores",
-          "Sultana: Bangladesh 'can surprise any team when we perform as a whole unit'",
-          "Joty seeks positive cricket against Australia"
+          "AUSCH vs BANCH, 7th Match, World Championship of Legends 2026 - Commentary",
+          "Mahmudullah Lone Fight in Vain as Bangladesh Champions Lose by 37 Runs",
+          "Australia Champions vs Bangladesh Champions WCL 2026 Prediction: Who Will Win Today’s Match? Check Toss Prediction And Captain, Vice-Captain Choices"
         ]
       }
     ],
@@ -168358,7 +168433,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "رياضة"
   },
   "المركز-الوطني-للأرصاد": {
@@ -168735,5 +168810,252 @@
     ],
     "peak_traffic": 200,
     "category": "حوادث وقضايا"
+  },
+  "afg-vs-ban": {
+    "slug": "afg-vs-ban",
+    "name": "afg vs ban",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Afghanistan look to tick boxes in rare Test outing against confident Bangladesh",
+          "How to watch Afghanistan vs Bangladesh Test series 2026 live: Start time, TV channels and streaming details for AFG vs BAN in UAE",
+          "Darwin heroics in the past, Shanto relishes Afghan challenge in one-off Test"
+        ]
+      },
+      {
+        "key": "2026-10-09|sa",
+        "date": "2026-10-09",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Afghanistan look to tick boxes in rare Test outing against confident Bangladesh",
+          "Bangladesh aim to keep progress going in Afghanistan Test",
+          "Naveen-ul-Haq's commentary stint not an indication of his playing career - ACB"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 2,
+    "countries": [
+      "sa",
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "james-mcavoy": {
+    "slug": "james-mcavoy",
+    "name": "james mcavoy",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "A Scottish Hip-Hop Hoax Helped James McAvoy Find His Movie-Making Voice",
+          "James McAvoy's directorial debut, California Schemin' , is an impossibly Scottish comedy",
+          "California Schemin': Scottish Rappers Go Brogue-less-For-Success in James McAvoy's Sharp Directing Debut"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "spokesman-review": {
+    "slug": "spokesman-review",
+    "name": "spokesman review",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Spokesman turmoil detailed, former intern buys newspaper and more",
+          "Slog AM: Oil Prices Show No Signs of Dropping, the Disney Adult Editor of Washington's Second-Biggest Newspaper is in Hot Water, Sailors Mutiny Suppressed in the Tsar's Salish Sea Fleet",
+          "Tag: William Cowles"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
+  },
+  "nobel-peace-prize-2026": {
+    "slug": "nobel-peace-prize-2026",
+    "name": "nobel peace prize 2026",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Trump’s Nobel ambitions fade, but Norway still fears his wrath",
+          "Meet the Nobel Peace Prize Contenders Who Could Beat Trump This Year",
+          "Trump on why he thinks he deserves the Nobel Peace Prize"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "dalton-knecht": {
+    "slug": "dalton-knecht",
+    "name": "dalton knecht",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Robert Horry Believes Writing Is on the Wall for 2 Lakers Players",
+          "'Ultimately I Think It Ruined Him': NBA All-Star Shares Harsh Words on Dalton Knecht's Representation",
+          "Dalton Knecht faces two crucial dates that could determine his Lakers future"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "28-days-later": {
+    "slug": "28-days-later",
+    "name": "28 days later",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "'Saving Private Ryan' Meets '28 Days Later' in J.J. Abrams’ Cult Classic Sci-Fi Thriller Leaving Paramount+",
+          "The 4 Most Important Zombie Movies That Define the Genre",
+          "10 Greatest Zombie Movies Of All Time"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "oman-vs-canada": {
+    "slug": "oman-vs-canada",
+    "name": "oman vs canada",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|sa",
+        "date": "2026-10-09",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "ICC Men's Cricket World Cup League 2 - ODI -",
+          "ICC Men's Cricket World Cup League 2 - ODI -",
+          "ICC Men's Cricket World Cup League 2 - ODI -"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "نيمار": {
+    "slug": "نيمار",
+    "name": "نيمار",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|sa",
+        "date": "2026-10-09",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "مدرب بنين: الأرجنتين منعوا تبادل القمصان والتقاط الصور مع ميسي",
+          "ميسي يودع جماهير الأرجنتين والعالم في آخر مبارياته مع المنتخب"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

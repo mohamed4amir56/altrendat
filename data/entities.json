@@ -4604,9 +4604,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "В Литву пришел активный циклон, погода испортилась",
-          "Предупреждение метеорологов: ветер может валить деревья, оставить без электричества",
-          "Предупреждение синоптиков: в пятницу поднимется ветер, в одном округе – стихийный"
+          "Циклон «Фелиция» испортит погоду в Петербурге накануне выходных",
+          "Тепло, тепло, холодно. Циклон поменяет погоду в Петербурге",
+          "Дождь к обеду, +14 в пятницу и резкий сброс до +7: Петербург ждет первый холодный день"
         ]
       }
     ],
@@ -4746,14 +4746,14 @@
         "date": "2026-10-09",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+90000",
-        "traffic_num": 90000,
+        "traffic": "+40000",
+        "traffic_num": 40000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "How unusual is the weather near you? Use our interactive tool to find out",
-          "How unusual is the weather near you? Use our interactive tool to find out",
-          "Weather Record: How Sky News' new weather tool works"
+          "Sea-surface temperatures reflect strengthening El Niño",
+          "UN weather body says El Niño set to intensify and last until February 2027",
+          "Experts Warn of Super El Niño"
         ]
       },
       {
@@ -4766,6 +4766,7 @@
         "category": "طقس",
         "publishable": true,
         "headlines": [
+          "أمطار وغبار .. الأرصاد السعودية تحذر من طقس الجمعة",
           "طقس السعودية.. أمطار رعدية وسيول تضرب مناطق واسعة وتحذيرات من تدني الرؤية",
           "إنذار أحمر من الأرصاد السعودية.. أمطار غزيرة ورياح عاتية تضرب محافظتين بمكة"
         ]
@@ -4778,7 +4779,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 90000,
+    "peak_traffic": 50000,
     "category": "طقس"
   },
   "إنستاباي": {
@@ -8394,12 +8395,12 @@
         "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "عام",
+        "category": "طقس",
         "publishable": false,
         "headlines": [
-          "Wetter: Wechselhaftes Wetter im Norden - wann die Gewitter starten",
-          "Der Herbst ist da: Vorbereitungen auf stürmisches Wochenende",
-          "Wetterdienst warnt vor Windböen in Bremen und Bremerhaven"
+          "طقس الجمعة في مصر.. أمطار رعدية ورياح وحرارة تصل إلى 39 درجة",
+          "طقس مصر حتى الأربعاء 14 أكتوبر.. تحذيرات من أمطار ورياح وحرارة",
+          "متى يبدأ الإحساس بالشتاء في مصر؟.. الأرصاد تكشف الموعد"
         ]
       }
     ],
@@ -8409,7 +8410,7 @@
       "eg"
     ],
     "peak_traffic": 500,
-    "category": "عام"
+    "category": "طقس"
   },
   "বলদশ-বনম-মলযশয": {
     "slug": "বলদশ-বনম-মলযশয",
@@ -20724,10 +20725,25 @@
           "LIVE | Coetzee shrugs off poor start to remove Connolly",
           "The spectacle of a sixy Kohli century"
         ]
+      },
+      {
+        "key": "2026-10-09|sa",
+        "date": "2026-10-09",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "World Test Championship final rematch could shape next year's decider",
+          "South Africa v Australia: first men’s cricket Test, day one – live",
+          "South Africa name first Test XI, gun quick unavailable"
+        ]
       }
     ],
-    "last_seen": "2026-09-30",
-    "total": 4,
+    "last_seen": "2026-10-09",
+    "total": 5,
     "countries": [
       "sa",
       "world"
@@ -22431,8 +22447,8 @@
         "date": "2026-10-09",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -61320,10 +61336,10 @@
         "date": "2026-10-09",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "اقتصاد",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "الآن.. أسعار البنزين والسولار اليوم الجمعة رسميًا في محطات الوقود",
           "مفاجآت لجنة التسعير المرتقبة.. أسعار البنزين والسولار اليوم في مصر",
@@ -61336,7 +61352,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "اقتصاد"
   },
   "sierra-nevada-cheese-e-coli-recall": {
@@ -146200,10 +146216,25 @@
           "Aion 2 Review-In-Progress",
           "Aion 2 celebrates over 400K Steam users and opens multiple new servers in its first day of release"
         ]
+      },
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "News - NC’S EPIC MMORPG AION 2 LAUNCHES ON STEAM AND PURPLE TO A GLOBAL AUDIENCE",
+          "Aion 2 Review-In-Progress",
+          "Aion 2 Beginner Guide: 10 Things to Do First"
+        ]
       }
     ],
-    "last_seen": "2026-10-07",
-    "total": 1,
+    "last_seen": "2026-10-09",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -153231,14 +153262,14 @@
         "date": "2026-10-09",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "category": "حوادث وقضايا",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "بينهم أطفال.. عشرات القتلى بضربات روسية على أوكرانيا",
-          "مقتل 32 شخصا على الأقل بينهم أطفال فى ضربات روسية على كييف",
-          "النشرة الصباحية | انفجارات هائلة في العاصمة الأوكرانية والسكان يهربون تحت الأرض"
+          "جهاز مستقبل مصر: ننفذ 19 ألف كيلومتر من شبكات الكهرباء بالدلتا الجديدة لدعم مشروعات التنمية",
+          "نزيف الكهرباء في الدول العربية.. \"ثقب أسود\" يبتلع المليارات",
+          "أرقام قياسية لذروة الكهرباء في 11 دولة.. مصر والجزائر بالصدارة (فيديو)"
         ]
       }
     ],
@@ -153248,7 +153279,7 @@
       "eg"
     ],
     "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "عادل-إمام": {
     "slug": "عادل-إمام",
@@ -155936,11 +155967,27 @@
           "عام / 18 موقعًا وعربة لاستقبال المتبرعين بالدم في جازان تزامنًا مع الحملة الوطنية",
           "رئيس وأعضاء المجلس الأعلى للقضاء يشاركون في الحملة الوطنية السنوية للتبرع بالدم"
         ]
+      },
+      {
+        "key": "2026-10-09|eg",
+        "date": "2026-10-09",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "أمير منطقة الرياض يشارك في الحملة الوطنية للتبرع بالدم لعام 2026",
+          "دماؤنا صدقة وعافية - سلمان بن محمد العُمري",
+          "نبض وطن وتبرع بالدم في موكب العطاء"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 1,
+    "last_seen": "2026-10-09",
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 100,
@@ -157904,14 +157951,29 @@
           "Google Doodle Hari Ini Rayakan World Space Week 2026, Ada Nebula Carina",
           "World Space Week 2026 Angkat Tema Rocket Revolution, Soroti Perkembangan Teknologi Roket"
         ]
+      },
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Pekan Antariksa Dunia 2026 Digelar, Ini Lokasi dan Rangkaian Acaranya di Jakarta",
+          "Nebula Carina di Google Doodle, Tempat Bintang-Bintang Dilahirkan",
+          "World Space Week 2026 Angkat Tema Rocket Revolution, Soroti Perkembangan Teknologi Roket"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 1,
+    "last_seen": "2026-10-09",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "تقنية"
   },
   "antigravity": {
@@ -165248,8 +165310,8 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "MENGÃO JOGANDO MUITO NA VILA! GOL DELE! DANILO! COM LEI DO EX! VAMOOOO!",
-          "Flamengo se prepara para duelo contra o Santos com mudanças na escalação",
+          "Danilo marca contra o Santos e coloca Flamengo na frente pelo Brasileirão",
+          "Bis de Neymar pára Jardim em jogo com dois penáltis e uma expulsão",
           "Árbitro acertou em marcar pênalti e expulsar Jorginho? PC Oliveira analisa decisão"
         ]
       }
@@ -169180,9 +169242,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "فضحه نيمار.. ميسي يظهر في فيديو وهو سكران تماما (شاهد)",
-          "برشلونة: نيمار يكشف حكاية طريفة للغاية عن ميسي وسواريز",
-          "كنا سكارى تمامًا.. نيمار يكشف كواليس ليلة مجنونة مع ميسي وسواريز"
+          "بعد ميسي ورونالدو.. من يرث عرش كرة القدم؟",
+          "بكلمات \"مؤثرة\".. رونالدو يودع ميسي بعد مباراته الدولية الأخيرة",
+          "الاحتفال تحول إلى تكريم لكرة القدم.. ميسى.. الوداع الذى تجاوز حدود الأرجنتين"
         ]
       }
     ],
@@ -169321,8 +169383,8 @@
         "date": "2026-10-09",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -169337,7 +169399,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 20000,
     "category": "رياضة"
   },
   "malaysia-haze": {
@@ -169408,8 +169470,8 @@
         "date": "2026-10-09",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -169424,7 +169486,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "tom-blyth": {
@@ -169495,8 +169557,8 @@
         "date": "2026-10-09",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -169511,7 +169573,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "رياضة"
   },
   "china-vs-hong-kong": {
@@ -169530,8 +169592,8 @@
         "publishable": false,
         "headlines": [
           "Maldives vs Singapore Live Cricket Score:: Match 6 Full Scorecard & Commentary",
-          "China vs Hong Kong, China Live Cricket Score:: Match 5 Full Scorecard & Commentary",
-          "ICC Men's T20 World Cup Asia Sub Regional Qualifier A, 2026"
+          "Malaysia vs Saudi Arabia Match 4 T20 - ICC Men's T20 World Cup Asia Sub Regional Qualifier B, 2026 Live Scorecard",
+          "China vs Hong Kong, China Live Cricket Score:: Match 5 Full Scorecard & Commentary"
         ]
       }
     ],
@@ -169561,6 +169623,238 @@
           "صندوق النقد يحذر من تداعيات \"إل نينيو\".. مخاوف من ارتفاع أسعار الغذاء والتضخم",
           "ظاهرة \"النينيو\" قد تضعف الدوامة القطبية.. فهل ينتظر أوروبا شتاء قارس؟",
           "علوم وتقنيات / \"كاوست\" تكشف صلة \"النينيو\" في المحيط الهادئ بتغيّرات ملوحة البحر الأحمر"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "zion-williamson": {
+    "slug": "zion-williamson",
+    "name": "zion williamson",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Yves Missi on anchoring the defense | Pelicans Training Camp 2026",
+          "Why Zion Williamson, Pelicans believe Yves Missi can become next Hakeem Olajuwon-level DPOY",
+          "Pelicans' Yves Missi: Issued challenge to continue development"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "google-play-store": {
+    "slug": "google-play-store",
+    "name": "google play store",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Introducing all-new Amazon Alexa Tablets—powerful tablets with Alexa+ built in",
+          "Amazon overhauls aging devices lineup with higher-priced Alexa tablet, dumping the budget Fire",
+          "Amazon’s new Alexa Tablets drop the Fire branding but are more Android than ever"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "تقنية"
+  },
+  "anya-taylor-joy": {
+    "slug": "anya-taylor-joy",
+    "name": "anya taylor-joy",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Anya Taylor-Joy’s LBD Has More Going On Than You Think",
+          "Anya Taylor-Joy's New 'White Lotus' Replacement Officially Hits Netflix Next Week",
+          "Anya Taylor-Joy’s $1 Billion Sci-Fi Blockbuster Is Officially Taking Over the World"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "tennis": {
+    "slug": "tennis",
+    "name": "tennis",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "RC Stevens leads State AA Tennis Tournament after Day One",
+          "Comets saved their best for state",
+          "Andersen's Runner-up Finish Helps Roncalli Girls To Fourth-place At State Tennis Tourney"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "kia-tigers": {
+    "slug": "kia-tigers",
+    "name": "kia tigers",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "LG Twins, KIA Tigers Fight for Third Place",
+          "'A masterstroke in KBO scheduling?' 3rd-place KIA faces a four-game stretch, while LG gets a day off... Could this be the variable?",
+          "Kia’s ninth-inning rally pushes slumping LG out of third place in KBO race"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "محمد-صلاح-طرابزون-سبور": {
+    "slug": "محمد-صلاح-طرابزون-سبور",
+    "name": "محمد صلاح طرابزون سبور",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|eg",
+        "date": "2026-10-09",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "موعد مباراة محمد صلاح مع طرابزون سبور ضد سامسون في الدوري التركي",
+          "مدرب طرابزون يجتمع مع صلاح لمناقشة أزمة \"الترتان\" قبل مواجهة كوبس بالمؤتمر الأوروبي",
+          "صلاح يزين تدريبات طرابزون استعدادًا لمواجهة سامسون سبور (صور)"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "مباريات-الدوري-السعودي-اليوم": {
+    "slug": "مباريات-الدوري-السعودي-اليوم",
+    "name": "مباريات الدوري السعودي اليوم",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|sa",
+        "date": "2026-10-09",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "جدول مباريات اليوم الجمعة 9 أكتوبر 2026 .. القنوات الناقلة والمعلقين",
+          "عودة رونالدو والأهلي والفتح والشارقة.. مواعيد مباريات اليوم والقنوات الناقلة",
+          "أبرز المباريات المحلية والعالمية ليوم الجمعة 9 أكتوبر 2026"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "المريخ": {
+    "slug": "المريخ",
+    "name": "المريخ",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|sa",
+        "date": "2026-10-09",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "فجر على المريخ.. «ناسا» ترصد مشهدًا مذهلًا عمره مليارات السنين",
+          "فجر المريخ.. \"كيوريوسيتي\" يوثق شروق الشمس على الكوكب الأحمر",
+          "'ناسا' تنشر صورة للفجر على كوكب المريخ التقطها المسبار كيوريوسيتي"
         ]
       }
     ],

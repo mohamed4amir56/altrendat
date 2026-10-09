@@ -4748,12 +4748,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "+21000",
         "traffic_num": 21000,
-        "category": "حوادث وقضايا",
-        "publishable": false,
+        "category": "طقس",
+        "publishable": true,
         "headlines": [
-          "Experts Warn of Super El Niño",
-          "Sea-surface temperatures reflect strengthening El Niño",
-          "UN weather body says El Niño set to intensify and last until February 2027"
+          "Columbus Weather: Sunshine streak comes to end Friday ahead of weekend rain",
+          "Columbus, OH forecast | Clear skies until rain moves in Saturday night",
+          "Columbus Weather: Central Ohio stays sunny before weekend rain moves in"
         ]
       },
       {
@@ -4780,7 +4780,7 @@
       "world"
     ],
     "peak_traffic": 50000,
-    "category": "حوادث وقضايا"
+    "category": "طقس"
   },
   "إنستاباي": {
     "slug": "إنستاباي",
@@ -18240,8 +18240,8 @@
         "date": "2026-10-09",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "ديني",
         "publishable": true,
         "headlines": [
@@ -18257,7 +18257,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 20000,
     "category": "ديني"
   },
   "منصتي": {
@@ -22044,12 +22044,12 @@
         "country_name": "السعودية",
         "traffic": "10000+",
         "traffic_num": 10000,
-        "category": "رياضة",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "The long wait and low expectations of Test cricket in South Africa",
-          "South Africa host Australia who battle more than ‘Sandpapergate’ memories",
-          "South Africa name first Test XI, gun quick unavailable"
+          "Ball by Ball Commentary & Live Score - SA vs AUS, 1st Test",
+          "Proteas in control as Mulder strikes before lunch",
+          "South Africa hosts Australia for 1st time since sandpaper scandal"
         ]
       },
       {
@@ -22075,7 +22075,7 @@
       "world"
     ],
     "peak_traffic": 10000,
-    "category": "رياضة"
+    "category": "حوادث وقضايا"
   },
   "september-27-2026-horoscope": {
     "slug": "september-27-2026-horoscope",
@@ -27478,15 +27478,30 @@
           "Tua Tagovailoa Might Be In Trouble",
           "Falcons injury report: QB Tua Tagovailoa returns to full participation"
         ]
+      },
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Falcons’ Tua Tagovailoa Trade Rumors Take Turn",
+          "Veteran QB named Falcons' most-tradeable player",
+          "Ex-Dolphins’ Tua Tagovailoa Might Have New Team Soon: Analyst"
+        ]
       }
     ],
-    "last_seen": "2026-09-27",
-    "total": 1,
+    "last_seen": "2026-10-09",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "jakobi-meyers": {
     "slug": "jakobi-meyers",
@@ -33303,10 +33318,25 @@
           "Shanghai Masters: Djoković celuje w nowe rekordy",
           "Hubert Hurkacz zagra z Novakiem Djokoviciem. Wygrana na start w Szanghaju"
         ]
+      },
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "NA ŻYWO: Hubert Hurkacz — Novak Djoković w Pekinie. Relacja i wynik live",
+          "Głośno po meczu Hurkacza. Wszyscy piszą o jednym",
+          "Djoković przemówił przed meczem z Hurkaczem"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 4,
+    "last_seen": "2026-10-09",
+    "total": 5,
     "countries": [
       "world"
     ],
@@ -156431,14 +156461,14 @@
         "date": "2026-10-09",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "الإصابة تغيب إيبانيز وميندي عن مواجهة الفتح",
           "بعثة فريق الأهلي تصل إلى الأحساء لمواجهة نادي الفتح",
-          "الأهلي.. إيبانيز يقترب و3 يلازمون العيادة",
-          "توني يقترب من (100) مساهمة تهديفية مع الأهلي"
+          "الأهلي يحتفل بالدوليين.. وبوسيتش يريح الخماسي"
         ]
       }
     ],
@@ -156447,7 +156477,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "are-the-yankees-still-in-the-playoffs": {
@@ -159727,8 +159757,8 @@
         "publishable": false,
         "headlines": [
           "Princeton Celebrates Anne Carson, a Nobel Prize Winner Who Was Denied Tenure",
-          "Where to start with: Anne Carson",
-          "Anne Carson, the genre-bending Canadian writer, wins Nobel Prize in literature"
+          "Anne Carson, the genre-bending Canadian writer, wins Nobel Prize in literature",
+          "Where to start with: Anne Carson"
         ]
       }
     ],
@@ -161365,11 +161395,27 @@
           "خليجي 27 تورط بوستيكوجلو.. أزمة في النصر قبل ديربي الرياض",
           "موقف محمد سيماكان من مباراة النصر أمام الدرعية"
         ]
+      },
+      {
+        "key": "2026-10-09|eg",
+        "date": "2026-10-09",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "النصر يسعى لاستعادة الانتصارات أمام الدرعية في الدوري السعودي",
+          "قبل مواجهة الدرعية.. بوستيكوجلو يواجه أزمة مع النصر السعودي",
+          "بقيادة رونالدو.. النصر يستعيد نجومه ويفقد بطل خليجي 27 أمام الدرعية"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 1,
+    "last_seen": "2026-10-09",
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 1000,
@@ -169664,14 +169710,30 @@
           "Feliz: Es un sistema nuevo pero creo que poco a poco iremos dando pasos hacia adelante",
           "Pedro Martínez: \"Estoy muy contento con los jugadores y la mentalidad que tienen\""
         ]
+      },
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Mourinho defiende a Mbappé en Real Madrid tras lesión: \"Ridículo\"",
+          "El runrún que enturbia a Mbappé y al vestuario del Madrid: \"Va un poco por libre\"",
+          "Mourinho: \"Si pitan a Mbappé será una victoria para vosotros\""
+        ]
       }
     ],
     "last_seen": "2026-10-09",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "سياسة"
   },
   "bangladesh-vs-afghanistan": {
@@ -170351,14 +170413,14 @@
         "date": "2026-10-09",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+50100",
-        "traffic_num": 50100,
+        "traffic": "50000+",
+        "traffic_num": 50000,
         "category": "عام",
         "publishable": true,
         "headlines": [
-          "Haze persists across Singapore with air quality at unhealthy levels",
-          "No plans to modify entertainment activities at S’pore Grand Prix amid haze: Race promoter",
-          "Singapore gears up for smog-choked Grand Prix"
+          "Singapore haze: Air quality worsens, schools adjust activities as F1 weekend gets underway",
+          "Haze in Singapore: PSI hits 2026 high in central region",
+          "Singapore’s air pollution worst in world as haze shuts Malaysia schools"
         ]
       }
     ],
@@ -170367,7 +170429,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 50100,
+    "peak_traffic": 50000,
     "category": "عام"
   },
   "aus-vs-sa": {
@@ -170385,9 +170447,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Kagiso Rabada ruled out of first Australia Test",
-          "LIVE | SA v Australia: Cummins opts to bat first at Kingsmead",
-          "South Africa name first Test XI, gun quick unavailable"
+          "Ball by Ball Commentary & Live Score - SA vs AUS, 1st Test",
+          "South Africa v Australia: first men’s cricket Test, day one – live",
+          "LIVE | SA v Australia: Cummins opts to bat first at Kingsmead"
         ]
       }
     ],
@@ -170525,8 +170587,8 @@
         "date": "2026-10-09",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -170541,7 +170603,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 1000,
     "category": "حوادث وقضايا"
   },
   "temblor-hoy-en-california": {
@@ -170675,9 +170737,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "نادر نور يعلن وفاة الموزع الموسيقى طارق توكل",
-          "موعد ومكان جنازة الموزع طارق توكل بعد وفاته عن 48 عاما",
-          "وفاة الموزع طارق توكل.. ونادر نور يكشف موعد الجنازة ومكان الدفن"
+          "تشييع جثمان الموزع الموسيقي طارق توكل بعد صلاة الجمعة",
+          "وفاة الموزع طارق توكل.. ونادر نور يكشف موعد الجنازة ومكان الدفن",
+          "وفاة الموزع الموسيقي طارق توكل"
         ]
       }
     ],
@@ -171198,7 +171260,7 @@
         "headlines": [
           "خطبة «الجمعة».. رسالة إيمانية تلامس الواقع",
           "الأذان الأول والثاني لصلاة الجمعة.. هل كلاهما سنة؟ دار الإفتاء تحسم الجدل",
-          "حكم الأذانين يوم الجمعة وقراءة القرآن جهرًا في المسجد: دار الإفتاء المصرية توضح السنة النبوية وتنهي الجدل الفقهي"
+          "سنن يوم الجمعة.. الإفتاء والأوقاف توضحان أبرز الأعمال المستحبة"
         ]
       }
     ],
@@ -171412,5 +171474,295 @@
     ],
     "peak_traffic": 100,
     "category": "عام"
+  },
+  "green-card": {
+    "slug": "green-card",
+    "name": "green card",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "50000+",
+        "traffic_num": 50000,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Trump administration freezes green cards for Microsoft, IT firms, probes universities",
+          "World in Brief: White House suspends tech companies from visa programme; Pentagon to livestream execution",
+          "Immigration split-screen: Microsoft gets a crackdown and a medal"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 50000,
+    "category": "سياسة"
+  },
+  "tnf-score": {
+    "slug": "tnf-score",
+    "name": "tnf score",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Undrafted rookie QB Daniels savors Thursday night win vs. Cowboys",
+          "After Jalon Daniels leads Bucs over Cowboys, NFL teams are 8-4 when starting a backup QB",
+          "Jalon Daniels Will Remain Bucs' Starter in Baker Mayfield's Absence"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "رياضة"
+  },
+  "georgia-lottery": {
+    "slug": "georgia-lottery",
+    "name": "georgia lottery",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Savannah local wins Fantasy 5 drawing with ticket bought from Publix",
+          "That's the ticket: Georgia Lottery winners in Lilburn and Norcross",
+          "Georgia Lottery tickets sold in Lilburn, Savannah and Norcross win big"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "gary-oldman": {
+    "slug": "gary-oldman",
+    "name": "gary oldman",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|world",
+        "date": "2026-10-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "‘Slow Horses’ Season 6 Episode 4 Death Explained by Head Writer",
+          "Slow Horses star responds after character killed off: ‘I’m not alright about it’",
+          "'Slow Horses': Inside That Shocking Death — and What the Star Really Wanted in That Scene"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "نهر-النيل": {
+    "slug": "نهر-النيل",
+    "name": "نهر النيل",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|eg",
+        "date": "2026-10-09",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "لحماية نهر النيل.. مشروع مصري جديد بالذكاء الصناعي",
+          "الوكيل الدائم للري: مشروع ضبط النيل يستهدف تحديث خرائط المجرى ورصد التغيرات بدقة",
+          "وزارة الري: مجلس الوزراء يوافق على إدراج «ضبط النيل» كمشروع رئيسي بموازنة الوزارة لـ 3 سنوات"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "one-ui-9": {
+    "slug": "one-ui-9",
+    "name": "one ui 9",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|eg",
+        "date": "2026-10-09",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "\"سامسونغ\" تسرّع تحديث One UI 9 فجأة",
+          "ساعة Galaxy Watch 8 تتلقى تحديثاً تجريبياً جديداً يحل أخطاء الشاشة",
+          "سامسونغ تطرح الإصدار التجريبي من One UI 9 لهاتف Galaxy M34"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "تقنية"
+  },
+  "يسرا": {
+    "slug": "يسرا",
+    "name": "يسرا",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|eg",
+        "date": "2026-10-09",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "يسرا تكشف سراً: عمي زرع رأفت الهجان في إسرائيل",
+          "صباح الورد",
+          "يسرا تتحدث عن كواليس رأفت الهجان وتكشف أسراراً لأول مرة"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "shadman-islam": {
+    "slug": "shadman-islam",
+    "name": "shadman islam",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|sa",
+        "date": "2026-10-09",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Afghanistan look to tick boxes in rare Test outing against confident Bangladesh",
+          "Bangladesh aim to keep progress going in Afghanistan Test",
+          "Naveen-ul-Haq's commentary stint not an indication of his playing career - ACB"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 5000,
+    "category": "عام"
+  },
+  "malaysia-vs-saudi-arabia": {
+    "slug": "malaysia-vs-saudi-arabia",
+    "name": "malaysia vs saudi arabia",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|sa",
+        "date": "2026-10-09",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "1st T20I, Indonesia tour of South Korea at Incheon, Oct 3 2026",
+          "October 11, 2026: Titans (SA) vs Eastern Storm Prediction Market",
+          "South Korea vs Indonesia Live Scorecard: Live Cricket Score KOR vs INA, 3rd T20I, Indonesia tour of South Korea, 2026"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "কষপণসতর": {
+    "slug": "কষপণসতর",
+    "name": "ক্ষেপণাস্ত্র",
+    "first_seen": "2026-10-09",
+    "appearances": [
+      {
+        "key": "2026-10-09|sa",
+        "date": "2026-10-09",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "রিয়াধের বিমানবন্দরে ক্ষেপণাস্ত্র হানা, একাধিক বিমান বাতিল করল ইন্ডিগো ও এয়ার ইন্ডিয়া, সতর্কতা জারি",
+          "রিয়াদে ব্যালিস্টিক ক্ষেপণাস্ত্র ভূপাতিত: কয়েকটি অবকাঠামোগত ক্ষতি",
+          "হুতিদের জোড়া হামলায় কাঁপল সৌদির দুই বিমানবন্দর"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-09",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

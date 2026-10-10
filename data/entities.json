@@ -4695,8 +4695,8 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
+          "Тепло и дожди в восточных областях: чего ждать от погоды в Украине сегодня",
           "\"Бабье лето\" заканчивается: синоптик назвал дату похолодания в Украине",
-          "В Украину идет похолодание, но без стихийных заморозков: актуальный прогноз от синоптиков",
           "Какая погода ожидается в Украине на выходных: подробный прогноз синоптиков. Карта"
         ]
       }
@@ -4867,14 +4867,14 @@
         "date": "2026-10-10",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+20500",
-        "traffic_num": 20500,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "11 Personnel Week 6 Preview: An SEC Hurricane",
-          "Nashville Weather Update a Day Out From Vanderbilt Football Game Against Ole Miss",
-          "Isaias To Bring Showers Cincinnati"
+          "WKU Mesonet cuts ribbon on new weather station near Owensboro",
+          "WEATHER: Severe storms, hail and damaging winds to hit TWO provinces",
+          "Friday’s weather: Foggy morning, warm, thundershowers in most parts"
         ]
       }
     ],
@@ -80922,11 +80922,27 @@
           "تقلبات جوية وعواصف رعدية تؤثر على سوريا",
           "طقس العرب: أول منخفض جوي خريفي يؤثر على أجزاء من بلاد الشام.. تفاصيل"
         ]
+      },
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "+400",
+        "traffic_num": 400,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "السلطات الهندية تحذر من عواصف رعدية بمناطق متعددة في البلاد",
+          "أمطار رعدية وسيول محتملة.. الأرصاد تكشف المناطق المتأثرة بحالة الطقس",
+          "طقس السبت.. أمطار رعدية وسيول محتملة وشبورة وتحذير من البرق"
+        ]
       }
     ],
-    "last_seen": "2026-10-02",
-    "total": 1,
+    "last_seen": "2026-10-10",
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 2000,
@@ -169197,15 +169213,30 @@
           "Zuckerberg, Amodei Among Tech Executives Set to Meet Trump on Tuesday as AI Safety Debate Intensifies - Cost Structure Review",
           "Mark Zuckerberg Reportedly Helped Shape Trump's AI Rules, Ro Khanna Says 'Cannot Trust Tech Billionaires to Self-Police'"
         ]
+      },
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Inside Mark Zuckerberg’s Decision to Pull the Trigger on Meta’s A.I. Agent",
+          "Meta's Muse assistant tops app charts. Now it needs to become a habit",
+          "Opinion: It Does Not Matter if Muse Generates “8% of Revenue” for Meta – Zuckerberg Can Win Regardless"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 1,
+    "last_seen": "2026-10-10",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "تقنية"
+    "category": "اقتصاد"
   },
   "parker-young": {
     "slug": "parker-young",
@@ -171564,14 +171595,29 @@
           "Exclusive first look at the return of ‘A Few Good Men’ to the Broadway stage",
           "“A Few Good Men” revival takes stage at Lincoln Center"
         ]
+      },
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "A Few Good Men Begins on Broadway October 8; Get a 1st Look at the Production",
+          "\"A Few Good Men\" at Lincoln Center",
+          "Bradley Whitford, Tom Blyth and Krysta Rodriguez Begin A Few Good Men on Broadway Tonight"
+        ]
       }
     ],
-    "last_seen": "2026-10-09",
-    "total": 1,
+    "last_seen": "2026-10-10",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "عام"
   },
   "new-york-times-the": {
@@ -182235,8 +182281,8 @@
         "date": "2026-10-10",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -182251,7 +182297,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "byu-football-score": {
@@ -182500,12 +182546,12 @@
         "country_name": "مصر",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "«العين بالعين والعمق بالعمق».. طيار مصري يثير الرعب في إسرائيل بسبب فيديو بجوار طائرة إسرائيلية",
-          "فيديو لطائرة مصرية بجوار أخرى إسرائيلية في مطار إيطالي يثير جدلا في إسرائيل",
-          "فيديو لطيار مصري مرفق بعبارات \"السادات\" يثير تساؤلات في الإعلام الاسرائيلي"
+          "جديد قضية \"فلاي دبي\".. النائب العام الإماراتي يكشف التفاصيل",
+          "الإمارات: مساعد طيار \"فلاي دبي\" خطط لهجوم انتحاري مستوحى من 11 سبتمبر",
+          "النائب العام الإماراتي يكشف مستجدات واقعة \"فلاي دبي\""
         ]
       }
     ],
@@ -182515,7 +182561,7 @@
       "eg"
     ],
     "peak_traffic": 500,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "حفيد-ماجد-المصري": {
     "slug": "حفيد-ماجد-المصري",
@@ -182532,9 +182578,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "تشييع جثمان يونس حفيد ماجد المصرى وسط حالة من الحزن والانهيار (صور)",
-          "ماجد المصري ينعى حفيده... رحل بعد 5 أيام من ولادته",
-          "وفاة حفيد الفنان ماجد المصري.. موعد ومكان تشييع جنازته"
+          "بعد أيام من ولادته.. ما سبب \"الوفاة الصادمة\" لحفيد ماجد المصري؟",
+          "من فرحة التوأم إلى رحيل يونس.. 8 أيام فقط عاشها حفيد ماجد المصرى",
+          "ماجد المصري ينعى حفيده... رحل بعد 5 أيام من ولادته"
         ]
       }
     ],
@@ -182675,9 +182721,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "باحثون ومحللون عرب: السعودية تقود مخططاً أمريكياً صهيونياً ضد اليمن وتستجدي التحالفات بعد إخفاقها في الميدان",
           "اليمن: التخبط السعودي ومأزق التصعيد في البحر الأحمر",
-          "السعودية ترفض الهدنة مع الحوثيين وتدمر 3 منصات لإطلاق الصواريخ",
-          "باحثون ومحللون عرب: السعودية تقود مخططاً أمريكياً صهيونياً ضد اليمن وتستجدي التحالفات بعد إخفاقها في الميدان"
+          "السعودية ترفض الهدنة مع الحوثيين وتدمر 3 منصات لإطلاق الصواريخ"
         ]
       }
     ],
@@ -183053,8 +183099,8 @@
         "publishable": false,
         "headlines": [
           "Official Weigh-In Results | UFC Fight Night: Allen vs Duncan",
-          "Brendan Allen plans to test Christian Leroy Duncan in uncharted rounds",
-          "UFC Vegas 122 Predictions: Allen vs. Duncan DFS Picks & Value Plays"
+          "UFC Vegas 122 weigh-in results: Fighter misses weight by over 7 pounds",
+          "Brendan Allen plans to test Christian Leroy Duncan in uncharted rounds"
         ]
       }
     ],
@@ -183181,5 +183227,179 @@
     ],
     "peak_traffic": 2000,
     "category": "اقتصاد"
+  },
+  "mrbeast": {
+    "slug": "mrbeast",
+    "name": "mrbeast",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "MrBeast turns struggling Raleigh mall into viral playground with new video",
+          "MrBeast fan zone featuring mystery box opens up in Tashkent",
+          "MrBeast to visit Uzbekistan on first trip to Central Asia"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "snapdragon-stadium": {
+    "slug": "snapdragon-stadium",
+    "name": "snapdragon stadium",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Nearly 10 years after the Chargers’ departure, their old stadium site is being transformed",
+          "What happens after the NFL leaves? Six cities reveal a complicated economic legacy",
+          "San Diego Rebuilds Chargers Stadium Site Into Park and Housing Hub"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "jeff-horwitz": {
+    "slug": "jeff-horwitz",
+    "name": "jeff horwitz",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Japan PM vows to keep watching yen, inflation moves carefully",
+          "Takaichi Says Japan’s Economy Doesn’t Need Reflationary Policy",
+          "Government submits bill on food consumption tax reduction to parliament"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "سياسة"
+  },
+  "psg": {
+    "slug": "psg",
+    "name": "psg",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Luis Enrique avant d'affronter le Mans pour la 6e journée de Ligue 1 : « Nous sommes loin de ce que nous voulons au classement »",
+          "PSG : Jérôme Rothen s’en prend à Luis Enrique pour Dembélé",
+          "PSG : la routine commence maintenant - Ligue 1 - J6 - PSG-Le Mans"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "أسامة-فيصل": {
+    "slug": "أسامة-فيصل",
+    "name": "أسامة فيصل",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "البنك الأهلي يعلن إصابة أسامة فيصل في الركبة",
+          "البنك الأهلي يعلن إصابة أسامة فيصل بقطع في غضروف الركبة",
+          "إصابة نجم منتخب مصر بقطع في الغضروف"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "facebook": {
+    "slug": "facebook",
+    "name": "facebook",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "‘The Social Reckoning’ Review: Sounding the Alarm",
+          "Aaron Sorkin warns of Facebook's recklessness in 'The Social Reckoning'",
+          "“The Social Reckoning” Feels Much Smaller Than Its Predecessor"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
   }
 }

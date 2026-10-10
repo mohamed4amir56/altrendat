@@ -6158,7 +6158,7 @@
         "headlines": [
           "مباريات الأحد 11 أكتوبر 2026",
           "مواعيد مباريات اليوم.. مان يونايتد مع توتنهام وطرابزون في مهمة ضد سامسون",
-          "الهلال ضد الاتحاد.. مواعيد مباريات اليوم السبت 10 أكتوبر 2026"
+          "كلاسيكو الهلال والاتحاد يتصدر مواجهات الجولة الثامنة من دوري روشن"
         ]
       }
     ],
@@ -22358,14 +22358,14 @@
         "date": "2026-10-10",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "+5500",
-        "traffic_num": 5500,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "Ball by Ball Commentary & Live Score - SA vs AUS, 1st Test",
-          "South Africa v Australia: first men’s cricket Test, day two – live",
-          "Australia's Test start no disaster, but order issues hint at troubles ahead"
+          "Renshaw heeds white ball gains to reach second Test hundred",
+          "South Africa v Australia: first men’s cricket Test, day two – live"
         ]
       }
     ],
@@ -24371,12 +24371,12 @@
         "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
           "عملية سعودية واسعة ضد الحوثيين ومعارك محتدمة في باب المندب",
-          "التحالف بقيادة السعودية يطلق \"عملية واسعة\" ضد الحوثيين في اليمن",
-          "مقتل 3 سعوديين في هجومين على مطار الملك خالد بالرياض"
+          "التحالف: دمرنا 136 هدفاً عسكرياً في مناطق سيطرة الحوثي",
+          "صواريخ نحو الرياض.. هل يتغير مسار المواجهة في اليمن؟"
         ]
       }
     ],
@@ -24387,7 +24387,7 @@
       "sa"
     ],
     "peak_traffic": 5000,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "trade-war": {
     "slug": "trade-war",
@@ -61992,12 +61992,28 @@
           "مفاجآت لجنة التسعير المرتقبة.. أسعار البنزين والسولار اليوم في مصر",
           "أسعار البنزين والسولار.. متى تنعقد لجنة تسعير المنتجات البترولية؟"
         ]
+      },
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "مصطفى بكري: الاقتصاد المصري ينمو ويتقدم.. والمصريون تحملوا تبعات وضع ورثناه منذ سنوات طويلة",
+          "أسعار البنزين والغاز اليوم السبت في محطات الوقود (آخر تحديث)",
+          "سعر البنزين والسولار في مصر اليوم الجمعة 9 أكتوبر 2026.. ما نسبة الزيادة المتوقعة؟"
+        ]
       }
     ],
-    "last_seen": "2026-10-09",
-    "total": 2,
+    "last_seen": "2026-10-10",
+    "total": 3,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 2000,
     "category": "اقتصاد"
@@ -154968,8 +154984,8 @@
         "date": "2026-10-10",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -160970,15 +160986,30 @@
           "Broken bathrooms force American Airlines flight to divert for urgent landing",
           "‘Saved by the Bell’ Star’s Cause of Death Revealed"
         ]
+      },
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Lebanon welcomes Trump’s move to lift 41-year US flight ban, and other Mideast developments",
+          "Lebanon welcomes Trump's move to lift 41-year US flight ban, and other Mideast developments",
+          "Lebanon welcomes Trump's move to lift 41-year US flight ban, and other Mideast developments"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 1,
+    "last_seen": "2026-10-10",
+    "total": 2,
     "countries": [
       "sa"
     ],
     "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "category": "عام"
   },
   "sp-500-futures": {
     "slug": "sp-500-futures",
@@ -171623,14 +171654,14 @@
         "date": "2026-10-10",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+200",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "EXCLUSIVE: Whistleblower Behind the 'New York Times' Lawsuit Speaks Out About Anti-Israel Bias",
           "The case against The New York Times: Shareholders say newspaper betrayed its mission and its employees",
-          "Winston Lee, Accused in Cornell Sexual Assault Case, Is Related to Former South Korean Prime Minister"
+          "Will We Ever Understand Dementia?"
         ]
       }
     ],
@@ -171639,7 +171670,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "real-madrid": {
@@ -183042,11 +183073,27 @@
           "Michael Carrick on Man City: Retrospective medals can't replace 'moments'",
           "Managers react to Manchester City’s guilty verdict: ‘Uncertainty is not good for anyone’"
         ]
+      },
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Injury latest on Havertz, Tzolis, Rice, Konsa and White",
+          "Arsenal tactics: How Mikel Arteta could respond to defeat at Brighton",
+          "Leeds United back Farke before Arsenal trip"
+        ]
       }
     ],
     "last_seen": "2026-10-10",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "sa",
       "world"
     ],
     "peak_traffic": 2000,
@@ -184227,8 +184274,8 @@
         "category": "شخصية",
         "publishable": true,
         "headlines": [
-          "«فجر اليمن»: السيطرة على باب المندب ومواصلة الضغط العسكري على الحوثيين (تغطية حية)",
           "سيطرة يمنية على باب المندب.. وعسكريون يكشفون مكاسب مصر والملاحة",
+          "«فجر اليمن»: السيطرة على باب المندب ومواصلة الضغط العسكري على الحوثيين (تغطية حية)",
           "السفير السعودي باليمن يعلن \"تطهير\" باب المندب من المسلحين الحوثيين"
         ]
       }
@@ -184605,8 +184652,8 @@
         "publishable": false,
         "headlines": [
           "Bengaluru FC host Sporting Club Delhi as FC Goa face Chennaiyin FC on ISL 2026 opening day",
-          "ISL starts with hope for better future after controversy-ridden, truncated 2025-26 season",
-          "Indian Super League enters a new era, but echoes of instability remain"
+          "New-look ISL has plenty to prove | The New Indian Express - newspaper",
+          "Bengaluru FC keen to end trophy drought"
         ]
       }
     ],
@@ -184807,9 +184854,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "Ball by Ball Commentary & Live Score - AFG vs BAN, Only Test",
           "Bangladesh aim to keep progress going in Afghanistan Test",
-          "AFG vs BAN, One-off Test, Afghanistan vs Bangladesh in UAE, 2026 - Commentary",
-          "Hasan strikes after DRS blunders; AFG 34/1 at lunch"
+          "AFG vs BAN, One-off Test, Afghanistan vs Bangladesh in UAE, 2026 - Commentary"
         ]
       }
     ],
@@ -184837,8 +184884,314 @@
         "publishable": false,
         "headlines": [
           "Powerful earthquake shakes Panama, followed by large aftershocks",
-          "Powerful 7.7-magnitude earthquake strikes Panama, damaging buildings and injuring at least 27",
-          "Strong Panama quake shakes nation, but avoids major destruction"
+          "Strong Panama quake shakes nation, but avoids major destruction",
+          "Panama rocked by 2 powerful earthquakes and multiple aftershocks, prompting evacuations"
+        ]
+      },
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Powerful earthquake shakes Panama, followed by large aftershocks",
+          "Strong Panama quake shakes nation, but avoids major destruction",
+          "Panama rocked by 2 powerful earthquakes and multiple aftershocks, prompting evacuations"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "sinn-féin": {
+    "slug": "sinn-féin",
+    "name": "sinn féin",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Two deals discussed before Drumcree parade ban, says Bryant",
+          "Drumcree case heading back to court today for parade ban appeal as DUP MP warns of ‘profound consequences’",
+          "Northern Ireland secretary Chris Bryant bans Drumcree parade"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "حوادث وقضايا"
+  },
+  "rihanna": {
+    "slug": "rihanna",
+    "name": "rihanna",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Rihanna’s 3 Kids Steal the Show in Matching Onesies for Savage X Fenty’s Holiday Campaign",
+          "Rihanna and All Three of Her Kids Coordinate in Holiday Pajamas in Rare Family Portraits",
+          "Rihanna’s Kids Are Fenty Models Now"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "atlanta-airport": {
+    "slug": "atlanta-airport",
+    "name": "atlanta airport",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Bird strike sends Delta flight back to Atlanta shortly after takeoff",
+          "Delta pilots reported that the A321 nosewheel ran over a baby opossum during takeoff from Tampa",
+          "Bird strike sends Delta flight back to Atlanta shortly after takeoff"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "jake-butt": {
+    "slug": "jake-butt",
+    "name": "jake butt",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Michigan Alum Takes Aim at Jim Harbaugh Amid Michigan's $50M Roster Woes: \"Very Disappointing\"",
+          "Former Michigan Tight End Jake Butt Acknowledges Wolverines’ 2023 National Championship Has An Asterisk On It",
+          "Maybe Tommy Carr should be Michigan’s QB1, but not against Penn State or Indiana"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "matthew-lillard-scooby-doo": {
+    "slug": "matthew-lillard-scooby-doo",
+    "name": "matthew lillard scooby doo",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Matthew Lillard Resented ‘Scooby-Doo’ Movies After His Career Nosedived When the Sequel Flopped: We ‘Sold Our House’ and Had to ‘Downsize Our Lives’",
+          "Matthew Lillard Says Hollywood Still Doesn’t ‘Understand’ Him (Exclusive)",
+          "Matthew Lillard explains why he ‘resented’ the Scooby-Doo movies ‘for a long time’"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
+  },
+  "alejandro-tabilo": {
+    "slug": "alejandro-tabilo",
+    "name": "alejandro tabilo",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Hot Shot: Medvedev the crowd-pleaser brings Beijing 2026 to its feet!",
+          "ATP Shanghai Day 4 Predictions Including Daniil Medvedev vs Jan-Lennard Struff",
+          "Shanghai R2 previews and predictions: Medvedev vs. Struff, Jodar vs. Tirante"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "blender": {
+    "slug": "blender",
+    "name": "blender",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "12-Year-Old Girl Died After Drinking Milkshake Made in an Unwashed Blender",
+          "Girl's death prompts call for allergy management ratings",
+          "Girl, 12, died after drinking milkshake from unwashed blender at London cafe"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "سبيكة": {
+    "slug": "سبيكة",
+    "name": "سبيكة",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "سعر الجنيه الذهب اليوم السبت 10 أكتوبر 2026.. استقرار عند 50,320 جنيها",
+          "أكبر عيار ذهب في الصاغة الآن.. كم سعره؟",
+          "بعد مكاسب 55 دولار.. أسعار الذهب اليوم السبت 10 أكتوبر"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 2000,
+    "category": "شخصية"
+  },
+  "سامية-جمال": {
+    "slug": "سامية-جمال",
+    "name": "سامية جمال",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "معلومات عن سامية جمال بعد ذكر رئيس وزراء ماليزيا اسمها في لقائه مع السيسي",
+          "ومين يقدر ينافس أم الدنيا🇪🇬✋️ رئيس الوزراء الماليزي: الجميع يعلم مكانة مصر وتاريخ مصر #خمسينة_اقتصاد #مصر #السيسي #ماليزيا",
+          "ماليزيا: زيارة الرئيس السيسي تعكس الصداقة الوثيقة بين البلدين"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "منهج": {
+    "slug": "منهج",
+    "name": "منهج",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "التربية تتيح للطلبة الاطلاع على المناهج الدراسية الجديدة عبر بوابتها الإلكترونية » وكالة الغد برس",
+          "التربية تتيح مناهج جديدة للصفين الأول الابتدائي والرابع الإعدادي",
+          "وزارة التربية: اكتمال طباعة كتب الصفوف الأولية بنسبة 100%"
         ]
       }
     ],
@@ -184848,6 +185201,35 @@
       "sa"
     ],
     "peak_traffic": 100,
-    "category": "عام"
+    "category": "شخصية"
+  },
+  "مدير-تنفيذي": {
+    "slug": "مدير-تنفيذي",
+    "name": "مدير تنفيذي",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "الحارثي مديراً تنفيذياً لمستشفى الملك فيصل بالطائف",
+          "تكليف الأخصائي عايض الحارثي مديرًا تنفيذيًا لمجمع الملك فيصل الطبي بالطائف",
+          "موازنة ورواتب ومكافآت.. نائب يسأل عن \"جيدكو\" ومديرها - وثيقة"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
   }
 }

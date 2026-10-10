@@ -1400,14 +1400,14 @@
         "date": "2026-10-10",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "category": "دول وأماكن",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "موظفو السودان يسابقون الأزمات للعودة إلى مكاتبهم",
-          "رئيس الوزراء يصدر قرارا يمنح العاملين أخذ إجازات مفتوحة",
-          "حكومة الأمل تفتح باب الإجازات للعاملين بالدولة"
+          "الأمم المتحدة تدين هجومًا في النيل الأزرق",
+          "أودى بحياة 31 مدنيًا.. الأمم المتحدة تدين هجوما على نازحين في النيل الأزرق",
+          "السودان: مقتل 26 امرأة و4 أطفال في ضربة بمسيّرة تابعة لـ«الدعم السريع»"
         ]
       }
     ],
@@ -1418,7 +1418,7 @@
       "sa"
     ],
     "peak_traffic": 1000,
-    "category": "دول وأماكن"
+    "category": "حوادث وقضايا"
   },
   "ماركو-روبيو": {
     "slug": "ماركو-روبيو",
@@ -1857,8 +1857,8 @@
         "date": "2026-10-10",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -1874,7 +1874,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 10000,
     "category": "رياضة"
   },
   "نوة": {
@@ -44320,12 +44320,24 @@
           "تعرف على موقف الأهلى والزمالك قبل ختام مجموعات بطولة العالم لكرة اليد",
           "«رجال يد الأهلي» يواجه فوكس برلين في كأس العالم للأندية"
         ]
+      },
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تصفح ومواقع",
+        "publishable": false,
+        "headlines": []
       }
     ],
-    "last_seen": "2026-09-29",
-    "total": 1,
+    "last_seen": "2026-10-10",
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 10000,
     "category": "تصفح ومواقع"
@@ -140156,8 +140168,8 @@
         "date": "2026-10-10",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -140172,7 +140184,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 5000,
     "category": "حوادث وقضايا"
   },
   "croatia-vs-spain": {
@@ -140837,14 +140849,29 @@
           "نجم الزمالك السابق: عبدالله السعيد أفضل من إمام عاشور بسبب التاريخ",
           "معتمد جمال يعيد عبدالله السعيد إلى مركزه المفضل مع الزمالك"
         ]
+      },
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "ديني",
+        "publishable": false,
+        "headlines": [
+          "عدى الدباغ يعانى من نزلة برد قبل القمة ومحاولات مكثفة فى الزمالك لتجهيزه",
+          "موقف أحمد فتوح من القمة",
+          "مصدر ليلا كورة: عدي الدباغ يعاني من نزلة برد شديدة قبل لقاء الزمالك أمام الأهلي"
+        ]
       }
     ],
-    "last_seen": "2026-10-06",
-    "total": 1,
+    "last_seen": "2026-10-10",
+    "total": 2,
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 1000,
     "category": "ديني"
   },
   "سويسرا-ضد-شمال-مقدونيا": {
@@ -184906,12 +184933,28 @@
           "الزمالك بلا منطق.. وشيء يفتقده الأهلي.. \"زوايا خفية\" للقمة يكشفها بودكاست \"خط النص\" (تحليل رقمي)",
           "دخلة تاريخية منتظرة من الوايت نايتس خلال القمة"
         ]
+      },
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "غاريدو: الأهلي مرشح دائم للفوز على الزمالك.. وهذه حقيقة خلافاتي مع متعب وحسام غالي",
+          "5 معلومات قد لا تعرفها عن مباراة الأهلي والزمالك المنتظرة",
+          "\"يخسر الفريقين\".. رد جريء من نجم الأهلي السابق بشأن مواجهة القمة"
+        ]
       }
     ],
     "last_seen": "2026-10-10",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 500,
     "category": "رياضة"
@@ -190345,9 +190388,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Manchester United v Tottenham: Premier League – live",
-          "Carrick names team for Tottenham test",
-          "Michael Carrick: No timeline for Benjamin Sesko's Man United return"
+          "Manchester United vs Tottenham Hotspur: Premier League preview, team news, stats & head-to-head",
+          "Michael Carrick: No timeline for Benjamin Sesko's Man United return",
+          "Team news for United v Spurs"
         ]
       },
       {
@@ -190851,11 +190894,27 @@
           "\"جيسوس ظهر مغروراً\".. بيان من رونالدو بشأن أسباب مغادرته لمعسكر البرتغال",
           "كريستيانو رونالدو مهدد بالإيقاف مع البرتغال لمدة 6 أشهر"
         ]
+      },
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "الاتحاد البرتغالي يوقف رونالدو احترازياً ويفتح تحقيقاً عاجلاً",
+          "\"لو فعلها لاعب هلالي لوصل صداه للكواكب الأخرى\": مطالبة بعقوبة جديدة لرونالدو مع النصر بعد إيقافه في البرتغال!",
+          "والدة رونالدو: نجلِي بطل البرتغال.. لكنهم لا يمنحونه التقدير الذي يستحقه"
+        ]
       }
     ],
     "last_seen": "2026-10-10",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 2000,
@@ -190924,12 +190983,28 @@
           "Struijk sent off against Sunderland",
           "De Cuyper buries Brighton's go-ahead goal"
         ]
+      },
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Sunderland 0-2 Brighton: Seagulls win despite controversial red card",
+          "Another type of win as Albion return in style",
+          "Premier League round-up: Ipswich pile more misery on Fulham as Brighton charge on with win over Sunderland"
+        ]
       }
     ],
     "last_seen": "2026-10-10",
-    "total": 2,
+    "total": 3,
     "countries": [
       "eg",
+      "sa",
       "world"
     ],
     "peak_traffic": 20000,
@@ -191413,15 +191488,31 @@
           "Barcelona's Flick confirms Raphinha out until Oct. 20 vs. PSG",
           "All internationals back in training"
         ]
+      },
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Barca skipper Raphinha out against Getafe and Galatasaray",
+          "Raphinha: In-form Barcelona forward has new injury concerns",
+          "Barcelona boss Flick hails Spain counterpart Luis de la Fuente"
+        ]
       }
     ],
     "last_seen": "2026-10-10",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "sa",
       "world"
     ],
     "peak_traffic": 200,
-    "category": "رياضة"
+    "category": "عام"
   },
   "jamal-rule": {
     "slug": "jamal-rule",
@@ -191641,9 +191732,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
+          "Çaykur Rizespor 0-3 Fenerbahçe | MAÇ SONUCU, ÖZETİ VE GOLLERİ - Trendyol Süper Lig",
           "Fenerbahçe’nin yıldızı Asensio golle döndü! Rize’de açılışı yaptı...",
-          "Kartal, Rizespor maçında ilk 11’de tek değişiklik yaptı",
-          "Fenerbahçe, Rize deplasmanında! Maçın heyecanı Misli'de"
+          "İsmail Kartal'dan Marco Asensio sözleri: Bu hafta iyi çalıştı ve kendisine formayı verdik"
         ]
       }
     ],
@@ -191873,8 +191964,8 @@
         "publishable": true,
         "headlines": [
           "Premier League LIVE: Build-up, Team news, live text, radio & score updates as it happens from across the Premier League",
-          "Aston Villa 2-2 Brentford: Unbeaten Bees find leveller through Kristoffer Ajer to halt Villa turnaround at Villa Park",
-          "Aston Villa 2-2 Brentford (Oct 10, 2026) Game Analysis"
+          "Aston Villa Football Club - The Official Club Website",
+          "Aston Villa v Brentford team news: Andrews provides Collins, Jensen, Milambo and van den Berg updates"
         ]
       }
     ],
@@ -191902,8 +191993,8 @@
         "publishable": false,
         "headlines": [
           "أسعار البنزين والسولار اليوم السبت 10 أكتوبر 2026",
-          "هل ترتفع أسعار الوقود في مصر خلال 2026؟ وزير البترول الأسبق يوضح",
-          "مصطفى بكري: الاقتصاد المصري ينمو ويتقدم.. والمصريون تحملوا تبعات وضع ورثناه منذ سنوات طويلة"
+          "مصطفى بكري: الاقتصاد المصري ينمو ويتقدم.. والمصريون تحملوا تبعات وضع ورثناه منذ سنوات طويلة",
+          "هل ترتفع أسعار الوقود في مصر خلال 2026؟ وزير البترول الأسبق يوضح"
         ]
       }
     ],
@@ -191953,23 +192044,55 @@
         "date": "2026-10-10",
         "country": "sa",
         "country_name": "السعودية",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Keys to the Clasico: What decides Al Hilal vs Al Ittihad top-of-table clash?",
+          "Al-Hilal Concludes Preparations for Al-Ittihad Clash",
+          "Al-Hilal Saudi FC vs Al-Ittihad FC - Prediction, where to watch, kick-off time and line-ups 10-10-2026"
+        ]
+      },
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
         "traffic": "500+",
         "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Keys to the Clasico: What decides Al Hilal vs Al Ittihad top-of-table clash?",
-          "Al-Hilal Concludes Preparations for Al-Ittihad Clash",
-          "Inzaghi praises Dawsari amid dismissal reports and places him between two options in the Clasico"
+          "Al Hilal vs Al Ittihad: Saudi Pro League stats & head-to-head",
+          "A first appearance in Roshn: Inzaghi surprises Al-Ittihad with a replacement for Savic",
+          "Ahead of the clásico: What has Bounou done in 6 previ…"
+        ]
+      },
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Before facing Al-Ittihad, Inzaghi has a golden record…",
+          "After the Al-Dawsari shock: Al-Hilal lose a new star in the final hours before the Clasico",
+          "Al Hilal vs Al Ittihad: Winner Goes Top in the Saudi Clasico"
         ]
       }
     ],
     "last_seen": "2026-10-10",
-    "total": 1,
+    "total": 3,
     "countries": [
-      "sa"
+      "eg",
+      "sa",
+      "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 5000,
     "category": "رياضة"
   },
   "explosion-riyadh-airport": {
@@ -192028,6 +192151,412 @@
       "sa"
     ],
     "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "usa-vs-spain": {
+    "slug": "usa-vs-spain",
+    "name": "usa vs spain",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Hayes: USWNT needs collective effort to top world No. 1 Spain",
+          "USWNT vs Spain live updates, lineups, highlights, score and more",
+          "Matchday Guide: USWNT vs. Spain at Audi Field in Washington, D.C."
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "رياضة"
+  },
+  "steve-spurrier": {
+    "slug": "steve-spurrier",
+    "name": "steve spurrier",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Tigers Hit the Road to Lexington for SEC Battle with Kentucky",
+          "BEFORE THE ROAR: LSU looks to continue win streak in Lexington",
+          "Kentucky vs. LSU viewing info, what to watch for, odds, and predictions"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "رياضة"
+  },
+  "carlos-baleba": {
+    "slug": "carlos-baleba",
+    "name": "carlos baleba",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+700",
+        "traffic_num": 700,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Carrick will pick the right moment for Baleba",
+          "Carlos Baleba is expected to make his Man Utd debut against Spurs",
+          "Will Carlos Baleba fix Manchester United? Three big questions ahead of potential debut"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 700,
+    "category": "عام"
+  },
+  "dragons-dogma-2-dark-arisen": {
+    "slug": "dragons-dogma-2-dark-arisen",
+    "name": "dragons dogma 2 dark arisen",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Dragon's Dogma 2: Dark Arisen Review",
+          "Video: Dragon’s Dogma 2 Nintendo Switch 2 vs. PS5 graphics comparison",
+          "Dragon’s Dogma 2 receives new PC upgrades with update 4.0"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "wofford-vs-elon": {
+    "slug": "wofford-vs-elon",
+    "name": "wofford vs elon",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Elon Hosts Wofford On Homecoming Weekend",
+          "Wofford Vs. Elon: 5 Things To Know As An Old Rivalry Returns",
+          "Elon Football vs. Wofford: Time, TV & Game Info (2026)"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "eli-drinkwitz": {
+    "slug": "eli-drinkwitz",
+    "name": "eli drinkwitz",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Missouri's Johnnie 'DJ' Jones receives heart transplant",
+          "University of Missouri football player underwent successful heart transplant surgery, coach says",
+          "College Football Star, 18, Needs Heart Transplant ‘in a Hurry,’ His Coach Says in Emotional Press Conference"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "citadel-football": {
+    "slug": "citadel-football",
+    "name": "citadel football",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "The Citadel looks for first SoCon victory after road win over nationally ranked SC State",
+          "Watch East Tennessee State vs. The Citadel | Disney+",
+          "ETSU moves kickoff for Saturday game to noon due to weather"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "florida-gators-game-today": {
+    "slug": "florida-gators-game-today",
+    "name": "florida gators game today",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Oregon, Florida and more lead loaded CFB Week 6 uniform slate",
+          "Oregon football nods to track and field legacy with 'Origin of Speed' jersey",
+          "Houston, Texas A&M and Air Force top best uniforms of CFB Week 5"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "الهلال-ضد-الاتحاد": {
+    "slug": "الهلال-ضد-الاتحاد",
+    "name": "الهلال ضد الاتحاد",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "التشكيل الرسمي لمواجهة الهلال ضد الاتحاد في كلاسيكو الدوري السعودي",
+          "أول ظهور في روشن.. إنزاجي يفاجئ الاتحاد ببديل سافيتش",
+          "بعد إصابته في خليجي 27.. الاتحاد السعودي يعلن خضوع حسن كادش للجراحة"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "الدولار-مقابل-الجنيه-المصري": {
+    "slug": "الدولار-مقابل-الجنيه-المصري",
+    "name": "الدولار مقابل الجنيه المصري",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "استقرار سعر الدولار فى بنكى الأهلى ومصر.. تعرف على سعر البيع",
+          "استقرار أسعار العملات الأجنبية بداية تعاملات اليوم 10 أكتوبر 2026",
+          "سعر الدولار أمام الجنيه المصري اليوم السبت"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 500,
+    "category": "اقتصاد"
+  },
+  "google-playground-ai": {
+    "slug": "google-playground-ai",
+    "name": "google playground ai",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Introducing Playground: Create and play custom games",
+          "Unity's New AI Thing Is A Soulless Joke",
+          "Alphabet and Unity Level Up Game Development"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "تقنية"
+  },
+  "جاكرتا": {
+    "slug": "جاكرتا",
+    "name": "جاكرتا",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "الإحصاء : 1.6 مليـار دولار قيمة التبادل التجاري بين مصر وإندونيسيا",
+          "غدا.. السيسي يلتقي رئيس إندونيسيا بقصر ميرديكا ويشهد توقيع مذكرات تفاهم ويعقد مؤتمرًا صحفيًا",
+          "محدث.. السيسي يصل إلى جاكرتا لبدء زيارة رسمية إلى إندونيسيا"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "ياسر-القحطاني": {
+    "slug": "ياسر-القحطاني",
+    "name": "ياسر القحطاني",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "9 ملاعب شهدت انتصارات الهلال على الاتحاد.. من المملكة أرينا إلى الجوهرة",
+          "لعبت مصابًا فتسببت في ضياع لقب.. أسطورة الهلال يستعيد ذكرى مؤلمة أمام الاتحاد",
+          "“يرحم أمك قوم بتوقف” .. ياسر القحطاني يروي ذكريات طريفة عن الكلاسيكو بين الهلال والاتحاد.. فيديو"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "barca": {
+    "slug": "barca",
+    "name": "barca",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Gabriel Jesus punishes Getafe's turnover with another goal for Barcelona",
+          "Barcelona vs. Getafe: Preview, Predictions and Lineups",
+          "Barcelona vs Getafe, La Liga: TV & Streaming, Live Thread"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
     "category": "رياضة"
   }
 }

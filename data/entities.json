@@ -22343,8 +22343,8 @@
         "date": "2026-10-10",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "+2200",
-        "traffic_num": 2200,
+        "traffic": "+5500",
+        "traffic_num": 5500,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -24356,12 +24356,12 @@
         "country_name": "مصر",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "السعودية يعلن عملية عسكرية واسعة ضد الحوثيين وتدمير 136 هدفاً في اليمن",
-          "التحالف: دمرنا 136 هدفاً عسكرياً في مناطق سيطرة الحوثي",
-          "صواريخ نحو الرياض.. هل يتغير مسار المواجهة في اليمن؟"
+          "أنباء عن انفجار قرب مطار عدن جنوبي اليمن، ومقتل ثلاثة سعوديين بهجمات على مطار الرياض",
+          "اليمن تطالب مجلس الأمن بـإدانة الهجوم الإرهابي على مطار عدن",
+          "استهداف حوثي لمطار عدن واشتداد المعارك في تعز"
         ]
       }
     ],
@@ -24372,7 +24372,7 @@
       "sa"
     ],
     "peak_traffic": 5000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "trade-war": {
     "slug": "trade-war",
@@ -26417,16 +26417,31 @@
           "هيئة بحرية: استهداف ناقلة نفط بمقذوف في مضيق هرمز.. ماذا حدث لها؟",
           "اندلاع حريق بناقلة نفط بعد تعرضها لمقذوف مجهول في مضيق هرمز"
         ]
+      },
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "إصابة 11 شخصًا في تصادم سيارتين بالطريق الصحراوي الشرقي بالمنيا",
+          "إصابة 9 أشخاص في تصادم ميكروباص وملاكي على صحراوي المنيا",
+          "إصابة 9 أشخاص في تصادم ميكروباص وملاكي بالطريق الصحراوي الشرقي في المنيا"
+        ]
       }
     ],
-    "last_seen": "2026-10-02",
-    "total": 2,
+    "last_seen": "2026-10-10",
+    "total": 3,
     "countries": [
       "eg",
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "yemen-vs-qatar": {
     "slug": "yemen-vs-qatar",
@@ -79060,9 +79075,9 @@
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "Sun Xinran, the 16-year-old junior U.S. Open champion, is making the most of her WTA Tour debut",
-          "Gauff pulls away late to defeat 16-year-old Sun in Beijing",
-          "Coco Gauff impacted by China Open scheduling"
+          "Andreeva reaches Beijing final, set to become world No. 3",
+          "Mirra Andreeva reacts straight after reaching her first-ever China Open final, ‘I’m really happy’",
+          "Andreeva, Bartunkova reach China Open semis with straight-set wins"
         ]
       }
     ],
@@ -107847,11 +107862,15 @@
         "date": "2026-10-10",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
-        "headlines": []
+        "headlines": [
+          "أبرزهم ثنائي الدفاع.. 6 غيابات لـ الأهلي قبل قمة الزمالك",
+          "قرار من معتمد جمال بشأن شيكو بانزا وعدي الدباغ قبل القمة",
+          "مكافأة استثنائية تصل الى هذا الحد للاعبين في حال الفوز على الأهلي"
+        ]
       }
     ],
     "last_seen": "2026-10-10",
@@ -113078,7 +113097,7 @@
         "publishable": false,
         "headlines": [
           "السعودية يعلن عملية عسكرية واسعة ضد الحوثيين وتدمير 136 هدفاً في اليمن",
-          "التحالف: دمرنا 136 هدفاً عسكرياً في مناطق سيطرة الحوثي",
+          "التحالف بقيادة السعودية يطلق \"عملية واسعة\" ضد الحوثيين في اليمن",
           "روضة أطفال ومجمع عيادات.. السعودية تكشف أضرارا في الرياض"
         ]
       }
@@ -154928,10 +154947,25 @@
           "الكهرباء: تشغيل 3 محطات محولات لتعزيز الاستصلاح الزراعي في سيناء",
           "وكيل وزارة الكهرباء السابق: كفاءة التوليد توفر وقوداً يعادل 2.6 ضعف إنتاج الشمس والرياح"
         ]
+      },
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "كيف تحمي أجهزتك المنزلية عند انخفاض جهد الكهرباء؟",
+          "فاتورة الكهرباء أكتوبر 2026.. قيمة الاستهلاك وطرق السداد",
+          "خطوات الإبلاغ عن قراءات عدادات المياه عن استهلاك أكتوبر 2026"
+        ]
       }
     ],
-    "last_seen": "2026-10-09",
-    "total": 2,
+    "last_seen": "2026-10-10",
+    "total": 3,
     "countries": [
       "eg"
     ],
@@ -159874,10 +159908,25 @@
           "OpenAI revenue gap report rattles AI stocks",
           "OpenAI Expects $70 Billion in Annualized Revenue by End of 2026"
         ]
+      },
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Scoop: AI companies plot \"day after\" scenarios for public revolt",
+          "AI executives planning \"day after\" scenarios following possible catastrophic event, Axios reports",
+          "OpenAI, Anthropic are preparing for the worst: What an AI disaster could look like"
+        ]
       }
     ],
-    "last_seen": "2026-10-09",
-    "total": 2,
+    "last_seen": "2026-10-10",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -171553,15 +171602,30 @@
           "Raymond J. de Souza: Netanyahu's post-October 7 strategy has made Israel safer, but not safe",
           "Israel’s Blank Check and the Alliance Leash That Trapped Washington"
         ]
+      },
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+200",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "EXCLUSIVE: Whistleblower Behind the 'New York Times' Lawsuit Speaks Out About Anti-Israel Bias",
+          "The case against The New York Times: Shareholders say newspaper betrayed its mission and its employees",
+          "Winston Lee, Accused in Cornell Sexual Assault Case, Is Related to Former South Korean Prime Minister"
+        ]
       }
     ],
-    "last_seen": "2026-10-09",
-    "total": 1,
+    "last_seen": "2026-10-10",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 200,
-    "category": "دول وأماكن"
+    "category": "حوادث وقضايا"
   },
   "real-madrid": {
     "slug": "real-madrid",
@@ -173098,14 +173162,14 @@
         "date": "2026-10-10",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
           "Racha dorada y un rival indescifrable: una superioridad abrumadora augura que el tren del Barcelona arrollará al Getafe",
           "Barcelona vs Getafe Pronóstico y Apuestas LaLiga | 10/10/26",
-          "El momento de Gabriel Jesus y las entradas de Fermín, claves para el Barça ante el Getafe"
+          "Joan Garcia-David Soria: duelo de contrastes"
         ]
       }
     ],
@@ -174036,14 +174100,29 @@
           "Delta reports Q3 earnings miss, cuts guidance as fuel costs surge 62% from year ago",
           "Delta Cuts Profit Outlook as Surging Fuel Prices Hit Airlines"
         ]
+      },
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Delta’s CEO on Skipping Starlink, Premium-Travel Rush and High Fuel Prices",
+          "Delta reports Q3 earnings miss, cuts guidance as fuel costs surge 62% from year ago",
+          "Delta warns of more airline capacity restraint as fuel shock hits profits"
+        ]
       }
     ],
-    "last_seen": "2026-10-09",
-    "total": 1,
+    "last_seen": "2026-10-10",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 500,
     "category": "اقتصاد"
   },
   "٧": {
@@ -174442,11 +174521,27 @@
           "Unity Spark Promises To Let You Vibe Code Your 'Dream Game' In The Most Embarrassing Video Imaginable",
           "Alphabet and Unity Level Up Game Development"
         ]
+      },
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Introducing Playground: Create and play custom games",
+          "Unity's New AI Thing Is A Soulless Joke",
+          "Unity CEO on Google partnership: Hope to bring Unity's game development platform to new creators"
+        ]
       }
     ],
-    "last_seen": "2026-10-09",
-    "total": 1,
+    "last_seen": "2026-10-10",
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 200,
@@ -183532,14 +183627,14 @@
         "date": "2026-10-10",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "البنك الأهلي يعلن إصابة أسامة فيصل بقطع في غضروف الركبة",
-          "إصابة نجم منتخب مصر بقطع في الغضروف",
-          "إصابة أسامة فيصل بقطع .. وجراحة عاجلة لـ لاعب البنك الأهلي"
+          "البنك الأهلي يعلن إصابة أسامة فيصل في الركبة",
+          "إصابة نجم منتخب مصر بقطع في الغضروف"
         ]
       }
     ],
@@ -183548,7 +183643,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "شخصية"
   },
   "facebook": {
@@ -183566,9 +183661,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "‘The Social Reckoning’ isn’t Mark Zuckerberg’s story. It’s Frances Haugen’s",
-          "Facebook Whistleblower Frances Haugen Believes There’s a Key Piece to Understanding Mark Zuckerberg (Exclusive)",
-          "Frances Haugen hopes The Social Reckoning will inspire more whistleblowers"
+          "‘The Social Reckoning’ Review: Sounding the Alarm",
+          "The Problem With Facebook Was Facebook",
+          "Aaron Sorkin warns of Facebook's recklessness in 'The Social Reckoning'"
         ]
       }
     ],
@@ -184090,7 +184185,7 @@
         "headlines": [
           "AFG vs BAN, One-off Test, Afghanistan vs Bangladesh in UAE, 2026 - Commentary",
           "Bangladesh aim to keep progress going in Afghanistan Test",
-          "B'desh end first day on 317/8 after batting collapse"
+          "Hasan strikes after DRS blunders; AFG 34/1 at lunch"
         ]
       }
     ],
@@ -184263,8 +184358,8 @@
         "publishable": false,
         "headlines": [
           "تشييع جثمان يونس حفيد ماجد المصرى وسط حالة من الحزن والانهيار (صور)",
-          "وفاة مفاجئة بعد 5 أيام من ولادته.. تفاصيل اللحظات الأخيرة لحفيد ماجد المصري",
-          "أحمد ماجد المصري يحمل جثمان نجله إلى مسجد الشربتلي لأداء صلاة الجنازة عليه (صور)"
+          "ماجد المصري يعلن وفاة حفيده \"يونس\"",
+          "منى إش إش تنعى حفيدها يونس بكلمات مؤثرة بعد رحيله عقب 5 أيام من ولادته"
         ]
       }
     ],
@@ -184344,8 +184439,8 @@
         "date": "2026-10-10",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+1000",
-        "traffic_num": 1000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "فضول عام",
         "publishable": false,
         "headlines": [
@@ -184360,7 +184455,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 500,
     "category": "فضول عام"
   },
   "ins": {
@@ -184407,9 +184502,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "F1 sprint race LIVE: Singapore Grand Prix 2026 times, results, grid, radio & updates",
-          "Vasseur expected Verstappen to drop five places for Hamilton yellow-flag pass",
-          "Why Max Verstappen avoided a penalty after Sprint Qualifying yellow flag incident in Singapore"
+          "Could Verstappen prove tough to beat in the Singapore Sprint?",
+          "Mercedes drivers speak out after bitterly divided F1 qualifying session in Singapore",
+          "Singapore Grand Prix: George Russell sets pace in sole practice session ahead of sprint qualifying"
         ]
       }
     ],
@@ -184419,6 +184514,122 @@
       "world"
     ],
     "peak_traffic": 200,
+    "category": "عام"
+  },
+  "pokemon-ruby-sapphire-emerald": {
+    "slug": "pokemon-ruby-sapphire-emerald",
+    "name": "pokemon ruby sapphire emerald",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|world",
+        "date": "2026-10-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Pokemon HeartGold and SoulSilver Officially Return in February 2027",
+          "Pokémon Ruby, Sapphire & Emerald Officially Return February 2027 In New Collection",
+          "Pokemon HeartGold and SoulSilver Officially Return in February 2027"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "ماليزيا": {
+    "slug": "ماليزيا",
+    "name": "ماليزيا",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|eg",
+        "date": "2026-10-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "فيديو.. الرئيس السيسي يمازح رئيس وزراء ماليزيا: مقدرش أنافسك",
+          "عماد الدين حسين: توطين الصناعات وجذب الاستثمارات الماليزية يدعمان تعزيز الشراكة",
+          "مصر وماليزيا تبحثان التعاون في الطاقة المتجددة والصناعة والزراعة والإلكترونيات"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "isl": {
+    "slug": "isl",
+    "name": "isl",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Bengaluru FC host Sporting Club Delhi as FC Goa face Chennaiyin FC on ISL 2026 opening day",
+          "ISL starts with hope for better future after controversy-ridden, truncated 2025-26 season",
+          "Indian Super League enters a new era, but echoes of instability remain"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "air-india": {
+    "slug": "air-india",
+    "name": "air india",
+    "first_seen": "2026-10-10",
+    "appearances": [
+      {
+        "key": "2026-10-10|sa",
+        "date": "2026-10-10",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "India's IndiGo to hike fuel charges as global jet fuel costs rise",
+          "Indian airlines lobby government to release emergency funds",
+          "This week in aviation: Noida airport renamed, fuel surcharges"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-10",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
     "category": "عام"
   }
 }

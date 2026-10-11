@@ -4,7 +4,7 @@
   "name_en": "Saudi Arabia",
   "lang": "ar",
   "flag": "🇸🇦",
-  "generated_at": "2026-10-10T23:31:17.279698+00:00",
+  "generated_at": "2026-10-11T00:01:21.630829+00:00",
   "day": "2026-10-11",
   "trends": [
     {
@@ -20,10 +20,22 @@
           "url": "https://www.spa.gov.sa/N2697719",
           "source": "وكالة الأنباء السعودية",
           "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSxYypWQrWQmEWq-LO60GPTU1yuvpPFU6AsHrIUhkG45j9v_pi-YE8szkCjZnA",
-          "og_title": "بيئي / \"الأرصاد\": إنذار أحمر بهطول أمطار غزيرة ورياح شديدة على العاصمة المقدسة ومحافظة الجموم",
-          "og_desc": "مكة المكرمة 28 ربيع الآخر 1448 هـ الموافق 10 أكتوبر 2026 م واس\n    أصدر المركز الوطني للأرصاد اليوم إنذارًا أحمر منبِّهًا من هطول أمطار غزيرة على العاصمة المقدسة ومحافظة الجموم، مصحوبة برياح شديدة السرعة، وانعدام في مدى الرؤية الأفقية، وتساقط البرد، وجريان السيول، وصواعق رعدية.\n    وبيَّن المركز أن الحالة ستستمر -بمشيئة الله تعالى- حتى الساعة التاسعة مساءً.\n    // انتهى //\r\n14:57 ت مـ \r\n0078",
-          "og_image": "https://portalcdn.spa.gov.sa/backend/original/202610/F10986354.jpg",
-          "ok": true
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "TimeoutError"
+        },
+        {
+          "title": "أمطار رعدية حتى الأربعاء القادم.. خذوا الحذر",
+          "url": "https://www.alriyadh.com/2210293",
+          "source": "جريدة الرياض",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTcZFd7-yClk84pJ2QpsiWYZJPoVgFvi7c3T7ZcIJzpuxBoqU65bTce22FzHaQ",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "URLError"
         },
         {
           "title": "\"الأرصاد\" يحذّر من رياح شديدة وسيول وبرد على منطقة حائل حتى 9 مساءً",
@@ -79,8 +91,8 @@
       "category": "طقس",
       "icon": "🌤️",
       "color": "#7fd8ff",
-      "reason": "العنوان يطابق: طقس",
-      "publishable": true,
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
       "local_only": true,
       "article": {
         "headline": "سيول وبرد وأمطار غزيرة تضرب مناطق الباحة وجازان حتى التاسعة مساءً",
@@ -386,36 +398,9 @@
       "published_at": "2026-10-10T23:31:17.279698+00:00"
     },
     {
-      "title": "مبارك الهاجري",
-      "traffic": "1000+",
-      "traffic_num": 1000,
-      "published": "Sat, 10 Oct 2026 13:10:00 -0700",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEFd83OrPVuynY6X9v8ROT_lnst18g8ocQUn4EonhJScE0-GHSygWJzZ0Lbv8",
-      "image_source": "صحيفة المرصد",
-      "news": [
-        {
-          "title": "وفاة نجل مبارك الهاجري عن عمر 33 عامًا في قطر",
-          "url": "https://al-marsd.com/article/267317/%D8%A2%D8%AE%D8%B1-%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%88%D9%81%D8%A7%D8%A9-%D9%86%D8%AC%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%83-%D8%A7%D9%84%D9%87%D8%A7%D8%AC%D8%B1%D9%8A-%D8%B9%D9%86-%D8%B9%D9%85%D8%B1-33-%D8%B9%D8%A7%D9%85%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%B1-",
-          "source": "صحيفة المرصد",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEFd83OrPVuynY6X9v8ROT_lnst18g8ocQUn4EonhJScE0-GHSygWJzZ0Lbv8",
-          "og_title": "وفاة نجل مبارك الهاجري عن عمر 33 عامًا في قطر",
-          "og_desc": "صحيفة المرصد: توفى اليوم السبت نجل مبارك الهاجري ، بشكل مفاجئ عن عمر ناهز 33 عامًا .وبحسب المعلومات المتداولة، فقد توفي الشاب \" علي\" في قطر أثناء نومه...",
-          "og_image": "https://upload-main.al-marsd.com/main/articles/images/2026/10/10/20261010232329.webp",
-          "ok": true
-        }
-      ],
-      "category": "حوادث وقضايا",
-      "icon": "⛔",
-      "color": "#ff6b6b",
-      "reason": "ورد لفظ حسّاس: وفاة",
-      "publishable": false,
-      "card": "cards/sa-2026-10-11-مبارك-الهاجري.png",
-      "published_at": "2026-10-10T21:31:00.108425+00:00"
-    },
-    {
       "title": "inter miami vs d.c. united",
-      "traffic": "1000+",
-      "traffic_num": 1000,
+      "traffic": "2000+",
+      "traffic_num": 2000,
       "published": "Sat, 10 Oct 2026 15:40:00 -0700",
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRzET7h-lNqrpAJEZPPxCf6M88osqY7KAFWJN94PZcrsazLdgm5sZZLqFe2hVE",
       "image_source": "Al Jazeera",
@@ -431,38 +416,39 @@
           "ok": false
         },
         {
-          "title": "How & Where to Watch Inter Miami vs. DC United: Start Time, Live Streaming and TV Channels for MLS",
-          "url": "https://www.yardbarker.com/soccer/articles/how_where_to_watch_inter_miami_vs_dc_united_start_time_live_streaming_and_tv_channels_for_mls/s1_17615_44413097",
-          "source": "Yardbarker",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTIw7FwgNVMKYrfc4P_0z9t9cC-FmHcnf77wXfq7cbqVbqu0NjVKn5mFScsC8",
-          "og_title": "How & Where to Watch Inter Miami vs. DC United: Start Time, Live Streaming and TV Channels for MLS",
-          "og_desc": "Inter Miami will play at home at Nu Stadium against DC United for their 28th league match of the season. The current MLS champions are in pole position to qualify for the MLS playoffs, while DC United need points to reach playoff positions.",
-          "og_image": "https://www.yardbarker.com/media/4/d/4d9ba13da7caeb6c5aa6da225909ef0b1895898f/thumb_16x9/columbus-crew-v-inter-miami-cf.jpg",
+          "title": "Inter Miami vs D.C. United line-ups confirmed for MLS Matchday 29",
+          "url": "https://onefootball.com/en/news/inter-miami-vs-dc-united-line-ups-confirmed-for-mls-matchday-29-43592431",
+          "source": "OneFootball",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB7K62G5XdHeYh-VwotfnWzy3Q2ZNjzNMmr0WeBRI3Sh9Wp-YVwBHk_oUeJD8",
+          "og_title": "Inter Miami vs D.C. United line-ups confirmed for MLS Matchday 29",
+          "og_desc": "Inter Miami host D.C. United at Nu Stadium tonight on MLS Matchday 29, with kick-off at seven thirty pm ET. Both teams have confirmed their starting…",
+          "og_image": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fen%2F43592431%3Fdate=2026-10-11",
           "ok": true
         },
         {
-          "title": "Is Lionel Messi playing today? Projected lineups for Inter Miami vs D.C. United in 2026 MLS season Matchday 29",
-          "url": "https://worldsoccertalk.com/amp/news/is-lionel-messi-playing-today-projected-lineups-for-inter-miami-vs-d-c-united-in-2026-mls-season-matchday-29",
-          "source": "World Soccer Talk",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRDkMPjEucv3tayk41qnowMkh8YOnJndqAsSGR0FLVv7FkqetmowE22jmJ3xXs",
-          "og_title": "Is Lionel Messi playing today? Confirmed lineups for Inter Miami vs D.C. United in 2026 MLS season Matchday 29",
-          "og_desc": "Take a look at the projected lineups for Inter Miami vs D.C. United in the 2026 MLS season and if Lionel Messi will play.",
-          "og_image": "https://media.worldsoccertalk.com/wp-content/uploads/sites/6/2026/09/17224633/lionel-messi-inter-miami-50-1200x740.jpg",
-          "ok": true
+          "title": "Fresh off final game with Argentina, Messi leads Miami vs. D.C. United",
+          "url": "https://www.thenewstribune.com/sports/soccer/article317565841.html",
+          "source": "Tacoma News Tribune",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSjz718-WsFTRkY_9VRD2DXpuC-42llXsBk058gGf4Jiy4PamN_OHdV1uulJo8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "TimeoutError"
         }
       ],
       "category": "رياضة",
       "icon": "⚽",
       "color": "#3ddc97",
-      "reason": "حجم بحث أقل من 2000",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
       "publishable": false,
       "card": "cards/sa-2026-10-11-inter-miami-vs-dc-united.png",
       "published_at": "2026-10-10T23:01:06.907101+00:00"
     },
     {
       "title": "حساب مواطن",
-      "traffic": "+900",
-      "traffic_num": 900,
+      "traffic": "+1100",
+      "traffic_num": 1100,
       "published": "Sat, 10 Oct 2026 14:20:00 -0700",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Q_4hY_pwIB0Ky1FNX9zj4wfB0rPzhpXU1dlgEYtwN2EFvHtLY6o_d5zTfOQ",
       "image_source": "عاجل",
@@ -537,6 +523,81 @@
       "person": true,
       "card": "cards/sa-2026-10-11-حساب-مواطن.png",
       "published_at": "2026-10-10T21:31:00.108425+00:00"
+    },
+    {
+      "title": "مبارك الهاجري",
+      "traffic": "1000+",
+      "traffic_num": 1000,
+      "published": "Sat, 10 Oct 2026 13:10:00 -0700",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEFd83OrPVuynY6X9v8ROT_lnst18g8ocQUn4EonhJScE0-GHSygWJzZ0Lbv8",
+      "image_source": "صحيفة المرصد",
+      "news": [
+        {
+          "title": "وفاة نجل مبارك الهاجري عن عمر 33 عامًا في قطر",
+          "url": "https://al-marsd.com/article/267317/%D8%A2%D8%AE%D8%B1-%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%88%D9%81%D8%A7%D8%A9-%D9%86%D8%AC%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%83-%D8%A7%D9%84%D9%87%D8%A7%D8%AC%D8%B1%D9%8A-%D8%B9%D9%86-%D8%B9%D9%85%D8%B1-33-%D8%B9%D8%A7%D9%85%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%B1-",
+          "source": "صحيفة المرصد",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEFd83OrPVuynY6X9v8ROT_lnst18g8ocQUn4EonhJScE0-GHSygWJzZ0Lbv8",
+          "og_title": "وفاة نجل مبارك الهاجري عن عمر 33 عامًا في قطر",
+          "og_desc": "صحيفة المرصد: توفى اليوم السبت نجل مبارك الهاجري ، بشكل مفاجئ عن عمر ناهز 33 عامًا .وبحسب المعلومات المتداولة، فقد توفي الشاب \" علي\" في قطر أثناء نومه...",
+          "og_image": "https://upload-main.al-marsd.com/main/articles/images/2026/10/10/20261010232329.webp",
+          "ok": true
+        }
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: وفاة",
+      "publishable": false,
+      "card": "cards/sa-2026-10-11-مبارك-الهاجري.png",
+      "published_at": "2026-10-10T21:31:00.108425+00:00"
+    },
+    {
+      "title": "إنتر ميامي ضد دي سي يونايتد",
+      "traffic": "1000+",
+      "traffic_num": 1000,
+      "published": "Sat, 10 Oct 2026 15:50:00 -0700",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ4jYaJgBvSwmeICnJlGEG4fk4Rfvp4zkrWYZP9g6RMdKP_X3GtsoQoJifKqoo",
+      "image_source": "Kooora",
+      "news": [
+        {
+          "title": "ما القنوات الناقلة لمباراة إنتر ميامي ودي سي يونايتد في الدوري الأمريكي 2026؟ وكيف تشاهدها عبر الإنترنت؟",
+          "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%95%D9%86%D8%AA%D8%B1-%D9%85%D9%8A%D8%A7%D9%85%D9%8A-%D9%88%D8%AF%D9%8A-%D8%B3%D9%8A-%D9%8A%D9%88%D9%86%D8%A7%D9%8A%D8%AA%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D8%B1%D9%8A%D9%83%D9%8A-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt1d67e3d2d5f50536",
+          "source": "Kooora",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ4jYaJgBvSwmeICnJlGEG4fk4Rfvp4zkrWYZP9g6RMdKP_X3GtsoQoJifKqoo",
+          "og_title": "ما القنوات الناقلة لمباراة إنتر ميامي ودي سي يونايتد في الدوري الأمريكي 2026؟ وكيف تشاهدها عبر الإنترنت؟ | كووورة",
+          "og_desc": "كل ما تريد معرفته عن القنوات الناقلة لمباراة إنتر ميامي ودي سي يونايتد في الدوري الأمريكي 2026؟ وكيف تشاهدها عبر الإنترنت؟",
+          "og_image": "https://assets.kooora.com/images/v3/JWq0I-gRXUTqEftIj8Mch_DESKTOP/image.jpg",
+          "ok": true
+        },
+        {
+          "title": "مباشر.. مباراة إنتر ميامي ودي سي يونايتد في الدوري الأمريكي",
+          "url": "https://www.eremnews.com/sports/702jbmf",
+          "source": "إرم نيوز",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSZZTZ2tlVMHorP02U7D7CqCiMavGCjT4zBfXs4NLbK7p2fURK04xvWd566esE",
+          "og_title": "مباشر.. مباراة إنتر ميامي ودي سي يونايتد في الدوري الأمريكي | إرم نيوز",
+          "og_desc": "تابع مباراة إنتر ميامي ودي سي يونايتد في الدوري الأمريكي، مع أبرز أحداث اللقاء ومشاركة ليونيل ميسي والنتيجة والتفاصيل لحظة بلحظة.",
+          "og_image": "https://cdn.eremnews.com/media/b99a51d0-c9c7-499a-b6ed-c21c442f7a9d_v3",
+          "ok": true
+        },
+        {
+          "title": "تشكيل إنتر ميامي ضد دي سي يونايتد في الدوري الأمريكي 2026",
+          "url": "https://twaslnews1.twaslnews.com/5817358/",
+          "source": "شبكة تواصل الإخبارية",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT031IPEannvA5vXIEO_OwPfKI0E7EI9dTqWA2U3QgtWfHcIW9bg-mHDIQNcgg",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 2000",
+      "publishable": false,
+      "card": "cards/sa-2026-10-11-إنتر-ميامي-ضد-دي-سي-يونايتد.png",
+      "published_at": "2026-10-10T23:01:06.907101+00:00"
     },
     {
       "title": "psg vs le mans fc standings",
@@ -631,54 +692,6 @@
       "publishable": false,
       "card": "cards/sa-2026-10-11-مباريات-الدوري-الإسباني.png",
       "published_at": "2026-10-10T21:31:00.108425+00:00"
-    },
-    {
-      "title": "إنتر ميامي ضد دي سي يونايتد",
-      "traffic": "500+",
-      "traffic_num": 500,
-      "published": "Sat, 10 Oct 2026 15:50:00 -0700",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ4jYaJgBvSwmeICnJlGEG4fk4Rfvp4zkrWYZP9g6RMdKP_X3GtsoQoJifKqoo",
-      "image_source": "Kooora",
-      "news": [
-        {
-          "title": "ما القنوات الناقلة لمباراة إنتر ميامي ودي سي يونايتد في الدوري الأمريكي 2026؟ وكيف تشاهدها عبر الإنترنت؟",
-          "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%95%D9%86%D8%AA%D8%B1-%D9%85%D9%8A%D8%A7%D9%85%D9%8A-%D9%88%D8%AF%D9%8A-%D8%B3%D9%8A-%D9%8A%D9%88%D9%86%D8%A7%D9%8A%D8%AA%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D8%B1%D9%8A%D9%83%D9%8A-2026-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt1d67e3d2d5f50536",
-          "source": "Kooora",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ4jYaJgBvSwmeICnJlGEG4fk4Rfvp4zkrWYZP9g6RMdKP_X3GtsoQoJifKqoo",
-          "og_title": "ما القنوات الناقلة لمباراة إنتر ميامي ودي سي يونايتد في الدوري الأمريكي 2026؟ وكيف تشاهدها عبر الإنترنت؟ | كووورة",
-          "og_desc": "كل ما تريد معرفته عن القنوات الناقلة لمباراة إنتر ميامي ودي سي يونايتد في الدوري الأمريكي 2026؟ وكيف تشاهدها عبر الإنترنت؟",
-          "og_image": "https://assets.kooora.com/images/v3/JWq0I-gRXUTqEftIj8Mch_DESKTOP/image.jpg",
-          "ok": true
-        },
-        {
-          "title": "مباشر.. مباراة إنتر ميامي ودي سي يونايتد في الدوري الأمريكي",
-          "url": "https://twaslnews1.twaslnews.com/5838293/",
-          "source": "شبكة تواصل الإخبارية",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQzh7Kam5OtFZN457oGSwLXIQ9NolAPfztFb00hqKUJuZWlbMP9rqClgv6MKKI",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "القنوات الناقلة لمباراة إنتر ميامي ضد دي سي يونايتد في الدوري الأمريكي الممتاز",
-          "url": "https://www.365scores.com/ar/news/magazine/%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A5%D9%86%D8%AA%D8%B1-%D9%85%D9%8A%D8%A7%D9%85%D9%8A-%D8%B6%D8%AF/",
-          "source": "365Scores",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgh8plu-1GeFslIcDV5a-aFZYonifvlVkkyGo-EkJkTgcd5WmFqHHKYeQbgbk",
-          "og_title": "القنوات الناقلة لمباراة إنتر ميامي ضد دي سي يونايتد في الدوري الأمريكي الممتاز - 365Scores",
-          "og_desc": "تتجه أنظار عشاق كرة القدم نحو معرفة القنوات الناقلة لمباراة إنتر ميامي ضد دي سي يونايتد ، حيث تتزايد رغبة الجماهير في متابعة هذه القمة المرتقبة ضمن منافسات",
-          "og_image": "https://www.365scores.com/ar/news/magazine/wp-content/uploads/2026/10/4621318_Where_To_Watch.webp",
-          "ok": true
-        }
-      ],
-      "category": "رياضة",
-      "icon": "⚽",
-      "color": "#3ddc97",
-      "reason": "حجم بحث أقل من 2000",
-      "publishable": false,
-      "card": "cards/sa-2026-10-11-إنتر-ميامي-ضد-دي-سي-يونايتد.png",
-      "published_at": "2026-10-10T23:01:06.907101+00:00"
     },
     {
       "title": "vinícius júnior",
@@ -1357,6 +1370,16 @@
       "image_source": "Flightradar24",
       "news": [
         {
+          "title": "Jeddah King Abdulaziz International Airport Arrivals",
+          "url": "https://www.flightradar24.com/data/airports/jed/arrivals?date=1791675480&page=2",
+          "source": "Flightradar24",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG2XFhOztk4RSFhCcuG0nnPZMvE-LN-k7TnRdwH-EdZzAJigo5t4imU3LV9Ek",
+          "og_title": "Jeddah King Abdulaziz International (JED) (OEJN) live arrivals | Flightradar24",
+          "og_desc": "View live arrivals, delays, cancellations and disruption information for Jeddah King Abdulaziz International JED/OEJN.",
+          "og_image": "https://cdn.jetphotos.com/640/6/1469781_1776065585.jpg?v=0",
+          "ok": true
+        },
+        {
           "title": "Jeddah King Abdulaziz International Airport Departures",
           "url": "https://www.flightradar24.com/data/airports/jed/departures?date=1791673620&page=-1",
           "source": "Flightradar24",
@@ -1374,16 +1397,6 @@
           "og_title": "Riyadh King Khalid International (RUH) (OERK) live arrivals | Flightradar24",
           "og_desc": "View live arrivals, delays, cancellations and disruption information for Riyadh King Khalid International RUH/OERK.",
           "og_image": "https://cdn.jetphotos.com/640/6/851535_1773596418.jpg?v=0",
-          "ok": true
-        },
-        {
-          "title": "Jeddah King Abdulaziz International Airport Arrivals",
-          "url": "https://www.flightradar24.com/data/airports/jed/arrivals?date=1791671940&page=-1",
-          "source": "Flightradar24",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG2XFhOztk4RSFhCcuG0nnPZMvE-LN-k7TnRdwH-EdZzAJigo5t4imU3LV9Ek",
-          "og_title": "Jeddah King Abdulaziz International (JED) (OEJN) live arrivals | Flightradar24",
-          "og_desc": "View live arrivals, delays, cancellations and disruption information for Jeddah King Abdulaziz International JED/OEJN.",
-          "og_image": "https://cdn.jetphotos.com/640/6/1469781_1776065585.jpg?v=0",
           "ok": true
         }
       ],
@@ -1447,44 +1460,45 @@
       "traffic": "100+",
       "traffic_num": 100,
       "published": "Sat, 10 Oct 2026 15:20:00 -0700",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQsI4i7XAvLU25ITeYx9yCqyEbZqY3ilMFiwVW8BKl5kZsmh-07kL_EkxGW8Po",
-      "image_source": "UA.NEWS",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjppJUwxsSlJoF4j5EECYkHaNSIpZeYLrWfrzdDaWCwrodC1ynSV0PqdBAlt8",
+      "image_source": "Reuters Connect",
       "news": [
         {
-          "title": "Goalkeeper error gives Chicago Fire a 2-1 win over New York City — Interia Sport",
-          "url": "https://ua.news/en/sport/pomilka-vorotaria-prinesla-chicago-fire-peremogu-2-1-nad-new-york-city-interia-sport",
-          "source": "UA.NEWS",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQsI4i7XAvLU25ITeYx9yCqyEbZqY3ilMFiwVW8BKl5kZsmh-07kL_EkxGW8Po",
-          "og_title": "Chicago Fire beat New York City 2-1 after goalkeeper error",
-          "og_desc": "Chicago Fire beat New York City 2-1 in MLS after Maren Haile-Selassie scored in the 88th minute following an unsuccessful pass by goalkeeper Matt Freese.",
-          "og_image": "https://cdn-cabinet.ua.news/uploads/images/chicago_fire_beat_new_york_city_after_go_1791667184268.webp",
-          "ok": true
+          "title": "MLS: CF Montreal at Toronto FC",
+          "url": "https://www.reutersconnect.com/item/mls-cf-montreal-at-toronto-fc/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVVTQVRPREFZMzAwNDg4MTA",
+          "source": "Reuters Connect",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjppJUwxsSlJoF4j5EECYkHaNSIpZeYLrWfrzdDaWCwrodC1ynSV0PqdBAlt8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         },
         {
-          "title": "MLS: New York City FC at Chicago Fire FC",
-          "url": "https://lufkindailynews.com/news_reuters/sports/mls-new-york-city-fc-at-chicago-fire-fc/image_219fb06e-da7c-5ca3-b6d8-94200a14be22.html",
-          "source": "The Lufkin Daily News",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNHStGlxff9iYJy25qaNnrHlEAZ88eNqVb_u9Tcm_tVxAs4cCNMKe7cXINQ54",
-          "og_title": "MLS: New York City FC at Chicago Fire FC",
-          "og_desc": "Oct 10, 2026; Chicago, Illinois, USA; Chicago Fire midfielder Maren Haile-Selassie (7) and New York City FC midfielder Hannes Wolf (17) battle for control of the ball during the second",
-          "og_image": "https://bloximages.chicago2.vip.townnews.com/lufkindailynews.com/content/tncms/assets/v3/editorial/2/19/219fb06e-da7c-5ca3-b6d8-94200a14be22/6acaa868585e6.image.jpg?crop=800%2C420%2C0%2C48",
-          "ok": true
+          "title": "Gotta See It: TFC complete astounding comeback off Morgan, Mihailovic goals",
+          "url": "https://www.sportsnet.ca/soccer/video/gotta-see-it-tfc-complete-astounding-comeback-off-wilson-mihailovic-goals/",
+          "source": "Sportsnet.ca",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD-QgStdS5c87ptbc-FsscTe-OS_JDFZ-xdSBebxHDMYczjtcNA9EG7Urg2Qk",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
         },
         {
-          "title": "Maren Haile-Selassie, Anton Salétros score short-handed goals as Fire rally to beat NYCFC 2-1",
-          "url": "https://abcnews.com/Sports/wireStory/maren-haile-selassie-anton-saltros-score-short-handed-137165038",
-          "source": "ABC News - Breaking News, Latest News and Videos",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTnAXuNjFpZC1-r3b4tjIgOqXdrgCSTTew6u5rc3xoVkPvrQ-uxkBhne9UckDs",
-          "og_title": "Maren Haile-Selassie, Anton Salétros score short-handed goals as Fire rally to beat NYCFC 2-1",
-          "og_desc": "Maren Haile-Selassie had an assist on a short-handed goal by Anton Salétros in the second half before scoring the winner in the 87th minute and the Chicago Fire rallied to beat New York City FC 2-1",
-          "og_image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
+          "title": "MATCH RECAP | Toronto FC 2 – 1 CF Montréal",
+          "url": "https://www.torontofc.ca/news/match-recap-toronto-fc-2-1-cf-montreal",
+          "source": "Toronto FC",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTS6YFZyx5F6zSnPUEU-xUkQTJPR7yzXCc-h3dBkrzWqiEdHKCBfliZicPz6Es",
+          "og_title": "MATCH RECAP | Toronto FC 2 – 1 CF Montréal | Toronto FC",
+          "og_desc": "MATCH RECAP | Toronto FC 2 – 1 CF Montréal",
+          "og_image": "https://images.mlssoccer.com/image/private/t_editorial_landscape_3_4_desktop/mls-tor/vsonpfc3eu1lvjid9fvp.jpg",
           "ok": true
         }
       ],
       "category": "رياضة",
       "icon": "⚽",
       "color": "#3ddc97",
-      "reason": "حجم بحث أقل من 2000",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
       "publishable": false,
       "card": "cards/sa-2026-10-11-mls.png",
       "published_at": "2026-10-10T23:31:17.279698+00:00"

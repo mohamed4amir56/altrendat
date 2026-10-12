@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T19:01:41.395444+00:00",
+  "updated_at": "2026-10-12T19:32:06.233944+00:00",
   "total": 15,
   "items": [
     {
@@ -8,8 +8,8 @@
       "detail": "عادت البورصات العالمية وأسواق تداول الذهب والمعادن الثمينة للعمل صباح اليوم الإثنين بعد العطلة الأسبوعية، وسط ترقب المستثمرين لمؤشرات التضخم وحركة الدولار وأسعار الفائدة العالمية.",
       "categoryKey": "cat_gold",
       "category": "اقتصاد",
-      "publishedAt": "2026-10-12T19:01:41.395300+00:00",
-      "published_at": "2026-10-12T19:01:41.395300+00:00",
+      "publishedAt": "2026-10-12T19:32:06.233572+00:00",
+      "published_at": "2026-10-12T19:32:06.233572+00:00",
       "impact": "bullish",
       "icon": "🪙",
       "source": "التريندات • أسواق الذهب",
@@ -32,8 +32,8 @@
       "detail": "International bullion and commodity exchanges have reopened this Monday morning following the weekend pause, as traders closely monitor interest rate outlooks, currency movements, and central bank signals.",
       "categoryKey": "cat_gold",
       "category": "Finance",
-      "publishedAt": "2026-10-12T19:01:41.395300+00:00",
-      "published_at": "2026-10-12T19:01:41.395300+00:00",
+      "publishedAt": "2026-10-12T19:32:06.233572+00:00",
+      "published_at": "2026-10-12T19:32:06.233572+00:00",
       "impact": "bullish",
       "icon": "🪙",
       "source": "Altrendat • Gold Markets",
@@ -48,6 +48,35 @@
       "sources": [
         "Altrendat",
         "Global Bullion Exchanges"
+      ]
+    },
+    {
+      "id": "sa-2026-10-12-riyadh-attack",
+      "title": "مقتل 14 شخصًا وإصابة 300 في ضربات صاروخية تستهدف مطار الرياض",
+      "detail": "أسفرت ضربات صاروخية وبطائرات مسيرة استهدفت مطار الملك خالد الدولي في العاصمة الرياض يوم السبت عن مقتل 14 شخصًا وإصابة أكثر من 300 آخرين.",
+      "categoryKey": "cat_politics",
+      "category": "عام",
+      "publishedAt": "2026-10-12T19:31:12.931789+00:00",
+      "published_at": "2026-10-12T19:31:12.931789+00:00",
+      "impact": "breaking",
+      "icon": "🏛️",
+      "source": "التريندات • السعودية",
+      "sourceUrl": "https://altrendat.com/sa/2026-10-12/riyadh-attack/",
+      "url": "https://altrendat.com/sa/2026-10-12/riyadh-attack/",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Masmak.JPG/1280px-Masmak.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Masmak.JPG/500px-Masmak.JPG",
+      "imageCredit": "تصوير: Stourism · CC BY-SA 4.0 · ويكيميديا كومنز",
+      "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Masmak.JPG",
+      "country": "sa",
+      "about": "sa",
+      "country_name": "السعودية",
+      "flag": "🇸🇦",
+      "lang": "ar",
+      "traffic": "2000+",
+      "sources": [
+        "Arab News",
+        "U.S. Embassy & Consulates in Saudi Arabia (.gov)",
+        "BBC"
       ]
     },
     {
@@ -130,11 +159,13 @@
       "country_name": "عالمي (Worldwide)",
       "flag": "🌐",
       "lang": "en",
-      "traffic": "10000+",
+      "traffic": "+20000",
       "sources": [
         "CBS News",
         "TODAY.com",
-        "Entertainment Weekly"
+        "Entertainment Weekly",
+        "TODAY.com",
+        "Yahoo"
       ]
     },
     {
@@ -417,35 +448,6 @@
         "اليوم السابع",
         "مونت كارلو الدولية",
         "Goal.com"
-      ]
-    },
-    {
-      "id": "world-2026-10-11-netflix-new-releases",
-      "title": "The Diplomat Returns for Season 4 Alongside Ben Affleck Thriller Animals",
-      "detail": "Netflix debuts the fourth season of The Diplomat and the crime thriller Animals during the week of Oct. 9–15.",
-      "categoryKey": "cat_politics",
-      "category": "تقنية",
-      "publishedAt": "2026-10-11T10:01:01.658530+00:00",
-      "published_at": "2026-10-11T10:01:01.658530+00:00",
-      "impact": "breaking",
-      "icon": "🏛️",
-      "source": "Altrendat • عالمي (Worldwide)",
-      "sourceUrl": "https://altrendat.com/world/2026-10-11/netflix-new-releases/",
-      "url": "https://altrendat.com/world/2026-10-11/netflix-new-releases/",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Netflix_headquarters.jpg/1280px-Netflix_headquarters.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Netflix_headquarters.jpg/500px-Netflix_headquarters.jpg",
-      "imageCredit": "Photo: Coolcaesar at English Wikipedia · CC BY-SA 3.0 · Wikimedia Commons",
-      "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Netflix_headquarters.jpg",
-      "country": "world",
-      "about": "",
-      "country_name": "عالمي (Worldwide)",
-      "flag": "🌐",
-      "lang": "en",
-      "traffic": "10000+",
-      "sources": [
-        "Netflix",
-        "Tom's Guide",
-        "IMDb"
       ]
     }
   ]

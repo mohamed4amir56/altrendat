@@ -959,12 +959,12 @@
         "country_name": "مصر",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "أبراج وفلك",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "برج الميزان.. حظك اليوم الإثنين 12 أكتوبر: كلمة فاصلة",
-          "مواليد 10 أكتوبر.. شخصية قيادية تبحث عن التوازن وتملك قوة تأثير استثنائية",
-          "مواليد 9 أكتوبر| شخصية دبلوماسية جذابة تجمع بين العدل والطموح وقوة التأثير"
+          "برج السرطان.. حظك اليوم الإثنين 12 أكتوبر: وقت للعائلة",
+          "برج السرطان.. حظك اليوم الجمعة 9 أكتوبر: النوايا الطيبة تصنع أجمل الأقدار",
+          "برج السرطان.. حظك اليوم السبت 10 أكتوبر: انفراجة"
         ]
       }
     ],
@@ -974,7 +974,7 @@
       "eg"
     ],
     "peak_traffic": 500,
-    "category": "أبراج وفلك"
+    "category": "حوادث وقضايا"
   },
   "مسعود-بزشكيان": {
     "slug": "مسعود-بزشكيان",
@@ -19891,9 +19891,9 @@
         "category": "تقنية",
         "publishable": false,
         "headlines": [
-          "Microsoft Is Down 4%. Here's Why I'm Buying More.",
-          "Mapping the Market: Microsoft set to extend rally",
-          "MSFT Stock Technicals: Gains 0.09% on Wednesday, Testing Key Resistance"
+          "AI is less regulated than milk, says Microsoft president",
+          "Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control",
+          "Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI"
         ]
       }
     ],
@@ -20404,9 +20404,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "بيل غيتس: الهجمات الإلكترونية المدعّمة بالذكاء الاصطناعي أخطر تهديد وشيك",
-          "\"بالميرا\": 3 مفاهيم رئيسية لتقييم مخاطر الذكاء الاصطناعي",
-          "انقراض البشرية بحلول 2100؟ تقرير علمي يحذّر من 17 خطرًا تهدد العالم"
+          "خطوة بالذكاء الاصطناعي من \"مايكروسوفت\" لحماية بيانات الكمبيوتر الشخصي",
+          "Microsoft تدفع حتى 1,000 دولار نقدا لمن يتخلى عن MacBook Pro لصالح Surface Laptop Ultra",
+          "Surface Laptop Ultra .. وحش للذكاء الاصطناعي يواجه مشكلة مزعجة"
         ]
       }
     ],
@@ -56346,15 +56346,30 @@
           "GTA 6's Advanced Weather System Officially Confirmed By Rockstar",
           "Grand Theft Auto 6 Will Include Over 170 Species Of Animals As Well As Hurricanes: 'Wind Will Blow Ripples Over The Water Surface'"
         ]
+      },
+      {
+        "key": "2026-10-12|world",
+        "date": "2026-10-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "'GTA 6' official merch is live, and it's already selling out: Where to buy",
+          "What the £350 Grand Theft Auto ‘collector’s box’ says about the escalating cost of gaming | Games",
+          "New GTA 6 And Rockstar Merchandise Released"
+        ]
       }
     ],
-    "last_seen": "2026-09-30",
-    "total": 1,
+    "last_seen": "2026-10-12",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 20000,
-    "category": "طقس"
+    "category": "عام"
   },
   "carhartt": {
     "slug": "carhartt",
@@ -59316,15 +59331,30 @@
           "أول صورة لـ محمد رمضان في مسلسل \"عشماوي\".. رمضان 2027",
           "رغم الاعتذارات المتتالية.. محمد رمضان يبدأ تصوير مسلسل عشماوي استعدادا لرمضان 2027"
         ]
+      },
+      {
+        "key": "2026-10-12|eg",
+        "date": "2026-10-12",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "ديني",
+        "publishable": true,
+        "headlines": [
+          "مشروع محمد رمضان العقاري.. انتهاء الحجز خلال يومين وأسعار الاستوديوهات بالملايين",
+          "هى المشرحة ناقصة جثث، خبير اقتصادي عن دخول محمد رمضان سوق التطوير العقاري",
+          "في ذكرى انتصارات أكتوبر.. نوفارا هولدينج و MR1يوقعان بروتوكولات تعاون مع شركاء النجاح لتطوير مشروع Giza Downtown"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 3,
+    "last_seen": "2026-10-12",
+    "total": 4,
     "countries": [
       "eg",
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 2000,
     "category": "ديني"
   },
   "مخالفات-المرور": {
@@ -65306,12 +65336,12 @@
         "date": "2026-10-12",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "category": "رياضة",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Sports News, Transfers, Scores | Watch Live Sport",
+          "Hot Shot: 'Oh yes!' Fritz leaves Tsitsipas helpless in Shanghai 2026",
           "Shanghai R3 previews and predictions: Fritz vs. Tsitsipas, Fils vs. Van de Zandschulp",
           "Stefanos Tsitsipas vs Taylor Fritz Prediction & Picks - ATP Shanghai Masters"
         ]
@@ -65323,7 +65353,7 @@
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "رياضة"
+    "category": "حوادث وقضايا"
   },
   "tennessean": {
     "slug": "tennessean",
@@ -67520,17 +67550,32 @@
           "OpenAI Adds Virtual Try-On Feature to ChatGPT",
           "ChatGPT Can Now Help You Virtually Try On Clothes"
         ]
+      },
+      {
+        "key": "2026-10-12|world",
+        "date": "2026-10-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Why My Conversations With ‘ChatGPT for Teens’ Made Me Very Worried",
+          "Report: ChatGPT's teen suicide safeguards failed to alert parents",
+          "Open AI shares first data on teen GPT use"
+        ]
       }
     ],
-    "last_seen": "2026-10-02",
-    "total": 3,
+    "last_seen": "2026-10-12",
+    "total": 4,
     "countries": [
       "eg",
       "sa",
       "world"
     ],
-    "peak_traffic": 5000,
-    "category": "تقنية"
+    "peak_traffic": 10000,
+    "category": "حوادث وقضايا"
   },
   "paula-badosa": {
     "slug": "paula-badosa",
@@ -82245,8 +82290,8 @@
         "date": "2026-10-12",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
@@ -82261,7 +82306,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "اقتصاد"
   },
   "pokemon-30th-anniversary": {
@@ -88343,9 +88388,9 @@
         "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "(1) Ukraine says Russia violated Trump’s ‘energy ceasefire’ – Europe live",
+          "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy",
           "CNBC Daily Open: Trump's Russian roulette",
-          "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy"
+          "Backlash grows against Russia diesel deal as Trump claims Ukraine energy ceasefire"
         ]
       }
     ],
@@ -139140,9 +139185,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Alcaraz knows his opponent in the third round of the Shanghai tournament",
-          "Bergs vs. Alcaraz Prediction at the Rolex Shanghai Masters – Monday, October 12",
-          "ATP Shanghai Day 6 Predictions Including Carlos Alcaraz vs Zizou Bergs"
+          "Lehecka vs. Borges Prediction at the Rolex Shanghai Masters – Saturday, October 10",
+          "Jiri Lehecka vs. Rafael Jodar prediction, odds, picks for ATP Shanghai Masters 2026",
+          "Jodar Dances Around Ferrero Question, Looks Ahead to More Selective Schedule in 2027"
         ]
       }
     ],
@@ -164651,15 +164696,30 @@
           "EXCLUSIVE: Vance says Iran must cut enrichment to end war",
           "US sets new demands for Iran deal: What are they?"
         ]
+      },
+      {
+        "key": "2026-10-12|sa",
+        "date": "2026-10-12",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Saudi, Iranian foreign ministers discuss regional tensions, state news agency says",
+          "Iran’s FM urges diplomacy in call with Saudi counterpart",
+          "Iran urges Saudi Arabia to pursue diplomacy as Houthi attacks escalate"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 1,
+    "last_seen": "2026-10-12",
+    "total": 2,
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
-    "category": "عام"
+    "peak_traffic": 200,
+    "category": "سياسة"
   },
   "tampa": {
     "slug": "tampa",
@@ -167631,15 +167691,30 @@
           "IndiGo flight to Lucknow suffers nose damage, lightning strike suspected",
           "'Hit By 1 Billion Volts, Left With Broken Nose': How Faraday Cage Tech Saved IndiGo Passengers After Mid-Ai"
         ]
+      },
+      {
+        "key": "2026-10-12|sa",
+        "date": "2026-10-12",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Indigo Delhi-Chennai flight fire: what are the rules for carrying power banks on planes",
+          "Power bank fire forces plane to emergency land in India",
+          "Power bank catches fire mid-air on IndiGo’s Delhi-Chennai flight, aircraft diverted to Hyderabad"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 1,
+    "last_seen": "2026-10-12",
+    "total": 2,
     "countries": [
       "sa"
     ],
     "peak_traffic": 100,
-    "category": "تقنية"
+    "category": "اقتصاد"
   },
   "pltr-stock": {
     "slug": "pltr-stock",
@@ -189908,8 +189983,8 @@
         "date": "2026-10-12",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -189924,7 +189999,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "رياضة"
   },
   "حفيد-ماجد-المصرى": {
@@ -204201,8 +204276,8 @@
         "publishable": false,
         "headlines": [
           "ثغرة بدرجة 10/ 10 تضرب منصة مايكروسوفت للذكاء الاصطناعي.. والمهاجم لا يحتاج إلى تسجيل الدخول",
-          "بيل غيتس: الهجمات الإلكترونية المدعّمة بالذكاء الاصطناعي أخطر تهديد وشيك",
-          "\"بالميرا\": 3 مفاهيم رئيسية لتقييم مخاطر الذكاء الاصطناعي"
+          "برجيل القابضة توحد إل إل إتش ولايف كير وميديور بهدف تسريع التوسع في تقديم خدمات الرعاية الصحية بتكلفة ميسورة",
+          "‘برجيل’ تدمج 3 علامات طبية تحت منصة واحدة وتخطط للتوسع في سوق الإمارات"
         ]
       }
     ],
@@ -217964,8 +218039,8 @@
         "publishable": false,
         "headlines": [
           "انقلاب قارب في جيبوتي: 109 قتلى من بينهم أطفال، و116 لا يزالون في عداد المفقودين، بحسب الأمم المتحدة",
-          "(وسائط متعددة) الهجرة الدولية: مصرع 109 مهاجرين وفقدان أكثر من 116 إثر غرق قارب قبالة جيبوتي",
-          "المنظمة الدولية للهجرة :ارتفاع حصيلة قتلى غرق السفينة فى جيبوتى إلى 139"
+          "رئيس الهجرة الدولية فى جيبوتى يصف حادث المهاجرين بالخسارة المأساوية للأرواح",
+          "(وسائط متعددة) الهجرة الدولية: مصرع 109 مهاجرين وفقدان أكثر من 116 إثر غرق قارب قبالة جيبوتي"
         ]
       }
     ],
@@ -218016,13 +218091,13 @@
         "date": "2026-10-12",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "اتصال يجمع وزيري خارجية السعودية وإيران",
-          "وزير الخارجية يتلقى اتصالاً من نظيره الإيراني لبحث التصعيد في المنطقة"
+          "فيصل بن فرحان وعراقجي يبحثان التصعيد بالمنطقة"
         ]
       }
     ],
@@ -218031,7 +218106,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "pablo-carreno-busta": {
@@ -218160,14 +218235,14 @@
         "date": "2026-10-12",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "নিখোঁজ ছেলেকে ফিরে পাওয়ার আকুতি নিয়েই মারা গেলেন অভিনেত্রী নাসিমা খান",
-          "চলে গেলেন অভিনেত্রী নাসিমা খান",
-          "ছিনতাইয়ের শিকার হলিউড অভিনেতা কিগান অ্যালেন"
+          "অভিনেত্রী নাসিমা খান আর নেই",
+          "না ফেরার দেশে অভিনেত্রী নাসিমা খান"
         ]
       }
     ],
@@ -218176,7 +218251,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "nfl-lamar-jackson-injury": {
@@ -218224,8 +218299,8 @@
         "publishable": false,
         "headlines": [
           "3 dead after shooting in home on Strawberry Circle in unincorporated Marin County",
-          "Retired SFPD couple, Ann and Kevin Mannix, among 3 killed in Marin shooting, sources say",
-          "3 people found dead in Marin County home: sheriff"
+          "3 people found dead in Marin County home: sheriff",
+          "Retired SFPD couple, Ann and Kevin Mannix, among 3 killed in Marin shooting, sources say"
         ]
       }
     ],
@@ -218426,9 +218501,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "أسعار الذهب اليوم الاثنين في مصر.. السوق تترقب تحركات الأونصة مع بداية الأسبوع",
+          "ارتفاع كبير لسعر الذهب في مصر",
           "سعر الذهب اليوم الإثنين 12-10-2026 في مصر صباحًا",
-          "ارتفاع كبير لسعر الذهب في مصر"
+          "أسعار الذهب اليوم الاثنين في مصر.. السوق تترقب تحركات الأونصة مع بداية الأسبوع"
         ]
       }
     ],
@@ -218513,9 +218588,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "مجمعة المركبات: 100ألف جنيه تعويض لأسرة كل متوفى فى حادث كوبرى قها",
-          "مصرع 5 أشخاص وإصابة 12 آخرين في تصادم ميكروباص وربع نقل أعلى كوبري قها بالقليوبية",
-          "ارتفاع ضحايا حادث تصادم سيارتين بطريق إسكندرية الزراعي بالقليوبية لـ5 ضحايا و12 مصابا"
+          "وفاة أحد الطلاب ضحايا واقعة المعهد الأزهري بالمحلة",
+          "شيخ الأزهر ناعيا التلميذ أمير: قلوبنا يعتصرها الألم لفقدان طفل في عمر الزهور",
+          "محافظ الغربية يزور الطلاب المصابين داخل معهد أزهري بمستشفى المحلة العام| صور"
         ]
       }
     ],
@@ -218542,9 +218617,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "وزيرة الإسكان تترأس اجتماع مجلس إدارة هيئة المجتمعات العمرانية الجديدة",
           "تفاصيل طرح 5 آلاف شقة بنظام \"الإيجار المنتهي بالتملك\" بـ 8 مدن جديدة | مصراوي",
-          "«ليه طلبي اترفض؟».. 7 أسباب لرفض الاستعلام الميداني في شقق سكن لكل المصريين وكيف تتفاداها",
-          "اعتماد ضوابط محور الإيجار ضمن «سكن لكل المصريين».. واستثناء لأصحاب الإيجار القديم"
+          "«ليه طلبي اترفض؟».. 7 أسباب لرفض الاستعلام الميداني في شقق سكن لكل المصريين وكيف تتفاداها"
         ]
       }
     ],
@@ -218571,8 +218646,8 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
+          "2 arrested for allegedly burglarizing Phoenix storage unit of former MLB player",
           "2 arrested in burglary of pro baseball player's storage unit",
-          "2 Men Arrested After Allegedly Burglarizing Storage Unit Belonging to Former MLB Player",
           "2 arrested after $93K in MLB gear, sneakers stolen from Phoenix storage unit"
         ]
       }
@@ -218613,5 +218688,34 @@
     ],
     "peak_traffic": 500,
     "category": "حوادث وقضايا"
+  },
+  "jamus-lim": {
+    "slug": "jamus-lim",
+    "name": "jamus lim",
+    "first_seen": "2026-10-12",
+    "appearances": [
+      {
+        "key": "2026-10-12|world",
+        "date": "2026-10-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Sengkang MP Jamus Lim in hospital with pneumonia",
+          "Sengkang GRC MP Jamus Lim hospitalised with pneumonia , Singapore News",
+          "Jamus Lim hospitalised with pneumonia"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "عام"
   }
 }

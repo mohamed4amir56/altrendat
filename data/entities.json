@@ -888,9 +888,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "البنك الأهلي الأول في السوق المصرية كوكيل للتمويل ومرتب رئيسي للقروض المشتركة",
           "سهى التركي: البنك الأهلي المصري يحرص على تعزيز علاقاته مع البنوك المحلية والإقليمية والدولية لتوفير حلول تمويلية متكاملة",
-          "محمد الأتربي: تمويلات البنك الأهلي المصري تخلق قيمة مضافة للاقتصاد المصري وتدعم التنمية المستدامة"
+          "محمد الأتربي: تمويلات البنك الأهلي المصري تخلق قيمة مضافة للاقتصاد المصري وتدعم التنمية المستدامة",
+          "البنك الأهلي المصري يتصدر تصنيفات «بلومبرج» للقروض المشتركة في مصر وأفريقيا"
         ]
       }
     ],
@@ -6149,10 +6149,25 @@
           "استقرار أسعار العملات الأجنبية بداية تعاملات اليوم 10 أكتوبر 2026",
           "سعر الدولار أمام الجنيه المصري اليوم السبت"
         ]
+      },
+      {
+        "key": "2026-10-13|sa",
+        "date": "2026-10-13",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "مصرف أبوظبي الإسلامي يتيح امتلاك سيارة جديدة بالتقسيط وبدون أرباح بالتعاون مع AMG الغلبان",
+          "مصرف أبوظبي الإسلامي – مصر يتيح تقسيط السيارات بدون أرباح لمدة 36 شهرًا بالتعاون مع «الغلبان أوتو تريدينج",
+          "مصرف أبوظبي الإسلامي يتيح امتلاك سيارة جديدة بالتقسيط وبدون أرباح بالتعاون مع AMG الغلبان"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 4,
+    "last_seen": "2026-10-13",
+    "total": 5,
     "countries": [
       "eg",
       "sa"
@@ -34866,9 +34881,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "\"ملمسش شعرة مني وهتجوزك\".. ليلة مقتل شاب على يد زوجته وعشيقها في شهر العسل؟",
-          "كشف ملابسات مقتل شاب مصري على يد زوجته وعشيقها في شهر العسل",
-          "\"تستاهل القتل\".. عندما تحرض السوشيال ميديا على النساء"
+          "تنفيذ حكم القتل تعزيرًا بحق مهرب هيروين باكستاني في مكة المكرمة",
+          "تنفيذ حُكم القتل تعزيرًا بأحد الجناة في مكة",
+          "تنفيذ حكم القتل تعزيرًا بمهرب هيروين في منطقة مكة"
         ]
       }
     ],
@@ -44970,8 +44985,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "يلا كورة يكشف.. تطورات الحالة الصحية لمعتمد جمال",
           "معتمد جمال يلحق ببعثة الزمالك فى رواندا الأربعاء بعد جراحة الظهر",
+          "يلا كورة يكشف.. تطورات الحالة الصحية لمعتمد جمال",
           "بعد خسارة القمة.. معتمد جمال يستعد لإجراء جراحة عاجلة"
         ]
       }
@@ -69499,15 +69514,31 @@
           "Zverev snags No. 1 ranking with Alcaraz loss, Sinner injury",
           "Alexander Zverev to end year as world number one after Carlos Alcaraz loses"
         ]
+      },
+      {
+        "key": "2026-10-13|eg",
+        "date": "2026-10-13",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Tennis: Zverev clinches year-end No. 1 ranking after Alcaraz loss and with Sinner out injured - Omni sports - Sports",
+          "Zverev clinches ATP Year-End No. 1 presented by PIF honours",
+          "Alexander Zverev to end year as world number one after Carlos Alcaraz loses"
+        ]
       }
     ],
     "last_seen": "2026-10-13",
-    "total": 4,
+    "total": 5,
     "countries": [
+      "eg",
       "world"
     ],
     "peak_traffic": 4000,
-    "category": "تعليم"
+    "category": "رياضة"
   },
   "adele-zaikman": {
     "slug": "adele-zaikman",
@@ -75097,8 +75128,8 @@
         "date": "2026-10-13",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "+5200",
-        "traffic_num": 5200,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -75114,7 +75145,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 5200,
+    "peak_traffic": 5000,
     "category": "عام"
   },
   "immigration-detention": {
@@ -78859,12 +78890,12 @@
         "country_name": "السعودية",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "دول وأماكن",
+        "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "Trump Says He Does Not Believe China and Russia are Helping Iran 'at All'",
-          "Trump: We May Have Overstepped in Targeting Iranian Leaders",
-          "Trump Scrambles to Defend Vladimir Putin and Xi Jinping After Damning Revelations of Support for Iran"
+          "Jon Gruden fires up Trump rally crowd in Ohio as if delivering a locker room speech then delivers endorsement",
+          "Fired NFL coach takes break from selling Cameos to speak at Donald Trump rally",
+          "‘Roll his fist up and fight’: Jon Gruden praises President Trump"
         ]
       }
     ],
@@ -78875,7 +78906,7 @@
       "world"
     ],
     "peak_traffic": 10000,
-    "category": "دول وأماكن"
+    "category": "سياسة"
   },
   "tony-burke-student-visa-overhaul": {
     "slug": "tony-burke-student-visa-overhaul",
@@ -211235,12 +211266,28 @@
           "Sahibzada Farhan's 89 helps Pakistan take 1-0 lead against Sri Lanka",
           "Experiment or stick with the winning XI? Pakistan face selection dilemma ahead of second Sri Lanka T20I"
         ]
+      },
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Deflated Sri Lanka look to prevent whitewash against dominant Pakistan",
+          "Pakistan scores its 2nd highest total in T20 cricket to win series against Sri Lanka",
+          "Sadaqat, Imran help Pakistan thump Sri Lanka to seal T20 series"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 1,
+    "last_seen": "2026-10-13",
+    "total": 2,
     "countries": [
-      "sa"
+      "sa",
+      "world"
     ],
     "peak_traffic": 10000,
     "category": "رياضة"
@@ -223724,7 +223771,7 @@
         "headlines": [
           "صندوق النقد يرفع توقعاته للجنيه المصري هذا العام ويخفضها للأعوام المقبلة",
           "صندوق النقد الدولي يتوقع ارتفاع متوسط التضخم بمصر إلى 14.8% خلال 2026-2027",
-          "أستاذ تمويل: نمو الاقتصاد المصري 5.1% بيتجاوز تقديرات البنك الدولي ومؤسسات كبرى"
+          "صندوق النقد الدولي يرفع توقعاته لنمو اقتصاد مصر إلى 4.7% للعام المالي الجاري"
         ]
       },
       {
@@ -223738,8 +223785,8 @@
         "publishable": false,
         "headlines": [
           "كجوك: وضعنا الاقتصادي جيد وجاذب للاستثمارات رغم التحديات العالمية والإقليمية.. وسنواصل الإصلاحات",
-          "وزير المالية: فرصة كبيرة لتوسيع التبادل التجاري مع الكونغو الديمقراطية ودعم القطاع الخاص",
-          "وزير: الاقتصاد المصري جاذب للاستثمار.. واستراتيجية طموحة لخفض المديونية الحكومية"
+          "وزير المالية: حققنا فائضا أوليا 4.9٪ من الناتج المحلي الإجمالي مقارنة بعجز أولي 3.4٪؜ في الأسواق الناشئة",
+          "وزير المالية خلال مائدة مستديرة مع مستثمري «جيفريز» ببانكوك: سنواصل الإصلاحات ونعمل على خفض حجم وأعباء الدين الحكومي"
         ]
       }
     ],
@@ -233797,14 +233844,14 @@
         "date": "2026-10-13",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "50000+",
-        "traffic_num": 50000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "الأهلي يفقد نجمه أمام النصر",
-          "دفعة قوية لـ الأهلي قبل مباراة النصر في روشن",
-          "ملحمة مرعبة في الانتظار.. فخ ناري يواجه الأهلي السعودي والنصر"
+          "ملحمة مرعبة في الانتظار.. فخ ناري يواجه الأهلي السعودي والنصر",
+          "عاجل.. النصر يستعيد لاعبه قبل مباراة الأهلي في دوري روشن"
         ]
       }
     ],
@@ -233813,7 +233860,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 50000,
+    "peak_traffic": 5000,
     "category": "شخصية"
   },
   "ملك-البحرين": {
@@ -235165,8 +235212,8 @@
         "publishable": true,
         "headlines": [
           "Live: Australia wins first South Africa Test after new ball does the damage",
-          "Australia vs South Africa LIVE: Australia chases first Test victory on day five in Durban",
-          "Aussie hero does it again after lucky break ends drought as famous win nears — LIVE"
+          "(1) Australia beat South Africa by 214 runs: first men’s cricket Test, day five – live",
+          "Australia vs South Africa LIVE: Australia chases first Test victory on day five in Durban"
         ]
       }
     ],
@@ -235361,14 +235408,14 @@
         "date": "2026-10-13",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "Krueger vs. Zhang Prediction at the Dongfeng Voyah Wuhan Open – Tuesday, October 13",
           "WTA Wuhan Second Round Best Bets Including Ashlyn Krueger vs Shuai Zhang",
-          "Ashlyn Krueger vs Shuai Zhang Prediction & Picks - WTA Wuhan Open"
+          "Krueger Faces Zhang in Wuhan Open Second Round Match"
         ]
       }
     ],
@@ -235377,7 +235424,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "رياضة"
   },
   "taiwan": {
@@ -235437,5 +235484,235 @@
     ],
     "peak_traffic": 100,
     "category": "حوادث وقضايا"
+  },
+  "grace-hopper-celebration-cancelled": {
+    "slug": "grace-hopper-celebration-cancelled",
+    "name": "grace hopper celebration cancelled",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "For Women In AI, What The Grace Hopper Celebration Cancellation Means",
+          "For Women In AI, What The Grace Hopper Celebration Cancellation Means"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "تقنية"
+  },
+  "powerball-winning-numbers-october-12-2026": {
+    "slug": "powerball-winning-numbers-october-12-2026",
+    "name": "powerball winning numbers october 12 2026",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Powerball win reported outside US",
+          "Another UK Powerball player won more than $1 million. Does it affect your odds of hitting the jackpot?",
+          "Powerball Jackpot Reaches $538 Million—Here’s What A Winner Would Take Home After Taxes"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "steve-kerr": {
+    "slug": "steve-kerr",
+    "name": "steve kerr",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Kristaps Porzingis expected to be at Warriors' facility on Tuesday",
+          "Re-signing Kristaps Porziņģis was Warriors’ only choice. They’ll live with the consequences"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "chuck-lorre": {
+    "slug": "chuck-lorre",
+    "name": "chuck lorre",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Chuck Lorre Reveals Charlie Sheen’s “Frightening” Final Days on Two and a Half Men",
+          "The True Story of Charlie Sheen’s Two and a Half Men –Tanking Meltdown Is Even Wilder Than You Think",
+          "Chuck Lorre claims Melanie Lynskey was ‘terrified’ of Charlie Sheen during his final “Two and a Half Men” scene"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "resignation": {
+    "slug": "resignation",
+    "name": "resignation",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Madras HC upholds TN assembly speaker's decision to accept resignations of 6 AIADMK MLAs",
+          "Supreme Court backs T.N. Speaker’s decision to drop disqualification proceedings against AIADMK MLAs",
+          "Madras HC upholds resignation of 6 AIADMK MLAs who joined Vijay's TVK | MR Vijayabhaskar also resigned from the AIADMK | Inshorts"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "oleksandr-syrskyi": {
+    "slug": "oleksandr-syrskyi",
+    "name": "oleksandr syrskyi",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Russia's offensive ability is broken, Kyiv's former top general tells BBC",
+          "Former commander-in-chief Syrskyi explains why he sent troops to Kursk operation instead of defending Pokrovs",
+          "Syrsky explained how Ukraine is reducing Russia’s military advantage"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "denver-weather": {
+    "slug": "denver-weather",
+    "name": "denver weather",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "Rain and cold coming this week: When, how cold, who's getting snow",
+          "Cold front arrives bringing rain, snow chances to Colorado",
+          "Denver weather: Sunny and breezy"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "طقس"
+  },
+  "السد-ضد-الهلال": {
+    "slug": "السد-ضد-الهلال",
+    "name": "السد ضد الهلال",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|sa",
+        "date": "2026-10-13",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "دوري النخبة الآسيوي: الهلال لرد اعتباره أمام السد القطري «الجريح»",
+          "برئاسة التمياط.. الهلال يغادر إلى الدوحة وسافيتش يشارك",
+          "الهلال والسد.. تكتيك إيطالي ضد فكر إسباني"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
   }
 }

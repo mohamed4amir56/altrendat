@@ -26148,9 +26148,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "اليمن مباشر.. دوي انفجارات في صنعاء والحوثيون يهددون باستهداف الرياض",
-          "التحالف: نفذنا عملية عسكرية نوعية لتحييد المصادر الحيوية لتغذية المجهود الحربي للميليشيات",
-          "السعودية: اعتراض صاروخين وسقوط شظايا بمنطقة سكنية بالظهران"
+          "اليمن مباشر.. التحالف يستهدف مخازن وقود بصنعاء والحديدة واعتراض صواريخ ومسيّرات بالسعودية",
+          "السعودية: اعتراض صاروخين وسقوط شظايا بمنطقة سكنية بالظهران",
+          "تفاصيل استهداف التحالف لمخازن أسلحة الحوثيين ومنصات الصواريخ ضد السعودية"
         ]
       }
     ],
@@ -203211,12 +203211,12 @@
         "country_name": "مصر",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "\"سطو مسلح يُرعب العائلة\".. كابوس الفجر يُبعد حارس فياريال عن موقعة نابولي",
-          "بسبب حادث سطو منزلي.. غياب حارس فياريال أمام نابولي في دوري أبطال أوروبا",
-          "التشكيل المتوقع لمباراة فياريال ونابولي يركز على الغيابات وأبرز النجوم في اللقاء"
+          "أليجري: نابولي لا يستحق الانهيار بهذه الطريقة، وأصبح الدفاع مصدرًا للخجل",
+          "أليجري: دي بروين لا يحب دوره الجديد مع نابولي.. ويمكنه إطالة مسيرته عامين",
+          "عمر فايد.. نابولي يستضيف فروزينوني في الدوري الإيطالي الليلة"
         ]
       }
     ],
@@ -203226,7 +203226,7 @@
       "eg"
     ],
     "peak_traffic": 100,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "arrest": {
     "slug": "arrest",
@@ -241540,12 +241540,12 @@
         "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "رياضة",
+        "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "Liveticker | Viking Stavanger - Bayern München 3:3 | 2. Spieltag | Champions League 2026/27",
-          "FC Bayern: Stammspieler fällt verletzt aus – Kompany verrät es im TV",
-          "Champions League: Bayern müssen auf Kunstrasen bestehen"
+          "16-Jähriger feiert Premiere beim FC Bayern",
+          "16-jähriger Podar-Stiube erstmals im Bayern-Kader",
+          "Erst im U19-Tor, abends auf der Profi-Bank: Der verrückte Tag des jungen Bayern-Talents"
         ]
       }
     ],
@@ -241556,7 +241556,7 @@
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "رياضة"
+    "category": "اقتصاد"
   },
   "napoli": {
     "slug": "napoli",
@@ -242701,8 +242701,8 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Inter-Brugge, le maglie dei giocatori dagli spogliatoi",
-          "Caos Inter-Bruges, fallo da rigore di Calhanoglu e gol annullato a Lautaro: decisioni giuste? Cos'è successo"
+          "Chi è Nicolò Tresoldi, tripletta in Inter-Bruges e ora potrebbe giocare con l'Italia",
+          "Inter-Brugge, le maglie dei giocatori dagli spogliatoi"
         ]
       }
     ],
@@ -242841,8 +242841,8 @@
         "date": "2026-10-14",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -242857,7 +242857,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "كروز-صاروخ": {
@@ -242995,11 +242995,27 @@
           "OpenAI engineer arrested in bugging of executive conference room",
           "OpenAI employee arrested for allegedly planting recording device in its office"
         ]
+      },
+      {
+        "key": "2026-10-14|sa",
+        "date": "2026-10-14",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Saudi national charged with allegedly installing a hidden recording device at OpenAI",
+          "OpenAI engineer arrested in bugging of executive conference room",
+          "FBI arrests former OpenAI employee for planting listening device"
+        ]
       }
     ],
-    "last_seen": "2026-10-13",
-    "total": 1,
+    "last_seen": "2026-10-14",
+    "total": 2,
     "countries": [
+      "sa",
       "world"
     ],
     "peak_traffic": 500,
@@ -243107,8 +243123,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "أديمي يُعادل نجم البايرن.. أكثر اللاعبين الألمان تسجيلًا للأهداف بدوري الأبطال",
           "هدف كريم اديمي في مرمي جالطة سراي بدوري ابطال اوروبا",
+          "أديمي يُعادل نجم البايرن.. أكثر اللاعبين الألمان تسجيلًا للأهداف بدوري الأبطال",
           "المتعة لا تتوقف.. برشلونة يسحق جالاتا سراي في دوري أبطال أوروبا"
         ]
       }
@@ -243166,8 +243182,8 @@
         "publishable": false,
         "headlines": [
           "Galatasaray v Barcelona - UEFA Champions League result as Lamine Yamal assists twice in Barca win at Rams Park",
-          "'Hear that noise!' - Batrakov gives Galatasaray shock lead over Barca",
-          "Galatasaray 1-4 Barcelona (13 Oct, 2026) Game Analysis"
+          "Gordon extends Barca lead after 'wonderful' Yamal sets up another",
+          "Hansi Flick explains decision to start Dani Olmo as a false nine for Barcelona vs Galatasaray"
         ]
       },
       {
@@ -243180,16 +243196,32 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
+          "Live score: Galatasaray v Barcelona (UEFA Champions League) - Talents Abroad - Sports",
+          "'Playing the best football in Europe and the world' - Joan Laporta talks up red-hot Barcelona ahead of Galatasaray test",
+          "Barcelona’s expected lineup against Galatasaray in the Champions League"
+        ]
+      },
+      {
+        "key": "2026-10-14|sa",
+        "date": "2026-10-14",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
           "Galatasaray vs Barcelona: UEFA Champions League stats & head-to-head",
-          "One goal enough for Flick as Barca enter Galatasaray cauldron - World - Sports",
-          "Video: a disallowed goal lights up the clash: VAR and Cancelo rescue Barcelona from Turkish hell"
+          "Yamal Stays Cool at Boiling Galatasaray to Lift Barcelona to Victory",
+          "Barca's Flick, Cubarsi warn of Galatasaray's scary atmosphere"
         ]
       }
     ],
     "last_seen": "2026-10-14",
-    "total": 2,
+    "total": 3,
     "countries": [
       "eg",
+      "sa",
       "world"
     ],
     "peak_traffic": 10000,
@@ -243211,8 +243243,8 @@
         "publishable": false,
         "headlines": [
           "Atlético 2 - 0 Manchester United: resumen, goles y resultado de la Champions League",
-          "El Atlético de Madrid agrava la crisis del Manchester United",
-          "El Atlético de Simeone se quedó con tres puntos de oro ante Manchester United: reviví lo mejor"
+          "El Atleti pudo con el segundo hueso inglés",
+          "El Atlético de Madrid agrava la crisis del Manchester United"
         ]
       }
     ],
@@ -243234,14 +243266,13 @@
         "date": "2026-10-13",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
-        "category": "حوادث وقضايا",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Devils at Red Wings projected lineups",
           "Red Wings still searching for more scoring, but opportunities are there",
-          "Detroit Red Wings are shooting plenty, they just aren't scoring. What can they do to fix that?"
+          "Game Preview #6: New Jersey Devils @ Detroit Red Wings"
         ]
       }
     ],
@@ -243250,8 +243281,8 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 5000,
+    "category": "رياضة"
   },
   "luis-díaz": {
     "slug": "luis-díaz",
@@ -243336,14 +243367,14 @@
         "date": "2026-10-14",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "Licensable picture: Viking Stavanger - Bayern Munich",
-          "Olise sees red as Viking FK hold Bayern in dramatic six-goal stalemate",
-          "Gallery: Viking vs. FC Bayern, Champions League"
+          "Video: A comeback that fell short: Vikingur wound Bayern's pride in a crazy Champions League match",
+          "Aussie’s season reaches new heights on famous UCL night after dramatic comeback against Bayern Munich"
         ]
       }
     ],
@@ -243441,6 +243472,356 @@
       "sa"
     ],
     "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "baseball-tonight": {
+    "slug": "baseball-tonight",
+    "name": "baseball tonight",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "50000+",
+        "traffic_num": 50000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Brewers impose their will on Dodgers in taking 2-0 NLCS lead",
+          "Crew overcomes 3 deficits in seesaw Game 2, tightens grip on NLCS",
+          "Brewers show they aren't afraid of anybody, not even Yoshinobu Yamamoto, in NLCS Game 2: '1 through 9, they come to play'"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 50000,
+    "category": "رياضة"
+  },
+  "arsenal-fc-vs-losc-lille-standings": {
+    "slug": "arsenal-fc-vs-losc-lille-standings",
+    "name": "arsenal f.c. vs losc lille standings",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Arsenal 3-0 Lille commentary",
+          "Team news: Gyokeres and Merino among five changes",
+          "Arsenal v Lille: Champions League – live"
+        ]
+      },
+      {
+        "key": "2026-10-14|eg",
+        "date": "2026-10-14",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Team news: Gyokeres and Merino among five changes",
+          "Arsenal cruise past Lille into share of Champions League lead - World - Sports",
+          "Arsenal 3-0 Lille: Jurrien Timber, Eberechi Eze and Bukayo Saka on target as Gunners win in Champions League"
+        ]
+      },
+      {
+        "key": "2026-10-14|sa",
+        "date": "2026-10-14",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Arsenal vs Lille: UEFA Champions League stats & head-to-head",
+          "Arsenal 3-0 Lille commentary",
+          "Arsenal Cruise Past Lille into Share of Champions League Lead"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-14",
+    "total": 3,
+    "countries": [
+      "eg",
+      "sa",
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "رياضة"
+  },
+  "street-fighter-movie-early-reviews": {
+    "slug": "street-fighter-movie-early-reviews",
+    "name": "street fighter movie early reviews",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "First reactions to Street Fighter are mixed, with some critics calling it a \"good time,\" but others say it \"falls flat\"",
+          "The Best Street Fighter Anime You've Never Seen",
+          "\"Street Fighter' red carpet – Jason Momoa, Cody Rhodes, Noah Centineo"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "فن ومشاهير"
+  },
+  "sabres-vs-canadiens": {
+    "slug": "sabres-vs-canadiens",
+    "name": "sabres vs canadiens",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Buffalo Sabres At Montreal Canadiens - Lineups, Injury Updates, And Game Notes",
+          "Sabres at Canadiens",
+          "How to watch Sabres vs. Canadiens: TV channel and streaming options for October 13"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "wade-wilson": {
+    "slug": "wade-wilson",
+    "name": "wade wilson",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "What Good’s A Gun Without The Greatest Marksman Of All Time To Aim It in Wade Wilson Deadpool #9",
+          "Wade Wilson: Deadpool #9 Preview: Bullseye Aims for Trouble",
+          "Punisher’s Ultimate Weapons Debuts, With Infinity Gauntlet-Level Potential"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "panthers-vs-blue-jackets": {
+    "slug": "panthers-vs-blue-jackets",
+    "name": "panthers vs blue jackets",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Gameday 7: Florida Panthers at Columbus Blue Jackets",
+          "How to watch Panthers vs. Blue Jackets: TV channel and streaming options for October 13",
+          "Panthers visit the Blue Jackets after Reinhart’s 2-goal game"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "christian-brothers-college-high-school": {
+    "slug": "christian-brothers-college-high-school",
+    "name": "christian brothers college high school",
+    "first_seen": "2026-10-13",
+    "appearances": [
+      {
+        "key": "2026-10-13|world",
+        "date": "2026-10-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "تعليم",
+        "publishable": false,
+        "headlines": [
+          "CBC president placed on leave, according to letter sent to staff",
+          "CBC High School president placed on leave"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "تعليم"
+  },
+  "عزه-رمزي": {
+    "slug": "عزه-رمزي",
+    "name": "عزه رمزي",
+    "first_seen": "2026-10-14",
+    "appearances": [
+      {
+        "key": "2026-10-14|eg",
+        "date": "2026-10-14",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "والد مضيفة الطيران المصرية ينهار على الهواء.. ستدفن مع أمها",
+          "ضحية هجوم مطار الرياض.. هكذا وصل \"الخبر الأليم\" إلى مصر",
+          "تركي آل الشيخ يواسي والد المضيفة المصرية: \"أرجو اعتباري ابنك\""
+        ]
+      }
+    ],
+    "last_seen": "2026-10-14",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 2000,
+    "category": "شخصية"
+  },
+  "man-united": {
+    "slug": "man-united",
+    "name": "man united",
+    "first_seen": "2026-10-14",
+    "appearances": [
+      {
+        "key": "2026-10-14|eg",
+        "date": "2026-10-14",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Champions League: 'We expect more from the top' - reaction as Man Utd lose at Atletico",
+          "Atletico Madrid vs Manchester United and Arsenal vs Lille - Champions League LIVE: Red Devils winless...",
+          "Lisandro Martinez calls out Jason Wilcox and wants Man Utd chief sacked after defeat"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-14",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "وادي-الدواسر": {
+    "slug": "وادي-الدواسر",
+    "name": "وادي الدواسر",
+    "first_seen": "2026-10-14",
+    "appearances": [
+      {
+        "key": "2026-10-14|sa",
+        "date": "2026-10-14",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "الدفاع المدني: زوال الخطر عن المنطقة الشرقية مع استمرار التعليمات الوقائية",
+          "الدفاع المدني السعودي: زوال الخطر عن مدينة الرياض",
+          "«الدفاع المدني»: زوال الخطر في وادي الدواسر والسليل بعد إطلاق الإنذار المبكر"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-14",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "شخصية"
+  },
+  "atletico-madrid": {
+    "slug": "atletico-madrid",
+    "name": "atletico madrid",
+    "first_seen": "2026-10-14",
+    "appearances": [
+      {
+        "key": "2026-10-14|sa",
+        "date": "2026-10-14",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Champions League: 'We expect more from the top' - reaction as Man Utd lose at Atletico",
+          "Timber copies Bergkamp at Arsenal; Manchester United suffer another setback",
+          "Atletico Madrid vs Manchester United and Arsenal vs Lille - Champions League LIVE: Red Devils winless..."
+        ]
+      }
+    ],
+    "last_seen": "2026-10-14",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
     "category": "رياضة"
   }
 }

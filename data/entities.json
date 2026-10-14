@@ -149265,7 +149265,7 @@
         "headlines": [
           "الرياض تسجل 4 إصابات وتضرر 15 منزلاً إثر ضربات صاروخية",
           "اليمن مباشر.. استهداف مبنى لأرامكو بالظهران والتحالف ينفذ ضربات بصنعاء والحديدة",
-          "مصادر: سماع دوي قوي في الظهران قرب مقر أرامكو"
+          "الدفاع المدني: 4 إصابات وأضرار مادية في 15 منزلاً إثر سقوط شظايا كروز في الرياض"
         ]
       },
       {
@@ -176829,12 +176829,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "50000+",
         "traffic_num": 50000,
-        "category": "تقنية",
+        "category": "طقس",
         "publishable": true,
         "headlines": [
           "PM2.5 readings high in 3 regions of Singapore as haze persists; air quality remains unhealthy across country",
           "Haze Situation Update (13 October 2026)",
-          "Can the air-con remove PM2.5 particles? Will indoor plants and surgical masks help?"
+          "Haze watch Oct 14: PSI unhealthy across Singapore, thundery showers forecast this afternoon"
         ]
       }
     ],
@@ -176844,7 +176844,7 @@
       "world"
     ],
     "peak_traffic": 50000,
-    "category": "تقنية"
+    "category": "طقس"
   },
   "sixers": {
     "slug": "sixers",
@@ -179160,10 +179160,25 @@
           "Hugh Jackman turns 58: Revisit 8 of his iconic roles",
           "Things you didn’t know about Hugh Jackman"
         ]
+      },
+      {
+        "key": "2026-10-14|world",
+        "date": "2026-10-14",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "In 2009, Hugh Jackman met an Ethiopian coffee farmer who inspired a business; his Laughing Man Foundation",
+          "5 Hugh Jackman Movies That Proved He Was More Than Wolverine",
+          "The Wolverine To Real Steel: 7 Hugh Jackman Movies You Can't Miss"
+        ]
       }
     ],
-    "last_seen": "2026-10-13",
-    "total": 4,
+    "last_seen": "2026-10-14",
+    "total": 5,
     "countries": [
       "world"
     ],
@@ -179636,11 +179651,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "Australia bowl again, Litchfield out with hip complaint; Bangladesh debut for Disha Biswas",
-          "Aussies lose star opener to injury as Carey called up",
-          "Injury blow for Aussies with opener ruled out"
+          "AUSCH vs BANCH, 7th Match, World Championship of Legends 2026 - Commentary",
+          "Match Predictions: World Championship of Legends 2026 - 9th Match - Australia Champions vs Bangladesh Champions - October 7th",
+          "Mahmudullah's quick fifty in vain as Bangladesh Champions lose to Australia Champions in WCL"
         ]
       }
     ],
@@ -247853,14 +247868,14 @@
         "date": "2026-10-14",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "+1200",
+        "traffic_num": 1200,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "ASML Is About to Kick Off Tech Earnings. It’s a Big Deal for Chip Stocks.",
-          "ASML’s Guidance Key to Instill Confidence in Fragile Chip Trade",
-          "Here’s How Much ASML Stock Is Expected to Move After Earnings"
+          "ASML says it's getting order interest through 2030 as profit smashes expectations",
+          "Private credit woes aren’t dampening demand for alternatives, says Goldman Sachs Asset Management",
+          "We're raising our Micron price target after an incredible quarter and robust guidance"
         ]
       }
     ],
@@ -247869,7 +247884,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 1200,
     "category": "اقتصاد"
   },
   "jodar": {
@@ -247884,12 +247899,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "حوادث وقضايا",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Jódar, sancionado por violación del código de conducta en Shanghai: \"¡Dame la p*** toalla, coño!\"",
-          "Tennis star Alexander Bublik destroys racket before smashing drinks container in latest on-court outburst",
-          "“Just Crazy Behavior” – Fans Stunned By Alexander Bublik’s Intense Outburst During Tough Shanghai Masters 3R Win"
+          "!$+?(-TOTAL_SPORTEK-) Auger-Aliassime vs Ruud 𝐋𝐈𝐕𝐄 𝐒𝐭𝐫𝐞𝐚𝐦 Ｔｖ Ｃｈａｎｎｅｌ 14 October 2026",
+          "Shanghai R4 previews and predictions: Auger-Aliassime vs. Ruud, Jodar vs. Van de Zandschulp",
+          "Casper Ruud vs. Felix Auger-Aliassime prediction, odds, picks for ATP Shanghai Masters 2026"
         ]
       }
     ],
@@ -247899,7 +247914,7 @@
       "world"
     ],
     "peak_traffic": 200,
-    "category": "حوادث وقضايا"
+    "category": "رياضة"
   },
   "bob-mackie": {
     "slug": "bob-mackie",
@@ -248003,8 +248018,9 @@
         "category": "طقس",
         "publishable": false,
         "headlines": [
-          "طقس الأربعاء في مصر.. شبورة صباحية واضطراب الملاحة ودرجات الحرارة تصل إلى 38",
-          "الأرصاد تحذر من طقس الأربعاء في مصر.. أمطار ورياح وأتربة واضطراب الملاحة البحرية"
+          "الأرصاد: أمطار متفرقة وانخفاض على درجات الحرارة في فلسطين",
+          "طقس فلسطين: ارتفاع طفيف في الحرارة الأربعاء يعقبه انخفاض وأمطار حتى السبت",
+          "حالة الطقس: سقوط زخات متفرقة من الامطار على معظم مناطق البلاد"
         ]
       }
     ],
@@ -248109,8 +248125,8 @@
         "date": "2026-10-14",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -248124,7 +248140,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "asml": {
@@ -248254,9 +248270,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Al Ittihad 1-2 Shabab Al Ahli: Sardar Azmoun Scores Twice in AFC Champions League Elite Win",
+          "Ittihad lose 2-0 to Shabab Al-Ahli in AFC Champions L…",
           "From a penalty to a goal: controversial refereeing incident in the Al-Ittihad v Shabab Al-Ahli clash",
-          "Al Ittihad vs Shabab Al-Ahli match lineup | AFC Champions League Elite · 13 Oct 2026"
+          "Azmoun scores brace as Shabab Al-Ahli defeats Al-Ittihad in ACL Elite [VIDEO]"
         ]
       }
     ],
@@ -248296,5 +248312,34 @@
     ],
     "peak_traffic": 200,
     "category": "رياضة"
+  },
+  "موعد-صلاة-الفجر": {
+    "slug": "موعد-صلاة-الفجر",
+    "name": "موعد صلاة الفجر",
+    "first_seen": "2026-10-14",
+    "appearances": [
+      {
+        "key": "2026-10-14|sa",
+        "date": "2026-10-14",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "ديني",
+        "publishable": false,
+        "headlines": [
+          "مواقيت الصلاة في أسوان اليوم الأربعاء 14-10-2026",
+          "موعد أذان المغرب اليوم الثلاثاء في القاهرة والمحافظات",
+          "أحدث أخبار مصر والعالم"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-14",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "ديني"
   }
 }

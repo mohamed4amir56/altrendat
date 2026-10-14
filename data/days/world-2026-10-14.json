@@ -4,7 +4,7 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-10-14T06:00:55.683414+00:00",
+  "generated_at": "2026-10-14T06:09:33.231793+00:00",
   "day": "2026-10-14",
   "trends": [
     {
@@ -20,8 +20,8 @@
           "url": "https://www.channelnewsasia.com/singapore/haze-oct-14-air-quality-remains-unhealthy-across-country-pm25-readings-high-in-3-regions-6457956",
           "source": "CNA",
           "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHaZSkt6yrOdncAJYvmjAXMZr6MaymLJFfqv5j_1XWkK6Rl_3eSbmkdADh-g",
-          "og_title": "PM2.5 readings high in 3 regions of Singapore as haze persists; air quality remains unhealthy across country",
-          "og_desc": "Hourly PM2.5 readings in the west, south and east entered the high band at 1pm at 195, 173 and 160, respectively.",
+          "og_title": "PM2.5 reading enters very high band in Singapore's west as haze persists; air quality remains unhealthy across country",
+          "og_desc": "Hourly PM2.5 readings in the west, south and east had entered the high band at 1pm at 195, 173 and 160, respectively.",
           "og_image": "https://dam.mediacorp.sg/image/upload/s--MVuY6FYR--/c_crop,h_1125,w_1999,x_1,y_228/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/10/14/mar_2949.jpg?itok=IgcxThhY",
           "ok": true
         },
@@ -33,6 +33,16 @@
           "og_title": "Haze Situation Update (13 October 2026)",
           "og_desc": "Singapore, 13 October 2026 – Showers were observed over several parts of Singapore today. As at 7pm, the 1-hr PM2.5 concentration readings were 57 – 9",
           "og_image": "https://www.nea.gov.sg/images/default-source/haze-situation-2026/hazehotspots_13oct2026.jpg",
+          "ok": true
+        },
+        {
+          "title": "Haze watch Oct 14: PSI unhealthy across Singapore, thundery showers forecast this afternoon",
+          "url": "https://www.asiaone.com/singapore/pm-25-elevated-psi-unhealthy-singapore-haze-14-october",
+          "source": "AsiaOne",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnJExpWhnKFfziCF9LSJGqkWNMRCW-GAGG4uU5LvRvdu6fewUH5J6VETllNXM",
+          "og_title": "Haze watch Oct 14: PSI unhealthy across Singapore, thundery showers forecast this afternoon",
+          "og_desc": "Air quality in Singapore remained in the unhealthy range on Wednesday (Oct 14) morning, but thundery showers over some areas in the afternoon could bring some reprieve. At 9am, PSI ranged from 106 in northern Singapore to 144 in the western region. The next highest readings of 142 and 139 were recorded in the central and eastern regions respectively.Meanwhile, PM2.5...",
+          "og_image": "https://www.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Oct2026/Haze%20Singapore%20PM25%20elevated%20PSI%20unhealthy%2014%20October.jpg?itok=pqb22WPn",
           "ok": true
         },
         {
@@ -53,16 +63,6 @@
           "og_title": "Attendance at pools and stadiums falls 12% as haze curbs outdoor exercise",
           "og_desc": "Warren Golf and Country Club in Chua Chu Kang has also observed a 20 per cent drop in weekly attendance due to the haze.",
           "og_image": "https://dam.mediacorp.sg/image/upload/s--2J24zhrm--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/10/14/screenshot_2026-10-13_182800.png?itok=izurORmh",
-          "ok": true
-        },
-        {
-          "title": "Haze watch Oct 14: PSI unhealthy across Singapore, thundery showers forecast this afternoon",
-          "url": "https://www.asiaone.com/singapore/pm-25-elevated-psi-unhealthy-singapore-haze-14-october",
-          "source": "AsiaOne",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnJExpWhnKFfziCF9LSJGqkWNMRCW-GAGG4uU5LvRvdu6fewUH5J6VETllNXM",
-          "og_title": "Haze watch Oct 14: PSI unhealthy across Singapore, thundery showers forecast this afternoon",
-          "og_desc": "Air quality in Singapore remained in the unhealthy range on Wednesday (Oct 14) morning, but thundery showers over some areas in the afternoon could bring some reprieve. At 9am, PSI ranged from 106 in northern Singapore to 144 in the western region. The next highest readings of 142 and 139 were recorded in the central and eastern regions respectively.Meanwhile, PM2.5...",
-          "og_image": "https://www.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Oct2026/Haze%20Singapore%20PM25%20elevated%20PSI%20unhealthy%2014%20October.jpg?itok=pqb22WPn",
           "ok": true
         },
         {
@@ -191,10 +191,10 @@
       "geos": [
         "SG"
       ],
-      "category": "تقنية",
-      "icon": "💻",
-      "color": "#5aa9ff",
-      "reason": "الأخبار تطابق: update",
+      "category": "طقس",
+      "icon": "🌤️",
+      "color": "#7fd8ff",
+      "reason": "الأخبار تطابق: forecast",
       "publishable": true,
       "article": {
         "headline": "Singapore Haze Persists as PSI Levels Hit Unhealthy 144 in West",
@@ -755,6 +755,119 @@
       "published_at": "2026-10-14T04:31:10.873750+00:00"
     },
     {
+      "title": "asml stock",
+      "traffic": "+2100",
+      "traffic_num": 2100,
+      "published": "Tue, 13 Oct 2026 22:10:00 -0700",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQL4Yg-z3c0kr6ZnMboGdd5EhwgjJcTr4VlhrDrK8MHkTGe4li3rna8GtDcJo",
+      "image_source": "CNBC",
+      "news": [
+        {
+          "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+          "url": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
+          "source": "CNBC",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQL4Yg-z3c0kr6ZnMboGdd5EhwgjJcTr4VlhrDrK8MHkTGe4li3rna8GtDcJo",
+          "og_title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+          "og_desc": "ASML said some customers are \"expressing an interest\" in placing orders with the company in 2029 and 2030, giving investors a view into longer-term demand.",
+          "og_image": "https://image.cnbcfm.com/api/v1/image/108291541-1776230822579-gettyimages-2250757897-NETHERLANDS_FOUQUET.jpeg?v=1783337282&w=1920&h=1080",
+          "ok": true
+        },
+        {
+          "title": "Private credit woes aren’t dampening demand for alternatives, says Goldman Sachs Asset Management",
+          "url": "https://www.cnbc.com/2026/10/06/private-credit-woes-not-curbing-demand-for-alternatives-goldman-says.html",
+          "source": "CNBC",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQQRl0MD2NE62MmpMklsgexf6Kiw8Eh4MHIkpIrhgv4E20xRe-T96_r8Jobt8A",
+          "og_title": "Private credit woes aren’t dampening demand for alternatives, says Goldman Sachs Asset Management",
+          "og_desc": "Why investors remain happy with alternative investments, and how some opportunities are emerging in private credit, according to a leading Wall Street bank.",
+          "og_image": "https://image.cnbcfm.com/api/v1/image/108349311-1786644284007-gettyimages-2277809234-peopleworkinglifestyle_290.jpeg?v=1791308822&w=1920&h=1080",
+          "ok": true
+        },
+        {
+          "title": "We're raising our Micron price target after an incredible quarter and robust guidance",
+          "url": "https://www.cnbc.com/investingclub/2026/09/30/were-raising-our-micron-price-target-after-an-incredible-quarter-and-robust-outlook.html",
+          "source": "CNBC",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcROyJrALnOYdpJZGxEO_fvqYL3ncVs3Ai-98XeQ-EZCllZ3XqNVMVpGk8lrTDI",
+          "og_title": "We're raising our Micron price target after an incredible quarter and robust guidance",
+          "og_desc": "Micron signaled that fiscal 2027 will be another strong year as demand for its memory products continues to exceed supply.",
+          "og_image": "https://image.cnbcfm.com/api/v1/image/108352482-1787272514906-IMG_8261.jpeg?v=1787272676&w=1920&h=1080",
+          "ok": true
+        },
+        {
+          "title": "ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asml-reports-11-7-billion-050000954.html",
+          "source": "Yahoo Finance",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR1Wio2qwEei50qLqGAxtNDsaRRMBP5cjcrhpvOO-kJSnO5ES5TttNQOs8V8A",
+          "og_title": "ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026",
+          "og_desc": "ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026Full-year 2026 total net sales expected to be between €44 billion and €45 billion, with a gross margin around 56% VELDHOVEN, the Netherlands, October 14, 2026 – Today, ASML Holding NV (ASML) has published its 2026 third-quarter results. Q3 total net sales of €11.7 billion, gross margin of 57.5%, net income of €5.0 billionASML expects Q4 2026 total net sales between €14.2 billion and €15.2 billion, and a gross margin",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/ffbd931b2685b515883a24d438edc7453d1290597fe418bead737ff1693757b0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F48879941279132ff69d566a42ae86fb2.jpg",
+          "ok": true
+        },
+        {
+          "title": "ASML’s Guidance Key to Instill Confidence in Fragile Chip Trade",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-13/asml-s-guidance-key-to-instill-confidence-in-fragile-chip-trade",
+          "source": "Bloomberg.com",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTc-HLBJG9iCES6t2zTg5StmxrkNv6PnBGSfdKG7Z3QLzJOVfwOy7JP8Qvi15E",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "ASML Is About to Kick Off Tech Earnings. It’s a Big Deal for Chip Stocks.",
+          "url": "https://www.barrons.com/articles/asml-earnings-stock-price-d0973c5c",
+          "source": "Barron's",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR8TOOd1cnC9l7B3xIaeCTWg5EYVMJSYId07mN03HrmK8xGMbdFHlTT6-6pD2I",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Watch William Randolph Changes His Tires as the Search for Cody Virgin Grows | Catfish Murders Season 1 Video",
+          "url": "https://www.oxygen.com/catfish-murders/season-1/videos/william-randolph-changes-his-tires-as-the-search-for-cody-virgin",
+          "source": "Oxygen Official Site",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQmrEDcnkgpRpnZO7tsJWVbX5u5uitS2RX_9Tymsrj-jv6TvxyIl48fzIYf-94",
+          "og_title": "William Randolph Changes His Tires as the Search for Cody Virgin Grows | Oxygen",
+          "og_desc": "Season 1 Sneak Peek: Surveillance footage shows William Daniel Randolph replacing the tires on his truck as investigators use phone data to search for missing corrections officer Cody Virgin.",
+          "og_image": "https://www.oxygen.com/sites/oxygen/files/media_mpx/thumbnails/d352n9f9m1zdi2.cloudfront.net/image/BWT3_TVE_-_Oxygen/591/757/CFM_SNEAK_PEAK_101_1_3_SD_1920x1080_271195205926.jpg",
+          "ok": true
+        },
+        {
+          "title": "Jim Cramer bucks all the stock market negativity with 3 buy recommendations",
+          "url": "https://www.cnbc.com/investingclub/2026/10/13/jim-cramer-bucks-all-the-stock-market-negativity-with-3-buy-recommendations.html",
+          "source": "CNBC",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQI119D_wNSUKxF0yca3z3U9eW0I6VfO65JR5JHj16JFb02qmdy8zyi8FVQwwM",
+          "og_title": "Jim Cramer bucks all the stock market negativity with 3 buy recommendations",
+          "og_desc": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+          "og_image": "https://image.cnbcfm.com/api/v1/image/107200472-1677528554272-NUP_200782_00307.jpg?v=1785428018&w=1920&h=1080",
+          "ok": true
+        },
+        {
+          "title": "Here’s How Much ASML Stock Is Expected to Move After Earnings",
+          "url": "https://www.investopedia.com/here-is-how-much-asml-stock-is-expected-to-move-after-earnings-12166433",
+          "source": "Investopedia",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-5ZSbFr7eqBSOZwKaegVzDzTqBgLV7vsDkQH3J1Qr1uIVvXJzn-RZYdJ5rmI",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "اقتصاد",
+      "icon": "💰",
+      "color": "#f5c542",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-14-asml-stock.png",
+      "published_at": "2026-10-14T06:09:33.231793+00:00"
+    },
+    {
       "title": "tim bradford",
       "traffic": "2000+",
       "traffic_num": 2000,
@@ -852,6 +965,117 @@
       "reason": "حجم بحث أقل من 10000",
       "publishable": false,
       "card": "cards/world-2026-10-14-anne-hathaway.png",
+      "published_at": "2026-10-14T04:31:10.873750+00:00"
+    },
+    {
+      "title": "rafael jodar",
+      "traffic": "+1100",
+      "traffic_num": 1100,
+      "published": "Tue, 13 Oct 2026 21:10:00 -0700",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyVt47DfXbfnKLTR8h0YwwBW6eINQovFIMjjwkJTJP4Vcx3eJKZMJ2t3Nsm7A",
+      "image_source": "ATP Tour",
+      "news": [
+        {
+          "title": "¿Por qué el próximo rival de Jódar es el 'terror' del tenis español?",
+          "url": "https://www.atptour.com/es/news/quien-es-el-proximo-rival-de-jodar-en-shanghai-2026",
+          "source": "ATP Tour",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyVt47DfXbfnKLTR8h0YwwBW6eINQovFIMjjwkJTJP4Vcx3eJKZMJ2t3Nsm7A",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Qué partidos se juegan en Shanghái el miércoles 14 de octubre: Jódar y el Tsitsipas - Medvedev",
+          "url": "https://www.puntodebreak.com/2026/10/13/orden-juego-miercoles-14-octubre-shanghai-jodar-abre-jornada-partidazo-dia-sesion",
+          "source": "Puntodebreak",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzee9S74BIDKjHLU3ze8I4SPSpHzPwiGsyCQ1u9sGyny6BwyQpFkXC0rlcgW0",
+          "og_title": "Orden de juego del miércoles 14 de octubre en Shanghái: Jódar abre la jornada y el partidazo del día, a sesión nocturna",
+          "og_desc": "Día grande de tenis el que se podrá vivir este miércoles 14 de octubre en el ATP Masters 1000 Shanghái 2026 con la disputa de los partidos de octavos de final en la parte baja del cuadro. La derrota de Alcaraz ha provocado un seísmo en un sector realmente abierto para todos los tenistas en liza y en el que Rafael Jódar es uno de los grandes protagonistas.El joven madrileño intentará prolongar su sueño en Shanghái, así como sumar unos puntos muy valiosos en su afán por clasificarse a las ATP Finals, enfrentándose al neerlandés Botic Van de Zandschulp. Dicho encuentro ha sido programado para abrir la jornada por lo que habrá que madrugar en España para verlo. La hora de inicio son las 06:00h en España, Baleares, Ceuta y Melilla, es decir, la 12:00h en la ciudad china.Posteriormente, saltarán a pista Casper Ruud y Félix Auger-Aliassime, en un encuentro que promete emociones fuertes y de pronóstico incierto. Si bien es cierto que por ranking sería el canadiense el favorito, el tenista noruego está transmitiendo buenas sensaciones y sabe lo que es llegar muy lejos en torneos de este calibre.Ya programados para la sesión nocturna están los otros dos encuentros, siendo el que disputarán Daniill Medvedev y Stefanos Tsitsipas el que más interés mediático genera. Ambos tienen una rivalidad íntima forjada durante años y buscan avanzar en un torneo que podría ser punto de inflexión en sus respectivas trayectorias. Se jugará desde las 12:00h en España, mientras que una vez concluya, arrancará el duelo entre Tommy Paul y Zizou Bergs. Será interesante ver si el belga es capaz de dar continuidad a su gran nivel mostrado contra Alcaraz o acusa la resaca del éxito propia de una gran gesta como esa.Este es el orden de juego en Shanghái para el miércoles 14 de octubre Image",
+          "og_image": "https://www.puntodebreak.com/sites/puntodebreak/files/2026-10/rafael-jodar-orden-juego-miercoles-14-octubre-atp-shanghai-2026.jpeg",
+          "ok": true
+        },
+        {
+          "title": "Jódar, en Shanghai contra el 'matagigantes' español: \"Hay que dar un último empujón\"",
+          "url": "https://www.mundodeportivo.com/tenis/20261013/1004238142/jodar-shanghai-matagigantes-espanol-hay-dar-ultimo-empujon.html",
+          "source": "Mundo Deportivo",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo0w_EkHXnzk5FlcbnBAOfe55J2r3ZgkY0JbNOsB8SxS9so4a8GLj5PhIEKwU",
+          "og_title": "Jódar, en Shanghai contra el 'matagigantes' español: \"Hay que dar un último empujón\"",
+          "og_desc": "Miércoles, día 14 de octubre. Mediodía en Shanghai, las seis de la mañana horario peninsular español. Rafa Jódar conocerá la pista central del torneo Masters 1000",
+          "og_image": "https://imagenes2.mundodeportivo.com/files/og_thumbnail/files/fp/uploads/2026/08/09/6a77e0515117d.r_d.1458-729-5126.jpeg",
+          "ok": true
+        },
+        {
+          "title": "Jódar, sancionado por violación del código de conducta en Shanghai: \"¡Dame la p*** toalla, coño!\"",
+          "url": "https://www.mundodeportivo.com/tenis/20261014/1004238542/jodar-sancionado-violacion-codigo-conducta-shanghai-dame-p-toalla-cono.html",
+          "source": "Mundo Deportivo",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRj9Vn4U6mkkW5FnOq18gfdCDUfoBGKFS9BlduZGm0v4QMrjrYCqGMBIAWJuaA",
+          "og_title": "Jódar, sancionado por violación del código de conducta en Shanghai: \"¡Dame la p*** toalla, coño!\"",
+          "og_desc": "El tenis de élite tiene momentos de máxima tensión donde a veces es fácil perder los nervios. Es lo que le sucedió este miércoles a Rafa Jódar en su partido de",
+          "og_image": "https://imagenes2.mundodeportivo.com/files/og_thumbnail/files/fp/uploads/2026/10/01/6abe5353bf746.r_d.1499-855-4086.jpeg",
+          "ok": true
+        },
+        {
+          "title": "Tennis star Alexander Bublik destroys racket before smashing drinks container in latest on-court outburst",
+          "url": "https://sports.yahoo.com/articles/tennis-star-alexander-bublik-destroys-083908407.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ_N-JefiYSq4PkmFV9_jSIrHCEuhpsjKmcZr52ysv_ScZYuLN2eez4SxsH2_k",
+          "og_title": "Tennis star Alexander Bublik destroys racket before smashing drinks container in latest on-court outburst",
+          "og_desc": "",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/201e3bd9c39ff812bb27ccadd9d68f84e411d191b783af504d35e0e8b96b423b/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_us_sports_articles_270%2Ffad49d70d3b15e1a7e738342c6f50d01.jpg",
+          "ok": true
+        },
+        {
+          "title": "“Just Crazy Behavior” – Fans Stunned By Alexander Bublik’s Intense Outburst During Tough Shanghai Masters 3R Win",
+          "url": "https://sports.yahoo.com/articles/just-crazy-behavior-fans-stunned-002214601.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQeIqV0a6HXm4IhKHwpmTQeGBPxuQYlKTRUU3ivwPHQ1SQe52SiHYJflP3lk2I",
+          "og_title": "“Just Crazy Behavior” – Fans Stunned By Alexander Bublik’s Intense Outburst During Tough Shanghai Masters 3R Win",
+          "og_desc": "Alexander Bublik went on a racket-smashing rampage and then cut himself by slamming a cooler during his third-round match against Brandon Nakashima of the USA at the 2026 Shanghai Masters. Bublik’s rage-filled outburst unsurprisingly drew reactions from numerous fans, who were shocked by the Kazakh’s behavior.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/c693643873dc2333fdb29f91f2f856b59c37e89b990d046ad6215f19018a730e/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcollege_football_network_979%2F78dfd350ada16a05a39e2010bccbfb13.png",
+          "ok": true
+        },
+        {
+          "title": "!$+?(-TOTAL_SPORTEK-) Auger-Aliassime vs Ruud 𝐋𝐈𝐕𝐄 𝐒𝐭𝐫𝐞𝐚𝐦 Ｔｖ Ｃｈａｎｎｅｌ 14 October 2026",
+          "url": "https://www.uco.es/scai/visita_virtual/SCAI%20UCO.html?xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL2hhcHB5aHVicy5ubC92b3MvbmV3L2EueG1sIi8+PC9rcnBhbm8+&id=video-auger-aliassime-vs-ruud-tv963246889",
+          "source": "Universidad de Córdoba (UCO)",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBxml0YBA-Kvic7ytGnA2iGC-cZmSJcheuKAd-7_6COGw04I02dY6_EfWLTTE",
+          "og_title": "SCAI UCO | Virtual tour generated by Visitas Virtuales Granada",
+          "og_desc": "Virtual tour generated by Visitas Virtuales Granada",
+          "og_image": "",
+          "ok": true
+        },
+        {
+          "title": "Shanghai R4 previews and predictions: Auger-Aliassime vs. Ruud, Jodar vs. Van de Zandschulp",
+          "url": "https://tenngrand.com/shanghai-tennis-previews-picks-predictions-auger-aliassime-vs-ruud-jodar-van-de-zandschulp/",
+          "source": "The Grandstand",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgs4yfC-u911wjnHPWh5pJRB0wQm4mxsbiS64XoeKNbGQ7hbgF8PURwItoeE0",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Casper Ruud vs. Felix Auger-Aliassime prediction, odds, picks for ATP Shanghai Masters 2026",
+          "url": "https://www.dimers.com/tennis/news/casper-ruud-vs-felix-auger-aliassime-tennis-prediction-atp-shanghai-masters-2026-ac",
+          "source": "Dimers",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTvfo5iclDhBdD3_hRK2f5fZSDUzYKDAcBLMcVDliUQKq_vP9clikTx4c21_XE",
+          "og_title": "Casper Ruud vs. Felix Auger-Aliassime prediction, odds, picks for ATP Shanghai Masters 2026",
+          "og_desc": "Casper Ruud will square off with Felix Auger-Aliassime in the round of 16 at the ATP Shanghai event on Wednesday.",
+          "og_image": "http://cdn.cosmicjs.com/b5b31670-c642-11f1-aa52-ff28d16e207d-TEN_2026_1_ATP_3085_119248_195800.png",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "سياسة",
+      "icon": "🏛️",
+      "color": "#ff5c7c",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-14-rafael-jodar.png",
       "published_at": "2026-10-14T04:31:10.873750+00:00"
     },
     {
@@ -1043,180 +1267,6 @@
       "publishable": false,
       "card": "cards/world-2026-10-14-magdalena-fręch.png",
       "published_at": "2026-10-14T04:31:10.873750+00:00"
-    },
-    {
-      "title": "rafael jodar",
-      "traffic": "+900",
-      "traffic_num": 900,
-      "published": "Tue, 13 Oct 2026 21:10:00 -0700",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyVt47DfXbfnKLTR8h0YwwBW6eINQovFIMjjwkJTJP4Vcx3eJKZMJ2t3Nsm7A",
-      "image_source": "ATP Tour",
-      "news": [
-        {
-          "title": "¿Por qué el próximo rival de Jódar es el 'terror' del tenis español?",
-          "url": "https://www.atptour.com/es/news/quien-es-el-proximo-rival-de-jodar-en-shanghai-2026",
-          "source": "ATP Tour",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyVt47DfXbfnKLTR8h0YwwBW6eINQovFIMjjwkJTJP4Vcx3eJKZMJ2t3Nsm7A",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Qué partidos se juegan en Shanghái el miércoles 14 de octubre: Jódar y el Tsitsipas - Medvedev",
-          "url": "https://www.puntodebreak.com/2026/10/13/orden-juego-miercoles-14-octubre-shanghai-jodar-abre-jornada-partidazo-dia-sesion",
-          "source": "Puntodebreak",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzee9S74BIDKjHLU3ze8I4SPSpHzPwiGsyCQ1u9sGyny6BwyQpFkXC0rlcgW0",
-          "og_title": "Orden de juego del miércoles 14 de octubre en Shanghái: Jódar abre la jornada y el partidazo del día, a sesión nocturna",
-          "og_desc": "Día grande de tenis el que se podrá vivir este miércoles 14 de octubre en el ATP Masters 1000 Shanghái 2026 con la disputa de los partidos de octavos de final en la parte baja del cuadro. La derrota de Alcaraz ha provocado un seísmo en un sector realmente abierto para todos los tenistas en liza y en el que Rafael Jódar es uno de los grandes protagonistas.El joven madrileño intentará prolongar su sueño en Shanghái, así como sumar unos puntos muy valiosos en su afán por clasificarse a las ATP Finals, enfrentándose al neerlandés Botic Van de Zandschulp. Dicho encuentro ha sido programado para abrir la jornada por lo que habrá que madrugar en España para verlo. La hora de inicio son las 06:00h en España, Baleares, Ceuta y Melilla, es decir, la 12:00h en la ciudad china.Posteriormente, saltarán a pista Casper Ruud y Félix Auger-Aliassime, en un encuentro que promete emociones fuertes y de pronóstico incierto. Si bien es cierto que por ranking sería el canadiense el favorito, el tenista noruego está transmitiendo buenas sensaciones y sabe lo que es llegar muy lejos en torneos de este calibre.Ya programados para la sesión nocturna están los otros dos encuentros, siendo el que disputarán Daniill Medvedev y Stefanos Tsitsipas el que más interés mediático genera. Ambos tienen una rivalidad íntima forjada durante años y buscan avanzar en un torneo que podría ser punto de inflexión en sus respectivas trayectorias. Se jugará desde las 12:00h en España, mientras que una vez concluya, arrancará el duelo entre Tommy Paul y Zizou Bergs. Será interesante ver si el belga es capaz de dar continuidad a su gran nivel mostrado contra Alcaraz o acusa la resaca del éxito propia de una gran gesta como esa.Este es el orden de juego en Shanghái para el miércoles 14 de octubre Image",
-          "og_image": "https://www.puntodebreak.com/sites/puntodebreak/files/2026-10/rafael-jodar-orden-juego-miercoles-14-octubre-atp-shanghai-2026.jpeg",
-          "ok": true
-        },
-        {
-          "title": "Jódar, en Shanghai contra el 'matagigantes' español: \"Hay que dar un último empujón\"",
-          "url": "https://www.mundodeportivo.com/tenis/20261013/1004238142/jodar-shanghai-matagigantes-espanol-hay-dar-ultimo-empujon.html",
-          "source": "Mundo Deportivo",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo0w_EkHXnzk5FlcbnBAOfe55J2r3ZgkY0JbNOsB8SxS9so4a8GLj5PhIEKwU",
-          "og_title": "Jódar, en Shanghai contra el 'matagigantes' español: \"Hay que dar un último empujón\"",
-          "og_desc": "Miércoles, día 14 de octubre. Mediodía en Shanghai, las seis de la mañana horario peninsular español. Rafa Jódar conocerá la pista central del torneo Masters 1000",
-          "og_image": "https://imagenes2.mundodeportivo.com/files/og_thumbnail/files/fp/uploads/2026/08/09/6a77e0515117d.r_d.1458-729-5126.jpeg",
-          "ok": true
-        },
-        {
-          "title": "Jódar, sancionado por violación del código de conducta en Shanghai: \"¡Dame la p*** toalla, coño!\"",
-          "url": "https://www.mundodeportivo.com/tenis/20261014/1004238542/jodar-sancionado-violacion-codigo-conducta-shanghai-dame-p-toalla-cono.html",
-          "source": "Mundo Deportivo",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRj9Vn4U6mkkW5FnOq18gfdCDUfoBGKFS9BlduZGm0v4QMrjrYCqGMBIAWJuaA",
-          "og_title": "Jódar, sancionado por violación del código de conducta en Shanghai: \"¡Dame la p*** toalla, coño!\"",
-          "og_desc": "El tenis de élite tiene momentos de máxima tensión donde a veces es fácil perder los nervios. Es lo que le sucedió este miércoles a Rafa Jódar en su partido de",
-          "og_image": "https://imagenes2.mundodeportivo.com/files/og_thumbnail/files/fp/uploads/2026/10/01/6abe5353bf746.r_d.1499-855-4086.jpeg",
-          "ok": true
-        },
-        {
-          "title": "Tennis star Alexander Bublik destroys racket before smashing drinks container in latest on-court outburst",
-          "url": "https://sports.yahoo.com/articles/tennis-star-alexander-bublik-destroys-083908407.html",
-          "source": "Yahoo Sports",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ_N-JefiYSq4PkmFV9_jSIrHCEuhpsjKmcZr52ysv_ScZYuLN2eez4SxsH2_k",
-          "og_title": "Tennis star Alexander Bublik destroys racket before smashing drinks container in latest on-court outburst",
-          "og_desc": "",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/201e3bd9c39ff812bb27ccadd9d68f84e411d191b783af504d35e0e8b96b423b/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_us_sports_articles_270%2Ffad49d70d3b15e1a7e738342c6f50d01.jpg",
-          "ok": true
-        },
-        {
-          "title": "“Just Crazy Behavior” – Fans Stunned By Alexander Bublik’s Intense Outburst During Tough Shanghai Masters 3R Win",
-          "url": "https://sports.yahoo.com/articles/just-crazy-behavior-fans-stunned-002214601.html",
-          "source": "Yahoo Sports",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQeIqV0a6HXm4IhKHwpmTQeGBPxuQYlKTRUU3ivwPHQ1SQe52SiHYJflP3lk2I",
-          "og_title": "“Just Crazy Behavior” – Fans Stunned By Alexander Bublik’s Intense Outburst During Tough Shanghai Masters 3R Win",
-          "og_desc": "Alexander Bublik went on a racket-smashing rampage and then cut himself by slamming a cooler during his third-round match against Brandon Nakashima of the USA at the 2026 Shanghai Masters. Bublik’s rage-filled outburst unsurprisingly drew reactions from numerous fans, who were shocked by the Kazakh’s behavior.",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/c693643873dc2333fdb29f91f2f856b59c37e89b990d046ad6215f19018a730e/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcollege_football_network_979%2F78dfd350ada16a05a39e2010bccbfb13.png",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "سياسة",
-      "icon": "🏛️",
-      "color": "#ff5c7c",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-10-14-rafael-jodar.png",
-      "published_at": "2026-10-14T04:31:10.873750+00:00"
-    },
-    {
-      "title": "asml",
-      "traffic": "+900",
-      "traffic_num": 900,
-      "published": "Tue, 13 Oct 2026 22:30:00 -0700",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQL4Yg-z3c0kr6ZnMboGdd5EhwgjJcTr4VlhrDrK8MHkTGe4li3rna8GtDcJo",
-      "image_source": "CNBC",
-      "news": [
-        {
-          "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
-          "url": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
-          "source": "CNBC",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQL4Yg-z3c0kr6ZnMboGdd5EhwgjJcTr4VlhrDrK8MHkTGe4li3rna8GtDcJo",
-          "og_title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
-          "og_desc": "ASML said some customers are \"expressing an interest\" in placing orders with the company in 2029 and 2030, giving investors a view into longer-term demand.",
-          "og_image": "https://image.cnbcfm.com/api/v1/image/108291541-1776230822579-gettyimages-2250757897-NETHERLANDS_FOUQUET.jpeg?v=1783337282&w=1920&h=1080",
-          "ok": true
-        },
-        {
-          "title": "Watch William Randolph Changes His Tires as the Search for Cody Virgin Grows | Catfish Murders Season 1 Video",
-          "url": "https://www.oxygen.com/catfish-murders/season-1/videos/william-randolph-changes-his-tires-as-the-search-for-cody-virgin",
-          "source": "Oxygen Official Site",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQmrEDcnkgpRpnZO7tsJWVbX5u5uitS2RX_9Tymsrj-jv6TvxyIl48fzIYf-94",
-          "og_title": "William Randolph Changes His Tires as the Search for Cody Virgin Grows | Oxygen",
-          "og_desc": "Season 1 Sneak Peek: Surveillance footage shows William Daniel Randolph replacing the tires on his truck as investigators use phone data to search for missing corrections officer Cody Virgin.",
-          "og_image": "https://www.oxygen.com/sites/oxygen/files/media_mpx/thumbnails/d352n9f9m1zdi2.cloudfront.net/image/BWT3_TVE_-_Oxygen/591/757/CFM_SNEAK_PEAK_101_1_3_SD_1920x1080_271195205926.jpg",
-          "ok": true
-        },
-        {
-          "title": "Jim Cramer bucks all the stock market negativity with 3 buy recommendations",
-          "url": "https://www.cnbc.com/investingclub/2026/10/13/jim-cramer-bucks-all-the-stock-market-negativity-with-3-buy-recommendations.html",
-          "source": "CNBC",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQI119D_wNSUKxF0yca3z3U9eW0I6VfO65JR5JHj16JFb02qmdy8zyi8FVQwwM",
-          "og_title": "Jim Cramer bucks all the stock market negativity with 3 buy recommendations",
-          "og_desc": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-          "og_image": "https://image.cnbcfm.com/api/v1/image/107200472-1677528554272-NUP_200782_00307.jpg?v=1785428018&w=1920&h=1080",
-          "ok": true
-        },
-        {
-          "title": "ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/asml-reports-11-7-billion-050000954.html",
-          "source": "Yahoo Finance",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR1Wio2qwEei50qLqGAxtNDsaRRMBP5cjcrhpvOO-kJSnO5ES5TttNQOs8V8A",
-          "og_title": "ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026",
-          "og_desc": "ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026Full-year 2026 total net sales expected to be between €44 billion and €45 billion, with a gross margin around 56% VELDHOVEN, the Netherlands, October 14, 2026 – Today, ASML Holding NV (ASML) has published its 2026 third-quarter results. Q3 total net sales of €11.7 billion, gross margin of 57.5%, net income of €5.0 billionASML expects Q4 2026 total net sales between €14.2 billion and €15.2 billion, and a gross margin",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/ffbd931b2685b515883a24d438edc7453d1290597fe418bead737ff1693757b0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F48879941279132ff69d566a42ae86fb2.jpg",
-          "ok": true
-        },
-        {
-          "title": "ASML Is About to Kick Off Tech Earnings. It’s a Big Deal for Chip Stocks.",
-          "url": "https://www.barrons.com/articles/asml-earnings-stock-price-d0973c5c",
-          "source": "Barron's",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR8TOOd1cnC9l7B3xIaeCTWg5EYVMJSYId07mN03HrmK8xGMbdFHlTT6-6pD2I",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "ASML’s Guidance Key to Instill Confidence in Fragile Chip Trade",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-13/asml-s-guidance-key-to-instill-confidence-in-fragile-chip-trade",
-          "source": "Bloomberg.com",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTc-HLBJG9iCES6t2zTg5StmxrkNv6PnBGSfdKG7Z3QLzJOVfwOy7JP8Qvi15E",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Here’s How Much ASML Stock Is Expected to Move After Earnings",
-          "url": "https://www.investopedia.com/here-is-how-much-asml-stock-is-expected-to-move-after-earnings-12166433",
-          "source": "Investopedia",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-5ZSbFr7eqBSOZwKaegVzDzTqBgLV7vsDkQH3J1Qr1uIVvXJzn-RZYdJ5rmI",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "اقتصاد",
-      "icon": "💰",
-      "color": "#f5c542",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-10-14-asml.png",
-      "published_at": "2026-10-14T06:00:55.683414+00:00"
     },
     {
       "title": "la kings",
@@ -2091,6 +2141,57 @@
       "publishable": false,
       "card": "cards/world-2026-10-14-lindsay-lohan.png",
       "published_at": "2026-10-14T06:00:55.683414+00:00"
+    },
+    {
+      "title": "hugh jackman",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Tue, 13 Oct 2026 22:50:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTIUnTFbQvefS7Nx6nAIzQpJPjREOvCYmUuDREbbdAk5WDpx5-tRpdqwYXRB7Q",
+      "image_source": "The Times of India",
+      "news": [
+        {
+          "title": "In 2009, Hugh Jackman met an Ethiopian coffee farmer who inspired a business; his Laughing Man Foundation",
+          "url": "https://timesofindia.indiatimes.com/world/us/in-2009-hugh-jackman-met-an-ethiopian-coffee-farmer-who-inspired-a-business-his-laughing-man-foundation-later-supported-safer-homes-healthcare-and-college-scholarships-for-farming-families/articleshow/134890227.cms",
+          "source": "The Times of India",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTIUnTFbQvefS7Nx6nAIzQpJPjREOvCYmUuDREbbdAk5WDpx5-tRpdqwYXRB7Q",
+          "og_title": "In 2009, Hugh Jackman met an Ethiopian coffee farmer who inspired a business; his Laughing Man Foundation later supported safer homes, healthcare and college scholarships for farming families",
+          "og_desc": "A meeting in Ethiopia in 2009 changed how actor Hugh Jackman viewed coffee, inspiring him to launch Laughing Man Coffee and support farming communities through healthcare, housing, education and livelihood programmes. In 2009, Hollywood actor Hugh Jackman travelled to Ethiopia with humanitarian organisation World Vision and met a 27-year-old coffee farmer named Dukale, whose determination to support his family despite difficult circumstances left a lasting impression on him.",
+          "og_image": "https://static.toiimg.com/thumb/msid-134890308,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "ok": true
+        },
+        {
+          "title": "5 Hugh Jackman Movies That Proved He Was More Than Wolverine",
+          "url": "https://nofilmschool.com/hugh-jackman-movies",
+          "source": "No Film School",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3RrJLp4LycKwR4Hijj5i0Sa4zFj7VSX_bZ_tLiSCR17Fp_DHIqDoFIJohjPE",
+          "og_title": "5 Hugh Jackman Movies That Proved He Was More Than Wolverine",
+          "og_desc": "The Australian actor has so much depth and has been in some incredible movies outside of Marvel.",
+          "og_image": "https://nofilmschool.com/media-library/image.jpg?id=68417051&width=1200&height=600&coordinates=0%2C30%2C0%2C31",
+          "ok": true
+        },
+        {
+          "title": "The Wolverine To Real Steel: 7 Hugh Jackman Movies You Can't Miss",
+          "url": "https://www.zoomtventertainment.com/photos/the-wolverine-to-real-steel-7-hugh-jackman-movies-you-cant-miss-photo-gallery-156322387",
+          "source": "Zoom TV",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSmlWUNBWXBaQ-dkK20JI0Hbv-bx6TPwqItTtcamBlqHyFX-56hOy0A0OTHJUQ",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-14-hugh-jackman.png",
+      "published_at": "2026-10-14T06:09:33.231793+00:00"
     }
   ]
 }

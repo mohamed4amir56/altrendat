@@ -1258,11 +1258,11 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "سعر الدولار في مصر يرتفع مجدداً.. ماذا يحدث للجنيه؟",
-          "آخر تحديث لسعر الدولار الأمريكى اليوم الجمعة 16 أكتوبر 2026 أمام الجنيه",
-          "سعر الدولار مقابل الجنيه المصري في 11 بنكاً مع نهاية تعاملات الخميس"
+          "سعر الدولار مقابل الجنيه المصري في 11 بنكاً مع نهاية تعاملات الخميس",
+          "سعر الدولار في التعاملات الصباحية اليوم الخميس في البنوك"
         ]
       }
     ],
@@ -4675,14 +4675,14 @@
         "date": "2026-10-16",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "هكذا علَّق عمرو موسى على تصريحات السيسي عن الدستور المصري",
-          "\"دستور مصر لن يمسه أحد\".. تصريحات للسيسي تثير تساؤلات حول نهاية ولايته في عام 2030",
-          "ترحيب حزبي في مصر بتأكيد السيسي «عدم المساس بالدستور»"
+          "السيسي يوجه رسالة بشأن أمن السعودية وحدودها والممرات البحرية",
+          "السيسي : مصر لن تقبل المساس بأمن السعودية وحدودها",
+          "السيسي: استهداف السعودية يؤثر على الأمن القومي المصري"
         ]
       }
     ],
@@ -27257,15 +27257,30 @@
           "Troy couple killed in house fire, daughter gravely injured",
           "One dead, 2 in critical condition after house fire in Troy"
         ]
+      },
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "Santa Ana winds combined with warm temps raise fire threat through Saturday across SoCal",
+          "Red Flag Warning: Power shutoffs in effect for thousands in Southern California",
+          "Red flag warning in effect. Here's when and where to expect strong gusts"
+        ]
       }
     ],
-    "last_seen": "2026-09-28",
-    "total": 2,
+    "last_seen": "2026-10-15",
+    "total": 3,
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 5000,
+    "category": "طقس"
   },
   "cbs-sunday-morning": {
     "slug": "cbs-sunday-morning",
@@ -101091,8 +101106,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "هكذا علَّق عمرو موسى على تصريحات السيسي عن الدستور المصري",
           "\"دستور مصر لن يمسه أحد\".. تصريحات للسيسي تثير تساؤلات حول نهاية ولايته في عام 2030",
-          "برلمانى: رسائل الرئيس بالندوة التثقيفية تضع مسئولية حماية الدولة على عاتق الجميع",
           "صندوق الأفكار كريم ينجو من «الطلقة»!"
         ]
       }
@@ -203748,8 +203763,8 @@
         "publishable": false,
         "headlines": [
           "توقعات مباراة برايتون ضد كاونو زالغيريس: فرصة لمطاردة الصدارة",
-          "أسيست وتألق مبهر.. يونس إبراهيم يخطف الأنظار مع برايتون في أول مباراة رسمية",
-          "الدوري الأوروبي – المشاركة الأولى.. يونس إبراهيم يصنع هدفا في فوز برايتون على زالجيريس"
+          "\"منح درسًا هامًا للاعبينا\".. مدرب برايتون يوضح سبب مشاركة يونس إبراهيم في دوري المؤتمر الأوروبي",
+          "أسيست وتألق مبهر.. يونس إبراهيم يخطف الأنظار مع برايتون في أول مباراة رسمية"
         ]
       }
     ],
@@ -217006,15 +217021,30 @@
           "Jennifer Lawrence Denied Chris Pratt Affair Rumors After Apology",
           "Jennifer Lawrence Once Apologised to Anna Faris Over Chris Pratt Affair Scandal Despite 'Not Doing Anything Wrong'"
         ]
+      },
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Why Chuck Lorre Felt Vindicated After Anna Faris Left Mom",
+          "TV Legend Torches Sitcom Star for Quitting His Hit Show",
+          "Chuck Lorre felt vindicated when Anna Faris left ‘Mom’ for ‘mysterious reasons’"
+        ]
       }
     ],
-    "last_seen": "2026-10-13",
-    "total": 2,
+    "last_seen": "2026-10-15",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "category": "فن ومشاهير"
   },
   "fall-back-2026": {
     "slug": "fall-back-2026",
@@ -224909,7 +224939,7 @@
         "publishable": false,
         "headlines": [
           "«يوروبا ليغ»: يوفنتوس يخطف فوزاً مثيراً من سيلتا فيغو",
-          "ما القنوات الناقلة لمباراة سيلتا فيجو ويوفنتوس في الدوري الأوروبي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
+          "يوفنتوس يقلبها على سيلتا.. وأولمبياكوس يزيد متاعب مرسيليا",
           "موعد مباراة جوفنتوس ضد سلتا فيغو والقنوات الناقلة"
         ]
       }
@@ -257632,12 +257662,12 @@
         "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "نقيب الأطباء: إعداد تعديل تشريعى لإلزام فروع الجامعات الأجنبية بمعايير القبول المصرية",
-          "نقابة الأطباء تطالب بوقف قبول طلاب جدد بالكليات التى لم تنشئ مستشفياتها الجامعية",
-          "التعليم العالي تحسم الجدل بشأن قبول طلاب أدبي بكليات الطب وتكشف أعداد الطلاب الأجانب بالجامعات"
+          "تونس.. ينتحل صفة طالب لتوزيع المخدرات في مطعم جامعة",
+          "القصرين: الحرس الوطني يُطيح بمروّج خطير",
+          "القصرين: مروّج ينتحل صفة طالب لترويج المخدرات داخل مطعم جامعي"
         ]
       }
     ],
@@ -257648,7 +257678,7 @@
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "مي-عز-الدين": {
     "slug": "مي-عز-الدين",
@@ -271921,9 +271951,9 @@
         "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
-          "تكريم مدير الإضاءة حسن السيد في افتتاح «الجونة السينمائي»",
-          "أسما شريف منير: الحجاب مش عائق.. وتجربتي في مهرجان الجونة أثبتت لي احترام الاختلاف",
-          "مي سليم تتألق على السجادة الحمراء في افتتاح مهرجان الجونة السينمائي في | مصراوي"
+          "مي سليم تتألق على السجادة الحمراء في افتتاح مهرجان الجونة السينمائي في | مصراوي",
+          "عمرو منسي يكشف من مهرجان الجونة سر سؤاله لعمرو دياب عن تجديد الشغف.. ماذا قال؟",
+          "الكابلز يخطفون الأنظار في مهرجان الجونة 2026.. لقطات رومانسية على السجادة الحمراء"
         ]
       }
     ],
@@ -271950,9 +271980,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "أمام أعين هيثم حسن.. طوفان بنفيكا يجتاح سلتيك في الدوري الأوروبي",
+          "بعد نزوله بدقائق.. هيثم حسن يصنع الفارق لسلتيك أمام بنفيكا",
           "بنفيكا ضد سيلتك.. هيثم حسن دكة في التشكيل الرسمي بالدوري الأوروبي",
-          "هيثم حسن على مقاعد البدلاء.. تشكيل سيلتيك أمام بنفيكا في الدوري الأوروبي"
+          "موعد مباراة سيلتيك وبنفيكا في الدوري الأوروبي والقناة الناقلة"
         ]
       }
     ],
@@ -273228,6 +273258,263 @@
           "بعد سجنه 10 أعوام.. سعد لمجرد يحذف منشوراته على انستغرام",
           "تفاصيل مقلقة عن حالة سعد لمجرد الصحية والنفسية داخل السجن.. \"يبكي طوال اليوم\"",
           "حدث بالفن| انهيار سعد لمجرد في محبسه وأزمة \"بوستر\" مهرجان القاهرة السينمائي"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-16",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "cnn-news": {
+    "slug": "cnn-news",
+    "name": "cnn news",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Five Takeaways From James Talarico’s CNN Town Hall With Texas Voters",
+          "The week in 34 photos",
+          "Talarico faces voters, but not Paxton, in CNN town hall"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "دول وأماكن"
+  },
+  "tsunami": {
+    "slug": "tsunami",
+    "name": "tsunami",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Cartoon: AI tsunami",
+          "Opinion | Unintelligence on Super Intelligence",
+          "Letters: All those in favour of a 'dumber' AI say 'aye'"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "تقنية"
+  },
+  "blues-vs-wild": {
+    "slug": "blues-vs-wild",
+    "name": "blues vs wild",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Projected Lineup: Oct. 15 at Minnesota | St. Louis Blues",
+          "Projected Lineup: Blues vs. Wild",
+          "Blues Forward Buchnevich Returns To St. Louis For Birth Of Child"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "sharks-vs-predators": {
+    "slug": "sharks-vs-predators",
+    "name": "sharks vs predators",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Sharks at Predators projected lineups",
+          "Game Day Gutcheck and Lineups: Sharks Visit Music City",
+          "Sharks’ lineup vs. Nashville Predators in flux as six-game road trip begins"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "juju-smith-schuster": {
+    "slug": "juju-smith-schuster",
+    "name": "juju smith-schuster",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Source: Steelers Hosting WR JuJu Smith-Schuster",
+          "Steelers hosting WR JuJu Smith-Schuster for visit",
+          "Chargers work out JuJu Smith-Schuster Tuesday"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "jets-vs-blackhawks": {
+    "slug": "jets-vs-blackhawks",
+    "name": "jets vs blackhawks",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "GAMEDAY: Jets at Blackhawks",
+          "Blackhawks Vs Jets: Projected Lineup, How To Watch, & More Ahead Of Game 8",
+          "How to watch Jets vs. Blackhawks: TV channel and streaming options for October 15"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "tennessee-basketball": {
+    "slug": "tennessee-basketball",
+    "name": "tennessee basketball",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Tennessee basketball vs Xavier exhibition game, score, TV channel",
+          "HOOPS CENTRAL: Xavier vs. Tennessee",
+          "Filip Borovicanin in Xavier's starting lineup against Tennessee"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "وزارة-الموارد-البشرية-والتنمية-الاجتماعية": {
+    "slug": "وزارة-الموارد-البشرية-والتنمية-الاجتماعية",
+    "name": "وزارة الموارد البشرية والتنمية الاجتماعية",
+    "first_seen": "2026-10-16",
+    "appearances": [
+      {
+        "key": "2026-10-16|sa",
+        "date": "2026-10-16",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": []
+      }
+    ],
+    "last_seen": "2026-10-16",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "سياسة"
+  },
+  "محمود-ياسين": {
+    "slug": "محمود-ياسين",
+    "name": "محمود ياسين",
+    "first_seen": "2026-10-16",
+    "appearances": [
+      {
+        "key": "2026-10-16|sa",
+        "date": "2026-10-16",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "فيديو للفنان محمود ياسين قبل وفاته.. ابنه عمرو يتذكره بتغريدة",
+          "«كنت أول من تلقى الخبر».. رانيا محمود ياسين تستعيد أصعب لحظات رحيل والدها",
+          "مناداة محمود ياسين ليلاً.. شهيرة تروي تفاصيل حياتها بعد رحيله"
         ]
       }
     ],

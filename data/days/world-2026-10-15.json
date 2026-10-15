@@ -4,13 +4,13 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-10-15T23:01:09.886129+00:00",
+  "generated_at": "2026-10-15T23:30:58.801754+00:00",
   "day": "2026-10-15",
   "trends": [
     {
       "title": "awakino gorge",
-      "traffic": "+314500",
-      "traffic_num": 314500,
+      "traffic": "+319500",
+      "traffic_num": 319500,
       "published": "Wed, 14 Oct 2026 17:40:00 -0700",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5v9m53xXny047Xwl2cjFD5sLlTodZ2VGefReuopUeUQtpELGlGwVRaskTeGo",
       "image_source": "NZ Herald",
@@ -598,6 +598,27 @@
           "og_title": "Santa Ana winds combined with warm temps raise fire threat through Saturday across SoCal",
           "og_desc": "Red Flag Warnings are now in effect for parts of Southern California as a significant Santa Ana wind event ramps up, bringing warm temperatures and the threat of dangerous fires.",
           "og_image": "https://cdn.abcotvs.com/dip/images/19941681_101526-azusa-fire.jpg?w=1600",
+          "ok": true
+        },
+        {
+          "title": "Red Flag Warning: Power shutoffs in effect for thousands in Southern California",
+          "url": "https://ktla.com/news/california/red-flag-warning-power-shutoffs-southern-california/",
+          "source": "KTLA",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMCtAejiGCnkWMR4aPYmQsGSTewjEVcHc4PK-k4yBzaoak1vuc9cFv5rhr2sA",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Red flag warning in effect. Here's when and where to expect strong gusts",
+          "url": "https://www.nbclosangeles.com/news/california-wildfires/red-flag-warning-la-forecast-winds-wildfires/3956581/",
+          "source": "NBC Los Angeles",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSMEDdv6O0Nr1ycz_kqGVHEV_HBEjBlEx_P2bNd94g7b5j_obZv5wSV5RZgLk",
+          "og_title": "Red flag warning in effect due to Santa Ana winds. When and where to expect strong gusts",
+          "og_desc": "A red flag warning went into effect Thursday morning for parts of Los Angeles County with Santa Ana winds expected to gain strength late this week.",
+          "og_image": "https://media.nbclosangeles.com/2026/10/fire-firefighter-generic-wildfire-los-angeles.png?resize=1200%2C675&quality=85&strip=all",
           "ok": true
         }
       ],
@@ -1569,6 +1590,58 @@
       },
       "card": "cards/world-2026-10-15-jalen-hurts.png",
       "published_at": "2026-10-15T17:31:14.716897+00:00"
+    },
+    {
+      "title": "cnn news",
+      "traffic": "20000+",
+      "traffic_num": 20000,
+      "published": "Thu, 15 Oct 2026 15:50:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRnicaOTxSIcOOV-JL66AyOJ4GlnxMzUZ7UY8jwhSDU_i7qbS141kUUwxnuz2c",
+      "image_source": "WSJ",
+      "news": [
+        {
+          "title": "Five Takeaways From James Talarico’s CNN Town Hall With Texas Voters",
+          "url": "https://www.wsj.com/politics/elections/five-takeaways-from-james-talaricos-cnn-town-hall-with-texas-voters-971ae916",
+          "source": "WSJ",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRnicaOTxSIcOOV-JL66AyOJ4GlnxMzUZ7UY8jwhSDU_i7qbS141kUUwxnuz2c",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "The week in 34 photos",
+          "url": "https://www.cnn.com/2026/10/15/world/gallery/photos-this-week-october-8-october-15",
+          "source": "CNN",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSH8dlDm5k1K473KgDuou9aSwvv8OTXDaqigGu3xNxqy31giN3jLb71QF91de0",
+          "og_title": "The week in 34 photos | CNN",
+          "og_desc": "",
+          "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/wip07-08-07-28-2026-10-08t174953z-173975157-rc25znac57sg-rtrmadp-3-new-york-comic-con-opening-day.jpg?c=16x9&q=w_800,c_fill",
+          "ok": true
+        },
+        {
+          "title": "Talarico faces voters, but not Paxton, in CNN town hall",
+          "url": "https://www.axios.com/local/houston/2026/10/15/james-talarico-cnn-jubilee-town-hall-ken-paxton-texas-senate",
+          "source": "Axios",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSN4wDKJxQZfQu4mtmB0IsrmJbh-t4Qzo9VvnxTZmA1m3xCr45MmAi5F1SOZUw",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "دول وأماكن",
+      "icon": "🗺️",
+      "color": "#79c0ff",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-10-15-cnn-news.png",
+      "published_at": "2026-10-15T23:30:58.801754+00:00"
     },
     {
       "title": "torreense vs sunderland",
@@ -4981,6 +5054,66 @@
       "published_at": "2026-10-15T22:31:07.140590+00:00"
     },
     {
+      "title": "chuck lorre",
+      "traffic": "+1500",
+      "traffic_num": 1500,
+      "published": "Thu, 15 Oct 2026 04:40:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQi-oDWp2mBkd-1qEfDjBJZIsr7KGSXqKdY6nrMvE_wWXpgvzXzaDzVpxUNCIQ",
+      "image_source": "E! News",
+      "news": [
+        {
+          "title": "Why Chuck Lorre Felt Vindicated After Anna Faris Left Mom",
+          "url": "https://www.eonline.com/news/1437061/chuck-lorre-vindicated-by-anna-faris-leaving-cbs-show-mom-memoir",
+          "source": "E! News",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQi-oDWp2mBkd-1qEfDjBJZIsr7KGSXqKdY6nrMvE_wWXpgvzXzaDzVpxUNCIQ",
+          "og_title": "Why Chuck Lorre Felt Vindicated After Anna Faris Left Mom",
+          "og_desc": "Chuck Lorre admitted in his new memoir Sitcom that he wasn't sure about casting Anna Faris on his show Mom and realized he was right when she left the show before its final season.",
+          "og_image": "https://akns-images.eonline.com/eol_images/Entire_Site/20261013/c35a65ed-2753-4923-91ef-1868bd440888_1791937488.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+          "ok": true
+        },
+        {
+          "title": "TV Legend Torches Sitcom Star for Quitting His Hit Show",
+          "url": "https://www.thedailybeast.com/obsessed/tv-legend-chuck-lorre-torches-sitcom-star-anna-faris-after-she-quit-his-show",
+          "source": "The Daily Beast",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRf6LT7HudD0BOGxPXkx3dAaeAHvHdxj0vniFR4CjQaP9O9Bt2bzd9MfvFvXAA",
+          "og_title": "TV Legend Torches Sitcom Star for Quitting His Hit Show",
+          "og_desc": "Chuck Lorre said his star “left the show for mysterious reasons that were not mysterious to anyone on the show.”",
+          "og_image": "https://media.thedailybeast.com/resizer/v2/PKSRVEVLN5B2TLCALTQHLUIVPA.JPG?auth=a919b50013a8796e916f87dfeef7a8e8612abca6ac4410d9f23ed0ff990a654f&width=1200&height=630&focal=2750%2C1547",
+          "ok": true
+        },
+        {
+          "title": "Chuck Lorre Says His Doubts About Hiring Anna Faris for ‘Mom’ Were Justified",
+          "url": "https://www.thewrap.com/creative-content/tv-shows/chuck-lorre-says-anna-faris-mom-casting-doubts-were-correct/",
+          "source": "TheWrap",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRs9wj9oU9i6l2vvjiukc_X80hCBzz0xOomjgBq43sWoakBzA6LByoHOBaTbrs",
+          "og_title": "Chuck Lorre Says His Doubts About Hiring Anna Faris for ‘Mom’ Were Justified",
+          "og_desc": "Chuck Lorre said his doubts about hiring Anna Faris proved to be \"correct\" after the actress left the show following seven seasons.",
+          "og_image": "https://www.thewrap.com/wp-content/uploads/2026/10/Untitled-design-2026-10-13T184105.508.jpg",
+          "ok": true
+        },
+        {
+          "title": "Chuck Lorre felt vindicated when Anna Faris left ‘Mom’ for ‘mysterious reasons’",
+          "url": "https://pagesix.com/2026/10/14/celebrity-news/chuck-lorre-says-anna-faris-exit-from-mom-confirmed-his-casting-concerns/",
+          "source": "Page Six",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRPkvzmiLDhR9ZKwn8PEJ7SUCj1tIkyYN82kFQUXM5JDKZZym8UIeBXHf10jB8",
+          "og_title": "Chuck Lorre felt vindicated when Anna Faris left ‘Mom’ for ‘mysterious reasons’",
+          "og_desc": "Lorre opened up about his initial hesitation to cast Faris in the CBS comedy in his new memoir, “Sitcom.”",
+          "og_image": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/145022540.jpg?quality=75&strip=all&w=1200",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "فن ومشاهير",
+      "icon": "🎬",
+      "color": "#c77dff",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-15-chuck-lorre.png",
+      "published_at": "2026-10-15T12:01:06.188425+00:00"
+    },
+    {
       "title": "marseille vs olympiacos",
       "traffic": "+1200",
       "traffic_num": 1200,
@@ -5583,56 +5716,6 @@
       "publishable": false,
       "card": "cards/world-2026-10-15-fortnite-servers.png",
       "published_at": "2026-10-15T09:00:55.129229+00:00"
-    },
-    {
-      "title": "chuck lorre",
-      "traffic": "1000+",
-      "traffic_num": 1000,
-      "published": "Thu, 15 Oct 2026 04:40:00 -0700",
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQi-oDWp2mBkd-1qEfDjBJZIsr7KGSXqKdY6nrMvE_wWXpgvzXzaDzVpxUNCIQ",
-      "image_source": "E! News",
-      "news": [
-        {
-          "title": "Why Chuck Lorre Felt Vindicated After Anna Faris Left Mom",
-          "url": "https://www.eonline.com/news/1437061/chuck-lorre-vindicated-by-anna-faris-leaving-cbs-show-mom-memoir",
-          "source": "E! News",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQi-oDWp2mBkd-1qEfDjBJZIsr7KGSXqKdY6nrMvE_wWXpgvzXzaDzVpxUNCIQ",
-          "og_title": "Why Chuck Lorre Felt Vindicated After Anna Faris Left Mom",
-          "og_desc": "Chuck Lorre admitted in his new memoir Sitcom that he wasn't sure about casting Anna Faris on his show Mom and realized he was right when she left the show before its final season.",
-          "og_image": "https://akns-images.eonline.com/eol_images/Entire_Site/20261013/c35a65ed-2753-4923-91ef-1868bd440888_1791937488.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
-          "ok": true
-        },
-        {
-          "title": "TV Legend Torches Sitcom Star for Quitting His Hit Show",
-          "url": "https://www.thedailybeast.com/obsessed/tv-legend-chuck-lorre-torches-sitcom-star-anna-faris-after-she-quit-his-show",
-          "source": "The Daily Beast",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRf6LT7HudD0BOGxPXkx3dAaeAHvHdxj0vniFR4CjQaP9O9Bt2bzd9MfvFvXAA",
-          "og_title": "TV Legend Torches Sitcom Star for Quitting His Hit Show",
-          "og_desc": "Chuck Lorre said his star “left the show for mysterious reasons that were not mysterious to anyone on the show.”",
-          "og_image": "https://media.thedailybeast.com/resizer/v2/PKSRVEVLN5B2TLCALTQHLUIVPA.JPG?auth=a919b50013a8796e916f87dfeef7a8e8612abca6ac4410d9f23ed0ff990a654f&width=1200&height=630&focal=2750%2C1547",
-          "ok": true
-        },
-        {
-          "title": "Chuck Lorre Says His Doubts About Hiring Anna Faris for ‘Mom’ Were Justified",
-          "url": "https://www.thewrap.com/creative-content/tv-shows/chuck-lorre-says-anna-faris-mom-casting-doubts-were-correct/",
-          "source": "TheWrap",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRs9wj9oU9i6l2vvjiukc_X80hCBzz0xOomjgBq43sWoakBzA6LByoHOBaTbrs",
-          "og_title": "Chuck Lorre Says His Doubts About Hiring Anna Faris for ‘Mom’ Were Justified",
-          "og_desc": "Chuck Lorre said his doubts about hiring Anna Faris proved to be \"correct\" after the actress left the show following seven seasons.",
-          "og_image": "https://www.thewrap.com/wp-content/uploads/2026/10/Untitled-design-2026-10-13T184105.508.jpg",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "فن ومشاهير",
-      "icon": "🎬",
-      "color": "#c77dff",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-10-15-chuck-lorre.png",
-      "published_at": "2026-10-15T12:01:06.188425+00:00"
     },
     {
       "title": "what did shane gillis say on saturday night live",
@@ -6848,6 +6931,58 @@
       "publishable": false,
       "card": "cards/world-2026-10-15-tulsa-king-season-4-release-date.png",
       "published_at": "2026-10-15T23:01:09.886129+00:00"
+    },
+    {
+      "title": "tsunami",
+      "traffic": "1000+",
+      "traffic_num": 1000,
+      "published": "Thu, 15 Oct 2026 16:00:00 -0700",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGejz7Iv97vqXx6KeVrfsHgm5NxP2ARUtzrX1BtcER4bQn9ObH63feoGjRfAs",
+      "image_source": "The Economist",
+      "news": [
+        {
+          "title": "Cartoon: AI tsunami",
+          "url": "https://www.economist.com/the-world-this-week/2026/10/15/cartoon-ai-tsunami",
+          "source": "The Economist",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGejz7Iv97vqXx6KeVrfsHgm5NxP2ARUtzrX1BtcER4bQn9ObH63feoGjRfAs",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Opinion | Unintelligence on Super Intelligence",
+          "url": "https://www.wsj.com/opinion/unintelligence-on-super-intelligence-dfb2f897",
+          "source": "WSJ",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQsDgYG3PywQXFn9cydhlWpeZz9Jra2HkfwYUjh1Hp0WzSnxBL7JxKSQEirLTg",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Letters: All those in favour of a 'dumber' AI say 'aye'",
+          "url": "https://nationalpost.com/opinion/letters-all-those-in-favour-of-dumber-ai-say-aye",
+          "source": "National Post",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Pu0Ayif1WpLN7wLkndNtAaZ8ObhehAW_GxRd56teOji-DGY-DuFv2g2EG2o",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "تقنية",
+      "icon": "💻",
+      "color": "#5aa9ff",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-10-15-tsunami.png",
+      "published_at": "2026-10-15T23:30:58.801754+00:00"
     },
     {
       "title": "tsmc stock",
@@ -10019,6 +10154,156 @@
       "publishable": false,
       "card": "cards/world-2026-10-15-flyers-vs-red-wings.png",
       "published_at": "2026-10-15T23:01:09.886129+00:00"
+    },
+    {
+      "title": "blues vs wild",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Thu, 15 Oct 2026 16:10:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcStorcG0OYfLOTr6nV1SjNWGjMHo7_XmTnaO4dBf5gysYhzET2J6AAwhPBTQEY",
+      "image_source": "NHL.com",
+      "news": [
+        {
+          "title": "Projected Lineup: Oct. 15 at Minnesota | St. Louis Blues",
+          "url": "https://www.nhl.com/blues/news/projected-lineup-oct-15-at-minnesota",
+          "source": "NHL.com",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcStorcG0OYfLOTr6nV1SjNWGjMHo7_XmTnaO4dBf5gysYhzET2J6AAwhPBTQEY",
+          "og_title": "Projected Lineup: Oct. 15 at Minnesota | St. Louis Blues",
+          "og_desc": "The St. Louis Blues will take on the Minnesota Wild on Thursday (7 p.m., Blue Note+, 101 ESPN), but they'll have to do it without one of their veteran forwards.\nIt was announced Thursday afternoon that Pavel Buchnevich has returned to St. Louis for the birth of his child. Buchnevich",
+          "og_image": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/prd/mopoksauoxfw8xiukzfj.png",
+          "ok": true
+        },
+        {
+          "title": "Projected Lineup: Blues vs. Wild",
+          "url": "https://www.nhl.com/wild/news/projected-lineup-blues-vs-wild-101526",
+          "source": "NHL.com",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQtSSm89l1Eo7ZnwYXluipPBKqKtxLt5NvU8cMmT80E306vkgqRmHFYJPLbFmE",
+          "og_title": "Projected Lineup: Blues vs. Wild | Minnesota Wild",
+          "og_desc": "ST. PAUL, Minn. -- It’s a Central Division matchup tonight in Saint Paul as the Minnesota Wild hosts the St. Louis Blues for the first time this season on Wild+ and KFAN FM 100.3. The following is a projection and is subject to change:",
+          "og_image": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/prd/lsn8slh5igek7v3o8cyr.jpg",
+          "ok": true
+        },
+        {
+          "title": "Blues Forward Buchnevich Returns To St. Louis For Birth Of Child",
+          "url": "https://sports.yahoo.com/articles/blues-forward-buchnevich-returns-st-211544215.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRe-FLDvq5RUZmcc5DrqXFjh1pU0i7awYaxoDywZZqFqrqUAoq8HpvhsrdK7GY",
+          "og_title": "Blues Forward Buchnevich Returns To St. Louis For Birth Of Child",
+          "og_desc": "St. Louis Blues forward Pavel Buchnevich is returning to St. Louis for the birth of his child, the team announced on Thursday. There is no current plan for his return to the lineup, but an update will be provided when available.Buchnevich has quietly gotten back on track for St. Louis despite just one goal. He […] The post Blues Forward Buchnevich Returns To St. Louis For Birth Of Child appeared first on HEAVY.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/0d934e3541fea1b0d7c7097531be41c313d67cd60a396e91211ba87afd12bc73/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fheavy_214%2F365b3647b3e0e35b85f8795f623e6e28.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-15-blues-vs-wild.png",
+      "published_at": "2026-10-15T23:30:58.801754+00:00"
+    },
+    {
+      "title": "sharks vs predators",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Thu, 15 Oct 2026 16:10:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtlZWU9UlgU_M2ivJapjJvARReyO_D7wzWSo0bLumct7Vl-s5Bjr3YJ1pESlc",
+      "image_source": "NHL.com",
+      "news": [
+        {
+          "title": "Sharks at Predators projected lineups",
+          "url": "https://www.nhl.com/news/san-jose-sharks-nashville-predators-game-preview-october-15-2026",
+          "source": "NHL.com",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtlZWU9UlgU_M2ivJapjJvARReyO_D7wzWSo0bLumct7Vl-s5Bjr3YJ1pESlc",
+          "og_title": "Sharks at Predators projected lineups | NHL.com",
+          "og_desc": "SHARKS (3-3-0) at PREDATORS (2-2-2)\n8 p.m. ET; SCRIPPS, NBCSCA\nSharks projected lineup\nIgor Chernyshov -- Macklin Celebrini -- Will Smith\nMason Marchment -- Alexander Wennberg -- Tyler Toffoli\nIvar Stenberg -- Michael Misa -- Kiefer Sherwood\nBarclay Goodrow -- Zack Ostapchuk -- Collin Graf\nDarnell Nurse -- Michael Kesselring",
+          "og_image": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/v1730403928/prd/aurnqouhfqizkuxylfkw.jpg",
+          "ok": true
+        },
+        {
+          "title": "Game Day Gutcheck and Lineups: Sharks Visit Music City",
+          "url": "https://sports.yahoo.com/articles/game-day-gutcheck-lineups-sharks-212632982.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQW_MDxanWEZMzX23E2UMmRpQY3d_C2MgJfNnp5foDV_BLqxja-AJjGJzGPOBA",
+          "og_title": "Game Day Gutcheck and Lineups: Sharks Visit Music City",
+          "og_desc": "The San Jose Sharks are starting a six-game road trip tonight, as they visit Bridgestone Arena to face off against the Nashville Predators.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/9fe14562c2550be3a8dcfe79f23fd72209d6ecd54b17617019cfc89612746832/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_hockey_news_san_jose_sharks_articles_416%2Fb685c5c27d6f69d8d1d70b594460533e.jpg",
+          "ok": true
+        },
+        {
+          "title": "Sharks’ lineup vs. Nashville Predators in flux as six-game road trip begins",
+          "url": "https://www.mercurynews.com/2026/10/15/san-jose-sharks-darnell-nurse-nashville-predators/",
+          "source": "The Mercury News",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQjsdtqWNABPAmNV0g0cnB0w49p51-HqEF8O7ByoUlyKKW7gWVqxxe8TTA2cOg",
+          "og_title": "Sharks’ lineup vs. Nashville Predators in flux as six-game road trip begins",
+          "og_desc": "San Jose Sharks face Nashville Predators, looking to avoid first three-game losing streak of the season",
+          "og_image": "https://www.mercurynews.com/wp-content/uploads/2026/03/BNG-Z-SHARKS-0329-3.jpg?w=6626&h=4418",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-15-sharks-vs-predators.png",
+      "published_at": "2026-10-15T23:30:58.801754+00:00"
+    },
+    {
+      "title": "juju smith-schuster",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Thu, 15 Oct 2026 15:50:00 -0700",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH0XKhu26jdbFjdthoKN0vLiegmmSuJ6VJJUkWcaAZ3Zb-59n3YYbW-Nz3vX8",
+      "image_source": "Sports Illustrated",
+      "news": [
+        {
+          "title": "Source: Steelers Hosting WR JuJu Smith-Schuster",
+          "url": "https://www.si.com/nfl/steelers/onsi/source-pittsburgh-steelers-hosting-juju-smith-schuster",
+          "source": "Sports Illustrated",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH0XKhu26jdbFjdthoKN0vLiegmmSuJ6VJJUkWcaAZ3Zb-59n3YYbW-Nz3vX8",
+          "og_title": "Source: Steelers Hosting WR JuJu Smith-Schuster",
+          "og_desc": "PITTSBURGH -- The Pittsburgh Steelers are bringing in a familiar face for a visit before their Week 6 matchup with the Tampa Bay Buccaneers. According to a team",
+          "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_1029,y_213,w_4328,h_2434/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_steelers/01m50qn35gn19fe6bc5k.jpg",
+          "ok": true
+        },
+        {
+          "title": "Steelers hosting WR JuJu Smith-Schuster for visit",
+          "url": "https://sports.yahoo.com/articles/steelers-hosting-wr-juju-smith-224720687.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTONVip48AKTDfnsmGNC4WImCFDQrKwyT2FEfPPxnrnnNntS7r4MQgQIY3pmzI",
+          "og_title": "Steelers hosting WR JuJu Smith-Schuster for visit",
+          "og_desc": "Pittsburgh is bringing in a familiar face for a visit, per report.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/473c2ba1b500c365ad394a0b653292ed1c66cf5441a6a48575d983f45ca57620/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F148e909066e723efe78897c58b2b246f.jpg",
+          "ok": true
+        },
+        {
+          "title": "Chargers work out JuJu Smith-Schuster Tuesday",
+          "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-13/chargers-work-out-juju-smith-schuster-tuesday",
+          "source": "NBC Sports",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReJ1tQv6mSNpmkcFINYjN2M7McAvOfZUdtgjfrjtwNVgRLW-AqMsNiokIeztY",
+          "og_title": "Chargers work out JuJu Smith-Schuster Tuesday",
+          "og_desc": "Chargers worked out free agent WR JuJu Smith-Schuster on Tuesday.",
+          "og_image": "https://nbcsports.brightspotcdn.com/dims4/default/c52c19a/2147483647/strip/true/crop/100x56+0+39/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F8a%2F47%2F244a09de42bab1121dc007df50b4%2Fsmith-schuster-juju.JPG",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-15-juju-smith-schuster.png",
+      "published_at": "2026-10-15T23:30:58.801754+00:00"
     },
     {
       "title": "bo nix stats",
@@ -13273,6 +13558,109 @@
       "publishable": false,
       "card": "cards/world-2026-10-15-randy-george.png",
       "published_at": "2026-10-15T23:01:09.886129+00:00"
+    },
+    {
+      "title": "jets vs blackhawks",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Thu, 15 Oct 2026 16:10:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTcSdXg_rnHTD5OPnsUIAv9HQqdcKccZ8b-ZaTz-SROVKix9HlTU8ONVQBXJmU",
+      "image_source": "NHL.com",
+      "news": [
+        {
+          "title": "GAMEDAY: Jets at Blackhawks",
+          "url": "https://www.nhl.com/jets/news/gameday-jets-at-blackhawks-x2229",
+          "source": "NHL.com",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTcSdXg_rnHTD5OPnsUIAv9HQqdcKccZ8b-ZaTz-SROVKix9HlTU8ONVQBXJmU",
+          "og_title": "GAMEDAY: Jets at Blackhawks | Winnipeg Jets",
+          "og_desc": "7:00 PM CT, TV: TSN 3, Radio: 680 CJOB/Power 97",
+          "og_image": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/prd/qno83rqeuvdzaakorivw.jpg",
+          "ok": true
+        },
+        {
+          "title": "Blackhawks Vs Jets: Projected Lineup, How To Watch, & More Ahead Of Game 8",
+          "url": "https://sports.yahoo.com/articles/blackhawks-vs-jets-projected-lineup-171514283.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5g26MvXXnXq1doCtChdRxSgbp2QFlF-d2g06yTuvQigGS2Ah0QoOLS41RFlI",
+          "og_title": "Blackhawks Vs Jets: Projected Lineup, How To Watch, & More Ahead Of Game 8",
+          "og_desc": "The 8th game of the season for the Chicago Blackhawks will feature the Winnipeg Jets at the United Center.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/28b684771ed310a9b0faea471f129a300582f4e6506bd502a2bdb4fe48a1f8d5/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_hockey_news_chicago_blackhawks_articles_966%2F9c6de6f2b56f043fcfd26a9a9cd51e39.jpg",
+          "ok": true
+        },
+        {
+          "title": "How to watch Jets vs. Blackhawks: TV channel and streaming options for October 15",
+          "url": "https://www.nytimes.com/athletic/7693138/2026/10/15/jets-vs-blackhawks-stream-how-to-watch-oct-15/",
+          "source": "The New York Times",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ6uBxPAVjNev0EOKsArdZQj9W310lPwSW_8LwDJk0HuzbknMKSJmsXmzM4gAs",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-15-jets-vs-blackhawks.png",
+      "published_at": "2026-10-15T23:30:58.801754+00:00"
+    },
+    {
+      "title": "tennessee basketball",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Thu, 15 Oct 2026 16:10:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSYf5sAmZJAp5MqZa8Q746z2z3uk5JSTGK5J_DqA2rXzqAkiDkUBlByrCmtn1Q",
+      "image_source": "Knoxville News Sentinel",
+      "news": [
+        {
+          "title": "Tennessee basketball vs Xavier exhibition game, score, TV channel",
+          "url": "https://www.knoxnews.com/story/sports/college/university-of-tennessee/mens-basketball/2026/10/15/tennessee-basketball-xavier-exhibition-live-score-rick-barnes--live/92177839007/",
+          "source": "Knoxville News Sentinel",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSYf5sAmZJAp5MqZa8Q746z2z3uk5JSTGK5J_DqA2rXzqAkiDkUBlByrCmtn1Q",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "HOOPS CENTRAL: Xavier vs. Tennessee",
+          "url": "https://utsports.com/news/2026/10/14/mens-basketball-hoops-central-xavier-vs-tennessee",
+          "source": "University of Tennessee Athletics",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQFJqOwJO6-M5GVCwKTzE0YvNJ_qpU5tb5NJWxeUB28fhLkt-Bnwrc0daznYPo",
+          "og_title": "HOOPS CENTRAL: Xavier vs. Tennessee - University of Tennessee Athletics",
+          "og_desc": "KNOXVILLE, Tenn. – The Tennessee men's basketball team is set to take the floor at Food City Center for the first time in the 2026-27 season Thursday as it h...",
+          "og_image": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Futsports.com%2Fimages%2F2026%2F10%2F14%2F20261003_MB_Scrimmage_AF_006.JPG&width=1600&type=jpeg",
+          "ok": true
+        },
+        {
+          "title": "Filip Borovicanin in Xavier's starting lineup against Tennessee",
+          "url": "https://www.cincinnati.com/story/sports/college/xavier/2026/10/15/filip-borovicanin-playing-xavier-musketeers-tennessee-volunteers/92271984007/",
+          "source": "Cincinnati Enquirer",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtt0vByNZV90ofBdIodShNndGEWb6p_gKCy8RW4KLZHFUf5LdA1qegk8Ukt0s",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-10-15-tennessee-basketball.png",
+      "published_at": "2026-10-15T23:30:58.801754+00:00"
     },
     {
       "title": "cathay pacific",

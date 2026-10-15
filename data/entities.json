@@ -645,14 +645,14 @@
         "date": "2026-10-15",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "سعر الدولار في مصر يتجاوز 53 جنيهاً.. قفزة قياسية جديدة",
-          "بفارق قروش.. بنوك الاستثمار والقطاع الخاص تسجل السعر الأعلى لبيع الدولار",
-          "ارتفاع أسعار العملات الأجنبية في بداية تعاملات اليوم 14 أكتوبر 2026"
+          "عاجل: الدولار الأمريكي يصعد لأعلى مستوى منذ أبريل 2025 مع ارتفاع التضخم لـ 66 شهر",
+          "الدولار يتراجع مع هبوط النفط واستقرار العائدات",
+          "\"CFI\": قوة الدولار تستند إلى ثلاثة عوامل رئيسية"
         ]
       }
     ],
@@ -662,7 +662,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 200,
     "category": "اقتصاد"
   },
   "القبض-على-ملحن": {
@@ -43464,10 +43464,25 @@
           "Martha Stewart Reveals the “Big Money” Deal That Made Her Millions",
           "Martha Stewart Reveals Why She Doesn’t Have a Private Jet: ‘I Lost About a Billion Dollars’"
         ]
+      },
+      {
+        "key": "2026-10-14|world",
+        "date": "2026-10-14",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "12 Martha Stewart Fall Décor Finds We Spotted at HomeGoods",
+          "Martha Stewart’s Best 15-Minute Weeknight Dinners",
+          "Martha Stewart Swaps Her Signature Bob For The Trendiest Haircut For Older Women"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 2,
+    "last_seen": "2026-10-14",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -111509,14 +111524,29 @@
           "Jackson Chourio walk-off single lifts Brewers to 2-0 NLDS edge",
           "Mason Miller says he broke ‘cardinal rule’ in Padres’ Game 2 loss to Brewers"
         ]
+      },
+      {
+        "key": "2026-10-14|world",
+        "date": "2026-10-14",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Jackson Chourio homers on first pitch of game to give Brewers early lead over Dodgers",
+          "A deep dive into Jackson Chourio's home run",
+          "Brewers vs Dodgers highlights, National League Championship Series Game 3"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 2,
+    "last_seen": "2026-10-14",
+    "total": 3,
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "رياضة"
   },
   "usa-vs-mexico": {
@@ -153365,10 +153395,25 @@
           "Lara y dominante bullpen ayudan a Cerveceros a llevarse el Juego 1 de SCLN",
           "Turang pega jonrón y el bullpen de Milwaukee cumple. Cerveceros vencen 2-1 a Dodgers"
         ]
+      },
+      {
+        "key": "2026-10-14|world",
+        "date": "2026-10-14",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Con Contreras como figura, Cerveceros toman ventaja de 2-0 en la SCLN",
+          "Contreras pone a Brewers a medio camino de Serie Mundial",
+          "Los Dodgers se preparan para recibir a los Brewers en la SCLN: Esto es lo que debes saber"
+        ]
       }
     ],
-    "last_seen": "2026-10-12",
-    "total": 2,
+    "last_seen": "2026-10-14",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -167408,15 +167453,30 @@
           "Mike Yastrzemski Goes 0 for 1 In Loss To Dodgers",
           "Mauricio Dubon Goes 0 for 3 In Loss To Dodgers"
         ]
+      },
+      {
+        "key": "2026-10-14|world",
+        "date": "2026-10-14",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Baltimore Orioles Urged to Trade for Brewers Infielder in Interesting Reunion",
+          "Brewers’ Turang, Chourio among NL Gold Glove finalists",
+          "Two Brewers named finalists for annual Gold Glove Awards"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 1,
+    "last_seen": "2026-10-14",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "اقتصاد"
   },
   "game-pass-games": {
     "slug": "game-pass-games",
@@ -172553,8 +172613,8 @@
         "publishable": false,
         "headlines": [
           "مبابي يحطم رقم ميسي القياسي في دوري أبطال أوروبا",
-          "مبابي يحطم رقماً تاريخياً لميسي في دوري أبطال أوروبا",
-          "مبابي يتخطى راؤول في قائمة هدافي دوري أبطال أوروبا.. ويحطم رقم ميسي"
+          "مبابي يتجاوز ميسي ويصبح أصغر لاعب يخوض 100 مباراة في دوري الأبطال",
+          "بالفيديو: مبابي يحطم رقم راؤول.. ويسير على خطى الأساطير في مئويته"
         ]
       }
     ],
@@ -204762,14 +204822,14 @@
         "date": "2026-10-15",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "Goal: J. Wynder vs. CIN, 43'",
           "MLS Weekend: Vancouver books a playoff spot",
-          "Frustrating 'Red Card Inducement' for Son Heung-min: LAFC Draws 1-1 with 10-Man Vancouver After a Disappointing Performance",
-          "Oliver Larraz scores a goal for 10-man Whitecaps in 1-1 tie with LAFC"
+          "Frustrating 'Red Card Inducement' for Son Heung-min: LAFC Draws 1-1 with 10-Man Vancouver After a Disappointing Performance"
         ]
       }
     ],
@@ -215133,15 +215193,30 @@
           "The Cast Members Leaving ‘Chicago Med’ in 2026",
           "A Huge Bombshell Just Rocked Goodwin on the Chicago Med Premiere"
         ]
+      },
+      {
+        "key": "2026-10-14|world",
+        "date": "2026-10-14",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Chicago Med Season 12 Episode 2 Photos: “Third Rails” Airs Tonight",
+          "Chicago Med previews “Third Rails” with first-look photos",
+          "'Chicago Med' Boss Unpacks That Leak Confession and Hannah & Archer's Relationship Status"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 1,
+    "last_seen": "2026-10-14",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
-    "category": "عام"
+    "peak_traffic": 1000,
+    "category": "فن ومشاهير"
   },
   "brenton-strange": {
     "slug": "brenton-strange",
@@ -226261,14 +226336,29 @@
           "The World's Hottest AI Stock Market Has Gone Cold",
           "Once-Hot AI Trade Leaves Korean Stocks Struggling for Buyers"
         ]
+      },
+      {
+        "key": "2026-10-14|world",
+        "date": "2026-10-14",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Micron, SK Hynix stocks tumble as chip sell-off deepens following South Korean market rout",
+          "Korean Chip Stocks Sink on Chinese Rival Worry, Broadcom Remarks",
+          "Chaos in Korea's market is sending shockwaves through US chip stocks"
+        ]
       }
     ],
-    "last_seen": "2026-10-12",
-    "total": 1,
+    "last_seen": "2026-10-14",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 1000,
     "category": "اقتصاد"
   },
   "medal": {
@@ -240884,9 +240974,9 @@
         "category": "تقنية",
         "publishable": false,
         "headlines": [
-          "‘Please make more’",
-          "Samsung Electronics unveils 360 trillion won investment plan for Yoin National Industrial Complex",
-          "Korea Semiconductor Association to Host JEDEC Forum"
+          "Elon Musk just nailed it on why chip stocks like Micron and Sandisk are being drilled on surprising news out of China",
+          "China’s CXMT Claims Memory Breakthrough Ahead of Samsung, Hynix",
+          "Why Micron Stock (MU) Is Falling Today: Musk Flags China Chip Threat"
         ]
       }
     ],
@@ -258271,9 +258361,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Man City suffer as PSG masterclass sets up Champions League win",
           "Man City 2-4 PSG: Erling Haaland scores twice but Enzo Maresca's side suffer first defeat of season in front of Pep Guardiola",
-          "Manchester City are suddenly total box office in age of charge-rage and mega defiance"
+          "Man City's fightback not enough after PSG masterclass",
+          "Champions League LIVE: LASK vs Liverpool, Aston Villa vs Fenerbahce & Man City vs PSG - scores, commentary & updates"
         ]
       },
       {
@@ -258827,7 +258917,7 @@
         "headlines": [
           "Saudi employee charged with planting recording device at OpenAI office",
           "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
-          "FBI arrests Saudi OpenAI engineer over covert recording device, DOJ says"
+          "FBI arrests former OpenAI employee for planting listening device"
         ]
       }
     ],
@@ -258868,9 +258958,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "Aston Villa vs Fenerbahce LIVE! Champions League score updates, news, prediction and line-ups",
           "Aston Villa: Champions League rout proves Villa are finding momentum",
-          "Aston Villa 6-0 Fenerbahce (Oct 14, 2026) Game Analysis",
-          "Jackson and Barkley doubles sink feeble Fenerbahce in record Aston Villa win"
+          "Master builder Unai Emery brings home comforts back to Villa Park with Champions League rout"
         ]
       }
     ],
@@ -259190,7 +259280,7 @@
         "headlines": [
           "Real Betis come from behind to beat Porto in thriller",
           "Champions League wrap: Parrott's Betis overcome Porto",
-          "Roma vs Real Madrid: UEFA Champions League stats & head-to-head"
+          "Video: Ez Abde works his magic in the Champions League and leads Betis to a thrilling win over Porto"
         ]
       }
     ],
@@ -259466,7 +259556,7 @@
         "headlines": [
           "مباشر.. مباراة إنتر ميامي ونيويورك سيتي في الدوري الأمريكي",
           "ما القنوات الناقلة لمباراة إنتر ميامي ونيويورك سيتي في الدوري الأمريكي 2026؟ وكيف تشاهدها عبر الإنترنت؟",
-          "تأثير ميسي.. إنتر ميامي يسجل هدفًا برشلونيًا (فيديو)"
+          "بأسلوب التيكي تاكا، ميسي ينصب سيركا ملكيا في أول أهداف إنتر ميامي أمام نيويورك سيتي (فيديو)"
         ]
       }
     ],
@@ -259489,10 +259579,10 @@
         "date": "2026-10-15",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "فن ومشاهير",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "عرض فيلم صقر وكناريا بطولة محمد إمام وشيكو يوم 15 أكتوبر على يانغوبلاي",
           "15 أكتوبر.. طرح فيلم صقر وكناريا على منصة يانجو بلاي",
@@ -259505,7 +259595,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "فن ومشاهير"
   },
   "inter-miami-vs-new-york-city": {
@@ -259524,8 +259614,8 @@
         "publishable": false,
         "headlines": [
           "MATCH PREVIEW: Inter Miami CF Set to Host New York City FC on Wednesday",
-          "FACT FOCUS: Posts falsely claim Democratic Senate candidate James Talarico was at a mental facility",
-          "Is Lionel Messi playing today? Projected lineups for Inter Miami vs NYCFC in 2026 MLS season Matchday 30"
+          "Is Lionel Messi playing today? Projected lineups for Inter Miami vs NYCFC in 2026 MLS season Matchday 30",
+          "Gonzalez lauds Casemiro's impact on Miami defence"
         ]
       },
       {
@@ -259540,7 +259630,7 @@
         "headlines": [
           "MATCH PREVIEW: Inter Miami CF Set to Host New York City FC on Wednesday",
           "Is Lionel Messi playing today? Projected lineups for Inter Miami vs NYCFC in 2026 MLS season Matchday 30",
-          "Inter Miami vs New York City LIVE score, MLS 2026: Messi, Suarez start in MIA v NYC; Real-time updates from Major League Soccer"
+          "Gonzalez lauds Casemiro's impact on Miami defence"
         ]
       }
     ],
@@ -260304,5 +260394,179 @@
     ],
     "peak_traffic": 200,
     "category": "عام"
+  },
+  "adam-copeland": {
+    "slug": "adam-copeland",
+    "name": "adam copeland",
+    "first_seen": "2026-10-14",
+    "appearances": [
+      {
+        "key": "2026-10-14|world",
+        "date": "2026-10-14",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Adam Copeland Pinpoints WWE Feud That Prepared Him For Main Event Status",
+          "AEW Dynamite & Collision Preview: October 14, 2026 – 3-Hour Live Special, Five Clockwork Carnage Qualifiers, Will Ospreay & Andrade El Ídolo vs. Tommaso Ciampa & Samoa Joe, More",
+          "AEW Dynamite results, live discussion: Clockwork Carnage cualifiers"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-14",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "rory-mcilroy": {
+    "slug": "rory-mcilroy",
+    "name": "rory mcilroy",
+    "first_seen": "2026-10-14",
+    "appearances": [
+      {
+        "key": "2026-10-14|world",
+        "date": "2026-10-14",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "LIV Golf to know its future by end of month, attorney says",
+          "Rory McIlroy reflects on ‘wasted’ LIV money as bankruptcy saga continues",
+          "DP World Tour won't allow LIV Golf players to join in 2027, preventing Ryder Cup eligibility, per report"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-14",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "suns-vs-spurs": {
+    "slug": "suns-vs-spurs",
+    "name": "suns vs spurs",
+    "first_seen": "2026-10-14",
+    "appearances": [
+      {
+        "key": "2026-10-14|world",
+        "date": "2026-10-14",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "It’s time for Preseason Basketball: San Antonio Spurs vs Phoenix Suns",
+          "Game Preview: Suns’ young players have everything to gain against San Antonio",
+          "Tarris Reed, Pre‑Game vs Phoenix Suns | 10/14/26"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-14",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "minnesota-vs-colorado": {
+    "slug": "minnesota-vs-colorado",
+    "name": "minnesota vs colorado",
+    "first_seen": "2026-10-14",
+    "appearances": [
+      {
+        "key": "2026-10-14|world",
+        "date": "2026-10-14",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Colorado Rapids vs Minnesota United Prediction, Betting Tips, Lineups & Odds | 14 Oct 2026",
+          "Gameday Guide | Your complete guide to our midweek matchup with Minnesota United FC",
+          "Preview | Loons Make Critical Push for Result Against Rapids"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-14",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "برج-الدلو-حظك-اليوم": {
+    "slug": "برج-الدلو-حظك-اليوم",
+    "name": "برج الدلو حظك اليوم",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|eg",
+        "date": "2026-10-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "أبراج وفلك",
+        "publishable": false,
+        "headlines": [
+          "برج الدلو.. حظك اليوم الأربعاء 14 أكتوبر: حدد أهدافك",
+          "تحتاج إلى المزيد من ساعات النوم.. مولود برح الدلو اليوم",
+          "برج الدلو الأربعاء 14 أكتوبر 2026.. لا تخشَ تعديل فكرتك عندما تتعلم المزيد"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "أبراج وفلك"
+  },
+  "কতর": {
+    "slug": "কতর",
+    "name": "কাতার",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|sa",
+        "date": "2026-10-15",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "ইরানই আমাদের প্রধান প্রতিপক্ষ, সৌদির পাশে দাঁড়ানোর আহ্বান কাতারের সাবেক প্রধানমন্ত্রীর",
+          "উপসাগরীয় নৌপথের নিরাপত্তায় সম্মিলিত প্রচেষ্টা জোরদারের আহ্বান কাতারের",
+          "কাতার আমিরের হুঁশিয়ারি, ‘কোনো আপস নয়’"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

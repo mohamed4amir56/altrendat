@@ -9226,11 +9226,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "سعر البنزين والسولار اليوم الخميس 15 أكتوبر بمحطات تموين السيارات",
-          "مصدر: لا تعليمات بتثبيت أسعار المنتجات البترولية حتى الآن",
-          "مصادر: تثبيت أسعار الوقود والمواد البترولية حتى نهاية ديسمبر 2026"
+          "\"لوفتهانزا\" تطلب من طائراتها حمل وقود إضافي للرحلات المتجهة إلى فرانكفورت",
+          "نقص وقود الطائرات يفرض إجراءات جديدة على رحلات لوفتهانزا",
+          "لوفتهانزا تطلب وقودا إضافيا لطائراتها بسبب نقص الإمدادات في فرانكفورت"
         ]
       }
     ],
@@ -24251,8 +24251,8 @@
         "date": "2026-10-15",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -59807,15 +59807,30 @@
           "500 مستعمر يقتحمون المسجد الأقصى بحماية شرطة الاحتلال",
           "سياسي / رابطةُ العالم الإسلامي تُدين الاقتحامات والاعتداءات الإسرائيلية المتواصلة على حرمة المسجد الأقصى المبارك"
         ]
+      },
+      {
+        "key": "2026-10-15|sa",
+        "date": "2026-10-15",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "فعلا الفاحشة داخل مسجد في مكة.. السعودية تعلن إعدام رجل وامرأة",
+          "تنفيذ حُكم القتل تعزيرًا بجانيين في منطقة مكة المكرمة",
+          "القصاص من وافد قتل مواطنًا بأداة حادة"
+        ]
       }
     ],
-    "last_seen": "2026-09-30",
-    "total": 1,
+    "last_seen": "2026-10-15",
+    "total": 2,
     "countries": [
       "sa"
     ],
-    "peak_traffic": 1000,
-    "category": "ديني"
+    "peak_traffic": 5000,
+    "category": "حوادث وقضايا"
   },
   "swimming-facility": {
     "slug": "swimming-facility",
@@ -156968,9 +156983,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "بدء إرسال رسائل القبول المبدئي للحجّاج.. و7 أيام لاختيار الحملة",
-          "تعرف على آخر موعد للتسجيل في حج 1448هـ وأبرز الشروط ورابط التقديم",
-          "جاسم أبل: بدء إجراءات التسجيل يعكس الاستعداد المبكر لموسم الحج"
+          "الزعاق: الوسم يبدأ اليوم في السعودية و75 يوماً من أفضل أيام السنة",
+          "الحصيني يعلن موعد بداية موسم الوسم.. ويكشف سر تسميته وأبرز سماته المناخية",
+          "الوسمي.. أشهر مواسم العرب تحيا به الأرض و يزهر معه النبات"
         ]
       }
     ],
@@ -161009,14 +161024,30 @@
           "أسعار الذهب تسجل أدنى مستوى في شهرين متأثرة بصعود الدولار",
           "\"XTB MENA\": مشتريات البنوك المركزية وصناديق المؤشرات تعزز أساسيات الذهب"
         ]
+      },
+      {
+        "key": "2026-10-15|eg",
+        "date": "2026-10-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "الدولار يتراجع عن ذروة 18 شهراً مع تقليص توقعات رفع الفائدة الأميركية",
+          "عاجل: الدولار الأمريكي يصعد لأعلى مستوى منذ أبريل 2025 مع ارتفاع التضخم لـ 66 شهر",
+          "تراجع الدولار مع انخفاض النفط وترقب بيانات التضخم"
+        ]
       }
     ],
-    "last_seen": "2026-10-07",
-    "total": 1,
+    "last_seen": "2026-10-15",
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "اقتصاد"
   },
   "اسعار-الذهب-في-السعودية": {
@@ -169727,8 +169758,8 @@
         "date": "2026-10-15",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "100+",
+        "traffic_num": 100,
         "category": "تقنية",
         "publishable": false,
         "headlines": [
@@ -169743,7 +169774,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 100,
     "category": "تقنية"
   },
   "عمرو-سعد": {
@@ -206077,9 +206108,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "الدهب الأبيض نور الغيطان.. فرحة حصاد القطن بمزارع القليوبية",
-          "«تصديرى الغزل والمنسوجات» يستعرض فرص تعزيز تنافسية الصناعة المصرية",
-          "\"خبير\" لـ \"البوصلة\": 7 ملايين دولار خسائر محتملة في أول شهر من الموسم التصديري للقطن المصري بسبب تدني أسعار البيع"
+          "مارش: زيادة أسعار تأمين الطيران 5.01% منذ بداية 2026",
+          "مارش: انتقائية شركات التأمين تضغط على سوق تأمين الطيران عالميًا خلال النصف الأول من 2026",
+          "إزالة العوائق المتعلقة بالأراضي أمام الشركات بشكل عاجل."
         ]
       }
     ],
@@ -213242,15 +213273,30 @@
           "LoL Worlds 2026 Top 20 Players",
           "All Worlds 2026 Play-In Teams Locked: Full Bracket and Matchups Revealed"
         ]
+      },
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "/dev: League Classic",
+          "3 months after launch, Riot announces League of Legends Classic will be killed in January: 'most have gone back to other parts of League'",
+          "'LoL Classic' to Switch to Windowed Queue Starting Next January"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 1,
+    "last_seen": "2026-10-15",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
-    "category": "عام"
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
   },
   "واتساب": {
     "slug": "واتساب",
@@ -227529,10 +227575,25 @@
           "اقتصاد العالم تحت ضغط الحرب .. والشرق الأوسط أمام انكماش قبل التعافي",
           "صندوق النقد يرفع توقعات نمو الاقتصاد العالمي 3.1% هذا العام"
         ]
+      },
+      {
+        "key": "2026-10-15|sa",
+        "date": "2026-10-15",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "السعودية تجذب استثمار أجنبي مباشر قياسي العام الماضي بـ 159 مليار ريال",
+          "اقتصادي / مؤتمر البترول العالمي يستعرض مسارات التحول الاقتصادي والاستدامة المالية",
+          "الاقتصاد السعودي.. من صناعة التحول إلى صناعة المستقبل"
+        ]
       }
     ],
-    "last_seen": "2026-10-14",
-    "total": 3,
+    "last_seen": "2026-10-15",
+    "total": 4,
     "countries": [
       "sa"
     ],
@@ -254541,13 +254602,13 @@
         "date": "2026-10-15",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "سعر الدولار في مصر يرتفع مجدداً.. ماذا يحدث للجنيه؟",
-          "بفارق قروش.. بنوك الاستثمار والقطاع الخاص تسجل السعر الأعلى لبيع الدولار",
+          "سعر الدولار يواصل ارتفاعه اليوم الخميس 15/10/2026 أمام الجنيه المصرى",
           "سعر الدولار مقابل الجنيه اليوم الأربعاء.. استقرار في البنوك المصرية"
         ]
       }
@@ -263423,9 +263484,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "ملف يلا كورة.. تأجيل سفر معتمد.. خطة كيتارا أمام الأهلي.. ورد مدريد",
-          "دورى أبطال أفريقيا الفرصة الأخيرة لـ معتمد جمال فى الزمالك",
-          "أخبار | خبر في الجول - يصل فجر الجمعة.. تأخر سفر معتمد جمال 24 ساعة جديدة"
+          "أيمن يونس: معتمد جمال يتحمل المسؤولية بشجاعة وبيان الزمالك مسكن للجمهور",
+          "الحالة الصحية تؤخر وصول معتمد جمال إلى رواندا",
+          "الزمالك يحسم موقفه من عودة جوميز ورحيل معتمد جمال بعد خسارة القمة |خاص"
         ]
       }
     ],
@@ -263650,14 +263711,14 @@
         "date": "2026-10-15",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "মক্কায় দুই বাংলাদেশির মৃত্যুদণ্ড কার্যকর",
           "সৌদি আরবে মসজিদের পবিত্রতা লঙ্ঘনের দায়ে দুই বাংলাদেশির মৃত্যুদণ্ড কার্যকর",
-          "মসজিদে ‘অনৈতিক কাজ’ করার অভিযোগে মক্কায় দুই বাংলাদেশির মৃত্যুদণ্ড কার্যকর"
+          "মসজিদে ‘অনৈতিক কাজ’, মক্কায় দুই বাংলাদেশির শিরশ্ছেদ"
         ]
       }
     ],
@@ -263666,7 +263727,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "توباك-شاكور": {
@@ -263714,8 +263775,8 @@
         "publishable": false,
         "headlines": [
           "Family of man killed by tiger criticise online content after Trump reposts video",
-          "Tiger attack live: William Chapman’s family hits out at ‘offensive’ online content",
-          "Family pays tribute to 'warm and engaging' man killed in tiger attack"
+          "Yorkshire tiger latest: Inquest to open into death of former child star after climbing into zoo enclosure",
+          "Trump Shares Bizarre AI Tiger Video In Late-Night Spree After Posting Fatal Attack Footage"
         ]
       }
     ],
@@ -263832,6 +263893,151 @@
           "بيراميدز أقوى خط دفاع فى الدورى المصرى.. والأهلي والزمالك فى الوصافة",
           "نجم الزمالك السابق: بيراميدز سيتوج بجميع الألقاب",
           "أحمد جعفر يعلق على مستوى القمة .. ويتحدث عن القادم للزمالك"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "jelena-ostapenko": {
+    "slug": "jelena-ostapenko",
+    "name": "jelena ostapenko",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Tennis star Alexander Bublik destroys racket before smashing drinks container in latest on-court outburst",
+          "Tennis bad boy batters racket and cuts hand… then wins",
+          "Alexander Bublik Brandon Nakashima live score and H2H results"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "حوادث وقضايا"
+  },
+  "fortnite-servers": {
+    "slug": "fortnite-servers",
+    "name": "fortnite servers",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+400",
+        "traffic_num": 400,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "All Fortnitemares 2026 Collabs Coming In the October 15 Update",
+          "When Will Fortnite Servers Be Back Up? Fortnite October 15 Downtime, Explained",
+          "Fortnite: Server down – Everything about time, leaks, patch notes and more for update 42.40"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 400,
+    "category": "تقنية"
+  },
+  "سعر-الدولار-اليوم-بنك-مصر": {
+    "slug": "سعر-الدولار-اليوم-بنك-مصر",
+    "name": "سعر الدولار اليوم بنك مصر",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|eg",
+        "date": "2026-10-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "سعر الدولار يواصل ارتفاعه اليوم الخميس 15/10/2026 أمام الجنيه المصرى",
+          "ارتفاع جديد في سعر الدولار مقابل الجنيه خلال تعاملات اليوم",
+          "سعر الدولار في التعاملات الصباحية اليوم الخميس في البنوك"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 1000,
+    "category": "اقتصاد"
+  },
+  "15-أكتوبر": {
+    "slug": "15-أكتوبر",
+    "name": "15 أكتوبر",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|eg",
+        "date": "2026-10-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "سعر جرام الذهب اليوم الخميس في مصر.. عيار 21 الآن بعد هبوط 50 جنيها",
+          "ماذا حدث لسعر الذهب اليوم في مصر مع بداية تعاملات الخميس؟",
+          "سعر الذهب اليوم الخميس 15 أكتوبر 2026 في مصر صباحًا"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "أستراليا": {
+    "slug": "أستراليا",
+    "name": "أستراليا",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|eg",
+        "date": "2026-10-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "أستراليا.. كاميرا في أماكن استحمام النساء على سفينة عسكرية",
+          "أستراليا تفتح تحقيقاً بعد العثور على كاميرا بأماكن استحمام النساء على سفينة عسكرية",
+          "كاميرا خفيّة في حمّامات النساء على سفينة عسكرية"
         ]
       }
     ],

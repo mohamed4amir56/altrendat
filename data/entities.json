@@ -9242,11 +9242,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "سعر البنزين والسولار اليوم الخميس 15 أكتوبر بمحطات تموين السيارات",
-          "مصدر: لا تعليمات بتثبيت أسعار المنتجات البترولية حتى الآن",
-          "مصادر: تثبيت أسعار الوقود والمواد البترولية حتى نهاية ديسمبر 2026"
+          "\"لوفتهانزا\" تطلب من طائراتها حمل وقود إضافي للرحلات المتجهة إلى فرانكفورت",
+          "لوفتهانزا توجه طائراتها بالتزود بوقود اضافي قبل التوجه لفرانكفورت",
+          "نقص وقود الطائرات يفرض إجراءات جديدة على رحلات لوفتهانزا"
         ]
       }
     ],
@@ -9523,12 +9523,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "10000+",
         "traffic_num": 10000,
-        "category": "رياضة",
+        "category": "عام",
         "publishable": false,
         "headlines": [
           "Bradley Barcola’s clinical hat-trick inspires Liverpool to 6-3 rout of Lask",
-          "Andoni Iraola: Bradley Barcola hat trick will help him settle in at Liverpool",
-          "Liverpool set Champions League record with first-half display at LASK"
+          "Liverpool news: Bradley Barcola's 'acid test' will be Brentford away",
+          "Iraola 'really happy' for Barcola after UCL hat trick"
         ]
       }
     ],
@@ -9540,7 +9540,7 @@
       "world"
     ],
     "peak_traffic": 10000,
-    "category": "رياضة"
+    "category": "عام"
   },
   "صلاة-الجمعة": {
     "slug": "صلاة-الجمعة",
@@ -39127,10 +39127,25 @@
           "Gold Market Commentary: Go with the flow",
           "Gold buying picks up after price correction, but shoppers prioritise affordability"
         ]
+      },
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Gold climbs over 1% on softer dollar, yields ahead of US inflation data",
+          "Gold Holds Loss as Hot Inflation Lifts October Rate-Hike Bets",
+          "Current price of gold: Month Day, Year"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 3,
+    "last_seen": "2026-10-15",
+    "total": 4,
     "countries": [
       "sa",
       "world"
@@ -74173,14 +74188,29 @@
           "PowerBall and Xtra results: October 2, 2026 draw and jackpots| South Africa",
           "R90 million up for grabs tonight: Here’s everything you need to know"
         ]
+      },
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Winning lottery tickets worth $490K, $150K sold in Tennessee",
+          "Tennessee Lottery Results for October 14, 2026",
+          "TN Lottery Mega Millions, Cash 3 Morning winning numbers for Oct. 13, 2026"
+        ]
       }
     ],
-    "last_seen": "2026-10-03",
-    "total": 3,
+    "last_seen": "2026-10-15",
+    "total": 4,
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 10000,
     "category": "عام"
   },
   "dominic-west": {
@@ -119743,10 +119773,10 @@
         "date": "2026-10-15",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "بيراميدز يكشف.. حقيقة ضم محمد هاني.. وهل ينتقل مرعي ولاشين إلى الأهلي؟",
           "بيراميدز يكشف موقفه من طلب حكام أجانب لمواجهة الزمالك",
@@ -130474,15 +130504,30 @@
           "'We are not yes-men': CM Afridi launches PTI long march to Islamabad, convoy enters Karak district",
           "Pro-Imran Khan march starts in Pakistan’s northwest"
         ]
+      },
+      {
+        "key": "2026-10-15|sa",
+        "date": "2026-10-15",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Bollywood Actor Imran Khan Asked to Leave India after Participating in Protest",
+          "Actor Imran Khan told to leave India by October 28 for protesting in Mumbai",
+          "Actor Imran Khan Asked To Leave India Days After Participating In CJP Protest"
+        ]
       }
     ],
-    "last_seen": "2026-10-05",
-    "total": 1,
+    "last_seen": "2026-10-15",
+    "total": 2,
     "countries": [
       "sa"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "فن ومشاهير"
   },
   "giant": {
     "slug": "giant",
@@ -161096,9 +161141,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "عاجل: الدولار الأمريكي يصعد لأعلى مستوى منذ أبريل 2025 مع ارتفاع التضخم لـ 66 شهر",
-          "تراجع الدولار مع انخفاض النفط وترقب بيانات التضخم",
-          "أسواق العملات تترقب بيانات التضخم الأمريكية وتقرير «الكتاب البيج»"
+          "ارتفاع سعر الذهب اليوم الخميس في بداية المعاملات الفورية",
+          "أسعار الذهب في السعودية الخميس.. ترقب بيانات التضخم يضغط على المعدن الأصفر",
+          "الذهب يتراجع.. هل يوقفه الدولار؟"
         ]
       }
     ],
@@ -184089,15 +184134,30 @@
           "“It’s a load of rubbish. Absolute crap\" - Lack of big rivals should not dent Alexander Zverev's 2026 achievements believes Rusedski",
           "Wild, vintage and painful: 2026, the year of the unexpected"
         ]
+      },
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Shanghai QF previews and predictions: Zverev vs. De Minaur, Davidovich Fokina vs. Gea",
+          "Why Novak Djokovic will be cheering on Alexander Zverev when he plays Alex de Minaur in Shanghai",
+          "ATP Shanghai Best Bets Including Alexander Zverev Vs Alex De Minaur"
+        ]
       }
     ],
-    "last_seen": "2026-10-09",
-    "total": 1,
+    "last_seen": "2026-10-15",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 100,
-    "category": "عام"
+    "category": "رياضة"
   },
   "طارق-توكل": {
     "slug": "طارق-توكل",
@@ -201770,14 +201830,30 @@
           "أسعار البنزين والغاز اليوم السبت في محطات الوقود (آخر تحديث)",
           "سعر البنزين والسولار في مصر اليوم الجمعة 9 أكتوبر 2026.. ما نسبة الزيادة المتوقعة؟"
         ]
+      },
+      {
+        "key": "2026-10-15|eg",
+        "date": "2026-10-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "سعر البنزين والسولار اليوم الخميس 15 أكتوبر بمحطات تموين السيارات",
+          "مصدر: لا تعليمات بتثبيت أسعار المنتجات البترولية حتى الآن",
+          "مصادر: تثبيت أسعار الوقود والمواد البترولية حتى نهاية ديسمبر 2026"
+        ]
       }
     ],
-    "last_seen": "2026-10-10",
-    "total": 1,
+    "last_seen": "2026-10-15",
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "اقتصاد"
   },
   "رحلات-مطار-الملك-خالد": {
@@ -206164,14 +206240,14 @@
         "date": "2026-10-15",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "النروج قد تسمح لصندوقها السيادي بالاستثمار في شركات تصنّع أسلحة نووية",
-          "عائلة الفنان محمد رمضان وحديث عن سعادتهم بنجاحه",
-          "مشروع محمد رمضان العقاري.. انتهاء الحجز خلال يومين وأسعار الاستوديوهات بالملايين"
+          "باحثون: شركة إسرائيلية استخدمت إعلانات إلكترونية للتجسس على المستخدمين",
+          "قرار حكومي بتأسيس شركة لإدارة أنشطة المشروع القومي «Carry On» | أموال الغد",
+          "لتحقيق عوائد مالية أكبر.. مصدر: شركة \"كاري أون\" تستهدف التصنيع الزراعي وتحسين إدارة الأصول"
         ]
       }
     ],
@@ -206180,7 +206256,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "fcb": {
@@ -227647,9 +227723,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "السعودية تجذب استثمارا أجنبيا مباشرا قياسيا العام الماضي بـ 159 مليار ريال",
-          "اقتصادي / مؤتمر البترول العالمي يستعرض مسارات التحول الاقتصادي والاستدامة المالية",
-          "الاقتصاد السعودي.. من صناعة التحول إلى صناعة المستقبل"
+          "البنك الدولي يقدر احتياجات مصر من التمويل الخارجي عند 28 مليار دولار",
+          "محمد معيط: صندوق النقد الدولي رفع توقعاته لمعدلات نمو مصر للعامين الحالي والمقبل"
         ]
       }
     ],
@@ -242928,10 +243003,25 @@
           "Sandisk: The Top Is Likely In (NASDAQ:SNDK)",
           "EXCLUSIVE: SanDisk Has ‘More Upside,’ Says Nicholas Mugalli — His $3,000 Target Implies a 102% Rally for SNDK"
         ]
+      },
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Why SandiskStock Keeps Going Down",
+          "Sandisk Stocks Fall 4.8% Although AI Flash Roadmap Gains a January Deadline",
+          "Sandisk: The First Crack In The Memory Supercycle (NASDAQ:SNDK)"
+        ]
       }
     ],
-    "last_seen": "2026-10-13",
-    "total": 1,
+    "last_seen": "2026-10-15",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -263004,8 +263094,8 @@
         "date": "2026-10-15",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "20000+",
-        "traffic_num": 20000,
+        "traffic": "+20700",
+        "traffic_num": 20700,
         "category": "طقس",
         "publishable": true,
         "headlines": [
@@ -263020,7 +263110,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 20000,
+    "peak_traffic": 20700,
     "category": "طقس"
   },
   "jackie-eagle-avian-influenza-findings": {
@@ -263748,9 +263838,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "غدا صرف دعم تكافل وكرامة للأسر المستحقة عن شهر أكتوبر 2026",
+          "وزيرة التضامن: صرف تكافل وكرامة عن شهر أكتوبر اليوم بقيمة 4 مليارات جنيه",
           "خلال ساعات.. صرف معاش تكافل وكرامة لشهر أكتوبر 2026",
-          "التضامن: 4.7 مليون أسرة تستفيد من برنامج تكافل وكرامة بمخصصات 54 مليار جنيه في 2026"
+          "كيفية الاستعلام عن الأسماء الجديدة في تكافل وكرامة 2026"
         ]
       }
     ],
@@ -264067,8 +264157,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "10جنيهات زيادة بسعر الذهب اليوم الخميس 15أكتوبر 2026.. وعيار 21 يسجل 6140 جنيها",
-          "الجنيه الذهب يقترب من 50 ألف جنيه.. الأسعار اليوم الخميس 15 أكتوبر 2026",
+          "سعر الذهب اليوم الخميس 15 أكتوبر 2026 في مصر صباحًا",
+          "60 جنيها قفزة فى سعر الذهب اليوم الخميس 15 أكتوبر 2026",
           "ماذا حدث لسعر الذهب اليوم في مصر مع بداية تعاملات الخميس؟"
         ]
       }
@@ -264093,12 +264183,12 @@
         "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "أستراليا.. كاميرا في أماكن استحمام النساء على سفينة عسكرية",
-          "أستراليا تفتح تحقيقاً بعد العثور على كاميرا بأماكن استحمام النساء على سفينة عسكرية",
-          "فضيحة كاميرات مراقبة في سفينة حربية أسترالية"
+          "بيان أسترالي أردني: إدانة مشروع الاستيطان في منطقة E1 أو تهجير الفلسطينيين",
+          "العاهل الأردني يلتقي زعيم المعارضة في البرلمان الأسترالي لبحث العلاقات الثنائية والتطورات الإقليمية والدولية",
+          "أستراليا والأردن يُصدران بياناً مشتركاً يرفض ضم الضفة ويدين مشروع E1 ويدعم حل الدولتين"
         ]
       }
     ],
@@ -264108,7 +264198,7 @@
       "eg"
     ],
     "peak_traffic": 200,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "ct-lottery": {
     "slug": "ct-lottery",
@@ -264207,14 +264297,14 @@
         "date": "2026-10-15",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "إيران مباشر.. تسريبات عن خطط أمريكية لاستخدام \"أم القنابل\" ضد المنشآت النووية",
-          "أكبر سلاح غير نووي.. مواصفات \"أم القنابل\" خيار ترامب القادم في إيران",
-          "الجيش الأمريكي يُعدّ خططاً لضرب إيران بـ«أم القنابل» استهدافاً للمنشآت النووية"
+          "الجيش الأمريكي يدرس استخدام \"أم القنابل\" في ضربات محتملة ضد إيران.. إليكم ما نعلمه",
+          "أكبر سلاح غير نووي.. مواصفات \"أم القنابل\" خيار ترامب القادم في إيران"
         ]
       }
     ],
@@ -264223,7 +264313,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "leigha-mumby": {
@@ -264457,5 +264547,121 @@
     ],
     "peak_traffic": 2000,
     "category": "اقتصاد"
+  },
+  "dp-world-tour": {
+    "slug": "dp-world-tour",
+    "name": "dp world tour",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "LIV Golf to know its future by end of month, attorney says",
+          "Rory McIlroy reflects on ‘wasted’ LIV money as bankruptcy saga continues",
+          "LIV golf: Organisation concerned by DP Tour's 'attempt to interfere' in player discussions"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "sandra-birchmore": {
+    "slug": "sandra-birchmore",
+    "name": "sandra birchmore",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Friend of woman allegedly killed by Massachusetts police officer: \"It was complete, 100% exploitation\"",
+          "State Police investigator in Matthew Farwell trial says ex-detective admitted he went to Sandra Birchmore’s apartment on night she died",
+          "Family of Sandra Birchmore Accuses 3 Police Officers of Having Sexual Relationships with Orphaned Teen"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "people-magazine": {
+    "slug": "people-magazine",
+    "name": "people magazine",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|world",
+        "date": "2026-10-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Billy Crystal doesn’t trust God after Pacific Palisades fire and Rob Reiner’s death",
+          "Billy Crystal reveals how a devastating year changed his faith",
+          "Billy Crystal on finding humor in the darkest of times"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "gbu-43b-moab": {
+    "slug": "gbu-43b-moab",
+    "name": "gbu-43/b moab",
+    "first_seen": "2026-10-15",
+    "appearances": [
+      {
+        "key": "2026-10-15|sa",
+        "date": "2026-10-15",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Exclusive: US considering using ‘mother of all bombs’ against Iran, sources say",
+          "US military weighs use of ‘mother of all bombs’ in potential future strikes on Iran, CNN says",
+          "Live Updates: Latest from Israel, Iran, and the Middle East"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-15",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
   }
 }

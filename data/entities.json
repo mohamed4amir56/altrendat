@@ -5246,14 +5246,14 @@
         "date": "2026-10-16",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+110000",
-        "traffic_num": 110000,
+        "traffic": "100000+",
+        "traffic_num": 100000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "منخفض جوى.. الأرصاد تحذر من حالة الطقس وأمطار وانخفاض الحرارة بهذه المناطق",
-          "انخفاض بالحرارة وأمطار.. الأرصاد تحذر من 5 ظواهر جوية تضرب البلاد",
-          "أمطار تصل للقاهرة ورياح بسرعة 60 كم.. خريطة المناطق المتأثرة"
+          "أمطار ورياح وشبورة.. الأرصاد تكشف توقعات حالة الطقس حتى الأربعاء المقبل",
+          "أمطار تصل للقاهرة ورياح بسرعة 60 كم.. خريطة المناطق المتأثرة",
+          "الأرصاد: غدا طقس خريفي مع فرص لسقوط أمطار في أول حالة تشهدها القاهرة الكبرى خلال خريف هذا العام"
         ]
       },
       {
@@ -5267,8 +5267,8 @@
         "publishable": true,
         "headlines": [
           "بيئي / \"الأرصاد\": أمطار على عدد من محافظات منطقة مكة المكرمة",
-          "أمطار غزيرة وسيول وبرد على محافظات منطقة مكة المكرمة حتى 8 مساءً",
-          "حالة الطقس اليوم الجمعة على مناطق المملكة"
+          "إنذار أحمر بأمطار غزيرة على مكة المكرمة وعسير وجازان والباحة",
+          "\"الأرصاد\" ينبّه من رياح شديدة وصواعق رعدية على منطقة حائل"
         ]
       }
     ],
@@ -5278,7 +5278,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 110000,
+    "peak_traffic": 105000,
     "category": "طقس"
   },
   "weather": {
@@ -45539,7 +45539,8 @@
         "publishable": false,
         "headlines": [
           "Eid Al Fitr and Eid Al Adha 2027 holiday dates revealed",
-          "Ramadan 2027.. When does the holy month begin in Morocco?"
+          "UAE residents could enjoy a six-day Eid break in 2027 – here are the dates",
+          "Ramadan 2027: UAE astronomers predict exact date of Holy Month"
         ]
       }
     ],
@@ -45687,10 +45688,25 @@
           "الأهلي يحدد بديل محمد هاني بسبب المماطلة وتعثر المفاوضات.. تفاصيل",
           "هل يرحل عن الأهلي؟.. ياسر إبراهيم على ردار العين الإماراتي"
         ]
+      },
+      {
+        "key": "2026-10-16|eg",
+        "date": "2026-10-16",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "آخر تطورات مفاوضات الأهلي لتجديد عقد ياسر إبراهيم",
+          "عموتة يرفض رحيل محمد هاني وياسر إبراهيم عن الأهلي في يناير",
+          "قبل لقاء كيتارا بعد غدٍ| الأهلى يتدرب فى هويما.. وهانى يقترب من التجديد"
+        ]
       }
     ],
-    "last_seen": "2026-09-29",
-    "total": 1,
+    "last_seen": "2026-10-16",
+    "total": 2,
     "countries": [
       "eg"
     ],
@@ -49331,8 +49347,8 @@
         "publishable": false,
         "headlines": [
           "Grand Theft Auto VI Launch Trailer",
-          "GTA 6 Launch Trailer Teases Jason's Troubled Past, a Steamy Shower Scene With Lucia, and Much More",
-          "PlayStation 5 Pro owners won't get 60 FPS mode in Grand Theft Auto VI"
+          "I Compared Every PlayStation and Xbox for GTA 6. Here’s My Verdict",
+          "The Sex Scene Is One Of The Best Parts Of Grand Theft Auto 6′ s New Trailer"
         ]
       }
     ],
@@ -58946,15 +58962,30 @@
           "October 14, 2026: Tommy Paul vs Zizou Bergs Round of 16 match Tennis Prediction Market",
           "Daniel Altmaier opens Shanghai Masters with comeback"
         ]
+      },
+      {
+        "key": "2026-10-16|world",
+        "date": "2026-10-16",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "How to watch the men’s Rolex Shanghai Masters: Streaming options for the Quarterfinal",
+          "ATP Shanghai Quarterfinal Predictions Including Daniil Medvedev vs Tommy Paul",
+          "Shanghai QF preview and prediction: Medvedev vs. Paul"
+        ]
       }
     ],
-    "last_seen": "2026-10-14",
-    "total": 3,
+    "last_seen": "2026-10-16",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "اقتصاد"
+    "category": "رياضة"
   },
   "evan-bouchard": {
     "slug": "evan-bouchard",
@@ -60936,10 +60967,25 @@
           "Texas storm timeline: Here is when heavy rain and severe weather hit each region",
           "Austin weather: Flood Watch in CTX"
         ]
+      },
+      {
+        "key": "2026-10-16|world",
+        "date": "2026-10-16",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "Very windy Friday, much cooler weekend",
+          "Dallas weather: October 15 evening forecast",
+          "Wind advisory goes into effect Friday, with isolated power outages possible"
+        ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 2,
+    "last_seen": "2026-10-16",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -87437,14 +87483,29 @@
           "موضوع خطبة الجمعة اليوم.. آية من سورة الأنفال تحث على أهمية الاستعداد للعدو",
           "بث مباشر| شعائر صلاة الجمعة من مسجد الإمام الحسين بالقاهرة"
         ]
+      },
+      {
+        "key": "2026-10-16|sa",
+        "date": "2026-10-16",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "+300",
+        "traffic_num": 300,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "الأمن الفكري..استقرار مجتمعي ووطني.. الأوقاف تنشر نص خطبة الجمعة المقبلة",
+          "خطبة الجمعة الثانية من جمادى الأولى 1448.. حماية العقول ومواجهة الشائعات",
+          "موضوع خطبة الجمعة اليوم.. أئمة الأوقاف يتحدثون عن أمر يتعلق بالفكر"
+        ]
       }
     ],
-    "last_seen": "2026-10-09",
-    "total": 2,
+    "last_seen": "2026-10-16",
+    "total": 3,
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 300,
     "category": "شخصية"
   },
   "see-tickets": {
@@ -242084,14 +242145,14 @@
         "date": "2026-10-16",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "عام",
         "publishable": false,
         "headlines": [
           "WTA w Wuhan: Maja Chwalińska - Maria Sakkari [RELACJA NA ŻYWO]",
-          "Kolejny awans w rankingu. Tak wysoko Chwalińska jeszcze nie była",
-          "Finalistka Szlemów już nie zagrozi Chwalińskiej. Demolka w 63 minuty"
+          "Maja Chwalińska - Maria Sakkari w ćwierćfinale turnieju WTA w Wuhan. Relacja na żywo",
+          "Kolejny awans w rankingu. Tak wysoko Chwalińska jeszcze nie była"
         ]
       }
     ],
@@ -242100,7 +242161,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "عام"
   },
   "قران-كريم": {
@@ -254813,12 +254874,24 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": []
+      },
+      {
+        "key": "2026-10-16|sa",
+        "date": "2026-10-16",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": []
       }
     ],
     "last_seen": "2026-10-16",
-    "total": 2,
+    "total": 3,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 200,
     "category": "اقتصاد"
@@ -257446,9 +257519,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Tesla unveils what it says is a flying car",
-          "The World Reacts to Elon Musk's Flying Car",
-          "Tesla’s new Roadster makes a flying debut, hitting 60 MPH in under a second"
+          "Tesla’s new Roadster makes a flying debut, hitting 60 MPH in under a second",
+          "Video: Tesla Unveils Its New Roadster",
+          "Elon Musk's flying Tesla is gloriously absurd"
         ]
       }
     ],
@@ -274564,8 +274637,8 @@
         "publishable": false,
         "headlines": [
           "بعد سجنه 10 أعوام.. سعد لمجرد يحذف منشوراته على انستغرام",
-          "حدث بالفن| انهيار سعد لمجرد في محبسه وأزمة \"بوستر\" مهرجان القاهرة السينمائي",
-          "تفاصيل مقلقة عن حالة سعد لمجرد الصحية والنفسية داخل السجن.. \"يبكي طوال اليوم\""
+          "تفاصيل مقلقة عن حالة سعد لمجرد الصحية والنفسية داخل السجن.. \"يبكي طوال اليوم\"",
+          "حدث بالفن| انهيار سعد لمجرد في محبسه وأزمة \"بوستر\" مهرجان القاهرة السينمائي"
         ]
       }
     ],
@@ -277290,8 +277363,8 @@
         "date": "2026-10-16",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
@@ -277306,7 +277379,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "اقتصاد"
   },
   "rhea-ripley": {
@@ -277324,8 +277397,8 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "Rumor Roundup (Oct. 16, 2026): New main event for WrestleMania 43, GUNTHER frustration, Rhea Ripley, more!",
           "Oba Femi to Roman Reigns: \"It's about time\": Money in the Bank Post-Show highlights",
-          "Rumor Roundup: New main event for WrestleMania 43, GUNTHER frustration, Ripley, more!",
           "Backstage Report On Oba Femi Calling Out Roman Reigns After WWE Money In The Bank"
         ]
       }
@@ -277470,7 +277543,7 @@
         "publishable": false,
         "headlines": [
           "Singapore haze: Air quality very unhealthy in three regions, PM2.5 readings high in two",
-          "Some retailers capping purchases of N95 masks as haze drives surge in demand",
+          "‘Clean air is not a favour’: Indonesia’s neighbours fed up with acrid haze as Singapore threatens to prosecute",
           "Haze Situation Update (15 October 2026)"
         ]
       }
@@ -277493,8 +277566,8 @@
         "date": "2026-10-16",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -277509,7 +277582,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "عمق-البحر": {
@@ -277609,8 +277682,8 @@
         "date": "2026-10-16",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -277625,7 +277698,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "stocks": {
@@ -277685,5 +277758,121 @@
     ],
     "peak_traffic": 200,
     "category": "ديني"
+  },
+  "julia-grabher": {
+    "slug": "julia-grabher",
+    "name": "julia grabher",
+    "first_seen": "2026-10-16",
+    "appearances": [
+      {
+        "key": "2026-10-16|world",
+        "date": "2026-10-16",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Grabher vs Geerlings • Mallorca 2026",
+          "October 16, 2026: Seyboth Wild vs Kicker Tennis Prediction Market",
+          "October 16, 2026: Hsieh S-W / Ostapenko vs Bucsa / Melichar-Martinez Tennis Prediction Market"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-16",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
+  },
+  "playstation-plus": {
+    "slug": "playstation-plus",
+    "name": "playstation plus",
+    "first_seen": "2026-10-16",
+    "appearances": [
+      {
+        "key": "2026-10-16|world",
+        "date": "2026-10-16",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "PlayStation Plus Game Catalog for October: Mafia: The Old Country, Horizon Forbidden West, Mycopunk and more",
+          "PS Plus members to get one of the best PS5 action-adventures of 2025 for free, along with 6 other bangers",
+          "PlayStation Plus adds surprise RPG to October line-up that rivals Elden Ring, plus two DLC packs"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-16",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "الجمعة": {
+    "slug": "الجمعة",
+    "name": "الجمعة",
+    "first_seen": "2026-10-16",
+    "appearances": [
+      {
+        "key": "2026-10-16|eg",
+        "date": "2026-10-16",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "5 جنيهات زيادة بسعر الذهب اليوم 16 أكتوبر 2026.. وعيار 21 يسجل 6240 جنيها",
+          "الدولار يقلب موازين الذهب في مصر.. وعيار 21 مفاجأة",
+          "ارتفاع كبير في سعر الجنيه الذهب الخميس 15 أكتوبر| ننشر تحديث التعاملات المسائية"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-16",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "مخبز": {
+    "slug": "مخبز",
+    "name": "مخبز",
+    "first_seen": "2026-10-16",
+    "appearances": [
+      {
+        "key": "2026-10-16|eg",
+        "date": "2026-10-16",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "متحدث التموين بعد واقعة صاحب مخبز بنها: الشكوى من مخبز واحد.. وسحبنا عينة واستبدلنا الدقيق",
+          "تموين القليوبية: استبدال الدقيق محل شكوى مخبز بدملو وسحب عينة للتحليل",
+          "التموين تكشف حقيقة فيديو جودة الدقيق بأحد المخابز البلدية في القليوبية"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-16",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "اقتصاد"
   }
 }

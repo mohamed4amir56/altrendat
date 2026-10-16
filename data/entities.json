@@ -5251,9 +5251,9 @@
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "الطقس اليوم.. تقلبات جوية وانخفاض بالحرارة وأمطار والعظمى بالقاهرة 27 درجة",
-          "الأرصاد: غدا طقس خريفي مع فرص لسقوط أمطار في أول حالة تشهدها القاهرة الكبرى خلال خريف هذا العام",
-          "أمطار ورياح واضطراب ملاحة غدًا.. والعظمى بالقاهرة 27 درجة"
+          "منخفض جوى.. الأرصاد تحذر من حالة الطقس وأمطار وانخفاض الحرارة بهذه المناطق",
+          "انخفاض بالحرارة وأمطار.. الأرصاد تحذر من 5 ظواهر جوية تضرب البلاد",
+          "أمطار تصل للقاهرة ورياح بسرعة 60 كم.. خريطة المناطق المتأثرة"
         ]
       },
       {
@@ -5267,8 +5267,8 @@
         "publishable": true,
         "headlines": [
           "بيئي / \"الأرصاد\": أمطار على عدد من محافظات منطقة مكة المكرمة",
-          "أمطار غزيرة ورياح نشطة على عدة مناطق بالمملكة",
-          "الأرصاد يحذّر من أمطار غزيرة وسيول وبرد على عسير وحائل"
+          "أمطار غزيرة وسيول وبرد على محافظات منطقة مكة المكرمة حتى 8 مساءً",
+          "حالة الطقس اليوم الجمعة على مناطق المملكة"
         ]
       }
     ],
@@ -45527,10 +45527,24 @@
           "California recognizes Eid as a state holiday. What does that mean?",
           "CAIR-CA Welcomes Governor Newsom’s Signing of California Eid State Holiday Act"
         ]
+      },
+      {
+        "key": "2026-10-16|sa",
+        "date": "2026-10-16",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "ديني",
+        "publishable": false,
+        "headlines": [
+          "Eid Al Fitr and Eid Al Adha 2027 holiday dates revealed",
+          "Ramadan 2027.. When does the holy month begin in Morocco?"
+        ]
       }
     ],
-    "last_seen": "2026-09-29",
-    "total": 1,
+    "last_seen": "2026-10-16",
+    "total": 2,
     "countries": [
       "sa"
     ],
@@ -100435,9 +100449,9 @@
         "category": "تقنية",
         "publishable": false,
         "headlines": [
-          "Introducing Muse Spark Open, The Most Capable US Open‑Weight Model to Date",
-          "Years after telling Meta employees to inflict pain on Apple, Mark Zuckerberg sends 'thanks note' to Apple",
-          "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio"
+          "Dependence on AI makes human brains less nimble, MIT professor says",
+          "Q&A: The “collision” between AI, your brain, and society",
+          "Is AI making us dumber? Depends how it’s used"
         ]
       }
     ],
@@ -236593,14 +236607,14 @@
         "date": "2026-10-16",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "وثيقة \"كاس\" تشعل الجدل.. ما حقيقة حسم لقب أفريقيا بين المغرب والسنغال؟",
-          "\"الكاس\" تتوقع إصدار قرار بشأن الفائز بكأس أفريقيا \"في غضون أيام\"",
-          "السنغال والمغرب أمام محكمة التحكيم الرياضي في معركة جديدة على لقب أفريقيا"
+          "حفيظ دراجي يفتح ملفات ساخنة تهز الفيفا والكاف",
+          "وثيقة تمنح السنغال لقب أمم أفريقيا 2025 مزيفة ومحكمة التح..."
         ]
       }
     ],
@@ -236609,7 +236623,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "حوادث وقضايا"
   },
   "نيوكاسل-يونايتد": {
@@ -242072,11 +242086,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "دول وأماكن",
+        "category": "عام",
         "publishable": false,
         "headlines": [
           "WTA w Wuhan: Maja Chwalińska - Maria Sakkari [RELACJA NA ŻYWO]",
-          "Chwalińska walczyła z rozstawioną z USA. Deklasacja w meczu o 1/4 WTA 1000"
+          "Kolejny awans w rankingu. Tak wysoko Chwalińska jeszcze nie była",
+          "Finalistka Szlemów już nie zagrozi Chwalińskiej. Demolka w 63 minuty"
         ]
       }
     ],
@@ -242086,7 +242101,7 @@
       "world"
     ],
     "peak_traffic": 200,
-    "category": "دول وأماكن"
+    "category": "عام"
   },
   "قران-كريم": {
     "slug": "قران-كريم",
@@ -257431,9 +257446,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Tesla’s new Roadster makes a flying debut, hitting 60 MPH in under a second",
+          "Tesla unveils what it says is a flying car",
           "The World Reacts to Elon Musk's Flying Car",
-          "Tesla reveals next-generation Roadster after almost a decade of delays"
+          "Tesla’s new Roadster makes a flying debut, hitting 60 MPH in under a second"
         ]
       }
     ],
@@ -258898,9 +258913,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "«الواقعة لم تشهد استخدام أسلحة بيضاء».. إجراء عاجل من جامعة الإسكندرية بشأن «مشاجرة كلية التربية النوعية»",
           "جامعة الإسكندرية توضح حقيقة مشاجرة بين طلاب كلية التربية النوعية",
-          "جامعة الإسكندرية تحيل مشاجرة طلابية بـ«التربية النوعية» للتحقيق",
-          "«الواقعة لم تشهد استخدام أسلحة بيضاء».. إجراء عاجل من جامعة الإسكندرية بشأن «مشاجرة كلية التربية النوعية»"
+          "جامعة الإسكندرية تحيل مشاجرة طلابية بـ «التربية النوعية» للتحقيق"
         ]
       }
     ],
@@ -268352,14 +268367,29 @@
           "ارتفاع سعر الريال السعودي مقابل الجنيه في 5 بنوك خلال تعاملات اليوم",
           "قفزة قوية.. سعر الدولار والريال السعودي اليوم الخميس 15 أكتوبر 2026 في بنك مصر والأهلي"
         ]
+      },
+      {
+        "key": "2026-10-16|sa",
+        "date": "2026-10-16",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "اقتصاد",
+        "publishable": true,
+        "headlines": [
+          "سعر الريال السعودي يرتفع مقابل الجنيه في 5 بنوك خلال تعاملات اليوم",
+          "ارتفاع سعر الريال مقابل الجنيه اليوم الخميس في البنوك المصرية",
+          "قفزة قوية.. سعر الدولار والريال السعودي اليوم الخميس 15 أكتوبر 2026 في بنك مصر والأهلي"
+        ]
       }
     ],
-    "last_seen": "2026-10-15",
-    "total": 1,
+    "last_seen": "2026-10-16",
+    "total": 2,
     "countries": [
       "sa"
     ],
-    "peak_traffic": 2500,
+    "peak_traffic": 5000,
     "category": "اقتصاد"
   },
   "mu": {
@@ -277173,8 +277203,8 @@
         "date": "2026-10-16",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -277189,7 +277219,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "charissa-thompson": {
@@ -277260,8 +277290,8 @@
         "date": "2026-10-16",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
@@ -277276,7 +277306,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "اقتصاد"
   },
   "rhea-ripley": {
@@ -277405,8 +277435,8 @@
         "date": "2026-10-16",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -277421,7 +277451,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "activesg-closure": {
@@ -277584,9 +277614,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "مخلوق غامض طوله 45 متراً.. ماذا رصد العلماء في أعماق المحيط؟",
-          "أسعار العملات.. الجنيه الإسترليني يرتفع مقابل الدولار واليورو",
-          "الجنيه الإسترليني يتراجع مع ارتفاع التضخم الأمريكي الأساسي ودعم الدولار"
+          "اغمروا أنفسكم في اكتشاف كوكب المحيط، المعرض الغامر في ورشة الأضواء",
+          "كوكب المحيط: المعرض الغامر لأتيليه دو لوميير",
+          "مخلوق غامض طوله 45 متراً.. ماذا رصد العلماء في أعماق المحيط؟"
         ]
       }
     ],
@@ -277597,5 +277627,63 @@
     ],
     "peak_traffic": 100,
     "category": "شخصية"
+  },
+  "stocks": {
+    "slug": "stocks",
+    "name": "stocks",
+    "first_seen": "2026-10-16",
+    "appearances": [
+      {
+        "key": "2026-10-16|world",
+        "date": "2026-10-16",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Chipmaker sell-off sends investors to other stocks and bonds for safety",
+          "US Stocks Nudge Higher as Caution Holds Sway: Markets Wrap",
+          "S&P 500 ends higher as traders shift from AI to healthcare"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-16",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "اقتصاد"
+  },
+  "موعد-صلاة-الجمعة": {
+    "slug": "موعد-صلاة-الجمعة",
+    "name": "موعد صلاة الجمعة",
+    "first_seen": "2026-10-16",
+    "appearances": [
+      {
+        "key": "2026-10-16|sa",
+        "date": "2026-10-16",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "ديني",
+        "publishable": false,
+        "headlines": [
+          "مواقيت الصلاة في محافظات مصر اليوم الجمعة 16 أكتوبر 2026",
+          "«الفجر في الإسكندرية 05.34».. جدول مواقيت الصلاة في محافظات مصر غداً الأربعاء 14 أكتوبر 2026",
+          "مواقيت الصلاة اليوم الجمعة 16 أكتوبر 2026 بمحافظات الجمهورية"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-16",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "ديني"
   }
 }

@@ -4780,19 +4780,34 @@
         "date": "2026-10-17",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "سياسة",
+        "publishable": true,
+        "headlines": [
+          "الرئيس السيسي: الكلام عن دور لأهلى أو قرايبى فى حكم مصر لا يليق",
+          "مدير الأكاديمية العسكرية المصرية: معرفة التاريخ واستدعاء أحداثه العامل الرئيسي في نجاح أي رؤية أو منظومة مستقبلية",
+          "قادة في وجدان الأمة.. فيلم تسجيلي عن قادة عظماء في القوات المسلحة المصرية"
+        ]
+      },
+      {
+        "key": "2026-10-17|sa",
+        "date": "2026-10-17",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "الرئيس السيسي: الكلام عن دور لأهلى أو قرايبى فى حكم مصر لا يليق",
-          "قادة في وجدان الأمة.. فيلم تسجيلي عن قادة عظماء في القوات المسلحة المصرية",
-          "السيسي يكلف الأكاديمية العسكرية بتأهيل قادة لتولي مسؤولية الدولة"
+          "السيسي يطلب تفويضا من البرلمان للدفاع عن السعودية",
+          "السيسي يوجه بتقديم التحية العسكرية لدول الخليج",
+          "السيسي: مستعدون لتنفيذ ما تطلبه السعودية وفق توجهات الملك سلمان وولي العهد"
         ]
       }
     ],
     "last_seen": "2026-10-17",
-    "total": 5,
+    "total": 6,
     "countries": [
       "eg",
       "sa"
@@ -39306,7 +39321,7 @@
         "publishable": false,
         "headlines": [
           "‘সবকিছু সম্ভব’—ত্রিদেশীয় সিরিজের আগে বললেন লিটন",
-          "জিম্বাবুয়ের বিপক্ষে যে একাদশ নিয়ে নামছে বাংলাদেশ",
+          "জ্বরে আক্রান্ত মিরাজ, বিকল্প ভাবনায় কে?",
           "ওয়ানডেতে ব্যর্থতা কাটিয়ে ঘুরে দাঁড়ানোর প্রত্যয় লিটনের, আলিসকে নিয়েও দিলেন বার্তা"
         ]
       }
@@ -72755,16 +72770,31 @@
           "Licensable picture: ATP Masters 1000 - Shanghai Masters",
           "China Tennis Shanghai Masters"
         ]
+      },
+      {
+        "key": "2026-10-17|eg",
+        "date": "2026-10-17",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "FINISHING ON TOP OF THE WORLD | News",
+          "Zverev clinches ATP Year-End No. 1 presented by PIF honours",
+          "Becker defends Zverev’s year-end No. 1: “nothing is given to you for free”"
+        ]
       }
     ],
     "last_seen": "2026-10-17",
-    "total": 7,
+    "total": 8,
     "countries": [
       "eg",
       "world"
     ],
     "peak_traffic": 4000,
-    "category": "رياضة"
+    "category": "عام"
   },
   "adele-zaikman": {
     "slug": "adele-zaikman",
@@ -162065,9 +162095,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "مهلة شهرين لاستبدال العدادات التالفة.. وزير الكهرباء لـ\"مصراوي\": تحويل 1.35 مليون عداد كودي لقانوني خلال أيام",
           "وداعًا للسعر الموحد.. طريقة تحويل العداد الكودي إلى قانوني 2026 والأوراق المطلوبة (تفاصيل)",
-          "القابضة للكهرباء توجه 4 رسائل توعوية للمشتركين.. العدادات وإجراءات السلامة",
-          "شروط استبدال عدادات الكهرباء القديمة والمعطلة بمسبقة الدفع"
+          "القابضة للكهرباء توجه 4 رسائل توعوية للمشتركين.. العدادات وإجراءات السلامة"
         ]
       }
     ],
@@ -186816,10 +186846,25 @@
           "How to dress like a gentleman, according to author John Berendt",
           "How to dress like a man"
         ]
+      },
+      {
+        "key": "2026-10-17|world",
+        "date": "2026-10-17",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "50 Years In, What’s the Point of U2? Bono and the Edge Have Answers.",
+          "U2, at 50, has rocked Long Island many times",
+          "Listen: U2’s 50th Anniversary Concert at Mount Temple"
+        ]
       }
     ],
-    "last_seen": "2026-10-13",
-    "total": 5,
+    "last_seen": "2026-10-17",
+    "total": 6,
     "countries": [
       "world"
     ],
@@ -202544,8 +202589,8 @@
         "date": "2026-10-17",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -202560,7 +202605,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "psim-vs-persija-jakarta": {
@@ -269903,15 +269948,30 @@
           "Swiatek defeats Frech 6-2, 6-1 to reach the final 16 at the WTA's Wuhan Open",
           "How & Where to Watch Jelena Ostapenko vs. Jessica Pegula at WTA Wuhan Open? Start Time, Live Streaming, and TV Channels"
         ]
+      },
+      {
+        "key": "2026-10-17|world",
+        "date": "2026-10-17",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+2100",
+        "traffic_num": 2100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Swiatek tops Li, books all-Polish semifinal against Chwalinska at the Wuhan Open",
+          "How to watch the women’s Dongfeng Voyah Wuhan Open: Streaming options for the Semifinal",
+          "Iga Swiatek, 25, completes circle and reaches semifinals in all 16 major tournaments"
+        ]
       }
     ],
-    "last_seen": "2026-10-15",
-    "total": 1,
+    "last_seen": "2026-10-17",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
-    "category": "رياضة"
+    "peak_traffic": 2100,
+    "category": "عام"
   },
   "استعلام-تكافل-وكرامة": {
     "slug": "استعلام-تكافل-وكرامة",
@@ -290468,7 +290528,7 @@
         "headlines": [
           "Anirudh Ravichander To Marry Kavya Maran In November, Confirms Telangana Chief Minister",
           "'Jailer 2' music composer Anirudh Ravichander invites CM Vijay to wedding reception with Kavya Maran; PM",
-          "Cricket meets music: SRH owner Kavya Maran set to marry Anirudh Ravichander"
+          "Kavya Maran Wedding: Sun TV confirms marriage with Anirudh Ravichander"
         ]
       }
     ],
@@ -290576,14 +290636,14 @@
         "date": "2026-10-17",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "كيف أثرت ظاهرة النينيو على أسعار الغاز العالمية؟",
-          "ارتفاع العقود الآجلة للغاز الأوروبي 6% خلال أسبوع",
-          "الغاز الطبيعي: شتاء متقلب مع استمرار شح الغاز الطبيعي المسال من الخليج الفارسي – ING"
+          "رئيس وزراء لبنان: بحثنا مع قطر وقف الحرب ودعم الجيش ومعالجة أزمة الطاقة",
+          "بري يؤكد أهمية دعم الجيش اللبناني وتحرير الأراضي المحتلة وعودة النازحين",
+          "رئيس وزراء قطر يبحث مع بهية الحريري في بيروت تعزيز علاقات البلدين"
         ]
       }
     ],
@@ -290592,7 +290652,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "شخصية"
   },
   "kuwait": {
@@ -290605,14 +290665,14 @@
         "date": "2026-10-17",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "category": "اقتصاد",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تقنية",
         "publishable": false,
         "headlines": [
-          "100 new UK jobs created as Kuwait buys British-made AI-enabled air defence systems",
-          "EOS lands $700M defence deal that could double revenue",
-          "Electro Optic Systems: Turning Counter-UAS Tailwinds Into Multi-Layer Defense Scale(EOPSF)"
+          "Saudi flight cancellations: Latest list of affected airlines and routes",
+          "Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
+          "Qatar Airways suspends Riyadh, Dammam flights as airport attacks disrupt air travel"
         ]
       }
     ],
@@ -290621,8 +290681,8 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
-    "category": "اقتصاد"
+    "peak_traffic": 200,
+    "category": "تقنية"
   },
   "aden-international-airport": {
     "slug": "aden-international-airport",
@@ -290639,8 +290699,8 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
+          "Can Yemen’s government forces sustain their offensive against the Houthis?",
           "Five killed, 16 wounded as Houthis launch deadly attack on Yemen presidential palace",
-          "Yemen’s government says Houthis fired two missiles at Aden airport",
           "Iran-aligned Houthis launch deadly attack on Yemeni presidential palace in escalating campaign against Saudi Arabia"
         ]
       }
@@ -290814,7 +290874,7 @@
         "publishable": false,
         "headlines": [
           "المخرج رامي إمام يعلق على الصورة المفبركة لوالده خلال حضوره مهرجان الجونة",
-          "محمود سعد غاضب من صورة عادل إمام المفبركة: «أنتم ما تعرفوش يعني إيه الزعيم»",
+          "محمود سعد ينفعل بسبب صورة الزعيم: \"ما تعرفوش يعني إيه عادل إمام\"",
           "حقيقة الظهور الخاطف لعادل إمام في شوارع القاهرة"
         ]
       }
@@ -290897,12 +290957,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "عام",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "‘Tough to watch, impossible to ignore’: reviewers on NAZA documentary",
           "A Gaza war documentary sparks outrage in Israel",
-          "I survived Gaza's horrors. I watched NAZA to learn how Israeli soldiers live with it"
+          "NAZA film review — Israeli accounts of assault on Gaza make brutally hard viewing"
         ]
       }
     ],
@@ -290912,7 +290972,7 @@
       "world"
     ],
     "peak_traffic": 100,
-    "category": "عام"
+    "category": "حوادث وقضايا"
   },
   "mega-millions-numbers": {
     "slug": "mega-millions-numbers",
@@ -291029,5 +291089,208 @@
     ],
     "peak_traffic": 500,
     "category": "عام"
+  },
+  "deportación": {
+    "slug": "deportación",
+    "name": "deportación",
+    "first_seen": "2026-10-17",
+    "appearances": [
+      {
+        "key": "2026-10-17|world",
+        "date": "2026-10-17",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "ICE quiere llegar a 3,000 arrestos diarios: ¿En qué consistiría la nueva orden?",
+          "Avanza el ICE: el nuevo modus operandi para acelerar la detención de inmigrantes en carreteras",
+          "Pésimas noticias en EE.UU. | Extranjeros con documentos legales fueron detenidos durante una operación del ICE y podrían ser deportados"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-17",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "east-potomac-golf-links-legal-dispute": {
+    "slug": "east-potomac-golf-links-legal-dispute",
+    "name": "east potomac golf links legal dispute",
+    "first_seen": "2026-10-17",
+    "appearances": [
+      {
+        "key": "2026-10-17|world",
+        "date": "2026-10-17",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Trump administration seeks to remove judge who rebuked it over tree removal",
+          "Justice Department Seeks to Disqualify Judge Overseeing Golf Course Lawsuit",
+          "The Cutest Target of Trump’s D.C. Makeover: Mini-Golf"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-17",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "ga-lottery": {
+    "slug": "ga-lottery",
+    "name": "ga lottery",
+    "first_seen": "2026-10-17",
+    "appearances": [
+      {
+        "key": "2026-10-17|world",
+        "date": "2026-10-17",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Georgia Lottery announces two local winners",
+          "Eatonton, Forsyth players win Georgia Lottery prizes over holiday weekend",
+          "Butts County Fantasy 5 winner claims $621,715 jackpot after matching all five numbers"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-17",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "tonga-vs-england": {
+    "slug": "tonga-vs-england",
+    "name": "tonga vs england",
+    "first_seen": "2026-10-17",
+    "appearances": [
+      {
+        "key": "2026-10-17|world",
+        "date": "2026-10-17",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "England vs Tonga LIVE: Rugby League World Cup - build-up, team news, score, text updates & match stats",
+          "England’s World Cup test against Tonga will show where power really lies in rugby league",
+          "Mikey Lewis 'staying ready' as Hull KR man pushes to secure World Cup opportunity"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-17",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "القنوات-الناقلة-لمباراة-الاهلي": {
+    "slug": "القنوات-الناقلة-لمباراة-الاهلي",
+    "name": "القنوات الناقلة لمباراة الاهلي",
+    "first_seen": "2026-10-17",
+    "appearances": [
+      {
+        "key": "2026-10-17|eg",
+        "date": "2026-10-17",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "الأمطار الغزيرة تضرب هويما قبل مواجهة الأهلي وكيتارا فى الكونفدرالية",
+          "كأس الكونفدرالية| محاضرة فنية ختامية للأهلي قبل مباراة «كيتارا»",
+          "سفير مصر في أوغندا: استقبال تاريخي للأهلي.. والجماهير تستعد لاحتفالية قبل مواجهة كيتارا"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-17",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "المتحف-المصري-الكبير": {
+    "slug": "المتحف-المصري-الكبير",
+    "name": "المتحف المصري الكبير",
+    "first_seen": "2026-10-17",
+    "appearances": [
+      {
+        "key": "2026-10-17|eg",
+        "date": "2026-10-17",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "بداية من نوفمبر 2026.. زيادة أسعار تذاكر المتحف المصري الكبير للمصريين والأجانب (تفاصيل)",
+          "وزير السياحة: 5 ملايين زائر للمتحف المصري الكبير منذ افتتاحه",
+          "دليل تذاكر المتحف المصري الكبير 2026.. الأسعار الجديدة ومواعيد التطبيق والحجز الإلكتروني"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-17",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "ban-vs-zim": {
+    "slug": "ban-vs-zim",
+    "name": "ban vs zim",
+    "first_seen": "2026-10-17",
+    "appearances": [
+      {
+        "key": "2026-10-17|sa",
+        "date": "2026-10-17",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Zimbabwe look to extend recent dominance over Bangladesh",
+          "Litton urges senior batters to step up ahead of tri-series",
+          "Tigers back in tri-series business, with World Cup in mind"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-17",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
   }
 }

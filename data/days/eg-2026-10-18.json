@@ -4,13 +4,13 @@
   "name_en": "Egypt",
   "lang": "ar",
   "flag": "🇪🇬",
-  "generated_at": "2026-10-18T05:01:14.396286+00:00",
+  "generated_at": "2026-10-18T05:31:28.271498+00:00",
   "day": "2026-10-18",
   "trends": [
     {
       "title": "الطقس",
-      "traffic": "+60100",
-      "traffic_num": 60100,
+      "traffic": "+60200",
+      "traffic_num": 60200,
       "published": "Sat, 17 Oct 2026 20:40:00 -0700",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS82p5jvjFwPBU7STsVgcLRgF3mRuLdX9jfyP2iZh7RYUHBnQlQchqSBPRaCEI",
       "image_source": "اليوم السابع",
@@ -26,14 +26,15 @@
           "ok": true
         },
         {
-          "title": "الأرصاد: استمرار فرص سقوط الأمطار غدا.. وانخفاض الحرارة ليلا إلى 17 درجة",
-          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=17102026&id=832e1c16-4dd5-4a2f-abc2-ea1303995195",
-          "source": "بوابة الشروق",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Idl2-9ctFhA8nv4n_Z3m9MHH_zsbQZ5DdmNe66HF9if-YCZFqRwOKo9rMak",
+          "title": "الأرصاد: استمرار فرص سقوط الأمطار غدًا.. وانخفاض الحرارة ليلًا إلى 17 درجة",
+          "url": "https://gate.ahram.org.eg/News/5967113.aspx",
+          "source": "بوابة الأهرام",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSFx9Dnh3Hi2NeyWHCsAUPel2KIw7n9WE4-LLzHDvuW2qhb2wpa1MMp7lkFNrA",
           "og_title": "",
           "og_desc": "",
-          "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/311196713_3433808330276924_990962169799519393_n.jpg",
-          "ok": false
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         },
         {
           "title": "أمطار غزيرة وانخفاض بالحرارة.. الأرصاد تكشف تفاصيل طقس الساعات المقبلة",
@@ -44,6 +45,76 @@
           "og_desc": "بوابة أخبار اليوم الإلكترونية",
           "og_image": "https://Images.akhbarelyom.com/images/images/large/20261017132448754.jpg",
           "ok": true
+        },
+        {
+          "title": "Rain and scorching heat on the same day: What's happening with UAE weather?",
+          "url": "https://gulfnews.com/uae/weather/watch-rain-hits-eastern-al-ain-police-urge-caution-on-roads-1.500714273",
+          "source": "Gulf News",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXyOx7v6LUFuSlhAOixH6fOpQMbA7XQ4a-OdfV9ds7X2vK-CAMr9QJftuYfzE",
+          "og_title": "Rain and scorching heat on the same day: What's happening with UAE weather?",
+          "og_desc": "Rain reported in Khatm Al Shiklah east of Al Ain on October 17 as UAE temperatures reach 41.6°C in Sweihan. Abu Dhabi Police urge motorists to drive carefully.",
+          "og_image": "https://media.assettype.com/gulfnews%2F2026-10-17%2Fhi0lvgt1%2FAl-Ain?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+          "ok": true
+        },
+        {
+          "title": "GCAA: Seasonal weather may disrupt flights due to poor visibility",
+          "url": "https://sharjah24.ae/en/Articles/2026/10/17/Ma8",
+          "source": "Sharjah24",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz_f-qaZ1bs4x6HqafEDUYCzwkR8P8K8P6MLFN6KLeQ9TgZ9gJc4AneR6G1uE",
+          "og_title": "GCAA: Seasonal weather may disrupt flights due to poor visibility",
+          "og_desc": "The General Civil Aviation Authority (GCAA) has warned that seasonal weather changes and reduced visibility in parts of the UAE may cause minor flight delays. Airlines and airport operators are ...",
+          "og_image": "https://sharjah24.ae/-/media/Sharjah24/Articles/2026/October-2026/17/GCAA-Seasonal-weather-may-disrupt-flights-due-to-poor-visibility.webp?20261018093124",
+          "ok": true
+        },
+        {
+          "title": "UAE: UAE aviation authority warns of possible flight delays due to reduced visibility",
+          "url": "https://www.gdnonline.com/Details/1409991/UAE-aviation-authority-warns-of-possible-flight-delays-due-to-reduced-visibility",
+          "source": "Gulf Daily News (Bahrain)",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVHcNXGdtb3TuYp_cpvvV-okRJdhHz9o93zSB6k9TSCzD_nzV-lQH0LLduAfw",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "https://www.gdnonline.com/gdnimages/20261017\\20261017125955zrl07r2c1k817jqpd.jpg",
+          "ok": false
+        },
+        {
+          "title": "الأرصاد: طقس الغد مائل للحرارة.. والعظمى بالقاهرة 29",
+          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=17102026&id=1a887ecb-b50b-45de-ba66-948e34d4ff58",
+          "source": "بوابة الشروق",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBGRxuIvFWMF8JyFgD7VW2XtfZxr6nZDQBcFFbUHY_M_3jn3DcA27SFQUAlOQ",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/موج33333333333333333333333333333.JPG",
+          "ok": false
+        },
+        {
+          "title": "حالة الطقس اليوم الأحد 18 أكتوبر 2026 في مصر",
+          "url": "https://www.elbalad.news/7145834",
+          "source": "صدى البلد",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSEWFs1zgckYVmIOPoWwT6iLD7iYk-SfADWL0JpWwxRMSK-APgg9ApVzs5Eiyw",
+          "og_title": "حالة الطقس اليوم الأحد 18 أكتوبر 2026 في مصر",
+          "og_desc": "يبحث عدد كبير من المواطنين عن حالة الطقس ودرجات الحرارة المتوقعة اليوم الأحد 18 أكتوبر 2026،",
+          "og_image": "https://media.elbalad.news/2026/10/large/6402101893998202610171154155415.jpg",
+          "ok": true
+        },
+        {
+          "title": "احذروا الطريق في الصباح.. الأرصاد تكشف خريطة الشبورة والأمطار خلال الأيام المقبلة",
+          "url": "https://akhbarelyom.com/news/newdetails/4892138/1/%D8%A7%D8%AD%D8%B0%D8%B1%D9%88%D8%A7-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82-%D9%81%D9%8A-%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD-%D8%A7%D9%84%D8%A3%D8%B1%D8%B5%D8%A7%D8%AF-%D8%AA%D9%83%D8%B4%D9%81-%D8%AE%D8%B1%D9%8A",
+          "source": "بوابة أخبار اليوم الإلكترونية",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWB4XJiFLYM675tEYETkm6k9YkXZneMVEX9ZuffZSZR6UOAPfzv4DzudPsrsk",
+          "og_title": "احذروا الطريق في الصباح.. الأرصاد تكشف خريطة الشبورة والأمطار خلال الأيام المقبلة",
+          "og_desc": "بوابة أخبار اليوم الإلكترونية",
+          "og_image": "https://Images.akhbarelyom.com/images/images/large/20261016064535361.jpg",
+          "ok": true
+        },
+        {
+          "title": "الأرصاد: استمرار فرص سقوط الأمطار غدا.. وانخفاض الحرارة ليلا إلى 17 درجة",
+          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=17102026&id=832e1c16-4dd5-4a2f-abc2-ea1303995195",
+          "source": "بوابة الشروق",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Idl2-9ctFhA8nv4n_Z3m9MHH_zsbQZ5DdmNe66HF9if-YCZFqRwOKo9rMak",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/311196713_3433808330276924_990962169799519393_n.jpg",
+          "ok": false
         },
         {
           "title": "Weekly Weather: Wet In East, Warm In South",
@@ -75,36 +146,6 @@
           "og_image": "",
           "ok": false,
           "error": "HTTPError"
-        },
-        {
-          "title": "الأرصاد: طقس الغد مائل للحرارة.. والعظمى بالقاهرة 29",
-          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=17102026&id=1a887ecb-b50b-45de-ba66-948e34d4ff58",
-          "source": "بوابة الشروق",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBGRxuIvFWMF8JyFgD7VW2XtfZxr6nZDQBcFFbUHY_M_3jn3DcA27SFQUAlOQ",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/موج33333333333333333333333333333.JPG",
-          "ok": false
-        },
-        {
-          "title": "حالة الطقس اليوم الأحد 18 أكتوبر 2026 في مصر",
-          "url": "https://www.elbalad.news/7145834",
-          "source": "صدى البلد",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSEWFs1zgckYVmIOPoWwT6iLD7iYk-SfADWL0JpWwxRMSK-APgg9ApVzs5Eiyw",
-          "og_title": "حالة الطقس اليوم الأحد 18 أكتوبر 2026 في مصر",
-          "og_desc": "يبحث عدد كبير من المواطنين عن حالة الطقس ودرجات الحرارة المتوقعة اليوم الأحد 18 أكتوبر 2026،",
-          "og_image": "https://media.elbalad.news/2026/10/large/6402101893998202610171154155415.jpg",
-          "ok": true
-        },
-        {
-          "title": "احذروا الطريق في الصباح.. الأرصاد تكشف خريطة الشبورة والأمطار خلال الأيام المقبلة",
-          "url": "https://akhbarelyom.com/news/newdetails/4892138/1/%D8%A7%D8%AD%D8%B0%D8%B1%D9%88%D8%A7-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82-%D9%81%D9%8A-%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD-%D8%A7%D9%84%D8%A3%D8%B1%D8%B5%D8%A7%D8%AF-%D8%AA%D9%83%D8%B4%D9%81-%D8%AE%D8%B1%D9%8A",
-          "source": "بوابة أخبار اليوم الإلكترونية",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWB4XJiFLYM675tEYETkm6k9YkXZneMVEX9ZuffZSZR6UOAPfzv4DzudPsrsk",
-          "og_title": "احذروا الطريق في الصباح.. الأرصاد تكشف خريطة الشبورة والأمطار خلال الأيام المقبلة",
-          "og_desc": "بوابة أخبار اليوم الإلكترونية",
-          "og_image": "https://Images.akhbarelyom.com/images/images/large/20261016064535361.jpg",
-          "ok": true
         },
         {
           "title": "الطقس غدا.. انخفاض بالحرارة وأمطار والصغرى بالقاهرة تنخفض لـ18 درجة",
@@ -1434,10 +1475,10 @@
           "url": "https://www.skynewsarabia.com/world/1898687-%D8%A5%D8%B3%D8%B7%D9%86%D8%A8%D9%88%D9%84-%D9%88%D8%B7%D8%A3%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B7%D8%A7%D8%B1-%D8%B6%D8%AD%D8%A7%D9%8A%D8%A7-%D9%88%D9%85%D9%81%D9%82%D9%88%D8%AF%D9%88%D9%86-%D9%88%D8%A2%D9%84%D8%A7%D9%81-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A7%D8%AA",
           "source": "سكاي نيوز عربية",
           "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQQcAlq6rRED78PTGAGSNR_OvBxhreC7BEH6BnD-HVyKk5zV5MxzJJvMnqjY48",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false
+          "og_title": "إسطنبول تحت وطأة أمطار قياسية.. ضحايا ومفقودون وآلاف البلاغات",
+          "og_desc": "تحولت الأمطار الغزيرة التي ضربت مدينة إسطنبول التركية إلى كارثة خلفت قتلى ومفقودين، وأغرقت الشوارع والمنازل، وجرفت السيارات، وعطلت الحياة في أجزاء واسعة من المدينة. ومع تسجيل مستويات قياسية للهطول لم تشهدها بعض مناطق إسطنبول منذ 84 عاما، تواصل فرق الطوارئ عمليات البحث والإنقاذ وإزالة آثار السيول، وسط آلاف البلاغات عن الأضرار.",
+          "og_image": "https://www.skynewsarabia.com/images/v1/2026/10/16/1898688/1200/630/1-1898688.jpeg",
+          "ok": true
         }
       ],
       "category": "حوادث وقضايا",
@@ -1494,6 +1535,54 @@
       "publishable": false,
       "card": "cards/eg-2026-10-18-as-roma-vs-genoa-cfc-standings.png",
       "published_at": "2026-10-18T01:01:05.631200+00:00"
+    },
+    {
+      "title": "أحمد فلوكس",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Sat, 17 Oct 2026 17:00:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5n0SD_QQStGPhXlK7n04yWCOmCDeQBGxx4djjnLqGbV4RnF92C5rtrM09azQ",
+      "image_source": "اليوم السابع",
+      "news": [
+        {
+          "title": "أحمد فلوكس يعلن ارتباطه رسميًا ويستعد لبدء حياة جديدة",
+          "url": "https://www.youm7.com/story/2026/10/17/%D8%A3%D8%AD%D9%85%D8%AF-%D9%81%D9%84%D9%88%D9%83%D8%B3-%D9%8A%D8%B9%D9%84%D9%86-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7%D9%87-%D8%B1%D8%B3%D9%85%D9%8A%D9%8B%D8%A7-%D9%88%D9%8A%D8%B3%D8%AA%D8%B9%D8%AF-%D9%84%D8%A8%D8%AF%D8%A1-%D8%AD%D9%8A%D8%A7%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9/7583478",
+          "source": "اليوم السابع",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5n0SD_QQStGPhXlK7n04yWCOmCDeQBGxx4djjnLqGbV4RnF92C5rtrM09azQ",
+          "og_title": "أحمد فلوكس يعلن ارتباطه رسميًا ويستعد لبدء حياة جديدة - اليوم السابع",
+          "og_desc": "أعلن الفنان أحمد فلوكس ارتباطه رسميًا، في خطوة جديدة على الصعيد الشخصي، كاشفًا عن استعداده لبدء مرحلة مختلفة في حياته.",
+          "og_image": "https://img.youm7.com/xlarge/202411240233163316.jpg",
+          "ok": true
+        },
+        {
+          "title": "أحمد فلوكس يعلن خطوبته من فتاة خارج الوسط الفني: «عوضني الله وبدأت حياة جديدة»",
+          "url": "https://www.almasryalyoum.com/news/details/4385842",
+          "source": "المصري اليوم",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6dXBG1FuJqWc0Rhnvi3rTeSzBfU3EKBmR-bY5fgmZMfhefiZO1QIcBWldaJ8",
+          "og_title": "أحمد فلوكس يعلن خطوبته من فتاة خارج الوسط الفني: «عوضني الله وبدأت حياة جديدة» | المصري اليوم",
+          "og_desc": "أعلن الفنان أحمد فلوكس، ارتباطه وخطوبته من فتاة من خارج الوسط الفني، مشاركًا جمهوره ومتابعيه لحظات من السعادة التي يعيشها خلال هذه الفترة.ونشر فلوكس، مقطع فيديو عبر حسابه...",
+          "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/10/17/2061847.webp",
+          "ok": true
+        },
+        {
+          "title": "أحمد فلوكس يحتفل بخطوبته على فتاة من خارج الوسط الفني",
+          "url": "https://al-ain.com/article/ahmed-falawkas-engagement",
+          "source": "العين الإخبارية",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRmMBOB9cj8T723C3B36bb7RWptjbzzs9VRiAcYEJDM1AZM45WTVr4mejNl1yI",
+          "og_title": "أحمد فلوكس يحتفل بخطوبته على فتاة من خارج الوسط الفني",
+          "og_desc": "أعلن الفنان أحمد فلوكس خطوبته على فتاة من خارج الوسط الفني، كاشفًا عن بدء مرحلة جديدة في حياته، بعد سنوات غيّرت نظرته إلى المستقبل.",
+          "og_image": "https://cdn.al-ain.com/images/2026/10/18/173-000448-ahmed-falawkas-engagement_700x400.jpg",
+          "ok": true
+        }
+      ],
+      "category": "شخصية",
+      "icon": "👤",
+      "color": "#ffd166",
+      "reason": "حجم بحث أقل من 2000",
+      "publishable": false,
+      "person": true,
+      "card": "cards/eg-2026-10-18-أحمد-فلوكس.png",
+      "published_at": "2026-10-18T03:31:10.237290+00:00"
     },
     {
       "title": "مسلسل طالع نازل الحلقة ٤",
@@ -1658,16 +1747,6 @@
           "ok": true
         },
         {
-          "title": "FINAL: Florida 27, Texas 24",
-          "url": "https://floridagators.com/news/2026/10/17/football-final-quick-slant-florida-vs-texas-oct-17-2026",
-          "source": "Florida Gators",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRe8fpejdoZ7lxnoxwal7xC5ES-iAqROqLM0MWEhRU3HbwLv9lOFXo5jT1zuyU",
-          "og_title": "FINAL: Florida 27, Texas 24 - Florida Gators",
-          "og_desc": "A quick wrap of UF's stunning road upset of the seventh-ranked Longhorns.",
-          "og_image": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fgatorzone.com%2Fimages%2F2026%2F10%2F9%2FQuickSlant_CH_JadanBaugh_1eo8F.jpg&width=1600&type=jpeg",
-          "ok": true
-        },
-        {
           "title": "Florida Gators vs. Texas Longhorns: Full Highlights",
           "url": "https://www.espn.com/video/clip/_/id/50203211/full-highlights",
           "source": "ESPN",
@@ -1676,6 +1755,16 @@
           "og_desc": "",
           "og_image": "",
           "ok": false
+        },
+        {
+          "title": "FINAL: Florida 27, Texas 24",
+          "url": "https://floridagators.com/news/2026/10/17/football-final-quick-slant-florida-vs-texas-oct-17-2026",
+          "source": "Florida Gators",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRe8fpejdoZ7lxnoxwal7xC5ES-iAqROqLM0MWEhRU3HbwLv9lOFXo5jT1zuyU",
+          "og_title": "FINAL: Florida 27, Texas 24 - Florida Gators",
+          "og_desc": "A quick wrap of UF's stunning road upset of the seventh-ranked Longhorns.",
+          "og_image": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fgatorzone.com%2Fimages%2F2026%2F10%2F9%2FQuickSlant_CH_JadanBaugh_1eo8F.jpg&width=1600&type=jpeg",
+          "ok": true
         }
       ],
       "category": "رياضة",
@@ -1747,10 +1836,11 @@
           "url": "https://www.masrawy.com/news/news_publicaffairs/details/2026/10/17/3064368/%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%88%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%86%D9%81%D8%B0%D8%AA-53-%D8%BA%D8%A7%D8%B1%D8%A9-%D8%B9%D9%84%D9%89-%D8%B9%D8%AF%D8%A9-%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%A7%D8%B6%D9%8A%D8%A9",
           "source": "Masrawy",
           "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw-T0Q9G__DCc8uoBLjRjlDh0LwlACej1WKBgbKogiZJL5gH2Zm4ui2ZCSmxY",
-          "og_title": "الحوثيون: السعودية نفذت 53 غارة على عدة محافظات خلال الساعات الماضية | مصراوي",
-          "og_desc": "أعلن المتحدث العسكري باسم جماعة الحوثيين تفاصيل تصريحات يحيى سريع بشأن شن عشرات الغارات الجوية على عدة محافظات بالتزامن مع إعلان الجيش حصيلة عملياته | مصراوي",
-          "og_image": "https://media.gemini.media/img/large/2026/8/5/2026_8_5_10_31_26_429.webp",
-          "ok": true
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         },
         {
           "title": "بيان لقوات صنعاء بمستجدات",
@@ -1782,87 +1872,48 @@
       "published_at": "2026-10-18T03:01:11.929996+00:00"
     },
     {
-      "title": "أحمد فلوكس",
-      "traffic": "100+",
-      "traffic_num": 100,
-      "published": "Sat, 17 Oct 2026 17:00:00 -0700",
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5n0SD_QQStGPhXlK7n04yWCOmCDeQBGxx4djjnLqGbV4RnF92C5rtrM09azQ",
-      "image_source": "اليوم السابع",
-      "news": [
-        {
-          "title": "أحمد فلوكس يعلن ارتباطه رسميًا ويستعد لبدء حياة جديدة",
-          "url": "https://www.youm7.com/story/2026/10/17/%D8%A3%D8%AD%D9%85%D8%AF-%D9%81%D9%84%D9%88%D9%83%D8%B3-%D9%8A%D8%B9%D9%84%D9%86-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7%D9%87-%D8%B1%D8%B3%D9%85%D9%8A%D9%8B%D8%A7-%D9%88%D9%8A%D8%B3%D8%AA%D8%B9%D8%AF-%D9%84%D8%A8%D8%AF%D8%A1-%D8%AD%D9%8A%D8%A7%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9/7583478",
-          "source": "اليوم السابع",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5n0SD_QQStGPhXlK7n04yWCOmCDeQBGxx4djjnLqGbV4RnF92C5rtrM09azQ",
-          "og_title": "أحمد فلوكس يعلن ارتباطه رسميًا ويستعد لبدء حياة جديدة - اليوم السابع",
-          "og_desc": "أعلن الفنان أحمد فلوكس ارتباطه رسميًا، في خطوة جديدة على الصعيد الشخصي، كاشفًا عن استعداده لبدء مرحلة مختلفة في حياته.",
-          "og_image": "https://img.youm7.com/xlarge/202411240233163316.jpg",
-          "ok": true
-        },
-        {
-          "title": "أحمد فلوكس يعلن خطوبته من فتاة خارج الوسط الفني: «عوضني الله وبدأت حياة جديدة»",
-          "url": "https://www.almasryalyoum.com/news/details/4385842",
-          "source": "المصري اليوم",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6dXBG1FuJqWc0Rhnvi3rTeSzBfU3EKBmR-bY5fgmZMfhefiZO1QIcBWldaJ8",
-          "og_title": "أحمد فلوكس يعلن خطوبته من فتاة خارج الوسط الفني: «عوضني الله وبدأت حياة جديدة» | المصري اليوم",
-          "og_desc": "أعلن الفنان أحمد فلوكس، ارتباطه وخطوبته من فتاة من خارج الوسط الفني، مشاركًا جمهوره ومتابعيه لحظات من السعادة التي يعيشها خلال هذه الفترة.ونشر فلوكس، مقطع فيديو عبر حسابه...",
-          "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/10/17/2061847.webp",
-          "ok": true
-        },
-        {
-          "title": "أحمد فلوكس يحتفل بخطوبته على فتاة من خارج الوسط الفني",
-          "url": "https://al-ain.com/article/ahmed-falawkas-engagement",
-          "source": "العين الإخبارية",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRmMBOB9cj8T723C3B36bb7RWptjbzzs9VRiAcYEJDM1AZM45WTVr4mejNl1yI",
-          "og_title": "أحمد فلوكس يحتفل بخطوبته على فتاة من خارج الوسط الفني",
-          "og_desc": "أعلن الفنان أحمد فلوكس خطوبته على فتاة من خارج الوسط الفني، كاشفًا عن بدء مرحلة جديدة في حياته، بعد سنوات غيّرت نظرته إلى المستقبل.",
-          "og_image": "https://cdn.al-ain.com/images/2026/10/18/173-000448-ahmed-falawkas-engagement_700x400.jpg",
-          "ok": true
-        }
-      ],
-      "category": "شخصية",
-      "icon": "👤",
-      "color": "#ffd166",
-      "reason": "حجم بحث أقل من 2000",
-      "publishable": false,
-      "person": true,
-      "card": "cards/eg-2026-10-18-أحمد-فلوكس.png",
-      "published_at": "2026-10-18T03:31:10.237290+00:00"
-    },
-    {
       "title": "mls",
       "traffic": "100+",
       "traffic_num": 100,
       "published": "Sat, 17 Oct 2026 19:30:00 -0700",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOxBJlhbkLvBmfl3FWZjOP-yJQ87SJCq4kiDSLjsBB8m6QqPk7uvJnmy2Rvg",
-      "image_source": "FanDuel Sportsbook",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFAFZsqhr59qYUQIUPJ9jdjcnPTZiboWw2MaRRjTdbdaoCq_rXzvDeNDJ4_48",
+      "image_source": "MLSsoccer.com",
       "news": [
         {
-          "title": "New York Red Bulls v Inter Miami CF Odds",
-          "url": "https://sportsbook.fanduel.com/soccer/us-mls/new-york-red-bulls-v-inter-miami-cf-36207105",
-          "source": "FanDuel Sportsbook",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOxBJlhbkLvBmfl3FWZjOP-yJQ87SJCq4kiDSLjsBB8m6QqPk7uvJnmy2Rvg",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false
+          "title": "San Jose Earthquakes clinch Audi 2026 MLS Cup Playoffs spot",
+          "url": "https://www.mlssoccer.com/news/san-jose-earthquakes-clinch-audi-2026-mls-cup-playoffs-spot",
+          "source": "MLSsoccer.com",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFAFZsqhr59qYUQIUPJ9jdjcnPTZiboWw2MaRRjTdbdaoCq_rXzvDeNDJ4_48",
+          "og_title": "San Jose Earthquakes clinch Audi 2026 MLS Cup Playoffs spot | MLSSoccer.com",
+          "og_desc": "The San Jose Earthquakes have qualified for the Audi 2026 MLS Cup Playoffs, clinching their spot on Saturday night.\nWith four regular-season matches left, San Jose are fourth in the Western Conference (48 points; 13W-8L-9D).\nThe Earthquakes last made the playoffs in 2023. They are two-time MLS Cup champions, capturing",
+          "og_image": "https://images.mlssoccer.com/image/private/t_editorial_landscape_3_4_desktop/mls/tppqq6h4qbp1v6eablro.png",
+          "ok": true
         },
         {
-          "title": "New York Red Bulls vs Inter Miami: Predictions, Picks, Odds & Lineups",
-          "url": "https://www.squawka.com/ca/news/mls/match-preview-new-york-red-bulls-vs-inter-miami-10-24-26-mls/",
-          "source": "Squawka",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT1SKBbkl16WNkkB7af9WtAhvIgqg0o8HxO3TH58QyNwc6MsKW7zutIGj2UCiY",
-          "og_title": "",
-          "og_desc": "",
+          "title": "San Jose Earthquakes Clinch Playoffs, Extend Unbeaten Streak",
+          "url": "https://heavy.com/sports/soccer/earthquakes-clinch-playoff-spot-unbeaten-streak/",
+          "source": "Heavy.com",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSYoIt3ZGnJkaIsIcOXyHME6sEemNJtJLW12K_v-Uu_KoWjQrfPhmo6QoMY1Js",
+          "og_title": "San Jose Earthquakes Clinch Playoffs, Extend Unbeaten Streak",
+          "og_desc": "The San Jose Earthquakes are postseason bound as they continue a nine-game unbeaten streak in league competition.",
           "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
+          "ok": true
+        },
+        {
+          "title": "Inter Miami MLS Cup: Can Messi and Suarez’s Form Deliver Another Title?",
+          "url": "https://www.yardbarker.com/soccer/articles/inter_miami_mls_cup_can_messi_and_suarezs_form_deliver_another_title/s1_17702_44432647",
+          "source": "Yardbarker",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSioBTGAtyXXOqdC-dk5f1iovOjmLAGejPa4R7Zg0ddWfVtmFprCfkBIypsww0",
+          "og_title": "Inter Miami MLS Cup: Can Messi and Suarez’s Form Deliver Another Title?",
+          "og_desc": "Defending an MLS Cup title is never easy, and Inter Miami face another challenge as they chase back-to-back championships in the 2026 season. The Inter Miami MLS Cup defence now carries the pressure of proving last year’s success was no one-off.",
+          "og_image": "https://www.yardbarker.com/media/e/5/e5ee9bea4366fdbc3c7b1e29cbb53f6bde8858ba/thumb_16x9/Untitled-Design-18-1-1024x576.png",
+          "ok": true
         }
       ],
       "category": "رياضة",
       "icon": "⚽",
       "color": "#3ddc97",
-      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "reason": "حجم بحث أقل من 2000",
       "publishable": false,
       "card": "cards/eg-2026-10-18-mls.png",
       "published_at": "2026-10-18T04:31:10.011603+00:00"

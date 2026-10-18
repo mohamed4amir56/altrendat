@@ -2206,11 +2206,11 @@
         "country_name": "مصر",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "سقوط أمطار غزيرة بالإسكندرية وانخفاض كبير فى درجات الحرارة.. فيديو وصور",
-          "الأمطار تضرب الإسكندرية.. 7 بلاغات لسقوط أجزاء من العقارات وحوادث طرق| صور",
+          "طقس الإسكندرية اليوم.. استمرار حركة الملاحة والسفن رغم الأمطار",
+          "أمطار غزيرة على أنحاء متفرقة من الإسكندرية اليوم الأحد| فيديو",
           "محافظ الإسكندرية يوجه بتكثيف حملات إنقاذ المشردين.. وإيداع طفل عمره 10 سنوات بدار رعاية"
         ]
       }
@@ -2221,7 +2221,7 @@
       "eg"
     ],
     "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "الشروق": {
     "slug": "الشروق",
@@ -36814,15 +36814,30 @@
           "Weekend Forecast: Let the temperature slide begin!",
           "Cooler temperatures across Northern California today"
         ]
+      },
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Atlanta Daily Temperature Low October 18 2026",
+          "What will the high temperature be in Atlanta on Thursday?",
+          "Hole punch cloud spotted in Austin area Saturday"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 2,
+    "last_seen": "2026-10-18",
+    "total": 3,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
-    "category": "طقس"
+    "peak_traffic": 2000,
+    "category": "عام"
   },
   "tsla-stock": {
     "slug": "tsla-stock",
@@ -42213,14 +42228,14 @@
         "date": "2026-10-18",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "دول وأماكن",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "القوات الحكومية تستعيد مواقع غربي تعز وتوسع عملياتها بإسناد جوي",
-          "أمين مجلس التعاون: 7000 صاروخ باليستي استهدفت منشآت خليجية منذ فبراير",
-          "وزير خارجية البحرين: الهجمات على السعودية اعتداء على جميع دول الخليج"
+          "«فجر اليمن» تحافظ على زخمها القتالي... و«التحالف» يدمر مسيّرات ومنصات إطلاق صواريخ (تغطية حية)",
+          "السعودية تعلن تدمير منصتين لإطلاق الصواريخ في صعدة"
         ]
       },
       {
@@ -136275,8 +136290,8 @@
         "date": "2026-10-18",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -144151,14 +144166,14 @@
         "date": "2026-10-18",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "Michigan Democrat confirms sister-in-law's terror watchlist lawsuit days before Obama campaign appearance",
-          "Texas, Minnesota candidates fuel latest 2026 midterm election news",
-          "Watch El-Sayed confirms sister-in-law's reported terror watchlist history ahead of Obama visit - FNC"
+          "Watch El-Sayed confirms sister-in-law's reported terror watchlist history ahead of Obama visit - FNC",
+          "Obama Admin Put El-Sayed’s Sister-in-Law on Terror Watch List"
         ]
       }
     ],
@@ -161184,8 +161199,8 @@
         "date": "2026-10-18",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
@@ -161200,7 +161215,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "اقتصاد"
   },
   "meteo": {
@@ -202734,8 +202749,8 @@
         "publishable": true,
         "headlines": [
           "[title_CODE",
-          "Ponga to have surgery after breaking arm",
-          "Australia v New Zealand – Round 1, 2026"
+          "Ponga not yet ruled of World Cup despite breaking arm",
+          "Ponga to have surgery after breaking arm"
         ]
       }
     ],
@@ -236380,7 +236395,6 @@
         "publishable": false,
         "headlines": [
           "\"أنا أحد أبنائكم\".. حمد الله يوجه رسالة مؤثرة للسعودية",
-          "\"أولادنا وأموالنا فداءٌ للمملكة\".. حمدالله يتضامن مع السعودية بعد هجمات الحوثيين",
           "رياضي / الدوري السعودي للمحترفين: مواجهة الدرعية والتعاون تنتهي بالتعادل الإيجابي"
         ]
       }
@@ -242660,8 +242674,8 @@
         "publishable": false,
         "headlines": [
           "মক্কায় মৃত্যুদণ্ড দেওয়া দুই বাংলাদেশির বিষয়ে সৌদি আরব কি ভিয়েনা প্রটোকল লঙ্ঘন করেছে?",
-          "বিদেশি জঙ্গি সংগঠনে যোগ দেওয়ায় ৫ নাগরিকের মৃত্যুদণ্ড কার্যকর করলো সউদী",
-          "মসজিদে ‘অনৈতিক কাজ’, মক্কায় দুই বাংলাদেশির শিরশ্ছেদ"
+          "সৌদিতে দুই বাংলাদেশির মৃত্যুদণ্ড: প্রবাসীরা কেবল টাকার মেশিন?",
+          "বিদেশি জঙ্গি সংগঠনে যোগ দেওয়ায় ৫ নাগরিকের মৃত্যুদণ্ড কার্যকর করলো সউদী"
         ]
       }
     ],
@@ -247873,9 +247887,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Maja Chwalińska przed wielką szansą. WTA wylicza. Tego nie było od lat",
-          "Wielki finał w Wuhan! Chwalińska gra o życiowy sukces [NA ŻYWO]",
-          "Zobaczyli, co zrobiły Chwalińska i Świątek po meczu. Nie mogło być inaczej"
+          "Maja Chwalińska - Sonay Kartal. Finał NA ŻYWO z Wuhan. Relacja LIVE",
+          "Zobaczyli, co zrobiły Chwalińska i Świątek po meczu. Nie mogło być inaczej",
+          "Pierwszy trener Chwalińskiej powiedział prawdę o Świątek. To dlatego przegrała"
         ]
       }
     ],
@@ -274314,10 +274328,25 @@
           "Reed on India cut line as darkness halts McIlroy, Chacarra rounds",
           "Rory McIlroy starts strong in Round 2 as play suspended for second straight day at DP World India Championship"
         ]
+      },
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "DP World India Championship: Eugenio Chacarra leads but Rory McIlroy fades before play halted",
+          "Reed on India cut line as darkness halts McIlroy, Chacarra rounds",
+          "Hidalgo, Luiten and Meronk top stacked leaderboard in India"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 3,
+    "last_seen": "2026-10-18",
+    "total": 4,
     "countries": [
       "world"
     ],
@@ -284809,15 +284838,30 @@
           "Gale warning cancels Friday afternoon Washington Island ferry trips",
           "Index"
         ]
+      },
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "Monstrous waves and a possible waterspout on Lake Michigan on Friday",
+          "Strong winds whipping up massive waves on Lake Michigan creates dangerous conditions",
+          "Lake Michigan waves could top 25 feet as gales hit the Great Lakes"
+        ]
       }
     ],
-    "last_seen": "2026-10-16",
-    "total": 1,
+    "last_seen": "2026-10-18",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 200,
-    "category": "عام"
+    "category": "طقس"
   },
   "wuhan-open-tennis-2026": {
     "slug": "wuhan-open-tennis-2026",
@@ -308285,8 +308329,8 @@
         "date": "2026-10-18",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "دول وأماكن",
         "publishable": true,
         "headlines": [
@@ -308317,7 +308361,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "دول وأماكن"
   },
   "القضارف": {
@@ -308800,8 +308844,8 @@
         "publishable": false,
         "headlines": [
           "أروى جودة وزوجها فى ظهور لافت على ريد كاربت الجونة.. فيديو",
-          "مشاركة أفضل الأفلام الحاصلة على جوائز مهرجانات العالم مهرجان الجونة فى دورته التاسعة يعزز مكانته وتميزه",
-          "بدء ندوة منة القيعي وأحمد طارق يحيى بمهرجان الجونة"
+          "حسين فهمي بإطلالة أنيقة في فعاليات رابع أيام مهرجان الجونة",
+          "مشاركة أفضل الأفلام الحاصلة على جوائز مهرجانات العالم مهرجان الجونة فى دورته التاسعة يعزز مكانته وتميزه"
         ]
       }
     ],
@@ -309013,8 +309057,8 @@
         "date": "2026-10-18",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -309029,7 +309073,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "sociedad-vs-barcelona": {
@@ -309042,8 +309086,8 @@
         "date": "2026-10-18",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -309074,7 +309118,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "red-arrows-vs-kaizer-chiefs-caf": {
@@ -309261,8 +309305,8 @@
         "date": "2026-10-18",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": []
@@ -309273,7 +309317,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "new-york-knicks": {
@@ -309362,5 +309406,207 @@
     ],
     "peak_traffic": 100,
     "category": "سياسة"
+  },
+  "wuhan-open": {
+    "slug": "wuhan-open",
+    "name": "wuhan open",
+    "first_seen": "2026-10-18",
+    "appearances": [
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Wuhan Open: Sonay Kartal beats Jelena Ostapenko to reach first WTA 1,000 final of her career",
+          "Kartal’s comeback gathers pace with landmark run to Wuhan final",
+          "Brit Sonay Kartal shocks Elina Svitolina in upset to reach Wuhan Open semifinals"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "chris-olave": {
+    "slug": "chris-olave",
+    "name": "chris olave",
+    "first_seen": "2026-10-18",
+    "appearances": [
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Saints Week 6 start-sit: Alvin Kamara, Kendre Miller, Devaughn Vele, Juwan Johnson",
+          "Saints Friday Injury Report: 2026 Week 6 vs. New York Giants",
+          "The Saints ruled out a pair of defenders vs. Giants, but Chris Olave returned to practice"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "week-6-fantasy-rankings": {
+    "slug": "week-6-fantasy-rankings",
+    "name": "week 6 fantasy rankings",
+    "first_seen": "2026-10-18",
+    "appearances": [
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Fantasy Football Start 'Em, Sit 'Em: Justin Boone's lineup advice for Week 6",
+          "DraftKings DFS cheat sheet: Best values for Sunday's main slate",
+          "Fantasy football rankings, projections, lineups, sleepers for Week 6 from proven model"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "nfl-week-6": {
+    "slug": "nfl-week-6",
+    "name": "nfl week 6",
+    "first_seen": "2026-10-18",
+    "appearances": [
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "NFL Week 6 predictions: Upsets, fantasy sleepers, stat lines, TD scorers, more",
+          "Gerry Dulac’s 2026 NFL predictions: Week 6",
+          "NFL Week 6 picks: Upset and score predictions, matchup breakdowns for every game"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "meg-marinis-greys-anatomy-spinoff": {
+    "slug": "meg-marinis-greys-anatomy-spinoff",
+    "name": "meg marinis grey's anatomy spinoff",
+    "first_seen": "2026-10-18",
+    "appearances": [
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "‘Grey’s Anatomy’ Showrunner Shares Texas Spinoff Update",
+          "‘Grey’s Anatomy’ Boss Meg Marinis on Texas Spinoff, Ellen Pompeo and Season 23 Premiere Cliffhangers"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "تقنية"
+  },
+  "18-أكتوبر": {
+    "slug": "18-أكتوبر",
+    "name": "18 أكتوبر",
+    "first_seen": "2026-10-18",
+    "appearances": [
+      {
+        "key": "2026-10-18|eg",
+        "date": "2026-10-18",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "سعر الذهب اليوم الأحد 18 أكتوبر 2026 فى مصر.. ارتفاع 10جنيهات رغم إجازة الصاغة",
+          "أسعار سبائك الذهب اليوم السبت في مصر.. بعد ارتفاع عيار 24",
+          "ارتفاع سعر الجنيه الذهب في مصر.. ننشر تحديث التعاملات المسائية"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-18",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 500,
+    "category": "شخصية"
+  },
+  "പലസ": {
+    "slug": "പലസ",
+    "name": "പോലീസ്",
+    "first_seen": "2026-10-18",
+    "appearances": [
+      {
+        "key": "2026-10-18|sa",
+        "date": "2026-10-18",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "വിദ്യാർഥികളുടെ പരാതി അവഗണിച്ച് ഡൽഹി പൊലിസ്",
+          "പ്രതിഷേധത്തിനിടെ മലയാളി വിദ്യാര്‍ഥിനിയെ ക്രൂരമായി മര്‍ദ്ദിച്ചതില്‍ കേരളത്തില്‍ കേസെടുത്ത് പൊലീസ്",
+          "SFI AIDWA March | പൊലീസ് ആസ്ഥാനത്തേക്ക് മാർച്ചുമായി എഐഡിഡബ്ല്യുഎ; ഒപ്പം ചേർന്ന് എസ്എഫ്ഐ | AIDWA Leads Protest March to Delhi Police Headquarters Over Alleged Atrocities Against Women; SFI Joins"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-18",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

@@ -2691,12 +2691,12 @@
         "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "فن ومشاهير",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "في ذكرى ميلاده.. زياد مولوي نجم الكوميديا السورية الذي رحل مبكرًا",
-          "مهند دياب يكتب: رسائل صفراء.. حين تصبح حرية الفنان عبئا على أسرته",
-          "المخرج التركي تشاتاك: السينما السياسية توقظ وعي العالم"
+          "بإستضافة مسرح – حسن عباس شربتلي بالنادي الأدبي بجدة : حفل موسيقى المكان يقدم الليلة الطربية التراثية على العقيق إجتمعنا للفنان الذهبي محمد هاشم",
+          "«فقدت 7 أطفال».. منى زكي تكشف كواليس حملها في الأربعينات ومعاناتها مع مرض مناعي (فيديو)",
+          "منى زكي: \"اكتشفت إن عندي مرض مناعي بعد ما كنت بفقد الحمل كل مرة\""
         ]
       }
     ],
@@ -2706,7 +2706,7 @@
       "eg"
     ],
     "peak_traffic": 200,
-    "category": "فن ومشاهير"
+    "category": "حوادث وقضايا"
   },
   "طائرة": {
     "slug": "طائرة",
@@ -10204,6 +10204,7 @@
         "publishable": false,
         "headlines": [
           "There's a crackdown on sports piracy - but is it already out of control?",
+          "2026 NFL pass rush, run stop, blocking win rate rankings",
           "2026 NFL Defense Rankings: Team Pass and Rush Stats"
         ]
       }
@@ -33126,15 +33127,30 @@
           "Producer denies fee grab in Rebel movie",
           "New evidence contradicts Rebel Wilson’s court testimony"
         ]
+      },
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Rebel Wilson to Taron Egerton: Hollywood stars reveal the films that mean most to them",
+          "Licensable video: Rebel Wilson felt like the most junior person on the set of Bridesmaids",
+          "Rebel Wilson felt like 'the most junior person' on set"
+        ]
       }
     ],
-    "last_seen": "2026-09-27",
-    "total": 1,
+    "last_seen": "2026-10-18",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "category": "فن ومشاهير"
   },
   "francisco-lindor": {
     "slug": "francisco-lindor",
@@ -174607,9 +174623,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "كرم جابر: مارست الرياضة منذ الرابعة من عمري.. والنظام الغذائي الصحي والنوم الجيد أساس النجاح",
-          "كرم جابر يعود إلى الحلبات في 2024 البطل الحقيقي يواجه التحديات ويتحلى بالشجاعة",
-          "ضهري طقطق.. كرم جابر يحمل عمرو أديب على الهواء"
+          "ضهري طقطق.. كرم جابر يحمل عمرو أديب على الهواء",
+          "زوجة كرم جابر: كنت بخاف منه في بداية علاقتنا.. واكتشفت أنه هادئ الطباع ولين",
+          "كرم جابر يعود إلى الحلبات في 2024 البطل الحقيقي يواجه التحديات ويتحلى بالشجاعة"
         ]
       }
     ],
@@ -191564,10 +191580,25 @@
           "Darnell Nurse scores OT winner for Sharks",
           "Sharks Locker Room: Praise Heaped on Stenberg, Dickinson, Sherwood & More After \"Gutty\" Win"
         ]
+      },
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Sharks’ Ivar Stenberg reflects on NHL draft: ‘I didn’t have good meetings with Toronto’",
+          "Former Sharks Forward Leaves Coaching Job",
+          "Former Sharks Forward Leaves Coaching Job"
+        ]
       }
     ],
-    "last_seen": "2026-10-09",
-    "total": 1,
+    "last_seen": "2026-10-18",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -197914,11 +197945,27 @@
           "الجزائر والنيجر… من عبور الصحراء إلى عبور البيانات",
           "الجزائر تشغّل شبكة ألياف بصرية عابرة للصحراء ضمن مشروع إقليمي يشمل موريتانيا"
         ]
+      },
+      {
+        "key": "2026-10-19|eg",
+        "date": "2026-10-19",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "أعجوبة الطبيعة.. أجف صحراء في العالم تتحول إلى جنة على الأرض",
+          "زراعة الليمون والخس في صحراء أتاكاما عبر شبكات الضباب",
+          "تتفتح ما يقرب من 2000 نوع من الزهور، محولة أكثر الصحاري جفافاً إلى سجادة نابضة بالحياة من الألوان."
+        ]
       }
     ],
-    "last_seen": "2026-10-10",
-    "total": 2,
+    "last_seen": "2026-10-19",
+    "total": 3,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 500,
@@ -203983,17 +204030,32 @@
           "FINALE Milan-Atalanta 3-2: miracolo Maignan su Zappacosta e che rischio Estupinan",
           "Milan-Atalanta: dove vederla in tv (Sky, Dazn), orario, probabili formazioni e classifica Serie A"
         ]
+      },
+      {
+        "key": "2026-10-19|sa",
+        "date": "2026-10-19",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Juventus-Lazio, le pagelle di CM: Kolo Muani impalpabile, Woltemade non incide. Alajbegovic ora è un caso, Isaksen e Provstgaard da dominatori",
+          "SportMediaset XXL: Pazzini: \"La Juve è in ritardo\" Video",
+          "Lazio: Gattuso 'non guardiamo la classifica, siamo una bella famiglia'"
+        ]
       }
     ],
-    "last_seen": "2026-10-18",
-    "total": 4,
+    "last_seen": "2026-10-19",
+    "total": 5,
     "countries": [
       "eg",
       "sa",
       "world"
     ],
     "peak_traffic": 200,
-    "category": "عام"
+    "category": "سياسة"
   },
   "indiana-vs-nebraska-predictions": {
     "slug": "indiana-vs-nebraska-predictions",
@@ -215921,9 +215983,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "ضد إشبيلية: كسر نمط فينيسيوس وكشف عيوبه.. الخوف يُبعد ديوماندي عن أساطير الملكي رغم الهدف!",
+          "غاب فينيسيوس فأبدع ديوماندي.. وعادت المتعة إلى ريال مدريد قبل الكلاسيكو",
           "من مبابي إلى إبراهيم دياز.. كيف يعيد مورينيو تشكيل هجوم ريال مدريد في غياب فينيسيوس؟",
-          "دموع ووفاء.. ذكرى حزينة وراء الاحتفال الأول لديوماندي مع ريال مدريد"
+          "ديوماندى يهدى هدفه الأول مع الريال إلى شقيقته: هذه لكِ يا روكسان"
         ]
       },
       {
@@ -215931,14 +215993,14 @@
         "date": "2026-10-19",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "حيرة كبيرة.. 4 خيارات أمام مورينيو لتعويض فينيسيوس",
-          "هدف ديوماندي الصاروخي في مرمي اشبيلية بالدوري الاسباني",
-          "دموع ووفاء.. ذكرى حزينة وراء الاحتفال الأول لديوماندي مع ريال مدريد"
+          "غاب فينيسيوس فأبدع ديوماندي.. وعادت المتعة إلى ريال مدريد قبل الكلاسيكو",
+          "من مبابي إلى إبراهيم دياز.. كيف يعيد مورينيو تشكيل هجوم ريال مدريد في غياب فينيسيوس؟",
+          "ديوماندى يهدى هدفه الأول مع الريال إلى شقيقته: هذه لكِ يا روكسان"
         ]
       }
     ],
@@ -216552,9 +216614,9 @@
         "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "Le festival individuel de Kylian Mbappé",
           "Les Belges à l'étranger - Le Real Madrid s'offre le FC Séville de Lucas Stassin avec un doublé de Mbappé",
-          "Nuit de buts spectaculaires au Bernabéu"
+          "Huijsen : « Nous avons joué de manière solidaire et solide en tant qu'équipe »",
+          "Espagne: porté par Mbappé, le Real reste au contact du Barça avant le Clasico"
         ]
       }
     ],
@@ -270899,8 +270961,8 @@
         "publishable": false,
         "headlines": [
           "Real Madrid: 4 - Sevilla: 1 | MAÇ SONUCU, ÖZETİ VE GOLLERİ",
-          "Tüm dünya bu golü konuşuyor! Arda Güler'den tam 90'a",
-          "Katalan basınından Arda Güler tepkisi: 'El Clasico öncesi kırmızı kart görmeliydi'"
+          "Arda Güler'den İspanya'da mükemmel gol",
+          "\"Bernabeu'da işlerin nasıl yürüdüğünü biliyorduk\": Sevilla oyuncuları Real maçının hakemine ateş püskürdü"
         ]
       }
     ],
@@ -283569,14 +283631,29 @@
           "Potential coastal storm could impact parts of East Coast next week",
           "Keeping an eye on the Carolinas for next week"
         ]
+      },
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "طقس",
+        "publishable": true,
+        "headlines": [
+          "Coastal Storm Threatens Mid-Atlantic With High Winds and Flooding",
+          "StormTeam 5 monitoring offshore nor'easter near mid-Atlantic as gusty coast impacts loom",
+          "Brewing Fall nor'easter could become subtropical as storm threatens millions along East Coast"
+        ]
       }
     ],
-    "last_seen": "2026-10-15",
-    "total": 1,
+    "last_seen": "2026-10-18",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 10000,
     "category": "طقس"
   },
   "estudiantes-vs-flamengo": {
@@ -302070,12 +302147,12 @@
         "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "عام",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "La Liga: a goal and an assist, Yan Diomandé delivers his standout performance with Real Madrid",
-          "Real Madrid fans convinced Vinícius ‘has lost his starting spot’ to Yan Diomandé",
-          "Yan Diomande handed golden opportunity to replace Vinicius Jr as Jose Mourinho faces Real Madrid selection dilemma"
+          "After Carvajal, Getafe opens the door to signing Ramo…",
+          "😱Back to LaLiga? The Spanish club opening its doors to Sergio Ramos",
+          "Another Real Madrid Legend Could Join La Liga Outfit Getafe"
         ]
       },
       {
@@ -317710,9 +317787,9 @@
         "category": "تقنية",
         "publishable": false,
         "headlines": [
-          "\"الطلب الاستثنائي\" على iPhone Duo يؤخر مواعيد التسليم إلى 2027",
-          "سعر آيفون ديو فى مصر.. النسخة الأعلى تقترب من 300 ألف جنيه",
-          "الطلب يفوق التوقعات.. أول آيفون قابل للطي يتأخر تسليمه حتى يناير 2027"
+          "كاميرا سلسلة Honor WIN 2 تأتي بدقة 200 ميجابكسل بدون عدسة تقريب",
+          "معالج قوي وتبريد بمروحتين.. هونر تكشف عن سعر Win 2 قبل إطلاقه رسميا",
+          "Honor Win 2.. بطارية عملاقة وشاشة خارقة لمحبي هواتف الألعاب"
         ]
       }
     ],
@@ -318030,9 +318107,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "تعثر جديد.. الوداد يسقط في فخ التعادل أمام أمل تيزنيت",
           "ما القنوات الناقلة لمباراة الوداد وأمل تزنيت في الدوري المغربي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
-          "\"الوينرز\" تُبدع بـ\"دوبل تيفو\" في مباراة الوداد وأمل تزنيت",
-          "الوافدون الجدد في اختبار صعب.. هل يصمد وداد تمارة وأمل تزنيت أمام الكوكب والوداد"
+          "\"الوينرز\" تُبدع بـ\"دوبل تيفو\" في مباراة الوداد وأمل تزنيت"
         ]
       }
     ],
@@ -318418,14 +318495,14 @@
         "date": "2026-10-18",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "20000+",
-        "traffic_num": 20000,
+        "traffic": "30,000+",
+        "traffic_num": 30000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Real Madrid 4-1 Sevilla (Oct 18, 2026) Game Analysis",
-          "Why Vinicius Jr Isn’t Playing for Real Madrid vs. Sevilla",
-          "Real Madrid 4-1 Sevilla - Kylian Mbappe scores twice as Real win"
+          "Real Madrid 4-1 Sevilla - Kylian Mbappe scores twice as Real win",
+          "Real Madrid Player Ratings vs. Sevilla: Sensational Diomande Erases Vinicius Jr",
+          "Real Madrid line-up: Mourinho surprises his in-form player, and a change of position for Valverde"
         ]
       },
       {
@@ -318466,7 +318543,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 20000,
+    "peak_traffic": 30000,
     "category": "رياضة"
   },
   "jennifer-garner": {
@@ -318813,5 +318890,295 @@
     ],
     "peak_traffic": 200,
     "category": "رياضة"
+  },
+  "jim-harbaugh": {
+    "slug": "jim-harbaugh",
+    "name": "jim harbaugh",
+    "first_seen": "2026-10-18",
+    "appearances": [
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "I have watched every snap of Justin Herbert’s NFL career. Something is off this season",
+          "New NFL Rumors on Jim Harbaugh's Hot Seat and Chargers Trade Calls amid Justin Herbert, LA 0-5 Start",
+          "Jim Harbaugh path back to college football is blocked: Massive NCAA penalties stand in Chargers coach's way"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "rory-mcilroy-kevin-kisner-india": {
+    "slug": "rory-mcilroy-kevin-kisner-india",
+    "name": "rory mcilroy kevin kisner india",
+    "first_seen": "2026-10-18",
+    "appearances": [
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Rory McIlroy fires back at Kevin Kisner after 'dogs---' comment about growing the game | OutKick",
+          "‘How would he know?': Rory McIlroy dismisses Kevin Kisner's cash-grab claim",
+          "Rory McIlroy explains why he played in India after PGA Tour player Kevin Kisner accused him of chasing re"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "tyler-reddick": {
+    "slug": "tyler-reddick",
+    "name": "tyler reddick",
+    "first_seen": "2026-10-18",
+    "appearances": [
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Who won NASCAR Phoenix race? Winner is Tyler Reddick, plus full results",
+          "NASCAR results for Phoenix race, full finishing order",
+          "Who Won the NASCAR Race Today at Phoenix? Winner and Full Results"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "quentin-johnston": {
+    "slug": "quentin-johnston",
+    "name": "quentin johnston",
+    "first_seen": "2026-10-18",
+    "appearances": [
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Is Quentin Johnston Playing Today vs. Chiefs? Latest Chargers News",
+          "Chiefs need Jalen Royals to take advantage of his biggest opportunity yet",
+          "Chargers list majority of WR corps as limited Wed."
+        ]
+      }
+    ],
+    "last_seen": "2026-10-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "nieve": {
+    "slug": "nieve",
+    "name": "nieve",
+    "first_seen": "2026-10-18",
+    "appearances": [
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Los colegios tienen hasta el 4 de noviembre para apuntarse en la Campaña de Nieve",
+          "León pone la nieve al alcance de miles de escolares: así será la campaña de esquí de 2027",
+          "La Diputación de León abre el plazo de inscripción para la Campaña de Nieve 2027 con un presupuesto de 682.000 euros"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "سياسة"
+  },
+  "nasdaq-futures": {
+    "slug": "nasdaq-futures",
+    "name": "nasdaq futures",
+    "first_seen": "2026-10-18",
+    "appearances": [
+      {
+        "key": "2026-10-18|world",
+        "date": "2026-10-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "US Stock Futures Rise Ahead of Busy Earnings Week: Markets Wrap",
+          "Chipmaker sell-off sends investors to other stocks and bonds for safety",
+          "S&P 500 ends higher as traders shift from AI to healthcare"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
+  },
+  "برج-الحمل-حظك-اليوم": {
+    "slug": "برج-الحمل-حظك-اليوم",
+    "name": "برج الحمل حظك اليوم",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|eg",
+        "date": "2026-10-19",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "أبراج وفلك",
+        "publishable": false,
+        "headlines": [
+          "برج الحوت.. حظك اليوم الإثنين 19 أكتوبر: فرصة للانطلاق",
+          "أبراج - أبراج الأحد 18 أكتوبر - تشرين الأول 2026",
+          "تعرف على برجك اليوم 2026/10/18.. «الجوزاء»: تحتاج النظر إلى بعض الأمور من زوايا مختلفة.. و«القوس»: تشعر بحالة عاطفية إيجابية"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "أبراج وفلك"
+  },
+  "مترو-الإسكندرية": {
+    "slug": "مترو-الإسكندرية",
+    "name": "مترو الإسكندرية",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|eg",
+        "date": "2026-10-19",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "​رئيس الهيئة القومية للأنفاق: بدء التشغيل التجريبي لمترو الإسكندرية مايو المقبل",
+          "بدء التشغيل التجريبي لمشروع مترو الإسكندرية في يونيو 2027",
+          "رئيس القومية للأنفاق يعلن موعد التشغيل التجريبي لمترو الإسكندرية"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "دول وأماكن"
+  },
+  "santos-fc": {
+    "slug": "santos-fc",
+    "name": "santos fc",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|sa",
+        "date": "2026-10-19",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Bruno Lima: Gabigol revê maior vítima e Neymar tenta 1º gol pelo Santos no Maracanã",
+          "Com reservas, Fluminense sai na frente, mas Gabigol e Philippe Coutinho viram para o Santos no Brasileirão",
+          ">✨√"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "جريدة-الاقتصادية": {
+    "slug": "جريدة-الاقتصادية",
+    "name": "جريدة الاقتصادية",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|sa",
+        "date": "2026-10-19",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "5 ريالات تنقل المعتمرين إلى الحرم عبر الدراجات النارية",
+          "معهد البترول: انخفاض مخزونات النفط الأمريكية 11 مليون برميل",
+          "انخفاض مخزونات النفط بالولايات المتحدة مع ارتفاع البنزين الأسبوع الماضي"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

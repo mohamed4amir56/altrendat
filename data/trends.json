@@ -5,27 +5,67 @@
     "name_en": "Worldwide",
     "lang": "en",
     "flag": "🌐",
-    "generated_at": "2026-10-19T12:31:09.176718+00:00",
+    "generated_at": "2026-10-19T13:01:12.304782+00:00",
     "day": "2026-10-19",
     "trends": [
       {
-        "title": "alexandra eala",
-        "traffic": "15,000+",
-        "traffic_num": 15000,
-        "published": "Mon, 19 Oct 2026 04:40:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRYdW1sxoQd2kSwXiFddIXTTz-WHrSHvmD7oFS8KyvzCAl9l8j4qmlpNdJ8gnM",
-        "image_source": "ESPN",
+        "title": "severe thunderstorm warning",
+        "traffic": "50000+",
+        "traffic_num": 50000,
+        "published": "Mon, 19 Oct 2026 04:50:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbd_9GpB-tkD5NxXQ8Y_yFJQMsdFLc7ST5_0k1JgyhhJtDG5VCe9EOh67bkpY",
+        "image_source": "BusinessTech",
         "news": [
           {
-            "title": "Alex Eala looks for Asian swing reset at Ningbo Open",
-            "url": "https://www.espn.com/tennis/story/_/id/50207388/alex-eala-looks-asian-swing-reset-ningbo-open",
-            "source": "ESPN",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRYdW1sxoQd2kSwXiFddIXTTz-WHrSHvmD7oFS8KyvzCAl9l8j4qmlpNdJ8gnM",
+            "title": "Severe weather warning escalates to level 4 in South Africa",
+            "url": "https://businesstech.co.za/news/energy/880389/severe-weather-warning-escalates-to-level-4-in-south-africa/",
+            "source": "BusinessTech",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbd_9GpB-tkD5NxXQ8Y_yFJQMsdFLc7ST5_0k1JgyhhJtDG5VCe9EOh67bkpY",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
-            "ok": false
+            "ok": false,
+            "error": "HTTPError"
           },
+          {
+            "title": "Heatwave conditions expected to persist until Monday: SAWS",
+            "url": "https://www.sabcnews.com/sabcnews/heatwave-conditions-expected-to-persist-until-monday-saws/",
+            "source": "SABC News",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSZA9KwveZmTTXT1FQ-TAGqaQiy_SZkna9F47Ga_CHlmMAz-NNpwyhVoTFMvzo",
+            "og_title": "Heatwave conditions expected to persist until Monday: SAWS - SABC News - Breaking news, special reports, world, business, sport coverage of all South African current events. Africa's news leader.",
+            "og_desc": "SAWS has warned that a heatwave conditions is expected to persist until Monday in four provinces",
+            "og_image": "https://www.sabcnews.com/sabcnews/wp-content/uploads/2026/10/SABC-News-Heatwave.png",
+            "ok": true
+          },
+          {
+            "title": "Weather warnings: Severe storms, damaging winds and fire for Monday",
+            "url": "https://www.citizen.co.za/news/south-africa/weather/weather-warnings-severe-storms-damaging-winds-and-fire-for-monday/",
+            "source": "The Citizen",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTX1yjPY1cXB7ITMPkB-VtyUfM59aUpgl0DZJvYiFnpFS0d7g6oqysAkYhYeZ8",
+            "og_title": "Weather warnings: Severe storms, damaging winds and fire for Monday | The Citizen",
+            "og_desc": "Find out what the latest weather forecast from the SA Weather Service means for your region for Monday, 19 October 2026.",
+            "og_image": "https://media.citizen.co.za/wp-content/uploads/2026/10/Weather-2.jpg",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "ZA"
+        ],
+        "category": "طقس",
+        "icon": "🌤️",
+        "color": "#7fd8ff",
+        "reason": "الأخبار تطابق: weather",
+        "publishable": true,
+        "card": "cards/world-2026-10-19-severe-thunderstorm-warning.png"
+      },
+      {
+        "title": "alexandra eala",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "published": "Mon, 19 Oct 2026 04:40:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2uo_U-98Z-a6KvbX3EKYXtiy3pUEX8s4iN651bhoh4oPXLlAd-eH3WpSZ_Sw",
+        "image_source": "Inquirer.net",
+        "news": [
           {
             "title": "LIVE: Alex Eala vs Diane Parry – Ningbo Open first round",
             "url": "https://sports.inquirer.net/702278/live-alex-eala-vs-diane-parry-ningbo-open-first-round",
@@ -36,16 +76,6 @@
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
-          },
-          {
-            "title": "Alex Eala at the Ningbo Open: Schedule and Draw",
-            "url": "https://www.gmanetwork.com/news/sports/othersports/1006300/alex-eala-at-the-ningbo-open-schedule-and-draw/story/",
-            "source": "GMA Network",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRiXUWE7FdhbSuOFjofzInHapGwClEQDYb94P_gd1xCKDVGzPIMEBVDCEp-Reg",
-            "og_title": "Alex Eala at the Ningbo Open: Schedule and Draw",
-            "og_desc": "Alexandra Eala will begin her Ningbo Open campaign against French player Diane Parry in the Round of 32.",
-            "og_image": "https://images.gmanews.tv/webpics/2026/09/AFP__20260924__C99D8G6__v2__HighRes__TennisSinWta_2026_09_24_20_30_50.jpeg",
-            "ok": true
           },
           {
             "title": "Mendoza: Distressing news on Eala’s campaign",
@@ -70,14 +100,13 @@
           }
         ],
         "geos": [
-          "US",
           "PH"
         ],
         "category": "رياضة",
         "icon": "⚽",
         "color": "#3ddc97",
-        "reason": "الأخبار تطابق: vs",
-        "publishable": true,
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
         "article": {
           "headline": "Alexandra Eala Targets Rebound at Ningbo Open Against French Standout Diane Parry",
           "summary": "Alexandra Eala faces French competitor Diane Parry in the Round of 32 at the WTA 500 Ningbo Open on October 19.",
@@ -132,107 +161,9 @@
         "card": "cards/world-2026-10-19-alexandra-eala.png"
       },
       {
-        "title": "ethel kennedy",
+        "title": "cosmos 2612 and iceye x36",
         "traffic": "500+",
         "traffic_num": 500,
-        "published": "Mon, 19 Oct 2026 05:00:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTmuJs35OWfdbiAHjEQPuasheizHpoytkHPmKiaju3ii6Xd30mvwBkj9ENkmVM",
-        "image_source": "The Boston Globe",
-        "news": [
-          {
-            "title": "Her husband was murdered in front of her when she was pregnant with her 11th child, yet somehow Ethel Kennedy survived and thrived",
-            "url": "https://www.bostonglobe.com/2026/10/15/arts/kerry-kennedy-ethel-mother-biography/",
-            "source": "The Boston Globe",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTmuJs35OWfdbiAHjEQPuasheizHpoytkHPmKiaju3ii6Xd30mvwBkj9ENkmVM",
-            "og_title": "Her husband was murdered in front of her when she was pregnant with her 11th child, yet somehow Ethel Kennedy survived and thrived - The Boston Globe",
-            "og_desc": "Kerry Kennedy has a very simple answer when asked why she decided to write a book about her mother, Ethel Kennedy. “Well, I loved her,” says the author and activist, “and I think there’s an extraordinary story to tell.”",
-            "og_image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/YIMDYVQIRSGAQ5AF5KB4JKAYM4.jpg?auth=9866f0a1716478a8dec10ca8c67844846dc560ce9b81d52f7e297291c02b8095&width=1440",
-            "ok": true
-          },
-          {
-            "title": "An Intimate Look at Ethel and Jackie Kennedy’s Special Bond",
-            "url": "https://www.vanityfair.com/story/ethel-jackie-kennedy-friendship",
-            "source": "Vanity Fair",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVwMBFWO7lPeXg8cAKQ33ob9UtlIVq7h6ehd2c7lbe1y5NtfGECV4BxcQplgs",
-            "og_title": "An Intimate Look at Ethel and Jackie Kennedy’s Special Bond",
-            "og_desc": "In an exclusive excerpt from 'Ethel Kennedy: The Extraordinary Life and Bold Legacy', Ethel’s daughter Kerry looks back fondly on the two women’s enduring friendship—one that traversed triumph and tragedy.",
-            "og_image": "https://media.vanityfair.com/photos/6acd1402ff53fff149fee96d/16:9/w_1280,c_limit/GettyImages-117933968.jpg",
-            "ok": true
-          },
-          {
-            "title": "Ethel Kennedy ‘Crawled Into Bed’ With Jackie Kennedy As She Was Dying of Cancer, Kerry Kennedy Recalls",
-            "url": "https://www.today.com/news/ethel-kennedy-jackie-kennedy-death-last-moment-kerry-kennedy-book-rcna602965",
-            "source": "TODAY.com",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9peT5zzrNNdm6NnRqAjGKjgb5Q4-DS_pWQEoDc7H5dJXqW_e14tupTFIidNs",
-            "og_title": "Ethel Kennedy ‘Crawled Into Bed’ With Jackie Kennedy As She Was Dying of Cancer, Kerry Kennedy Recalls",
-            "og_desc": "The daughter of Robert F. Kennedy remembered a touching moment between her mom and Jacqueline Kennedy Onassis before the former first lady died in 1994.",
-            "og_image": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2026-10/kerry-kennedy-ethel-jackie-me-261012-9319bd.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: murdered",
-        "publishable": false,
-        "card": "cards/world-2026-10-19-ethel-kennedy.png"
-      },
-      {
-        "title": "andy cohen",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 19 Oct 2026 05:10:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRYZfRNiOdT_Pz6QwCGRIPiMzbe68VCKnnhTmMu3LwyuwtiubrQSzDHEefWFcs",
-        "image_source": "Page Six",
-        "news": [
-          {
-            "title": "Exclusive | Andy Cohen reveals which ‘Housewives’ franchises are ‘closest to his heart’",
-            "url": "https://pagesix.com/2026/10/18/entertainment/andy-cohen-reveals-franchises-he-holds-a-little-closer/",
-            "source": "Page Six",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRYZfRNiOdT_Pz6QwCGRIPiMzbe68VCKnnhTmMu3LwyuwtiubrQSzDHEefWFcs",
-            "og_title": "Exclusive | Andy Cohen reveals which ‘Housewives’ franchises are ‘closest to his heart’",
-            "og_desc": "Bravo honcho Andy Cohen has a new coffee-table book out celebrating “Housewives” history.",
-            "og_image": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/145171609.jpg?quality=75&strip=all&w=1200",
-            "ok": true
-          },
-          {
-            "title": "Andy Cohen Reveals the Two ‘Real Housewives’ Franchises That Hold a Special Place in His Heart",
-            "url": "https://www.yahoo.com/entertainment/tv/articles/andy-cohen-reveals-two-real-141525606.html",
-            "source": "Yahoo",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFZc8HiJykzeXUgXun9rFeMHYVuJLOxMycxULcjzbnqA39WqvdU0HgZBzty5w",
-            "og_title": "Andy Cohen Reveals the Two ‘Real Housewives’ Franchises That Hold a Special Place in His Heart",
-            "og_desc": "Andy Cohen says two Real Housewives cities hold a place in his heart: New York and Atlanta. However, he stops short of naming one cast member as his favorite. “I will say New York and Atlanta have alw...",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/e73878a5a7c11640d9719c9cc29d68366af448e882d4a3c8d9fd6ae2d4eac4af/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fin_touch_weekly_articles_766%2F39e43cca19fa2e8056b1bd38ee7d6c86.jpg",
-            "ok": true
-          },
-          {
-            "title": "Andy Cohen reveals which ‘Housewives’ franchises are ‘closest to his heart’",
-            "url": "https://www.yahoo.com/entertainment/tv/articles/andy-cohen-reveals-housewives-franchises-130000345.html",
-            "source": "Yahoo",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSV4NGGi-_vwqx4ePILS4rK8ZZqYOGQ9kcpp43gDZIU9qbfNEwbzHhI09x0YYk",
-            "og_title": "Andy Cohen reveals which ‘Housewives’ franchises are ‘closest to his heart’",
-            "og_desc": "Bravo honcho Andy Cohen has a new coffee-table book out celebrating \"Housewives\" history.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/3015d217370b42aaec6f2b8c9d440a4705746d1f9419109854ac914bfc30c3f0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fpage_six_articles_559%2F9b8935dde30c170d6d99cb9abbe8d779.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-10-19-andy-cohen.png"
-      },
-      {
-        "title": "cosmos 2612 and iceye x36",
-        "traffic": "200+",
-        "traffic_num": 200,
         "published": "Mon, 19 Oct 2026 05:10:00 -0700",
         "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQxeYyeGlqaKlBKWC9vci4cO1l6gR8uAmpyHE2pnrkk4wei_p1Kpi5H6vpOdsA",
         "image_source": "Axios",
@@ -280,59 +211,58 @@
         "card": "cards/world-2026-10-19-cosmos-2612-and-iceye-x36.png"
       },
       {
-        "title": "penn state nittany lions football",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "title": "andy cohen",
+        "traffic": "500+",
+        "traffic_num": 500,
         "published": "Mon, 19 Oct 2026 05:10:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTxF9c_VLrjNNKJFd8KQCCT6UabGehe0yDHcTDp_-5OUnCjLvo4llF9fy7gm7Q",
-        "image_source": "ESPN",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSYiHfoZQKHbikv5Ip8AvSJdcPDsCSRslmQEBZge7toTUcW5zCVHvlKz4w0ZYw",
+        "image_source": "TODAY.com",
         "news": [
           {
-            "title": "Michigan 21-18 Penn State (Oct 17, 2026) Game Recap",
-            "url": "https://www.espn.com/college-football/recap/_/gameId/401858490",
-            "source": "ESPN",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTxF9c_VLrjNNKJFd8KQCCT6UabGehe0yDHcTDp_-5OUnCjLvo4llF9fy7gm7Q",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
+            "title": "Andy Cohen Talks New Behind-the-Scenes Bravo Scrapbook",
+            "url": "https://www.today.com/video/andy-cohen-talks-new-behind-the-scenes-bravo-scrapbook-271809093826",
+            "source": "TODAY.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSYiHfoZQKHbikv5Ip8AvSJdcPDsCSRslmQEBZge7toTUcW5zCVHvlKz4w0ZYw",
+            "og_title": "Andy Cohen Talks New Behind-the-Scenes Bravo Scrapbook",
+            "og_desc": "Bravo icon Andy Cohen joins TODAY to talk about his new book, “Andy Cohen’s Scrapbook,” that takes readers on a walk down memory lane and pulls back the curtain on nearly 20 years of the Bravoverse.",
+            "og_image": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/mpx/2704722219/2026_10/1792412607451_tdy_pop_8a_andy_cohen_261019_S3_1920x1080-fyydtn.jpg",
+            "ok": true
           },
           {
-            "title": "Michigan football winners, losers vs Penn State as Tommy Carr shines",
-            "url": "https://www.freep.com/story/sports/college/university-michigan/wolverines/2026/10/19/michigan-football-winners-losers-penn-state-tommy-carr-bryce-underwood/92321009007/",
-            "source": "Detroit Free Press",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2_h9kDbUfh9PFtSgRMudzAt9lPFKYtMi1A2B1erS3sh8_5tCQjYjNX8EyiVU",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
+            "title": "Andy Cohen Reveals the Two ‘Real Housewives’ Franchises That Hold a Special Place in His Heart",
+            "url": "https://www.yahoo.com/entertainment/tv/articles/andy-cohen-reveals-two-real-141525606.html",
+            "source": "Yahoo",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFZc8HiJykzeXUgXun9rFeMHYVuJLOxMycxULcjzbnqA39WqvdU0HgZBzty5w",
+            "og_title": "Andy Cohen Reveals the Two ‘Real Housewives’ Franchises That Hold a Special Place in His Heart",
+            "og_desc": "Andy Cohen says two Real Housewives cities hold a place in his heart: New York and Atlanta. However, he stops short of naming one cast member as his favorite. “I will say New York and Atlanta have alw...",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/e73878a5a7c11640d9719c9cc29d68366af448e882d4a3c8d9fd6ae2d4eac4af/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fin_touch_weekly_articles_766%2F39e43cca19fa2e8056b1bd38ee7d6c86.jpg",
+            "ok": true
           },
           {
-            "title": "Rushing Attack, Turnovers Lead U-M Past PSU, to First B1G Win",
-            "url": "https://mgoblue.com/news/2026/10/17/football-fbl-rushing-attack-turnovers-lead-michigan-past-psu-to-first-big-ten-win-of-season",
-            "source": "University of Michigan Athletics",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzTQOz3grNiuvHMb4nlvlY7sdMuF2xjMsvDakEGVO57ra39CcRmh4-jVnBQSc",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
+            "title": "Exclusive | Andy Cohen reveals which ‘Housewives’ franchises are ‘closest to his heart’",
+            "url": "https://pagesix.com/2026/10/18/entertainment/andy-cohen-reveals-franchises-he-holds-a-little-closer/",
+            "source": "Page Six",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRYZfRNiOdT_Pz6QwCGRIPiMzbe68VCKnnhTmMu3LwyuwtiubrQSzDHEefWFcs",
+            "og_title": "Exclusive | Andy Cohen reveals which ‘Housewives’ franchises are ‘closest to his heart’",
+            "og_desc": "Bravo honcho Andy Cohen has a new coffee-table book out celebrating “Housewives” history.",
+            "og_image": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/145171609.jpg?quality=75&strip=all&w=1200",
+            "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-10-19-penn-state-nittany-lions-football.png"
+        "card": "cards/world-2026-10-19-andy-cohen.png"
       },
       {
         "title": "prince william and prince harry rift",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "published": "Mon, 19 Oct 2026 05:00:00 -0700",
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQIANKMY7t5D6jm0cd6-BXpBr-LxjjUJGh2xOnubbEYa46idmPT51ExCW0eWwk",
         "image_source": "Fox News",
@@ -358,10 +288,10 @@
             "ok": true
           },
           {
-            "title": "JD Vance proving himself to be the ‘front runner’ to succeed Donald Trump",
-            "url": "https://www.weeklytimesnow.com.au/news/national/jd-vance-proving-himself-to-be-the-front-runner-to-succeed-donald-trump/video/539e7176743216de6027baff803f2075",
+            "title": "‘Work well together’: Trump gives last minute endorsement of Netanyahu",
+            "url": "https://www.weeklytimesnow.com.au/news/world/work-well-together-trump-gives-last-minute-endorsement-of-netanyahu/video/a5c1311b5050ab97070a059c66e83a35",
             "source": "The Weekly Times",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSqPcgYNCzRqEeaB_Vg6c8DLUm8A9z_-c6fYMqnSsIBPemoUT-MkCndWFZV-X8",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5IZ_cXQcodCqVz45Wrtb7h7pD31cZt2oqUyIBzXMqk9dhfiA3aRkAYfoTzn8",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -378,6 +308,222 @@
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
         "card": "cards/world-2026-10-19-prince-william-and-prince-harry-rift.png"
+      },
+      {
+        "title": "ethel kennedy",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Mon, 19 Oct 2026 05:00:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRut8BYi9i7CHTVJGlACBddccPHFFn6gENqCBOwCGWjoBtcfz5Y3W4bp7ALppY",
+        "image_source": "The Boston Globe",
+        "news": [
+          {
+            "title": "Her husband was murdered in front of her when she was pregnant with her 11th child, yet somehow Ethel Kennedy survived and thrived",
+            "url": "https://www.bostonglobe.com/2026/10/15/arts/kerry-kennedy-ethel-mother-biography/",
+            "source": "The Boston Globe",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRut8BYi9i7CHTVJGlACBddccPHFFn6gENqCBOwCGWjoBtcfz5Y3W4bp7ALppY",
+            "og_title": "Her husband was murdered in front of her when she was pregnant with her 11th child, yet somehow Ethel Kennedy survived and thrived - The Boston Globe",
+            "og_desc": "Kerry Kennedy has a very simple answer when asked why she decided to write a book about her mother, Ethel Kennedy. “Well, I loved her,” says the author and activist, “and I think there’s an extraordinary story to tell.”",
+            "og_image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/YIMDYVQIRSGAQ5AF5KB4JKAYM4.jpg?auth=9866f0a1716478a8dec10ca8c67844846dc560ce9b81d52f7e297291c02b8095&width=1440",
+            "ok": true
+          },
+          {
+            "title": "An Intimate Look at Ethel and Jackie Kennedy’s Special Bond",
+            "url": "https://www.vanityfair.com/story/ethel-jackie-kennedy-friendship",
+            "source": "Vanity Fair",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVwMBFWO7lPeXg8cAKQ33ob9UtlIVq7h6ehd2c7lbe1y5NtfGECV4BxcQplgs",
+            "og_title": "An Intimate Look at Ethel and Jackie Kennedy’s Special Bond",
+            "og_desc": "In an exclusive excerpt from 'Ethel Kennedy: The Extraordinary Life and Bold Legacy', Ethel’s daughter Kerry looks back fondly on the two women’s enduring friendship—one that traversed triumph and tragedy.",
+            "og_image": "https://media.vanityfair.com/photos/6acd1402ff53fff149fee96d/16:9/w_1280,c_limit/GettyImages-117933968.jpg",
+            "ok": true
+          },
+          {
+            "title": "Ethel Kennedy ‘Crawled Into Bed’ With Jackie Kennedy As She Was Dying of Cancer, Kerry Kennedy Recalls",
+            "url": "https://www.today.com/news/ethel-kennedy-jackie-kennedy-death-last-moment-kerry-kennedy-book-rcna602965",
+            "source": "TODAY.com",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9peT5zzrNNdm6NnRqAjGKjgb5Q4-DS_pWQEoDc7H5dJXqW_e14tupTFIidNs",
+            "og_title": "Ethel Kennedy ‘Crawled Into Bed’ With Jackie Kennedy As She Was Dying of Cancer, Kerry Kennedy Recalls",
+            "og_desc": "The daughter of Robert F. Kennedy remembered a touching moment between her mom and Jacqueline Kennedy Onassis before the former first lady died in 1994.",
+            "og_image": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2026-10/kerry-kennedy-ethel-jackie-me-261012-9319bd.jpg",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: murdered",
+        "publishable": false,
+        "card": "cards/world-2026-10-19-ethel-kennedy.png"
+      },
+      {
+        "title": "quinta brunson",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Mon, 19 Oct 2026 05:40:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4IraCPZYusIAY7ySuQvSxlKkpHIWvHoP4aUy_nBHlUBh5Wn0eLmxQwhXlVOI",
+        "image_source": "IMDb",
+        "news": [
+          {
+            "title": "‘Abbott Elementary’ Season 6 Premiere: What’s New at School?",
+            "url": "https://www.imdb.com/es/news/ni66051851/",
+            "source": "IMDb",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4IraCPZYusIAY7ySuQvSxlKkpHIWvHoP4aUy_nBHlUBh5Wn0eLmxQwhXlVOI",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
+          },
+          {
+            "title": "Abbott Elementary - Wednesdays 8:30/7:30c",
+            "url": "https://abc.com/video/8b91ff62-7420-4ad1-b2ea-ca1f290026a0/playlist/pl557769560",
+            "source": "ABC Network",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8XYm1_R86RVEI1D51Wbu7_63Shrno300r6-k8t5IM8MAOflPNQfx68Kv1sHM",
+            "og_title": "Abbott Elementary | Abbott Elementary - Wednesdays 8:30/7:30c",
+            "og_desc": "Workplace comedy of dedicated, passionate teachers in Philadelphia.",
+            "og_image": "https://cdn1.edgedatg.com/aws/v2/abc/AbbottElementary/video/40138125/45b60b30846408fcbcc53a7d6c723a20/579x325-Q100_45b60b30846408fcbcc53a7d6c723a20.jpg",
+            "ok": true
+          },
+          {
+            "title": "'Abbott Elementary' cast says the city of Philadelphia is the true star of the show",
+            "url": "https://6abc.com/post/abbott-elementary-cast-says-city-philadelphia-is-true-star-show/19918581/",
+            "source": "6abc Philadelphia",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAolduWhabkPP3BSthdC8AEdoWH0xVZhvowPMhPsKDoFGiC_UELcE6xfTksmI",
+            "og_title": "'Abbott Elementary' cast says the city of Philadelphia is the true star of the show",
+            "og_desc": "Our favorite characters from ABC's hit sitcom \"Abbott Elementary\" are back for Season 6, and so is the one the cast says is truly the star of the show: the city of Philadelphia.",
+            "og_image": "https://cdn.abcotvs.com/dip/images/19918573_100726-wpvi-alicia-abbott-elementary-philly-main-character-10am-vid.jpg?w=1600",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "فن ومشاهير",
+        "icon": "🎬",
+        "color": "#c77dff",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-10-19-quinta-brunson.png"
+      },
+      {
+        "title": "steve doocy",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Mon, 19 Oct 2026 05:30:00 -0700",
+        "image": "",
+        "image_source": "",
+        "news": [],
+        "geos": [
+          "US"
+        ],
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/world-2026-10-19-steve-doocy.png"
+      },
+      {
+        "title": "ashley st. clair",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Mon, 19 Oct 2026 05:30:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRab_IkLizqRb9j2dvAAUR84aB1fUBXr5_5BOSpeGqUC1P0sdutKEpXSNNZ2xM",
+        "image_source": "People.com",
+        "news": [
+          {
+            "title": "Ashley St. Clair Says Elon Musk Didn’t Show a ‘Certain Side of Himself’ Until After She Had Their Son",
+            "url": "https://people.com/ashley-st-clair-says-elon-musk-didnt-show-certain-side-of-himself-until-she-had-their-son-12173824",
+            "source": "People.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRab_IkLizqRb9j2dvAAUR84aB1fUBXr5_5BOSpeGqUC1P0sdutKEpXSNNZ2xM",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Elon Musk slashed ex Ashley St. Clair’s child support by staggering amount after she revealed their son, doc claims",
+            "url": "https://pagesix.com/2026/10/17/parents/elon-musk-cut-ex-ashley-st-clairs-child-support-by-80k-after-she-revealed-their-son-doc-claims/",
+            "source": "Page Six",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuMYkCe-2fEhiscKM3LVysm4cqSSRJaisuZ-o4mWrW36M0INBNHFaHE8jKtn4",
+            "og_title": "Elon Musk slashed ex Ashley St. Clair’s child support by staggering amount after she revealed their son, doc claims",
+            "og_desc": "Musk and St. Clair share a two-year-old son, Romulus, whose birth St. Clair publicly revealed in February 2025.",
+            "og_image": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/145420906.jpg?quality=75&strip=all&w=1200",
+            "ok": true
+          },
+          {
+            "title": "Elon Musk’s ex says she turned down a $40M NDA — then her child support was cut to about $5M total. Was it all worth it?",
+            "url": "https://finance.yahoo.com/small-business/articles/elon-musk-ex-says-she-193500279.html",
+            "source": "Yahoo Finance",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB1LWFX_mucO-aYpLRnMxa_xd_rMtK_NlDMaiwp-oIHD1fhMETvlXwnAFxhMI",
+            "og_title": "Elon Musk’s ex says she turned down a $40M NDA — then her child support was cut to about $5M total. Was it all worth it?",
+            "og_desc": "That’s a roughly $35M gap over 21 years — and Ashley St. Clair says she’d make the same call again. In the new documentary ‘Musk,’ she lays out what the original offer included and what happened after she said no. Musk, for his part, has said he paid her $2.5M.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/925862a09c0edac5642b80bba9ee47d8abc08704addb802ce79e957c5d688755/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2Fa1622592b7952b65658c054a96491902.jpg",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-10-19-ashley-st-clair.png"
+      },
+      {
+        "title": "penn state nittany lions football",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Mon, 19 Oct 2026 05:10:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHTfyztVyrRyuOUHkzmSWnyhpk4Zg-7CZLL0lC8lmvPsIdqnbiN3K_6rT4F_k",
+        "image_source": "Maize n Brew",
+        "news": [
+          {
+            "title": "3 things we learned from Michigan Football’s win over Penn State",
+            "url": "https://www.maizenbrew.com/football/125667/michigan-football-penn-state-what-we-learned-tommy-carr-bryce-underwood-jason-beck",
+            "source": "Maize n Brew",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHTfyztVyrRyuOUHkzmSWnyhpk4Zg-7CZLL0lC8lmvPsIdqnbiN3K_6rT4F_k",
+            "og_title": "3 things we learned from Michigan Football’s win over Penn State",
+            "og_desc": "QB Tommy Carr was a sparkplug in Michigan Football’s comeback win over Penn State. Here are 3 things we learned from the win over Penn State:",
+            "og_image": "https://platform.maizenbrew.com/wp-content/uploads/sites/102/2026/10/gettyimages-2300722805.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200",
+            "ok": true
+          },
+          {
+            "title": "MMQB - Accountability",
+            "url": "https://www.blackshoediaries.com/mmqb/91377/mmqb-accountability-bsd-penn-state-nittany-lions-football-quarterback-rocco-becht",
+            "source": "Black Shoe Diaries",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC8yDjZ8IH8elqdOfNesF0wEzBmrZp99o0T2RdUoeo2zLACF92pjHIMG2g-sA",
+            "og_title": "MMQB - Accountability",
+            "og_desc": "C’mon, man",
+            "og_image": "https://platform.blackshoediaries.com/wp-content/uploads/sites/32/2026/10/gettyimages-2300711051.jpg?quality=90&strip=all&crop=0%2C6.4609847968188%2C100%2C34.973821989529&w=1200",
+            "ok": true
+          },
+          {
+            "title": "Michigan football benches Bryce Underwood, but Kyle Whittingham’s QB decision isn’t over",
+            "url": "https://www.usatoday.com/story/sports/ncaaf/bigten/2026/10/18/kyle-whittingham-bryce-underwood-benched-tommy-carr-michigan-football/92317430007/",
+            "source": "USA Today",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRB-HrnNn3YhnITHEi0NKm3t5aA8tsJ1CU1mrI0kn6W8nEkjvlsdUpk3p2JVSE",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-10-19-penn-state-nittany-lions-football.png"
       },
       {
         "title": "when is election day",
@@ -430,141 +576,53 @@
         "card": "cards/world-2026-10-19-when-is-election-day.png"
       },
       {
-        "title": "oled tv",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 19 Oct 2026 04:40:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTrPNHf2myEXVipKMuDcKfKnsMWOmTKBUAWyJkoS6_li4UJMcTlwvfHnisCHTA",
-        "image_source": "OregonLive.com",
+        "title": "joongdunk",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Mon, 19 Oct 2026 04:50:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSpJHq_Fp7qtpoE5adjIBpac_DRGvQGJN77W-oEBw7AJlSLKqw12dJOWCFmjfM",
+        "image_source": "Manila Standard",
         "news": [
           {
-            "title": "Best Buy is having a massive sale on this 65-inch Samsung OLED TV before the holidays",
-            "url": "https://www.oregonlive.com/shopping-deals/2026/10/best-buy-is-having-a-massive-sale-on-this-65-inch-samsung-oled-tv-before-the-holidays.html",
-            "source": "OregonLive.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTrPNHf2myEXVipKMuDcKfKnsMWOmTKBUAWyJkoS6_li4UJMcTlwvfHnisCHTA",
-            "og_title": "Best Buy is having a massive sale on this 65-inch Samsung OLED TV before the holidays",
-            "og_desc": "The 2026 Samsung S90H features AI upscaling technology that transforms lower-resolution content into near-4K quality, just in time for football season and holiday movies.",
-            "og_image": "https://www.oregonlive.com/resizer/v2/UDIZRTSTFBHYDER4YPQIHAUXO4.png?auth=fbdf609fc7f5506e6f00feb00869f5f29dde215acc54689d326c6a24da21ef26&width=1280&smart=true&quality=90",
-            "ok": true
-          },
-          {
-            "title": "The Best OLED TV for Most People Is $400 Off Right Now",
-            "url": "https://lifehacker.com/tech/samsung-s90h-oled-tv-sale-october-2026",
-            "source": "Lifehacker",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRswpjJKE32rcaMzkgyWsLsvvmA3Mh86QzJEWzy0MiikK1gyIMUQ808fOag-R0",
-            "og_title": "The Best OLED TV for Most People Is $400 Off Right Now",
-            "og_desc": "The 65-inch Samsung S90H Series TV is $1,497.99 (originally $1,897.99) after a 21% discount. It's considered the best OLED TV for most people because of its value and practicality.",
-            "og_image": "https://lifehacker.com/imagery/articles/01M4XSXBHARYXTD4AR9R7KC435/hero-image.fill.size_1200x675.jpg",
-            "ok": true
-          },
-          {
-            "title": "The Samsung S84F 77-Inch Class OLED TV is down to $1,297.99 this weekend — a saving of $300",
-            "url": "https://mashable.com/tech/oct-9-samsung-77-inch-oled-tv-clone",
-            "source": "Mashable",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS4OFP6Scg1QhFO1R4budtZLg14Jbq9oXW9di_Y0q2wvuQcrcyxgzpIMI7u-ic",
-            "og_title": "Best Samsung TV deal: Samsung S84F 77-Inch is down to $1,297.99 this weekend",
-            "og_desc": "High spec at a lower price.",
-            "og_image": "https://helios-i.mashable.com/imagery/articles/04rzVarw2MQ9zoJweNHXYg5/hero-image.fill.size_1200x675.v1791548404.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "تقنية",
-        "icon": "💻",
-        "color": "#5aa9ff",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-10-19-oled-tv.png"
-      },
-      {
-        "title": "marin cilic",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 19 Oct 2026 04:40:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShHTWa2yRewxvAfju19esjxuzlzuj2joLAyegncA_846eCn6IS_fFx4u2UkQ",
-        "image_source": "Dimers",
-        "news": [
-          {
-            "title": "Marin Cilic vs. Nikoloz Basilashvili prediction, odds, picks for ATP Almaty Open 2026",
-            "url": "https://www.dimers.com/tennis/news/marin-cilic-vs-nikoloz-basilashvili-tennis-prediction-atp-almaty-open-2026-ac",
-            "source": "Dimers",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShHTWa2yRewxvAfju19esjxuzlzuj2joLAyegncA_846eCn6IS_fFx4u2UkQ",
-            "og_title": "Marin Cilic vs. Nikoloz Basilashvili prediction, odds, picks for ATP Almaty Open 2026",
-            "og_desc": "Marin Cilic will take on Nikoloz Basilashvili in the round of 32 at the ATP Almaty event on Monday.",
-            "og_image": "http://cdn.cosmicjs.com/e4faf600-cb15-11f1-882d-091f4b804477-TEN_2026_1_ATP_41959_15387_26204.png",
-            "ok": true
-          },
-          {
-            "title": "ATP Almaty Day 1 Predictions Including Marin Cilic vs Nikoloz Basilashvili",
-            "url": "https://lastwordonsports.com/tennis/2026/10/19/atp-almaty-day-1-predictions-cilic-basilashvili/",
-            "source": "Last Word On Sports",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJUDGW9sFvAosWdvPGVBZYPMyLpCBiQ_uM2cGNfa81dAAZefzEao41XB9IXJ8",
-            "og_title": "ATP Almaty Day 1 Predictions Including Cilic vs Basilashvili",
-            "og_desc": "The Almaty Open brings the ATP Tour indoors for another important stop in the closing stretch of the season. Who will win on Monday?",
-            "og_image": "https://lastwordonsports.com/tennis/wp-content/uploads/sites/17/2026/05/USATSI_18431550_168400550_lowres.webp",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-10-19-marin-cilic.png"
-      },
-      {
-        "title": "kim jong un coma",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 19 Oct 2026 04:30:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZj0H62-NOEJq2Gxv2KiSTzGbvxfYfD-oRr3ryAZm2ax5DdkWtHm5LSI5ivP8",
-        "image_source": "Daily Star",
-        "news": [
-          {
-            "title": "Kim Jong un dead rumours with claims tyrant is 'in coma after haemorrhage’",
-            "url": "https://www.dailystar.co.uk/news/world-news/kim-jong-un-dead-wild-37787157",
-            "source": "Daily Star",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZj0H62-NOEJq2Gxv2KiSTzGbvxfYfD-oRr3ryAZm2ax5DdkWtHm5LSI5ivP8",
-            "og_title": "Rumours Kim Jong un is dead after 'falling into coma' as North Korea risks 'war'",
-            "og_desc": "'The poor medical conditions in North Korea forced Kim Jong-un to be transferred to Peking Union Medical College Hospital for emergency treatment'",
-            "og_image": "https://i2-prod.dailystar.co.uk/article37785336.ece/ALTERNATES/s1200d/1_GettyImages-622272392.jpg",
-            "ok": true
-          },
-          {
-            "title": "Kim Jong-Un 'rushed to hospital for emergency treatment', rumours claim",
-            "url": "https://www.aol.co.uk/articles/kim-jong-un-rushed-hospital-120300000.html",
-            "source": "AOL.com",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT88wwxmBK7bRtCSuPAR2Z-9JY3ljfT79gFv30OH9LzXNfanGXTieHFTLf8OLU",
-            "og_title": "Kim Jong-Un 'rushed to hospital for emergency treatment', rumours claim - AOL",
-            "og_desc": "The North Korean dictator is rumoured to have suffered a brain haemorrhage and been rushed to hospital in China.",
-            "og_image": "https://hermes.media.transform.aol.com/8babc644b05b4c9d115722ffdf0cedc733630bb7/w_1200,c_scale,f_auto,q_auto/https://hermes.media.static.aol.com/media/2026/10/19/c8087142-be47-3bdd-ae55-66fdca45fd9b/0d80a491-f7d2-4099-8b9a-9c322f509030.jpg",
-            "ok": true
-          },
-          {
-            "title": "Kim Jong-un ‘in COMA after suffering brain haemorrhage’, wild rumours claim as tyrant ‘rushed to China for treatment’",
-            "url": "https://www.the-sun.com/news/17169955/kim-jong-un-coma-china-treatment/",
-            "source": "The Sun",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSduJiP7aXF1c35EUjmMyzHubLzDOr9HmkWlcb6uKUInDkwq5MBcd8qldoY1rI",
+            "title": "On-screen BL couples Joong-Dunk, Aou-Boom to pursue separate career paths",
+            "url": "https://manilastandard.net/showbiz/celebrity-profiles/314807742/on-screen-bl-couples-joong-dunk-aou-boom-to-pursue-separate-career-paths.html",
+            "source": "Manila Standard",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSpJHq_Fp7qtpoE5adjIBpac_DRGvQGJN77W-oEBw7AJlSLKqw12dJOWCFmjfM",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
             "ok": false
+          },
+          {
+            "title": "GMMTV announces end of BL pairs JoongDunk and AouBoom, fans left heartbroken",
+            "url": "https://www.gmanetwork.com/entertainment/showbiznews/gmmtv-announces-end-of-bl-pairs-joongdunk-and-aouboom-fans-left-heartbroken/140025/",
+            "source": "GMA Network",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-O8uVbUz6FiIIA9wPr2Emd-YQF-yD8r4cg9csrkyILHWxDZeZ5Hu35MWS27k",
+            "og_title": "GMMTV announces end of BL pairs JoongDunk and AouBoom, fans left heartbroken",
+            "og_desc": "The announcement marks the end of two fan-favorite pairings that helped shape GMMTV's current BL era.",
+            "og_image": "https://aphrodite.gmanetwork.com/entertainment/articles/1200_675_38_19-10-2026-1941_-20261019194116.jpg",
+            "ok": true
+          },
+          {
+            "title": "Thai BL Stars Joong-Dunk, Aou-Boom Split; Announcement Leaves Fans Heartbroken",
+            "url": "https://in.mashable.com/entertainment/115161/thai-bl-stars-joong-dunk-aou-boom-split-announcement-leaves-fans-heartbroken",
+            "source": "Mashable India",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcToUINaaTsRC0uoXlP67ChJdaqos9So6y6w9EMHd1Vom_zmpZkxHFI2TpKZl3I",
+            "og_title": "Thai BL Stars Joong-Dunk, Aou-Boom Split; Announcement Leaves Fans Heartbroken",
+            "og_desc": "GMMTV on Monday afternoon took to their official social media handles to announce that two of their most beloved on-screen BL (Boys’ Love) pairing Joong-Dunk and Aou-Boom have mutually decided to go their separate ways. The news has come across as shocking to their fans, leaving the internet buzzing with speculation and unconfirmed theories.",
+            "og_image": "https://sm.mashable.com/mashable_in/seo/default/joong-dunk-aou-boom_q2zq.jpg",
+            "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: dead",
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-10-19-kim-jong-un-coma.png"
+        "card": "cards/world-2026-10-19-joongdunk.png"
       }
     ]
   },
@@ -574,55 +632,54 @@
     "name_en": "Egypt",
     "lang": "ar",
     "flag": "🇪🇬",
-    "generated_at": "2026-10-19T12:31:12.039645+00:00",
+    "generated_at": "2026-10-19T13:01:14.260477+00:00",
     "day": "2026-10-19",
     "trends": [
       {
-        "title": "سعر الدولار اليوم",
-        "traffic": "5000+",
-        "traffic_num": 5000,
-        "published": "Mon, 19 Oct 2026 04:30:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFPpBmJKuc_mSnTvxIaExqii1GZ4IzmwiBsLgvg_4jNicaFugljsN9caNwwnQ",
-        "image_source": "العربية",
+        "title": "وزير التعليم",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "published": "Mon, 19 Oct 2026 05:50:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXwe_1UCKfWEK7r7AsF6ktBWsyjmJ7-w1h5i231GyJ9lsAb2adny7WWxAT-eU",
+        "image_source": "اليوم السابع",
         "news": [
           {
-            "title": "سعر الدولار في مصر يتجاوز 54 جنيهاً.. خسارة جديدة للجنيه",
-            "url": "https://www.alarabiya.net/aswaq/egypt-economy/2026/10/19/%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D8%A8%D8%B9%D8%AF-%D9%85%D9%83%D8%A7%D8%B3%D8%A8-%D9%82%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFPpBmJKuc_mSnTvxIaExqii1GZ4IzmwiBsLgvg_4jNicaFugljsN9caNwwnQ",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "سعر الدولار مقابل الجنيه المصري يرتفع في البنوك بمنتصف تعاملات اليوم الاثنين",
-            "url": "https://www.mubasher.info/news/4687098/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D9%8A%D8%B1%D8%AA%D9%81%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83-%D8%A8%D9%85%D9%86%D8%AA%D8%B5%D9%81-%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%D9%86/",
-            "source": "معلومات مباشر",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRUmT4ekEevnI0cFfGolciUl8NDLRUBJvHgQt-_pS0eySFv8BkNYYfEbl0oPvE",
-            "og_title": "سعر الدولار مقابل الجنيه المصري يرتفع في البنوك بمنتصف تعاملات اليوم الاثنين",
-            "og_desc": "القاهرة - مباشر: صعد سعر الدولار مقابل الجنيه المصري في عددٍ من البنوك مع منتصف تعاملات اليوم الاثنين، مقارنةً بمستواه أمس. سعر الدولار في عددٍ من البنوك:  البنك الأهلي المصري: 53.77 جنيه للشراء، و53.87 جنيه للبيع، بزيادة 30 قرشاً للشراء والبيع. …",
-            "og_image": "https://static.mubasher.info/File.Story_Image/5b01f4acb73bf9ee1ef89cb5d606fdff/640.jpg",
+            "title": "وزير التعليم العالى بمنتدى مصر: إضافة 60 جامعة ومعهدا خلال الـ3 سنوات المقبلة",
+            "url": "https://www.youm7.com/story/2026/10/19/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%89-%D8%A8%D9%85%D9%86%D8%AA%D8%AF%D9%89-%D9%85%D8%B5%D8%B1-%D8%A5%D8%B6%D8%A7%D9%81%D8%A9-60-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D9%88%D9%85%D8%B9%D9%87%D8%AF%D8%A7-%D8%AE%D9%84%D8%A7%D9%84/7585629",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXwe_1UCKfWEK7r7AsF6ktBWsyjmJ7-w1h5i231GyJ9lsAb2adny7WWxAT-eU",
+            "og_title": "وزير التعليم العالى بمنتدى مصر: إضافة 60 جامعة ومعهدا خلال الـ3 سنوات المقبلة - اليوم السابع",
+            "og_desc": "قال الدكتور عبد العزيز قنصوة وزير التعليم العالى، علينا أن نسترجع من الذاكرة جزءا من قوة مصر الناعمة، كانت الجامعات المصرية والجامعات أساس منظومة التنمية داخل الدولة المصرية..",
+            "og_image": "https://img.youm7.com/xlarge/20260924031608168_493.jpg",
             "ok": true
           },
           {
-            "title": "19 أكتوبر 2026.. تصاعد المخاطر الجيوسياسية تقفز بالدولار ليتجاوز حاجز الـ54 جنيها ببعض البنوك",
-            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=19102026&id=833cc260-13d4-4503-b7ad-3011233e1537",
-            "source": "بوابة الشروق",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ3lb08r8UzUgAVAkNc-j1Yo6irw-p0e5wnP2Kz9VqxCSNGuppDNEcQfpTdu_E",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "https://www.shorouknews.com/uploadedimages/Sections/Politics/Arabic Press/original/4444444444444444444444444444444.jpg",
-            "ok": false
+            "title": "منتدي مصر 2026.. ماذا يريد المعلمين وأولياء الأمور من الحكومة؟",
+            "url": "https://www.masrawy.com/news/masrawytv/details/2026/10/19/3065216/%D9%85%D9%86%D8%AA%D8%AF%D9%8A-%D9%85%D8%B5%D8%B1-2026-%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%85%D9%8A%D9%86-%D9%88%D8%A3%D9%88%D9%84%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D8%A3%D9%85%D9%88%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-",
+            "source": "Masrawy",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRBeGxmE991Q9CsUh1cba3sglG1IhG4Yx5mpmM7h0a6zp_Dzk4WjCzd-Gd_8sQ",
+            "og_title": "منتدي مصر 2026.. ماذا يريد المعلمين وأولياء الأمور من الحكومة؟ | مصراوي",
+            "og_desc": "منتدي مصر 2026 ماذا يريد المعلمين وأولياء الأمور من الحكومة | مصراوي",
+            "og_image": "https://media.gemini.media/img/large/2026/10/19/2026_10_19_13_29_18_624.webp",
+            "ok": true
+          },
+          {
+            "title": "جلسة في منتدى مصر بعنوان \"ماذا يتعلم أبناؤنا... وهل يؤهلهم ذلك للمستقبل؟\"",
+            "url": "https://akhbarelyom.com/news/newdetails/4893698/1/%D8%AC%D9%84%D8%B3%D8%A9-%D9%81%D9%8A-%D9%85%D9%86%D8%AA%D8%AF%D9%89-%D9%85%D8%B5%D8%B1-%D8%A8%D8%B9%D9%86%D9%88%D8%A7%D9%86-%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A%D8%AA%D8%B9%D9%84%D9%85-%D8%A3%D8%A8%D9%86%D8%A7",
+            "source": "بوابة أخبار اليوم الإلكترونية",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdUapWVHQMIg_w1f2lbNtoh2OTuJfX642P-nrqzzdHCpekisqOVG5V0yWAmy0",
+            "og_title": "جلسة في منتدى مصر بعنوان \"ماذا يتعلم أبناؤنا... وهل يؤهلهم ذلك للمستقبل؟\"",
+            "og_desc": "بوابة أخبار اليوم الإلكترونية",
+            "og_image": "https://Images.akhbarelyom.com/images/images/large/20261019141823399.jpg",
+            "ok": true
           }
         ],
-        "category": "اقتصاد",
-        "icon": "💰",
-        "color": "#f5c542",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "category": "سياسة",
+        "icon": "🏛️",
+        "color": "#ff5c7c",
+        "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "card": "cards/eg-2026-10-19-سعر-الدولار-اليوم.png"
+        "card": "cards/eg-2026-10-19-وزير-التعليم.png"
       },
       {
         "title": "مسكن",
@@ -671,98 +728,143 @@
         "card": "cards/eg-2026-10-19-مسكن.png"
       },
       {
+        "title": "فائدة",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Mon, 19 Oct 2026 05:50:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWtMyEl8ao74c2Ott6qdDfVgiBvrMjlGkqFM0YNKb2_mRvsOPSPo9T7t3u7_I",
+        "image_source": "اخبارك نت",
+        "news": [
+          {
+            "title": "تصل إلى 22%.. خريطة أعلى عائد على شهادات الادخار في البنوك المصرية | أموال الغد",
+            "url": "https://www.akhbarak.net/news/details/49479845/4/%D8%AA%D8%B5%D9%84-%D8%A5%D9%84%D9%89-22-%D8%AE%D8%B1%D9%8A%D8%B7%D8%A9-%D8%A3%D8%B9%D9%84%D9%89-%D8%B9%D8%A7%D8%A6%D8%AF-%D8%B9%D9%84%D9%89-%D8%B4%D9%87%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%AF%D8%AE%D8%A7%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D8%A3%D9%85%D9%88%D8%A7%D9%84-%D8%A7%D9%84%D8%BA%D8%AF",
+            "source": "اخبارك نت",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWtMyEl8ao74c2Ott6qdDfVgiBvrMjlGkqFM0YNKb2_mRvsOPSPo9T7t3u7_I",
+            "og_title": "اخبارك نت | تصل إلى 22%.. خريطة أعلى عائد على شهادات الادخار في البنوك المصرية | أموال الغد",
+            "og_desc": "تواصل شهادات الادخار جذب اهتمام المدخرين باعتبارها أحد أبرز الأوعية الاستثمارية منخفضة المخاطر، في ظل تنوع المنتجات التي تقدمها البنوك العاملة في السوق المصر...",
+            "og_image": "https://aws-web-images.akhbarak.net/2026/10/18/49479845/49479845-original.jpg",
+            "ok": true
+          },
+          {
+            "title": "نصف مليون جنيه أرباح.. تفاصيل شهادة ابن مصر من بنك مصر",
+            "url": "https://www.elbalad.news/7147533",
+            "source": "صدى البلد",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSAJhnNzSHLaZnCyDnXQuP2_Q0tH7OuqtA_B72oI8rPU61o_pDwBQPz2J07ukU",
+            "og_title": "نصف مليون جنيه أرباح.. تفاصيل شهادة ابن مصر من بنك مصر",
+            "og_desc": "تُعد شهادة \"ابن مصر\" الثلاثية من أبرز الأوعية الادخارية ذات العائد المتناقص التي يقدمها بنك مصر...",
+            "og_image": "https://media.elbalad.news/2024/10/large/953/7/374.jpg",
+            "ok": true
+          },
+          {
+            "title": "بعائد يصل لـ 22%.. أعلى شهادات البنك الأهلي 2026 لمدة 3 سنوات",
+            "url": "https://www.almasryalyoum.com/news/details/4387020",
+            "source": "المصري اليوم",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjl3Isc0sePOG_jwxPveNVNfESDRG9FQFmBDMxUHpxgW1ojteSegHzoEp_xlY",
+            "og_title": "بعائد يصل لـ 22%.. أعلى شهادات البنك الأهلي 2026 لمدة 3 سنوات | المصري اليوم",
+            "og_desc": "في ظل التوترات الجيوسياسية وتقلبات الأسواق العالمية، تتزايد أهمية الأدوات الادخارية التي تتيح للأفراد الحصول على دخل دوري معلوم، خاصة مع استمرار حالة عدم اليقين بشأن التضخم...",
+            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/10/19/2064459.webp",
+            "ok": true
+          }
+        ],
+        "category": "اقتصاد",
+        "icon": "💰",
+        "color": "#f5c542",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/eg-2026-10-19-فائدة.png"
+      },
+      {
         "title": "دواء",
         "traffic": "500+",
         "traffic_num": 500,
         "published": "Mon, 19 Oct 2026 04:20:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRhsT44J9-lTAE9lJVr0nmHk-DlO6Ep2TW_Qjk3pqd5Who35nagD47nfNKaI5U",
-        "image_source": "عاجل",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQj2N1SjF5BGCPY9Ro58AYhiFiUq9KbxIfLuMJ4okninl49CgaPQP9UoAEYABg",
+        "image_source": "سكاي نيوز عربية",
         "news": [
           {
-            "title": "«الغذاء والدواء» تنفي اعتماد مكمل غذائي مستخلص من بول الإبل لعلاج السرطان",
-            "url": "https://ajel.sa/local/eih95f3to",
-            "source": "عاجل",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRhsT44J9-lTAE9lJVr0nmHk-DlO6Ep2TW_Qjk3pqd5Who35nagD47nfNKaI5U",
-            "og_title": "«الغذاء والدواء» تنفي اعتماد مكمل غذائي مستخلص من بول الإبل لعلاج السرطان",
-            "og_desc": "نفت الهيئة العامة للغذاء والدواء صحة الأنباء المتداولة بشأن حصول دواء مستخلص من المادة الفعالة لبول الإبل على موافقتها لعلاج مرض السرطان، مؤكدة أن المنتج المذكور غير معتمد لهذا الغرض.",
-            "og_image": "https://ajel.sa/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=auto,format=jpeg/https://cdn.ajel.sa/articles/2026-07/AbMhA6BeO1JJGX_g.PNG",
+            "title": "\"دواء رجالي\" شهير يفاجئ العلماء بقدرات غير متوقعة",
+            "url": "https://www.skynewsarabia.com/technology/1899069-%D8%AF%D9%88%D8%A7%D8%A1-%D8%B1%D8%AC%D8%A7%D9%84%D9%8A-%D8%B4%D9%87%D9%8A%D8%B1-%D9%8A%D9%81%D8%A7%D8%AC%D8%A6-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D8%A7%D8%A1-%D8%A8%D9%82%D8%AF%D8%B1%D8%A7%D8%AA-%D9%85%D8%AA%D9%88%D9%82%D8%B9%D8%A9",
+            "source": "سكاي نيوز عربية",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQj2N1SjF5BGCPY9Ro58AYhiFiUq9KbxIfLuMJ4okninl49CgaPQP9UoAEYABg",
+            "og_title": "\"دواء رجالي\" شهير يفاجئ العلماء بقدرات غير متوقعة",
+            "og_desc": "توصل علماء مؤخرا إلى أن دواء لعلاج ارتفاع ضغط الدم ويستخدم أيضا للتعامل مع ضعف الانتصاب عند الرجال، قد يساعد أيضا على تجديد العضلات وإصلاح أنسجتها.",
+            "og_image": "https://www.skynewsarabia.com/images/v1/2026/10/19/1899068/1200/630/1-1899068.png",
             "ok": true
           },
           {
-            "title": "أكثر من 21 مليون زائر للمسجد النبوي في سبتمبر",
-            "url": "https://www.okaz.com.sa/local/na/2271427",
-            "source": "عكاظ",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRyQCKkJFlY3EaxPnRMRPmIS6C3hpFXlQKPXatwLyDXK44hT6gPlsxJIFzw88E",
-            "og_title": "أكثر من 21 مليون زائر للمسجد النبوي في سبتمبر",
-            "og_desc": "سجّل المسجد النبوي خلال شهر سبتمبر إقبالًا لافتًا تجاوز 21 مليون زائر، في انعكاس لحجم الجهود المبذولة لخدمة القاصدين وتيسير عباداتهم في أجواء من الطمأنينة والسكينة.",
-            "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/10/19/2782085.webp",
+            "title": "دواء شائع لعلاج ضعف الانتصاب يدعم تجدد العضلات",
+            "url": "https://alnahdanews.com/article/166584-%D8%AF%D9%88%D8%A7%D8%A1-%D8%AA%D8%A7%D8%AF%D8%A7%D9%84%D8%A7%D9%81%D9%8A%D9%84-%D9%84%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D9%8A%D8%B3%D8%A7%D8%B9%D8%AF-%D8%B9%D9%84%D9%89-%D8%AA%D8%AC%D8%AF%D8%AF-%D8%A7%D9%84%D8%B9%D8%B6%D9%84%D8%A7%D8%AA-%D9%88%D8%A5%D8%B5%D9%84%D8%A7%D8%AD%D9%87%D8%A7",
+            "source": "النهضة نيوز",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTY5HtSNUC3rSY0Tuj1oswXmRzylQpNhaIcuYTEo1OblTagAIxVa47YfMlflM",
+            "og_title": "دواء شائع لعلاج ضعف الانتصاب يدعم تجدد العضلات | النهضة نيوز",
+            "og_desc": "أظهرت دراسة مخبرية على خلايا عضلية من الفئران أن تادالافيل، المستخدم لعلاج ضعف الانتصاب وارتفاع ضغط الشريان الرئوي، قد يعزز تكاثر الخلايا وبقاءها ويساعد على إصلاح الأنسجة العضلية.",
+            "og_image": "https://alnahdanews.com/storage/attachments/167/FlexingMuscle-600x338_1_742711_highres.webp",
             "ok": true
           },
           {
-            "title": "لا صحة لاعتماد دواء مستخلص من بول الإبل لعلاج السرطان",
-            "url": "https://www.akhbaar24.com/%D8%B7%D8%A8/%D9%84%D8%A7-%D8%B5%D8%AD%D8%A9-%D9%84%D8%A7%D8%B9%D8%AA%D9%85%D8%A7%D8%AF-%D8%AF%D9%88%D8%A7%D8%A1-%D9%85%D8%B3%D8%AA%D8%AE%D9%84%D8%B5-%D9%85%D9%86-%D8%A8%D9%88%D9%84-%D8%A7%D9%84%D8%A5%D8%A8%D9%84-%D9%84%D8%B9%D9%84%D8%A7%D8%AC-%D8%A7%D9%84%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-773048",
-            "source": "أخبار 24",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR6jmN3OwCFD9-DFX2Bg97SavtVyWNcGzsUXlVgBRh-BPemi2n4QHbamLdsOEI",
-            "og_title": "لا صحة لاعتماد دواء مستخلص من بول الإبل لعلاج السرطان",
-            "og_desc": "نفت الهيئة العامة للغذاء والدواء صحة الشائعات المتداولة بشأن موافقتها على دواء مستخلص من المادة الفعالة لبول الإبل لعلاج السرطان، مؤكدة أن المنتج مسجل لديها كمكمل غذائي، ولا يُعتمد لعلاج المرض.",
-            "og_image": "https://assets.maestronewsroom.com/media/b6b5fbfc-544f-4e99-86a1-58234460e4ef/proxies/6137c73b-e85f-4813-a3c0-6a8fb15df4a8.webp",
-            "ok": true
-          }
-        ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: سرطان",
-        "publishable": false,
-        "card": "cards/eg-2026-10-19-دواء.png"
-      },
-      {
-        "title": "تسمم",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Mon, 19 Oct 2026 03:00:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_IVK4pw0s5m82KqDJ2_gkChH_32yp9X3g_Rc8rc6YuJyisU1LCc7DcjZ_Uns",
-        "image_source": "العربية",
-        "news": [
-          {
-            "title": "بسبب وجبة كشري.. تسمم عشرات العمال بمصنع في مصر",
-            "url": "https://www.alarabiya.net/arab-and-world/egypt/2026/10/19/%D8%A8%D8%B3%D8%A8%D8%A8-%D9%88%D8%AC%D8%A8%D8%A9-%D9%83%D8%B4%D8%B1%D9%8A-%D8%AA%D8%B3%D9%85%D9%85-%D8%A7%D9%84%D8%B9%D8%B4%D8%B1%D8%A7%D8%AA-%D8%A8%D9%85%D8%B5%D9%86%D8%B9-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D9%88%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D8%AA-%D8%AA%D8%AA%D8%AF%D8%AE%D9%84",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_IVK4pw0s5m82KqDJ2_gkChH_32yp9X3g_Rc8rc6YuJyisU1LCc7DcjZ_Uns",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "محافظة بورسعيد: تحرك رقابي عاجل والتحفظ على مطبخ مصنع ملابس إثر الاشتباه في 24 حالة تسمم غذائي | صور",
-            "url": "https://gate.ahram.org.eg/News/5967833.aspx",
-            "source": "بوابة الأهرام",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtYpAgcCPAEeC90K62nQlJehurVTjiOPE391KXZNzgxg_DakmncO1ikPz9qWg",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "عقب الاشتباه في 24 حالة تسمم بسبب وجبة كشري.. إجراء عاجل من محافظ بورسعيد",
-            "url": "https://www.youm7.com/story/2026/10/19/%D8%B9%D9%82%D8%A8-%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%87-%D9%81%D9%8A-24-%D8%AD%D8%A7%D9%84%D8%A9-%D8%AA%D8%B3%D9%85%D9%85-%D8%A8%D8%B3%D8%A8%D8%A8-%D9%88%D8%AC%D8%A8%D8%A9-%D9%83%D8%B4%D8%B1%D9%8A-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1/7585052",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpGZHNTzVm1Lb3VA0IUhAhPjCrvX_dhPq271DsvHTx35UdrDJuuRV9ml2g5dU",
-            "og_title": "عقب الاشتباه في 24 حالة تسمم بسبب وجبة كشري.. إجراء عاجل من محافظ بورسعيد - اليوم السابع",
-            "og_desc": "شهدت المنطقة الصناعية بمحافظة بورسعيد تحركًا رقابيًا عاجلًا من الهيئة القومية لسلامة الغذاء ومديرية التموين، وذلك على خلفية الاشتباه في 24 حالة تسمم غذائي عقب تناول وجبة كشري",
-            "og_image": "https://img.youm7.com/xlarge/202610190933533353_307.jpg",
+            "title": "عقار شائع لعلاج ضعف الانتصاب يجدد عضلات الشيخوخة",
+            "url": "https://www.eremnews.com/health/d8qdcyg",
+            "source": "إرم نيوز",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbz-R_Ui2ARFwjpkqKuKhy5daTfFMWWU2OzYLRl0E3QaYeh6Q_ClJoApMM9ts",
+            "og_title": "عقار شائع لعلاج ضعف الانتصاب يجدد عضلات الشيخوخة | إرم نيوز",
+            "og_desc": "دراسة حديثة في دورية \"موليكولار بايولوجي ريبورتس\" توضح أن عقار \"تادالافيل\" (سياليس) يساعد خلايا العضلات المبكرة على النمو والبقاء وسط تحذيرات طبية من",
+            "og_image": "https://cdn.eremnews.com/media/4103e448-9a0b-4fa3-b791-cbadf68bf4c9_v3",
             "ok": true
           }
         ],
         "category": "شخصية",
         "icon": "👤",
         "color": "#ffd166",
-        "reason": "شخصية بأقل من مصدرين",
+        "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "card": "cards/eg-2026-10-19-تسمم.png"
+        "person": true,
+        "card": "cards/eg-2026-10-19-دواء.png"
+      },
+      {
+        "title": "كأس الكونفيدرالية الإفريقية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Mon, 19 Oct 2026 05:30:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQasg0kfepQ7OxYBgp9hHYFKUxoqL4IvWD1Wowd0Ko3OrnTlbTOX8B6tk0ioJU",
+        "image_source": "الموقع الرسمي للنادي الأهلي المصري",
+        "news": [
+          {
+            "title": "كأس الكونفدرالية| بعثة الأهلي تصل إلى مطار القاهرة عائدًا من أوغندا",
+            "url": "https://www.alahlyegypt.com/ar/news/article/%D9%83%D8%A3%D8%B3-%D8%A7%D9%84%D9%83%D9%88%D9%86%D9%81%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9-%D8%A8%D8%B9%D8%AB%D8%A9-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%AA%D8%B5%D9%84-%D8%A5%D9%84%D9%89-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%B9%D8%A7%D8%A6%D8%AF%D8%A7-%D9%85%D9%86-%D8%A3%D9%88%D8%BA%D9%86%D8%AF%D8%A7",
+            "source": "الموقع الرسمي للنادي الأهلي المصري",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQasg0kfepQ7OxYBgp9hHYFKUxoqL4IvWD1Wowd0Ko3OrnTlbTOX8B6tk0ioJU",
+            "og_title": "كأس الكونفدرالية| بعثة الأهلي تصل إلى مطار القاهرة عائدًا من أوغندا",
+            "og_desc": "بعثة الفريق الأول لكرة القدم بالنادي الأهلي، برئاسة سيد عبد الحفيظ، عضو مجلس الإدارة، وصلت إلى مطار القاهرة قادمة من هويما في أوغندا، بعد فوز الأهلي على كيتارا بهدفين مقابل هدف، بذهاب دور الـ٣٢ لكأس الكونفدرالية",
+            "og_image": "https://alahly-images.s3.us-east-2.amazonaws.com/Article/original/1000475864-6ad4e84f5b9af.jpg",
+            "ok": true
+          },
+          {
+            "title": "«كاف»: تغييرات عموتة كلمة السر في ريمونتادا الأهلي أمام كيتارا الأوغندي",
+            "url": "https://www.youm7.com/story/2026/10/18/%C2%AB%D9%83%D8%A7%D9%81%C2%BB-%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1%D8%A7%D8%AA-%D8%B9%D9%85%D9%88%D8%AA%D8%A9-%D9%83%D9%84%D9%85%D8%A9-%D8%A7%D9%84%D8%B3%D8%B1-%D9%81%D9%8A-%D8%B1%D9%8A%D9%85%D9%88%D9%86%D8%AA%D8%A7%D8%AF%D8%A7-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%A3%D9%85%D8%A7%D9%85-%D9%83%D9%8A%D8%AA%D8%A7%D8%B1%D8%A7/7583937",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjO9I3Hi0vV5acyZngw-HNFhJx88-ArQjJ3mjl6KdnVXOO7WSCThSDJA8qkc4",
+            "og_title": "«كاف»: تغييرات عموتة كلمة السر في ريمونتادا الأهلي أمام كيتارا الأوغندي - اليوم السابع",
+            "og_desc": "سلط الاتحاد الأفريقي لكرة القدم «كاف» الضوء على الفوز الذي حققه النادي الأهلي على مضيفه كيتارا الأوغندي بنتيجة 2-1، في المباراة التي جمعتهما مساء السبت،",
+            "og_image": "https://img.youm7.com/xlarge/20261018105302532_369.jpg",
+            "ok": true
+          },
+          {
+            "title": "بثنائية.. الأهلي المصري يقص شريط الكونفدرالية",
+            "url": "https://www.skynewsarabia.com/sport/1898839-%D8%A8%D8%AB%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D9%8A%D9%82%D8%B5-%D8%B4%D8%B1%D9%8A%D8%B7-%D8%A7%D9%84%D9%83%D9%88%D9%86%D9%81%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9",
+            "source": "سكاي نيوز عربية",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQossQ-olqqwP1pylISrmc58mu-iJpT2cE2QqMhnzJqLfgETyY0MPAtyeCwlfY",
+            "og_title": "بثنائية في الكونفدرالية.. الأهلي المصري يفوز على كيتارا الأوغندي",
+            "og_desc": "حقق فريق الأهلي المصري، انتصارا ثمينا خارج ملعبه، على مضيفه الأوغندي كيتارا بنتيجة 2-1، السبت، في ذهاب دور الـ32 من بطولة كأس الكونفدرالية الإفريقية لكرة القدم.",
+            "og_image": "https://www.skynewsarabia.com/images/v1/2026/10/17/1898837/1200/630/1-1898837.jpg",
+            "ok": true
+          }
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/eg-2026-10-19-كأس-الكونفيدرالية-الإفريقية.png"
       },
       {
         "title": "أرز",
@@ -812,75 +914,18 @@
         "card": "cards/eg-2026-10-19-أرز.png"
       },
       {
-        "title": "كندة علوش",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 19 Oct 2026 03:10:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjbv3Polu-xE3YGLhI_JphlVkdy82jmdY6oGZTpJrAbzW-FodpLEYERkj3SDU",
-        "image_source": "العربية",
-        "news": [
-          {
-            "title": "كندة علوش تكشف سر خسارة 15 كلغ: حرمت نفسي من الحلويات",
-            "url": "https://www.alarabiya.net/culture-and-art/2026/10/19/%D9%83%D9%86%D8%AF%D8%A9-%D8%B9%D9%84%D9%88%D8%B4-%D8%AA%D9%83%D8%B4%D9%81-%D8%B3%D8%B1-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-15-%D9%83%D9%8A%D9%84%D9%88-%D8%AD%D8%B1%D9%85%D8%AA-%D9%86%D9%81%D8%B3%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%8A%D8%A7%D8%AA",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjbv3Polu-xE3YGLhI_JphlVkdy82jmdY6oGZTpJrAbzW-FodpLEYERkj3SDU",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "بعد الشفاء من السرطان.. كندة علوش تخطف الأنظار برشاقتها",
-            "url": "https://www.okaz.com.sa/culture/art/2271395",
-            "source": "عكاظ",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRuhj9ca7eYGHH24BFjy6U-D02YqJ8koy8XMvEn0pfd_B9wTt9plQWftbJn-Wc",
-            "og_title": "بعد الشفاء من السرطان.. كندة علوش تخطف الأنظار برشاقتها",
-            "og_desc": "كشفت الفنانة السورية كندة علوش تفاصيل رحلتها في خسارة أكثر من 15 كيلوغرامًا من وزنها، مؤكدةً أن الوصول إلى إطلالتها اللافتة الأخيرة لم يكن نتيجة حلول سريعة، بل جاء بعد التزام طويل بنمط حياة مختلف تبنّته عقب تجاوز أزمتها الصحية والتعافي من سرطان الثدي.",
-            "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/10/19/2781977.webp",
-            "ok": true
-          },
-          {
-            "title": "سر رشاقة كندة علوش بعد التعافي من مرض السرطان",
-            "url": "https://news50.sa/culture/kinda-alloush-weight-loss-cancer-recovery/",
-            "source": "أخبار السعودية | saudi news",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ72Sytrda7JICdr45_k6SEpEhYBA32Mz4CgcAGtj8rsKHlPHRaOKCj9JGQ83o",
-            "og_title": "أخبار السعودية | SAUDI NEWS — Coming Soon",
-            "og_desc": "Signup to be the first to know when we launch.",
-            "og_image": "",
-            "ok": true
-          }
-        ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: مرض",
-        "publishable": false,
-        "card": "cards/eg-2026-10-19-كندة-علوش.png"
-      },
-      {
         "title": "كارثة",
         "traffic": "100+",
         "traffic_num": 100,
         "published": "Mon, 19 Oct 2026 05:10:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTSRHc7ic4Ur5K-Wd2qpw-hqAo1hJA3zoaRPDFrETOq1Y-ABvx7wUmL9toF284",
-        "image_source": "سكاي نيوز عربية",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBH4JuyLLciHTLsGnlx5_Crm--E2YZSDG_DhtYc4lATMFttqUk9WYckBXTKTg",
+        "image_source": "العربية",
         "news": [
           {
-            "title": "المنافسة تحتدم بين نتنياهو وآيزنكوت.. ماذا تقول الاستطلاعات؟",
-            "url": "https://www.skynewsarabia.com/middle-east/1899093-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9-%D8%AA%D8%AD%D8%AA%D8%AF%D9%85-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%88%D8%A2%D9%8A%D8%B2%D9%86%D9%83%D9%88%D8%AA-%D8%AA%D9%82%D9%88%D9%84-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA",
-            "source": "سكاي نيوز عربية",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTSRHc7ic4Ur5K-Wd2qpw-hqAo1hJA3zoaRPDFrETOq1Y-ABvx7wUmL9toF284",
-            "og_title": "المنافسة تحتدم بين نتنياهو وآيزنكوت.. ماذا تقول استطلاعات الرأي؟",
-            "og_desc": "كشفت 4 استطلاعات رأي عن الانتخابات الإسرائيلية المرتقبة، عن تقدم العسكري السابق غادي آيزنكوت على رئيس الوزراء بنيامين نتنياهو، لكن أيا من المعسكرين السياسيين لم يحصل على الأغلبية اللازمة في الكنيست، المحددة بـ61 مقعدا.",
-            "og_image": "https://www.skynewsarabia.com/images/v1/2026/10/19/1899097/1200/630/1-1899097.jpg",
-            "ok": true
-          },
-          {
-            "title": "عرب إسرائيليون متحمّسون للمشاركة في الانتخابات لـ\"تغيير الحكومة والمتطرفين\"",
-            "url": "https://www.mc-doualiya.com/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%85%D8%B1%D8%A9/20261018-%D8%B9%D8%B1%D8%A8-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D9%88%D9%86-%D9%85%D8%AA%D8%AD%D9%85%D9%91%D8%B3%D9%88%D9%86-%D9%84%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D9%84%D9%80-%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86",
-            "source": "مونت كارلو الدولية",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRad0XVFa1TuI0Y_QTgCIUKQ_47UWD190D5nHDBbJC3ATZuUOBp1R08lK3tuJM",
+            "title": "سنغافورة تُحمل شركات في إندونيسيا مسؤولية الحرائق ذات الانبعاثات السامة",
+            "url": "https://www.alarabiya.net/aswaq/economy/2026/10/19/%D8%B3%D9%86%D8%BA%D8%A7%D9%81%D9%88%D8%B1%D8%A9-%D8%AA-%D8%AD%D9%85%D9%84-%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%86%D8%AF%D9%88%D9%86%D9%8A%D8%B3%D9%8A%D8%A7-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D8%A6%D9%82-%D8%B0%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%86%D8%A8%D8%B9%D8%A7%D8%AB%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D8%A7%D9%85%D8%A9",
+            "source": "العربية",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBH4JuyLLciHTLsGnlx5_Crm--E2YZSDG_DhtYc4lATMFttqUk9WYckBXTKTg",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -888,10 +933,20 @@
             "error": "HTTPError"
           },
           {
-            "title": "قد يذهب نتانياهو.. لكن سياساته مستمرة",
-            "url": "https://www.alarabiya.net/saudi-today/views/2026/10/18/%D9%82%D8%AF-%D9%8A%D8%B0%D9%87%D8%A8-%D9%86%D8%AA%D8%A7%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%84%D9%83%D9%86-%D8%B3%D9%8A%D8%A7%D8%B3%D8%A7%D8%AA%D9%87-%D9%85%D8%B3%D8%AA%D9%85%D8%B1%D8%A9",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTznXzmHaQrgVCsBGzZWwxxAXCxhi_F_0FbHLgQTXzTLc8V_MrRVG-jecmG7uo",
+            "title": "بسبب الضباب الدخاني.. ماليزيا تمدد إغلاق المدارس 5 أيام إضافية",
+            "url": "https://www.youm7.com/story/2026/10/18/%D8%A8%D8%B3%D8%A8%D8%A8-%D8%A7%D9%84%D8%B6%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D8%AF%D8%AE%D8%A7%D9%86%D9%8A-%D9%85%D8%A7%D9%84%D9%8A%D8%B2%D9%8A%D8%A7-%D8%AA%D9%85%D8%AF%D8%AF-%D8%A5%D8%BA%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D9%85%D8%AF%D8%A7%D8%B1%D8%B3-5-%D8%A3%D9%8A%D8%A7%D9%85-%D8%A5%D8%B6%D8%A7%D9%81%D9%8A%D8%A9/7583880",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlycZj8DgUTOjqw-SXQ7hYPvLCWqNe6DGtZ5xaYc3Ik48H82p0Uo9GLD_9SQY",
+            "og_title": "بسبب الضباب الدخاني.. ماليزيا تمدد إغلاق المدارس 5 أيام إضافية - اليوم السابع",
+            "og_desc": "أعلنت السلطات الماليزية، تمديد قرار إغلاق جميع المدارس والمؤسسات التعليمية في ولاية \"جوهور\" الواقعة جنوبي البلاد لمدة 5 أيام إضافية اعتبارا من غد الاثنين.",
+            "og_image": "https://img.youm7.com/xlarge/2019123009050959.jpg",
+            "ok": true
+          },
+          {
+            "title": "حرائق الغابات في إندونيسيا تلتهم أكثر من 3 هكتارات وتهدد منازل السكان",
+            "url": "https://gate.ahram.org.eg/News/5967788.aspx",
+            "source": "بوابة الأهرام",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT5GfaBH2TI8_13XzcVN-yQSKWMoUEscjJtbxQgzdiRH1x5HO2UNAQPs2gWpW8",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -1006,17 +1061,17 @@
         "traffic": "100+",
         "traffic_num": 100,
         "published": "Mon, 19 Oct 2026 03:10:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNeoQPblOjET_E87W_yJsdwQMnmtil6LMTuakYLPlJgI-IzWtb5MwjzEzg2RE",
-        "image_source": "اليوم السابع",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQu45xiHw9poPKyP0FCoR-lsT77a_Aw1wmBAblwJgOO1JsJAt8IguDvzHMbFtI",
+        "image_source": "FilGoal",
         "news": [
           {
-            "title": "حمزة عبد الكريم يتصدر قائمة برشلونة لمواجهة باريس سان جيرمان بأبطال أوروبا",
-            "url": "https://www.youm7.com/story/2026/10/19/%D8%AD%D9%85%D8%B2%D8%A9-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D9%8A%D8%AA%D8%B5%D8%AF%D8%B1-%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B3%D8%A7%D9%86-%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86/7585362",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNeoQPblOjET_E87W_yJsdwQMnmtil6LMTuakYLPlJgI-IzWtb5MwjzEzg2RE",
-            "og_title": "حمزة عبد الكريم يتصدر قائمة برشلونة لمواجهة باريس سان جيرمان بأبطال أوروبا - اليوم السابع",
-            "og_desc": "أعلن هانز فليك، مدرب برشلونة ، عن قائمة الفريق المسافرة إلى باريس لمواجهة باريس سان جيرمان فى الجولة الثالثة من دور المجموعات لبطولة دوري أبطال أوروبا...",
-            "og_image": "https://img.youm7.com/xlarge/202608231018411841_369.jpg",
+            "title": "حمزة عبد الكريم في قائمة برشلونة لمواجهة سان جيرمان",
+            "url": "https://www.filgoal.com/articles/539657",
+            "source": "FilGoal",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQu45xiHw9poPKyP0FCoR-lsT77a_Aw1wmBAblwJgOO1JsJAt8IguDvzHMbFtI",
+            "og_title": "حمزة عبد الكريم في قائمة برشلونة لمواجهة سان جيرمان",
+            "og_desc": "في الجول - FilGoal أشهر وأسرع موقع رياضي مصري وعربي ، تغطية إخبارية متميزة لكافة الأحداث الرياضية في مصر والعالم ، انفرادات الدورى الأهلي والزمالك ، ن",
+            "og_image": "https://media.filgoal.com/news/verylarge/381621_0.jpg",
             "ok": true
           },
           {
@@ -1056,60 +1111,13 @@
     "name_en": "Saudi Arabia",
     "lang": "ar",
     "flag": "🇸🇦",
-    "generated_at": "2026-10-19T12:31:19.248806+00:00",
+    "generated_at": "2026-10-19T13:01:16.916373+00:00",
     "day": "2026-10-19",
     "trends": [
       {
-        "title": "afghanistan vs zimbabwe",
-        "traffic": "10000+",
-        "traffic_num": 10000,
-        "published": "Mon, 19 Oct 2026 04:10:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQzjgrhx7g8_fesoVWp9-UIvaTa1f9MzFYxe1MiWhQzKnWo0-Q5Lp9LfJj9JBg",
-        "image_source": "Cricinfo",
-        "news": [
-          {
-            "title": "Can Zimbabwe escape Afghanistan's ODI chokehold?",
-            "url": "https://www.cricinfo.com/series/uae-odi-tri-series-2026-27-1555109/afghanistan-vs-zimbabwe-2nd-match-1555118/match-preview",
-            "source": "Cricinfo",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQzjgrhx7g8_fesoVWp9-UIvaTa1f9MzFYxe1MiWhQzKnWo0-Q5Lp9LfJj9JBg",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Afghanistan to Face Zimbabwe in Tri-Nation Cricket Series",
-            "url": "https://thekabultribune.com/en/0011589",
-            "source": "thekabultribune.com",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRGhxEFwCtAUUT-M8c0vBRiQzVfYqTxYladUuDN3c3ZiH9Ujf7bKypRsmT6DGw",
-            "og_title": "Afghanistan to Face Zimbabwe in Tri-Nation Cricket Series",
-            "og_desc": "The match is scheduled to begin at 4 p.m.Afghanistan time at Sheikh Zayed Stadium in the United Arab Emirates.",
-            "og_image": "https://thekabultribune.com/storage/uploads/post/6ad5afe080f9a_1792389088.jpg",
-            "ok": true
-          },
-          {
-            "title": "Zimbabwe announce white-ball squads for UAE Tour",
-            "url": "https://www.icc-cricket.com/news/zimbabwe-announce-white-ball-squads-for-uae-tour",
-            "source": "ICC",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRTzj_dr19olruPmrQPSmHqacapRJnW5nCgKosXpUInyr5_QGLbbGq5sQxC5UA",
-            "og_title": "Zimbabwe announce white-ball squads for UAE Tour  | ICC",
-            "og_desc": "Sikandar Raza will lead Zimbabwe in both limited-overs formats as they prepare for an ODI tri-series against Afghanistan and Bangladesh, followed by three T20Is and two Tests against Afghanistan.",
-            "og_image": "https://images.icc-cricket.com/image/upload/t_ratio16_9-size20-webp/prd/f4zxhq2bczpoqxnt97nj",
-            "ok": true
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "كريكيت — بحث الجالية بالإنجليزي، لا يُكتب بالعربي",
-        "publishable": false,
-        "card": "cards/sa-2026-10-19-afghanistan-vs-zimbabwe.png"
-      },
-      {
         "title": "قضاء",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "published": "Mon, 19 Oct 2026 05:00:00 -0700",
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHWAAyxP8994g0QbdtiV_JfIfAPg0RavkLJRqik49YPTnrAC1iMp2I4g3iq14",
         "image_source": "صحيفة سبق الإلكترونية",
@@ -1139,10 +1147,10 @@
             "url": "https://www.al-madina.com/article/1009859/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D8%B9%D9%84%D9%89-%D9%84%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D9%8A%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D8%B4%D9%83%D8%B1-%D9%84%D9%84%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D9%84%D8%B5%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D8%B9%D9%84%D9%89-%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D8%B4%D8%A4%D9%88%D9%86-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A9-%D8%A7%D9%84%D9%88%D8%B8%D9%8A%D9%81%D9%8A%D8%A9",
             "source": "جريدة المدينة",
             "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6c_SVjS4C4CaSOU8-SbeH2ML3hhjjaxmWlyaRXxZXwoKHima57kS8PX7OFkc",
-            "og_title": "رئيس المجلس الأعلى للقضاء يرفع الشكر للقيادة لصدور الموافقة على لائحة شؤون القضاة الوظيفية",
-            "og_desc": "رئيس المجلس الأعلى للقضاء \r\nالشيخ الدكتور وليد بن محمد الصمعاني\r\nخادم الحرمين الشريفين \r\nالملك سلمان بن عبدالعزيز \r\nالأمير محمد بن سلمان \r\n ولي العهد رئيس مجلس",
-            "og_image": "https://www.al-madina.com/uploads/images/2026/10/19/2675266.jpg",
-            "ok": true
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
           }
         ],
         "category": "شخصية",
@@ -1152,6 +1160,53 @@
         "publishable": false,
         "person": true,
         "card": "cards/sa-2026-10-19-قضاء.png"
+      },
+      {
+        "title": "دواء",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Mon, 19 Oct 2026 04:50:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRZvFrSozvyEeVBnHxVo4OIZtixHHxdaiYqll3aWxtIWZ6nl2CMAm4vNfSBLtU",
+        "image_source": "اليوم السابع",
+        "news": [
+          {
+            "title": "هيئة الدواء تحذر من 7 أمبولات للتخسيس غير صالحة للاستخدام الآدمى",
+            "url": "https://www.youm7.com/story/2026/10/16/%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D8%A1-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-7-%D8%A3%D9%85%D8%A8%D9%88%D9%84%D8%A7%D8%AA-%D9%84%D9%84%D8%AA%D8%AE%D8%B3%D9%8A%D8%B3-%D8%BA%D9%8A%D8%B1-%D8%B5%D8%A7%D9%84%D8%AD%D8%A9-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85/7581767",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRZvFrSozvyEeVBnHxVo4OIZtixHHxdaiYqll3aWxtIWZ6nl2CMAm4vNfSBLtU",
+            "og_title": "هيئة الدواء تحذر من 7 أمبولات للتخسيس غير صالحة للاستخدام الآدمى - اليوم السابع",
+            "og_desc": "حذرت هيئة الدواء المصرية المواطنين من شراء أو استخدام أمبولات ومستحضرات مجهولة المصدر يتم الترويج لها عبر مواقع الإنترنت ومنصات التواصل الاجتماعي..",
+            "og_image": "https://img.youm7.com/xlarge/2026101611090191_18642.jpg",
+            "ok": true
+          },
+          {
+            "title": "احذر خسارة الوزن بهذه الطريقة.. مضاعفات حقن التخسيس مجهولة المصدر «تقرير خاص»",
+            "url": "https://almawq3.com/%D8%A7%D8%AD%D8%B0%D8%B1-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86-%D8%A8%D9%87%D8%B0%D9%87-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D9%85%D8%B6%D8%A7%D8%B9%D9%81%D8%A7%D8%AA/",
+            "source": "موقع الموقع",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHYOJY83mY953-nABTHVWzDV1fSMG8l3iMnKUQ8OaTpHKTkkYq77AIwQkgVTg",
+            "og_title": "احذر خسارة الوزن بهذه الطريقة.. مضاعفات حقن التخسيس مجهولة المصدر «تقرير خاص» - موقع الموقع",
+            "og_desc": "ويبقى التحقق من مصدر الدواء، والحصول عليه من الصيدليات المرخصة، واستشارة الطبيب قبل بدء العلاج، من أهم الخطوات لتقليل المخاطر، مع ضرورة",
+            "og_image": "https://almawq3.com/wp-content/uploads/2024/09/455-1.jpg",
+            "ok": true
+          },
+          {
+            "title": "قلق بعد وفاتين باستخدام نسخ غير مرخصة من عقار لإنقاص الوزن",
+            "url": "https://www.eremnews.com/health/oe81ysh",
+            "source": "إرم نيوز",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSpkQFPQ5h08KzC8ILGpelEyADl2M-eyvN1SJ1qbuTzNOWwnF6mkxB2Wzeso2M",
+            "og_title": "قلق بعد وفاتين باستخدام نسخ غير مرخصة من عقار لإنقاص الوزن | إرم نيوز",
+            "og_desc": "أثار عقار \"ريتاتروتايد\"، الذي تعوّل عليه الأوساط الطبية في علاج السمنة، مخاوف جديدة بعد ورود تقارير عن وفاتين يُشتبه في ارتباطهما بمنتجات تُباع باسمه",
+            "og_image": "https://cdn.eremnews.com/media/39437178-c26c-48c5-86a9-1826b648d99e_v3",
+            "ok": true
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "person": true,
+        "card": "cards/sa-2026-10-19-دواء.png"
       },
       {
         "title": "alexandra eala",
@@ -1198,6 +1253,101 @@
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
         "card": "cards/sa-2026-10-19-alexandra-eala.png"
+      },
+      {
+        "title": "الدولار مقابل الجنيه المصري",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Mon, 19 Oct 2026 05:50:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTCtY3f8DYjnOlfRz8KJKKBjAWt8CrPzptS7wj3ej2lzphJ9TRm47EMSIydZ1o",
+        "image_source": "العربية",
+        "news": [
+          {
+            "title": "تزايد الضغوط على الجنيه المصري في ظل قوة الطلب على الدولار",
+            "url": "https://www.alarabiya.net/aswaq/special-stories/2026/10/19/%D8%AA%D8%B2%D8%A7%D9%8A%D8%AF-%D8%A7%D9%84%D8%B6%D8%BA%D9%88%D8%B7-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D8%A7%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%8A-%D8%B8%D9%84-%D8%A7%D9%84%D8%AA%D9%88%D8%AA%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%82%D9%84%D9%8A%D9%85%D9%8A%D8%A9",
+            "source": "العربية",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTCtY3f8DYjnOlfRz8KJKKBjAWt8CrPzptS7wj3ej2lzphJ9TRm47EMSIydZ1o",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "عاجل: الدولار يلامس 54 جنيه اليوم في بعض البنوك",
+            "url": "https://sa.investing.com/news/forex-news/article-3403728",
+            "source": "Investing.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQADQUhvdXeDw6xuNdxzP9gpDJ2Qp-Fn_5s8aGS3_cm3s4HkXEXasZBp3J5ne8",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "19 أكتوبر 2026.. تصاعد المخاطر الجيوسياسية تقفز بالدولار ليتجاوز حاجز الـ54 جنيها ببعض البنوك",
+            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=19102026&id=833cc260-13d4-4503-b7ad-3011233e1537",
+            "source": "بوابة الشروق",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ3lb08r8UzUgAVAkNc-j1Yo6irw-p0e5wnP2Kz9VqxCSNGuppDNEcQfpTdu_E",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "https://www.shorouknews.com/uploadedimages/Sections/Politics/Arabic Press/original/4444444444444444444444444444444.jpg",
+            "ok": false
+          }
+        ],
+        "category": "اقتصاد",
+        "icon": "💰",
+        "color": "#f5c542",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/sa-2026-10-19-الدولار-مقابل-الجنيه-المصري.png"
+      },
+      {
+        "title": "عباس عراقجي",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Mon, 19 Oct 2026 05:30:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRparfcHKZmNCj0WnANXM96UZfsdYt1FnWahcUCk1DQg2aRpLVnVn4LI7DYHTc",
+        "image_source": "CNN Arabic",
+        "news": [
+          {
+            "title": "عراقجي يرد على نتنياهو بشأن الحرب: \"نحن أيضاً لدينا حسابات لم تُحسم بعد\"",
+            "url": "https://arabic.cnn.com/middle-east/article/2026/10/19/araghchi-responds-netanyahu-regarding-war-settled",
+            "source": "CNN Arabic",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRparfcHKZmNCj0WnANXM96UZfsdYt1FnWahcUCk1DQg2aRpLVnVn4LI7DYHTc",
+            "og_title": "عراقجي يرد على نتنياهو بشأن الحرب: \"لدينا حسابات لم تُحسم بعد\"",
+            "og_desc": "رد وزير الخارجية الإيراني عباس عراقجي، الأحد، على تصريحات لرئيس الوزراء الإسرائيلي بنيامين نتنياهو بشأن استعداد إسرائيل للتحرك عسكريا ضد إيران بصورة مستقلة عن الولايات المتحدة، مؤكداً أن طهران لديها أيضاً &quot;حسابات لم تُحسم بعد&quot;.",
+            "og_image": "https://cnn-arabic-images.cnn.io/cloudinary/image/upload/x_0,y_366,w_3495,h_1966,c_crop/w_1920,h_1008,c_fill,q_auto,g_center/t_cnnarabic_watermark_logo_v5/cnnarabic/2026/10/19/images/347341.jpg",
+            "ok": true
+          },
+          {
+            "title": "عراقجى لنتنياهو: جرب حظك مجددا فلدينا مهام غير منجزة بعد",
+            "url": "https://www.youm7.com/story/2026/10/19/%D8%B9%D8%B1%D8%A7%D9%82%D8%AC%D9%89-%D9%84%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%AC%D8%B1%D8%A8-%D8%AD%D8%B8%D9%83-%D9%85%D8%AC%D8%AF%D8%AF%D8%A7-%D9%81%D9%84%D8%AF%D9%8A%D9%86%D8%A7-%D9%85%D9%87%D8%A7%D9%85-%D8%BA%D9%8A%D8%B1-%D9%85%D9%86%D8%AC%D8%B2%D8%A9-%D8%A8%D8%B9%D8%AF/7584981",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSij0l9SKhZQkC-suuiO-bSS5zgqvG70aIf-bMBGkUB9f8HewZ8nTulqU9Ed68",
+            "og_title": "عراقجى لنتنياهو: جرب حظك مجددا فلدينا مهام غير منجزة بعد - اليوم السابع",
+            "og_desc": "رد وزير الخارجية الإيراني عباس عراقجى على رئيس وزراء إسرائيل بنيامين نتنياهو بتحد صارم بأن طهران خرجت أقوى من قبل، ولديها مهام لم تكتمل. في تحذير من مغبة تصعيد جديد وحرب أخرى، بحسب روسيا اليوم.",
+            "og_image": "https://img.youm7.com/xlarge/20261019025208528_429.jpg",
+            "ok": true
+          },
+          {
+            "title": "مسؤول إيراني: على ترمب ونتنياهو الاستعداد جيدا للهزيمة الكبرى",
+            "url": "https://royanews.tv/news/397979/%D9%85%D8%B3%D8%A4%D9%88%D9%84-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%3A-%D8%B9%D9%84%D9%89-%D8%AA%D8%B1%D9%85%D8%A8-%D9%88%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D8%AC%D9%8A%D8%AF%D8%A7-%D9%84%D9%84%D9%87%D8%B2%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89",
+            "source": "رؤيا الإخباري",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSAmV3u6sdIjFbhnyi82p6iZiC6RqA4AScoleCllHzTJxpnEZe_ns9dmAIu7tk",
+            "og_title": "مسؤول إيراني: على ترمب ونتنياهو الاستعداد جيدا للهزيمة...",
+            "og_desc": "حذر وزير الخارجية الإيراني عباس عراقجي من أن نتنياهو \"يدفع أمريكا نحو حرب أخرى\" وصف المتحدث باسم لجنة الأمن القومي في البرلمان الإيراني، إبراهيم رضائي، الرئيس الأمريكي دونالد ترمب ورئيس حكومة الاحتلال بنيامين نتنياهو...",
+            "og_image": "https://img.royanews.tv/imagechanger/Size728Q70/storage/images/news/20261019/6ad560c85036c1792368840.jpg",
+            "ok": true
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "person": true,
+        "card": "cards/sa-2026-10-19-عباس-عراقجي.png"
       },
       {
         "title": "flydubai",
@@ -1247,226 +1397,41 @@
         "card": "cards/sa-2026-10-19-flydubai.png"
       },
       {
-        "title": "دواء",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 19 Oct 2026 04:50:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRyQCKkJFlY3EaxPnRMRPmIS6C3hpFXlQKPXatwLyDXK44hT6gPlsxJIFzw88E",
-        "image_source": "عكاظ",
-        "news": [
-          {
-            "title": "أكثر من 21 مليون زائر للمسجد النبوي في سبتمبر",
-            "url": "https://www.okaz.com.sa/local/na/2271427",
-            "source": "عكاظ",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRyQCKkJFlY3EaxPnRMRPmIS6C3hpFXlQKPXatwLyDXK44hT6gPlsxJIFzw88E",
-            "og_title": "أكثر من 21 مليون زائر للمسجد النبوي في سبتمبر",
-            "og_desc": "سجّل المسجد النبوي خلال شهر سبتمبر إقبالًا لافتًا تجاوز 21 مليون زائر، في انعكاس لحجم الجهود المبذولة لخدمة القاصدين وتيسير عباداتهم في أجواء من الطمأنينة والسكينة.",
-            "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/10/19/2782085.webp",
-            "ok": true
-          },
-          {
-            "title": "«الغذاء والدواء» تنفي اعتماد مكمل غذائي مستخلص من بول الإبل لعلاج السرطان",
-            "url": "https://ajel.sa/local/eih95f3to",
-            "source": "عاجل",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRhsT44J9-lTAE9lJVr0nmHk-DlO6Ep2TW_Qjk3pqd5Who35nagD47nfNKaI5U",
-            "og_title": "«الغذاء والدواء» تنفي اعتماد مكمل غذائي مستخلص من بول الإبل لعلاج السرطان",
-            "og_desc": "نفت الهيئة العامة للغذاء والدواء صحة الأنباء المتداولة بشأن حصول دواء مستخلص من المادة الفعالة لبول الإبل على موافقتها لعلاج مرض السرطان، مؤكدة أن المنتج المذكور غير معتمد لهذا الغرض.",
-            "og_image": "https://ajel.sa/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=auto,format=jpeg/https://cdn.ajel.sa/articles/2026-07/AbMhA6BeO1JJGX_g.PNG",
-            "ok": true
-          },
-          {
-            "title": "بالفيديو: رجل أعمال سعودي يعلن اعتماد هيئة الغذاء والدواء علاجًا للسرطان مستخلصًا من بول الإبل ويُباع على هيئة شراب!",
-            "url": "https://al-marsd.com/public/article/267995/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B1%D8%AC%D9%84-%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%8A%D8%B9%D9%84%D9%86-%D8%A7%D8%B9%D8%AA%D9%85%D8%A7%D8%AF-%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D8%A1-%D8%B9%D9%84%D8%A7%D8%AC%D8%A7-%D9%84%D9%84%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D9%85%D8%B3%D8%AA%D8%AE%D9%84%D8%B5%D8%A7-%D9%85%D9%86-%D8%A8%D9%88%D9%84-%D8%A7%D9%84%D8%A5%D8%A8%D9%84-%D9%88%D9%8A%D8%A8%D8%A7%D8%B9-%D8%B9%D9%84%D9%89-%D9%87%D9%8A%D8%A6%D8%A9-%D8%B4%D8%B1%D8%A7%D8%A8",
-            "source": "صحيفة المرصد",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSlW3VHa7TQhWEtbe6RXcD-DmOeaMkAVJLKI1vbG-QcfEB1IkcNURKgReMEvvE",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
-          }
-        ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: سرطان",
-        "publishable": false,
-        "card": "cards/sa-2026-10-19-دواء.png"
-      },
-      {
-        "title": "شبوة",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 19 Oct 2026 04:30:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYfZsSpoKXx1oinsmHx_3DLnekeoKq_oSfzS-pu2FGz-LOpe6lahFYZZBncEo",
-        "image_source": "سكاي نيوز عربية",
-        "news": [
-          {
-            "title": "هجوم حوثي دام بشبوة ومعارك قرب باب المندب",
-            "url": "https://www.skynewsarabia.com/middle-east/1899117-%D9%87%D8%AC%D9%88%D9%85-%D8%AD%D9%88%D8%AB%D9%8A-%D8%AF%D8%A7%D9%85-%D8%A8%D8%B4%D8%A8%D9%88%D8%A9-%D9%88%D9%85%D8%B9%D8%A7%D8%B1%D9%83-%D9%82%D8%B1%D8%A8-%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%86%D8%AF%D8%A8",
-            "source": "سكاي نيوز عربية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYfZsSpoKXx1oinsmHx_3DLnekeoKq_oSfzS-pu2FGz-LOpe6lahFYZZBncEo",
-            "og_title": "اليمن.. هجوم حوثي دام في شبوة ومعارك قرب باب المندب",
-            "og_desc": "ارتفعت حصيلة الهجوم الصاروخي الذي شنه الحوثيون على معسكر العلم في محافظة شبوة جنوبي اليمن، الإثنين، إلى أكثر من 40 قتيلا، إضافة إلى عشرات الجرحى، حسبما أفادت به مصادر يمنية \"سكاي نيوز عربية\"، بالتزامن مع تجدد المعارك قرب مضيق باب المندب وغربي تعز.",
-            "og_image": "https://www.skynewsarabia.com/images/v1/2026/10/19/1899124/1200/630/1-1899124.jpg",
-            "ok": true
-          },
-          {
-            "title": "الحوثيون يستهدفون مركز تدريب أمني في شبوة بـ3 صواريخ باليستية",
-            "url": "https://sabq.org/article/1xobfsa",
-            "source": "صحيفة سبق الإلكترونية",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWPMxqKcUsd4FP7zu9_lp3aHKh-cL2xpAjWlQaq7Xirvc_pP4ViwaX0McULRw",
-            "og_title": "الحوثيون يستهدفون مركز تدريب أمني في شبوة بـ3 صواريخ باليستية | سبق",
-            "og_desc": "متحدث القوات المسلحة اليمنية يعلن استهداف ميليشيا الحوثي لمحافظة شبوة بثلاثة صواريخ باليستية أصابت مركز تدريب للجهات الأمنية والشرطية، مؤكدًا تعمد الميليشيا قتل",
-            "og_image": "https://media.sabq.org/news/2026/10/09c462d9-2479-41f5-8678-12a615557f69/w800.webp",
-            "ok": true
-          },
-          {
-            "title": "45 قتيلاً وعشرات المصابين.. مجزرة حوثية في شبوة",
-            "url": "https://www.okaz.com.sa/politics/na/2271446",
-            "source": "عكاظ",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfZubSDJYpBE9beNByAMsDbm2AbrGh9oKGKohawJnltcjdjNZ661ICn79McCY",
-            "og_title": "45 قتيلاً وعشرات المصابين.. مجزرة حوثية في شبوة",
-            "og_desc": "في مشهد يعكس حالة التخبط والذعر التي تعانيها مليشيا الحوثي جراء الهزائم المتلاحقة على وقع ضربات عملية «فجر اليمن» لاستعادة الدولة، لجأت المليشيا الإرهابية إلى الانتقام عبر ارتكاب مجزرة مروعة في محافظة شبوة، استهدفت معسكر «العلم» التدريبي بثلاثة صواريخ باليستية، ما أسفر عن سقوط نحو 45 قتيلاً وإصابة ما يزيد على 120 آخرين.",
-            "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/10/19/2782168.webp",
-            "ok": true
-          }
-        ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: قتيل",
-        "publishable": false,
-        "card": "cards/sa-2026-10-19-شبوة.png"
-      },
-      {
         "title": "محمد بن راشد آل مكتوم",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "published": "Mon, 19 Oct 2026 05:10:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrpxn9QlyxPLb0Trh2dk9CqS_xp116xhXHImVu3nvrcDRMMHjSJraooKscr-0",
-        "image_source": "ارقام",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTzeAI051omPoY7WNrMLiKqSZggQ-PYll6B_QoyK6b7RsuVEgl2FpFT4oVW1v4",
+        "image_source": "CNN Arabic",
         "news": [
           {
-            "title": "انطلاق الدورة السابعة من مبادرة صناع الأمل لعام 2026",
-            "url": "https://www.argaam.com/ar/article/articledetail/id/1944873",
-            "source": "ارقام",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrpxn9QlyxPLb0Trh2dk9CqS_xp116xhXHImVu3nvrcDRMMHjSJraooKscr-0",
-            "og_title": "انطلاق الدورة السابعة من مبادرة صناع الأمل لعام 2026",
-            "og_desc": "أعلن ، نائب رئيس دولة الإمارات رئيس مجلس الوزراء، حاكم دبي، انطلاق الدورة السابعة من مبادرة صناع الأمل لعام 2026.\r\n\r\nوأوضح محمد بن راشد، عبر منصة إكس،",
-            "og_image": "https://argaamplus.s3.amazonaws.com/3b922477-6f2b-4742-893e-37384d778f2d.png",
-            "ok": true
-          },
-          {
-            "title": "محمد بن راشد يطلق 'صنّاع الأمل' 2026… مليون درهم لأصحاب المبادرات الإنسانية",
-            "url": "https://www.annahar.com/arab-world/arabian-gulf/358056/%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D8%B1%D8%A7%D8%B4%D8%AF-%D9%8A%D8%B7%D9%84%D9%82-%D8%B5%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D8%A3%D9%85%D9%84-2026-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%AF%D8%B1%D9%87%D9%85-%D9%84%D8%A3%D8%B5%D8%AD%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A%D8%A9",
-            "source": "annahar.com",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSRLXuJhAz3OcI-DVKTzE3hvm5WRPKe1E4_FLMl40FYUK2IsCq9NRtWGB5bZD0",
-            "og_title": "محمد بن راشد يطلق 'صنّاع الأمل' 2026… مليون درهم لأصحاب المبادرات الإنسانية",
-            "og_desc": "محمد بن راشد يطلق مبادرة صنّاع الأمل 2026 لدعم أصحاب المبادرات الإنسانية بمليون درهم لتعزيز العمل الخيري والتنمية المجتمعية.",
-            "og_image": "https://www.annahar.com/Assets/ContentPhotos/Photos/image_141931.webp?width=1416&height=805&mode=crop&scale=both",
-            "ok": true
-          },
-          {
-            "title": "بلاد الرحمة",
-            "url": "https://www.alkhaleej.ae/2026-10-18/%D8%B1%D8%A3%D9%8A/%D8%B5%D8%A8%D8%A7%D8%AD-%D8%A7%D9%84%D8%AE%D9%8A%D8%B1/%D8%A8%D9%84%D8%A7%D8%AF-%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D8%A9",
-            "source": "صحيفة الخليج",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4hpxV-Hrcdlgql0QIVm_QLv1rgDnVEq1o_rH2__u2DQ2KKaN4I03ctThHwN4",
-            "og_title": "بلاد الرحمة",
-            "og_desc": "حين يوجّه صاحب السمو الشيخ محمد بن راشد آل مكتوم، نائب رئيس الدولة رئيس مجلس الوزراء...",
-            "og_image": "https://www.alkhaleej.ae/alkhaleej/uploads/images/2026/10/17/8185597.webp",
-            "ok": true
-          }
-        ],
-        "category": "اقتصاد",
-        "icon": "💰",
-        "color": "#f5c542",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/sa-2026-10-19-محمد-بن-راشد-آل-مكتوم.png"
-      },
-      {
-        "title": "houthi attack saudi arabia",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Mon, 19 Oct 2026 04:50:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcThzbp2gQ1skkFGEYMonfnZd_PVi36MjW8KrB-zAqr2aytBTJk-P4RM02jo3ks",
-        "image_source": "Al Jazeera",
-        "news": [
-          {
-            "title": "Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit",
-            "url": "https://www.aljazeera.com/news/2026/10/19/iran-support-for-houthis-probed-as-yemen-war-re-erupts-and-saudi-cities-hit",
-            "source": "Al Jazeera",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcThzbp2gQ1skkFGEYMonfnZd_PVi36MjW8KrB-zAqr2aytBTJk-P4RM02jo3ks",
-            "og_title": "Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit",
-            "og_desc": "There have been new reports of Iranian support for the Houthis in Yemen amid a wave of attacks on Saudi cities.",
-            "og_image": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a674c98-1785154712.jpg?resize=1920%2C1440",
-            "ok": true
-          },
-          {
-            "title": "Yemeni foreign minister: Iran is a party to the war, and those who arm the Houthis cannot act as mediators",
-            "url": "https://www.arabnews.com/saudi-arabia/yemeni-foreign-minister-iran-is-a-party-to-the-war-and-those-who-arm-the-houthis-cannot-act-as-mediators-3006975",
-            "source": "Arab News",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS4bFiuBYB_s5QPGMSExmJLLFGe1iF2kxxh-vs7CzdnVI02z3qRe9UeqHpPSaI",
-            "og_title": "",
+            "title": "\"تعانقت الأنساب قبل الأوطان\".. محمد بن راشد يوجه رسالة إلى أبناء الخليج ويحذر من أصحاب \"النفوس المريضة\"",
+            "url": "https://arabic.cnn.com/middle-east/article/2026/10/19/mohammed-bin-rashid-message-gulf-states-citizens-uae",
+            "source": "CNN Arabic",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTzeAI051omPoY7WNrMLiKqSZggQ-PYll6B_QoyK6b7RsuVEgl2FpFT4oVW1v4",
+            "og_title": "\"مصيرنا واحد\".. محمد بن راشد يوجه رسالة إلى أبناء دول الخليج | CNN Arabic | CNN",
             "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Yemen Rejects Iran's Mediation Bid While It Continues to Arm Houthis",
-            "url": "https://english.aawsat.com/arab-world/5330817-yemen-rejects-irans-mediation-bid-while-it-continues-arm-houthis",
-            "source": "ASHARQ AL-AWSAT English",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYIA4Kf3n2shIq4GfNapDVX9ZkWenHWEM8sIuhuPZsGdfBjc582GNLJ6TToY8",
-            "og_title": "Yemen Rejects Iran's Mediation Bid While It Continues to Arm Houthis",
-            "og_desc": "The Yemeni government has rejected Iran's attempts to position itself as a mediator in the country's war, holding Tehran responsible for supporting the Houthi takeover and prolonging the conflict by supplying the group with weapons, funding, training, missiles, drones and military experts.",
-            "og_image": "https://static.srpcdigital.com/styles/1200x600/public/2026-10/1833529_0.jpeg.webp?VersionId=oy2sYg3mWuHSyWYr8mbY.F_7eUGmXImy",
-            "ok": true
-          }
-        ],
-        "category": "سياسة",
-        "icon": "🏛️",
-        "color": "#ff5c7c",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/sa-2026-10-19-houthi-attack-saudi-arabia.png"
-      },
-      {
-        "title": "king abdulaziz international airport",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Mon, 19 Oct 2026 04:30:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTOMJOmZK5rvzQPtkaWwf9xXsW1fdRkZIGM-ePiILdFKiQsTYQZWom7BfxbIYE",
-        "image_source": "Flightradar24",
-        "news": [
-          {
-            "title": "Palma de Mallorca Airport Arrivals",
-            "url": "https://www.flightradar24.com/data/airports/pmi/arrivals?date=1792411380&page=2",
-            "source": "Flightradar24",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTOMJOmZK5rvzQPtkaWwf9xXsW1fdRkZIGM-ePiILdFKiQsTYQZWom7BfxbIYE",
-            "og_title": "Palma de Mallorca (PMI) (LEPA) live arrivals | Flightradar24",
-            "og_desc": "View live arrivals, delays, cancellations and disruption information for Palma de Mallorca PMI/LEPA.",
-            "og_image": "https://cdn.jetphotos.com/640/5/2364869_1760283683.jpg?v=0",
+            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/347357.jpg?c=16x9&q=w_800,c_fill",
             "ok": true
           },
           {
-            "title": "Bengaluru Kempegowda International Airport Departures",
-            "url": "https://www.flightradar24.com/data/airports/blr/departures?date=1792411380&page=-1",
-            "source": "Flightradar24",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSg4hmhc3CJQoD1vRPCFE0JIlp0rShUw01jzwe9D4e3MunSl2_HDk1oNe7oP3M",
-            "og_title": "Bengaluru Kempegowda International (BLR) (VOBL) live departures | Flightradar24",
-            "og_desc": "View live departures, delays, cancellations and disruption information for Bengaluru Kempegowda International BLR/VOBL.",
-            "og_image": "https://cdn.jetphotos.com/640/6/55759_1398193000.jpg?v=0",
+            "title": "محمد بن راشد لأبناء الخليج: نحن شجرة أصلها واحد ولن تفرقنا «حسابات التواصل»",
+            "url": "https://www.okaz.com.sa/politics/na/2271440",
+            "source": "عكاظ",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTsY_BF1Y3uYnWM88LAFViwR07nhkvvaQTNbSFidJ47Ey7s1Mofr2niZBM8Xn8",
+            "og_title": "محمد بن راشد لأبناء الخليج: نحن شجرة أصلها واحد ولن تفرقنا «حسابات التواصل»",
+            "og_desc": "وجّه نائب رئيس دولة الإمارات العربية المتحدة رئيس مجلس الوزراء حاكم دبي الشيخ محمد بن...",
+            "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/10/19/2782143.webp",
             "ok": true
           },
           {
-            "title": "Barcelona El Prat Airport Departures",
-            "url": "https://www.flightradar24.com/data/airports/bcn/departures?date=1792411380&page=-1",
-            "source": "Flightradar24",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz2-Yym7eSOrrJSeXK5M5L_cAofiqJrF3mNjIgKIu_BuY9MPo-bGlIGjm4YmI",
-            "og_title": "Barcelona El Prat (BCN) (LEBL) live departures | Flightradar24",
-            "og_desc": "View live departures, delays, cancellations and disruption information for Barcelona El Prat BCN/LEBL.",
-            "og_image": "https://cdn.jetphotos.com/640/6/1066969_1763162979.jpg?v=0",
+            "title": "محمد بن راشد: أبناء الخليج أمل الأمة وقِبلتها (فيديو)",
+            "url": "https://www.alkhaleej.ae/2026-10-19/%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D8%A7%D8%B1/%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D8%B1%D8%A7%D8%B4%D8%AF-%D8%A3%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D8%A3%D9%85%D9%84-%D8%A7%D9%84%D8%A3%D9%85%D8%A9-%D9%88%D9%82%D8%A8%D9%84%D8%AA%D9%87%D8%A7-%D9%81%D9%8A%D8%AF%D9%8A%D9%88",
+            "source": "صحيفة الخليج",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQri1huDpmGULEO8_3llte4HSrp3gKz9PLlRTdg6HXBcC5OyKvnovlycXTC718",
+            "og_title": "محمد بن راشد: أبناء الخليج أمل الأمة وقِبلتها (فيديو)",
+            "og_desc": "أكد صاحب السمو الشيخ محمد بن راشد آل مكتوم، نائب رئيس الدولة رئيس مجلس الوزراء حاكم دبي،...",
+            "og_image": "https://www.alkhaleej.ae/alkhaleej/uploads/images/2026/10/19/8187752.webp",
             "ok": true
           }
         ],
@@ -1475,47 +1440,47 @@
         "color": "#9aa4b2",
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "card": "cards/sa-2026-10-19-king-abdulaziz-international-airport.png"
+        "card": "cards/sa-2026-10-19-محمد-بن-راشد-آل-مكتوم.png"
       },
       {
-        "title": "মেঘনা আলম",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Mon, 19 Oct 2026 04:30:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK3tSQSPC_SfZ2k38HXiO4JwKfjUsHcST41i6l7hgva2srPxtH223SxV5Ggrk",
-        "image_source": "প্রথম আলো",
+        "title": "houthi attack saudi arabia",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Mon, 19 Oct 2026 04:50:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTYFoYZtE3qzgbOhjixhESzffDl-51mxYj9xsc8EfB8-LKJ9Vmy5y3PJUquUUU",
+        "image_source": "WSJ",
         "news": [
           {
-            "title": "পবিত্র মক্কায় মসজিদে ‘অনৈতিক কাজের’ দায়ে বাংলাদেশি নারী ও পুরুষের মৃত্যুদণ্ড কার্যকর",
-            "url": "https://www.prothomalo.com/world/middle-east/kbuz62wx6g",
-            "source": "প্রথম আলো",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK3tSQSPC_SfZ2k38HXiO4JwKfjUsHcST41i6l7hgva2srPxtH223SxV5Ggrk",
-            "og_title": "পবিত্র মক্কায় মসজিদে ‘অনৈতিক কাজের’ দায়ে বাংলাদেশি নারী ও পুরুষের মৃত্যুদণ্ড কার্যকর",
-            "og_desc": "আদালতের রায় বহাল থাকা ও রাজকীয় আদেশ জারির পর দুই বাংলাদেশির মৃত্যুদণ্ড কার্যকর করা হয়।",
-            "og_image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-16%2Fq9zuhzho%2Fsaudi-flag.jpg?rect=0%2C198%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+            "title": "Saudi Arabia’s Military Limitations Are Being Exposed by Houthi Attacks",
+            "url": "https://www.wsj.com/world/middle-east/saudi-arabias-military-limitations-are-being-exposed-by-houthi-attacks-40082655",
+            "source": "WSJ",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTYFoYZtE3qzgbOhjixhESzffDl-51mxYj9xsc8EfB8-LKJ9Vmy5y3PJUquUUU",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Houthis’ three-pronged attack a threat to the world",
+            "url": "https://www.arabnews.com/opinion/houthis-three-pronged-attack-a-threat-to-the-world-3007109",
+            "source": "Arab News",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSX5oOkvrOyRIA_tTTi3E62s-CriLnJzmMEW9lneORbFH8NtgBtde6H4k4GpiE",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
+            "url": "https://www.pbs.org/newshour/world/houthi-strikes-on-saudi-arabia-show-the-yemeni-rebels-growing-strength",
+            "source": "PBS",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRzyio06zKSKn_DxiKGhs-8EXcwDqiWFccrekaQMicVsGlQSHFk1hkdVFT9UU",
+            "og_title": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
+            "og_desc": "At various times over the last decade, Saudi Arabia, the United Arab Emirates, the United States, Britain and Israel have carried out punishing air raids on the rebels — only to see them grow even stronger.",
+            "og_image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-15T212527Z_1085631897_RC2X3OAGPSOC_RTRMADP_3_IRAN-CRISIS-SAUDI-YEMEN-1024x632.jpg",
             "ok": true
-          },
-          {
-            "title": "সৌদি রাষ্ট্রদূতকে তলব, দুই বাংলাদেশির মৃত্যুদণ্ডের কারণ জানতে চাইল বাংলাদেশ",
-            "url": "https://www.ittefaq.com.bd/815848/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF-%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A7%82%E0%A6%A4%E0%A6%95%E0%A7%87-%E0%A6%A4%E0%A6%B2%E0%A6%AC-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A6%B0-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A7%87%E0%A6%B0",
-            "source": "The Daily Ittefaq",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTsOwn2nTxwvUMaPwBIg6mArSzUN2nh6jhvz1cBqP7SVchVOa1untAlHh5j2kE",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "বিদেশি জঙ্গি সংগঠনে যোগ দেওয়ায় ৫ নাগরিকের মৃত্যুদণ্ড কার্যকর করলো সউদী",
-            "url": "https://dailyinqilab.com/international/news/952203",
-            "source": "দৈনিক ইনকিলাব",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl6SMR_R7sEpgpLQMXPUnE9yHhS3LX2Rur_shePvh5hsMdJqfniC6Mu_clD64",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
           }
         ],
         "category": "عام",
@@ -1523,7 +1488,102 @@
         "color": "#9aa4b2",
         "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
         "publishable": false,
-        "card": "cards/sa-2026-10-19-মঘন-আলম.png"
+        "card": "cards/sa-2026-10-19-houthi-attack-saudi-arabia.png"
+      },
+      {
+        "title": "أوكرانيا",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Mon, 19 Oct 2026 05:30:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTs5ZK7ju4UKCBZB20j37OYVtCHK_v5AJ8scCPNcL_ONoiZ2VuhTwm29Za8Zm4",
+        "image_source": "العربية",
+        "news": [
+          {
+            "title": "بوتين يقترح قمة مع ترامب وشي لحسم مصير أوكرانيا",
+            "url": "https://www.alarabiya.net/arab-and-world/2026/10/19/%D8%A8%D9%88%D8%AA%D9%8A%D9%86-%D9%8A%D9%82%D8%AA%D8%B1%D8%AD-%D9%82%D9%85%D8%A9-%D9%85%D8%B9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%88%D8%B4%D9%8A-%D9%84%D8%AD%D8%B3%D9%85-%D9%85%D8%B5%D9%8A%D8%B1-%D8%A7%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7",
+            "source": "العربية",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTs5ZK7ju4UKCBZB20j37OYVtCHK_v5AJ8scCPNcL_ONoiZ2VuhTwm29Za8Zm4",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "روبيو: \"محادثات\" جرت لعقد لقاء يضم ترامب وبوتين وشي لإنهاء حرب أوكرانيا",
+            "url": "https://arabic.cnn.com/world/article/2026/10/19/rubio-talks-a-trump-putin-xi-meeting-end-ukraine-war",
+            "source": "CNN Arabic",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzpwX6PO_WQhWGFbn7KrnO7D5eBH8Q2UnkEttrfcdJhutlYtfrsop8JM0oX6c",
+            "og_title": "روبيو: \"محادثات\" لعقد قمة بين ترامب وبوتين وشي لإنهاء حرب أوكرانيا | CNN Arabic | CNN",
+            "og_desc": "",
+            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/347342.jpg?c=16x9&q=w_800,c_fill",
+            "ok": true
+          },
+          {
+            "title": "زيلينسكي يتهم واشنطن بتقييد «ستارلينك».. وروبيو يُكذّب الرئيس الأوركراني بشأن وقف الاستخبارات",
+            "url": "https://www.okaz.com.sa/politics/na/2271437",
+            "source": "عكاظ",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTkKn3a5Jj_VttVoXDx8-l8a6RlRVeatoy4SOUjTvoY-dbfTlpBAwQtTaPiMMY",
+            "og_title": "زيلينسكي يتهم واشنطن بتقييد «ستارلينك».. وروبيو يٌكذب الرئيس الأوركراني بشأن وقف الاستخبارات",
+            "og_desc": "تتسع الخلافات بين الولايات المتحدة وأوكرانيا على خلفية اتهامات بشأن تقييد خدمة الإنترنت عبر الأقمار الصناعية (ستارلينك)، وتباين المواقف حيال تبادل المعلومات الاستخباراتية والعقوبات المفروضة على روسيا، في وقت تتواصل فيه الهجمات المتبادلة على منشآت الطاقة والنفط، وسط مخاوف من اتساع نطاق الحرب إلى دول حلف شمال الأطلسي (الناتو).",
+            "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/10/19/2782118.webp",
+            "ok": true
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "شخصية ورد في مصادرها لفظ حسّاس: اتهام",
+        "publishable": false,
+        "card": "cards/sa-2026-10-19-أوكرانيا.png"
+      },
+      {
+        "title": "جواو فيليكس",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Mon, 19 Oct 2026 05:30:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTt6GXxyo0jgzlwfkV5-lwI2l1N1golZlfvRCF8jmraWiQ8fXNKz5oR18TQop4",
+        "image_source": "Goal.com",
+        "news": [
+          {
+            "title": "مستقبل جواو فيليكس: رد فعل بوستيكوجلو على تجديده للنصر .. و\"عودته لبرشلونة مرتبطة برافينيا\"!",
+            "url": "https://www.goal.com/ar/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D9%88%D8%A7%D9%88-%D9%81%D9%8A%D9%84%D9%8A%D9%83%D8%B3-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A3%D9%86%D8%AC-%D8%A8%D9%88%D8%B3%D8%AA%D9%8A%D9%83%D9%88%D8%AC%D9%84%D9%88-%D8%AA%D8%AC%D8%AF%D9%8A%D8%AF-%D8%B9%D9%82%D8%AF-%D8%B1%D8%A7%D9%81%D9%8A%D9%86%D9%8A%D8%A7/bltbf70888f1c626ad9",
+            "source": "Goal.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTt6GXxyo0jgzlwfkV5-lwI2l1N1golZlfvRCF8jmraWiQ8fXNKz5oR18TQop4",
+            "og_title": "مستقبل جواو فيليكس: رد فعل بوستيكوجلو على تجديده للنصر .. و\"عودته لبرشلونة مرتبطة برافينيا\"! | العربية Goal.com",
+            "og_desc": "لا يزال مستقبل الدولي البرتغالي جواو فيليكس، صانع ألعاب الفريق الأول لكرة القدم بنادي النصر، محل غموض، خاصة مع ارتباط اسمه ببرشلونة، رغم عدم وضوح الصورة.",
+            "og_image": "https://assets.goal.com/images/v3/blt8818434adf771c7a/crop/MM5DIMRXGQ5DENBQGQ5G433XMU5DAORSGIZA====/2247557992.jfif",
+            "ok": true
+          },
+          {
+            "title": "أهم من رونالدو.. جواو فيليكس يهدد النصر السعودي بـ4 خسائر مرعبة",
+            "url": "https://www.eremnews.com/sports/uysnbf1",
+            "source": "إرم نيوز",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRR8H1numuLEZyqem9SmaDyUUYcy75XlEy6MAq1Fsppx22bW_CKIcv9J-TfXzs",
+            "og_title": "أهم من رونالدو.. جواو فيليكس يهدد النصر السعودي بـ4 خسائر مرعبة | إرم نيوز",
+            "og_desc": "عاشت جماهير نادي النصر صدمة غير متوقعة بعد الأنباء المتداولة حول طلب وكيل الأعمال البرتغالي خورخي مينديز عقد جلسة حاسمة مع إدارة النادي",
+            "og_image": "https://cdn.eremnews.com/media/7bf6ac5d-2a60-40f3-a426-bca5bb29fe8f_v3",
+            "ok": true
+          },
+          {
+            "title": "هاي كورة / صحفي إسباني يكشف سيناريو عودة جواو فيليكس إلى برشلونة",
+            "url": "https://nabdapp.com/t/179599674-a4541f",
+            "source": "تطبيق نبض",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXO1DcS0Ybk9JURHFy1s_MoKLeDUi1Dsr6V4dMpZ2dQNZyuU3DyImZ-kj0iVk",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "RemoteDisconnected"
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "person": true,
+        "card": "cards/sa-2026-10-19-جواو-فيليكس.png"
       }
     ]
   }

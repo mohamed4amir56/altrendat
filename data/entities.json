@@ -4238,14 +4238,13 @@
         "date": "2026-10-19",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "هيئة الأرصاد الجوية تحذر من قفزة مفاجئة في درجات الحرارة",
-          "توقعات حالة الطقس غدا في مصر الثلاثاء 20 أكتوبر 2026.. تحذير من الشبورة وفرص لسقوط الأمطار",
-          "هل تشهد مصر أمطارًا أكثر هذا الشتاء؟ الأرصاد تكشف التوقعات"
+          "شبورة وأمطار ورياح.. الأرصاد تحذر من تقلبات جوية تستمر حتى الأحد المقبل",
+          "هيئة الأرصاد الجوية تحذر من قفزة مفاجئة في درجات الحرارة"
         ]
       }
     ],
@@ -6574,7 +6573,7 @@
         "headlines": [
           "South Africa v Australia - Australia in South Africa 2026, 2nd Test - Cricket Score Centre - Live Cricket Scores",
           "Scott Boland shines against South Africa but rain dominates again",
-          "Aussie takes outrageous catch in 2nd Test"
+          "Lyon sidelined: Analysing latest bold call from Aussie selectors"
         ]
       }
     ],
@@ -100791,15 +100790,30 @@
           "Natalie Nakase coaches the way she once played: scrappy, smart and fully herself",
           "The Valkyries’ visionaries: 3 women who built a Finals team from scratch in 2 years"
         ]
+      },
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "How coach Natalie Nakase has the Valkyries on cusp of history in WNBA Finals",
+          "The Valkyries’ visionaries: 3 women who built a Finals team from scratch in 2 years",
+          "Even Kayla Thornton isn't immune to Nakase's winning formula -- and that's ok"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 3,
+    "last_seen": "2026-10-19",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "anand-giridharadas": {
     "slug": "anand-giridharadas",
@@ -153829,15 +153843,30 @@
           "ضربات دامية في زابوريجيا وانفجارات في كييف رغم اتصال \"ترامب\" و\"بوتين\"",
           "روسيا وأوكرانيا: قتل 15 شخصاً على الأقل في هجوم روسي بقنابل انزلاقية على زابوروجيا"
         ]
+      },
+      {
+        "key": "2026-10-19|sa",
+        "date": "2026-10-19",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "+2500",
+        "traffic_num": 2500,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "القوات الخاصة للأمن البيئي تضبط 7 مقيمين مخالفين استغلوا الرواسب في الرياض",
+          "«الأمن البيئي» تضبط 7 مقيمين لاستغلال الرواسب في الرياض و8 معدات لتجريف التربة",
+          "ضبط مقيمين مخالفين لاستغلالهما الرواسب في منطقة عسير"
+        ]
       }
     ],
-    "last_seen": "2026-10-10",
-    "total": 3,
+    "last_seen": "2026-10-19",
+    "total": 4,
     "countries": [
       "sa"
     ],
     "peak_traffic": 5000,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "croatia-vs-spain": {
     "slug": "croatia-vs-spain",
@@ -176510,10 +176539,10 @@
         "date": "2026-10-19",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "الدوري التركي.. وجهة جديدة لنجوم الكرة العالمية",
           "جدول ترتيب الدوري التركي 2027/2026 بعد الجولة الثامنة",
@@ -176525,8 +176554,8 @@
         "date": "2026-10-19",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -176542,7 +176571,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "philippine-airlines": {
@@ -184001,11 +184030,12 @@
         "country_name": "السعودية",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "سياسة",
+        "category": "عام",
         "publishable": false,
         "headlines": [
-          "Pakistani PM Sharif receives new Saudi Ambassador",
-          "President Zardari receives credentials of French, Saudi ambassadors-designate"
+          "Pakistan army chief Asim Munir to visit Tehran on Tuesday: Tasnim",
+          "Pakistan’s Asim Munir could visit Tehran this week",
+          "Pakistani PM Sharif receives new Saudi Ambassador"
         ]
       }
     ],
@@ -184015,7 +184045,7 @@
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "سياسة"
+    "category": "عام"
   },
   "एअर-इडय": {
     "slug": "एअर-इडय",
@@ -198394,8 +198424,8 @@
         "publishable": false,
         "headlines": [
           "Alerte Météo : Pluie et inondations : épisode méditerranéen jusqu'à mercredi matin",
-          "Épisode méditerranéen : la vigilance rouge pourrait être activée dans le Gard et l’Hérault, qu’est-ce que ça changerait",
-          "Suivi des fortes pluies et orages au Sud-Est : les premiers 100 mm sur les Cévennes"
+          "Suivi des fortes pluies et orages au Sud-Est : les premiers 100 mm sur les Cévennes",
+          "Laudun l’Ardoise : fermeture préventive de plusieurs routes et accueil des enfants suspendu ce mardi matin"
         ]
       }
     ],
@@ -202984,8 +203014,8 @@
         "category": "تقنية",
         "publishable": false,
         "headlines": [
-          "Jason Sudeikis reveals biggest lesson he learned from Olivia Wilde split",
           "Jason Sudeikis reflects on 'complicated' truth behind Olivia Wilde split",
+          "Jason Sudeikis reveals biggest lesson he learned from Olivia Wilde split",
           "Jason Sudeikis Gives An Update On Potential 'Ted Lasso' Seasons 5 & 6"
         ]
       }
@@ -257347,10 +257377,25 @@
           "بعد صدمة الهلال.. مدرب الاتحاد يهدد شباب الأهلي قبل معركة آسيا",
           "مصادر «الشرق الأوسط»: 3 اتحاديين حاولوا الوصول إلى غرفة الطريس… وفريق حماية الحكام يتدخل"
         ]
+      },
+      {
+        "key": "2026-10-19|sa",
+        "date": "2026-10-19",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "\"الهلال\" و\"بوما\" يطلقان طقم ذكرى تأسيس الهلال الـ69",
+          "تياغو نيفيز يوجه رسالة تضامن مؤثرة مع الشعب السعودي",
+          "الهلال .. بيت الطين الذي صنع سعادة الملايين"
+        ]
       }
     ],
-    "last_seen": "2026-10-13",
-    "total": 1,
+    "last_seen": "2026-10-19",
+    "total": 2,
     "countries": [
       "sa"
     ],
@@ -329085,9 +329130,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Trabzonspor vs. Hearts (Oct 22, 2026) Odds and Spread",
-          "Al Hilal vs. Al Hazem (19 Oct, 2026) Team Stats",
-          "Al Shabab vs. Al Faisaly (19 Oct, 2026) Team Stats"
+          "Cristiano Ronaldo fined €255, suspended 30 days after Portugal walk-out",
+          "Cristiano Ronaldo fined €255, suspended 30 days after Portugal walk-out",
+          "Al Hilal vs. Al Hazem (19 Oct, 2026) Team Stats"
         ]
       }
     ],
@@ -329343,14 +329388,14 @@
         "date": "2026-10-19",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "40,000+",
+        "traffic_num": 40000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Tottenham v Coventry: Premier League – live",
-          "Spurs vs Coventry | How to watch, team news, kit colours, key information",
-          "Tottenham vs Coventry LIVE! Premier League match updates, teams, news and score"
+          "Spurs vs Coventry LIVE: Premier League score, team news, commentary & updates",
+          "(1) Tottenham v Coventry: Premier League – live",
+          "Tottenham vs Coventry live updates: Premier League match team news, predictions and more"
         ]
       },
       {
@@ -329358,14 +329403,14 @@
         "date": "2026-10-19",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "Spurs vs Coventry LIVE: Premier League score, team news, commentary & updates",
           "Live score: Tottenham Hotspur v Coventry City (English Premier League) - Talents Abroad - Sports",
-          "Football Bet of the Day for Monday, October 19: Henry Hardwicke is banking on goals at the Tottenham Hotspur Stadium",
-          "MFT 10 – 1000 Betting Challenge: Corner count for Spurs as Coventry arrive for Monday night football."
+          "Football Bet of the Day for Monday, October 19: Henry Hardwicke is banking on goals at the Tottenham Hotspur Stadium"
         ]
       },
       {
@@ -329373,14 +329418,14 @@
         "date": "2026-10-19",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Tottenham vs Coventry LIVE! Premier League match updates, teams, news and score",
+          "Spurs vs Coventry LIVE: Premier League score, team news, commentary & updates",
           "Football Bet of the Day for Monday, October 19: Henry Hardwicke is banking on goals at the Tottenham Hotspur Stadium",
-          "MFT 10 – 1000 Betting Challenge: Corner count for Spurs as Coventry arrive for Monday night football."
+          "Tottenham Hotspur vs Coventry City | Premier League Tickets"
         ]
       }
     ],
@@ -329391,7 +329436,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 40000,
     "category": "رياضة"
   },
   "byu-cougars-football-top-ranking-2026": {
@@ -329433,14 +329478,14 @@
         "date": "2026-10-19",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+2000",
-        "traffic_num": 2000,
+        "traffic": "+4000",
+        "traffic_num": 4000,
         "category": "عام",
         "publishable": false,
         "headlines": [
           "Noticias Deportes 16:00 (19/10/26)",
           "Jon Ander González Esteban volverá a arbitrar al Rayo Vallecano cinco años después",
-          "Bordalás convoca a Carvajal y recupera a Enes Ünal"
+          "Getafe - Rayo, en directo: LaLiga EA Sports, hoy en vivo"
         ]
       }
     ],
@@ -329449,7 +329494,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 4000,
     "category": "عام"
   },
   "al-hilal---al-hazm": {
@@ -329462,8 +329507,8 @@
         "date": "2026-10-19",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -329478,7 +329523,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "رياضة"
   },
   "shakur-stevenson": {
@@ -329520,14 +329565,14 @@
         "date": "2026-10-19",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "عام",
         "publishable": true,
         "headlines": [
           "عمر مرموش يبحث عن البصمة الأولى مع توتنهام أمام كوفنتري سيتي الليلة",
           "معسكر في طي الكتمان.. توتنهام هوتسبير يبحث عن فوزه الأول في بريميرليج",
-          "تشكيل توتنهام المتوقع أمام كوفينتري سيتي في البريميرليج"
+          "تشكيل توتنام - مرموش أساسي ضد كوفنتري.. وعودة كولوسيفسكي بعد 526 يوما"
         ]
       },
       {
@@ -329535,14 +329580,14 @@
         "date": "2026-10-19",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "category": "رياضة",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
         "publishable": false,
         "headlines": [
           "عمر مرموش يبحث عن البصمة الأولى مع توتنهام أمام كوفنتري سيتي الليلة",
-          "معسكر في طي الكتمان.. توتنهام هوتسبير يبحث عن فوزه الأول في بريميرليج",
-          "أدارابيويو يستعد لخوض أول مباراة أساسية له في الدوري الإنجليزي مع توتنهام"
+          "توتنهام يسعى للخروج من منطقة الهبوط عندما يواجه كوفنتري سيتي",
+          "معسكر في طي الكتمان.. توتنهام هوتسبير يبحث عن فوزه الأول في بريميرليج"
         ]
       }
     ],
@@ -329552,8 +329597,8 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 2000,
-    "category": "رياضة"
+    "peak_traffic": 5000,
+    "category": "عام"
   },
   "خيتافي-ضد-رايو-فاليكانو": {
     "slug": "خيتافي-ضد-رايو-فاليكانو",
@@ -329586,8 +329631,7 @@
         "publishable": false,
         "headlines": [
           "خيتافي يواجه رايو فاليكانو في ختام الجولة التاسعة من الدوري الإسباني",
-          "توقعات مباراة خيتافي ورايو فاليكانو: مباراة يصعب التنبؤ بنتيجتها",
-          "خيتافي ورايو فاليكانو في مواجهة ديربي متقاربة (معطيات وتوقعات)"
+          "توقعات مباراة خيتافي ورايو فاليكانو: مباراة يصعب التنبؤ بنتيجتها"
         ]
       }
     ],
@@ -329647,6 +329691,234 @@
           "Al Shabab vs Al Faisaly: Saudi Pro League stats & head-to-head",
           "Al Shabab - Al Faisaly Live - Saudi Arabian Premier League: Football Scores & Highlights - 19/10/2026",
           "Al Shabab receive strong boost ahead of facing Al Fai…"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "parma-vs-torino": {
+    "slug": "parma-vs-torino",
+    "name": "parma vs torino",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Parma vs Torino: Italian Serie A stats & head-to-head",
+          "Serie A official line-ups: Parma vs. Torino",
+          "Parma-Torino, Caressa and Zazzaroni's prediction: the verdict"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "gluten-free-ritz-crackers": {
+    "slug": "gluten-free-ritz-crackers",
+    "name": "gluten free ritz crackers",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Ritz Is Releasing a First-Of-Its-Kind Cracker Fans Say Is ‘A Dream Come True’",
+          "Mondelez offers a new Ritz variety that fans have been clamoring for (MDLZ:NASDAQ)",
+          "RITZ® Brand Introduces Gluten Free Crackers in Original Flavor"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "اقتصاد"
+  },
+  "jesse-marsch": {
+    "slug": "jesse-marsch",
+    "name": "jesse marsch",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": []
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "charles-oliveira": {
+    "slug": "charles-oliveira",
+    "name": "charles oliveira",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Charles Oliveira: If the BMF belt is about rock ‘em sock ‘em robots, ‘take it somewhere else’",
+          "Charles Oliveira: Justin Gaethje not getting paid White House money again, needs to decide on retirement",
+          "Charles Oliveira eyes UFC title shot, wants answers from Justin Gaethje"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "هداف-الدوري-التركي": {
+    "slug": "هداف-الدوري-التركي",
+    "name": "هداف الدوري التركي",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|eg",
+        "date": "2026-10-19",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "من أضواء طرابزون إلى صمت كونيا.. كيف اختلفت بداية صلاح ومصطفى محمد؟",
+          "هرم وتوقيع خاص وصورة.. كم يبلغ سعر صندوق محمد صلاح الخرافي؟",
+          "«قميص ووشاح وقبعة».. طرابزون سبور يطرح منتجات تحمل اسم محمد صلاح"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "turkish-league": {
+    "slug": "turkish-league",
+    "name": "turkish league",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|eg",
+        "date": "2026-10-19",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Live score: Trabzonspor v Besiktas (Turkish Super Lig) - Talents Abroad - Sports",
+          "\"Leave Salah to me\": Besiktas defender issues a fiery challenge before Trabzon",
+          "Today’s match schedule and broadcast channels: Trabzonspor vs Besiktas"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "أنغام": {
+    "slug": "أنغام",
+    "name": "أنغام",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|eg",
+        "date": "2026-10-19",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "أنغام تشارك جمهورها أحدث ظهور لها بعد حفل قطرـ صور",
+          "جمهور الدوحة يُبكي أنغام بإطلالتها الرقيقة على المسرح",
+          "أنغام تستعرض أناقتها بفستان لافت في قطر"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "getafe-vs-rayo": {
+    "slug": "getafe-vs-rayo",
+    "name": "getafe vs rayo",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|sa",
+        "date": "2026-10-19",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Getafe CF vs Rayo Vallecano - Where to Watch, Stream Info, TV Channel, and Live Updates (October 19, 2026)",
+          "Getafe vs Rayo Vallecano Confirmed Lineups",
+          "Best Bet & Goalscorer Picks for Getafe vs Rayo Vallecano"
         ]
       }
     ],

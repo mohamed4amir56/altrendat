@@ -2987,14 +2987,14 @@
         "date": "2026-10-19",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "بعد دعم ترامب لنتنياهو.. هل تتغير حسابات الانتخابات بإسرائيل؟",
-          "من نعته بالـ\"مجنون\" إلى الدعم.. مواقف غيرت علاقة ترامب ونتنياهو",
-          "ترامب يعلن دعم نتنياهو قبل 9 أيام من انتخابات إسرائيل.. لماذا الآن؟"
+          "أزرق وأخضر وأرجواني.. نتنياهو يرسم خريطة جديدة للتحالفات في المنطقة",
+          "خطة نتنياهو لإنشاء «مناطق عازلة»... هل تنتهك اتفاقية السلام مع مصر؟",
+          "بعد تحذير طهران.. نتنياهو \"مستعدون لضرب الأعداء بأي لحظة\""
         ]
       }
     ],
@@ -6537,8 +6537,8 @@
         "date": "2026-10-19",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "20,000+",
-        "traffic_num": 20000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -6554,7 +6554,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 20000,
+    "peak_traffic": 10000,
     "category": "رياضة"
   },
   "west-indies-vs-zimbabwe": {
@@ -27342,15 +27342,30 @@
           "لماذا هاجم حسام حسن ما يقدم في الدوري المصري؟.. فيديو",
           "أزمة الشناوي تتصاعد.. بيان حاد من الأهلي ردا على حسام حسن"
         ]
+      },
+      {
+        "key": "2026-10-19|eg",
+        "date": "2026-10-19",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "شوبير: عموتة يعيش أزمة حقيقية مع جماهير الأهلي.. وهذه تفاصيلها",
+          "ماذا ينتظر الأهلي محلياً وأفريقياً بعد الفوز على كيتارا فى أوغندا؟",
+          "طلب رحيله وحدد البدائل.. أول ضحايا الحسين عموتة في الأهلي المصري"
+        ]
       }
     ],
-    "last_seen": "2026-09-27",
-    "total": 1,
+    "last_seen": "2026-10-19",
+    "total": 2,
     "countries": [
       "eg"
     ],
     "peak_traffic": 1000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "presidents-cup-tee-times": {
     "slug": "presidents-cup-tee-times",
@@ -56634,7 +56649,7 @@
         "headlines": [
           "'It gives me the ick': Can you cheat on someone with a video game?",
           "Lucia and Jason's relationship in GTA VI sparked research - is flirting with a character in a game real infidelity?",
-          "Can you cheat on someone with a video game character? #GrandTheftAuto #GTA #Gaming #BBCNews"
+          "Can you cheat on your partner with a video game character?"
         ]
       }
     ],
@@ -245624,8 +245639,8 @@
         "date": "2026-10-19",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -245641,7 +245656,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "jeremy-renner": {
@@ -262527,14 +262542,14 @@
         "date": "2026-10-19",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "category": "سياسة",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
         "publishable": false,
         "headlines": [
-          "Opinion | Alaska’s Senate Candidates and the Jones Act",
-          "Alaska’s monster tsunami sent water 1,580 feet up a mountain",
-          "The risk from landslide tsunamis is intensifying in busy Alaska fjords, with no plan in place"
+          "No Kings draws crowds with focus on early voting",
+          "4 Takeaways From a Voting-Focused ‘No Kings’ Day",
+          "No Kings Rally in Santa Barbara Pays a Visit to a Ballot Box"
         ]
       }
     ],
@@ -262543,8 +262558,8 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
-    "category": "سياسة"
+    "peak_traffic": 1000,
+    "category": "عام"
   },
   "tornado-warning": {
     "slug": "tornado-warning",
@@ -287112,8 +287127,8 @@
         "date": "2026-10-19",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -317399,10 +317414,25 @@
           "Trump Endorses Netanyahu in Israel’s Upcoming Election",
           "Netanyahu thanks Trump for 'tremendous support' before Israel elections"
         ]
+      },
+      {
+        "key": "2026-10-19|sa",
+        "date": "2026-10-19",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "Wolfgang Ullrich knows to expect the unexpected at the 24 Hours of Le Mans",
+          "Rockford Record Crawl to return Oct. 24",
+          "KAIST robotic light-driven platform synthesizes new drug candidates in 24 hours"
+        ]
       }
     ],
-    "last_seen": "2026-10-18",
-    "total": 1,
+    "last_seen": "2026-10-19",
+    "total": 2,
     "countries": [
       "sa"
     ],
@@ -326139,8 +326169,8 @@
         "publishable": false,
         "headlines": [
           "هجوم شبوة: مقتل أكثر من 50 شخصاً وإصابة 200 في هجوم للحوثيين على معسكر أمني في اليمن",
-          "اليمن ـ أكثر من 50 قتيلا و200 جريح في هجوم حوثي على معسكر حكومي بشبوة",
-          "العليمى: هجوم ميليشيا الحوثي على شبوة لن يثني الدولة عن استعادة مؤسساتها"
+          "اليمن.. هجوم حوثي دام في شبوة ومعارك قرب باب المندب",
+          "رئيس مجلس القيادة يوجه برعاية أسر شهداء وجرحى الهجوم الارهابي الحوثي في شبوة والرد الحازم على مرتكبيه"
         ]
       }
     ],
@@ -327251,14 +327281,14 @@
         "date": "2026-10-19",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
+          "Video: Artem quells the fury of Al-Ahly fans, and Al-Feiha opens fire on the referee!",
           "Al Fayha vs Al Ahli: Saudi Pro League stats & head-to-head",
-          "Al-Fayha FC coach announces Sakala's readiness for Al Ahly FC clash",
-          "Al Fayha vs Al Ahli SC Prediction: A Difficult Match for the Hosts"
+          "Al-Fayha FC coach announces Sakala's readiness for Al Ahly FC clash"
         ]
       },
       {
@@ -327271,9 +327301,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "الفيحاء ضد الأهلي.. التشكيل الرسمي لمواجهة الدوري السعودي",
-          "منذ ثنائية ديربي جدة.. كاريلي لا يعرف هزيمة الأهلي",
-          "الأهلي يستعيد ميندي في مواجهة الفيحاء"
+          "Video: Artem quells the fury of Al-Ahly fans, and Al-Feiha opens fire on the referee!",
+          "Al Fayha vs Al Ahli: Saudi Pro League stats & head-to-head",
+          "Al-Fayha FC coach announces Sakala's readiness for Al Ahly FC clash"
         ]
       }
     ],
@@ -327283,7 +327313,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "رياضة"
   },
   "pentagon-plea-deal-appeals-denied": {
@@ -327796,7 +327826,7 @@
         "headlines": [
           "كريم الشناوي: الذكاء الاصطناعي قد يرسخ صورًا نمطية خاطئة عن العرب",
           "يسرا في مهرجان الجونة: اللغة العربية مهددة بفقدان هويتها بسبب الأجيال الجديدة",
-          "كريم الشناوي: ليس من حقنا الحجر على تطور اللغة في الفن"
+          "كريم الشناوي وجيسيكا خوري وروبين سيتيزن يناقشون الصورة النمطية عن السينما العربية في «الجونة"
         ]
       }
     ],
@@ -327911,8 +327941,8 @@
         "publishable": false,
         "headlines": [
           "Former Wolfpack football coach Chuck Amato has died. How he’ll be remembered",
-          "Former NC State football coach Chuck Amato has died.",
-          "Former NC State football head coach Chuck Amato passes away at 80"
+          "Former NC State football head coach Chuck Amato passes away at 80",
+          "Chuck Amato, NC State Head Coach and Longtime Florida State Defensive Mainstay, Dies at 80"
         ]
       }
     ],
@@ -327963,14 +327993,14 @@
         "date": "2026-10-19",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "عام",
         "publishable": false,
         "headlines": [
           "Christiane Amanpour announces she will leave CNN next June",
-          "CNN’s Christiane Amanpour to depart network after 43 years",
-          "BREAKING: Christiane Amanpour Announces Her CNN Exit — Amid Takeover of Network By David Ellison"
+          "Christiane Amanpour to exit CNN after 43 years",
+          "Christiane Amanpour Announces Exit From CNN With Farewell Warning"
         ]
       }
     ],
@@ -327979,7 +328009,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "عام"
   },
   "محكمة-التحكيم-الرياضية": {
@@ -328068,5 +328098,297 @@
     ],
     "peak_traffic": 100,
     "category": "عام"
+  },
+  "pepsi-new-holiday-flavor": {
+    "slug": "pepsi-new-holiday-flavor",
+    "name": "pepsi new holiday flavor",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Pepsi Is Releasing an All-New Holiday Flavor—and We Tried It First",
+          "Pepsi Has A New Limited-Time Flavor",
+          "Pepsi reveals ‘indulgent’ new flavor available nationwide"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "social-security-october-21-checks": {
+    "slug": "social-security-october-21-checks",
+    "name": "social security october 21 checks",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Social Security checks coming Oct. 21. Are you getting one?",
+          "When are Social Security and SSI benefits paid out in October 2026? Complete payment schedule",
+          "Confirmed | The SSA advances payments in California, Florida, Texas, New York and the rest of the states: who will be paid in October"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "دول وأماكن"
+  },
+  "noah-wyle": {
+    "slug": "noah-wyle",
+    "name": "noah wyle",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Noah Wyle Urges Fans to ‘Hug Your Fur Babies Tight’ After His Family’s Dog Dies Unexpectedly",
+          "‘The Pitt’ Star Noah Wyle Mourns Heartbreaking Family Loss: ‘Devastated’",
+          "‘The Pitt’ Star Noah Wyle Mourns Heartbreaking Family Loss: ‘Devastated’"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
+  },
+  "richard-grenell": {
+    "slug": "richard-grenell",
+    "name": "richard grenell",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Exclusive: Secret pay-for-play text rocks Trump White House",
+          "Behind a White House Feud That Is Bitter Even by Trump-Era Standards",
+          "Jaw-Dropping Revelations of MAGA Blood Feud Exposed"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "سياسة"
+  },
+  "monza-vs-cagliari": {
+    "slug": "monza-vs-cagliari",
+    "name": "monza vs cagliari",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Serie A official line-ups and live updates: Monza vs. Cagliari",
+          "Monday’s Serie A betting tips: Expert predictions from Italy’s top flight",
+          "Monza vs Cagliari Prediction and Betting Tips - 19 October 2026"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "dan-lin": {
+    "slug": "dan-lin",
+    "name": "dan lin",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Dan Lin Out as Netflix Film Chief",
+          "Dan Lin Axed As Netflix Film Boss; Stock Slumping Streamer Set To Unveil Earnings Tuesday"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "اقتصاد"
+  },
+  "طرابزون-سبور-ضد-بشكتاش": {
+    "slug": "طرابزون-سبور-ضد-بشكتاش",
+    "name": "طرابزون سبور ضد بشكتاش",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|eg",
+        "date": "2026-10-19",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "موعد مباراة طرابزون سبور وبشكتاش فى الدوري التركي والقنوات الناقلة",
+          "محمد صلاح في مواجهة خاصة أمام بشكتاش.. ما أهميتها له ولفريقه؟",
+          "تشكيل طرابزون - صلاح يقود الهجوم في مواجهة بيشكتاش"
+        ]
+      },
+      {
+        "key": "2026-10-19|sa",
+        "date": "2026-10-19",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "محمد صلاح في مواجهة خاصة أمام بشكتاش.. ما أهميتها له ولفريقه؟",
+          "ما القنوات الناقلة لمباراة طرابزون سبور وبشكتاش في الدوري التركي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
+          "طرابزون سبور يكشف تفاصيل إصابة أرسيني باتاجوف"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "trabzonspor-vs-beşiktaş": {
+    "slug": "trabzonspor-vs-beşiktaş",
+    "name": "trabzonspor vs beşiktaş",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|eg",
+        "date": "2026-10-19",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Trabzonspor-Beşiktaş maçı saat kaçta ve hangi kanalda?",
+          "TOD TV canlı maç yayını nasıl açılır, derbi nasıl izlenir? 2026 üyelik ücretleri, paket seçenekleri ve derbi izleme bilgileri",
+          "Cumhurbaşkanı Başdanışmanı Oktay Saral’dan Beşiktaş maçı öncesi skor tahmini!"
+        ]
+      },
+      {
+        "key": "2026-10-19|sa",
+        "date": "2026-10-19",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Italiano, Trabzonspor maçı için en önemli şeyi açıkladı!",
+          "Beşiktaş maçına saatler kala Ertuğrul Doğan'dan büyük müjde",
+          "Derbide gözler ilk 45 dakikada!"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "مباريات-الدوري-المصري-اليوم": {
+    "slug": "مباريات-الدوري-المصري-اليوم",
+    "name": "مباريات الدوري المصري اليوم",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|eg",
+        "date": "2026-10-19",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "انطلاق مباريات الجولة السابعة من الدوري المصري.. اعرف المواعيد",
+          "مباريات الإثنين.. \"الفوز الأول\" شعار 3 فرق في الدوري المصري",
+          "المصرى يرفع شعار «أكون أو لا أكون» فى مواجهة أبوقير المقاولون يصطدم بالشرقية إنبى.. وسموحة ضيفا على الجونة"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
   }
 }

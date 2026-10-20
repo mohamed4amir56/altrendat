@@ -7785,8 +7785,8 @@
         "date": "2026-10-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -7801,7 +7801,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "kusal-mendis": {
@@ -26280,15 +26280,31 @@
           "Proteas v Aussies at the Wanderers: ‘No one will step back,’ says Markram",
           "Pink Day in South African cricket explained: Why the Proteas wear pink jersey at Johannesburg"
         ]
+      },
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20,000+",
+        "traffic_num": 20000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Live: Aussies make vital early breakthrough on day three",
+          "Super-sub Boland seizes his moment (again)",
+          "Cricket world rages as ‘absurd’ rule emerges"
+        ]
       }
     ],
-    "last_seen": "2026-09-27",
-    "total": 1,
+    "last_seen": "2026-10-20",
+    "total": 2,
     "countries": [
-      "sa"
+      "sa",
+      "world"
     ],
-    "peak_traffic": 200,
-    "category": "عام"
+    "peak_traffic": 20000,
+    "category": "رياضة"
   },
   "college-football-scores-from-yesterday": {
     "slug": "college-football-scores-from-yesterday",
@@ -69145,9 +69161,9 @@
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "الهيئة السعودية للمياه تحصد 5 جوائز عالمية عن مشروعاتها الابتكارية",
-          "جدة تربط ابتكارات المياه بفرص الاستثمار",
-          "1.2 تريليون دولار.. قيمة مشاريع مرافق المياه والصرف الصحي المرتقبة في العالم"
+          "الاتحاد للطيران تمدد إلغاء رحلات السعودية حتى 24 أكتوبر",
+          "القطرية تعلق رحلاتها من وإلى الرياض والدمام حتى 24 أكتوبر",
+          "الخطوط القطرية تمدد تعليق رحلات الرياض والدمام وتخفض رحلات جدة"
         ]
       }
     ],
@@ -89631,10 +89647,25 @@
           "Shanghai R4 previews and predictions: Medvedev vs. Tsitsipas, Paul vs. Bergs",
           "Tien vs. Svajda Prediction at the Rolex Shanghai Masters – Saturday, October 10"
         ]
+      },
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Tsitsipas vs. Kovacevic Prediction at the Almaty Open – Tuesday, October 20",
+          "Stefanos Tsitsipas vs. Aleksandar Kovacevic prediction, odds, picks for ATP Almaty Open 2026",
+          "Stefanos Tsitsipas vs Aleksandar Kovacevic Prediction & Picks - Almaty Open"
+        ]
       }
     ],
-    "last_seen": "2026-10-14",
-    "total": 4,
+    "last_seen": "2026-10-20",
+    "total": 5,
     "countries": [
       "world"
     ],
@@ -219403,8 +219434,8 @@
         "date": "2026-10-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -246085,15 +246116,30 @@
           "التحالف: اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية الإرهابية باتجاه الرياض",
           "وفاة مقيم وإصابة 11 آخرين في استهداف مطار الملك خالد الدولي"
         ]
+      },
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "«تحالف دعم الشرعية»: اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية باتجاه الرياض",
+          "التحالف يستهدف أسلحة ووسائط تهريب للحوثيين",
+          "«التحالف»: اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية الإرهابية باتجاه الرياض"
+        ]
       }
     ],
-    "last_seen": "2026-10-12",
-    "total": 1,
+    "last_seen": "2026-10-20",
+    "total": 2,
     "countries": [
       "sa"
     ],
     "peak_traffic": 1000,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "ليفانتي-ضد-إشبيلية": {
     "slug": "ليفانتي-ضد-إشبيلية",
@@ -253135,11 +253181,11 @@
         "traffic": "20000+",
         "traffic_num": 20000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Alex Eala snaps three-match skid, cruises past Diane Parry at Ningbo Open",
-          "Tennis: Alex Eala downs Parry, advances to second round of Ningbo Open",
-          "Mendoza: Distressing news on Eala’s campaign"
+          "Eala snaps losing streak in Ningbo to extend breakout 2026 season",
+          "Alex Eala kicks off Ningbo Open campaign with win over Diane Parry",
+          "Tennis: Alex Eala downs Parry, advances to second round of Ningbo Open"
         ]
       }
     ],
@@ -281766,8 +281812,8 @@
         "publishable": false,
         "headlines": [
           "Why was rugby league's greatest rivalry hidden away on a Thursday night?",
-          "Kangaroos edge Kiwis in thrilling 24–22 showdown",
-          "Highlights: Australia v New Zealand"
+          "Panthers stars dominate Round 1: RLWC Recap",
+          "Kiwis cling to hope of Ponga playing on at World Cup"
         ]
       }
     ],
@@ -306601,8 +306647,8 @@
         "date": "2026-10-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -306617,7 +306663,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "mike-shanahan": {
@@ -326972,15 +327018,31 @@
           "Australian Lawmaker Helen Haines Injured After Attack, Prime Minister Says",
           "Helen Haines live updates: Victorian premier ‘deeply appalled’ after Helen Haines injured in alleged attack; Angus Taylor calls incident ‘shocking day for our nation’"
         ]
+      },
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Helen Haines: Police charge man over alleged 'targeted' attack on Australian MP",
+          "Helen Haines loses leg as surgeons fight to save the other after alleged attack in Wangaratta",
+          "‘Online echo chamber’ amplifies political violence threats in Australia"
+        ]
       }
     ],
-    "last_seen": "2026-10-19",
-    "total": 1,
+    "last_seen": "2026-10-20",
+    "total": 2,
     "countries": [
+      "eg",
       "world"
     ],
     "peak_traffic": 200,
-    "category": "حوادث وقضايا"
+    "category": "عام"
   },
   "katie-boulter": {
     "slug": "katie-boulter",
@@ -327067,12 +327129,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "اقتصاد",
+        "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "From France to Albania, social unrest is setting Europe’s streets ablaze",
-          "Anger at rising fuel prices bolsters Europe's far right as unrest sweeps France",
-          "What’s making Europe so angry? The frustration behind the protests"
+          "What proposals are on Livingston County’s 2026 general election ballot? Here’s the list.",
+          "What proposals will Washtenaw County voters see on the November ballot? Here’s the list",
+          "Ballot proposal would restrict free speech, opponents say"
         ]
       }
     ],
@@ -327082,7 +327144,7 @@
       "world"
     ],
     "peak_traffic": 500,
-    "category": "اقتصاد"
+    "category": "سياسة"
   },
   "spacex-falcon-9-rocket-launch": {
     "slug": "spacex-falcon-9-rocket-launch",
@@ -328306,7 +328368,7 @@
         "headlines": [
           "سعر الريال السعودى أمام الجنيه اليوم الإثنين 19-10-2026",
           "سعر الريال السعودي اليوم الإثنين 19 أكتوبر 2026 في البنوك",
-          "قفزة قوية في سعر الريال السعودي والدولار والعملات العربية اليوم الثلاثاء 20-10-2026"
+          "سعر الريال السعودي يرتفع مقابل الجنيه في 5 بنوك خلال تعاملات اليوم"
         ]
       }
     ],
@@ -336304,8 +336366,8 @@
         "publishable": false,
         "headlines": [
           "رئيس وزراء هولندا روب يتن وشريكة ينتظران مولودهما الأول",
-          "رئيس وزراء هولندا وشريكه ينتظران مولودهما الأول",
-          "تأجير الأرحام: رئيس الوزراء الهولندي وشريكته سيرزقان بطفل في عام 2027"
+          "سابقة في هولندا.. رئيس الوزراء الهولندي يستعد لاستقبال طفله الأول عام 2027",
+          "رئيس وزراء هولندا وشريكه ينتظران مولودهما الأول"
         ]
       },
       {
@@ -336374,12 +336436,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "10000+",
         "traffic_num": 10000,
-        "category": "عام",
+        "category": "سياسة",
         "publishable": true,
         "headlines": [
-          "You be the judge: Who's winning the final Leaders' Debate?",
-          "Is NZ's health system in crisis? Luxon and Hipkins clash in leaders’ debate",
-          "'We'll be talking health, my friend': Christopher Luxon, Chris Hipkins prepare for final debate"
+          "Who won the debate? Our experts pick which leader triumphed in third clash",
+          "Election 2026 as it happened 20 Oct: Luxon and Hipkins face off in final leaders' debate",
+          "You be the judge: Who won the final Leaders' Debate?"
         ]
       }
     ],
@@ -336389,7 +336451,7 @@
       "world"
     ],
     "peak_traffic": 10000,
-    "category": "عام"
+    "category": "سياسة"
   },
   "coastal-flooding": {
     "slug": "coastal-flooding",
@@ -336778,8 +336840,8 @@
         "date": "2026-10-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -336794,7 +336856,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 1000,
     "category": "حوادث وقضايا"
   },
   "tesla-cybertruck": {
@@ -336865,8 +336927,8 @@
         "date": "2026-10-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "+400",
+        "traffic_num": 400,
         "category": "طقس",
         "publishable": false,
         "headlines": [
@@ -336881,7 +336943,152 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 400,
     "category": "طقس"
+  },
+  "chocolate-lays-potato-chips": {
+    "slug": "chocolate-lays-potato-chips",
+    "name": "chocolate lays potato chips",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Lay's to release new Thanksgiving-inspired chip flavors",
+          "Lay's® Brings the Holi-LAY's® Table to Life with Five New Limited-Time Flavors Inspired by Holiday Dishes",
+          "What Do Lay’s Holiday Flavors Taste Like?"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "عام"
+  },
+  "new-york-times": {
+    "slug": "new-york-times",
+    "name": "new york times",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Possible motive uncovered for Dublin couple accused of murdering son-in-law in park",
+          "New York Times executive Jonathan McKinsey's in-laws plead not guilty in his killing, father-in-law to as for release: defense",
+          "Slain NYT exec threatened to hire someone to kill mother-in-law, lawyer alleges"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "حوادث وقضايا"
+  },
+  "nfl-power-rankings-week-7": {
+    "slug": "nfl-power-rankings-week-7",
+    "name": "nfl power rankings week 7",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "2026 NFL Power Rankings: How all 32 teams stack up for Week 6",
+          "NFL power rankings Week 7: Do struggling Rams, Seahawks drop out of top 10?",
+          "NFL Power Rankings, Week 6: Vikings, Patriots enter top 10; Eagles, Saints in free fall"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "revolut": {
+    "slug": "revolut",
+    "name": "revolut",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Revolut down as thousands of users report app not working",
+          "Some Revolut users seeing service disruption",
+          "Revolut and Lloyds down as users say payments are being declined"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "تقنية"
+  },
+  "الفنانه-داليا-ابراهيم": {
+    "slug": "الفنانه-داليا-ابراهيم",
+    "name": "الفنانه داليا ابراهيم",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "داليا إبراهيم: «اعتزلت الفن نهائيا دون رجعة والحمد لله على ما قدمته»",
+          "بعد غياب 10 سنوات.. داليا إبراهيم تحسم موقفها من العودة للتمثيل",
+          "«ملهاش يد في الموضوع».. داليا إبراهيم تكشف حقيقة اعتزالها بسبب حنان ترك"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
   }
 }

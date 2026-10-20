@@ -2874,8 +2874,8 @@
         "publishable": false,
         "headlines": [
           "بريطانيا ستنشر طائرات قتالية في \"مهام دفاعية\" دعماً للسعودية، و\"اعتراض\" صاروخ أطلق نحو الرياض",
-          "\"الهجمات على حليفتنا أعمال بغيضة\".. بريطانيا تعلن نشر مقاتلات للدفاع عن السعودية",
-          "بريطانيا تعزز دعمها العسكري الدفاعي للسعودية بطائرات «تايفون»"
+          "الدفاع البريطانية تكشف عزمها إرسال مقاتلات تايفون للمساهمة في أدوار دفاعية بالسعودية",
+          "\"الهجمات على حليفتنا أعمال بغيضة\".. بريطانيا تعلن نشر مقاتلات للدفاع عن السعودية"
         ]
       }
     ],
@@ -5115,9 +5115,8 @@
         "category": "سياسة",
         "publishable": true,
         "headlines": [
-          "انفراجات انفراجات",
-          "لإقرار دعم السعودية عسكريا.. لماذا أجّل برلمان مصر قراره؟",
-          "تفويض دعم السعودية.. تأجيل ثان للبرلمان وأسئلة بشأن حسابات القاهرة"
+          "تفويض دعم السعودية.. تأجيل ثان للبرلمان وأسئلة بشأن حسابات القاهرة",
+          "انفراجات انفراجات"
         ]
       }
     ],
@@ -77790,8 +77789,8 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Giants cut Jihad Ward after two-game reunion",
           "NY Giants release veteran linebacker after just 2 games",
+          "Giants cut Jihad Ward after two-game reunion",
           "Report: New York Giants releasing LB Jihad Ward"
         ]
       }
@@ -128358,11 +128357,11 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "عام",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "Giants will release Najee Harris",
-          "Giants release running back Najee Harris",
-          "Can fantasy managers still trust Cam Skattebo? Omar Cooper taking off for Jets?"
+          "Giants releasing RB Najee Harris, source says",
+          "Giants release running back after comments about playing time",
+          "John Harbaugh on RB timeshare: Someone has to \"do something\" to earn job"
         ]
       }
     ],
@@ -135733,14 +135732,14 @@
         "date": "2026-10-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "دول وأماكن",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "مجلس الوزراء السعودي: أمن الطاقة وحركة الملاحة مسؤولية مشتركة تتطلب تعاوناً دولياً",
-          "سياسي / وزارة الخارجية: المملكة ترحب بالبيان الرئاسي الصادر عن أعضاء مجلس الأمن بشأن الهجمات ضدها",
-          "\"الألكسو\" تدين اعتداءات ميليشيا الحوثي الإرهابية على المملكة"
+          "برئاسة الملك سلمان.. مجلس الوزراء يدين هجمات الحوثيين ويوافق على أنظمة جديدة لبراءات الاختراع والتصاميم",
+          "أخلاق الدولة وإرهاب الميليشيا",
+          "سياسي / وزارة الخارجية: المملكة ترحب بالبيان الرئاسي الصادر عن أعضاء مجلس الأمن بشأن الهجمات ضدها"
         ]
       }
     ],
@@ -181594,8 +181593,8 @@
         "publishable": false,
         "headlines": [
           "Taunting Trump Over Gas Prices, Iran Braces for Aftermath of U.S. Vote",
-          "Iran prolongs talks in stalemate to influence US midterms, officials say",
-          "Tehran seeks to punish Trump in midterms with oil price pain, Iranian officials say"
+          "Iran stalling on deal with US to hurt Trump politically ahead of midterms, Iranian officials say",
+          "Iran prolongs talks in stalemate to influence US midterms, officials say"
         ]
       }
     ],
@@ -231151,15 +231150,30 @@
           "مصر.. الأرصاد الجوية تحذر من تقلبات جوية وعواصف رعدية",
           "أمطار رعدية وسيول محتملة في سيناء والبحر الأحمر.. تفاصيل طقس اليوم"
         ]
+      },
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Fresh intrigue in the NBA as 2026-27 season starts. Plus: Huge wins for the Rays and Dream",
+          "Starting 5: The NBA is back today on NBC and Peacock",
+          "George, James and Antetokounmpo. The new NBA season is a star-studded start"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 1,
+    "last_seen": "2026-10-20",
+    "total": 2,
     "countries": [
       "eg"
     ],
     "peak_traffic": 100,
-    "category": "طقس"
+    "category": "رياضة"
   },
   "صاروخ-كروز": {
     "slug": "صاروخ-كروز",
@@ -246334,10 +246348,25 @@
           "المستكاوي: الفروق الجوهرية بين الأهلي والزمالك حسمت القمة 133",
           "بعد شكوى الزمالك ضده.. مخرج القمة لـ في الجول: ليس من اختصاصي غلق الصوت"
         ]
+      },
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "+700",
+        "traffic_num": 700,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "مباراة فريقي بترول أسيوط و الزمالك في بطولة الدوري المصري - الأسبوع 7",
+          "ترتيب جدول الدوري الممتاز بعد مباريات اليوم الاثنين.. بيراميدز في الصدارة",
+          "المصرى يرفع شعار «أكون أو لا أكون» فى مواجهة أبوقير المقاولون يصطدم بالشرقية إنبى.. وسموحة ضيفا على الجونة"
+        ]
       }
     ],
-    "last_seen": "2026-10-12",
-    "total": 1,
+    "last_seen": "2026-10-20",
+    "total": 2,
     "countries": [
       "eg"
     ],
@@ -254516,7 +254545,7 @@
         "headlines": [
           "சௌதியில் வங்கதேச தம்பதிக்கு மரண தண்டனை நிறைவேற்றம் - எதற்காக? 'தஸீர்' என்பது என்ன?",
           "மெக்கா மசூதியில் முத்தம் கொடுத்ததாகக் குற்றச்சாட்டு: வங்கதேசத்தினர் இருவருக்கு தூக்கு தண்டனை நிறைவேற்றிய சவுதி அரேபியா",
-          "சவூதியில் உள்ள மெக்காவில் தவறான செயல்.. 2 பேருக்கு மரண தண்டனை"
+          "மெக்காவில் வைத்து நெற்றியில் முத்தமிட்டதால் மரண தண்டனையா?"
         ]
       }
     ],
@@ -271466,9 +271495,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "مساعٍ للحدّ من أزمات تعليم الطلاب الفلسطينيين في سورية",
-          "\"أونروا\": 8 ملايين يورو لدعم تعليم 69 ألف طفل وتدريب 3 آلاف شاب في سوريا",
-          "جمعية الأورمان توزع 2062 حقيبة ومستلزمات مدرسية على الطلاب بسوهاج"
+          "علم يثير غضبا في جامعة موسكو.. والجيش الصيني يتحرك",
+          "احتفالية تدشين أسرة \"طلاب من أجل مصر\" بجامعة قنا | صور",
+          "طلاب من أجل مصر بجامعة قنا ينظمون احتفالية فنية بمشاركة 2000 طالب وطالبة"
         ]
       }
     ],
@@ -320582,10 +320611,25 @@
           "📈 Y! Sports Biz: In the hunt or on a wild goose chase?",
           "Bowl games face uncertain future as CFP moves to expand to 24 teams"
         ]
+      },
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "Mice cause ‘imminent health hazard closure’ at Westminster movie theater",
+          "Zelensky and US envoys to hold Oslo talks as Rubio denies withholding intelligence",
+          "US envoys Witkoff, Kushner to take part in Ukraine talks in Oslo: Norway"
+        ]
       }
     ],
-    "last_seen": "2026-10-19",
-    "total": 2,
+    "last_seen": "2026-10-20",
+    "total": 3,
     "countries": [
       "sa"
     ],
@@ -340324,8 +340368,8 @@
         "date": "2026-10-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -340340,7 +340384,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "رياضة"
   },
   "harmanpreet-kaur": {
@@ -340387,9 +340431,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "\"خذلني\" و\"لم يركض\".. تين هاغ يطلق تصريحات نارية بحق رونالدو | CNN Arabic | CNN",
+          "تن هاغ يكشف أزمة رونالدو: لا يتدرب.. وكان يحرض اللاعبين",
           "تين هاج يفتح النار على رونالدو: خذل مانشستر يونايتد.. ولم يكن يركض",
-          "تن هاغ يكشف أزمة رونالدو: لا يتدرب.. وكان يحرض اللاعبين"
+          "تن هاغ يعتبر أن رونالدو \"خذل\" يونايتد و\"خذلني\""
         ]
       }
     ],
@@ -340642,8 +340686,8 @@
         "date": "2026-10-20",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "+1100",
+        "traffic_num": 1100,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -340658,7 +340702,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 1100,
     "category": "رياضة"
   },
   "ماتش-باريس-وبرشلونه": {
@@ -340707,7 +340751,7 @@
         "headlines": [
           "Champions League: PSG vs Barcelona - Europe's most exciting match-up?",
           "Schedule for Matchday 3 of the UEFA Champions League",
-          "Pedri: 'It will be a great game'"
+          "Vitinha Isn’t Intimidated by Lamine Yamal’s Red-Hot Form"
         ]
       }
     ],
@@ -340732,7 +340776,7 @@
         "traffic": "5000+",
         "traffic_num": 5000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "القادسية يختتم تحضيراته لمواجهة التعاون ويغادر إلى القصيم",
           "فواصل",
@@ -340749,9 +340793,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "قميص القادسية الثالث 2026-2027: هوية جريئة تحمل روح الخبر",
+          "بالفيديو.. القادسية ينجو من هدف عكسي كوميدي قبل مواجهة الهلال",
           "فواصل",
-          "موعد مباراة التعاون والقادسية اليوم والقنوات الناقلة في الدوري السعودي"
+          "التعاون يستعيد ورقة مهمة قبل صدام القادسية في دوري روشن"
         ]
       }
     ],
@@ -340896,8 +340940,8 @@
         "publishable": false,
         "headlines": [
           "Prince Harry Breaks Silence on the Reasons He Moved His Family Back to the U.K.",
-          "Prince Harry Sums Up Why He and Meghan Markle Moved to the U.K. in One Simple Word",
-          "Prince Harry says he wants to reconcile with family"
+          "Prince Harry reveals real reasons for UK return",
+          "Prince Harry Sums Up Why He and Meghan Markle Moved to the U.K. in One Simple Word"
         ]
       }
     ],
@@ -340919,13 +340963,13 @@
         "date": "2026-10-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "تقنية",
         "publishable": false,
         "headlines": [
           "Ticketmaster Goes All-In on AI, Names Ex-Amazon Exec as Chief Technology Officer",
-          "Jim Freeman, ex-Amazon Prime Video VP, joins Ticketmaster as CTO to lead ‘AI-first’ push",
+          "Ticketmaster Names New CTO Amid Brazil Data Breach",
           "Ticketmaster Names Former Amazon Executive Jim Freeman CTO as It Expands AI Push"
         ]
       }
@@ -340935,7 +340979,206 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "تقنية"
+  },
+  "hot-dog": {
+    "slug": "hot-dog",
+    "name": "hot dog",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Kayem recalls 1.5 million pounds of meat products, including Fenway Franks",
+          "Fenway Franks, Old Tyme Reds among 68 products recalled by Kayem Foods",
+          "Nearly 1.6M pounds of hot dogs, bacon and other meats recalled nationwide"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "عام"
+  },
+  "fenerbahçe-vs-slavia-praha": {
+    "slug": "fenerbahçe-vs-slavia-praha",
+    "name": "fenerbahçe vs slavia praha",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+1500",
+        "traffic_num": 1500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Dva roky půstu. Slavia chce utnout nelichotivou sérii",
+          "Jak jsme bez Jindry vyzráli na Turka. Köstl o výhře na Fenerbahce: Slavia ji zopakuje!",
+          "V hlavě mám šňůru porážek víc než v minulosti. Musí se sejít úplně všechno, říká Trpišovský"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1500,
+    "category": "رياضة"
+  },
+  "navatek-federal-contracts-bribery-probe": {
+    "slug": "navatek-federal-contracts-bribery-probe",
+    "name": "navatek federal contracts bribery probe",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "FBI investigated whether Graham, Clyburn were involved in bribery scheme: Report",
+          "Trump’s FBI Killed Bribery Probe Into Lindsey Graham—and James Clyburn",
+          "FBI Was Probing Lindsey Graham and James Clyburn for Bribery — Until Trump Purged the Agency"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
+  },
+  "sunny-hostin": {
+    "slug": "sunny-hostin",
+    "name": "sunny hostin",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": []
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "طلائع-الجيش-ضد-الأهرام": {
+    "slug": "طلائع-الجيش-ضد-الأهرام",
+    "name": "طلائع الجيش ضد الأهرام",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "قائمة بيراميدز فى معسكر مباراة طلائع الجيش.. عودة حامد حمدان",
+          "بيراميدز يسعى لتأمين صدارة الدوري أمام طلائع الجيش",
+          "بيراميدز في امتحان \"الطلائع\""
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "خناق": {
+    "slug": "خناق",
+    "name": "خناق",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "الخناق الحنجري.. فيروس غريب يقلق المصريين والسلطات تكشف حقيقته",
+          "الصحة تحسم الجدل.. هل الخناق الحنجري فيروس جديد؟ (تفاصيل)",
+          "الصحة المصرية: لا تفشٍ وبائيًا لمرض «الخناق الحنجري»"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "kranti-gaud": {
+    "slug": "kranti-gaud",
+    "name": "kranti gaud",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Sree Charani remains at top in Women's T20I rankings: Nandni Sharma, Kranti Gaud gain spots amid Zimbabwe s...",
+          "ICC Rankings: Nandni Sharma, Kranti Gaud make big gains",
+          "Nandini Sharma, Kranti Gaud Rise In ICC T20I Rankings; Megan Schutt, Ellyse Perry Make ODI Gains"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
   }
 }

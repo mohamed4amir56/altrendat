@@ -4,13 +4,13 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-10-20T20:30:58.149489+00:00",
+  "generated_at": "2026-10-20T20:36:12.369056+00:00",
   "day": "2026-10-20",
   "trends": [
     {
       "title": "weather",
-      "traffic": "+81500",
-      "traffic_num": 81500,
+      "traffic": "+91500",
+      "traffic_num": 91500,
       "published": "Mon, 19 Oct 2026 16:00:00 -0700",
       "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQV5_EP6OLq5B-I0h6TDhX9gKziiJ8xhET2MKniEucHsi8pZqhacDd5c8FAYtA",
       "image_source": "News.com.au",
@@ -1419,9 +1419,30 @@
       "traffic": "+25000",
       "traffic_num": 25000,
       "published": "Tue, 20 Oct 2026 13:00:00 -0700",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKfap6kfpTvgZHnhp81-7duS-Yg7ZDOfAh7MHb48Yz5-7FV7oFHnLM6RnbSrs",
-      "image_source": "Yahoo Finance",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTwDD2rdI6P27F9peBKaBwgk_3F-yTwIhFglvIUSaIiQEROVwMpnQnV_XMKsXw",
+      "image_source": "CNBC",
       "news": [
+        {
+          "title": "SpaceX earnings live updates: Here's why analysts are bullish ahead of the report",
+          "url": "https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html",
+          "source": "CNBC",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTwDD2rdI6P27F9peBKaBwgk_3F-yTwIhFglvIUSaIiQEROVwMpnQnV_XMKsXw",
+          "og_title": "SpaceX revenue jumps 161% driven by Starlink and AI: Live updates",
+          "og_desc": "Follow SpaceX’s Q3 2026 earnings live, with updates on revenue, Starlink, AI spending, Starship, guidance and SPCX stock.",
+          "og_image": "https://image.cnbcfm.com/api/v1/image/108344752-1792524978570-108344752-1785869234686-gettyimages-2289079342-_73a7123_tubi9bwl.jpeg?v=1792525011&w=1920&h=1080",
+          "ok": true
+        },
+        {
+          "title": "SpaceX’s data centre deals boost revenue by 161%",
+          "url": "https://www.ft.com/content/f2a2a578-5a2e-42ff-b4c9-8bafff271b37?syn-25a6b1a6=1",
+          "source": "Financial Times",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTyE6BGdFH9hSFAoO1oCQc0wfsfYgwgwyze_ZO5SV4vCNPxc9kVtpFU1ni4d5U",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
         {
           "title": "SpaceX earnings Live: SpaceX beats on earnings, capex comes in less than expected",
           "url": "https://finance.yahoo.com/markets/stocks/live/spacex-earnings-live-updates-133218212.html",
@@ -1431,28 +1452,6 @@
           "og_desc": "SpaceX Q3 reported Q3 earnings results after the bell.",
           "og_image": "https://s.yimg.com/lo/mysterio/api/e1bf9815e8e0a52a83cdf86906d194b06332c930bf41336c4b27d2e8e4dc80cf/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-06%2F0219c46c-4423-498c-a15b-28d07000c13c",
           "ok": true
-        },
-        {
-          "title": "SpaceX quarterly revenue jumps, beats estimates as AI business surges",
-          "url": "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/",
-          "source": "Reuters",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTJn1zY956W1iIwTF30p2NxNdSBUj6pnNvFhxOTbxhzMLodM0EyCTMpodZX9AE",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "SpaceX Third-Quarter Earnings Live Analysis",
-          "url": "https://www.bloomberg.com/news/live-blog/2026-10-20/spacex-third-quarter-earnings-live-coverage",
-          "source": "Bloomberg.com",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpRaWHxsO2ucptXiOqWxn43ekWlGX1nl6rrtbPOkW2f4034-vjSYlLBwMmyWY",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
         },
         {
           "title": "If Elon Musk gifts SpaceX stock through Trump Accounts, it will come with a catch",
@@ -1492,8 +1491,8 @@
       "category": "اقتصاد",
       "icon": "💰",
       "color": "#f5c542",
-      "reason": "المصادر لا تذكر الموضوع — تحتاج مراجعة",
-      "publishable": false,
+      "reason": "الأخبار تطابق: earnings",
+      "publishable": true,
       "card": "cards/world-2026-10-20-spcx.png",
       "published_at": "2026-10-20T20:30:58.149489+00:00"
     },
@@ -2002,6 +2001,96 @@
       "published_at": "2026-10-20T20:01:03.587498+00:00"
     },
     {
+      "title": "liverpool vs villarreal",
+      "traffic": "+12000",
+      "traffic_num": 12000,
+      "published": "Tue, 20 Oct 2026 11:00:00 -0700",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4udGMAnfKgvFTSfpL9pFjueRYUbKA_vcLrg4nXMgXNQv0naFPWGYcYreB70U",
+      "image_source": "Liverpool FC",
+      "news": [
+        {
+          "title": "Team news: Confirmed Liverpool line-up v Villarreal",
+          "url": "https://www.liverpoolfc.com/news/team-news-confirmed-liverpool-line-up-v-villarreal",
+          "source": "Liverpool FC",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4udGMAnfKgvFTSfpL9pFjueRYUbKA_vcLrg4nXMgXNQv0naFPWGYcYreB70U",
+          "og_title": "Team news: Confirmed Liverpool line-up v Villarreal - Liverpool FC",
+          "og_desc": "Liverpool make six changes for tonight’s Champions League encounter with Villarreal at Anfield.",
+          "og_image": "https://images.ctfassets.net/rm6ms1yxue4m/11BZVQ6wtxq5n6qNpPxQ2K/4144c4df5cf6df2b169c17934a393100/cody-gakpo-villarreal-main.jpg?w=1200&h=630&fit=crop&f=face",
+          "ok": true
+        },
+        {
+          "title": "Liverpool vs Villarreal LIVE! Champions League score updates, news, prediction and lineups",
+          "url": "https://www.skysports.com/football/live-blog/13600948/liverpool-vs-villarreal-live-champions-league-score-updates-news-prediction-and-lineups",
+          "source": "Sky Sports",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCXvnafUjwDDk7VmZBPSamucuRxHbadMoOvTumHABbsyKe1MK2Q-aoO7UPF04",
+          "og_title": "Liverpool vs Villarreal LIVE! Champions League score updates, news, prediction and lineups",
+          "og_desc": "Liverpool vs Villarreal LIVE! Champions League score updates, news, prediction and lineups",
+          "og_image": "https://e0.365dm.com/26/10/1600x900/skysports-football-bradley-barcola_7377021.jpg?20261014182121",
+          "ok": true
+        },
+        {
+          "title": "Villarreal’s Iñigo Pérez ready to meet Iraola again in test of old bond",
+          "url": "https://www.theguardian.com/football/2026/oct/20/liverpool-villarreal-inigo-perez-iraola-test-of-old-bond",
+          "source": "The Guardian",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipOPAPsxzNXOFO0NvQRcjZ-jnqUiASOOxMLPvXRzvxZibXHfqRaxYA68e9DM",
+          "og_title": "Villarreal’s Iñigo Pérez ready to meet Iraola again in test of old bond",
+          "og_desc": "Refused a work permit at Bournemouth, Pérez comes face to face with Liverpool’s head coach Andoni Iraola in Champions League",
+          "og_image": "https://i.guim.co.uk/img/media/6c4bff171c37fdaaa54d4033dbe3d8b40317fd5d/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6b74be8d685f64b3edf109dd31d751ca",
+          "ok": true
+        },
+        {
+          "title": "Liverpool - Villarreal en directo | Última hora de la Champions League en vivo hoy",
+          "url": "https://www.marca.com/futbol/champions-league/liverpool-villarreal/2026/10/20/01_0103_20261020_14_449-directo.html",
+          "source": "MARCA",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT73wjLRvREuqkUIc7V3soX7n2OYbejV27Hbs6rJLS_e8gdg7c00oZ_A6K_T1g",
+          "og_title": "Liverpool - Villarreal en directo | Última hora de la Champions League en vivo hoy | Marca",
+          "og_desc": "Una pena cómo ha acabado la primera parte en Anfield para el Villarreal. Pero es que así son los partidos del Liverpool en su campo. Los jugadores y l",
+          "og_image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/10/20/17925150667954.jpg",
+          "ok": true
+        },
+        {
+          "title": "El Brexit los separó, la Champions los reúne",
+          "url": "https://as.com/futbol/champions/el-brexit-los-separo-la-champions-los-reune-f202610-n/",
+          "source": "Diario AS",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcShnD4hrAGKn4LNcxWvI0jQ7fUxBO8064qJ5Uvj8Cem_kMdng8yAf-nNCFtMTM",
+          "og_title": "El Brexit los separó, la Champions los reúne",
+          "og_desc": "Iñigo no pudo marcharse con Iraola a la Premier en 2023 porque no le dieron el permiso de trabajo. Hoy se reencuentran en un estadio icónico: Anfield",
+          "og_image": "https://img.asmedia.epimg.net/resizer/v2/ZQOMIGTP3VGWPNLK3S3M57VYB4.jpg?auth=d07646f938839002ebb3c4441a52f77fd71eb6fc43e49c9095447dd728af5010&width=1472&height=828&focal=1028%2C1220",
+          "ok": true
+        },
+        {
+          "title": "Liverpool vs Villarreal: previa, predicciones y alineaciones",
+          "url": "https://www.si.com/es-us/liverpool-vs-villarreal-previa-predicciones-y-alineaciones-20-10-2026",
+          "source": "Sports Illustrated",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA5Y1bE3PCIhzeh3r4t4TzgbnF8uYwje_g_aBUW3NWOzMhnnI0ZWGvWlzACJg",
+          "og_title": "Liverpool vs Villarreal: previa, predicciones y alineaciones",
+          "og_desc": "El Liverpool recibe al Villarreal este martes 20 de octubre en Anfield por la tercera jornada de la fase de liga de la UEFA Champions League. El partido reedita",
+          "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_208,w_3438,h_1933/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/GettyImages/mmsport/sports_illustrated_ftbol/01m531d371b2ekwxk4t1.jpg",
+          "ok": true
+        },
+        {
+          "title": "VIDEO: Gol de Ronald Araújo para Liverpool ante Villarreal en la Champions League",
+          "url": "https://espndeportes.espn.com/futbol/champions-league/nota/_/id/17405648/video-ronald-araujo-gol-liverpool-vs-villarreal-uefa-champions-league",
+          "source": "ESPN Deportes",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFFzL-H5rHzl96ULCtrEmyRfJ0TWZEMOuKPXUczyJPDwsocGMOVHI6RuWulPs",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        }
+      ],
+      "geos": [
+        "IE"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "العنوان يطابق: vs",
+      "publishable": true,
+      "card": "cards/world-2026-10-20-liverpool-vs-villarreal.png",
+      "published_at": "2026-10-20T18:30:57.551591+00:00"
+    },
+    {
       "title": "prince harry family relocation interview",
       "traffic": "+11000",
       "traffic_num": 11000,
@@ -2115,86 +2204,6 @@
       },
       "card": "cards/world-2026-10-20-prince-harry-family-relocation-interview.png",
       "published_at": "2026-10-20T17:31:22.123219+00:00"
-    },
-    {
-      "title": "liverpool vs villarreal",
-      "traffic": "+11000",
-      "traffic_num": 11000,
-      "published": "Tue, 20 Oct 2026 11:00:00 -0700",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4udGMAnfKgvFTSfpL9pFjueRYUbKA_vcLrg4nXMgXNQv0naFPWGYcYreB70U",
-      "image_source": "Liverpool FC",
-      "news": [
-        {
-          "title": "Team news: Confirmed Liverpool line-up v Villarreal",
-          "url": "https://www.liverpoolfc.com/news/team-news-confirmed-liverpool-line-up-v-villarreal",
-          "source": "Liverpool FC",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4udGMAnfKgvFTSfpL9pFjueRYUbKA_vcLrg4nXMgXNQv0naFPWGYcYreB70U",
-          "og_title": "Team news: Confirmed Liverpool line-up v Villarreal - Liverpool FC",
-          "og_desc": "Liverpool make six changes for tonight’s Champions League encounter with Villarreal at Anfield.",
-          "og_image": "https://images.ctfassets.net/rm6ms1yxue4m/11BZVQ6wtxq5n6qNpPxQ2K/4144c4df5cf6df2b169c17934a393100/cody-gakpo-villarreal-main.jpg?w=1200&h=630&fit=crop&f=face",
-          "ok": true
-        },
-        {
-          "title": "Liverpool vs Villarreal LIVE! Champions League score updates, news, prediction and lineups",
-          "url": "https://www.skysports.com/football/live-blog/13600948/liverpool-vs-villarreal-live-champions-league-score-updates-news-prediction-and-lineups",
-          "source": "Sky Sports",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCXvnafUjwDDk7VmZBPSamucuRxHbadMoOvTumHABbsyKe1MK2Q-aoO7UPF04",
-          "og_title": "Liverpool vs Villarreal LIVE! Champions League score updates, news, prediction and lineups",
-          "og_desc": "Liverpool vs Villarreal LIVE! Champions League score updates, news, prediction and lineups",
-          "og_image": "https://e0.365dm.com/26/10/1600x900/skysports-football-bradley-barcola_7377021.jpg?20261014182121",
-          "ok": true
-        },
-        {
-          "title": "Villarreal’s Iñigo Pérez ready to meet Iraola again in test of old bond",
-          "url": "https://www.theguardian.com/football/2026/oct/20/liverpool-villarreal-inigo-perez-iraola-test-of-old-bond",
-          "source": "The Guardian",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipOPAPsxzNXOFO0NvQRcjZ-jnqUiASOOxMLPvXRzvxZibXHfqRaxYA68e9DM",
-          "og_title": "Villarreal’s Iñigo Pérez ready to meet Iraola again in test of old bond",
-          "og_desc": "Refused a work permit at Bournemouth, Pérez comes face to face with Liverpool’s head coach Andoni Iraola in Champions League",
-          "og_image": "https://i.guim.co.uk/img/media/6c4bff171c37fdaaa54d4033dbe3d8b40317fd5d/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6b74be8d685f64b3edf109dd31d751ca",
-          "ok": true
-        },
-        {
-          "title": "Liverpool - Villarreal en directo | Última hora de la Champions League en vivo hoy",
-          "url": "https://www.marca.com/futbol/champions-league/liverpool-villarreal/2026/10/20/01_0103_20261020_14_449-directo.html",
-          "source": "MARCA",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT73wjLRvREuqkUIc7V3soX7n2OYbejV27Hbs6rJLS_e8gdg7c00oZ_A6K_T1g",
-          "og_title": "Liverpool - Villarreal en directo | Última hora de la Champions League en vivo hoy | Marca",
-          "og_desc": "Una pena cómo ha acabado la primera parte en Anfield para el Villarreal. Pero es que así son los partidos del Liverpool en su campo. Los jugadores y l",
-          "og_image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/10/20/17925150667954.jpg",
-          "ok": true
-        },
-        {
-          "title": "El Brexit los separó, la Champions los reúne",
-          "url": "https://as.com/futbol/champions/el-brexit-los-separo-la-champions-los-reune-f202610-n/",
-          "source": "Diario AS",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcShnD4hrAGKn4LNcxWvI0jQ7fUxBO8064qJ5Uvj8Cem_kMdng8yAf-nNCFtMTM",
-          "og_title": "El Brexit los separó, la Champions los reúne",
-          "og_desc": "Iñigo no pudo marcharse con Iraola a la Premier en 2023 porque no le dieron el permiso de trabajo. Hoy se reencuentran en un estadio icónico: Anfield",
-          "og_image": "https://img.asmedia.epimg.net/resizer/v2/ZQOMIGTP3VGWPNLK3S3M57VYB4.jpg?auth=d07646f938839002ebb3c4441a52f77fd71eb6fc43e49c9095447dd728af5010&width=1472&height=828&focal=1028%2C1220",
-          "ok": true
-        },
-        {
-          "title": "Liverpool vs Villarreal: previa, predicciones y alineaciones",
-          "url": "https://www.si.com/es-us/liverpool-vs-villarreal-previa-predicciones-y-alineaciones-20-10-2026",
-          "source": "Sports Illustrated",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA5Y1bE3PCIhzeh3r4t4TzgbnF8uYwje_g_aBUW3NWOzMhnnI0ZWGvWlzACJg",
-          "og_title": "Liverpool vs Villarreal: previa, predicciones y alineaciones",
-          "og_desc": "El Liverpool recibe al Villarreal este martes 20 de octubre en Anfield por la tercera jornada de la fase de liga de la UEFA Champions League. El partido reedita",
-          "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_208,w_3438,h_1933/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/GettyImages/mmsport/sports_illustrated_ftbol/01m531d371b2ekwxk4t1.jpg",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "IE"
-      ],
-      "category": "رياضة",
-      "icon": "⚽",
-      "color": "#3ddc97",
-      "reason": "العنوان يطابق: vs",
-      "publishable": true,
-      "card": "cards/world-2026-10-20-liverpool-vs-villarreal.png",
-      "published_at": "2026-10-20T18:30:57.551591+00:00"
     },
     {
       "title": "chiefs standings",
@@ -5689,21 +5698,81 @@
       "published_at": "2026-10-20T19:03:55.784837+00:00"
     },
     {
-      "title": "isrg stock",
-      "traffic": "+900",
-      "traffic_num": 900,
-      "published": "Tue, 20 Oct 2026 13:10:00 -0700",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQmCRthwMGGu4mCCkTm6ZLIPMHcIMnf0EfR6pcs1gs5dCEZ168X4mL4CB9V6wc",
-      "image_source": "Quiver Quantitative",
+      "title": "kvaratskhelia",
+      "traffic": "1000+",
+      "traffic_num": 1000,
+      "published": "Tue, 20 Oct 2026 13:20:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSsdVJDalBHBNNT1SePkpUhXqE7nAPPGK-HLz2AySyn7SXI3zkDvOWPsoBbINI",
+      "image_source": "London Evening Standard",
       "news": [
         {
-          "title": "Intuitive Q3 Revenue Rises 22% to $3.05 Billion",
-          "url": "https://www.quiverquant.com/news/Intuitive+Q3+Revenue+Rises+22%25+to+%243.05+Billion",
-          "source": "Quiver Quantitative",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQmCRthwMGGu4mCCkTm6ZLIPMHcIMnf0EfR6pcs1gs5dCEZ168X4mL4CB9V6wc",
-          "og_title": "Intuitive Q3 Revenue Rises 22% to $3.05 Billion | ISRG Stock News",
-          "og_desc": "Intuitive (ISRG) reported third-quarter 2026 revenue of $3.05 billion, up 22% from a year earlier. G",
-          "og_image": "https://www.quiverquant.com/images/isrg_rect_new.png",
+          "title": "Transfer news LIVE: Kvaratskhelia to Arsenal; Chelsea beat Man Utd",
+          "url": "https://www.standard.co.uk/sport/football/transfer-news-live-arsenal-fc-chelsea-man-utd-liverpool-kvaratskhelia-b1284294.html",
+          "source": "London Evening Standard",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSsdVJDalBHBNNT1SePkpUhXqE7nAPPGK-HLz2AySyn7SXI3zkDvOWPsoBbINI",
+          "og_title": "Transfer news LIVE: Kvaratskhelia to Arsenal; Chelsea beat Man Utd",
+          "og_desc": "All the latest transfer news, rumours and gossip",
+          "og_image": "https://static.standard.co.uk/2026/10/20/6/00/FotoJet-(24).jpeg?width=1200&auto=webp&quality=75",
+          "ok": true
+        },
+        {
+          "title": "Arsenal told chances of signing PSG superstar Khvicha Kvaratskhelia amid two vital factors for transfer",
+          "url": "https://www.teamtalk.com/arsenal/gunners-told-chances-signing-psg-superstar-khvicha-kvaratskhelia-two-vital-factors",
+          "source": "TEAMtalk",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSy6MF9RI-zSRb34kLjcu9sgzLWZMXlQfNUH-h6BEm01vNRhIoQRE8H5ajl8UY",
+          "og_title": "Arsenal told chances of signing PSG superstar Khvicha Kvaratskhelia amid two vital factors for transfer",
+          "og_desc": "The Gunners' chances of signing the 'special' PSG superstar have been revealed... 👀 #AFC",
+          "og_image": "https://images.teamtalk.com/content/uploads/2026/03/Arsenal-manager-Mikel-Arteta-has-been-linked-with-a-move-for-PSG-superstar-Khvicha-Kvaratskhelia.jpg",
+          "ok": true
+        },
+        {
+          "title": "Transfer news latest: Kvaratskhelia to Arsenal links, Chelsea and Liverpool eye Scott, Man Utd track Parrott",
+          "url": "https://onefootball.com/en/news/transfer-news-latest-kvaratskhelia-to-arsenal-links-chelsea-and-liverpool-eye-scott-man-utd-track-parrott-43640653",
+          "source": "OneFootball",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQcyNu0bbz4_TvsfPDe-jGhMzbjcEOdnyF7G67LIf6eZXASfe2AxDEwWLkbCzE",
+          "og_title": "Transfer news latest: Kvaratskhelia to Arsenal links, Chelsea and Liverpool eye Scott, Man Utd track Parrott",
+          "og_desc": "Arsenal, Chelsea, Manchester United, Liverpool and Tottenham are stepping up January business, with big-name targets and key talks taking shape. Headline…",
+          "og_image": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fen%2F43640653%3Fdate=2026-10-20",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-20-kvaratskhelia.png",
+      "published_at": "2026-10-20T20:36:12.369056+00:00"
+    },
+    {
+      "title": "isrg stock",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Tue, 20 Oct 2026 13:10:00 -0700",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTqdHGJazy5PdUV4fwnCIDgdzZRVeuoRjChGKC9jkxdaobLifnPwMFmM0-h6BU",
+      "image_source": "Investor's Business Daily",
+      "news": [
+        {
+          "title": "Robotics Titan Dives On Narrowed 2026 Guidance",
+          "url": "https://www.investors.com/news/technology/intuitive-surgical-stock-intuitive-surgical-earnings-13-2026/",
+          "source": "Investor's Business Daily",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTqdHGJazy5PdUV4fwnCIDgdzZRVeuoRjChGKC9jkxdaobLifnPwMFmM0-h6BU",
+          "og_title": "Robotics Titan Dives On Narrowed 2026 Guidance",
+          "og_desc": "Intuitive Surgical stock tumbled late Tuesday after the company narrowed its guidance for 2026 da Vinci procedure growth.",
+          "og_image": "https://www.investors.com/wp-content/uploads/2026/01/stock-intuitive-surgical-adobe.jpg",
+          "ok": true
+        },
+        {
+          "title": "Intuitive Announces Third Quarter Earnings",
+          "url": "https://finance.yahoo.com/healthcare/articles/intuitive-announces-third-quarter-earnings-200500018.html",
+          "source": "Yahoo Finance",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO3991cmUa23oQpsumnf6NtdtOfBXAOpLMYmzi6bRn9ecUM__KmIK7G856Lxo",
+          "og_title": "Intuitive Announces Third Quarter Earnings",
+          "og_desc": "SUNNYVALE, Calif., Oct. 20, 2026 (GLOBE NEWSWIRE) -- Intuitive (the “Company”) (Nasdaq: ISRG), a global technology leader in minimally invasive care and the pioneer of robotic-assisted surgery, today announced financial results for the quarter ended September 30, 2026. Q3 Highlights Worldwide procedures (da Vinci and Ion combined) grew approximately 15% compared with the third quarter of 2025. Da Vinci procedures grew approximately 14%, and Ion procedures grew approximately 31%.The Company place",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/69fbf62298d2821d871f06ec6e04d24293ac1c6780e57c3b6b9c0b24f7dd8898/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2Fffee8cdf85f1e6ae6a8fa0601f51ae5a.jpg",
           "ok": true
         },
         {
@@ -5711,79 +5780,6 @@
           "url": "https://www.gurufocus.com/news/9131399/isrg-dcf-analysis-intrinsic-value-174-vs-price-433",
           "source": "GuruFocus",
           "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRPdxPZmYx5MJcT432hPOZitW44Dh5-yjL9ZnceeggIx6IltFMlfAOyf6XV04E",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "How Will Intuitive Surgical Stock React To Its Upcoming Earnings?",
-          "url": "https://www.trefis.com/stock/isrg/articles/619131/how-will-intuitive-surgical-stock-react-to-its-upcoming-earnings-3/2026-10-19",
-          "source": "Trefis",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQlRnhgAQBx6I6rQqBSdJCnzvY0ljzaoRzE1Gy6_Vw1rGjc914MlKaMfaWHt6c",
-          "og_title": "How Will Intuitive Surgical Stock React To Its Upcoming Earnings?",
-          "og_desc": "Intuitive Surgical (NASDAQ:ISRG) is scheduled to report its earnings on Tuesday, October 20, 2026. The company has a market value of about $151.1 billion. Over the last twelve months it generated $11.0 billion in revenue and $3.5 billion in operating profit, with net income of $3.1 billion.",
-          "og_image": "https://s3.amazonaws.com/wp-uploads-trefis/articles/wp-content/uploads/2025/05/16045303/electrocardiogram-stockpack-unsplash-scaled.jpg",
-          "ok": true
-        },
-        {
-          "title": "General Motors beats Wall Street's Q3 earnings expectations, narrows full-year guidance",
-          "url": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html",
-          "source": "CNBC",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQzieT01sKnZ3Vq5SUTwOq33OoKb6fBBH4Q3ZUdciDi9i6djL_hN-hqweeUHYU",
-          "og_title": "General Motors beats Wall Street's Q3 earnings expectations, narrows full-year guidance",
-          "og_desc": "GM narrowed its 2026 earnings guidance and raised its adjusted automotive free cash flow outlook after beating Wall Street’s third-quarter estimates.",
-          "og_image": "https://image.cnbcfm.com/api/v1/image/105723019-1792496650034-105723019-1549475553308gettyimages-538552694.jpg?v=1792496660&w=1920&h=1080",
-          "ok": true
-        },
-        {
-          "title": "General Motors Plans $20 Billion in Buybacks to Shore Up Share Price",
-          "url": "https://www.wsj.com/business/autos/general-motors-plans-20-billion-in-buybacks-to-shore-up-share-price-a857e6fe",
-          "source": "WSJ",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTpUhzJxt_zboP6YnKURM8YsIp_eqUTond-isJKFhPTYyLuR6qFxleBW_WD_gU",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "GM beats on Q3 results, tightens profit outlook, and unveils new $20 billion buyback",
-          "url": "https://finance.yahoo.com/markets/stocks/article/gm-beats-on-q3-results-tightens-profit-outlook-and-unveils-new-20-billion-buyback-103044849.html",
-          "source": "Yahoo Finance",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSm5AtXT8JxngRvRBdp4ZH-gicGHO9fPnxcJmBIgaDl7yGhR7nzsSTHIsV61d8",
-          "og_title": "GM beats on Q3 results, tightens profit outlook, and unveils new $20 billion buyback",
-          "og_desc": "GM posted third quarter results before the bell that topped estimates.",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/7ca62f5a41abdf3239a3ff0f3f24f1ae1c80475c8d340520f3ba03d24904e3af/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F1f2a6432-cd98-4829-9930-dfa10f37a474",
-          "ok": true
-        },
-        {
-          "title": "RTX Lifts Outlook on Strong Demand for Missiles and Air Travel",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/rtx-lifts-outlook-on-strong-demand-for-missiles-and-air-travel",
-          "source": "Bloomberg.com",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4k_emW-As7tAMJBj9lmHsDJDbxzulCvs0Cb5VEMH51_CvvZIb9dDptp5zU4U",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "RTX (RTX) Reports Q3: Everything You Need To Know Ahead Of Earnings",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rtx-rtx-reports-q3-everything-060617657.html",
-          "source": "Yahoo Finance",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRHfuxxG-L7Ew4yBSqnLW2S7jcFgW2A-YffHkf4__PM-0PecA6a4VzV1Pj9N8M",
-          "og_title": "RTX (RTX) Reports Q3: Everything You Need To Know Ahead Of Earnings",
-          "og_desc": "Aerospace and defense company Raytheon (NYSE:RTX) will be reporting results this Tuesday morning. Here’s what investors should know.",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/8add103ca356e5104e3bde31384331e081fb45405d4090ea36833f53dfc4b8f7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2Fdfce148a112d935fe60f1bee9aa7583b.jpg",
-          "ok": true
-        },
-        {
-          "title": "RTX’s Business Is Strong, but These Risks Are Holding Back the Stock",
-          "url": "https://www.barrons.com/articles/rtx-earnings-stock-price-f3af120c",
-          "source": "Barron's",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTsKjtiIHbiar2dn7UTcc5EBzJuHoiD3qgzVhOW0N4Wlr5I-plJ4f71y-uMCJs",
           "og_title": "",
           "og_desc": "",
           "og_image": "",
@@ -8077,13 +8073,14 @@
         },
         {
           "title": "Tracy McGrady on modern NBA max contracts: 'I’m jealous that some of these guys are making $50 and $60 million'",
-          "url": "https://uk.sports.yahoo.com/news/tracy-mcgrady-modern-nba-max-185757667.html",
-          "source": "Yahoo",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSD9F05be2Y_zXJi04mZ8xiftNPsohfSbfkMvP6OMJ19C2-KDx3yMr1Gons_OA",
-          "og_title": "Tracy McGrady on modern NBA max contracts: 'I’m jealous that some of these guys are making $50 and $60 million'",
-          "og_desc": "Tracy McGrady on modern NBA max contracts: 'I’m jealous that some of these guys are making $50 and $60 million'",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/93cbf4aa2669bf9a8e83652b0113aea59c895c2418f61b3734f2604c397a8463/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fhoops_hype_usa_today_sports_articles_974%2Faf7a619445c2c19eb3b1cb4d2efa5231.png",
-          "ok": true
+          "url": "https://www.hoopshype.com/story/sports/nba/rumors/2026/10/20/tracy-mcgrady-modern-nba-max-contracts-jealous-that-some-of-these-guys-are-making-50-and-60-million/92349454007/",
+          "source": "HoopsHype",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRnp3G_v1IXT8pdV8dZq_izq8mSfFnZNKCKBwwYtno_loz_k4Sy7hessZoI6xM",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         }
       ],
       "geos": [
@@ -8247,6 +8244,109 @@
       "publishable": false,
       "card": "cards/world-2026-10-20-rockstar-games-leaving-ps-plus.png",
       "published_at": "2026-10-20T20:30:58.149489+00:00"
+    },
+    {
+      "title": "atletico de madrid",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Tue, 20 Oct 2026 13:20:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSlUoBkkjIz327lSk65k5Ed9SNwjirFtJnpcvdc-5D9UEvUbikFdeID9_pTfYI",
+      "image_source": "Diario AS",
+      "news": [
+        {
+          "title": "Stuttgart - Atlético, en directo: Champions League, hoy, en vivo",
+          "url": "https://as.com/futbol/champions/stuttgart-atletico-en-directo-champions-league-hoy-en-vivo-f202610-d/",
+          "source": "Diario AS",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSlUoBkkjIz327lSk65k5Ed9SNwjirFtJnpcvdc-5D9UEvUbikFdeID9_pTfYI",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Cuándo juegan VFB Stuttgart vs. Atlético Madrid por UEFA Champions League: equipo, fecha, hora y TV en vivo",
+          "url": "https://espndeportes.espn.com/futbol/champions-league/nota/_/id/17404522/vfb-stuttgart-vs-atletico-madrid-uefa-champions-league-equipo-fecha-hora-y-tv-en-vivo",
+          "source": "ESPN Deportes",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9oh_I76bgCZ4vUyly5K-dRTub9JZlTNGbp_LlHMdWkOt8fVQvdjMq1VXt-x4",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "El deseado Atlético de los ‘llegadores’ en el santuario rojiblanco de Stuttgart",
+          "url": "https://elpais.com/deportes/futbol/2026-10-20/el-deseado-atletico-de-los-llegadores-en-el-santuario-rojiblanco-de-stuttgart.html",
+          "source": "EL PAÍS",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTA6RKKmjqmMLazWs39b2V0E7hJfjJUkkg-Mk5xNpl9QLxVOdvKmtIcZdN7VmM",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-10-20-atletico-de-madrid.png",
+      "published_at": "2026-10-20T20:36:12.369056+00:00"
+    },
+    {
+      "title": "google deepmind minecraft ai agents",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Tue, 20 Oct 2026 13:10:00 -0700",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTQsJTjHK5enzrBij8qdsxqh4GPgvIVYJs8VegBZdlOQkB2Chf7bY29j5D8ufs",
+      "image_source": "Engadget",
+      "news": [
+        {
+          "title": "Google Gemini 4 Agents Just Beat Minecraft With No Human Intervention",
+          "url": "https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/",
+          "source": "Engadget",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTQsJTjHK5enzrBij8qdsxqh4GPgvIVYJs8VegBZdlOQkB2Chf7bY29j5D8ufs",
+          "og_title": "Google Gemini 4 agents just beat Minecraft with no human intervention - Engadget",
+          "og_desc": "Four Gemini 4 Argon agents beat Minecraft's Ender Dragon with no human intervention by sharing tips, threats and mistakes.",
+          "og_image": "https://www.engadget.com/img/gallery/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/l-intro-1792401444.jpg",
+          "ok": true
+        },
+        {
+          "title": "Four AI Agents Have Slain Minecraft’s Ender Dragon",
+          "url": "https://gizmodo.com/four-ai-agents-have-slain-minecrafts-ender-dragon-2000827679",
+          "source": "Gizmodo",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWQNy33wPCyw-INw5BGzYyOWcM0FYMa-KqIEz47dFi0j8bftpaFCGvtFn3An8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Google says Gemini 4 Argon agents beat 'Minecraft' without human help",
+          "url": "https://mashable.com/tech/google-claims-gemini-argon-can-beat-minecraft-no-human-help",
+          "source": "Mashable",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQw2byhOGeLTQiBHvwt31Fxzgiz3RhhobM2Nh2mh9zPNKrhiq_aDDSMo-UufCU",
+          "og_title": "Gemini 4 Argon agents beat 'Minecraft' after 605 deaths, Google says",
+          "og_desc": "The team of AI agents took down the Ender Dragon after 605 deaths.",
+          "og_image": "https://helios-i.mashable.com/imagery/articles/0741H9OUCmTWKgXrq3i0bxk/hero-image.fill.size_1200x675.v1792427890.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "تقنية",
+      "icon": "💻",
+      "color": "#5aa9ff",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-20-google-deepmind-minecraft-ai-agents.png",
+      "published_at": "2026-10-20T20:36:12.369056+00:00"
     },
     {
       "title": "chris pratt",
@@ -10725,6 +10825,57 @@
       "publishable": false,
       "card": "cards/world-2026-10-20-palworld-fan-poll-winner-sekhmet.png",
       "published_at": "2026-10-20T20:01:03.587498+00:00"
+    },
+    {
+      "title": "carmelo anthony",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Tue, 20 Oct 2026 13:20:00 -0700",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQpLjtZBP9S3Gow3Z7xnUeNuAnTjBYadYI9aLV0hsjz2ZGApnGq3nCYY1oAAFE",
+      "image_source": "Fox News",
+      "news": [
+        {
+          "title": "Carmelo Anthony thinks Knicks are the 'team to beat' as long as they do this following NBA title win",
+          "url": "https://www.foxnews.com/outkick-sports/carmelo-anthony-thinks-knicks-team-beat-following-nba-title-win",
+          "source": "Fox News",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQpLjtZBP9S3Gow3Z7xnUeNuAnTjBYadYI9aLV0hsjz2ZGApnGq3nCYY1oAAFE",
+          "og_title": "Carmelo Anthony thinks Knicks are the 'team to beat' as long as they do this following NBA title win",
+          "og_desc": "The New York Knicks face a massive target as defending NBA champions, and Carmelo Anthony warned every team will circle them on their schedule.",
+          "og_image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/carmelo-anthony-knicks-parade-fox-news_.jpg",
+          "ok": true
+        },
+        {
+          "title": "Carmelo Anthony makes GOAT admission about OG Anunoby’s Knicks NBA Finals tip-in",
+          "url": "https://sports.yahoo.com/articles/carmelo-anthony-makes-goat-admission-173259134.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR2SK68qTAbRCeGtg2ukcsmMSH9uL8WPeEZd0hZ14BATS3nQqVj-MTM-7p3R7c",
+          "og_title": "Carmelo Anthony makes GOAT admission about OG Anunoby’s Knicks NBA Finals tip-in",
+          "og_desc": "The New York Knicks are currently making the final preparations for Tuesday night’s game against the Philadelphia 76ers , which will be the first of the new season for both teams. Before the game, the Knicks will be hoisting a banner and receiving championship rings to commemorate last year’s NBA title, which was the first in 53 years for the […] The post Carmelo Anthony makes GOAT admission about OG Anunoby’s Knicks NBA Finals tip-in appeared first on ClutchPoints.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/78b2fad5d357c822d465767e3c54ef416331817af91250ff9d1c0dcb9e69397c/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fclutchpoints_articles_939%2Fac55ac4483f9d47d47388025396cd8f8.jpg",
+          "ok": true
+        },
+        {
+          "title": "Carmelo Anthony sizes up a loaded East as Knicks look to defend title",
+          "url": "https://www.usatoday.com/videos/sports/sports-seriously/2026/10/20/carmelo-anthony-sizes-up-a-loaded-east-as-knicks-look-to-defend-title/92343751007/",
+          "source": "USA Today",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSZlpbtPTOljFXu-A1P_F6nq84eV_w2-gDbkNn8K0cIPZwjJEuHtSYKrFvpstI",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-20-carmelo-anthony.png",
+      "published_at": "2026-10-20T20:36:12.369056+00:00"
     },
     {
       "title": "midterms",

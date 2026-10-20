@@ -199,13 +199,13 @@
   "output": 1120,
   "cut": 0,
   "refused": 0,
-  "written": 4,
-  "g_calls": 4,
-  "g_input": 9957,
-  "g_output": 2466,
+  "written": 5,
+  "g_calls": 5,
+  "g_input": 11868,
+  "g_output": 3034,
   "g_errors": 2,
   "usd": 0.015,
-  "gemini_usd_if_paid": 0.0062,
+  "gemini_usd_if_paid": 0.0075,
   "last_gemini_error": "RuntimeError: Gemini HTTP 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Internal error encountered.\",\n    \"status\": \"INTERNAL\"\n  }\n}\n"
  }
 }

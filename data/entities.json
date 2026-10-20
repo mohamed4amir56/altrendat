@@ -2875,7 +2875,7 @@
         "headlines": [
           "«التحالف» يعترض صاروخاً باتجاه الرياض... و«فجر اليمن» تكثّف ضرباتها ضد الحوثيين (تغطية حية)",
           "السعودية تعلن اعتراض صاروخ ومسيّرة فوق الرياض",
-          "هجمات الحوثيين تتواصل.. التحالف بقيادة السعودية يعلن اعتراض صاروخ أُطلق باتجاه الرياض"
+          "«تحالف دعم الشرعية»: اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية باتجاه الرياض"
         ]
       }
     ],
@@ -5112,12 +5112,12 @@
         "country_name": "السعودية",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "حوادث وقضايا",
-        "publishable": false,
+        "category": "سياسة",
+        "publishable": true,
         "headlines": [
           "الزعيم السيسى يشهد إعلان اتفاق بين الدولة وطلعت مصطفى لإنشاء 4 مشروعات بـ11 تريليون جنيه",
           "الحكومة المصرية تواصل خطط التوسع العمراني رغم انتقادات «الإشغال»",
-          "مدبولي: قضية بناء وتعمير الصحراء وتنمية الأراضي غير المستغلة تُعد حتمية لمصر"
+          "رئيس الوزراء يستعرض أسباب التوسع في إنشاء المدن الجديدة"
         ]
       }
     ],
@@ -5128,7 +5128,7 @@
       "sa"
     ],
     "peak_traffic": 5000,
-    "category": "حوادث وقضايا"
+    "category": "سياسة"
   },
   "محمد-الفايد": {
     "slug": "محمد-الفايد",
@@ -215103,15 +215103,30 @@
           "Beşiktaş'tan Fenerbahçe'ye Tarihi Darbe!",
           "Beşiktaş, pota derbisinde Fenerbahçe'yi yendi"
         ]
+      },
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "🔴 | CANLI İZLE: Fenerbahçe – Slavia Prag maçı ne zaman, saat kaçta, hangi kanalda? Şampiyonlar Ligi'nde kritik randevu! Fenerbahçe – Slavia Prag maçı muhtemel 11'ler...",
+          "Ve İsmail Kartal, Greenwood'u resmen açıkladı! Slavia Prag maçı için flaş karar",
+          "Nathan Ake: 'Bu hoşuma gidiyor!' Fenerbahçe'nin stoperinden fikstür ve Ederson sözleri..."
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 4,
+    "last_seen": "2026-10-20",
+    "total": 5,
     "countries": [
       "sa",
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "عام"
   },
   "fire-restoration": {
@@ -341347,8 +341362,8 @@
         "publishable": false,
         "headlines": [
           "Trainer von BVB-Gegner verdankt seine Karriere „Wer wird Millionär?“",
-          "Hält Dortmund-Hexer Kobel gegen Sabah die Null?",
-          "Zum Geburtstag: Startelf-Debüt für ÖFB-Profi"
+          "Zum Geburtstag: Startelf-Debüt für ÖFB-Profi",
+          "Dortmund unter Druck: Beendet der BVB die Mini-Krise in Aserbaidschan?"
         ]
       },
       {
@@ -341362,18 +341377,34 @@
         "publishable": false,
         "headlines": [
           "Trainer von BVB-Gegner verdankt seine Karriere „Wer wird Millionär?“",
-          "Zum Geburtstag: Startelf-Debüt für ÖFB-Profi",
-          "Dortmund unter Druck: Beendet der BVB die Mini-Krise in Aserbaidschan?"
+          "Hält Dortmund-Hexer Kobel gegen Sabah die Null?",
+          "Zum Geburtstag: Startelf-Debüt für ÖFB-Profi"
+        ]
+      },
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+5500",
+        "traffic_num": 5500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Wie BVB-Gegner Sabah seine Zuschauerzahl vervierzigfacht",
+          "Kovac hofft auf Steigerung: \"Schneller und genauer spielen\"",
+          "Sabah FK – BVB im LIVE-Ticker: Champions League heute – Besteht Dortmund in Baku?"
         ]
       }
     ],
     "last_seen": "2026-10-20",
-    "total": 2,
+    "total": 3,
     "countries": [
       "eg",
-      "sa"
+      "sa",
+      "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 5500,
     "category": "رياضة"
   },
   "وادي-دجلة-ضد-البنك-الاهلي": {
@@ -341449,9 +341480,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Pakistan vs England LIVE: ODI tri-series, Rawalpindi - cricket score, radio commentary & updates",
-          "Arafat rips through England as Brook’s men wilt against Pakistan in tri-series opener",
-          "Ball by Ball Commentary & Live Score - PAK vs ENG, 2nd Match"
+          "Pakistan vs England: Sloppy visitors floored by Arafat Minhas in Rawalpindi",
+          "England collapse to 87-run defeat by Pakistan in men’s tri-series cricket ODI – as it happened",
+          "2nd Match (D/N), Pakistan ODI Tri-Series at Rawalpindi, Oct 20 2026"
         ]
       }
     ],
@@ -341509,7 +341540,7 @@
         "headlines": [
           "Fenerbahce - Slavia Prag: Prognose, Übertragung, Anstoßzeit und Aufstellungen 20-10-2026",
           "Sportwetten am 20. Oktober 2026: Top-Begegnungen & Quoten",
-          "Fenerbahçe vor richtungsweisendem Duell gegen Slavia Prag – Asensio fällt monatelang aus"
+          "Kartal kündigt Rotation gegen Slavia Prag an"
         ]
       }
     ],
@@ -341520,5 +341551,150 @@
     ],
     "peak_traffic": 200,
     "category": "عام"
+  },
+  "guillermo-del-toro-morelia-film-festival": {
+    "slug": "guillermo-del-toro-morelia-film-festival",
+    "name": "guillermo del toro morelia film festival",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Guillermo del Toro dice que las nuevas generaciones recibirán “un mundo en ruinas”",
+          "Morelia se rinde ante Guillermo del Toro",
+          "Guillermo del Toro recibe la Medalla Filmoteca UNAM en el 24° FICM"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "فن ومشاهير"
+  },
+  "marcus-freeman-notre-dame-record-analysis": {
+    "slug": "marcus-freeman-notre-dame-record-analysis",
+    "name": "marcus freeman notre dame record analysis",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "These numbers show just how fraudulent Notre Dame has been during the Marcus Freeman era",
+          "Big 12 admits error in Notre Dame-BYU, says Irish had time for one more play",
+          "Notre Dame football coach Marcus Freeman on CJ Carr's showing vs. BYU"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "lou-gramm-final-tour-retirement": {
+    "slug": "lou-gramm-final-tour-retirement",
+    "name": "lou gramm final tour retirement",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Rock legend retiring after 5 decades: ‘I’ve done all there is to do’",
+          "Legendary rock singer retiring at 76: ‘Been doing this over 54 years’",
+          "Rock icon ready to retire after 54 years: ‘Wanna go out with a bang’"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "enes-freedom": {
+    "slug": "enes-freedom",
+    "name": "enes freedom",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Enes Kanter Freedom responds after WNBA informs Congress about draft eligibility",
+          "Enes Kanter Freedom Slams WNBA for Calling Him a Man While Refusing to Define “Woman”",
+          "WNBA Says Enes Kanter Freedom, Royce White Can't Play Because They're 'Both Men'"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "سياسة"
+  },
+  "carlos-miguel-suarez": {
+    "slug": "carlos-miguel-suarez",
+    "name": "carlos miguel suarez",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Muere querido actor de Soñadoras: en sus últimos años vendió tacos tras sufrir secuestro",
+          "Muere Carlos Miguel Suárez Soto: el actor que dejó Televisa tras sufrir un secuestro y terminó vendido tacos",
+          "Muere Carlos Miguel Suárez, actor de ‘Muchachitas’ y ‘Amigas y Rivales’: ¿Qué se sabe de su fallecimiento?"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "سياسة"
   }
 }

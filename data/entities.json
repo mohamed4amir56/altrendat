@@ -2873,9 +2873,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "بريطانيا ستنشر طائرات قتالية في \"مهام دفاعية\" دعماً للسعودية، و\"اعتراض\" صاروخ أطلق نحو الرياض",
-          "الدفاع البريطانية تكشف عزمها إرسال مقاتلات تايفون للمساهمة في أدوار دفاعية بالسعودية",
-          "\"الهجمات على حليفتنا أعمال بغيضة\".. بريطانيا تعلن نشر مقاتلات للدفاع عن السعودية"
+          "«التحالف» يعترض صاروخاً باتجاه الرياض... و«فجر اليمن» تكثّف ضرباتها ضد الحوثيين (تغطية حية)",
+          "السعودية تعلن اعتراض صاروخ ومسيّرة فوق الرياض",
+          "هجمات الحوثيين تتواصل.. التحالف بقيادة السعودية يعلن اعتراض صاروخ أُطلق باتجاه الرياض"
         ]
       }
     ],
@@ -5112,11 +5112,12 @@
         "country_name": "السعودية",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "سياسة",
-        "publishable": true,
+        "category": "حوادث وقضايا",
+        "publishable": false,
         "headlines": [
-          "تفويض دعم السعودية.. تأجيل ثان للبرلمان وأسئلة بشأن حسابات القاهرة",
-          "انفراجات انفراجات"
+          "الزعيم السيسى يشهد إعلان اتفاق بين الدولة وطلعت مصطفى لإنشاء 4 مشروعات بـ11 تريليون جنيه",
+          "الحكومة المصرية تواصل خطط التوسع العمراني رغم انتقادات «الإشغال»",
+          "مدبولي: قضية بناء وتعمير الصحراء وتنمية الأراضي غير المستغلة تُعد حتمية لمصر"
         ]
       }
     ],
@@ -5127,7 +5128,7 @@
       "sa"
     ],
     "peak_traffic": 5000,
-    "category": "سياسة"
+    "category": "حوادث وقضايا"
   },
   "محمد-الفايد": {
     "slug": "محمد-الفايد",
@@ -30581,10 +30582,25 @@
           "«الفجر في الإسكندرية 05.34».. جدول مواقيت الصلاة في محافظات مصر غداً الأربعاء 14 أكتوبر 2026",
           "مواقيت الصلاة اليوم الخميس 15 أكتوبر 2026 في القاهرة والمحافظات"
         ]
+      },
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "ديني",
+        "publishable": true,
+        "headlines": [
+          "مواقيت الصلاة اليوم الثلاثاء 20 أكتوبر 2026 بمحافظات الجمهورية",
+          "«العشاء في الإسكندرية 7:42».. جدول مواقيت الصلاة في محافظات مصر غداً الثلاثاء 20 أكتوبر 2026",
+          "مواقيت الصلاة اليوم الإثنين، موعد أذان الظهر في القاهرة والمحافظات"
+        ]
       }
     ],
-    "last_seen": "2026-10-15",
-    "total": 12,
+    "last_seen": "2026-10-20",
+    "total": 13,
     "countries": [
       "eg"
     ],
@@ -77784,8 +77800,8 @@
         "date": "2026-10-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -77800,7 +77816,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "رياضة"
   },
   "nail": {
@@ -124944,10 +124960,25 @@
           "تركي آل الشيخ يعلن حفلًا استثنائيًا منتظرًا للفنان فضل شاكر ضمن موسم الرياض",
           "بعد غياب 14 عاما .. فضل شاكر يحيي أولى حفلاته في الرياض"
         ]
+      },
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "فضل شاكر .. \"الغايب\" يعود إلى الرياض والخُبر",
+          "فضل شاكر ونجله محمد.. لقاء الأجيال على مسرح الخبر",
+          ".. ويعلن حفل فضل شاكر وابنه في الخُبر الذي سيقام في 30 أكتوبر"
+        ]
       }
     ],
-    "last_seen": "2026-10-04",
-    "total": 1,
+    "last_seen": "2026-10-20",
+    "total": 2,
     "countries": [
       "sa"
     ],
@@ -231488,14 +231519,29 @@
           "صدام رباعي القمة.. كيف ستغير الجولة السادسة خريطة الدوري المصري؟",
           "ترتيب الزمالك والأهلي في جدول الدوري المصري قبل مباراة القمة اليوم"
         ]
+      },
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "+2200",
+        "traffic_num": 2200,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "مباراة فريقي بترول أسيوط و الزمالك في بطولة الدوري المصري - الأسبوع 7",
+          "ترتيب جدول الدوري الممتاز بعد مباريات اليوم الاثنين.. بيراميدز في الصدارة",
+          "المصرى يرفع شعار «أكون أو لا أكون» فى مواجهة أبوقير المقاولون يصطدم بالشرقية إنبى.. وسموحة ضيفا على الجونة"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 1,
+    "last_seen": "2026-10-20",
+    "total": 2,
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 2200,
     "category": "رياضة"
   },
   "صاروخ-طواف-كروز": {
@@ -234125,10 +234171,25 @@
           "مبادرة عراقية لربط الطاقة والاتصالات والنقل إقليمياً",
           "مصر وتركيا تدعوان أميركا وإيران إلى استئناف الحوار لإنهاء التصعيد"
         ]
+      },
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "وزير الداخلية يبحث مع مسؤول صيني سبل تعزيز التعاون الأمني بين البلدين",
+          "وزير الداخلية يبحث مع نائب وزير الأمن العام الصيني والوفد المرافق تعزيز التعاون المشترك",
+          "وزير الداخلية: حريصون على تعزيز التعاون الأمني مع الصين وتبادل الخبرات لمواجهة الجرائم المنظمة"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 2,
+    "last_seen": "2026-10-20",
+    "total": 3,
     "countries": [
       "sa"
     ],
@@ -271410,15 +271471,30 @@
           "ذكرى رحيل الفنان محمود ياسين فى كاريكاتير اليوم السابع",
           "في ذكرى رحيله.. محمود ياسين جندي السينما الذي خلد بطولات المصريين"
         ]
+      },
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "زفاف يتحول إلى مأساة.. كاهن يلقى مصرعه بعد سقوط صليب عليه أثناء قداس",
+          "عمرو محمود ياسين يعلق على حادث وفاة قس الإكوادور: \"الشامتين ناس مجرمة\"",
+          "محمد سعد الأزهري ينتقد السخرية من وفاة قسيس في الإكوادور: لا نشمت في مصائب الناس"
+        ]
       }
     ],
-    "last_seen": "2026-10-14",
-    "total": 1,
+    "last_seen": "2026-10-20",
+    "total": 2,
     "countries": [
       "eg"
     ],
     "peak_traffic": 200,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "طالب": {
     "slug": "طالب",
@@ -320619,12 +320695,12 @@
         "country_name": "السعودية",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Mice cause ‘imminent health hazard closure’ at Westminster movie theater",
-          "Zelensky and US envoys to hold Oslo talks as Rubio denies withholding intelligence",
-          "US envoys Witkoff, Kushner to take part in Ukraine talks in Oslo: Norway"
+          "Sudan army strike in disputed territory kills 53: local authorities",
+          "Drone Strike in Disputed Sudan-South Sudan Area Kills Dozens, Minister Says",
+          "Drone attacks across Sudan escalate, 160 people reported killed"
         ]
       }
     ],
@@ -320634,7 +320710,7 @@
       "sa"
     ],
     "peak_traffic": 1000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "northeast-united-fc-vs-kerala-blasters-standings": {
     "slug": "northeast-united-fc-vs-kerala-blasters-standings",
@@ -340963,14 +341039,14 @@
         "date": "2026-10-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "تقنية",
         "publishable": false,
         "headlines": [
           "Ticketmaster Goes All-In on AI, Names Ex-Amazon Exec as Chief Technology Officer",
           "Ticketmaster Names New CTO Amid Brazil Data Breach",
-          "Ticketmaster Names Former Amazon Executive Jim Freeman CTO as It Expands AI Push"
+          "Ticketmaster Names Ex-Amazon Prime Video VP Jim Freeman as CTO"
         ]
       }
     ],
@@ -340979,7 +341055,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "تقنية"
   },
   "hot-dog": {
@@ -340992,14 +341068,14 @@
         "date": "2026-10-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "عام",
         "publishable": false,
         "headlines": [
           "Kayem recalls 1.5 million pounds of meat products, including Fenway Franks",
-          "Fenway Franks, Old Tyme Reds among 68 products recalled by Kayem Foods",
-          "Nearly 1.6M pounds of hot dogs, bacon and other meats recalled nationwide"
+          "Kayem recalls more than 1.5 million pounds of meat, poultry products",
+          "Nearly 1.6 million pounds of meat voluntarily recalled nationwide"
         ]
       }
     ],
@@ -341008,7 +341084,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "عام"
   },
   "fenerbahçe-vs-slavia-praha": {
@@ -341021,14 +341097,14 @@
         "date": "2026-10-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+1500",
-        "traffic_num": 1500,
+        "traffic": "+3000",
+        "traffic_num": 3000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Dva roky půstu. Slavia chce utnout nelichotivou sérii",
-          "Jak jsme bez Jindry vyzráli na Turka. Köstl o výhře na Fenerbahce: Slavia ji zopakuje!",
-          "V hlavě mám šňůru porážek víc než v minulosti. Musí se sejít úplně všechno, říká Trpišovský"
+          "PREVIEW | Fenerbahçe vs Slavia Praha: team news, lineups, predictions (Champions League 20/10)",
+          "October 21, 2026: Lille vs Galatasaray: First Half Winner Soccer Prediction Market",
+          "Fenerbahce vs Slavia Prague LIVE: Updates from huge Champions League clash"
         ]
       }
     ],
@@ -341037,7 +341113,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1500,
+    "peak_traffic": 3000,
     "category": "رياضة"
   },
   "navatek-federal-contracts-bribery-probe": {
@@ -341050,14 +341126,14 @@
         "date": "2026-10-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
+          "Trump’s FBI Killed Bribery Probe Into Two Top Members of Congress",
           "FBI investigated whether Graham, Clyburn were involved in bribery scheme: Report",
-          "Trump’s FBI Killed Bribery Probe Into Lindsey Graham—and James Clyburn",
-          "FBI Was Probing Lindsey Graham and James Clyburn for Bribery — Until Trump Purged the Agency"
+          "Trump’s FBI Killed Bribery Probe Into Lindsay Graham—and James Clyburn"
         ]
       }
     ],
@@ -341066,7 +341142,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "حوادث وقضايا"
   },
   "sunny-hostin": {
@@ -341104,23 +341180,39 @@
         "date": "2026-10-20",
         "country": "eg",
         "country_name": "مصر",
+        "traffic": "+2500",
+        "traffic_num": 2500,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "تشكيل بيراميدز.. 5 تغييرات من موكوينا.. وبن بوعلي وأوباما يقودان الهجوم أمام طلائع الجيش",
+          "مزق فى العضلة الخلفية يبعد عمرو طارق عن طلائع الجيش أمام بيراميدز",
+          "موكوينا يعلن قائمة بيراميدز لمباراة طلائع الجيش في الدوري"
+        ]
+      },
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "تشكيل بيراميدز.. 5 تغييرات من موكوينا.. وبن بوعلي وأوباما يقودان الهجوم أمام طلائع الجيش",
           "قائمة بيراميدز فى معسكر مباراة طلائع الجيش.. عودة حامد حمدان",
-          "بيراميدز يسعى لتأمين صدارة الدوري أمام طلائع الجيش",
-          "بيراميدز في امتحان \"الطلائع\""
+          "موعد مباراة طلائع الجيش وبيراميدز في الدوري المصري والقنوات الناقلة"
         ]
       }
     ],
     "last_seen": "2026-10-20",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 2500,
     "category": "رياضة"
   },
   "خناق": {
@@ -341179,6 +341271,254 @@
       "sa"
     ],
     "peak_traffic": 100,
+    "category": "عام"
+  },
+  "live-nation-calvin-harris-presale": {
+    "slug": "live-nation-calvin-harris-presale",
+    "name": "live nation calvin harris presale",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "How to secure Calvin Harris presale tickets for first-ever headlining North American tour",
+          "Calvin Harris Announces His First Ever Headlining North American Tour: Is He Coming to Your City?",
+          "Calvin Harris set to return to Seattle in 2027"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "sabah-fk": {
+    "slug": "sabah-fk",
+    "name": "sabah fk",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Confirmed lineups: Sabah vs. Borussia Dortmund",
+          "Comment Thread: Dortmund Face Sabah on the Caspian",
+          "Lars Ricken: “Our goal is to come back with a win”"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "sabah-vs-dortmund": {
+    "slug": "sabah-vs-dortmund",
+    "name": "sabah vs dortmund",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Trainer von BVB-Gegner verdankt seine Karriere „Wer wird Millionär?“",
+          "Hält Dortmund-Hexer Kobel gegen Sabah die Null?",
+          "Zum Geburtstag: Startelf-Debüt für ÖFB-Profi"
+        ]
+      },
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Trainer von BVB-Gegner verdankt seine Karriere „Wer wird Millionär?“",
+          "Zum Geburtstag: Startelf-Debüt für ÖFB-Profi",
+          "Dortmund unter Druck: Beendet der BVB die Mini-Krise in Aserbaidschan?"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "وادي-دجلة-ضد-البنك-الاهلي": {
+    "slug": "وادي-دجلة-ضد-البنك-الاهلي",
+    "name": "وادي دجلة ضد البنك الاهلي",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "وادي دجلة يتحدى البنك الأهلي للابتعاد عن صراع الهبوط فى الدوري",
+          "البنك الأهلي يحسم الهجوم في غياب \"فيصل\"",
+          "أيمن الرمادي يصدر فرمانا للاعيبة البنك الأهلي قبل لقاء وادي دجلة.. طالع التفاصيل"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
+  },
+  "فنربخشة-ضد-سلافيا-براغ": {
+    "slug": "فنربخشة-ضد-سلافيا-براغ",
+    "name": "فنربخشة ضد سلافيا براغ",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "دوري أبطال أوروبا: مبارك سليمان، مشاركة أساسية تدخل التاريخ",
+          "تشكيل فنربخشة المتوقع أمام سلافيا براغ في دوري أبطال أوروبا 2026-2027",
+          "فنربخشة وغلطة سراي يخوضان الجولة الثالثة من دوري أبطال أوروبا"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "pakistan-national-cricket-team-vs-england-cricket-team-standings": {
+    "slug": "pakistan-national-cricket-team-vs-england-cricket-team-standings",
+    "name": "pakistan national cricket team vs england cricket team standings",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100000+",
+        "traffic_num": 100000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Pakistan vs England LIVE: ODI tri-series, Rawalpindi - cricket score, radio commentary & updates",
+          "Arafat rips through England as Brook’s men wilt against Pakistan in tri-series opener",
+          "Ball by Ball Commentary & Live Score - PAK vs ENG, 2nd Match"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100000,
+    "category": "رياضة"
+  },
+  "nandani-sharma": {
+    "slug": "nandani-sharma",
+    "name": "nandani sharma",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Sree Charani remains at top in Women's T20I rankings: Nandni Sharma, Kranti Gaud gain spots amid Zimbabwe s...",
+          "ICC Rankings: Nandni Sharma, Kranti Gaud make big gains",
+          "Nandini Sharma, Kranti Gaud Rise In ICC T20I Rankings; Megan Schutt, Ellyse Perry Make ODI Gains"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "fenerbahçe---slavia-prag": {
+    "slug": "fenerbahçe---slavia-prag",
+    "name": "fenerbahçe - slavia prag",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Fenerbahce - Slavia Prag: Prognose, Übertragung, Anstoßzeit und Aufstellungen 20-10-2026",
+          "Sportwetten am 20. Oktober 2026: Top-Begegnungen & Quoten",
+          "Fenerbahçe vor richtungsweisendem Duell gegen Slavia Prag – Asensio fällt monatelang aus"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
     "category": "عام"
   }
 }

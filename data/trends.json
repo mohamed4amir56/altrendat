@@ -5,7 +5,7 @@
     "name_en": "Worldwide",
     "lang": "en",
     "flag": "🌐",
-    "generated_at": "2026-10-20T14:30:58.427395+00:00",
+    "generated_at": "2026-10-20T15:01:05.462514+00:00",
     "day": "2026-10-20",
     "trends": [
       {
@@ -27,23 +27,24 @@
             "ok": true
           },
           {
-            "title": "Elderly couple die in fire at Co Cork house",
-            "url": "https://www.irishtimes.com/ireland/2026/10/20/elderly-couple-die-in-fire-at-co-cork-house/",
-            "source": "The Irish Times",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSieiwxT61lMl6_ap8_FWEz4_mdI0R5A0gIPjLNy_YKh8f6d40uOVZ8k4F-6To",
-            "og_title": "Elderly couple die in fire at Co Cork house",
-            "og_desc": "Roof of the property near Innishannon collapsed amid blaze, making search operations more difficult",
-            "og_image": "https://www.irishtimes.com/resizer/v2/KH3Y33EFL5GQHNRI5JDCHUBNO4.jpg?smart=true&auth=2059311491abcc8a0d12f22114b28e3d29e5bf67225cc1c1753b7cd05f9d5884&width=1200&height=630",
-            "ok": true
+            "title": "Man (70s) dies and woman missing after fire at Cork house",
+            "url": "https://www.independent.ie/irish-news/man-70s-dies-and-woman-missing-after-fire-at-cork-house/a/163327492.html",
+            "source": "Irish Independent",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUV6aeHY7vlykAV1pCRvYy8MuODsZdeTrnD7XP-4UWGebY4iYFoLCJoX9fbaA",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
           },
           {
-            "title": "At least one person has died in a house fire in west Cork",
-            "url": "https://www.thejournal.ie/fatal-fire-west-cork-innishannon-7198840-Oct2026/",
-            "source": "The Journal",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQlGyiLylerAugCtwlS8hZLDhv2Xinv84WcFNEZK0TE6h3tQiQFKI2ZQRgVv2M",
-            "og_title": "Two people have died in a house fire in west Cork",
-            "og_desc": "The blaze broke out this morning in the isolated area which is near the townland of Raheen north of Crossbarry.",
-            "og_image": "https://img2.thejournal.ie/article/7198840/river/?height=400&version=7198859",
+            "title": "West Cork house fire: Couple in their 70s found dead after one raised alarm",
+            "url": "https://www.irishexaminer.com/news/munster/arid-41926406.html",
+            "source": "Irish Examiner",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbpTQwn_WEQSPycyCLLwLjZ_h2HOZnL7PBUYntWQwyLKno1kvtuGqDQmzYLGw",
+            "og_title": "West Cork house fire: Couple in their 70s found dead after one raised alarm",
+            "og_desc": "The couple’s bodies were removed from their Raheen home as firefighting crews continued working at the scene and gardaí investigated",
+            "og_image": "https://www.irishexaminer.com/cms_media/module_img/10532/5266118_2_org_WhatsApp_20Image_202026-10-20_20at_2014.03.20.jpeg",
             "ok": true
           }
         ],
@@ -53,9 +54,50 @@
         "category": "حوادث وقضايا",
         "icon": "⛔",
         "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: died",
+        "reason": "ورد لفظ حسّاس: dies",
         "publishable": false,
         "card": "cards/world-2026-10-20-innishannon-fire.png"
+      },
+      {
+        "title": "fred lorenzen brain study results",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "published": "Tue, 20 Oct 2026 06:40:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuY1ymmeXdb4VOAYt63lRTJoMFH6de4Ic1eULCPc8xLtbqq4HL-Luus7Cufek",
+        "image_source": "USA Today",
+        "news": [
+          {
+            "title": "NASCAR legend diagnosed with CTE, lived '35 years of constant heartbreak'",
+            "url": "https://www.usatoday.com/story/sports/nascar/2026/10/20/nascar-driver-cte-fred-lorenzen-racing-concussions/92334488007/",
+            "source": "USA Today",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuY1ymmeXdb4VOAYt63lRTJoMFH6de4Ic1eULCPc8xLtbqq4HL-Luus7Cufek",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Fred Lorenzen, NASCAR Hall of Famer, diagnosed with CTE",
+            "url": "https://www.usatoday.com/picture-gallery/sports/nascar/2026/10/20/fred-lorenzen-nascar-hall-of-fame-driver/92330075007/",
+            "source": "USA Today",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQtpDMQHiO16nMKyQDpqHFiKpNcANYrrRo4Dnc0UcD4cwwldD2q3QBnUOwjGII",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/world-2026-10-20-fred-lorenzen-brain-study-results.png"
       },
       {
         "title": "slayground",
@@ -108,18 +150,77 @@
         "card": "cards/world-2026-10-20-slayground.png"
       },
       {
-        "title": "india vs zimbabwe",
-        "traffic": "2000+",
-        "traffic_num": 2000,
-        "published": "Tue, 20 Oct 2026 06:10:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQQFM6E8t3VFYAgpwTw4b_dLz8hcOdIaflQPUjtyDrImgUNs2JKW9Rw7JfTv70",
-        "image_source": "Cricinfo",
+        "title": "deportación",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "published": "Tue, 20 Oct 2026 07:30:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC0vl2AKYklaH8HCxCU3nN0CwUvXbDisFsCvmh0GKXnTXGH0OKZed8ssqMcpI",
+        "image_source": "Univision",
         "news": [
           {
-            "title": "Smriti Mandhana - new captain, proven leader",
-            "url": "https://www.cricinfo.com/story/indias-new-captain-smriti-mandhana-is-a-proven-leader-1558549",
-            "source": "Cricinfo",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQQFM6E8t3VFYAgpwTw4b_dLz8hcOdIaflQPUjtyDrImgUNs2JKW9Rw7JfTv70",
+            "title": "Fue deportado por error y no le devolvieron los $3,000 de su salario. El reclamo de un hispano tras dejar un centro de detención de ICE",
+            "url": "https://www.univision.com/noticias/inmigracion/ice-le-deporto-por-error-y-no-le-devolvio-los-3-000-dolares-de-salario-que-llevaba-cuando-fue-arrestado",
+            "source": "Univision",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC0vl2AKYklaH8HCxCU3nN0CwUvXbDisFsCvmh0GKXnTXGH0OKZed8ssqMcpI",
+            "og_title": "Fue deportado por error y no le devolvieron los $3,000 de su salario. El reclamo de un hispano tras dejar un centro de detención de ICE",
+            "og_desc": "N+Univision habla con Domingo Tot Quip, uno de los siete demandantes que denuncian que ICE no les devolvió sus pertenencias ni documentación. En su caso, no le devolvieron dinero en efectivo ni su pasaporte, lo que le dificultó regresar a EEUU tras un error en su deportación.",
+            "og_image": "https://www.univision.com/api/image/og/us/noticias/inmigracion/ice-le-deporto-por-error-y-no-le-devolvio-los-3-000-dolares-de-salario-que-llevaba-cuando-fue-arrestado",
+            "ok": true
+          },
+          {
+            "title": "Junta de Apelaciones endurece la reapertura de órdenes de deportación en ausencia en EE.UU.",
+            "url": "https://www.cibercuba.com/noticias/2026-10-20-u1-e129488-s27061-nid343319-junta-apelaciones-inmigracion-endurece-reapertura",
+            "source": "CiberCuba",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyGx-DJVnDIzNqsfFCJJDpsQwfWtTzpgsouoQQPl0PHePbEwC_akLYQQPkLlY",
+            "og_title": "Junta de Apelaciones endurece la reapertura de órdenes de deportación en ausencia en EE.UU.",
+            "og_desc": "Los inmigrantes que recibieron una orden de deportación por no presentarse a una audiencia y buscan reabrir su caso podrían enfrentar un examen más riguroso de las explicaciones que ofrecen para justificar su ausencia.",
+            "og_image": "https://cdn0.celebritax.com/sites/default/files/styles/watermark_100/public/1792497293-ljunta-apelaciones-inmigracion-endurece-reapertura-ordenes-deportacion-ausencia-eeuu.jpg",
+            "ok": true
+          },
+          {
+            "title": "¿Qué aconsejan los abogados a los cubanos con corte de inmigración próximamente aquí en Estados Unidos?",
+            "url": "https://www.directoriocubano.info/emigracion/que-dicen-abogados-cubanos-corte-inmigracion-estados-unidos-i220a-asilo/",
+            "source": "Directorio Cubano",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLq6Dwmrd7z815kb5Z0KxZeTdUC7zWL1P8QTjD_S523xm-mlXzcAlCy5z8MEM",
+            "og_title": "¿Qué aconsejan los abogados a los cubanos con corte de inmigración próximamente aquí en Estados Unidos?",
+            "og_desc": "¿Qué recomiendan los abogados a cubanos con corte de inmigración en Estados Unidos? Asilo, I-220A, apelaciones, residencia y testimonios contrastados con las normas oficiales.",
+            "og_image": "https://www.directoriocubano.info/wp-content/uploads/2026/10/20261018_153152-1200x675.jpg",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "سياسة",
+        "icon": "🏛️",
+        "color": "#ff5c7c",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-10-20-deportación.png"
+      },
+      {
+        "title": "jordan elliott",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Tue, 20 Oct 2026 07:20:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSAoUKQbPnUsCM77Sob4r07AHtnNWngexWr2pd4ElM0m-vdOoXv-RJNxs-Ywcw",
+        "image_source": "NBC Sports",
+        "news": [
+          {
+            "title": "Titans release DT Jordan Elliott after incident at team’s facility",
+            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-release-dt-jordan-elliott-after-incident-at-teams-facility",
+            "source": "NBC Sports",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSAoUKQbPnUsCM77Sob4r07AHtnNWngexWr2pd4ElM0m-vdOoXv-RJNxs-Ywcw",
+            "og_title": "Titans release DT Jordan Elliott after incident at team's facility",
+            "og_desc": "The Titans announced the release of defensive tackle Jordan Elliott on Tuesday.",
+            "og_image": "https://nbcsports.brightspotcdn.com/dims4/default/243abf4/2147483647/strip/true/crop/3795x2135+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F6f%2Fa9%2Ff45e17f04ec3a01b3e7f03e5f3e8%2F2290074146.jpg",
+            "ok": true
+          },
+          {
+            "title": "Tennessee Titans release DL Jordan Elliott after reviewing 'incident' at team facility",
+            "url": "https://www.tennessean.com/story/sports/nfl/titans/2026/10/20/jordan-elliott-tennesee-titans-release/92343994007/",
+            "source": "The Tennessean",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTCTlKzBJXdJJ_NdjQ2hgayQbwPBf8usuEF4G3QBOh3i09F7wguWERwFvTfPHU",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -127,72 +228,113 @@
             "error": "HTTPError"
           },
           {
-            "title": "Where to watch IND-W vs. ZIM-W live stream, TV channel, start time for 3rd T20I in Raipur",
-            "url": "https://sports.yahoo.com/articles/where-watch-ind-w-vs-013001268.html",
-            "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtA0bvcVSwAoyrABZcY8oZjWtHOoy9w8BuRO-S1YazHqU1do1JVZpv8cNp0HI",
-            "og_title": "Where to watch IND-W vs. ZIM-W live stream, TV channel, start time for 3rd T20I in Raipur",
-            "og_desc": "India Women take on Zimbabwe Women in the third T20I in Raipur. Here's how to watch the match live, including streaming details, TV channels, start time and lineups.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/bead7180ddf4d89996291a2a51e910ee265faecb3db0db3baff04b1a41b2b7ae/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_sporting_news_articles_584%2F9b458bec849a093a30e31940186a887b",
-            "ok": true
-          },
-          {
-            "title": "I couldn’t sleep after last match: Shafali Verma",
-            "url": "https://www.ahmedabadmirror.com/i-couldnt-sleep-after-last-match-shafali-verma/81924334.html",
-            "source": "Ahmedabad Mirror",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO4dhtvx88xSlH2wliq6SDc5mlHKVeMZb0gh0OQdkkQ5hEx6rFQK6KN34k7v8",
-            "og_title": "I couldn’t sleep after last match: Shafali Verma",
-            "og_desc": "I couldn’t sleep after last match: Shafali Verma",
-            "og_image": "https://media.ahmedabadmirror.com/am/uploads/mediaGallery/image/1792436086559.jpg-org",
+            "title": "Titans Release Jordan Elliott After Confirming 'Incident at Our Team Facility'",
+            "url": "https://bleacherreport.com/articles/25513494-titans-release-jordan-elliott-after-confirming-incident-our-team-facility",
+            "source": "Bleacher Report",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR32ClPIlCTxaLfNUlBDqg5NMU0d57pCnNRLWphA21D7BNXlSi7qxpK5Ywv-9I",
+            "og_title": "Titans Release Jordan Elliott After Confirming 'Incident at Our Team Facility'",
+            "og_desc": "The Tennessee Titans announced Tuesday they released defensive tackle Jordan Elliott following \"an incident at our team facility.\"",
+            "og_image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/ap_images/2026-10/d727e160853e4905be87e58e66d2e977/Eagles_Titans_Football_246_9_4951x2785_(0,301).jpg?w=1120&h=630",
             "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-10-20-india-vs-zimbabwe.png"
+        "card": "cards/world-2026-10-20-jordan-elliott.png"
       },
       {
-        "title": "people",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "title": "prince harry uk return interview",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Tue, 20 Oct 2026 07:20:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKOuwpKCajigu-XuxmpaDmAbAjqRBFa_Dbvx9ztxIkPtRdYHvkxlED8U4d8Is",
+        "image_source": "InStyle",
+        "news": [
+          {
+            "title": "Prince Harry Sums Up Why He and Meghan Markle Moved to the U.K. in One Simple Word",
+            "url": "https://www.instyle.com/prince-harry-sums-up-why-meghan-markle-moved-uk-one-word-12183901",
+            "source": "InStyle",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKOuwpKCajigu-XuxmpaDmAbAjqRBFa_Dbvx9ztxIkPtRdYHvkxlED8U4d8Is",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Prince Harry Opens Up About Move Back to England and Wanting to ‘Work It Out’ With King Charles and Prince William: ‘The Most Important Thing Is to Reconcile’",
+            "url": "https://variety.com/2026/tv/global/prince-harry-england-move-reconcile-william-charles-1236917352/",
+            "source": "Variety",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS_fm3NKKdTy8IinDEPuhgdPnF7wTXQv0lOVv6EpJvzLoMKWzXYaF1rdyIBWX4",
+            "og_title": "Prince Harry Opens Up About Move Back to England and Wanting to ‘Work It Out’ With King Charles and Prince William: ‘The Most Important Thing Is to Reconcile’",
+            "og_desc": "Prince Harry opens up about his move back to England and wanting to reconcile with King Charles and Prince William",
+            "og_image": "https://variety.com/wp-content/uploads/2026/08/harry.jpg?w=1000&h=563&crop=1",
+            "ok": true
+          },
+          {
+            "title": "Prince Harry Says He Wants to ‘Work Out’ Family Rift: ‘The Most Important Thing Is to Reconcile’",
+            "url": "https://people.com/prince-harry-wants-work-out-family-rift-most-important-thing-is-to-reconcile-12184015",
+            "source": "People.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQjANt7uOx2Asna4gsNCgmtjTCpzUkN4fkdurIfq5HMt_byVKztiLUcKvjqNMw",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/world-2026-10-20-prince-harry-uk-return-interview.png"
+      },
+      {
+        "title": "boardwalk rock 2027",
+        "traffic": "500+",
+        "traffic_num": 500,
         "published": "Tue, 20 Oct 2026 07:10:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQtkBZd3QSYEt1KcTh8Cxoy5csGzx53kNnyXW4frLzwnfaCu-BrOMuvl2CjNTE",
-        "image_source": "BuzzFeed",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ_I__k77xw06JgLoB4juI6uiCFk89BpNJYTAvWTOKf4uLXCZG32bmlxpmZXDM",
+        "image_source": "Iron Maiden",
         "news": [
           {
-            "title": "101 Of The Nicest Celebs People Have Ever Met, Including A Few I'm Actually Shocked About",
-            "url": "https://www.buzzfeed.com/hannahmarder/best-nice-celeb-encounters",
-            "source": "BuzzFeed",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQtkBZd3QSYEt1KcTh8Cxoy5csGzx53kNnyXW4frLzwnfaCu-BrOMuvl2CjNTE",
-            "og_title": "101 Of The Nicest Celebs People Have Ever Met, Including A Few I'm Actually Shocked About",
-            "og_desc": "\"I have worked on many seasons of Gordon Ramsay's US shows, and I can confirm that he is one of the friendliest, sweetest, most down-to-earth celebrities I've met.\"",
-            "og_image": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/15/21/thumb/d0knBR_50.jpg?crop=1249:654;0,59%26downsize=1250:*",
+            "title": "Iron Maiden make surprise return to North America in 2027",
+            "url": "https://www.ironmaiden.com/rfyl-north-america-2027/",
+            "source": "Iron Maiden",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ_I__k77xw06JgLoB4juI6uiCFk89BpNJYTAvWTOKf4uLXCZG32bmlxpmZXDM",
+            "og_title": "Iron Maiden make surprise return to North America in 2027 - Iron Maiden",
+            "og_desc": "Continuing the highly acclaimed Run For Your Lives tour for a final run of spring dates...",
+            "og_image": "https://www.ironmaiden.com/files/2026/10/IronMaiden_2027_All-Dates_WEBSITE.jpg",
             "ok": true
           },
           {
-            "title": "People Share The Best And Worst Celebrities They've Ever Met",
-            "url": "https://sg.news.yahoo.com/people-share-best-worst-celebrities-140000217.html",
-            "source": "Yahoo News Singapore",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7W0AstKOtuCv94Ok2HO8fbxiks1yI90LUdiszC06TaZG4tn6_fPwX7Iuq9Gc",
-            "og_title": "People Share The Best And Worst Celebrities They've Ever Met",
-            "og_desc": "Have you ever met a celebrity who was either awesome or downright terrible? See if your favorite person is good or bad at fan interactions.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/86ff125006970ec2a6bc67353455dc02a3c3dbfc17e7b1d42b5a1dcaf560eb06/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fknow_your_meme_909%2F2e03aea8315f513ce9dc30b3d91e4f89.jpg",
+            "title": "Iron Maiden at UBS Arena on May 11th",
+            "url": "https://music.mxdwn.com/2026/10/19/new-york-city/iron-maiden-at-ubs-arena-on-may-11th/",
+            "source": "mxdwn Music",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQUChD8RJlXNd8_Ae2KmKGCmXdyaogbhrPrhDHtVDd4Y3ESq57FSJ6bRxeF-eU",
+            "og_title": "Iron Maiden at UBS Arena on May 11th -",
+            "og_desc": "Iron Maiden just announced the third and final leg of the Run For Your Lives Tour. The tour spans 16 dates, including a show at UBS Arena on May 11th. The Run For Your Lives Tour celebrates the British band’s 50th anniversary. This year, Iron Maiden has performed throughout Europe, Canada, and the US, and they are",
+            "og_image": "https://music-b26f.kxcdn.com/wp-content/uploads/2022/09/Iron-Maiden_BLS-4760.jpg",
             "ok": true
           },
           {
-            "title": "\"He Flipped Us Off And Drove Away\": People Who've Met Celebrities In The Randomest Ways Are Getting Brutally Honest About What They Were *Really* Like",
-            "url": "https://www.buzzfeed.com/jake_farrington/real-life-celebrity-encounters-reddit",
-            "source": "BuzzFeed",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQsY7L2aUXxvuPVSCZqw4Rt6diVTPhwLMeBrBOwku1HJxaV_md5_RKxHouRjOI",
-            "og_title": "\"He Flipped Us Off And Drove Away\": People Who've Met Celebrities In The Randomest Ways Are Getting Brutally Honest About What They Were *Really* Like",
-            "og_desc": "\"I had no idea who she was during the five-second incident, until her security let me go and said, 'You're lucky Miss [REDACTED] is so nice.\"",
-            "og_image": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/07/22/thumb/9lqUkB_nA.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+            "title": "How to secure Iron Maiden presale tickets today for 2027 ‘Run for Your Lives Tour’",
+            "url": "https://www.syracuse.com/live-entertainment/2026/10/how-to-secure-iron-maiden-presale-tickets-today-for-2027-run-for-your-lives-tour.html",
+            "source": "Syracuse.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxk_7k5UJxLaVrELjtq14nxonfEb6d2UoE7HhO6qDXsyCrzRzm27EmeqBRJr4",
+            "og_title": "How to secure Iron Maiden presale tickets today for 2027 ‘Run for Your Lives Tour’",
+            "og_desc": "The metal legends are adding a final North American leg, with Bullet For My Valentine and The Raven Age along for the ride.",
+            "og_image": "https://www.syracuse.com/resizer/v2/IAM63QSNEBAFHKDT23P6EY6QDA.jpg?auth=44fc935b0e6496d3333a6b46f106b5f7966e1f35d2ba81718944b3793c7ccff8&width=1280&smart=true",
             "ok": true
           }
         ],
@@ -204,66 +346,27 @@
         "color": "#9aa4b2",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-10-20-people.png"
-      },
-      {
-        "title": "call of duty: black ops",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "published": "Tue, 20 Oct 2026 06:20:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRHw7B54B-Pti0Fefj7A9C8hGhS6hwe5hKTncEcWjdsHrjViLVXUahtm21XlfY",
-        "image_source": "IGN",
-        "news": [
-          {
-            "title": "'They Are Printing Money Off of Work Completed Over a Decade Ago' — Former Call of Duty Dev Says 'It's Hard to Watch' Xbox Make Money From Black Ops PlayStation Ports",
-            "url": "https://www.ign.com/articles/former-black-ops-dev-wants-royalties",
-            "source": "IGN",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRHw7B54B-Pti0Fefj7A9C8hGhS6hwe5hKTncEcWjdsHrjViLVXUahtm21XlfY",
-            "og_title": "'They Are Printing Money Off of Work Completed Over a Decade Ago' — Former Call of Duty Dev Says 'It's Hard to Watch' Xbox Make Money From Black Ops PlayStation Ports",
-            "og_desc": "A former Call of Duty designer has argued that developers should get royalties when older games are ported to new systems, saying it's \"hard to watch\" Xbox make money from the recently released and hugely successful Black Ops 1 and 2 ports on PlayStation.",
-            "og_image": "https://assets-prd.ignimgs.com/2026/10/20/blops2-1792504022452.jpg?width=1280&format=jpg&auto=webp&quality=80",
-            "ok": true
-          },
-          {
-            "title": "COD Black Ops 1 and 2 dev says it’s ‘hard to watch’ the new ports selling well while ‘the actual creators don’t see a dime’",
-            "url": "https://www.videogameschronicle.com/news/cod-black-ops-1-and-2-dev-says-its-hard-to-watch-the-new-ports-selling-well-while-the-actual-creators-dont-see-a-dime/",
-            "source": "Video Games Chronicle",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQMVdDFyMYPd5croMGgYp7kZG4uIJyOLAJthK0hxUCgKS0TO6SAR56cT_l_A9c",
-            "og_title": "COD Black Ops 1 and 2 dev says it’s ‘hard to watch’ the new ports selling well while ‘the actual creators don’t see a dime’ | VGC",
-            "og_desc": "Activision and Microsoft are “printing money off of work completed over a decade ago”…",
-            "og_image": "https://www.videogameschronicle.com/files/2026/10/3592Between_a_drone_and_a_hard_place-2560x1440.jpg",
-            "ok": true
-          },
-          {
-            "title": "\"The Suits\" Made All The Money From Call Of Duty: Black Ops 1 And 2 Ports, OG Dev Says",
-            "url": "https://www.gamespot.com/articles/the-suits-made-all-the-money-from-call-of-duty-black-ops-1-and-2-ports-og-dev-says/",
-            "source": "GameSpot",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShPGFM73MmsW1PaOjILF10fKI54BBi4HrYmU6o8cndQa1Wauuw5WxeUBbzAWA",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-10-20-call-of-duty-black-ops.png"
+        "card": "cards/world-2026-10-20-boardwalk-rock-2027.png"
       },
       {
         "title": "trump $8 billion agricultural aid",
         "traffic": "500+",
         "traffic_num": 500,
         "published": "Tue, 20 Oct 2026 07:00:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHr15Ha1GiIDWigRSJSIgZtFvRgBExvZBsJ-amffqg42yHEnMCUQkGFpIa1mg",
-        "image_source": "The New York Times",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRX8pAoYHrz_9rHpfXqMxjo4HyT5S-JnaE5M-qssiMZ3OTDX0lbm-zTIxFHjl8",
+        "image_source": "USDA (.gov)",
         "news": [
+          {
+            "title": "Trump Administration Announces $8 Billion Harvest Fuel Relief Program",
+            "url": "https://www.usda.gov/about-usda/news/press-releases/2026/10/19/trump-administration-announces-8-billion-harvest-fuel-relief-program",
+            "source": "USDA (.gov)",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRX8pAoYHrz_9rHpfXqMxjo4HyT5S-JnaE5M-qssiMZ3OTDX0lbm-zTIxFHjl8",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
           {
             "title": "Trump Announces $8 Billion Plan to Cover Farm Losses",
             "url": "https://www.nytimes.com/2026/10/20/business/trump-farmer-bailout.html",
@@ -274,16 +377,6 @@
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
-          },
-          {
-            "title": "Trump administration announces $8 billion farm relief plan as fuel, fertilizer costs bite",
-            "url": "https://www.cnn.com/2026/10/20/economy/trump-farm-relief-fuel-prices",
-            "source": "CNN",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-NMq_q_Z3rK6kkYaqMjMZAE75kWNJvX9H7dnBFOjSpEL8Pd0w6nvCFjuWmcg",
-            "og_title": "Trump administration announces $8 billion farm relief plan as fuel, fertilizer costs bite | CNN Business",
-            "og_desc": "",
-            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1241718660.jpg?c=16x9&q=w_800,c_fill",
-            "ok": true
           },
           {
             "title": "US to launch $8 billion support program for farmers to offset diesel costs, Trump says",
@@ -308,114 +401,23 @@
         "card": "cards/world-2026-10-20-trump-8-billion-agricultural-aid.png"
       },
       {
-        "title": "alex cooper",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Tue, 20 Oct 2026 06:40:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQocRaM4fwzhNvKkbs9lDer4ZJVSwl1j8sTJVcgFnBM_W9b8_9JKwBrBbXGJ6k",
-        "image_source": "People.com",
-        "news": [
-          {
-            "title": "Alex Cooper Welcomes Her First Baby with Husband Matt Kaplan",
-            "url": "https://people.com/alex-cooper-welcomes-her-first-baby-with-husband-matt-kaplan-12124248",
-            "source": "People.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQocRaM4fwzhNvKkbs9lDer4ZJVSwl1j8sTJVcgFnBM_W9b8_9JKwBrBbXGJ6k",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Alex Cooper gives birth to first baby with husband Matt Kaplan",
-            "url": "https://pagesix.com/2026/10/20/parents/alex-cooper-gives-birth-to-first-baby-with-husband-matt-kaplan/",
-            "source": "Page Six",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSSr1xqjpmaFZOdwzxBaBKR4fL0NkTzzPz7rDXjrQeMzJ2guzO7zYfiro8EU-Y",
-            "og_title": "Alex Cooper gives birth to first baby with husband Matt Kaplan",
-            "og_desc": "The “Call Her Daddy” host went public with her pregnancy news in May. Cooper and Kaplan met in 2020 and tied the knot in Mexico four years later.",
-            "og_image": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/alex-cooper-baby.jpg?quality=75&strip=all&w=1200",
-            "ok": true
-          },
-          {
-            "title": "'Call Her Daddy' Host Alex Cooper & Matt Kaplan Welcome a Baby Boy",
-            "url": "https://extratv.com/2026/10/20/alex-cooper-and-matt-kaplan-welcome-first-child/",
-            "source": "extratv.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJrlMuwnz81Newm_vdnmaHFIv5iscMt9rbwKQkLWL2fqg0jNjbRdhSuib4e38",
-            "og_title": "'Call Her Daddy' Host Alex Cooper & Matt Kaplan Welcome a Baby Boy",
-            "og_desc": "Call her mommy! Alex Cooper and Matt Kaplan just welcomed their first child.",
-            "og_image": "https://extra-images.akamaized.net/image/e4/16by9/2026/10/20/e44186d1fc7e4a7e9e57f12919005e5a_xl.png",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-10-20-alex-cooper.png"
-      },
-      {
-        "title": "lil jon son",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Tue, 20 Oct 2026 06:30:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRKc73hmA-9OkcZ_sDLvTdpC77sSI2YSddK0GfgCE4VtT3KwBc2onewcUbd9U",
-        "image_source": "People.com",
-        "news": [
-          {
-            "title": "Lil Jon Recently Learned That the Man Who Raised Him Isn’t His Biological Father: ‘Hard to Process’ (Exclusive)",
-            "url": "https://people.com/lil-jon-reveals-man-who-raised-him-isnt-his-biological-father-exclusive-12173942",
-            "source": "People.com",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRKc73hmA-9OkcZ_sDLvTdpC77sSI2YSddK0GfgCE4VtT3KwBc2onewcUbd9U",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Lil Jon on New Memoir, Navigating Grief Over the Loss of His Son",
-            "url": "https://www.today.com/video/lil-jon-on-new-memoir-navigating-grief-over-the-loss-of-his-son-271882821826",
-            "source": "TODAY.com",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsVsYon1aYUdesrIRoADH_0UTZV1KfO2pwdSPfKT5oJ713znokO3A9kcSi-o0",
-            "og_title": "Lil Jon on New Memoir, Navigating Grief Over the Loss of His Son",
-            "og_desc": "Lil Jon, legendary rapper and music producer, joins the 3rd Hour of TODAY to share details about his first-ever memoir \"I Only Shout So You Can Hear Me,\" which stories his childhood and rise up the Atlanta music scene. The musician also opens up about the discovery that the man who raised him is not his biological father, the loss of his son, and how performing helped him overcome his grief. \"I realized I hadn't given myself time to really grieve,\" he says. \"And, that I needed to be on that stage to feel the positivity from the audience and to be on tour and to learn to laugh again with my crew and to just have a good time again.\"",
-            "og_image": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/mpx/2704722219/2026_10/1792504454116_tdy_pop_9a_lil_jon_261020_S3_1920x1080-c2gjvi.jpg",
-            "ok": true
-          },
-          {
-            "title": "Lil Jon reveals last conversation with late son, sad family secret in new book",
-            "url": "https://www.usatoday.com/story/entertainment/books/2026/10/20/lil-jon-memoir-family-secret-son-nathan-death/92118660007/",
-            "source": "USA Today",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyen6m_fwkaRqKnUjArX4wi5ceM0JmU5kfKhnCpODe5Uxg0Ufx-4theB7zoN0",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/world-2026-10-20-lil-jon-son.png"
-      },
-      {
         "title": "burger king hello kitty",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "published": "Tue, 20 Oct 2026 06:50:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRiK_C3rGL6qLtxTiF7y1uQNPFGmshajSs58YKGsDCjr-GEwYz597dSDKXwD0U",
-        "image_source": "Allrecipes",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTjJ6vsYGX1DsnYKLhHwj9ZOyfwrvp2Ed9RV2RwIrMDOIZZbaoZGIaSPHSL1ac",
+        "image_source": "PR Newswire",
         "news": [
+          {
+            "title": "HELLO KITTY® AND FRIENDS ARE COMING TO BURGER KING®",
+            "url": "https://www.prnewswire.com/news-releases/hello-kitty-and-friends-are-coming-to-burger-king-302911781.html",
+            "source": "PR Newswire",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTjJ6vsYGX1DsnYKLhHwj9ZOyfwrvp2Ed9RV2RwIrMDOIZZbaoZGIaSPHSL1ac",
+            "og_title": "HELLO KITTY® AND FRIENDS ARE COMING TO BURGER KING®",
+            "og_desc": "/PRNewswire/ -- Hello Kitty® and her Friends are making their way to Burger King® restaurants nationwide. Starting October 20, for a limited time families can...",
+            "og_image": "https://mmx.prnewswire.com/media/MS2015416/bk_hello-kitty_king_jr_1024.jpg?id=OA3024704&p=facebook",
+            "ok": true
+          },
           {
             "title": "Burger King Just Dropped a New, Limited-Edition Meal",
             "url": "https://www.allrecipes.com/burger-king-hello-kitty-and-friends-king-jr-meal-12182747",
@@ -426,16 +428,6 @@
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
-          },
-          {
-            "title": "HELLO KITTY® AND FRIENDS ARE COMING TO BURGER KING®",
-            "url": "https://www.prnewswire.com/news-releases/hello-kitty-and-friends-are-coming-to-burger-king-302911781.html",
-            "source": "PR Newswire",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTjJ6vsYGX1DsnYKLhHwj9ZOyfwrvp2Ed9RV2RwIrMDOIZZbaoZGIaSPHSL1ac",
-            "og_title": "HELLO KITTY® AND FRIENDS ARE COMING TO BURGER KING®",
-            "og_desc": "/PRNewswire/ -- Hello Kitty® and her Friends are making their way to Burger King® restaurants nationwide. Starting October 20, for a limited time families can...",
-            "og_image": "https://mmx.prnewswire.com/media/MS2015416/bk_hello-kitty_king_jr_1024.jpg?id=OA3024704&p=facebook",
-            "ok": true
           },
           {
             "title": "Burger King’s new Hello Kitty collab features 6 exclusive toys inside blind boxes — how to get yours",
@@ -459,77 +451,67 @@
         "card": "cards/world-2026-10-20-burger-king-hello-kitty.png"
       },
       {
-        "title": "interland",
+        "title": "dengue fever",
         "traffic": "200+",
         "traffic_num": 200,
-        "published": "Tue, 20 Oct 2026 06:40:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQW6_fY2Xt-u4DYPyX3TFQqLAlhQRNMfEB-7WvDtHRjPmHB6Rqzpvq287-Mn2w",
-        "image_source": "FR-Fans.nl",
+        "published": "Tue, 20 Oct 2026 07:40:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQQTfEqWePAp1Isk1jeBBqjvvOhqjV36mDBOGUC-lApR76Ff6hxG0S0YOVMZp8",
+        "image_source": "Bay News 9",
         "news": [
           {
-            "title": "Zes assists in de Eredivisie: zo afhankelijk is Feyenoord van Read",
-            "url": "https://www.fr-fans.nl/nieuws/79501/zes-assists-in-de-eredivisie-zo-afhankelijk-is-feyenoord-van-read",
-            "source": "FR-Fans.nl",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQW6_fY2Xt-u4DYPyX3TFQqLAlhQRNMfEB-7WvDtHRjPmHB6Rqzpvq287-Mn2w",
-            "og_title": "Zes assists in de Eredivisie: zo afhankelijk is Feyenoord van Read",
-            "og_desc": "Givairo Read staat met zes assists bovenaan het Eredivisie-klassement. De samenwerking met Gjivai Zechiël levert Feyenoord steeds meer op. De verdediger…",
-            "og_image": "https://www.fr-fans.nl/storage/67738/conversions/NLB-208369176-schema_16x9.webp",
+            "title": "2 cases of dengue fever confirmed in Citrus County",
+            "url": "https://baynews9.com/fl/tampa/news/2026/10/19/2-cases-of-dengue-fever-confirmed-in-citrus-county",
+            "source": "Bay News 9",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQQTfEqWePAp1Isk1jeBBqjvvOhqjV36mDBOGUC-lApR76Ff6hxG0S0YOVMZp8",
+            "og_title": "2 cases of dengue fever confirmed in Citrus County",
+            "og_desc": "DOH-Citrus and Citrus County Mosquito Control are coordinating surveillance and prevention efforts.",
+            "og_image": "https://s7d2.scene7.com/is/image/TWCNews/Screenshot_2026-09-10_165120",
             "ok": true
           },
           {
-            "title": "‘Denzel Dumfries bij Oranje bedreigd door speler met nul interlands’",
-            "url": "https://www.fcupdate.nl/voetbalnieuws/2026/10/denzel-dumfries-bij-oranje-bedreigd-door-speler-met-nul-interlands",
-            "source": "FCUpdate.nl",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9kXoE1SLceQV5clbc45Uxyb328CxJyWc4mHt_Pumf5aRChhLcxKwfuiRafGc",
-            "og_title": "‘Denzel Dumfries bij Oranje bedreigd door speler met nul interlands’",
-            "og_desc": "Denzel Dumfries moet volgens Emile Schelvis en Ali Boussaboun vrezen voor zijn basisplaats bij Oranje. Feyenoord-talent Givairo Read maakt indruk en wordt gezien als een serieuze concurrent voor de rechtsback van het Nederlands elftal.",
-            "og_image": "https://staticcdn.fcupdate.nl/images/cf/image/upload/HHCkQY3kTQ4w79bdK2NVhwraadoQkCDz/q=75,w=1560,h=920,fit=contain,g=face",
+            "title": "Mosquito Control Efforts Planned for Parts of Apopka, Pine Hills",
+            "url": "https://newsroom.ocfl.net/2026/10/mosquito-control-efforts-planned-for-parts-of-apopka-pine-hills/",
+            "source": "OCFL Newsroom",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSijePYG4vVJqTufonPiCWKKR45IQ1qYwvutJjGMTkOmIna3TL4r-Q1VBN0NWg",
+            "og_title": "Mosquito Control Efforts Planned for Parts of Apopka, Pine Hills",
+            "og_desc": "As of October 12, the Florida Department of Health confirmed four locally transmitted cases of dengue fever in the Apopka area and one in Pine Hills. Orange County Mosquito Control will conduct aerial mosquito spraying in these areas to mitigate the mosquito population and prevent the spread of dengue. Spraying Schedule Residents can stay informed […]",
+            "og_image": "https://newsroom.ocfl.net/wp-content/uploads/2026/10/mosquito-1.png",
             "ok": true
           },
           {
-            "title": "Oranje lijkt er binnen halfjaar serieuze concurrent voor Dumfries bij te krijgen",
-            "url": "https://www.meemetoranje.nl/nederlands-elftal/nieuws/givairo-read-denzel-dumfries-oranje-emile-schelvis/",
-            "source": "Mee Met Oranje",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcReRAFwPgBoVJWekLodcijhvxVRzFRL9KEPrWC3M1mgfCTg8Uu7W1CJl5Cs6PQ",
-            "og_title": "Oranje lijkt er binnen halfjaar serieuze concurrent voor Dumfries bij te krijgen",
-            "og_desc": "Givairo Read kan volgens Emile Schelvis binnen een halfjaar uitgroeien tot een serieuze concurrent van Denzel Dumfries bij het Nederlands elftal.",
-            "og_image": "https://staticcdn.meemetoranje.nl/images/cf/8038a5f9-88ae-456c-8f71-7a7d63a790f6-1782113507/w=7087,fit=contain,q=90,g=face,f=auto,h=4725",
+            "title": "Mosquito Borne Illness Alert Update",
+            "url": "https://hillsborough.floridahealth.gov/2026/10/19/mosquito-borne-illness-alert-update/",
+            "source": "Florida Department of Health in Hillsborough County (.gov)",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLHW2opaxwUlGGkTSuyq-1d1lPijemHI06n4KXLx-S0rypZsWjJKBS-YeK4bo",
+            "og_title": "Mosquito Borne Illness Alert Update - Florida Department of Health in Hillsborough County",
+            "og_desc": "DOH-Hillsborough continues to respond to the ongoing dengue outbreak in Hillsborough County and encourages residents to take steps to reduce mosquito exposure.",
+            "og_image": "https://hillsborough.floridahealth.gov/wp-content/uploads/sites/30/2026/09/FightTheBite.jpg",
             "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
+        "category": "تقنية",
+        "icon": "💻",
+        "color": "#5aa9ff",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-10-20-interland.png"
+        "card": "cards/world-2026-10-20-dengue-fever.png"
       },
       {
-        "title": "taye diggs",
+        "title": "kyle kennedy spinal cord injury",
         "traffic": "200+",
         "traffic_num": 200,
-        "published": "Tue, 20 Oct 2026 06:40:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR6pnpJw7DLwYIPBL_iAoBWIUWxWDv7GpdcJoeS6mM7BgzCVQrDrzSaSkTC2iA",
-        "image_source": "Playbill",
+        "published": "Tue, 20 Oct 2026 07:40:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRRywwDkP0CZPl-HwL1vzZ1ezajlBJ2L8tEXrFBcznX9BShdvMPr7yV6SeRhPg",
+        "image_source": "People.com",
         "news": [
           {
-            "title": "Rachel Zegler, Taye Diggs, Norbert Leo Butz, More Join Rent Broadway Anniversary Concert",
-            "url": "https://playbill.com/article/rachel-zegler-taye-diggs-norbert-leo-butz-more-join-rent-broadway-anniversary-concert",
-            "source": "Playbill",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR6pnpJw7DLwYIPBL_iAoBWIUWxWDv7GpdcJoeS6mM7BgzCVQrDrzSaSkTC2iA",
-            "og_title": "Rachel Zegler, Taye Diggs, Norbert Leo Butz, More Join Rent Broadway Anniversary Concert",
-            "og_desc": "The landmark Tony- and Pulitzer-winning Jonathan Larson musical is celebrating its 30th anniversary at Broadway's Richard Rodgers.",
-            "og_image": "https://assets.playbill.com/editorial/_facebookOpenGraph/Rachel-Zegler-Taye-Diggs-and-Norbert-Leo-Butz.jpg",
-            "ok": true
-          },
-          {
-            "title": "RENT, the 30th Anniversary Concert Announces Lottery for Sold Out Show",
-            "url": "https://broadwaydirect.com/the-rent-30th-anniversary-concert-announces-lottery-for-sold-out-show/",
-            "source": "Broadway Direct",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRKJuXS2YCV8BVvIxoAZ3WRfyuzUClLaOIt-QXRMntXRCOhDYx2SZAxMt7SuRQ",
+            "title": "Kyle Kennedy, Granddaughter of Bobby and Ethel Kennedy, Dies at 42",
+            "url": "https://people.com/kyle-kennedy-dead-12183331",
+            "source": "People.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRRywwDkP0CZPl-HwL1vzZ1ezajlBJ2L8tEXrFBcznX9BShdvMPr7yV6SeRhPg",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -537,25 +519,36 @@
             "error": "HTTPError"
           },
           {
-            "title": "Taye Diggs, Neil Patrick Harris, Rachel Zegler and More Join RENT 30th Anniversary Concert",
-            "url": "https://www.broadwayworld.com/article/Taye-Diggs-Neil-Patrick-Harris-Rachel-Zegler-and-More-Join-RENT-30th-Anniversary-Concert-20261019",
-            "source": "BroadwayWorld",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQC3qeio5aUdI2Uy-OvSBywSisi8fIqVvo8EbInKCBKhTjSNUy9uyB1L-ZKAb8",
-            "og_title": "Rachel Zegler, Neil Patrick Harris Join RENT 30th Anniversary Concert With 60+ Broadway Stars",
-            "og_desc": "Rachel Zegler, Neil Patrick Harris, Norbert Leo Butz and Taye Diggs will perform in the RENT 30th Anniversary Concert, with a live stream available for…",
-            "og_image": "https://cloudimages2.broadwayworld.com/columnpiccloud/Taye-Diggs-Neil-Patrick-Harris-Rachel-Zegler-and-More-Join-RENT-30th-Anniversary-Concert-1792428640.jpg?format=jpeg&quality=80&width=1200",
+            "title": "Kyle Francis Kennedy Obituary (2026) - West Newton, MA - Burke & Blackington Funeral Home - West Newton",
+            "url": "https://www.legacy.com/us/obituaries/name/kyle-kennedy-obituary?id=62780266",
+            "source": "Legacy | Obituary",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSnjRiR969wfqonZafiup4HOJipVlHMc0gJ8Pik_IiISwkbjTLFiBqPBezPAa4",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Robert F. Kennedy's Granddaughter Kyle Kennedy Dead at 42",
+            "url": "https://www.tmz.com/2026/10/20/kyle-kennedy-dead/",
+            "source": "TMZ",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRlBB6ZbztyHndeNwuk1yHuZyYqph_8aUAn7unk1l40mZqEmuiq5aE1c_vmSQg",
+            "og_title": "Robert F. Kennedy's Granddaughter Kyle Kennedy Dead at 42",
+            "og_desc": "Kyle Kennedy -- one of Robert F. Kennedy and Ethel Kennedy's grandchildren -- is dead.",
+            "og_image": "https://imagez.tmz.com/image/84/16by9/2026/10/20/844986905abe406eaeb2ff12d36a1fee_xl.jpg",
             "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "فن ومشاهير",
-        "icon": "🎬",
-        "color": "#c77dff",
-        "reason": "حجم بحث أقل من 10000",
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: dies",
         "publishable": false,
-        "card": "cards/world-2026-10-20-taye-diggs.png"
+        "card": "cards/world-2026-10-20-kyle-kennedy-spinal-cord-injury.png"
       }
     ]
   },
@@ -565,248 +558,14 @@
     "name_en": "Egypt",
     "lang": "ar",
     "flag": "🇪🇬",
-    "generated_at": "2026-10-20T14:31:00.610671+00:00",
+    "generated_at": "2026-10-20T15:01:08.081119+00:00",
     "day": "2026-10-20",
     "trends": [
       {
-        "title": "بترول أسيوط ضد الزمالك",
-        "traffic": "20000+",
-        "traffic_num": 20000,
-        "published": "Tue, 20 Oct 2026 06:10:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRji_iZG9RKiYcgK0htWPVJZnVo-AZROHb1ChRB1jgcT4ZYHaAnfpR5HxyZzvM",
-        "image_source": "يلاكورة",
-        "news": [
-          {
-            "title": "عواد حارسًا.. تشكيل الزمالك لمواجهة بترول أسيوط في الدوري",
-            "url": "https://www.yallakora.com/egyptian-league/3031/news/569781/%D8%B9%D9%88%D8%A7%D8%AF-%D8%AD%D8%A7%D8%B1%D8%B3-%D8%A7-%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A8%D8%AA%D8%B1%D9%88%D9%84-%D8%A3%D8%B3%D9%8A%D9%88%D8%B7-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A",
-            "source": "يلاكورة",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRji_iZG9RKiYcgK0htWPVJZnVo-AZROHb1ChRB1jgcT4ZYHaAnfpR5HxyZzvM",
-            "og_title": "تشكيل الزمالك لمواجهة بترول أسيوط في الدوري",
-            "og_desc": "أعلن الجهاز الفني للفريق الأول لكرة القدم بنادي الزمالك بقيادة معتمد جمال، عن التشكيل الذي سيخوض به الأبيض مباراة بترول أسيوط في الدوري.",
-            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/10/11/untitled-52026_10_11_10_22.webp",
-            "ok": true
-          },
-          {
-            "title": "مباشر الآن مباراة الزمالك وبترول أسيوط اليوم في الدوري المصري (0-0).. بطاقة حمراء",
-            "url": "https://www.almasryalyoum.com/news/details/4388325",
-            "source": "المصري اليوم",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSEcSOxTK5GSQyusBT0KgR409NCOOSQFJPVYDNERQYa8R_V1Ua2Moo3G0pEY7k",
-            "og_title": "مباشر الآن مباراة الزمالك وبترول أسيوط اليوم في الدوري المصري (1-0).. هدف للأبيض | المصري اليوم",
-            "og_desc": "مباراة الزمالك وبترول أسيوط بث مباشر اليوم الثلاثاء، في إطار منافسات مسابقة الدوري المصري الممتاز موسم 2026-27، يترقبه عشاق الساحرة المستديرة من كافة أنحاء العالم، وبالتحديد من...",
-            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/10/20/2067252.webp",
-            "ok": true
-          },
-          {
-            "title": "الزمالك يصل ستاد برج العرب استعدادًا لمواجهة بترول أسيوط فى الدورى",
-            "url": "https://www.youm7.com/story/2026/10/20/%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%8A%D8%B5%D9%84-%D8%B3%D8%AA%D8%A7%D8%AF-%D8%A8%D8%B1%D8%AC-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF%D9%8B%D8%A7-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A8%D8%AA%D8%B1%D9%88%D9%84-%D8%A3%D8%B3%D9%8A%D9%88%D8%B7-%D9%81%D9%89/7587108",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTusL5iXy1K3JIFFM_L_iuHHra8T8o5iLg5bd6x9AgNljuvgrEQKYx_dQKPX-0",
-            "og_title": "الزمالك يصل ستاد برج العرب استعدادًا لمواجهة بترول أسيوط فى الدورى - اليوم السابع",
-            "og_desc": "وصلت حافلة الفريق الأول لكرة القدم بنادي الزمالك إلى ستاد برج العرب ، استعدادًا لخوض مباراة بترول أسيوط في الجولة السابعة لمسابقة الدوري الممتاز.",
-            "og_image": "https://img.youm7.com/xlarge/20261008110010010_427.jpg",
-            "ok": true
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "العنوان يطابق: الزمالك",
-        "publishable": true,
-        "article": {
-          "headline": "معتمد جمال يجري 5 تغييرات في تشكيل الزمالك ضد بترول أسيوط اليوم",
-          "summary": "يحل الزمالك ضيفًا على بترول أسيوط في الخامسة مساءً اليوم على ستاد برج العرب ضمن منافسات الجولة السابعة للدوري الممتاز.",
-          "body": "يخوض فريق الزمالك مواجهته اليوم بتشكيل يضم 5 وجوه جديدة دفع بها الجهاز الفني بقيادة معتمد جمال، في تغيير جذري مقارنة بتشكيل الفريق في مباراته الأخيرة أمام الجيش الرواندي بدوري أبطال أفريقيا. وتأتي هذه التعديلات الفنية التي أعلن عنها الجهاز الفني، لتعكس سعي الفريق لتنشيط خطوطه، حيث يشارك محمد عواد أساسيًا في حراسة المرمى، بينما يظهر محمود جهاد ومحمد حمد في وسط الملعب، مع الدفع بالثنائي أحمد شريف وأحمد عبد الرحيم \"إيشو\" في الخط الهجومي. تعد هذه المباراة محطة فاصلة للزمالك الطامح لتعزيز موقعه في جدول ترتيب الدوري الممتاز، حيث يدخل الفريق اللقاء وهو في المركز الثالث برصيد 13 نقطة، باحثًا عن حصد النقاط الثلاث أمام بترول أسيوط الذي يحتل المركز السادس عشر برصيد 5 نقاط. وقبل التوجه إلى ستاد برج العرب، عقد معتمد جمال محاضرة فنية للاعبين داخل فندق الإقامة، شرح خلالها الخطة التكتيكية المطلوبة والتعليمات النهائية لضمان تنفيذ الأدوار المطلوبة على أرض الملعب. تضمنت قائمة البدلاء المتاحة للمدرب مجموعة من العناصر التي قد تشارك بناءً على مجريات المباراة، وهم مهدي سليمان، ومحمد إسماعيل، وأحمد حسام، ومحمد فرج، ويوسف وائل \"فرنسي\"، وعبد الله السعيد، وأحمد الجفالي، وعدي الدباغ، وحسام أشرف. ويترقب عشاق القلعة البيضاء ظهور الفريق بهذا التشكيل المحدث في الاختبار المحلي المهم الذي يقام ضمن الجولة السابعة، وسط تحديات فنية يسعى الجهاز الفني لتجاوزها من أجل حصد الفوز والاستمرار في المنافسة.",
-          "facts": [
-            {
-              "label": "الموعد",
-              "value": "الخامسة مساء اليوم"
-            },
-            {
-              "label": "المكان",
-              "value": "ستاد برج العرب"
-            },
-            {
-              "label": "المنافسة",
-              "value": "الجولة السابعة من الدوري الممتاز"
-            },
-            {
-              "label": "ترتيب الزمالك",
-              "value": "المركز الثالث (13 نقطة)"
-            },
-            {
-              "label": "ترتيب بترول أسيوط",
-              "value": "المركز السادس عشر (5 نقاط)"
-            }
-          ],
-          "tags": [
-            "الزمالك",
-            "بترول أسيوط",
-            "الدوري المصري",
-            "معتمد جمال",
-            "كرة قدم"
-          ],
-          "_v": 4,
-          "_by": "gemini",
-          "written_at": "2026-10-20T14:01:31.307279+00:00",
-          "photo": {
-            "url": "https://altrendat.com/art/bfa6842ded0cd5.jpg",
-            "ai": true,
-            "width": 1024,
-            "height": 576
-          },
-          "photo_v": 8,
-          "_had_data": false,
-          "_localized": false
-        },
-        "card": "cards/eg-2026-10-20-بترول-أسيوط-ضد-الزمالك.png"
-      },
-      {
-        "title": "zed vs modern sport",
+        "title": "zamalek",
         "traffic": "500+",
         "traffic_num": 500,
-        "published": "Tue, 20 Oct 2026 07:20:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo_hD30nXmGfOOgu8LXl2tuvgOWjOYwJ8SKCeNEVpxJ3MZHUiy1uTIhtkrj98",
-        "image_source": "اليوم السابع",
-        "news": [
-          {
-            "title": "ترتيب جدول الدوري الممتاز بعد مباريات اليوم الاثنين.. بيراميدز في الصدارة",
-            "url": "https://www.youm7.com/story/2026/10/19/%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%AC%D8%AF%D9%88%D9%84-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D9%85%D8%AA%D8%A7%D8%B2-%D8%A8%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%D9%86-%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D9%81%D9%8A/7586245",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo_hD30nXmGfOOgu8LXl2tuvgOWjOYwJ8SKCeNEVpxJ3MZHUiy1uTIhtkrj98",
-            "og_title": "ترتيب جدول الدوري الممتاز بعد مباريات اليوم الاثنين.. بيراميدز في الصدارة - اليوم السابع",
-            "og_desc": "واصل فريق بيراميدز صدارة ترتيب الدورى برصيد 18 نقطة، بعد انتهاء مباريات اليوم الأول من الجولة السابعة من بطولة الدورى الممتاز، والتي شهدت إقامة 3 مباريات.",
-            "og_image": "https://img.youm7.com/xlarge/20261016061102112_341.jpg",
-            "ok": true
-          },
-          {
-            "title": "مباراة فريقي بترول أسيوط و الزمالك في بطولة الدوري المصري - الأسبوع 7",
-            "url": "https://www.filgoal.com/matches/375922",
-            "source": "FilGoal",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRm0GLLP70ZIC_HxZw2mRuJlTfD20BdgomLhb4rI0oy3CzOPTtV3YJKQeJj1rw",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
-          },
-          {
-            "title": "زد \" بين طريقين \" قبل مواجهة مودرن سبورت",
-            "url": "https://gate.ahram.org.eg/Massai/News/5968139.aspx",
-            "source": "بوابة الأهرام",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiifXvUyxAflta5WGPrg58u5XrGaOVWPtb2fIuPwf1Y7X7jFzJcUnKApogCyw",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/eg-2026-10-20-zed-vs-modern-sport.png"
-      },
-      {
-        "title": "برشلونة وباريس",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Tue, 20 Oct 2026 05:50:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYa-_FYrw-PBMY-UFA7yOdOnNlMUM3XviS1WEsVS6bK9e-yqx0VqtBBtZxjE0",
-        "image_source": "سكاي نيوز عربية",
-        "news": [
-          {
-            "title": "مخاوف أمنية في باريس قبل قمة سان جيرمان وبرشلونة",
-            "url": "https://www.skynewsarabia.com/program/counterattack/1899374-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D8%AA%D8%B1%D9%81%D8%B6-%D8%AA%D8%A3%D8%AC%D9%8A%D9%84-%D9%82%D9%85%D8%A9-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B3%D8%A7%D9%86-%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86-%D9%88%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%84%D8%A3%D8%B3%D8%A8%D8%A7%D8%A8-%D8%A3%D9%85%D9%86%D9%8A%D8%A9",
-            "source": "سكاي نيوز عربية",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYa-_FYrw-PBMY-UFA7yOdOnNlMUM3XviS1WEsVS6bK9e-yqx0VqtBBtZxjE0",
-            "og_title": "مخاوف أمنية في باريس قبل قمة سان جيرمان وبرشلونة",
-            "og_desc": "مخاوف أمنية في فرنسا تضع قمة باريس سان جيرمان وبرشلونة تحت المجهر، بعد دعوات لتأجيل المواجهة الأوروبية بسبب الاحتجاجات والاشتباكات الأخيرة في باريس. لكن السلطات الفرنسية حسمت موقفها، برفض فكرة التأجيل.",
-            "og_image": "https://www.skynewsarabia.com/images/v1/2026/10/20/1899400/1200/630/1-1899400.jpeg?videoOverlay=true",
-            "ok": true
-          },
-          {
-            "title": "كيفية مشاهدة البث المباشر لمباراة برشلونة وباريس سان جيرمان في دوري أبطال أوروبا 2027",
-            "url": "https://www.akhbarak.net/news/details/49485901/3/%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D8%A9-%D8%A7%D9%84%D8%A8%D8%AB-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%88%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B3%D8%A7%D9%86-%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-2027",
-            "source": "اخبارك نت",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKGi7mt25RiJ1RaAIQf0EhO6PCTVzRYSahiX6IqFoSYNeA-_VfOvUDz_L8-7Y",
-            "og_title": "اخبارك نت | كيفية مشاهدة البث المباشر لمباراة برشلونة وباريس سان جيرمان في دوري أبطال أوروبا 2027",
-            "og_desc": "تعرف على كيفية مشاهدة البث المباشر لمباراة برشلونة وباريس سان جيرمان في دوري أبطال أوروبا للموسم الحالي 2026-2027 تتجه أنظار عشاق كرة القدم حول العالم نجو مل...",
-            "og_image": "https://aws-web-images.akhbarak.net/2026/10/20/49485901/49485901-original.jpg",
-            "ok": true
-          },
-          {
-            "title": "ثلاثي هجومي يقود التشكيلة المتوقعة لسان جيرمان أمام برشلونة",
-            "url": "https://gate.ahram.org.eg/News/5968370.aspx",
-            "source": "بوابة الأهرام",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSx-UtG7jxR7P8u5W2WELAUSi4coa4NAbhe04hjDhpmv4OgNKJ8119II5GP4MU",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "category": "شخصية",
-        "icon": "👤",
-        "color": "#ffd166",
-        "reason": "شخصية لا يرد اسمها في مصدرين",
-        "publishable": false,
-        "card": "cards/eg-2026-10-20-برشلونة-وباريس.png"
-      },
-      {
-        "title": "إيران",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Tue, 20 Oct 2026 07:20:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR5UnEuQFtIg1Rq1Zj2pzXwKv4JvRDtmLI9UZSRYZMxnNtoYUDYOEv5pk74JJs",
-        "image_source": "العربية",
-        "news": [
-          {
-            "title": "إيران تلوح باستهداف كابلات الإنترنت أسفل هرمز.. \"لدينا أهداف جديدة\"",
-            "url": "https://www.alarabiya.net/iran/2026/10/19/%D8%A7%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D9%84%D9%88%D8%AD-%D8%A8%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%83%D8%A7%D8%A8%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B1%D9%86%D8%AA-%D8%A7%D8%B3%D9%81%D9%84-%D9%87%D8%B1%D9%85%D8%B2-%D9%84%D8%AF%D9%8A%D9%86%D8%A7-%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR5UnEuQFtIg1Rq1Zj2pzXwKv4JvRDtmLI9UZSRYZMxnNtoYUDYOEv5pk74JJs",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "إيران تهدد بنقل الحرب إلى خارج الشرق الأوسط.. مصالح أمريكية وبنى تحتية ومنشآت استراتيجية",
-            "url": "https://www.mc-doualiya.com/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20261019-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D9%87%D8%AF%D8%AF-%D8%A8%D9%86%D9%82%D9%84-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A5%D9%84%D9%89-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7-%D9%85%D8%B5%D8%A7%D9%84%D8%AD-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-%D9%88%D8%A8%D9%86%D9%89-%D8%AA%D8%AD%D8%AA%D9%8A%D8%A9-%D9%88%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9",
-            "source": "مونت كارلو الدولية",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT-X_Q8Ioqz7hvUK-oFloxXf97ZrI6Kwgg7dYz097Y2CbXmTnSpa7RcDE1I2Rk",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "\"سيُذهَل العالم\".. قادة إيران يستعدون لجولة حرب جديدة مع أمريكا أوسع نطاقا",
-            "url": "https://arabic.cnn.com/middle-east/article/2026/10/19/world-amazed-irans-commanders-prepare-further-war",
-            "source": "CNN Arabic",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRparfcHKZmNCj0WnANXM96UZfsdYt1FnWahcUCk1DQg2aRpLVnVn4LI7DYHTc",
-            "og_title": "\"سيُذهَل العالم\".. قادة إيران يستعدون لجولة حرب جديدة مع أمريكا | CNN Arabic | CNN",
-            "og_desc": "",
-            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/347330.jpg?c=16x9&q=w_800,c_fill",
-            "ok": true
-          }
-        ],
-        "category": "دول وأماكن",
-        "icon": "🗺️",
-        "color": "#79c0ff",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/eg-2026-10-20-إيران.png"
-      },
-      {
-        "title": "zamalek sc",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Tue, 20 Oct 2026 07:20:00 -0700",
+        "published": "Tue, 20 Oct 2026 07:30:00 -0700",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpCnMuhqIewyRtv0QsTIlEBNTR-RD46X6uIgQorYBIBkYT_E-aWJxUy66Y8NQ",
         "image_source": "Ahram Online",
         "news": [
@@ -847,12 +606,106 @@
         "color": "#3ddc97",
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "card": "cards/eg-2026-10-20-zamalek-sc.png"
+        "card": "cards/eg-2026-10-20-zamalek.png"
+      },
+      {
+        "title": "مباريات الدوري المصري",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Tue, 20 Oct 2026 07:30:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRm0GLLP70ZIC_HxZw2mRuJlTfD20BdgomLhb4rI0oy3CzOPTtV3YJKQeJj1rw",
+        "image_source": "FilGoal",
+        "news": [
+          {
+            "title": "مباراة فريقي بترول أسيوط و الزمالك في بطولة الدوري المصري - الأسبوع 7",
+            "url": "https://www.filgoal.com/matches/375922",
+            "source": "FilGoal",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRm0GLLP70ZIC_HxZw2mRuJlTfD20BdgomLhb4rI0oy3CzOPTtV3YJKQeJj1rw",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
+          },
+          {
+            "title": "ترتيب جدول الدوري الممتاز بعد مباريات اليوم الاثنين.. بيراميدز في الصدارة",
+            "url": "https://www.youm7.com/story/2026/10/19/%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%AC%D8%AF%D9%88%D9%84-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D9%85%D8%AA%D8%A7%D8%B2-%D8%A8%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%D9%86-%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D9%81%D9%8A/7586245",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo_hD30nXmGfOOgu8LXl2tuvgOWjOYwJ8SKCeNEVpxJ3MZHUiy1uTIhtkrj98",
+            "og_title": "ترتيب جدول الدوري الممتاز بعد مباريات اليوم الاثنين.. بيراميدز في الصدارة - اليوم السابع",
+            "og_desc": "واصل فريق بيراميدز صدارة ترتيب الدورى برصيد 18 نقطة، بعد انتهاء مباريات اليوم الأول من الجولة السابعة من بطولة الدورى الممتاز، والتي شهدت إقامة 3 مباريات.",
+            "og_image": "https://img.youm7.com/xlarge/20261016061102112_341.jpg",
+            "ok": true
+          },
+          {
+            "title": "المصرى يرفع شعار «أكون أو لا أكون» فى مواجهة أبوقير المقاولون يصطدم بالشرقية إنبى.. وسموحة ضيفا على الجونة",
+            "url": "https://gate.ahram.org.eg/daily/News/205745/6/1032932/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%89-%D9%8A%D8%B1%D9%81%D8%B9-%D8%B4%D8%B9%D8%A7%D8%B1-%C2%AB%D8%A3%D9%83%D9%88%D9%86-%D8%A3%D9%88-%D9%84%D8%A7-%D8%A3%D9%83%D9%88%D9%86%C2%BB-%D9%81%D9%89-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A3%D8%A8%D9%88%D9%82%D9%8A.aspx",
+            "source": "بوابة الأهرام",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjteJbJvWf3QsuAoROF1flxhElTX4ikkSgtpe-7bJD3_O0lYIYLQ4izAAuyw",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/eg-2026-10-20-مباريات-الدوري-المصري.png"
+      },
+      {
+        "title": "إيران",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Tue, 20 Oct 2026 07:20:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2xIFutA6Cabe5Zo9_UosZtIIxeiHh-q4fRraalzDn3MR_TeU7gNE1VA3el6k",
+        "image_source": "الجزيرة نت",
+        "news": [
+          {
+            "title": "ترمب يضع شرطا لوقف الحرب على إيران ويرجح هبوط أسعار النفط",
+            "url": "https://www.ajnet.me/news/2026/10/20/%D8%AA%D8%B1%D9%85%D8%A8-%D9%8A%D8%B4%D8%AA%D8%B1%D8%B7-%D9%85%D9%86%D8%B9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D9%86%D9%88%D9%88%D9%8A-%D9%84%D9%88%D9%82%D9%81",
+            "source": "الجزيرة نت",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2xIFutA6Cabe5Zo9_UosZtIIxeiHh-q4fRraalzDn3MR_TeU7gNE1VA3el6k",
+            "og_title": "ترمب يضع شرطا لوقف الحرب على إيران ويرجح هبوط أسعار النفط",
+            "og_desc": "اشترط الرئيس الأمريكي دونالد ترمب منع إيران من الحصول على السلاح النووي لوقف الهجمات عليها، ومؤكدا تدمير دفاعاتها الجوية ومقتل معظم قادتها، وتوقع انهيار أسعار النفط بسبب وفرة المعروض في الأسواق.",
+            "og_image": "https://www.ajnet.me/wp-content/uploads/2026/10/afp_6ad6f555cd3a-1792472405.jpg?resize=1920%2C1440",
+            "ok": true
+          },
+          {
+            "title": "أميركا تحسم معركة النووي وتحذر من عمل عسكري مدمر ضد إيران",
+            "url": "https://www.skynewsarabia.com/program/aldhahira/1899018-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D8%AA%D8%AD%D8%B3%D9%85-%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%86%D9%88%D9%88%D9%8A-%D9%88%D8%AA%D8%AD%D8%B0%D8%B1-%D8%B9%D9%85%D9%84-%D8%B9%D8%B3%D9%83%D8%B1%D9%8A-%D9%85%D8%AF%D9%85%D8%B1-%D8%B6%D8%AF-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
+            "source": "سكاي نيوز عربية",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWwTB5d0_iKpUOmC8e-dXHXVWIgGYK5zG3yapME08_cNGRysUFJG9TlNTkZQM",
+            "og_title": "أميركا تحسم معركة النووي وتحذر من عمل عسكري مدمر ضد إيران",
+            "og_desc": "تأكيدات أميركية بقرب انتهاء العمليات ضد إيران وتدمير برنامجها النووي، وتحذيرات من عمل عسكري مدمر ما لم تتخلَّ طهران عن طموحاتها الذرية. فهل تمهد واشنطن لتصعيد مرتقب؟.",
+            "og_image": "https://www.skynewsarabia.com/images/v1/2026/10/19/1899034/1200/630/1-1899034.jpg?videoOverlay=true",
+            "ok": true
+          },
+          {
+            "title": "ترامب: قادة إيران طلبوا وقف الهجمات ويخشون مصير أسلافهم",
+            "url": "https://www.alarabiya.net/iran/2026/10/20/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%82%D8%A7%D8%AF%D8%A9-%D8%A7%D9%8A%D8%B1%D8%A7%D9%86-%D8%B7%D9%84%D8%A8%D9%88%D8%A7-%D9%88%D9%82%D9%81-%D8%A7%D9%84%D9%87%D8%AC%D9%85%D8%A7%D8%AA-%D9%88%D9%8A%D8%AE%D8%B4%D9%88%D9%86-%D9%85%D8%B5%D9%8A%D8%B1-%D8%A7%D8%B3%D9%84%D8%A7%D9%81%D9%87%D9%85",
+            "source": "العربية",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg686k1zK51yvPhrWd0XhMOfd4854V_mwYGDuyM5sKf1APNiQU2P_glUjhnms",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "category": "دول وأماكن",
+        "icon": "🗺️",
+        "color": "#79c0ff",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/eg-2026-10-20-إيران.png"
       },
       {
         "title": "طفل",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "published": "Tue, 20 Oct 2026 07:10:00 -0700",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf8mrtHaPQ6gaBSVAngJzpODvc54CCGqB6QBsIYRVz1pb9318oGwADnclgJC8",
         "image_source": "اليوم السابع",
@@ -894,6 +747,145 @@
         "reason": "ورد لفظ حسّاس: قتل",
         "publishable": false,
         "card": "cards/eg-2026-10-20-طفل.png"
+      },
+      {
+        "title": "ماتش باريس وبرشلونه",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Tue, 20 Oct 2026 06:50:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQgL2WUonHQAadZmEfhEyki9YFoslJ5SAHTkzEMZjayU_hTNop3NEE4g5ohdbE",
+        "image_source": "اليوم السابع",
+        "news": [
+          {
+            "title": "موعد مباراة باريس سان جيرمان وبرشلونة فى دورى أبطال أوروبا والقنوات الناقلة",
+            "url": "https://www.youm7.com/story/2026/10/20/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B3%D8%A7%D9%86-%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86-%D9%88%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%81%D9%89-%D8%AF%D9%88%D8%B1%D9%89-%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7/7586631",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQgL2WUonHQAadZmEfhEyki9YFoslJ5SAHTkzEMZjayU_hTNop3NEE4g5ohdbE",
+            "og_title": "موعد مباراة باريس سان جيرمان وبرشلونة فى دورى أبطال أوروبا والقنوات الناقلة - اليوم السابع",
+            "og_desc": "تتجه أنظار عشاق كرة القدم الأوروبية إلى المواجهة المرتقبة التي تجمع بين باريس سان جيرمان وبرشلونة.",
+            "og_image": "https://img.youm7.com/xlarge/202610190958165816_16642.jpg",
+            "ok": true
+          },
+          {
+            "title": "مخاوف أمنية في باريس قبل قمة سان جيرمان وبرشلونة",
+            "url": "https://www.skynewsarabia.com/program/counterattack/1899374-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D8%AA%D8%B1%D9%81%D8%B6-%D8%AA%D8%A3%D8%AC%D9%8A%D9%84-%D9%82%D9%85%D8%A9-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B3%D8%A7%D9%86-%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86-%D9%88%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%84%D8%A3%D8%B3%D8%A8%D8%A7%D8%A8-%D8%A3%D9%85%D9%86%D9%8A%D8%A9",
+            "source": "سكاي نيوز عربية",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYa-_FYrw-PBMY-UFA7yOdOnNlMUM3XviS1WEsVS6bK9e-yqx0VqtBBtZxjE0",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
+          },
+          {
+            "title": "تشكيل برشلونة المتوقع لمباراة باريس سان جيرمان.. ما هو موقف حمزة عبد الكريم؟",
+            "url": "https://www.yallakora.com/uefa/3049/news/569761/%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D9%88%D9%82%D8%B9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B3%D8%A7%D9%86-%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86-%D9%85%D8%A7-%D9%87%D9%88-%D9%85%D9%88%D9%82%D9%81-%D8%AD%D9%85%D8%B2%D8%A9-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-",
+            "source": "يلاكورة",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtZsAaq49QSDGeZ4r2b_CeD6YilY9Qg8cTlH9fxLjYTfFhtiBZvQibfDb_Fgw",
+            "og_title": "تشكيل برشلونة المتوقع لمباراة باريس.. موقف حمزة",
+            "og_desc": "نستعرض تشكيل برشلونة المتوقع لمباراة باريس سان جيرمان في دوري أبطال أوروبا وموقف حمزة عبد الكريم.",
+            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/10/12/12026_10_12_10_48.webp",
+            "ok": true
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "شخصية لا يرد اسمها في مصدرين",
+        "publishable": false,
+        "card": "cards/eg-2026-10-20-ماتش-باريس-وبرشلونه.png"
+      },
+      {
+        "title": "إمام عاشور",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Tue, 20 Oct 2026 06:30:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFZnu1P1P-qJLOID9cjhxezRMVA9hqJ9IkC8U4aOBt2OQsoREWYy8vWm1QWoQ",
+        "image_source": "اليوم السابع",
+        "news": [
+          {
+            "title": "الأهلي يستعيد 4 لاعبين من الإصابة قبل مباراة القناة بالدوري.. تعرف عليهم",
+            "url": "https://www.youm7.com/story/2026/10/20/%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D9%8A%D8%B3%D8%AA%D8%B9%D9%8A%D8%AF-4-%D9%84%D8%A7%D8%B9%D8%A8%D9%8A%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D9%82%D8%A8%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%82%D9%86%D8%A7%D8%A9-%D8%A8%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A/7586687",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFZnu1P1P-qJLOID9cjhxezRMVA9hqJ9IkC8U4aOBt2OQsoREWYy8vWm1QWoQ",
+            "og_title": "الأهلي يستعيد 4 لاعبين من الإصابة قبل مباراة القناة بالدوري.. تعرف عليهم - اليوم السابع",
+            "og_desc": "استعاد فريق الأهلي، جهود أكثر من لاعب مُصاب قبل ساعات من مباراة القناة المُقرر لها الثامنة من مساء غداً ، الأربعاء، بإستاد القاهرة في الجولة السابعة من بطولة الدوري الممتاز.",
+            "og_image": "https://img.youm7.com/xlarge/202610081222332233_300.jpg",
+            "ok": true
+          },
+          {
+            "title": "محمود صلاح جاهز لدعم الأهلي أمام القناة بعد التعافي من الإجهاد العضلي",
+            "url": "https://www.youm7.com/story/2026/10/20/%D9%85%D8%AD%D9%85%D9%88%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D8%AC%D8%A7%D9%87%D8%B2-%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%82%D9%86%D8%A7%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%81%D9%8A-%D9%85%D9%86/7586329",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSAmKwAqgUqL84f6D-YJXohZgRrwO_IxvVzWSGebwfioaQhY_UrNl-wqddn8qI",
+            "og_title": "محمود صلاح جاهز لدعم الأهلي أمام القناة بعد التعافي من الإجهاد العضلي - اليوم السابع",
+            "og_desc": "أصبح محمود صلاح، لاعب الأهلي الشاب، جاهزًا للظهور في قائمة الفريق الأحمر استعدادًا لمواجهة القناة، المقرر إقامتها في الثامنة مساء غدا الأربعاء على استاد القاهرة الدولي",
+            "og_image": "https://img.youm7.com/xlarge/20260815065202522_394.jpg",
+            "ok": true
+          },
+          {
+            "title": "مران الأهلي| عموتة يحاضر اللاعبين.. والفريق يبدأ الاستعداد لمباراة القناة",
+            "url": "https://www.alahlyegypt.com/ar/news/article/%D9%85%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%B9%D9%85%D9%88%D8%AA%D8%A9-%D9%8A%D8%AD%D8%A7%D8%B6%D8%B1-%D8%A7%D9%84%D9%84%D8%A7%D8%B9%D8%A8%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82-%D9%8A%D8%A8%D8%AF%D8%A3-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%82%D9%86%D8%A7%D8%A9",
+            "source": "الموقع الرسمي للنادي الأهلي المصري",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQtZ_3nYkNKuBb0JKAmn0b8lxQE9WajEn5wFMVoecWiC_3o89EF3Z81IkXG8Jc",
+            "og_title": "مران الأهلي| عموتة يحاضر اللاعبين.. والفريق يبدأ الاستعداد لمباراة القناة",
+            "og_desc": "الفريق الأول لكرة القدم بالنادي الأهلي بدأ الاستعداد لمباراة القناة التي تجمع الفريقين مساء الأربعاء القادم، ضمن منافسات بطولة ‏الدوري الممتاز بمحاضرة لالحسين عموتة على هامش مران الفريق",
+            "og_image": "https://alahly-images.s3.us-east-2.amazonaws.com/Article/original/65735-6ad64a7f9222e.jpg",
+            "ok": true
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "شخصية لا يرد اسمها في مصدرين",
+        "publishable": false,
+        "card": "cards/eg-2026-10-20-إمام-عاشور.png"
+      },
+      {
+        "title": "zed vs modern sport",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Tue, 20 Oct 2026 07:20:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ4m3Gb4f1K32HrVbbV1PF_3Ep3TYSFRnih30EHg4DjkNFrk_rpsdu67bmdUtE",
+        "image_source": "اليوم السابع",
+        "news": [
+          {
+            "title": "زد يتحدى مودرن سبورت اليوم فى مباراة مثيرة بالدورى المصرى",
+            "url": "https://www.youm7.com/story/2026/10/20/%D8%B2%D8%AF-%D9%8A%D8%AA%D8%AD%D8%AF%D9%89-%D9%85%D9%88%D8%AF%D8%B1%D9%86-%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D9%81%D9%89-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%85%D8%AB%D9%8A%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%89-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%89/7586395",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ4m3Gb4f1K32HrVbbV1PF_3Ep3TYSFRnih30EHg4DjkNFrk_rpsdu67bmdUtE",
+            "og_title": "زد يتحدى مودرن سبورت اليوم فى مباراة مثيرة بالدورى المصرى - اليوم السابع",
+            "og_desc": "يواجه زد فريق مودرن سبورت في الخامسة مساء اليوم الثلاثاء 20 أكتوبر 2026، على استاد المقاولون العرب.",
+            "og_image": "https://img.youm7.com/xlarge/202608280939583958_394.jpg",
+            "ok": true
+          },
+          {
+            "title": "اهداف مباراة مودرن سبورت وزد في الدوري المصري",
+            "url": "https://www.btolat.com/video/95597",
+            "source": "بطولات",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRF_1a2dLGyxi9FCjWMtKnP4Iu52vqFaTgsr6gdG29itGLBn8PVZdXL5hnx6-I",
+            "og_title": "اهداف مباراة مودرن سبورت وزد في الدوري المصري",
+            "og_desc": "مشاهدة اهداف مباراة مودرن سبورت وزد في الدوري المصري اليوم الثلاثاء 20-10-2026 تعليق عربي",
+            "og_image": "https://img.btolat.com/2026/10/20/video/95597/0.jpg?v=5032",
+            "ok": true
+          },
+          {
+            "title": "زد \" بين طريقين \" قبل مواجهة مودرن سبورت",
+            "url": "https://gate.ahram.org.eg/Massai/News/5968139.aspx",
+            "source": "بوابة الأهرام",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiifXvUyxAflta5WGPrg58u5XrGaOVWPtb2fIuPwf1Y7X7jFzJcUnKApogCyw",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/eg-2026-10-20-zed-vs-modern-sport.png"
       },
       {
         "title": "سيد مشاغب",
@@ -942,41 +934,41 @@
         "card": "cards/eg-2026-10-20-سيد-مشاغب.png"
       },
       {
-        "title": "إمام عاشور",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Tue, 20 Oct 2026 06:30:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFZnu1P1P-qJLOID9cjhxezRMVA9hqJ9IkC8U4aOBt2OQsoREWYy8vWm1QWoQ",
-        "image_source": "اليوم السابع",
+        "title": "طالب",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Tue, 20 Oct 2026 07:40:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqDeQ5KuI4aPG7UbEyZWQytcnRTMfrq9c41bp384sFrlNbBEJHdL3brxHKRqg",
+        "image_source": "فيتو",
         "news": [
           {
-            "title": "الأهلي يستعيد 4 لاعبين من الإصابة قبل مباراة القناة بالدوري.. تعرف عليهم",
-            "url": "https://www.youm7.com/story/2026/10/20/%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D9%8A%D8%B3%D8%AA%D8%B9%D9%8A%D8%AF-4-%D9%84%D8%A7%D8%B9%D8%A8%D9%8A%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D9%82%D8%A8%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%82%D9%86%D8%A7%D8%A9-%D8%A8%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A/7586687",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFZnu1P1P-qJLOID9cjhxezRMVA9hqJ9IkC8U4aOBt2OQsoREWYy8vWm1QWoQ",
-            "og_title": "الأهلي يستعيد 4 لاعبين من الإصابة قبل مباراة القناة بالدوري.. تعرف عليهم - اليوم السابع",
-            "og_desc": "استعاد فريق الأهلي، جهود أكثر من لاعب مُصاب قبل ساعات من مباراة القناة المُقرر لها الثامنة من مساء غداً ، الأربعاء، بإستاد القاهرة في الجولة السابعة من بطولة الدوري الممتاز.",
-            "og_image": "https://img.youm7.com/xlarge/202610081222332233_300.jpg",
+            "title": "وكيل التعليم بالإسكندرية: الانضباط يبدأ من داخل الفصل والمواظبة مفتاح التفوق",
+            "url": "https://www.vetogate.com/5752705",
+            "source": "فيتو",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqDeQ5KuI4aPG7UbEyZWQytcnRTMfrq9c41bp384sFrlNbBEJHdL3brxHKRqg",
+            "og_title": "وكيل التعليم بالإسكندرية: الانضباط يبدأ من داخل الفصل والمواظبة مفتاح التفوق",
+            "og_desc": "أجرى الدكتور عربي أبوزيد ، مدير مديرية التربية والتعليم بالإسكندرية، اليوم الأحد، جولة تفقدية بعدد من مدارس المحافظة، لمتابعة انتظام الدراسة والوقوف على سير امتحانات شهر أكتوبر، والتأكد من توافر الأجواء التعليمية المناسبة لأبنائنا الطلاب.   وذلك في إطار توجيهات الوزير محمد عبد اللطيف، وزير التربية والتعليم",
+            "og_image": "https://cdn.vetogate.com/UploadCache/libfiles/598/3/800x450o/466.webp",
             "ok": true
           },
           {
-            "title": "محمود صلاح جاهز لدعم الأهلي أمام القناة بعد التعافي من الإجهاد العضلي",
-            "url": "https://www.youm7.com/story/2026/10/20/%D9%85%D8%AD%D9%85%D9%88%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D8%AC%D8%A7%D9%87%D8%B2-%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%82%D9%86%D8%A7%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%81%D9%8A-%D9%85%D9%86/7586329",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSAmKwAqgUqL84f6D-YJXohZgRrwO_IxvVzWSGebwfioaQhY_UrNl-wqddn8qI",
-            "og_title": "محمود صلاح جاهز لدعم الأهلي أمام القناة بعد التعافي من الإجهاد العضلي - اليوم السابع",
-            "og_desc": "أصبح محمود صلاح، لاعب الأهلي الشاب، جاهزًا للظهور في قائمة الفريق الأحمر استعدادًا لمواجهة القناة، المقرر إقامتها في الثامنة مساء غدا الأربعاء على استاد القاهرة الدولي",
-            "og_image": "https://img.youm7.com/xlarge/20260815065202522_394.jpg",
+            "title": "مدير التعليم بالاسكندرية يفتتح قاعة اجتماعات ومعمل كمبيوتر بمدرسة ليسيه الحرية",
+            "url": "https://www.vetogate.com/5749524",
+            "source": "فيتو",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQuT0OTu8YGxXchZctEv4T6ZwLHJ02osDyxZ_bp7fjZRvDG38nANmPfn40DYKI",
+            "og_title": "مدير التعليم بالاسكندرية يفتتح قاعة اجتماعات ومعمل كمبيوتر بمدرسة ليسيه الحرية",
+            "og_desc": "واصل الدكتور عربي أبوزيد، مدير مديرية التربية والتعليم بالإسكندرية، اليوم الثلاثاء، جولاته التفقدية بمدارس المحافظة، لمتابعة انتظام العملية التعليمية والوقوف على واقع الأداء المدرسي مع انطلاق العام الدراسي الجديد ٢٠٢٦  ٢٠٢٧. \r\n \r\n \r\n \r\n \r\n\r\n \r\n \r\n \r\n \r\n \r\n\r\n  استغاثات وصراخ ثم طعنات، ماذا كشف شهود العيان",
+            "og_image": "https://cdn.vetogate.com/UploadCache/libfiles/597/7/800x450o/499.webp",
             "ok": true
           },
           {
-            "title": "مران الأهلي| عموتة يحاضر اللاعبين.. والفريق يبدأ الاستعداد لمباراة القناة",
-            "url": "https://www.alahlyegypt.com/ar/news/article/%D9%85%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%B9%D9%85%D9%88%D8%AA%D8%A9-%D9%8A%D8%AD%D8%A7%D8%B6%D8%B1-%D8%A7%D9%84%D9%84%D8%A7%D8%B9%D8%A8%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82-%D9%8A%D8%A8%D8%AF%D8%A3-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%82%D9%86%D8%A7%D8%A9",
-            "source": "الموقع الرسمي للنادي الأهلي المصري",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQtZ_3nYkNKuBb0JKAmn0b8lxQE9WajEn5wFMVoecWiC_3o89EF3Z81IkXG8Jc",
-            "og_title": "مران الأهلي| عموتة يحاضر اللاعبين.. والفريق يبدأ الاستعداد لمباراة القناة",
-            "og_desc": "الفريق الأول لكرة القدم بالنادي الأهلي بدأ الاستعداد لمباراة القناة التي تجمع الفريقين مساء الأربعاء القادم، ضمن منافسات بطولة ‏الدوري الممتاز بمحاضرة لالحسين عموتة على هامش مران الفريق",
-            "og_image": "https://alahly-images.s3.us-east-2.amazonaws.com/Article/original/65735-6ad64a7f9222e.jpg",
+            "title": "مدير «تعليم الإسكندرية» يتابع انتظام الدراسة بمدرسة مصطفى مشرفة الابتدائية",
+            "url": "https://www.youm7.com/story/2026/10/20/%D9%85%D8%AF%D9%8A%D8%B1-%C2%AB%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9%C2%BB-%D9%8A%D8%AA%D8%A7%D8%A8%D8%B9-%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%A8%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D9%85%D8%B5%D8%B7%D9%81%D9%89-%D9%85%D8%B4%D8%B1%D9%81%D8%A9-%D8%A7%D9%84%D8%A7%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9/7587245",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS4K_hxtEPq3BzpJV4d84V1O7ANxo6zgdmfSnvYayQ6R-YQR4fLSy0GSSOWrGo",
+            "og_title": "مدير «تعليم الإسكندرية» يتابع انتظام الدراسة بمدرسة مصطفى مشرفة الابتدائية - اليوم السابع",
+            "og_desc": "أجرى الدكتور عربي أبو زيد، مدير مديرية التربية والتعليم بالإسكندرية، اليوم الثلاثاء، جولة تفقدية بمدرسة مصطفى مشرفة الابتدائية التابعة لإدارة المنتزه أول التعليمية.",
+            "og_image": "https://img.youm7.com/xlarge/202610200518301830_375.jpg",
             "ok": true
           }
         ],
@@ -985,94 +977,45 @@
         "color": "#ffd166",
         "reason": "شخصية لا يرد اسمها في مصدرين",
         "publishable": false,
-        "card": "cards/eg-2026-10-20-إمام-عاشور.png"
+        "card": "cards/eg-2026-10-20-طالب.png"
       },
       {
-        "title": "رجاء محمد",
+        "title": "paris vs barcelona",
         "traffic": "100+",
         "traffic_num": 100,
-        "published": "Tue, 20 Oct 2026 06:30:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSV-sh7REOSla3Lkd7OEITVcGtE5hGKH5YHCer7tnefbj1SBAcNZW-Ql7wqBG4",
-        "image_source": "العربية",
+        "published": "Tue, 20 Oct 2026 07:30:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSNEHQUN1COIJkinkth2fnJMU04cM1sC-i2Yk37D1wpQ0oZ3K9Pt83iRh02FC4",
+        "image_source": "BBC",
         "news": [
           {
-            "title": "وفاة الفنانة الكويتية رجاء محمد بعد مسيرة قصيرة رسخت حضورها في ذاكرة الفن الخليجي",
-            "url": "https://www.alarabiya.net/saudi-today/art/2026/10/20/%D9%88%D9%81%D8%A7%D8%A9-%D8%A7%D9%84%D9%81%D9%86%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9-%D8%B1%D8%AC%D8%A7%D8%A1-%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D8%B9%D8%AF-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D9%82%D8%B5%D9%8A%D8%B1%D8%A9-%D8%B1%D8%B3%D8%AE%D8%AA-%D8%AD%D8%B6%D9%88%D8%B1%D9%87%D8%A7-%D9%81%D9%8A-%D8%B0%D8%A7%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%81%D9%86-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC%D9%8A-",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSV-sh7REOSla3Lkd7OEITVcGtE5hGKH5YHCer7tnefbj1SBAcNZW-Ql7wqBG4",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "الكويت تودّع الفنانة المعتزلة رجاء محمد",
-            "url": "https://www.okaz.com.sa/culture/art/2271607",
-            "source": "عكاظ",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSLU8n7TbKDT7bHSXUZWIPTsjJEVsBlXKrKD65p3j6lLq7eCrZGeP_vGN3Dfds",
-            "og_title": "الكويت تودّع الفنانة المعتزلة رجاء محمد",
-            "og_desc": "غيّب الموت الفنانة الكويتية المعتزلة رجاء محمد عن عمر ناهز 64 عامًا، بعد مسيرة فنية تركت خلالها بصمة في عدد من الأعمال المسرحية والتلفزيونية التي ارتبطت بذاكرة الجمهور الكويتي.",
-            "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/10/20/2782607.webp",
+            "title": "Champions League: PSG vs Barcelona - Europe's most exciting match-up?",
+            "url": "https://www.bbc.com/sport/football/articles/c820vw7velvro",
+            "source": "BBC",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSNEHQUN1COIJkinkth2fnJMU04cM1sC-i2Yk37D1wpQ0oZ3K9Pt83iRh02FC4",
+            "og_title": "Champions League: PSG vs Barcelona - Europe's most exciting match-up?",
+            "og_desc": "Paris St-Germain and Barcelona, the current top two in this season's Champions League, meet on Tuesday.",
+            "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/e053/live/2a307260-cba0-11f1-9ee2-f74dfb8e54e5.png",
             "ok": true
           },
           {
-            "title": "رحيل الفنانة الكويتية المعتزلة رجاء محمد عن عمر 64 عامًا",
-            "url": "https://gate.ahram.org.eg/News/5968516.aspx",
-            "source": "بوابة الأهرام",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStjcFN3IXsUE2pCwy0FR9LDtO59pqYmgN2CkSNH3iQOC7CrO8NI-ZjQ9blnAY",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: وفاة",
-        "publishable": false,
-        "card": "cards/eg-2026-10-20-رجاء-محمد.png"
-      },
-      {
-        "title": "نادي سموحة",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Tue, 20 Oct 2026 06:00:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRmxGyo7U1PrxQ9PVYxJpLzdovG9XlIDGmnrnW21XGOLxdo-V7vY4GvSLDA_cs",
-        "image_source": "اليوم السابع",
-        "news": [
-          {
-            "title": "سموحة يهزم الجونة بثنائية بادجى وفريد ويصعد للمركز السابع فى الدورى",
-            "url": "https://www.youm7.com/story/2026/10/19/%D8%B3%D9%85%D9%88%D8%AD%D8%A9-%D9%8A%D9%87%D8%B2%D9%85-%D8%A7%D9%84%D8%AC%D9%88%D9%86%D8%A9-%D8%A8%D8%AB%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A8%D8%A7%D8%AF%D8%AC%D9%89-%D9%88%D9%81%D8%B1%D9%8A%D8%AF-%D9%88%D9%8A%D8%B5%D8%B9%D8%AF-%D9%84%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D8%B9-%D9%81%D9%89/7586033",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRmxGyo7U1PrxQ9PVYxJpLzdovG9XlIDGmnrnW21XGOLxdo-V7vY4GvSLDA_cs",
-            "og_title": "سموحة يهزم الجونة بثنائية بادجى وفريد ويصعد للمركز السابع فى الدورى - اليوم السابع",
-            "og_desc": "حقق فريق سموحة فوزًا مهمًا على الجونة بهدفين دون رد، في المباراة التي جمعتهما مساء اليوم الاثنين، ضمن منافسات الجولة السابعة من المرحلة الأولى.",
-            "og_image": "https://img.youm7.com/xlarge/202602040833593359_487.jpg",
+            "title": "Schedule for Matchday 3 of the UEFA Champions League",
+            "url": "https://www.psg.fr/en/content/fixtures-for-matchday-3-of-the-uefa-champions-league-psg-v-barcelonacalendrier-2026-2027/",
+            "source": "Paris Saint-Germain",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP8PaFV9ZsvlL2xuU_HFd9BmDw1VOFenLMjIMdTwuTlO26tC5rUq5sSCZUJRA",
+            "og_title": "Schedule for Matchday 3 of the UEFA Champions League",
+            "og_desc": "Check out the full fixture list for Matchday 3 of the UEFA Champions League group stage. Paris Saint-Germain host FC Barcelona on Tuesday 20th October 2026 at the Parc des Princes, with kick-off at 9pm.",
+            "og_image": "https://media.psg.fr/image/upload/w_1200,c_fill,g_auto/f_avif/parc_hy9pux",
             "ok": true
           },
           {
-            "title": "ثنائية قاتلة.. سموحة يُسقط الجونة ويعمق جراحه في الدوري",
-            "url": "https://www.yallakora.com/egyptian-league/3031/news/569710/%D8%AB%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D9%82%D8%A7%D8%AA%D9%84%D8%A9-%D8%B3%D9%85%D9%88%D8%AD%D8%A9-%D9%8A-%D8%B3%D9%82%D8%B7-%D8%A7%D9%84%D8%AC%D9%88%D9%86%D8%A9-%D9%88%D9%8A%D8%B9%D9%85%D9%82-%D8%AC%D8%B1%D8%A7%D8%AD%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A",
-            "source": "يلاكورة",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT-QK7GELa-_W2hmRCUFRH_bVI9W1Yq6eyYC9MAxdsK4YbJ4sCx6oCqZUXGYsw",
-            "og_title": "سموحة يُسقط الجونة ويعمق جراحه في الدوري",
-            "og_desc": "حسم سموحة مواجهته أمام الجونة بهدفين دون رد، في المباراة التي جمعتهما على ملعب خالد بشارة بالغردقة، ضمن منافسات الجولة السابعة من الدوري المصري الممتاز.",
-            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/9/3/17351009229755202602080201521522026_9_3_13_27.webp",
+            "title": "Pedri: 'It will be a great game'",
+            "url": "https://www.fcbarcelona.com/en/videos/4594801/pedri-it-will-be-a-great-game",
+            "source": "FC Barcelona",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4IlyO00Tex-9JbzI9-gw1-toD1jted3Ly3iVs1HpZlS4o9Mv7mCSiqo55s9U",
+            "og_title": "Pedri: 'It will be a great game'",
+            "og_desc": "The blaugrana midfield maestro is 'excited' about taking on Champions League holders Paris Saint-Germain in the Parc des Princes",
+            "og_image": "https://www.fcbarcelona.com/fcbarcelona/photo/2026/10/19/4db2b378-8a76-4b01-9e12-6526e079ebe2/_MGA8362.jpg",
             "ok": true
-          },
-          {
-            "title": "سموحة يهزم الجونة بثنائية ويُحقق انتصاره الثالث على التوالي في الدوري",
-            "url": "https://gate.ahram.org.eg/News/5968189.aspx",
-            "source": "بوابة الأهرام",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRyq33IC9fDnlLuD08Fx8YthsOTNWOfOxYG_Gcrl5VMzIhxi8zLfn1Ca3c8bRw",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
           }
         ],
         "category": "رياضة",
@@ -1080,58 +1023,7 @@
         "color": "#3ddc97",
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "article": {
-          "headline": "ثنائية في الدقائق الأخيرة تمنح سموحة المركز السابع",
-          "summary": "حقق سموحة فوزًا مهمًا على الجونة بهدفين دون رد مساء الاثنين في الجولة السابعة من الدوري المصري، ليرتفع رصيده إلى 10 نقاط والمركز السابع.",
-          "body": "سجل سموحة أهدافه عبر بابا بادجي وفادي فريد في الدقائق الأخيرة من المباراة، بعد أن كان الشوط الأول انتهى بدون أهداف على ملعب خالد بشارة بالغردقة. تحسن الموقف لصالح الفريق السكندري بعد طرد مدافع الجونة صابر الشيمي في الدقيقة 38 عقب تدخل قوي على محمد رجب، الأمر الذي أجبر الجونة على إكمال المباراة برجالة عشرة، واستغل سموحة هذا الضعف العددي بكفاءة.\n\nالنتائج رفعت سموحة إلى المركز السابع برصيد 10 نقاط، بينما تجمد رصيد الجونة عند نقطتين فقط في المركز التاسع عشر قبل الأخير، مما يعمق أزمة الفريق المضيف في بداية موسم الدوري المصري الممتاز.\n\nكان الهدف الأول لسموحة من بابا بادجي في الدقيقة 82، حين استقبل كرة من عرضية لفادي فريد من الجهة اليسرى وسددها بطريقة مقصية. أضاف فادي فريد الهدف الثاني بعد أربع دقائق فقط في الدقيقة 86 برسالة قوية من خارج منطقة الجزاء تسكنت الزاوية اليسرى.",
-          "facts": [
-            {
-              "label": "النتيجة",
-              "value": "سموحة 2-0 الجونة"
-            },
-            {
-              "label": "الملعب",
-              "value": "ملعب خالد بشارة بالغردقة"
-            },
-            {
-              "label": "المسابقة",
-              "value": "الدوري المصري الممتاز - الجولة السابعة"
-            },
-            {
-              "label": "المركز الجديد لسموحة",
-              "value": "السابع برصيد 10 نقاط"
-            },
-            {
-              "label": "مركز الجونة",
-              "value": "التاسع عشر برصيد نقطتين"
-            }
-          ],
-          "tags": [
-            "سموحة",
-            "الدوري المصري",
-            "الجونة",
-            "كرة القدم المصرية",
-            "البطولة الممتازة"
-          ],
-          "_v": 4,
-          "_by": "claude",
-          "written_at": "2026-10-20T13:33:05.091557+00:00",
-          "photo": {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Smouha_club.png/1280px-Smouha_club.png",
-            "width": 1280,
-            "height": 955,
-            "artist": "Asiatologist",
-            "license": "CC BY-SA 4.0",
-            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-            "file_page": "https://commons.wikimedia.org/wiki/File:Smouha_club.png",
-            "wiki_title": "نادي سموحة",
-            "wiki_lang": "ar"
-          },
-          "photo_v": 8,
-          "_had_data": false,
-          "_localized": false
-        },
-        "card": "cards/eg-2026-10-20-نادي-سموحة.png"
+        "card": "cards/eg-2026-10-20-paris-vs-barcelona.png"
       }
     ]
   },
@@ -1141,7 +1033,7 @@
     "name_en": "Saudi Arabia",
     "lang": "ar",
     "flag": "🇸🇦",
-    "generated_at": "2026-10-20T14:31:04.534727+00:00",
+    "generated_at": "2026-10-20T15:01:18.583857+00:00",
     "day": "2026-10-20",
     "trends": [
       {
@@ -1196,38 +1088,38 @@
         "traffic": "5000+",
         "traffic_num": 5000,
         "published": "Tue, 20 Oct 2026 06:10:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRji_iZG9RKiYcgK0htWPVJZnVo-AZROHb1ChRB1jgcT4ZYHaAnfpR5HxyZzvM",
-        "image_source": "يلاكورة",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxjEvSwzbdC2TPnfkJExNK6f7Xmb_u8wWDchxpx3iwEMGD3rK8bkXDNp0iaVM",
+        "image_source": "اليوم السابع",
         "news": [
           {
-            "title": "تشكيل الزمالك المتوقع.. بديل ربيع.. وثلاثي هجومي أمام بترول أسيوط",
-            "url": "https://www.yallakora.com/egyptian-league/3031/news/569756/%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D8%A7%D9%84%D9%85%D8%AA%D9%88%D9%82%D8%B9-%D8%A8%D8%AF%D9%8A%D9%84-%D8%B1%D8%A8%D9%8A%D8%B9-%D9%88%D8%AB%D9%84%D8%A7%D8%AB%D9%8A-%D9%87%D8%AC%D9%88%D9%85%D9%8A-%D8%A3%D9%85%D8%A7%D9%85-%D8%A8%D8%AA%D8%B1%D9%88%D9%84-%D8%A3%D8%B3%D9%8A%D9%88%D8%B7",
-            "source": "يلاكورة",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRji_iZG9RKiYcgK0htWPVJZnVo-AZROHb1ChRB1jgcT4ZYHaAnfpR5HxyZzvM",
-            "og_title": "تشكيل الزمالك المتوقع أمام بترول أسيوط",
-            "og_desc": "استقر معتمد جمال، المدير الفني لفريق الزمالك، على التشكيل الذي سيدفع به في لقاء بترول أسيوط، والمقرر له اليوم على ملعب \"برج العرب\" في الإسكندرية.",
-            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/10/11/untitled-52026_10_11_10_22.webp",
+            "title": "أحمد شريف يسجل هدف تقدم الزمالك على بترول أسيوط فى الدقيقة 25",
+            "url": "https://www.youm7.com/story/2026/10/20/%D8%A3%D8%AD%D9%85%D8%AF-%D8%B4%D8%B1%D9%8A%D9%81-%D9%8A%D8%B3%D8%AC%D9%84-%D9%87%D8%AF%D9%81-%D8%AA%D9%82%D8%AF%D9%85-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D8%B9%D9%84%D9%89-%D8%A8%D8%AA%D8%B1%D9%88%D9%84-%D8%A3%D8%B3%D9%8A%D9%88%D8%B7-%D9%81%D9%89/7587217",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxjEvSwzbdC2TPnfkJExNK6f7Xmb_u8wWDchxpx3iwEMGD3rK8bkXDNp0iaVM",
+            "og_title": "أحمد شريف يسجل هدف تقدم الزمالك على بترول أسيوط فى الدقيقة 25 - اليوم السابع",
+            "og_desc": "سجل أحمد شريف لاعب فريق الزمالك، هدف التقدم لفريقه فى شباك بترول أسيوط بالدقيقة 25 من عمر المباراة التى تجمعهما حاليًا على ستاد برج العرب",
+            "og_image": "https://img.youm7.com/xlarge/202510180830333033.jpg",
             "ok": true
           },
           {
-            "title": "بث مباشر.. مشاهدة مباراة الزمالك وبترول أسيوط الآن في الدوري المصري 2027",
-            "url": "https://www.365scores.com/ar/news/magazine/%D8%A8%D8%AB-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%88%D8%A8%D8%AA%D8%B1%D9%88%D9%84-%D8%A3%D8%B3%D9%8A%D9%88%D8%B7/",
-            "source": "365Scores",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSEneWvghvgwslSjn0tq20JvQfYu0ur1r40zaL23YDPxK1kcqkwvpNEXz01yNo",
-            "og_title": "بث مباشر.. مشاهدة مباراة الزمالك وبترول أسيوط الآن في الدوري المصري 2027 - 365Scores",
-            "og_desc": "كيفية مشاهدة بث مباشر مباراة الزمالك وبترول أسيوط الآن، وذلك في الجولة السابعة من الدوري المصري الممتاز موسم 2026/2027.",
-            "og_image": "https://www.365scores.com/ar/news/magazine/wp-content/uploads/2026/09/بث-مباشر-مباراه-الزمالك-1.webp",
-            "ok": true
-          },
-          {
-            "title": "القلاوي حكمًا لمباراة الزمالك وبترول أسيوط في الدوري",
-            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=19102026&id=f68aaea1-15cb-4c4c-89e5-f33c5b5b7f34",
+            "title": "الزمالك يصل برج العرب استعدادا لمواجهة بترول أسيوط في الدوري",
+            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=20102026&id=9e3111f5-6e61-46aa-ab19-97bf54d45398",
             "source": "بوابة الشروق",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTJcXf-7OuCrE1nlrI16dLwjzYvEaTYyMNOyBAF12-5k1fhgXpGoWC9TfL0d3g",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQCqwxDf2pOK1o-2nUs1MBgNB1v0XviGs2PhEqK65ILCht6rIV-_M87A069HS4",
             "og_title": "",
             "og_desc": "",
-            "og_image": "https://www.shorouknews.com/uploadedimages/Sections/Sports/original/hamada-alkalawy-2025.jpg",
+            "og_image": "https://www.shorouknews.com/uploadedimages/Sections/Sports/original/Zamalek-bus-morning-26.jpg",
             "ok": false
+          },
+          {
+            "title": "قبل مباراة الفريقين.. بترول أسيوط يستخدم اللون الأحمر للسخرية من الزمالك (صورة)",
+            "url": "https://www.eremnews.com/sports/kbcm2po",
+            "source": "إرم نيوز",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSbTkKy6N7cr6-yVfId0urHRHszwCCYVzcgP71nuUDtWV6GWIhX3ey8dAvOuT0",
+            "og_title": "قبل مباراة الفريقين.. بترول أسيوط يستخدم اللون الأحمر للسخرية من الزمالك (صورة) | إرم نيوز",
+            "og_desc": "سخر نادي بترول أسيوط، من نظيره الزمالك قبيل مواجهة الفريقين المنتظرة مساء اليوم الثلاثاء ببطولة الدوري المصري الممتاز لكرة القدم.",
+            "og_image": "https://cdn.eremnews.com/media/75cf256d-d047-46d3-8522-6965347555ad_v3",
+            "ok": true
           }
         ],
         "category": "رياضة",
@@ -1282,6 +1174,91 @@
           "_localized": false
         },
         "card": "cards/sa-2026-10-20-بترول-أسيوط-ضد-الزمالك.png"
+      },
+      {
+        "title": "التعاون ضد القادسية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "published": "Tue, 20 Oct 2026 07:30:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlOchAbzJqQ7d5MiUv0dR802s3Z-tFrAhM45cX3EfJ8gEe_UqOuaL3cniHMNY",
+        "image_source": "صحيفة الرياضية",
+        "news": [
+          {
+            "title": "القادسية يواجه التعاون بالطقم الجديد.. ورودجرز يعيد كينيونيس",
+            "url": "https://arriyadiyah.com/902815/%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B3%D9%8A%D8%A9-%D9%8A%D9%88%D8%A7%D8%AC%D9%87-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A8%D8%A7%D9%84%D8%B7%D9%82%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF..-%D9%88%D8%B1%D9%88%D8%AF%D8%AC%D8%B1%D8%B2-%D9%8A%D8%B9%D9%8A%D8%AF-%D9%83%D9%8A%D9%86%D9%8A%D9%88%D9%86%D9%8A%D8%B3",
+            "source": "صحيفة الرياضية",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlOchAbzJqQ7d5MiUv0dR802s3Z-tFrAhM45cX3EfJ8gEe_UqOuaL3cniHMNY",
+            "og_title": "القادسية يواجه التعاون بالطقم الجديد.. ورودجرز يعيد كينيونيس",
+            "og_desc": "يخوض فريق القادسية الأول لكرة القدم مباراته أمام التعاون، الثلاثاء، ضمن منافسات الجولة العاشرة من دوري روشن  ...",
+            "og_image": "https://arriyadiyah.com/media/thumb/0d/1e/800_a9a416373d.png",
+            "ok": true
+          },
+          {
+            "title": "القادسية يختتم تحضيراته لمواجهة التعاون ويغادر إلى القصيم",
+            "url": "https://www.al-madina.com/article/1009919/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B3%D9%8A%D8%A9-%D9%8A%D8%AE%D8%AA%D8%AA%D9%85-%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1%D8%A7%D8%AA%D9%87-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%88%D9%8A%D8%BA%D8%A7%D8%AF%D8%B1-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D9%85",
+            "source": "جريدة المدينة",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_90u-5uupmwZxCFIp1mbFMZ74y5IgSJtS14I5XlYsmvYQjo1TraRcVzX1JaI",
+            "og_title": "القادسية يختتم تحضيراته لمواجهة التعاون ويغادر إلى القصيم",
+            "og_desc": "نادي القادسية\r\n دوري روشن السعودي للمحترفين.",
+            "og_image": "https://www.al-madina.com/uploads/images/2026/10/19/2675573.jpg",
+            "ok": true
+          },
+          {
+            "title": "فواصل",
+            "url": "https://www.al-jazirah.com/2026/20261020/sp8.htm",
+            "source": "جريدة الجزيرة",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQbOuaH3Wqqx-6M07G6yJamlO0vN9AElA1kfgO5ka7xr6RHYhtxNlS2DRphxlg",
+            "og_title": "فواصل",
+            "og_desc": "",
+            "og_image": "https://www.al-jazirah.com/2026/20261020/sp_88_1-t.jpg",
+            "ok": true
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "شخصية: 2 مصادر تذكر الاسم بلا ألفاظ حسّاسة",
+        "publishable": true,
+        "person": true,
+        "article": {
+          "headline": "القادسية يستعيد كينيونيس ويواجه التعاون بقميص أزرق كحلي",
+          "summary": "يخوض القادسية مباراته أمام التعاون الثلاثاء في الجولة العاشرة من دوري روشن مرتديًا طقمه الثالث الجديد، مع عودة المهاجم كينيونيس بعد غيابه عن مواجهة أبها.",
+          "body": "يستعيد فريق القادسية نجمه المكسيكي خوليان كينيونيس في مباراة الثلاثاء أمام التعاون بعد أن أبعده المدرب بريندان رودجرز عن مباراة أبها الماضية. وستشهد المواجهة ظهور الفريق بقميص جديد باللون الأزرق الداكن تتخلله خطوط حمراء رفيعة، مع كتفين بالأحمر المخطط بالأصفر. تأتي المباراة ضمن منافسات الجولة العاشرة من دوري روشن السعودي على ملعب التعاون في بريدة.\n\nالمباراة القادمة توفر فرصة للقادسية لتعزيز موقعه المتقدم بالدوري. يحتل القادسية حاليًا صدارة الترتيب برصيد 22 نقطة بعد فوزه على أبها 2-1 في آخر جولة، متقدمًا على الهلال بنقطة واحدة فقط، رغم أن فريق جدة لعب مباراة واحدة أقل.\n\nكشفت المصادر أن المدرب رودجرز يواصل تطبيق سياسة التدوير لتجديد طاقات الفريق، وهي السياسة التي طالت كينيونيس في المباراة السابقة. هذا التناوب يهدف إلى الحفاظ على اللياقة البدنية للاعبي الفريق والاستعداد لسباق الدوري المتنافس.",
+          "facts": [
+            {
+              "label": "الموعد",
+              "value": "الثلاثاء - الجولة العاشرة"
+            },
+            {
+              "label": "المكان",
+              "value": "ملعب التعاون في بريدة"
+            },
+            {
+              "label": "موقع القادسية في الترتيب",
+              "value": "الصدارة برصيد 22 نقطة"
+            }
+          ],
+          "tags": [
+            "القادسية",
+            "التعاون",
+            "دوري روشن",
+            "كينيونيس",
+            "رودجرز"
+          ],
+          "_v": 4,
+          "_by": "claude",
+          "written_at": "2026-10-20T15:01:35.676443+00:00",
+          "photo": {
+            "url": "https://altrendat.com/art/8586eb6bff3283.jpg",
+            "ai": true,
+            "width": 1024,
+            "height": 576
+          },
+          "photo_v": 8,
+          "_had_data": false,
+          "_localized": false
+        },
+        "card": "cards/sa-2026-10-20-التعاون-ضد-القادسية.png"
       },
       {
         "title": "النصر ونيوم",
@@ -1372,38 +1349,37 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "published": "Tue, 20 Oct 2026 06:10:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR5UnEuQFtIg1Rq1Zj2pzXwKv4JvRDtmLI9UZSRYZMxnNtoYUDYOEv5pk74JJs",
-        "image_source": "العربية",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSUk7pDhtS9gWiICOJurhLhWpsd-WB7hdDn37sid-mupEvgcEoF8AOuXdv0PXU",
+        "image_source": "عاجل",
         "news": [
           {
-            "title": "إيران تلوح باستهداف كابلات الإنترنت أسفل هرمز.. \"لدينا أهداف جديدة\"",
-            "url": "https://www.alarabiya.net/iran/2026/10/19/%D8%A7%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D9%84%D9%88%D8%AD-%D8%A8%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%83%D8%A7%D8%A8%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B1%D9%86%D8%AA-%D8%A7%D8%B3%D9%81%D9%84-%D9%87%D8%B1%D9%85%D8%B2-%D9%84%D8%AF%D9%8A%D9%86%D8%A7-%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR5UnEuQFtIg1Rq1Zj2pzXwKv4JvRDtmLI9UZSRYZMxnNtoYUDYOEv5pk74JJs",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "إيران تتوعد بالرد على أي ضربة أميركية لـ«جبل الفأس»",
-            "url": "https://aawsat.com/%D8%B4%D8%A4%D9%88%D9%86-%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A%D8%A9/5331559-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D8%AA%D9%88%D8%B9%D8%AF-%D8%A8%D8%A7%D9%84%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%A3%D9%8A-%D8%B6%D8%B1%D8%A8%D8%A9-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D9%84%D9%80%D8%AC%D8%A8%D9%84-%D8%A7%D9%84%D9%81%D8%A3%D8%B3",
-            "source": "الشرق الأوسط",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS-mNSqhLTqYAZMi4MwJ9yh_O-gkTE3YgTu4ft57GxFx-cIzD6zr-S4WQ9pc_0",
-            "og_title": "إيران تتوعد بالرد على أي ضربة أميركية لـ«جبل الفأس»",
-            "og_desc": "توعدت إيران الثلاثاء بالرد على أي ضربة أميركية لمنشأة «جبل الفأس» النووية المحصنة بعد تلويح الرئيس الأميركي دونالد ترمب باستهدافها",
-            "og_image": "https://static.srpcdigital.com/styles/1200x600/public/2026-10/1837071.jpeg.webp?VersionId=JbKrtIzU3SE.xi7oZbvYqFI2.ycoM4u3",
+            "title": "إيران: الرد الأمريكي على مقترحنا الذي يتضمن فتح مضيق هرمز خلال 7 أيام ناقص وغير كاف",
+            "url": "https://ajel.sa/international/vbqe3w99a",
+            "source": "عاجل",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSUk7pDhtS9gWiICOJurhLhWpsd-WB7hdDn37sid-mupEvgcEoF8AOuXdv0PXU",
+            "og_title": "إيران: الرد الأمريكي على مقترحنا الذي يتضمن فتح مضيق هرمز خلال 7 أيام ناقص وغير كاف",
+            "og_desc": "قال المتحدث باسم وزارة الخارجية الإيرانية، إسماعيل بقائي، اليوم، إن \"المطالب المفرطة للولايات المتحدة تحول دون إحراز تقدم في المفاوضات\".",
+            "og_image": "https://ajel.sa/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=auto,format=jpeg/https://cdn.ajel.sa/articles/2026-10/Capture-crop-WTplmHzv.jpg",
             "ok": true
           },
           {
-            "title": "\"سيُذهَل العالم\".. قادة إيران يستعدون لجولة حرب جديدة مع أمريكا أوسع نطاقا",
-            "url": "https://arabic.cnn.com/middle-east/article/2026/10/19/world-amazed-irans-commanders-prepare-further-war",
+            "title": "عراقجي: خطة الأيام السبعة لفتح مضيق هرمز لا تزال مطروحة على الطاولة",
+            "url": "https://arabic.cnn.com/middle-east/article/2026/10/18/araghchi-seven-day-plan-open-strait-of-hormuz-remains-table",
             "source": "CNN Arabic",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRparfcHKZmNCj0WnANXM96UZfsdYt1FnWahcUCk1DQg2aRpLVnVn4LI7DYHTc",
-            "og_title": "\"سيُذهَل العالم\".. قادة إيران يستعدون لجولة حرب جديدة مع أمريكا | CNN Arabic | CNN",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrII1LKKG2sgV2JiXi7eMWjnstcUGbrPxY7bpRtXDqUvNtsNNZwpdZ6AMQc9Q",
+            "og_title": "عراقجي: خطة الأيام السبعة لفتح مضيق هرمز لا تزال مطروحة | CNN Arabic | CNN",
             "og_desc": "",
-            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/347330.jpg?c=16x9&q=w_800,c_fill",
+            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/347295.jpg?c=16x9&q=w_800,c_fill",
+            "ok": true
+          },
+          {
+            "title": "طهران تعتبر الرد الأمريكي على مقترح هرمز \"غير كافٍ\".. وقائد الجيش الباكستاني يزور إيران",
+            "url": "https://arabic.euronews.com/2026/10/20/iran-esmaeil-baghaei-united-states-seven-demands-strait-of-hormuz-naval-blockade-asi",
+            "source": "Euronews.com",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuOnYVTEtmuSjudfm9O8nxuHDWtINkhWk-bIPQibBPQojLhvXOelleMOZVFDY",
+            "og_title": "طهران تعتبر الرد الأمريكي على مقترح هرمز \"غير كافٍ\".. وقائد الجيش الباكستاني يصل إلى إيران",
+            "og_desc": "أكد بقائي أن طهران لا تفصل بين الجهود الدبلوماسية والاستعدادات الدفاعية، مشيرًا إلى أن استمرار الاتصالات لا يعني تراجع إيران عن مواقفها أو تجاهلها للتهديدات.",
+            "og_image": "https://images.euronews.com/articles/stories/09/96/02/02/1200x675_cmsv2_ce9094b9-a915-5760-afc6-8cf6f4f07df1-9960202.jpg",
             "ok": true
           }
         ],
@@ -1453,56 +1429,9 @@
         "card": "cards/sa-2026-10-20-إيران.png"
       },
       {
-        "title": "مجلس الوزراء",
+        "title": "shafali verma",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "published": "Tue, 20 Oct 2026 06:00:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTswYZOOZ5gJ3XDnXEKzrGyVyW50Wtriyi5ydt2jnx_Tggh5TUtWFHER0DBoTc",
-        "image_source": "صحيفة سبق الإلكترونية",
-        "news": [
-          {
-            "title": "برئاسة الملك سلمان.. مجلس الوزراء يدين هجمات الحوثيين ويوافق على أنظمة جديدة لبراءات الاختراع والتصاميم",
-            "url": "https://sabq.org/article/j3qr1do",
-            "source": "صحيفة سبق الإلكترونية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTswYZOOZ5gJ3XDnXEKzrGyVyW50Wtriyi5ydt2jnx_Tggh5TUtWFHER0DBoTc",
-            "og_title": "برئاسة الملك سلمان.. مجلس الوزراء يدين هجمات الحوثيين ويوافق على أنظمة جديدة لبراءات الاختراع والتصاميم | سبق",
-            "og_desc": "برئاسة الملك سلمان.. مجلس الوزراء في الرياض يبحث الرسائل الدولية، استقرار المنطقة، إدانة هجمات الحوثي، إنشاء مجلس وزراء الأمن السيبراني ونمو الاستثمارات الأجنبي",
-            "og_image": "https://media.sabq.org/news/2026/10/33948e0f-349f-4e78-b048-5158589a09fc/w1200.webp",
-            "ok": true
-          },
-          {
-            "title": "مجلس الوزراء السعودي: أمن الطاقة وحركة الملاحة مسؤولية مشتركة تتطلب تعاوناً دولياً",
-            "url": "https://www.alarabiya.net/saudi-today/2026/10/20/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D8%A7%D9%85%D9%86-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D9%88%D8%AD%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%AD%D8%A9-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9-%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D8%AA%D8%AA%D8%B7%D9%84%D8%A8-%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D8%A7-%D8%AF%D9%88%D9%84%D9%8A%D8%A7-",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRxcEgV95iAjTm0x44vvFjFEExqjfbd6bIK2Bq4gCEspKyoqp_PTWd33GW2dso",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "\"الألكسو\" تدين اعتداءات ميليشيا الحوثي الإرهابية على المملكة",
-            "url": "https://www.al-madina.com/article/1009896/%D8%AF%D9%88%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%A3%D9%84%D9%83%D8%B3%D9%88-%D8%AA%D8%AF%D9%8A%D9%86-%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9",
-            "source": "جريدة المدينة",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRM7AkzFVZfM1gx554MJOBP_PZp72NgqJ-z4q5wpmdHdBm7ya3EZ-fhGVBzYAA",
-            "og_title": "\"الألكسو\" تدين اعتداءات ميليشيا الحوثي الإرهابية على المملكة",
-            "og_desc": "\"الألكسو\" تدين اعتداءات ميليشيا الحوثي الإرهابية على المملكة",
-            "og_image": "https://www.al-madina.com/uploads/images/2026/10/19/2675502.jpg",
-            "ok": true
-          }
-        ],
-        "category": "سياسة",
-        "icon": "🏛️",
-        "color": "#ff5c7c",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/sa-2026-10-20-مجلس-الوزراء.png"
-      },
-      {
-        "title": "shafali verma",
-        "traffic": "500+",
-        "traffic_num": 500,
         "published": "Tue, 20 Oct 2026 06:50:00 -0700",
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTE7wpjGxSSb5Uex0ngi4MQFxE_6iI_x3itLKvPAbFWEwXSV0OXuwZqUNcUlr8",
         "image_source": "The Times of India",
@@ -1532,10 +1461,11 @@
             "url": "https://www.icc-cricket.com/media-releases/verma-reprimanded-for-breaching-icc-code-of-conduct",
             "source": "ICC",
             "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwHkVuRfxodN8vmUQMFRquBgmaXgyvhjtxS_ATXaLHDmEzcRdjCFVBA--AfU",
-            "og_title": "VERMA REPRIMANDED FOR BREACHING ICC CODE OF CONDUCT  | ICC",
-            "og_desc": "Media Release",
-            "og_image": "https://images.icc-cricket.com/image/upload/t_ratio16_9-size20-webp/prd/exprdlfsv31vaogx19ef",
-            "ok": true
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "error"
           }
         ],
         "category": "عام",
@@ -1547,12 +1477,23 @@
       },
       {
         "title": "harmanpreet kaur",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "published": "Tue, 20 Oct 2026 07:20:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQUotZqJV1-7GXMt8VEkZOA42mIqUxOZVSPLCewkkfhHstxjS5j1v-DiMvz204",
-        "image_source": "Cricbuzz",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTuyIh03OFE3bFsi04GM6LyOs2uzNcLe5PabMxhToW61AUD4fIZWBQNHrPsWqA",
+        "image_source": "NDTV Sports",
         "news": [
+          {
+            "title": "\"Take It To The Next Level\": Smriti Mandhana Warned About Her Biggest Challenge As India Captain",
+            "url": "https://sports.ndtv.com/cricket/take-it-to-the-next-level-smriti-mandhana-warned-about-her-biggest-challenge-as-india-captain-12160181",
+            "source": "NDTV Sports",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTuyIh03OFE3bFsi04GM6LyOs2uzNcLe5PabMxhToW61AUD4fIZWBQNHrPsWqA",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
           {
             "title": "Harmanpreet's leadership legacy is bigger than the trophy she won",
             "url": "https://www.cricbuzz.com/cricket-news/140433/harmanpreet-kaurs-captaincy-legacy-is-bigger-than-the-trophy-she-won-cricbuzzcom",
@@ -1564,29 +1505,19 @@
             "ok": true
           },
           {
-            "title": "Rado Celebrates Smriti Mandhana’s Appointment as Indian Women’s Cricket Team Captain",
-            "url": "https://www.medianews4u.com/rado-celebrates-smriti-mandhanas-appointment-as-indian-womens-cricket-team-captain/",
-            "source": "MediaNews4U",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJg_uq40PCLgvOrFxrKx-_Amqmh3udYvplJlOTg29qIvNMeE3-qlA_7fJ9H0o",
-            "og_title": "Rado Celebrates Smriti Mandhana’s Appointment as Indian Women’s Cricket Team Captain",
-            "og_desc": "Mumbai: Swiss watchmaker Rado has celebrated Smriti Mandhana’s appointment as captain of the Indian Women’s Cricket Team, marking a new",
-            "og_image": "https://www.medianews4u.com/wp-content/uploads/2026/10/Rado-Celebrates-Smriti-Mandhana.png",
+            "title": "Smriti Mandhana begins captaincy era as India name white-ball squads for Zimbabwe series",
+            "url": "https://www.bignewsnetwork.com/news/279355576/smriti-mandhana-begins-captaincy-era-as-india-name-white-ball-squads-for-zimbabwe-series",
+            "source": "Big News Network.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRKCn46OGgq2usOEx-vFKwjXHmJIj5HkwE_gKul2h8-ezrOfWs-aomctx0qOMU",
+            "og_title": "Smriti Mandhana begins captaincy era as India name white-ball squads for Zimbabwe series",
+            "og_desc": "Smriti Mandhana will begin her tenure as India's all-format captain when the team takes on Zimbabwe in the upcoming ODI and T20I series. Mandhana succeeds Harmanpreet Kaur, who stepped down from the captaincy earlier on Tuesday, October 6, bringing an end to her leadership stint. India will face Zimbabwe in their first-ever bilateral international series, comprising three T20Is and as many ODIs, with the tour set to begin on October 16. Niki Prasad and Jintimani Kalita are the new faces in Smriti Mandhana's T20I squad, while Nandani Sharma is the only new addition to the ODI squad, having already represented India in T20Is. Bharti Fulmali, Shreyanka Patil, Renuka Singh and Radha Yadav, who were part of India's gold medal-winning squad at the Asian Games last month, have been left out of the T20I squad, with Minnu Mani, Anushka Sharma, Niki Prasad and Jintimani Kalita coming in as replacements. India's T20I Squad",
+            "og_image": "https://chitra-api.kreatio.com/api/v1/wps/e71f7f1/cdedf5e9-cbd8-46d8-a560-1ec2e8dd4b06/0/ANI-20261006174025-600x315.jpg",
             "ok": true
-          },
-          {
-            "title": "Prasad, Kalita and Nandani the new faces in Mandhana-led white-ball sides",
-            "url": "https://www.espn.ph/cricket/story/_/id/50117910/ind-vs-zim-niki-prasad-jintimani-kalita-nandani-sharma-new-faces-smriti-mandhana-led-white-ball-sides",
-            "source": "ESPN Philippines",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4tBuf3e-jqwxPt2kxO64HpUWt3ePiH9vXd1nJAfzYSx_-OeFtwucoLTYbu8c",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
           }
         ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
+        "category": "فن ومشاهير",
+        "icon": "🎬",
+        "color": "#c77dff",
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
         "card": "cards/sa-2026-10-20-harmanpreet-kaur.png"

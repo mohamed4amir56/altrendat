@@ -4253,8 +4253,8 @@
         "date": "2026-10-19",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+101000",
-        "traffic_num": 101000,
+        "traffic": "+110000",
+        "traffic_num": 110000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
@@ -4270,7 +4270,7 @@
       "eg",
       "world"
     ],
-    "peak_traffic": 101000,
+    "peak_traffic": 110000,
     "category": "طقس"
   },
   "دينا": {
@@ -55922,14 +55922,14 @@
         "date": "2026-10-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "مصر.. البرلمان يستأنف مناقشات \"التفويض\" لدعم السعودية الأسبوع المقبل",
-          "انفراجات انفراجات",
-          "هل تشارك مصر عسكريا في اليمن؟ خبراء يكشفون طبيعة الدعم المحتمل للسعودية"
+          "هل تشارك مصر عسكريا في اليمن؟ خبراء يكشفون طبيعة الدعم المحتمل للسعودية",
+          "مصر التي في خاطري"
         ]
       }
     ],
@@ -62566,15 +62566,30 @@
           "Bad Bunny, Lana Del Rey to Light Up the Leonida Airwaves as ‘GTA VI’ Radio Hosts",
           "Trick Daddy and Trina to Host Dirty South Classics Radio Station in ‘Grand Theft Auto VI’"
         ]
+      },
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "'There's No One Person That Has This Whole Thing in Their Head' — GTA 6 Devs Had Freedom to Add Cool Features Just Like RDR2's Horse Balls",
+          "'GTA 6' reportedly has realistic sweat. Here's how it works.",
+          "GTA 6 Has “Hundreds” of Little Interiors to Explore, Says Rockstar"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 3,
+    "last_seen": "2026-10-19",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 20000,
-    "category": "رياضة"
+    "category": "عام"
   },
   "tom-cruise": {
     "slug": "tom-cruise",
@@ -130630,15 +130645,30 @@
           "Golden State Valkyries coach collapses midgame during WNBA playoffs",
           "Valkyries’ Natalie Nakase takes steps to monitor her health after on-court scare"
         ]
+      },
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "WNBA Finals 2026: Valkyries vs. Dream schedule, scores, more",
+          "WNBA Finals live: Valkyries-Dream Game 2 analysis, updates and highlights",
+          "‘Ballhalla is everywhere’: Joyful Valkyries fans build loud, supportive community"
+        ]
       }
     ],
-    "last_seen": "2026-10-04",
-    "total": 1,
+    "last_seen": "2026-10-19",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 4000,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 10000,
+    "category": "رياضة"
   },
   "brazil-election": {
     "slug": "brazil-election",
@@ -144723,8 +144753,8 @@
         "publishable": false,
         "headlines": [
           "Kylie Jenner Debuts On The Victoria’s Secret Runway In Its $50 Million Fantasy Bra",
-          "The Victoria’s Secret Fantasy Bra Returns to the Runway 30 Years After Its Debut",
-          "Victoria's Secret Fashion Show 2026: Kylie Jenner's $50M bra, Barbara Palvin's postpartum return and 3 more major talking points"
+          "Victoria's Secret Fashion Show 2026: Kylie Jenner's $50M bra, Barbara Palvin's postpartum return and 3 more major talking points",
+          "The Victoria’s Secret Fantasy Bra Returns to the Runway 30 Years After Its Debut"
         ]
       }
     ],
@@ -260591,12 +260621,12 @@
         "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "رياضة",
+        "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
           "Fussball aus den Topligen - Tottenham kann doch noch siegen",
           "Ex-Bundesliga-Star machts – Kein Topklub mehr ohne Sieg!",
-          "Premier League - Tottenham Hotspur vs. Coventry City heute live im Ticker: Finden die Spurs in die Spur? - Liveticker"
+          "Bemerkenswerte Premier-League-Rückkehr nach 526 Tagen"
         ]
       }
     ],
@@ -260607,7 +260637,7 @@
       "world"
     ],
     "peak_traffic": 500,
-    "category": "رياضة"
+    "category": "فن ومشاهير"
   },
   "الإتحاد": {
     "slug": "الإتحاد",
@@ -264490,11 +264520,27 @@
           "Huntsville pickleball players dink in pink to honor breast cancer survivors",
           "Local Event: Pickled Pink 2026"
         ]
+      },
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Paint The Town Pink: breast cancer survivors take trolley tour",
+          "St. Joseph’s/Candler mobile mammography unit will be at WSAV",
+          "St. Joseph’s/Candler continues to Paint the Town Pink"
+        ]
       }
     ],
-    "last_seen": "2026-10-13",
-    "total": 1,
+    "last_seen": "2026-10-20",
+    "total": 2,
     "countries": [
+      "sa",
       "world"
     ],
     "peak_traffic": 1000,
@@ -278087,14 +278133,29 @@
           "49ers' WR injury woes make Brandon Aiyuk a even bigger loser than before",
           "Brandon Aiyuk’s long-awaited rematch against the 49ers won’t happen"
         ]
+      },
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Brandon Aiyuk was a star receiver with a $120M contract. Now he’s the NFL’s biggest enigma",
+          "Why 49ers did not trade Brandon Aiyuk to Commanders despite abundance of rumors",
+          "Brandon Aiyuk's Former 49ers Teammate Sounds Off on WR's 'Desperate' Antics amid Trade Push"
+        ]
       }
     ],
-    "last_seen": "2026-10-16",
-    "total": 2,
+    "last_seen": "2026-10-19",
+    "total": 3,
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 2000,
     "category": "فن ومشاهير"
   },
   "mia-pohánková": {
@@ -307912,15 +307973,30 @@
           "Kaitlyn Chen gives the Valkyries the lead in the 3rd",
           "WNBA Finals 2026: Valkyries vs. Dream schedule, scores, more"
         ]
+      },
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "The Valkyries' secret weapon is a 'goofy' Ivy League grad from SoCal",
+          "Kaitlyn Chen has already done everything she can to secure her Valkyries future",
+          "Kaitlyn Chen lays it in for the Valkyries"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 1,
+    "last_seen": "2026-10-19",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "رياضة"
+    "category": "عام"
   },
   "charlotte-fc": {
     "slug": "charlotte-fc",
@@ -329973,9 +330049,9 @@
         "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
-          "\"حب أسود\".. دراما تقليدية تجمع نجوم سوريا ولبنان",
+          "دراما الفورمات.. يامن الحجلي يرد على انتقادات \"حب أسود\"",
           "Mbc تفتح أبواب دمشق... هل تغيّرت بوصلة الإنتاج السعودي؟",
-          "مواعيد عرض مسلسل حب أسود وقصته وأبطاله"
+          "مواعيد عرض مسلسل حب أسود وأبطال العمل يسطعان في تفاصيل مشوقة وجاذبة"
         ]
       }
     ],
@@ -331544,12 +331620,12 @@
         "country_name": "مصر",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "سياسة",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Trump Downplays Talk of Meeting North Korea’s Kim Next Month",
-          "Decoding the North Korean missile: a hybrid of Russian Hermes and US GLSDB.",
-          "Chung Sees U.S.-North Korea Summit Within Sight, Trump Uncertain"
+          "Kim Jong-un death claims escalate online potentially plunging North Korea into civil war’",
+          "Fears Kim Jong-un 'died of brain haemorrhage' as state-owned news site shuts",
+          "Kim Jong-un death rumours intensify, claims emerge sister Kim Yo-jong has taken power, 9,000 Chinese troo"
         ]
       },
       {
@@ -331575,7 +331651,7 @@
       "sa"
     ],
     "peak_traffic": 500,
-    "category": "سياسة"
+    "category": "حوادث وقضايا"
   },
   "al-hilal-sfc-vs-al-hazem-fc-standings": {
     "slug": "al-hilal-sfc-vs-al-hazem-fc-standings",
@@ -331607,19 +331683,35 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Video: Is Salem Al-Dawsari turning into a substitute at Al-Hilal?",
+          "Full-length Replay: Al-Hilal vs Al-Hazem",
           "Martinelli köpft den Ball in den Winkel und erzielt den Siegtreffer für Al-Hilal",
-          "Al-Hilal edge Al-Hazm with Martinelli's goal to regai…"
+          "Video: Is Salem Al-Dawsari turning into a substitute at Al-Hilal?"
+        ]
+      },
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Full-length Replay: Al-Hilal vs Al-Hazem",
+          "Martinelli köpft den Ball in den Winkel und erzielt den Siegtreffer für Al-Hilal",
+          "Video: Is Salem Al-Dawsari turning into a substitute at Al-Hilal?"
         ]
       }
     ],
     "last_seen": "2026-10-20",
-    "total": 2,
+    "total": 3,
     "countries": [
       "eg",
+      "sa",
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "mosque": {
@@ -332247,8 +332339,8 @@
         "publishable": false,
         "headlines": [
           "صحيفة ذا صن: إصابة زعيم كوريا الشمالية بنزيف دماغى ويدخل فى غيبوبة",
-          "\"نزيف دماغي\".. ما حقيقة تدهور الحالة الصحية لزعيم كوريا الشمالية؟",
-          "نزيف دماغي.. حقيقة دخول كيم جونغ أون في غيبوبة ونقله إلى الصين للعلاج"
+          "نزيف دماغي.. حقيقة دخول كيم جونغ أون في غيبوبة ونقله إلى الصين للعلاج",
+          "«ذا صن» تنقل شائعات عن دخول كيم جونج أون في غيبوبة.. ولا تأكيد لإصابته أو نقله إلى الصين"
         ]
       }
     ],
@@ -333382,5 +333474,150 @@
     ],
     "peak_traffic": 200,
     "category": "سياسة"
+  },
+  "tampa-bay-rays": {
+    "slug": "tampa-bay-rays",
+    "name": "tampa bay rays",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+21000",
+        "traffic_num": 21000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Rays 3-1 Guardians (Oct 18, 2026) Final Score",
+          "Rays vs Guardians Game Overview, Match Player Stats, Injuries, Records - MLB Game on October 15, 2026",
+          "Rays 3-1 Guardians (Oct 18, 2026) Play-by-Play"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 21000,
+    "category": "رياضة"
+  },
+  "kylie-cosmetics": {
+    "slug": "kylie-cosmetics",
+    "name": "kylie cosmetics",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Victoria’s Secret reboots its fantasy with Kylie Jenner’s $50M diamond bra",
+          "Victoria’s Secret Brings Back the Fantasy Bra — and an Old Stereotype of Sexy",
+          "Kylie Jenner Debuts on the Victoria’s Secret Runway in its $50 Million Fantasy Bra"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "عام"
+  },
+  "brandon-cooks": {
+    "slug": "brandon-cooks",
+    "name": "brandon cooks",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Brandin Cooks' first TD catch as a 49er gives San Francisco a 27-26 lead in Seattle",
+          "Brandin Cooks Week 6 Outlook for Fantasy Football (2026)",
+          "Brandin Cooks Is JUST GETTING STARTED in San Francisco!"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "amy-acton-vs-vivek-ramaswamy": {
+    "slug": "amy-acton-vs-vivek-ramaswamy",
+    "name": "amy acton vs vivek ramaswamy",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Ramaswamy Facing Tougher Fight Than Republicans Had Expected in Ohio",
+          "Vivek Ramaswamy breaks unwanted record in Ohio race against Amy Acton",
+          "Vivek Ramaswamy is too MAGA and not MAGA enough"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "renee-montgomery": {
+    "slug": "renee-montgomery",
+    "name": "renee montgomery",
+    "first_seen": "2026-10-19",
+    "appearances": [
+      {
+        "key": "2026-10-19|world",
+        "date": "2026-10-19",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Renee Montgomery Defends Dual Role As WNBA Analyst and Owner",
+          "Dream’s Co-Owner’s WNBA Finals Role Raises Tom Brady Comparison by WNBA Broadcaster Amid Atlanta Dream Conflict-of-Interest Debate",
+          "Renee Montgomery says USA Network has not placed restrictions on her as Dream co-owner covering WNBA Finals"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-19",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "دول وأماكن"
   }
 }

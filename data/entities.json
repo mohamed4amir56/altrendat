@@ -98,14 +98,14 @@
         "date": "2026-10-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "دول وأماكن",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "السعودية وتركيا تبحثان أوضاع المنطقة وسبل مواجهة التحديات الراهنة",
-          "سياسي / سمو وزير الخارجية يتلقى اتصالًا هاتفيًا من وزير الخارجية التركي",
-          "وزير الخارجية يبحث مع نظيره التركي التطورات الإقليمية وهجمات الحوثيين"
+          "تعليم المدينة المنورة يُطبّق الدوام الشتوي في مدارسه اعتباراً من الأحد",
+          "الإثنين المقبل.. «تعليم مكة» يبدأ تطبيق الدوام الشتوي",
+          "تعليم مكة يطبّق الدوام الشتوي ابتداءً من الاثنين المقبل"
         ]
       }
     ],
@@ -115,7 +115,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 1000,
     "category": "دول وأماكن"
   },
   "سعر-الذهب-اليوم": {
@@ -785,9 +785,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "شركة Ebury: الدولار يسلك مساراً صعودياً في الوقت الراهن",
-          "توقعات سعر مؤشر الدولار الأمريكي: يختبر قاع القناة الصاعدة بالقرب من 101.50",
-          "توقعات سعر DXY: مؤشر الدولار الأمريكي يختبر قوس 1.236 | في انتظار التأكيد الاتجاهي"
+          "توقعات سعر USDCHF: الدولار الأمريكي / الفرنك السويسري يخترق قوس المقاومة 0.5 | صعود محتمل نحو 0.8274",
+          "التحليل الفني: زوج USD/CHF يشكّل نموذج الابتلاع الصاعد",
+          "الفرنك السويسري يسجل أعلى مستوى أمام اليورو في 3 أشهر"
         ]
       },
       {
@@ -800,9 +800,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "الجنيه يتراجع والدولار يسجل 54.02 للبيع فى البنوك",
-          "تزايد الضغوط على الجنيه المصري في ظل قوة الطلب على الدولار",
-          "هل يواصل الارتفاع؟.. عضو مجلس إدارة البنك المصري الخليجي يكشف أسباب ارتفاع سعر الدولار أمام الجنيه (فيديو)"
+          "توقعات سعر USDCHF: الدولار الأمريكي / الفرنك السويسري يخترق قوس المقاومة 0.5 | صعود محتمل نحو 0.8274",
+          "التحليل الفني: زوج USD/CHF يشكّل نموذج الابتلاع الصاعد",
+          "الفرنك السويسري يسجل أعلى مستوى أمام اليورو في 3 أشهر"
         ]
       }
     ],
@@ -4484,15 +4484,30 @@
           "قراران جمهوريان بشأن مؤسسة جلوبال ومودرن جروب الجامعيتين",
           "قرارات جمهورية بتحديث برامج فروع جامعات روسية وبريطانية في مصر"
         ]
+      },
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "خارجية إيران تعلّق على موقف مصر من دعم السعودية.. ماذا قالت عن اليمن؟",
+          "إرسال قوات مصرية إلى السعودية.. خريطة النواب الموافقين والرافضين والممتنعين تحت قبة البرلمان",
+          "البرلمان المصري يؤجل التصويت على الدعم العسكري للسعودية إلى الأسبوع المقبل"
+        ]
       }
     ],
-    "last_seen": "2026-09-23",
-    "total": 1,
+    "last_seen": "2026-10-20",
+    "total": 2,
     "countries": [
       "eg"
     ],
     "peak_traffic": 20000,
-    "category": "شخصية"
+    "category": "سياسة"
   },
   "محمود-عصمت": {
     "slug": "محمود-عصمت",
@@ -26975,24 +26990,39 @@
         "date": "2026-10-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "Ball by Ball Commentary & Live Score - SA vs AUS, 2nd Test",
-          "Proteas batting coach praises Temba Bavuma’s resilience",
-          "DAY 2: Bavuma fights but Boland tears through Proteas"
+          "DAY 2: Bavuma fights but Boland tears through Proteas",
+          "South Africa v Australia: second men’s cricket Test, day three – live"
+        ]
+      },
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Ball by Ball Commentary & Live Score - SA vs AUS, 2nd Test",
+          "South Africa vs Australia: Hosts' batting issues exposed again as Scott Boland takes four",
+          "Cricket-Bavuma, Jansen lead South Africa fightback in second test"
         ]
       }
     ],
     "last_seen": "2026-10-20",
-    "total": 3,
+    "total": 4,
     "countries": [
       "sa",
       "world"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 20000,
     "category": "رياضة"
   },
   "publix": {
@@ -32109,10 +32139,25 @@
           "هدف من 2006.. سامي الجابر يستعيد لحظة تاريخية أمام واتكينز",
           "سامي الجابر يكشف عن هدفه الأجمل مع الهلال والبطولة الأقرب لقلبه ..فيديو"
         ]
+      },
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "سامي الجابر يفاجئ جمهور الأهلي السعودي",
+          "سامي الجابر يكشف كواليس استبعاده من سباق الترشح لأفضل لاعب في آسيا 2005.. فيديو",
+          "رأسية \"مارتينيلي\" في الوقت القاتل تمنح الهلال صدارة دوري روشن"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 2,
+    "last_seen": "2026-10-20",
+    "total": 3,
     "countries": [
       "sa"
     ],
@@ -44260,8 +44305,8 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "تشاد وإثيوبيا وجنوب السودان.. بورتسودان تصدّر حربها للإقليم",
           "جنوب السودان: مقتل 73 شخصاً في هجوم بمسيّرات على سوق في منطقة أبيي المتنازع عليها",
+          "تشاد وإثيوبيا وجنوب السودان.. بورتسودان تصدّر حربها للإقليم",
           "الجيش يتصدى لمسيّرات في الخرطوم.. تابعة للدعم السريع"
         ]
       }
@@ -57158,8 +57203,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "موعد شهر رمضان 2027 وأول أيام عيد الفطر فلكيا",
           "أقرب مما تتصور.. الموعد الفلكي لشهر رمضان 2027 وعيد الفطر",
+          "موعد شهر رمضان 2027 وأول أيام عيد الفطر فلكيا",
           "موعد شهر رمضان 2027 في مصر.. تاريخ البداية ورؤية الهلال وعيد الفطر"
         ]
       }
@@ -145165,13 +145210,13 @@
         "date": "2026-10-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "NBA rosters set for 2026-27 regular season",
-          "NBA live streams: How to watch basketball games without cable in 2026-27 season",
+          "NBA: LeBron James' Philadelphia 76ers face vital litmus test against reigning champion New York Knicks on opening night",
           "How to Watch the NBA in Australia 2026-27 | ESPN on Disney+"
         ]
       }
@@ -213649,10 +213694,25 @@
           "Etihad extends flight cancellations to 3 Saudi cities: What travellers need to know",
           "Qatar Airways suspends Riyadh, Dammam flights as airport attacks disrupt air travel"
         ]
+      },
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Riyadh airport reopens: Which airlines are still cancelling flights to Saudi Arabia?",
+          "India-Saudi flight disruptions: Consulate in Jeddah issues urgent advisory for Umrah pilgrims",
+          "flydubai extends Saudi Arabia flight cancellations amid regional disruption"
+        ]
       }
     ],
-    "last_seen": "2026-10-19",
-    "total": 2,
+    "last_seen": "2026-10-20",
+    "total": 3,
     "countries": [
       "sa"
     ],
@@ -313068,10 +313128,25 @@
           "Tyler Perry Buys $30 Million Mansion in Puerto Rico Shortly After Sharing Plans to Step Back ‘a Whole Lot’ from Work",
           "Tyler Perry looks to sell Beverly Hills mansion for $57 million and Wyoming estate for $39.5 million befor"
         ]
+      },
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Tyler Perry Buys $30 Million Mansion in Puerto Rico Shortly After Sharing Plans to Step Back ‘a Whole Lot’ from Work",
+          "Tyler Perry Purchases Puerto Rico Home For $30 Million",
+          "In 2015, Tyler Perry acquired a former military base to build his Atlanta studio; now buys $30 million ma"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 1,
+    "last_seen": "2026-10-20",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -327071,12 +327146,28 @@
           "بإطلالة لامعة جهاد حسام الدين تتألق في رابع أيام مهرجان الجونة",
           "بحضور عدد كبير من نجوم الفن.. انطلاق عرض فيلم «بومة» الأردنى بمهرجان الجونة.. بطولة ركين سعد (صور)"
         ]
+      },
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "«بومة»... امرأة تنتزع نفوذها بالعنف وتختبر الأمومة",
+          "من صمّم إطلالات نجوم فيلم بومة على السجادة الحمراء؟",
+          "إلهام شاهين تشيد بالفيلم الأردني «بومة» في مهرجان الجونة"
+        ]
       }
     ],
-    "last_seen": "2026-10-19",
-    "total": 1,
+    "last_seen": "2026-10-20",
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 200,
     "category": "شخصية"
@@ -336785,7 +336876,7 @@
         "publishable": true,
         "headlines": [
           "Election 2026 as it happened 20 Oct: Luxon and Hipkins face off in final leaders' debate",
-          "You be the judge: Who's winning the final Leaders' Debate?",
+          "You be the judge: Who won the final Leaders' Debate?",
           "Is NZ's health system in crisis? Luxon and Hipkins clash in leaders’ debate"
         ]
       }
@@ -337504,14 +337595,14 @@
         "date": "2026-10-20",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "100+",
+        "traffic_num": 100,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "Winds are expected to become active at times across most areas, reaching speeds of 30 to 35 km/h.",
-          "USD nears EGP 54 on October 19 at Egyptian banks",
-          "Egyptian pound weakens to 53.18 per dollar — The Rio Times"
+          "تراجع كبير فى سعر الدولار بمنتصف التعاملات ويخسر أكثر من 60 قرشا أمام الجنيه",
+          "تزايد الضغوط على الجنيه المصري في ظل قوة الطلب على الدولار",
+          "هل يواصل الارتفاع؟.. عضو مجلس إدارة البنك المصري الخليجي يكشف أسباب ارتفاع سعر الدولار أمام الجنيه (فيديو)"
         ]
       }
     ],
@@ -337520,7 +337611,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 100,
     "category": "اقتصاد"
   },
   "انقطاع-المياه": {
@@ -338055,14 +338146,14 @@
         "date": "2026-10-20",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "category": "حوادث وقضايا",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
           "\"لفظ خارج\" أثناء عقد قران في مصر يكشف المفاجأة: المأذون مزيف",
-          "بعد فيديو الرزق والنكاح.. القبض على منتحل صفة مأذون بالجيزة",
-          "ضبط منتحل صفة مأذون بالجيزة تسبب في تلفظ عريس بلفظ خارج"
+          "ضبط منتحل صفة مأذون بالجيزة تسبب في تلفظ عريس بلفظ خارج",
+          "حقيقة الشخص الذي ظهر بدور المأذون في فيديو عقد القران المثير للجدل"
         ]
       }
     ],
@@ -338071,8 +338162,8 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 1000,
+    "category": "شخصية"
   },
   "ningbo-open-2026": {
     "slug": "ningbo-open-2026",
@@ -338142,8 +338233,8 @@
         "date": "2026-10-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -338158,7 +338249,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "spacex-countdown": {
@@ -338321,8 +338412,8 @@
         "category": "فضول عام",
         "publishable": false,
         "headlines": [
-          "Falcon 9 Sets Historic Reusability Record as Booster Lands 28th Orbital Mission",
           "SpaceX targets launch on Tuesday from Vandenberg Space Force Base",
+          "Falcon 9 Sets Historic Reusability Record as Booster Lands 28th Orbital Mission",
           "SpaceX launches a classified payload for U.S. Space Force"
         ]
       }
@@ -338334,5 +338425,121 @@
     ],
     "peak_traffic": 100,
     "category": "فضول عام"
+  },
+  "elizabeth-struhs": {
+    "slug": "elizabeth-struhs",
+    "name": "elizabeth struhs",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "‘Lack of curiosity’ about family’s religious beliefs was ‘missed opportunity’ to save eight-year-old, inquest hears",
+          "Child safety 'misunderstood' cult before girl's death",
+          "Effort to keep young girl from mum’s cult ‘stonewalled’"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "why-are-they-protesting-in-france": {
+    "slug": "why-are-they-protesting-in-france",
+    "name": "why are they protesting in france",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|world",
+        "date": "2026-10-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "France’s crisis sounds familiar. Is America next?",
+          "France to Extend Curfews After a Night of Calm, Prime Minister Says",
+          "How France’s worst rioting in years erupted and how the government responded"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "دول وأماكن"
+  },
+  "ريهام-عبد-الغفور": {
+    "slug": "ريهام-عبد-الغفور",
+    "name": "ريهام عبد الغفور",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|eg",
+        "date": "2026-10-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "ريهام عبد الغفور: فكرت في اعتزال التمثيل بسبب الملل والإحباط",
+          "«مشيش»: صناعة المسلسلات تواجه أزمة كبيرة.. والتليفزيون إلى زوال",
+          "ريهام عبدالغفور والمنتج محمد مشيش بجلسة صناعة الدراما بحضور نجوم الفن في مهرجان الجونة السينمائي"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "arafat-minhas": {
+    "slug": "arafat-minhas",
+    "name": "arafat minhas",
+    "first_seen": "2026-10-20",
+    "appearances": [
+      {
+        "key": "2026-10-20|sa",
+        "date": "2026-10-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Pakistan quicks seal win after Salman Agha ton sets tone",
+          "England, Pakistan and Sri Lanka build up to World Cup with tri-series",
+          "Salman Ali Agha Reveals Secret Behind His Century vs Sri Lanka After 5 Domestic Matches"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-20",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
   }
 }

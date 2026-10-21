@@ -16732,10 +16732,10 @@
         "date": "2026-10-21",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "اقتصاد",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "بفائدة تصل إلى 19.5%.. تفاصيل شهادات الادخار متغيرة العائد | أموال الغد",
           "بفائدة تصل لـ 22%.. أعلى شهادات البنك الأهلي 2026",
@@ -28060,7 +28060,11 @@
         "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
-        "headlines": []
+        "headlines": [
+          "الأهلى ينفى التفاوض مع إبراهيم عادل ويكشف أولوياته فى ميركاتو يناير",
+          "مصدر يكشف ليلا كورة.. موقف الأهلي من التعاقد مع إبراهيم عادل.. وأولويات يناير",
+          "شوبير يكشف شرط الأهلي لضم إبراهيم عادل وموقف بن شرقي من التجديد"
+        ]
       }
     ],
     "last_seen": "2026-10-21",
@@ -70027,9 +70031,9 @@
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "«دي بي ورلد» تشغّل 17 رافعة في جدة بـ206 ملايين درهم",
-          "دي بي ورلد تستثمر 56 مليون دولار لتشغيل 17 رافعة كهربائية مؤتمتة بميناء جدة",
-          "\"دي بي ورلد\" تدعم الطاقة النظيفة في كونستانتا بـ 100 مليون يورو"
+          "مؤتمر ومعرض الحج في نسخته السادسة يشهد أكثر من 15 منطقة وبرنامجًا رئيسيًا",
+          "ابتكارات ترسم مستقبل الحج.. ارتقاء برحلة ضيوف الرحمن",
+          "السعودية تنظم مخيماً يجمع المبتكرين لتطوير حلول مبتكرة لخدمات الحج"
         ]
       }
     ],
@@ -75707,8 +75711,8 @@
         "publishable": false,
         "headlines": [
           "EU investigating Booking.com over action on fraud cases",
-          "Booking.com targeted in EU investigation into phishing scams, fraudulent listings",
-          "EU Investigates Booking.com Over Fake Listing, Phishing Scam Risks"
+          "EU Investigates Booking.com Over Fake Listing, Phishing Scam Risks",
+          "BREAKING: EU opens formal probe into Booking.com over fraudulent listings and phishing"
         ]
       }
     ],
@@ -92336,14 +92340,14 @@
         "date": "2026-10-21",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "طقس",
         "publishable": false,
         "headlines": [
           "أمطار رعدية غزيرة وسيول تضرب 15 مناطق سعودية اليوم",
           "بيئي / \"الأرصاد\" ينبّه من أمطار متوسطة على منطقة جازان",
-          "التحالف: ‏‏اعتراض وتدمير 4 مسيّرات أطلقت باتجاه السعودية"
+          "\"الأرصاد\": أمطار على العاصمة المقدسة والجموم"
         ]
       }
     ],
@@ -123849,10 +123853,25 @@
           "Aleksander Chayka Filip Martinovic live score and H2H results",
           "Yannik Kelm Pierre Yves Bailly live score and H2H results"
         ]
+      },
+      {
+        "key": "2026-10-21|world",
+        "date": "2026-10-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Belinda Bencic Advances at Ningbo Open After Jeļena Ostapenko Exits with Injury",
+          "Bencic moves into Ningbo Open R16 after Ostapenko retires",
+          "Ostapenko Vs Bencic Prediction, Pick & H2H Stats Analysis – WTA Ningbo Open – Ningbo – 20th October 2026 (Day 2)"
+        ]
       }
     ],
-    "last_seen": "2026-10-20",
-    "total": 2,
+    "last_seen": "2026-10-21",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -239284,15 +239303,30 @@
           "Celtics-Cavs recap: Luka Garza leads C's to preseason-opening win",
           "Keys to the Game: Celtics 124, Cavaliers 113 | Boston Celtics"
         ]
+      },
+      {
+        "key": "2026-10-21|world",
+        "date": "2026-10-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Cavs could be without reserve forward for nearly a month",
+          "Cavs give injury update on multiple players",
+          "Cavaliers forward to miss a month with an injury"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 1,
+    "last_seen": "2026-10-21",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "رياضة"
+    "category": "تقنية"
   },
   "kyle-shanahan": {
     "slug": "kyle-shanahan",
@@ -334064,10 +334098,25 @@
           "Jason Segel marries girlfriend Kayla Radomski",
           "Jason Segel Is Married to Kayla Radomski!"
         ]
+      },
+      {
+        "key": "2026-10-21|world",
+        "date": "2026-10-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Jason Segel Marries Kayla Radomski",
+          "Jason Segel and Kayla Radomski Marry in Botanical Garden Wedding in California",
+          "Jason Segel is married! Star ties the knot with partner Kayla Radomski"
+        ]
       }
     ],
-    "last_seen": "2026-10-19",
-    "total": 1,
+    "last_seen": "2026-10-21",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -334162,9 +334211,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "بندوة عن اللغة العربية.. هنادي مهنا تتحدث الإنجليزية ويسرا تحرجها",
           "\"خارج الصورة المتوقعة\".. صنّاع سينما يناقشون تحديات كسر الصورة النمطية",
-          "كريم الشناوي: نجحنا في فيلم \"ضي\" الجمع بين النوع الفني والتجاري"
+          "المخرج كريم الشناوي: لست ضد الـAI.. ويجب إنشاء منتج عربي للأطفال",
+          "يسرا: الذكاء الاصطناعى لا يجب أن يكون بديلًا عن الإبداع الإنسانى"
         ]
       }
     ],
@@ -353446,14 +353495,14 @@
         "date": "2026-10-21",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "وزير التموين يعلن بمنتدى مصر 2026 الفئات المستحقة لدعم السلع والخبز",
-          "تموين الأقصر يعلن طرح 30 سلعة بأسعار مخفضة لتخفيف الأعباء عن المواطنين",
-          "الجمعيات التعاونية الاستهلاكية بكفر الشيخ تشارك في مبادرة خفض الأسعار"
+          "متى بشاي: استمرار مبادرة خفض الأسعار يدعم القوة الشرائية للمواطنين",
+          "تموين الأقصر يعلن طرح 30 سلعة بأسعار مخفضة لتخفيف الأعباء عن المواطنين"
         ]
       }
     ],
@@ -353462,7 +353511,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "وزارة-الخارجية": {
@@ -353475,8 +353524,8 @@
         "date": "2026-10-21",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
@@ -353491,7 +353540,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "سياسة"
   },
   "حدائق-القبة": {
@@ -353510,8 +353559,8 @@
         "publishable": false,
         "headlines": [
           "اندلاع حريق داخل مطعم شهير إثر انفجار أسطوانة بوتاجاز بحدائق القبة",
-          "اندلع بمحل حواوشى وامتد لعقارين.. السيطرة على حريق 3 عقارات في حدائق القبة",
-          "انفجار أسطوانة بوتاجاز يشعل حريقًا داخل مطعم بحدائق القبة"
+          "انفجار أسطوانة بوتاجاز داخل مطعم في حدائق القبة بالقاهرة- فيديو",
+          "اندلع بمحل حواوشى وامتد لعقارين.. السيطرة على حريق 3 عقارات في حدائق القبة"
         ]
       }
     ],
@@ -353625,9 +353674,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
+          "US Democratic congressional nominee Lander detained by Israeli authorities in West Bank",
           "IDF detains 90 activists accompanying Palestinians during West Bank harvest",
-          "Democratic Congressional Candidate Brad Lander Detained in West Bank, Group Says",
-          "NY-10 candidate Brad Lander detained by IDF, group says"
+          "Israel detains U.S. congressional candidate Brad Lander in West Bank, group says"
         ]
       }
     ],
@@ -353822,8 +353871,8 @@
         "date": "2026-10-21",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -353838,7 +353887,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "موت": {
@@ -353856,9 +353905,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "الجنرال شكارجي: التوأمان القاتلان للأطفال لن ينجوا من مستنقع الموت",
           "اقتراح لتسوية \"الجبل اليتيم\" في قلب مدينة كوي نون لمنع الانهيارات الأرضية.",
-          "تم تقديم مقترحات لتسوية جبل موت في كوي نون ونقل أكثر من 200 أسرة لتجنب الانهيارات الأرضية.",
-          "جيا لاي: تم نقل 228 أسرة من منطقة معرضة للانهيارات الأرضية على جبل موت."
+          "تم تقديم مقترحات لتسوية جبل موت في كوي نون ونقل أكثر من 200 أسرة لتجنب الانهيارات الأرضية."
         ]
       }
     ],
@@ -353880,8 +353929,8 @@
         "date": "2026-10-21",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -353896,7 +353945,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 20000,
     "category": "رياضة"
   },
   "المكلا": {
@@ -353909,14 +353958,14 @@
         "date": "2026-10-21",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "بالصورايخ والمسيّرات.. الحوثيون يستهدفون مطار الريان في المكلا",
-          "هجوم حوثي بثلاثة صواريخ باليستية يستهدف مطار الريان الدولي في حضرموت",
-          "الأخبارية | دوي انفجار عنيف وتصاعد لأعمدة الدخان من محيط مطار الريان بمدينة المكلا"
+          "اخبار وتقارير - تصعيد خطير.. هجمات صاروخية حوثية تستهدف مطارات وموانئ في حضرموت وعدن",
+          "أولى المشاهد لقصف قاعدة جوية سعودية جديدة شرق اليمن"
         ]
       }
     ],
@@ -353925,7 +353974,267 @@
     "countries": [
       "sa"
     ],
+    "peak_traffic": 500,
+    "category": "شخصية"
+  },
+  "south-africa-national-cricket-team-vs-australia-national-cricket-team-timeline": {
+    "slug": "south-africa-national-cricket-team-vs-australia-national-cricket-team-timeline",
+    "name": "south africa national cricket team vs australia national cricket team timeline",
+    "first_seen": "2026-10-21",
+    "appearances": [
+      {
+        "key": "2026-10-21|world",
+        "date": "2026-10-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "DAY 3: Career best Bavuma and Harmer put Proteas on top of Australia",
+          "When South Africa stumbled, Bavuma stood tall",
+          "South Africa vs Australia: Temba Bavuma century drags hosts back into series"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "رياضة"
+  },
+  "mazi-smith-practice-squad-signing": {
+    "slug": "mazi-smith-practice-squad-signing",
+    "name": "mazi smith practice squad signing",
+    "first_seen": "2026-10-21",
+    "appearances": [
+      {
+        "key": "2026-10-21|world",
+        "date": "2026-10-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Packers announce roster moves | Oct. 20, 2026",
+          "Packers signing former first-round pick Mazi Smith to practice squad",
+          "Packers sign former 1st rounder to shore up injured defensive tackle group"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "the-young-and-the-restless": {
+    "slug": "the-young-and-the-restless",
+    "name": "the young and the restless",
+    "first_seen": "2026-10-21",
+    "appearances": [
+      {
+        "key": "2026-10-21|world",
+        "date": "2026-10-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Young & Restless Jaw-Dropper: The Jill Twist That Will Change *Everything*",
+          "The Young and the Restless’ Jason Thompson on Adam Delivering Billy’s Baby and What’s Ahead (Exclusive)",
+          "Billy & Sally's Great Gatsby-Themed Wedding Takes Center Stage On 'The Young And The Restless'"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "south-tyrol-mountain-rescue-german-brothers": {
+    "slug": "south-tyrol-mountain-rescue-german-brothers",
+    "name": "south tyrol mountain rescue german brothers",
+    "first_seen": "2026-10-21",
+    "appearances": [
+      {
+        "key": "2026-10-21|world",
+        "date": "2026-10-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Hansel and Gretel in the mountains: parents abandon sons in Germany",
+          "Mountain Rescue Team Rescues German Brothers (13, 16) in South Tyrol"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "دول وأماكن"
+  },
+  "oreo-espresso-thins": {
+    "slug": "oreo-espresso-thins",
+    "name": "oreo espresso thins",
+    "first_seen": "2026-10-21",
+    "appearances": [
+      {
+        "key": "2026-10-21|world",
+        "date": "2026-10-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "The Next OREO Thins Flavor Is The Perfect Pick Me Up",
+          "Oreo's Newest Cookie Offers Coffee-Flavored Twist: How To Try For Free",
+          "Limited Edition Oreo Thins Espresso Creme Launches Nov. 4—Only 1,000 Packs Available!"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "billikens": {
+    "slug": "billikens",
+    "name": "billikens",
+    "first_seen": "2026-10-21",
+    "appearances": [
+      {
+        "key": "2026-10-21|world",
+        "date": "2026-10-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Billikens Battle North Florida to 1-1 Draw",
+          "MSOC Preview: Bills Host UNF Tuesday in Nonconference Match",
+          "Saint Louis Holds Rockhurst to Four Event Wins as Billikens Pick Up Two Wins at Home"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "texas-fan-banned-florida-postgame": {
+    "slug": "texas-fan-banned-florida-postgame",
+    "name": "texas fan banned florida postgame",
+    "first_seen": "2026-10-21",
+    "appearances": [
+      {
+        "key": "2026-10-21|world",
+        "date": "2026-10-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Texas bans fan after viral confrontation with Florida football players",
+          "“Needs To Lose All Sideline Privileges Permanently”: Former CFB Player Calls for Severe Punishment After Texas Supporter’s Disrespectful Gesture Toward Florida Players",
+          "Texas issues permanent ban to fan for viral Florida postgame incident"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "دول وأماكن"
+  },
+  "ياسين-مرعي": {
+    "slug": "ياسين-مرعي",
+    "name": "ياسين مرعي",
+    "first_seen": "2026-10-21",
+    "appearances": [
+      {
+        "key": "2026-10-21|eg",
+        "date": "2026-10-21",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "والد ياسين مرعي يستغيث: \"أرجوكم متاخدهوش بذنبي\"",
+          "«مش متقدر في الأهلي».. والد ياسين مرعي يدافع عن نجله: «مش واخد حقه»",
+          "استغاثة والد لاعب الأهلي.. ورد قوي على معتمد جمال.. أبرز الأحداث الريا"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-21",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
     "peak_traffic": 200,
     "category": "شخصية"
+  },
+  "san-miguel-vs-road-warriors": {
+    "slug": "san-miguel-vs-road-warriors",
+    "name": "san miguel vs road warriors",
+    "first_seen": "2026-10-21",
+    "appearances": [
+      {
+        "key": "2026-10-21|sa",
+        "date": "2026-10-21",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Vital tiff: San Miguel vs NLEX",
+          "San Miguel beats NLEX after great comeback from 20-point deficit",
+          "Magnolia shoots for Group B top spot vs Rain or Shine"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-21",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
   }
 }

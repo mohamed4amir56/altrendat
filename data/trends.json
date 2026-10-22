@@ -5,99 +5,13 @@
     "name_en": "Worldwide",
     "lang": "en",
     "flag": "🌐",
-    "generated_at": "2026-10-22T20:31:15.006617+00:00",
+    "generated_at": "2026-10-22T21:01:08.753334+00:00",
     "day": "2026-10-22",
     "trends": [
       {
-        "title": "php security vulnerabilities",
-        "traffic": "20000+",
-        "traffic_num": 20000,
-        "published": "Thu, 22 Oct 2026 12:50:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdpXuc-0shryhHK39bQ7xOWkeOqDaLOzi5cbhAMpjFKXMz50n4V-9W_zW7nCA",
-        "image_source": "BBC",
-        "news": [
-          {
-            "title": "Race to update services' computer systems after cyber-security flaw found",
-            "url": "https://www.bbc.com/news/articles/c9j34zgmkxx1o",
-            "source": "BBC",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdpXuc-0shryhHK39bQ7xOWkeOqDaLOzi5cbhAMpjFKXMz50n4V-9W_zW7nCA",
-            "og_title": "Race to update services' computer systems after cyber-security flaw found",
-            "og_desc": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
-            "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/20cc/live/75f1ced0-ce46-11f1-9b4c-4dd353c15d43.jpg",
-            "ok": true
-          },
-          {
-            "title": "Websites across world hit by millions of attempts to exploit PHP code flaw",
-            "url": "https://www.theguardian.com/technology/2026/oct/22/websites-across-world-hit-by-millions-of-attempts-to-exploit-php-code-flaw",
-            "source": "The Guardian",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYUJmCgVg3DFvDO0gwXmpqTkmxjrfFI278X5YXSoi8bwKT6ubrD_gLO4-HW_4",
-            "og_title": "Websites across world hit by millions of attempts to exploit PHP code flaw",
-            "og_desc": "Problem in language that underpins 70% of sites has led governments and companies to pull sites offline to patch fault",
-            "og_image": "https://i.guim.co.uk/img/media/e240560dbdb0dfbd8f0e19f35e6bf6650b057f87/0_0_3000_2400/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=34a514e09b7357d85481f8115208be32",
-            "ok": true
-          },
-          {
-            "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet",
-            "url": "https://www.wiz.io/blog/php2shell-php-rce",
-            "source": "wiz.io",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRfmgNltl6vq0oFcor6YCLWiam3AjaQKp4a26YyE6WolfbR4UvAjgTFIlWWz7Y",
-            "og_title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet | Wiz Blog",
-            "og_desc": "Core PHP engine flaws enable remote code execution and Heartbleed-style memory disclosure across the web.",
-            "og_image": "https://www.datocms-assets.com/75231/1792534907-img_7274.png?fm=webp",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "AU"
-        ],
-        "category": "تقنية",
-        "icon": "💻",
-        "color": "#5aa9ff",
-        "reason": "الأخبار تطابق: ai",
-        "publishable": true,
-        "article": {
-          "headline": "Global scramble as critical PHP flaw forces millions of sites offline",
-          "summary": "Governments and businesses took services offline after a critical PHP flaw threatened to expose 70% of the world's websites to potential hacks.",
-          "body": "Millions of automated attempts to exploit the flaw were recorded globally following the discovery of the vulnerability in the PHP programming language. This surge in malicious activity prompted international organizations and government entities to pull websites off the internet to install necessary security patches. Described by former NCSC chief executive Ciaran Martin as the most serious vulnerability discovered in five years, the flaw poses a severe risk to web servers worldwide.\n\nThe widespread disruption highlights the fragility of digital infrastructure, as PHP underpins approximately 70% of all websites. The vulnerability allows attackers to potentially take control of servers, steal sensitive data, and disrupt critical digital services. While the National Cyber Security Centre (NCSC) in the UK has issued 50,000 alerts to impacted organizations, the situation remains precarious for smaller entities like schools, charities, and local governments that may lack the specialized cybersecurity support required to implement these complex updates.\n\nAccording to the BBC, the UK government proactively took 32 services offline to prevent potential breaches, emphasizing that these were precautionary measures rather than evidence of successful hacking. Tech minister Baroness Lloyd of Effra confirmed that services are currently being reviewed and updated. The NCSC, which called the scale of the vulnerability unprecedented, noted that organizations running older legacy systems face a steeper challenge, as standard patches may not be compatible, forcing them to replace hardware or software entirely.\n\nWhile no successful breaches have been confirmed to date, experts warn that the full impact may take months to manifest. The NCSC continues to collaborate with international partners and technology firms to mitigate the exposure. Organizations are advised to prioritize system updates immediately to secure their infrastructure against ongoing exploitation attempts.",
-          "facts": [
-            {
-              "label": "Websites affected",
-              "value": "70% of the world's sites"
-            },
-            {
-              "label": "UK government services offline",
-              "value": "32"
-            },
-            {
-              "label": "NCSC alerts issued",
-              "value": "50,000"
-            }
-          ],
-          "tags": [
-            "PHP",
-            "Cybersecurity",
-            "Data Breach",
-            "Internet Security"
-          ],
-          "_v": 4,
-          "_by": "gemini",
-          "written_at": "2026-10-22T20:31:34.233157+00:00",
-          "photo": {
-            "url": "https://altrendat.com/art/aa5a0912844419.jpg",
-            "ai": true,
-            "width": 1024,
-            "height": 576
-          },
-          "photo_v": 8,
-          "_had_data": false,
-          "_localized": false
-        },
-        "card": "cards/world-2026-10-22-php-security-vulnerabilities.png"
-      },
-      {
         "title": "weather tomorrow",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "+30000",
+        "traffic_num": 30000,
         "published": "Thu, 22 Oct 2026 12:50:00 -0700",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHIHihTGlaNiu8cj53dmWCe0u8HlCFFUM0RM3gL5IL4yZqzD_TofR94JFlfvg",
         "image_source": "WDRB",
@@ -131,26 +45,7 @@
             "og_desc": "Another perfect fall day with sunshine and warm temps. Meteorologist Mo Rose has your next chance for rain in the full forecast.",
             "og_image": "https://kubrick.htvapps.com/vidthumb/55c0f212-12ef-4947-b93c-9d8a4f69dc32/ffbb127b-973b-4e88-b65a-14d7c7b4dd2d.jpg?crop=1xw%3A1.0xh%3Bcenter%2Ctop&resize=1200%3A*",
             "ok": true
-          }
-        ],
-        "geos": [
-          "IE"
-        ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: crash",
-        "publishable": false,
-        "card": "cards/world-2026-10-22-weather-tomorrow.png"
-      },
-      {
-        "title": "south africa vs australia",
-        "traffic": "10000+",
-        "traffic_num": 10000,
-        "published": "Thu, 22 Oct 2026 12:00:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTKJ6iEeXQDIe6BjT27WnjRTYsvs3fP_f52VxV9CDcXnfWQROi0q8a9ZQA0GAE",
-        "image_source": "SuperSport",
-        "news": [
+          },
           {
             "title": "DAY 5: Rabada, Mulder clean up Australia as Proteas win second test",
             "url": "https://supersport.com/cricket/news/0eb44803-522c-4a35-bd79-4d334e8dc0b5/day-5-rabada-mulder-clean-up-australia-as-proteas-win-second-test",
@@ -162,13 +57,13 @@
             "ok": false
           },
           {
-            "title": "Titanic Temba Bavuma inspires a Proteas win for the ages against Australia",
-            "url": "https://www.dailymaverick.co.za/article/2026-10-22-titanic-temba-bavuma-inspires-a-proteas-win-for-the-ages-against-australia/?dm_source=blocks-grid&dm_medium=card-link&dm_campaign=inform&dm_position=2",
-            "source": "Daily Maverick",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR7Qx_28hexfE3-0459f41uJkz8FOIWfUzfYfJp6poWc35_BwC1E7RO9onk-ds",
-            "og_title": "Titanic Temba Bavuma inspires a Proteas win for the ages against Australia",
-            "og_desc": "The Proteas levelled the three-match Test series against Australia with an innings and 31-run victory at St George’s Park in Gqeberha late on the fifth and final day, bowling the tourists out for 295 …",
-            "og_image": "https://cdn.dailymaverick.co.za/i/08bMG_a1ZgehKB7kqeS8oXiyj38=/800x0/smart/filters:strip_exif()/file/attachments/2999/TL_2635736_569815.jpg",
+            "title": "South Africa beat Boland and weather to force series decider against Australia",
+            "url": "https://www.theguardian.com/sport/2026/oct/22/south-africa-australia-second-test-day-five-report",
+            "source": "The Guardian",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQosxNfI9xaFGknmK4yOnxl-64R6ptb1VPNaif0tcmPvnglqjJpSbGAS5ShTfY",
+            "og_title": "South Africa beat Boland and weather to force series decider against Australia",
+            "og_desc": "Scott Boland batted for more than three hours but South Africa beat Australia by an innings and 31 runs in the second Test in Gqeberha",
+            "og_image": "https://i.guim.co.uk/img/media/08135ebcc127f8bae24d5710165de249dde9c0d7/685_0_4105_3284/master/4105.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9aa6d0dedbe08685972c6661a6d23ca3",
             "ok": true
           },
           {
@@ -183,61 +78,14 @@
           }
         ],
         "geos": [
-          "ZA"
+          "IE"
         ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "العنوان يطابق: vs",
-        "publishable": true,
-        "article": {
-          "headline": "South Africa levels series with innings-and-31-run demolition of Australia at Gqeberha",
-          "summary": "South Africa defeated Australia by an innings and 31 runs in the second Test at St George's Park on Thursday to tie the three-Test series at 1-1, setting up a series decider in Cape Town.",
-          "body": "South Africa's bowlers dismantled Australia on the final day, completing an emphatic turnaround after the hosts were in deep trouble on the third morning. The Proteas bowled out Australia for 295 in the second innings despite missing frontline bowler Anrich Nortje to a suspected groin injury. Wiaan Mulder took three of the six wickets needed on Thursday to finish the job, dismissing Travis Head on 121, Scott Boland, and captain Pat Cummins.\n\nThe victory proves significant for both teams' World Test Championship positioning, as South Africa currently holds the WTC title while Australia ranks first in the standings. More immediately, it forces a decisive third Test with the series now level at 1-1 after Australia won the first Test in Durban by a large margin. The result sends the teams to Cape Town for the final match.\n\nSouth Africa's path to victory began with captain Temba Bavuma's career-best innings of 179, which anchored a recovery from 110-6 on day three. Bavuma's match-changing partnerships with Marco Jansen (85) and Simon Harmer (82) allowed South Africa to declare on 425-9. Australia then collapsed to 99 all out in their first innings, with Jansen taking 5-33, before being forced to follow on. Although Head and Boland showed resistance in the follow-on, South Africa's pace attack proved too strong.\n\nBavuma described the performance as \"good old Test cricket,\" emphasizing South Africa's focus on wearing down the opposition. Australian captain Pat Cummins acknowledged Head and Boland's fight as a \"blueprint\" for the third Test beginning in five days from Tuesday, live on Sky Sports Cricket.",
-          "facts": [
-            {
-              "label": "Margin of victory",
-              "value": "Innings and 31 runs"
-            },
-            {
-              "label": "Series status",
-              "value": "1-1"
-            },
-            {
-              "label": "Travis Head's score",
-              "value": "121"
-            },
-            {
-              "label": "Temba Bavuma's score",
-              "value": "179"
-            },
-            {
-              "label": "Third Test start date",
-              "value": "Tuesday from Cape Town"
-            }
-          ],
-          "tags": [
-            "South Africa",
-            "Australia",
-            "Test cricket",
-            "Gqeberha",
-            "Temba Bavuma",
-            "Travis Head"
-          ],
-          "_v": 4,
-          "_by": "claude",
-          "written_at": "2026-10-22T19:31:24.562846+00:00",
-          "photo": {
-            "url": "https://altrendat.com/art/5629df9af1b11c.jpg",
-            "ai": true,
-            "width": 1024,
-            "height": 576
-          },
-          "photo_v": 8,
-          "_had_data": false,
-          "_localized": false
-        },
-        "card": "cards/world-2026-10-22-south-africa-vs-australia.png"
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: crash",
+        "publishable": false,
+        "card": "cards/world-2026-10-22-weather-tomorrow.png"
       },
       {
         "title": "bournemouth vs milan",
@@ -248,12 +96,12 @@
         "image_source": "BBC",
         "news": [
           {
-            "title": "Europa & Conference League: Bournemouth in control v 10-man Milan and Palace come from behind to lead",
+            "title": "Europa & Conference League: Bournemouth beat 10-man Milan and Palace draw - reaction",
             "url": "https://www.bbc.com/sport/football/live/c5lye7zdr49pt",
             "source": "BBC",
             "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSIclEVAWHgSu9V0yFHJmwp6I5lU3So51bYg7IpEzukIqefX30oD0ZbcwdZ72k",
-            "og_title": "UEFA Europa & Conference League LIVE: Lech Poznan 1-1 Sunderland, Jablonec 0-0 Brighton & Hove Albion, Besiktas vs Crystal Palace & Bournemouth vs AC Milan - build-up, team news, live text & score updates",
-            "og_desc": "Follow live text commentary from matchday three of the league phase of the Europa and Conference Leagues, with four Premier League sides in action.",
+            "og_title": "UEFA Europa & Conference League LIVE: Lech Poznan 1-1 Sunderland, Jablonec 0-0 Brighton & Hove Albion, Besiktas vs Crystal Palace & Bournemouth 3-0 AC Milan - build-up, team news, live text & score updates",
+            "og_desc": "Follow reaction from matchday three of the league phase of the Europa and Conference Leagues, with four Premier League sides in action.",
             "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/7533/live/087253f0-ce4d-11f1-8507-d7f0bcb84e7e.jpg",
             "ok": true
           },
@@ -262,7 +110,7 @@
             "url": "https://www.theguardian.com/football/live/2026/oct/22/lech-poznan-sunderland-juventus-rennes-bournemouth-milan-crystal-palace-celtic-europa-league-live",
             "source": "The Guardian",
             "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSchXoo4m5fDMFTYMeUz0ifnnKrm-SkI5TtNW8-GqTC22TOHhdMgPb12VjKrbo",
-            "og_title": "Bournemouth v Milan, Celtic v Celta Vigo, and more: Europa League – live",
+            "og_title": "Bournemouth 3-0 Milan, Celtic 1-2 Celta Vigo, and more: Europa League – live",
             "og_desc": "Join our writers for updates from the latest round of matches in the Europa League",
             "og_image": "https://i.guim.co.uk/img/media/5cdbfff9f84ac853d8bb2d179632db60ed86d7d8/408_115_1397_1117/master/1397.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=4305a607eb780d594d15bf61e63ce148",
             "ok": true
@@ -274,7 +122,7 @@
             "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRIBKzenS6OlCW5CQ4cIbpMU0r5pjoyzjGKIMPKIvNXcGxg9VceDxxvIWEJmsA",
             "og_title": "Bournemouth vs AC Milan predictions: Cisse can lead charge for Italians at Vitality",
             "og_desc": "Bournemouth entertain AC Milan in their third Europa League game of the season and Ian Wilkerson expects Alphadjo Cisse to have a big impact for the visitors.",
-            "og_image": "https://storage.lsmedia1.com/images/web/medium/news_article_default_image_4.jpg",
+            "og_image": "https://storage.lsmedia1.com/images/web/medium/news_article_default_image_5.jpg",
             "ok": true
           }
         ],
@@ -340,122 +188,184 @@
         "card": "cards/world-2026-10-22-bournemouth-vs-milan.png"
       },
       {
-        "title": "paramount dutton ranch season 2 renewal",
-        "traffic": "2000+",
-        "traffic_num": 2000,
-        "published": "Thu, 22 Oct 2026 12:40:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSe5DDwpuFg58zlDkD_kT5aX-QI7dEpDUP_DGzz3xpXOfRuaggxuoDKvPNrId0",
-        "image_source": "Deadline",
+        "title": "october 23",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "published": "Thu, 22 Oct 2026 08:00:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyIhpvL2wfBJNjNnZMKSCM-N7HFLyIC72OI4Z9iijiFGmwpGqC8p50Tn7JyzU",
+        "image_source": "YourTango",
         "news": [
           {
-            "title": "'Dutton Ranch' Season 2 Filming Dates Confirmed By Kelly Reilly",
-            "url": "https://deadline.com/2026/10/dutton-ranch-season-2-filming-kelly-reilly-paramount-uk-1237170938/",
-            "source": "Deadline",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSe5DDwpuFg58zlDkD_kT5aX-QI7dEpDUP_DGzz3xpXOfRuaggxuoDKvPNrId0",
+            "title": "Hard Times Come To An End For 3 Zodiac Signs On Friday, October 23",
+            "url": "https://www.yourtango.com/2026400491/zodiac-signs-hard-times-end-october-23-2026",
+            "source": "YourTango",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyIhpvL2wfBJNjNnZMKSCM-N7HFLyIC72OI4Z9iijiFGmwpGqC8p50Tn7JyzU",
+            "og_title": "Hard Times Come To An End For 3 Zodiac Signs On Friday",
+            "og_desc": "Hard times are finally coming to an end for three zodiac signs on October 23, 2026 when the Moon conjuncts Neptune. They are: Cancer, Pisces, and Scorpio.",
+            "og_image": "https://www.yourtango.com/sites/default/files/image_blog/2026-10/zodiac-signs-hard-times-end-october-23-2026.png",
+            "ok": true
+          },
+          {
+            "title": "Your Horoscope for the Week of Oct 23",
+            "url": "https://www.tabla.com.sg/lifestyle/your-horoscope-week-oct-23",
+            "source": "https://www.tabla.com.sg/",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRUupuTMG0G0I2lfY5JKDEM7aPCmVWlzLXzlurni-WzVcYh--fMbBm52QwFFxg",
+            "og_title": "Your Horoscope for the Week of Oct 23, Lifestyle, Tabla",
+            "og_desc": "You could clash with a colleague. A repair bill will disrupt your budget. Keep written records.",
+            "og_image": "https://cassette.sphdigital.com.sg/image/tabla/2a5b341c5fefcb7f7e29267dc4d860cfb01ffe9552bf868670c05bc5d542dbd6?w=1200",
+            "ok": true
+          },
+          {
+            "title": "Numerology Prediction Today for October 23, 2026: A Day of Change, Communication and Fresh Opportunities",
+            "url": "https://m.economictimes.com/astrology/numerology-predictions/numerology-prediction-today-for-october-23-2026-a-day-of-change-communication-and-fresh-opportunities/articleshow/135123018.cms",
+            "source": "The Economic Times",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRh9kIQB6FwPzd3MMsW1tKMYk1p0DSCwUd_OiGu4yIU-WCcIyUPeFQbxed-aiY",
+            "og_title": "Numerology Prediction Today for October 23, 2026: A Day of Change, Communication and Fresh Opportunities",
+            "og_desc": "Numerology Prediction Today, October 23 2026: Discover lucky numbers, career, love, money and health forecasts for Birth Numbers 1-9 with Number 6 energy.",
+            "og_image": "https://img.etimg.com/thumb/msid-135123070,width-1200,height-900,imgsize-181390,overlay-economictimes/articleshow.jpg",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "PH"
+        ],
+        "category": "أبراج وفلك",
+        "icon": "🔮",
+        "color": "#b39ddb",
+        "reason": "الأخبار تطابق: horoscope",
+        "publishable": true,
+        "article": {
+          "headline": "Cancer, Pisces, and Scorpio finally break free from hard times Friday",
+          "summary": "The Moon conjuncts Neptune on October 23, 2026, marking the end of struggles for three specific signs.",
+          "body": "YourTango reports that Cancer, Pisces, and Scorpio are set to escape persistent difficulties as the Moon conjuncts Neptune this Friday. While many have grown accustomed to their recent struggles, this astrological shift offers a necessary reprieve and a chance to regain an optimistic outlook. For Cancer, this transit provides the mental clarity to spot light at the end of the tunnel, effectively clearing away the negativity that has felt overwhelming. \n\nFor Pisces, the alignment offers an opportunity to rise above the chaos of the past few weeks. This sign is encouraged to move away from artificial distractions and focus on tangible beauty, such as nature or art, to reclaim a positive focus. Scorpio, meanwhile, finds that the relentless cycle of negative news—which has dominated their attention recently—is finally coming to a stop, proving that even the most taxing cycles have an end point. \n\nBeyond these shifts, those tracking broader horoscopes for the week of October 23 should exercise caution in daily practical matters. According to Tabla, the week brings potential friction in the workplace, unexpected household repair bills, and financial challenges that require careful attention to written records and fact-checking. \n\nManaging your budget is a recurring theme for the week. Experts advise comparing prices before making purchases, as bargain offers may hide additional costs at checkout. Furthermore, remain diligent with professional and personal communications, as the week may bring unexpected arguments or administrative delays in job interviews and payments. It is recommended to stick to official channels when handling inquiries about your personal data.",
+          "facts": [
+            {
+              "label": "Date",
+              "value": "October 23, 2026"
+            },
+            {
+              "label": "Astrological event",
+              "value": "Moon conjuncts Neptune"
+            },
+            {
+              "label": "Primary signs affected",
+              "value": "Cancer, Pisces, Scorpio"
+            }
+          ],
+          "tags": [
+            "astrology",
+            "horoscope",
+            "zodiac",
+            "October 23",
+            "astronomical transit"
+          ],
+          "_v": 4,
+          "_by": "gemini",
+          "written_at": "2026-10-22T21:01:36.007111+00:00",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Beneath_the_Milky_Way.jpg/1280px-Beneath_the_Milky_Way.jpg",
+            "width": 1280,
+            "height": 853,
+            "artist": "ESO/Luis Calçada/Herbert Zodet",
+            "license": "CC BY 4.0",
+            "license_url": "https://creativecommons.org/licenses/by/4.0",
+            "file_page": "https://commons.wikimedia.org/wiki/File:Beneath_the_Milky_Way.jpg",
+            "stock": true,
+            "topic": "sky"
+          },
+          "photo_v": 8,
+          "_had_data": false,
+          "_localized": false
+        },
+        "card": "cards/world-2026-10-22-october-23.png"
+      },
+      {
+        "title": "rashee rice",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "published": "Thu, 22 Oct 2026 13:20:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_gOzZ8iNj6wIKXoadTZsLHKO3OGTibP7iMa1jNo8L9SNgT9masyDEPvihy8w",
+        "image_source": "Fox News",
+        "news": [
+          {
+            "title": "Chiefs place Josh Simmons on IR, raising questions about his entire future in the NFL",
+            "url": "https://www.foxnews.com/outkick-sports/chiefs-place-josh-simmons-ir-raising-questions-entire-future-nfl",
+            "source": "Fox News",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_gOzZ8iNj6wIKXoadTZsLHKO3OGTibP7iMa1jNo8L9SNgT9masyDEPvihy8w",
+            "og_title": "Chiefs place Josh Simmons on IR, raising questions about his entire future in the NFL",
+            "og_desc": "Josh Simmons' injured reserve placement raises deeper questions as conflicting timelines and pre-draft character concerns cloud the Chiefs' plans.",
+            "og_image": "https://static.foxnews.com/foxnews.com/content/uploads/2025/10/nfl-chiefs-josh-simmons-102225-1.jpg",
+            "ok": true
+          },
+          {
+            "title": "Week 7 Injury Report: Chiefs at Seahawks",
+            "url": "https://www.seahawks.com/news/2026-week-7-injury-report-chiefs-at-seahawks",
+            "source": "Seattle Seahawks",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRL2DySDROWUiYAzvfXOzLXQVGkuEZPvn69UbU68iOvDmWitdkarrX2nBt2ygU",
+            "og_title": "Week 7 Injury Report: Chiefs at Seahawks",
+            "og_desc": "Details on the Seahawks’ injury situation heading into their Week 7 game against the Chiefs.",
+            "og_image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/seahawks/alhugqwvkrvlemislmja",
+            "ok": true
+          },
+          {
+            "title": "Chiefs place LT Josh Simmons on IR as rehab process stalls",
+            "url": "https://www.espn.com/nfl/story/_/id/50250747/chiefs-placing-lt-josh-simmons-ir-rehab-process-stalls",
+            "source": "ESPN",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRa4TO_lE-Bpx5ss7IC_t-TLkO1f53b3yFXDpLHEmzYrBjpV3b_0LL-occ1BQ4",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
             "ok": false
-          },
-          {
-            "title": "Taylor Sheridan’s Dutton Ranch Season 2 Filming Start Date Officially Confirmed",
-            "url": "https://screenrant.com/dutton-ranch-season-2-filming-start-date-confirmed-kelly-reilly/",
-            "source": "ScreenRant",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT81rLvpa7XK5qz-SZAvfFfIgscHRiS6kPOVjsxcYh-z3fCTkoDHietyV17yJk",
-            "og_title": "Taylor Sheridan’s Dutton Ranch Season 2 Filming Start Date Officially Confirmed",
-            "og_desc": "It won't be too long now.",
-            "og_image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/beth-dutton-keilly-reilly-holding-onto-rip-wheeler-cole-hauser-in-dutton-ranch-season-1.jpg?w=1600&h=900&fit=crop",
-            "ok": true
-          },
-          {
-            "title": "‘Dutton Ranch’ Season 2 release date info: When does the second season of ‘Dutton Ranch’ come out?",
-            "url": "https://decider.com/2026/10/18/dutton-ranch-season-2-release-date-info-when-does-next-season-dutton-ranch-come-out/",
-            "source": "Decider",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ_286LGhAidfPvKi-AOOogS_LM4fL6inq2LNB4NRn9cz9DgoSYphSJ4HEEDC4",
-            "og_title": "‘Dutton Ranch’ Season 2 release date info: When does the second season of ‘Dutton Ranch’ come out?",
-            "og_desc": "Here’s everything we know about Dutton Ranch’s Season 2 return.",
-            "og_image": "https://decider.com/wp-content/uploads/2026/05/Dutton-Ranch.jpg?quality=75&strip=all&w=1200",
-            "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "فن ومشاهير",
-        "icon": "🎬",
-        "color": "#c77dff",
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-10-22-paramount-dutton-ranch-season-2-renewal.png"
+        "card": "cards/world-2026-10-22-rashee-rice.png"
       },
       {
         "title": "be stock",
-        "traffic": "+2000",
+        "traffic": "2000+",
         "traffic_num": 2000,
         "published": "Thu, 22 Oct 2026 13:00:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSg-Rv0PUPm4prg66baSith44j5h4ngEmAH8JsW_AYc-GJ39N47C9wSCDUAwX4",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXYQwE3dUFsin5-rWuTRJ3JStM9OPAS5GO7TW21Fx2dabbXrMA86-Q4jXaMRM",
         "image_source": "Yahoo Finance",
         "news": [
           {
-            "title": "Is Bloom Energy (BE) A Bargain As AI Power Demand Puts Focus On Q3 Earnings?",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-bargain-ai-power-061935358.html",
-            "source": "Yahoo Finance",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSg-Rv0PUPm4prg66baSith44j5h4ngEmAH8JsW_AYc-GJ39N47C9wSCDUAwX4",
-            "og_title": "Is Bloom Energy (BE) A Bargain As AI Power Demand Puts Focus On Q3 Earnings?",
-            "og_desc": "Bloom Energy (BE) heads into its third quarter earnings release after market close today, with expectations shaped by surging AI power demand, Oracle’s Project Jupiter commitments, and recent commentary from high profile technology leaders. In the short term, Bloom Energy shares have been choppy, with a 1 day share price return of 7.13% following a 30 day share price decline of 12.59%. However, the year to date share price return of 141.70% and 1 year total shareholder return of 152.76% point...",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/9a411e240114b35b35264f06335fca792ce467b648d598df2f6ed711316d738a/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F2f28c93069295fa85e532c3d77583f4d.jpg",
-            "ok": true
-          },
-          {
-            "title": "Bloom Energy (NYSE:BE) Shows High Growth With Expanding Margins and Strong Earnings Momentum",
-            "url": "https://www.chartmill.com/news/BE/Chartmill-56592-Bloom-Energy-NYSEBE-Shows-High-Growth-With-Expanding-Margins-and-Strong-Earnings-Momentum",
-            "source": "ChartMill",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKPVQS-qdKb7B0GPPZ9wWmspGC9CiHRcAQEILgVNDxoS4YPwBMC_Xpypj4fn0",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
-          },
-          {
-            "title": "Bloom Energy Sinks 9% as Pre-Earnings Rally Reverses; FuelCell Drops 6%, Plug Power Falls 3%",
-            "url": "https://247wallst.com/investing/2026/10/22/bloom-energy-sinks-9-as-pre-earnings-rally-reverses-fuelcell-drops-6-plug-power-falls-3/",
-            "source": "24/7 Wall St.",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSauDoy87qw8xeKGFRU4snjBbWb5oEK_p84Y0gCG9MlYUlQK_2LAXysoypTmfU",
-            "og_title": "Bloom Energy Sinks 9% as Pre-Earnings Rally Reverses; FuelCell Drops 6%, Plug Power Falls 3%",
-            "og_desc": "A pre-earnings rally in fuel cell stocks is unwinding fast, and the steepness of each company's drop reveals exactly how exposed it is to the AI data center trade that drove the run in the first place.",
-            "og_image": "https://247wallst.com/wp-content/uploads/2021/12/Hydrogen-vehicles.jpg",
-            "ok": true
-          },
-          {
-            "title": "WD Reports Fiscal First Quarter 2027 Financial Results",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/wd-reports-fiscal-first-quarter-200100096.html",
+            "title": "Bloom Energy: Q3 Earnings Snapshot",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-q3-earnings-snapshot-201650937.html",
             "source": "Yahoo Finance",
             "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXYQwE3dUFsin5-rWuTRJ3JStM9OPAS5GO7TW21Fx2dabbXrMA86-Q4jXaMRM",
-            "og_title": "WD Reports Fiscal First Quarter 2027 Financial Results",
-            "og_desc": "SAN JOSE, Calif., October 22, 2026--Western Digital Corporation (Nasdaq: WDC) today reported fiscal first quarter 2027 financial results for the period ended October 2, 2026.",
+            "og_title": "Bloom Energy: Q3 Earnings Snapshot",
+            "og_desc": "(BE) on Thursday reported third-quarter net income of $250.3 million, after reporting a loss in the same period a year earlier.",
             "og_image": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
             "ok": true
           },
           {
-            "title": "Western Digital Stock Has Nearly Halved—and Earnings Could Spark a Comeback",
-            "url": "https://www.barrons.com/articles/western-digital-earnings-stock-price-e1e51d1c",
-            "source": "Barron's",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ89DjG_ghc762M6f9ns_XdPAYUykTRpymEM4JfLzfI1SCDsQRVn2vGdsaHjfw",
+            "title": "Bloom Energy Gains as Oracle’s 2.8 GW Deal and $25 Billion Brookfield Pact Set a High Bar",
+            "url": "https://www.tikr.com/blog/bloom-energy-gains-as-oracles-2-8-gw-deal-and-25-billion-brookfield-pact-set-a-high-bar",
+            "source": "TIKR.com",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfqykDh2k51DKaqKA1bvA8eolN0sFPwyIg85zFsS-J0l0wqPlwjymtIoBsBDI",
+            "og_title": "Bloom Energy Gains as Oracle’s 2.8 GW Deal and $25 Billion Brookfield Pact Set a High Bar",
+            "og_desc": "Bloom Energy reports Q3 today after a 7.1% jump, with investors expecting a second-half ramp above $2 billion.",
+            "og_image": "https://res.cloudinary.com/tikr/images/w_600,h_400,c_scale/f_webp,q_auto/v1792658767/images/BE-stock_14304532711/BE-stock_14304532711.png?_i=AA",
+            "ok": true
+          },
+          {
+            "title": "Bloom Energy Lifts Outlook, Logs Higher Profit",
+            "url": "https://www.wsj.com/business/earnings/bloom-energy-lifts-outlook-logs-higher-profit-c36d68c8",
+            "source": "WSJ",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC47L-M1QO587AvZXiEwM3waRJvBaq1SArjVUIlSwzquOlhwYeRe-w6p4T6uI",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
-          },
-          {
-            "title": "Dear Western Digital Stock Fans, Mark Your Calendars for October 22",
-            "url": "https://www.barchart.com/story/news/8321951/dear-western-digital-stock-fans-mark-your-calendars-for-october-22",
-            "source": "Barchart.com",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPtQ-cJ4L_MQVUhHHt0iAgVzda_qR4z5tKbV4HDUcTx0EmIP4dwb8k031bo38",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
           }
         ],
         "geos": [
@@ -469,38 +379,142 @@
         "card": "cards/world-2026-10-22-be-stock.png"
       },
       {
-        "title": "paige spiranac",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "published": "Thu, 22 Oct 2026 12:30:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjsNH6zq2OvhINZ9q9dlT6s0x-fISOO-wpyILS_ogaWUhpxNkBI00MEa-R1gI",
-        "image_source": "Fox News",
+        "title": "ajax",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Thu, 22 Oct 2026 13:40:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTNkJgRplbcGcTmPCsmw8khOeqP2dPa3fUxcCjoIvaAyfSdua2wMw46rIEZGwU",
+        "image_source": "AD.nl",
         "news": [
           {
-            "title": "Paige Spiranac & former Peloton instructor show women how to tee a golf ball, NHL fan fight & dump dinners",
-            "url": "https://www.foxnews.com/outkick-sports/paige-spiranac-former-peloton-instructor-show-women-tee-golf-ball-nhl-fan-fight-dump-dinners",
-            "source": "Fox News",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjsNH6zq2OvhINZ9q9dlT6s0x-fISOO-wpyILS_ogaWUhpxNkBI00MEa-R1gI",
-            "og_title": "Paige Spiranac & former Peloton instructor show women how to tee a golf ball, NHL fan fight & dump dinners",
-            "og_desc": "Screencaps covers Paige and former Peloton instructor Kendall Toole teaming up for golf content that's blowing up in group chats everywhere.",
-            "og_image": "https://static.foxnews.com/foxnews.com/content/uploads/2025/07/paige-spiranac2.jpg",
+            "title": "LIVE Conference League | Ajax en Atalanta koersen af op gelijkspel, Tolu Arokodare ingevallen voor Marcos Leonardo",
+            "url": "https://www.ad.nl/voetbal/live-conference-league-ajax-en-atalanta-koersen-af-op-gelijkspel-tolu-arokodare-ingevallen-voor-marcos-leonardo~ae9b9f61/",
+            "source": "AD.nl",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTNkJgRplbcGcTmPCsmw8khOeqP2dPa3fUxcCjoIvaAyfSdua2wMw46rIEZGwU",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "LIVE Conference League | Marcos Leonardo mist uitstekende kans op de openingsgoal voor Ajax",
+            "url": "https://www.telegraaf.nl/sport/voetbal/live-conference-league-marcos-leonardo-mist-uitstekende-kans-op-de-openingsgoal-voor-ajax/163434489.html",
+            "source": "De Telegraaf",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSECHXo_hpEpoufPAXK7oPFOyHxF-9tv2J4kzjK5AejrfW5Y8V0cvtiCNk1fAk",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Live: Ajax-Atalanta | Ajax en Atalanta komen nog niet tot scoren, Klaassen met de schrik vrij na sliding",
+            "url": "https://www.parool.nl/ajax/live-ajax-atalanta-ajax-en-atalanta-komen-nog-niet-tot-scoren-klaassen-met-de-schrik-vrij-na-sliding~be9b9f61/",
+            "source": "Het Parool",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQGGeHEXKuEjdPar_ksK-asI_nMn8PcYOAJ0febbTtBHTes1JDlb71GMrusPhE",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/world-2026-10-22-ajax.png"
+      },
+      {
+        "title": "walmart fruit cocktail lead recall",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Thu, 22 Oct 2026 13:20:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTnR944rjqFylQ_PBjCavX0gA6dCz0WZEjkN8pWv0fvksqnFxwk2bsP_HgxdZA",
+        "image_source": "Allrecipes",
+        "news": [
+          {
+            "title": "FDA Announces Recall on More Than 40,000 Cans of Popular Walmart Product for Possible Lead Contamination",
+            "url": "https://www.allrecipes.com/walmart-fruit-cocktail-recall-lead-oct-2026-12186591",
+            "source": "Allrecipes",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTnR944rjqFylQ_PBjCavX0gA6dCz0WZEjkN8pWv0fvksqnFxwk2bsP_HgxdZA",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Walmart issues nationwide recall for popular fruit product over lead concerns: Do not eat",
+            "url": "https://www.masslive.com/news/2026/10/walmart-issues-nationwide-recall-for-popular-fruit-product-over-lead-concerns-do-not-eat.html",
+            "source": "MassLive.com",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmVGs1p0yj45YljIOc9mA8Cn8kzIwEGsS0mKhVKD_rq8OobxH80za5nYiM08",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Thousands of Walmart brand Great Value fruit cocktail cans recalled",
+            "url": "https://www.usatoday.com/story/money/consumer-protection/recalls-alerts/2026/10/22/walmart-great-value-fruit-cocktail-cans-recall/92381159007/",
+            "source": "USA Today",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKeqgCThSRpHwyHHkoedrrmya-eJhpL8o3Cs1Ngo9HcIFSFopMqGwXGY4P6QQ",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/world-2026-10-22-walmart-fruit-cocktail-lead-recall.png"
+      },
+      {
+        "title": "britt mchenry",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Thu, 22 Oct 2026 13:20:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNL7TuQ8Wksw6h8OycyA4nxAf3YUVsGZR3U_ohQBrbRpxP-6WQ4RlyjY2wpB4",
+        "image_source": "Yahoo",
+        "news": [
+          {
+            "title": "Trump Staffer Britt McHenry Throws Drink at Fan at NBA Game, on Video",
+            "url": "https://www.yahoo.com/entertainment/videos/trump-staffer-britt-mchenry-throws-162740760.html",
+            "source": "Yahoo",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNL7TuQ8Wksw6h8OycyA4nxAf3YUVsGZR3U_ohQBrbRpxP-6WQ4RlyjY2wpB4",
+            "og_title": "Trump Staffer Britt McHenry Throws Drink at Fan at NBA Game, on Video",
+            "og_desc": "Britt McHenry was back in the sports spotlight Wednesday night ... but the former ESPN reporter wasn't calling the action, she was causing it ... throwing a drink on a fan and getting escorted out of ...",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/5bf343bc5d540a15412973b5f550079a8b9bd0064b1f1c09327d3c2a36eaeb0e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftmz_videos_129%2Fb34729ed6e0b5fa472a773d219920f47.png",
             "ok": true
           },
           {
-            "title": "Paige Spiranac Is Still the Biggest Influencer in Golf, and It’s Not Even Close",
-            "url": "https://sports.yahoo.com/articles/paige-spiranac-still-biggest-influencer-180844687.html",
-            "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQEoZeNgT9069DU2xX5dBYijOymq3u3yqRDCSQw5QgdF13_nDfuZZ4zY9jBic0",
-            "og_title": "Paige Spiranac Is Still the Biggest Influencer in Golf, and It’s Not Even Close",
-            "og_desc": "Paige Spiranac continues to dominate golf’s social media landscape, proving that her influence extends far beyond the golf course. Love her or hate her, Paige Spiranac has accomplished something that most professional golfers can only dream of. She’s become one of the most recognizable personalities in the entire sport without competing regularly on the LPGA…",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/4f020a51f1b76e367b605fae0aa842d3d3f84e3708b3fa6db0dbfd4c0c61a743/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Feasy_sportz_188%2Ff48ce58998179f9f9117b9418f79a2f1.jpg",
+            "title": "Exclusive | Britt McHenry gets into heated confrontation with unruly sports fan at NBA game",
+            "url": "https://pagesix.com/2026/10/22/celebrity-news/britt-mchenry-gets-into-heated-confrontation-with-unruly-sports-fan-at-nba-game/",
+            "source": "Page Six",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpgjR5GHoqAsfrKMAriEeM7q4_nW1oahEdpThBfXEuDWEPyGc5OILCRrSMIos",
+            "og_title": "Exclusive | Britt McHenry gets into heated confrontation with unruly sports fan at NBA game",
+            "og_desc": "Page Six is told President Trump’s press adviser urged a heckler to “ease up,” but that only “turned the attention toward her.”",
+            "og_image": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/146096976.jpg?quality=75&strip=all&w=1200",
             "ok": true
           },
           {
-            "title": "Golf Fans Defending Paige Spiranac After She’s Urged To ‘Do Better’",
-            "url": "https://thespun.com/golf/golf-fans-defending-paige-spiranac-after-shes-urged-to-do-better",
-            "source": "The Spun",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9x4YoT5KqRgmkkqOCRhbtBgEAr8yW2OxAFFN4NTLaloxgEtFu1jbUWKzmY_8",
+            "title": "Former ESPN reporter, Trump staffer Britt McHenry shown throwing drink at fan during NBA game",
+            "url": "https://www.washingtontimes.com/news/2026/oct/22/former-espn-reporter-trump-staffer-britt-mchenry-shown-throwing-drink/",
+            "source": "Washington Times",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRvlcnGpTRzQxFdu2Ux6x1r2cVmbbbDFhLzwWDTfKa_Nqv9-joLD22fpfTRDwk",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -516,121 +530,70 @@
         "color": "#3ddc97",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-10-22-paige-spiranac.png"
+        "card": "cards/world-2026-10-22-britt-mchenry.png"
       },
       {
-        "title": "evan neal",
+        "title": "olympiacos",
         "traffic": "500+",
         "traffic_num": 500,
-        "published": "Thu, 22 Oct 2026 12:50:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSk-CPZArRR2pOhHBuLJe9Ne1P0nl-ElUPJfd362NwqHoWtSIIupFrJmnuCuYg",
-        "image_source": "Bleeding Green Nation",
+        "published": "Thu, 22 Oct 2026 13:10:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRzdSjObGU--RY94wA5-uoZ2WFs2l0IsfoJyz8UAmqWitAP15MVtVhq7Oq0QJU",
+        "image_source": "Yahoo Sports",
         "news": [
           {
-            "title": "Eagles host two former high draft picks on tryouts",
-            "url": "https://www.bleedinggreennation.com/news/187867/eagles-host-two-former-high-draft-picks-on-tryouts",
-            "source": "Bleeding Green Nation",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSk-CPZArRR2pOhHBuLJe9Ne1P0nl-ElUPJfd362NwqHoWtSIIupFrJmnuCuYg",
-            "og_title": "Eagles host two former high draft picks on tryouts",
-            "og_desc": "Looking at some upside and depth.",
-            "og_image": "https://platform.bleedinggreennation.com/wp-content/uploads/sites/36/2026/10/gettyimages-1231509381.jpg?quality=90&strip=all&crop=0%2C0.7496251874063%2C100%2C78.494784021602&w=1200",
-            "ok": true
-          },
-          {
-            "title": "Eagles confirm Evan Neal signing, add Jaydon Blue and Anfernee Orji",
-            "url": "https://sports.yahoo.com/articles/eagles-confirm-evan-neal-signing-200610280.html",
+            "title": "Olympique Lyon Quoting Olympiacos Forward",
+            "url": "https://sports.yahoo.com/articles/olympique-lyon-quoting-olympiacos-forward-181612997.html",
             "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQH1Q9_d8HZ0TCc4WUaYTj5tKp1eoUx8kmMAIJhMyOlov1ogJk3qs1V1Jc5VwQ",
-            "og_title": "Eagles confirm Evan Neal signing, add Jaydon Blue and Anfernee Orji",
-            "og_desc": "The Eagles signed Evan Neal, Jaydon Blue and Anfernee Orji to the practice squad and officially waived tight end E.J. Jenkins",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/dcc25be473e8491c56cd484e3b6349f5722dc5d3078c0769066ef91241e48540/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fphiladelphia_eagles_wire_usa_today_sports_articles_352%2F3d7efa0beb072795e5a9530db82e2e48.jpg",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRzdSjObGU--RY94wA5-uoZ2WFs2l0IsfoJyz8UAmqWitAP15MVtVhq7Oq0QJU",
+            "og_title": "Olympique Lyon Quoting Olympiacos Forward",
+            "og_desc": "Lyon aim to leverage past successes to lure Roman Yaremchuk back to Ligue 1 from Olympiacos, as January transfer discussions intensify amid his struggles in Greece.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/e64fcc8bebf0473bbb1aace9b67e94cfa33f46a65947d391c4eb2fae4392ede4/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Froundtable_sports_olympiacos_342%2F6369552f3b75cd643b35418c3032e053.jpg",
             "ok": true
           },
           {
-            "title": "Eagles host former Giants first-round pick for workout",
-            "url": "https://www.pennlive.com/philadelphiaeagles/2026/10/eagles-host-former-giants-first-round-pick-for-workout.html",
-            "source": "PennLive.com",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQQHBYLiY-O-K1e8_bkvKMW4ck8F1hyYvzYLlYf00QFuks37Nl0085mJDAJOFo",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-10-22-evan-neal.png"
-      },
-      {
-        "title": "mike maignan",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Thu, 22 Oct 2026 12:50:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSl1VDZ4zjKLq89xYYoRVv6LFXxvvtfM3f-MWd_6Lr8MMQ_H-rrWGiqaK-XMeQ",
-        "image_source": "USA Today",
-        "news": [
-          {
-            "title": "AC Milan goalkeeper Mike Maignan sent off for shoving USMNT's Tyler Adams in face",
-            "url": "https://www.usatoday.com/story/sports/soccer/2026/10/22/mike-maignan-red-card-ac-milan-tyler-adams-bournemouth/92384807007/",
-            "source": "USA Today",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSl1VDZ4zjKLq89xYYoRVv6LFXxvvtfM3f-MWd_6Lr8MMQ_H-rrWGiqaK-XMeQ",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
+            "title": "Olympiakos vs Sparta Prague: UEFA Europa League stats & head-to-head",
+            "url": "https://www.bbc.com/sport/football/live/cwe8l7dgr5dlt",
+            "source": "BBC",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRRwOvZeQ1RCOectFBbNzb90RO0iFo7744EKusCTrxY7EliGaxoFxKykWOMiEA",
+            "og_title": "Olympiakos vs Sparta Prague: UEFA Europa League stats & head-to-head",
+            "og_desc": "Follow live text commentary, score updates and match stats from Olympiakos vs Sparta Prague in the UEFA Europa League",
+            "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+            "ok": true
           },
           {
-            "title": "Video: Maignan sent off after Milan goalkeeper shoves Adams in the face",
-            "url": "https://sports.yahoo.com/articles/video-maignan-sent-off-milan-194500737.html",
+            "title": "Roman Yaremchuk Over Armando González: Alguacil Omits Forward for Olympiacos' Europa League Clash",
+            "url": "https://sports.yahoo.com/articles/roman-yaremchuk-over-armando-gonz-184057863.html",
             "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtkmBbWAgD-OTIbcdpyRuGcaZ7gq2xLsfY4tUirvS89NrLgL03TpcbWSQisco",
-            "og_title": "Video: Maignan sent off after Milan goalkeeper shoves Adams in the face",
-            "og_desc": "Mike Maignan was sent off in Milan’s Europa League clash with Bournemouth after shoving Tyler Adams in the face.The incident came in the 27th minute, with Milan already trailing to Justin Kluivert��...",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/935648d049470a04ebca1bd70e7a92051f96071c393d1fa4f71ad3a4db19bd1c/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ffootball_italia_articles_132%2F90b199371d3221ba3309047efb052597.jpg",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS68pYzrRm13-2L9PcZzeWxDerLMpYgPnqj7AgaeUziuXSOeKR-nlOetQ6yC-I",
+            "og_title": "Roman Yaremchuk Over Armando González: Alguacil Omits Forward for Olympiacos' Europa League Clash",
+            "og_desc": "Imanol Alguacil’s selection of a struggling Roman Yareumchuk over Armando \"Hormiga\" González sparks debate as the Mexican star remains sidelined.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/91805802b393cd5cf1d5173bfac79efa3f29eb9a2e5fc9df9bb65cf7c2cac3b9/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Froundtable_sports_olympiacos_342%2F3b3e20224b7720c2677aa6d157fd2af5.jpg",
             "ok": true
-          },
-          {
-            "title": "Ruben Amorim has touchline meltdown as AC Milan keeper is given bizarre red card against Bournemouth",
-            "url": "https://www.thesun.co.uk/sport/40779653/ruben-amorim-mike-maignan-red-card-bournemouth-ac-milan/",
-            "source": "The Sun",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRfkUWP1p9P1j84G4Snx3dvxqjsxvRTu7m9KeKyWUpP_18EKgue7y91q3K3lw8",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-10-22-mike-maignan.png"
+        "card": "cards/world-2026-10-22-olympiacos.png"
       },
       {
-        "title": "jenna ortega wednesday success reaction",
+        "title": "southern california healthcare fraud raids",
         "traffic": "500+",
         "traffic_num": 500,
-        "published": "Thu, 22 Oct 2026 12:40:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTblQxIg2TfrUmdrDPkUNTaT1bLajtXa1-mxTv5yHxJgC_05WVuvnpenruPmJI",
-        "image_source": "People.com",
+        "published": "Thu, 22 Oct 2026 13:10:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQGnFhYcCRSSuP4drQVDOgrqPGdCysYihWLu1HdGAaao5O1ctbM-k2MyPx0_dU",
+        "image_source": "KTLA",
         "news": [
           {
-            "title": "Jenna Ortega Is ‘Confused’ by Success of ‘Wednesday’ After Doubting Season 1",
-            "url": "https://people.com/jenna-ortega-confused-success-wednesday-didnt-think-working-season-1-12187910",
-            "source": "People.com",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTblQxIg2TfrUmdrDPkUNTaT1bLajtXa1-mxTv5yHxJgC_05WVuvnpenruPmJI",
+            "title": "15 charged in massive $2 billion L.A. health care fraud crackdown",
+            "url": "https://ktla.com/news/local-news/15-charged-in-massive-2-billion-l-a-health-care-fraud-crackdown/",
+            "source": "KTLA",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQGnFhYcCRSSuP4drQVDOgrqPGdCysYihWLu1HdGAaao5O1ctbM-k2MyPx0_dU",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -638,160 +601,122 @@
             "error": "HTTPError"
           },
           {
-            "title": "Jenna Ortega makes surprising confession about 'Wednesday' success",
-            "url": "https://www.thenews.com.pk/latest/1420940-jenna-ortega-makes-surprising-confession-about-wednesday-success",
-            "source": "The News International",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZplLzsuYWkvvw5cJCD0PQTSxP8pf7gS47ax46b5g-O0abcqW7ZgS0jtEDKTI",
-            "og_title": "Jenna Ortega makes surprising confession about 'Wednesday' success",
-            "og_desc": "Jenna Ortega opened up about the success of Wednesday.As the actress plays Wednesday Addams in the hit series, she revealed that she had her doubts about the show during the production of season...",
-            "og_image": "https://www.thenews.com.pk/assets/uploads/2026-10-22/1420940_114832_updates.jpg",
+            "title": "Medical professionals among 15 charged in alleged healthcare fraud worth $2 billion; raids carried out in Los Angeles",
+            "url": "https://abc7.com/post/federal-agents-descend-tarzana-part-health-care-fraud-bust/19968703/",
+            "source": "ABC7 Los Angeles",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5EMndeU7W-5NwbRqPzU1eiYbJ9wt8qGRAcBP34YfY1gQoCqHWvnA7MYRAloU",
+            "og_title": "Medical professionals among 15 charged in alleged healthcare fraud worth $2 billion",
+            "og_desc": "Federal agents staged pre-dawn raids in Southern California Thursday, arresting several medical professionals and others accused of $2 billion worth of healthcare fraud.",
+            "og_image": "https://cdn.abcotvs.com/dip/images/19969615_102226-kabc-tarzana-heatlhcare-bust-tn.jpg?w=1600",
+            "ok": true
+          },
+          {
+            "title": "After $1.6 billion in claims, addiction treatment leaders arrested by feds",
+            "url": "https://www.ocregister.com/2026/10/21/after-1-6-billion-in-claims-addiction-treatment-leaders-arrested-by-feds/",
+            "source": "Orange County Register",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRit-Fi09klDkbP4kmfE54r6C6jfWCUjgoIYGmQR2DT4xTB366_EnSojpUbIWQ",
+            "og_title": "After $1.6 billion in claims, addiction treatment leaders arrested by feds",
+            "og_desc": "Columnist Teri Sforza writes that lawyers for Nathan and David Young argue their arrests and detention were illegal.",
+            "og_image": "https://www.ocregister.com/wp-content/uploads/2024/11/OCR-L-SFORZA-YOUNG-05mr.jpg?w=2000&h=1137",
             "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "فن ومشاهير",
-        "icon": "🎬",
-        "color": "#c77dff",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: arrested",
         "publishable": false,
-        "card": "cards/world-2026-10-22-jenna-ortega-wednesday-success-reaction.png"
+        "card": "cards/world-2026-10-22-southern-california-healthcare-fraud-raids.png"
       },
       {
-        "title": "the terminal list versus reacher",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Thu, 22 Oct 2026 12:30:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSnFS6K47D2es7yWlMBvOwJjitS3tc2QbN1kSQELmy7ctNHzDehk3q7FSLFGfs",
-        "image_source": "MovieWeb",
-        "news": [
-          {
-            "title": "Goodbye 'Reacher,' Prime Video's New Action Thriller Series Shoots To Streaming Success in Just 1 Day",
-            "url": "https://movieweb.com/terminal-list-season-2-streaming-prime-video-october-2026/",
-            "source": "MovieWeb",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSnFS6K47D2es7yWlMBvOwJjitS3tc2QbN1kSQELmy7ctNHzDehk3q7FSLFGfs",
-            "og_title": "Goodbye 'Reacher,' Prime Video's New Action Thriller Series Shoots To Streaming Success in Just 1 Day",
-            "og_desc": "The show, which follows another nomadic action hero, has already overtaken Alan Ritchson's hit series.",
-            "og_image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/10/still-from-the-terminal-list-season-2.jpg?w=1600&h=900&fit=crop",
-            "ok": true
-          },
-          {
-            "title": "Goodbye 'Reacher,' Amazon's New 8-Episode Action Spin-Off Remains the No. 1 Series in the World",
-            "url": "https://www.imdb.com/news/ni66057230/",
-            "source": "IMDb",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQrGy2e-gRd4NGZYwO9RF12bF5JY_ptlB0zkBV1setcIm8xkMYvk7K6Ygu8ABo",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
-          },
-          {
-            "title": "30-Episode Prime Video Action Series Is So Good, It Beats All 5 Movie Versions That Came Before",
-            "url": "https://screenrant.com/jack-ryan-tv-series-beat-movie-versions/",
-            "source": "ScreenRant",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGVVxv5MjZ53efuJ1cpDrmx0eX7lgzM_ewAvOq3wKMNCC8QNDnECCMK-jcjcg",
-            "og_title": "30-Episode Prime Video Action Series Is So Good, It Beats All 5 Movie Versions That Came Before",
-            "og_desc": "This is Prime Video's best action thriller show.",
-            "og_image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/jack-ryan_nevwe9-1.jpg?w=1600&h=900&fit=crop",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "فن ومشاهير",
-        "icon": "🎬",
-        "color": "#c77dff",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-10-22-the-terminal-list-versus-reacher.png"
-      },
-      {
-        "title": "lawyer",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Thu, 22 Oct 2026 12:30:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLh7lFKpAC1w5uNXaA6SwytLykjmERIaShq6vP1HUHysikJ_47ubwZ-r4XyqU",
-        "image_source": "The Independent",
-        "news": [
-          {
-            "title": "Zombie walk, Brazil’s presidential runoff, assassination of Guatemalan anti-corruption lawyer and other top photo from Latin American and the Caribbean",
-            "url": "https://www.the-independent.com/news/brazil-latin-american-bolsonaro-lula-guatemala-city-b3071780.html",
-            "source": "The Independent",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLh7lFKpAC1w5uNXaA6SwytLykjmERIaShq6vP1HUHysikJ_47ubwZ-r4XyqU",
-            "og_title": "Zombie walk, Brazil’s presidential runoff, assassination of Guatemalan anti-corruption lawyer and other top photo from Latin American and the Caribbean",
-            "og_desc": "Chile hosts a time-travel-themed zombie walk featuring costumes inspired by monsters and bygone eras; Bolsonaro and Lula intensify their campaigns in the final week before Brazil’s presidential runoff; and a prominent Guatemalan anti-corruption lawyer is assassinated on a soccer field in Guatemala City.",
-            "og_image": "https://static.the-independent.com/2026/10/22/20/Chile_Zombie_Walk_62284.jpg?width=1200&height=800&crop=1200:800",
-            "ok": true
-          },
-          {
-            "title": "Zombie walk, Brazil’s presidential runoff, assassination of Guatemalan anti-corruption lawyer and other top photo from Latin American and the Caribbean",
-            "url": "https://www.daytondailynews.com/nation-world/zombie-walk-brazil-s-presidential-runoff-assassination-of-guatemalan-anti-corruption-lawyer-and-other-top/article_1399e803-e06a-5ac3-810d-924f63741cba.html",
-            "source": "Dayton Daily News",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT09bNTLYOZCVUFGI1okif3I0aRXe9RweB2mEzBOkK8RGuh00dzpycsMeB47KE",
-            "og_title": "Zombie walk, assassination of Guatemalan anti-corruption lawyer and other top photos from Latin American and the Caribbean",
-            "og_desc": "Chile hosts a time-travel-themed zombie walk featuring costumes inspired by monsters and bygone eras; Bolsonaro and Lula intensify their campaigns in the final week before Brazil’s presidential runoff; and a prominent Guatemalan anti-corruption lawyer is assassinated on a soccer field in Guatemala City.",
-            "og_image": "https://bloximages.chicago2.vip.townnews.com/daytondailynews.com/content/tncms/assets/v3/editorial/a/30/a30adc30-8529-5ab4-8324-8c7c12a64fc5/6ada5c4d3f2aa.image.jpg?crop=7054%2C3703%2C0%2C499&resize=1200%2C630&order=crop%2Cresize",
-            "ok": true
-          },
-          {
-            "title": "Zombie walk, assassination of Guatemalan anti-corruption lawyer and other top photos from Latin American and the Caribbean",
-            "url": "https://www.khqa.com/news/nation-world/zombie-walk-assassination-of-guatemalan-anti-corruption-lawyer-and-other-top-photos-from-latin-american/article_4602f4e2-dc7c-509c-a423-7f30af2c0393.html",
-            "source": "KHQA",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTH5Py-MRdB3x6tw5X3DHi2T7Evmwg6LgF6JzmPzBdxlFz-hCp5WvqTnk_SXZ8",
-            "og_title": "Zombie walk, assassination of Guatemalan anti-corruption lawyer and other top photos from Latin American and the Caribbean",
-            "og_desc": "Chile hosts a time-travel-themed zombie walk featuring costumes inspired by monsters and bygone eras; Bolsonaro and Lula intensify their campaigns in the final week before Brazil’s presidential runoff; and a",
-            "og_image": "https://bloximages.chicago2.vip.townnews.com/khqa.com/content/tncms/custom/image/b4227075-aade-401d-8a44-d5c01225f020.png?resize=600%2C315",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-10-22-lawyer.png"
-      },
-      {
-        "title": "bella ramsey",
+        "title": "brian moynihan",
         "traffic": "200+",
         "traffic_num": 200,
-        "published": "Thu, 22 Oct 2026 13:00:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQc9TiTpGkc7Y0JkAMI3kdKL69PqQmBnSFAo6lx_XMNK1RI6l4W40TwkFk8Lkk",
-        "image_source": "Fox News",
+        "published": "Thu, 22 Oct 2026 13:30:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4CO7kfs7CfFDJaqVneKnlc3TQc9bg-lzwNcwbQZItksTDdmUHl5Ftc0KqOUM",
+        "image_source": "Barron's",
         "news": [
           {
-            "title": "Gabriel Luna teases 'shifting perspectives' in 'The Last of Us' season 3 as filming continues",
-            "url": "https://www.foxnews.com/outkick-culture/gabriel-luna-teases-shifting-perspectives-last-us-season-3-filming-continues",
-            "source": "Fox News",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQc9TiTpGkc7Y0JkAMI3kdKL69PqQmBnSFAo6lx_XMNK1RI6l4W40TwkFk8Lkk",
-            "og_title": "Gabriel Luna teases 'shifting perspectives' in 'The Last of Us' season 3 as filming continues",
-            "og_desc": "\"The Last of Us\" season 3 is currently shooting, and Gabriel Luna's new comments hint at major perspective shifts that mirror the video game source.",
-            "og_image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/The_Last_Of_Us_Season_3.jpg",
+            "title": "Bank of America May Need a New CEO",
+            "url": "https://www.barrons.com/articles/bank-of-america-stock-ceo-brian-moynihan-663044a7",
+            "source": "Barron's",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4CO7kfs7CfFDJaqVneKnlc3TQc9bg-lzwNcwbQZItksTDdmUHl5Ftc0KqOUM",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
+            "url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
+            "source": "CNBC",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcREUfDfkazkWPAfK-hnXAoeJAohi_WaxHpUIhJePEyjMIcInce7b6ImOTsHdsA",
+            "og_title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
+            "og_desc": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic’s Mythos, offering a rare look at costs involved in defending against AI.",
+            "og_image": "https://image.cnbcfm.com/api/v1/image/108345330-1785941825072-moy1.jpg?v=1785944224&w=1920&h=1080",
             "ok": true
           },
           {
-            "title": "Bella Ramsey Is ‘The General’ on The Last of Us Season 3 After Pedro Pascal’s Exit",
-            "url": "https://www.yahoo.com/entertainment/tv/articles/bella-ramsey-general-last-us-034638536.html",
-            "source": "Yahoo",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuxGlRokF_emHAUfzRszE1igq681p_w8sEiP0coUL22kjbqUCuEFUTg2uU36c",
-            "og_title": "Bella Ramsey Is ‘The General’ on The Last of Us Season 3 After Pedro Pascal’s Exit",
-            "og_desc": "Gabriel Luna revealed how Bella Ramsey has taken charge on The Last of Us Season 3 set after Pedro Pascal’s departure. The actor shared his admiration for Ramsey and teased the upcoming season’s shift...",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/7997b706b77384d243ee8acf43b62d40cc114ffc3632d67b60cd3ba399154f6a/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomingsoon_net_477%2F003ac7abad37735cdd997a30182c75b5.jpg",
+            "title": "Bank of America had to hire 1,000 contractors to patch software flaws spotted by Anthropic Mythos",
+            "url": "https://www.techradar.com/pro/security/bank-of-america-had-to-hire-1-000-contractors-to-patch-software-flaws-spotted-by-anthropic-mythos",
+            "source": "TechRadar",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfeqYOfKgJ8LV-YThCIvSyjLM9GXOvSIpDB1vmwYbcHe_civ0Q7UOmQWwY0jw",
+            "og_title": "Bank of America had to hire 1,000 contractors to patch software flaws spotted by Anthropic Mythos",
+            "og_desc": "It also had to spent more than a hundred million dollars",
+            "og_image": "https://cdn.mos.cms.futurecdn.net/37uyEphcLreEFNUVCQzurn-2560-80.jpg",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "اقتصاد",
+        "icon": "💰",
+        "color": "#f5c542",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-10-22-brian-moynihan.png"
+      },
+      {
+        "title": "heated rivalry theaters",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Thu, 22 Oct 2026 13:20:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTUhwhv2OaLlCwcbhnn5T0r00gAWtoZhHVzPHwVNYt7k7gtk-JlDnA6TRyO4IA",
+        "image_source": "Variety",
+        "news": [
+          {
+            "title": "‘Heated Rivalry’ to Release in Movie Theaters, Two Episodes at a Time",
+            "url": "https://variety.com/2026/tv/columns/heated-rivalry-released-movie-theaters-1236916996/",
+            "source": "Variety",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTUhwhv2OaLlCwcbhnn5T0r00gAWtoZhHVzPHwVNYt7k7gtk-JlDnA6TRyO4IA",
+            "og_title": "‘Heated Rivalry’ to Release in Movie Theaters, Two Episodes at a Time",
+            "og_desc": "\"Heated Rivalry\" Season 1 will be released in more than 650 theaters throughout the U.S. for a limited run starting Nov. 6",
+            "og_image": "https://variety.com/wp-content/uploads/2025/12/heated-rivalry-shane-ilya-episode-4-1420x798-1.jpg?crop=0px%2C0px%2C1194px%2C672px&resize=1000%2C563",
             "ok": true
           },
           {
-            "title": "When Does 'The Last of Us' Season 3 Come Out? Release Date, Cast and Everything We Know",
-            "url": "https://www.fanbolt.com/184153/when-does-the-last-of-us-season-3-come-out-release-date-cast-and-everything-we-know/",
-            "source": "FanBolt",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSyAnDs6m55hIWwU6y1hNl4hPP-Ok1HY7JZ4ZGjSm0RO0VZmUTVm1Bd0iKgfek",
-            "og_title": "When Does 'The Last of Us' Season 3 Come Out? Release Date, Cast and Everything We Know",
-            "og_desc": "'The Last of Us' Season 3 is filming in Vancouver for a 2027 HBO return. See the cast, John Goodman news and premiere window.",
-            "og_image": "https://www.fanbolt.com/storage/2026/10/Last-of-Us-3.jpg",
+            "title": "'Heated Rivalry' Gets Regal Limited Theatrical Run",
+            "url": "https://deadline.com/2026/10/heated-rivalry-regal-cinema-limited-theatrical-run-1237167318/",
+            "source": "Deadline",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTefgHHqR7xd69tzq7Z2RrOSsyDJuKlXu7etoX54TLWBzKPJsVm1qmybN_Ok0k",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
+          },
+          {
+            "title": "‘Heated Rivalry’ to Come to Movie Theaters, as Well as the Cottage, this Fall",
+            "url": "https://www.rollingstone.com/tv-movies/tv-movie-news/heated-rivalry-movie-theater-screenings-1235646464/",
+            "source": "Rolling Stone",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR8NogwxrB-Ipu4dDIW8IZT1UsMXfwGA60zrBXhVDPbElfWn_dpZXNb96YzYuE",
+            "og_title": "'Heated Rivalry' to Come to Movie Theaters, as Well as the Cottage, this Fall",
+            "og_desc": "'Heated Rivalry' will be screened in movie theaters this fall.",
+            "og_image": "https://www.rollingstone.com/wp-content/uploads/2026/10/heated-rivalry-theaters.jpg?crop=0px%2C0px%2C1800px%2C1014px&resize=1600%2C900",
             "ok": true
           }
         ],
@@ -803,7 +728,57 @@
         "color": "#c77dff",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-10-22-bella-ramsey.png"
+        "card": "cards/world-2026-10-22-heated-rivalry-theaters.png"
+      },
+      {
+        "title": "butcher and blackbird",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Thu, 22 Oct 2026 13:10:00 -0700",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRbPONl5vmWDicmdGh_Pol34Bwc-tefRDY4XgjCtig328qjemCRHo8BJKl3qVA",
+        "image_source": "Deadline",
+        "news": [
+          {
+            "title": "'Butcher & Blackbird' Movie Set At Amazon MGM, Cast Unveiled",
+            "url": "https://deadline.com/2026/10/butcher-and-blackbird-movie-amazon-mgm-cast-unveiled-1237170757/",
+            "source": "Deadline",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRbPONl5vmWDicmdGh_Pol34Bwc-tefRDY4XgjCtig328qjemCRHo8BJKl3qVA",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
+          },
+          {
+            "title": "‘Butcher & Blackbird’ Finds Its Sloane and Rowan: Everything We Know So Far",
+            "url": "https://www.imdb.com/news/ni66075530/?ref_=nwc_art_perm",
+            "source": "IMDb",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRMzfeCxvPYnvQnT7Y21XNThzWVWC38g8fUr7sqLjRWGQ5FVSgh3w3i5C52PLo",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
+          },
+          {
+            "title": "Amazon Picks Up ‘Butcher & Blackbird’ Movie Adaptation and Finds Its Leads",
+            "url": "https://parade.com/movies/amazon-picks-up-butcher-blackbird-movie-adaptation-and-finds-its-leads",
+            "source": "Parade Magazine",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgJIpi64ffall-GV0Zu3pWsfAxgmOohHOAKmIMop-LifpVOJ3Q47aP-G_nBC8",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "فن ومشاهير",
+        "icon": "🎬",
+        "color": "#c77dff",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/world-2026-10-22-butcher-and-blackbird.png"
       }
     ]
   },
@@ -813,13 +788,13 @@
     "name_en": "Egypt",
     "lang": "ar",
     "flag": "🇪🇬",
-    "generated_at": "2026-10-22T20:31:16.594243+00:00",
-    "day": "2026-10-22",
+    "generated_at": "2026-10-22T21:01:10.351891+00:00",
+    "day": "2026-10-23",
     "trends": [
       {
         "title": "التوقيت الشتوي",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "published": "Thu, 22 Oct 2026 12:50:00 -0700",
         "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9PcuhriJ2C4FfMNhoB7d_OlQImEnRDksGWfCJUH2xDppT-zq0EMAKVfFnk1s",
         "image_source": "اليوم السابع",
@@ -835,13 +810,13 @@
             "ok": true
           },
           {
-            "title": "لأصحاب الورش والمطاعم.. مواعيد غلق المحال التجارية بعد التغيير إلى التوقيت الشتوي 2026",
-            "url": "https://www.almasryalyoum.com/news/details/4389590",
+            "title": "الجمعة منتصف الليل.. تطبيق التوقيت الشتوي 2026 في مصر",
+            "url": "https://www.almasryalyoum.com/news/details/4390036",
             "source": "المصري اليوم",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSrzi0bwj7qptNNBmmWfNN2RHGLbLQJs4UoRAcn0PpP-ikP0KOcBIkV-nh7JlA",
-            "og_title": "لأصحاب الورش والمطاعم.. مواعيد غلق المحال التجارية بعد التغيير إلى التوقيت الشتوي 2026 | المصري اليوم",
-            "og_desc": "مع اقتراب تطبيق التوقيت الشتوي في مصر، يزداد اهتمام المواطنين بمعرفة مواعيد فتح وغلق المحلات التجارية والمولات والمطاعم والكافيهات، إلى جانب الورش والأعمال الحرفية، خاصةً...",
-            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/10/21/2069997.webp",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKvy-tKRaLVInuApX49-vqbmro4yVD_GYqmTQKw2eIYHToIxzqeMP-jeEaalg",
+            "og_title": "الجمعة منتصف الليل.. تطبيق التوقيت الشتوي 2026 في مصر | المصري اليوم",
+            "og_desc": "يستعد المواطنون في مصر للعودة إلى التوقيت الشتوي مع اقتراب انتهاء العمل بالتوقيت الصيفي 2026، وذلك وفقًا لأحكام القانون المنظم لنظام التوقيت الصيفي الذي يحدد موعد تغيير الساعة...",
+            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/10/22/2071224.webp",
             "ok": true
           },
           {
@@ -862,7 +837,54 @@
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
         "person": true,
-        "card": "cards/eg-2026-10-22-التوقيت-الشتوي.png"
+        "card": "cards/eg-2026-10-23-التوقيت-الشتوي.png"
+      },
+      {
+        "title": "سيلتك",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Thu, 22 Oct 2026 12:50:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEWD7YwKPlji3WRmRQgs-uoLk0fOR3G-9AuO1VJyASpIIa27BTCSMqrFn6xxQ",
+        "image_source": "يلاكورة",
+        "news": [
+          {
+            "title": "تشكيل سلتيك.. هيثم حسن أساسيًا في مواجهة سيلتا فيجو",
+            "url": "https://www.yallakora.com/europa-league/3052/news/570114/%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%B3%D9%84%D8%AA%D9%8A%D9%83-%D9%87%D9%8A%D8%AB%D9%85-%D8%AD%D8%B3%D9%86-%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A-%D8%A7-%D9%81%D9%8A-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%B3%D9%8A%D9%84%D8%AA%D8%A7-%D9%81%D9%8A%D8%AC%D9%88",
+            "source": "يلاكورة",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEWD7YwKPlji3WRmRQgs-uoLk0fOR3G-9AuO1VJyASpIIa27BTCSMqrFn6xxQ",
+            "og_title": "تشكيل سلتيك في مواجهة سيلتا فيجو ببطولة الدوري الأوروبي",
+            "og_desc": "تشكيل سلتيك في مواجهة سيلتا فيجو ببطولة الدوري الأوروبي",
+            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/10/18/gettyimages-2300306849-612x6122026_10_18_19_53.webp",
+            "ok": true
+          },
+          {
+            "title": "هيثم حسن يقود طموحات سيلتيك أمام سيلتا فيجو لإنقاذ الحلم الأوروبي",
+            "url": "https://www.youm7.com/story/2026/10/22/%D9%87%D9%8A%D8%AB%D9%85-%D8%AD%D8%B3%D9%86-%D9%8A%D9%82%D9%88%D8%AF-%D8%B7%D9%85%D9%88%D8%AD%D8%A7%D8%AA-%D8%B3%D9%8A%D9%84%D8%AA%D9%8A%D9%83-%D8%A3%D9%85%D8%A7%D9%85-%D8%B3%D9%8A%D9%84%D8%AA%D8%A7-%D9%81%D9%8A%D8%AC%D9%88-%D9%84%D8%A5%D9%86%D9%82%D8%A7%D8%B0-%D8%A7%D9%84%D8%AD%D9%84%D9%85/7588225",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQmZtz2KZpNidFPCbss4ZuiRrAAfWXMk1vbcEPL0gopPn_zfmtd6ImQspBDmA",
+            "og_title": "هيثم حسن يقود طموحات سيلتيك أمام سيلتا فيجو لإنقاذ الحلم الأوروبي - اليوم السابع",
+            "og_desc": "يسعى هيثم حسن، لاعب منتخب مصر، لقيادة فريقه سيلتيك الاسكتلندي لتحقيق الفوز الأول في مرحلة الدوري ببطولة الدوري الأوروبي، عندما يستضيف سيلتا فيجو الإسباني",
+            "og_image": "https://img.youm7.com/xlarge/202610160132323232_369.jpg",
+            "ok": true
+          },
+          {
+            "title": "موعد مباراة سيلتيك وسيلتا فيجو في الدوري الأوروبي والقناة الناقلة",
+            "url": "https://gate.ahram.org.eg/News/5969682.aspx",
+            "source": "بوابة الأهرام",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQswbNv5EzMqjoK6LvxxfBV2qfkomw-w_bcITnYCD9QLK24-hkRR5mpJgrpvcM",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "شخصية لا يرد اسمها في مصدرين",
+        "publishable": false,
+        "card": "cards/eg-2026-10-23-سيلتك.png"
       },
       {
         "title": "juventus vs stade rennais f.c. standings",
@@ -883,23 +905,24 @@
             "ok": true
           },
           {
-            "title": "Celik and Woltemade score in Stade Rennais draw",
-            "url": "https://www.juventus.com/en/news/articles/celik-and-woltemade-score-in-stade-rennais-draw-22-10-26",
-            "source": "Juventus.com",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTN6vBTfr-1pxyYPPjYtNZNX-x-2HikrQtMji9gc3MggGM7aixTPXsbWESWbwY",
-            "og_title": "Celik and Woltemade score in Stade Rennais draw - Juventus",
-            "og_desc": "The Men's First Team drew 2-2 with Stade Rennais on Matchday 3 of the UEFA Europa League, with Zeki Celik and Nick Woltemade scoring.\nThe result...",
-            "og_image": "https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/dev/cjvepbmlntuipydephpb.jpg",
-            "ok": true
+            "title": "Licensable picture: UEFA Europa League - Juventus v Stade Rennes",
+            "url": "https://www.reutersconnect.com/item/uefa-europa-league-juventus-v-stade-rennes/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQU0xR0JUV00",
+            "source": "Reuters Connect",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT0oTJgi4MyMkFntMBm_Umvp6bIXcWhiMYzzEbFZYY8XHFW8dJ2w-v8oFPq-Ew",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
           },
           {
-            "title": "“We have to be ready” Spalletti discusses the Rennes game",
-            "url": "https://sports.yahoo.com/articles/ready-spalletti-discusses-rennes-game-093500747.html",
+            "title": "Celik and Woltemade score in Stade Rennais draw",
+            "url": "https://sports.yahoo.com/articles/celik-woltemade-score-stade-rennais-185500335.html",
             "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5NG1NfMfMd7AxFHwVRMrenpm3ySnxLgfj3jczyvYOL-Bo5yl7azCEZ_GsodA",
-            "og_title": "“We have to be ready” Spalletti discusses the Rennes game",
-            "og_desc": "Luciano Spalletti will be hoping Juventus can respond positively when they return to action following their disappointing defeat to Lazio at the weekend. The Juventus manager has little time to dwell ...",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/447b2804621124e2ff7d129d6e6f387d99648c560d5b7f460986d6788ff9355b/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fjuvefc_articles_711%2F46d2fd55be5ed17507e5f978e1bab79e.jpg",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7pdmMkTMTVEqL9UY6OWkuhrM1ommIbG0UcuwyG6DcIPGgOremxvxEDjLmwAM",
+            "og_title": "Celik and Woltemade score in Stade Rennais draw",
+            "og_desc": "The Men's First Team drew 2-2 with Stade Rennais on Matchday 3 of the UEFA Europa League, with Zeki Celik and Nick Woltemade scoring.The result means that the Bianconeri remain unbeaten in the League...",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/e5044fb53d61579ab3222e7e8062ddfdfd3fb9f11007468d6767f3b6e6bc0c0e/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fjuventus_football_club_articles_524%2F4fb70761a8eab31f8f4e94df7307379c.jpg",
             "ok": true
           }
         ],
@@ -908,7 +931,7 @@
         "color": "#3ddc97",
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "card": "cards/eg-2026-10-22-juventus-vs-stade-rennais-fc-standings.png"
+        "card": "cards/eg-2026-10-23-juventus-vs-stade-rennais-fc-standings.png"
       },
       {
         "title": "ليلستروم ضد ريال سوسيداد",
@@ -954,7 +977,7 @@
         "color": "#f5c542",
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "card": "cards/eg-2026-10-22-ليلستروم-ضد-ريال-سوسيداد.png"
+        "card": "cards/eg-2026-10-23-ليلستروم-ضد-ريال-سوسيداد.png"
       },
       {
         "title": "celtic vs celta",
@@ -975,23 +998,23 @@
             "ok": true
           },
           {
-            "title": "Tip of the Day: More European woe for Celtic",
-            "url": "https://www.101greatgoals.com/football/europa-league/tip-of-the-day-more-european-woe-for-celtic/",
-            "source": "101 Great Goals",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTucrB0LzW6gotOHIBbiMiVz0ZNN7tnhXGwycsAcydhmFQLaQ0qp8qpC00fBX0",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
+            "title": "Celta Vigo Team Bus Arriving Before the Celtic V Celta Vigo Game!!!",
+            "url": "https://www.celticnewsnow.com/news/celta-vigo-team-bus-arriving-before-the-celtic-v-celta-vigo-game/740014/",
+            "source": "Celtic news now - Celtic FC News",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ3Xsiy6_Ck6OaIsjCbe9h3oSCagkoFMWsNRe-XShEJ4JHzTsS0p2gHeUCpyBY",
+            "og_title": "Celta Vigo Team Bus Arriving Before the Celtic V Celta Vigo Game!!!",
+            "og_desc": "Watch Celta Vigo Team Bus Arriving Before the Celtic V Celta Vigo Game!!! by Football Mad on 22 October 2026.",
+            "og_image": "https://www.celticnewsnow.com/assets/images/photos/20261022-721-celta-vigo-team-bus-arriving-before-the-celtic-v-celta-vigo--l.jpg",
+            "ok": true
           },
           {
-            "title": "Celta Vigo star sends Celtic warning ahead of crucial Europa League showdown",
-            "url": "https://onefootball.com/en/news/celta-vigo-star-sends-celtic-warning-ahead-of-crucial-europa-league-showdown-43650060",
-            "source": "OneFootball",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR5t6dHDGIOi6vCDp2blitvJwo4_huTjYdwRiduxD5sHWHQKSmx9yJUA30hG3I",
-            "og_title": "Celta Vigo star sends Celtic warning ahead of crucial Europa League showdown",
-            "og_desc": "Celta Vigo forward Ferran Jutgla has described Thursday’s Europa League encounter against Celtic as a hugely important fixture for the Spanish side, with both…",
-            "og_image": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fen%2F43650060%3Fdate=2026-10-22",
+            "title": "Celtic v Celta Vigo, Live updates",
+            "url": "https://www.celticquicknews.co.uk/celtic-v-celta-vigo-live-updates/",
+            "source": "Celtic Quick News",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTlcLBSuNff98dehjVnNnvZG23ih-JLraWr5VXeWtWv1PwX7noDy6A_igk2F-4",
+            "og_title": "Celtic v Celta Vigo, Live updates",
+            "og_desc": "Live updates will appear below after 20.00.",
+            "og_image": "https://cdn.celticquicknews.co.uk/wp-content/uploads/2015/07/IMG_09621.jpg",
             "ok": true
           }
         ],
@@ -1000,53 +1023,53 @@
         "color": "#3ddc97",
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "card": "cards/eg-2026-10-22-celtic-vs-celta.png"
+        "card": "cards/eg-2026-10-23-celtic-vs-celta.png"
       },
       {
-        "title": "انقطاع الكهرباء",
+        "title": "شيماء سعيد",
         "traffic": "200+",
         "traffic_num": 200,
-        "published": "Thu, 22 Oct 2026 11:50:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1E2yRLEcXU9vALvvGurXRgw9GPkWKtL9x_vKVk91bOOkzItWHkQUDCW1G8qo",
-        "image_source": "المصري اليوم",
+        "published": "Thu, 22 Oct 2026 12:20:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQogLb-SFEZmdj3XmqM8wv8nPtbsCRZWBtQY0e6xL2URBmlN2-5udAAjYYuPWU",
+        "image_source": "Masrawy",
         "news": [
           {
-            "title": "لأعمال الصيانة.. فصل التيار الكهربائي عن عدد من المستشفيات والقرى السياحية ببورسعيد غدًا",
-            "url": "https://www.almasryalyoum.com/news/details/4389886",
-            "source": "المصري اليوم",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1E2yRLEcXU9vALvvGurXRgw9GPkWKtL9x_vKVk91bOOkzItWHkQUDCW1G8qo",
-            "og_title": "لأعمال الصيانة.. فصل التيار الكهربائي عن عدد من المستشفيات والقرى السياحية ببورسعيد غدًا | المصري اليوم",
-            "og_desc": "أعلنت محافظة بورسعيد فصل التيار الكهربائي، غدًا الجمعة 23 أكتوبر 2026، لمدة ساعتين، وذلك من الساعة السادسة صباحًا حتى الثامنة صباحًا، لإجراء أعمال الصيانة بموزع صفية زغلول، في...",
-            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/10/22/2070647.webp",
-            "ok": true
-          },
-          {
-            "title": "قطع الكهرباء عن مناطق حيوية في بورسعيد الجمعة لمدة ساعتين.. تعرف على الأماكن",
-            "url": "https://www.alnaharegypt.com/1201413",
-            "source": "جريدة النهار المصرية",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQm88yodeUKVsUcZLyJjgf8CnHdeSwyNBhDiUNXT1aiqt-xNsEpV6eaSX8Dfs0",
-            "og_title": "قطع الكهرباء عن مناطق حيوية في بورسعيد الجمعة لمدة ساعتين.. تعرف على الأماكن | المحافظات | النهار",
-            "og_desc": "أعلنت محافظة بورسعيد فصل التيار الكهربائي غد ا الجمعة الموافق 23 أكتوبر 2026 من الساعة 6 صباح ا حتى الساعة 8 صباح ا وذلك للقيام بأعمال الصيانة اللازمة بموزع ص…",
-            "og_image": "https://media.alnaharegypt.com/img/26/10/22/1201413.webp",
-            "ok": true
-          },
-          {
-            "title": "السيسي يكشف كواليس حواره مع رئيس وزراء الإخوان بشأن أزمة البترول",
-            "url": "https://www.masrawy.com/news/news_egypt/details/2026/10/22/3067148/%D8%A7%D9%84%D8%B3%D9%8A%D8%B3%D9%8A-%D9%8A%D9%83%D8%B4%D9%81-%D9%83%D9%88%D8%A7%D9%84%D9%8A%D8%B3-%D8%AD%D9%88%D8%A7%D8%B1%D9%87-%D9%85%D8%B9-%D8%B1%D8%A6%D9%8A%D8%B3-%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%A5%D8%AE%D9%88%D8%A7%D9%86-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A3%D8%B2%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D8%AA%D8%B1%D9%88%D9%84",
+            "title": "شيماء سعيد أرملة إسماعيل الليثي تعلن خطوبتها: \"مش هقدر أعيش في بيت من غير راجل\"",
+            "url": "https://www.masrawy.com/arts/zoom/details/2026/10/22/3066924/%D8%B4%D9%8A%D9%85%D8%A7%D8%A1-%D8%B3%D8%B9%D9%8A%D8%AF-%D8%A3%D8%B1%D9%85%D9%84%D8%A9-%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84-%D8%A7%D9%84%D9%84%D9%8A%D8%AB%D9%8A-%D8%AA%D8%B9%D9%84%D9%86-%D8%AE%D8%B7%D9%88%D8%A8%D8%AA%D9%87%D8%A7-%D9%85%D8%B4-%D9%87%D9%82%D8%AF%D8%B1-%D8%A3%D8%B9%D9%8A%D8%B4-%D9%81%D9%8A-%D8%A8%D9%8A%D8%AA-%D9%85%D9%86-%D8%BA%D9%8A%D8%B1",
             "source": "Masrawy",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS2hFPIIcwHg7tyTWNEoXO1SWYQyIK1NFsZZT_rPpeKeHh8RrymNoT8x5wPW0o",
-            "og_title": "السيسي: قولت لهشام قنديل \"قولوا للناس إنكم مش قادرين\" | مصراوي",
-            "og_desc": "كشف الرئيس السيسي كواليس حديثه مع رئيس وزراء الإخوان بشأن أزمة البترول والغاز والكهرباء موضح ا تكلفة مشروعات الطاقة الشمسية ومتطلبات تشغيلها وللتفاصيل من هنا | مصراوي",
-            "og_image": "https://media.gemini.media/img/large/2026/10/5/2026_10_5_18_24_42_463.webp",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQogLb-SFEZmdj3XmqM8wv8nPtbsCRZWBtQY0e6xL2URBmlN2-5udAAjYYuPWU",
+            "og_title": "شيماء سعيد تكشف تفاصيل خطوبتها: \"مشوفتهوش على الحقيقة\" | مصراوي",
+            "og_desc": "شيماء سعيد أرملة المطرب الشعبي الراحل إسماعيل الليثي تعلن عن خطوبتها خلال بث مباشر عبر تيك توك وكشفت تفاصيل ارتباطها وأسباب اتخاذ القرار لمزيد من التفاصيل | مصراوي",
+            "og_image": "https://media.gemini.media/img/large/2026/10/22/2026_10_22_14_53_22_340.webp",
+            "ok": true
+          },
+          {
+            "title": "«هتجوز أب لعيالي».. أرملة إسماعيل الليثي تكشف تفاصيل ارتباطها",
+            "url": "https://al-ain.com/article/ismaeil-laithi-widow-engagement",
+            "source": "العين الإخبارية",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRdOTjM-ZlICjMydBcq4o9XNjN93mCn6ZKcAloPF4arSI_TkBMOqs-YOZl0Nbk",
+            "og_title": "&laquo;هتجوز أب لعيالي&raquo;.. أرملة إسماعيل الليثي تكشف تفاصيل ارتباطها",
+            "og_desc": "كشفت شيماء سعيد، أرملة المطرب الشعبي المصري الراحل إسماعيل الليثي، عن تفاصيل ارتباطها الجديد، مؤكدة رغبتها في الزواج من رجل يكون سندًا لها في الحياة، ويتعامل معها باحترام ويهتم بها وبأبنائها.",
+            "og_image": "https://cdn.al-ain.com/images/2026/10/22/196-153937-ismaeil-laithi-widow-engagement_700x400.jpg",
+            "ok": true
+          },
+          {
+            "title": "شيماء سعيد أرملة إسماعيل الليثي تعلن خطوبتها وتكشف شروط الزواج",
+            "url": "https://elbaladtv.net/%D8%B4%D9%8A%D9%85%D8%A7%D8%A1-%D8%B3%D8%B9%D9%8A%D8%AF-%D8%A3%D8%B1%D9%85%D9%84%D8%A9-%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84-%D8%A7%D9%84%D9%84%D9%8A%D8%AB%D9%8A-%D8%AA%D8%B9%D9%84%D9%86-%D8%AE",
+            "source": "قناة صدى البلد",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTp5SVQAd527uQA6Es6eZEyurWVzyQPE2VhJlw3eoSmItj3HN83rtE9gJyet0",
+            "og_title": "أرملة إسماعيل الليثي تعلن خطوبتها",
+            "og_desc": "أعلنت شيماء سعيد، أرملة المطرب الشعبي الراحل إسماعيل الليثي، خطوبتها، كاشفة عن تفاصيل موقفها من الزواج مرة أخرى، والشروط التي وضعتها لاختيار شريك حياتها،",
+            "og_image": "https://cdn.elbaladtv.net/wp-content/uploads/2026/07/شيماء-سعيد-ارملة-اسماعيل-الليثي.jpg",
             "ok": true
           }
         ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: مستشفى",
+        "category": "ديني",
+        "icon": "🕌",
+        "color": "#4dd0b1",
+        "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "card": "cards/eg-2026-10-22-انقطاع-الكهرباء.png"
+        "card": "cards/eg-2026-10-23-شيماء-سعيد.png"
       },
       {
         "title": "مطلوب عائليا",
@@ -1094,7 +1117,7 @@
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
         "person": true,
-        "card": "cards/eg-2026-10-22-مطلوب-عائليا.png"
+        "card": "cards/eg-2026-10-23-مطلوب-عائليا.png"
       },
       {
         "title": "أياكس ضد أتالانتا",
@@ -1115,16 +1138,6 @@
             "ok": true
           },
           {
-            "title": "توقعات مباراة أياكس ضد أتالانتا: نقطة ساخنة في سباق الصدارة",
-            "url": "https://www.vietnam.vn/ar/nhan-dinh-ajax-vs-atalanta-diem-nong-cuoc-dua-top-dau",
-            "source": "Vietnam.vn",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRDZS5TflFwTyl17rgnOwqTr6myz4hre0dIdc92EfRHt7HzTWW5deHZTrk-934",
-            "og_title": "توقعات مباراة أياكس ضد أتالانتا: نقطة ساخنة في سباق الصدارة",
-            "og_desc": "يحتل أياكس المركز الخامس والعشرين بدون نقاط، بينما يحتل أتالانتا المركز الرابع بثلاث نقاط. سيلتقي الفريقان في تمام الساعة الثانية صباحًا يوم 23 أكتوبر 2026 على ملعب يوهان كرويف أرينا. فاز أياكس في مباراته الأخيرة، بينما خسر أتالانتا.",
-            "og_image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/10/22/1792679668372_match_thumb_1636379_883de8d2.jpeg",
-            "ok": true
-          },
-          {
             "title": "شتيغن: اتالانتا يستطيع اللعب في دوري أبطال أوروبا",
             "url": "https://elsport.com/news/show/844655/%D8%B4%D8%AA%D9%8A%D8%BA%D9%86-%D8%A7%D8%AA%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%A7-%D9%8A%D8%B3%D8%AA%D8%B7%D9%8A%D8%B9-%D8%A7%D9%84%D9%84%D8%B9%D8%A8-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7",
             "source": "Elsport",
@@ -1132,6 +1145,16 @@
             "og_title": "شتيغن: اتالانتا يستطيع اللعب في دوري أبطال أوروبا",
             "og_desc": "أشاد الألماني مارك أندريه تير ​شتيغن​، حارس مرمى ​أياكس​ أمستردام، بمستوى ​أتالانتا​، معتبراً أن الفريق الإيطالي يمتلك الإمكانات التي تؤهله للمنافسة في دوري أبط",
             "og_image": "https://elnashrastorageaccount.blob.core.windows.net/elnashra/elnashra/elsport/images/medium_large/5405599_1792598942.jpg",
+            "ok": true
+          },
+          {
+            "title": "توقعات مباراة أياكس ضد أتالانتا: نقطة ساخنة في سباق الصدارة",
+            "url": "https://www.vietnam.vn/ar/nhan-dinh-ajax-vs-atalanta-diem-nong-cuoc-dua-top-dau",
+            "source": "Vietnam.vn",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRDZS5TflFwTyl17rgnOwqTr6myz4hre0dIdc92EfRHt7HzTWW5deHZTrk-934",
+            "og_title": "توقعات مباراة أياكس ضد أتالانتا: نقطة ساخنة في سباق الصدارة",
+            "og_desc": "يحتل أياكس المركز الخامس والعشرين بدون نقاط، بينما يحتل أتالانتا المركز الرابع بثلاث نقاط. سيلتقي الفريقان في تمام الساعة الثانية صباحًا يوم 23 أكتوبر 2026 على ملعب يوهان كرويف أرينا. فاز أياكس في مباراته الأخيرة، بينما خسر أتالانتا.",
+            "og_image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/10/22/1792679668372_match_thumb_1636379_883de8d2.jpeg",
             "ok": true
           }
         ],
@@ -1141,53 +1164,7 @@
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
         "person": true,
-        "card": "cards/eg-2026-10-22-أياكس-ضد-أتالانتا.png"
-      },
-      {
-        "title": "سيلتك",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Thu, 22 Oct 2026 12:50:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEWD7YwKPlji3WRmRQgs-uoLk0fOR3G-9AuO1VJyASpIIa27BTCSMqrFn6xxQ",
-        "image_source": "يلاكورة",
-        "news": [
-          {
-            "title": "تشكيل سلتيك.. هيثم حسن أساسيًا في مواجهة سيلتا فيجو",
-            "url": "https://www.yallakora.com/europa-league/3052/news/570114/%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%B3%D9%84%D8%AA%D9%8A%D9%83-%D9%87%D9%8A%D8%AB%D9%85-%D8%AD%D8%B3%D9%86-%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A-%D8%A7-%D9%81%D9%8A-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%B3%D9%8A%D9%84%D8%AA%D8%A7-%D9%81%D9%8A%D8%AC%D9%88",
-            "source": "يلاكورة",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEWD7YwKPlji3WRmRQgs-uoLk0fOR3G-9AuO1VJyASpIIa27BTCSMqrFn6xxQ",
-            "og_title": "تشكيل سلتيك في مواجهة سيلتا فيجو ببطولة الدوري الأوروبي",
-            "og_desc": "تشكيل سلتيك في مواجهة سيلتا فيجو ببطولة الدوري الأوروبي",
-            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/10/18/gettyimages-2300306849-612x6122026_10_18_19_53.webp",
-            "ok": true
-          },
-          {
-            "title": "هيثم حسن يقود طموحات سيلتيك أمام سيلتا فيجو لإنقاذ الحلم الأوروبي",
-            "url": "https://www.youm7.com/story/2026/10/22/%D9%87%D9%8A%D8%AB%D9%85-%D8%AD%D8%B3%D9%86-%D9%8A%D9%82%D9%88%D8%AF-%D8%B7%D9%85%D9%88%D8%AD%D8%A7%D8%AA-%D8%B3%D9%8A%D9%84%D8%AA%D9%8A%D9%83-%D8%A3%D9%85%D8%A7%D9%85-%D8%B3%D9%8A%D9%84%D8%AA%D8%A7-%D9%81%D9%8A%D8%AC%D9%88-%D9%84%D8%A5%D9%86%D9%82%D8%A7%D8%B0-%D8%A7%D9%84%D8%AD%D9%84%D9%85/7588225",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQmZtz2KZpNidFPCbss4ZuiRrAAfWXMk1vbcEPL0gopPn_zfmtd6ImQspBDmA",
-            "og_title": "هيثم حسن يقود طموحات سيلتيك أمام سيلتا فيجو لإنقاذ الحلم الأوروبي - اليوم السابع",
-            "og_desc": "يسعى هيثم حسن، لاعب منتخب مصر، لقيادة فريقه سيلتيك الاسكتلندي لتحقيق الفوز الأول في مرحلة الدوري ببطولة الدوري الأوروبي، عندما يستضيف سيلتا فيجو الإسباني",
-            "og_image": "https://img.youm7.com/xlarge/202610160132323232_369.jpg",
-            "ok": true
-          },
-          {
-            "title": "موعد مباراة سيلتيك وسيلتا فيجو اليوم في الدوري الأوروبي والقنوات الناقلة",
-            "url": "https://www.akhbarak.net/news/details/49491652/3/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B3%D9%8A%D9%84%D8%AA%D9%8A%D9%83-%D9%88%D8%B3%D9%8A%D9%84%D8%AA%D8%A7-%D9%81%D9%8A%D8%AC%D9%88-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9",
-            "source": "اخبارك نت",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU8J8fwXbWHYffnuSZghMbyuZOtO3ksvbhFBxX8Z_FrTVEWFT5KkZ_05jyBNY",
-            "og_title": "اخبارك نت | موعد مباراة سيلتيك وسيلتا فيجو اليوم في الدوري الأوروبي والقنوات الناقلة",
-            "og_desc": "تترقب جماهير كرة القدم مواجهة سيلتيك الأسكتلندي أمام سيلتا فيجو الإسباني، مساء اليوم الخميس، ضمن منافسات الجولة الثالثة من مرحلة الدوري ببطولة الدوري الأوروب...",
-            "og_image": "https://aws-web-images.akhbarak.net/2026/10/22/49491652/49491652-original.webp",
-            "ok": true
-          }
-        ],
-        "category": "شخصية",
-        "icon": "👤",
-        "color": "#ffd166",
-        "reason": "شخصية لا يرد اسمها في مصدرين",
-        "publishable": false,
-        "card": "cards/eg-2026-10-22-سيلتك.png"
+        "card": "cards/eg-2026-10-23-أياكس-ضد-أتالانتا.png"
       },
       {
         "title": "حلمي طولان",
@@ -1233,53 +1210,53 @@
         "color": "#ffd166",
         "reason": "شخصية لا يرد اسمها في مصدرين",
         "publishable": false,
-        "card": "cards/eg-2026-10-22-حلمي-طولان.png"
+        "card": "cards/eg-2026-10-23-حلمي-طولان.png"
       },
       {
-        "title": "شيماء سعيد",
+        "title": "الدوري الاوروبي",
         "traffic": "100+",
         "traffic_num": 100,
-        "published": "Thu, 22 Oct 2026 12:20:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcShB8yfyfT-CO_-7kc16aDJag5XIwlIpdLUW95PJi7XV0x8ooRytf8Ezs0Ha6E",
-        "image_source": "المصري اليوم",
+        "published": "Thu, 22 Oct 2026 12:40:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlurR226emEaNiV3BijWXWy76k605blXnL4ErpZmRO7TKkyTCzv0wB39k05yM",
+        "image_source": "يلاكورة",
         "news": [
           {
-            "title": "بعد عام من رحيل زوجها ونجلها.. شيماء سعيد تعلن خطوبتها: «مش هعيش في بيت من غير راجل»",
-            "url": "https://www.almasryalyoum.com/news/details/4390275",
-            "source": "المصري اليوم",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcShB8yfyfT-CO_-7kc16aDJag5XIwlIpdLUW95PJi7XV0x8ooRytf8Ezs0Ha6E",
-            "og_title": "بعد عام من رحيل زوجها ونجلها.. شيماء سعيد تعلن خطوبتها: «مش هعيش في بيت من غير راجل» | المصري اليوم",
-            "og_desc": "كشفت شيماء سعيد، أرملة المطرب الشعبي الراحل إسماعيل الليثي، عن رغبتها في الزواج مرة أخرى، مؤكدة أنها تبحث عن شريك حياة يوفر لها الاستقرار والأمان، ويكون سندًا لها ولأبنائها،...",
-            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/10/22/2071680.webp",
+            "title": "هدفان وتصفيق حار.. إبراهيم عادل يتألق في ليلة تعادل نورشيلاند بدوري المؤتمر",
+            "url": "https://www.yallakora.com/uefa-europa-conference-league/3053/news/570126/%D9%87%D8%AF%D9%81%D8%A7%D9%86-%D9%88%D8%AA%D8%B5%D9%81%D9%8A%D9%82-%D8%AD%D8%A7%D8%B1-%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%B9%D8%A7%D8%AF%D9%84-%D9%8A%D8%AA%D8%A3%D9%84%D9%82-%D9%81%D9%8A-%D9%84%D9%8A%D9%84%D8%A9-%D8%AA%D8%B9%D8%A7%D8%AF%D9%84-%D9%86%D9%88%D8%B1%D8%B4%D9%8A%D9%84%D8%A7%D9%86%D8%AF-%D8%A8%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1",
+            "source": "يلاكورة",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlurR226emEaNiV3BijWXWy76k605blXnL4ErpZmRO7TKkyTCzv0wB39k05yM",
+            "og_title": "إبراهيم عادل يتألق في ليلة تعادل نورشيلاند الدنماركي",
+            "og_desc": "انتهت منذ لحظات المباراة التي جمعت بين نورشيلاند الدنماركي وسيسكا صوفيا، في إطار مواجهات الجولة الثانية من مرحلة الدوري ببطولة دوري المؤتمر الأوروبي، بنتيجة 2-2.",
+            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/10/22/hvqwjxdwuaaob0d-easy-resize-com2026_10_22_22_8.webp",
             "ok": true
           },
           {
-            "title": "«هتجوز أب لعيالي».. أرملة إسماعيل الليثي تكشف تفاصيل ارتباطها",
-            "url": "https://al-ain.com/article/ismaeil-laithi-widow-engagement",
-            "source": "العين الإخبارية",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRdOTjM-ZlICjMydBcq4o9XNjN93mCn6ZKcAloPF4arSI_TkBMOqs-YOZl0Nbk",
-            "og_title": "&laquo;هتجوز أب لعيالي&raquo;.. أرملة إسماعيل الليثي تكشف تفاصيل ارتباطها",
-            "og_desc": "كشفت شيماء سعيد، أرملة المطرب الشعبي المصري الراحل إسماعيل الليثي، عن تفاصيل ارتباطها الجديد، مؤكدة رغبتها في الزواج من رجل يكون سندًا لها في الحياة، ويتعامل معها باحترام ويهتم بها وبأبنائها.",
-            "og_image": "https://cdn.al-ain.com/images/2026/10/22/196-153937-ismaeil-laithi-widow-engagement_700x400.jpg",
+            "title": "أول بصمة أوروبية.. إبراهيم عادل يعاقب سيسكا صوفيا بثنائية مذهلة",
+            "url": "https://www.youm7.com/story/2026/10/22/%D8%A3%D9%88%D9%84-%D8%A8%D8%B5%D9%85%D8%A9-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9-%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%B9%D8%A7%D8%AF%D9%84-%D9%8A%D8%B9%D8%A7%D9%82%D8%A8-%D8%B3%D9%8A%D8%B3%D9%83%D8%A7-%D8%B5%D9%88%D9%81%D9%8A%D8%A7-%D8%A8%D8%AB%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D9%85%D8%B0%D9%87%D9%84%D8%A9/7590013",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTowZGXwhxJvDZ2u1oEbbZX7f8Trq82vqT8Q7DoiVcr2Y5y0x3nGRK4-eM8jy8",
+            "og_title": "أول بصمة أوروبية.. إبراهيم عادل يعاقب سيسكا صوفيا بثنائية مذهلة - اليوم السابع",
+            "og_desc": "واصل الدولي المصري إبراهيم عادل تألقه مع فريق نورشيلاند الدنماركي، بعدما سجل هدفين في شباك سيسكا صوفيا البلغاري",
+            "og_image": "https://img.youm7.com/xlarge/202604070931563156_12624.jpg",
             "ok": true
           },
           {
-            "title": "شيماء سعيد أرملة إسماعيل الليثي تعلن خطوبتها وتكشف شروط الزواج",
-            "url": "https://elbaladtv.net/%D8%B4%D9%8A%D9%85%D8%A7%D8%A1-%D8%B3%D8%B9%D9%8A%D8%AF-%D8%A3%D8%B1%D9%85%D9%84%D8%A9-%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84-%D8%A7%D9%84%D9%84%D9%8A%D8%AB%D9%8A-%D8%AA%D8%B9%D9%84%D9%86-%D8%AE",
-            "source": "قناة صدى البلد",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTp5SVQAd527uQA6Es6eZEyurWVzyQPE2VhJlw3eoSmItj3HN83rtE9gJyet0",
-            "og_title": "أرملة إسماعيل الليثي تعلن خطوبتها",
-            "og_desc": "أعلنت شيماء سعيد، أرملة المطرب الشعبي الراحل إسماعيل الليثي، خطوبتها، كاشفة عن تفاصيل موقفها من الزواج مرة أخرى، والشروط التي وضعتها لاختيار شريك حياتها،",
-            "og_image": "https://cdn.elbaladtv.net/wp-content/uploads/2026/07/شيماء-سعيد-ارملة-اسماعيل-الليثي.jpg",
+            "title": "هدف ابراهيم عادل الاول في مرمي سسكا صوفيا بالمؤتمر الاوروبي",
+            "url": "https://www.btolat.com/video/95665",
+            "source": "بطولات",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGCTPNhm0LI60B00RJesXaSKqjaxcGMfi3dg9m1rVunle96B8m-FJbpZXHw5E",
+            "og_title": "هدف ابراهيم عادل الاول في مرمي سسكا صوفيا بالمؤتمر الاوروبي",
+            "og_desc": "مشاهدة هدف ابراهيم عادل الاول في مرمي سسكا صوفيا بالمؤتمر الاوروبي اليوم الخميس 22-10-2026",
+            "og_image": "https://img.btolat.com/2026/10/22/video/95665/0.jpg?v=4439",
             "ok": true
           }
         ],
-        "category": "ديني",
-        "icon": "🕌",
-        "color": "#4dd0b1",
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "card": "cards/eg-2026-10-22-شيماء-سعيد.png"
+        "card": "cards/eg-2026-10-23-الدوري-الاوروبي.png"
       }
     ]
   },
@@ -1289,25 +1266,25 @@
     "name_en": "Saudi Arabia",
     "lang": "ar",
     "flag": "🇸🇦",
-    "generated_at": "2026-10-22T20:31:18.660879+00:00",
-    "day": "2026-10-22",
+    "generated_at": "2026-10-22T21:01:13.403872+00:00",
+    "day": "2026-10-23",
     "trends": [
       {
         "title": "محمد صلاح",
         "traffic": "10000+",
         "traffic_num": 10000,
         "published": "Thu, 22 Oct 2026 11:50:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTWhjyZT3svWdeROCLtBTbODKfgwPgfonRKd6sL8nSXKTVsEc5jbZbfIb32qR0",
-        "image_source": "Kooora",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSWMZ0ZxfZAi8fhldx2kUtNzMQ-3tFGS5JslK3CtGjY5wBtLg0-tDfXy7EBqtk",
+        "image_source": "annahar.com",
         "news": [
           {
-            "title": "بالفيديو.. صلاح يجلد هارتس ويضع طرابزون على أعتاب الصدارة الأوروبية",
-            "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88--%D8%B5%D9%84%D8%A7%D8%AD-%D9%8A%D8%AC%D9%84%D8%AF-%D9%87%D8%A7%D8%B1%D8%AA%D8%B3-%D9%88%D9%8A%D8%B6%D8%B9-%D8%B7%D8%B1%D8%A7%D8%A8%D8%B2%D9%88%D9%86-%D8%B9%D9%84%D9%89-%D8%A7%D9%94%D8%B9%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9/bltb4ca0f00ff3b89b0",
-            "source": "Kooora",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTWhjyZT3svWdeROCLtBTbODKfgwPgfonRKd6sL8nSXKTVsEc5jbZbfIb32qR0",
-            "og_title": "بالفيديو.. صلاح يجلد هارتس ويضع طرابزون على أعتاب الصدارة الأوروبية | كووورة",
-            "og_desc": "حقق فريق طرابزون سبور التركي فوزاً مستحقاً على نظيره هارتس الأسكتلندي بنتيجة 2-0، في المباراة التي أقيمت مساء اليوم الأربعاء، ضمن منافسات الجولة الثانية من بطولة دوري المؤتمر الأوروبي.",
-            "og_image": "https://assets.kooora.com/images/v3/getty-2301018764/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2301018764.jpg",
+            "title": "محمد صلاح يقود طرابزون سبور للفوز على هارتس في دوري المؤتمر الأوروبي (فيديو)",
+            "url": "https://www.annahar.com/sports/359444/%D8%A8%D8%AB-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B7%D8%B1%D8%A7%D8%A8%D8%B2%D9%88%D9%86-%D8%B3%D8%A8%D9%88%D8%B1-%D8%B6%D8%AF-%D9%87%D8%A7%D8%B1%D8%AA%D8%B3-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A",
+            "source": "annahar.com",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSWMZ0ZxfZAi8fhldx2kUtNzMQ-3tFGS5JslK3CtGjY5wBtLg0-tDfXy7EBqtk",
+            "og_title": "محمد صلاح يقود طرابزون سبور للفوز على هارتس في دوري المؤتمر الأوروبي (فيديو)",
+            "og_desc": "حقق طرابزون سبور التركي فوزاً جديداً في دوري المؤتمر الأوروبي، وهذه المرة على هارتس الاسكتلندي بنتيجة 2-0، ضمن منافسات الجولة الثانية من المسابقة.",
+            "og_image": "https://www.annahar.com/Assets/ContentPhotos/Photos/HVQRUzWXoAIKqah_220940.webp?width=1416&height=805&mode=crop&scale=both",
             "ok": true
           },
           {
@@ -1321,14 +1298,14 @@
             "ok": true
           },
           {
-            "title": "بفضل صلاح.. توماس ريس يكتب التاريخ مع طرابزون",
-            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=22102026&id=36188ae8-41fe-4350-819a-f268ba42e690",
-            "source": "بوابة الشروق",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSIb53CluaXscD5FGwiOs1907vNOCJ9SeyLPHx3zZEgjg7ocmEKOMGyhGIgjQw",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "https://www.shorouknews.com/uploadedimages/Sections/Sports/original/gettyimages-2300894721-612x612.jpg",
-            "ok": false
+            "title": "ما القنوات الناقلة لمباراة طرابزون سبور وهارتس في دوري المؤتمر الأوروبي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
+            "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B7%D8%B1%D8%A7%D8%A8%D8%B2%D9%88%D9%86-%D8%B3%D8%A8%D9%88%D8%B1-%D9%88%D9%87%D8%A7%D8%B1%D8%AA%D8%B3-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D9%94%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D8%A7%D9%94%D9%88%D8%B1%D9%88%D8%A8%D9%8A-2026-2027-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%A7%D9%87%D8%AF%D9%87%D8%A7-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%B1%D9%86%D8%AA/blt06e77dd4a8f5777f",
+            "source": "Kooora",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnF0KOjzL8e86XWy3dER9mqi3PIkohJZLBX8mMvBjIl8prY5fJ6ynG09M6dls",
+            "og_title": "ما القنوات الناقلة لمباراة طرابزون سبور وهارتس في دوري المؤتمر الأوروبي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟ | كووورة",
+            "og_desc": "كل ما تريد معرفته عن القنوات الناقلة لمباراة طرابزون سبور وهارتس في دوري المؤتمر الأوروبي 2026-2027.. وكيف تشاهدها على الإنترنت؟",
+            "og_image": "https://assets.kooora.com/images/v3/imago-sport-1084785089/crop/MM5DEMZYGQ5DCMZUGE5G433XMU5DCOBSHI4DS===/imago-image.jpeg",
+            "ok": true
           }
         ],
         "category": "رياضة",
@@ -1337,41 +1314,37 @@
         "reason": "العنوان يطابق: صلاح",
         "publishable": true,
         "article": {
-          "headline": "محمد صلاح يقود طرابزون سبور لاكتساح هارتس في دوري المؤتمر الأوروبي",
-          "summary": "سجل النجم المصري محمد صلاح هدفاً وقدم تمريرة حاسمة ليقود طرابزون سبور للفوز على هارتس الأسكتلندي بنتيجة 2-0 في الجولة الثانية.",
-          "body": "ترك النجم المصري محمد صلاح بصمة لا تُنسى في فوز فريقه طرابزون سبور على هارتس الأسكتلندي، حيث افتتح التسجيل من ركلة جزاء في الدقيقة 32 قبل أن يساهم بصناعة الهدف الثاني الذي سجله فرانكولينو في الدقيقة 58. لم يكتف صلاح بالتسجيل، بل كان المحرك الرئيسي لهجوم فريقه طوال فترة تواجده على أرضية الميدان، قبل أن يستبدله المدرب بأوزان توفان في الدقيقة 71 بعد مجهود بدني وفني كبير.\n\nيأتي هذا الفوز ليمنح طرابزون سبور دفعة معنوية كبيرة في مشوار البطولة الأوروبية، حيث رفع الفريق رصيده إلى 6 نقاط من انتصارين متتاليين، مما يضعه في مركز متقدم ضمن جدول الترتيب العام الذي يضم 36 فريقاً، وسط منافسة شرسة على التأهل المباشر للأدوار التالية.\n\nوفقاً لموقع كورة، سجل صلاح هدفه الأول بعد تنفيذه ركلة جزاء سكنت يمين الحارس بثقة عالية، بينما أوضحت الشرق الأوسط أن الفريق التركي حافظ على توازنه الدفاعي والهجومي طوال المباراة. وعلى الرغم من الانتصار، تعرض طرابزون لضربة في الوقت بدل الضائع بطرد المدافع سيدني لوبيز كابرال، مما سيحرم الفريق من جهوده في الاختبار القادم.\n\nتتجه الأنظار الآن نحو التحدي القادم للفريق، حيث يستعد طرابزون سبور لخوض مواجهة مرتقبة أمام فرايبورج الألماني في الجولة الثالثة من منافسات دوري المؤتمر الأوروبي، في محاولة للحفاظ على سلسلة النتائج الإيجابية وتأمين صدارة المجموعة في ظل غياب مدافعه المطرود.",
+          "headline": "صلاح يضرب من جديد: هدف وتمريرة حاسمة يقودان طرابزون للفوز الأوروبي",
+          "summary": "قاد محمد صلاح فريق طرابزون سبور للفوز على هارتس الاسكتلندي بنتيجة 2-0 في دوري المؤتمر الأوروبي بعد تسجيله ركلة جزاء وصناعته الهدف الثاني.",
+          "body": "واصل النجم المصري محمد صلاح تألقه اللافت مع فريقه الجديد طرابزون سبور، حيث ساهم بشكل مباشر في هدفي فوز فريقه على هارتس الاسكتلندي بنتيجة 2-0 في الجولة الثانية من مرحلة الدوري ضمن منافسات دوري المؤتمر الأوروبي. وعلى ملعب \"بابارا بارك\"، سجل صلاح هدفه الأول في المباراة من ركلة جزاء في الدقيقة 32، قبل أن يعود في الشوط الثاني ليصنع الهدف الثاني لزميله فرانكولينو غلودا دجو في الدقيقة 58. ويأتي هذا الأداء ليعزز أرقام \"الفرعون\" المصري الذي وصل إلى 10 أهداف و5 تمريرات حاسمة خلال 12 مباراة في مختلف المسابقات التي خاضها مع فريقه التركي حتى الآن.\n\nيحتل طرابزون سبور بهذا الفوز المركز الثالث برصيد ست نقاط في ترتيب البطولة التي تضم 36 فريقاً، بفارق الأهداف فقط عن باناثيناكوس اليوناني المتصدر. هذا الانتصار يعد الثاني للفريق في المسابقة الأوروبية هذا الموسم بعد تغلبه في الجولة الأولى على كيو بي أس بنتيجة 4-2. وتمنح هذه النقاط الثلاث دفعة قوية للفريق التركي في سعيه للمنافسة في هذه المرحلة من البطولة القارية.\n\nشهدت المباراة سيطرة من طرابزون سبور الذي بلغت نسبة استحواذه على الكرة 61 في المئة مقابل 39 في المئة للفريق الضيف. وتضمنت أحداث المباراة طرد لاعب طرابزون سيدني لوبيز كابرال في الدقائق الأخيرة بعد تلقيه بطاقة صفراء ثانية، وهي ليست البطاقة الوحيدة في اللقاء حيث حصل زميله ساميت أكايدين أيضاً على بطاقة صفراء في الشوط الأول، كما نال كريستيان بورشغريفينك لاعب هارتس بطاقة صفراء في الدقيقة 20. ويذكر أن هذه النتيجة تجمد رصيد هارتس عند نقطة واحدة في المركز الخامس والعشرين بالترتيب.",
           "facts": [
             {
-              "label": "النتيجة",
+              "label": "النتيجة النهائية",
               "value": "2-0 لطرابزون سبور"
             },
             {
-              "label": "مسجل الأهداف",
-              "value": "محمد صلاح (32) وفرانكولينو (58)"
+              "label": "مسجلو الأهداف",
+              "value": "محمد صلاح (32) وفرانكولينو غلودا دجو (58)"
             },
             {
-              "label": "البطولة",
-              "value": "دوري المؤتمر الأوروبي"
+              "label": "موقع المباراة",
+              "value": "ملعب بابارا بارك"
             },
             {
-              "label": "الرصيد",
+              "label": "رصيد طرابزون سبور",
               "value": "6 نقاط"
-            },
-            {
-              "label": "المواجهة القادمة",
-              "value": "فرايبورج الألماني"
             }
           ],
           "tags": [
             "محمد صلاح",
             "طرابزون سبور",
             "دوري المؤتمر الأوروبي",
-            "كرة قدم",
-            "هارتس"
+            "هارتس",
+            "كرة القدم"
           ],
           "_v": 4,
           "_by": "gemini",
-          "written_at": "2026-10-22T20:31:47.686891+00:00",
+          "written_at": "2026-10-22T21:02:02.142679+00:00",
           "photo": {
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg/1280px-Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg",
             "width": 1280,
@@ -1387,24 +1360,24 @@
           "_had_data": false,
           "_localized": false
         },
-        "card": "cards/sa-2026-10-22-محمد-صلاح.png"
+        "card": "cards/sa-2026-10-23-محمد-صلاح.png"
       },
       {
         "title": "trabzonspor vs heart of midlothian f.c. standings",
         "traffic": "+2100",
         "traffic_num": 2100,
         "published": "Thu, 22 Oct 2026 12:10:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTxCKUtSBgZhVQSDqrKJpb5XjmNzMJfEZG8KjV45s0jUg9ghibh_8A_OCMWnSY",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbTbng13PGLAZRgVZdW4JzqQHFpf2nVcxcDDtjHKyoLUrhm4_4p2N9xb0lOyk",
         "image_source": "BBC",
         "news": [
           {
-            "title": "Celta Vigo",
-            "url": "https://www.bbc.com/sport/football/live/cq4g1z8ll3xvt",
+            "title": "Trabzonspor 2-0 Hearts: What Vrancken said",
+            "url": "https://www.bbc.com/sport/articles/cjx23d35xw7no?xtor=AL-72-%5Bpartner%5D-%5Baol.com%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
             "source": "BBC",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTxCKUtSBgZhVQSDqrKJpb5XjmNzMJfEZG8KjV45s0jUg9ghibh_8A_OCMWnSY",
-            "og_title": "Europa & Conference Leagues LIVE: Trabzonspor v Hearts & Celtic v Celta Vigo - radio, text updates, team news, stats & head-to-head",
-            "og_desc": "Listen to Sportsound commentary and follow live text updates of Celtic v Celta Vigo in the Europa League after Trabzonspor beat Hearts 2-0 in the Conference League",
-            "og_image": "https://static.files.bbci.co.uk/core/website/assets/static/sport/images/metadata/poster-1024x576.146fae5646.png",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbTbng13PGLAZRgVZdW4JzqQHFpf2nVcxcDDtjHKyoLUrhm4_4p2N9xb0lOyk",
+            "og_title": "Trabzonspor 2-0 Hearts: What Vrancken said",
+            "og_desc": "Trabzonspor 2-0 Hearts: What Vrancken said",
+            "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/65e2/live/77f48300-ce4e-11f1-8507-d7f0bcb84e7e.jpg",
             "ok": true
           },
           {
@@ -1418,25 +1391,24 @@
             "ok": true
           },
           {
-            "title": "On video: Mohamed Salah corrects his \"naive\" mistake in 6 minutes against Hearts",
-            "url": "https://www.goal.com/en/news/on-video-mohamed-salah-corrects-his-naive-mistake-in-six-minutes-against-hearts/blted471800cbc64a51",
-            "source": "Goal.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTuXXTZzC0SEibhPWX318GJvOi5xIpCBbZOTZpWMtO5KzItfpk9C6vatMN_SK4",
-            "og_title": "On video: Mohamed Salah corrects his \"naive\" mistake within 6 minutes against Hearts | Goal.com",
-            "og_desc": "From the accused to the hero in a matter of minutes: this was the story of Mohamed Salah against Scotland's Hearts, after he caused a naive error that denied his team a penalty kick, before returning himself to put things right and put Trabzonspor in front.",
-            "og_image": "https://assets.goal.com/images/v3/getty-2301042709/crop/MM5DIMJSHA5DEMZSGI5G433XMU5DAORRGIZQ====/GettyImages-2301042709.jpg",
+            "title": "Christian Borchgrevink injury details as Hearts discuss the 2-0 loss at Trabzonspor",
+            "url": "https://www.edinburghnews.scotsman.com/sport/football/hearts/christian-borchgrevink-injury-details-as-hearts-discuss-the-2-0-loss-at-trabzonspor-9305091",
+            "source": "Edinburgh News",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTF9_R-MltYtlP0t4wEiyPWd05hm4NJlInkZji48wHdkid8oZzQzbolH1dNyeo",
+            "og_title": "Christian Borchgrevink injury details as Hearts discuss the 2-0 loss at Trabzonspor",
+            "og_desc": "Injury problems continue for Wouter Vrancken, but he expressed pride in Turkiye",
+            "og_image": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/10/22/19/52/21533187.jpeg?width=1200&auto=webp&quality=75&trim=0,149,0,149&crop=",
             "ok": true
           },
           {
-            "title": "Salah yine imzasını attı! Trabzonspor'dan Avrupa'da güç gösterisi",
-            "url": "https://m.haber7.com/trabzonspor/haber/3670530-salah-yine-imzasini-atti-trabzonspordan-avrupada-guc-gosterisi?mobile-news-next",
-            "source": "Haber 7",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8eT5YYGbrP8UNbQtGQHr8LXaat8Z1Q-YOxmwD6P6TuZvsq8pq7lA2CbyFgoQ",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
+            "title": "Bouchouari: 'Hepimiz çok mutluyuz'",
+            "url": "https://www.sporx.com/bouchouari-hepimiz-cok-mutluyuz-SXHBQ1180260SXQ",
+            "source": "Sporx.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTTN4S4VxJJeoif8qF4CmLuqeMUmAwde8toWSq_oNCOW9h11oYAm4dWN9rYY2I",
+            "og_title": "Bouchouari: 'Hepimiz çok mutluyuz'",
+            "og_desc": "Trabzonspor'un futbolcusu Benjamin Bouchouari, Hearts galibiyetinin ardından açıklamalarda bulundu. İkinci maçlarını da kazandıkları için mutlu olduğunu belirten Bouchouari, sahalara dönmenin sevincini yaşadığını söyledi.",
+            "og_image": "https://cdn.sporx.com/img/59/2026/aa-20261022-42836891-42836889-trabzonspor-hearts.jpg",
+            "ok": true
           },
           {
             "title": "Samet Akaydin: Böyle devam ederse daha güzel günlerin bizi beklediğini düşünüyorum",
@@ -1449,13 +1421,13 @@
             "ok": true
           },
           {
-            "title": "Thomas Reis: 'Hak ettiğimiz bir galibiyet oldu'",
-            "url": "http://mobil.hurriyet.com.tr/sporarena/thomas-reis-hak-ettigimiz-bir-galibiyet-oldu-43351613",
-            "source": "Hürriyet",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTD5FP5EexVOF0QeDecOwcjxrLt_Mi34ctFn-yKdcuZqNl1-7WZ9Ln2e6qTeOk",
-            "og_title": "Thomas Reis: 'Hak ettiğimiz bir galibiyet oldu'",
-            "og_desc": "Trabzonspor Teknik Direktörü Thomas Reis, Hearts'ı 2-0 mağlup ettikleri maçın ardından konuştu.",
-            "og_image": "https://image.hurimg.com/i/hurriyet/90/0x0/6ada60be646226c0cc174c53.jpg",
+            "title": "Trabzonspor'da Ozan Tufan'dan takım arkadaşlarına teşekkür! 'Güzel yolda ilerliyoruz'",
+            "url": "https://www.milliyet.com.tr/skorer/trabzonsporda-ozan-tufandan-takim-arkadaslarina-tesekkur-guzel-yolda-ilerliyoruz-7685641",
+            "source": "Milliyet",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXawAarLSB94fpavf7VKmhGHxSlSL-E1viCOX67Y-u0CgRdFU2TXbM_EPEXEk",
+            "og_title": "Trabzonspor'da Ozan Tufan'dan takım arkadaşlarına teşekkür! 'Güzel yolda ilerliyoruz'",
+            "og_desc": "Trabzonspor'un UEFA Konferans Ligi'nde Hearts'ı 2-0 mağlup ettiği karşılaşmanın ardından konuşan Ozan Tufan, takım arkadaşlarına teşekkür etti.",
+            "og_image": "https://image.milimaj.com/i/milliyet/75/0x0/6ada6353f52f8447c91e9707.jpg",
             "ok": true
           }
         ],
@@ -1465,37 +1437,33 @@
         "reason": "العنوان يطابق: vs",
         "publishable": true,
         "article": {
-          "headline": "طرابزون سبور يخطف فوزًا ثمينًا من هارتس بثنائية في دوري المؤتمر",
-          "summary": "حقق فريق طرابزون سبور فوزًا على ضيفه هارتس الإسكتلندي بنتيجة 2-0 في إطار الجولة الثانية من دوري المؤتمر الأوروبي لموسم 2026-2027.",
-          "body": "حسم فريق طرابزون سبور التركي مواجهته أمام نظيره هارتس الإسكتلندي لصالحه بهدفين دون رد، في مباراة اتسمت بالندية ضمن منافسات دوري المؤتمر الأوروبي. وتأتي هذه النتيجة لتعزز من مسيرة الفريق التركي في البطولة القارية، حيث يسعى طرابزون لمواصلة سلسلة نتائجه الإيجابية محليًا وقاريًا، مستندًا إلى خبرات لاعبيه وقدرتهم على حسم الفرص أمام المرمى. ويعد هذا الفوز خطوة مهمة للفريق ضمن دور المجموعات، خاصة في ظل المنافسة القوية التي تشهدها البطولة هذا الموسم.\n\nتأتي أهمية هذا الانتصار في توقيت حيوي للفريق الذي يطمح للمنافسة على أكثر من جبهة هذا الموسم. بالنسبة للجماهير والمتابعين، يمثل هذا الفوز مؤشرًا على استقرار أداء طرابزون وتطوره، خاصة مع الاعتماد على تشكيلة تضم أسماء بارزة ومؤثرة في الخطوط الهجومية والدفاعية، مما يعزز حظوظ الفريق في التأهل للأدوار التالية من البطولة الأوروبية.\n\nووفقًا للمصادر، شارك النجم المصري محمد صلاح مع الفريق في هذه الفترة، حيث يعول عليه المدرب توماس ريس لقيادة الهجوم بعد تألقه اللافت في الدوري التركي وتسجيله 8 أهداف حتى الآن، بجانب مساهمته في الفوز الأخير ضد بشكتاش. وشهدت تشكيلة الفريق الأساسية وجود عناصر دفاعية قوية مثل ستيفان سافيتش وسيدني لويز كابرال، إلى جانب الثلاثي أوزان توفان وفابينيو وبنيامين بوشواري في وسط الميدان. وبحسب تقارير بي بي سي، فقد جاء أحد أهداف اللقاء بلمسة فنية مميزة بعد اختراق ذكي لمنطقة الجزاء، وهو ما يعكس الأسلوب الهجومي الذي ينتهجه الفريق تحت قيادة الجهاز الفني.\n\nوينتظر أن يستمر طرابزون سبور في تحضيراته للمباريات القادمة ضمن جدول مزدحم بالالتزامات، حيث يتطلع الفريق للحفاظ على هذا الزخم الإيجابي والتقدم أكثر في جدول ترتيب المجموعة خلال الجولات المقبلة من دوري المؤتمر الأوروبي لموسم 2026-2027.",
+          "headline": "طرابزون سبور يخطف الفوز بثنائية نظيفة أمام هارتس في دوري المؤتمر",
+          "summary": "حقق فريق طرابزون سبور التركي فوزًا ثمينًا على ضيفه هارتس الاسكتلندي بهدفين دون رد في الجولة الثانية من دوري المؤتمر الأوروبي لموسم 2026-2027.",
+          "body": "تمكن طرابزون سبور من حسم المواجهة التي جمعته بنظيره هارتس الاسكتلندي، حيث انتهت المباراة بفوز الفريق التركي بهدفين نظيفين. جاء هذا الانتصار في إطار الجولة الثانية من دوري المؤتمر الأوروبي لموسم 2026-2027، ليعزز الفريق التركي مسيرته في البطولة القارية بعد مشاركات متميزة لنجمه المصري محمد صلاح في الدوري المحلي. وتأتي هذه النتيجة كتأكيد على قوة التشكيلة التي يعتمد عليها المدرب توماس ريس، الذي أشاد في وقت سابق بأهمية العناصر ذات الخبرة في فريقه، وعلى رأسهم صلاح الذي سجل بالفعل 8 أهداف في المسابقة المحلية.\n\nمن جانبه، أقر مدرب هارتس، ووتر فرانكن، بصعوبة المهمة أمام فريق يضم لاعبين بجودة فردية عالية مثل طرابزون سبور، مشيرًا إلى المبالغ الكبيرة التي استثمرها الفريق التركي في ضم لاعبين جدد، بمن فيهم محمد صلاح الذي انضم في صفقة انتقال حر. وأوضح فرانكن أن فريقه حاول التصدي لهذه الجودة الفردية باللعب الجماعي المنظم، رغم الظروف الصعبة التي واجهت الفريق الأسكتلندي بإصابة ستة من لاعبيه، مما اضطره للاستعانة ببعض اللاعبين في مراكز غير معتادة.\n\nتعد هذه المباراة محطة هامة في مشوار الفريقين بالبطولة القارية لهذا الموسم. وقد أشار فرانكن إلى اضطراره للاعتماد على روجرز ماتو في مركز الظهير خصيصًا لمراقبة محمد صلاح، مؤكدًا أنه كان يثق في قدرة لاعبه على مجاراة سرعات النجم المصري في المواجهات الفردية، وهو الرهان الذي أثبت نجاحه من وجهة نظر المدرب في تلك المباراة.\n\nيستعد طرابزون سبور الآن لاستكمال بقية مباريات مرحلة الدوري في المسابقة الأوروبية، باحثًا عن الاستمرار في تحقيق النتائج الإيجابية بعدما قدم أداءً لافتًا في الفترة الماضية، سواء على المستوى المحلي أو القاري.",
           "facts": [
             {
-              "label": "نتيجة المباراة",
-              "value": "2-0 لصالح طرابزون سبور"
+              "label": "النتيجة",
+              "value": "طرابزون سبور 2-0 هارتس"
             },
             {
-              "label": "البطولة",
-              "value": "دوري المؤتمر الأوروبي"
-            },
-            {
-              "label": "الموسم",
-              "value": "2026-2027"
+              "label": "المنافسة",
+              "value": "دوري المؤتمر الأوروبي 2026-2027"
             },
             {
               "label": "المرحلة",
-              "value": "الجولة الثانية"
+              "value": "الجولة الثانية من دوري المجموعات"
             }
           ],
           "tags": [
             "طرابزون سبور",
+            "محمد صلاح",
             "هارتس",
             "دوري المؤتمر الأوروبي",
-            "محمد صلاح",
             "كرة القدم"
           ],
           "_v": 4,
           "_by": "gemini",
-          "written_at": "2026-10-22T20:32:03.256082+00:00",
+          "written_at": "2026-10-22T21:02:05.780415+00:00",
           "photo": {
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/H_avni_aker_stadyum_-_panoramio.jpg/1280px-H_avni_aker_stadyum_-_panoramio.jpg",
             "width": 1280,
@@ -1511,41 +1479,41 @@
           "_had_data": false,
           "_localized": false
         },
-        "card": "cards/sa-2026-10-22-trabzonspor-vs-heart-of-midlothian-fc-standings.png"
+        "card": "cards/sa-2026-10-23-trabzonspor-vs-heart-of-midlothian-fc-standings.png"
       },
       {
-        "title": "fk jablonec vs brighton & hove albion f.c. standings",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "published": "Thu, 22 Oct 2026 13:00:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRt7ZBsBeLC3mdlHJWlC8UycJUd6cw64JetoTWO9HOZ0oJ1CPwW9KAlmRC2Jn0",
-        "image_source": "The Argus",
+        "title": "lillestrøm vs real sociedad",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "published": "Thu, 22 Oct 2026 12:30:00 -0700",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuspkAWhssZI_pquGI8EphR5C0q6l5JVofX2IwmHLg8HYIvIOb3wdMIhMZ-y8",
+        "image_source": "ESPN",
         "news": [
           {
-            "title": "Promise David nearing Brighton chance as Hurzeler praises his progress",
-            "url": "https://www.theargus.co.uk/sport/26659114.promise-david-set-chance-impress-jablonec/",
-            "source": "The Argus",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRt7ZBsBeLC3mdlHJWlC8UycJUd6cw64JetoTWO9HOZ0oJ1CPwW9KAlmRC2Jn0",
-            "og_title": "Promise David nearing Brighton chance as Hurzeler praises his progress",
-            "og_desc": "Promise David looks set to get a chance to impress in the Czech Republic.",
-            "og_image": "https://www.theargus.co.uk/resources/images/21615235.jpg?type=og-image&xType=0&yType=0",
-            "ok": true
+            "title": "Jablonec 0-0 Brighton (Oct 22, 2026) Team Stats",
+            "url": "https://www.espn.com/soccer/team-stats/_/gameId/401915842",
+            "source": "ESPN",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuspkAWhssZI_pquGI8EphR5C0q6l5JVofX2IwmHLg8HYIvIOb3wdMIhMZ-y8",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
           },
           {
-            "title": "How to watch Brighton in action at Jalbonek - TV channel, stream, prediction",
-            "url": "https://www.sussexexpress.co.uk/sport/football/brighton-and-hove-albion/uefa-conference-league-how-to-watch-brighton-at-jalbonek-tv-channel-stream-kick-off-time-9303567",
-            "source": "SussexWorld",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCjz9Q2oXnbU9Bu2OsQQxk74x9d9Exkp82ydANNVhS7129eW5cSZWGxlcM9cU",
-            "og_title": "How to watch Brighton in action at Jalbonek - TV channel, stream, prediction",
-            "og_desc": "Uefa Conference League: Jablonec vs Brighton and Hove Albion from the Stadion Střelnice - Thursday, 5.45pm",
-            "og_image": "https://www.sussexexpress.co.uk/jpim-static/image/2026/10/22/10/53/GettyImages-2300400756.jpeg?width=1200&auto=webp&quality=75&trim=29,0,29,0&crop=",
-            "ok": true
+            "title": "Jablonec 0-0 Brighton (Oct 22, 2026) Player Stats",
+            "url": "https://www.espn.com/soccer/player-stats/_/gameId/401915842",
+            "source": "ESPN",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQuj4UrTZv4YlWFWQRmi2bG1R4m90_EKhTrU9XuWhBzEoFbKILg66YtVmC2ogA",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
           },
           {
-            "title": "Thursday best bets: Europa League and Conference League tips for October 22 2026",
-            "url": "https://www.sportinglife.com/football/news/thursday-best-bets-europa-league-and-conference-league-tips-for-october-22-2026/234943",
-            "source": "Sporting Life",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSJOkuTA4WdjZ7UdqFdxgwk_cCnjqALuWj1F844zm6P9WgifDdZnIyc5FPMFY0",
+            "title": "OFI Crete 0-2 Leverkusen (Oct 22, 2026) Team Stats",
+            "url": "https://www.espn.com/soccer/team-stats/_/gameId/401915559",
+            "source": "ESPN",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHJZseI8FOpFEOzOpftdpiezPn9gnjfJ6E_VgiFnbUFWRracbkAYpbD3SrjN0",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -1555,9 +1523,9 @@
         "category": "رياضة",
         "icon": "⚽",
         "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 2000",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
         "publishable": false,
-        "card": "cards/sa-2026-10-22-fk-jablonec-vs-brighton-hove-albion-fc-standings.png"
+        "card": "cards/sa-2026-10-23-lillestrøm-vs-real-sociedad.png"
       },
       {
         "title": "ليلستروم ضد ريال سوسيداد",
@@ -1603,99 +1571,54 @@
         "color": "#f5c542",
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "card": "cards/sa-2026-10-22-ليلستروم-ضد-ريال-سوسيداد.png"
+        "card": "cards/sa-2026-10-23-ليلستروم-ضد-ريال-سوسيداد.png"
       },
       {
-        "title": "beşiktaş vs palace",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Thu, 22 Oct 2026 11:50:00 -0700",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcREMk-c7P7BUKPicH25gEIpuNEXcj89eJE2FPZ5Nu9zRwFI2Zh1ZoDtFQHHOOY",
-        "image_source": "Ajansspor",
+        "title": "اسعار الذهب",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Thu, 22 Oct 2026 13:50:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSNQFPib5Qb69AXqFNsq1WPGhhpUboj1LQ8Cmw3MAhqrfSoBBVakI0f2a6Zguw",
+        "image_source": "صحيفة سبق الإلكترونية",
         "news": [
           {
-            "title": "Wilfred Ndidi, bu sezon ilk golünü Crystal Palace’a attı",
-            "url": "https://ajansspor.com/haber/wilfred-ndidi-bu-sezon-ilk-golunu-crystal-palacea-atti-737139",
-            "source": "Ajansspor",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcREMk-c7P7BUKPicH25gEIpuNEXcj89eJE2FPZ5Nu9zRwFI2Zh1ZoDtFQHHOOY",
-            "og_title": "Wilfred Ndidi, bu sezon ilk golünü Crystal Palace’a attı",
-            "og_desc": "Beşiktaş, UEFA Avrupa Ligi’nde Crystal Palace’ı konuk etti. Maça ilk 11 başlayan Wilfred Ndidi, bu sezon ilk golünü attı.",
-            "og_image": "https://cdn.ajansspor.com/ajansspor/photo/2026/10/e9aa80af-6392-432a-8c53-d3000f0cf13f.jpg",
+            "title": "الذهب يهبط لأدنى مستوى في أسبوعين مع تصاعد مخاوف التضخم",
+            "url": "https://sabq.org/article/wunv8j3",
+            "source": "صحيفة سبق الإلكترونية",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSNQFPib5Qb69AXqFNsq1WPGhhpUboj1LQ8Cmw3MAhqrfSoBBVakI0f2a6Zguw",
+            "og_title": "الذهب يهبط لأدنى مستوى في أسبوعين مع تصاعد مخاوف التضخم | سبق",
+            "og_desc": "تراجعت أسعار الذهب بنسبة 1.4% إلى 4081.89 دولارًا للأوقية، مسجلة أدنى مستوى في أسبوعين، مع تصاعد مخاوف التضخم جراء ارتفاع أسعار النفط وترقب اجتماع مجلس الاحتياط",
+            "og_image": "https://imagedelivery.net/nU9Yamkp250UHNYBIVAE6w/f6fb0e9a-1572-44db-c2be-20069701b800/public",
             "ok": true
           },
           {
-            "title": "﻿Vincenzo Italiano'dan ilk 11'de 8 değişiklik!",
-            "url": "https://www.star.com.tr/spor/vincenzo-italianodan-ilk-11de-8-degisiklik-haber-2048456/",
-            "source": "STAR - Haberler",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQgzyKi7xfQSLRrVwYD1hzOrdCG-XopM6eoKG77ZMJvatQ8ZBrJZbZoVPc0cs",
-            "og_title": "Vincenzo Italiano'dan ilk 11'de 8 değişiklik! | STAR",
-            "og_desc": "Haberin detayları için tıklayınız",
-            "og_image": "https://imgs.stargazete.com/imgsdisk/2026/10/22/vincenzo-italianodan-ilk--669_2-41.jpg",
-            "ok": true
+            "title": "الذهب يتراجع مع ترقب المستثمرين إشارات من المركزي الأمريكي بشأن الفائدة",
+            "url": "https://www.al-madina.com/article/1010283",
+            "source": "جريدة المدينة - صحيفة المدينة",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwIcafZ6oUd6lEvMRPrSMuV_RZzxZyMm2ux7SgSlwKH6slr3fnVy-z6kztimw",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
           },
           {
-            "title": "Avrupa Ligi’nde bu hafta kimin maçı var? Avrupa Ligi 3. hafta maçları ne zaman, saat kaçta oynanacak? İşte haftanın fikstürü...",
-            "url": "https://www.hurriyet.com.tr/sporarena/galeri-avrupa-liginde-bu-hafta-kimin-maci-var-avrupa-ligi-3-hafta-maclari-ne-zaman-saat-kacta-oynanacak-43351326",
-            "source": "Hürriyet",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkui2qGHqU4J4sRXhruj5iusfCqmvC_BFyxHuo8ap4Wa-mUO8VeX14_vF2ePs",
-            "og_title": "Avrupa Ligi’nde bu hafta kimin maçı var? Avrupa Ligi 3. hafta maçları ne zaman, saat kaçta oynanacak? İşte haftanın fikstürü...",
-            "og_desc": "UEFA Avrupa Ligi’nde heyecan tüm hızıyla devam ediyor. Futbolseverler, günün maç programını, karşılaşmaların başlama saatlerini ve canlı yayın bilgilerini...",
-            "og_image": "https://image.hurimg.com/i/hurriyet/90/0x0/6ada148e4735ad389d6041ff.jpg",
-            "ok": true
+            "title": "الذهب يواصل خسائره مع صعود النفط.. والأسهم تنخفض",
+            "url": "https://www.alriyadh.com/2211924",
+            "source": "جريدة الرياض",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-qA2Rk3lzjN8fF8HfXtf3iKvhEB2zkwMNjWOX6d8U9F2WXinF3ZO4OGENFvI",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "URLError"
           }
         ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 2000",
+        "category": "اقتصاد",
+        "icon": "💰",
+        "color": "#f5c542",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
         "publishable": false,
-        "card": "cards/sa-2026-10-22-beşiktaş-vs-palace.png"
-      },
-      {
-        "title": "بشكتاش ضد كريستال بالاس",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Thu, 22 Oct 2026 11:40:00 -0700",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQDQ4DPw2z2vwyTPsLotvKlfiBtuBYQn5pHqO7wKcYc_fuHGPzaAx47q5uShJM",
-        "image_source": "تركيا عاجل",
-        "news": [
-          {
-            "title": "بشكتاش يواجه كريستال بالاس في الدوري الأوروبي بسجل مثالي على أرضه.. وقائده يغيب للإصابة",
-            "url": "https://turkey-breaking.com/News/2026/10/22/%D8%A8%D8%B4%D9%83%D8%AA%D8%A7%D8%B4-%D9%8A%D9%88%D8%A7%D8%AC%D9%87-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D8%A7%D9%84-%D8%A8%D8%A7%D9%84%D8%A7%D8%B3-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7-2/",
-            "source": "تركيا عاجل",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQDQ4DPw2z2vwyTPsLotvKlfiBtuBYQn5pHqO7wKcYc_fuHGPzaAx47q5uShJM",
-            "og_title": "بشكتاش يواجه كريستال بالاس في الدوري الأوروبي بسجل مثالي على أرضه.. وقائده يغيب للإصابة",
-            "og_desc": "بشكتاش يواجه كريستال بالاس في الجولة الثالثة من الدوري الأوروبي، مع غياب قائده Orkun Kökçü وسعيه لتحقيق فوزه الأوروبي الثامن.",
-            "og_image": "https://turkey-breaking.com/wp-content/uploads/2026/10/rssnews-20261022-191617-7df552.jpg",
-            "ok": true
-          },
-          {
-            "title": "ماكيلي يدير مواجهة بشكتاش وكريستال بالاس",
-            "url": "https://newturkpost.com/news/129671-%D9%87%D9%88%D9%84%D9%86%D8%AF%D9%8A-%D9%8A%D8%AF%D9%8A%D8%B1-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A8%D8%B4%D9%83%D8%AA%D8%A7%D8%B4-%D9%88%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D8%A7%D9%84-%D8%A8%D8%A7%D9%84%D8%A7%D8%B3-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A",
-            "source": "نيو ترك بوست",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSR8BUxsBWZsoSXMlynigGYFdcag1b5M_F_A8OhAx_zvqkp9JpsRlcoaRx2QLA",
-            "og_title": "ماكيلي يدير مواجهة بشكتاش وكريستال بالاس",
-            "og_desc": "أعلن الاتحاد الهولندي لكرة القدم تعيين الحكم داني ماكيلي لإدارة مباراة بشكتاش وكريستال بالاس ضمن الجولة الثالثة من الدوري الأوروبي، يوم الخميس 22 أكتوبر على ملعب توبراش في إسطنبول.",
-            "og_image": "https://newturkpost.com/image/24e0bbf7-05ba-47ee-ac23-c242f50954cc--AES7Z.jpg",
-            "ok": true
-          },
-          {
-            "title": "مباراة بشكتاش وكريستال بالاس: نقطة ساخنة في سباق الصدارة",
-            "url": "https://www.vietnam.vn/ar/nhan-dinh-besiktas-vs-crystal-palace-diem-nong-cuoc-dua-top-dau",
-            "source": "Vietnam.vn",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQhtpOAO-IMjmOczhDwGWgGIP4rclp3ZDFQiqYrPRcZCYhIbHdIFPkrPdYXxUQ",
-            "og_title": "مباراة بشكتاش وكريستال بالاس: نقطة ساخنة في سباق الصدارة",
-            "og_desc": "يسعى كريستال بالاس للحاق بفرق الصدارة، متأخراً عن بشكتاش صاحب المركز الرابع بثلاث نقاط فقط. وسيلتقي الفريقان في تمام الساعة الثانية صباحاً يوم 23 أكتوبر 2026 على ملعب توبراش.",
-            "og_image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/10/22/1792681542196_match_thumb_1636234_d77910f4.jpeg",
-            "ok": true
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/sa-2026-10-22-بشكتاش-ضد-كريستال-بالاس.png"
+        "card": "cards/sa-2026-10-23-اسعار-الذهب.png"
       },
       {
         "title": "juventus vs stade rennais f.c. standings",
@@ -1716,16 +1639,6 @@
             "ok": true
           },
           {
-            "title": "Press Room | Comments after Juventus-Stade Rennais",
-            "url": "https://www.juventus.com/en/news/articles/press-room-comments-after-juventus-stade-rennais-22-10-26",
-            "source": "Juventus.com",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXu1WJLuZzXutHUif7MZzYu5LfXN8fOuuaj8fPxCbTJmk9-ESWQF7DtcfI3nw",
-            "og_title": "Press Room | Comments after Juventus-Stade Rennais - Juventus",
-            "og_desc": "The Men’s First Team picked up a point at home to Stade Rennais in the League Phase of the UEFA Europa League.\nThe match at the Allianz Stadium...",
-            "og_image": "https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/v1792696405/dev/s8hzqggil8s6ynwwb03l.jpg",
-            "ok": true
-          },
-          {
             "title": "Licensable picture: UEFA Europa League - Juventus v Stade Rennes",
             "url": "https://www.reutersconnect.com/item/uefa-europa-league-juventus-v-stade-rennes/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQU0xR0JUV00",
             "source": "Reuters Connect",
@@ -1735,52 +1648,15 @@
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/sa-2026-10-22-juventus-vs-stade-rennais-fc-standings.png"
-      },
-      {
-        "title": "lillestrøm vs real sociedad",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Thu, 22 Oct 2026 12:30:00 -0700",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGyGBOJk0RTqTIZGytvu1wfrSbJYe3YPLQS1JIITd-1Be9ngysUEgyFIEiq4Q",
-        "image_source": "WhoScored.com",
-        "news": [
-          {
-            "title": "Lillestroem vs Real Sociedad Confirmed Lineups",
-            "url": "https://www.whoscored.com/news/yLmJAYtXJkysjHLkEffYXA/show/cng112-20261022-lillestroem-vs-real-sociedad-confirmed-lineup-1792691782",
-            "source": "WhoScored.com",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGyGBOJk0RTqTIZGytvu1wfrSbJYe3YPLQS1JIITd-1Be9ngysUEgyFIEiq4Q",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
           },
           {
-            "title": "Real Sociedad fans brave Oslo deluge as 430 head for Lillestrom",
-            "url": "https://onefootball.com/en/news/real-sociedad-fans-brave-oslo-deluge-as-430-head-for-lillestrom-43654591",
-            "source": "OneFootball",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQq7plpqTlesvWhISIv1gF3M5S3nR8ctRDZqPO1vf7MEd3fiPu3JMT0fQI71DA",
-            "og_title": "Real Sociedad fans brave Oslo deluge as 430 head for Lillestrom",
-            "og_desc": "Real Sociedad supporters are enduring a sodden build-up in Oslo and Lillestrom, with a steady downpour greeting their arrival ahead of the Europa League…",
-            "og_image": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fen%2F43654591%3Fdate=2026-10-22",
-            "ok": true
-          },
-          {
-            "title": "Lillestrøm - Real Sociedad LIVE. UEFA Europa League latest updates",
-            "url": "https://www.marca.com/en/soccer/uefa-europa-league/lillestrm-real-sociedad/2026/10/22/01_0104_20261022_305_188-live.html",
-            "source": "MARCA",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-7e4ONuwuLeScbPSkzdc-iXh8UQJKEuJxMQaEX3FlNpisH2eg77JE0_rrQBI",
-            "og_title": "Lillestrøm - Real Sociedad LIVE. UEFA Europa League latest updates | Marca",
-            "og_desc": "Attempt saved. Gustav Nyheim (Lillestrøm) right footed shot from outside the box is saved in the centre of the goal by Unai Marrero (Real Sociedad). A",
-            "og_image": "https://objetos.estaticos-marca.com/assets/amp/AMP-DIRECTO-futbol-en.png",
+            "title": "Press Room | Comments after Juventus-Stade Rennais",
+            "url": "https://www.juventus.com/en/news/articles/press-room-comments-after-juventus-stade-rennais-22-10-26",
+            "source": "Juventus.com",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXu1WJLuZzXutHUif7MZzYu5LfXN8fOuuaj8fPxCbTJmk9-ESWQF7DtcfI3nw",
+            "og_title": "Press Room | Comments after Juventus-Stade Rennais - Juventus",
+            "og_desc": "The Men’s First Team picked up a point at home to Stade Rennais in the League Phase of the UEFA Europa League.\nThe match at the Allianz Stadium...",
+            "og_image": "https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/v1792696405/dev/s8hzqggil8s6ynwwb03l.jpg",
             "ok": true
           }
         ],
@@ -1789,21 +1665,21 @@
         "color": "#3ddc97",
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "card": "cards/sa-2026-10-22-lillestrøm-vs-real-sociedad.png"
+        "card": "cards/sa-2026-10-23-juventus-vs-stade-rennais-fc-standings.png"
       },
       {
         "title": "monaco vs freiburg",
         "traffic": "100+",
         "traffic_num": 100,
         "published": "Thu, 22 Oct 2026 13:20:00 -0700",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQcj1JKJ9M5yGkzZVqHzSBLDcIbqZFsF9idCe6IMli4SfeDQrkY_dJyrWajFQo",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFXvYi8p1BV_IW9ZAASV3W5I_1ernc5fMsOc9NzShg_UbhTjtO0M46brH-IV0",
         "image_source": "Reuters Connect",
         "news": [
           {
             "title": "Licensable picture: UEFA Conference League - AS Monaco v SC Freiburg",
-            "url": "https://www.reutersconnect.com/item/uefa-conference-league-as-monaco-v-sc-freiburg/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQU0xRjNNVEI",
+            "url": "https://www.reutersconnect.com/item/uefa-conference-league-as-monaco-v-sc-freiburg/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQU0xSjhUNk4",
             "source": "Reuters Connect",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQcj1JKJ9M5yGkzZVqHzSBLDcIbqZFsF9idCe6IMli4SfeDQrkY_dJyrWajFQo",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFXvYi8p1BV_IW9ZAASV3W5I_1ernc5fMsOc9NzShg_UbhTjtO0M46brH-IV0",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -1836,7 +1712,101 @@
         "color": "#3ddc97",
         "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
         "publishable": false,
-        "card": "cards/sa-2026-10-22-monaco-vs-freiburg.png"
+        "card": "cards/sa-2026-10-23-monaco-vs-freiburg.png"
+      },
+      {
+        "title": "fk jablonec vs brighton & hove albion f.c. standings",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Thu, 22 Oct 2026 13:00:00 -0700",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSNFwpKZQk9f2lflpEgPa8Ro27OUdzfvno2SNRoSSvbFFR_lhMOyJXKIj0hm9I",
+        "image_source": "The Argus",
+        "news": [
+          {
+            "title": "Promise David nearing Brighton chance as Hurzeler praises his progress",
+            "url": "https://www.theargus.co.uk/sport/26659114.promise-david-set-chance-impress-jablonec/",
+            "source": "The Argus",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSNFwpKZQk9f2lflpEgPa8Ro27OUdzfvno2SNRoSSvbFFR_lhMOyJXKIj0hm9I",
+            "og_title": "Promise David nearing Brighton chance as Hurzeler praises his progress",
+            "og_desc": "Promise David looks set to get a chance to impress in the Czech Republic.",
+            "og_image": "https://www.theargus.co.uk/resources/images/21615235.jpg?type=og-image&xType=0&yType=0",
+            "ok": true
+          },
+          {
+            "title": "How to watch Brighton in action at Jalbonek - TV channel, stream, prediction",
+            "url": "https://www.sussexexpress.co.uk/sport/football/brighton-and-hove-albion/uefa-conference-league-how-to-watch-brighton-at-jalbonek-tv-channel-stream-kick-off-time-9303567",
+            "source": "SussexWorld",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCjz9Q2oXnbU9Bu2OsQQxk74x9d9Exkp82ydANNVhS7129eW5cSZWGxlcM9cU",
+            "og_title": "How to watch Brighton in action at Jalbonek - TV channel, stream, prediction",
+            "og_desc": "Uefa Conference League: Jablonec vs Brighton and Hove Albion from the Stadion Střelnice - Thursday, 5.45pm",
+            "og_image": "https://www.sussexexpress.co.uk/jpim-static/image/2026/10/22/10/53/GettyImages-2300400756.jpeg?width=1200&auto=webp&quality=75&trim=29,0,29,0&crop=",
+            "ok": true
+          },
+          {
+            "title": "Licensable picture: UEFA Conference League - Jablonec v Brighton & Hove Albion",
+            "url": "https://www.reutersconnect.com/item/uefa-conference-league-jablonec-v-brighton-hove-albion/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQU0xOVJOS0Y",
+            "source": "Reuters Connect",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJIHsIMXhxzlDtFFUwKYJwhSp9Ed1B2hbVdaAhkGHG5liClw4yn4X65GLxUaI",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/sa-2026-10-23-fk-jablonec-vs-brighton-hove-albion-fc-standings.png"
+      },
+      {
+        "title": "الجزائر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Thu, 22 Oct 2026 12:40:00 -0700",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJAr3KY3Q3I4ql2vbMlKw_wgELL80CIehqH7szTWVaShEJ9oM41aYVxpbfUEw",
+        "image_source": "اخبارك نت",
+        "news": [
+          {
+            "title": "موهبتان من ذهب بمنتخب الجزائر.. 5 أرقام تكشف الأفضل بين بلومي ومازا",
+            "url": "https://www.akhbarak.net/news/details/49492819/3/%D9%85%D9%88%D9%87%D8%A8%D8%AA%D8%A7%D9%86-%D9%85%D9%86-%D8%B0%D9%87%D8%A8-%D8%A8%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-5-%D8%A3%D8%B1%D9%82%D8%A7%D9%85-%D8%AA%D9%83%D8%B4%D9%81-%D8%A7%D9%84%D8%A3%D9%81%D8%B6%D9%84-%D8%A8%D9%8A%D9%86-%D8%A8%D9%84%D9%88%D9%85%D9%8A-%D9%88%D9%85%D8%A7%D8%B2%D8%A7",
+            "source": "اخبارك نت",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJAr3KY3Q3I4ql2vbMlKw_wgELL80CIehqH7szTWVaShEJ9oM41aYVxpbfUEw",
+            "og_title": "اخبارك نت | موهبتان من ذهب بمنتخب الجزائر.. 5 أرقام تكشف الأفضل بين بلومي ومازا",
+            "og_desc": "يعول منتخب الجزائر على جيل جديد من المواهب على أمل تجديد العهد مع لقب كأس أمم أفريقيا. ويتصدر «محاربو الصحراء» مجموعتهم في تصفيات النسخة المقبلة من «الكان» ب...",
+            "og_image": "https://aws-web-images.akhbarak.net/2026/10/22/49492819/49492819-original.jpg",
+            "ok": true
+          },
+          {
+            "title": "منصب الجناح الأيمن مزدحم بلاعبين من الطراز الرفيع – الشروق أونلاين",
+            "url": "https://www.echoroukonline.com/%D9%85%D9%86%D8%B5%D8%A8-%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%AD-%D8%A7%D9%84%D8%A3%D9%8A%D9%85%D9%86-%D9%85%D8%B2%D8%AF%D8%AD%D9%85-%D8%A8%D9%84%D8%A7%D8%B9%D8%A8%D9%8A%D9%86-%D9%85%D9%86-%D8%A7%D9%84",
+            "source": "الشروق أونلاين",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSZmxVnOSD_uQRrUwxlvjDyMlSzJ-ZdLBu8KxRqX0tfEE6nyIvYssrk3YaKRq8",
+            "og_title": "منصب الجناح الأيمن مزدحم بلاعبين من الطراز الرفيع – الشروق أونلاين",
+            "og_desc": "لم يحدث أن عرف منصب، في تشكيلة المنتخب الجزائري، زحمة من اللاعبين الجيدين، وحتى العالميين الذين تتحدث عنهم .",
+            "og_image": "https://www.echoroukonline.com/wp-content/uploads/2026/09/enn.jpg",
+            "ok": true
+          },
+          {
+            "title": "خاص.. خطة ذكية من حمداني لحل التنافس بين بلومي وحاج موسى",
+            "url": "https://twaslnews1.twaslnews.com/6421417/",
+            "source": "شبكة تواصل الإخبارية",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRIteksEYGonJz0zXLntO7XB4Pl3XvTcfabLFcnGZfsggzMbQjdI5fQAEal6ag",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "category": "دول وأماكن",
+        "icon": "🗺️",
+        "color": "#79c0ff",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/sa-2026-10-23-الجزائر.png"
       }
     ]
   }

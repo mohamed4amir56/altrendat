@@ -2551,11 +2551,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "شخصية",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "التوقيت الصيفى والشتوى 2026.. كيف تتغير الساعة وما الهدف؟",
           "الجمعة منتصف الليل.. تطبيق التوقيت الشتوي 2026 في مصر",
-          "خلال أيام.. انتهاء التوقيت الصيفي وتأخير الساعة 60 دقيقة في مصر"
+          "خلال أيام.. انتهاء التوقيت الصيفي وتأخير الساعة 60 دقيقة في مصر",
+          "الرسمية والاستثناءات.. مواعيد غلق المحلات والمولات التجارية في الشتاء"
         ]
       }
     ],
@@ -4490,14 +4490,14 @@
         "date": "2026-10-22",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "20000+",
-        "traffic_num": 20000,
+        "traffic": "+30000",
+        "traffic_num": 30000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "FORECAST: Pleasant weather continues",
+          "FORECAST: A quiet and pleasant afternoon ahead",
           "Small Bites: City to host observance for UPS plane crash anniversary",
-          "Staying dry and sunny"
+          "FIRST ALERT | Chris Bailey breaks down an awesome fall weekend"
         ]
       }
     ],
@@ -41794,9 +41794,9 @@
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "موهبتان من ذهب بمنتخب الجزائر.. 5 أرقام تكشف الأفضل بين بلومي ومازا",
-          "منصب الجناح الأيمن مزدحم بلاعبين من الطراز الرفيع – الشروق أونلاين",
-          "خاص.. خطة ذكية من حمداني لحل التنافس بين بلومي وحاج موسى"
+          "الجزائر: استبعاد مئات المرشحين يشعل مواجهة بين «سلطة الانتخابات» والأحزاب",
+          "هل تعرف محليات 2026 عزوفًا عن الترشح؟ عروس يرد بالأرقام",
+          "جدل إقصاء المترشحين يتصاعد بين رئيس سلطة الانتخابات و عدة أحزاب في الجزائر... ونداءات للرئيس تبون بالتدخل"
         ]
       }
     ],
@@ -99571,14 +99571,29 @@
           "إعلامي يشيد بإمكانات داري: قادر على أن يكون أفضل مدافع في الأهلي",
           "احتفال لاعبي الأهلي مع أشرف داري"
         ]
+      },
+      {
+        "key": "2026-10-23|eg",
+        "date": "2026-10-23",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "عموتة يوجه اللوم لرباعي الأهلي بعد التعادل أمام القناة",
+          "المدير الفنى للقناة: كنت أطمع فى الفوز على الأهلى",
+          "بعد التعادل مع القناة.. الحسين عموتة يعادل رقم موسيماني مع الأهلي"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 5,
+    "last_seen": "2026-10-23",
+    "total": 6,
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "france-national-football-team": {
@@ -147242,10 +147257,25 @@
           "Coalition intercepts Houthi missile over Riyadh, warns against weapons smuggling by sea",
           "Blasts heard in Riyadh despite Saudi interception of Houthi missiles | Daily Sabah"
         ]
+      },
+      {
+        "key": "2026-10-23|sa",
+        "date": "2026-10-23",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Coalition says intercepted six drones in Madinah, Eastern and southern regions",
+          "Coalition: Ballistic Missile Launched by Terrorist Houthi Militia toward Najran Intercepted and Destroyed",
+          "Coalition Announces Interception and Destruction of Drone Over Riyadh Area"
+        ]
       }
     ],
-    "last_seen": "2026-10-20",
-    "total": 3,
+    "last_seen": "2026-10-23",
+    "total": 4,
     "countries": [
       "eg",
       "sa"
@@ -168926,8 +168956,8 @@
         "date": "2026-10-23",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -271350,15 +271380,30 @@
           "4 Takeaways From a Voting-Focused ‘No Kings’ Day",
           "No Kings Rally in Santa Barbara Pays a Visit to a Ballot Box"
         ]
+      },
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "This weekend around Anchorage: NSAA Ski Swap, AFN convention and plenty of shows on stage",
+          "'When we’re divided, we get ignored': Alaska Federation of Natives president seeks unity amid a generational shift",
+          "‘Rising in Our Voices’: Alaska Federation of Natives convention kicks off in Anchorage"
+        ]
       }
     ],
-    "last_seen": "2026-10-19",
-    "total": 2,
+    "last_seen": "2026-10-22",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "سياسة"
   },
   "tornado-warning": {
     "slug": "tornado-warning",
@@ -308477,14 +308522,14 @@
         "date": "2026-10-23",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "حلمي طولان يرد على رفض اتحاد الكرة طلب الزمالك سماع محادثات فيديو القمة",
           "ما فعله اتحاد الكرة مع الزمالك غريب وتعرضت لحرب.. محمد عادل يكشف مفاجآت عبر خط النص (الحلقة الكاملة)",
-          "«ماينفعش نسيب الناس للسوشيال ميديا».. شبانة: الـ«VAR» لم يناقش أو يُراجع لعبتي «شيكوبانزا» في مباراة القمة"
+          "الغندور: أنا «حقاني».. ومطالبة الزمالك بالاستماع لـ «الفار» تختلف عن الأهلي"
         ]
       }
     ],
@@ -358300,15 +358345,30 @@
           "Raiders' unofficial depth chart for Week 7 vs. Los Angeles Rams",
           "Rams vs Raiders picks, predictions, odds for NFL Week 7 game Sunday"
         ]
+      },
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Sean McVay shares what he wants to see from Rams' backups with starters out",
+          "Can the Rams OVERCOME their injuries?! Mike Garafolo weighs in",
+          "How does Rams’ depth chart look post-injuries?"
+        ]
       }
     ],
-    "last_seen": "2026-10-21",
-    "total": 1,
+    "last_seen": "2026-10-22",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
-    "category": "رياضة"
+    "peak_traffic": 2000,
+    "category": "عام"
   },
   "سعر-الاسترليني-اليوم": {
     "slug": "سعر-الاسترليني-اليوم",
@@ -374953,8 +375013,8 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
+          "Dream night for Bournemouth - how did the Premier League come to dominate Europe?",
           "Bournemouth 3-0 AC Milan: Penalties and Amine Adli's free-kick help Cherries to historic Europa League win as Mike Maignan sent off",
-          "Europa & Conference League: Bournemouth double lead against 10-man Milan and Palace trail",
           "Bournemouth 3-0 Milan, Celtic 1-2 Celta Vigo, and more: Europa League – as it happened"
         ]
       }
@@ -375124,14 +375184,14 @@
         "date": "2026-10-23",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Lillestroem vs Real Sociedad Confirmed Lineups",
-          "Real Sociedad fans brave Oslo deluge as 430 head for Lillestrom",
-          "Lillestrøm - Real Sociedad LIVE. UEFA Europa League latest updates"
+          "Union SG vs. Cercle Brugge (Oct 25, 2026) Odds and Spread",
+          "Bournemouth 3-0 Milan (Oct 22, 2026) Player Stats",
+          "Bournemouth 3-0 Milan (Oct 22, 2026) Team Stats"
         ]
       }
     ],
@@ -375141,7 +375201,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "رياضة"
   },
   "ajax-vs-atalanta": {
@@ -375235,8 +375295,8 @@
         "publishable": false,
         "headlines": [
           "Licensable picture: UEFA Conference League - AS Monaco v SC Freiburg",
-          "Blacktie Sports - Free Reddit AS Monaco vs SC Freiburg BuffStreams Soccer Streams",
-          "Brunner returns as Zakaria drops to the bench, Monaco XI to face Freiburg"
+          "Brunner returns as Zakaria drops to the bench, Monaco XI to face Freiburg",
+          "AS Monaco ease past Freiburg to secure second UEFA Conference League victory"
         ]
       }
     ],
@@ -375369,7 +375429,7 @@
         "headlines": [
           "Promise David nearing Brighton chance as Hurzeler praises his progress",
           "How to watch Brighton in action at Jalbonek - TV channel, stream, prediction",
-          "Thursday best bets: Europa League and Conference League tips for October 22 2026"
+          "Licensable picture: UEFA Conference League - Jablonec v Brighton & Hove Albion"
         ]
       }
     ],
@@ -375488,7 +375548,7 @@
         "headlines": [
           "Juventus vs Rennes: UEFA Europa League stats & head-to-head",
           "Licensable picture: UEFA Europa League - Juventus v Stade Rennes",
-          "PLAYER RATINGS | Juventus 2-2 Rennes: Good-looking Rennes side record prestigious draw against I Bianconeri"
+          "Celik and Woltemade score in Stade Rennais draw"
         ]
       }
     ],
@@ -375983,9 +376043,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "شوط أول سلبي بين أياكس وأتالانتا بدوري المؤتمر الأوروبي",
-          "أتلانتا يطرق أبواب أياكس في مواجهة أوروبية منتظرة (معطيات وتوقعات)",
-          "أياكس يحقق فوزًا ثمينًا على أتالانتا بثنائية في دوري..."
+          "أياكس وأتالانتا | إلى مارك أندريه تير شتيجن \"لقد هرمنا لنشاهد هذه اللحظة الأوروبية\".. وماركوس ليوناردو \"السمين\" في موقف محرج!",
+          "أياكس يفوز على أتالانتا بثنائية نظيفة في بطولة دوري المؤتمر الأوروبي",
+          "أتلانتا يطرق أبواب أياكس في مواجهة أوروبية منتظرة (معطيات وتوقعات)"
         ]
       }
     ],
@@ -376097,12 +376157,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "20000+",
         "traffic_num": 20000,
-        "category": "عام",
-        "publishable": false,
+        "category": "أبراج وفلك",
+        "publishable": true,
         "headlines": [
-          "Walang Pasok: Oct. 23 class, gov’t work suspensions due to Rosal",
-          "WALANG PASOK: Class suspensions for Friday, October 23, 2026",
-          "Walang pasok: Oct. 22 classes suspended in some areas due to Rosal"
+          "Hard Times Come To An End For 3 Zodiac Signs On Friday",
+          "HOROSCOPES 10/23/2026",
+          "Numerology Prediction Today for October 23, 2026: A Day of Change, Communication and Fresh Opportunities"
         ]
       }
     ],
@@ -376112,7 +376172,7 @@
       "world"
     ],
     "peak_traffic": 20000,
-    "category": "عام"
+    "category": "أبراج وفلك"
   },
   "walmart-fruit-cocktail-lead-recall": {
     "slug": "walmart-fruit-cocktail-lead-recall",
@@ -376510,11 +376570,27 @@
           "Celtic 1-2 Celta Vigo: Hoops suffer third Europa League defeat as Spaniards stun with quick double",
           "Celtic starting XI for UEL match against Celta Vigo"
         ]
+      },
+      {
+        "key": "2026-10-23|eg",
+        "date": "2026-10-23",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Celtic v Celta Vigo: Uefa Europa League stats & head-to-head - radio, text & report",
+          "Celtic 1-2 Celta Vigo: Hoops suffer third Europa League defeat as Spaniards stun with quick double",
+          "🔥Celta pull off a memorable comeback at Celtic Park"
+        ]
       }
     ],
-    "last_seen": "2026-10-22",
-    "total": 1,
+    "last_seen": "2026-10-23",
+    "total": 2,
     "countries": [
+      "eg",
       "world"
     ],
     "peak_traffic": 2000,
@@ -376710,8 +376786,8 @@
         "publishable": false,
         "headlines": [
           "دوري المؤتمر الأوروبي.. موناكو يتقدم على فرايبورج 1-0 بالشوط الأول",
-          "توقعات مباراة موناكو ضد فرايبورغ: مواجهة بين فريقين يتمتعان بمستوى جيد.",
-          "دوري المؤتمر الأوروبي.. أياكس يتغلب على أتالانتا.. وموناكو يكتسح فرايبورج بثلاثية"
+          "موناكو يتجاوز فرايبورغ بثلاثية… وأياكس يحسم مواجهته مع أتالانتا متأخراً",
+          "تشكيلة مباراة موناكو وفرايبورج | دوري المؤتمر الأوروبي · 22 أكتوبر 2026"
         ]
       }
     ],
@@ -376762,8 +376838,8 @@
         "date": "2026-10-23",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -376778,7 +376854,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "سيلتك-ضد-سلتا-فيغو": {
@@ -376809,5 +376885,264 @@
     ],
     "peak_traffic": 100,
     "category": "رياضة"
+  },
+  "76ers-vs-cavaliers": {
+    "slug": "76ers-vs-cavaliers",
+    "name": "76ers vs cavaliers",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "NBA Picks & Predictions: +EV Best Bets for Thursday (10/22)",
+          "Inside Sixers-Cavaliers: LeBron's past meets Philly's present in home opener",
+          "1 Change 76ers Could Make vs. Cavs to Help Them Start Season 2-0"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "رياضة"
+  },
+  "vj-edgecombe-stats": {
+    "slug": "vj-edgecombe-stats",
+    "name": "vj edgecombe stats",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Bournemouth 3-0 Milan (Oct 22, 2026) Player Stats",
+          "Bournemouth 3-0 Milan (Oct 22, 2026) Team Stats",
+          "Union SG vs. Cercle Brugge (Oct 25, 2026) Odds and Spread"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "رياضة"
+  },
+  "james-madison-vs-app-state": {
+    "slug": "james-madison-vs-app-state",
+    "name": "james madison vs app state",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "James Madison vs. Appalachian State CFB picks: Upset loss Thursday would derail Dukes' playoff hopes",
+          "How to watch James Madison vs. Appalachian State: College Football, live stream, TV channel"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "predators-vs-bruins": {
+    "slug": "predators-vs-bruins",
+    "name": "predators vs bruins",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "GAME DAY: Preds at Bruins, October 22",
+          "Public Skate: Bruins vs. Predators",
+          "How to watch Predators vs. Bruins: TV channel and streaming options for October 22"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "puka-nacua-injury": {
+    "slug": "puka-nacua-injury",
+    "name": "puka nacua injury",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Puka Nacua suffers calf injury in Rams practice Thursday",
+          "Rams star Puka Nacua leaves practice after sustaining a calf injury",
+          "Rams face another looming threat as Puka Nacua’s NFL review drags on"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "rangers-vs-maple-leafs": {
+    "slug": "rangers-vs-maple-leafs",
+    "name": "rangers vs maple leafs",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Rangers at Maple Leafs projected lineups",
+          "Rangers vs Toronto Maple Leafs preview favors the under as both teams tighten defensively"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "liberty-vs-kennesaw-st": {
+    "slug": "liberty-vs-kennesaw-st",
+    "name": "liberty vs kennesaw st",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "How to watch Liberty vs Kennesaw State: Live stream College Football, TV channel",
+          "Liberty vs Kennesaw State Prediction: Can the Flames Avoid the Trap?",
+          "Liberty vs. Kennesaw State odds, picks: Use Polymarket promo code CBSSPORTS for $25 bonus in CFB Week 8"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "virginia-police-seek-edward-donegan-relatives": {
+    "slug": "virginia-police-seek-edward-donegan-relatives",
+    "name": "virginia police seek edward donegan relatives",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Colorado man found dead along I-95 in Virginia; police need your help",
+          "Police looking for family of Colorado man found dead in Henrico",
+          "VSP asking for help to find man’s relatives"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "policía": {
+    "slug": "policía",
+    "name": "policía",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Sin chófer policial: la jefa de policía retira privilegio a líderes de Miami-Dade en plena batalla...",
+          "Sheriff de Miami-Dade elimina programa de sargentos de armas para ahorrar $4,1 millones",
+          "La policía de San Diego dispara y mata a un hombre con un hacha en el área de Morena"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "سياسة"
   }
 }

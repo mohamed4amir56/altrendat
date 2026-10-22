@@ -6189,14 +6189,14 @@
         "date": "2026-10-22",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "سعر الفراخ بالقليوبية اليوم الخميس 22 – 10 - 2026.. البيضا بـ78 جنيها",
           "سعر كيلو الفراخ البيضاء الآن بعد الانخفاض الأخير.. أسعار الدواجن اليوم الخميس 22-10-2026 بالأسواق والبورصة",
-          "ارتفاع أسعار الدواجن واللحوم في مصر اليوم الخميس",
-          "خريطة الأسعار اليوم: ارتفاع الدواجن والحديد وانخفاض الذهب"
+          "ارتفاع أسعار الدواجن واللحوم في مصر اليوم الخميس"
         ]
       }
     ],
@@ -7661,7 +7661,7 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "ديني",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "مواقيت الصلاة اليوم الخميس 22 أكتوبر 2026 بمحافظات الجمهورية",
           "«المغرب في الإسكندرية 06.21».. جدول مواقيت الصلاة في محافظات مصر غدًا الخميس 22 أكتوبر 2026",
@@ -109744,8 +109744,8 @@
         "date": "2026-10-22",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "شخصية",
         "publishable": true,
         "headlines": [
@@ -109760,7 +109760,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 20000,
     "category": "شخصية"
   },
   "أميرة-أديب": {
@@ -111314,12 +111314,12 @@
         "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "حوادث وقضايا",
+        "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "أرامكو تخلي مقرها بالظهران وأربعة قتلى في هجومين بالسعودية، واجتماع غداً في إسطنبول لبحث التصعيد",
           "مصادر: أرامكو طلبت من موظفيها إخلاء مقرها الرئيسي في الظهران",
-          "لأول مرة منذ اندلاع الحرب تطلب شركة آرامكو من موظفيها العمل عن بعد والتحالف يعلن اعتراض مسيرة فوق الرياض"
+          "لأول مرة منذ اندلاع الحرب تطلب شركة آرامكو من موظفيها العمل عن بعد والتحالف يعلن اعتراض مسيرة فوق الرياض",
+          "أرامكو تُخلي موظفيها شرقي السعودية حتى إشعارٍ آخر"
         ]
       }
     ],
@@ -111329,7 +111329,7 @@
       "sa"
     ],
     "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "category": "دول وأماكن"
   },
   "wolves-vs-trinity": {
     "slug": "wolves-vs-trinity",
@@ -212413,10 +212413,25 @@
           "السبائك الذهبية.. أسعار البيع والشراء btc وgoldera بعد ارتفاع الأسعار",
           "عيار 24 يرتفع.. كم تسجل أسعار سبائك الذهب اليوم؟"
         ]
+      },
+      {
+        "key": "2026-10-22|eg",
+        "date": "2026-10-22",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "أسعار سبائك BTC بالمصنعية اليوم بعد انخفاض الذهب",
+          "سعر سبيكة الذهب وزن جرام بـ7188 جنيهًا.. تعرف على باقي الأوزان",
+          "أقل سبيكة بـ 7352 جنيه.. أسعار السبائك الذهب عيار 24 بالمصنعية الآن"
+        ]
       }
     ],
-    "last_seen": "2026-10-19",
-    "total": 5,
+    "last_seen": "2026-10-22",
+    "total": 6,
     "countries": [
       "eg"
     ],
@@ -226238,6 +226253,7 @@
         "publishable": false,
         "headlines": [
           "السعودية.. ارتفاع عدد قتلى الهجوم على مطار الدمام",
+          "أول تعليق من شيخ الأزهر على استهداف مطار الملك فهد الدولي في السعودية",
           "مصر تدين استهداف مطار الملك فهد بالدمام في المملكة العربية السعودية"
         ]
       }
@@ -239569,14 +239585,14 @@
         "date": "2026-10-22",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "الدولار يرفع سعر الذهب في مصر رغم التراجع العالمي",
-          "سعر جرام الذهب عيار 21 اليوم الخميس في مصر.. انخفاض جديد بالأسواق",
-          "\"آي صاغة\" لـ المواطنين: الشراء التدريجي أفضل من انتظار القاع.. وسوق الذهب تقترب من إغلاق الفجوة السعرية"
+          "سعر الذهب يرتفع في السوق المصري بسبب الدولار رغم انخفاضه عالميا اليوم الخميس",
+          "\"آي صاغة\" لـ المواطنين: الشراء التدريجي أفضل من انتظار القاع.. وسوق الذهب تقترب من إغلاق الفجوة السعرية",
+          "الدولار يرفع سعر الذهب في مصر رغم التراجع العالمي"
         ]
       }
     ],
@@ -239585,7 +239601,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "اقتصاد"
   },
   "who-left-strictly-tonight": {
@@ -248437,15 +248453,30 @@
           "Why Queen Camilla Dislikes One of King Charles's Habits, Which Often Leaves Him \"Roaring With Laughter\"",
           "Queen Camilla Secretly Read 'Forbidden' Romance as Teen"
         ]
+      },
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Queen Elizabeth Knew She Made One Huge Mistake During Her Reign",
+          "Prince William and King Charles Traveled Separately to a Rare Joint Royal Engagement",
+          "Britain Royals Aberfan"
+        ]
       }
     ],
-    "last_seen": "2026-10-12",
-    "total": 1,
+    "last_seen": "2026-10-22",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
-    "category": "فن ومشاهير"
+    "peak_traffic": 500,
+    "category": "عام"
   },
   "كريستيانو-رونالدو": {
     "slug": "كريستيانو-رونالدو",
@@ -273512,14 +273543,29 @@
           "Harrison Ford’s Legacy in Wyoming: How His Jackson Hole Ranch Became a Wildlife Sanctuary",
           "Harrison Ford waited 60 years for his first TV series, and Sheridan got him at 80"
         ]
+      },
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Quote Of The Day By Harrison Ford: 'I Can Tell You This: If I'd Been Less Successful, I'd...'",
+          "Harrison Ford and Calista Flockhart to Receive First Joint Award as Couple Is Selected for Icon Honors",
+          "The late-blooming love of the \"Indian Jones\" star and his wife, 22 years his junior."
+        ]
       }
     ],
-    "last_seen": "2026-10-15",
-    "total": 2,
+    "last_seen": "2026-10-22",
+    "total": 3,
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "فن ومشاهير"
   },
   "browns-depth-chart": {
@@ -371151,7 +371197,7 @@
         "headlines": [
           "مصر.. السيطرة على حريق كنيسة العذراء بالجيزة",
           "السيطرة على حريق داخل كنيسة برك الخيام بأكتوبر",
-          "إخماد حريق محدود داخل كنيسة العذراء فى كرداسة دون إصابات"
+          "يعاني من اضطرابات نفسية.. تفاصيل القبض على المتهم بإشعال النيران في كنيسة العذراء بالجيزة"
         ]
       }
     ],
@@ -371325,7 +371371,7 @@
         "headlines": [
           "الشباب بدون بارتي.. واستدعاء عباس",
           "غدا.. الفتح والشباب يبحثان عن تصحيح المسار والابتعاد عن مراكز الخطر في دوري روشن",
-          "ضربة موجعة للشباب.. غياب كاراسكو يتواصل أمام الفتح"
+          "تأكد غياب توماس بارتي عن مواجهة الشباب والفتح في دوري روشن"
         ]
       }
     ],
@@ -371383,7 +371429,7 @@
         "headlines": [
           "Al Hazem vs. Al Fayha (22 Oct, 2026) Team Stats",
           "Fabregas told Como 'not to run' against Manchester United",
-          "Brooklyn 1-2 Birmingham (22 Oct, 2026) Team Stats"
+          "Puebla 1-4 Monterrey (22 Oct, 2026) Team Stats"
         ]
       }
     ],
@@ -371434,8 +371480,8 @@
         "date": "2026-10-22",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -371450,7 +371496,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "فيروس-شاموندا": {
@@ -371463,13 +371509,13 @@
         "date": "2026-10-22",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "فيروس غامض يثير القلق.. ماذا نعرف عن \"شاموندا\"؟",
-          "فرنسا ترصد أول إصابة بشرية بفيروس «شاموندا» وتوفي المريض في أكتوبر",
+          "وفاة أول مصاب بشري بفيروس «شاموندا» في فرنسا",
           "ينتقل عبر حشرات لاسعة... فرنسا تسجّل أول إصابة بشرية بفيروس «شاموندا»"
         ]
       }
@@ -371479,7 +371525,326 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
+  },
+  "lego-daft-punk": {
+    "slug": "lego-daft-punk",
+    "name": "lego daft punk",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Daft Punk Are Now Lego",
+          "Lego Unveils Daft Punk Set Based on 2007 ‘Alive’ Tour, Short Film Collab Set to ‘Human After All’",
+          "Daft Punk Are (Brick) Builders After All in New Collab With Classic Toy Brand"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "فن ومشاهير"
+  },
+  "brewers-watch-party-tickets": {
+    "slug": "brewers-watch-party-tickets",
+    "name": "brewers watch party tickets",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Brewers to host watch parties for Games 3 & 4 at American Family Field",
+          "Here are 30 places to watch the World Series at these Milwaukee suburbs",
+          "Where to cheer on the Brewers at World Series watch parties across SE Wisconsin"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "lindsey-graham": {
+    "slug": "lindsey-graham",
+    "name": "lindsey graham",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "‘Man, I loved that’: Trump cheers South Carolina rally attender who hit protester",
+          "Protesters removed as Trump rallies behind Darline Graham in South Carolina",
+          "Trump visits deep-red S.C. as Senate seat is at risk of slipping to Democrats"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "سياسة"
+  },
+  "kairat-vs-panathinaikos": {
+    "slug": "kairat-vs-panathinaikos",
+    "name": "kairat vs panathinaikos",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Veikkausliiga - Jaro 1 - 1 Mariehamn",
+          "Kairat vs Panathinaikos Match Stats & Odds | 22 Oct 2026",
+          "Kairat vs Panathinaikos: UEFA Conference League stats & head-to-head"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "callum-turner": {
+    "slug": "callum-turner",
+    "name": "callum turner",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Dua Lipa Among Famous Faces at Met Opera’s ‘Lincoln in the Bardo’ Premiere",
+          "‘Lincoln in the Bardo’ Review: An Opera of Presidential Grief",
+          "Great music, moving moments vie with libretto, structural issues in Met premiere of “Lincoln in the Bardo”"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "david-benavidez": {
+    "slug": "david-benavidez",
+    "name": "david benavidez",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "David Benavidez names his 3 man hit list for new fight contract: \"They are going to happen\"",
+          "Dubois vs Wardley 2: Promoter Frank Warren paints heavyweight unification picture for 2027",
+          "Usyk takes aim at Fury, Benavidez bouts in 2027"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "gev-stock": {
+    "slug": "gev-stock",
+    "name": "gev stock",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "GE Vernova Sinks 11%, Vertiv 14%, Bloom Energy 15% in a Week as AI Power Stocks Slide",
+          "GE Vernova's $176 Billion Backlog, Explained",
+          "Dell Technologies Inc. Cl C stock rises Tuesday, outperforms market"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
+  },
+  "pollution": {
+    "slug": "pollution",
+    "name": "pollution",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Delhi’s Winter Season of Polluted Air Begins",
+          "New Delhi steps up air pollution controls ahead of winter",
+          "GRAP-1 Rules Explained: Limited Construction, Strict Rules For Cars In Delhi"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "المطرب-حكيم": {
+    "slug": "المطرب-حكيم",
+    "name": "المطرب حكيم",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|eg",
+        "date": "2026-10-22",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "تشييع جثمان شقيق حكيم من مسجد السيدة نفيسة ظهر غدا",
+          "حكيم ينعى شقيقه الأكبر ويعلن موعد ومكان العزاء",
+          "فيفي عبده تعزي حكيم في وفاة شقيقه وتطلب الدعاء له"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "al-fateh-vs-al-shabab": {
+    "slug": "al-fateh-vs-al-shabab",
+    "name": "al fateh vs al-shabab",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|sa",
+        "date": "2026-10-22",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Al Fateh vs Al Shabab: Saudi Pro League stats & head-to-head",
+          "Salami: Facing Al Shabab is an opportunity to reconci…",
+          "Al-Fateh chase historic number against Al-Shabab in S…"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "jeddah-water-tank-collapse": {
+    "slug": "jeddah-water-tank-collapse",
+    "name": "jeddah water tank collapse",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|sa",
+        "date": "2026-10-22",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تعليم",
+        "publishable": false,
+        "headlines": [
+          "Saudi Arabia launches investigation after massive water tank collapses in Jeddah",
+          "KSA: Water tank collapse at Jeddah university floods parking lot",
+          "Water Tank Collapses in Jeddah, Sending Water Gushing Out"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "تعليم"
   }
 }

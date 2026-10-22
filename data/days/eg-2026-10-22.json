@@ -4,7 +4,7 @@
   "name_en": "Egypt",
   "lang": "ar",
   "flag": "🇪🇬",
-  "generated_at": "2026-10-22T10:01:21.297392+00:00",
+  "generated_at": "2026-10-22T10:12:12.737091+00:00",
   "day": "2026-10-22",
   "trends": [
     {
@@ -560,6 +560,73 @@
       "published_at": "2026-10-22T09:01:14.559887+00:00"
     },
     {
+      "title": "php",
+      "traffic": "+600",
+      "traffic_num": 600,
+      "published": "Wed, 21 Oct 2026 23:10:00 -0700",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRwt_Jv7LWLDHgAipCrbg02vtBHYmuVDmN_cr69dAUzBr9DXa3W5TjkiClK3FE",
+      "image_source": "wiz.io",
+      "news": [
+        {
+          "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet",
+          "url": "https://www.wiz.io/blog/php2shell-php-rce",
+          "source": "wiz.io",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRwt_Jv7LWLDHgAipCrbg02vtBHYmuVDmN_cr69dAUzBr9DXa3W5TjkiClK3FE",
+          "og_title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet | Wiz Blog",
+          "og_desc": "Core PHP engine flaws enable remote code execution and Heartbleed-style memory disclosure across the web.",
+          "og_image": "https://www.datocms-assets.com/75231/1792534907-img_7274.png?fm=webp",
+          "ok": true
+        },
+        {
+          "title": "Germany news: Government websites coming back online after major PHP security gap discovered",
+          "url": "https://www.dw.com/en/germany-news-many-sites-back-online-after-php-security-fix/live-79728628",
+          "source": "DW.com",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQdgh8qCvJXb_T-l5DcmJq-t5uy97t_h5gKpemylV5QGEznI3Dp_V57-QzMwDM",
+          "og_title": "Germany news: Government websites coming back online after major PHP security gap discovered",
+          "og_desc": "Online security officials have warned that it will take time to ascertain extent of any possible hacks. Meanwhile, far-right martial arts clubs are on the rise. DW has more.",
+          "og_image": "https://static.dw.com/image/79728980_6.jpg",
+          "ok": true
+        },
+        {
+          "title": "Cloudflare deploys protections against php2shell vulnerability",
+          "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection",
+          "source": "Cloudflare Blog",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQoqiI3ROUclclZn5BhT4YAjc0mWnbq8MyWC1aBfUUyN_Yr9l2HRhgi_NjK7Fk",
+          "og_title": "Cloudflare deploys protections against php2shell vulnerability",
+          "og_desc": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
+          "og_image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5FBPSP6GA0RRJ5FDQ68S476.png",
+          "ok": true
+        },
+        {
+          "title": "Websites taken down worldwide as critical PHP cyber-security update issued",
+          "url": "https://www.bbc.com/news/articles/cmly0lg3w5x2o",
+          "source": "BBC",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxra-jySB93Rxk-DRiqHp3GEaeLpmHtlIV_opsmrID77vfWU_lyWP6ezqCQHA",
+          "og_title": "Websites taken down worldwide as critical PHP cyber-security update issued",
+          "og_desc": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
+          "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/6136/live/b103d880-cd90-11f1-b1e7-39558e114359.jpg",
+          "ok": true
+        },
+        {
+          "title": "Hackers launch ‘millions’ of attempts to exploit global PHP cyber flaw",
+          "url": "https://www.politico.eu/article/hackers-launch-millions-of-attempts-to-exploit-global-php-cyber-flaw/",
+          "source": "POLITICO.eu",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSv31hC6i1WJgBNMrQcDpQmyHCEzS-7NUDD9GVbTtttzXIFXjcGxABIjEY7GgE",
+          "og_title": "Hackers launch ‘millions’ of attempts to exploit global PHP cyber flaw",
+          "og_desc": "Governments and website owners are rushing to patch holes in popular internet programming language.",
+          "og_image": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/10/22/GettyImages-2301428719-1.jpg",
+          "ok": true
+        }
+      ],
+      "category": "تقنية",
+      "icon": "💻",
+      "color": "#5aa9ff",
+      "reason": "حجم بحث أقل من 2000",
+      "publishable": false,
+      "card": "cards/eg-2026-10-22-php.png",
+      "published_at": "2026-10-22T08:01:19.626582+00:00"
+    },
+    {
       "title": "ترتيب دوري ابطال اوروبا",
       "traffic": "500+",
       "traffic_num": 500,
@@ -656,91 +723,13 @@
       "published_at": "2026-10-22T04:31:15.377508+00:00"
     },
     {
-      "title": "php",
-      "traffic": "+400",
-      "traffic_num": 400,
-      "published": "Wed, 21 Oct 2026 23:10:00 -0700",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRwt_Jv7LWLDHgAipCrbg02vtBHYmuVDmN_cr69dAUzBr9DXa3W5TjkiClK3FE",
-      "image_source": "wiz.io",
-      "news": [
-        {
-          "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet",
-          "url": "https://www.wiz.io/blog/php2shell-php-rce",
-          "source": "wiz.io",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRwt_Jv7LWLDHgAipCrbg02vtBHYmuVDmN_cr69dAUzBr9DXa3W5TjkiClK3FE",
-          "og_title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet | Wiz Blog",
-          "og_desc": "Core PHP engine flaws enable remote code execution and Heartbleed-style memory disclosure across the web.",
-          "og_image": "https://www.datocms-assets.com/75231/1792534907-img_7274.png?fm=webp",
-          "ok": true
-        },
-        {
-          "title": "Germany news: Government websites coming back online after major PHP security gap discovered",
-          "url": "https://www.dw.com/en/germany-news-many-sites-back-online-after-php-security-fix/live-79728628",
-          "source": "DW.com",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQdgh8qCvJXb_T-l5DcmJq-t5uy97t_h5gKpemylV5QGEznI3Dp_V57-QzMwDM",
-          "og_title": "Germany news: Government websites coming back online after major PHP security gap discovered",
-          "og_desc": "Online security officials have warned that it will take time to ascertain extent of any possible hacks. Meanwhile, far-right martial arts clubs are on the rise. DW has more.",
-          "og_image": "https://static.dw.com/image/79728980_6.jpg",
-          "ok": true
-        },
-        {
-          "title": "Cloudflare deploys protections against php2shell vulnerability",
-          "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection",
-          "source": "Cloudflare Blog",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQoqiI3ROUclclZn5BhT4YAjc0mWnbq8MyWC1aBfUUyN_Yr9l2HRhgi_NjK7Fk",
-          "og_title": "Cloudflare deploys protections against php2shell vulnerability",
-          "og_desc": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
-          "og_image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5FBPSP6GA0RRJ5FDQ68S476.png",
-          "ok": true
-        },
-        {
-          "title": "Websites taken down worldwide as critical PHP cyber-security update issued",
-          "url": "https://www.bbc.com/news/articles/cmly0lg3w5x2o",
-          "source": "BBC",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxra-jySB93Rxk-DRiqHp3GEaeLpmHtlIV_opsmrID77vfWU_lyWP6ezqCQHA",
-          "og_title": "Websites taken down worldwide as critical PHP cyber-security update issued",
-          "og_desc": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
-          "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/6136/live/b103d880-cd90-11f1-b1e7-39558e114359.jpg",
-          "ok": true
-        }
-      ],
-      "category": "تقنية",
-      "icon": "💻",
-      "color": "#5aa9ff",
-      "reason": "حجم بحث أقل من 2000",
-      "publishable": false,
-      "card": "cards/eg-2026-10-22-php.png",
-      "published_at": "2026-10-22T08:01:19.626582+00:00"
-    },
-    {
       "title": "فستان",
       "traffic": "200+",
       "traffic_num": 200,
       "published": "Thu, 22 Oct 2026 00:50:00 -0700",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSIJdV25LiUlcZhva8HTRj2ps1JKcKCxy6u0-2zpnA7TWRd5ngG85AVZWr_7Oo",
-      "image_source": "شبكة تواصل الإخبارية",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTEGb-rXohOI5Y3eX2jQlm2KElzR5A50AePjvsJ9Pp6_lxN74ryGDLJ2YLB6O8",
+      "image_source": "Masrawy",
       "news": [
-        {
-          "title": "جوري بكر تظهر بإطلالة صيفية بيضاء تحت أشعة الشمس",
-          "url": "https://twaslnews1.twaslnews.com/6216073/",
-          "source": "شبكة تواصل الإخبارية",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSIJdV25LiUlcZhva8HTRj2ps1JKcKCxy6u0-2zpnA7TWRd5ngG85AVZWr_7Oo",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "جوري بكر تتألق بفستان أسود لامع في أحدث ظهور",
-          "url": "https://www.youlyou.com/77851",
-          "source": "https://www.youlyou.com/",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTclVp1hY4gCtP-80EPCu9vHelGupwkJzWFiXIKL8Ok3wnngLIr1PcaWYRB-ug",
-          "og_title": "جوري بكر تتألق بفستان أسود لامع في أحدث ظهور - يوليو",
-          "og_desc": "جوري بكر تظهر بإطلالة سهرة أنيقة وفستان أسود مطرز بالكريستال عبر حسابها على انستجرام",
-          "og_image": "https://media.youlyou.com/2026/10/Landscape/2955200191056220261022090327327.jpg",
-          "ok": true
-        },
         {
           "title": "شيرين رضا بفستان أسود شيفون من شي إن بـ3 آلاف جنيه",
           "url": "https://www.masrawy.com/arts/elgounafestival-outfits/details/2026/10/22/3066756/%D8%B4%D9%8A%D8%B1%D9%8A%D9%86-%D8%B1%D8%B6%D8%A7-%D8%A8%D9%81%D8%B3%D8%AA%D8%A7%D9%86-%D8%A3%D8%B3%D9%88%D8%AF-%D8%B4%D9%8A%D9%81%D9%88%D9%86-%D9%85%D9%86-%D8%B4%D9%8A-%D8%A5%D9%86-%D8%A8%D9%803-%D8%A2%D9%84%D8%A7%D9%81-%D8%AC%D9%86%D9%8A%D9%87",
@@ -750,14 +739,34 @@
           "og_desc": "وجاء الفستان من الشيفون بتصميم بليسيه مع أكمام فضفاضة وقصة أوف شولدر تكشف الكتفين فيما انتهى طوله فوق الركبة ليمنح الإطلالة طابع ا عصري ا يجمع بين الرقة والجرأة | مصراوي",
           "og_image": "https://media.gemini.media/img/large/2026/10/22/2026_10_22_2_56_9_321.webp",
           "ok": true
+        },
+        {
+          "title": "شيرين رضا تخطف الأنظار بفستان من شي إن سعره 3 آلاف جنيه",
+          "url": "https://twaslnews1.twaslnews.com/6383632/",
+          "source": "شبكة تواصل الإخبارية",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTEGb-rXohOI5Y3eX2jQlm2KElzR5A50AePjvsJ9Pp6_lxN74ryGDLJ2YLB6O8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "جهاد حسام الدين على السجادة الحمراء في مهرجان الجونة السينمائي",
+          "url": "https://www.masrawy.com/arts/elgounafestival-multimedia/details/2026/10/21/3066666/%D8%AC%D9%87%D8%A7%D8%AF-%D8%AD%D8%B3%D8%A7%D9%85-%D8%A7%D9%84%D8%AF%D9%8A%D9%86-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D8%AC%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%AD%D9%85%D8%B1%D8%A7%D8%A1-%D9%81%D9%8A-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%AC%D9%88%D9%86%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D9%86%D9%85%D8%A7%D8%A6%D9%8A",
+          "source": "Masrawy",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFNGbRMqcih-S2DwW_76f8w0V0LUSSYKbQf9nUpt_EOwugy50L5YuD6cgRvpc",
+          "og_title": "جهاد حسام الدين على السجادة الحمراء في مهرجان الجونة السينمائي | مصراوي",
+          "og_desc": "جهاد حسام الدين على السجادة الحمراء في مهرجان الجونة السينمائي | مصراوي",
+          "og_image": "https://media.gemini.media/img/large/2026/10/21/2026_10_21_23_9_35_422.webp",
+          "ok": true
         }
       ],
       "category": "شخصية",
       "icon": "👤",
       "color": "#ffd166",
-      "reason": "حجم بحث أقل من 2000",
+      "reason": "شخصية لا يرد اسمها في مصدرين",
       "publishable": false,
-      "person": true,
       "card": "cards/eg-2026-10-22-فستان.png",
       "published_at": "2026-10-22T08:01:19.626582+00:00"
     },

@@ -1080,14 +1080,14 @@
         "date": "2026-10-23",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
+          "سعر الدولار الآن في مصر.. الشراء والبيع كام؟",
           "الدولار يواصل الارتفاع أمام الجنيه المصري",
-          "تحديث لحظى لسعر الدولار مقابل الجنيه فى البنوك اليوم الجمعة 23 أكتوبر 2026",
-          "حتى 1.89 جنيه.. سعر الدولار يرتفع مقابل الجنيه في 10 بنوك خلال أسبوع"
+          "بعد تصريحات محافظ البنك المركزي.. سعر الدولار الأمريكي مقابل الجنيه المصري اليوم الجمعة 23-10-2026"
         ]
       }
     ],
@@ -3374,14 +3374,14 @@
         "date": "2026-10-23",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "تقرير برلماني: البحرية البريطانية غير جاهزة لمواجهة روسيا",
-          "سفن صيد أم عيون بوتين السرية؟.. تحركات روسية غامضة تهدد بشل بريطانيا",
-          "درع بريطانيا البحرية تتآكل.. تقاعد 8 سفن يكشف فجوات الدفاع"
+          "المملكة المتحدة تتجه لخفض أعمال ورقية عديمة الجدوى بقيمة 800 مليون جنيه",
+          "النشاط التجاري البريطاني يبلغ أعلى مستوياته في 8 أشهر خلال أكتوبر",
+          "الجنيه الإسترليني دون أداء قوي رغم تقرير مؤشر مديري المشتريات PMI الأولي الإيجابي في المملكة المتحدة"
         ]
       }
     ],
@@ -10698,9 +10698,9 @@
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
-          "عبدالله بن زايد ووزير خارجية فرنسا يبحثان التطورات الإقليمية",
-          "ماكرون يلتقي محمد بن سلمان في السعودية .. ماذا جرى في الزيارة غير المعلنة مسبقًا؟",
-          "السفير الفرنسي بالسعودية: ماكرون أكد تقديم كل الدعم للمملكة"
+          "سعر البنزين وأنبوبة البوتاجاز اليوم الجمعة .. اعرف قرار لجنة التسعير",
+          "أسعار البنزين والسولار والغاز اليوم في مصر",
+          "لميس الحديدي: ارتفاع خام برنت إلى 110 دولارات يطرح تساؤلات مهمة"
         ]
       }
     ],
@@ -36158,10 +36158,25 @@
           "Flight delays are up. Which airports have the most delays?",
           "How Florida weather delays ripple to Hartsfield-Jackson"
         ]
+      },
+      {
+        "key": "2026-10-23|sa",
+        "date": "2026-10-23",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "الأرصاد السعودية تتوقع أمطاراً رعدية وسيولاً في عدة مناطق واضطراباً في الملاحة البحرية",
+          "الأرصاد السعودية: هطول أمطار رعدية على 8 مناطق بالمملكة",
+          "الأرصاد السعودية: أمطار رعدية غزيرة وسيول وبَرَد على عدة مناطق الخميس"
+        ]
       }
     ],
-    "last_seen": "2026-10-13",
-    "total": 5,
+    "last_seen": "2026-10-23",
+    "total": 6,
     "countries": [
       "sa",
       "world"
@@ -51996,15 +52011,30 @@
           "NASCAR: Denny Hamlin Made Brad Keselowski an Offer to Join 23XI as He Opens Up About RFK Exit",
           "Brad Keselowski not ready to retire after 19 years in NASCAR"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "How Brad Keselowski and RFK’s ‘decades’ of partnership fell apart in just five years",
+          "Fifth Third Bank reportedly leaving RFK Racing after 2026 season",
+          "NASCAR Legend Dale Earnhardt Jr. Fires Back at Critics as Brad Keselowski Faces RFK Racing Exit"
+        ]
       }
     ],
-    "last_seen": "2026-10-07",
-    "total": 3,
+    "last_seen": "2026-10-23",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "عام"
+    "category": "اقتصاد"
   },
   "wnba-playoffs-bracket": {
     "slug": "wnba-playoffs-bracket",
@@ -106085,8 +106115,8 @@
         "date": "2026-10-23",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
@@ -193487,10 +193517,25 @@
           "'Law & Order: SVU': J. Smith-Cameron on Benson's Choice & What to Know About Gwen (Exclusive)",
           "A Complete Guide to Law & Order: SVU Season 28's Biggest Guest Stars"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Mariska Hargitay beams with pride as she makes courtside appearance with rarely-seen son",
+          "Mariska Hargitay’s Son August, 20, Towers Over Her During Rare Joint Appearance",
+          "Mariska Hargitay helped fund Detroit’s effort to test abandoned sexual assault kits; by April 2025, the w"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 2,
+    "last_seen": "2026-10-23",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -281921,10 +281966,25 @@
           "Apple launches into foldable market as iPhone Duo sales begin",
           "The iPhone Duo is a messy, expensive, good time"
         ]
+      },
+      {
+        "key": "2026-10-23|eg",
+        "date": "2026-10-23",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Apple’s Foldable iPhone Duo Is the Most Exciting Phone in Years. And It Lives Up to the Hype. | Reviews by Wirecutter",
+          "Apple’s iPhone Duo Ushers in a New Era for Smartphones",
+          "iPhone Duo arrives at Apple Store locations worldwide"
+        ]
       }
     ],
     "last_seen": "2026-10-23",
-    "total": 4,
+    "total": 5,
     "countries": [
       "eg",
       "sa",
@@ -338587,12 +338647,28 @@
           "Afghanistan to Face Zimbabwe in Tri-Nation Cricket Series",
           "Zimbabwe announce white-ball squads for UAE Tour"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "In-form Afghanistan heavy favourites in tri-series final against Zimbabwe",
+          "CAN CHEVS CONTAIN RASHID KHAN AND CAUSE AN UPSET?",
+          "Recent Match Report - Afghanistan vs Zimbabwe 2nd Match 2026 | cricinfo.com"
+        ]
       }
     ],
-    "last_seen": "2026-10-19",
-    "total": 1,
+    "last_seen": "2026-10-23",
+    "total": 2,
     "countries": [
-      "sa"
+      "sa",
+      "world"
     ],
     "peak_traffic": 10000,
     "category": "رياضة"
@@ -382306,9 +382382,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "دعوة للتعايش أم مناكفة سياسية؟.. بيل كلينتون يستشهد بالقرآن لرفض الإساءة للمسلمين",
-          "رئيس أمريكيا الأسبق بيل كلينتون: سئمت الإساءة إلى المسلمين والقرآن يدعم للتعارف",
-          "كلينتون يستشهد بالقرآن ويرفض الإساءة للمسلمين"
+          "وزير الأوقاف يوضح 6 إجراءات قرآنية لمواجهة الخوف والأزمات.. تعرف عليها",
+          "الأوقاف: القرآن يضع دستورا متكاملا لمواجهة الخوف وإدارة الأزمات",
+          "دعوة للتعايش أم مناكفة سياسية؟.. بيل كلينتون يستشهد بالقرآن لرفض الإساءة للمسلمين"
         ]
       }
     ],
@@ -382423,8 +382499,8 @@
         "publishable": false,
         "headlines": [
           "Qatar boosts digital business through e-commerce licence",
-          "FIFA Intercontinental Cup final to take place in Al Rayyan on 16th December",
-          "Qatar to host final three matches of FIFA Intercontinental Cup for third consecutive year"
+          "GFF Gulf Cup U-17 Qatar 2026 football match: China vs. Bahrain",
+          "Qatar name 23-member squad for U17 Gulf Cup"
         ]
       }
     ],
@@ -382707,10 +382783,10 @@
         "date": "2026-10-23",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "الجنيه المصري يهبط إلى أدنى مستوى في تاريخه أمام الدولار عند 54.95 جنيه للبيع",
           "قفزة مفاجئة للدولار في مصر.. العملة الأمريكية تكسر حاجز 55 جنيهاً",
@@ -382723,7 +382799,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 500,
     "category": "اقتصاد"
   },
   "jaylen-brown-instagram-comment-cap": {
@@ -383044,5 +383120,324 @@
     ],
     "peak_traffic": 100,
     "category": "رياضة"
+  },
+  "indiana-fever": {
+    "slug": "indiana-fever",
+    "name": "indiana fever",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "The Indiana Fever want a championship. Is their reputation around the WNBA in the way?",
+          "WNBA Playoff Glance",
+          "What's Next For These Struggling Contenders?"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "ionq": {
+    "slug": "ionq",
+    "name": "ionq",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "IonQ vs. Rigetti Computing: Which Quantum Computing Stock Is the Better Buy?",
+          "BofA Securities names top quantum computing stocks to watch",
+          "Why IBM and Rigetti Warn of a Coming Shakeout in Quantum Stocks"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "اقتصاد"
+  },
+  "extension": {
+    "slug": "extension",
+    "name": "extension",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Bruins Sign Marat Khusnutdinov to Three-Year Contract Extension | Boston Bruins",
+          "Bruins sign forward Marat Khusnutdinov to multi-year extension",
+          "Contract extension signed, Marat Khusnutdinov ‘very excited to be a Bruin for three more years’"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "when-is-the-ballon-dor-ceremony": {
+    "slug": "when-is-the-ballon-dor-ceremony",
+    "name": "when is the ballon d'or ceremony",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "2026 Ballon d'Or ceremony: When and where, all the nominees and how the awards are decided",
+          "Kate Scott on Micah Richards’ Ballon d’Or predictions: “he's all over the place”",
+          "Ballon d’Or 2026: Everything you need to know"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "screw-worm": {
+    "slug": "screw-worm",
+    "name": "screw worm",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Officials confirm flesh-eating New World screwworm parasite found in US wildlife",
+          "Screwworm spreads to US wildlife in Texas, USDA says",
+          "First New World screwworm case confirmed in Texas wildlife"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "دول وأماكن"
+  },
+  "volvo": {
+    "slug": "volvo",
+    "name": "volvo",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Volvo Cars plunges 27% as CEO says China sales slump came 'faster than we thought'",
+          "Volvo Cars is cutting about 2,500 jobs after swinging to a third-quarter loss",
+          "Volvo Cars shares slump on big loss, 2,500 more jobs to go"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "دول وأماكن"
+  },
+  "west-bank": {
+    "slug": "west-bank",
+    "name": "west bank",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Netanyahu orders closure of West Bank after five Israelis wounded in shooting attack",
+          "Israel’s military says it killed 2 men who had launched an attack in the occupied West Bank",
+          "Live: Netanyahu announces ‘full lockdown’ of West Bank following shooting"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "عمرو-دياب": {
+    "slug": "عمرو-دياب",
+    "name": "عمرو دياب",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|eg",
+        "date": "2026-10-23",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "عمرو دياب يخطف أضواء الجونة في حفل كبير بحضور نجوم الفن - صور",
+          "من عمر خيرت إلى عمرو دياب.. الموسيقى تمنح مهرجان الجونة سحرا مختلفا",
+          "دينا الشربيني ترقص مع يسرا على أغاني عمرو دياب في الجونة (فيديو)"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "zimbabwe-vs-afghanistan": {
+    "slug": "zimbabwe-vs-afghanistan",
+    "name": "zimbabwe vs afghanistan",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|sa",
+        "date": "2026-10-23",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "+4000",
+        "traffic_num": 4000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "AFG vs ZIM live score, UAE ODI Tri-Series 2026/27: Final (D/N), Sharjah, October 23, 2026, UAE ODI Tri-Series, Sharjah Cricket Association Stadium, October 23, 2026",
+          "+gt+(LIVE*STREAms$)+!+ Zimbabwe vs Bangladesh 1st Match Ｌｉｖｅ Ｓｔｒｅａｍ ＯＮ 17 October 2026",
+          "Taskin: 'We sometimes collapse quickly under pressure'"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 4000,
+    "category": "رياضة"
+  },
+  "الفنانة-داليا-ابراهيم": {
+    "slug": "الفنانة-داليا-ابراهيم",
+    "name": "الفنانة داليا ابراهيم",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|sa",
+        "date": "2026-10-23",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "الممثلة داليا إبراهيم تفجر مفاجأة: تزوجت خالد يوسف لمدة عام",
+          "لماذا أعلنت داليا إبراهيم زواجها السري من خالد يوسف بعد 17 عامًا؟",
+          "داليا إبراهيم تتمسك باعتزال التمثيل"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 1000,
+    "category": "فن ومشاهير"
+  },
+  "बबस": {
+    "slug": "बबस",
+    "name": "बीबीसी",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|sa",
+        "date": "2026-10-23",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "ट्रंप के पाबंदियां हटने के दावे के बावजूद यूक्रेन में स्टारलिंक पर अब भी प्रतिबंध: सूत्र",
+          "चुनाव से 5 दिन पहले नेतन्याहू ने शुरू की नई जंग की तैयारी, खुफिया प्रमुख संग मीटिंग, कहा- हमास आतंकी कहीं सुरक्षित नहीं",
+          "हैंडगन- राइफल से वेस्ट बैंक में 2 फिलिस्तीनी हमलावरों ने इजरायलियों पर की फायरिंग, हमास बोला- सही किया"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

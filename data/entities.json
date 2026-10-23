@@ -173,14 +173,14 @@
         "date": "2026-10-23",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "+2100",
+        "traffic_num": 2100,
         "category": "اقتصاد",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "خسارة كبيرة لسعر الذهب في مصر مع تراجع الفجوة السعرية",
-          "الذهب يخسر 35 جنيها اليوم.. وعيار 21 بـ6275 جنيها",
-          "انخفاض جديد في سعر الذهب اليوم الخميس 22 أكتوبر 2026 عالميا.. عيار 21 الآن بالمصنعية"
+          "سعر جرام الذهب عيار 21 اليوم الخميس في مصر.. انخفاض جديد بالأسواق",
+          "الذهب يخسر 35 جنيها اليوم.. وعيار 21 بـ6275 جنيها"
         ]
       }
     ],
@@ -3837,6 +3837,7 @@
         "category": "طقس",
         "publishable": false,
         "headlines": [
+          "الأرصاد السعودية تتوقع أمطاراً رعدية وسيولاً في عدة مناطق واضطراباً في الملاحة البحرية",
           "الأرصاد السعودية: هطول أمطار رعدية على 8 مناطق بالمملكة",
           "الأرصاد السعودية: أمطار رعدية غزيرة وسيول وبَرَد على عدة مناطق الخميس"
         ]
@@ -10632,14 +10633,14 @@
         "date": "2026-10-23",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "رسميًا.. أسعار البنزين والسولار اليوم الجمعة 23 أكتوبر 2026",
-          "بعد ارتفاع الدولار؟ أسعار البنزين والسولار وغاز السيارات اليوم في مصر",
-          "لميس الحديدي: ارتفاع خام برنت إلى 110 دولارات يطرح تساؤلات مهمة"
+          "أسعار التذاكر تحلق.. وتحذير من قفزات جديدة",
+          "\"أميركان إيرلاينز\" توسع خسائرها في الربع الثالث وتخفض توقعاتها بسبب تكاليف الوقود",
+          "«يونايتد إيرلاينز» تُحذر من تراجع هوامش أرباحها مع استمرار ارتفاع أسعار الوقود جراء حرب إيران"
         ]
       }
     ],
@@ -111437,8 +111438,8 @@
         "publishable": false,
         "headlines": [
           "Durban attack: Crowd of 50 beats foreigner to death in South Africa",
-          "South Africa Migrant Killed",
-          "Foreign National Beaten To Death By ‘Mob Of 50’ In South Africa’s Durban"
+          "Eye on Africa - South Africa gripped by anti-migrant protests as foreign national is killed",
+          "Today in Africa — October 22, 2026: Foreign Man Beaten to Death in South Africa Protest March, Families Fear Ill U.S. Detainees Will Be Deported to Africa"
         ]
       }
     ],
@@ -115035,14 +115036,29 @@
           "الذهب يتجه لتسجيل خسارة أسبوعية بفعل قوة الدولار",
           "تراجع حاد لأسعار الذهب والفضة والبلاتين.. ماذا يحدث في سوق المعادن؟"
         ]
+      },
+      {
+        "key": "2026-10-23|eg",
+        "date": "2026-10-23",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "اقتصاد",
+        "publishable": true,
+        "headlines": [
+          "سعر الذهب في مصر.. عيار 21 عند 6280 جنيها والأونصة تستهدف 4150 دولارا",
+          "سعر الذهب اليوم الجمعة 23-10-2026 في مصر صباحًا",
+          "استقرار أسعار الذهب في مصر بختام تعاملات الخميس"
+        ]
       }
     ],
-    "last_seen": "2026-10-04",
-    "total": 2,
+    "last_seen": "2026-10-23",
+    "total": 3,
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 20000,
     "category": "اقتصاد"
   },
   "الإمارات-ضد-عمان": {
@@ -182423,16 +182439,31 @@
           "Saudi-born engineer for OpenAI arrested for planting listening bug",
           "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "OpenAI trims valuation target to $1.25tn after pitching higher price",
+          "OpenAI closing in on new funding round at $1.25 trillion valuation",
+          "EXCLUSIVE: OpenAI seeks to accelerate fundraising ahead of Anthropic IPO, sources say"
+        ]
       }
     ],
-    "last_seen": "2026-10-14",
-    "total": 5,
+    "last_seen": "2026-10-23",
+    "total": 6,
     "countries": [
       "sa",
       "world"
     ],
     "peak_traffic": 20000,
-    "category": "حوادث وقضايا"
+    "category": "تقنية"
   },
   "prime-day-october-2026": {
     "slug": "prime-day-october-2026",
@@ -186237,15 +186268,31 @@
           "Plane Carrying 180 Passengers Makes Emergency Landing After Power Bank Catches Fire Mid-Flight",
           "Air passengers panic after power bank explodes in overhead locker at 35,000ft"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Airlines cancel flights to Saudi Arabia after Riyadh airport attacks",
+          "Biman with 379 passengers departs for Dammam amid Houthi attack",
+          "IndiGo extends Saudi Arabia flight cancellations; Riyadh services suspended till Oct 31"
+        ]
       }
     ],
-    "last_seen": "2026-10-13",
-    "total": 3,
+    "last_seen": "2026-10-23",
+    "total": 4,
     "countries": [
-      "sa"
+      "sa",
+      "world"
     ],
     "peak_traffic": 200,
-    "category": "اقتصاد"
+    "category": "عام"
   },
   "pltr-stock": {
     "slug": "pltr-stock",
@@ -189228,7 +189275,6 @@
         "publishable": false,
         "headlines": [
           "الداخلية تنهي خدمة فرد شرطة لمخالفته الواجب الوظيفي داخل مترو الأنفاق",
-          "مصر.. \"الداخلية\" تعلن إنهاء خدمة فرد شرطة لهذا السبب",
           "الداخلية تعلن إنهاء خدمة فرد شرطة لخروجه على مقتضيات الواجب الوظيفى"
         ]
       }
@@ -231653,15 +231699,30 @@
           "Georgians urged to stay vigilant as officials assess storm impact",
           "Isaias causes thousands of power outages in metro Atlanta"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Power restored for hundreds of people after underground cable caused outage",
+          "Car crash causes power outages in Rochester’s Upper Falls area on Wednesday",
+          "Significant damage reported after likely tornado touches down in Heber-Overgaard area"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 1,
+    "last_seen": "2026-10-23",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 10000,
-    "category": "طقس"
+    "category": "حوادث وقضايا"
   },
   "india": {
     "slug": "india",
@@ -301645,10 +301706,25 @@
           "India Women Vs Zimbabwe Women Live Streaming: When And Where To Watch 2nd T20I",
           "Deepti in awe of debutant Niki Prasad after India's win"
         ]
+      },
+      {
+        "key": "2026-10-23|sa",
+        "date": "2026-10-23",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "+1500",
+        "traffic_num": 1500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "IND-W vs ZIM-W 2026/27, IND-W vs ZIM-W 1st ODI Match Preview - India begin new Championship cycle in Vadodara",
+          "Jintimani Kalita replaces Renuka Singh Thakur in India’s ODI squad",
+          "India Women Vs Zimbabwe Women Live Streaming: When And Where To Watch 1st ODI"
+        ]
       }
     ],
-    "last_seen": "2026-10-18",
-    "total": 3,
+    "last_seen": "2026-10-23",
+    "total": 4,
     "countries": [
       "sa",
       "world"
@@ -321817,10 +321893,25 @@
           "Taylor Swift Arrives at the Academy Museum Gala Wearing a Ice Blue Gown With a Giant Crystal Bow",
           "Taylor Swift Wears a Blue Dior Gown and 43 Carats of Diamonds at the 2026 Academy Museum Gala"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Jason Kelce scared Travis Kelce, Taylor Swift with early-morning call",
+          "Taylor Swift Already Has One Travis Kelce Family Quirk She Can't Stand",
+          "Taylor Swift Calls Jason Kelce’s Early Morning Request to Travis Kelce “F—ed Up”"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 1,
+    "last_seen": "2026-10-23",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -376612,7 +376703,7 @@
         "headlines": [
           "\"بريطانيا تواجه مخاطر في حال تجدد الحرب مع إيران\" - عرض الصحافة",
           "الجيش البريطاني قد يزول وحرب إيران تفضحه.. فمن المستفيد؟",
-          "الجيش البريطاني يحذر من احتمال خوض حرب قريبا"
+          "نصف البريطانيين يرفضون القتال من أجل البلاد تحت أي ظرف"
         ]
       }
     ],
@@ -381497,8 +381588,8 @@
         "date": "2026-10-23",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
@@ -381513,7 +381604,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "فن ومشاهير"
   },
   "petr-yan": {
@@ -381532,7 +381623,7 @@
         "publishable": false,
         "headlines": [
           "Petr Yan vs. Merab Dvalishvili joins rare list of trilogy bouts at UFC 333",
-          "Petr Yan Promises to Smash Merab Dvalishvili’s Nose at UFC 333",
+          "UFC 333 video: Petr Yan, Merab Dvalishvili make weight for trilogy bout",
           "Petr Yan Is Chasing A Title Fight Hat-Trick In Abu Dhabi"
         ]
       }
@@ -381747,5 +381838,34 @@
     ],
     "peak_traffic": 100,
     "category": "عام"
+  },
+  "القرآن-الكريم": {
+    "slug": "القرآن-الكريم",
+    "name": "القرآن الكريم",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|eg",
+        "date": "2026-10-23",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "رئيس أمريكيا الأسبق بيل كلينتون: سئمت الإساءة إلى المسلمين والقرآن يدعم للتعارف",
+          "كلينتون يستشهد بالقرآن ويرفض الإساءة للمسلمين",
+          "دعوة للتعايش أم مناكفة سياسية؟.. بيل كلينتون يستشهد بالقرآن لرفض الإساءة للمسلمين"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

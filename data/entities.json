@@ -13859,14 +13859,14 @@
         "date": "2026-10-23",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "سيلتك يواصل الانهيار فى الدوري الأوروبي بالخسارة من سيلتا فيجو 2-1",
           "القدر أنصفه رغم أنف زملائه لكنهم محقين في فقدان الثقة به .. الأرض تهتز تحت أقدام هيثم حسن وجمهور سلتيك يهاجمه أمام سيلتا فيجو: أنت الأكثر كسلًا!",
-          "تشكيل سلتيك.. هيثم حسن أساسيًا في مواجهة سيلتا فيجو"
+          "سيلتك ضد سيلتا فيجو.. هيثم حسن أساسيًا في الدوري الأوروبي",
+          "بمشاركة هيثم حسن.. سلتيك يواصل السقوط في الدوري الأوروبي بالخسارة أمام سيلتا فيجو"
         ]
       }
     ],
@@ -41653,9 +41653,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "سعر اليورو مقابل الدولار الأمريكي يستعيد زخمه الإيجابي – توقعات اليوم – 23-10-2026",
-          "البنك المركزي الأوروبي: إشارة إلى رفع ديسمبر مع مبالغة الأسواق في تسعير المسار – نومورا",
-          "EUR/USD قرب 1.1228 وسط توقعات أسعار الفائدة من ECB وFed"
+          "الذهب يهبط لأدنى مستوى في أسبوعين مع تصاعد مخاوف التضخم",
+          "الذهب يتراجع مع ترقب المستثمرين إشارات من المركزي الأمريكي بشأن الفائدة",
+          "منتجو الذهب يواجهون ضغطاً على الهوامش مع تراجع الأسعار في الربع الثالث"
         ]
       }
     ],
@@ -90169,15 +90169,30 @@
           "Wild goalie Calvin Pickard takes a look back on return to Edmonton",
           "Former Oilers teammates square off for first time"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Connor McDavid becomes fourth player to record 30 points in first 10 games",
+          "McDavid explodes out of the gate to lead Oilers to historic start",
+          "The Talking Point: McDavid's start to the season is the best you've seen since..."
+        ]
       }
     ],
-    "last_seen": "2026-10-21",
-    "total": 6,
+    "last_seen": "2026-10-23",
+    "total": 7,
     "countries": [
       "world"
     ],
     "peak_traffic": 27000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "nlds-schedule": {
     "slug": "nlds-schedule",
@@ -147449,8 +147464,8 @@
         "category": "عام",
         "publishable": true,
         "headlines": [
-          "Coalition: Air Defenses Intercept Houthi Ballistic Missile Launched Toward Riyadh",
           "Coalition air defenses down missile bound for Riyadh amid ongoing Houthi attacks",
+          "Coalition: Air Defenses Intercept Houthi Ballistic Missile Launched Toward Riyadh",
           "Coalition Announces Interception and Destruction of Drone Over Riyadh Area"
         ]
       }
@@ -252922,8 +252937,8 @@
         "date": "2026-10-23",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -258640,15 +258655,30 @@
           "Mike Lupica: If the Jets want to be taken seriously they need to win these games",
           "How to bet Bills-Rams on MNF: Analysis, tips and top prop plays"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Miami Dolphins, New York Jets have clear plans for future success",
+          "Dolphins Face Nightmare Matchup With Garrett Wilson, Jets’ Offense",
+          "Jets Ready for First Home AFC East Test Against Dolphins"
+        ]
       }
     ],
-    "last_seen": "2026-10-13",
-    "total": 1,
+    "last_seen": "2026-10-23",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 200,
-    "category": "عام"
+    "category": "دول وأماكن"
   },
   "cameron-diaz": {
     "slug": "cameron-diaz",
@@ -296372,10 +296402,24 @@
           "Six Flags Over Georgia reopens amid tensions and questions in the wake of fatal roller coaster incident",
           "Goliath Six Flags death: Hassan Kariem, who died after Georgia roller coaster incident, sat next to niece on ride, family says"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Grandmother sets record with fiery stunt in Final Destination",
+          "Final Destination Bloodlines (2025) Movie Ending Explained: Do Stefani and Charlie Escape Death?"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 2,
+    "last_seen": "2026-10-23",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -335375,10 +335419,25 @@
           "NFL Week 6 overreactions: Rams collapse, Browns are contenders?!",
           "NFL experts’ Week 6 takeaways: J.J. McCarthy time? Are the Browns good? Are the Rams bad? - The Athletic"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+2000",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "NFL Power Rankings: How all 32 teams stack up for Week 7, plus offensive issues",
+          "NFL Power Rankings, Week 7: Rams, Seahawks plummet; Texans, Saints, Cardinals biggest risers",
+          "NFL Projection Model clashes with Week 7 power rankings: 49ers at No. 7?"
+        ]
       }
     ],
-    "last_seen": "2026-10-19",
-    "total": 1,
+    "last_seen": "2026-10-23",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -375645,10 +375704,25 @@
           "Europa & Conference League: Bournemouth beat 10-man Milan and Palace draw - reaction",
           "Bournemouth 3-0 Milan, Celtic 1-2 Celta Vigo, and more: Europa League – as it happened"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Bournemouth 3-0 AC Milan: Penalties and Amine Adli's free-kick help Cherries to historic Europa League win as Mike Maignan sent off",
+          "Europa & Conference League: Bournemouth beat 10-man Milan and Palace draw - reaction",
+          "Bournemouth vs AC Milan: The tactics board - Marco Rose masterminds historic win as ten-man Rossoneri crumble"
+        ]
       }
     ],
-    "last_seen": "2026-10-22",
-    "total": 3,
+    "last_seen": "2026-10-23",
+    "total": 4,
     "countries": [
       "eg",
       "sa",
@@ -376059,10 +376133,25 @@
           "How to watch Brighton in action at Jalbonek - TV channel, stream, prediction",
           "Jablonec vs Brighton: Where to watch, live stream, TV channel & kick-off time | Goal.com US"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Jablonec 0-0 Brighton & Hove Albion: Seagulls draw in Uefa Conference League",
+          "Jablonec 0-0 Brighton: Fabian Hurzeler's side shut out in UEFA Conference League clash",
+          "Jablonec vs Brighton betting tips and predictions"
+        ]
       }
     ],
     "last_seen": "2026-10-23",
-    "total": 3,
+    "total": 4,
     "countries": [
       "sa",
       "world"
@@ -377213,10 +377302,25 @@
           "Celtic 1-2 Celta Vigo: Hoops suffer third Europa League defeat as Spaniards stun with quick double",
           "🔥Celta pull off a memorable comeback at Celtic Park"
         ]
+      },
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "O'Neill bemoans marginal moments but are Celtic just not good enough?",
+          "Celtic 1-2 Celta Vigo: Hoops suffer third Europa League defeat as Spaniards stun with quick double",
+          "Europa round-up: More Celts pain, Bournemouth crush Milan"
+        ]
       }
     ],
     "last_seen": "2026-10-23",
-    "total": 2,
+    "total": 3,
     "countries": [
       "eg",
       "world"
@@ -377544,9 +377648,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "LeBron James And 76ers’ Disastrous First Quarter Against Cavaliers Sees Record-Breaking Numbers",
-          "Why Cavs 2nd Half Meltdown vs. Sixers Looked Eerily Familiar",
-          "One Game In and it Looks Like the Same Old Cleveland Cavaliers..."
+          "Tyrese vs King: Cavs blow 29 point lead to LeBron's 76ers",
+          "Sixers starters shine in big comeback against Cavaliers at home",
+          "Philly's 29-point comeback win is the largest comeback …"
         ]
       }
     ],
@@ -378035,7 +378139,7 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "سعر البنزين وأنبوبة البوتوجاز اليوم الجمعة .. اعرف قرار لجنة التسعير",
+          "رسميًا.. أسعار البنزين والسولار اليوم الجمعة 23 أكتوبر 2026",
           "بعد ارتفاع الدولار؟ أسعار البنزين والسولار وغاز السيارات اليوم في مصر",
           "لميس الحديدي: ارتفاع خام برنت إلى 110 دولارات يطرح تساؤلات مهمة"
         ]
@@ -378326,8 +378430,8 @@
         "publishable": false,
         "headlines": [
           "Sony's Marketing the Hell Out of PS5 Console Exclusive Phantom Blade Zero in China",
-          "Phantom Blade Zero will receive three disc versions for PlayStation 5.",
-          "S-Game Bucks PlayStation’s All-Digital Future With 2027 Physical Phantom Blade Zero Edition, but the Game May Not Fit on Disc"
+          "S-Game Bucks PlayStation’s All-Digital Future With 2027 Physical Phantom Blade Zero Edition, but the Game May Not Fit on Disc",
+          "Phantom Blade Zero will receive three disc versions for PlayStation 5."
         ]
       }
     ],
@@ -378358,11 +378462,27 @@
           "Estudiantes llegó a Río entre el apoyo a Verón y los insultos para Tapia: “Oh, no soy secanuca...”",
           "PREVIEW | Flamengo vs Estudiantes: team news, lineups, predictions (Libertadores 23/10)"
         ]
+      },
+      {
+        "key": "2026-10-23|sa",
+        "date": "2026-10-23",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Estudiantes derrota por penales a Flamengo y evita final brasileña en Copa Libertadores",
+          "¡Maracabatacazo! Muslera que quitó un gol cantado a Plata, y le atajó penales a Jorginho, Paquetá y Bruno Enrique para eliminar al Fla (VIDEO)",
+          "La frase de Sabella con la que Medina ilustró la clasificación de Estudiantes a la final"
+        ]
       }
     ],
-    "last_seen": "2026-10-22",
-    "total": 1,
+    "last_seen": "2026-10-23",
+    "total": 2,
     "countries": [
+      "sa",
       "world"
     ],
     "peak_traffic": 2000,
@@ -378541,11 +378661,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Bournemouth 3-0 Milan (Oct 22, 2026) Game Analysis",
-          "Bournemouth and Milan: Two clubs connected by stripes meet at last",
-          "Italian job is spot on for rampant Cherries"
+          "Dream night for Bournemouth - how did the Premier League come to dominate Europe?",
+          "Licensable picture: UEFA Europa League - AFC Bournemouth v AC Milan",
+          "Hofmann gives Leverkusen win in Europa League, Juventus and Sunderland held to draws"
         ]
       }
     ],
@@ -380147,5 +380267,205 @@
     ],
     "peak_traffic": 100,
     "category": "رياضة"
+  },
+  "onside-kick": {
+    "slug": "onside-kick",
+    "name": "onside kick",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "NFL Needs to 'Address the Onside Kick,' Troy Vincent Says as League Explores Rule Changes",
+          "Oregon high school football coach fired after 63-0 win, multiple onside kicks - The Athletic",
+          "Marist Catholic High School removes Zach Loboy as head varsity football coach"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "rings-of-power-season-3": {
+    "slug": "rings-of-power-season-3",
+    "name": "rings of power season 3",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Sauron recruits his future Ringwraiths in Rings of Power S3 trailer",
+          "'Lord of the Rings: The Rings Of Power' Season 3 Trailer Unveiled",
+          "Back into the Fray: 'LOTR: The Rings of Power' - Season 3' Full Trailer"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "فن ومشاهير"
+  },
+  "robbie-gould": {
+    "slug": "robbie-gould",
+    "name": "robbie gould",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Chicago Bears all-time points leader resigns from high school coaching role",
+          "Former Chicago Bears kicker Robbie Gould steps down as St. Viator football coach",
+          "Former Chicago Bears kicker Robbie Gould to resign as head football coach of Saint Viator High School in Arlington Heights"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "marcus-stokes": {
+    "slug": "marcus-stokes",
+    "name": "marcus stokes",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Marcus Stokes connects for 59-yard TD pass"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "the-gentlemen-film-new-release": {
+    "slug": "the-gentlemen-film-new-release",
+    "name": "the gentlemen film new release",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Guy Ritchie & Charlie Hunnam's Solid Crime Thriller That's Now a Netflix Smash Is Getting a New Release",
+          "Guy Ritchie’s The Gentlemen Returns With Exciting New Release This December"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "fixer-upper-chip-bought-a-mansion": {
+    "slug": "fixer-upper-chip-bought-a-mansion",
+    "name": "fixer upper chip bought a mansion",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|world",
+        "date": "2026-10-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Chip and Joanna Gaines to Star in New Show, ‘Fixer Upper: Chip Bought a Mansion’ — See the Trailer! (Exclusive)",
+          "Chip and Joanna Gaines Give First Look at New 15,000-Square-Foot Texas Mansion",
+          "‘Fixer Upper’ to Return With New Spinoff Series as Chip & Joanna Gaines Renovate a Mansion"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "يارا-السكري": {
+    "slug": "يارا-السكري",
+    "name": "يارا السكري",
+    "first_seen": "2026-10-23",
+    "appearances": [
+      {
+        "key": "2026-10-23|eg",
+        "date": "2026-10-23",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "يارا السكري تروّج لمسلسل «سلطان الديب» مع أحمد العوضي في رمضان 2027",
+          "أول تعليق من هدى الأتربى بعد انضمامها لمسلسل سلطان الديب بطولة العوضى",
+          "رمضان 2027| تفاصيل ظهورهدي الأتربي في «سلطان الديب» لـ أحمد العوضي"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-23",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

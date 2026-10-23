@@ -2548,14 +2548,14 @@
         "date": "2026-10-23",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
+          "التوقيت الصيفى والشتوى 2026.. كيف تتغير الساعة وما الهدف؟",
           "الجمعة منتصف الليل.. تطبيق التوقيت الشتوي 2026 في مصر",
-          "خلال أيام.. انتهاء التوقيت الصيفي وتأخير الساعة 60 دقيقة في مصر",
-          "الرسمية والاستثناءات.. مواعيد غلق المحلات والمولات التجارية في الشتاء"
+          "خلال أيام.. انتهاء التوقيت الصيفي وتأخير الساعة 60 دقيقة في مصر"
         ]
       }
     ],
@@ -138169,8 +138169,8 @@
         "publishable": false,
         "headlines": [
           "اقتصادي / إحباط الدفاعات الجوية لمحاولة استهداف حقل شيبة وحالتا وفاة وإصابتان لمقيمين نتيجة سقوط الشظايا بعد الاعتراض",
-          "\"شيبة\".. هجوم حوثي أخطأ هدفه لكن رسالته بلغت الاقتصاد العالمي",
-          "السعودية تكشف عدد ضحايا محاولة استهداف حقل شيبة النفطي بالمنطقة الشرقية"
+          "السعودية تكشف عدد ضحايا محاولة استهداف حقل شيبة النفطي بالمنطقة الشرقية",
+          "\"شيبة\".. هجوم حوثي أخطأ هدفه لكن رسالته بلغت الاقتصاد العالمي"
         ]
       }
     ],
@@ -146719,8 +146719,8 @@
         "date": "2026-10-23",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -146735,7 +146735,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "حوادث وقضايا"
   },
   "riyadh-news": {
@@ -147325,12 +147325,12 @@
         "country_name": "السعودية",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "عام",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Coalition says intercepted six drones in Madinah, Eastern and southern regions",
-          "Coalition: Two UAVs Launched by Terrorist Houthi Militia Toward Southern Region Intercepted and Destroyed",
-          "Coalition Announces Interception and Destruction of Drone Over Riyadh Area"
+          "Dave Meltzer Reveals Compensation WWE Will Receive For Holding WrestleMania In Riyadh",
+          "WWE Rumors on WrestleMania 43 Cost, McIntyre Addresses Retirement, AEW's Dragunov Talks WWE Exit",
+          "Riyadh Airport Status Ahead Of WWE Crown Jewel 2026"
         ]
       }
     ],
@@ -147341,7 +147341,7 @@
       "sa"
     ],
     "peak_traffic": 2000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "فرنسا-منتخب": {
     "slug": "فرنسا-منتخب",
@@ -148525,15 +148525,30 @@
           "Why Tyrese Maxey is telling new teammate Dean Wade to shoot more",
           "Former Cavaliers forward drops cryptic reason why he left to join 76ers"
         ]
+      },
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Full injury reports for Sixers-Cavaliers on Thursday",
+          "Full injury report for Dean Wade, Sixers vs. Cavaliers in home opener",
+          "Barlow sidelined by back injury, 3 Sixers questionable for opener"
+        ]
       }
     ],
-    "last_seen": "2026-10-05",
-    "total": 1,
+    "last_seen": "2026-10-22",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "ariel-hukporti": {
     "slug": "ariel-hukporti",
@@ -173771,15 +173786,30 @@
           "Patriots get good news amid onslaught of Week 5 injuries vs. Raiders",
           "Patriots facing question marks at RB with Stevenson injury"
         ]
+      },
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Things you don't know about Patriots running back Rhamondre Stevenson",
+          "Rhamondre Stevenson wows announcers on second effort in third-down rush",
+          "Mike Clay lays out his Rhamondre Stevenson concerns in Week 7"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 2,
+    "last_seen": "2026-10-22",
+    "total": 3,
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
-    "category": "رياضة"
+    "peak_traffic": 2000,
+    "category": "عام"
   },
   "surface-laptop-ultra": {
     "slug": "surface-laptop-ultra",
@@ -238667,7 +238697,7 @@
         "publishable": false,
         "headlines": [
           "الداخلية تضبط شخصين بحوزتهما 521 قطعة أثرية فى المنيا.. صور",
-          "سقوط تاجري آثار في المنيا بحوزتهما 521 قطعة من قلب التاريخ",
+          "سقوط تاجري آثار بعد ضبط 521 قطعة أثرية بحوزتهما في سمالوط",
           "ماذا يعني تكرار ظهور «حاملة القرابين» في المنيا؟.. باحثة تفتح ملف لغز القطع الأثرية المتشابهة"
         ]
       }
@@ -296508,14 +296538,28 @@
           "I Simulated Tennessee vs. Alabama on the College Football 27 Video Game",
           "No. 6 Alabama’s ‘don’t let Georgia beat us twice’ moment arrives with a visit to No. 14 Tennessee"
         ]
+      },
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Auburn-Alabama exhibition hoops info",
+          "Open Thread: Alabama Basketball vs. Auburn"
+        ]
       }
     ],
-    "last_seen": "2026-10-15",
-    "total": 1,
+    "last_seen": "2026-10-22",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "رياضة"
   },
   "ryan-fitzpatrick": {
@@ -302432,9 +302476,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
+          "سعر الفراخ بالقليوبية اليوم الخميس 22 – 10 - 2026.. البيضا بـ78 جنيها",
           "سعر كيلو الفراخ البيضاء الآن بعد الانخفاض الأخير.. أسعار الدواجن اليوم الخميس 22-10-2026 بالأسواق والبورصة",
-          "ارتفاع أسعار الدواجن واللحوم في مصر اليوم الخميس",
-          "ارتفاع أسعار الدواجن وانخفاض البيض اليوم بالأسواق (موقع رسمي)"
+          "ارتفاع أسعار الدواجن واللحوم في مصر اليوم الخميس"
         ]
       }
     ],
@@ -310691,15 +310735,30 @@
           "‘Ordinary white kid’ or ‘neo-Nazi’? Court records offer new insight into alleged plot to attack Hindu temple",
           "Leaders call for federal charges against Palatine man Alexandros Paporakis in alleged shooting plot against Hindu temple in Aurora"
         ]
+      },
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Chicago spending up $4 billion since 2019, mainly for pensions, personnel",
+          "Business groups vow to block Mayor Johnson's latest try at a head tax and a 20% cloud tax",
+          "Libraries, Homeless Programs See $130 Million Boost In Mayor’s New Budget Proposal"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 1,
+    "last_seen": "2026-10-22",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 500,
+    "category": "عام"
   },
   "تعليم-عن-بعد": {
     "slug": "تعليم-عن-بعد",
@@ -376568,12 +376627,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "10000+",
         "traffic_num": 10000,
-        "category": "طقس",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
           "DAY 5: Rabada, Mulder clean up Australia as Proteas win second test",
-          "South Africa beat Boland and weather to force series decider against Australia",
-          "'Everyone wants to have a go at us' - Bavuma on life as world champions"
+          "'Everyone wants to have a go at us' - Bavuma on life as world champions",
+          "South Africa vs Australia: Proteas complete emphatic innings-victory to level three-Test series"
         ]
       }
     ],
@@ -376583,7 +376642,7 @@
       "world"
     ],
     "peak_traffic": 10000,
-    "category": "طقس"
+    "category": "رياضة"
   },
   "cathie-wood-bargain-stocks-bought": {
     "slug": "cathie-wood-bargain-stocks-bought",
@@ -377580,8 +377639,8 @@
         "date": "2026-10-23",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -377596,7 +377655,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "قوى": {
@@ -377614,8 +377673,8 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "اشتباكات مع دواعش بريف دمشق.. مقتل 5 وضبط أحزمة ناسفة",
           "قوى الأمن السورية تُفكك خلية داعشية في رنكوس وتوقع قتلى وموقوفين",
+          "اشتباكات مع دواعش بريف دمشق.. مقتل 5 وضبط أحزمة ناسفة",
           "قتلى في اشتباكات بين «الأمن» السوري وخلية لـ«داعش» بريف دمشق"
         ]
       }
@@ -377848,7 +377907,7 @@
         "headlines": [
           "Sony's Marketing the Hell Out of PS5 Console Exclusive Phantom Blade Zero in China",
           "Phantom Blade Zero will receive three disc versions for PlayStation 5.",
-          "Phantom Blade Zero Unveils Spectacular Launch Trailer | Physical Editions Arrive in 2027"
+          "Phantom Blade Zero - Official Launch Trailer"
         ]
       }
     ],
@@ -378120,5 +378179,179 @@
     ],
     "peak_traffic": 100,
     "category": "عام"
+  },
+  "mike-vrabel": {
+    "slug": "mike-vrabel",
+    "name": "mike vrabel",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Sources: Nick Sirianni, Mike Vrabel, Aaron Glenn fined for conduct toward refs",
+          "NFL fines three head coaches $250,000 for their conduct toward officials: report",
+          "Report: Eagles HC Nick Sirianni kinda-sorta-not really fined $250,000 for bad behavior"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "hurricanes-vs-oilers": {
+    "slug": "hurricanes-vs-oilers",
+    "name": "hurricanes vs oilers",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Ehlers heating up just in time for Hurricanes’ big test against Oilers on Thursday",
+          "Hurricanes vs Oilers Prediction, Picks & Combo for Tonight’s NHL Game",
+          "How to watch Hurricanes vs. Oilers: TV channel and streaming options for October 22"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "wild-vs-flames": {
+    "slug": "wild-vs-flames",
+    "name": "wild vs flames",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Wild at Flames projected lineups",
+          "As Wild’s Blake Coleman returns to Calgary, he reflects on his time in the ‘Texas of Canada’ - The Athletic",
+          "Live: Wild face Flames, former teammate Jake Middleton for first time since trade"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "atlético-nacional---pasto": {
+    "slug": "atlético-nacional---pasto",
+    "name": "atlético nacional - pasto",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Nacional vs. Pasto: ¿Por qué no juega James Rodríguez?",
+          "Nacional y el contundente mensaje para arrebatarle el liderato a Cali",
+          "Sin James pero con Cardona, estos son los convocados de Atlético Nacional para recibir al Pasto | El Colombiano"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "bernie-kosar": {
+    "slug": "bernie-kosar",
+    "name": "bernie kosar",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "“So Sorry”: Bernie Kosar and More Send Condolences as Browns Legend Shares Tragic Personal News",
+          "Cleveland Browns Legend Josh Cribbs Receives Condolences After Sharing Heartbreaking News",
+          "“So Sorry”: Bernie Kosar and More Send Condolences as Browns Legend Shares Tragic Personal News"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "hunger-game": {
+    "slug": "hunger-game",
+    "name": "hunger game",
+    "first_seen": "2026-10-22",
+    "appearances": [
+      {
+        "key": "2026-10-22|world",
+        "date": "2026-10-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Mckenna Grace Says She’s Having Fun with Her ‘Hunger Games’ Press Looks",
+          "A look at McKenna Grace’s ‘The Hunger Games’ press tour style",
+          "McKenna Grace opens up about filming 'The Hunger Games'"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
   }
 }

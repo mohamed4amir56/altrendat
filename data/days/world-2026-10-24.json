@@ -4,9 +4,107 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-10-24T05:01:13.572347+00:00",
+  "generated_at": "2026-10-24T05:31:10.908642+00:00",
   "day": "2026-10-24",
   "trends": [
+    {
+      "title": "weather forecast",
+      "traffic": "100000+",
+      "traffic_num": 100000,
+      "published": "Fri, 23 Oct 2026 21:50:00 -0700",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqGVrM2HNdr4aTO4Dc42c_KhA1b8uE5gFohiYPMxCnRSiQWoa6OilAkGm8fbs",
+      "image_source": "BBC",
+      "news": [
+        {
+          "title": "Storm Boelo: Second storm to hit UK with amber warning issued for strong wind",
+          "url": "https://www.bbc.co.uk/weather/articles/cv8ez97k0wnlo",
+          "source": "BBC",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqGVrM2HNdr4aTO4Dc42c_KhA1b8uE5gFohiYPMxCnRSiQWoa6OilAkGm8fbs",
+          "og_title": "Storm Boelo: Second storm to hit UK with amber warning issued for strong wind",
+          "og_desc": "An amber weather warning has been issued for much of Scotland, parts of Northern Ireland and northern England, as Storm Boelo approaches.",
+          "og_image": "https://ichef.bbci.co.uk/ace/branded_weather/1200/cpsprodpb/2244/live/499dda70-cecf-11f1-8507-45cb00a1c41c.jpg",
+          "ok": true
+        },
+        {
+          "title": "Rain and 80mph winds forecast for UK - as second named storm in 48 hours hits",
+          "url": "https://news.sky.com/story/rain-and-80mph-winds-forecast-for-uk-as-second-named-storm-in-48-hours-hits-13602934",
+          "source": "Sky News",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTyUu7NrF1ELw22-8pyX0ekSlN3ScTncjaU_CMSR6MoQa4VTCYkfEKH_0YzBlQ",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Trains cancelled and roads warnings as Scotland prepares for Storm Boelo",
+          "url": "https://www.bbc.com/news/articles/c60qk5lw1z8wo",
+          "source": "BBC",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSoht5J5IIVjKDZLiSq12yM2nZwT4uI0HR1KUwKVV7je_OhpapvJRpI4Qj8TZA",
+          "og_title": "Trains cancelled and roads warnings as Scotland prepares for Storm Boelo",
+          "og_desc": "Heavy rain and strong winds are expected during the second named storm to hit in two days, with gusts of up to 80mph forecast.",
+          "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/b118/live/2f6de9e0-cf03-11f1-b95c-310d5f3c558a.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "GB"
+      ],
+      "category": "طقس",
+      "icon": "🌤️",
+      "color": "#7fd8ff",
+      "reason": "العنوان يطابق: weather",
+      "publishable": true,
+      "article": {
+        "headline": "Storm Boelo Triggers 80mph Winds Across Scotland Following Destructive Storm Austen",
+        "summary": "An amber weather warning is in place for Scotland, Northern Ireland, and northern England as Storm Boelo brings potential travel chaos and power cuts this weekend.",
+        "body": "Gusts reaching up to 80mph are expected to lash exposed coastal areas as Storm Boelo arrives just one day after Storm Austen caused widespread destruction. While the National Grid managed to restore power to over 60,000 properties following Friday's winds, more than 10,000 homes remained in the dark Friday evening as emergency teams prepare for a second bout of extreme weather. In Brighton, the structural integrity of the iconic 1866 West Pier failed under the pressure of the previous storm, resulting in a section collapsing directly into the sea.\n\nResidents across much of Scotland, northern England, and parts of Northern Ireland face significant disruption as the storm sweeps through. The severe weather threatens to topple trees, damage buildings, and trigger further power outages. Beyond the immediate risk of structural damage, the combination of heavy rain and high winds creates hazardous conditions for commuters, with authorities cautioning that flying debris could pose a danger to life throughout the weekend.\n\nThe Met Office has issued an amber weather warning effective from 21:00 Saturday until 21:00 Sunday, noting the unusual length of the alert over such a wide geographical area. ScotRail has confirmed cancellations for some train services, and Network Rail is implementing speed restrictions across large parts of Scotland. Police Scotland have urged drivers to avoid unnecessary journeys as officials coordinate through the government's resilience room.\n\nConditions are expected to remain volatile through Sunday, with the strongest winds initially impacting the west before moving eastwards. Meteorological reports indicate that winds will begin to ease gradually from the west as the system passes through the region by Sunday evening.",
+        "facts": [
+          {
+            "label": "Amber warning start",
+            "value": "21:00 BST Saturday"
+          },
+          {
+            "label": "Amber warning end",
+            "value": "21:00 BST Sunday"
+          },
+          {
+            "label": "Peak wind forecast",
+            "value": "80mph"
+          },
+          {
+            "label": "Homes without power Friday",
+            "value": "10,000"
+          }
+        ],
+        "tags": [
+          "Weather",
+          "Storm Boelo",
+          "Scotland",
+          "UK",
+          "Met Office"
+        ],
+        "_v": 4,
+        "_by": "gemini",
+        "written_at": "2026-10-24T05:31:33.623042+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Lightning_in_Dallas_2015.jpg/1280px-Lightning_in_Dallas_2015.jpg",
+          "width": 1280,
+          "height": 988,
+          "artist": "NOAA Photo Library",
+          "license": "Public domain",
+          "license_url": "",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Lightning_in_Dallas_2015.jpg",
+          "stock": true,
+          "topic": "weather"
+        },
+        "photo_v": 8,
+        "_had_data": false,
+        "_localized": false
+      },
+      "card": "cards/world-2026-10-24-weather-forecast.png",
+      "published_at": "2026-10-24T05:31:10.908642+00:00"
+    },
     {
       "title": "ipswich town vs nottm forest",
       "traffic": "20000+",
@@ -424,6 +522,56 @@
       "published_at": "2026-10-24T05:01:13.572347+00:00"
     },
     {
+      "title": "stephen curry",
+      "traffic": "2000+",
+      "traffic_num": 2000,
+      "published": "Fri, 23 Oct 2026 21:40:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTFHb-ag5MmaTYccJIpNDsSm0BVL1Msrn-vUAWRC93AaaU-F9yZXyBRUBCImwI",
+      "image_source": "ESPN",
+      "news": [
+        {
+          "title": "Friday's fantasy basketball adds and bets we like in the NBA",
+          "url": "https://www.espn.com/fantasy/basketball/story/_/id/50258585/fantasy-basketball-tips-nba-betting-picks-today",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTFHb-ag5MmaTYccJIpNDsSm0BVL1Msrn-vUAWRC93AaaU-F9yZXyBRUBCImwI",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "NBA Picks Today: 3 NBA Predictions and Best Bets for Friday, October 23",
+          "url": "https://www.fanduel.com/research/nba-picks-today-nba-predictions-best-bets-oct-23-26",
+          "source": "FanDuel",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSTPaKwaAm1FH6HdsWRujI3Uh2DAWB5i1ZBLitj9l77kGfwa--9gJbTMzIbkwg",
+          "og_title": "NBA Picks Today: 3 NBA Predictions and Best Bets for Friday, October 23",
+          "og_desc": "NBA predictions and best bets for today. What are Friday's top NBA picks?",
+          "og_image": "https://cdn.sanity.io/images/pbwem9y5/ch_production/e83a07274656f165588ae30d08c242d4313ffcea-3936x2632.jpg?rect=0,269,3861,1910&w=964&h=477",
+          "ok": true
+        },
+        {
+          "title": "NBA DFS, 2026: Top FanDuel, DraftKings picks, lineups, advice for Friday, Oct. 23",
+          "url": "https://www.sportsline.com/insiders/nba-dfs-2026-top-fanduel-draftkings-picks-lineups-advice-for-friday-oct-23/",
+          "source": "SportsLine",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVeGsspF9Mh04-6KkWW9n1iWUcApAGYJkB0HmB_4wKVuk6uE1Flh5u1CJpedQ",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-stephen-curry.png",
+      "published_at": "2026-10-24T05:01:13.572347+00:00"
+    },
+    {
       "title": "quentin grimes",
       "traffic": "1000+",
       "traffic_num": 1000,
@@ -633,56 +781,6 @@
       "publishable": false,
       "card": "cards/world-2026-10-24-jaxson-hayes.png",
       "published_at": "2026-10-24T04:01:14.082575+00:00"
-    },
-    {
-      "title": "stephen curry",
-      "traffic": "1000+",
-      "traffic_num": 1000,
-      "published": "Fri, 23 Oct 2026 21:40:00 -0700",
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTFHb-ag5MmaTYccJIpNDsSm0BVL1Msrn-vUAWRC93AaaU-F9yZXyBRUBCImwI",
-      "image_source": "ESPN",
-      "news": [
-        {
-          "title": "Friday's fantasy basketball adds and bets we like in the NBA",
-          "url": "https://www.espn.com/fantasy/basketball/story/_/id/50258585/fantasy-basketball-tips-nba-betting-picks-today",
-          "source": "ESPN",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTFHb-ag5MmaTYccJIpNDsSm0BVL1Msrn-vUAWRC93AaaU-F9yZXyBRUBCImwI",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false
-        },
-        {
-          "title": "NBA Picks Today: 3 NBA Predictions and Best Bets for Friday, October 23",
-          "url": "https://www.fanduel.com/research/nba-picks-today-nba-predictions-best-bets-oct-23-26",
-          "source": "FanDuel",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSTPaKwaAm1FH6HdsWRujI3Uh2DAWB5i1ZBLitj9l77kGfwa--9gJbTMzIbkwg",
-          "og_title": "NBA Picks Today: 3 NBA Predictions and Best Bets for Friday, October 23",
-          "og_desc": "NBA predictions and best bets for today. What are Friday's top NBA picks?",
-          "og_image": "https://cdn.sanity.io/images/pbwem9y5/ch_production/e83a07274656f165588ae30d08c242d4313ffcea-3936x2632.jpg?rect=0,269,3861,1910&w=964&h=477",
-          "ok": true
-        },
-        {
-          "title": "NBA DFS, 2026: Top FanDuel, DraftKings picks, lineups, advice for Friday, Oct. 23",
-          "url": "https://www.sportsline.com/insiders/nba-dfs-2026-top-fanduel-draftkings-picks-lineups-advice-for-friday-oct-23/",
-          "source": "SportsLine",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVeGsspF9Mh04-6KkWW9n1iWUcApAGYJkB0HmB_4wKVuk6uE1Flh5u1CJpedQ",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "رياضة",
-      "icon": "⚽",
-      "color": "#3ddc97",
-      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-      "publishable": false,
-      "card": "cards/world-2026-10-24-stephen-curry.png",
-      "published_at": "2026-10-24T05:01:13.572347+00:00"
     },
     {
       "title": "tobias harris",
@@ -1038,6 +1136,159 @@
       "publishable": false,
       "card": "cards/world-2026-10-24-draymond-green.png",
       "published_at": "2026-10-24T05:01:13.572347+00:00"
+    },
+    {
+      "title": "toumani camara",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Fri, 23 Oct 2026 21:50:00 -0700",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2f13BNGO38jjT1PWTkgTA-FJTpoO8I0fSXJNf0U3FX5EjoT15PIdxhck2XYs",
+      "image_source": "azcentral.com and The Arizona Republic",
+      "news": [
+        {
+          "title": "Former Phoenix Suns guard has career night in season opener",
+          "url": "https://www.azcentral.com/story/sports/nba/suns/2026/10/22/several-former-phoenix-suns-shine-in-their-season-debuts-kevin-durant-ty-jerome/92376079007/",
+          "source": "azcentral.com and The Arizona Republic",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2f13BNGO38jjT1PWTkgTA-FJTpoO8I0fSXJNf0U3FX5EjoT15PIdxhck2XYs",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Toumani Camara News: Nets 19 points with five triples",
+          "url": "https://www.rotowire.com/basketball/headlines/toumani-camara-news-nets-19-points-with-five-triples-535794",
+          "source": "RotoWire",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRvEhkzSBd4ANhkAR95uvzzVwXAhSvWguAf6RPYJ2yQ5lvsykbvalZ55mgcVl0",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Blazers’ Lillard-Morant backcourt needs an All-Defensive season from Toumani Camara",
+          "url": "https://ripcityproject.com/blazers-lillard-morant-backcourt-needs-all-defensive-season-toumani-camara",
+          "source": "Rip City Project",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRFIArFY9Tg5WLrbVoJvnuYzHd6VxUPA7qQzEvzHouRMuEg8S_URAlL044u6GI",
+          "og_title": "Blazers’ Lillard-Morant backcourt needs an All-Defensive season from Toumani Camara",
+          "og_desc": "The Portland Trail Blazers have made a statement with their starting lineup, which means an even more important role for Toumani Camara.",
+          "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_436,y_47,w_1342,h_754/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/34/01m5k42d8nz2a4kkg9jf.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "فن ومشاهير",
+      "icon": "🎬",
+      "color": "#c77dff",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-toumani-camara.png",
+      "published_at": "2026-10-24T05:31:10.908642+00:00"
+    },
+    {
+      "title": "kody steele",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Fri, 23 Oct 2026 21:50:00 -0700",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNxMIxfYbldNKE2Nk2Fpa0F162BOjdjx7DAxy_ZMK6NdS0Bp5xox1jJH1oVWw",
+      "image_source": "Sherdog",
+      "news": [
+        {
+          "title": "Preview: UFC 333 prelims - Steele vs. Gugnon",
+          "url": "https://www.sherdog.com/news/articles/8/Preview-UFC-333-prelims-203277",
+          "source": "Sherdog",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNxMIxfYbldNKE2Nk2Fpa0F162BOjdjx7DAxy_ZMK6NdS0Bp5xox1jJH1oVWw",
+          "og_title": "Preview: UFC 333 prelims - Steele vs. Gugnon",
+          "og_desc": "The Ultimate Fighting Championship’s return to Abu Dhabi features nine preliminary bouts and a strong contingent of Russian fighters and athletes from other former Soviet republics.",
+          "og_image": "https://www1-cdn.sherdog.com/_images/headers/20261020102442_Preview_Prelims.JPG",
+          "ok": true
+        },
+        {
+          "title": "Kody Steele vs Noah Gugnon preview, prediction videos and how to watch",
+          "url": "https://boxingnews.com/video/kody-steele-vs-noah-gugnon-2026-10-24",
+          "source": "boxingnews.com",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDcJYNOBVbbq0Tvia3JOEVM9hNYkGndRR53LAI3SiW7lx2ODf-lSma1HKJzGQ",
+          "og_title": "Kody Steele vs Noah Gugnon highlights, full fight reactions and recap",
+          "og_desc": "Kody Steele vs Noah Gugnon highlights and reactions from 24 October 2026. Round-by-round breakdown, knockdown clips and post-fight analysis from boxingnews.com.",
+          "og_image": "https://boxingnews.com/api/og?title=Kody+Steele+vs+Noah+Gugnon&subtitle=Highlights+%26+video&type=event&sport=mma",
+          "ok": true
+        },
+        {
+          "title": "Kody Steele vs Noah Gugnon Prediction, Picks, Odds for UFC 333 (Saturday, October 24)",
+          "url": "https://www.actionnetwork.com/mma/kody-steele-vs-noah-gugnon-prediction-picks-odds-ufc-333-saturday-october-24",
+          "source": "Action Network",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSjyzHKObGg9cHhkBq20s94M49U7rDc61YpGBRpZYRd0rDlTWMHDmuY7h2jj3I",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-kody-steele.png",
+      "published_at": "2026-10-24T05:31:10.908642+00:00"
+    },
+    {
+      "title": "sunny balwani",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Fri, 23 Oct 2026 21:50:00 -0700",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1Chv7K8ead85Erv4ka59Fn6pTaKjQi2yejuAbzxLOvj6fIRBe04Hk-nNoo8",
+      "image_source": "USA Today",
+      "news": [
+        {
+          "title": "Who is Sunny Balwani, Elizabeth Holmes' ex-boyfriend and Theranos COO?",
+          "url": "https://www.usatoday.com/story/entertainment/movies/2026/10/23/sunny-balwani-elizabeth-holmes-documentary/92381223007/",
+          "source": "USA Today",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1Chv7K8ead85Erv4ka59Fn6pTaKjQi2yejuAbzxLOvj6fIRBe04Hk-nNoo8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Where Is Elizabeth Holmes’ Ex-Boyfriend Sunny Balwani Now? Inside His Life in Prison After Being Convicted of Fraud",
+          "url": "https://people.com/where-is-sunny-balwani-now-12181864",
+          "source": "People.com",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQn5Nyi6vI-jxC-31RPa7YC6WQpqzNDgtBBaaU1mhiUy1ZRxRc7AOKCbxhmMOw",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Supreme Court Rejects Sunny Balwani Appeal in Theranos Fraud Case",
+          "url": "https://suaragarut.id/en/supreme-court-balwani-theranos-appeal",
+          "source": "SuaraGarut.ID",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwZlleWRV1TpZWWk1KlNderc8qaI0TaGd2wTEGNTjfwzRaweFGIQs2kfuwJDY",
+          "og_title": "Supreme Court Rejects Sunny Balwani Appeal in Theranos Fraud Case",
+          "og_desc": "Sunny Balwani remains imprisoned after the Supreme Court declined to hear his appeal of convictions on 12 fraud counts tied to Theranos.",
+          "og_image": "https://cdn.suaragarut.id/media/images/2026/10/2hWL8D23sE.jpeg?location=1&width=1200&height=674&quality=80&watermark=1",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: court",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-sunny-balwani.png",
+      "published_at": "2026-10-24T05:31:10.908642+00:00"
     },
     {
       "title": "jordan poole",
@@ -1459,6 +1710,158 @@
       "publishable": false,
       "card": "cards/world-2026-10-24-malik-monk.png",
       "published_at": "2026-10-24T05:01:13.572347+00:00"
+    },
+    {
+      "title": "amusement park",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Fri, 23 Oct 2026 22:00:00 -0700",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQuslFDxIg6wTXYviLrIAA09M0fhSamw3oWzG0e9eL2IoedcSxbtWLgms_Y_qw",
+      "image_source": "People.com",
+      "news": [
+        {
+          "title": "18-Year-Old Dies After Falling from Amusement Park Ride: ‘It Could Have Been Any of Us’",
+          "url": "https://people.com/woman-dies-after-falling-from-amusement-park-ride-12188816",
+          "source": "People.com",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQuslFDxIg6wTXYviLrIAA09M0fhSamw3oWzG0e9eL2IoedcSxbtWLgms_Y_qw",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Teen dies after falling from moving carnival ride as questions mount over safety",
+          "url": "https://www.foxnews.com/travel/teen-dies-falling-from-moving-carnival-ride-questions-mount-over-safety",
+          "source": "Fox News",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQuCnj-6ZCN19GI5aOgm7SKQ1LHJ3fVql6T1M-7AFnlHe6lDiPZnffQva8aKUs",
+          "og_title": "Teen dies after falling from moving carnival ride as questions mount over safety",
+          "og_desc": "A teenage girl, 18, fell from the \"El Péndulo\" carnival ride while it was in motion at a Baja California Sur festival, triggering a criminal probe in Cabo San Lucas.",
+          "og_image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/mexico-ride.jpg",
+          "ok": true
+        },
+        {
+          "title": "Gabriela Rodríguez Tezoco: Teen Dies After Horror Amusement Park Ride Fall",
+          "url": "https://www.yahoo.com/news/world/articles/gabriela-rodr-guez-tezoco-teen-170157001.html",
+          "source": "Yahoo",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRte2pPN2AQyiDh-Eqp9ib3ela3fIbQFl-POBf0UlAGtUJoGp1qSodtbzaIQDU",
+          "og_title": "Gabriela Rodríguez Tezoco: Teen Dies After Horror Amusement Park Ride Fall",
+          "og_desc": "Gabriela Rodríguez Tezoco was a teenage girl who died in a tragic carnival ride fall from The Pendulum.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/eaee517ec07e57b66e3c22c09d1eae69898bc0765c23feca4fee42b05cc8eba5/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmen_s_journal_718%2F9abd3cf25fe163010686acd0b8efda42.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: dies",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-amusement-park.png",
+      "published_at": "2026-10-24T05:31:10.908642+00:00"
+    },
+    {
+      "title": "asaf chopurov",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Fri, 23 Oct 2026 22:00:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ94DPpfmgZxCreQeQWAq1pXbwq3uciUHLeGX5_zgEUuJYYviJDgqEQEcKY__k",
+      "image_source": "Yahoo Sports",
+      "news": [
+        {
+          "title": "Colby Thicknesse vs Asaf Chopurov Prediction, Picks, Odds for UFC 333 (Saturday, October 24)",
+          "url": "https://sports.yahoo.com/articles/colby-thicknesse-vs-asaf-chopurov-001638288.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ94DPpfmgZxCreQeQWAq1pXbwq3uciUHLeGX5_zgEUuJYYviJDgqEQEcKY__k",
+          "og_title": "Colby Thicknesse vs Asaf Chopurov Prediction, Picks, Odds for UFC 333 (Saturday, October 24)",
+          "og_desc": "Colby Thicknesse vs Asaf Chopurov Thicknesse Odds +470 Chopurov Odds -650 Over/Under 2.5 (+120/-154) Location Etihad Arena, Abu Dhabi, UAE Bout Time 11:45 a.m. ET",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/4940bfcfba79b7f801672e6dc8c6b435f6fc918d2f501093efea4711d404d260/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Faction_network_147%2F46b550154d4d65849647aa8ead2a0fae.jpg",
+          "ok": true
+        },
+        {
+          "title": "Asaf Chopurov | The 'Honey Badger' Is Here",
+          "url": "https://www.ufc.com/news/asaf-chopurov-the-honey-badger-is-here-ufc-333",
+          "source": "UFC.com",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTj7ld-eTNuSopfTKVNHG-lHP4JARr64ORYwD8wHFvx92dmqf6-AyCA2qVNh7w",
+          "og_title": "Asaf Chopurov | The 'Honey Badger' Is Here",
+          "og_desc": "Standout Bantamweight Asaf Chopurov Prospects Talks Amateur Experience, UFC Debut, Championship Aspirations",
+          "og_image": "https://ufc.com/images/styles/card/s3/2026-10/102226-asaf-chopurov-shadowboxing-ufc-333_MR-333_MediaDays-4.jpg?itok=BIVnqvuC",
+          "ok": true
+        },
+        {
+          "title": "Asaf Chopurov makes weight ahead of UFC 333 debut",
+          "url": "https://operativmm.az/en/post/asaf-chopurov-makes-weight-ahead-of-ufc-333-debut/83828",
+          "source": "Operativ Məlumat Mərkəzi",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQOxLILFojmRvtINZxtMku9sjeiHHBCaVBrKnOw9R_KtpBidUSJqqZy2vTP2O4",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-asaf-chopurov.png",
+      "published_at": "2026-10-24T05:31:10.908642+00:00"
+    },
+    {
+      "title": "de'andre hunter",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Fri, 23 Oct 2026 22:00:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJ4YgclQOzwpWMtr0c6TX6d2e0EesrP9oIKzD3pZ9XEQLGFczLSiTK95zwj0U",
+      "image_source": "CBS Sports",
+      "news": [
+        {
+          "title": "Kings' Precious Achiuwa: Strong effort off bench",
+          "url": "https://www.cbssports.com/fantasy/basketball/news/kings-precious-achiuwa-strong-effort-off-bench/",
+          "source": "CBS Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJ4YgclQOzwpWMtr0c6TX6d2e0EesrP9oIKzD3pZ9XEQLGFczLSiTK95zwj0U",
+          "og_title": "Kings' Precious Achiuwa: Strong effort off bench",
+          "og_desc": "Kings' Precious Achiuwa: Strong effort off bench",
+          "og_image": "https://sportsfly.cbsistatic.com/fly-864/bundles/sportsmediacss/images/fantasy/default-article-image-large.png",
+          "ok": true
+        },
+        {
+          "title": "Will Achiuwa Take Hunter’s Spot in Kings' Starting Lineup?",
+          "url": "https://sports.yahoo.com/articles/achiuwa-hunter-spot-kings-starting-220605719.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRe74tyzapVp8yYT49sOAHTQCeVO5jP2uu-1xsIhDwQxZbUT3QIO9Ed2DbT9XI",
+          "og_title": "Will Achiuwa Take Hunter’s Spot in Kings' Starting Lineup?",
+          "og_desc": "Precious Achiuwa’s high-motor performance sparked a massive statistical swing against the Clippers, forcing coach Doug Christie to weigh bench energy against De’Andre Hunter’s underwhelming production in Sacramento’s rotation.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/4948ccad85ecb8902b8c124fc97f0cff3d3d1abef3da63d6143d87ab7d7a5124/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Froundtable_sports_sacramento_kings_742%2F3d78b5283aecf9eb359d7785d8d36b0b.jpg",
+          "ok": true
+        },
+        {
+          "title": "What to know about the Sacramento Kings' home opener",
+          "url": "https://www.kcra.com/article/sacramento-kings-home-opener-golden-1-center/74210880",
+          "source": "KCRA",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDWejMmIlRDlo8-2EuMi0mmgyHvEBrpttrfwUKz9dNdFPEjFu4mxIMmR4XU8E",
+          "og_title": "What to know about the Sacramento Kings' home opener",
+          "og_desc": "The Sacramento Kings will host their home opener Oct. 23 at 7 p.m. against the Portland Trail Blazers.",
+          "og_image": "https://kubrick.htvapps.com/htv-prod/images/01fb2892-5758-473a-8abb-f9c228c8cd6f.jpg?crop=1xw%3A0.8181818181818182xh%3Bcenter%2Ctop&resize=1200%3A*",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-deandre-hunter.png",
+      "published_at": "2026-10-24T05:31:10.908642+00:00"
     }
   ]
 }

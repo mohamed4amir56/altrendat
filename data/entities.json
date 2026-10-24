@@ -6305,8 +6305,8 @@
         "date": "2026-10-24",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+20200",
-        "traffic_num": 20200,
+        "traffic": "+50200",
+        "traffic_num": 50200,
         "category": "طقس",
         "publishable": true,
         "headlines": [
@@ -6323,7 +6323,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 50000,
+    "peak_traffic": 50200,
     "category": "طقس"
   },
   "إنستاباي": {
@@ -27453,7 +27453,7 @@
         "headlines": [
           "'Don't know what he was thinking' - Harmer's surprise at Labuschagne's shot",
           "Mass changes: Katich’s prediction for final South Africa Test",
-          "One out: The numbers that show Australia's batting issues"
+          "'Clearly we need to be a lot better than that': Cummins"
         ]
       }
     ],
@@ -118771,12 +118771,12 @@
         "country_name": "مصر",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "رياضة",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Steph Curry on playing in Phoenix tomorrow: ‘Probably not’",
-          "Warriors will ‘lose sleep’ over late collapse in loss to Grizzlies",
-          "Ty Jerome stays hot, scores 28 points vs. GSW"
+          "NBA: Atlanta Hawks at Charlotte Hornets",
+          "Daniels steals spotlight, masked teammate shines in NBA",
+          "Brandon Miller Shooting Struggles Has Charlotte Fans Restless Already"
         ]
       }
     ],
@@ -118788,7 +118788,7 @@
       "world"
     ],
     "peak_traffic": 30000,
-    "category": "رياضة"
+    "category": "حوادث وقضايا"
   },
   "kraken-vs-oilers": {
     "slug": "kraken-vs-oilers",
@@ -122107,13 +122107,13 @@
         "date": "2026-10-24",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "Fight By Fight Preview | UFC 333: Volkanovski vs Evloev",
-          "UFC 333: Alexander Volkanovski nears featherweight immortality as record beckons",
+          "Volkanovski nears featherweight immortality as record beckons",
           "UFC 333 preview and picks for featherweight, men's bantamweight titles"
         ]
       }
@@ -171856,8 +171856,8 @@
         "date": "2026-10-24",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -228838,10 +228838,25 @@
           "Bengaluru Kempegowda International Airport Departures",
           "San Jose Juan Santamaria International Airport Arrivals"
         ]
+      },
+      {
+        "key": "2026-10-24|sa",
+        "date": "2026-10-24",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Riyadh King Khalid International Airport Departures",
+          "Palma de Mallorca Airport Departures",
+          "Delhi Indira Gandhi International Airport Arrivals"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 1,
+    "last_seen": "2026-10-24",
+    "total": 2,
     "countries": [
       "sa"
     ],
@@ -239009,15 +239024,30 @@
           "Abhishek Sharma Told Teammate 'Beizzati Mat Kara Diyo' During 3rd India vs West Indies T20I. Here's The Full Story",
           "Ind vs WI 3rd T20I - Cheteshwar Pujara on Prince Yadav's impact in Indore"
         ]
+      },
+      {
+        "key": "2026-10-24|sa",
+        "date": "2026-10-24",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Live: Black Caps v India - second T20",
+          "IND vs NZ 2nd T20I 2026 live scorecard, toss winner, winning probability, result and highlights from Christchurch",
+          "IND vs NZ: India pacer Prince Yadav forces Finn Allen to scoop into trouble during 2nd T20I in Christchurch; Watch video"
+        ]
       }
     ],
-    "last_seen": "2026-10-14",
-    "total": 2,
+    "last_seen": "2026-10-24",
+    "total": 3,
     "countries": [
       "sa",
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "رياضة"
   },
   "deep-sea": {
@@ -339858,15 +339888,30 @@
           "Philippines Summons China Envoy Over ‘Use of Force’ Threat",
           "Philippines protests Chinese envoy’s remarks, calling them a ‘thinly veiled threat’"
         ]
+      },
+      {
+        "key": "2026-10-24|world",
+        "date": "2026-10-24",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Meghan says she was informed about 'disturbing allegations' against her father in 2018",
+          "Meghan ‘deeply distressed’ over child sex abuse image allegations against father",
+          "Royal Family May Distance Itself From Harry and Meghan, Expert Says"
+        ]
       }
     ],
-    "last_seen": "2026-10-19",
-    "total": 1,
+    "last_seen": "2026-10-24",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
-    "category": "دول وأماكن"
+    "peak_traffic": 5000,
+    "category": "عام"
   },
   "thiruvananthapuram-international-airport": {
     "slug": "thiruvananthapuram-international-airport",
@@ -340007,15 +340052,30 @@
           "Boulter wins fifth edition of rivalry vs. Golubic in Osaka second round",
           "Katie Boulter advances after rain delays at Japan Open as Iga Swiatek fails to qualify for WTA Finals"
         ]
+      },
+      {
+        "key": "2026-10-24|world",
+        "date": "2026-10-24",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تعليم",
+        "publishable": false,
+        "headlines": [
+          "Katie Boulter reaches Japan Open semi-final to reclaim British number one ranking",
+          "Japan Open: Katie Boulter battles back to beat Antonia Ruzic and reach semi-finals as she reclaims British No 1 spot",
+          "How to watch Katie Boulter v Katerina Siniakova at the Japan Open: TV channel, live streaming, start time and venue"
+        ]
       }
     ],
-    "last_seen": "2026-10-23",
-    "total": 3,
+    "last_seen": "2026-10-24",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "رياضة"
+    "category": "تعليم"
   },
   "ocarina-of-time-remake-switch-2": {
     "slug": "ocarina-of-time-remake-switch-2",
@@ -386716,7 +386776,7 @@
         "publishable": false,
         "headlines": [
           "Barcelona-Real Madrid: Clásico form, team news, combined XI, predictions, odds",
-          "Barcelona star Rodri primed for El Clasico debut but fires revenge warning to team-mates ahead of Real Madrid clash",
+          "Barcelona vs Real Madrid preview: Catalan giants look to bounce back from PSG nightmare against Los Blancos",
           "El Clasico: All to know about the rivalry between Barcelona and Real Madrid"
         ]
       }
@@ -393775,14 +393835,14 @@
         "date": "2026-10-24",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "سعيد الشحات يكتب: ذات يوم.. 24 أكتوبر 1937.. استشهاد الضابط محمود الجيزى الذى اختبأ فى السويس 9 أيام اصطاد خلالها بخنجره تسعة جنود أعداء ثم قاتل القوات الإسرائيلية 11 ساعة",
           "سعيد الشحات يكتب: ذات يوم.. 23 أكتوبر 1973.. المقاومة الشعبية فى السويس وأبطال «منظمة سيناء» يسهرون الليل انتظارا لدخول القوات الإسرائيلية التى اخترقت قرار وقف إطلاق النار",
-          "\"السمسمية\" والأغاني الوطنية تشعلان احتفالات السويس بعيدها القومي (فيديو وصور)"
+          "مفتي الجمهورية ووزير الأوقاف ومحافظ السويس يؤدون صلاة الجمعة بمسجد بدر بورتوفيق",
+          "بث مباشر| شعائر صلاة الجمعة من مسجد بدر بمحافظة السويس"
         ]
       }
     ],
@@ -393791,7 +393851,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 2000,
     "category": "شخصية"
   },
   "خالد-سليم": {
@@ -394360,8 +394420,8 @@
         "publishable": false,
         "headlines": [
           "بداية التوقيت الشتوى 2026 فى هذا الموعد.. تفاصيل",
-          "الساعة 12 هترجع 11 مساء.. تأخير الساعة وبدء التوقيت الشتوي يوم الجمعة رسميًا",
-          "خلال أيام.. انتهاء التوقيت الصيفي وتأخير الساعة 60 دقيقة في مصر"
+          "التوقيت الشتوي أم الصيفي؟ دراسة تحسم الجدل وتكشف أيهما أفضل لصحتك ونومك",
+          "إعلان مواعيد المترو والسكة الحديد بالتوقيت الشتوي خلال أيام"
         ]
       }
     ],
@@ -395515,13 +395575,13 @@
         "date": "2026-10-24",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "تقنية",
         "publishable": false,
         "headlines": [
           "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
-          "Moonshot Debuts First AI Upgrade Since Its Own DeepSeek Moment",
+          "Moonshot AI launches new flagship Kim K3.1 Pro model with 3T parameters",
           "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence"
         ]
       }
@@ -395531,7 +395591,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "تقنية"
   },
   "ethan-klein": {
@@ -395544,8 +395604,8 @@
         "date": "2026-10-24",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -395560,7 +395620,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "عام"
   },
   "إكرامي-الشحات": {
@@ -395573,8 +395633,8 @@
         "date": "2026-10-24",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -395589,7 +395649,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "امال-ماهر": {
@@ -395602,8 +395662,8 @@
         "date": "2026-10-24",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -395618,7 +395678,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "bevon-jacobs": {
@@ -395631,14 +395691,14 @@
         "date": "2026-10-24",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "'Pretty incredible': Bevon Jacobs' chance to prove he's NZ's batting future",
-          "Black Caps aim to turn tides against India in second T20 clash",
-          "Blackcaps batter ready to seize opportunity against India"
+          "India and NZ return to Hagley Oval chasing more runs",
+          "Kotak backs Dhir’s promise after stunning Christchurch knock",
+          "'I Don't Play To Prove Anyone Wrong': Sanju Samson's Blunt Message To Critics After India's Record T20I Chase"
         ]
       }
     ],
@@ -395647,7 +395707,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 10000,
     "category": "عام"
   },
   "tim-seifert": {
@@ -395777,11 +395837,12 @@
         "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "فن ومشاهير",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Tanzid urges Bangladesh batters to take responsibility",
-          "ODI Tri-Series: Zimbabwe beat Bangladesh by 99 runs: 150-run partnership between Ervine and Taylor, Brad Ev..."
+          "Black Cap Glenn Phillips pushes back at Indian reporters over dropped catches during Hagley T20",
+          "Got to have plan C, D, E, F, G, H, I, J for Indian batters: Phillips",
+          "‘It’s great for cricket, brings people back’: Phillips on close series opener vs IND"
         ]
       }
     ],
@@ -395791,6 +395852,35 @@
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "فن ومشاهير"
+    "category": "رياضة"
+  },
+  "اخبار-السعودية-اليوم": {
+    "slug": "اخبار-السعودية-اليوم",
+    "name": "اخبار السعودية اليوم",
+    "first_seen": "2026-10-24",
+    "appearances": [
+      {
+        "key": "2026-10-24|sa",
+        "date": "2026-10-24",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "\"صحة الشرقية\" توضح ملابسات استقبال حالة جراء الاعتداء على مطار الملك فهد الدولي",
+          "إدانات عربية ودولية للاعتداء الحوثي الإرهابي على مطار الدمام.. وتأكيد التضامن مع السعودية",
+          "إسبانيا تدين هجمات مليشيا الحوثي على المنشآت المدنية في المملكة واليمن: تؤجج تصعيد العنف في المنطقة"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-24",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "دول وأماكن"
   }
 }

@@ -4,13 +4,13 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-10-24T07:31:24.176620+00:00",
+  "generated_at": "2026-10-24T08:01:15.161984+00:00",
   "day": "2026-10-24",
   "trends": [
     {
       "title": "weather forecast",
-      "traffic": "+450000",
-      "traffic_num": 450000,
+      "traffic": "+460000",
+      "traffic_num": 460000,
       "published": "Fri, 23 Oct 2026 21:50:00 -0700",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqGVrM2HNdr4aTO4Dc42c_KhA1b8uE5gFohiYPMxCnRSiQWoa6OilAkGm8fbs",
       "image_source": "BBC",
@@ -145,6 +145,27 @@
           "og_desc": "Met Éireann, the Irish National Meteorological Service, is the leading provider of weather information and related services for Ireland.",
           "og_image": "https://www.met.ie/images/OG-icon.jpg",
           "ok": true
+        },
+        {
+          "title": "Live Status Orange rain warning in place for counties Galway and Kerry",
+          "url": "https://www.rte.ie/news/2026/1024/1596693-storm-boelo-live-blog/",
+          "source": "RTE.ie",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTne7cP8xPgQAVZ6hhWcZSv00y6wGzSprF2dxTJ-tNubmytiBy_qUBau9x-EEc",
+          "og_title": "Status Orange rain warning in place for Galway, Kerry",
+          "og_desc": "Keep up to date with the latest developments as Storm Boelo brings heavy rain and strong winds across the country, with the most severe impacts expected across the west coast and northern coastal counties.",
+          "og_image": "https://www.rte.ie/images/00236412-1600.jpg",
+          "ok": true
+        },
+        {
+          "title": "Storm Boelo: Status Orange rain warning in place for two counties as Ireland braces for second storm in three days",
+          "url": "https://www.independent.ie/weather/storm-boelo-status-orange-rain-warning-in-place-for-two-counties-as-ireland-braces-for-second-storm-in-three-days/a/163475813.html",
+          "source": "Irish Independent",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRfdWP021uEy_-vWEaIfwJFZLZ_fM6kXFtUt08f5ado-Nzvg6UQqDZxIy7O2BA",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         }
       ],
       "geos": [
@@ -419,60 +440,9 @@
       "published_at": "2026-10-24T05:01:13.572347+00:00"
     },
     {
-      "title": "cricbuzz",
-      "traffic": "5000+",
-      "traffic_num": 5000,
-      "published": "Sat, 24 Oct 2026 00:00:00 -0700",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-z9YLeAWxsvEZdR0CFBWSTJ7O0uVfDzOOkbJyDe3AU7LW_xLk6TJwMKF707I",
-      "image_source": "Cricinfo",
-      "news": [
-        {
-          "title": "Afghanistan beat Zimbabwe, Afghanistan won by 7 wickets (with 93 balls remaining)",
-          "url": "https://www.cricinfo.com/series/uae-odi-tri-series-2026-27-1555109/afghanistan-vs-zimbabwe-final-1556871/live-cricket-score",
-          "source": "Cricinfo",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-z9YLeAWxsvEZdR0CFBWSTJ7O0uVfDzOOkbJyDe3AU7LW_xLk6TJwMKF707I",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Final (D/N), UAE ODI Tri-Series at Sharjah, Oct 23 2026",
-          "url": "https://www.espn.com/cricket/series/10931/scorecard/1556871/afghanistan-vs-zimbabwe-final-uae-odi-tri-series-2026-27",
-          "source": "ESPN",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEWapRM03h0E5hb-3NspdI1QySqIl2hMPgtZHGTLLfU9uBgGPH5UNpES-KZG8",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false
-        },
-        {
-          "title": "Afghanistan boost CWC27 build-up with stellar tri-series win",
-          "url": "https://www.icc-cricket.com/tournaments/icc-cricket-world-cup-2027/news/afghanistan-boost-cwc27-build-up-with-stellar-tri-series-win",
-          "source": "ICC",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcThwrK8Xry30ULkmuCclL_NTbHQ1QpMqVeJwD7G2pZpmoEIEhBGSvVPBqoTBkE",
-          "og_title": "Afghanistan boost CWC27 build-up with stellar tri-series win | ICC Cricket World Cup, 2027 | ICC",
-          "og_desc": "Afghanistan put up an impressive display in all their three matches in the triangular series that featured both Bangladesh and Zimbabwe.",
-          "og_image": "https://images.icc-cricket.com/image/upload/t_ratio16_9-size20-webp/prd/gwvsdlviwgouoxwkdcq7",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "فن ومشاهير",
-      "icon": "🎬",
-      "color": "#c77dff",
-      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-      "publishable": false,
-      "card": "cards/world-2026-10-24-cricbuzz.png",
-      "published_at": "2026-10-24T07:01:28.363833+00:00"
-    },
-    {
       "title": "nz vs ind",
-      "traffic": "5000+",
-      "traffic_num": 5000,
+      "traffic": "+5500",
+      "traffic_num": 5500,
       "published": "Fri, 23 Oct 2026 23:40:00 -0700",
       "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQvo9vLGo6GKYlBSm5anYw7MxqPCuqenzgmeVIik4E5PWFC1w06__Xza3zmWhQ",
       "image_source": "Yahoo Sports",
@@ -506,6 +476,16 @@
           "og_desc": "Follow New Zealand vs India in the second T20I with live scores, in-play updates, match statistics and commentary from India’s tour of New Zealand.",
           "og_image": "https://www.cricketworld.com/media/img/a/d/169303.jpg",
           "ok": true
+        },
+        {
+          "title": "NZ vs IND 2nd T20I live streaming: Where to watch today's cricket match?",
+          "url": "https://www.business-standard.com/cricket/news/nz-vs-ind-2nd-t20i-live-streaming-where-to-watch-today-s-cricket-match-126102300353_1.html",
+          "source": "Business Standard",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVAcAXMk4vaHESKHzhQUxeLAiXB4VXWX54fwtkZBlfDBnIyPGmMxTM0npu3cc",
+          "og_title": "NZ vs IND 2nd T20I live streaming: Where to watch today's cricket match?",
+          "og_desc": "New Zealand vs India 2nd T20I begins at 12:30 pm IST on Saturday, with the toss at 12 pm IST. Fans in India can stream the match on the SonyLIV app and website",
+          "og_image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-10/23/thumb/resize/1200X628/1792733576-6898.jpg",
+          "ok": true
         }
       ],
       "geos": [
@@ -518,6 +498,107 @@
       "publishable": false,
       "card": "cards/world-2026-10-24-nz-vs-ind.png",
       "published_at": "2026-10-24T07:01:28.363833+00:00"
+    },
+    {
+      "title": "cricbuzz",
+      "traffic": "5000+",
+      "traffic_num": 5000,
+      "published": "Sat, 24 Oct 2026 00:00:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEWapRM03h0E5hb-3NspdI1QySqIl2hMPgtZHGTLLfU9uBgGPH5UNpES-KZG8",
+      "image_source": "ESPN",
+      "news": [
+        {
+          "title": "Final (D/N), UAE ODI Tri-Series at Sharjah, Oct 23 2026",
+          "url": "https://www.espn.com/cricket/series/10931/scorecard/1556871/afghanistan-vs-zimbabwe-final-uae-odi-tri-series-2026-27",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEWapRM03h0E5hb-3NspdI1QySqIl2hMPgtZHGTLLfU9uBgGPH5UNpES-KZG8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Pybus lauds Afghanistan's 'very diverse but very competent bowling unit'",
+          "url": "https://www.cricinfo.com/story/uae-odi-tri-series-final-afg-vs-zim-richard-pybus-on-rashid-khan-and-rahmat-shah-1559811",
+          "source": "Cricinfo",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ3gQvFUAFmjF8dE17jURCgNjmpFQprNHtcXENNPAQdAlgwHSwiwS7K-_jVJ_0",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Afghanistan boost CWC27 build-up with stellar tri-series win",
+          "url": "https://www.icc-cricket.com/tournaments/icc-cricket-world-cup-2027/news/afghanistan-boost-cwc27-build-up-with-stellar-tri-series-win",
+          "source": "ICC",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcThwrK8Xry30ULkmuCclL_NTbHQ1QpMqVeJwD7G2pZpmoEIEhBGSvVPBqoTBkE",
+          "og_title": "Afghanistan boost CWC27 build-up with stellar tri-series win | ICC Cricket World Cup, 2027 | ICC",
+          "og_desc": "Afghanistan put up an impressive display in all their three matches in the triangular series that featured both Bangladesh and Zimbabwe.",
+          "og_image": "https://images.icc-cricket.com/image/upload/t_ratio16_9-size20-webp/prd/gwvsdlviwgouoxwkdcq7",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "فن ومشاهير",
+      "icon": "🎬",
+      "color": "#c77dff",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-cricbuzz.png",
+      "published_at": "2026-10-24T07:01:28.363833+00:00"
+    },
+    {
+      "title": "ufc",
+      "traffic": "5000+",
+      "traffic_num": 5000,
+      "published": "Sat, 24 Oct 2026 00:40:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9eo2uKLrnBZXwOf74cPjIHpBXNGW6y9iv_ocDtuqxjzA9uHRslcaWADwy13g",
+      "image_source": "UFC.com",
+      "news": [
+        {
+          "title": "Main Card Results | UFC 333: Volkanovski vs Evloev",
+          "url": "https://www.ufc.com/news/ufc-333-volkanovski-vs-evloev-results",
+          "source": "UFC.com",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9eo2uKLrnBZXwOf74cPjIHpBXNGW6y9iv_ocDtuqxjzA9uHRslcaWADwy13g",
+          "og_title": "Main Card Results | UFC 333: Volkanovski vs Evloev",
+          "og_desc": "UFC 333: Volkanovski vs Evloev Live Results, Highlights, Post-Fight Interviews With The Main Card Winners And More From Etihad Arena In Abu Dhabi On October 24, 2026",
+          "og_image": "https://ufc.com/images/styles/card/s3/2026-09/102426-ufc-333-volkanovski-vs-evloev-EVENT-ART.jpg?itok=H_tsrA7n",
+          "ok": true
+        },
+        {
+          "title": "UFC 333 live stream: How to watch Volkanovski vs. Evloev, start time, channel",
+          "url": "https://sports.yahoo.com/articles/ufc-333-live-stream-watch-074001718.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTJNv_UZ5R3Vnt8uz3gD8Dgn84_9RjcGVQVh3c469xBd1lWM1L8X_MT3onPtLI",
+          "og_title": "UFC 333 live stream: How to watch Volkanovski vs. Evloev, start time, channel",
+          "og_desc": "Whether you’re watching on a smart TV, phone, or laptop, we’ll walk you through the streaming options so you don’t miss UFC 333.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/fc8c39b4a1aaaea819cfe2f5ca34e2dbe788c9e8f891ef9d44361e1ecd0f682d/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_sporting_news_articles_584%2Fa8052a8815a5c9b9773d6df526789781",
+          "ok": true
+        },
+        {
+          "title": "UFC 333 preview and picks for featherweight, men's bantamweight titles",
+          "url": "https://www.espn.com/mma/story/_/id/50238314/ufc-333-preview-picks",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0CbFCEkwEWokcze5rhv0HRsWkN2dWMddhJUFLaIf6hRHoCbprmYIjB-7iQPo",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-ufc.png",
+      "published_at": "2026-10-24T08:01:15.161984+00:00"
     },
     {
       "title": "brewers schedule",
@@ -1033,88 +1114,6 @@
       "publishable": false,
       "card": "cards/world-2026-10-24-state-farm.png",
       "published_at": "2026-10-24T06:31:09.169100+00:00"
-    },
-    {
-      "title": "new zealand national cricket team vs india national cricket team match scorecard",
-      "traffic": "+700",
-      "traffic_num": 700,
-      "published": "Fri, 23 Oct 2026 23:50:00 -0700",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS74-IwXfGO-N6xpM5nLIP_Kr4aiz0ibpoWbHhJYPFb0vi7-Uz6Truqe4Gy1k8",
-      "image_source": "Cricinfo",
-      "news": [
-        {
-          "title": "NZ vs IND 1st T20I LIVE REPORT - Samson, Iyer and Dhir star in tense India win",
-          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-1st-t20i-1539432/live-match-blog",
-          "source": "Cricinfo",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS74-IwXfGO-N6xpM5nLIP_Kr4aiz0ibpoWbHhJYPFb0vi7-Uz6Truqe4Gy1k8",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "New Zealand vs. India: Samson & Dhir star in Christchurch as the duo helps India get over the line",
-          "url": "https://sports.yahoo.com/articles/zealand-vs-india-live-score-062556874.html",
-          "source": "Yahoo Sports",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRB5i5H7u74ngZ8nNAPWoL28Wd2zr3nyvn4LRB6I_rVNHaMXqVmtjuv0i1axio",
-          "og_title": "New Zealand vs. India: Samson & Dhir star in Christchurch as the duo helps India get over the line",
-          "og_desc": "Here are live updates for the 1st T20I between India and New Zealand from the Hagley Oval in Christchurch.",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/afbc35c63043717dee72c9f44d42a2216ac3f706b48ea09a0a6ff874c22ad8af/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_sporting_news_articles_584%2Fb22de8d3f46bc159864d834e07293689",
-          "ok": true
-        },
-        {
-          "title": "India and NZ return to Hagley Oval chasing more runs",
-          "url": "https://www.cricbuzz.com/cricket-news/140625/2nd-t20i-preview-india-nz-return-to-hagley-oval-chasing-more-runs-cricbuzzcom",
-          "source": "Cricbuzz",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQhdM36TmVzXLq8DX0-b-WgO_G00ec5w_O7UFsK_cWXZg977psd07RxWAbjRj0",
-          "og_title": "India and NZ return to Hagley Oval chasing more runs",
-          "og_desc": "The hosts will look to bounce back after going down to India in the high-scoring opening T20I",
-          "og_image": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1104816/with-ishan-kishan-ruled-out-vaibhav-sooryavanshi-is-in-the-selection-fray.jpg",
-          "ok": true
-        },
-        {
-          "title": "NZ vs IND 2nd T20I live report - Another high-scoring game in the offing",
-          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-2nd-t20i-1539433/live-match-blog",
-          "source": "Cricinfo",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQcFIls6ePXDGpci1kWLRbh682l-aTtnF0dT9Ktm4JTSKrriBBhCgJy2Hw1k7k",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Ishan Kishan ruled out of second T20I; Kumar Kushagra added as cover",
-          "url": "https://www.bcci.tv/news/article/ishan-kishan-ruled-out-of-second-t20i-kumar-kushagra-added-as-cover",
-          "source": "BCCI",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRM5mOMb-XqPwAjwS8NT13XTppIhxGkoGEH8V2TbE2NfJguIeZwUIn60UTrZyM",
-          "og_title": "Ishan Kishan ruled out of second T20I; Kumar Kushagra added as cover",
-          "og_desc": "MEDIA ADVISORY October 23, 2026 India’s Tour of New Zealand Ishan Kishan ruled out of second T20I; Kumar Kushagra added as cover Wicketkeeper-batter Ishan Kisha",
-          "og_image": "https://www.bcci.tv/cms/images/gtykgr9m2ngt/3DWdhMDQ7IxyUZbvXQnmhB/e9e373a1267f672b6d23fae6c2a5134e/_J7A6462.JPG",
-          "ok": true
-        },
-        {
-          "title": "Vaibhav Sooryavanshi score today for New Zealand vs. India 2nd T20I in Christchurch",
-          "url": "https://sports.yahoo.com/articles/vaibhav-sooryavanshi-score-today-zealand-043001375.html",
-          "source": "Yahoo Sports",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSIcqTN_djCEbX1H6jgLJTBmTqGE4rGzL1RSfYuOsxVHVhlOgKAtRtbGnv6sNU",
-          "og_title": "Vaibhav Sooryavanshi score today for New Zealand vs. India 2nd T20I in Christchurch",
-          "og_desc": "Sooryavanshi remains in strong contention to feature in India's playing XI as a top-order batter following the adductor injury to Ishan Kishan.",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/695b2a5a486ada152e89183a2af78c2fd0e04c06c2701bf356085b163fd51acd/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_sporting_news_articles_584%2F2bd9856be32c567c60a83a23fb6624d4",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "رياضة",
-      "icon": "⚽",
-      "color": "#3ddc97",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-10-24-new-zealand-national-cricket-team-vs-india-national-cricket-team-match-scorecard.png",
-      "published_at": "2026-10-24T07:18:33.888148+00:00"
     },
     {
       "title": "tobias harris",
@@ -1825,6 +1824,57 @@
       "publishable": false,
       "card": "cards/world-2026-10-24-internet.png",
       "published_at": "2026-10-24T07:01:28.363833+00:00"
+    },
+    {
+      "title": "brazil election",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Sat, 24 Oct 2026 00:30:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYBmWJs7NOeHlthDoQIHDXXZ2WotMNquhSG66OJdfQZ9wujwSzXngu7yHeF8o",
+      "image_source": "Reuters",
+      "news": [
+        {
+          "title": "Flavio Bolsonaro and Lula about even ahead of Brazil runoff, Datafolha poll shows",
+          "url": "https://www.reuters.com/world/americas/flavio-bolsonaro-lula-about-even-ahead-brazil-runoff-datafolha-poll-shows-2026-10-22/",
+          "source": "Reuters",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYBmWJs7NOeHlthDoQIHDXXZ2WotMNquhSG66OJdfQZ9wujwSzXngu7yHeF8o",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "‘Taylor Swift tells us to take the lead!’ Could highly organised pop fans clinch victory for Brazil’s Lula?",
+          "url": "https://www.theguardian.com/music/2026/oct/20/taylor-swift-tells-us-to-take-the-lead-could-highly-organised-pop-fans-clinch-victory-for-brazils-lula",
+          "source": "The Guardian",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0hMH-FEYQ9A8-08EZdv7FUGLigqX4bAbpdVd1UQ3IuzrAQlh01FYSM63o2Ss",
+          "og_title": "‘Taylor Swift tells us to take the lead!’ Could highly organised pop fans clinch victory for Brazil’s Lula?",
+          "og_desc": "Brazil’s famously outspoken fandoms have near-unanimously rallied behind the leftwing presidential candidate. On the streets of São Paulo, they explain their mission",
+          "og_image": "https://i.guim.co.uk/img/media/ad03af26871c44572de04d13358a890a7e55b621/1198_1338_2313_1851/master/2313.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2241718c44cbe03218c1464247148bed",
+          "ok": true
+        },
+        {
+          "title": "Brazil's high-stakes presidential runoff could reshape country's future",
+          "url": "https://www.pbs.org/newshour/show/brazils-high-stakes-presidential-runoff-could-reshape-countrys-future",
+          "source": "PBS",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQIHsyY_HwWw5burGBdY_cfHGBd6S9uAH1QrdEJHoGxHnGXw_weh4OKAVOsBn8",
+          "og_title": "Brazil's high-stakes presidential runoff could reshape country's future",
+          "og_desc": "This weekend, voters in Brazil head to the polls in a high-stakes presidential runoff that could reshape that country's political future. Will Brazil join a rightward shift across parts of the Americas, or stick with its left-wing leadership? Voting is compulsory for most adults, and the race has deepened political divisions across the country. Stephanie Sy reports.",
+          "og_image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/brazilvotescorrect-1024x576.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "سياسة",
+      "icon": "🏛️",
+      "color": "#ff5c7c",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-brazil-election.png",
+      "published_at": "2026-10-24T08:01:15.161984+00:00"
     },
     {
       "title": "jordan poole",
@@ -2904,6 +2954,109 @@
       "published_at": "2026-10-24T07:31:24.176620+00:00"
     },
     {
+      "title": "maya joint",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Fri, 23 Oct 2026 23:50:00 -0700",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5nswSuN4SEapsV_PVvup0txrcxlQ4dwk1_94Fy1zLGUJcL6fkuDbVDrBa8Lw",
+      "image_source": "Sofascore",
+      "news": [
+        {
+          "title": "Ivan Gretskiy Ramazan Kaan Oktay live score and H2H results",
+          "url": "https://www.sofascore.com/tennis/match/ramazan-kaan-oktay-ivan-gretskiy/IHIdsIWxh",
+          "source": "Sofascore",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5nswSuN4SEapsV_PVvup0txrcxlQ4dwk1_94Fy1zLGUJcL6fkuDbVDrBa8Lw",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Alexandra Eala Diane Parry live score and H2H results",
+          "url": "https://www.sofascore.com/tennis/match/alexandra-eala-diane-parry/QfZbsziGc",
+          "source": "Sofascore",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcQ_9Y0DdiAQ8mPBPfQVxk31XHT23xn2CkDwok7L3aReKZCncwfJ-uxQW9avQ",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Jaime Faria Felix Balshaw live score and H2H results",
+          "url": "https://www.sofascore.com/tennis/match/felix-balshaw-jaime-faria/tLLcsVIXd",
+          "source": "Sofascore",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSwAPYW8Lgv_ah6Np1VDON_yWNM82mdS6vuXmFsVmtsSDSbe3u3ldINJFHlGm8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-maya-joint.png",
+      "published_at": "2026-10-24T07:18:33.888148+00:00"
+    },
+    {
+      "title": "barca vs real madrid",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Sat, 24 Oct 2026 00:20:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ259-gQyUoCEWU4WUb2TAIfxWkr_aPI5Cpjy23sjUeuBkulua5Grb8-pknFsk",
+      "image_source": "ESPN",
+      "news": [
+        {
+          "title": "Barcelona-Real Madrid: Clásico form, team news, combined XI, predictions, odds",
+          "url": "https://www.espn.com/soccer/story/_/id/50227950/barcelona-real-madrid-laliga-clasico-form-team-news-combined-xi-predictions-odds-all-head-head",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ259-gQyUoCEWU4WUb2TAIfxWkr_aPI5Cpjy23sjUeuBkulua5Grb8-pknFsk",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Barcelona star Rodri primed for El Clasico debut but fires revenge warning to team-mates ahead of Real Madrid clash",
+          "url": "https://sports.yahoo.com/articles/barcelona-star-rodri-primed-el-053505129.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSY_uJUlgOD0sgsLkGQAWTIvPUgJ4Hx3k49mx-wtpsIbtyULFhsOFel79PkOw",
+          "og_title": "Barcelona star Rodri primed for El Clasico debut but fires revenge warning to team-mates ahead of Real Madrid clash",
+          "og_desc": "Rodri is ready to take center stage as Barcelona prepare for a high-stakes El Clasico showdown against Real Madrid this Sunday. The Spanish international has warned his team-mates to expect a fierce response from their rivals, who are desperate to reclaim dominance in world football's biggest fixture.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/fecd5b38ad4dd52566ba8b02066c3588a3e3701d09c7dfb951fbece13cc09338/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgoal_com_505%2F6054fa249dc952927fb3e4dc2acb7d58.jpg",
+          "ok": true
+        },
+        {
+          "title": "El Clasico: All to know about the rivalry between Barcelona and Real Madrid",
+          "url": "https://www.aljazeera.com/sports/2026/10/23/el-clasico-barcelona-real-madrid-rivalry",
+          "source": "Al Jazeera",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo44C7fMGhof5WQEzji8YPJMtaxW79WX7Uxxb37F079yNHklqDCwGRDBZZKDA",
+          "og_title": "El Clasico: All to know about the rivalry between Barcelona and Real Madrid",
+          "og_desc": "One of world football's biggest rivalries renews on Sunday when Barcelona host Real Madrid in La Liga's El Clasico.",
+          "og_image": "https://www.aljazeera.com/wp-content/uploads/2026/10/GettyImages-627377932-1792413956.jpg?resize=1920%2C1440",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-barca-vs-real-madrid.png",
+      "published_at": "2026-10-24T08:01:15.161984+00:00"
+    },
+    {
       "title": "toa samoa",
       "traffic": "100+",
       "traffic_num": 100,
@@ -3312,59 +3465,6 @@
       "published_at": "2026-10-24T07:18:33.888148+00:00"
     },
     {
-      "title": "maya joint",
-      "traffic": "100+",
-      "traffic_num": 100,
-      "published": "Fri, 23 Oct 2026 23:50:00 -0700",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5nswSuN4SEapsV_PVvup0txrcxlQ4dwk1_94Fy1zLGUJcL6fkuDbVDrBa8Lw",
-      "image_source": "Sofascore",
-      "news": [
-        {
-          "title": "Ivan Gretskiy Ramazan Kaan Oktay live score and H2H results",
-          "url": "https://www.sofascore.com/tennis/match/ramazan-kaan-oktay-ivan-gretskiy/IHIdsIWxh",
-          "source": "Sofascore",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5nswSuN4SEapsV_PVvup0txrcxlQ4dwk1_94Fy1zLGUJcL6fkuDbVDrBa8Lw",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Alexandra Eala Diane Parry live score and H2H results",
-          "url": "https://www.sofascore.com/tennis/match/alexandra-eala-diane-parry/QfZbsziGc",
-          "source": "Sofascore",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcQ_9Y0DdiAQ8mPBPfQVxk31XHT23xn2CkDwok7L3aReKZCncwfJ-uxQW9avQ",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Jaime Faria Felix Balshaw live score and H2H results",
-          "url": "https://www.sofascore.com/tennis/match/felix-balshaw-jaime-faria/tLLcsVIXd",
-          "source": "Sofascore",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSwAPYW8Lgv_ah6Np1VDON_yWNM82mdS6vuXmFsVmtsSDSbe3u3ldINJFHlGm8",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "رياضة",
-      "icon": "⚽",
-      "color": "#3ddc97",
-      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-      "publishable": false,
-      "card": "cards/world-2026-10-24-maya-joint.png",
-      "published_at": "2026-10-24T07:18:33.888148+00:00"
-    },
-    {
       "title": "saw",
       "traffic": "100+",
       "traffic_num": 100,
@@ -3613,6 +3713,58 @@
       "publishable": false,
       "card": "cards/world-2026-10-24-kehlsteinhaus.png",
       "published_at": "2026-10-24T07:31:24.176620+00:00"
+    },
+    {
+      "title": "kimi",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Sat, 24 Oct 2026 00:20:00 -0700",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSnRO8q4xMDTvTIIQwApwnPCH2HtN8E-OvbaLvtchLwxmoOBq1z1IsxUZ1V_RQ",
+      "image_source": "Reuters",
+      "news": [
+        {
+          "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
+          "url": "https://www.reuters.com/technology/moonshot-curbs-hacking-ability-new-kimi-model-fears-grow-over-ai-powered-2026-10-24/",
+          "source": "Reuters",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSnRO8q4xMDTvTIIQwApwnPCH2HtN8E-OvbaLvtchLwxmoOBq1z1IsxUZ1V_RQ",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Moonshot Debuts First AI Upgrade Since Its Own DeepSeek Moment",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/moonshot-debuts-first-ai-upgrade-since-its-own-deepseek-moment",
+          "source": "Bloomberg.com",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTAw9pfCUkTnUARDHhByrGcHR_SxfY9r4vP06CHdFizN9E30RMXtUgY4Gd3-dk",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
+          "url": "https://www.alphaxiv.org/abs/2610.kimi-k3-1-pro",
+          "source": "alphaXiv",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSdCaaRJlTEtcXRzA4Zt8lUwoEPoJqv-telTTXQ38LeuqSTOJjMCW2F_xAAjq4",
+          "og_title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
+          "og_desc": "Moonshot AI introduces Kimi K3.1 Pro, a post-trained version of Kimi K3 and its most capable 3T-class open-weight model, with a 1M-token context window and a 2-3× faster Highspeed variant. Trained...",
+          "og_image": "https://blog-media.assets.alphaxiv.org/covers/01a16a80-02a4-7ea7-bf20-56adb1da0ea8.png",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "تقنية",
+      "icon": "💻",
+      "color": "#5aa9ff",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-kimi.png",
+      "published_at": "2026-10-24T08:01:15.161984+00:00"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-10-24T09:01:12.733238+00:00",
+  "generated_at": "2026-10-24T09:31:21.733192+00:00",
   "day": "2026-10-24",
   "trends": [
     {
       "title": "weather forecast",
-      "traffic": "+530400",
-      "traffic_num": 530400,
+      "traffic": "+530600",
+      "traffic_num": 530600,
       "published": "Fri, 23 Oct 2026 21:50:00 -0700",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqGVrM2HNdr4aTO4Dc42c_KhA1b8uE5gFohiYPMxCnRSiQWoa6OilAkGm8fbs",
       "image_source": "BBC",
@@ -383,10 +383,11 @@
           "url": "https://www.ufc.com/news/fight-fight-preview-ufc-333-volkanovski-vs-evloev",
           "source": "UFC.com",
           "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9eo2uKLrnBZXwOf74cPjIHpBXNGW6y9iv_ocDtuqxjzA9uHRslcaWADwy13g",
-          "og_title": "Fight By Fight Preview | UFC 333: Volkanovski vs Evloev",
-          "og_desc": "Diving Into The Epic Lineup For Saturday’s Return To Etihad Arena In Abu Dhabi",
-          "og_image": "https://ufc.com/images/styles/card/s3/2026-10/102426-UFC-333-FBF-hero.jpg?itok=3iQLtsRv",
-          "ok": true
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         },
         {
           "title": "Volkanovski nears featherweight immortality as record beckons",
@@ -415,8 +416,8 @@
       "category": "رياضة",
       "icon": "⚽",
       "color": "#3ddc97",
-      "reason": "العنوان يطابق: ufc",
-      "publishable": true,
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
       "article": {
         "headline": "Alexander Volkanovski Defends Featherweight Title Against Undefeated Movsar Evloev at UFC 333",
         "summary": "Two-time featherweight champion Alexander Volkanovski faces challenger Movsar Evloev this Saturday at Etihad Arena in Abu Dhabi.",
@@ -701,57 +702,6 @@
       "publishable": false,
       "card": "cards/world-2026-10-24-cricbuzz.png",
       "published_at": "2026-10-24T07:01:28.363833+00:00"
-    },
-    {
-      "title": "philippines",
-      "traffic": "5000+",
-      "traffic_num": 5000,
-      "published": "Sat, 24 Oct 2026 01:40:00 -0700",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl6UKIsIzcor0LhEb_EHGXjrfhIxHlx4tmw8WPvgKuAZHYcAOQHMCj3A9JhvA",
-      "image_source": "BBC",
-      "news": [
-        {
-          "title": "Meghan says she was informed about 'disturbing allegations' against her father in 2018",
-          "url": "https://www.bbc.com/news/articles/c6x2wpgejjkjo",
-          "source": "BBC",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl6UKIsIzcor0LhEb_EHGXjrfhIxHlx4tmw8WPvgKuAZHYcAOQHMCj3A9JhvA",
-          "og_title": "Meghan says she was informed about 'disturbing allegations' against her father in 2018",
-          "og_desc": "The Duchess of Sussex issues a statement following reports her estranged father is being investigated over child sex abuse images in the Philippines.",
-          "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/e2ae/live/13ebb490-cedb-11f1-b441-2b33b063138f.jpg",
-          "ok": true
-        },
-        {
-          "title": "Meghan ‘deeply distressed’ over child sex abuse image allegations against father",
-          "url": "https://www.cnn.com/2026/10/23/uk/meghan-duchess-sussex-distressed-thomas-markle-allegations-intl",
-          "source": "CNN",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQG4NN3cJFMSGJ5y1yf4WFzQ4ycg6BIylZK3Qg8FbI5hH3iJg36Q4qYP4KTLhQ",
-          "og_title": "Meghan ‘deeply distressed’ over child sex abuse image allegations against father | CNN",
-          "og_desc": "",
-          "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/20261023-meghan-thomas-markle-split-1026.jpg?c=16x9&q=w_800,c_fill",
-          "ok": true
-        },
-        {
-          "title": "Royal Family May Distance Itself From Harry and Meghan, Expert Says",
-          "url": "https://www.instyle.com/royal-family-may-distance-themselves-from-meghan-markle-prince-harry-thomas-markle-sr-12190239",
-          "source": "InStyle",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQtxxFeYpXuNp4ybJVzu2VmG0YOBrt7ESOicKlB5O8PMhqX3TDJOGCgKdUgXUk",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "عام",
-      "icon": "🌐",
-      "color": "#9aa4b2",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-10-24-philippines.png",
-      "published_at": "2026-10-24T09:01:12.733238+00:00"
     },
     {
       "title": "brewers schedule",
@@ -2030,6 +1980,167 @@
       "published_at": "2026-10-24T08:01:15.161984+00:00"
     },
     {
+      "title": "leylah fernandez",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Sat, 24 Oct 2026 01:00:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQSvzBApnqCabMx0jPf4Ee2y-rfCAPFq430eGOo6Dp5gouAh9qLPdUOy62q7Ro",
+      "image_source": "WTA Tennis",
+      "news": [
+        {
+          "title": "Fernandez's marathon win, Kostyuk's retirement headline Day 3 in Ningbo",
+          "url": "https://www.wtatennis.com/news/4596745/fernandezs-marathon-win-kostyuks-retirement-headline-day-3-in-ningbo",
+          "source": "WTA Tennis",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQSvzBApnqCabMx0jPf4Ee2y-rfCAPFq430eGOo6Dp5gouAh9qLPdUOy62q7Ro",
+          "og_title": "Fernandez's marathon win, Kostyuk's retirement headline Day 3 in Ningbo",
+          "og_desc": "Leylah Fernandez outlasted Aliaksandra Sasnovich in a 3-hour, 3-minute battle Wednesday to reach the Ningbo quarterfinals, while Marta Kostyuk's retirement propelled Ekaterina Alexandrova into the last eight and clinched Karolina Muchova's spot at the WTA Finals Indian Wells bid.",
+          "og_image": "https://photoresources.wtatennis.com/wta/photo/2026/10/21/c15cf949-d59c-4cab-a771-42b2bd4fd602/Fernandez-r2-2.JPG",
+          "ok": true
+        },
+        {
+          "title": "Leylah Fernandez surpasses Mirra Andreeva and Jessica Pegula and sets new 2026 WTA record after latest victory in Ningbo",
+          "url": "https://sports.yahoo.com/articles/leylah-fernandez-surpasses-mirra-andreeva-190000130.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSUmF45Ab8wa5wVFoBtQHyyqPIopW-5jer6_EORKfnfLG3ZD12qFWPkPnEEnkU",
+          "og_title": "Leylah Fernandez surpasses Mirra Andreeva and Jessica Pegula and sets new 2026 WTA record after latest victory in Ningbo",
+          "og_desc": "Leylah Fernandez booked her spot in the Ningbo Open quarter-finals on Wednesday after defeating Aliaksandra Sasnovich in three sets. Fernandez, a finalist at the 2021...",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/b98d1cd10ecfc1b644f71748998bb036e815ec1e19906b461a238e242c08a733/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftennishead_808%2F5ebda837ce6fcba16a22cd260ef97273.jpg",
+          "ok": true
+        },
+        {
+          "title": "Canada's Leylah Fernandez beats Russia's Alexandrova to reach Ningbo semifinals",
+          "url": "https://www.sportsnet.ca/wta/article/canadas-leylah-fernandez-beats-russias-alexandrova-to-reach-ningbo-semifinals/",
+          "source": "Sportsnet.ca",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9p1fTC-XbbEwVssEj8-zZ_Ah3HA59RA196su6A8pnWkSWI51tK8NVl6FTW2Y",
+          "og_title": "Canada's Leylah Fernandez beats Russia's Alexandrova to reach Ningbo semifinals",
+          "og_desc": "",
+          "og_image": "https://www.sportsnet.ca/wp-content/uploads/2026/08/CP176715261.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-leylah-fernandez.png",
+      "published_at": "2026-10-24T08:31:36.920149+00:00"
+    },
+    {
+      "title": "philippines",
+      "traffic": "+400",
+      "traffic_num": 400,
+      "published": "Sat, 24 Oct 2026 01:40:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQV3muKj3AOezyh4qKnc3y79rYjHh0WOR7-4n2TlDcc9WBx746-GDLJ-XmV7fU",
+      "image_source": "South China Morning Post",
+      "news": [
+        {
+          "title": "4 pilots killed in mid-air collision of Philippine military planes",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3372014/4-pilots-killed-mid-air-collision-philippine-military-planes",
+          "source": "South China Morning Post",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQV3muKj3AOezyh4qKnc3y79rYjHh0WOR7-4n2TlDcc9WBx746-GDLJ-XmV7fU",
+          "og_title": "4 pilots killed in mid-air collision of Philippine military planes",
+          "og_desc": "The crash involved two SF-260 aircraft during a training flight at the Fernando Air Base in Batangas province, the air force says.",
+          "og_image": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/10/24/c8e207d6-645f-4417-a2b3-904dfd4e9145_537cfefc.jpg?itok=Hgrw5YLr&v=1792828013",
+          "ok": true
+        },
+        {
+          "title": "Video: 4 Pilots Killed As 2 Planes Crash Mid-Air During Training In Philippines",
+          "url": "https://www.ndtv.com/world-news/4-pilots-killed-as-2-planes-crash-mid-air-during-training-in-philippines-12229111",
+          "source": "NDTV",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxXfFMggcHRsVZ8jA8wL5ooUuPl9QFYY0YElXpRkpGxb7t1tX6w0dqEnDbKUk",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "PH Air Force confirms incident involving two SF-260 aircraft in Batangas",
+          "url": "https://www.abs-cbn.com/news/regions/2026/10/23/ph-air-force-confirms-incident-involving-2-sf-260-aircraft-in-batangas-2039",
+          "source": "ABS-CBN",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQXoUP22zzT_E2yA3iwy8rEpZsjZdMiBFJG2StqWTFAkGF0UqC_5ajRYeTKBiI",
+          "og_title": "PH Air Force confirms incident involving two SF-260 aircraft in Batangas | ABS-CBN News",
+          "og_desc": "The Philippine Air Force confirmed that two SF-260 aircraft figured in an incident during a training flight at the Fernando Air Base in Lipa City, Batangas around 3:50 p.m. on Friday.",
+          "og_image": "https://od2-image-api.abs-cbn.com/prod/20261023131036/b42757e5f71f8506a1489af48d1b9c91071f0e1177dfc04ebe207c80cd86498b.jpg?w=1200&h=800",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: killed",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-philippines.png",
+      "published_at": "2026-10-24T09:01:12.733238+00:00"
+    },
+    {
+      "title": "android devices showing january 2027 update",
+      "traffic": "+300",
+      "traffic_num": 300,
+      "published": "Fri, 23 Oct 2026 22:40:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRujvOA_fyAAgKR5uRAZthV8Erg42FBt8HHkr7VZhClEr-41coSCgqM8aG4ZC0",
+      "image_source": "Android Police",
+      "news": [
+        {
+          "title": "Google sends Android phones into 2027 with an update date mix-up",
+          "url": "https://www.androidpolice.com/google-sends-android-phones-into-2027-update-date-mix-up/",
+          "source": "Android Police",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRujvOA_fyAAgKR5uRAZthV8Erg42FBt8HHkr7VZhClEr-41coSCgqM8aG4ZC0",
+          "og_title": "Google sends Android phones into 2027 with an update date mix-up",
+          "og_desc": "It's still not getting any new features",
+          "og_image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2021/07/01/google-play-system-update-percent-progress.png?w=1600&h=900&fit=crop",
+          "ok": true
+        },
+        {
+          "title": "Samsung phones get a Google Play System update from the future",
+          "url": "https://www.sammobile.com/news/samsung-phones-get-google-play-system-update-from-future/",
+          "source": "SamMobile",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQbImyRDmMbs8chC8RA9M3WFJSYWKxuMWwiFTIPdD1FRR2gmReWG2V5tyWKTNk",
+          "og_title": "Samsung phones get a Google Play System update from the future",
+          "og_desc": "Samsung phones are receiving a new Google Play System update with a timestamp more than two months ahead of the current date.",
+          "og_image": "https://www.sammobile.com/wp-content/uploads/2026/07/Galaxy-Z-Flip-8-Samsung-logo.jpg",
+          "ok": true
+        },
+        {
+          "title": "Galaxy Phones Are Time-Traveling With a Play System Update",
+          "url": "https://sammyguru.com/galaxy-phones-january-2027-play-system-update/",
+          "source": "SammyGuru",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3yti87sxZ92xola0e-LlD1GkEeFA4yQbI8v6jmIxMY-ffhT8e2nv-0cXE2e4",
+          "og_title": "Galaxy Phones Are Time-Traveling With a Play System Update",
+          "og_desc": "Some Samsung Galaxy users are seeing a Google Play system update dated January 1, 2027, months before the date arrives.",
+          "og_image": "https://sammyguru.com/wp-content/uploads/2025/05/Samsung-Galaxy-S25-Edge-SammyGuru-33-1024x576.jpg",
+          "ok": true
+        },
+        {
+          "title": "The best Android utilities I've found aren't on Google Play",
+          "url": "https://www.makeuseof.com/shizustore-android-utilities-beyond-google-play/",
+          "source": "MakeUseOf",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRN6fd8UC-Ncy7fWsaNdskK0RmnmX11DHgy-WJHF9sOMKO_if3Bz2F2WCjuCi4",
+          "og_title": "The best Android utilities I've found aren't on Google Play",
+          "og_desc": "Apparently Android keeps some of its best toys outside the front gate.",
+          "og_image": "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/wm/2026/10/shizustore-android-utility-app-store.png?w=1600&h=900&fit=crop",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "تقنية",
+      "icon": "💻",
+      "color": "#5aa9ff",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-android-devices-showing-january-2027-update.png",
+      "published_at": "2026-10-24T06:01:26.947235+00:00"
+    },
+    {
       "title": "jordan poole",
       "traffic": "200+",
       "traffic_num": 200,
@@ -2603,56 +2714,6 @@
       "published_at": "2026-10-24T05:31:10.908642+00:00"
     },
     {
-      "title": "android devices showing january 2027 update",
-      "traffic": "200+",
-      "traffic_num": 200,
-      "published": "Fri, 23 Oct 2026 22:40:00 -0700",
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRujvOA_fyAAgKR5uRAZthV8Erg42FBt8HHkr7VZhClEr-41coSCgqM8aG4ZC0",
-      "image_source": "Android Police",
-      "news": [
-        {
-          "title": "Google sends Android phones into 2027 with an update date mix-up",
-          "url": "https://www.androidpolice.com/google-sends-android-phones-into-2027-update-date-mix-up/",
-          "source": "Android Police",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRujvOA_fyAAgKR5uRAZthV8Erg42FBt8HHkr7VZhClEr-41coSCgqM8aG4ZC0",
-          "og_title": "Google sends Android phones into 2027 with an update date mix-up",
-          "og_desc": "It's still not getting any new features",
-          "og_image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2021/07/01/google-play-system-update-percent-progress.png?w=1600&h=900&fit=crop",
-          "ok": true
-        },
-        {
-          "title": "Samsung phones get a Google Play System update from the future",
-          "url": "https://www.sammobile.com/news/samsung-phones-get-google-play-system-update-from-future/",
-          "source": "SamMobile",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQbImyRDmMbs8chC8RA9M3WFJSYWKxuMWwiFTIPdD1FRR2gmReWG2V5tyWKTNk",
-          "og_title": "Samsung phones get a Google Play System update from the future",
-          "og_desc": "Samsung phones are receiving a new Google Play System update with a timestamp more than two months ahead of the current date.",
-          "og_image": "https://www.sammobile.com/wp-content/uploads/2026/07/Galaxy-Z-Flip-8-Samsung-logo.jpg",
-          "ok": true
-        },
-        {
-          "title": "Galaxy Phones Are Time-Traveling With a Play System Update",
-          "url": "https://sammyguru.com/galaxy-phones-january-2027-play-system-update/",
-          "source": "SammyGuru",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3yti87sxZ92xola0e-LlD1GkEeFA4yQbI8v6jmIxMY-ffhT8e2nv-0cXE2e4",
-          "og_title": "Galaxy Phones Are Time-Traveling With a Play System Update",
-          "og_desc": "Some Samsung Galaxy users are seeing a Google Play system update dated January 1, 2027, months before the date arrives.",
-          "og_image": "https://sammyguru.com/wp-content/uploads/2025/05/Samsung-Galaxy-S25-Edge-SammyGuru-33-1024x576.jpg",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "تقنية",
-      "icon": "💻",
-      "color": "#5aa9ff",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-10-24-android-devices-showing-january-2027-update.png",
-      "published_at": "2026-10-24T06:01:26.947235+00:00"
-    },
-    {
       "title": "chuck amato",
       "traffic": "200+",
       "traffic_num": 200,
@@ -3210,57 +3271,6 @@
       "published_at": "2026-10-24T08:01:15.161984+00:00"
     },
     {
-      "title": "collision",
-      "traffic": "200+",
-      "traffic_num": 200,
-      "published": "Sat, 24 Oct 2026 00:10:00 -0700",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxXfFMggcHRsVZ8jA8wL5ooUuPl9QFYY0YElXpRkpGxb7t1tX6w0dqEnDbKUk",
-      "image_source": "NDTV",
-      "news": [
-        {
-          "title": "Video: 4 Pilots Killed As 2 Planes Crash Mid-Air During Training In Philippines",
-          "url": "https://www.ndtv.com/world-news/4-pilots-killed-as-2-planes-crash-mid-air-during-training-in-philippines-12229111",
-          "source": "NDTV",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxXfFMggcHRsVZ8jA8wL5ooUuPl9QFYY0YElXpRkpGxb7t1tX6w0dqEnDbKUk",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "4 pilots killed in mid-air collision of Philippine military planes",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3372014/4-pilots-killed-mid-air-collision-philippine-military-planes",
-          "source": "South China Morning Post",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQV3muKj3AOezyh4qKnc3y79rYjHh0WOR7-4n2TlDcc9WBx746-GDLJ-XmV7fU",
-          "og_title": "4 pilots killed in mid-air collision of Philippine military planes",
-          "og_desc": "The crash involved two SF-260 aircraft during a training flight at the Fernando Air Base in Batangas province, the air force says.",
-          "og_image": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/10/24/c8e207d6-645f-4417-a2b3-904dfd4e9145_537cfefc.jpg?itok=Hgrw5YLr&v=1792828013",
-          "ok": true
-        },
-        {
-          "title": "PH Air Force confirms incident involving two SF-260 aircraft in Batangas",
-          "url": "https://www.abs-cbn.com/news/regions/2026/10/23/ph-air-force-confirms-incident-involving-2-sf-260-aircraft-in-batangas-2039",
-          "source": "ABS-CBN",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQXoUP22zzT_E2yA3iwy8rEpZsjZdMiBFJG2StqWTFAkGF0UqC_5ajRYeTKBiI",
-          "og_title": "PH Air Force confirms incident involving two SF-260 aircraft in Batangas | ABS-CBN News",
-          "og_desc": "The Philippine Air Force confirmed that two SF-260 aircraft figured in an incident during a training flight at the Fernando Air Base in Lipa City, Batangas around 3:50 p.m. on Friday.",
-          "og_image": "https://od2-image-api.abs-cbn.com/prod/20261023131036/b42757e5f71f8506a1489af48d1b9c91071f0e1177dfc04ebe207c80cd86498b.jpg?w=1200&h=800",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "حوادث وقضايا",
-      "icon": "⛔",
-      "color": "#ff6b6b",
-      "reason": "ورد لفظ حسّاس: killed",
-      "publishable": false,
-      "card": "cards/world-2026-10-24-collision.png",
-      "published_at": "2026-10-24T07:31:24.176620+00:00"
-    },
-    {
       "title": "when is black friday",
       "traffic": "200+",
       "traffic_num": 200,
@@ -3308,56 +3318,6 @@
       "reason": "حجم بحث أقل من 10000",
       "publishable": false,
       "card": "cards/world-2026-10-24-when-is-black-friday.png",
-      "published_at": "2026-10-24T08:31:36.920149+00:00"
-    },
-    {
-      "title": "leylah fernandez",
-      "traffic": "200+",
-      "traffic_num": 200,
-      "published": "Sat, 24 Oct 2026 01:00:00 -0700",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQSvzBApnqCabMx0jPf4Ee2y-rfCAPFq430eGOo6Dp5gouAh9qLPdUOy62q7Ro",
-      "image_source": "WTA Tennis",
-      "news": [
-        {
-          "title": "Fernandez's marathon win, Kostyuk's retirement headline Day 3 in Ningbo",
-          "url": "https://www.wtatennis.com/news/4596745/fernandezs-marathon-win-kostyuks-retirement-headline-day-3-in-ningbo",
-          "source": "WTA Tennis",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQSvzBApnqCabMx0jPf4Ee2y-rfCAPFq430eGOo6Dp5gouAh9qLPdUOy62q7Ro",
-          "og_title": "Fernandez's marathon win, Kostyuk's retirement headline Day 3 in Ningbo",
-          "og_desc": "Leylah Fernandez outlasted Aliaksandra Sasnovich in a 3-hour, 3-minute battle Wednesday to reach the Ningbo quarterfinals, while Marta Kostyuk's retirement propelled Ekaterina Alexandrova into the last eight and clinched Karolina Muchova's spot at the WTA Finals Indian Wells bid.",
-          "og_image": "https://photoresources.wtatennis.com/wta/photo/2026/10/21/c15cf949-d59c-4cab-a771-42b2bd4fd602/Fernandez-r2-2.JPG",
-          "ok": true
-        },
-        {
-          "title": "Leylah Fernandez’s Boyfriend Vincent Has 1-Word Reaction As Canadian Makes It To Ningbo Open Semifinal",
-          "url": "https://sports.yahoo.com/articles/leylah-fernandez-boyfriend-vincent-1-210056639.html",
-          "source": "Yahoo Sports",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRq60-IwTDY6TmqptvpL5Hhp0FbvWntwB6YvFuGZafXyKSUW_JgHB7h6jzQuSo",
-          "og_title": "Leylah Fernandez’s Boyfriend Vincent Has 1-Word Reaction As Canadian Makes It To Ningbo Open Semifinal",
-          "og_desc": "Leylah Fernandez’s boyfriend, Vincent Boily, showed his support for the Canadian after she reached the semifinals of the Ningbo Open. Fernandez secured her place in the last four on Friday after defeating Ekaterina Alexandrova in the quarterfinals.",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/0cb75c6f62a6e2811027dd8dbd794676b9277ec1b3ee1577e9fbc89629933a14/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcollege_football_network_979%2Fcf538190251ef357e52c867c73445169.jpg",
-          "ok": true
-        },
-        {
-          "title": "Canada's Leylah Fernandez beats Russia's Alexandrova to reach Ningbo semifinals",
-          "url": "https://www.sportsnet.ca/wta/article/canadas-leylah-fernandez-beats-russias-alexandrova-to-reach-ningbo-semifinals/",
-          "source": "Sportsnet.ca",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9p1fTC-XbbEwVssEj8-zZ_Ah3HA59RA196su6A8pnWkSWI51tK8NVl6FTW2Y",
-          "og_title": "Canada's Leylah Fernandez beats Russia's Alexandrova to reach Ningbo semifinals",
-          "og_desc": "",
-          "og_image": "https://www.sportsnet.ca/wp-content/uploads/2026/08/CP176715261.jpg",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "فن ومشاهير",
-      "icon": "🎬",
-      "color": "#c77dff",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-10-24-leylah-fernandez.png",
       "published_at": "2026-10-24T08:31:36.920149+00:00"
     },
     {
@@ -4154,10 +4114,11 @@
           "url": "https://news.bet365.com/en-gb/article/how-to-watch-katie-boulter-v-katerina-siniakova-at-the-japan-open-tv-channel-live-streaming-start-time-and-venue/2026102317090608540",
           "source": "news.bet365.com",
           "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDLdAaDu4RZboYS8w32sr8Ztlhp_VUVUNdYnWMQLSoahXFG287U9pKitJstEc",
-          "og_title": "How to watch Katie Boulter v Katerina Siniakova at the Japan Open: TV channel, live streaming, start time and venue - bet365 News UK",
+          "og_title": "",
           "og_desc": "",
           "og_image": "",
-          "ok": true
+          "ok": false,
+          "error": "HTTPError"
         }
       ],
       "geos": [
@@ -4170,6 +4131,109 @@
       "publishable": false,
       "card": "cards/world-2026-10-24-katie-boulter.png",
       "published_at": "2026-10-24T09:01:12.733238+00:00"
+    },
+    {
+      "title": "marie bouzkova",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Sat, 24 Oct 2026 02:10:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCDA5HIwM3sm--wkxU7U8owSobGlqik5ey969n9co2LJ1bIDgZYO-6ogITpc8",
+      "image_source": "Sofascore",
+      "news": [
+        {
+          "title": "Elena Rybakina Katarzyna Kawa live score and H2H results",
+          "url": "https://www.sofascore.com/tennis/match/elena-rybakina-katarzyna-kawa/RZqsmBzb",
+          "source": "Sofascore",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCDA5HIwM3sm--wkxU7U8owSobGlqik5ey969n9co2LJ1bIDgZYO-6ogITpc8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Talia Gibson Ashlyn Krueger live score and H2H results",
+          "url": "https://www.sofascore.com/tennis/match/ashlyn-krueger-talia-gibson/Nlycsmvzc",
+          "source": "Sofascore",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dhhhu9nJJhm_MbRKLvBIF75SHrHGu3sBDMDtDtF8EzU1vGiJdwSosw85WlY",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Filip Misolic Michele Ribecai live score and H2H results",
+          "url": "https://www.sofascore.com/tennis/match/michele-ribecai-filip-misolic/NELbstTJd",
+          "source": "Sofascore",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRzOfq1UN0tYFXPrmXNgTE_WOlNK3zXgSOCMCpMdszqdAv1cJE0iPa9HZGdIk0",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-marie-bouzkova.png",
+      "published_at": "2026-10-24T09:31:21.733192+00:00"
+    },
+    {
+      "title": "bill maher",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Sat, 24 Oct 2026 00:40:00 -0700",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQtCNAAxcCflqIcPA4ICcxOD_EL7c6lY1RTp_ONvfzIfTRZ-YQ7TCpS8a67zgo",
+      "image_source": "Variety",
+      "news": [
+        {
+          "title": "Bill Maher’s Embarrassing Karoline Leavitt Interview on ‘Real Time’",
+          "url": "https://variety.com/2026/tv/news/bill-maher-karoline-leavitt-interview-trump-real-time-hbo-1236930093/",
+          "source": "Variety",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQtCNAAxcCflqIcPA4ICcxOD_EL7c6lY1RTp_ONvfzIfTRZ-YQ7TCpS8a67zgo",
+          "og_title": "Bill Maher’s Embarrassing Karoline Leavitt Interview on ‘Real Time’",
+          "og_desc": "The “Real Time with Bill Maher” host welcomed the former Trump press secretary to his HBO show and it was a predictably chummy affair.",
+          "og_image": "https://variety.com/wp-content/uploads/2026/10/republicans-gather-in-dallas-for-inaugural-midterm-conventio-1000x667-1.jpg?crop=0px%2C46px%2C888px%2C500px&resize=1000%2C563",
+          "ok": true
+        },
+        {
+          "title": "Bill Maher, 70, Lands MAGA Star After White House Dinner",
+          "url": "https://www.yahoo.com/entertainment/celebrity/articles/bill-maher-70-lands-maga-144707181.html",
+          "source": "Yahoo",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9rAHEwj2cRFIpuKX9JGLc4y3WSLcufJdfXrYuo0CZh2PQjhsFDgQRnr7ToJQ",
+          "og_title": "Bill Maher, 70, Lands MAGA Star After White House Dinner",
+          "og_desc": "Bill Maher, 70, will soon interview former White House Press Secretary Karoline Leavitt, 29, right after the veteran host was caught having dinner at the White House. Leavitt, Donald Trump’s former mo...",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/fcfc0bc9964cb51e01ef622f9aa29b3167c1b90b48846358285ef5f504b757f5/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthedailybeast.com%2Fb8e6c2474dde0a67068d67d93ce476dd.jpg",
+          "ok": true
+        },
+        {
+          "title": "Bill Maher Snags Karoline Leavitt Interview for ‘Real Time’",
+          "url": "https://www.aol.com/articles/bill-maher-snags-karoline-leavitt-133750000.html",
+          "source": "AOL.com",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1fQsXtLRmFE_PALWwDzyI_gsVzXh66gdvLnzmSCyqV022PnlzUUavMowwx_c",
+          "og_title": "Bill Maher Snags Karoline Leavitt Interview for ‘Real Time’ - AOL",
+          "og_desc": "When show will air & more.",
+          "og_image": "https://hermes.media.static.aol.com/media/2026/10/22/64adf72c-2897-3141-b4c8-6d9c6c9154f2/7f11ceff-2ab3-4d91-9058-974c30d0d3c7.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "سياسة",
+      "icon": "🏛️",
+      "color": "#ff5c7c",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-10-24-bill-maher.png",
+      "published_at": "2026-10-24T09:31:21.733192+00:00"
     }
   ]
 }

@@ -1513,14 +1513,14 @@
         "date": "2026-10-25",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "50000+",
+        "traffic_num": 50000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "بيراميدز يهزم المريخ بنتيو 4-0 ويتأهل إلى دور المجموعات بدوري الأبطال",
-          "مدرب بيراميدز: دوري أبطال أفريقيا ليس صن داونز فقط",
-          "عبد الرحمن مجدي: هذا سر اختلاف بيراميدز عن الفرق الأخرى"
+          "أحمد شريف يسجل هدف تقدم الزمالك أمام الجيش الرواندى فى الدقيقة الأولى.. صور",
+          "لقطات من مباراة الزمالك والجيش الرواندي في دوري أبطال أفريقيا (صور)",
+          "الزمالك يدفع بشريف والدباغ وإيشو في الهجوم أمام الجيش الرواندي بدوري أبطال أفريقيا - صوت الأمة"
         ]
       }
     ],
@@ -1530,7 +1530,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 50000,
     "category": "رياضة"
   },
   "باتريس-كارتيرون": {
@@ -12343,10 +12343,25 @@
           "محطة صن كابيتال.. مجمع نقل متكامل ضمن المرحلة الثانية من مشروع BRT| صور",
           "تصل لـ35 جنيهًا.. الأسعار الرسمية للأتوبيس الترددي BRT بعد تشغيل المرحلة الثانية"
         ]
+      },
+      {
+        "key": "2026-10-25|eg",
+        "date": "2026-10-25",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "20 أتوبيسًا جديدًا وحارة معزولة.. تحركات عاجلة لمواجهة زحام الـBRT.. خاص",
+          "تفاصيل المرحلة الثالثة لتوسعة الدائري والأتوبيس الترددي",
+          "«الأتوبيس الترددى» تبدأ تنفيذ بروتوكول الشحن الأوروبى"
+        ]
       }
     ],
-    "last_seen": "2026-09-25",
-    "total": 1,
+    "last_seen": "2026-10-25",
+    "total": 2,
     "countries": [
       "eg"
     ],
@@ -17795,13 +17810,13 @@
         "date": "2026-10-25",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "شخصية",
         "publishable": true,
         "headlines": [
           "حال وجود دخل جديد للتابع.. هل تحديث البيانات في حساب المواطن يؤثر على الأهلية؟",
-          "«حساب المواطن»: لا استثناءات في احتساب مدة السفر واستقطاع الدعم بعد 90 يوماً",
+          "حساب المواطن: إعانة «حافز» تحتسب ضمن الدخل وتلزم المستفيد بالإفصاح",
           "هل استخراج وثيقة العمل الحر تؤثر على دعم حساب المواطن؟"
         ]
       }
@@ -74769,14 +74784,29 @@
           "Sports News, Transfers, Scores | Watch Live Sport",
           "Fritz Fell, Got Up, and Won: What His Lyon Win Means for Turin"
         ]
+      },
+      {
+        "key": "2026-10-25|world",
+        "date": "2026-10-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Musetti saves 4 MPs, shocks Cobolli to set Fritz final in Lyon",
+          "How to watch the men’s Open Parc Auvergne-Rhone-Alpes Lyon: Streaming options for the Final",
+          "Sports News, Transfers, Scores | Watch Live Sport"
+        ]
       }
     ],
-    "last_seen": "2026-10-24",
-    "total": 4,
+    "last_seen": "2026-10-25",
+    "total": 5,
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "tennessean": {
@@ -90334,14 +90364,29 @@
           "‘About Time He Retires:’ Browns Head Coach Jokes He Wants Heyward, Watt To Leave NFL",
           "Todd Monken calls on Pittsburgh Steelers duo to retire, ahead of game with Cleveland Browns"
         ]
+      },
+      {
+        "key": "2026-10-25|world",
+        "date": "2026-10-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Steelers inactives for Week 7 at Saints",
+          "DeShon Elliott back: Who's in, who's out for Steelers in Paris",
+          "The Saints make a decision on Cesar Ruiz’s status ahead of Steelers game in Paris"
+        ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 1,
+    "last_seen": "2026-10-25",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "blackhawks-vs-mammoth": {
@@ -251711,7 +251756,7 @@
         "headlines": [
           "مصرع لاعبتين بالمشروع القومي للجودو فى حادث أليم بأسيوط بعد بطولة الجمهورية",
           "وزير الرياضة ينعى لاعبتي المشروع القومي للموهبة بعد وفاتهما في حادث",
-          "وزير الرياضة يوجّه بصرف إعانة عاجلة لأسرتي لاعبتي الجودو المتوفيتين"
+          "وكيل تعليم أسيوط ينعي وفاة طالبتي المشروع القومي للموهبة والبطل الأولمبي"
         ]
       }
     ],
@@ -413745,8 +413790,8 @@
         "date": "2026-10-25",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -414408,8 +414453,8 @@
         "date": "2026-10-25",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -414440,7 +414485,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 10000,
     "category": "شخصية"
   },
   "liverpool-vs-brighton": {
@@ -414453,8 +414498,8 @@
         "date": "2026-10-25",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -414474,18 +414519,34 @@
         "publishable": true,
         "headlines": [
           "Team news: Confirmed Liverpool line-up v Brighton & Hove Albion",
-          "Premier League predictions & Jones Knows' best bets: Liverpool vs Brighton, Man Utd vs Bournemouth and more!",
-          "Storm Boelo: Merseyside attractions close amid yellow weather warning"
+          "Coventry City vs Sunderland: Kalshi Promo Code & $25 Bonus",
+          "Liverpool vs Brighton LIVE! Premier League score updates, news, prediction, line-ups and how to watch or stream"
+        ]
+      },
+      {
+        "key": "2026-10-25|world",
+        "date": "2026-10-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+32000",
+        "traffic_num": 32000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Manchester United vs Bournemouth: Premier League preview, team news, stats & head-to-head",
+          "Live Sunday's Premier League updates: Man United and Liverpool both in action",
+          "Fernandes on bench for Manchester United, Liverpool v Brighton and more: clockwatch – live"
         ]
       }
     ],
     "last_seen": "2026-10-25",
-    "total": 2,
+    "total": 3,
     "countries": [
       "eg",
-      "sa"
+      "sa",
+      "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 32000,
     "category": "رياضة"
   },
   "crystal-palace---newcastle": {
@@ -414648,16 +414709,32 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Crystal Palace vs Newcastle LIVE Score Updates in Premier League Match",
-          "*?#[WATCHLIVE]FREE] Watch Brighton & Hove Albion vs Liverpool Live 𝐋𝐈𝐕𝐄 Ｓｔｒｅａｍｓ Ｆｒｅｅ ＯＮ Ｔｖ Ｃｈａｎｎｅｌ 25 October 2026",
+          "Confirmed Chelsea Women line up vs Crystal Palace | News | Official Site",
+          "WSL LIVE: Build-up to five games - team news, radio commentary, text & score updates & match stats",
+          "Birmingham City vs Charlton Athletic: Women's Super League stats & head-to-head"
+        ]
+      },
+      {
+        "key": "2026-10-25|sa",
+        "date": "2026-10-25",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Crystal Palace vs Newcastle LIVE Updates, balanced game (0-0)",
+          "Match Report. Latest: Crystal Palace 0 Newcastle United 0",
           "Crystal Palace vs Newcastle - LIVE Match Day Hub"
         ]
       }
     ],
     "last_seen": "2026-10-25",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 200,
     "category": "رياضة"
@@ -414672,8 +414749,8 @@
         "date": "2026-10-25",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -414688,7 +414765,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "طقس-جدة": {
@@ -414748,5 +414825,327 @@
     ],
     "peak_traffic": 200,
     "category": "رياضة"
+  },
+  "peter-berg": {
+    "slug": "peter-berg",
+    "name": "peter berg",
+    "first_seen": "2026-10-25",
+    "appearances": [
+      {
+        "key": "2026-10-25|world",
+        "date": "2026-10-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "\"The Mosquito Bowl\" and the human cost of war",
+          "'The Mosquito Bowl' Review: Peter Berg's Netflix Football War Drama",
+          "‘The Mosquito Bowl’ AFI Fest Red Carpet: Bill Skarsgård, Nicholas Galitzine, Ray Nicholson & More"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "رياضة"
+  },
+  "mcrib": {
+    "slug": "mcrib",
+    "name": "mcrib",
+    "first_seen": "2026-10-25",
+    "appearances": [
+      {
+        "key": "2026-10-25|world",
+        "date": "2026-10-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "McDonald’s Just Brought Back One of Its Most Popular Sandwiches Ever",
+          "McRib is coming back to McDonald's menus for a limited time. Here's when and where",
+          "McDonald’s confirms return of beloved menu item — here’s what to know"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "عام"
+  },
+  "barion-brown": {
+    "slug": "barion-brown",
+    "name": "barion brown",
+    "first_seen": "2026-10-25",
+    "appearances": [
+      {
+        "key": "2026-10-25|world",
+        "date": "2026-10-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "New Orleans’ edge rushers could have big say Sunday",
+          "Saints vs. Steelers in Paris puts New Orleans first-quarter issues under the microscope",
+          "Taliese Fuaga and Asim Richards Have Allowed 41 Pressures, and T.J. Watt Is Waiting in Paris"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "what-are-the-protests-in-france-about": {
+    "slug": "what-are-the-protests-in-france-about",
+    "name": "what are the protests in france about",
+    "first_seen": "2026-10-25",
+    "appearances": [
+      {
+        "key": "2026-10-25|world",
+        "date": "2026-10-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "More than 1,300 arrested as clashes follow another day of mass protests across France",
+          "French protest groups demand more rallies as Macron faces tough choices",
+          "A Day After Renewed Street Clashes in France, Relief and Anxiety Mix"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "حوادث وقضايا"
+  },
+  "martin-short": {
+    "slug": "martin-short",
+    "name": "martin short",
+    "first_seen": "2026-10-25",
+    "appearances": [
+      {
+        "key": "2026-10-25|world",
+        "date": "2026-10-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "‘860’ Review: Billy Crystal Is Back on Broadway, After the Palisades Fire",
+          "Review: 860 , Billy Crystal's Grief-Stricken Broadway Tribute to His Family Home",
+          "Photos: Jimmy Fallon, Martin Short, Mandy Patinkin, Robert De Niro, More Attend Opening Night of Billy Crystal's 860"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "man-u": {
+    "slug": "man-u",
+    "name": "man u",
+    "first_seen": "2026-10-25",
+    "appearances": [
+      {
+        "key": "2026-10-25|world",
+        "date": "2026-10-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "What Man Utd need now is stability, not more changes - Pulis",
+          "Change captain? Play the kids? How to solve the problems at Manchester United",
+          "Who's to blame for Man United mess: Carrick, the players ... Ratcliffe?"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "steeler-score": {
+    "slug": "steeler-score",
+    "name": "steeler score",
+    "first_seen": "2026-10-25",
+    "appearances": [
+      {
+        "key": "2026-10-25|world",
+        "date": "2026-10-25",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Steelers vs. Saints Score, Live Updates, Highlights From Week 7 Game",
+          "Pittsburgh Steelers at New Orleans Saints, NFL Week 7: Live Updates",
+          "Steelers vs. Saints live updates: Pittsburgh seeks third straight win, New Orleans looks for momentum"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-25",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "كريستال-بالاس-ضد-نيوكاسل-يونايتد": {
+    "slug": "كريستال-بالاس-ضد-نيوكاسل-يونايتد",
+    "name": "كريستال بالاس ضد نيوكاسل يونايتد",
+    "first_seen": "2026-10-25",
+    "appearances": [
+      {
+        "key": "2026-10-25|eg",
+        "date": "2026-10-25",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Crystal Palace vs Newcastle United: Premier League preview, team news, stats & head-to-head",
+          "Crystal Palace vs Newcastle LIVE! Premier League score updates, news, prediction, line-ups and how to watch or stream",
+          "Latest. Matthias Jaissle's team news update: Elanga and Ramsey latest ahead of Palace trip"
+        ]
+      },
+      {
+        "key": "2026-10-25|sa",
+        "date": "2026-10-25",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Crystal Palace vs Newcastle United: Premier League preview, team news, stats & head-to-head",
+          "Crystal Palace vs Newcastle LIVE! Premier League score updates, news, prediction, line-ups and how to watch or stream",
+          "Latest. Matthias Jaissle's team news update: Elanga and Ramsey latest ahead of Palace trip"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-25",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "inter-milan-vs-acf-fiorentina-standings": {
+    "slug": "inter-milan-vs-acf-fiorentina-standings",
+    "name": "inter milan vs acf fiorentina standings",
+    "first_seen": "2026-10-25",
+    "appearances": [
+      {
+        "key": "2026-10-25|eg",
+        "date": "2026-10-25",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Inter Milan vs Fiorentina: Italian Serie A stats & head-to-head",
+          "Italy Serie A Soccer",
+          "Internazionale vs Fiorentina – Prediction, Where to Watch, Kick-off Time and Lineups 25-10"
+        ]
+      },
+      {
+        "key": "2026-10-25|sa",
+        "date": "2026-10-25",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Follow all the action around Europe with our Football Tracker!",
+          "Italy Serie A Soccer",
+          "New dad's Inter chance! Provedel handed dream Nerazzurri debut after birth of child"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-25",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "زيادة-٥٠٠-ريال": {
+    "slug": "زيادة-٥٠٠-ريال",
+    "name": "زيادة ٥٠٠ ريال",
+    "first_seen": "2026-10-25",
+    "appearances": [
+      {
+        "key": "2026-10-25|sa",
+        "date": "2026-10-25",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "اقتصاد",
+        "publishable": true,
+        "headlines": [
+          "عام / خادم الحرمين الشريفين بناءً على ما عرضه سمو ولي العهد.. يوجه بعدد من الإجراءات الداعمة للمواطنين بالتزامن مع إعلان تعديل على تعريفتي الكهرباء والمياه بدءًا من 1 يناير 2027م",
+          "«السعودية للطاقة» تعلن التعريفة الجديدة للكهرباء من 1 يناير 2027: 21 هللة للسكني حتى 6 آلاف كيلوواط ورسوم ثابتة تبدأ من 70 ريالًا",
+          "الملك سلمان يوجه بعدد من الإجراءات الداعمة للمواطنين"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-25",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 20000,
+    "category": "اقتصاد"
   }
 }

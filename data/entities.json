@@ -4776,14 +4776,14 @@
         "date": "2026-10-26",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+10500",
-        "traffic_num": 10500,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
           "Labour Day weather: 20 flights hit and roads cordoned as fierce winds batter Wellington",
           "Flights disrupted in Wellington, wet and windy end to long weekend for South Island",
-          "Winds hit 168km/h as wild weather sweeps across South Island"
+          "Strong winds in Canterbury, flights cancelled in Wellington as bad weather moves up country"
         ]
       }
     ],
@@ -31851,8 +31851,8 @@
         "date": "2026-10-26",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -47088,11 +47088,26 @@
           "السلطات الأردنية تلقي القبض على ثلاثة مشتبه بهم في هجوم كنيسة الكرك",
           "الأميرة رجوة الحسين تعزي أهالي ضحايا هجوم كنيسة الكرك"
         ]
+      },
+      {
+        "key": "2026-10-26|eg",
+        "date": "2026-10-26",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "هجوم كنيسة الكرك.. الأردن يكشف تفاصيل القبض على المنفذين",
+          "الأميرة رجوة الحسين تعزي أهالي ضحايا هجوم كنيسة الكرك"
+        ]
       }
     ],
     "last_seen": "2026-10-26",
-    "total": 3,
+    "total": 4,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 5000,
@@ -53321,14 +53336,29 @@
           "Trump: 'I will be the last Republican president' if Democrats win Congress, White House",
           "Trump says he could be ‘last Republican president’"
         ]
+      },
+      {
+        "key": "2026-10-26|world",
+        "date": "2026-10-26",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+1100",
+        "traffic_num": 1100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally",
+          "Trump invokes 9/11 in urging Michigan voters to oppose Muslim Senate candidate El-Sayed",
+          "In Islamophobic Rant, Trump Seeks to Stir Republican Base in Michigan"
+        ]
       }
     ],
-    "last_seen": "2026-10-20",
-    "total": 3,
+    "last_seen": "2026-10-26",
+    "total": 4,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1100,
     "category": "سياسة"
   },
   "رياضة": {
@@ -129213,11 +129243,27 @@
           "Roller-coaster rider’s death puts spotlight on the safety of ever more thrilling rides",
           "Watch: Witnesses describe 'traumatic' moment man fell out of Six Flags rollercoaster"
         ]
+      },
+      {
+        "key": "2026-10-26|sa",
+        "date": "2026-10-26",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "A mother has been charged in the death of her four-year-old daughter in Dorchester.",
+          "Boston mother charged in 4-year-old daughter's fentanyl death",
+          "Boston mother charged in 4-year-old’s fentanyl death"
+        ]
       }
     ],
-    "last_seen": "2026-10-14",
-    "total": 4,
+    "last_seen": "2026-10-26",
+    "total": 5,
     "countries": [
+      "sa",
       "world"
     ],
     "peak_traffic": 10000,
@@ -300067,10 +300113,25 @@
           "ارتفاع أسعار حديد عز والأسمنت اليوم الخميس في الأسواق (موقع رسمي)",
           "استقرار أسعار الأسمنت اليوم الثلاثاء 13 أكتوبر 2026"
         ]
+      },
+      {
+        "key": "2026-10-26|eg",
+        "date": "2026-10-26",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "أسعار الحديد والأسمنت في السوق المصري اليوم الاثنين",
+          "سعر الأسمنت اليوم الأحد 25 أكتوبر 2026.. متوسط الأسعار فى السوق",
+          "انخفاض أسعار حديد عز والأسمنت اليوم في الأسواق (موقع رسمي)"
+        ]
       }
     ],
-    "last_seen": "2026-10-15",
-    "total": 1,
+    "last_seen": "2026-10-26",
+    "total": 2,
     "countries": [
       "eg"
     ],
@@ -396071,8 +396132,8 @@
         "date": "2026-10-26",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+2100",
-        "traffic_num": 2100,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
@@ -396087,7 +396148,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 2100,
+    "peak_traffic": 2000,
     "category": "طقس"
   },
   "الكرك": {
@@ -415227,14 +415288,45 @@
           "الدولار يتجاوز 55 جنيهاً في مصر.. والجنيه يسجل أدنى مستوى تاريخي",
           "سعر الدولار مع دقات الصباح الأولى.. هدوء ما قبل افتتاح تعاملات الأسبوع"
         ]
+      },
+      {
+        "key": "2026-10-26|eg",
+        "date": "2026-10-26",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "الجنيه المصري يتداول عند مستويات متدنية قياسية أمام الدولار",
+          "ارتفاع سعر الدولار مقابل الجنيه فى بداية تعاملات اليوم",
+          "سعر الدولار اليوم الإثنين 26 أكتوبر 2026 في البنوك"
+        ]
+      },
+      {
+        "key": "2026-10-26|sa",
+        "date": "2026-10-26",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "سعر الدولار في مصر يسجل قفزة تاريخية.. قروش قليلة تفصله عن 56 جنيهاً",
+          "لماذا تراجع الجنيه المصري إلى مستوى تاريخي أمام الدولار؟",
+          "تراجع تاريخي للجنيه أمام الدولار.. ماذا ينتظر أسعار السلع في مصر؟"
+        ]
       }
     ],
-    "last_seen": "2026-10-25",
-    "total": 1,
+    "last_seen": "2026-10-26",
+    "total": 3,
     "countries": [
+      "eg",
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 10000,
     "category": "اقتصاد"
   },
   "chef-damu": {
@@ -426358,11 +426450,27 @@
           "لولا يفوز بولاية رابعة تاريخية لرئاسة البرازيل.. وبولسونارو يسعى لإلغاء الانتخابات",
           "شاهد.. لماذا يلوح طيف ترامب فوق الانتخابات البرازيلية؟"
         ]
+      },
+      {
+        "key": "2026-10-26|eg",
+        "date": "2026-10-26",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "لولا يفوز بولاية رابعة لرئاسة البرازيل",
+          "البرازيل.. دا سيلفا يتلقى تهاني قادة المنطقة بفوزه في الانتخابات الرئاسية",
+          "قادة وزعماء العالم يهنئون الرئيس البرازيلي بفوزه بولاية رئاسية جديدة"
+        ]
       }
     ],
     "last_seen": "2026-10-26",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 500,
@@ -426876,9 +426984,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "سعر الذهب اليوم الاثنين 26 أكتوبر 2026 في مصر.. عيار 21 يسجل هذا المستوى",
-          "سعر الذهب اليوم الإثنين 26-10-2026 في مصر صباحًا",
-          "أسعار الذهب في مصر مع بداية تعاملات اليوم الاثنين"
+          "أسعار الذهب اليوم الاثنين 26 أكتوبر 2026 في مصر.. عيار 21 يسجل 6290 جنيها",
+          "أسعار الذهب في مصر مع بداية تعاملات اليوم الاثنين",
+          "واصف: ارتفاع الذهب في مصر رغم هبوط الأونصة عالميا"
         ]
       }
     ],
@@ -426907,7 +427015,7 @@
         "headlines": [
           "أول تعليق من رئيس البورصة المصرية على قرار وقف التداول نصف ساعة",
           "افتتاحية حمراء للشاشات.. البورصة تفقد 63 مليار جنيه خلال 15 دقيقة",
-          "رئيس جمعية الأوراق المالية: صعود البترول والتوترات الإقليمية تسببت في قلق المستثمرين وتراجع الأسهم"
+          "مؤشرات البورصة المصرية ترتد صعوداً بعد تراجعها في بداية الجلسة"
         ]
       }
     ],
@@ -426958,12 +427066,12 @@
         "date": "2026-10-26",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "مؤشر سوق السعودية يرتفع 2.2% فوق 9600 نقطة بدعم صعود جماعي للأسهم",
+          "البورصة السعودية ترتد صعوداً مع تحركات إقليمية لخفض التصعيد",
           "تاسي: 106 شركات سجلت أدنى مستوياتها في 52 أسبوعًا",
           "مؤشر الأسهم السعودية يتراجع 257 نقطة ويغلق عند 9438 نقطة"
         ]
@@ -426974,7 +427082,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "black-friday": {
@@ -427103,14 +427211,14 @@
         "date": "2026-10-26",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "category": "عام",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
-          "Beyoncé’s LaPointe Micro Shorts Leave Her Legs on Display",
-          "Beyoncé commands Los Angeles in glittering micro shorts as Jay-Z and Blue Ivy share the stage—while academia dissects her billionaire business empire",
-          "Jay-Z burnishes his legend at SoFi Stadium"
+          "Jay-Z burnishes his legend at SoFi Stadium",
+          "#TSRCliquedUp: A Destiny’s Child link up never gets old! #JayZ had all the famous girlies outside looking their best 💗! (Swipe) (🎥: @bluecaine) ✍🏾: #TSRStaffST",
+          "Jay-Z Brings Daughter Blue Ivy, 14, Out During L.A. Concert, Destiny’s Child Reunites"
         ]
       }
     ],
@@ -427119,8 +427227,8 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
-    "category": "عام"
+    "peak_traffic": 500,
+    "category": "فن ومشاهير"
   },
   "cars": {
     "slug": "cars",
@@ -427134,12 +427242,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "عام",
+        "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "Stolen car slams into South Carolina home as teens bolt, authorities say",
-          "Deputies: How drones, K-9s caught teens after stolen car crashed into Simpsonville home",
-          "Dramatic footage captures car smashing into house during South Carolina police chase"
+          "DNB Carnegie lowers target price for Volvo Cars to SEK 11 (18), reiterates hold",
+          "Deutsche Bank lowers price target for Volvo to SEK 336 (337), reiterates hold",
+          "JP Morgan cuts price target for Volvo Cars to SEK 10 (18), reiterates neutral - BN"
         ]
       }
     ],
@@ -427149,6 +427257,225 @@
       "world"
     ],
     "peak_traffic": 100,
+    "category": "اقتصاد"
+  },
+  "daylight-saving-time-halloween-2026": {
+    "slug": "daylight-saving-time-halloween-2026",
+    "name": "daylight saving time halloween 2026",
+    "first_seen": "2026-10-26",
+    "appearances": [
+      {
+        "key": "2026-10-26|world",
+        "date": "2026-10-26",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Is it time to set your clock back this weekend? What to know",
+          "Michigan clocks fall back soon for DST. What you need to know",
+          "Daylight saving time, Halloween meet in 2026: It won’t happen again for a long time"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-26",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
     "category": "عام"
+  },
+  "the-mayor-of-kingstown": {
+    "slug": "the-mayor-of-kingstown",
+    "name": "the mayor of kingstown",
+    "first_seen": "2026-10-26",
+    "appearances": [
+      {
+        "key": "2026-10-26|world",
+        "date": "2026-10-26",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "‘Mayor of Kingstown’ Season 5 release date: ‘Mayor of Kingstown’ Season 5 on Paramount+/Netflix Info",
+          "TV Talk: Final ‘Mayor of Kingstown’ episodes stream in January",
+          "Taylor Sheridan's 'The Wire' Meets 'Sons of Anarchy' Crime Thriller Is Officially Ending"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-26",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "الفنانة-عائشة-الكيلاني": {
+    "slug": "الفنانة-عائشة-الكيلاني",
+    "name": "الفنانة عائشة الكيلاني",
+    "first_seen": "2026-10-26",
+    "appearances": [
+      {
+        "key": "2026-10-26|eg",
+        "date": "2026-10-26",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "عائشة الكيلاني ترقص فرحاً خلال تكريمها.. تفاصيل ظهورها الأول بعد سنوات من الغياب",
+          "أحمد سعد بعد حصوله على كارنيه نقابة المهن التمثيلية: \"محدش يقدر يتكلم معايا\"",
+          "أشرف زكي عن أغنية أبطال قلوبنا بمهرجان المسرح: رسالة تقدير لمشوار فنانين لم يكن سهلا"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-26",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 1000,
+    "category": "فن ومشاهير"
+  },
+  "يحيى-الفخراني": {
+    "slug": "يحيى-الفخراني",
+    "name": "يحيى الفخراني",
+    "first_seen": "2026-10-26",
+    "appearances": [
+      {
+        "key": "2026-10-26|eg",
+        "date": "2026-10-26",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "يحيى الفخراني يعود لـ\"الملك لير\" على خشبة المسرح القومي",
+          "من «الملك لير» إلى «صحينا يا سينا»..البيت الفني للمسرح يطلق 6 عروض بالقاهرة والإسكندرية",
+          "من «الملك لير» إلى سحر العرائس.. 6 عروض يقدمها البيت الفني للمسرح بالقاهرة والإسكندرية"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-26",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "chat": {
+    "slug": "chat",
+    "name": "chat",
+    "first_seen": "2026-10-26",
+    "appearances": [
+      {
+        "key": "2026-10-26|eg",
+        "date": "2026-10-26",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Week 7 winners and losers: Pollard, Burrow lead the way; Walker III, Purdy struggle",
+          "Live Chat: Packers vs. Lions | Week 7",
+          "Week 7 Fantasy Football Full PPR WR Rankings from Justin Boone"
+        ]
+      },
+      {
+        "key": "2026-10-26|sa",
+        "date": "2026-10-26",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Week 7 winners and losers: Pollard, Burrow lead the way; Walker III, Purdy struggle",
+          "Live Chat: Packers vs. Lions | Week 7",
+          "Week 7 Fantasy Football Full PPR WR Rankings from Justin Boone"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-26",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "سنغافورة": {
+    "slug": "سنغافورة",
+    "name": "سنغافورة",
+    "first_seen": "2026-10-26",
+    "appearances": [
+      {
+        "key": "2026-10-26|sa",
+        "date": "2026-10-26",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "شخصية",
+        "publishable": true,
+        "headlines": [
+          "اقتصادي / المملكة وسنغافورة تعلنان عزمهما على اتخاذ ترتيبات لتخزين البترول الخام السعودي في سنغافورة",
+          "السعودية تتجه لتخزين نفطها في سنغافورة لتعزيز أمن الإمدادات إلى آسيا",
+          "السعودية وسنغافورة تتفقان على تخزين البترول الخام في تجاويف جورونغ الصخرية"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-26",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "شخصية"
+  },
+  "موعد-حفل-الكرة-الذهبية-2026": {
+    "slug": "موعد-حفل-الكرة-الذهبية-2026",
+    "name": "موعد حفل الكرة الذهبية 2026",
+    "first_seen": "2026-10-26",
+    "appearances": [
+      {
+        "key": "2026-10-26|sa",
+        "date": "2026-10-26",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "الذكاء الاصطناعي يتوقع مفاجآت مدوية في الكرة الذهبية: مبابي وميسي خارج الثلاثة الأوائل",
+          "بعد 70 عاما.. مفاجأة تاريخية في حفل الكرة الذهبية",
+          "كين يتصدر المرشحين للكرة الذهبية قبل حفل تاريخي في لندن"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-26",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
   }
 }

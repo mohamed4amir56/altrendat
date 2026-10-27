@@ -4910,14 +4910,14 @@
         "date": "2026-10-27",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "+10500",
+        "traffic_num": 10500,
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "Kentucky weather today: Filtered sunshine with rain chances in the forecast",
-          "FIRST ALERT | Chris Bailey tracks changes by Halloween Weekend",
-          "Another calm weather week in South-Central Kentucky"
+          "More of the same for the remainder of October",
+          "FIRST ALERT | Chris Bailey looks ahead to Halloween Weekend",
+          "Kentucky weather today: Filtered sunshine with rain chances in the forecast"
         ]
       },
       {
@@ -123654,13 +123654,13 @@
         "date": "2026-10-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
           "What our final poll before Election Day says about midterms and Trump",
-          "Democrats still poised to make gains, but poll shows warning signs for just how many",
+          "Democrats maintain momentum in race for Congress, per new NPR/PBS News/Marist poll",
           "It’s getting no better for Trump one week from midterms"
         ]
       }
@@ -210263,12 +210263,12 @@
         "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "سياسة",
+        "category": "عام",
         "publishable": false,
         "headlines": [
-          "Parliament votes to support Saudi Arabia - Egypt - Al-Ahram Weekly",
-          "Houthis: Egypt’s decision to give military support to Saudi Arabia is declaration of war",
-          "Xinhua News | Egyptian parliament authorizes Sisi to take measures to support Saudi Arabia"
+          "Russian satellites are helping the Houthis strike Saudi Arabia – AP",
+          "Russian satellites guide Houthi fire at Saudi Arabia - AP",
+          "Russian Spy Satellites Helped Iran’s Allies Strike Saudi Oil Pipeline, AP Reports"
         ]
       }
     ],
@@ -210280,7 +210280,7 @@
       "world"
     ],
     "peak_traffic": 10000,
-    "category": "سياسة"
+    "category": "عام"
   },
   "lisa-cook": {
     "slug": "lisa-cook",
@@ -212662,9 +212662,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Werder Bremen: Niclas Füllkrug auf der Bank – „Macht keinen Sinn“",
-          "Spektakel im DFB-Pokal – Sabitzer-Erlösung! ÖFB-Stars retten Dortmund",
-          "[Übertragung**] Hamburger SV gegen Eintracht Werder Bremen im live TV"
+          "Sabitzer trifft spät: Dortmund bereit für Bayern",
+          "DFB Pokal: BVB siegt gegen Werder in der Nachspielzeit: Brutales Ende der Füllkrug-Party!",
+          "Pokalvorschau mit Nils Petersen: \"Das sind Spiele, die sind untippbar\""
         ]
       },
       {
@@ -212677,8 +212677,8 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Last-Minute-Wahnsinn! Sabitzer schießt BVB im Pokal weiter",
-          "Aufstellung",
+          "Sabitzer trifft spät: Dortmund bereit für Bayern",
+          "Fans verzögern Anpfiff von BVB-Spiel",
           "Pokalvorschau mit Nils Petersen: \"Das sind Spiele, die sind untippbar\""
         ]
       }
@@ -220310,17 +220310,32 @@
           "Arsenal vs Everton LIVE! Premier League score updates, news, prediction and line-ups",
           "Team news: Eze one of five changes to face Everton"
         ]
+      },
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Ezri Konsa: No William Saliba, no problem, as summer signing steps up for Arsenal",
+          "Arsenal news: Gabriel and Ezri Konsa partnership is flourishing",
+          "Mikel Arteta warns Liverpool one Arsenal star has unlocked something BIG in his team"
+        ]
       }
     ],
-    "last_seen": "2026-10-24",
-    "total": 14,
+    "last_seen": "2026-10-28",
+    "total": 15,
     "countries": [
       "eg",
       "sa",
       "world"
     ],
     "peak_traffic": 20000,
-    "category": "رياضة"
+    "category": "فن ومشاهير"
   },
   "michael-jordan": {
     "slug": "michael-jordan",
@@ -221313,10 +221328,40 @@
           "Inter-Fiorentina, le formazioni ufficiali: Chivu con Pio Esposito, Vanoli punta su Pellegrino",
           "Bisseck: \"Con le nostre qualità possiamo vincere contro tutti. Gol subiti? Se guardiamo...\""
         ]
+      },
+      {
+        "key": "2026-10-28|eg",
+        "date": "2026-10-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "I Top&Flop di Torino-Como",
+          "Toro, illusione Adams: Ramon, Nico Paz e Baturina stendono i granata nel finale",
+          "Highlights Torino-Como 1-3: rivedi i gol su DAZN | DAZN News Italia"
+        ]
+      },
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Ci pensano Mora e Malen, la Roma soffre ma batte il Cagliari 4-2",
+          "Roma favorita e due gol nella terzina tra serie A e B",
+          "Roma-Cagliari, mano di Pisilli e calcio di rigore per i sardi"
+        ]
       }
     ],
-    "last_seen": "2026-10-25",
-    "total": 8,
+    "last_seen": "2026-10-28",
+    "total": 10,
     "countries": [
       "eg",
       "sa",
@@ -337911,14 +337956,29 @@
           "‘Heated Rivalry’ star Connor Storrie has arrived at the Academy Museum Gala",
           "'Heated Rivalry' DVDs give fans deleted scenes of Shane and Ilya's love story"
         ]
+      },
+      {
+        "key": "2026-10-27|world",
+        "date": "2026-10-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Connor Storrie in Talks to Join Ryan Gosling in Marvel’s ‘Ghost Rider’",
+          "Connor Storrie Circling Role In Marvel’s ‘Ghost Rider’ Opposite Ryan Gosling",
+          "Heated Rivalry Star Connor Storrie in Talks to Play Villain in MCU's Ghost Rider Movie"
+        ]
       }
     ],
-    "last_seen": "2026-10-18",
-    "total": 1,
+    "last_seen": "2026-10-27",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 500,
     "category": "فن ومشاهير"
   },
   "hannibal": {
@@ -357470,7 +357530,7 @@
         "headlines": [
           "Between the Saudi national team and Al-Hilal: how did Mohammed Al-Owais's dreams turn into nightmares?",
           "AFC Champions League Elite: Al-Hilal Seek Third Straight Win Against Qatar's Al-Shamal SC",
-          "Al-Hilal crushed by Al-Shamal as Qatari side claim first-ever ACL Elite victory"
+          "Simone Inzaghi Speaks Following Al-Hilal’s Match Against Al-Shamal"
         ]
       }
     ],
@@ -431244,11 +431304,27 @@
           "بعد عضوية النقابة.. أحمد سعد: «اقلعوا يا ممثلين»",
           "أشرف زكي عن أغنية أبطال قلوبنا بمهرجان المسرح: رسالة تقدير لمشوار فنانين لم يكن سهلا"
         ]
+      },
+      {
+        "key": "2026-10-28|eg",
+        "date": "2026-10-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "تعافت من قصور في المخ.. كواليس ظهور الفنانة عائشة الكيلاني",
+          "مكرمون فى مهرجان نقابة الممثلين",
+          "بصوت أحمد سعد.. أغنية لتكريم نجوم الصف الثانى فى السينما والدراما «أبطال قلوبنا»"
+        ]
       }
     ],
-    "last_seen": "2026-10-26",
-    "total": 1,
+    "last_seen": "2026-10-28",
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 2000,
@@ -447591,7 +447667,7 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "EFL Cup: Dowman sent off as Arsenal and Fleetwood heading for penalties",
+          "Carabao Cup: Fleetwood 1-1 Arsenal (5-3 pens): League Two outfit stun Premier League champions",
           "Team news: Dowman starts as two make debuts",
           "Who is Ceadach O'Neill? Age, nationality, position, stats and more"
         ]
@@ -447682,9 +447758,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Pagelle Roma: Lulli e Rodrigo Mora gioventù al potere, Castro spreca la sua grande occasione",
+          "Roma favorita e due gol nella terzina tra serie A e B",
           "Roma-Cagliari, mano di Pisilli e calcio di rigore per i sardi",
-          "Roma favorita e due gol nella terzina tra serie A e B"
+          "Serie A, Roma-Cagliari 2-1 – Diretta"
         ]
       },
       {
@@ -448150,9 +448226,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "روما ضد كالياري.. الجيلاروسي يحسم الشوط الأول 2-1 (فيديو)",
-          "ديبالا خارج قائمة روما أمام كالياري.. وموعد محتمل لعودته",
-          "تشكيل مباراة روما وكالياري في الدوري الإيطالي"
+          "روما يهزم كاليارى 4-2 ويعزز موقعه فى المركز الثالث بالدورى الإيطالى (فيديو)",
+          "روما يستضيف كالياري في مواجهة مرتقبة بالجولة التاسعة من الدوري الإيطالي",
+          "ديبالا خارج قائمة روما أمام كالياري.. وموعد محتمل لعودته"
         ]
       },
       {
@@ -448166,8 +448242,8 @@
         "publishable": false,
         "headlines": [
           "ما القنوات الناقلة لمباراة روما وكالياري في الدوري الإيطالي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
-          "ديبالا يقترب من العودة لروما قبل مواجهة كالياري.. وجاسبيريني يكشف موقفه",
-          "روما ضد كالياري.. الجيلاروسي يحسم الشوط الأول 2-1 (فيديو)"
+          "ديبالا يغيب عن روما في مباراة كالياري",
+          "روما يهزم كاليارى 4-2 ويعزز موقعه فى المركز الثالث بالدورى الإيطالى (فيديو)"
         ]
       }
     ],
@@ -448567,14 +448643,14 @@
         "date": "2026-10-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+700",
-        "traffic_num": 700,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "فابريجاس يحذر لاعبي كومو قبل مواجهة تورينو في الدوري الإيطالي",
-          "ما القنوات الناقلة لمباراة تورينو وكومو في الدوري الإيطالي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
-          "فابريغاس: سنواجه منافساً متحمس بعد ثلاثة انتصارات متتالية"
+          "روح ريال مدريد تهز الدوري الإيطالي .. انتفاضة نيكو باز صعقت تورينو والسحر يكتمل بمساعدة \"راموس الجديد\"",
+          "ما القنوات الناقلة لمباراة تورينو وكومو في الدوري الإيطالي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟"
         ]
       },
       {
@@ -448589,7 +448665,7 @@
         "headlines": [
           "فابريجاس يحذر لاعبي كومو قبل مواجهة تورينو في الدوري الإيطالي",
           "ما القنوات الناقلة لمباراة تورينو وكومو في الدوري الإيطالي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
-          "فابريغاس: سنواجه منافساً متحمس بعد ثلاثة انتصارات متتالية"
+          "كومو يخطف فوزا غاليا من تورينو 3-1 في الدوري الإيطالي"
         ]
       }
     ],
@@ -448599,7 +448675,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 700,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "آيفون": {
@@ -449152,5 +449228,326 @@
     ],
     "peak_traffic": 2000,
     "category": "شخصية"
+  },
+  "delaware-vs-wku": {
+    "slug": "delaware-vs-wku",
+    "name": "delaware vs wku",
+    "first_seen": "2026-10-27",
+    "appearances": [
+      {
+        "key": "2026-10-27|world",
+        "date": "2026-10-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Delaware vs. Western Kentucky odds: 2026 college football picks, Week 9 Tuesday predictions from proven model",
+          "Delaware vs. Western Kentucky prediction, odds: Week 9 college football Tuesday picks by proven model",
+          "Delaware vs Western Kentucky Prediction: Can the Hilltoppers Keep the Run Going?"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "as-roma-vs-cagliari-calcio-standings": {
+    "slug": "as-roma-vs-cagliari-calcio-standings",
+    "name": "as roma vs cagliari calcio standings",
+    "first_seen": "2026-10-27",
+    "appearances": [
+      {
+        "key": "2026-10-27|world",
+        "date": "2026-10-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Serie A | Roma 4-2 Cagliari: Hard fought victory secured",
+          "AS Roma vs Cagliari Live Stream: How to Watch Italian Serie A in Canada (Oct. 27, 2026)",
+          "AS Roma vs Cagliari Predictions: Hosts to maintain unbeaten run"
+        ]
+      },
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Roma vs Cagliari: Italian Serie A stats & head-to-head",
+          "Roma’s Unbeaten Run Faces Another Test in Midweek Clash With Cagliari",
+          "Serie A | Roma 4-2 Cagliari: Hard fought victory secured"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 2,
+    "countries": [
+      "sa",
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "blue-jackets-vs-flyers": {
+    "slug": "blue-jackets-vs-flyers",
+    "name": "blue jackets vs flyers",
+    "first_seen": "2026-10-27",
+    "appearances": [
+      {
+        "key": "2026-10-27|world",
+        "date": "2026-10-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "RAV4 Things: Flyers vs. Blue Jackets",
+          "Columbus Blue Jackets Lines, Defensive Pairings, & Scratches For Tonight's Game vs. Philadelphia Flyers",
+          "Flyers vs. Blue Jackets: How to watch, lineups, and gamethread"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "torino-fc-vs-como-1907-standings": {
+    "slug": "torino-fc-vs-como-1907-standings",
+    "name": "torino fc vs como 1907 standings",
+    "first_seen": "2026-10-27",
+    "appearances": [
+      {
+        "key": "2026-10-27|world",
+        "date": "2026-10-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Torino vs Como: Italian Serie A stats & head-to-head",
+          "Serie A official line-ups: Torino vs. Como",
+          "Fabregas: ‘Some Como players understand the need for rotation less than others’"
+        ]
+      },
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Torino vs Como: Italian Serie A stats & head-to-head",
+          "Torino vs Como – Prediction, Where to Watch, Kick-off Time and Lineups 27-10"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 2,
+    "countries": [
+      "sa",
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "half-moon-bay-kayak-shark-sighting": {
+    "slug": "half-moon-bay-kayak-shark-sighting",
+    "name": "half moon bay kayak shark sighting",
+    "first_seen": "2026-10-27",
+    "appearances": [
+      {
+        "key": "2026-10-27|world",
+        "date": "2026-10-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Shark capsizes kayak, sending fisherman into water off SLO County beach",
+          "California Fisherman Survives Close Encounter with 12-Foot Great White Shark Lurking Inches from His Kayak",
+          "Video: Bay Area kayaker survives close encounter with great white shark"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "دول وأماكن"
+  },
+  "price": {
+    "slug": "price",
+    "name": "price",
+    "first_seen": "2026-10-27",
+    "appearances": [
+      {
+        "key": "2026-10-27|world",
+        "date": "2026-10-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Oil prices fall after Iran supreme leader and top security official discuss conditions to end war",
+          "Iran’s Supreme Leader and Top Security Chief Discuss War, Hormuz",
+          "Why reported Khamenei call for end to ‘neither war nor peace’ moved markets — a bit"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "اقتصاد"
+  },
+  "cártel-de-sinaloa": {
+    "slug": "cártel-de-sinaloa",
+    "name": "cártel de sinaloa",
+    "first_seen": "2026-10-27",
+    "appearances": [
+      {
+        "key": "2026-10-27|world",
+        "date": "2026-10-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Florida acusa a 12 de traficar drogas desde El Paso hasta la bahía de Tampa",
+          "Florida desmantela una red del Cartel de Sinaloa que traficó cocaína en Tampa Bay durante cinco años",
+          "Arrestan a 10 vinculados al Cartel de Sinaloa en Florida: fianzas rondan los $40 millones"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "دول وأماكن"
+  },
+  "oheka-castle": {
+    "slug": "oheka-castle",
+    "name": "oheka castle",
+    "first_seen": "2026-10-27",
+    "appearances": [
+      {
+        "key": "2026-10-27|world",
+        "date": "2026-10-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Developers buy Oheka Castle for $72 million at auction",
+          "Long Island firm wins bid for Oheka Castle at foreclosure auction",
+          "16 biggest Oheka Castle pop culture moments: Celebrity weddings to music videos"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-27",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "منصور-عباس": {
+    "slug": "منصور-عباس",
+    "name": "منصور عباس",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|eg",
+        "date": "2026-10-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "\"القائمة العربية\" ترد على اتهام نتنياهو بـ\"سرقة الانتخابات\"",
+          "اتهامات للحكومة الإسرائيلية بقطع الكهرباء لعرقلة تصويت المهدد بتغيير نتنياهو",
+          "خلافا لمزاعم نتنياهو.. عرب إسرائيل: التصويت بالبلدات اليهودية أعلى"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "نادي-نيوم-الرياضي": {
+    "slug": "نادي-نيوم-الرياضي",
+    "name": "نادي نيوم الرياضي",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "نيوم يتعثر أمام الشباب العماني بثلاثية في دوري أبطال الخليج",
+          "نيوم يخسر أمام الشباب العماني في دوري أبطال الخليج للأندية",
+          "الخسارة الأولى"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
   }
 }

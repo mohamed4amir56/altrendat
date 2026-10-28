@@ -200,12 +200,13 @@
   "output": 0,
   "cut": 0,
   "refused": 0,
-  "written": 3,
-  "g_calls": 3,
-  "g_input": 6379,
-  "g_output": 1929,
-  "g_errors": 0,
+  "written": 4,
+  "g_calls": 4,
+  "g_input": 7963,
+  "g_output": 2434,
+  "g_errors": 1,
   "usd": 0.0,
-  "gemini_usd_if_paid": 0.0045
+  "gemini_usd_if_paid": 0.0056,
+  "last_gemini_error": "TimeoutError: The read operation timed out"
  }
 }

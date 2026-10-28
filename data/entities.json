@@ -26340,11 +26340,11 @@
         "traffic": "50000+",
         "traffic_num": 50000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "تعليق التدريب الحضوري في منشآت التدريب التقني والمهني بمنطقة الجوف غداً",
+          "تعليم الجوف يُحوّل الدراسة إلى «عن بعد» غداً الأربعاء بسبب الأحوال الجوية",
           "بناءً على تقارير الأرصاد.. تحويل الدراسة عبر منصة \"مدرستي\" في تعليم منطقة الجوف غدًا الأربعاء",
-          "تعليق الدراسة الحضورية في الجوف غداً الأربعاء بسبب الحالة المطرية"
+          "بناءً على تقارير الأرصاد.. تحويل الدراسة غداً عبر منصتي في تعليم منطقة الجوف"
         ]
       }
     ],
@@ -74258,12 +74258,12 @@
         "date": "2026-10-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "دول وأماكن",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "الدفاع المدني يعلن زوال الخطر عن جدة وينبع",
+          "الدفاع المدني يُطلق إنذاراً مبكراً في جدة وينبع للتحذير من خطر",
           "الدفاع المدني: زوال الخطر عن أبها وخميس مشيط",
           "السعودية تطلق 7 إنذارات مبكرة في 6 مواقع ثم تعلن زوال الخطر"
         ]
@@ -74274,7 +74274,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "دول وأماكن"
   },
   "اكتوبر": {
@@ -106277,11 +106277,27 @@
           "Apple responds to the iPhone Duo inner display cracking issue - GSMArena.com news",
           "iPhone Duo owners report cracks in Apple’s first foldable handset"
         ]
+      },
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Apple’s Foldable iPhone Duo Draws Early Complaints of the Screen Cracking",
+          "Apple responds to reports of iPhone Duo’s inner display cracking",
+          "Crackgate? iPhone Duo Owners Report Screens Breaking Along the Hinge"
+        ]
       }
     ],
-    "last_seen": "2026-10-27",
-    "total": 3,
+    "last_seen": "2026-10-28",
+    "total": 4,
     "countries": [
+      "sa",
       "world"
     ],
     "peak_traffic": 1000,
@@ -158480,15 +158496,30 @@
           "Jake LaRavia News: Auditioning for starting role",
           "Jake LaRavia fills stat line in 21 minutes"
         ]
+      },
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Lakers’ JJ Redick Shares Encouraging Jake LaRavia Injury Update",
+          "Lakers’ ‘Iron Man’ streak comes to an end vs. Clippers",
+          "Jarrett Allen (knee) good to go Thursday vs. PHI"
+        ]
       }
     ],
-    "last_seen": "2026-10-09",
-    "total": 2,
+    "last_seen": "2026-10-28",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "عام"
+    "category": "رياضة"
   },
   "bryn-walker-clothing": {
     "slug": "bryn-walker-clothing",
@@ -221934,12 +221965,12 @@
         "country_name": "مصر",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "عام",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Luna Park Lazio: 6 gol al Sassuolo (e 2 rigori sbagliati) e notte in testa da sola",
-          "Turati: \"Dobbiamo capire come uscire da questa situazione\"",
-          "Calcio, la classifica di Serie A: Lazio in vetta da sola"
+          "Al 'Tempio' Genoa vs Juventus – Convocati mercoledì mattina - Biglietterie stadio dalle ore 16 – La Primavera vince 3-0 nei 32mi C.I.",
+          "Spalletti: “Nuovo modulo non lo hanno chiesto i giocatori. Kolo Muani mette timore agli avversari”",
+          "Juve, contro il Genoa altra \"spallettata\" in vista? Ecco di cosa stiamo parlando..."
         ]
       },
       {
@@ -221966,7 +221997,7 @@
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "indiana-vs-nebraska-predictions": {
     "slug": "indiana-vs-nebraska-predictions",
@@ -277922,10 +277953,25 @@
           "As mortgage rates climb, Twin Cities first-time buyers pull back",
           "Locking In a Mortgage Rate"
         ]
+      },
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Mortgage Rates Hold Steady Yet Again",
+          "Treasury Yields Rest Above 5%: How Homeowners—and Buyers—Can Take Advantage of the Moment",
+          "Mortgage rates drop for the first time in 2 months, but demand still falls further"
+        ]
       }
     ],
-    "last_seen": "2026-10-13",
-    "total": 1,
+    "last_seen": "2026-10-28",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -338970,15 +339016,30 @@
           "‘We definitely do not want to make a film adaptation’: it seems like the Cyberpunk 2077 movie will tell an original story",
           "'Cyberpunk 2077' Movie In The Works At Paramount"
         ]
+      },
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Cyberpunk 2077's Edgerunners 2 Update (2.5) is out now!",
+          "10 Things I Wish I Knew When I Started ‘Cyberpunk 2077’ (Update 2.5 Edition)",
+          "Cyberpunk 2077 2.5 players can turn all cars into a Tesla Roadster with unreal mod"
+        ]
       }
     ],
-    "last_seen": "2026-10-18",
-    "total": 1,
+    "last_seen": "2026-10-28",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
-    "category": "رياضة"
+    "peak_traffic": 2000,
+    "category": "تقنية"
   },
   "ravens-vs-browns": {
     "slug": "ravens-vs-browns",
@@ -388326,15 +388387,30 @@
           "October 23, 2026: Leylah Annie Fernandez vs Ekaterina Alexandrova: Set 1 Winner Tennis Prediction Market",
           "Jacob hits peak form at European Open tennis"
         ]
+      },
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Katerina Siniakova now guaranteed to surpass Martina Navratilova’s all-time record after another outstanding year",
+          "WTA Guangzhou Day 3 Predictions Including Paula Badosa vs Sinja Kraus",
+          "Paula Badosa defeats Carol Lee and cruises into the round of 16 in Guangzhou"
+        ]
       }
     ],
-    "last_seen": "2026-10-22",
-    "total": 1,
+    "last_seen": "2026-10-28",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 200,
-    "category": "اقتصاد"
+    "category": "رياضة"
   },
   "katarzyna-kawa": {
     "slug": "katarzyna-kawa",
@@ -402650,8 +402726,8 @@
         "date": "2026-10-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -402666,7 +402742,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "النادي-الفيصلي": {
@@ -450634,7 +450710,7 @@
         "headlines": [
           "Roma vs Cagliari: Italian Serie A stats & head-to-head",
           "Roma’s Unbeaten Run Faces Another Test in Midweek Clash With Cagliari",
-          "Gasperini analyzes win over Cagliari: “It wasn’t easy, we had several banged-up players.”"
+          "Over 60,000 at the Olimpico for Cagliari: all the info fans need"
         ]
       }
     ],
@@ -451576,7 +451652,7 @@
         "headlines": [
           "أشرف زكى لليوم السابع: سنقاضي مفبرك صورة دينا الشربيني ولا تهاون مع أي إساءة للفنان المصري",
           "نقابة المهن التمثيلية تتخذ إجراءً قانونيًا شد شاب نشر صورًا مفبركة لـ دينا الشربيني",
-          "تفاصيل جديدة في واقعة فبركة صور دينا الشربيني وتحرك قانوني مرتقب | خاص"
+          "صور مفبركة لدينا الشربيني تشعل الجدل.. والنقابة تتحرك قانونياً"
         ]
       }
     ],
@@ -452560,9 +452636,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "Trail Blazers 136-129 Lakers (Oct 27, 2026) Game Recap",
           "Licensable picture: NBA: Portland Trail Blazers at Los Angeles Lakers",
-          "Portland Trail Blazers vs Los Angeles Lakers LIVE Score Updates in NBA Match (68-73)",
-          "Scoot Henderson is Questionable Against Lakers"
+          "Luka Dončić goes for game-high 41 points vs. POR"
         ]
       }
     ],
@@ -452737,7 +452813,7 @@
         "headlines": [
           "BAN vs WI 2026/27, BAN vs WI 1st Test Match Preview - Bangladesh's chance to bounce back after tough UAE tour",
           "Bangladesh wins the toss and bats against West Indies in the first cricket test",
-          "Mushfiqur Rahim ruled out of 1st Test vs West Indies due to finger injury"
+          "Mushfiqur ruled out of 1st Test due to finger injury"
         ]
       }
     ],
@@ -453138,12 +453214,12 @@
         "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
           "\"التحالف\" يعترض صاروخين باتجاه الرياض.. والحوثي يعلن استهداف وزارة الدفاع السعودية",
           "الحوثيون يستهدفون الرياض ومطار أبها والتحالف يؤكد اعتراض صواريخ ومسيّرات",
-          "بلومبرج: السعودية تسيطر على حريق قرب محطة رأس تنورة لتصدير النفط عقب هجوم"
+          "القوات المسلحة تستهدف وزارة الدفاع السعودية وطائرتي نقل في مطار نجران وقاعدة خميس مشيط"
         ]
       }
     ],
@@ -453153,7 +453229,7 @@
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "knicks-vs-pistons": {
     "slug": "knicks-vs-pistons",
@@ -453170,9 +453246,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Knicks 111, Pistons 97: Scenes from win number one",
-          "Jalen Brunson, KAT React to Knicks' 1st Win of Season Amid NBA Title Hangover Concerns",
-          "Karl-Anthony Towns dominates with 27 points and 20 rebounds, Knicks hand Pistons first loss"
+          "“Gotta Take My Hat Off,” Knicks HC Mike Brown Heaps Praise On Karl-Anthony Towns Double-Double In Season’s First Win",
+          "Game Recap: Knicks 111, Pistons 97,",
+          "Knicks finally can exhale after returning to their championship identity"
         ]
       }
     ],
@@ -453369,12 +453445,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "سياسة",
+        "category": "عام",
         "publishable": false,
         "headlines": [
-          "PetroChina sees oil holding above pre-war levels in 2027",
-          "UN inquiry says Israel kept committing genocide in Gaza after truce",
-          "Israel Has Committed Genocidal Acts in Gaza Since Cease-Fire, U.N. Human Rights Panel Says"
+          "Iran War Cost Rises to $47.1 Billion, Pentagon Told Lawmakers",
+          "Iran war has cost $47 billion, U.S. military says",
+          "US costs of Iran war rise to over $47 billion, according to Pentagon estimate"
         ]
       }
     ],
@@ -453384,6 +453460,176 @@
       "world"
     ],
     "peak_traffic": 100,
-    "category": "سياسة"
+    "category": "عام"
+  },
+  "nba-standings": {
+    "slug": "nba-standings",
+    "name": "nba standings",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": []
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "por-vs-lal": {
+    "slug": "por-vs-lal",
+    "name": "por vs lal",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Lakers - Blazers en directo",
+          "¿Dónde ver LA Lakers vs Portland Trail Blazers? Horario del juego de hoy y transmisión en vivo",
+          "Luka Doncic y los invictos Lakers reciben a los mejorados Trail Blazers."
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "sofia-vergara": {
+    "slug": "sofia-vergara",
+    "name": "sofia vergara",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Sofía Vergara Holds Hands With Imagine Dragons’ Dan Reynolds at Dinner After His Minka Kelly Split",
+          "Sofía Vergara and Imagine Dragons singer Dan Reynolds hold hands in new photos from Beverly Hills dinner",
+          "Sofia Vergara Asked About Dan Reynolds Dating Rumors as Source Addresses Their Relationship"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "russell-westbrook": {
+    "slug": "russell-westbrook",
+    "name": "russell westbrook",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Russell Westbrook, Thunder Reunion Addressed by Sam Presti After Jalen Williams, Wallace Injuries",
+          "Final window for Russell Westbrook reunion was just opened for Thunder",
+          "Sam Presti when asked about Russell Westbrook: 'I haven't thought about anything relative to the roster spot'"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "shaedon-sharpe": {
+    "slug": "shaedon-sharpe",
+    "name": "shaedon sharpe",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Why Scoot Henderson Didn’t Score a Blazers Extension",
+          "Blazers’ backcourt upgrade clouds Scoot Henderson and Shaedon Sharpe’s futures",
+          "Victor Wembanyama has created an undeniable gap between himself and Scoot Henderson"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "سرطان-القولون-والمستقيم": {
+    "slug": "سرطان-القولون-والمستقيم",
+    "name": "سرطان القولون والمستقيم",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|eg",
+        "date": "2026-10-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "هل تخفي علبة الزبادي سرًا يتعلق بسرطان القولون؟.. دراسة توضح",
+          "هل تزيد الأطعمة فائقة المعالجة خطر سرطان القولون؟.. دراسة تكشف مفاجأة",
+          "سرطان الأمعاء المبكر: ما الذي تبحث عنه دراسة بريطانية؟"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
   }
 }

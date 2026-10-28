@@ -11205,12 +11205,12 @@
         "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "عراقجي: أي «مغامرة عسكرية» إسرائيلية في الخليج أثرها «مدمر» على أسواق الطاقة",
-          "عراقجي: تداعيات أي مغامرة عسكرية تظل مصدر قلق بالغ لكل من الدول المصدّرة و المستهلكة للغاز",
-          "وزير الخارجية الإيرانيّ: موردو ومستهلكو الغاز قلقون من أي مغامرة عسكرية في منطقة الخليج تحرض عليها إسرائيل إذ أن التداعيات ستكون مدمرة على الأسواق الدولية"
+          "\"7 دولارات لقتل الفلسطينيين\".. إعلان يدعم عبدول السيد يثير الجدل بسبب إسرائيل",
+          "أعضاء من إدارة ترامب يصعّدون الهجوم على عبدالرحمن السيد.. والمتحدث باسم حملته يرد",
+          "مرشح أميركي ورسالة عن مصر.. وثيقة تثير الجدل بشأن الإخوان"
         ]
       }
     ],
@@ -11221,7 +11221,7 @@
       "sa"
     ],
     "peak_traffic": 10000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "وقود": {
     "slug": "وقود",
@@ -43725,13 +43725,13 @@
         "date": "2026-10-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "ما حقيقة إيداع شمس البارودي مستشفى الأمراض العقلية؟",
           "شمس البارودي تتمسك بفيديوهاتها رغم هجوم \"أهل الشر\"",
+          "ما حقيقة إيداع شمس البارودي مستشفى الأمراض العقلية؟",
           "الفنانة المعتزلة شمس البارودي ترد على شائعة دخولها مستشفى الأمراض العقلية"
         ]
       }
@@ -113733,10 +113733,25 @@
           "الكهرباء تبدأ فى خفض سعر المحاسبة ب\"الكودي\" بنسبة 30%",
           "إنهاء التقنين خلال 12 شهرًا.. تيسيرات غير مسبوقة بملف التصالح في مخالفات البناء"
         ]
+      },
+      {
+        "key": "2026-10-28|eg",
+        "date": "2026-10-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "«الكهرباء» توقف شحن العدادات التي تبدأ برقم «11».. ومصدر يوضح السبب وخطوات الحل",
+          "عدادات الكهرباء",
+          "تكلفة تركيب عداد كهرباء جديد 2026 في مصر والأوراق المطلوبة وخطوات التقديم"
+        ]
       }
     ],
-    "last_seen": "2026-10-27",
-    "total": 4,
+    "last_seen": "2026-10-28",
+    "total": 5,
     "countries": [
       "eg"
     ],
@@ -153005,12 +153020,28 @@
           "أسعار العملات العربية في ختام تعاملات اليوم 24 أكتوبر 2026",
           "ارتفاع سعر الريال السعودي مقابل الجنيه في 5 بنوك خلال أسبوع"
         ]
+      },
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "سعر الدولار في مصر يسجل مكاسب جديدة.. الجنيه تحت الضغط",
+          "هبوط قياسي للجنيه يقلق المصريين ويثير تساؤلات بشأن التحوط",
+          "سعر الدولار يتجاوز 56 جنيها في البنوك المصرية"
+        ]
       }
     ],
-    "last_seen": "2026-10-25",
-    "total": 4,
+    "last_seen": "2026-10-28",
+    "total": 5,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 5000,
     "category": "اقتصاد"
@@ -154803,10 +154834,25 @@
           "Trump continues midterm campaign blitz in Mississippi amid outcry over racist, Islamophobic attacks – live",
           "U.S. Senate candidate Andrews holds town hall in Aiken aimed at Republicans, independents"
         ]
+      },
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Heavily Republican South Carolina’s Senate Race Is a Tossup, Poll Finds",
+          "Where the SC Senate race between Andrews and Graham stands with one week to go",
+          "Tuesday’s Campaign Round-Up, 10.27.26: Annie Andrews picks up key GOP endorsement"
+        ]
       }
     ],
-    "last_seen": "2026-10-27",
-    "total": 3,
+    "last_seen": "2026-10-28",
+    "total": 4,
     "countries": [
       "world"
     ],
@@ -192002,15 +192048,30 @@
           "‘Spider-Man: Brand New Day’ Hits Streaming, But It Costs A Whole Lot",
           "Jon Bernthal’s Colossal Box Office Hit Is Already No. 1 on Digital Streaming"
         ]
+      },
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Spider-Man Fans Are Convinced New Avengers: Doomsday Release Confirms Tom Holland’s Casting",
+          "Supe Up Your Sight with Ray-Ban’s New Marvel Collection",
+          "RAY-BAN x Marvel: the new eyewear collection"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 1,
+    "last_seen": "2026-10-28",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 200,
-    "category": "فن ومشاهير"
+    "category": "عام"
   },
   "strands-hint-today": {
     "slug": "strands-hint-today",
@@ -261772,7 +261833,7 @@
         "traffic": "20000+",
         "traffic_num": 20000,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "LIVE: Alex Eala vs Talia Gibson – Pan Pacific Open Round of 16",
           "Eala passes Stojsavljevic test in Tokyo; Chwalinska, Bencic withdraw",
@@ -261786,12 +261847,12 @@
         "country_name": "السعودية",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "حوادث وقضايا",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Eala passes Stojsavljevic test in Tokyo; Chwalinska, Bencic withdraw",
-          "Alex Eala admits she’s ‘bonded really quickly’ with WTA player over their Filipino roots",
-          "EALA IN JAPAN OPEN 🇯🇵 Japan Open matches continue in Tokyo on Monday, October 26, despite the rainy weather. Filipina tennis star Alex Eala is expected to compete against UK’s Mika Stojsavljevic in the indoor Center Court not before 4 p.m., Manila tim"
+          "LIVE UPDATES: Alex Eala vs Talia Gibson at the Pan Pacific Open Round of 16",
+          "Senators Alan Peter Cayetano and Pia Cayetano watch the Round of 16 match between Alex Eala and Talia Gibson in the Pan Pacific Open. (Contributed photos)",
+          "Eala passes Stojsavljevic test in Tokyo; Chwalinska, Bencic withdraw"
         ]
       }
     ],
@@ -261802,7 +261863,7 @@
       "world"
     ],
     "peak_traffic": 50000,
-    "category": "حوادث وقضايا"
+    "category": "رياضة"
   },
   "venezuela": {
     "slug": "venezuela",
@@ -266279,10 +266340,25 @@
           "سماع دوي انفجارين في الرياض.. والسعودية تسقط صاروخا ومسيّرة",
           "الدفاع المدني: إطلاق الإنذار المبكر في مكة المكرمة"
         ]
+      },
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "شخصية",
+        "publishable": true,
+        "headlines": [
+          "الدفاع المدني يُطلق إنذاراً مبكراً في جدة وينبع للتحذير من خطر",
+          "الدفاع المدني: زوال الخطر عن أبها وخميس مشيط",
+          "\"الدفاع المدني\": زوال الخطر عن جدة وينبع"
+        ]
       }
     ],
-    "last_seen": "2026-10-24",
-    "total": 3,
+    "last_seen": "2026-10-28",
+    "total": 4,
     "countries": [
       "sa"
     ],
@@ -315656,10 +315732,25 @@
           "Jintimani Kalita replaces Renuka Thakur for Zimbabwe ODIs",
           "Deepti ready to embrace vice-captaincy challenge, aims to assist Mandhana"
         ]
+      },
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "IND vs ZIM Women 3rd ODI Live Score: India need 132 to win as Vaishnavi-led bowling attack bundles Zimbabwe out for 131",
+          "India likely to experiment in final ODI",
+          "'I want to accept it': Harmanpreet Kaur embraces life beyond captaincy, says cricket continues to give her happiness"
+        ]
       }
     ],
-    "last_seen": "2026-10-23",
-    "total": 3,
+    "last_seen": "2026-10-28",
+    "total": 4,
     "countries": [
       "world"
     ],
@@ -392971,10 +393062,25 @@
           "GE Vernova's $176 Billion Backlog, Explained",
           "Dell Technologies Inc. Cl C stock rises Tuesday, outperforms market"
         ]
+      },
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "GE Vernova Orders Soar. Earnings Reveal That AI Power Demand Remains Red Hot.",
+          "GE Vernova Stock Fell 11% in a Day. Here's What I Think It Could Be Worth by 2030.",
+          "GE Vernova: Lean Manufacturing Supports Backlog Growth In Q3’26 Preview (NYSE:GEV)"
+        ]
       }
     ],
-    "last_seen": "2026-10-22",
-    "total": 1,
+    "last_seen": "2026-10-28",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -453332,8 +453438,8 @@
         "publishable": false,
         "headlines": [
           "NBA: Los Angeles Lakers vs. Portland Trail Blazers",
-          "Luka Doncic News: Drills sox threes in defeat",
-          "Morant: Trail Blazers are a 'determined' team"
+          "'Dame Time' Makes a Grand Re-Entrance",
+          "Luka Dončić pours in 41 in a losing effort to Trail Blazers in LA"
         ]
       }
     ],
@@ -455208,8 +455314,8 @@
         "date": "2026-10-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -455224,7 +455330,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "simon-harmer": {
@@ -455239,18 +455345,34 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "20000+",
         "traffic_num": 20000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Bombshell Smith detail rocks ‘angry’ Aussies",
+          "Starc wizardry turns Cape Town decider on its head",
+          "The four balls that turned the Test and saved captain Pat Cummins"
+        ]
+      },
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "Ball by Ball Commentary & Live Score - SA vs AUS, 3rd Test",
-          "South Africa v Australia: third men’s cricket Test, day two – live",
-          "Australia vs South Africa: Pat Cummins' tourists fight back to edge first day"
+          "Australia vs South Africa: Pat Cummins' tourists fight back to edge first day",
+          "Runs, Wickets & Records at Newlands"
         ]
       }
     ],
     "last_seen": "2026-10-28",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "sa",
       "world"
     ],
     "peak_traffic": 20000,
@@ -455701,13 +455823,13 @@
         "date": "2026-10-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "رحيل الأديب السعودي محمد العلي.. شاعر \"الماء\".. و\"مجاهد\" تغيير الفكر الاجتماعي",
-          "وفاة الشاعر والكاتب \"محمد العلي\"",
+          "وفاة الشاعر محمد عبدالله العلي عن 94 عاماً",
           "محمد العلي... قرنٌ من الأسئلة وشاعر لم يتقاعد عن التنوير"
         ]
       }
@@ -455717,7 +455839,267 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "حوادث وقضايا"
+  },
+  "spanish-train": {
+    "slug": "spanish-train",
+    "name": "spanish train",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "At least 46 killed in Spain high-speed train crash",
+          "At least 10 killed in collision of high-speed trains in Spain",
+          "Spain train crash: What we know after two trains collide with dozens feared dead"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "حوادث وقضايا"
+  },
+  "king-tides": {
+    "slug": "king-tides",
+    "name": "king tides",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "‘Highest king tide ever’ swamps South Florida and exposes danger of sea rise",
+          "More king tides expected in South Florida Wednesday but residents hopeful worst is over",
+          "Juno Beach Pier closes indefinitely after damage from rough surf"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "دول وأماكن"
+  },
+  "saints-practice-squad-receiver-changes": {
+    "slug": "saints-practice-squad-receiver-changes",
+    "name": "saints practice squad receiver changes",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Saints may have tipped their hand on Jordyn Tyson with roster moves",
+          "Saints receive brutal injury update ahead of Week 7 showdown vs. Steelers",
+          "Kyrese Rowan: Cut from Saints' practice squad"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "when-is-time-change-2026-fall": {
+    "slug": "when-is-time-change-2026-fall",
+    "name": "when is time change 2026 fall",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Daylight saving time is coming to an end again. Here's how the time change may impact you",
+          "These 19 states want to make daylight saving time permanent",
+          "The clocks change soon. Here’s how to prep your body."
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "vrt-stock": {
+    "slug": "vrt-stock",
+    "name": "vrt stock",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Vertiv Reports Strong Third Quarter 2026 with Net Sales Growth of 61%, Organic Orders Growth over 100% and Diluted EPS Growth of 91% (Adjusted Diluted EPS Growth of 78%); Raises Full Year 2026 Guidance Across All Key Metrics",
+          "Vertiv Stock Jumps 14% as Earnings Show Another Way to Play the AI Boom",
+          "Vertiv Soars 16% and Enphase Sinks 17%: 6 Stocks Moving Before the Bell"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
+  },
+  "spaceplane": {
+    "slug": "spaceplane",
+    "name": "spaceplane",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فضول عام",
+        "publishable": false,
+        "headlines": [
+          "China’s top-secret spaceplane can’t hide in low-Earth orbit",
+          "China’s super-secret space plane visible in clearest photo yet",
+          "US intel confirms China’s mysterious X-37B-like spaceplane, with a sharper image in orbit"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "فضول عام"
+  },
+  "samsung-galaxy-buds-on": {
+    "slug": "samsung-galaxy-buds-on",
+    "name": "samsung galaxy buds on",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Samsung's first open-ear earbuds, Galaxy Buds On, arrive with Gemini Live",
+          "Galaxy Buds On Europe Launch Timeline and Pricing Leak via Retailers"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "تقنية"
+  },
+  "عمر-الشريف-جونيور": {
+    "slug": "عمر-الشريف-جونيور",
+    "name": "عمر الشريف جونيور",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|eg",
+        "date": "2026-10-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "عمر الشريف «الابن» يعود للشاشة بفيلم يكسر القوالب الهوليوودية",
+          "بعيدًا عن قوالب هوليوود.. عمر الشريف \"الابن\" يشارك في فيلم جديد",
+          "عمر الشريف الابن يشارك في بطولة فيلم Crazy Rich Arabs"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 2000,
+    "category": "شخصية"
+  },
+  "قرعه-دوري-ابطال-افريقيا": {
+    "slug": "قرعه-دوري-ابطال-افريقيا",
+    "name": "قرعه دوري ابطال افريقيا",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|eg",
+        "date": "2026-10-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "قرعة دوري أبطال أفريقيا.. الزمالك ضمن قائمة الأكثر مشاركة بدور المجموعات",
+          "موعد قرعة دوري أبطال إفريقيا والكونفيدرالية 2026-2027، القنوات الناقلة وتصنيف الفرق",
+          "أخبار | مباشر قرعة الكونفدرالية.. انطلاق القرعة"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
   }
 }

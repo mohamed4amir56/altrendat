@@ -4152,9 +4152,8 @@
         "category": "طقس",
         "publishable": false,
         "headlines": [
-          "عام / أمطار على محافظة أملج بمنطقة تبوك",
-          "تنبيه من أمطار غزيرة وسيول وبرد على الباحة والمدينة المنورة",
-          "الأرصاد السعودية: أمطار متفاوتة الغزارة على معظم مناطق المملكة في نوفمبر"
+          "بسبب الأمطار.. تعليق الدراسة اليوم في بعض مدارس وجامعات السعودية",
+          "أمطار رعدية غزيرة .. الأرصاد السعودية تحذر سكان 10 مناطق"
         ]
       }
     ],
@@ -28371,16 +28370,31 @@
           "Alleged Chinese agent to remain in custody, judge rules, amid FBI concerns of flight risk",
           "US accuses California woman of spying for China, surveilling Taiwan president's son"
         ]
+      },
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Kylian Mbappé dropped by Chinese brands after alleged dictator comment",
+          "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
+          "Kylian Mbappé’s China crisis shows how sensitive Mao’s legacy remains"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 2,
+    "last_seen": "2026-10-28",
+    "total": 3,
     "countries": [
       "sa",
       "world"
     ],
-    "peak_traffic": 1000,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 2000,
+    "category": "دول وأماكن"
   },
   "snack": {
     "slug": "snack",
@@ -60006,8 +60020,8 @@
         "date": "2026-10-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -60022,7 +60036,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "حوادث وقضايا"
   },
   "earthquake-seattle": {
@@ -180980,10 +180994,10 @@
         "date": "2026-10-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "اقتصاد",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "هدوء سعر الدولار مقابل الجنيه فى بداية تعاملات اليوم الأربعاء",
           "سعر الدولار مقابل الجنيه المصري في البنوك مع نهاية تعاملات اليوم",
@@ -198354,12 +198368,24 @@
           "التعليم تشدد الانضباط: لا نجاح في ابتدائي بدون حضور 70% من الدراسة",
           "التعليم تكشف مصير تلاميذ الابتدائية المنقطعين عن الدراسة عامين متتاليين"
         ]
+      },
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": []
       }
     ],
-    "last_seen": "2026-10-18",
-    "total": 2,
+    "last_seen": "2026-10-28",
+    "total": 3,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 500,
     "category": "سياسة"
@@ -262071,9 +262097,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "LIVE: Alex Eala vs Talia Gibson – Pan Pacific Open Round of 16",
-          "By the numbers: Shnaider, Eala set Tokyo rematch with three-set victories",
-          "Alex Eala advances to Toray Pan Pacific quarterfinals after besting Talia Gibson"
+          "Alex Eala rallies past Talia Gibson, sets up Diana Shnaider rematch in Toray Pan Pacific Open quarterfinals",
+          "Eala passes Stojsavljevic test in Tokyo; Chwalinska, Bencic withdraw",
+          "Tennis: Eala powers past British wildcard, advances to round 2 in Tokyo"
         ]
       },
       {
@@ -322237,15 +322263,30 @@
           "\"فيفا\" يعاقب منتخب إسبانيا بسبب هتافات معادية للمسلمين أمام مصر",
           "الفيفا يرفض استئناف إسبانيا ويثبت عقوبات بسبب هتافات \"معادية للمسلمين\""
         ]
+      },
+      {
+        "key": "2026-10-28|eg",
+        "date": "2026-10-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "مدريد: ارتفاع عدد ضحايا حادث التصادم بين قطارين في إسبانيا إلى 64 قتيلاً",
+          "تأجيل 24 مباراة في كأس الملك بسبب حادث قطار مروع بوسط إسبانيا",
+          "رئيس الوزراء الإسباني: فرق الطوارئ تعمل على تقديم المساعدة للمتضررين من حادث توليدو"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 1,
+    "last_seen": "2026-10-28",
+    "total": 2,
     "countries": [
       "eg"
     ],
     "peak_traffic": 2000,
-    "category": "دول وأماكن"
+    "category": "حوادث وقضايا"
   },
   "تهريب": {
     "slug": "تهريب",
@@ -328952,8 +328993,8 @@
         "date": "2026-10-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
@@ -357813,15 +357854,30 @@
           "غرامة \"مضحكة\" على برشلونة بسبب قضية جوليان ألفاريز",
           "\"تافهة\".. الاتحاد الإسباني يحدد عقوبة برشلونة في قضية ألفاريز"
         ]
+      },
+      {
+        "key": "2026-10-28|eg",
+        "date": "2026-10-28",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "ترتيب هدافي الدوري المصري قبل الجولة الثامنة.. لاعب مودرن يحلق في الصدارة",
+          "ترتيب الدوري المصري قبل انطلاق منافسات الجولة الثامنة",
+          "مواعيد مباريات الجولة الثامنة من الدوري المصري والقنوات الناقلة"
+        ]
       }
     ],
-    "last_seen": "2026-10-27",
-    "total": 2,
+    "last_seen": "2026-10-28",
+    "total": 3,
     "countries": [
       "eg"
     ],
     "peak_traffic": 200,
-    "category": "حوادث وقضايا"
+    "category": "رياضة"
   },
   "james-talarico": {
     "slug": "james-talarico",
@@ -447847,10 +447903,25 @@
           "Tony Shalhoub's new memoir rooted in Wisconsin is literary comfort food",
           "Actor Tony Shalhoub Opens Up About His Family Traditions, Food, and the Memories That Connect Generations"
         ]
+      },
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Celebrity Photos Updated Daily: Demi Lovato, Tony Shalhoub, Tatyana Ali, Bella Hadid and More",
+          "Halloween and Horror with Ozzy, Slash, Ice Nine Kills and The Dickies",
+          "Famous Frights At Hollywood's Halloween Horror Nights 2026"
+        ]
       }
     ],
-    "last_seen": "2026-10-27",
-    "total": 1,
+    "last_seen": "2026-10-28",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -455470,14 +455541,14 @@
         "date": "2026-10-28",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "category": "عام",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Labuschagne's career in dire straits after an otherwise even session",
-          "Katich rips selectors as Marnus taunted in horror form slump",
-          "Warner: “He’s playing for his career!”"
+          "Australia vs South Africa: Pat Cummins' tourists fight back to edge first day",
+          "Runs, Wickets & Records at Newlands",
+          "Mitchell Starc equals Dale Steyn, leaves several legends behind in elite list"
         ]
       }
     ],
@@ -455488,7 +455559,7 @@
       "world"
     ],
     "peak_traffic": 20000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "brewers-game-yesterday": {
     "slug": "brewers-game-yesterday",
@@ -457224,14 +457295,14 @@
         "date": "2026-10-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "+5200",
+        "traffic_num": 5200,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "بالمواعيد.. تعرف على ترتيب مباريات الأهلي في مجموعات الكونفدرالية",
-          "الجولة الأولى بالقاهرة.. مواعيد مباريات بيراميدز في مجموعات دوري أبطال أفريقيا",
-          "\"الكونفيدرالية\" تضع الأهلي المصري في مواجهة الرجاء المغربي"
+          "\"الكونفيدرالية\" تضع الأهلي المصري في مواجهة الرجاء المغربي",
+          "الجولة الأولى بالقاهرة.. مواعيد مباريات بيراميدز في مجموعات دوري أبطال أفريقيا"
         ]
       }
     ],
@@ -457240,7 +457311,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 5200,
     "category": "رياضة"
   },
   "ياسر-الرميان": {
@@ -457458,12 +457529,12 @@
         "country_name": "السعودية",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "عام",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
           "‘Got hit there, two balls later...’: Green’s painful reveal, new ball hint as major third Test call made",
           "New ball warm-up for Renshaw, as Green eyes No.5 spot on return from ‘bizarre’ injury",
-          "Who stays, who goes? Green's return and a host of questions for Australia"
+          "Green good to go after finding natural game with bat"
         ]
       }
     ],
@@ -457473,7 +457544,7 @@
       "sa"
     ],
     "peak_traffic": 100,
-    "category": "عام"
+    "category": "رياضة"
   },
   "nelson-peltz": {
     "slug": "nelson-peltz",
@@ -457491,8 +457562,8 @@
         "publishable": false,
         "headlines": [
           "Wendy's shares jump 15% as Nelson Peltz's Trian offers $1.4 billion to buy burger chain",
-          "Billionaire investor Nelson Peltz makes move to buy struggling Wendy's",
-          "The struggling burger chain Wendy’s has received a buyout offer from an activist investor"
+          "Peltz's Trian offers to buy Wendy's chain for $1.5B",
+          "Billionaire investor Nelson Peltz makes move to buy struggling Wendy's"
         ]
       }
     ],
@@ -457543,8 +457614,8 @@
         "date": "2026-10-28",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -457559,7 +457630,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "البنك-الاهلي-ضد-المصري": {
@@ -457572,23 +457643,39 @@
         "date": "2026-10-28",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "أحمد سامى يبحث عن الفوز الأول مع المصرى فى الدورى أمام البنك الأهلى",
-          "تشكيل البنك الأهلي ضد المصري البورسعيدي في الدوري",
-          "عاجل.. حكام مباراة الزمالك والمقاولون العرب كاملاً"
+          "محمود ناجى حكمًا لمواجهة البنك الأهلي والمصري في الدورى",
+          "عاجل.. حكام مباراة الزمالك والمقاولون العرب كاملاً",
+          "المصرى يختتم تدريباته استعدادا لمواجهة «البنك»"
+        ]
+      },
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "أحمد ياسر ريان يقود هجوم البنك الأهلي أمام المصري",
+          "عاجل.. حكام مباراة الزمالك والمقاولون العرب كاملاً",
+          "تغطية حية مباشر لمباراة فريقي البنك الأهلي و المصري في بطولة الدوري المصري - الأسبوع 8"
         ]
       }
     ],
     "last_seen": "2026-10-28",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "اقتصاد"
   },
   "يانج-افريكانز": {
@@ -457618,6 +457705,151 @@
       "eg"
     ],
     "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "high-potential": {
+    "slug": "high-potential",
+    "name": "high potential",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "ABC Confirms Bad News for High Potential Season 3 After Historic Renewal Decision",
+          "‘High Potential’ Fans Missing Season 3 Have the Perfect Replacement on Peacock",
+          "Why Is ‘High Potential’ Not On? All About the Show’s Scheduling Switch-Up"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "فن ومشاهير"
+  },
+  "ramses-ii-colossal-statues-discovery-egypt": {
+    "slug": "ramses-ii-colossal-statues-discovery-egypt",
+    "name": "ramses ii colossal statues discovery egypt",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|world",
+        "date": "2026-10-28",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فضول عام",
+        "publishable": false,
+        "headlines": [
+          "Giant statues of pharaoh with Moses link discovered after farmer finds inscribed stone",
+          "A Farmer in Egypt Stumbled Upon a Pink Stone and Called the Authorities. They Found the Remains of Two Colossal Statues of Ramses II Beneath the Property",
+          "Ramses II statue fragments found on Egyptian farmer’s land"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "فضول عام"
+  },
+  "أحمد-الشمراني": {
+    "slug": "أحمد-الشمراني",
+    "name": "أحمد الشمراني",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "رفع الحد الأدنى للأجر يعزز جاذبية الوظائف ويحد من التوطين الصوري",
+          "«التأمينات»: بدل الـ500 ريال يُودع تلقائياً مع معاش يناير في 31 ديسمبر",
+          "حديد الرياض: 1.37 مليون ريال الأثر المالي المتوقع لتعديل تعرفة الكهرباء في 2027"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "ரபய": {
+    "slug": "ரபய",
+    "name": "ரூபாய்",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "”மீண்டும் புழக்கத்திற்கு வருகிறதா 1000 ரூபாய் நோட்டுகள்?”; அரசு விளக்கம்",
+          "தஞ்சை பெரிய கோயில் படத்துடன் ரூ.1000 நோட்டு? மத்திய அரசு விளக்கம்",
+          "தஞ்சை பெரிய கோயில் படத்துடன் புதிய ரூ. 1,000 பணத்தாள் வெளியீடா? மத்திய அரசு விளக்கம்"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "أصالة": {
+    "slug": "أصالة",
+    "name": "أصالة",
+    "first_seen": "2026-10-28",
+    "appearances": [
+      {
+        "key": "2026-10-28|sa",
+        "date": "2026-10-28",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "\"لا تقترب حتى لا يغار زوجي\".. موقف طريف يجمع أصالة مع طفل على المسرح",
+          "بفستان متعدد الألوان.. أصالة نصري تتفاعل مع طفل في حفل لوس أنجلوس",
+          "فستان أصالة في لوس أنجلوس يلفت الأنظار.. وطفل يسرق لحظة الحفل"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-28",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
     "category": "شخصية"
   }
 }

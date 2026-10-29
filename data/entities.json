@@ -560,8 +560,8 @@
         "date": "2026-10-29",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "+21000",
-        "traffic_num": 21000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -13158,12 +13158,12 @@
         "country_name": "السعودية",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "مدرس جغرافيا في قرية فرنسية يعترف بتوريط مبابي مع الصين",
-          "بعد وصفه لزعيم صيني بـ\"الديكتاتور\".. ريال مدريد يصدر بيانا بشأن تصريحات مبابي",
-          "هل تُعدّ خسارة 7 ملايين يورو سنوياً نقطة في بحر بالنسبة لمبابي؟"
+          "رئيس الاتحاد الإفريقي يكشف لـCNN موقفه من إنفانيتنو ويوضح السبب",
+          "الأمير علي بن الحسين: لم أتهم أحداً بالرشوة و«التهديد»",
+          "الآسيوي يرفض اتهامات رئيس الاتحاد الأردني ويحيله إلى التحقيق"
         ]
       }
     ],
@@ -13174,7 +13174,7 @@
       "sa"
     ],
     "peak_traffic": 1000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "عمرو-زهران": {
     "slug": "عمرو-زهران",
@@ -32491,11 +32491,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
+          "8 أسابيع حاسمة.. هل يمنح \"الفيدرالي\" الجنيه المصري فرصة لالتقاط الأنفاس؟",
           "تفاصيل تثبيت الاحتياطى الفيدرالى الأمريكى أسعار الفائدة عند 4%.. فيديو",
-          "كيف تفاعلت الأسواق مع قرار الفيدرالي؟",
-          "الدولار يستقر بعد إبقاء أسعار الفائدة الأميركية دون تغيير"
+          "\"سي جي إنفست\": التوترات الجيوسياسية تبقي احتمالات رفع الفائدة قائمة"
         ]
       }
     ],
@@ -84456,14 +84456,29 @@
           "Powerball numbers tonight, Sept. 30? Powerball winning numbers last night",
           "Powerball jumps to $409 million. Wednesday, Sept. 30, results, numbers"
         ]
+      },
+      {
+        "key": "2026-10-29|world",
+        "date": "2026-10-29",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Winning Powerball numbers for the $716 million jackpot on Wednesday, Oct. 28, 2026: See all the prizes hit in Ohio",
+          "Powerball results are in! Did anyone win big?",
+          "Powerball Jackpot Rises To $760 Million—Here’s What The Winner Could Take Home"
+        ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 1,
+    "last_seen": "2026-10-29",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 10000,
     "category": "عام"
   },
   "primary-school-leaving-examination": {
@@ -98378,16 +98393,31 @@
           "Storm Boelo: Status Orange wind warning in place for five counties as some flights at Dublin Airport cancelled",
           "Public told to avoid unnecessary travel in five counties with Status Orange wind warnings"
         ]
+      },
+      {
+        "key": "2026-10-29|world",
+        "date": "2026-10-29",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "TSA finds \"Wolverine\"-style claws in passenger's carry on bag",
+          "Claw-some catch in Seattle",
+          "TSA finds sharp \"mutant blades\" in carry-on bag at Seattle airport"
+        ]
       }
     ],
-    "last_seen": "2026-10-24",
-    "total": 3,
+    "last_seen": "2026-10-29",
+    "total": 4,
     "countries": [
       "sa",
       "world"
     ],
     "peak_traffic": 20000,
-    "category": "طقس"
+    "category": "عام"
   },
   "kyrian-jacquet": {
     "slug": "kyrian-jacquet",
@@ -136415,7 +136445,7 @@
         "publishable": false,
         "headlines": [
           "These are the House races to watch in the 2026 midterm election on Nov. 3",
-          "US midterms: Five days to go – What the polls say as Trump, Harris campaign",
+          "Four Scenarios for How the Midterms Could Go",
           "How to tell if Democrats are heading for a landslide in the House"
         ]
       }
@@ -148608,10 +148638,25 @@
           "مصادر لـ«الشرق الأوسط»: إدارة أبها تلوح بالاستقالة الجماعية",
           "دوامة النتائج السلبية تعصف بـ يوريتش وإدارة أبها تدرس قرار الإقالة"
         ]
+      },
+      {
+        "key": "2026-10-29|sa",
+        "date": "2026-10-29",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "\"أنا بحاجة للمساعدة\".. رسالة غامضة من والد يامال تثير القلق في برشلونة",
+          "والد لامين يامال \"يبصق\" على امرأة ويعتدي على آخر قبل حفل الكرة الذهبية",
+          "ضيّق الخناق على ابنه في الكلاسيكو.. صورة كوكوريلا مع والد لامين جمال تثير التفاعل"
+        ]
       }
     ],
-    "last_seen": "2026-10-25",
-    "total": 5,
+    "last_seen": "2026-10-29",
+    "total": 6,
     "countries": [
       "eg",
       "sa"
@@ -186368,14 +186413,14 @@
         "date": "2026-10-29",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "20000+",
-        "traffic_num": 20000,
-        "category": "حوادث وقضايا",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "الكهرباء: التوقيت الشتوى لن يوثر على انتظام شحن العدادات",
-          "القابضة للكهرباء: لا صحة لتوقف شحن العدادات.. والخدمة تعمل بانتظام",
-          "«تعرضك للغرامة والحبس».. 7 مخالفات تجنبها في عداد الكهرباء الذكي"
+          "مصر.. منح الرخصة الذهبية لشركتي \"شدوان\" و\"شقير\" لطاقة الرياح",
+          "خبيرة: مصر تستهدف رفع مساهمة الطاقة المتجددة لـ 45% بحلول 2028",
+          "شعبة التعدين بالمهندسين: توطين صناعة الرمال السوداء يعظم الثروات المعدنية ويدعم تصنيع توربينات الرياح"
         ]
       }
     ],
@@ -186384,8 +186429,8 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 20000,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 5000,
+    "category": "شخصية"
   },
   "عادل-إمام": {
     "slug": "عادل-إمام",
@@ -213554,9 +213599,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "How Rays extended World Series in incredible Game 4 comeback",
-          "LIVE: Brewers-Rays World Series Game 5 (FOX/FOX One)",
-          "World Series 2026: With pinch-hit, 12th-inning walk-off, Ben Williamson meets the moment in Game 4 and extends the Rays' season at least one more day"
+          "World Series 2026: Milwaukee Brewers beat Tampa Bay Rays to become MLB champions",
+          "What a World Series title means to Milwaukee",
+          "Brewers close out Rays in Game 5 for first World Series title"
         ]
       }
     ],
@@ -245216,15 +245261,30 @@
           "October 11, 2026: Francisco Cerundolo vs Jakub Mensik: Set 1 Winner Prediction Market",
           "October 11, 2026: Alejandro Davidovich Fokina vs Frances Tiafoe: Set 2 Winner Prediction Market"
         ]
+      },
+      {
+        "key": "2026-10-29|world",
+        "date": "2026-10-29",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "WTA Guangzhou Day 1 Predictions Including Daria Snigur vs Anna Bondar",
+          "Sports News, Transfers, Scores | Watch Live Sport",
+          "Snigur vs. Bondar Prediction at the Galaxy Holding Group Guangzhou Open - Monday, October 26"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 1,
+    "last_seen": "2026-10-29",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 200,
-    "category": "اقتصاد"
+    "category": "رياضة"
   },
   "natanael-cano": {
     "slug": "natanael-cano",
@@ -262130,14 +262190,14 @@
         "date": "2026-10-29",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "20000+",
-        "traffic_num": 20000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "ديني",
         "publishable": true,
         "headlines": [
-          "مواقيت الصلاة اليوم الخميس 29 أكتوبر 2026 بمحافظات الجمهورية",
+          "بالتوقيت الشتوي.. مواقيت الصلاة الجمعة 30 أكتوبر 2026 بمحافظات الجمهورية",
           "موعد أذان وصلاة الظهر اليوم الخميس الموافق 29 أكتوبر 2026",
-          "«الفجر في الإسكندرية.05.44».. جدول مواقيت الصلاة في محافظات مصر غدًا الخميس 29 أكتوبر 2026"
+          "مواقيت الصلاة اليوم الخميس 29 أكتوبر 2026 في القاهرة والمحافظات"
         ]
       }
     ],
@@ -262146,7 +262206,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 20000,
+    "peak_traffic": 10000,
     "category": "ديني"
   },
   "سفارة-المملكة-العربية-السعودية": {
@@ -369642,15 +369702,30 @@
           "England, Pakistan and Sri Lanka build up to World Cup with tri-series",
           "Pakistan Tri-Series Cricket"
         ]
+      },
+      {
+        "key": "2026-10-29|sa",
+        "date": "2026-10-29",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Pakistan Tri-Series Cricket",
+          "Pakistan Tri-Series Cricket",
+          "Pakistan Tri-Series Cricket"
+        ]
       }
     ],
-    "last_seen": "2026-10-20",
-    "total": 1,
+    "last_seen": "2026-10-29",
+    "total": 2,
     "countries": [
       "sa"
     ],
     "peak_traffic": 500,
-    "category": "رياضة"
+    "category": "فن ومشاهير"
   },
   "قاض": {
     "slug": "قاض",
@@ -427483,9 +427558,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
+          "Hampden County among highest in state for foreclosure rates, analysis finds",
           "Vacancy and ‘Zombie Foreclosure’ Rates Decline as Housing Supply Remains Tight",
-          "Where vacant and zombie homes are rising the most",
-          "Attom reports slight decline in home vacancy and zombie rates nationwide"
+          "Where vacant and zombie homes are rising the most"
         ]
       }
     ],
@@ -457494,12 +457569,28 @@
           "Bangladesh wins the toss and bats against West Indies in the first cricket test",
           "What to watch on TV today (28 Oct, 2026)"
         ]
+      },
+      {
+        "key": "2026-10-29|world",
+        "date": "2026-10-29",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "BAN vs WI Cricket Scorecard, 1st Test at Dhaka, October 28 - November 01, 2026",
+          "Shadman’s unbeaten knock anchors Bangladesh on day one",
+          "Bangladesh Forced To Keep Veteran Star Out In Crucial Test vs West Indies"
+        ]
       }
     ],
-    "last_seen": "2026-10-28",
-    "total": 1,
+    "last_seen": "2026-10-29",
+    "total": 2,
     "countries": [
-      "sa"
+      "sa",
+      "world"
     ],
     "peak_traffic": 20000,
     "category": "رياضة"
@@ -461415,7 +461506,7 @@
         "headlines": [
           "South Africa vs Australia LIVE: Third Test, day three, Newlands, Cape Town - cricket score & updates",
           "Starc's admission: 'A lot of things that haven't felt right'",
-          "Aussies look to secure big lead"
+          "Of yorkers, beamers, sliders, googlies and batting days"
         ]
       }
     ],
@@ -469127,9 +469218,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "US Health Secretary RFK Jr to expand access to unapproved peptides",
           "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections",
-          "HHS will let pharmacies make popular peptides not approved by the FDA"
+          "US Health Secretary RFK Jr to expand access to unapproved peptides",
+          "Trump administration will allow pharmacies to make popular peptides"
         ]
       }
     ],
@@ -469243,8 +469334,8 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "الاتحاد يدشن الطقم الثالث. الشكوك تحاصر كادش",
           "بسبب خليجي 27.. نجم المنتخب السعودي مهدد بالغياب عن كأس آسيا",
+          "الاتحاد يدشن الطقم الثالث. الشكوك تحاصر كادش",
           "تأكد غياب حسن كادش حتى كأس آسيا"
         ]
       }
@@ -469304,6 +469395,151 @@
           "شيماء سيف: آيتن عامر قالت لي لن تنجبي حتى تفقدي وزنك (فيديو)",
           "شيماء سيف تكشف هوية الفنانة صاحبة تصريح «مش هتخلفي غير لما تخسي»",
           "شيماء سيف تكشف لأول مرة اسم الفنانة التي أحرجتها أمام زوجها لعدم قدرتها على الإنجاب"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-29",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "rays-game-last-night": {
+    "slug": "rays-game-last-night",
+    "name": "rays game last night",
+    "first_seen": "2026-10-29",
+    "appearances": [
+      {
+        "key": "2026-10-29|world",
+        "date": "2026-10-29",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "How Rays extended World Series in incredible Game 4 comeback",
+          "Milwaukee Brewers at Tampa Bay Rays Preview - 10/28/2026",
+          "World Series 2026: With pinch-hit, 12th-inning walk-off, Ben Williamson meets the moment in Game 4 and extends the Rays' season at least one more day"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-29",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "رياضة"
+  },
+  "detroit-lions-running-back-depth": {
+    "slug": "detroit-lions-running-back-depth",
+    "name": "detroit lions running back depth",
+    "first_seen": "2026-10-29",
+    "appearances": [
+      {
+        "key": "2026-10-29|world",
+        "date": "2026-10-29",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Lions reportedly contact former rushing champion for backfield help",
+          "Detroit Lions ‘In Contact’ With 31-Year-Old Former Pro Bowler",
+          "It's time for the Lions to consider bringing in another running back"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-29",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "جينيفر-لورانس": {
+    "slug": "جينيفر-لورانس",
+    "name": "جينيفر لورانس",
+    "first_seen": "2026-10-29",
+    "appearances": [
+      {
+        "key": "2026-10-29|eg",
+        "date": "2026-10-29",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "بعد ولادة طفلين.. جينيفر لورانس تؤكد خضوعها لعملية تجميل",
+          "الفن والأدب - عودة مزدوجة واعتراف جريء.. جينيفر لورانس تعود لـ The Hunger Games وتكشف سر تغير ملامحها",
+          "جينيفر لورانس كما لم نعرفها من قبل! مظهر جديد يفتح باب التساؤلات: هل كانت عملية تكبير الثدي هي الوحيدة؟"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-29",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "كومباني": {
+    "slug": "كومباني",
+    "name": "كومباني",
+    "first_seen": "2026-10-29",
+    "appearances": [
+      {
+        "key": "2026-10-29|eg",
+        "date": "2026-10-29",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "بايرن ميونيخ يكشف حالة كومباني الصحية بعد \"الوعكة والسقوط\"",
+          "تأكد تشخيص حالة فينسنت كومباني .. ماكس إيبرل يكشف تفاصيل جديدة عن مرض مدرب بايرن ميونخ",
+          "بطولة ألمانيا: كومباني يغادر المستشفى بعد إصابته بالتهاب السحايا"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-29",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "കചച-അനതരഷടര-വമനതതവള": {
+    "slug": "കചച-അനതരഷടര-വമനതതവള",
+    "name": "കൊച്ചി അന്താരാഷ്ട്ര വിമാനത്താവളം",
+    "first_seen": "2026-10-29",
+    "appearances": [
+      {
+        "key": "2026-10-29|sa",
+        "date": "2026-10-29",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "അന്താരാഷ്ട്ര യാത്രക്കാർക്ക് ഡിജി യാത്രാ സേവനമൊരുക്കി സിയാൽ",
+          "കൊച്ചി വിമാനത്താവളത്തിൽ ക്യൂ നിന്ന് വിഷമിക്കേണ്ട; ഡിജിയാത്ര സംവിധാനം തുടങ്ങി, രാജ്യത്ത് ആദ്യം",
+          "രാജ്യത്ത് ആദ്യം; അന്താരാഷ്ട്ര യാത്രക്കാർക്കും ഡിജിയാത്രയൊരുക്കി കൊച്ചി വിമാനത്താവളം"
         ]
       }
     ],

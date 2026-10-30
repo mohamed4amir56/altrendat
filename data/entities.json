@@ -3983,10 +3983,10 @@
         "date": "2026-10-30",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+2000",
-        "traffic_num": 2000,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "دول وأماكن",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "المغرب والبرتغال يستضيفان نسخة استثنائية من رالي دكار",
           "رالي داكار 2027 ينتقل استثنائيا إلى البرتغال والمغرب",
@@ -4000,7 +4000,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 1500,
     "category": "دول وأماكن"
   },
   "السعودية": {
@@ -11701,7 +11701,7 @@
         "publishable": true,
         "headlines": [
           "مصر تشتري 6 شحنات من زيت الوقود في ظل ضغوط واردات الطاقة",
-          "مصر تشتري 6 شحنات زيت وقود وسط صعود أسعار الغاز المسال",
+          "مصر تشتري 6 شحنات من زيت الوقود",
           "رويترز: مصر تشتري 6 شحنات من زيت الوقود مع ارتفاع الواردات 3 أمثال"
         ]
       }
@@ -82079,16 +82079,31 @@
           "Khachanov - Alcaraz, en directo: última hora del Torneo de Viena, hoy en vivo",
           "Alcaraz, genial y reaccionando a tiempo al verse en apuros, vence a Khachanov y pasa de ronda en Viena"
         ]
+      },
+      {
+        "key": "2026-10-30|eg",
+        "date": "2026-10-30",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Alcaraz gana un emocionante partido y avanza a los cuartos de final del Abierto de Viena.",
+          "Alcaraz recupera sensaciones en Viena: “Creo que he jugado un tenis fantástico”",
+          "Nadie puede con Alcaraz: no se deja ir ante Basilashvili y prolonga su imbatibilidad"
+        ]
       }
     ],
-    "last_seen": "2026-10-27",
-    "total": 7,
+    "last_seen": "2026-10-30",
+    "total": 8,
     "countries": [
       "eg",
       "world"
     ],
     "peak_traffic": 5500,
-    "category": "عام"
+    "category": "سياسة"
   },
   "daycares": {
     "slug": "daycares",
@@ -91023,8 +91038,8 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "خطوة رسمية.. تطور لافت في مستقبل كريستيانو رونالدو مع منتخب البرتغال",
           "استدعاء رونالدو إلى البرتغال.. و6 أجانب يغادرون النصر",
+          "خطوة رسمية.. تطور لافت في مستقبل كريستيانو رونالدو مع منتخب البرتغال",
           "جيسوس يستدعي كريستيانو رونالدو لمواجهتي الدنمارك وويلز"
         ]
       }
@@ -122481,12 +122496,28 @@
           "عيار 21 الآن بعد ارتفاعه.. سعر الذهب اليوم الخميس 29-10-2026 في الصاغة",
           "الجنيه الذهب يكسر حاجز 51 ألف جنيه في السوق المحلي"
         ]
+      },
+      {
+        "key": "2026-10-30|sa",
+        "date": "2026-10-30",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "+400",
+        "traffic_num": 400,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "سعر الذهب اليوم في مصر.. عيار 21 يتراجع إلى 6355 جنيهاً",
+          "رفع الفائدة يغير حسابات شراء الذهب.. 3 نصائح قبل ما تدفع فلوسك فى الصاغة",
+          "انخفاض أسعار الذهب اليوم الخميس في مصر.. تعرف على سعر جرام عيار 21"
+        ]
       }
     ],
-    "last_seen": "2026-10-29",
-    "total": 5,
+    "last_seen": "2026-10-30",
+    "total": 6,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 20000,
     "category": "اقتصاد"
@@ -131068,8 +131099,8 @@
         "date": "2026-10-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
@@ -246602,14 +246633,29 @@
           "ماريسكا: لاعبو مانشستر سيتي في حالة جيدة رغم أزمة اللوائح المالية",
           "غياب إيساك وجاكبو تأكد .. إيراولا يُلمح لدور مفاجيء لكييزا مع ليفربول ضد مانشستر سيتي"
         ]
+      },
+      {
+        "key": "2026-10-30|eg",
+        "date": "2026-10-30",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "ليفربول يرفض التفريط فى نجوموها للبايرن مقابل 60 مليون إسترلينى",
+          "تري نيوني يكشف دور محمد صلاح في مسيرته مع ليفربول",
+          "فان دايك على رادار طرابزون سبور.. هل يلتقي مجددا مع صلاح؟"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 1,
+    "last_seen": "2026-10-30",
+    "total": 2,
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "مسار": {
@@ -247638,8 +247684,8 @@
         "date": "2026-10-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "تقنية",
         "publishable": false,
         "headlines": [
@@ -254743,14 +254789,14 @@
         "date": "2026-10-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "category": "فن ومشاهير",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Rob Gronkowski Says He and Girlfriend Camille Kostek Are ‘Basically Married’",
-          "Rob Gronkowski Breaks Silence on Family Plans With GF Camille Kostek After Nearly 13 Years Together",
-          "Rob Gronkowski Reveals He Wants 2 Kids With Girlfriend Camille Kostek"
+          "JACKSON THOMPSON: Gronk calls on NFL to punish refs, says Patriots made last Super Bowl due to easy schedule",
+          "‘Put the referees on a pedestal’: Rob Gronkowski calls for NFL to punish referees",
+          "Rob Gronkowski on NFL officiating & Bill Belichick's rules: 'We want it to be fair & square'"
         ]
       }
     ],
@@ -254760,7 +254806,7 @@
       "world"
     ],
     "peak_traffic": 500,
-    "category": "فن ومشاهير"
+    "category": "رياضة"
   },
   "energy-ceasefire": {
     "slug": "energy-ceasefire",
@@ -283895,16 +283941,31 @@
           "احتراق 3 ناقلات في هرمز وأنباء عن استعداد واشنطن لعمل عسكري",
           "إيران تتوعد سفن «سينوكور» في هرمز بإجراءات قانونية بدءًا من نوفمبر"
         ]
+      },
+      {
+        "key": "2026-10-30|eg",
+        "date": "2026-10-30",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "الحرس الثوري يعلن انفجار 3 ناقلات نفط بمضيق هرمز الجمعة",
+          "سلطنة عُمان: إجلاء 25 فردا من طاقم سفينة تعرضت لحادث",
+          "هيئة التجارة البحرية البريطانية: هجوم بعبوات ناسفة على ناقلة في مضيق هرمز"
+        ]
       }
     ],
-    "last_seen": "2026-10-29",
-    "total": 3,
+    "last_seen": "2026-10-30",
+    "total": 4,
     "countries": [
       "eg",
       "sa"
     ],
     "peak_traffic": 10000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "bein-sport": {
     "slug": "bein-sport",
@@ -414351,8 +414412,8 @@
         "publishable": false,
         "headlines": [
           "بعد موجة انتقادات.. الكاف يعيد \"أمم إفريقيا\" لنظام العامين",
-          "وفق أوضاعه مع كأسي العالم للأندية والمنتخبات.. كاف يعلن مواعيد 4 نسخ مقبلة لأمم أفريقيا",
-          "كينيا تفتتح ملعب \"رايلا أودينجا\" المخصص لكأس الأمم الأفريقية 2027 بمباراة ودية رفيعة المستوى في يناير"
+          "كاف يكشف أسباب التراجع عن إقامة كأس أمم أفريقيا كل 4 سنوات",
+          "وفق أوضاعه مع كأسي العالم للأندية والمنتخبات.. كاف يعلن مواعيد 4 نسخ مقبلة لأمم أفريقيا"
         ]
       }
     ],
@@ -445413,15 +445474,30 @@
           "Early voting continues in Jasper County",
           "Early voting underway in the upcoming November General Election"
         ]
+      },
+      {
+        "key": "2026-10-30|world",
+        "date": "2026-10-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Daily Brew: October 27, 2026",
+          "State judicial races are on the ballot in November. Here’s what you need to know",
+          "How to vet Michigan judges before voting"
+        ]
       }
     ],
-    "last_seen": "2026-10-26",
-    "total": 1,
+    "last_seen": "2026-10-30",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
-    "category": "سياسة"
+    "peak_traffic": 1000,
+    "category": "عام"
   },
   "الجهاز-القومي-لتنظيم-الاتصالات": {
     "slug": "الجهاز-القومي-لتنظيم-الاتصالات",
@@ -485521,9 +485597,9 @@
         "category": "عام",
         "publishable": true,
         "headlines": [
-          "SSS, DICT to expand social security coverage for 1.5 million freelancers",
-          "Virtual assistants, freelancers to get social security coverage under SSS, DICT deal",
-          "PH pushes wider social security coverage for freelancers"
+          "PH pushes wider social security coverage for freelancers",
+          "SSS, DICT widen coverage for freelancers",
+          "Virtual assistants, freelancers to get social security coverage under SSS, DICT deal"
         ]
       }
     ],
@@ -485982,8 +486058,8 @@
         "date": "2026-10-30",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -486185,23 +486261,39 @@
         "date": "2026-10-30",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "علاء عبد العال يعلن أول تشكيل للجونة أمام بترول أسيوط بالدوري الممتاز",
           "الدوري المصري.. بترول أسيوط 0-0 الجونة.. تسديدة خطيرة",
           "أول ظهور للمدربين .. بترول أسيوط يواجه الجونة في الدوري"
         ]
+      },
+      {
+        "key": "2026-10-30|sa",
+        "date": "2026-10-30",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "بترول أسيوط يواجه الجونة في صراع الهروب من قاع الدورى المصرى",
+          "تشكيل مباراة الجونة وبترول أسيوط الرسمي في الدوري الممتاز",
+          "الدوري الممتاز.. تشكيل الجونة لمواجهة بترول أسيوط في عودة علاء عبد العال"
+        ]
       }
     ],
     "last_seen": "2026-10-30",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "عمر-جابر": {
@@ -486246,11 +486338,11 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "Brewers Parade of Champions and Championship Rally",
-          "Watch our livestream of Brewers' World Series parade, rally",
-          "Milwaukee Brewers make surprise appearance at Green Bay Packers game"
+          "LIVE: Watch the 2026 Brewers World Series Championship parade",
+          "Milwaukee bursts with pride for Brewers championship parade — Photos",
+          "Watch our livestream of Brewers' World Series parade, rally"
         ]
       }
     ],
@@ -486272,14 +486364,14 @@
         "date": "2026-10-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
+          "Jury hits Lincoln Towing with $2.85 million verdict, including record punitive damages",
           "Rockland jury reaches verdict in fatal shooting of teen in Spring Valley",
-          "Rockland Man Convicted Of Fatally Shooting 17 Year Old In Parking Lot",
-          "Man Who Shot, Killed 17-Year-Old While He Was With His Aunt In Spring Valley Is Convicted"
+          "Rockland Man Convicted Of Fatally Shooting 17 Year Old In Parking Lot"
         ]
       }
     ],
@@ -486288,7 +486380,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "حوادث وقضايا"
   },
   "colleen-slemmer": {
@@ -486306,9 +486398,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Christa Pike speaks out after execution attempt: 'I'm deeply hurt'",
-          "Christa Pike slams ‘incompetence’ after surviving US execution",
-          "‘My Body Hurts’: Christa Pike Describes Pain and Isolation After Botched Execution"
+          "‘My Body Hurts’: Christa Pike Describes Pain and Isolation After Botched Execution",
+          "Christa Pike says she’s in constant pain and blames her failed execution on ‘incompetence’",
+          "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution"
         ]
       }
     ],
@@ -486359,8 +486451,8 @@
         "date": "2026-10-30",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "+600",
-        "traffic_num": 600,
+        "traffic": "+2100",
+        "traffic_num": 2100,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -486375,7 +486467,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 600,
+    "peak_traffic": 2100,
     "category": "حوادث وقضايا"
   },
   "الشحانية-ضد-الأهلي": {
@@ -486395,7 +486487,7 @@
         "headlines": [
           "دوري نجوم بنك الدوحة| تقارب النقاط يشعل مواجهة الشحانية والأهلي",
           "يونس علي: الشحانية يتطلع لتجاوز عقبة الأهلي",
-          "يوفوفيتش يتطلع لبداية ناجحة مع الاهلي أمام الشحانية"
+          "تشكيلة مباراة الشحانية والأهلي | الدوري القطري · 30 أكتوبر 2026"
         ]
       }
     ],
@@ -486405,6 +486497,122 @@
       "sa"
     ],
     "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "mercado-cambiario": {
+    "slug": "mercado-cambiario",
+    "name": "mercado cambiario",
+    "first_seen": "2026-10-30",
+    "appearances": [
+      {
+        "key": "2026-10-30|world",
+        "date": "2026-10-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "El euro sube en República Dominicana y UBS prevé un 2026 de mayor crecimiento",
+          "Euro hoy en República Dominicana: cotización de apertura del 30 de octubre",
+          "Caputo absorbió el equivalente a u$s490 millones para sacar presión al dólar"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "سياسة"
+  },
+  "miaa-power-rankings": {
+    "slug": "miaa-power-rankings",
+    "name": "miaa power rankings",
+    "first_seen": "2026-10-30",
+    "appearances": [
+      {
+        "key": "2026-10-30|world",
+        "date": "2026-10-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "See which football teams find themselves on the MIAA tournament bubble",
+          "MIAA power rankings: Shawsheen Tech No. 1, Tewksbury No. 2 in football",
+          "MIAA power rankings: St. Bernard’s football, Nashoba field hockey going strong"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "موعد-مباراة-الاهلي-وبيراميدز": {
+    "slug": "موعد-مباراة-الاهلي-وبيراميدز",
+    "name": "موعد مباراة الاهلي وبيراميدز",
+    "first_seen": "2026-10-30",
+    "appearances": [
+      {
+        "key": "2026-10-30|eg",
+        "date": "2026-10-30",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "جدو: فلسفتنا الفوز على الأهلي.. ونسعى للتتويج بالدوري",
+          "أفلت من الابتعاد.. مروان عطية جاهز \"إداريا\" لمباراة الأهلي وبيراميدز",
+          "اتحاد الكرة يخاطب اتحادات أوروبا وأمريكا الجنوبية لاستقدام حكم لمباراة الأهلي وبيراميدز"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-30",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "الهلال-والفتح": {
+    "slug": "الهلال-والفتح",
+    "name": "الهلال والفتح",
+    "first_seen": "2026-10-30",
+    "appearances": [
+      {
+        "key": "2026-10-30|sa",
+        "date": "2026-10-30",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "دليل مباراة الهلال و الفتح",
+          "«سار» ينقل الفتح إلى الهلال.. وبرنامج يجهز تمبكتي",
+          "ما القنوات الناقلة لمباراة الهلال والفتح في دوري روشن السعودي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-30",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
     "category": "رياضة"
   }
 }

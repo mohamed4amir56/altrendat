@@ -32961,14 +32961,14 @@
         "date": "2026-10-30",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "category": "شخصية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "برنت يقترب من 118 دولاراً.. مخاوف الإمدادات تقود النفط لمكاسب شهرية رابعة",
-          "خام برنت يتجاوز حاجز الـ 117 دولاراً للبرميل وهبوط حاد للذهب بنسبة 2%",
-          "3 أسباب أساسية وراء زيادة أسعار البترول عالمية.. وبرنت يتجاوز الـ 116 دولار"
+          "إنقاذ طاقم سفينة قبالة سواحل عُمان، وتوقُف ثلاث ناقلات في مضيق هرمز",
+          "إيران مباشر.. حرائق بأربع ناقلات في هرمز وقاليباف يتمسك بالشروط السبعة",
+          "بحرية الحرس الثوري: تعرض ناقلتي نفط لحادث وتوقفهما جنوب مضيق هرمز"
         ]
       },
       {
@@ -32978,12 +32978,12 @@
         "country_name": "السعودية",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "إنقاذ طاقم سفينة قبالة سواحل عُمان، وتوقُف ثلاث ناقلات في مضيق هرمز",
-          "هجوم بعبوتين ناسفتين على ناقلة في مضيق هرمز واندلاع حريق بغرفة محركاتها",
-          "الحرس الثوري: اندلاع حرائق في 4 ناقلات اصطدمت بألغام في هرمز"
+          "الجيش الأمريكي يرد على إعلان إيران تدمير زورق مُسير تابع له بمضيق هرمز",
+          "«سنتكوم» تنفي تدمير زوارقها المسيّرة وتتهم الحرس الثوري بترويج أكاذيب",
+          "«سينتكوم» تنفي مزاعم إيران بتدمير زورق مسير أميركي في هرمز"
         ]
       }
     ],
@@ -32994,7 +32994,7 @@
       "sa"
     ],
     "peak_traffic": 2000,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "portugal-vs-norway": {
     "slug": "portugal-vs-norway",
@@ -136064,8 +136064,8 @@
         "date": "2026-10-30",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -136081,7 +136081,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "struck-by-vehicle": {
@@ -212784,15 +212784,30 @@
           "India's Infosys does not expect material impact from US PERM suspension",
           "Tech industry warns Trump’s visa crackdown risks driving talent abroad"
         ]
+      },
+      {
+        "key": "2026-10-30|world",
+        "date": "2026-10-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Liberal court delivers immigration win for Trump as judge warns of ‘floodgates’ if law firm succeeded",
+          "Diversity Immigrant Visa Lottery Can Remain Paused as US Appeals",
+          "Green Card Update: New Fees and Application Changes Coming in November"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 2,
+    "last_seen": "2026-10-30",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 50000,
-    "category": "تقنية"
+    "category": "حوادث وقضايا"
   },
   "tnf-score": {
     "slug": "tnf-score",
@@ -241358,10 +241373,25 @@
           "يونس بلهندة: قادر على اللعب مع جميع فرق الدوري الفرنسي",
           "يونس بلهندة: أستطيع اللعب مع مارسيليا وليون وليل"
         ]
+      },
+      {
+        "key": "2026-10-31|sa",
+        "date": "2026-10-31",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "«هاتريك» حكيمي يكلل فوز باريس سان جيرمان الساحق على لوهافر",
+          "حكيمي يكتب التاريخ في باريس.. سجل 3 وصنع 2 في ليلة لا تُنسى",
+          "اهداف مباراة باريس سان جيرمان ولوهافر في الدوري الفرنسي"
+        ]
       }
     ],
-    "last_seen": "2026-10-30",
-    "total": 7,
+    "last_seen": "2026-10-31",
+    "total": 8,
     "countries": [
       "eg",
       "sa"
@@ -248275,9 +248305,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Wolverine lifts PS5, but Xbox struggles despite Gears of War launch",
-          "Ahead of GTA 6, PlayStation 5 Sales Were Up 22%, Likely Due To Wolverine",
-          "Despite its mixed reception, Marvel's Wolverine was September's top-selling new game in the US, making Sony launch revenues it hasn't seen since Helldivers 2"
+          "First look inside the Prism Collection, with three new transparent designs for PS5 accessories",
+          "Sony's New See-Through DualSense Controllers Let You Game Like Its 1999",
+          "Sony Is Bringing The Best Trend Of ’90s Console Design To PS5"
         ]
       }
     ],
@@ -257996,10 +258026,25 @@
           "Should RJ Harvey get more usage for the Broncos? | Stokley and Evans with Mark Schlereth",
           "RJ Harvey Fantasy Football Start or Sit Advice for Week 6"
         ]
+      },
+      {
+        "key": "2026-10-30|world",
+        "date": "2026-10-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Harvey has knee injury as Dobbins says 'the organization has a plan for me'",
+          "Broncos vs. Chiefs practice participation report: Thursday",
+          "RJ Harvey pops up on Thursday's practice report"
+        ]
       }
     ],
-    "last_seen": "2026-10-15",
-    "total": 2,
+    "last_seen": "2026-10-30",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -489050,8 +489095,8 @@
         "publishable": false,
         "headlines": [
           "Villarreal vs Espanyol: Spanish La Liga stats & head-to-head",
-          "Villarreal vs Espanyol: Lineups, Prediction, Odds & Bet Builder Tip",
-          "Villarreal vs Espanyol match lineup | LaLiga · 30 Oct 2026"
+          "Villarreal - Espanyol LIVE. LALIGA EA Sports latest updates",
+          "Iñigo Pérez updates Villarreal injuries and warns of Espanyol’s unknowns ahead of La Cerámica test"
         ]
       },
       {
@@ -489065,8 +489110,8 @@
         "publishable": false,
         "headlines": [
           "Villarreal vs Espanyol: Spanish La Liga stats & head-to-head",
-          "Villarreal vs Espanyol: Lineups, Prediction, Odds & Bet Builder Tip",
-          "Villarreal vs Espanyol match lineup | LaLiga · 30 Oct 2026"
+          "Villarreal vs Espanyol match lineup | LaLiga · 30 Oct 2026",
+          "Villarreal vs Espanyol Confirmed Lineups"
         ]
       }
     ],
@@ -489252,14 +489297,14 @@
         "date": "2026-10-30",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "جوهرة مغربية تتوهج في الدوري الإسباني.. 4 معلومات عن نزار الجميلي",
-          "الإصابة تبعد إلياس أخوماش عن مباراة فياريال في كأس ملك إسبانيا",
-          "المغربي اجميلي يقود الغواصات الصفراء للدور القادم من كأس إسبانيا"
+          "التعادل السلبي يحسم الشوط الأول من مواجهة فياريال وإسبانيول بالدوري الإسباني",
+          "تعرف على القنوات الناقلة لمباراة فياريال وإسبانيول في الدوري الإسباني بشكل مباشر وواضح",
+          "كيفية الحصول على تذاكر مباراة فياريال ضد إسبانيول: أسعار التذاكر في الدوري الإسباني، تفاصيل المباراة، بيع التذاكر في اللحظات الأخيرة والمزيد"
         ]
       },
       {
@@ -489739,9 +489784,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Le Havre vs PSG Prediction, Betting Tips, Lineups & Odds | 30 Oct 2026",
-          "Le Havre - Paris Saint-Germain LIVE. Ligue 1 latest updates",
-          "Le Havre vs PSG: TV channel, live stream and kick-off time for Ligue 1 fixture"
+          "Achraf Hakimi scores 1st career hat trick as Luis Enrique makes PSG history",
+          "Le Havre vs Paris Saint-Germain: Predicted starting lineup for Ligue 1 game",
+          "Le Havre 1-5 PSG | Highlights"
         ]
       },
       {
@@ -489768,9 +489813,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
+          "Achraf Hakimi scores 1st career hat trick as Luis Enrique makes PSG history",
           "Le Havre - Paris Saint-Germain LIVE. Ligue 1 latest updates",
-          "Le Havre vs PSG live online: score, stats, goals & updates | Ligue 1 2026/27",
-          "Le Havre vs PSG Prediction, Betting Tips, Lineups & Odds | 30 Oct 2026"
+          "Hakimi writes history in Paris: three goals and two assists on an unforgettable night"
         ]
       },
       {
@@ -489778,14 +489823,14 @@
         "date": "2026-10-31",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Le Havre vs PSG Prediction, Betting Tips, Lineups & Odds | 30 Oct 2026",
-          "Le Havre - Paris Saint-Germain LIVE. Ligue 1 latest updates",
-          "Le Havre vs PSG: TV channel, live stream and kick-off time for Ligue 1 fixture"
+          "Achraf Hakimi scores 1st career hat trick as Luis Enrique makes PSG history",
+          "Le Havre vs Paris Saint-Germain: Predicted starting lineup for Ligue 1 game",
+          "Le Havre 1-5 PSG | Highlights"
         ]
       }
     ],
@@ -489814,9 +489859,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "موعد مباراة الأهلي القادمة بعد الفوز على مودرن سبورت في الدوري",
-          "«بعد رده في المؤتمر».. جماهير الأهلي تشيد بالحسين عموتة",
-          "لقطات من مباراة مودرن سبورت والأهلي (صور)"
+          "برأسية الساعي وإنقاذ شوبير.. الأهلي يعبر عقبة مودرن بشق الأنفس في الدوري",
+          "\"الأهلي ليس المنافس الذي تهدده بهذا الشكل\".. وائل جمعة ينتقد مودرن ويوجه رسالة للاعبين",
+          "«بعد رده في المؤتمر».. جماهير الأهلي تشيد بالحسين عموتة"
         ]
       }
     ],
@@ -489925,14 +489970,14 @@
         "date": "2026-10-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "UCF football vs Baylor live updates, start time, predictions, TV info",
           "Game time: UCF Knights vs. Baylor — TV info, betting odds, keys for Friday",
-          "Predicting Final Score of Baylor Bears vs. UCF Knights in Week 9 Without Dave Aranda",
-          "Baylor vs. UCF prediction, odds, time: Week 9 college football Friday picks from proven model"
+          "Baylor vs. UCF prediction, props: Bears are underdogs in first game since Dave Aranda’s firing"
         ]
       }
     ],
@@ -489941,7 +489986,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "is-jaylen-brown-playing-tonight": {
@@ -489954,8 +489999,8 @@
         "date": "2026-10-30",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -489970,7 +490015,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "rick-ross-miami-battery-case": {
@@ -490076,8 +490121,8 @@
         "publishable": false,
         "headlines": [
           "بيراميدز يواصل سلسلة انتصاراته ويؤمن قمة الدوري بثنائية أمام وادي دجلة",
-          "جدو: فلسفتنا الفوز على الأهلي.. ونسعى للتتويج بالدوري",
-          "موكوينا يتحدث عن.. نقاط قوة دجلة.. تألق نجوم بيراميدز.. وتعاطفه مع عبد الرحمن مجدي"
+          "قبل معسكر المنتخب.. أحمد الشناوي يوجه رسالة لحسام حسن",
+          "موكوينا: قدمنا مباراة جيدة ضد دجلة.. ونهدي الفوز لعبد الرحمن مجدي"
         ]
       }
     ],
@@ -490088,5 +490133,237 @@
     ],
     "peak_traffic": 100,
     "category": "شخصية"
+  },
+  "devils-vs-golden-knights": {
+    "slug": "devils-vs-golden-knights",
+    "name": "devils vs golden knights",
+    "first_seen": "2026-10-30",
+    "appearances": [
+      {
+        "key": "2026-10-30|world",
+        "date": "2026-10-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "NHL Tonight: What to watch in Devils-Knights, Jets-Panthers, Kraken-Flames",
+          "2026-27 Gamethread #14: New Jersey Devils at Vegas Golden Knights",
+          "Devils at Golden Knights projected lineups"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "reese-witherspoon-hello-sunshine-layoffs": {
+    "slug": "reese-witherspoon-hello-sunshine-layoffs",
+    "name": "reese witherspoon hello sunshine layoffs",
+    "first_seen": "2026-10-30",
+    "appearances": [
+      {
+        "key": "2026-10-30|world",
+        "date": "2026-10-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Hello Sunshine Lays Off Half Of Staff In Wake Of Acquisition By Reese Witherspoon And Mediawan",
+          "Reese Witherspoon’s Hello Sunshine Cuts 50% of Employees After Actress Buys Back Company",
+          "Reese Witherspoon Is Buying Back Her Company. Here’s the Lesson for Founders"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "فن ومشاهير"
+  },
+  "indiana-fever-free-agency-challenges": {
+    "slug": "indiana-fever-free-agency-challenges",
+    "name": "indiana fever free agency challenges",
+    "first_seen": "2026-10-30",
+    "appearances": [
+      {
+        "key": "2026-10-30|world",
+        "date": "2026-10-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Top WNBA free agents are refusing to sign with the Indiana Fever",
+          "Fever fire GM Amber Cox; Stephanie White expected to remain coach, sources say",
+          "The Indiana Fever want a championship. Is their reputation around the WNBA in the way? - The Athletic"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "patriots-defensive-tackle-trade-block": {
+    "slug": "patriots-defensive-tackle-trade-block",
+    "name": "patriots defensive tackle trade block",
+    "first_seen": "2026-10-30",
+    "appearances": [
+      {
+        "key": "2026-10-30|world",
+        "date": "2026-10-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Patriots put $84 million veteran Christian Barmore on trade block after role change",
+          "NFL Rumors: Insider Hints at Patriots’ Willingness To Trade $84M Veteran Despite Super Bowl Aspirations",
+          "#PostPulpit mailbag: What to expect at the trade deadline?"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "pat-mcafee-college-gameday-backlash": {
+    "slug": "pat-mcafee-college-gameday-backlash",
+    "name": "pat mcafee college gameday backlash",
+    "first_seen": "2026-10-30",
+    "appearances": [
+      {
+        "key": "2026-10-30|world",
+        "date": "2026-10-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Former ESPN Star Michelle Beadle Rips Pat McAfee For 'Soft' Feud With Utah",
+          "Pat McAfee Reportedly Encouraged to Wear Bulletproof Vest After Charlie Kirk Shooting",
+          "Bulletproof vest? A demeaning video: Pat McAfee's 'uncomfortable' College GameDay at Utah"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
+  },
+  "tulane-vs-charlotte-prediction": {
+    "slug": "tulane-vs-charlotte-prediction",
+    "name": "tulane vs charlotte prediction",
+    "first_seen": "2026-10-30",
+    "appearances": [
+      {
+        "key": "2026-10-30|world",
+        "date": "2026-10-30",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Tulane vs. Charlotte prediction, odds: Week 9 college football Friday picks by advanced model",
+          "Friday Night Football Best Bets: Week 9 CFB Picks",
+          "Tulane vs Charlotte Prediction: Can the 49ers Finally Start to Win?"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-30",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "al-shabab-fc-vs-al-ahli-saudi-fc-standings": {
+    "slug": "al-shabab-fc-vs-al-ahli-saudi-fc-standings",
+    "name": "al shabab fc vs al-ahli saudi fc standings",
+    "first_seen": "2026-10-30",
+    "appearances": [
+      {
+        "key": "2026-10-30|eg",
+        "date": "2026-10-30",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Video: Al-Shabab send Al-Ahli fans out of the Clasico stadium early",
+          "In an angry manner: Posecki responds to the possibility of his dismissal from Al-Ahly",
+          "Mendy and Galeno return to support Al Ahly before tes…"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-30",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "الاهلي-اليوم": {
+    "slug": "الاهلي-اليوم",
+    "name": "الاهلي اليوم",
+    "first_seen": "2026-10-31",
+    "appearances": [
+      {
+        "key": "2026-10-31|sa",
+        "date": "2026-10-31",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "موعد مباراة الأهلى وبيراميدز فى الدورى المصرى",
+          "يتفوق على الزمالك وبيراميدز في 7 أمور.. هل يستحق عموتة غضب جماهير الأهلي؟",
+          "بعد \"فوران البركان\".. ما اللحظة التي سيرحل فيها الحسين عموتة عن الأهلي؟"
+        ]
+      }
+    ],
+    "last_seen": "2026-10-31",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
   }
 }

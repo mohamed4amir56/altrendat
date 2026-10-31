@@ -4,13 +4,13 @@
   "name_en": "Egypt",
   "lang": "ar",
   "flag": "🇪🇬",
-  "generated_at": "2026-10-31T06:31:24.633934+00:00",
+  "generated_at": "2026-10-31T07:01:42.121806+00:00",
   "day": "2026-10-31",
   "trends": [
     {
       "title": "اذان الفجر اليوم",
-      "traffic": "+21300",
-      "traffic_num": 21300,
+      "traffic": "+21500",
+      "traffic_num": 21500,
       "published": "Fri, 30 Oct 2026 19:20:00 -0700",
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlS6tv2JP0sl0HE_DG12hi6D4xDlYJIQRJ9w90g3Nm3iY7rIschAkjR5fe_y8",
       "image_source": "اليوم السابع",
@@ -414,6 +414,16 @@
           "error": "HTTPError"
         },
         {
+          "title": "الذهب يهبط دون 4 آلاف دولار للأونصة ويتجه لثاني خسارة شهرية",
+          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=30102026&id=e9df43e3-04be-4c23-9fc8-d649d057d509",
+          "source": "بوابة الشروق",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhFmTCWoDZRmjq8s2JEnYJMvLyd5YX84WiBO5RgXxwp-wy_69OvLVnRzYNsq4",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/الذهب يرتفع 8 جنيهات وعيار 21 يسجل 1073 جنيها.jpg",
+          "ok": false
+        },
+        {
           "title": "الذهب يتجه لأسوأ أداء خلال أكتوبر منذ 2008 مع تفاقم خسائر أسهم التكنولوجيا",
           "url": "https://asharqbusiness.com/financial-markets/153567/%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D9%8A%D9%88%D9%85-30-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1-2026/",
           "source": "الشرق بلومبرغ",
@@ -443,16 +453,6 @@
           "og_image": "",
           "ok": false,
           "error": "HTTPError"
-        },
-        {
-          "title": "الذهب يهبط دون 4 آلاف دولار للأونصة ويتجه لثاني خسارة شهرية",
-          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=30102026&id=e9df43e3-04be-4c23-9fc8-d649d057d509",
-          "source": "بوابة الشروق",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhFmTCWoDZRmjq8s2JEnYJMvLyd5YX84WiBO5RgXxwp-wy_69OvLVnRzYNsq4",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/الذهب يرتفع 8 جنيهات وعيار 21 يسجل 1073 جنيها.jpg",
-          "ok": false
         },
         {
           "title": "الذهب يواصل التراجع بعد رفع الفائدة.. هل أصبحت الأسعار الحالية فرصة للشراء؟",
@@ -560,51 +560,8 @@
       "category": "اقتصاد",
       "icon": "💰",
       "color": "#f5c542",
-      "reason": "العنوان يطابق: ذهب · بيانات حيّة مرفقة",
-      "publishable": true,
-      "data": {
-        "kind": "gold",
-        "title": "سعر الذهب اليوم",
-        "columns": [
-          "سعر الجرام"
-        ],
-        "rows": [
-          {
-            "city": "عيار 24",
-            "times": {
-              "سعر الجرام": "6,983 جنيه"
-            }
-          },
-          {
-            "city": "عيار 22",
-            "times": {
-              "سعر الجرام": "6,401 جنيه"
-            }
-          },
-          {
-            "city": "عيار 21",
-            "times": {
-              "سعر الجرام": "6,110 جنيه"
-            }
-          },
-          {
-            "city": "عيار 18",
-            "times": {
-              "سعر الجرام": "5,237 جنيه"
-            }
-          },
-          {
-            "city": "عيار 14",
-            "times": {
-              "سعر الجرام": "4,073 جنيه"
-            }
-          }
-        ],
-        "gregorian": "Sat, 31 Oct 2026",
-        "hijri": "",
-        "source": "السعر العالمي (3,876$ للأونصة) محوّلًا بسعر الصرف الرسمي — والسعر المحلي في محلات الذهب يزيد عليه المصنعية والعلاوة المحلية",
-        "source_url": "https://api.gold-api.com"
-      },
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
       "article": {
         "headline": "الذهب يهوي في مصر: خسائر 125 جنيهًا وعيار 21 يسجل 6305",
         "summary": "شهدت أسعار الذهب في مصر تراجعًا ملحوظًا بختام تعاملات الجمعة وفقد الجرام 125 جنيهًا في يوم واحد.",
@@ -880,6 +837,112 @@
       "published_at": "2026-10-30T23:48:09.111001+00:00"
     },
     {
+      "title": "تحدي القراءة العربي",
+      "traffic": "2000+",
+      "traffic_num": 2000,
+      "published": "Fri, 30 Oct 2026 22:10:00 -0700",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdwuFChsGJzRJOP9a-cG3EkdPLsyJF1heSp-Dnz7SDnMcmL9GY4eZl2FxHxXc",
+      "image_source": "العربية",
+      "news": [
+        {
+          "title": "بفصاحة لافتة وسرعة بديهة.. المصرية ميار عثمان تحصد المركز الأول بتحدي القراءة العربي",
+          "url": "https://www.alarabiya.net/arab-and-world/egypt/2026/10/30/%D8%A8%D9%81%D8%B5%D8%A7%D8%AD%D8%A9-%D9%84%D8%A7%D9%81%D8%AA%D8%A9-%D9%88%D8%B3%D8%B1%D8%B9%D8%A9-%D8%A8%D8%AF%D9%8A%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D9%8A%D8%A7%D8%B1-%D8%B9%D8%AB%D9%85%D8%A7%D9%86-%D8%AA%D8%AD%D8%B5%D8%AF-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%A7%D9%88%D9%84-%D8%A8%D8%AA%D8%AD%D8%AF%D9%8A-%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A",
+          "source": "العربية",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdwuFChsGJzRJOP9a-cG3EkdPLsyJF1heSp-Dnz7SDnMcmL9GY4eZl2FxHxXc",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "والدة ميار الشوربجي: ابنتي غادرت المستشفى وحالتها الصحية مستقرة.. ونشكر الرئيس السيسي والشعب المصري على الدعم والاهتمام",
+          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=30102026&id=fe314f3e-5e09-4229-988b-328677768edc",
+          "source": "بوابة الشروق",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTzvp_FGRD8Gxca_yK2uZWB3fIqUhLt9elyTjcIx6jT0HCo_PxO9adRl9hFhlY",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/8790689587467748759869070.JPG",
+          "ok": false
+        },
+        {
+          "title": "الأردن يحصد المركز الأول في فئة الإشراف بمبادرة تحدي القراءة العربي",
+          "url": "https://gate.ahram.org.eg/News/5975034.aspx",
+          "source": "بوابة الأهرام",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ_B3_1oGWxQ01rCThL312XZvMUHXxxCNlZ4pqVSNMp6t94-zUQXcQTnDZdZYY",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: مستشفى",
+      "publishable": false,
+      "card": "cards/eg-2026-10-31-تحدي-القراءة-العربي.png",
+      "published_at": "2026-10-31T07:01:42.121806+00:00"
+    },
+    {
+      "title": "سعر البنزين اليوم",
+      "traffic": "+1500",
+      "traffic_num": 1500,
+      "published": "Fri, 30 Oct 2026 23:00:00 -0700",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFD80629P11zogUs9kztHxAuPYkXXPKgAS8dYsmfuQedjOybK30ZK5_Dw5DJc",
+      "image_source": "اليوم السابع",
+      "news": [
+        {
+          "title": "سعر البنزين والسولار فى محطات الوقود اليوم الجمعة 30 أكتوبر 2026",
+          "url": "https://www.youm7.com/story/2026/10/30/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%A8%D9%86%D8%B2%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D8%B3%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%89-%D9%85%D8%AD%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D9%82%D9%88%D8%AF-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-30-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1/7600012",
+          "source": "اليوم السابع",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFD80629P11zogUs9kztHxAuPYkXXPKgAS8dYsmfuQedjOybK30ZK5_Dw5DJc",
+          "og_title": "سعر البنزين والسولار فى محطات الوقود اليوم الجمعة 30 أكتوبر 2026 - اليوم السابع",
+          "og_desc": "سُجلت أسعار البنزين والسولار بمحطات تموين السيارات اليوم الجمعة 30 أكتوبر كما يلي:",
+          "og_image": "https://img.youm7.com/xlarge/202609300130323032_12629.jpg",
+          "ok": true
+        },
+        {
+          "title": "سعر أنبوبة البوتاجاز للمنازل اليوم السبت.. رسميًا بعد قرار لجنة التسعير",
+          "url": "https://www.almasryalyoum.com/news/details/4397319",
+          "source": "المصري اليوم",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT95oBVwSKH-Gbi9ay0KeCAHXM8E9wdi0MLpq4tCKjmC4nwWTXYVPDaJHpjpTg",
+          "og_title": "سعر أنبوبة البوتاجاز للمنازل اليوم السبت.. رسميًا بعد قرار لجنة التسعير | المصري اليوم",
+          "og_desc": "يتابع المواطنون أسعار السولار والبنزين وأسطوانات البوتاجاز يوميًا، نظرًا لأهميتها في تلبية الاحتياجات المنزلية والتجارية، إلى جانب ترقبهم المستمر لأي قرارات جديدة تصدر عن...",
+          "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/10/31/2085476.webp",
+          "ok": true
+        },
+        {
+          "title": "بعد القرارات الجديدة وزيادة الدولار.. أسعار البنزين اليوم في مصر",
+          "url": "https://www.elbalad.news/7156175",
+          "source": "صدى البلد",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTcRcC7wgTeCcprWMd4ph6abVsgGgoyD2ptxt8gs45m6aT8RI19AJqAnpMBV5I",
+          "og_title": "بعد القرارات الجديدة وزيادة الدولار.. أسعار البنزين اليوم في مصر",
+          "og_desc": "يهتم المواطن بمتابعة أسعار البنزين خاصة مالكو السيارات الخاصة لأن أى ارتفاع في السعر يؤثر على ميزانية الأسرة  وأسعار السلع والخدمات.",
+          "og_image": "https://media.elbalad.news/2026/10/large/6402101893998202610231136273627.jpg",
+          "ok": true
+        },
+        {
+          "title": "سعر أنبوبة البوتاجاز للمنازل اليوم الجمعة.. رسميًا بعد قرار لجنة التسعير",
+          "url": "https://www.almasryalyoum.com/news/details/4396564",
+          "source": "المصري اليوم",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTLyO8uu_26B60u0Ikpo2cdIYmip7e3_DVpuPiEhW1l90yGbZlD0d6u_YM5dQ4",
+          "og_title": "سعر أنبوبة البوتاجاز للمنازل اليوم الجمعة.. رسميًا بعد قرار لجنة التسعير | المصري اليوم",
+          "og_desc": "يحرص المواطنون على متابعة أسعار السولار والبنزين وأسطوانات البوتاجاز، بشكل يومي في مصر، سواء للاستخدام المنزلي أو التجاري، مع اهتمامهم الشديد بمعرفة القرارات الصادرة عن...",
+          "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/10/30/2083935.webp",
+          "ok": true
+        }
+      ],
+      "category": "اقتصاد",
+      "icon": "💰",
+      "color": "#f5c542",
+      "reason": "حجم بحث أقل من 2000",
+      "publishable": false,
+      "card": "cards/eg-2026-10-31-سعر-البنزين-اليوم.png",
+      "published_at": "2026-10-31T07:01:42.121806+00:00"
+    },
+    {
       "title": "طالع نازل",
       "traffic": "+600",
       "traffic_num": 600,
@@ -974,53 +1037,6 @@
       "publishable": false,
       "card": "cards/eg-2026-10-31-al-shabab-fc-vs-al-ahli-saudi-fc-standings.png",
       "published_at": "2026-10-30T22:01:05.189698+00:00"
-    },
-    {
-      "title": "وقود السيارات",
-      "traffic": "500+",
-      "traffic_num": 500,
-      "published": "Fri, 30 Oct 2026 14:30:00 -0700",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFD80629P11zogUs9kztHxAuPYkXXPKgAS8dYsmfuQedjOybK30ZK5_Dw5DJc",
-      "image_source": "اليوم السابع",
-      "news": [
-        {
-          "title": "سعر البنزين والسولار فى محطات الوقود اليوم الجمعة 30 أكتوبر 2026",
-          "url": "https://www.youm7.com/story/2026/10/30/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%A8%D9%86%D8%B2%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D8%B3%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%89-%D9%85%D8%AD%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D9%82%D9%88%D8%AF-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-30-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1/7600012",
-          "source": "اليوم السابع",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFD80629P11zogUs9kztHxAuPYkXXPKgAS8dYsmfuQedjOybK30ZK5_Dw5DJc",
-          "og_title": "سعر البنزين والسولار فى محطات الوقود اليوم الجمعة 30 أكتوبر 2026 - اليوم السابع",
-          "og_desc": "سُجلت أسعار البنزين والسولار بمحطات تموين السيارات اليوم الجمعة 30 أكتوبر كما يلي:",
-          "og_image": "https://img.youm7.com/xlarge/202609300130323032_12629.jpg",
-          "ok": true
-        },
-        {
-          "title": "سعر أنبوبة البوتاجاز للمنازل اليوم الجمعة.. رسميًا بعد قرار لجنة التسعير",
-          "url": "https://www.almasryalyoum.com/news/details/4396564",
-          "source": "المصري اليوم",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTLyO8uu_26B60u0Ikpo2cdIYmip7e3_DVpuPiEhW1l90yGbZlD0d6u_YM5dQ4",
-          "og_title": "سعر أنبوبة البوتاجاز للمنازل اليوم الجمعة.. رسميًا بعد قرار لجنة التسعير | المصري اليوم",
-          "og_desc": "يحرص المواطنون على متابعة أسعار السولار والبنزين وأسطوانات البوتاجاز، بشكل يومي في مصر، سواء للاستخدام المنزلي أو التجاري، مع اهتمامهم الشديد بمعرفة القرارات الصادرة عن...",
-          "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/10/30/2083935.webp",
-          "ok": true
-        },
-        {
-          "title": "بعد القرارات الجديدة وزيادة الدولار.. أسعار البنزين اليوم في مصر",
-          "url": "https://www.elbalad.news/7156175",
-          "source": "صدى البلد",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTcRcC7wgTeCcprWMd4ph6abVsgGgoyD2ptxt8gs45m6aT8RI19AJqAnpMBV5I",
-          "og_title": "بعد القرارات الجديدة وزيادة الدولار.. أسعار البنزين اليوم في مصر",
-          "og_desc": "يهتم المواطن بمتابعة أسعار البنزين خاصة مالكو السيارات الخاصة لأن أى ارتفاع في السعر يؤثر على ميزانية الأسرة  وأسعار السلع والخدمات.",
-          "og_image": "https://media.elbalad.news/2026/10/large/6402101893998202610231136273627.jpg",
-          "ok": true
-        }
-      ],
-      "category": "اقتصاد",
-      "icon": "💰",
-      "color": "#f5c542",
-      "reason": "حجم بحث أقل من 2000",
-      "publishable": false,
-      "card": "cards/eg-2026-10-31-وقود-السيارات.png",
-      "published_at": "2026-10-30T23:01:02.789665+00:00"
     },
     {
       "title": "المحاولة",
@@ -1760,20 +1776,9 @@
       "traffic": "100+",
       "traffic_num": 100,
       "published": "Fri, 30 Oct 2026 18:00:00 -0700",
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT62PL20HTb1QdtzSdOdBFI53BKtUvORKIfLeSooqt-eC-Z7G8mNl7XIre45W4",
-      "image_source": "Forbes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLqY8YYSWkLqmna1su7fvrLyaRz6RtkILrD4Xy0hXUx8MaAEZzkFhh6_nuo5E",
+      "image_source": "The Washington Post",
       "news": [
-        {
-          "title": "Latest Polls In 2026 Midterms: Democrat Adam Hamilton Ahead In Kansas Senate Race In 2 Polls",
-          "url": "https://www.forbes.com/sites/saradorn/2026/10/30/latest-polls-in-2026-midterms-democrat-adam-hamilton-ahead-in-kansas-senate-race-in-2-polls/",
-          "source": "Forbes",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT62PL20HTb1QdtzSdOdBFI53BKtUvORKIfLeSooqt-eC-Z7G8mNl7XIre45W4",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
         {
           "title": "We polled Kansas. Democrats wanted to talk. Republicans, not so much.",
           "url": "https://www.washingtonpost.com/politics/2026/10/30/we-polled-kansas-democrats-wanted-talk-republicans-not-so-much/",
@@ -1786,13 +1791,24 @@
           "error": "TimeoutError"
         },
         {
-          "title": "October 2026 Kansas Poll: Hamilton Maintains Edge over Marshall in Toss-up Election",
-          "url": "https://emersoncollegepolling.com/october-2026-kansas-poll-hamilton-maintains-edge-over-marshall/",
-          "source": "- Emerson Polling",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcToXcw5M1DcirMnGLYwJUphJfEfgCDs16hvAwGVoQdYVToJ4DUZEbDPpsLuais",
-          "og_title": "October 2026 Kansas Poll: Hamilton Maintains Edge over Marshall in Toss-up Election - Emerson Polling",
-          "og_desc": "The final Emerson College Polling survey of Kansas voters finds 49% of voters support Democrat…Full Release & Results",
-          "og_image": "https://emersoncollegepolling.com/wp-content/uploads/2026/10/iStock-2181366365-1024x528.jpg",
+          "title": "Latest Polls In 2026 Midterms: Democrat Adam Hamilton Ahead In Kansas Senate Race In 2 Polls",
+          "url": "https://www.forbes.com/sites/saradorn/2026/10/30/latest-polls-in-2026-midterms-democrat-adam-hamilton-ahead-in-kansas-senate-race-in-2-polls/",
+          "source": "Forbes",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT62PL20HTb1QdtzSdOdBFI53BKtUvORKIfLeSooqt-eC-Z7G8mNl7XIre45W4",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Nate Silver Makes Huge Call in Must-Win MAGA State",
+          "url": "https://www.yahoo.com/news/politics/articles/nate-silver-makes-huge-call-214928709.html",
+          "source": "Yahoo",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkSuYvm3uGzn9ZNZe4fQ09Okv2KJweTYaBTtUnqcAcVSXYDDHzw-Y0tRrwYrU",
+          "og_title": "Nate Silver Makes Huge Call in Must-Win MAGA State",
+          "og_desc": "Democrats have received a significant vote of confidence from polling guru Nate Silver in their bid to flip a Senate seat in deep-red Kansas. The statistician has shifted his rating of the Kansas race...",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/c3210005b8ff0b44b7d6a8026c3f46727a9a1f58209cb84796a126b735888062/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthedailybeast.com%2Fc5b0b742523d6b651b9286724c768638.jpg",
           "ok": true
         }
       ],
@@ -1857,24 +1873,24 @@
       "traffic": "100+",
       "traffic_num": 100,
       "published": "Fri, 30 Oct 2026 22:20:00 -0700",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRT8vge__sczD0fb4jRUNor0JLMiPj4Z9TWshA9CwUY1g3gqts_icw-8u-bPT8",
-      "image_source": "ESPN",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE2XK6EtkKQp5kZpsOwoAOg2_lMJ4fIzxxaF-id78w13E8TdqH-Y_qniEFQzk",
+      "image_source": "Silver Screen and Roll",
       "news": [
         {
-          "title": "Warriors' Yaxel Lendeborg: 'Lost all respect' for Luka Doncic",
-          "url": "https://www.espn.com/nba/story/_/id/50245902/warriors-yaxel-lendeborg-lost-all-respect-luka-doncic",
-          "source": "ESPN",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRT8vge__sczD0fb4jRUNor0JLMiPj4Z9TWshA9CwUY1g3gqts_icw-8u-bPT8",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false
+          "title": "Lakers blow huge early lead in ugly loss to Warriors",
+          "url": "https://www.silverscreenandroll.com/lakers-scores-results/128177/lakers-vs-warriors-recap-box-score-stats-final-austin-reaves-luka-doncic",
+          "source": "Silver Screen and Roll",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE2XK6EtkKQp5kZpsOwoAOg2_lMJ4fIzxxaF-id78w13E8TdqH-Y_qniEFQzk",
+          "og_title": "Lakers blow huge early lead in ugly loss to Warriors",
+          "og_desc": "The Lakers started fast before laying an egg for most of the next three quarters to fall to the Warriors on Friday.",
+          "og_image": "https://platform.silverscreenandroll.com/wp-content/uploads/sites/144/2026/10/gettyimages-2302282126.jpg?quality=90&strip=all&crop=0%2C17.285942340734%2C100%2C65.428115318533&w=1200",
+          "ok": true
         },
         {
-          "title": "Is Yaxel Lendeborg looking forward to the Lakers game …",
-          "url": "https://www.hoopshype.com/story/sports/nba/rumors/2026/10/29/is-yaxel-lendeborg-looking-forward-to-the-lakers-game/92493613007/",
-          "source": "HoopsHype",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQbgn1tzxsIDIP-CvPBJBbJeW2zYlDu_NOjoyFSwCTckdzR9DzpKiA61fz8QOU",
+          "title": "Lakers make final decision on Ziaire Williams for Friday's game",
+          "url": "https://lakerswire.usatoday.com/story/sports/nba/lakers/2026/10/30/lakers-make-final-decision-on-ziaire-williams-for-fridays-game/92524282007/",
+          "source": "Lakers Wire",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRQxm6EKIFFs3WLa0GJ3vZsVWgq1WGW54Y39Nwt0Oo4hH1a1mHrxUXmDehRmj0",
           "og_title": "",
           "og_desc": "",
           "og_image": "",
@@ -1882,20 +1898,20 @@
           "error": "HTTPError"
         },
         {
-          "title": "Warriors rookie refuses media training ahead of highly anticipated matchup with Luka Doncic",
-          "url": "https://nypost.com/2026/10/30/sports/warriors-yaxel-lendeborg-luka-doncic-matchup/",
-          "source": "New York Post",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTvuKSFtKakdRWcFqvuBd8IyAMK2xpEO3yx7IDnPT3c9R8bNinrPEoMLg-Reak",
-          "og_title": "Warriors rookie refuses media training ahead of highly anticipated matchup with Luka Doncic",
-          "og_desc": "Yaxel Lendeborg had an eventful first full week in the NBA, and it appears it will stay that way. Lendeborg spoke with Luca Evans of the San Francisco Chronicle and told him he is “going to s…",
-          "og_image": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-gn7p0fyeh-1793400137735.jpg?quality=75&strip=all&1793385786&w=1200",
+          "title": "How to watch Lakers vs Warriors: NBA, live stream, TV channel",
+          "url": "https://www.thebiglead.com/how-to-watch-lakers-vs-warriors-nba-live-stream-tv-channel/",
+          "source": "The Big Lead",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ0f9E4YeMQEipk1AwCtKrZ_IQXVq5gkUhXUlb7Eiqbup7JPkN38OLjFdG1-f4",
+          "og_title": "How to watch Lakers vs Warriors: NBA, live stream, TV channel",
+          "og_desc": "Two of the NBA's biggest franchises meet Friday night as the Los Angeles Lakers travel to San Francisco to face the Golden State Warriors at Chase Center. Oct 21, 2026; Los Angeles, California, USA; Los Angeles Lakers guard Austin Reaves (15) dribbles against Golden State Warriors guard Stephen Curry (30) in the first half at...",
+          "og_image": "https://www.thebiglead.com/wp-content/uploads/2026/10/default-993.jpg",
           "ok": true
         }
       ],
       "category": "رياضة",
       "icon": "⚽",
       "color": "#3ddc97",
-      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "reason": "حجم بحث أقل من 2000",
       "publishable": false,
       "card": "cards/eg-2026-10-31-warriors-vs-lakers.png",
       "published_at": "2026-10-31T06:31:24.633934+00:00"

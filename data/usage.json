@@ -1,19 +1,4 @@
 {
- "2026-10-18": {
-  "calls": 4,
-  "input": 26027,
-  "output": 3804,
-  "cut": 0,
-  "refused": 0,
-  "written": 52,
-  "g_calls": 50,
-  "g_input": 126569,
-  "g_output": 34769,
-  "g_errors": 4,
-  "usd": 0.045,
-  "gemini_usd_if_paid": 0.0838,
-  "last_gemini_error": "RuntimeError: Gemini HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
- },
  "2026-10-19": {
   "calls": 20,
   "input": 103346,
@@ -208,5 +193,19 @@
   "usd": 0.0,
   "gemini_usd_if_paid": 0.0816,
   "last_gemini_error": "RuntimeError: Gemini HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+ },
+ "2026-11-01": {
+  "calls": 0,
+  "input": 0,
+  "output": 0,
+  "cut": 0,
+  "refused": 0,
+  "written": 1,
+  "g_calls": 2,
+  "g_input": 6851,
+  "g_output": 1231,
+  "g_errors": 0,
+  "usd": 0.0,
+  "gemini_usd_if_paid": 0.0036
  }
 }

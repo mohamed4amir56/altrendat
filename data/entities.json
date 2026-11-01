@@ -2772,14 +2772,14 @@
         "date": "2026-11-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "السفير أيمن زين الدين: عقد النظام العالمي بدأ بالانفراط.. ونخطو كبشرية على أعتاب الفوضى",
-          "دبلوماسي سابق يُحذّر: العالم على أعتاب الفوضى.. واستخدام القوة أصبح أكثر مشروعية",
-          "السفير أيمن زين الدين لـ\"حديث القاهرة\": العالم على أعتاب الفوضى واستخدام القوة أصبح أكثر مشروعية"
+          "ارتفاع الحرارة وفرص أمطار خفيفة وشبورة والصغرى بالقاهرة ترتفع 22 درجة اليوم",
+          "طقس مفاجئ خلال الأسبوع الحالي في مصر.. رياح وأمطار رغم ارتفاع الحرارة",
+          "5 ساعات حذِرة.. بيان عاجل بشأن حالة الطقس: ظاهرة جوية تضرب البلاد"
         ]
       }
     ],
@@ -2788,7 +2788,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 700,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "العاصمة-الجديدة": {
@@ -25723,8 +25723,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "Midterm elections latest: Rift grows between Democrats Abdul El-Sayed and Haley Stevens in Michigan",
           "El-Sayed’s Campaign Doesn’t Want Haley Stevens at His Events",
+          "Midterm elections: Rift grows between Democrats Abdul El-Sayed and Haley Stevens in Michigan",
           "US Senate candidate El-Sayed wants Democratic rival to stay away, source says"
         ]
       }
@@ -54295,10 +54295,25 @@
           "Flash flooding possible for Maui County, Oʻahu: Wednesday Forecast",
           "Heavy showers pound Windward Oahu, Maui; most islands under flood watch"
         ]
+      },
+      {
+        "key": "2026-11-01|world",
+        "date": "2026-11-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "طقس",
+        "publishable": true,
+        "headlines": [
+          "First Alert Weather: Flash flood warning extended for Kauai",
+          "Flash flood warning extended again for Kauai as heavy showers persist",
+          "Flood Watch expires after periods of heavy rain, rockfalls, and road closures in East Maui and ʻĪao"
+        ]
       }
     ],
-    "last_seen": "2026-10-29",
-    "total": 4,
+    "last_seen": "2026-11-01",
+    "total": 5,
     "countries": [
       "world"
     ],
@@ -103762,7 +103777,7 @@
         "headlines": [
           "صفقة من العيار الثقيل.. لاعب أساسي في الزمالك يسعى للانتقال إلى الأهلي",
           "كريم رمزي يكشف مفاجأة بشأن لاعب مهم في الزمالك.. ووسطاء يستفسرون عن موقف الأهلي من ضمه",
-          "صفقة قوية.. لاعب أساسي في الزمالك يقترب من الانتقال إلى الأهلي"
+          "لاعب من الزمالك يسعى للانتقال إلى الأهلي"
         ]
       }
     ],
@@ -194646,10 +194661,25 @@
           "Juan Brunetta ve en Toluca la verdadera prueba para la crisis de resultados de Tigres - esto",
           "El Volcán le pesa a los Diablos Rojos: ocho visitas sin poder ganar ante Tigres"
         ]
+      },
+      {
+        "key": "2026-11-01|world",
+        "date": "2026-11-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "¡Chivas le da la vuelta al marcador! Golazo de Natalia Colín",
+          "\"No todo está perdido\"",
+          "Amandine Henry sueña con una liguilla histórica con las Diablas"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 1,
+    "last_seen": "2026-11-01",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -234592,9 +234622,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "الاقتصاد الأمريكي.. هل يكفي الاستهلاك للحفاظ على الصدارة؟",
+          "الانتخابات الإسرائيلية في عيون الصحافة الأوروبية ـ البقاء في السلطة بأي ثمن!",
           "هرتسوغ يبدأ مشاورات تشكيل الحكومة الإسرائيلية ومظاهرات تدعو للتحالف مع العرب",
-          "جبارين في بلا قيود: منعنا نتنياهو من الأغلبية التي أرادها."
+          "قراءة في الصحف الإسرائيلية - نتائج الانتخابات الإسرائيلية وما أفضت إليه من انسداد في تشكيل حكومة لدى الكتلتين"
         ]
       }
     ],
@@ -248999,8 +249029,8 @@
         "publishable": true,
         "headlines": [
           "منصة \"بينانس\".. ماذا قال ترامب عن \"أكبر عملية اختراق في العالم\"؟",
-          "إف بي آي: كوريا الشمالية وراء سرقة 6 مليارات دولار من منصة باينانس",
-          "20 دقيقة هزّت عالم العملات المشفرة... وفتحت معركة المليارات"
+          "بعد تعويض 90% من الأموال المسروقة.. \"باينانس\" تتعهد بتغطية الـ10% المتبقية",
+          "«إف.بي.آي» يتهم كوريا الشمالية بالمسؤولية عن سرقة 6 مليارات دولار من «باينانس»"
         ]
       }
     ],
@@ -267299,14 +267329,14 @@
         "date": "2026-11-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "عام",
         "publishable": false,
         "headlines": [
           "Robert Downey Jr. Parodies Peanuts in 'Avengers: Doomsday'-Themed Halloween Post",
-          "Robert Downey Jr. Turns Doctor Doom Into a Trick-or-Treater in a Playful Halloween Post",
-          "\"I got a rock\": Robert Downey Jr's Halloween post might have teased the Thing's fate in Doomsday"
+          "Robert Downey Jr, Pedro Pascal swap Avengers: Doomsday roles for Halloween",
+          "Robert Downey Jr. Turns Doctor Doom Into a Trick-or-Treater in a Playful Halloween Post"
         ]
       }
     ],
@@ -267315,7 +267345,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "عام"
   },
   "blueface": {
@@ -510464,12 +510494,12 @@
         "date": "2026-11-01",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "هل يحصل جميع أصحاب المعاشات على 2080 جنيهًا حدًا أدنى؟.. التفاصيل والفئات المستفيدة",
+          "بعد تصريحات رئيس «التأمينات».. موعد زيادة المعاشات وحقيقة منحة الـ1000 جنيه (تفاصيل)",
           "هل يحصل أصحاب المعاشات على زيادة في يناير 2027؟.. تفاصيل قرار الحكومة برفع الحد الأدنى",
           "قبل صرف معاشات نوفمبر 2026.. من يستفيد من قرار الزيادة الجديد في يناير؟"
         ]
@@ -510480,7 +510510,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "الصحراء-المغربية": {
@@ -511232,14 +511262,14 @@
         "date": "2026-11-01",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "سحب 5.9 مليون من آلات تحضير القهوة French Press",
-          "بعد تسجيل 48 إصابة بالحروق.. سحب قرابة 6 ملايين ماكينة قهوة «بودوم» من الأسواق الأميركية",
-          "تعديل اللائحة التنفيذية لنظام التسجيل العيني للعقار"
+          "تعديل اللائحة التنفيذية لنظام التسجيل العيني للعقار",
+          "«هيئة العقار» تعدّل لائحة التسجيل العيني: نسب مقبولة لفروق مساحة الصكوك وسببان فقط لرفض الطلب",
+          "حسم ازدواجية الصكوك والأخطاء.. تعديلات جديدة بنظام التسجيل العقاري"
         ]
       }
     ],
@@ -511248,7 +511278,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "eng-vs-sa": {
@@ -511261,10 +511291,10 @@
         "date": "2026-11-01",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "12,000+",
+        "traffic_num": 12000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "RSA vs ENG, Bowl, Final, Hong Kong Sixes 2026 - Commentary",
           "England vs South Africa Stats",
@@ -511277,7 +511307,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 12000,
     "category": "رياضة"
   },
   "las-vegas": {
@@ -511439,9 +511469,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "الأردن: إلى أي مدى سترتفع درجات الحرارة الأيام القادمة وهل تصل 30 مئوية؟",
-          "الأردن يستقبل تشرين الثاني بأجواء لطيفة .. وفرصة محدودة لأمطار مساء الأحد",
-          "وكالة سرايا : الليلة الأبرد على المملكة .. الحرارة تقترب من 10 درجات والضباب محتمل في السهول الشرقية"
+          "طقس مفاجئ خلال الأسبوع الحالي في مصر.. رياح وأمطار رغم ارتفاع الحرارة",
+          "تغيرات مفاجأة.. الأرصاد تكشف عن تقلبات درجات الحرارة اعتبارا من الغد",
+          "الأرصاد: ارتفاعات طفيفة في درجات الحرارة خلال الأيام المقبلة.. والذروة يوم الاثنين"
         ]
       }
     ],
@@ -511465,12 +511495,12 @@
         "country_name": "السعودية",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "فن ومشاهير",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "How Gabby Williams ignited the Valkyries to WNBA championship in their second season",
-          "Angel Reese pledges Dream will make it back to WNBA Finals",
-          "USA Sports and NBC claim record WNBA Finals ratings, but the comparisons leave out important context"
+          "How the Golden State Valkyries won the 2026 WNBA title in just two years",
+          "‘Amazing' SF women's sports bar erupts as Valkyries claim first title",
+          "Angel Reese, Atlanta Dream fall short in Game 7 as Golden State Valkyries win first WNBA championship"
         ]
       }
     ],
@@ -511480,7 +511510,7 @@
       "sa"
     ],
     "peak_traffic": 100,
-    "category": "فن ومشاهير"
+    "category": "رياضة"
   },
   "خرف": {
     "slug": "خرف",
@@ -511510,5 +511540,208 @@
     ],
     "peak_traffic": 100,
     "category": "شخصية"
+  },
+  "power-ball-drawing": {
+    "slug": "power-ball-drawing",
+    "name": "power ball drawing",
+    "first_seen": "2026-11-01",
+    "appearances": [
+      {
+        "key": "2026-11-01|world",
+        "date": "2026-11-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Did anyone win Powerball's $760M jackpot? Here are the winning numbers for Oct. 31",
+          "Powerball winning numbers: Did anyone win $760M?",
+          "Lottery ticket worth $100,000 sold in Lehigh County"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "عام"
+  },
+  "is-fortnite-down-right-now": {
+    "slug": "is-fortnite-down-right-now",
+    "name": "is fortnite down right now",
+    "first_seen": "2026-11-01",
+    "appearances": [
+      {
+        "key": "2026-11-01|world",
+        "date": "2026-11-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Fortnite Treasure Hunters Battle Pass Revealed – All Mini Season Skins",
+          "The Seven ‘One Piece’ Fortnite Skins And Its Pirate Season Release Date",
+          "Eiichiro Oda’s One Piece Is Officially Returning in November"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "فن ومشاهير"
+  },
+  "conor-mcgregor": {
+    "slug": "conor-mcgregor",
+    "name": "conor mcgregor",
+    "first_seen": "2026-11-01",
+    "appearances": [
+      {
+        "key": "2026-11-01|world",
+        "date": "2026-11-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Jose Aldo reveals real reason why he ‘cried a lot’ after Conor McGregor loss",
+          "UFC Icon Jose Aldo Shares Sad Dana White Chat After Conor McGregor Loss",
+          "Jose Aldo on Why He ‘Cried a Lot’ After Conor McGregor KO Loss"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "henry-martín": {
+    "slug": "henry-martín",
+    "name": "henry martín",
+    "first_seen": "2026-11-01",
+    "appearances": [
+      {
+        "key": "2026-11-01|world",
+        "date": "2026-11-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Henry Martín busca convencer a la Selección Mexicana: anota ante Toluca y apunta a Jamaica",
+          "Gol de Henry Martín en el Club América vs Toluca: 9 goles en Liga MX",
+          "¡En el momento preciso! ¡Henry Martín firma el 1-1 ante Toluca!"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "el-chapo": {
+    "slug": "el-chapo",
+    "name": "el chapo",
+    "first_seen": "2026-11-01",
+    "appearances": [
+      {
+        "key": "2026-11-01|world",
+        "date": "2026-11-01",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Operación Cisne Negro: fuga y recaptura del Chapo Guzmán",
+          "¡Escapes de película! En un carrito de lavandería y por un túnel en su celda, así se fugó dos veces \"El Chapo\"",
+          "Documental revela que reunión de Sean Penn y Kate del Castillo frenó captura de El Chapo"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-01",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "سياسة"
+  },
+  "england-vs-south-africa": {
+    "slug": "england-vs-south-africa",
+    "name": "england vs south africa",
+    "first_seen": "2026-11-01",
+    "appearances": [
+      {
+        "key": "2026-11-01|sa",
+        "date": "2026-11-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "+4000",
+        "traffic_num": 4000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "RSA vs ENG, Bowl, Final, Hong Kong Sixes 2026 - Commentary",
+          "England vs South Africa Stats",
+          "Australia lose top spot in WTC standings and Test ranking after Cape Town defeat"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-01",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 4000,
+    "category": "رياضة"
+  },
+  "te": {
+    "slug": "te",
+    "name": "te",
+    "first_seen": "2026-11-01",
+    "appearances": [
+      {
+        "key": "2026-11-01|sa",
+        "date": "2026-11-01",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Zr.Ms. Den Helder neemt leiding over NAVO-vlootverband",
+          "Marineschip Zr.Ms. Den Helder vertrokken om NAVO-vlootverband te leiden bij bescherming vitale infrastructuur op zee. ’Niet ondenkbaar dat we sabotageacties tegenkomen’",
+          "Nieuwe bevoorrader Den Helder leidt NAVO-eskader"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-01",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
   }
 }

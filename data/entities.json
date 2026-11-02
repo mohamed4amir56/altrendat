@@ -58826,7 +58826,7 @@
         "headlines": [
           "\"الأمن البيئي\" تضبط 4 مقيمين استغلوا الرواسب دون ترخيص في الرياض",
           "\"الأمن البيئي\" يضبط 4 مخالفين لاستغلال الرواسب بالرياض",
-          "القوات الخاصة للأمن البيئي تضبط 4 مخالفين لاستغلال الرواسب بمنطقة الرياض"
+          "'الأمن البيئي' يضبط مخالفين لنظام البيئة في منظقة الرياض"
         ]
       }
     ],
@@ -139868,19 +139868,34 @@
         "date": "2026-11-02",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "15 دقيقة.. عمر عبد العزيز يتألق ويحافظ على نظافة شباك الزمالك أمام دجلة",
-          "سبب إستبعاد محمد حمد من مباراة الزمالك اليوم",
-          "تشكيل الزمالك أمام وادي دجلة في كأس الرابطة"
+          "شوط أول سلبى بين دجلة والزمالك فى كأس عاصمة مصر",
+          "تشكيل الزمالك.. 10 تغييرات من معتمد جمال.. وعودة ناصر منسي أمام دجلة",
+          "الزمالك يصل إلى ستاد السويس الجديد لمواجهة وادي دجلة في كأس عاصمة مصر"
+        ]
+      },
+      {
+        "key": "2026-11-02|sa",
+        "date": "2026-11-02",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "ناصر منسي يقود هجوم الزمالك أمام وادي دجلة فى كأس عاصمة مصر",
+          "انقاذ من عمر عبد العزيز حارس الزمالك أمام وادي دجلة",
+          "19 غيابًا في صفوف الزمالك أمام وادي دجلة"
         ]
       }
     ],
     "last_seen": "2026-11-02",
-    "total": 10,
+    "total": 11,
     "countries": [
       "eg",
       "sa"
@@ -161118,7 +161133,7 @@
   },
   "sp-500": {
     "slug": "sp-500",
-    "name": "s&p 500",
+    "name": "sp 500",
     "first_seen": "2026-10-05",
     "appearances": [
       {
@@ -161210,15 +161225,30 @@
           "Stock Market News, Oct. 27, 2026: Tech Stocks Extend Gains After Yesterday’s Anthropic Rally",
           "Wall Street ends higher on revived AI momentum"
         ]
+      },
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Stock market after midterm elections: What S&P 500 history shows",
+          "Investors gaming out Congress control for spending, AI outlook",
+          "Mohamed El-Erian: Here's what a Democratic sweep could mean for Wall Street"
+        ]
       }
     ],
-    "last_seen": "2026-10-29",
-    "total": 6,
+    "last_seen": "2026-11-02",
+    "total": 7,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "اقتصاد"
+    "category": "سياسة"
   },
   "sean-newcomb": {
     "slug": "sean-newcomb",
@@ -189191,14 +189221,14 @@
         "date": "2026-11-02",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "أرقام إمام عاشور تكشف سر استبعاده من مباريات الأهلي للمرة الثالثة تواليا",
+          "انفجار أزمة إمام عاشور والأهلي.. بيان ناري واللاعب يرد وحسام حسن يتدخل",
           "الأهلي يختار المواجهة.. أسرار بيان منتصف الليل حول إصابة إمام عاشور",
-          "ملف يلا كورة.. استبعاد إمام عاشور.. عقوبة شيكو بانزا.. وحقيقة أزمة صلاح"
+          "تعليق ناري من شوبير على أزمة إمام عاشور في الأهلي: \"متداس عليه أوي\""
         ]
       }
     ],
@@ -201388,10 +201418,25 @@
           "خبير اقتصادي: مصر تستحق إشادة كبيرة لاتخاذها قرار تعويم الجنيه",
           "حسن عبد الله: الموارد الدولارية المحلية بلغت 8.5 مليار دولار رغم تراجع إيرادات قناة السويس"
         ]
+      },
+      {
+        "key": "2026-11-02|eg",
+        "date": "2026-11-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "أسعار الدولار والعملات الأجنبية اليوم الإثنين 2 - 11 - 2026",
+          "سعر الدولار مقابل الجنيه المصري يتراجع في البنوك بمنتصف تعاملات الاثنين",
+          "استقرار أسعار العملات العربية بداية تعاملات اليوم 1 نوفمبر 2026"
+        ]
       }
     ],
-    "last_seen": "2026-10-25",
-    "total": 4,
+    "last_seen": "2026-11-02",
+    "total": 5,
     "countries": [
       "eg",
       "sa"
@@ -277172,14 +277217,29 @@
           "وكيل سياحة النواب: الرقابة على الحج والعمرة والسياحة الداخلية أولوية خلال دور الانعقاد الثاني",
           "سحر طلعت مصطفى: دعم قطاع الطيران المدني وتعزيز التكامل مع السياحة واستثمار الترانزيت علي رأس أولوياتنا"
         ]
+      },
+      {
+        "key": "2026-11-02|eg",
+        "date": "2026-11-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "مصر تطلق حملة ترويجية في لندن لتعزيز حضور المقصد المصري بالسوق البريطاني",
+          "غداً الثلاثاء.. عُمان تشارك في معرض سوق السفر العالمي بالعاصمة البريطانية لندن",
+          "«سياحة الشارقة» تستعرض تجاربها في «سوق السفر العالمي بلندن»"
+        ]
       }
     ],
-    "last_seen": "2026-10-12",
-    "total": 1,
+    "last_seen": "2026-11-02",
+    "total": 2,
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "طائرة-فوياجر": {
@@ -278568,17 +278628,32 @@
           "Avengers: Doctor Doom to Appear at Baseball - Marvel Prepares a Surprise for the Start of the World Series",
           "Marvel's Avengers: Doomsday trailer quietly confirms major MCU death"
         ]
+      },
+      {
+        "key": "2026-11-02|eg",
+        "date": "2026-11-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Robert Downey Jr. & Pedro Pascal Serve MCU Role Reversal For Halloween: “Costume Swap!”",
+          "Avengers: Doomsday Stars Robert Downey Jr. and Pedro Pascal Swapped MCU Roles For Halloween",
+          "Pedro Pascal And Robert Downey Jr. Switch Marvel Roles In Holiday Surprise"
+        ]
       }
     ],
-    "last_seen": "2026-10-23",
-    "total": 4,
+    "last_seen": "2026-11-02",
+    "total": 5,
     "countries": [
       "eg",
       "sa",
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "حوادث وقضايا"
+    "category": "عام"
   },
   "fast-radio-burst": {
     "slug": "fast-radio-burst",
@@ -331586,15 +331661,30 @@
           "Al Ahly drawn in Group A of CAF Confederation Cup",
           "Zamalek and Pyramids FC handed tough Arab clashes in Champions League group stage - Egyptian Football - Sports"
         ]
+      },
+      {
+        "key": "2026-11-02|eg",
+        "date": "2026-11-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "The truth about the Zamalek takeover bid: Khalaf Al-Habtoor breaks his silence",
+          "UAE billionaire refutes claims of buying Egypt football club Al Zamalek",
+          "عاجل : خلف الحبتور ينفى أى إستثمار فى نادى الزمالك"
+        ]
       }
     ],
-    "last_seen": "2026-10-28",
-    "total": 4,
+    "last_seen": "2026-11-02",
+    "total": 5,
     "countries": [
       "eg"
     ],
     "peak_traffic": 1000,
-    "category": "رياضة"
+    "category": "اقتصاد"
   },
   "ركلة-جزاء": {
     "slug": "ركلة-جزاء",
@@ -529694,12 +529784,28 @@
           "نادر أبو الليف يحتفل بزفافه للمرة الثالثة.. ويكشف هوية العروس",
           "«اللي بيحبني يباركلي ويدعيلي».. نادر أبو الليف يعلن عقد قرانه"
         ]
+      },
+      {
+        "key": "2026-11-02|sa",
+        "date": "2026-11-02",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "نادر أبو الليف يحتفل بزفافه للمرة الثالثة.. ويكشف هوية العروس",
+          "أبو الليف لـ \"اليوم السابع\" بعد زواجه من قوت المغازى: فرحان وربنا يخليهالى",
+          "«اللي بيحبني يباركلي ويدعيلي».. نادر أبو الليف يعلن عقد قرانه"
+        ]
       }
     ],
     "last_seen": "2026-11-02",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 500,
     "category": "شخصية"
@@ -530368,14 +530474,14 @@
         "date": "2026-11-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
+          "Health insurance open enrollment: 5 things to review before choosing a plan",
           "Open enrollment just started. Here’s what to know about your premiums.",
-          "Many with ACA coverage face a new crisis in 2027: Insurers fleeing the market",
-          "Health insurance open enrollment: 5 things to review before choosing a plan"
+          "Many with ACA coverage face a new crisis in 2027: Insurers fleeing the market"
         ]
       }
     ],
@@ -530384,7 +530490,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "اقتصاد"
   },
   "joe-manchin": {
@@ -530464,11 +530570,27 @@
           "How to get Al-Sadd vs Al Ahli tickets: AFC Champions League Elite prices, fixture information, last-minute sales & more",
           "AFC Champions League Elite: Al-Ahli Visits Qatar's Al-Sadd Tomorrow"
         ]
+      },
+      {
+        "key": "2026-11-02|eg",
+        "date": "2026-11-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "A long-awaited breakthrough at Al-Ahly before the Asian clash with Al-Sadd",
+          "How to get Al-Sadd vs Al Ahli tickets: AFC Champions League Elite prices, fixture information, last-minute sales & more",
+          "Lucescu targets victory as Al Sadd face Al Ahli Saudi in bid to revive campaign"
+        ]
       }
     ],
     "last_seen": "2026-11-02",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 2000,
@@ -530484,8 +530606,8 @@
         "date": "2026-11-02",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -530500,7 +530622,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "كاس-اسيا": {
@@ -530589,5 +530711,237 @@
     ],
     "peak_traffic": 200,
     "category": "رياضة"
+  },
+  "franklinton-high-school": {
+    "slug": "franklinton-high-school",
+    "name": "franklinton high school",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Law enforcement investigation underway at Franklin County high school, officials say",
+          "SBI responds to report of possible shooting at Franklinton High School",
+          "Heavy police presence at Franklinton High School"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "حوادث وقضايا"
+  },
+  "murray-state-basketball": {
+    "slug": "murray-state-basketball",
+    "name": "murray state basketball",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Tennessee State vs. Murray State odds, prediction, time: 2026 college basketball opener picks from model",
+          "Racer men make return to unique Field of 68 Marathon, face TSU",
+          "Monday OPENING DAY Watchlist, November 2, 2026"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "hillary-clinton": {
+    "slug": "hillary-clinton",
+    "name": "hillary clinton",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Supreme Court condones ‘collusion’ ahead of Election Day",
+          "Trump's unusual legal gambit against Biden-era deportation rule pays off at Supreme Court",
+          "US Supreme Court denies immigration judges the power to shelve deportation cases"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
+  },
+  "apple-new-hardware-lineup-november-6": {
+    "slug": "apple-new-hardware-lineup-november-6",
+    "name": "apple new hardware lineup november 6",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Apple Isn't Done With 2026: Here's What's Still Coming",
+          "Launching this week: MacBook Pro, iPad Mini OLED, Motorola Signature 27 and more",
+          "When to expect your pre-ordered Apple devices to ship"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "تقنية"
+  },
+  "netflix-collision-course-action-movie": {
+    "slug": "netflix-collision-course-action-movie",
+    "name": "netflix collision course action movie",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Netflix ‘Collision Course’ Ending Explained",
+          "Netflix’s ‘Collision Course’: A Crime Caper That Can’t Quite Get Away",
+          "Unexpected Spanish Crime Thriller Is Suddenly Netflix’s No. 1 Streaming Movie"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
+  },
+  "harley-davidson-sprint-440": {
+    "slug": "harley-davidson-sprint-440",
+    "name": "harley-davidson sprint 440",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "The 2027 Harley-Davidson Sprint 440 Finally Gives Entry-Level Riders What They Want",
+          "Harley-Davidson’s Newest and Most Rider-Friendly Bike Is Also Its Most Affordable (By a Country Mile)",
+          "Harley-Davidson Sprint 440 spotted ahead of launch"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "pakhtakor-fc-vs-al-nassr-standings": {
+    "slug": "pakhtakor-fc-vs-al-nassr-standings",
+    "name": "pakhtakor fc vs al-nassr standings",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|eg",
+        "date": "2026-11-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Cristiano Ronaldo's Absence Shocks Fans in the AFC Champions League: What Happened?",
+          "After Cristiano's exclusion: Postecoglou shakes up Al-Nassr's line-up in the AFC Champions League Elite",
+          "Video: in Ronaldo's absence, hurricane Felix leads Al-Nassr to demolish Pakhtakor"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 10000,
+    "category": "رياضة"
+  },
+  "شباك-التذاكر": {
+    "slug": "شباك-التذاكر",
+    "name": "شباك التذاكر",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|eg",
+        "date": "2026-11-02",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "ولا كان عالبال يتصدر شباك تذاكر أمس ويحقق أكثر من 20 مليون جنيه",
+          "«ولا كان عالبال» يتصدر شباك التذاكر السينمائي",
+          "نور النبوى الأول فى شباك تذاكر السينما المصرية الأحد.. بالأرقام"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

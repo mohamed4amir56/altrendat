@@ -2789,12 +2789,12 @@
         "country_name": "مصر",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "ترحيل ليبي وتغريمه 2000 جنيه لعدم حمله تصريح إقامة في الشروق",
-          "ترحيل شاب يحمل جنسية دولة عربية وتغريمه 2000 جنيه لمخالفته شروط الإقامة في الشروق",
-          "ترحيل ليبي وتغريمه 2000 جنيه لعدم حمل تصريح إقامة ساريا"
+          "حبس متهم بسرقة التيار الكهربائي في الشروق 6 أشهر",
+          "الحبس 6 أشهر وغرامة 10 آلاف جنيه لمتهم بسرقة الكهرباء في الشروق",
+          "غرامة 10 آلاف جنيه وقيمة مماثلة لمتهم بسرقة التيار الكهربائي في مدينة بدر"
         ]
       }
     ],
@@ -2804,7 +2804,7 @@
       "eg"
     ],
     "peak_traffic": 700,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "العاصمة-الجديدة": {
     "slug": "العاصمة-الجديدة",
@@ -6699,8 +6699,8 @@
         "publishable": false,
         "headlines": [
           "Облачно, но тепло: синоптик рассказал о погоде в Петербурге 1 ноября",
-          "2 ноября в Санкт‑Петербурге: погодные рекорды, что ждать сегодня",
-          "Тепло ещё с нами, но ненадолго"
+          "Тепло ещё с нами, но ненадолго",
+          "2 ноября в Санкт‑Петербурге: погодные рекорды, что ждать сегодня"
         ]
       }
     ],
@@ -34521,13 +34521,13 @@
         "date": "2026-11-02",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "مفاجأة كبرى.. الهلال يدخل سباق التعاقد مع محترف النصر",
           "أخبار الانتقالات | النصر يحسم مصير جواو فيليكس وريال مدريد يحدد خليفة كورتوا",
+          "مفاجأة مدوية.. هل يخطف الهلال جواو فيليكس؟",
           "مصادر «عكاظ»: النصر يقترب من تجديد عقد بوشل قبل «الحرة»"
         ]
       }
@@ -70818,9 +70818,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "السيطرة على حريق شقة سكنية بمساكن طابا في بنها دون إصابات",
-          "السيطرة على حريق بشقة سكنية في قرية السفاينة بطوخ",
-          "السيطرة على حريق شقة سكنية بالطابق السادس في الخصوص"
+          "السيطرة على حريق أعلى سطح عقار فى فيصل بالجيزة دون إصابات",
+          "اندلاع حريق داخل شقة سكنية بمنطقة الدواجن بالمعصرة",
+          "إخماد حريق داخل شقة سكنية في المرج دون إصابات"
         ]
       }
     ],
@@ -255862,11 +255862,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "فضول عام",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "حالة الطقس اليوم.. الأرصاد تكشف مفاجآت درجات الحرارة والظواهر الجوية المتوقعة",
           "حالة الطقس.. الأرصاد تعلن الظواهر الجوية اليوم الاثنين وتحذير من ارتفاع الحرارة",
-          "فيديو.. الأرصاد: غدا ذروة ارتفاع الحرارة.. والعظمى تصل إلى 37"
+          "فيديو.. الأرصاد: غدا ذروة ارتفاع الحرارة.. والعظمى تصل إلى 37",
+          "طقس مفاجئ خلال الأسبوع الحالي في مصر.. رياح وأمطار رغم ارتفاع الحرارة"
         ]
       }
     ],
@@ -272650,7 +272650,7 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "بعد رقع قيمته لـ2100 جنيه.. من يستحق صرف حافز التدريس؟ التفاصيل",
+          "بعد رفع قيمته لـ2100 جنيه.. من يستحق صرف حافز التدريس؟ التفاصيل",
           "كل ما تريد معرفته عن حافز التدريس للمعلمين.. قيمته وشروطه والفئات المستثناة",
           "معلمو رياض الأطفال والفصل الواحد.. موقفهم من حافز التدريس 2026"
         ]
@@ -274865,10 +274865,25 @@
           "TSMC’s Profit Surpasses Expectations After AI Orders Rush In",
           "TSMC Q3 profit jumps 69% to record, beating expectations"
         ]
+      },
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "If the AI Bubble Scare Gets Worse, This Is the Chip Stock I'd Still Hold",
+          "TSMC Just Dropped 11% in a Month. Is It Time to Sell, or Load Up?",
+          "Taiwan Semiconductor Manufacturing Company Ltd. (TSM) - What Are Researchers Thinking About This Stock?"
+        ]
       }
     ],
-    "last_seen": "2026-10-15",
-    "total": 2,
+    "last_seen": "2026-11-02",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -293063,10 +293078,25 @@
           "Coalition: Four UAVs Launched by Terrorist Houthi Militia Toward Southern Region Intercepted and Destroyed",
           "Coalition destroys five Houthi missile tunnels, four launchers in Yemen operation"
         ]
+      },
+      {
+        "key": "2026-11-02|sa",
+        "date": "2026-11-02",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Riyadh steps up precautions amid Houthi attacks, fears of wider war",
+          "Saudi Civil Defense lifts alerts in four cities after aerial threat passes",
+          "After emergency alerts, Saudi Arabia gives all-clear in 3 areas of country's southwest"
+        ]
       }
     ],
-    "last_seen": "2026-10-27",
-    "total": 3,
+    "last_seen": "2026-11-02",
+    "total": 4,
     "countries": [
       "sa",
       "world"
@@ -354080,8 +354110,8 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "محافظ البنك المركزي: طرح بنك القاهرة يعكس الثقة فى القطاع المصرفي",
-          "سهم بنك القاهرة يقفز نحو 7% في الدقائق الأولى من بدء تداوله بالبورصة",
+          "رئيس الوزراء يشهد جلسة بدء التداول على أسهم بنك القاهرة بعد طرح حصة بالبورصة",
+          "460 مليون دولار التزامات المستثمرين الاستراتيجيين في طرح بنك القاهرة",
           "إي اف چي هيرميس تنجح في إتمام دورها الاستشاري في الطرح العام الأولي لبنك القاهرة"
         ]
       }
@@ -373571,15 +373601,30 @@
           "الأرصاد تحذر من أمطار غزيرة وسيول على 9 مناطق سعودية اليوم",
           "بسبب الأمطار.. تعليق الدراسة اليوم في بعض مدارس وجامعات السعودية"
         ]
+      },
+      {
+        "key": "2026-11-02|sa",
+        "date": "2026-11-02",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Raza 'hurt' with team-mates' 'complacency' in latest loss to Afghanistan",
+          "World record at 40! Sikandar Raza smashes unbeaten ton against Afghanistan, enters elite list",
+          "Who are the oldest players to hit a century in T20I cricket? | To know more | Inshorts"
+        ]
       }
     ],
-    "last_seen": "2026-10-29",
-    "total": 3,
+    "last_seen": "2026-11-02",
+    "total": 4,
     "countries": [
       "sa"
     ],
     "peak_traffic": 20000,
-    "category": "طقس"
+    "category": "عام"
   },
   "middle-east": {
     "slug": "middle-east",
@@ -485040,10 +485085,25 @@
           "Phillies' Zack Wheeler voted NL Comeback Player of the Year among MLB players",
           "Zack Wheeler's remarkable return earns Players Choice Award from his peers"
         ]
+      },
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "New hitting coach looks to bring 'grind-you-down' approach to Phillies' lineup",
+          "New Phillies' hitting coach Pete Fatse looks to lift a sagging offense",
+          "Can new hitting coach help Justin Crawford in second year? Phillies want young outfielder to ‘lean into’ his strengths"
+        ]
       }
     ],
-    "last_seen": "2026-10-29",
-    "total": 1,
+    "last_seen": "2026-11-02",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -527590,9 +527650,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Australia's Halloween horror show comes at a heavy cost",
+          "Lyon's fading force, Smith at No. 3, and the never-ending Boland debate - Questions for Australia after series defeat",
           "South Africa vs Australia: Five takeaways for England after epic series",
-          "\"Not the standard\": Gilchrist's confusion over Australian Test crisis"
+          "Cape Town was the batting collapse we had to have. Now selectors must make changes"
         ]
       }
     ],
@@ -527849,16 +527909,32 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Dashcam footage captures Florida private jet crash",
           "‘Debris hit my house. Everything was on fire': Residents describe Palm Beach jet crash",
+          "Nine killed in fiery Florida Learjet crash in West Palm Beach County",
           "Nine dead in small plane crash near Trump's Florida home - International - World"
+        ]
+      },
+      {
+        "key": "2026-11-02|sa",
+        "date": "2026-11-02",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Business Aircraft Accident Reports: November 2026",
+          "Dashcam footage captures Florida private jet crash",
+          "‘Debris hit my house. Everything was on fire': Residents describe Palm Beach jet crash"
         ]
       }
     ],
     "last_seen": "2026-11-02",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 100,
     "category": "حوادث وقضايا"
@@ -527908,7 +527984,7 @@
         "publishable": false,
         "headlines": [
           "بايرن ميونيخ يكشف طبيعة إصابة إسماعيل صيباري",
-          "مدة غياب صاعقة للصيباري.. والشكوك تحيط بأوليسي",
+          "بعد صدمة صيباري.. بايرن ميونخ يحسم موقفه من الميركاتو الشتوي",
           "الإصابات تضرب البايرن بعد «كلاسيكو» ألمانيا"
         ]
       }
@@ -527920,5 +527996,92 @@
     ],
     "peak_traffic": 100,
     "category": "شخصية"
+  },
+  "weather-tampa": {
+    "slug": "weather-tampa",
+    "name": "weather tampa",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+2900",
+        "traffic_num": 2900,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "LIVE RADAR: Overnight rain into Monday morning",
+          "Scattered showers & Coastal Flood Advisory for Monday plus your recap for the remaining days of Hurricane Season 2026! (FULL WEATHER 10PM/11.1.2026)",
+          "Halloween weekend forecast for Northwest Florida"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2900,
+    "category": "طقس"
+  },
+  "a-court-of-thorns-and-roses": {
+    "slug": "a-court-of-thorns-and-roses",
+    "name": "a court of thorns and roses",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Fans Can’t Get Enough of ‘A Court of Thrones and Roses’ (Or Its Merch)",
+          "‘A Court of Thorns and Roses’ Book 6 Breaks Sarah J. Maas’ Release Day Record With 1.7 Million Copies Sold (EXCLUSIVE)",
+          "Sarah J. Maas Gave Us Part of a Book"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "zelda": {
+    "slug": "zelda",
+    "name": "zelda",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Nintendo producer 'nervous' as Zelda classic remake about to hit shelves",
+          "Zelda: Ocarina Of Time Is One Of The Best Games Of All Time, Yet Producer Aonuma Is “Nervous” About The Nintendo Switch 2 Remake",
+          "Best Buy opening late-night for Legend of Zelda launch"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
   }
 }

@@ -31164,8 +31164,8 @@
         "date": "2026-11-03",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": []
@@ -43741,12 +43741,12 @@
         "country_name": "مصر",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "شخصية",
-        "publishable": true,
+        "category": "حوادث وقضايا",
+        "publishable": false,
         "headlines": [
-          "شيكابالا وتصريح يصدم ابراهيم فايق: حسام حسن لازم يستقيل من تدريب المنتخب",
-          "«مش شايفين هيبتك».. شيكابالا يطالب حسام حسن بتقديم استقالته",
-          "إقالة حسام حسن .. محمد صلاح ودان آدم يكتبان نهاية مشوار حسام حسن مع منتخب مصر"
+          "بلاغ للنائب العام ضد طليقة حسام حسن.. اتهامات بالجمع بين زوجين",
+          "حرب البلاغات بين حسام حسن وطليقته واتهامات خطيرة بالجمع بين زوجين",
+          "أخبار الحوادث اليوم،\"الدستورية العليا\" ترفض حل الجمعيات.. ضبط 4 أطنان مخدرات بـ440 مليون جنيه.. وحسام حسن يتهم طليقته بالجمع بين زوجين"
         ]
       }
     ],
@@ -43757,7 +43757,7 @@
       "sa"
     ],
     "peak_traffic": 5000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "كوريا-الجنوبية-ضد-أوروغواي": {
     "slug": "كوريا-الجنوبية-ضد-أوروغواي",
@@ -127287,8 +127287,8 @@
         "publishable": true,
         "headlines": [
           "التطبيق بدأ من اليوم والباقة تضاعفت.. 50 جيجا إنترنت زيادة مجانا.. فيديو",
-          "مصر.. بدء تطبيق مضاعفة باقة الإنترنت الأرضي إلى 100 جيجابايت دون زيادة السعر",
-          "متحدث تنظيم الاتصالات: توصيات منتدى مصر نُفذت فورا وباقة الـ 150 جنيها أصبحت 100 جيجابايت"
+          "متحدث تنظيم الاتصالات: توصيات منتدى مصر نُفذت فورا وباقة الـ 150 جنيها أصبحت 100 جيجابايت",
+          "مصر.. بدء تطبيق مضاعفة باقة الإنترنت الأرضي إلى 100 جيجابايت دون زيادة السعر"
         ]
       }
     ],
@@ -195285,10 +195285,25 @@
           "Final Injury Report for Wizards-Bulls: Will AJ Dybantsa, Anthony Davis Play?",
           "Christian Anderson (ankle) available vs. Miami"
         ]
+      },
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "The Bulls weren’t beaten; they were bludgeoned. ‘It’s unacceptable to be losing like we are’",
+          "Bulls struggle to keep up with Celtics in NBA Cup opener, fall 125-111",
+          "The Caleb Wilson takeover of the Bulls has begun ... ready or not"
+        ]
       }
     ],
-    "last_seen": "2026-10-24",
-    "total": 6,
+    "last_seen": "2026-11-02",
+    "total": 7,
     "countries": [
       "world"
     ],
@@ -365478,15 +365493,30 @@
           "Klint Kubiak’s pregame hug with dad Gary adds a family touch to Raiders-Bills",
           "Josh Allen's 37-yard deep ball to Joshua Palmer gets Bills into Raiders' territory"
         ]
+      },
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Raiders' Ashton Jeanty limited to 2 carries in win vs. Jets",
+          "Fantasy Football Week 8 RB Report: Raiders relegate Ashton Jeanty to pure passing role, plus more on key backfield splits",
+          "Ashton Jeanty's Reduced Role Addressed By Raiders' Klint Kubiak After Win vs. Jets"
+        ]
       }
     ],
-    "last_seen": "2026-10-18",
-    "total": 1,
+    "last_seen": "2026-11-02",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "عام"
+    "category": "رياضة"
   },
   "landman-season-3": {
     "slug": "landman-season-3",
@@ -419361,10 +419391,25 @@
           "الذهب يفقد 30% من قيمته منذ ذروته.. ويهبط لأدنى مستوى في عام",
           "الذهب يغلق دون 4 آلاف دولار ويسجل خسائر أسبوعية وشهرية"
         ]
+      },
+      {
+        "key": "2026-11-03|sa",
+        "date": "2026-11-03",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "خسائر الذهب: المعدن النفيس قد ينهي 2026 بخسائر رغم توافر عوامل دعم",
+          "سعر الذهب الآن | أخبار الذهب اليوم: الذهب يرتفع.. هل الارتداد فخ؟",
+          "الذهب يرتد مع تراجع النفط... والأسواق تترقب إشارات «الفيدرالي»"
+        ]
       }
     ],
-    "last_seen": "2026-11-02",
-    "total": 5,
+    "last_seen": "2026-11-03",
+    "total": 6,
     "countries": [
       "eg",
       "sa"
@@ -448818,8 +448863,7 @@
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "55 مليون مشاهدة في 12 ساعة.. كيف انتشرت تغريدة كارلسون النووية؟",
-          "مسؤولون: نتنياهو حث ترامب على قصف إيران مجددا",
+          "ضرب إيران يقترب في تقديرات عسكرية.. والتفاوض يتعثر",
           "خبير: واشنطن أمام صراع بين معسكر الدبلوماسية وخيار الحرب مع إيران"
         ]
       },
@@ -529306,14 +529350,14 @@
         "date": "2026-11-02",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "category": "سياسة",
+        "traffic": "+700",
+        "traffic_num": 700,
+        "category": "عام",
         "publishable": false,
         "headlines": [
+          "Why you're seeing so many local tax measures on the ballot this year",
           "How state propositions on the ballot could affect Santa Cruz County",
-          "Sup­porters, opponents of Propo­sition 43 make final push going into midterm election",
-          "Letters: Vote yes on Prop. 43 to set a higher bar for new special taxes"
+          "John’s Journal October 2026 Edition"
         ]
       }
     ],
@@ -529322,8 +529366,8 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
-    "category": "سياسة"
+    "peak_traffic": 700,
+    "category": "عام"
   },
   "oman-vs-netherlands": {
     "slug": "oman-vs-netherlands",
@@ -533981,9 +534025,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Mahmood scraps settlement plans for migrant care workers",
+          "Shabana Mahmood scraps plan for migrant care workers to wait 15 years for settlement - live",
           "Newspaper headlines: Mahmood's 'Duty of care' or 'climbdown' and 'The new cold war'",
-          "Why PM must avoid same mistake as Tories - failing to deliver on immigration"
+          "British government sets out tougher rules for migrants looking to settle in the UK"
         ]
       }
     ],
@@ -535450,8 +535494,8 @@
         "publishable": true,
         "headlines": [
           "Newcastle United 0-1 Everton - reaction as Thierno Barry scores winner",
-          "Barry goal gives Everton 1-0 win at Newcastle, piling pressure on Jaissle",
-          "Match Report. Half time: Newcastle United 0 Everton 0"
+          "Who produced the kind of performance Moyes loves? - player ratings",
+          "Newcastle United player ratings vs Everton: Lukas Hornicek and Jacob Ramsey endure nightmare nights in damaging defeat"
         ]
       },
       {
@@ -535465,8 +535509,8 @@
         "publishable": true,
         "headlines": [
           "Everton beats Newcastle for the second time in four days as boos ring out at St. James’ Park",
-          "Newcastle United 0-1 Everton - reaction as Thierno Barry scores winner",
-          "Newcastle vs Everton LIVE! Premier League match updates, news, score, stream and highlights"
+          "Newcastle vs Everton LIVE! Premier League match updates, news, score, stream and highlights",
+          "Who produced the kind of performance Moyes loves? - player ratings"
         ]
       }
     ],
@@ -535591,8 +535635,8 @@
         "date": "2026-11-03",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -537000,5 +537044,237 @@
     ],
     "peak_traffic": 200,
     "category": "حوادث وقضايا"
+  },
+  "jaylon-johnson": {
+    "slug": "jaylon-johnson",
+    "name": "jaylon johnson",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Amid outside noise, Chicago Bears CB Jaylon Johnson is his harshest critic: ‘I’ve just got to get it done’",
+          "Ben Johnson Sets Hard Line On Jaylon Johnson And Trade Talk",
+          "Bears’ Jaylon Johnson Makes Candid Admission Before Seahawks Test"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "david-remnick": {
+    "slug": "david-remnick",
+    "name": "david remnick",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Conan O’Brien Talks with David Remnick",
+          "The New Yorker Festival Turns Up the Conversation",
+          "Watch Conan O’Brien talks with David Remnick at The New Yorker Festival"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "jeep-scrambler": {
+    "slug": "jeep-scrambler",
+    "name": "jeep scrambler",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "See the Jeep Wrangler Scrambler SRT Concept from All Angles",
+          "The Jeep Wrangler Scrambler SRT Concept Is a High-Speed Desert Shredder With a Mystery Engine",
+          "This Is the Jeep Wrangler Scrambler SRT With Reversible Jump Seats, a V8, and 37-Inch Tires"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "connor-wood-dwts": {
+    "slug": "connor-wood-dwts",
+    "name": "connor wood dwts",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "'DWTS': Derek Hough Predicts Connor Wood Will Make Finale",
+          "Derek Hough Reveals Who He Thinks Will Win ‘DWTS’ This Season",
+          "Dancing with the Stars judge makes surprising prediction for Mirrorball contender"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "amendment-82-colorado": {
+    "slug": "amendment-82-colorado",
+    "name": "amendment 82 colorado",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Colorado Votes on Right to Buy Natural Gas in US Climate Fight",
+          "As a family doctor, here’s why I’m voting no on Amendment 82 (Opinion)",
+          "Right to natural gas ballot measure a battleground of nonprofit and conservative spending"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "cia-tv-show": {
+    "slug": "cia-tv-show",
+    "name": "cia tv show",
+    "first_seen": "2026-11-02",
+    "appearances": [
+      {
+        "key": "2026-11-02|world",
+        "date": "2026-11-02",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "‘CIA’ First Look: ‘FBI’s Jeremy Sisto Crosses Over, Plus More About Felix Vincente",
+          "‘CIA’ Season 2, Episode 6 Release Date, Time, Where to Watch, and Preview",
+          "CIA showrunner offers new details on Jeremy Sisto's crossover episode"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-02",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "76ers-vs-bulls": {
+    "slug": "76ers-vs-bulls",
+    "name": "76ers vs bulls",
+    "first_seen": "2026-11-03",
+    "appearances": [
+      {
+        "key": "2026-11-03|sa",
+        "date": "2026-11-03",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "With Joel Embiid set to play, Sixers host Bulls in one-game homestand",
+          "76ers coach Nick Nurse provides update on Joel Embiid’s right plantar fascia injury management",
+          "How to watch Bulls vs 76ers: Live stream NBA Basketball, TV channel"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-03",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "العربية-الخليج": {
+    "slug": "العربية-الخليج",
+    "name": "العربية الخليج",
+    "first_seen": "2026-11-03",
+    "appearances": [
+      {
+        "key": "2026-11-03|sa",
+        "date": "2026-11-03",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "من الإنذار المبكر إلى الإسناد المشترك.. كيف تستعد دول الخليج للطوارئ العابرة للحدود؟",
+          "لقد بدأنا الاستعداد للمخاطر الطارئة في الخليج العربي",
+          "راشد محمد المري"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-03",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

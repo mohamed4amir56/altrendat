@@ -72607,8 +72607,8 @@
         "date": "2026-11-03",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -77777,8 +77777,8 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
+          "Judge Dismisses Trump Lawsuit Demanding Harvard Admissions Data",
           "Federal judge dismisses Trump lawsuit seeking Harvard admissions data",
-          "Federal judge dismisses lawsuit against Harvard over federal demand for admissions data",
           "Judge dismisses Trump administration lawsuit against Harvard on admissions"
         ]
       }
@@ -303873,8 +303873,8 @@
         "date": "2026-11-03",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -303888,7 +303888,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "عام"
   },
   "سعر-الدولار": {
@@ -542186,7 +542186,7 @@
         "headlines": [
           "بعد أنباء حول مرضه.. كريم فهمي: \"قلق وضرر كبير لي ولأهلي\"",
           "كريم فهمي يرد على شائعة تعرضه لوعكة صحية ويوجه رسالة لمروجيها",
-          "كريم فهمي يكشف حقيقة تعرّضه لوعكة صحية"
+          "كريم فهمي يطمئن الجمهور على صحته وينفي شائعة مرضه: يا ريت نتحرى المصداقية | خبر"
         ]
       }
     ],
@@ -543919,10 +543919,10 @@
         "date": "2026-11-03",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "دول وأماكن",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "The 'poison pill' ballot measure that could kill the California billionaire tax",
           "Californians to decide whether to tax billionaires with Proposition 40 vote",
@@ -543935,7 +543935,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 5000,
     "category": "دول وأماكن"
   },
   "pba": {
@@ -544012,8 +544012,8 @@
         "publishable": false,
         "headlines": [
           "Muere el delantero del Tenerife Jesús de Miguel tras el brutal choque con el portero del Andorra",
-          "Owono, la otra cara de la desgracia",
-          "La reacción del portero del Andorra tras la durísima entrada que acabó con De Miguel saliendo en camilla"
+          "Muere Jesús de Miguel: reacciones y última hora al fallecimiento del jugador del Tenerife, en directo",
+          "Owono, la otra cara de la desgracia"
         ]
       }
     ],
@@ -544128,7 +544128,8 @@
         "publishable": false,
         "headlines": [
           "الهلال يستضيف شباب الأهلي الإماراتي في دوري أبطال آسيا للنخبة",
-          "الهلال يواجه شباب الأهلي في «مهمة العودة»"
+          "الهلال يواجه شباب الأهلي في «مهمة العودة»",
+          "حديث \"سيموني إنزاغي\" و\"يوسف أكتشيشيك\" قبل لقاء \"شباب الأهلي الإماراتي\""
         ]
       }
     ],
@@ -544168,5 +544169,63 @@
     ],
     "peak_traffic": 100,
     "category": "دول وأماكن"
+  },
+  "senate-election-results-today": {
+    "slug": "senate-election-results-today",
+    "name": "senate election results today",
+    "first_seen": "2026-11-03",
+    "appearances": [
+      {
+        "key": "2026-11-03|world",
+        "date": "2026-11-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "U.S. Senate Midterm Election Live Results 2026",
+          "8 Senate Races the Forecasters Can’t Agree On",
+          "Democrats Show Strength in Final Days of Race for the Senate, New Polls Find"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "سياسة"
+  },
+  "lego-godzilla": {
+    "slug": "lego-godzilla",
+    "name": "lego godzilla",
+    "first_seen": "2026-11-03",
+    "appearances": [
+      {
+        "key": "2026-11-03|world",
+        "date": "2026-11-03",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Massive LEGO 21375 Godzilla stomps into your collection on Black Friday 2026",
+          "Lego Godzilla is over 5,300-pieces of kaiju fury, but the price is equally monstrous",
+          "LEGO Ideas Godzilla and Gift with Purchase, Available November 27th"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-03",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
   }
 }

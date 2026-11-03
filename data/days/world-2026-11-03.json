@@ -4,13 +4,13 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-11-03T06:01:29.579116+00:00",
+  "generated_at": "2026-11-03T06:31:31.105232+00:00",
   "day": "2026-11-03",
   "trends": [
     {
       "title": "warriors",
-      "traffic": "+20200",
-      "traffic_num": 20200,
+      "traffic": "+20400",
+      "traffic_num": 20400,
       "published": "Mon, 2 Nov 2026 21:20:00 -0800",
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT6Gsgen0NuackE90qrqOBdn72CiNmQrjWDXNTk1joHmZEha9HjHR7Z8_dbpq8",
       "image_source": "Yahoo Sports",
@@ -93,9 +93,20 @@
       "traffic": "20000+",
       "traffic_num": 20000,
       "published": "Mon, 2 Nov 2026 21:30:00 -0800",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRAMRGJ5h809g16KCtXFrbNVA-zi5SdezL1SrAJBkFaIAz6mZstvNxxK0W3xgg",
-      "image_source": "The Bureau of Meteorology",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQFWC0ZKBfnPkFvLNknRf8phrcLdUKVnv3l2zZsJKEdzy4zyHbkqEyJAI4FuSU",
+      "image_source": "News.com.au",
       "news": [
+        {
+          "title": "Huge storm surge set to hit East Coast",
+          "url": "https://www.news.com.au/technology/environment/huge-storm-surge-set-to-bring-giant-hail-to-southern-queensland-and-northern-nsw/news-story/e878b33f3a63c74009178a456f539d8d",
+          "source": "News.com.au",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQFWC0ZKBfnPkFvLNknRf8phrcLdUKVnv3l2zZsJKEdzy4zyHbkqEyJAI4FuSU",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
         {
           "title": "Severe weather update: Dangerous storms for SE Qld and NE NSW",
           "url": "https://www.bom.gov.au/video/severe-weather-update-dangerous-storms-for-se-qld-and-ne-nsw",
@@ -115,16 +126,6 @@
           "og_desc": "Parts of Queensland and northern NSW are in the firing line for severe and dangerous thunderstorms, which could bring giant hail and tornadoes.",
           "og_image": "https://static.ffx.io/images/$zoom_1.433%2C$multiply_1%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/c_scale%2Cw_1200%2Cq_88%2Cf_auto/4eb6e8536b8badfc39ea2cfa54d0118f47e1fdc454ed70ac9ac1db606de931f8",
           "ok": true
-        },
-        {
-          "title": "Supercells forecast for Queensland and NSW after overnight hail dump",
-          "url": "https://www.abc.net.au/news/2026-11-03/qld-storm-supercells-after-overnight-hail-dump/107339454",
-          "source": "ABC News & Headlines – Australian Broadcasting Corporation",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSuuF8tpmdKgIwXD-NOhOCMSV2VCncumjJ0tuUKgTOm8sicAGWTX52ywUBMN8",
-          "og_title": "Supercells forecast for Queensland and NSW after overnight hail dump",
-          "og_desc": "A trough over southern inland Queensland has already triggered a line of severe storms this morning.",
-          "og_image": "https://live-production.wcms.abc-cdn.net.au/f8c9d7927dfbbab155cef585a76c9208?impolicy=wcms_watermark_news&cropH=1152&cropW=2048&xPos=0&yPos=192&width=862&height=485&imformat=generic",
-          "ok": true
         }
       ],
       "geos": [
@@ -135,6 +136,49 @@
       "color": "#7fd8ff",
       "reason": "العنوان يطابق: weather",
       "publishable": true,
+      "article": {
+        "headline": "Dangerous storms threaten Queensland and New South Wales with giant hail tornadoes",
+        "summary": "Severe thunderstorms carrying the risk of tornadoes and hail larger than golf balls are targeting parts of Queensland and northern New South Wales today.",
+        "body": "Destructive winds reaching up to 125km/h are expected to accompany the storms as they develop through this afternoon and evening. The Bureau of Meteorology has placed multiple regions in the firing line for potentially volatile conditions, with residents in saturated areas of south-east Queensland facing an increased risk of flash flooding due to the forecasted heavy rainfall.\n\nThese warnings are critical for communities as the atmospheric conditions shift rapidly. Meteorologist Jonathon How indicated that the weather event poses significant dangers to the listed forecast districts, ranging from the Illawarra and Hunter regions down to the Northern Tablelands and beyond. For those in the path of the storm system, the threat of giant hail larger than golf balls and possible tornadoes highlights the severity of this weather pattern.\n\nAccording to Nine.com.au, the areas under notice include the Mid North Coast, Central Tablelands, Southern Tablelands, and the North West Slopes and Plains. Queensland regions such as the Central Highlands and Coalfields, Maranoa and Warrego, and the Darling Downs and Granite Belt are also included in the warnings. Brisbane residents have already experienced muggy conditions with temperatures climbing into the high 20s.\n\nThe weather system is not expected to remain stationary. Meteorologists anticipate the storms will migrate north throughout Queensland and track across northern Australia tomorrow, continuing the period of instability. Authorities advise staying updated as the storms progress across these regions.",
+        "facts": [
+          {
+            "label": "Wind Speed",
+            "value": "Up to 125km/h"
+          },
+          {
+            "label": "Event Date",
+            "value": "November 3, 2026"
+          },
+          {
+            "label": "Primary Risks",
+            "value": "Giant hail, tornadoes, destructive winds, flash flooding"
+          }
+        ],
+        "tags": [
+          "Severe weather",
+          "Queensland",
+          "New South Wales",
+          "Storms",
+          "Meteorology"
+        ],
+        "_v": 4,
+        "_by": "gemini",
+        "written_at": "2026-11-03T06:32:36.226757+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Close-up_of_the_rain_drops_on_a_car_window._Car_in_a_blurry_background.jpg/1280px-Close-up_of_the_rain_drops_on_a_car_window._Car_in_a_blurry_background.jpg",
+          "width": 1280,
+          "height": 854,
+          "artist": "Shixart1985",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Close-up_of_the_rain_drops_on_a_car_window._Car_in_a_blurry_background.jpg",
+          "stock": true,
+          "topic": "weather"
+        },
+        "photo_v": 8,
+        "_had_data": false,
+        "_localized": false
+      },
       "card": "cards/world-2026-11-03-severe-weather.png",
       "published_at": "2026-11-03T06:01:29.579116+00:00"
     },
@@ -160,7 +204,7 @@
           "title": "Melbourne Cup: King's former horse Point Of Law wins prestigious Australian race",
           "url": "https://www.bbc.com/sport/horse-racing/articles/cr3wv0476z5do",
           "source": "BBC",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSDS1PG66A2Yps8ENQ4ni3HsQBLgY7LhyIMP_NlhDx9ZLt87hunwHRHjS8FPTA",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRqS921Bg5uNl1eK9QQQ7gcLVV2-ZylIEp_KfjFmiWeNq2bUJjsLkYooYnPwno",
           "og_title": "Melbourne Cup: King's former horse Point Of Law wins prestigious Australian race",
           "og_desc": "Point of Law ridden by Ethan Brown has won Australia's \"race that stops a nation\".",
           "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/6718/live/8b889960-d740-11f1-9ecd-137d429a1395.jpg",
@@ -170,7 +214,7 @@
           "title": "Melbourne Cup LIVE: Point Of Law wins the Melbourne Cup ahead of Zahrann and Juja Kibo",
           "url": "https://www.smh.com.au/sport/racing/melbourne-cup-live-punters-brave-a-rainy-day-at-flemington-trustyourinstinct-among-favourites-in-3pm-main-race-20261103-p61aju.html",
           "source": "SMH.com.au",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-fAvZqlLboh18z7PqiGxkdGhn5J4JIcrzHf9vy-W7VIl7QFDYZA1vqDOPHVg",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcStyti_2SaWcdbVVG0l8BAygKzvGPjZbU9FCUUDnmw5s_KGJ96RCOr6sHxZOfM",
           "og_title": "Melbourne Cup LIVE: Point Of Law wins the Melbourne Cup ahead of Zahrann and Juja Kibo",
           "og_desc": "Point Of Law has won the Melbourne Cup as we continue to bring you all the news, colour, analysis and action from the track, the Birdcage, the movers and shakers and much more. Follow it live.",
           "og_image": "https://static.ffx.io/images/$zoom_0.41874258600237246%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_304/t_crop_custom/q_86%2Cf_auto/ba32f80eb36a803fb227dc201df6249460e0962a",
@@ -185,6 +229,61 @@
       "color": "#3ddc97",
       "reason": "العنوان يطابق: cup",
       "publishable": true,
+      "article": {
+        "headline": "Ciaron Maher trainer routs Melbourne Cup as Point of Law wins easily",
+        "summary": "Point of Law, formerly owned by King Charles III, won the 3200m Melbourne Cup under jockey Ethan Brown at Flemington.",
+        "body": "Trainer Ciaron Maher achieved a historic feat by producing the top three finishers in the A$10.2 million Lexus Melbourne Cup. While stablemate Royal Supremacy surged to a massive 12-length lead during the middle stages of the 3200m race, jockey Ethan Brown remained patient in the chasing pack before Point of Law roared through on the inside to secure a victory by nearly four lengths. The runner-up and third-place horses, Zahraan and Juja Kibo, completed a dominant podium sweep for the Maher stable.\r\n\r\nThis victory holds significant intrigue as Point of Law was previously bred and raced by King Charles III and Queen Camilla. Royal policy barred the King from maintaining ownership alongside the current syndicate, leading to a sale in July estimated between A$2 million and A$3 million. The new owners, including former AFL player Chris Judd and his wife Bec, saw their investment pay off immediately as the three-year-old thoroughbred proved his status as a budding superstar following his previous win in the Geelong Cup.\r\n\r\nJockey Ethan Brown, who returned to the sport after a serious injury left him hospitalized in 2023, described the win as every jockey's dream. The race day at Flemington attracted tens of thousands of spectators under sunny conditions, featuring a pre-race performance by Robbie Williams. The event was not without incident, as the horse Asterix was scratched on race day after a stable worker administered forbidden medication for muscle soreness. Despite these complications, the prestigious event proceeded to crown a clear winner in front of a massive crowd.",
+        "facts": [
+          {
+            "label": "Winner",
+            "value": "Point of Law"
+          },
+          {
+            "label": "Trainer",
+            "value": "Ciaron Maher"
+          },
+          {
+            "label": "Jockey",
+            "value": "Ethan Brown"
+          },
+          {
+            "label": "Total Prize Money",
+            "value": "A$10.2 million"
+          },
+          {
+            "label": "Race Distance",
+            "value": "3200m"
+          },
+          {
+            "label": "Location",
+            "value": "Flemington"
+          }
+        ],
+        "tags": [
+          "Melbourne Cup",
+          "Horse Racing",
+          "Ciaron Maher",
+          "Point of Law",
+          "Ethan Brown"
+        ],
+        "_v": 4,
+        "_by": "gemini",
+        "written_at": "2026-11-03T06:32:47.582447+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/2013_Melbourne_Cup_%2810705853945%29.jpg/1280px-2013_Melbourne_Cup_%2810705853945%29.jpg",
+          "width": 1280,
+          "height": 854,
+          "artist": "Chris Phutully from Australia",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:2013_Melbourne_Cup_(10705853945).jpg",
+          "wiki_title": "Melbourne Cup",
+          "wiki_lang": "en"
+        },
+        "photo_v": 8,
+        "_had_data": false,
+        "_localized": false
+      },
       "card": "cards/world-2026-11-03-melbourne-cup-results.png",
       "published_at": "2026-11-03T06:01:29.579116+00:00"
     },
@@ -341,6 +440,57 @@
       "publishable": false,
       "card": "cards/world-2026-11-03-powerball-numbers.png",
       "published_at": "2026-11-03T05:01:19.070650+00:00"
+    },
+    {
+      "title": "nba standings",
+      "traffic": "5000+",
+      "traffic_num": 5000,
+      "published": "Mon, 2 Nov 2026 21:50:00 -0800",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRKVe3qthcZxrCrqqbyJ3VKnVG4SQke6sCQBlcBHjKLenDB1IN1nkWFRD8AkmU",
+      "image_source": "ESPN",
+      "news": [
+        {
+          "title": "LeBron James takes sip of wine after crashing into 76ers fan",
+          "url": "https://www.espn.com/nba/story/_/id/50365929/lebron-james-takes-sip-wine-crashing-76ers-fan",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRKVe3qthcZxrCrqqbyJ3VKnVG4SQke6sCQBlcBHjKLenDB1IN1nkWFRD8AkmU",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "‘Framing the cup’ – NBA fans can’t believe LeBron James sipped a fan’s drink during a game",
+          "url": "https://sports.yahoo.com/articles/framing-cup-nba-fans-t-050809660.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaq-tyWBZamTTd8GwggUJyZ5JykAQyhArKe5I8-3HjqS0iViOGvWLhywkSN3E",
+          "og_title": "‘Framing the cup’ – NBA fans can’t believe LeBron James sipped a fan’s drink during a game",
+          "og_desc": "LeBron James went viral after a wild moment he shared with a fan courtside, and NBA fans couldn’t wrap their minds around it. The Philadelphia 76ers beat the Chicago Bulls comfortably on Monday night to improve to a 7-1 record.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/ba6788ace0ed46b32a80bb985f4cb3969653255c96be6209c6f52229aeeb0d8c/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fhitc_articles_832%2F0b820b041e4ba8a7065b653b662b0f8d.jpg",
+          "ok": true
+        },
+        {
+          "title": "A toast to a win? LeBron James takes a sip of wine after crashing into 76ers fan",
+          "url": "https://www.10tv.com/article/syndication/associatedpress/a-toast-to-a-win-lebron-james-takes-a-sip-of-wine-after-crashing-into-76ers-fan/616-6d4fb6bc-7d3f-4143-92fd-48b716484bf2",
+          "source": "10TV",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi-eiooycUBSEvRVWk4QdqJwYIDU4-P3IQ1ahNSnu6zhOqx88iPZ1DXii8hMk",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-03-nba-standings.png",
+      "published_at": "2026-11-03T06:31:31.105232+00:00"
     },
     {
       "title": "luka dončić",
@@ -896,6 +1046,56 @@
       "published_at": "2026-11-03T06:01:29.579116+00:00"
     },
     {
+      "title": "georges niang",
+      "traffic": "1000+",
+      "traffic_num": 1000,
+      "published": "Mon, 2 Nov 2026 21:40:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSMi-dEkRy0UmecxQztWM5OUrrnk3QTko6eG2OiiyPoVsnmylVJHS_w23ejvX8",
+      "image_source": "CBS Sports",
+      "news": [
+        {
+          "title": "Warriors' Georges Niang: Reverting to bench role",
+          "url": "https://www.cbssports.com/fantasy/basketball/news/warriors-georges-niang-reverting-to-bench-role/",
+          "source": "CBS Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSMi-dEkRy0UmecxQztWM5OUrrnk3QTko6eG2OiiyPoVsnmylVJHS_w23ejvX8",
+          "og_title": "Warriors' Georges Niang: Reverting to bench role",
+          "og_desc": "Warriors' Georges Niang: Reverting to bench role",
+          "og_image": "https://sportsfly.cbsistatic.com/fly-876/bundles/sportsmediacss/images/fantasy/default-article-image-large.png",
+          "ok": true
+        },
+        {
+          "title": "Georges Niang News: Will start Sunday",
+          "url": "https://www.rotowire.com/basketball/headlines/georges-niang-news-will-start-sunday-537142",
+          "source": "RotoWire",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSElJp5ZT4MYt8KK0cEvtdGA5gTj8LIDbAannpr1ozsHwcnYzK69vPMe4FPYO4",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "GSW starts Curry, Podz, Niang, Lendeborg, Green",
+          "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-10-28/gsw-starts-curry-podz-niang-lendeborg-green",
+          "source": "NBC Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQc4nN4xg5xUOoZWVAZG71YQmT7UBIKHwBdNjGswK7bjSShwwnacaAowX8_bJA",
+          "og_title": "GSW starts Curry, Podz, Niang, Lendeborg, Green",
+          "og_desc": "Stephen Curry, Brandin Podziemski, Georges Niang, Yaxel Lendeborg and Draymond Green will start Wednesday's game against the Timberwolves.",
+          "og_image": "https://nbcsports.brightspotcdn.com/dims4/default/caf3dc8/2147483647/strip/true/crop/800x450+0+315/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fd1%2F7f%2Fe76be52e4981b8963b01e16fa0b4%2Fgeorges-niang-800-1080-1792b59045cbec18.png",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-03-georges-niang.png",
+      "published_at": "2026-11-03T06:01:29.579116+00:00"
+    },
+    {
       "title": "where is the super bowl 2027",
       "traffic": "500+",
       "traffic_num": 500,
@@ -1145,56 +1345,6 @@
       "publishable": false,
       "card": "cards/world-2026-11-03-niecy-nash.png",
       "published_at": "2026-11-03T05:31:18.601792+00:00"
-    },
-    {
-      "title": "georges niang",
-      "traffic": "500+",
-      "traffic_num": 500,
-      "published": "Mon, 2 Nov 2026 21:40:00 -0800",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSMi-dEkRy0UmecxQztWM5OUrrnk3QTko6eG2OiiyPoVsnmylVJHS_w23ejvX8",
-      "image_source": "CBS Sports",
-      "news": [
-        {
-          "title": "Warriors' Georges Niang: Reverting to bench role",
-          "url": "https://www.cbssports.com/fantasy/basketball/news/warriors-georges-niang-reverting-to-bench-role/",
-          "source": "CBS Sports",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSMi-dEkRy0UmecxQztWM5OUrrnk3QTko6eG2OiiyPoVsnmylVJHS_w23ejvX8",
-          "og_title": "Warriors' Georges Niang: Reverting to bench role",
-          "og_desc": "Warriors' Georges Niang: Reverting to bench role",
-          "og_image": "https://sportsfly.cbsistatic.com/fly-876/bundles/sportsmediacss/images/fantasy/default-article-image-large.png",
-          "ok": true
-        },
-        {
-          "title": "Georges Niang News: Will start Sunday",
-          "url": "https://www.rotowire.com/basketball/headlines/georges-niang-news-will-start-sunday-537142",
-          "source": "RotoWire",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSElJp5ZT4MYt8KK0cEvtdGA5gTj8LIDbAannpr1ozsHwcnYzK69vPMe4FPYO4",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false
-        },
-        {
-          "title": "GSW starts Curry, Podz, Niang, Lendeborg, Green",
-          "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-10-28/gsw-starts-curry-podz-niang-lendeborg-green",
-          "source": "NBC Sports",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQc4nN4xg5xUOoZWVAZG71YQmT7UBIKHwBdNjGswK7bjSShwwnacaAowX8_bJA",
-          "og_title": "GSW starts Curry, Podz, Niang, Lendeborg, Green",
-          "og_desc": "Stephen Curry, Brandin Podziemski, Georges Niang, Yaxel Lendeborg and Draymond Green will start Wednesday's game against the Timberwolves.",
-          "og_image": "https://nbcsports.brightspotcdn.com/dims4/default/caf3dc8/2147483647/strip/true/crop/800x450+0+315/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fd1%2F7f%2Fe76be52e4981b8963b01e16fa0b4%2Fgeorges-niang-800-1080-1792b59045cbec18.png",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "عام",
-      "icon": "🌐",
-      "color": "#9aa4b2",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-11-03-georges-niang.png",
-      "published_at": "2026-11-03T06:01:29.579116+00:00"
     },
     {
       "title": "trent perry",
@@ -1518,6 +1668,17 @@
           "ok": true
         },
         {
+          "title": "\"Pretty good report overall. It's an oblique strain. …",
+          "url": "https://www.hoopshype.com/story/sports/nba/rumors/2026/10/23/pretty-good-report-overall-its-an-oblique-strain/92403111007/",
+          "source": "HoopsHype",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS809govML768cRFoQjZI_juTM3E2-EDkawVcUdqeHEYxbnmgkAhErzqsotSuU",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
           "title": "Kyrie Irving (knee) downgraded to out",
           "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-10-24/kyrie-irving-knee-downgraded-to-out",
           "source": "NBC Sports",
@@ -1525,16 +1686,6 @@
           "og_title": "Kyrie Irving (knee) downgraded to out",
           "og_desc": "Kyrie Irving (knee) will not play against Spurs on Saturday.",
           "og_image": "https://nbcsports.brightspotcdn.com/dims4/default/ad65a89/2147483647/strip/true/crop/800x450+0+315/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fed%2F5b%2Fdd57050d4cc09621c4de95e5d3a9%2Fkyrie-irving-800-1080-d3b6dd85e090ac08.png",
-          "ok": true
-        },
-        {
-          "title": "Oso Ighodaro (oblique) remains day-to-day",
-          "url": "https://www.fantasypros.com/nba/news/616184/oso-ighodaro-oblique-remains-day-to-day.php",
-          "source": "FantasyPros",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTvvW_CDjA7eds_VNC9G1bKuGvYidzpQzLJV3E1iTM-rH1owOeY5MvSHhf-XmI",
-          "og_title": "Oso Ighodaro (oblique) remains day-to-day",
-          "og_desc": "Ighodaro remains day-to-day ahead of Friday’s game against the Nuggets. He injured his oblique during the Suns’ season-opening loss to the Trail Blazers.",
-          "og_image": "https://images.fantasypros.com/images/players/nba/6183/bust/1200x1200.webp",
           "ok": true
         }
       ],
@@ -1700,6 +1851,301 @@
       "publishable": false,
       "card": "cards/world-2026-11-03-jesus-de-miguel.png",
       "published_at": "2026-11-03T06:01:29.579116+00:00"
+    },
+    {
+      "title": "robin montgomery",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 2 Nov 2026 22:00:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR2xOmTxgmr-XSgarWE8As0EJ2mA-v5dt9FUZOYEYMuc-IffxXuF0H91-cDaCU",
+      "image_source": "The New York Times",
+      "news": [
+        {
+          "title": "How to watch the women’s Chennai Open: Streaming options for the Round of 32",
+          "url": "https://www.nytimes.com/athletic/7746330/2026/11/01/womens-chennai-open-stream-how-to-watch-november-3/",
+          "source": "The New York Times",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR2xOmTxgmr-XSgarWE8As0EJ2mA-v5dt9FUZOYEYMuc-IffxXuF0H91-cDaCU",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Udvardy vs. Montgomery Prediction at the Chennai Open – Monday, November 2",
+          "url": "https://www.bleachernation.com/picks/2026/11/01/udvardy-vs-montgomery-prediction-at-the-chennai-open-monday-november-2/",
+          "source": "Bleacher Nation",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSz2AqfIxLVYjKB6CzKl-_zqPaD9maLWp4gER1slBqqm7N1hEb3nQphDRGSAqo",
+          "og_title": "Udvardy vs. Montgomery Prediction at the Chennai Open - Monday, November 2 - Bleacher Nation",
+          "og_desc": "Panna Udvardy (No. 78 ranking) will take on Robin Montgomery (No. 150) in the Round of 32 of the Chennai Open on Monday, November 2.",
+          "og_image": "https://www.bleachernation.com/wp-content/uploads/2026/11/httpscdn.dataskrive.comapiassetKGiNCgS.jpg",
+          "ok": true
+        },
+        {
+          "title": "WTA Chennai Day 2 Predictions Including Panna Udvardy vs Robin Montgomery",
+          "url": "https://lastwordonsports.com/tennis/2026/11/02/wta-chennai-day-2-predictions-udvardy-montgomery/",
+          "source": "Last Word On Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT0GDxKQpCvUaedk6NiUS7xi4RcUU1FCSxMs3NMX146ek6JA2Gis05BaWHi3P4",
+          "og_title": "WTA Chennai Day 2 Predictions Including Udvardy v Montgomery",
+          "og_desc": "After a washout dampened Day 1 at the WTA 250 event in Chennai, all 16 first-round matches are on the schedule for Tuesday. Who will advance?",
+          "og_image": "https://lastwordonsports.com/tennis/wp-content/uploads/sites/17/2026/06/2024-08-03T000145Z_1839678071_MT1USATODAY23897363_RTRMADP_3_TENNIS-CITI-DC-OPEN-e1781479949610.webp",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-03-robin-montgomery.png",
+      "published_at": "2026-11-03T06:31:31.105232+00:00"
+    },
+    {
+      "title": "rj barrett",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 2 Nov 2026 21:50:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQRRLGurSzubtZ4eZ1OfpBjYk0j2V28cX4J3kFrQpFoLvxYjQf8JIVUaIXCZMs",
+      "image_source": "NBA.com",
+      "news": [
+        {
+          "title": "RJ Barrett News: Hits for 22 in loss to Lakers",
+          "url": "https://www.rotowire.com/basketball/headlines/rj-barrett-news-hits-for-22-in-loss-to-lakers-537159",
+          "source": "RotoWire",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGEg0yAHrQhtNfOHJbIxHssPWdqu2wRupkg4Nz2dNIRFb79lO4xSNcTdxhe8U",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Raptors' RJ Barrett: Hits for 22 in loss to Lakers",
+          "url": "https://www.cbssports.com/fantasy/basketball/news/raptors-rj-barrett-hits-for-22-in-loss-to-lakers/",
+          "source": "CBS Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSMi-dEkRy0UmecxQztWM5OUrrnk3QTko6eG2OiiyPoVsnmylVJHS_w23ejvX8",
+          "og_title": "Raptors' RJ Barrett: Hits for 22 in loss to Lakers",
+          "og_desc": "Raptors' RJ Barrett: Hits for 22 in loss to Lakers",
+          "og_image": "https://sportsfly.cbsistatic.com/fly-876/bundles/sportsmediacss/images/fantasy/default-article-image-large.png",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-03-rj-barrett.png",
+      "published_at": "2026-11-03T06:31:31.105232+00:00"
+    },
+    {
+      "title": "voting results",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 2 Nov 2026 21:50:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSiEJKrUBBN8_HDhejIulCdSs4s-bljZRXTI2GNkD9WZNoahkxNrY-go-AGLdY",
+      "image_source": "CalMatters",
+      "news": [
+        {
+          "title": "Why California’s early returns favoring the GOP can be a ‘red mirage’",
+          "url": "https://calmatters.org/politics/2026/11/california-red-mirage-republican-early-returns/",
+          "source": "CalMatters",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSiEJKrUBBN8_HDhejIulCdSs4s-bljZRXTI2GNkD9WZNoahkxNrY-go-AGLdY",
+          "og_title": "Why California’s early returns favoring the GOP can be a ‘red mirage’",
+          "og_desc": "Don’t be fooled by early election returns. It can take California weeks to tally votes, leading to ‘red mirages’ and ‘blue shifts.’",
+          "og_image": "https://i0.wp.com/calmatters.org/wp-content/uploads/2026/10/053126-Spencer-Pratt-AP-CM-01.jpg?fit=2000%2C1334&ssl=1",
+          "ok": true
+        },
+        {
+          "title": "Early Election Night Leads for California GOP Candidates May Not Hold, Experts Warn",
+          "url": "https://hsjchronicle.com/early-election-night-leads-for-california-gop-candidates-may-not-hold-experts-warn/",
+          "source": "The Hemet & San Jacinto Chronicle",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR33oWeAlFMQO-O1JxHVliAXYXyeVSVSSQvT3pPqrIYnEufNi0QfF8oTLxVgu0",
+          "og_title": "Early Election Night Leads for California GOP Candidates May Not Hold, Experts Warn",
+          "og_desc": "Early California returns often favor Republicans before shifting blue. Experts explain the \"red mirage\" and why vote counting takes so long.",
+          "og_image": "https://hsjchronicle.com/wp-content/uploads/2026/11/053126-Spencer-Pratt-AP-CM-01.jpg",
+          "ok": true
+        },
+        {
+          "title": "CA 'red mirage'",
+          "url": "https://laist.com/brief/news/politics/red-mirage-california-republicans-election-night-lead",
+          "source": "LAist",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF_-WAFJEiM3L5lmpzuPb7m2CTO3xN3z7GX-kmrPQRhOW49Po64_YjYIamecc",
+          "og_title": "CA 'red mirage'",
+          "og_desc": "What to know for early CA election night results",
+          "og_image": "https://scpr.brightspotcdn.com/dims4/default/4d8d7bc/2147483647/strip/true/crop/1200x630+0+85/resize/1200x630!/quality/90/?url=http%3A%2F%2Fscpr-brightspot.s3.us-west-2.amazonaws.com%2F70%2F6e%2F79cba78f4edc848a6b9171c73190%2F053126-spencer-pratt-ap-cm-01.jpeg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "سياسة",
+      "icon": "🏛️",
+      "color": "#ff5c7c",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-03-voting-results.png",
+      "published_at": "2026-11-03T06:31:31.105232+00:00"
+    },
+    {
+      "title": "luke kennard",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 2 Nov 2026 21:40:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkDAN-KvuM7dEq1Osm3Pvn185tslorcdVc3jrdXYlmK38uj6tAzyHaAnr9M4Q",
+      "image_source": "The New York Times",
+      "news": [
+        {
+          "title": "As Devin Booker turns 30, the Suns star enters a defining next chapter",
+          "url": "https://www.nytimes.com/athletic/7712183/2026/10/28/devin-booker-suns-nba-next-chapter/",
+          "source": "The New York Times",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkDAN-KvuM7dEq1Osm3Pvn185tslorcdVc3jrdXYlmK38uj6tAzyHaAnr9M4Q",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Celebrating Devin Booker’s career and legacy on his 30th birthday",
+          "url": "https://sports.yahoo.com/articles/celebrating-devin-booker-career-legacy-120000506.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS2vipeS0F8EMxePfHXa6Rx2pl0IE752UwEIYOUkUOS8aRyCSyLrsCmz-xILxw",
+          "og_title": "Celebrating Devin Booker’s career and legacy on his 30th birthday",
+          "og_desc": "As Booker turns 30, we celebrate his remarkable journey while examining what the next chapter might bring.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/0602cc2e4c72e2393b55700560c6687623df1164a2f1b86f711b7a89276559f1/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F1f362100545c5847b6f7e9476444aa2a.jpg",
+          "ok": true
+        },
+        {
+          "title": "Devin Booker's Top 10 career plays so far",
+          "url": "https://www.nba.com/watch/video/devin-booker-top-10-career-plays-so-far?plsrc=nba&collection=must-watch-videos",
+          "source": "NBA.com",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhkS5Hiv8bYM97VrrjXXZt-6-CwZsQH9dPRR1ZhlAIeTMeFIfJSxUTfSHSB30",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "https://cdn.nba.com/logos/nba/fallback/NBA.Com-National-Basketball-Association.png",
+          "ok": false
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "فن ومشاهير",
+      "icon": "🎬",
+      "color": "#c77dff",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-03-luke-kennard.png",
+      "published_at": "2026-11-03T06:31:31.105232+00:00"
+    },
+    {
+      "title": "la county measure a",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Mon, 2 Nov 2026 22:10:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSLabMu59Owo41q6phTycLkxmZauLfKSBNUbpEzV6Ls5BHW2eL1SHMreZB9bI4",
+      "image_source": "Los Angeles Times",
+      "news": [
+        {
+          "title": "Your last-minute guide to L.A. County Charter Amendment A",
+          "url": "https://www.latimes.com/california/story/2026-10-31/2026-california-election-los-angeles-county-charter-amendment-a-last-minute-voter-guide",
+          "source": "Los Angeles Times",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSLabMu59Owo41q6phTycLkxmZauLfKSBNUbpEzV6Ls5BHW2eL1SHMreZB9bI4",
+          "og_title": "Your last-minute guide to L.A. County Charter Amendment A",
+          "og_desc": "Measure A is a charter amendment that would require binding arbitration between county government and negotiators representing sheriff’s deputies, firefighters, lifeguards and other public safety workers if contract talks reach an impasse and no compromise can be reached.",
+          "og_image": "https://ca-times.brightspotcdn.com/dims4/default/3477d0f/2147483647/strip/true/crop/1602x841+0+84/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb9%2F98%2F3e75940f4693a16ace2448e25f73%2F1349583-los-angeles-county-sheriff-patrol-car-6-ajsc-crop.jpg",
+          "ok": true
+        },
+        {
+          "title": "Los Angeles County considers labor measure for public safety",
+          "url": "https://www.yahoo.com/news/politics/articles/los-angeles-county-considers-labor-182000186.html",
+          "source": "Yahoo",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEmonsibEEqP-893gG376X1MypDP9Jz4xbXGqTXpKKhBPnKe5d_7-Ay8jKrQg",
+          "og_title": "Los Angeles County considers labor measure for public safety",
+          "og_desc": "(The Center Square) – Los Angeles County voters are weighing Measure A, a ballot initiative that would fundamentally alter labor negotiations for thousands of public safety workers by replacing the co...",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/90a0d8d74816918b99072ae0602795ed31660efdbbbe0ff1dde8936a22ffe676/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_center_square_articles_912%2Fb2fb567ec5827ca5e86f50aad4dddd84.png",
+          "ok": true
+        },
+        {
+          "title": "Measure to alter labor talks leads to little debate | Los Angeles Times - newspaper",
+          "url": "https://www.magzter.com/stories/newspaper/Los-Angeles-Times/MEASURE-TO-ALTER-LABOR-TALKS-LEADS-TO-LITTLE-DEBATE",
+          "source": "Magzter",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeUca2_mZ4gF33W99sx78_ELcxiKK1bsUkOi6zbEMocVpL8PADmaqQ0L71f78",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-03-la-county-measure-a.png",
+      "published_at": "2026-11-03T06:31:31.105232+00:00"
+    },
+    {
+      "title": "california lottery",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Mon, 2 Nov 2026 21:50:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfi7GQfayw9ShJ0hpy0SehkUHS7uERlyZcfWrjFTaQJDYhw55yH1qdriDCaz0",
+      "image_source": "The Desert Sun",
+      "news": [
+        {
+          "title": "California Lottery Powerball, Daily 3 Midday winning numbers for Oct. 28, 2026",
+          "url": "https://www.desertsun.com/story/news/local/2026/10/28/california-lottery-results-wednesday-october-28-2026/92492556007/",
+          "source": "The Desert Sun",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfi7GQfayw9ShJ0hpy0SehkUHS7uERlyZcfWrjFTaQJDYhw55yH1qdriDCaz0",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Cabarrus County ticket scores $2 million win in Halloween Powerball drawing",
+          "url": "https://nclottery.com/NewsBlogDetails/2026/11/1/Cabarrus-County-ticket-scores-2-million-win-in-Halloween-Powerball-drawing",
+          "source": "NC Education Lottery",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRNlZgtKCP1gw8gmCiHqtdEgU5yvjkq85aGTznyLp5EV89zxeqEWOfs-0bRKJU",
+          "og_title": "Cabarrus County ticket scores $2 million win in Halloween Powerball drawing",
+          "og_desc": "The drawing also saw a $50,000 win in North Carolina.",
+          "og_image": "https://nclottery.com/ImageHandler.ashx?name=Powerball logo blog with DOUBLE PLAY_aafk.jpg&w=600",
+          "ok": true
+        },
+        {
+          "title": "Powerball Jackpot Soars To $835 Million—Here’s What The Winner Could Take Home",
+          "url": "https://www.forbes.com/sites/siladityaray/2026/11/03/powerball-jackpot-soars-to-835-million-heres-what-the-winner-could-take-home/",
+          "source": "Forbes",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQAJONcPsmtmyj9ghoOB_pSbuRGCmdjVuQ91KVOGW0aueQ10ldVMVfBVKxFxbw",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "دول وأماكن",
+      "icon": "🗺️",
+      "color": "#79c0ff",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-03-california-lottery.png",
+      "published_at": "2026-11-03T06:31:31.105232+00:00"
     }
   ]
 }

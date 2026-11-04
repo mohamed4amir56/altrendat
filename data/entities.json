@@ -4929,10 +4929,10 @@
         "date": "2026-11-04",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "باركولا: لست محمد صلاح.. ولهذا رحلت عن باريس سان جيرمان",
           "باركولا في رسالة لجماهير ليفربول: أنا لست محمد صلاح",
@@ -25159,7 +25159,7 @@
         "headlines": [
           "من يفسر الإنجيل؟ طالب لاهوت ديمقراطي يهدد فوز حليف ترمب في تكساس",
           "مرشح للشيوخ الأمريكي كين باكستون: نحتاج لمشاركة قوية من الناخبين الجمهوريين",
-          "مقعد تكساس بالشيوخ.. سعي ديمقراطي لإنهاء هيمنة جمهورية دامت 38 عامًا"
+          "للمرة الأولى منذ 40 عاماً.. الديمقراطيون ينتزعون مقعداً في مجلس الشيوخ عن ولاية تكساس"
         ]
       }
     ],
@@ -25272,8 +25272,8 @@
         "date": "2026-11-04",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
@@ -48239,9 +48239,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "Gold Price Forecast: XAU/USD ticks lower while early trend points to Democrats victory in House",
-          "Gold Investors Rocked by Wipeout, Seek Firmer Footing After Vote",
-          "Midterms and Your Retirement: What's Really at Stake?"
+          "India Gold price today: Gold rises, according to FXStreet data",
+          "Precious metals continue to plunge for 2nd consecutive month",
+          "Why Gold Fell 27% While the Dollar Index Held Near 101.8"
         ]
       }
     ],
@@ -73685,9 +73685,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "سعر الدولار في مصر يسجل خسارة جديدة",
-          "سعر الدولار على مدار الساعة.. أسعار شراء الأخضر فى البنوك",
-          "ارتداد قوي.. مفاجأة في أسعار الدولار مقابل الجنيه"
+          "تعرف على سعر الدولار مقابل الجنيه فى بنك مصر اليوم الثلاثاء",
+          "تراجع سعر الدولار في البنوك اليوم الثلاثاء 3 نوفمبر 2026",
+          "تراجع أسعار العملات العربية في بداية تعاملات اليوم 3 نوفمبر 2026"
         ]
       }
     ],
@@ -120198,14 +120198,30 @@
           "India wins toss and opts to bat against West Indies in third ODI",
           "IND vs WI: Sammy Agrees With Gambhir on ODI Cricket Being Tilted Towards Batters"
         ]
+      },
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Live: Black Caps v India first ODI",
+          "India, New Zealand switch to World Cup prep at bouncy Eden Park",
+          "India vs New Zealand Live Score, 1st ODI: New Zealand in trouble as Gurnoor Brar dismisses Tom Latham for fourth wicket"
+        ]
       }
     ],
-    "last_seen": "2026-10-03",
-    "total": 1,
+    "last_seen": "2026-11-04",
+    "total": 2,
     "countries": [
-      "sa"
+      "sa",
+      "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 10000,
     "category": "رياضة"
   },
   "india-vs-brazil": {
@@ -186267,10 +186283,25 @@
           "الأسعار المرتفعة تهبط بمبيعات المجوهرات عالميا لـ 313 طنا خلال الربع الثالث من 2026",
           "تقرير: البنوك المركزية تستغل تراجع أسعار الذهب لتعزيز احتياطياتها"
         ]
+      },
+      {
+        "key": "2026-11-04|sa",
+        "date": "2026-11-04",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "عاجل: صدمة من مجلس الذهب العالمي لسوق الذهب في ظل الهبوط.. خفض التوقعات",
+          "السعودية تتفوق على 3 دول عربية في مشتريات الذهب بالربع الثالث من 2026",
+          "مشتريات البنوك المركزية من الذهب ترتفع 42 % في الربع الثالث إلى 321 طناً"
+        ]
       }
     ],
     "last_seen": "2026-11-04",
-    "total": 3,
+    "total": 4,
     "countries": [
       "eg",
       "sa"
@@ -377499,8 +377530,8 @@
         "publishable": false,
         "headlines": [
           "Texas U.S. Senate Election 2026 Live Results: James Talarico Wins",
-          "Texans vote in most expensive Senate race in US history",
-          "Texas flips blue as Democrats win in Congress and governorship races"
+          "Texas U.S. Senate 2026: Live Midterm Election Results, Talarico vs. Paxton",
+          "Texans vote in most expensive Senate race in US history"
         ]
       },
       {
@@ -377514,8 +377545,8 @@
         "publishable": false,
         "headlines": [
           "Texas U.S. Senate Election 2026 Live Results: James Talarico Wins",
-          "Trump Suffers Ultimate Humiliation in MAGA’s True Heartland",
-          "Texas flips blue as Democrats win in Congress and governorship races"
+          "Texas U.S. Senate 2026: Live Midterm Election Results, Talarico vs. Paxton",
+          "AI stocks slide as Texas governor result raises data center risks"
         ]
       }
     ],
@@ -411236,15 +411267,30 @@
           "Lil Jon Recently Learned That the Man Who Raised Him Isn’t His Biological Father: ‘Hard to Process’ (Exclusive)",
           "Lil Jon, Atlanta’s crunk king, trades beats for book on career, son’s death"
         ]
+      },
+      {
+        "key": "2026-11-04|sa",
+        "date": "2026-11-04",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "'Try stopping me if you can': Virat Kohli's stunning catch, Rohit Sharma's run-out lights up Auckland ODI",
+          "Virat Kohli celebrates stunning catch with special Diwali gesture",
+          "Virat Kohli Pulls Off One-Handed Stunning Catch In IND vs NZ 1ST ODI - Watch"
+        ]
       }
     ],
-    "last_seen": "2026-10-24",
-    "total": 2,
+    "last_seen": "2026-11-04",
+    "total": 3,
     "countries": [
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "حوادث وقضايا"
+    "category": "رياضة"
   },
   "flights": {
     "slug": "flights",
@@ -414352,12 +414398,13 @@
         "date": "2026-11-04",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "طقس",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "الأرصاد تكشف مفاجآت طقس الأربعاء في مصر.. حرارة تصل إلى 37 درجة وانخفاض مرتقب الخميس",
+          "حالة الطقس اليوم الأربعاء 4 نوفمبر في مصر.. شبورة مائية وارتفاع بدرجات الحرارة",
           "حالة الطقس في مصر خلال الـ 6 أيام المقبلة.. انخفاض درجات الحرارة ونشاط الرياح"
         ]
       }
@@ -414367,7 +414414,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "طقس"
   },
   "الفتح-ضد-الشباب": {
@@ -469999,9 +470046,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "A game of moves and countermoves: Daryl Mitchell vs Kuldeep Yadav",
-          "New Zealand field in final T20I; Bhuvneshwar and Varun in for India",
-          "Vaibhav Sooryavanshi Snubbed Again As India Make 2 Changes In Playing XI For 5th T20I"
+          "Ball by Ball Commentary & Live Score - NZ vs IND, 1st ODI",
+          "Fit Rohit matches Kohli's flair on the field as India run riot in Auckland",
+          "Rohit Sharma shows off exceptional reflexes to run out Daryl Mitchell in first ODI against NZ | Watch"
         ]
       }
     ],
@@ -482227,15 +482274,30 @@
           "Met Office gives warning to drivers as ‘dense’ fog to settle over parts of the UK",
           "UK weather: A calmer forecast after successive storms, but 'dense' fog may cause disruption"
         ]
+      },
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Florida Republicans fend off Democrats as state elects first black governor",
+          "Trump-endorsed Republican Byron Donalds becomes Florida’s first Black governor",
+          "Trump-backed Byron Donalds to make history as Florida’s first Black governor"
+        ]
       }
     ],
-    "last_seen": "2026-10-28",
-    "total": 1,
+    "last_seen": "2026-11-04",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 20000,
-    "category": "طقس"
+    "category": "دول وأماكن"
   },
   "ryan-gosling": {
     "slug": "ryan-gosling",
@@ -501884,15 +501946,30 @@
           "New Zealand India Cricket",
           "New Zealand India Cricket"
         ]
+      },
+      {
+        "key": "2026-11-04|sa",
+        "date": "2026-11-04",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Jacob Duffy on Virat Kohli: ‘He is obviously a megastar…’",
+          "Duffy: Will be 'awesome' to play against RCB team-mate Kohli",
+          "IND vs NZ ODIs: New Zealand's pacer Jacob Duffy heaps praise on Team India's Virat Kohli"
+        ]
       }
     ],
-    "last_seen": "2026-10-30",
-    "total": 1,
+    "last_seen": "2026-11-04",
+    "total": 2,
     "countries": [
       "sa"
     ],
     "peak_traffic": 500,
-    "category": "عام"
+    "category": "رياضة"
   },
   "home-depot-black-friday-deals-2026": {
     "slug": "home-depot-black-friday-deals-2026",
@@ -551456,7 +551533,7 @@
         "category": "سياسة",
         "publishable": true,
         "headlines": [
-          "U.S. House Elections 2026 Live Results: Democrats Win Majority",
+          "U.S. Senate Election 2026 Live Results: Democrats Win Majority",
           "Anthony Zurcher: Democrats eye sweeping gains and reshaping of political map",
           "US midterm elections 2026: live results from Senate, House and governor races in all 50 states"
         ]
@@ -553637,8 +553714,8 @@
         "date": "2026-11-04",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
@@ -553653,7 +553730,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "سياسة"
   },
   "jay-obernolte": {
@@ -553695,8 +553772,8 @@
         "date": "2026-11-04",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "+400",
+        "traffic_num": 400,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -553711,7 +553788,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 400,
     "category": "عام"
   },
   "measure-638": {
@@ -553838,8 +553915,8 @@
         "date": "2026-11-04",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -553853,7 +553930,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 1000,
     "category": "رياضة"
   },
   "google-classroom": {
@@ -553872,8 +553949,8 @@
         "publishable": false,
         "headlines": [
           "Designing responsible AI for learning",
-          "Google responds to political backlash over removing search from schools that ban AI",
-          "Google says there’s no way to use Search without using artificial intelligence"
+          "Google Will Turn Off Search for Schools That Reject A.I.",
+          "Google responds to political backlash over removing search from schools that ban AI"
         ]
       }
     ],
@@ -553939,6 +554016,180 @@
       "sa"
     ],
     "peak_traffic": 100,
+    "category": "سياسة"
+  },
+  "james-talarico-family": {
+    "slug": "james-talarico-family",
+    "name": "james talarico family",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Who Is Texas Senate Candidate James Talarico’s Girlfriend? What to Know About Brianna Menard",
+          "In Texas Senate race, the girlfriends are silent",
+          "Who is James Talarico’s girlfriend? Ex-employee Brianna Menard who once caused BBQ controversy"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "سياسة"
+  },
+  "robert-white": {
+    "slug": "robert-white",
+    "name": "robert white",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "DC Council member changes parties after Robert White resigns from seat",
+          "Robert White thanks supporters after resigning from the DC Council ahead of midterm election",
+          "Sources: DC Democrats name Robert White's interim successor to DC Council"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "سياسة"
+  },
+  "cedrick-frazier": {
+    "slug": "cedrick-frazier",
+    "name": "cedrick frazier",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Live election results: Hennepin County Attorney",
+          "Folk versus Frazier: The Hennepin County Attorney’s race could mean the difference between life and death",
+          "Hennepin County Attorney race: Ex-prosecutor or state lawmaker to succeed Moriarty"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "mark-penn": {
+    "slug": "mark-penn",
+    "name": "mark penn",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Stagwell (STGW): Chief Executive Officer Penn Mark Jeffery...",
+          "Form 4 Stagwell Inc: Mark Jeffery Penn (Director, 10% Owner, CEO) For: 29 October",
+          "Insider Selling: Mark Penn Unloads $10.21M Of Stagwell Stock"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
+  },
+  "adam-gray": {
+    "slug": "adam-gray",
+    "name": "adam gray",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "California 13th Congressional District 2026: Live Election Results, Gray vs. Lincoln",
+          "Campaign spending surges in race for California's 13th Congressional District",
+          "As progressive campaigns grow more popular, Democrat Adam Gray is focused on the center"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "سياسة"
+  },
+  "utah-amendment-b": {
+    "slug": "utah-amendment-b",
+    "name": "utah amendment b",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Preliminary election results across Utah indicate Amendment A will pass",
+          "Controversial Utah constitutional amendment losing big across the state",
+          "Utah Constitutional Amendment A Election Results 2026: Publication of Proposed Amendments"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
     "category": "سياسة"
   }
 }

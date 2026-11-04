@@ -4,7 +4,7 @@
   "name_en": "Egypt",
   "lang": "ar",
   "flag": "🇪🇬",
-  "generated_at": "2026-11-04T05:31:37.698782+00:00",
+  "generated_at": "2026-11-04T06:01:33.141321+00:00",
   "day": "2026-11-04",
   "trends": [
     {
@@ -318,10 +318,10 @@
       "published_at": "2026-11-04T03:31:20.291822+00:00"
     },
     {
-      "title": "درجة الحرارة اليوم",
-      "traffic": "+3000",
-      "traffic_num": 3000,
-      "published": "Tue, 3 Nov 2026 21:20:00 -0800",
+      "title": "خريطة الطقس",
+      "traffic": "+5000",
+      "traffic_num": 5000,
+      "published": "Tue, 3 Nov 2026 20:50:00 -0800",
       "image": "https://media.altreeq.com/img/26/11/04/550073.webp",
       "image_source": "جريدة الطريق",
       "news": [
@@ -359,29 +359,80 @@
       "category": "طقس",
       "icon": "🌤️",
       "color": "#7fd8ff",
-      "reason": "العنوان يطابق: حرارة · مصادر محلية بدل مصادر عن بلد آخر",
+      "reason": "العنوان يطابق: طقس · مصادر محلية بدل مصادر عن بلد آخر",
       "publishable": true,
       "local_only": true,
       "localized": true,
-      "card": "cards/eg-2026-11-04-درجة-الحرارة-اليوم.png",
-      "published_at": "2026-11-04T05:31:37.698782+00:00"
+      "article": {
+        "headline": "حرارة تصل لـ 37 درجة اليوم وانخفاض ملموس يضرب البلاد غدًا",
+        "summary": "تسيطر الأجواء الحارة على معظم أنحاء مصر الأربعاء 4 نوفمبر مع تحذيرات من شبورة كثيفة صباحًا قبل انخفاض الحرارة الخميس.",
+        "body": "تشهد البلاد طقسًا حارًا نهارًا على أغلب المناطق، بينما تشتد الحرارة في جنوب الصعيد لتصل إلى 37 درجة مئوية، وذلك بالتزامن مع تأثر البلاد بكتل هوائية صحراوية رفعت درجات الحرارة بما يتراوح بين درجتين إلى 3 درجات فوق المعدلات الطبيعية، وفقًا لما أعلنته الهيئة العامة للأرصاد الجوية. وتظل الأجواء مائلة للبرودة ليلًا وفي الصباح الباكر، حيث تسجل الصغرى في القاهرة 18 و19 درجة، بينما تنخفض إلى 17 درجة في المدن الجديدة.\n\nتعد هذه التوقعات مؤشرًا مهمًا للمواطنين، خاصة السائقين، نظرًا للتحذير من شبورة مائية كثيفة قد تظهر من الساعة الرابعة حتى التاسعة صباحًا على الطرق الزراعية والسريعة والقريبة من المسطحات المائية، مما قد يؤدي إلى انخفاض الرؤية الأفقية، وهو ما يستوجب الحذر خلال فترات الصباح الباكر عند التنقل بين المحافظات.\n\nووفقًا لهيئة الأرصاد الجوية، تسجل العظمى في القاهرة الكبرى والوجه البحري ما بين 29 و30 درجة، بينما تتراوح في السواحل الشمالية بين 26 و28 درجة. كما ينشط الرياح بسرعة تصل إلى 35 كيلومترًا في الساعة على القاهرة الكبرى والسواحل الشمالية الغربية وسيناء والبحر الأحمر، مع فرص ضعيفة لسقوط أمطار خفيفة على السواحل الشمالية وحلايب وشلاتين.\n\nتتجه حالة الطقس نحو التغيير بدءًا من غد الخميس 5 نوفمبر، حيث تبدأ رحلة انخفاض درجات الحرارة بمعدل يتراوح بين 3 و4 درجات مئوية، ويستمر هذا التراجع خلال يومي الجمعة والسبت. يأتي ذلك نتيجة مرور منخفض جوي في طبقات الجو العليا، والذي يتزامن معه فرص لسقوط أمطار متفاوتة الشدة على محافظات شمال البلاد.",
+        "facts": [
+          {
+            "label": "التاريخ",
+            "value": "الأربعاء 4 نوفمبر 2026"
+          },
+          {
+            "label": "درجة الحرارة العظمى في القاهرة",
+            "value": "29-30 درجة مئوية"
+          },
+          {
+            "label": "درجة الحرارة العظمى بجنوب الصعيد",
+            "value": "36-37 درجة مئوية"
+          },
+          {
+            "label": "فترة الشبورة المائية",
+            "value": "4:00 - 9:00 صباحًا"
+          },
+          {
+            "label": "سرعة الرياح",
+            "value": "30-35 كم/س"
+          }
+        ],
+        "tags": [
+          "طقس مصر",
+          "الأرصاد الجوية",
+          "درجات الحرارة",
+          "الشبورة المائية",
+          "نشرة الطقس"
+        ],
+        "_v": 4,
+        "_by": "gemini",
+        "written_at": "2026-11-04T06:01:40.427053+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Close-up_of_the_rain_drops_on_a_car_window._Car_in_a_blurry_background.jpg/1280px-Close-up_of_the_rain_drops_on_a_car_window._Car_in_a_blurry_background.jpg",
+          "width": 1280,
+          "height": 854,
+          "artist": "Shixart1985",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Close-up_of_the_rain_drops_on_a_car_window._Car_in_a_blurry_background.jpg",
+          "stock": true,
+          "topic": "weather"
+        },
+        "photo_v": 8,
+        "_had_data": false,
+        "_localized": true
+      },
+      "card": "cards/eg-2026-11-04-خريطة-الطقس.png",
+      "published_at": "2026-11-04T06:01:33.141321+00:00"
     },
     {
       "title": "2026 us election results",
-      "traffic": "+2700",
-      "traffic_num": 2700,
+      "traffic": "2000+",
+      "traffic_num": 2000,
       "published": "Tue, 3 Nov 2026 17:10:00 -0800",
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVbZOnanrLBxJyY9gsdWwwQ2hfxvGOx0dpvdykQ1OIvwvft2qJ3jce_QkOcIM",
       "image_source": "NBC News",
       "news": [
         {
-          "title": "U.S. House Elections 2026 Live Results: Democrats Win Majority",
-          "url": "https://www.nbcnews.com/politics/2026-elections/house-results",
+          "title": "U.S. Senate Election 2026 Live Results: Democrats Win Majority",
+          "url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
           "source": "NBC News",
           "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVbZOnanrLBxJyY9gsdWwwQ2hfxvGOx0dpvdykQ1OIvwvft2qJ3jce_QkOcIM",
-          "og_title": "U.S. House Elections 2026 Live Results: Democrats Win Majority",
-          "og_desc": "Follow real-time U.S. House election results during the 2026 midterms. See outcomes by state or district, and track which party is leading the House majority race.",
-          "og_image": "https://media-cldnry.s-nbcnews.com/image/upload/f_auto/v1791309040/firecracker/cms-images/2026/og-image/New%20Branding/og-2026-midterm-house.jpg",
+          "og_title": "U.S. Senate Election 2026 Live Results: Democrats Win Majority",
+          "og_desc": "Get live Senate election results from NBC News during the 2026 midterms. Follow charts, maps and battleground state tracking to see which party could win Senate majority.",
+          "og_image": "https://media-cldnry.s-nbcnews.com/image/upload/f_auto/v1791309041/firecracker/cms-images/2026/og-image/New%20Branding/og-2026-midterm-senate.jpg",
           "ok": true
         },
         {
@@ -402,90 +453,6 @@
           "og_title": "US midterm elections 2026: live results from Senate, House and governor races in all 50 states",
           "og_desc": "Latest results suggest the Democrats are almost certain to win a House majority, having already seized control of the Senate. Find live updating results in full here.",
           "og_image": "https://i.guim.co.uk/img/media/6da2159b43ce089f731de4de2126efc213a74843/0_0_5052_4041/master/5052.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=12c4105e7cfb3e20d4096a8c2a73426b",
-          "ok": true
-        },
-        {
-          "title": "Live results: Tracking the national balance of power in Congress",
-          "url": "https://www.cpr.org/2026/11/03/live-balance-of-power-election-results/",
-          "source": "Colorado Public Radio",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRNYG80IE118Ey9MOWLSAHdzcte9eXwyiagi6qoxQS49b4hBqD4kdig-rtCsNg",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Seen and heard at the US midterm elections - International - World",
-          "url": "https://english.ahram.org.eg/NewsContentP/2/581625/World/Seen-and-heard-at-the-US-midterm-elections.aspx",
-          "source": "Ahram Online",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ3Rp8dyzLTYYalT6q4Cc9Ajjl-W1W4EpUdXvvm9gX--gYEGHCdqx7lfsVJcn0",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "With Election Day finally here, here's what motivated some Spokane-area voters casting ballots",
-          "url": "https://www.spokesman.com/stories/2026/nov/03/with-election-day-finally-here-heres-what-motivate/",
-          "source": "The Spokesman-Review",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8bhqZETwkWeBaW_T8cKTBtjSBTEpdUicKPpBbeE0Qb3vIFBBivvIfLIeUVd4",
-          "og_title": "With Election Day finally here, here's what motivated some Spokane-area voters casting ballots",
-          "og_desc": "By the end of Tuesday, Americans likely will know if the political path of their country will shift – or maybe dramatically swing – as votes finally get tabulated in the 2026 midterm election.",
-          "og_image": "https://thumb.spokesman.com/nSs1P7f8IPRkYw2ddOHcPxJ3Kfs=/2400x1260/smart/media.spokesman.com/photos/2026/11/02/6ae95ff2bddf4.hires.jpg",
-          "ok": true
-        },
-        {
-          "title": "Factbox-What Americans Are Saying About How They Voted in the Midterm Elections",
-          "url": "https://www.usnews.com/news/politics/articles/2026-11-03/factbox-what-americans-are-saying-about-how-they-voted-in-the-midterm-elections",
-          "source": "U.S. News & World Report",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_oo6fPYBFTEZcmSk0l74zg1T28YPc0cCanqMrenekSm5P-YnChWL8SIPfJb4",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "TimeoutError"
-        },
-        {
-          "title": "Affordability, data centers and grandkids: What brought local voters to the polls Tuesday?",
-          "url": "https://www.timesfreepress.com/news/2026/nov/03/affordability-data-centers-and-grandkids-what-brought-local-voters-to-the-polls-tuesday/",
-          "source": "Chattanooga Times Free Press",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwUTralbxtfrLoZUdfKkkngrx99mtLpeQg5eQGg4GjfNpgih1OEJmbHfVrFpY",
-          "og_title": "Affordability, data centers and grandkids: What brought local voters to the polls Tuesday? - Chattanooga Times Free Press",
-          "og_desc": "Polling places in Cleveland, Ooltewah and East Brainerd saw a steady flow of voters for Tuesday’s midterm elections.",
-          "og_image": "https://www.timesfreepress.com/wp-content/uploads/2026/11/TN-Election-Day003-3.jpg",
-          "ok": true
-        },
-        {
-          "title": "Democrats projected to win majority control of US House, US media project",
-          "url": "https://www.reuters.com/world/us/democrats-projected-win-majority-control-us-house-us-media-project-2026-11-04/",
-          "source": "Reuters",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSL9iJRbbd8flR8S3ooblqnSNbFZII1XgX3V4BWWZQYpaRPz-l-OtmWMtvKM7A",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "'A brighter future' - why Americans came out to vote",
-          "url": "https://www.bbc.com/news/videos/cq8rz6xlz6ejo",
-          "source": "BBC",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr8UCL89Qn9aFOwxibVPJVOsifurIYFti8-Zef7cnRsrGd3KZ7Ub_NXgyNqJ8",
-          "og_title": "Watch: 'A brighter future' - why Americans came out to vote",
-          "og_desc": "Voters in Iowa, Georgia and Ohio spoke to BBC reporters as millions of Americans decide who will control Congress.",
-          "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/d6c8/live/21e167b0-d7ec-11f1-b441-2b33b063138f.jpg",
-          "ok": true
-        },
-        {
-          "title": "What voters are saying at the polls on Election Day 2026",
-          "url": "https://minnesotareformer.com/2026/11/03/what-voters-are-saying-at-the-polls-on-election-day-2026/",
-          "source": "Minnesota Reformer",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRKbQZX6j7KKS97t4-oZbwpXeWo77Y7tY_6MoSpUU-G5EV7IizPV_c-sXHpnEM",
-          "og_title": "What voters are saying at the polls on Election Day 2026 • Minnesota Reformer",
-          "og_desc": "This article will be updated throughout the day with additional voter interviews. A lot has happened these past two years. This is the first election since the start of President Donald Trump’s war in Iran and the inflation that it’s fueled. Every week seems to bring a new story about the defrauding of the state’s […]",
-          "og_image": "https://minnesotareformer.com/wp-content/uploads/2026/11/NN261027_0492-2048x1365.jpg",
           "ok": true
         }
       ],
@@ -703,48 +670,9 @@
       "published_at": "2026-11-03T22:31:34.627117+00:00"
     },
     {
-      "title": "psg",
-      "traffic": "1000+",
-      "traffic_num": 1000,
-      "published": "Tue, 3 Nov 2026 12:30:00 -0800",
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQtc6QuOxgVBgyIJDSdpKnZ1p5NQeLI7HrrMOpO9L5sGqlFuSyqRPTtyg3c6-A",
-      "image_source": "L'Équipe",
-      "news": [
-        {
-          "title": "Villarreal 0-6 PSG, Ligue des champions : Les Parisiens font valoir leur rang",
-          "url": "https://www.lequipe.fr/Football/match-direct/ligue-des-champions/2026-2027/villarreal-psg-live/702078",
-          "source": "L'Équipe",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQtc6QuOxgVBgyIJDSdpKnZ1p5NQeLI7HrrMOpO9L5sGqlFuSyqRPTtyg3c6-A",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Ligue des champions: le PSG écrase Villarreal et enchaîne un quatrième succès - Sports - Sports",
-          "url": "https://french.ahram.org.eg/News/95362.aspx",
-          "source": "Ahraminfo",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTLa0OPNNMPv3WN2CFMAThWJVpbq-Nu3hhiyRrM6CZVK9OjHNL7V9pajXPy_Dg",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        }
-      ],
-      "category": "سياسة",
-      "icon": "🏛️",
-      "color": "#ff5c7c",
-      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-      "publishable": false,
-      "card": "cards/eg-2026-11-04-psg.png",
-      "published_at": "2026-11-03T22:04:08.722964+00:00"
-    },
-    {
       "title": "محمد صلاح",
-      "traffic": "1000+",
-      "traffic_num": 1000,
+      "traffic": "2000+",
+      "traffic_num": 2000,
       "published": "Tue, 3 Nov 2026 19:50:00 -0800",
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR6QrKaIK7i1a-2stqaX3BXZsMPD7kRIj5nXxrbd0uYsoAiPx9yo0iiTt7Gxbw",
       "image_source": "Kooora",
@@ -783,10 +711,96 @@
       "category": "رياضة",
       "icon": "⚽",
       "color": "#3ddc97",
-      "reason": "حجم بحث أقل من 2000",
-      "publishable": false,
+      "reason": "العنوان يطابق: صلاح",
+      "publishable": true,
+      "article": {
+        "headline": "برادلي باركولا يكسر صمته: لست محمد صلاح وسأكتب تاريخي الخاص في ليفربول",
+        "summary": "رد برادلي باركولا على المقارنات مع محمد صلاح مؤكدًا عدم شعوره بضغوط لتعويضه ومشددًا على رغبته في وضع بصمته الخاصة مع ليفربول.",
+        "body": "حسم الفرنسي برادلي باركولا، جناح فريق ليفربول، الجدل الدائر حول المقارنات المستمرة بينه وبين أسطورة النادي السابق محمد صلاح. وفي حوار صريح مع شبكة \"سكاي سبورتس\"، أكد الجناح الفرنسي الشاب بوضوح: \"أنا لست محمد صلاح، وسأحاول تقديم كل ما أستطيع لمساعدة النادي، وصناعة بصمتي الخاصة في تاريخه\". وأضاف باركولا أنه لا يشعر بأي ضغوط إضافية بسبب تأثير صلاح الذي غادر صفوف الفريق الصيف الماضي، مشددًا على أنه يكنّ احترامًا هائلًا لما حققه النجم المصري من إنجازات عظيمة مع قلعة أنفيلد.\n\nتأتي هذه التصريحات في وقت يسعى فيه باركولا للتأقلم مع الدوري الإنجليزي الممتاز بعد انضمامه خلال فترة الانتقالات الصيفية الماضية في صفقة ضخمة. وتتفاوت التقارير حول قيمة الصفقة؛ فبينما ذكر موقع \"كورة\" أن قيمتها قدرت بـ 145 مليون يورو باحتساب المكافآت، أشارت \"المصري اليوم\" إلى أنها بلغت 123 مليون جنيه إسترليني. ورغم هذا الرقم، أكد اللاعب أنه لا يكترث لقيمة انتقاله، موضحًا أنه لم يحددها بنفسه، وبالتالي فهي لا تمثل مشكلة بالنسبة له.\n\nمن الناحية الفنية، اعترف باركولا بأنه لم يصل بعد إلى أفضل مستوياته بقميص ليفربول، مؤكدًا لجماهير النادي أن \"النسخة الأفضل\" منه لم تظهر حتى الآن. وأشار إلى وجود تطور مستمر في انسجامه مع زملائه، حيث بدأت المجموعة تفهم أسلوب لعبه بصورة أدق، مما سيسهل مهمة الفريق في المباريات المقبلة.\n\nكما كشف باركولا كواليس رحيله عن باريس سان جيرمان رغم الألقاب والنجاحات التي حققها هناك. ووصف القرار بالصعب نظرًا للأجواء العائلية التي سادت في ناديه السابق، لكنه شدد على أن التواصل مع نادٍ بحجم ليفربول لم يترك له مجالًا للشك في ضرورة خوض التجربة الجديدة، معربًا في الوقت ذاته عن تمنياته بالتوفيق لفريقه السابق.",
+        "facts": [
+          {
+            "label": "قيمة الصفقة (وفق كورة)",
+            "value": "145 مليون يورو"
+          },
+          {
+            "label": "قيمة الصفقة (وفق المصري اليوم)",
+            "value": "123 مليون جنيه إسترليني"
+          },
+          {
+            "label": "الفريق السابق",
+            "value": "باريس سان جيرمان"
+          },
+          {
+            "label": "النادي الحالي",
+            "value": "ليفربول"
+          }
+        ],
+        "tags": [
+          "محمد صلاح",
+          "برادلي باركولا",
+          "ليفربول",
+          "الدوري الإنجليزي",
+          "انتقالات"
+        ],
+        "_v": 4,
+        "_by": "gemini",
+        "written_at": "2026-11-04T06:01:46.413609+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg/1280px-Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg",
+          "width": 1280,
+          "height": 1853,
+          "artist": "Bryan Berlin",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg",
+          "wiki_title": "محمد صلاح",
+          "wiki_lang": "ar"
+        },
+        "photo_v": 8,
+        "_had_data": false,
+        "_localized": false
+      },
       "card": "cards/eg-2026-11-04-محمد-صلاح.png",
       "published_at": "2026-11-04T04:01:20.023946+00:00"
+    },
+    {
+      "title": "psg",
+      "traffic": "1000+",
+      "traffic_num": 1000,
+      "published": "Tue, 3 Nov 2026 12:30:00 -0800",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQtc6QuOxgVBgyIJDSdpKnZ1p5NQeLI7HrrMOpO9L5sGqlFuSyqRPTtyg3c6-A",
+      "image_source": "L'Équipe",
+      "news": [
+        {
+          "title": "Villarreal 0-6 PSG, Ligue des champions : Les Parisiens font valoir leur rang",
+          "url": "https://www.lequipe.fr/Football/match-direct/ligue-des-champions/2026-2027/villarreal-psg-live/702078",
+          "source": "L'Équipe",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQtc6QuOxgVBgyIJDSdpKnZ1p5NQeLI7HrrMOpO9L5sGqlFuSyqRPTtyg3c6-A",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Ligue des champions: le PSG écrase Villarreal et enchaîne un quatrième succès - Sports - Sports",
+          "url": "https://french.ahram.org.eg/News/95362.aspx",
+          "source": "Ahraminfo",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTLa0OPNNMPv3WN2CFMAThWJVpbq-Nu3hhiyRrM6CZVK9OjHNL7V9pajXPy_Dg",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "category": "سياسة",
+      "icon": "🏛️",
+      "color": "#ff5c7c",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/eg-2026-11-04-psg.png",
+      "published_at": "2026-11-03T22:04:08.722964+00:00"
     },
     {
       "title": "ترتيب دوري ابطال اوروبا",
@@ -1101,16 +1115,17 @@
           "url": "https://www.masrawy.com/sports/sports_news/details/2026/11/3/3073171/%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1-%D9%85%D8%AD%D8%AA%D9%85%D9%84-%D9%85%D9%86-%D8%AD%D8%B3%D8%A7%D9%85-%D8%AD%D8%B3%D9%86-%D9%82%D8%A8%D9%84-%D8%B6%D9%85-%D8%A5%D9%85%D8%A7%D9%85-%D8%B9%D8%A7%D8%B4%D9%88%D8%B1-%D9%84%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%88%D8%B4%D9%84%D8%A7%D8%B7%D8%A9-%D9%88%D8%B5%D9%84%D8%A7%D8%AD-%D9%8A%D9%82%D8%AA%D8%B1%D8%A8%D8%A7%D9%86",
           "source": "Masrawy",
           "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi7DA43No5_VqVADRxra1VkoXfS83WxfX0dgpMDqZheDG7xb6IDLZtLvoyN4o",
-          "og_title": "إجراء محتمل من حسام حسن قبل ضم إمام عاشور للمنتخب. | مصراوي",
-          "og_desc": "كشف مصدر موقف عدد من الملفات الخاصة بمنتخب مصر استعداد ا للمرحلة المقبلة ومواجهتي منتخب مالاوي في التصفيات المؤهلة لكاس الأمم الأفريقية 2027 وعلى رأسها موقف إمام عاشور لاعب النادي  | مصراوي",
-          "og_image": "https://media.gemini.media/img/large/2026/7/5/2026_7_5_21_24_18_392.webp",
-          "ok": true
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         }
       ],
       "category": "رياضة",
       "icon": "⚽",
       "color": "#3ddc97",
-      "reason": "حجم بحث أقل من 2000",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
       "publishable": false,
       "card": "cards/eg-2026-11-04-منتخب-مصر-لكرة-القدم.png",
       "published_at": "2026-11-04T04:01:20.023946+00:00"
@@ -1120,14 +1135,24 @@
       "traffic": "500+",
       "traffic_num": 500,
       "published": "Tue, 3 Nov 2026 21:00:00 -0800",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRmdJ-JuPXPcxTYFTISnk0y81PPYW8ip0DQ4TtG0zDYw8LhyCvASghs-rYoeSE",
-      "image_source": "العربية",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWViwecYBcoZubq5Gx6UiGXhPJ1QAzhpV_vCzPUt3Cm1TP-N0uganE3DwU6Eg",
+      "image_source": "اليوم السابع",
       "news": [
         {
-          "title": "سعر الدولار في مصر يسجل خسارة جديدة",
-          "url": "https://www.alarabiya.net/aswaq/egypt-economy/2026/11/03/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D9%8A%D8%B3%D8%AC%D9%84-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9",
-          "source": "العربية",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRmdJ-JuPXPcxTYFTISnk0y81PPYW8ip0DQ4TtG0zDYw8LhyCvASghs-rYoeSE",
+          "title": "تعرف على سعر الدولار مقابل الجنيه فى بنك مصر اليوم الثلاثاء",
+          "url": "https://www.youm7.com/story/2026/11/3/%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D9%81%D9%89-%D8%A8%D9%86%D9%83-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85/7604818",
+          "source": "اليوم السابع",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWViwecYBcoZubq5Gx6UiGXhPJ1QAzhpV_vCzPUt3Cm1TP-N0uganE3DwU6Eg",
+          "og_title": "تعرف على سعر الدولار مقابل الجنيه فى بنك مصر اليوم الثلاثاء  - اليوم السابع",
+          "og_desc": "استقرسعر الدولار الدولار الأمريكى أمام الجنيه المصرى، اليوم الثلاثاء 3 نوفمبر 2026، فى بنك مصر عند 55.29 جنيه للشراء، و55.39 للبيع .",
+          "og_image": "https://img.youm7.com/xlarge/202610080728402840_420.jpg",
+          "ok": true
+        },
+        {
+          "title": "تراجع سعر الدولار في البنوك اليوم الثلاثاء 3 نوفمبر 2026",
+          "url": "https://gate.ahram.org.eg/News/5977240.aspx",
+          "source": "بوابة الأهرام",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT4lf7jGeV8Of6Svw7QI8mHEMqy4g1bB_Jcbt1yJ3DCzSbreujvht5triBgcvs",
           "og_title": "",
           "og_desc": "",
           "og_image": "",
@@ -1135,23 +1160,13 @@
           "error": "HTTPError"
         },
         {
-          "title": "سعر الدولار على مدار الساعة.. أسعار شراء الأخضر فى البنوك",
-          "url": "https://www.youm7.com/story/2026/11/4/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%B9%D9%84%D9%89-%D9%85%D8%AF%D8%A7%D8%B1-%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A9-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%B4%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%A3%D8%AE%D8%B6%D8%B1-%D9%81%D9%89-%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83/7604907",
-          "source": "اليوم السابع",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTBfZwE4Lsu1uiPeYKZ_XUPWibmS1ugZXzCgj6gaYgWLJVL1xp-xTI20-sUHB8",
-          "og_title": "سعر الدولار على مدار الساعة.. أسعار شراء الأخضر فى البنوك - اليوم السابع",
-          "og_desc": "استقر سعر الدولار الدولار الأمريكى أمام الجنيه المصرى، اليوم الأربعاء 4 نوفمبر 2026، فى بنك كريدى اجريكول عند 55.26 جنيه للشراء، و55.36 جنيه للبيع.",
-          "og_image": "https://img.youm7.com/xlarge/202412220910261026.jpg",
-          "ok": true
-        },
-        {
-          "title": "ارتداد قوي.. مفاجأة في أسعار الدولار مقابل الجنيه",
-          "url": "https://www.elbalad.news/7167141",
-          "source": "صدى البلد",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRGtMYvVLikgiXE8nX_ArGKjjx25KRAIeZCjbQMbX8yBFecbT1xYd-2s1WIDes",
-          "og_title": "ارتداد قوي.. مفاجأة في أسعار الدولار مقابل الجنيه",
-          "og_desc": "ويقدم موقع صدى البلد الاخباري أسعار الدولار اليوم الثلاثاء 3-11-2026، ضمن نشرته الخدمية.",
-          "og_image": "https://media.elbalad.news/2024/12/large/687552845087202412071133493349.jpg",
+          "title": "تراجع أسعار العملات العربية في بداية تعاملات اليوم 3 نوفمبر 2026",
+          "url": "https://m.akhbarelyom.com/news/newdetails/4901185/1/%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9",
+          "source": "بوابة أخبار اليوم الإلكترونية",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXjzZNAf2_khFcUmO-BqY-iF1Yjfcpn-qiUyr21l22h6LcbWD8t0tF_MsDhrU",
+          "og_title": "تراجع أسعار العملات العربية في بداية تعاملات اليوم 3 نوفمبر 2026",
+          "og_desc": "بوابة أخبار اليوم الإلكترونية",
+          "og_image": "https://Images.akhbarelyom.com/images/images/large/20261103114652177.jpg",
           "ok": true
         }
       ],
@@ -1385,13 +1400,13 @@
           "ok": true
         },
         {
-          "title": "مقعد تكساس بالشيوخ.. سعي ديمقراطي لإنهاء هيمنة جمهورية دامت 38 عامًا",
-          "url": "https://www.aa.com.tr/ar/%D8%AF%D9%88%D9%84%D9%8A/%D9%85%D9%82%D8%B9%D8%AF-%D8%AA%D9%83%D8%B3%D8%A7%D8%B3-%D8%A8%D8%A7%D9%84%D8%B4%D9%8A%D9%88%D8%AE-%D8%B3%D8%B9%D9%8A-%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D9%84%D8%A5%D9%86%D9%87%D8%A7%D8%A1-%D9%87%D9%8A%D9%85%D9%86%D8%A9-%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9-%D8%AF%D8%A7%D9%85%D8%AA-38-%D8%B9%D8%A7%D9%85%D9%8B%D8%A7/4110238",
-          "source": "Anadolu Ajansı",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTFQj5IKeSaW1LvKIxmKbxUVuPiAa3P1P5X9UEiuTuMu3cuEzLvSh3ARAL09oQ",
+          "title": "للمرة الأولى منذ 40 عاماً.. الديمقراطيون ينتزعون مقعداً في مجلس الشيوخ عن ولاية تكساس",
+          "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=04112026&id=1b6cd81c-ac82-45f9-a14b-f41f942f6d91",
+          "source": "بوابة الشروق",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQj6BPUb4Kl2Cs0Be2SjxnYrYpOvYfEWEx1qwyWXM1JX0P9zZ9nwV8tBPPG3d4",
           "og_title": "",
           "og_desc": "",
-          "og_image": "",
+          "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/36286798_303.jpg",
           "ok": false
         }
       ],
@@ -1712,23 +1727,24 @@
           "ok": true
         },
         {
-          "title": "Trump Suffers Ultimate Humiliation in MAGA’s True Heartland",
-          "url": "https://www.thedailybeast.com/trump-suffers-ultimate-humiliation-in-magas-true-heartland",
-          "source": "The Daily Beast",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTglPGC-DDZtW1zAbrMPfUvaUKFSB1ZosTloEXYIy4neRAqrHvbRlQcAkwxv7U",
-          "og_title": "Trump Suffers Ultimate Humiliation in MAGA’s True Heartland",
-          "og_desc": "The president installed the losing candidate all by himself.",
-          "og_image": "https://media.thedailybeast.com/resizer/v2/CFXBP3PUAZGJZNAJURAMVLADC4.jpg?auth=17ce4a1bffdd25f074d753fdd5b91eb858479b51a7c04c06743ea4284333bb6e&width=1200&height=630&focal=1500%2C844",
-          "ok": true
+          "title": "Texas U.S. Senate 2026: Live Midterm Election Results, Talarico vs. Paxton",
+          "url": "https://www.nytimes.com/interactive/2026/11/03/us/elections/results-texas-us-senate.html",
+          "source": "The New York Times",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRwUcuX6Yy8x1etveSaSFOFlZB7IgZdEQsdIM9wr3JjU5oxFQ4Q1iJfFkHaiis",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         },
         {
-          "title": "Texas flips blue as Democrats win in Congress and governorship races",
-          "url": "https://www.thenationalnews.com/news/us/2026/11/04/texas-flips-blue-as-democrats-win-in-congress-and-governorship-races/",
-          "source": "The National",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSNLE3NpspROQtViSQ3NZlm3ungF5IML53usRuAK2gMvWclGR8PcArSfVwhIuE",
-          "og_title": "Texas turns blue as Democrats brew historic wins in Congress and governorship races | The National",
-          "og_desc": "Kansas elects Democrat to Senate in first time in nearly a century",
-          "og_image": "https://www.thenationalnews.com/resizer/v2/QPADSH2HCPIGYSO3DMDFAX4J7U.jpg?auth=6c22fd402b4d556e6c1971609ece2db4a122d417fd0610e8c54817c09f90af60&smart=true&width=1200&height=630",
+          "title": "AI stocks slide as Texas governor result raises data center risks",
+          "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+          "source": "CNBC",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQZisT397PTc5-RN_vXioZ8a-zEDTH9FzOFTjhqE4MRp-HwJgwS1FGFdpDFqJI",
+          "og_title": "AI stocks slide as Texas governor result raises data center risks",
+          "og_desc": "Tech stocks were down in overnight trading, and grew more severe as the night wore on, as the likelihood of a blue wave grew.",
+          "og_image": "https://image.cnbcfm.com/api/v1/image/108511091-1793714895762-gettyimages-2302880756-US_MIDTERMS.jpeg?v=1793714928&w=1920&h=1080",
           "ok": true
         }
       ],

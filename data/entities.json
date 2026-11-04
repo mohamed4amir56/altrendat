@@ -69605,7 +69605,7 @@
         "headlines": [
           "توضيح من الجوازات بشأن طريفة فصل فرد تابع للمقيم إلكترونيًا",
           "\"الجوازات\" تخصص الرقم \"992\" لاستفسارات خدمة \"أبشر سفر للزوار\"",
-          "منصة أبشر توضح تفاصيل خدمة «أبشر سفر للزوار» إلكترونيًا للقادمين عبر المنافذ البرية"
+          "الجوازات تستقبل استفسارات خدمة «أبشر سفر للزوار» عبر الرقم الموحد 992"
         ]
       }
     ],
@@ -90316,8 +90316,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "الملكة رانيا العبدالله: الدفاع عن الحق ليس عاطفة.. والوعي السلاح الأقوى في مواجهة الجرائم",
-          "من جنوب إفريقيا.. الملكة رانيا تدعو لمواجهة الظلم وازدواجية المعايير",
+          "الملكة رانيا من قمة «عالم شاب واحد»: الوعي والأدلة أقوى سلاح لمواجهة الظلم والانتهاكات",
+          "وكالة سرايا : الملكة رانيا: الدفاع عن الحق ليس عاطفة .. والوعي السلاح الأقوى في مواجهة الجرائم",
           "الملكة رانيا في قمة عالم شاب واحد: الوعي هو السلاح الحقيقي لمواجهة الظلم"
         ]
       }
@@ -153025,12 +153025,12 @@
         "country_name": "السعودية",
         "traffic": "20000+",
         "traffic_num": 20000,
-        "category": "دول وأماكن",
-        "publishable": true,
+        "category": "حوادث وقضايا",
+        "publishable": false,
         "headlines": [
-          "سياسي / سمو ولي العهد يرأس جلسة مجلس الوزراء في الرياض",
-          "مجلس الوزراء السعودي يوافق على السياسة الوطنية للفضاء",
-          "الرياض: نبذل مساعي دبلوماسية مستمرة لترسيخ الأمن الإقليمي"
+          "الداخلية السعودية: السجن والغرامة لمَن يساعد مخالفي أنظمة الإقامة والعمل",
+          "ضبط 13357 مخالف في المملكة خلال أسبوع..تعرف على التفاصيل",
+          "ضبط مواطن لنقله مخالفًا لأمن الحدود في جازان"
         ]
       }
     ],
@@ -153041,7 +153041,7 @@
       "sa"
     ],
     "peak_traffic": 20000,
-    "category": "دول وأماكن"
+    "category": "حوادث وقضايا"
   },
   "sydney-roosters": {
     "slug": "sydney-roosters",
@@ -311706,10 +311706,25 @@
           "إيراولا يؤكّد ثقته في اللاعبين المتاحين رغم الغيابات",
           "إيراولا مدرب ليفربول يؤكد ثقته بفيرتس وباركولا رغم البداية المخيبة للآمال"
         ]
+      },
+      {
+        "key": "2026-11-04|eg",
+        "date": "2026-11-04",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "برادلى باركولا عن محمد صلاح: أسطورة لا يمكن تعويضها في ليفربول",
+          "لست محمد صلاح».. نجم ليفربول يرفض المقارنة مع الفرعون المصري",
+          "\"لست محمد صلاح\".. مهاجم ليفربول يتحدث عن مقارنته بـ\"الملك المصري\""
+        ]
       }
     ],
-    "last_seen": "2026-10-14",
-    "total": 1,
+    "last_seen": "2026-11-04",
+    "total": 2,
     "countries": [
       "eg"
     ],
@@ -485201,15 +485216,31 @@
           "Hands-on with Apple's first touchscreen laptop: Touch is totally optional",
           "Apple introduces the new 14-inch MacBook Pro with M6"
         ]
+      },
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Apple beats Q4 estimates on strong iPhone sales but misses on China revenue, stock falls",
+          "Palantir sinks after earnings as analysts point to slowdown in total contract value",
+          "Apple’s Growth Machine Is Slowing. High Prices Might Not Save It."
+        ]
       }
     ],
-    "last_seen": "2026-10-29",
-    "total": 3,
+    "last_seen": "2026-11-04",
+    "total": 4,
     "countries": [
       "eg",
-      "sa"
+      "sa",
+      "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 1000,
     "category": "تقنية"
   },
   "drilling-rig": {
@@ -536675,10 +536706,25 @@
           "Investing $1,000 in Each of These 3 Stocks 20 Years Ago Would Have Created a Portfolio Worth $674,000 Today",
           "Investing $1,000 in Each of These 3 Stocks 20 Years Ago Would Have Created a Portfolio Worth $674,000 Today"
         ]
+      },
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "William Blair refreshes stock Conviction List with 5 additions, 3 removals (SPY:NYSEARCA)",
+          "William Blair adds five stocks to November conviction list",
+          "William Blair shakes up its top stock picks"
+        ]
       }
     ],
-    "last_seen": "2026-11-02",
-    "total": 1,
+    "last_seen": "2026-11-04",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -555671,13 +555717,13 @@
         "date": "2026-11-04",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "بعد تهم القتل.. ماذا رأي القانون الإسباني بشأن حارس أندورا؟",
-          "زوجة فالفيردي عن مأساة دي ميجيل: الحارس ليس قاتلًا.. امنعوا وفاة أخرى!",
+          "\"كرة القدم فقدت معناها\".. رسالة تكشف تفاصيل انهيار حارس أندورا",
           "وفاة لاعب بالدوري الإسباني- ما القصة؟ \"فيديوجرافيك"
         ]
       }
@@ -555687,7 +555733,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "adam-hamawy": {
@@ -555707,7 +555753,7 @@
         "headlines": [
           "Egyptian-born Democrat Adam Hamawy becomes New Jersey's first Muslim congressman - International - World",
           "Voters elect plastic surgeon Adam Hamawy to Congress",
-          "Hamaway Wins, Receives Congratulations"
+          "Hamawy, ahead of Election Day, is predicting good results for Democrats"
         ]
       }
     ],
@@ -555789,10 +555835,10 @@
         "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "ذكرى رحيلها.. 11 فيلمًا جمعت مريم فخر الدين وعماد حمدي",
+          "ذكرى وفاة الفنانة مريم فخر الدين.. نشأتها وبدايتها الفنية",
           "« إنجى» ملهمة سلاطين الطرب",
           "في ذكرى رحيلها.. أسرار علاقة مريم فخرالدين بيوسف شاهين وفاتن حمامة"
         ]
@@ -555804,7 +555850,7 @@
       "eg"
     ],
     "peak_traffic": 200,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "week-9-defense-rankings": {
     "slug": "week-9-defense-rankings",
@@ -555879,8 +555925,8 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "علامة كاملة ورباعية في الصين.. ماذا قدم منتخب مصر للناشئين قبل نهائي كأس الخليج أمام الإمارات؟",
-          "أون سبورت تعلن إذاعة مباراة مصر للناشئين ضد الإمارات في نهائي كأس الخليج",
+          "تعرف على المباريات المذاعة على قناة أون سبورت.. أبرزها مصر والإمارات",
+          "موعد مباراة مصر والإمارات في نهائي كأس الخليج والقناة الناقلة",
           "اليوم.. «الناشئين» يواجه الإمارات فى نهائى كأس الخليج"
         ]
       }
@@ -555967,8 +556013,8 @@
         "publishable": false,
         "headlines": [
           "من أزقة مصر لعيادات غزة.. تفاصيل عن آدم حموي الفائز بمقعد الكونغرس",
-          "فوز الديمقراطي من أصول مصرية آدم حموي بمقعد نيوجيرسي في الكونجرس",
-          "إلهان عمر"
+          "تحدت التحقيقات وهجمات ترمب.. إلهان عمر تحتفظ بمقعدها في الكونغرس",
+          "من احتجاجات فلسطين إلى الكونغرس.. مسلمة تهزم الجمهوريين في نيويورك"
         ]
       }
     ],
@@ -556113,7 +556159,7 @@
         "headlines": [
           "PlayStation Store’s Black Friday Deals 2026",
           "PlayStation Officially Announces 2026 Black Friday Sale With No Mention of Console Deals",
-          "PlayStation’s Black Friday sale includes Wolverine, Astro Bot, and more"
+          "PS5 Black Friday deals have begun, with up to 75% off games"
         ]
       }
     ],
@@ -556251,8 +556297,8 @@
         "date": "2026-11-04",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -556267,7 +556313,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "klasemen-melbourne-victory-vs-persib-bandung": {
@@ -556285,9 +556331,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Hasil Babak Pertama Melbourne Victory vs Persib 0-0: Pertahanan Maung Solid, Lini Depan Kebingungan, Tolic Main Aman?",
-          "Persib di Ambang 16 Besar ACL 2, Ini Syarat dan Skenario Kelolosannya",
-          "Tembakan Balsa Kena Mistar, Persib Buat Melbourne Kerepotan di Babak I"
+          "Persib Bandung sukses mencuri kemenangan 2-1 atas Melbourne Victory pada matchday keempat Grup E AFC Champions League Two 2026/2027, Rabu 4 November 2026. Sempat berada dalam tekanan, Persib mampu bangkit dan membalikkan keadaan",
+          "Comeback di AAMI Park, Persib Bandung Pastikan Tiket 16 Besar ACL Two",
+          "Remontada Persib Atas Melbourne Victory Memicu Bonus Cuan Melimpah Dari AFC"
         ]
       }
     ],
@@ -556315,7 +556361,7 @@
         "publishable": false,
         "headlines": [
           "\"كرة القدم فقدت معناها\".. رسالة تكشف تفاصيل انهيار حارس أندورا",
-          "زوجة فالفيردي عن مأساة دي ميجيل: الحارس ليس قاتلًا.. امنعوا وفاة أخرى!",
+          "خبير قانوني يحسم الجدل حول مصير حارس أندورا بعد وفاة مهاجم تينيريفي",
           "الشرطة الإسبانية تحقق مع حارس أندورا بتهمة القتل غير العمد لمهاجم تينيريفي"
         ]
       }
@@ -556327,5 +556373,266 @@
     ],
     "peak_traffic": 500,
     "category": "حوادث وقضايا"
+  },
+  "midterm-elections-results-senate": {
+    "slug": "midterm-elections-results-senate",
+    "name": "midterm elections results senate",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "What the Republican midterm defeat means for Trump, the U.S. and Canada",
+          "Behind the Curtain: The Trump obliteration",
+          "The death knell of Trumpism has finally sounded | Moira Donegan"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "حوادث وقضايا"
+  },
+  "is-this-morning-pre-recorded-today": {
+    "slug": "is-this-morning-pre-recorded-today",
+    "name": "is this morning pre recorded today",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Lorraine Kelly says morning show pulled from air at last minute",
+          "ITV announce This Morning and Loose Women pulled off air in chaos with Lorraine replaced at last minute",
+          "Lorraine Kelly show off air after studio suffers power cut"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "عام"
+  },
+  "oakland-county-election-results": {
+    "slug": "oakland-county-election-results",
+    "name": "oakland county election results",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+1300",
+        "traffic_num": 1300,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Key Races: 2026 Michigan General Election Results",
+          "2026 Michigan election results for Oakland County races and proposals",
+          "Election results for Kalamazoo-area races, proposals, Nov. 3, 2026"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1300,
+    "category": "سياسة"
+  },
+  "did-brian-fitzpatrick-win": {
+    "slug": "did-brian-fitzpatrick-win",
+    "name": "did brian fitzpatrick win",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Pennsylvania U.S. House Midterm Election 2026: Live Results",
+          "Midterm elections 2026: Live updates for Pennsylvania, New Jersey and Delaware",
+          "Democrats say they’ve won the Pennsylvania House and Senate, handing Shapiro a powerful trifecta"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "سياسة"
+  },
+  "nassau-county-elections": {
+    "slug": "nassau-county-elections",
+    "name": "nassau county elections",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Stunning wave of Democratic victories comes to New York",
+          "Decision 2026: Gov. Hochul, Rep. Morelle, and Rep. Tenney win re-election; More results",
+          "Democrats sweep key Long Island races as Hochul, Gillen win re-election and Scianablo leads in Hempstead"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "سياسة"
+  },
+  "hillary-scholten": {
+    "slug": "hillary-scholten",
+    "name": "hillary scholten",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Hillary Scholten wins reelection in 3rd US House District",
+          "Former News Channel 3 Meteorologist Terri DeBoer aims for U.S. Congress",
+          "Hillary Scholten defeats Terri DeBoer, wins reelection to Congress"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "سياسة"
+  },
+  "jazz-chisholm-yankees-free-agent": {
+    "slug": "jazz-chisholm-yankees-free-agent",
+    "name": "jazz chisholm yankees free agent",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|world",
+        "date": "2026-11-04",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Today on Pinstripe Alley – 11/3/26",
+          "Yankees split with Jazz Chisholm feels inevitable after $23 million decision",
+          "New Yankees Rumors on Jazz Chisholm Jr. Plans After 2B Does Not Receive Qualifying Contract Offer"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "ستيفن-جيرارد": {
+    "slug": "ستيفن-جيرارد",
+    "name": "ستيفن جيرارد",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|eg",
+        "date": "2026-11-04",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "بعد عرضي ليفربول وتشيلسي.. أرنولد يحسم مصيره مع ريال مدريد بشكل واضح",
+          "مورينيو يوضح أسباب استبعاد أرنولد من تشكيل ريال مدريد",
+          "رغم إشادة مورينيو .. أرنولد يقترب من المغادرة وليفربول يتحرك لإعادته!"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "منصة-روضتي-الافتراضيه": {
+    "slug": "منصة-روضتي-الافتراضيه",
+    "name": "منصة روضتي الافتراضيه",
+    "first_seen": "2026-11-04",
+    "appearances": [
+      {
+        "key": "2026-11-04|sa",
+        "date": "2026-11-04",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "\"التعليم\" تطلق مسار التعليم غير المتزامن عن بعد في منصة روضتي الافتراضية",
+          "وزارة التعليم تطلق مسار التعليم عن بعد عبر منصة «روضتي الافتراضية»",
+          "وزارة التعليم تطلق مسار التعليم عن بُعد عبر منصة «روضتي الافتراضية»"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-04",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 1000,
+    "category": "شخصية"
   }
 }

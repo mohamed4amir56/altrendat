@@ -5570,19 +5570,34 @@
         "date": "2026-11-05",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "20000+",
-        "traffic_num": 20000,
+        "traffic": "100000+",
+        "traffic_num": 100000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "NOAA weather forecasting hits key milestone with Rapid Refresh Forecast System debut",
-          "Mild week gives way to warm-up, breezy weekend across Arizona",
-          "Arizona weather forecast: Dry spell continues with highs near 80 degrees in Phoenix"
+          "Massive storm targets East Coast with heavy rain after unleashing severe weather in Southeast",
+          "Intense rain triggers Flash Flood Emergency at Tennessee-Georgia border as cross-country storm shifts east",
+          "Video Tracking cross-country storms moving east"
+        ]
+      },
+      {
+        "key": "2026-11-05|eg",
+        "date": "2026-11-05",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "طقس",
+        "publishable": true,
+        "headlines": [
+          "الأرصاد: زيادة الأمطار خلال الساعات المقبلة.. والقاهرة ضمن المناطق المحتملة",
+          "الأرصاد تحذر من الشبورة والأمطار وانخفاض الحرارة خلال الأيام المقبلة",
+          "الأرصاد تحذر من طقس الأيام المقبلة.. أمطار وشبورة وانخفاض درجات الحرارة حتى 10 نوفمبر"
         ]
       }
     ],
     "last_seen": "2026-11-05",
-    "total": 34,
+    "total": 35,
     "countries": [
       "eg",
       "world"
@@ -44720,7 +44735,7 @@
         "headlines": [
           "نهاية مشوار حسام حسن مع الفراعنة تقترب.. قرار وشيك بإقالته",
           "من شيرين إلى الخشاب والزغبي.. خلاف حسام حسن وطليقته يفتح ملف نهايات صادمة",
-          "رسميًا.. منع حسام حسن من الظهور إعلاميًا"
+          "الاتحاد المصري يستقر على إقالة حسام حسن"
         ]
       }
     ],
@@ -55413,7 +55428,7 @@
         "headlines": [
           "Les grands ont chuté, quatre Bleus se sont qualifiés : folle journée à la Plenitude Arena",
           "Tennis: premier Masters et nouveau cap franchi pour Arthur Fils",
-          "Masters 1000 de Paris. Fils, Halys et Alcaraz qualifiés, Zverev et Djokovic éliminés… Le résumé de la 3e journée"
+          "Yannick Noah en premier supporter d'Arthur Fils lors de sa victoire au Masters 1000 de Paris"
         ]
       }
     ],
@@ -82833,12 +82848,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "رياضة",
+        "category": "عام",
         "publishable": false,
         "headlines": [
-          "Highlights: Paul books Paris QF spot, keeps Turin hopes alive",
-          "Rolex Paris Masters: Four French Players in Action Thursday, with Fils Closing Out the Day",
-          "ATP Paris Day 4 Predictions Including Taylor Fritz vs Arthur Fils"
+          "Alcaraz into Paris quarter-finals after Berrettini withdraws",
+          "Carlos Alcaraz Reaches Paris Masters Quarterfinals After Matteo Berrettini’s Withdrawal",
+          "Alcaraz advances to Paris Masters quarterfinals after Berrettini pulls out injured"
         ]
       }
     ],
@@ -82848,7 +82863,7 @@
       "world"
     ],
     "peak_traffic": 5000,
-    "category": "رياضة"
+    "category": "عام"
   },
   "tennessean": {
     "slug": "tennessean",
@@ -194341,10 +194356,25 @@
           "টানা চতুর্থ দফায় কমল স্বর্ণের দাম",
           "আজ যে দামে বিক্রি হচ্ছে স্বর্ণ"
         ]
+      },
+      {
+        "key": "2026-11-05|sa",
+        "date": "2026-11-05",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "কমল সোনার দাম, ভরি কত?",
+          "ধনতেরসে সোনা কিনবেন? গত বছর ধনতেরসে কেনা সোনার মূল্য এখন কত? কত মুনাফা করেছেন গ্রাহকেরা?",
+          "কত কমল সোনা-রুপোর দাম জেনে নিন এক নজরে"
+        ]
       }
     ],
-    "last_seen": "2026-10-27",
-    "total": 4,
+    "last_seen": "2026-11-05",
+    "total": 5,
     "countries": [
       "sa"
     ],
@@ -228395,10 +228425,25 @@
           "Maltempo, allerta prorogata in Penisola Sorrentina",
           "Maltempo: a Benevento lunedi dalle 14 chiudono villa comunale, parchi e cimitero"
         ]
+      },
+      {
+        "key": "2026-11-05|eg",
+        "date": "2026-11-05",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Meteo, a Capracotta è gelo in pieno giorno: temperatura crollata a 0°C, inizia l’eccezionale nevicata del 1° novembre",
+          "Primo assaggio d’inverno in Molise, la neve imbianca le località montane",
+          "TGR - Molise - TGR Molise del 01/11/2026 ore 19:30 - Video"
+        ]
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 2,
+    "last_seen": "2026-11-05",
+    "total": 3,
     "countries": [
       "eg"
     ],
@@ -228752,10 +228797,40 @@
           "Episode méditerranéen : jusqu'à 150 à 200 mm au sud-est",
           "Intempéries : 30 personnes mises en sécurité et 10 maisons inondées à Porto-Vecchio"
         ]
+      },
+      {
+        "key": "2026-11-05|eg",
+        "date": "2026-11-05",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Météo : épisode méditerranéen intense sur le Sud-Est et la Corse",
+          "Crues : voici les 3 départements placés en vigilance jaune ce vendredi",
+          "GARD Intempéries : le point sur les routes fermées et inondées"
+        ]
+      },
+      {
+        "key": "2026-11-05|sa",
+        "date": "2026-11-05",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Météo : épisode méditerranéen intense sur le Sud-Est et la Corse",
+          "Alerte Météo : Episode méditerranéen : violents orages jusqu'à vendredi matin",
+          "GARD Intempéries : le point sur les routes fermées et inondées"
+        ]
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 12,
+    "last_seen": "2026-11-05",
+    "total": 14,
     "countries": [
       "eg",
       "sa",
@@ -229113,8 +229188,8 @@
         "date": "2026-11-05",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -242079,7 +242154,7 @@
         "publishable": false,
         "headlines": [
           "Canlı | Trabzonspor - Freiburg maçı canlı anlatımı (UEFA Konferans Ligi)",
-          "Ozan Tufan: Milli Takım'a dönmek istiyorum",
+          "Freiburg nerenin takımı, hangi ligde oynuyor? Freiburg güncel kadro değeri 2026!",
           "TRABZONSPOR KONFERANS LİGİ PUAN DURUMU 5 KASIM | Trabzonspor Konferans Ligi'nde kaçıncı sırada, puanı kaç? Trabzonspor kalan maçları ve puan durumu..."
         ]
       }
@@ -270161,15 +270236,30 @@
           "John Harbaugh’s meritocracy, Malik Nabers’ involvement: Watch to watch for in Giants-Commanders - The Athletic",
           "📰 Harbs Weekly: Keep believing, keep doing"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+1500",
+        "traffic_num": 1500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "NY Giants WR Malik Nabers named NFC Offensive Player of the Month",
+          "Week 9 Malik Nabers Fantasy Start or Sit 2026",
+          "Giants Midseason Awards: Best Players, Biggest Surprises and the Turning Point"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 1,
+    "last_seen": "2026-11-05",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "bears-record": {
     "slug": "bears-record",
@@ -328437,9 +328527,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Elf spelers Ajax geweigerd, privéjets ingezet: Erik ten Hag vertelt het bizarre verhaal van Midtjylland-uit in 2020",
-          "Ajax mist Brandt en Amrabat in Conference League, AZ heeft Smit terug",
-          "Live FC Midtjylland - Ajax | Uitstekende start voor Ajax: Arokodare kopt al snel raak"
+          "LIVE Conference League | Ajax lijkt wedstrijd tegen tiental Midtjylland al te beslissen, Tolu weer belangrijk",
+          "Etim scoort tegen Ajax na dubieus duel met Kehrer: 'Vind het dom verdedigd'",
+          "Milan én Atalanta verrassend op achterstand, Tolu heeft tweede treffer beet: volg hier alle scores"
         ]
       }
     ],
@@ -561017,8 +561107,8 @@
         "date": "2026-11-05",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -572470,14 +572560,14 @@
         "date": "2026-11-05",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "30,000+",
-        "traffic_num": 30000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Mavericks vs. Spurs (Nov 4, 2026) Live Score",
-          "Golden Knights vs. Penguins (Nov 3, 2026) Live Score",
-          "Pelicans 120-113 Jazz (Nov 4, 2026) Final Score"
+          "Sparta Prague vs Bournemouth: UEFA Europa League stats & head-to-head",
+          "Sparta Prague vs Bournemouth predictions: 11-2 Bet Builder tip, team news and odds",
+          "Sparta Prague vs Bournemouth live on TV and streaming: broadcast details, kick-off and team news | Europa League"
         ]
       },
       {
@@ -572500,14 +572590,14 @@
         "date": "2026-11-05",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "5000+",
-        "traffic_num": 5000,
-        "category": "رياضة",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Real Sociedad vs. Lyon (Nov 5, 2026) Team Stats",
-          "Milan vs. Ferencvaros (6 Nov, 2026) Team Stats",
-          "Sparta vs. Bournemouth (6 Nov, 2026) Team Stats"
+          "CARLIN - Hour 2: Steve Pikiell Opens Up About His Cancer Battle",
+          "Illinois 84-50 Detroit Mercy (5 Nov, 2026) Final Score",
+          "Anderlecht vs. RB Salzburg (5 Nov, 2026) Team Stats"
         ]
       }
     ],
@@ -572518,8 +572608,8 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 30000,
-    "category": "رياضة"
+    "peak_traffic": 10000,
+    "category": "حوادث وقضايا"
   },
   "real-sociedad-vs-ol": {
     "slug": "real-sociedad-vs-ol",
@@ -573029,12 +573119,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "عام",
+        "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "Polémica con los descuentos a la gasolina y diésel: la OCU denuncia \"prácticas anticompetitivas\" y señala a las low cost",
-          "Una de cada tres gasolineras no ha trasladado toda la rebaja fiscal a los carburantes",
-          "Una de cada tres estaciones de servicio no ha trasladado totalmente el descuento sobre la gasolina, según la OCU"
+          "La gasolina y el diésel alcanzan su precio más alto para una jornada electoral: ¿en cuánto está el galón?",
+          "Trump califica de un «pequeño precio a pagar» la subida de la gasolina por la guerra en Irán",
+          "Alivio petrolero previo a las elecciones en Estados Unidos"
         ]
       }
     ],
@@ -573044,7 +573134,7 @@
       "world"
     ],
     "peak_traffic": 500,
-    "category": "عام"
+    "category": "سياسة"
   },
   "اسعار-البترول": {
     "slug": "اسعار-البترول",
@@ -573056,8 +573146,8 @@
         "date": "2026-11-05",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
@@ -573072,7 +573162,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "اقتصاد"
   },
   "عبلة-كامل": {
@@ -573085,8 +573175,8 @@
         "date": "2026-11-05",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -573101,7 +573191,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "علي-ماهر": {
@@ -573132,5 +573222,182 @@
     ],
     "peak_traffic": 100,
     "category": "شخصية"
+  },
+  "az-vs-juventus": {
+    "slug": "az-vs-juventus",
+    "name": "az vs juventus",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Game Time Thread: Juventus vs. AZ Alkmaar",
+          "How to watch Juventus vs. AZ Alkmaar Europa League live today: Streaming service, start time, preview",
+          "Spalletti and Koopmeiners' comments ahead of AZ Alkmaar-Juventus"
+        ]
+      },
+      {
+        "key": "2026-11-05|eg",
+        "date": "2026-11-05",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Preview: AZ Alkmaar vs Juventus - prediction, team news, lineups",
+          "AZ Alkmaar vs Juventus: UEFA Europa League stats & head-to-head",
+          "Video: McKennie joins Juventus group training before AZ Alkmaar clash"
+        ]
+      },
+      {
+        "key": "2026-11-05|sa",
+        "date": "2026-11-05",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Preview: AZ Alkmaar vs Juventus - prediction, team news, lineups",
+          "AZ Alkmaar vs Juventus: UEFA Europa League stats & head-to-head",
+          "Video: McKennie joins Juventus group training before AZ Alkmaar clash"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 3,
+    "countries": [
+      "eg",
+      "sa",
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "sunderland-vs-dinamo-zagreb": {
+    "slug": "sunderland-vs-dinamo-zagreb",
+    "name": "sunderland vs dinamo zagreb",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Sunderland vs Dinamo Zagreb: UEFA Europa League stats & head-to-head",
+          "Sunderland Starting XI vs Dinamo Zagreb: Confirmed Team News and Predicted Lineup",
+          "Score Predictions - can SAFC get Past Zagreb?"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "aaron-judge": {
+    "slug": "aaron-judge",
+    "name": "aaron judge",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Yankees’ Aaron Judge Announces Personal Family News After Historic Feat",
+          "Yankees’ clubhouse issues raise a question about Aaron Judge",
+          "Aaron Judge Gave Yankees an Ultimatum for the Offseason"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "بيرلا-حرب-ملكة-جمال-لبنان": {
+    "slug": "بيرلا-حرب-ملكة-جمال-لبنان",
+    "name": "بيرلا حرب ملكة جمال لبنان",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|sa",
+        "date": "2026-11-05",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "بعد تكتم طويل.. من الفنان العربي الذي أعلن ارتباطه بملكة جمال؟",
+          "صور\"رومانسية\" لبيرلا حرب مع جوزيف عطية على أنغام \"عم حبو كتير\"",
+          "تزامنًا مع ارتباطها بجوزيف عطية.. كيف أصبحت بيرلا حرب أيقونة ملهمة في عالم الموضة بإطلالاتها الفاخرة؟"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 1000,
+    "category": "دول وأماكن"
+  },
+  "حفلة-فضل-شاكر-جدة": {
+    "slug": "حفلة-فضل-شاكر-جدة",
+    "name": "حفلة فضل شاكر جدة",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|sa",
+        "date": "2026-11-05",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "فضل شاكر ونجله يلتقيان جمهور جدة في رابع حفلاتهما بالمملكة.. الليلة",
+          "خاص 'النهار'- فضل شاكر ويارا معاً في ليلة جدة... ديو يعيد ذكريات الرومانسية",
+          "عاد «فضل» وأعاد المشاعر الجميلة في قلوب محبيه"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "دول وأماكن"
   }
 }

@@ -4583,14 +4583,14 @@
         "date": "2026-11-05",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "طقس",
         "publishable": false,
         "headlines": [
-          "حالة الطقس: أمطار غزيرة وعواصف رعدية الجمعة والسبت",
-          "الأرصاد: انخفاض جديد في درجات الحرارة وأمطار متفاوتة الشدة على عدد من المحافظات غدا",
-          "الطقس اليوم.. انخفاض بالحرارة وشبورة كثيفة وأمطار والعظمى بالقاهرة 28 درجة"
+          "بيئي / الأرصاد: أمطار أعلى من المعدل على أغلب مناطق المملكة خلال نوفمبر وانخفاض الحرارة في أجزاء من شمال وشرق المملكة",
+          "«الأرصاد»: أمطار رعدية وبَرَد ورياح مثيرة للغبار على 9 مناطق اليوم",
+          "«الأرصاد» ينبه من أمطار ورياح نشطة على منطقة حائل حتى مساء اليوم"
         ]
       }
     ],
@@ -5534,10 +5534,25 @@
           "Heavy to very heavy rainfall warning issued for several states, list released | To read the entire bulletin issued by IMD | Inshorts",
           "Bay of Bengal depression set to become severe cyclonic storm by tomorrow"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+20500",
+        "traffic_num": 20500,
+        "category": "طقس",
+        "publishable": true,
+        "headlines": [
+          "Unsettled at times today & Friday",
+          "Rain develops tonight, scattered showers and breezy for Thursday",
+          "First Alert: Unsettled weather returns"
+        ]
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 33,
+    "last_seen": "2026-11-05",
+    "total": 34,
     "countries": [
       "eg",
       "world"
@@ -8106,10 +8121,25 @@
           "\"الخلل كان واضحًا\" .. هجوم مبطن من ماك أليستر على أرني سلوت بعد ليلة ليفربول المثيرة ضد فياريال",
           "نجوموها: إيراولا غرس عقلية مختلفة في ليفربول.. ولدينا أفضل جماهير في العالم"
         ]
+      },
+      {
+        "key": "2026-11-05|eg",
+        "date": "2026-11-05",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "ليفربول ضد آرسنال.. الريدز يخطط لتجديد عقد فان دايك",
+          "هدف مورينيو السابق ومفاجأة فورست.. ليفربول يفتح ملف خلافة فان دايك",
+          "ليفربول يتحرك لتأمين مستقبل فان دايك.. والراتب يهدد مفاوضات التجديد"
+        ]
       }
     ],
-    "last_seen": "2026-10-22",
-    "total": 2,
+    "last_seen": "2026-11-05",
+    "total": 3,
     "countries": [
       "eg"
     ],
@@ -10269,8 +10299,8 @@
         "date": "2026-11-05",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
@@ -10285,7 +10315,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "سياسة"
   },
   "البرتغال-ضد-ويلز": {
@@ -29786,14 +29816,14 @@
         "date": "2026-11-05",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "مصر تبدأ تطبيق الدعم النقدي مطلع يناير 2027.. وخطة لرفع الحد الأدنى للأجور قيد الإعداد",
-          "رئيس الوزراء يستعرض آليات تنفيذ تكليفات الرئيس السيسي بمنتدى مصر 2026 في ملف الحماية الاجتماعية",
-          "«فلوس مكان السكر والزيت».. الدعم النقدي بدلا من التموين يبدأ في هذه المحافظة (تفاصيل)"
+          "«فلوس مكان السكر والزيت».. الدعم النقدي بدلا من التموين يبدأ في هذه المحافظة (تفاصيل)",
+          "المنوفي: نجاح تجربة الدعم النقدي مرهون بالحفاظ على القوة الشرائية للمواطن"
         ]
       }
     ],
@@ -29802,7 +29832,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "شخصية"
   },
   "andrey-rublev": {
@@ -76924,11 +76954,27 @@
           "Ballon d'Or winners by club: 10 teams and their stars",
           "Full list: Players with the most Men’s Ballon d’Or wins in history"
         ]
+      },
+      {
+        "key": "2026-11-05|sa",
+        "date": "2026-11-05",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Cristiano Ronaldo Announces International Retirement",
+          "Cristiano Ronaldo announces retirement from Portuguese national team",
+          "Portuguese football legend Cristiano Ronaldo has announced that he is retiring from international football. | via Agence France-Presse"
+        ]
       }
     ],
-    "last_seen": "2026-10-26",
-    "total": 2,
+    "last_seen": "2026-11-05",
+    "total": 3,
     "countries": [
+      "sa",
       "world"
     ],
     "peak_traffic": 5000,
@@ -79980,10 +80026,25 @@
           "Pennsylvania Lottery Mega Millions, Pick 2 Day results for Oct. 23, 2026",
           "Winning Pa. Lottery numbers for Oct. 22, 2026"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+300",
+        "traffic_num": 300,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Pennsylvania Lottery Powerball, Pick 2 Day results for Nov. 4, 2026",
+          "Winning Pa. Lottery numbers for Nov. 3, 2026",
+          "Pennsylvania Lottery Pick 2 Day, Pick 2 Evening results for Nov. 1, 2026"
+        ]
       }
     ],
-    "last_seen": "2026-10-27",
-    "total": 2,
+    "last_seen": "2026-11-05",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -196683,10 +196744,25 @@
           "Coinbase reports Q3 revenue decline amid crypto slump",
           "Coinbase Faces Tough Earnings Test As Crypto Prices, Trading Volumes Fall"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Coinbase Launches Global Liquidity Pool for U.S. Institutions",
+          "Brian Armstrong Says Agentic Finance Is Still in Its Early Stages",
+          "Coinbase Launches AI Agent Sign-Ups for Crypto Trading With Built-In Safety Limits"
+        ]
       }
     ],
-    "last_seen": "2026-10-29",
-    "total": 2,
+    "last_seen": "2026-11-05",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -250262,10 +250338,25 @@
           "الهلال يخسر خدمات نيفيش أمام الاتفاق",
           "نيفيز يصدم الهلال بعد الفوز على الفتح"
         ]
+      },
+      {
+        "key": "2026-11-05|sa",
+        "date": "2026-11-05",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "ضربة كبرى.. روبن نيفيز يضع إنزاجي في مأزق مع الهلال",
+          "الهلال يخسر خدمات نيفيش أمام الاتفاق",
+          "سبب غياب روبن نيفيز عن مواجهة شباب الأهلي الإماراتي.. فيديو"
+        ]
       }
     ],
-    "last_seen": "2026-11-01",
-    "total": 5,
+    "last_seen": "2026-11-05",
+    "total": 6,
     "countries": [
       "sa"
     ],
@@ -279385,10 +279476,25 @@
           "قهر ميسي.. كريستيانو رونالدو يحصد جائزة الأفضل في تاريخ الكرة الذهبية",
           "عن موسم 2008.. رونالدو يهزم ميسي وينتزع جائزة \"Boat\""
         ]
+      },
+      {
+        "key": "2026-11-05|eg",
+        "date": "2026-11-05",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "كريستيانو رونالدو يعلن اعتزاله اللعب الدولى مع منتخب البرتغال.. فيديو",
+          "\"هيا بنا نحو الهدف رقم 1000\".. أول تعليق من الاتحاد البرتغالي على اعتزال رونالدو",
+          "رونالدو يعتزل اللعب الدولي مع منتخب البرتغال"
+        ]
       }
     ],
-    "last_seen": "2026-10-29",
-    "total": 4,
+    "last_seen": "2026-11-05",
+    "total": 5,
     "countries": [
       "eg",
       "sa"
@@ -284127,15 +284233,30 @@
           "La agenda deportiva de Arabia Saudita, bajo incertidumbre",
           "Canelo vs. Mbilli a punto de colapsar pese a Canelo y Turki"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "'Tenía que seguir un guion': Juan Manuel Márquez lanza crítica a Mbilli tras pelea con Canelo",
+          "Terence Crawford defiende a Canelo Álvarez de las críticas tras haber conquistado el título supermediano del CMB: “Digan lo que quieran”",
+          "José Luis Camarillo Dulce ciencia - esto"
+        ]
       }
     ],
-    "last_seen": "2026-10-12",
-    "total": 1,
+    "last_seen": "2026-11-05",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "رياضة"
+    "category": "سياسة"
   },
   "torino-fc": {
     "slug": "torino-fc",
@@ -377179,10 +377300,25 @@
           "Alerta de tiempo para partes del condado Miami-Dade",
           "Ron DeSantis declara estado de emergencia en Florida por las inundaciones históricas"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Clima en Syracuse, New York hoy: cuál es el pronóstico del tiempo para hoy 5 de noviembre",
+          "¿Cómo estará el clima en New York este jueves 5 de noviembre?",
+          "Clima en Yonkers, New York hoy: cuál es el pronóstico del tiempo para hoy 5 de noviembre"
+        ]
       }
     ],
-    "last_seen": "2026-11-03",
-    "total": 2,
+    "last_seen": "2026-11-05",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -427415,12 +427551,28 @@
           "Antum Naqvi set for long-awaited Zimbabwe debut after eligibility clearance",
           "Brian Bennett relishes first Test cricket captaincy"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Antum Naqvi set for long-awaited Zimbabwe debut after eligibility clearance",
+          "Afghanistan vs Zimbabwe 1st Test prediction, lineups and Sharjah pitch report — who will win?",
+          "Bennett to lead Zimbabwe in Afghanistan Test series"
+        ]
       }
     ],
     "last_seen": "2026-11-05",
-    "total": 3,
+    "total": 4,
     "countries": [
-      "sa"
+      "sa",
+      "world"
     ],
     "peak_traffic": 20000,
     "category": "رياضة"
@@ -560314,15 +560466,30 @@
           "Pronóstico del tiempo en Chicago para este lunes 2 de noviembre",
           "Clima en Aurora, Illinois hoy: cuál es el pronóstico del tiempo para hoy 4 de noviembre"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Clima de hoy y para los próximos días en EEUU: Un frente arrastrará lluvias hacia el este y sureste del país",
+          "El tiempo de hoy en Chicago, Illinois para este miércoles 4 de noviembre",
+          "Clima en Rockford, Illinois hoy: cuál es el pronóstico del tiempo para la semana del 2 de noviembre al 2 de noviembre"
+        ]
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 1,
+    "last_seen": "2026-11-05",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
-    "category": "عام"
+    "peak_traffic": 1000,
+    "category": "سياسة"
   },
   "luke-murray": {
     "slug": "luke-murray",
@@ -569237,8 +569404,8 @@
         "publishable": false,
         "headlines": [
           "Xiaomi unveils the HyperOS 4 update rollout schedule - GSMArena.com news",
-          "Xiaomi HyperOS 4 Rollout: Eligible Redmi And Xiaomi Phones",
-          "Xiaomi Starts Android 17 HyperOS 4 Rollout: Is Your Redmi or Poco Phone Eligible?"
+          "Xiaomi Starts Android 17 HyperOS 4 Rollout: Is Your Redmi or Poco Phone Eligible?",
+          "Stable HyperOS 4 rollout begins: 33 out of 82 devices scheduled for early November"
         ]
       }
     ],
@@ -569307,5 +569474,150 @@
     ],
     "peak_traffic": 100,
     "category": "حوادث وقضايا"
+  },
+  "egovph": {
+    "slug": "egovph",
+    "name": "egovph",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "تقنية",
+        "publishable": true,
+        "headlines": [
+          "SSS brings digital ID, contribution records directly to eGovPH",
+          "SSS to Launch Digital MySSS Card and Member Services via eGovPH Superapp",
+          "SSS partners with DICT to integrate digital ID into eGov app"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "تقنية"
+  },
+  "dianna-russini": {
+    "slug": "dianna-russini",
+    "name": "dianna russini",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Dianna Russini gets out the word that she’s coming back to work next week",
+          "Dianna Russini is planning a return to unknown sports media position 'next week' after scandal",
+          "Dianna Russini will be ‘headlining her own show’ months after Mike Vrabel scandal"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
+  },
+  "guy-fawkes-day": {
+    "slug": "guy-fawkes-day",
+    "name": "guy fawkes day",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Guy Fawkes was caught guarding 36 barrels of gunpowder beneath Parliament in the 1605 Gunpowder Plot; he was tortured into naming his co-conspirators and tried on Jan. 27, 1606",
+          "Law behind Bonfire Night among records sent from parliament to National Archives",
+          "Could Margaret Clitherow’s execution have shaped Guy Fawkes?"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "سياسة"
+  },
+  "مرام-علي": {
+    "slug": "مرام-علي",
+    "name": "مرام علي",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|eg",
+        "date": "2026-11-05",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "«كان بيقولي أنتي أختي».. مرام علي: تعرضت للتحرش اللفظي.. وكلامي للمتحرش خلاه يعيط",
+          "\"اخترت الصمت\".. مرام علي تكشف \"تفاصيل صادمة\" حول تعرضها للخيانة",
+          "مرام علي: تعرضت للتحرش اللفظي.. وكلامي للشخص المتحرش خلاه يعيط"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "الصندوق-السعودي-للتنمية": {
+    "slug": "الصندوق-السعودي-للتنمية",
+    "name": "الصندوق السعودي للتنمية",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|sa",
+        "date": "2026-11-05",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "ولي العهد يستقبل الرئيس السوري أحمد الشرع في الرياض ويوقّعان اتفاقيات تعاون شاملة",
+          "توافق سعودي - سوري حيال القضايا الإقليمية والدولية",
+          "السعودية وسوريا تؤكدان أهمية خفض التصعيد واحتواء الأزمات"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

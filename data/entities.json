@@ -2172,12 +2172,12 @@
         "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "دول وأماكن",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "السودان يطالب الجامعة العربية بالتحقيق في «هجمات الجوار»",
-          "نائب رئيس المجلس المصري للشؤون الأفريقية لـ 'المصري اليوم': قرار نبيل فهمي تكليف مبعوث له إلى السودان 'خطوة إيجابية وبناءة'",
-          "(وسائط متعددة) الأمين العام لجامعة الدول العربية يعين مبعوثا شخصيا له لشؤون السودان"
+          "رويترز: إثيوبيا تطرد دبلوماسيين سودانيين بعد اتهامها بمساعدة الدعم السريع",
+          "ماذا نعرف عن الاتهامات السودانية لإثيوبيا؟ وما علاقة الإمارات؟",
+          "بعد اتهامات لإثيوبيا.. بيان مصري بشأن هجمات بطائرات مُسيرة في السودان"
         ]
       }
     ],
@@ -2188,7 +2188,7 @@
       "sa"
     ],
     "peak_traffic": 2000,
-    "category": "دول وأماكن"
+    "category": "حوادث وقضايا"
   },
   "ماركو-روبيو": {
     "slug": "ماركو-روبيو",
@@ -2856,15 +2856,26 @@
           "وكالة إنفاذ قوانين الهجرة الأمريكية تعلن اعتقال 14 أجنبيًا بتهمة التصويت غير القانوني",
           "‏وكالة إنفاذ قوانين الهجرة الأميركية: اعتقلنا 14 أجنبيا بتهمة التصويت غير القانوني"
         ]
+      },
+      {
+        "key": "2026-11-05|eg",
+        "date": "2026-11-05",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": []
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 9,
+    "last_seen": "2026-11-05",
+    "total": 10,
     "countries": [
       "eg"
     ],
     "peak_traffic": 700,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "العاصمة-الجديدة": {
     "slug": "العاصمة-الجديدة",
@@ -15214,8 +15225,8 @@
         "date": "2026-11-05",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -15230,7 +15241,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "cruise-ship": {
@@ -18355,10 +18366,25 @@
           "Game Review: Special teams and Bobrovsky shine as Maple Leafs snap three-game losing streak vs. SJ",
           "Maple Leafs vs. Sharks: McKenna prevails over Stenberg in battle of top picks"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Why Macklin Celebrini believes the Sharks’ scoring slump will end soon",
+          "Hometown Remix: A look at all 32 NHL jerseys",
+          "Islanders reviving once-hated fisherman logo"
+        ]
       }
     ],
-    "last_seen": "2026-10-20",
-    "total": 5,
+    "last_seen": "2026-11-05",
+    "total": 6,
     "countries": [
       "world"
     ],
@@ -56559,7 +56585,7 @@
         "headlines": [
           "الأهلي يستبعد حسام عبد المجيد مؤقتًا من حساباته في يناير",
           "خالد الغندور: الأهلي يجمّد مفاوضاته مع حسام عبد المجيد ويبحث عن بدائل لتدعيم الدفاع",
-          "الأهلى يحسم موقفه من ضم إبراهيم عادل فى يناير.. اعرف التفاصيل"
+          "الأهلي يستبعد حسام عبد المجيد مؤقتا من حساباته.. لماذا تعثرت المفاوضات؟"
         ]
       }
     ],
@@ -260380,14 +260406,14 @@
         "date": "2026-11-05",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "فضول عام",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "الأرصاد تحذر من الشبورة والأمطار.. تفاصيل طقس اليوم الخميس 5 نوفمبر 2026",
-          "هل تتأثر القاهرة بالأمطار غدًا؟.. الأرصاد تكشف خريطة الظواهر الجوية",
-          "«الأرصاد»: استمرار الانخفاض التدريجي في درجات الحرارة يومي الجمعة والسبت"
+          "انطلاق العد التنازلي.. تحذير من ظاهرة جوية تضرب البلاد: «شغلوا الكشافات»",
+          "هل تتأثر القاهرة بالأمطار غدًا؟.. الأرصاد تكشف خريطة الظواهر الجوية"
         ]
       }
     ],
@@ -358410,9 +358436,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "تجاهلوا خطته.. يايسله يهاجم لاعبي نيوكاسل",
-          "بطولة انكلترا: إيفرتون يعمّق جراح نيوكاسل ومدربه يايسله",
-          "بعد الكأس.. إيفرتون يفوز مجددًا على نيوكاسل يونايتد"
+          "الأهلي وابنه البار",
+          "رفض خلافة يايسله في الأهلي.. \"شبيه جوارديولا\" حل مقترح لأزمة نيوكاسل",
+          "كيف دمر قرار واحد الأهلي السعودي ونيوكاسل الإنجليزي؟"
         ]
       }
     ],
@@ -358823,14 +358849,29 @@
           "Powerball numbers for Monday's drawing",
           "Powerball Jackpot Grows to $793 Million—Here’s What a Winner Could Take Home After Taxes"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Winning numbers drawn for $835 million Powerball, among the top 10 jackpots in the game’s history",
+          "Powerball numbers for Wednesday's drawing",
+          "Tonight’s Powerball jackpot is one of the largest ever at $835M"
+        ]
       }
     ],
-    "last_seen": "2026-11-03",
-    "total": 6,
+    "last_seen": "2026-11-05",
+    "total": 7,
     "countries": [
       "world"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 10000,
     "category": "عام"
   },
   "utah-mammoth": {
@@ -434292,15 +434333,30 @@
           "Kings All-Star Center Demands The Ball More. Then, Rookie Darius Acuff Drops 33 Points",
           "Domantas Sabonis posts triple-double in Friday's loss to Trailblazers"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Trade Packages and Landing Spots for Sacramento Kings Star Domantas Sabonis",
+          "5 Reasons For The Jazz To Consider A Lauri Markkanen/Domantas Sabonis Swap",
+          "Reporter clarifies Darius Acuff-Domantas Sabonis report"
+        ]
       }
     ],
-    "last_seen": "2026-10-25",
-    "total": 2,
+    "last_seen": "2026-11-05",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "رياضة"
+    "category": "فن ومشاهير"
   },
   "موعد-اذان": {
     "slug": "موعد-اذان",
@@ -458209,9 +458265,8 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Sixers roll on to down Pistons, Knicks gore Bulls",
-          "Jaylen Brown, Joel Embiid lead 76ers to win vs. Pistons",
-          "Pistons vs 76ers Intense, Philadelphia Dominates as Detroit Fights to Recover in NBA"
+          "Jaylen Brown scores season-high 30 points and makes key block in 76ers' 112-106 win over Pistons",
+          "Sixers Bell Ringer: Brown 30-bomb, Embiid, LeBron double-doubles lead Sixers over Pistons"
         ]
       }
     ],
@@ -470883,15 +470938,30 @@
           "Cameron Johnson (ankle) doubtful Monday",
           "Bryce Hopkins to start Saturday vs. New Orleans"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Ajay Mitchell has 23/7/4 line in win over Cavaliers",
+          "Thunder Guard Projected To Be All-Star This Season Due To Jalen Williams Injury",
+          "Is Mitchell the X-Factor to help heal Thunder?"
+        ]
       }
     ],
-    "last_seen": "2026-10-26",
-    "total": 1,
+    "last_seen": "2026-11-05",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
-    "category": "رياضة"
+    "peak_traffic": 1000,
+    "category": "فن ومشاهير"
   },
   "ebola": {
     "slug": "ebola",
@@ -471205,15 +471275,30 @@
           "Starting 5: Stars Deliver, Rookies Rise",
           "Nuggets complete 23-point comeback to force OT, beat Pelicans in home opener"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Nikola Jokic's Trade Status Discussed by NBA Exec Amid Nuggets' Struggles to Start 2026 Season",
+          "Executives watching Nikola Jokic situation ahead of next summer: 'I think people are paying attention'",
+          "Dallas Mavericks' Kyrie Irving Named Among Stars Rival NBA Executives Are Monitoring"
+        ]
       }
     ],
-    "last_seen": "2026-10-27",
-    "total": 1,
+    "last_seen": "2026-11-05",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "nfl-week-8": {
     "slug": "nfl-week-8",
@@ -480344,9 +480429,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "منة فضالي وروجينا يدعمون أشرف زكي برسائل قوية: \"وراك جيش يا ريس\"",
-          "الفنان ياسر جلال: كل الدعم لأستاذي أشرف زكي",
-          "حقيقة خلاف بشرى ونقيب المهن التمثيلية المصرية.. ماذا حدث بينهما؟"
+          "روجينا تدعم زوجها الدكتور أشرف زكي: نقيبي وأفتخر",
+          "حقيقة خلاف بشرى ونقيب المهن التمثيلية المصرية.. ماذا حدث بينهما؟",
+          "فنانون ومنتجون يعلنون دعمهم لأشرف زكي بعد بلاغ لقاء سويدان"
         ]
       }
     ],
@@ -565788,10 +565873,25 @@
           "Champions League highlights and round-up: Como equal biggest-ever win, Real Madrid stay perfect",
           "Lens 1-9 Como: Cesc Fabregas' side equal record for most goals in a Champions League game"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Fabregas' Como up to 4th after record-setting 9-goal night",
+          "Champions League highlights and round-up: Como equal biggest-ever win, Real Madrid stay perfect",
+          "Lens 1-9 Como: Cesc Fabregas' side equal record for most goals in a Champions League game"
+        ]
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 1,
+    "last_seen": "2026-11-05",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -566193,10 +566293,25 @@
           "Fire breaks out near Auckland electricity substation",
           "Large plume of smoke rises over Auckland suburb"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "‘Sounded like a bomb’: Three hospitalised as Penrose inferno cuts power, causes traffic chaos",
+          "Large plume of smoke rises over Auckland suburb",
+          "Fire breaks out near Auckland electricity substation"
+        ]
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 1,
+    "last_seen": "2026-11-05",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -566309,10 +566424,25 @@
           "Hong Kong activist Joshua Wong sentenced to 10 years in prison in 2nd national security case",
           "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years"
         ]
+      },
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Hong Kong activist Joshua Wong sentenced to 10 years in prison in 2nd national security case",
+          "Hong Kong democracy campaigner Joshua Wong handed another 10 years in jail",
+          "Hong Kong activist Joshua Wong set to be sentenced on national security charge"
+        ]
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 1,
+    "last_seen": "2026-11-05",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -566347,5 +566477,179 @@
     ],
     "peak_traffic": 200,
     "category": "شخصية"
+  },
+  "spurs-vs-mavs": {
+    "slug": "spurs-vs-mavs",
+    "name": "spurs vs mavs",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Lakers vs. Kings (Nov 4, 2026) Live Score",
+          "Kings 115-100 Mavericks (Nov 2, 2026) Final Score",
+          "Thunder 117-112 Cavaliers (Nov 2, 2026) Final Score"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "portland-trail-blazers-vs-phoenix-suns-match-player-stats": {
+    "slug": "portland-trail-blazers-vs-phoenix-suns-match-player-stats",
+    "name": "portland trail blazers vs phoenix suns match player stats",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Portland Trail Blazers at Phoenix Suns - NBA Game Summary - Nov 04, 2026",
+          "Deni Avdija is building on his All-Star breakout by making the Blazers contenders",
+          "Deni Avdija gets the basket plus the foul"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "miami-heat-vs-la-clippers-match-player-stats": {
+    "slug": "miami-heat-vs-la-clippers-match-player-stats",
+    "name": "miami heat vs la clippers match player stats",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|world",
+        "date": "2026-11-05",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "How to watch Heat vs. Clippers: TV channel and streaming options for November 4",
+          "Miami Heat vs Los Angeles Clippers NBA Basketball live: Miami Heat vs Los Angeles Clippers NBA Basketball look to seize control of thrilling Miami Heat vs Los Angeles Clippers NBA Basketball. Every team in the Miami Heat vs Los Angeles Clippers NBA Ba",
+          "Heat Clippers Basketball"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "سجن": {
+    "slug": "سجن",
+    "name": "سجن",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|eg",
+        "date": "2026-11-05",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "حين يُعاد اختراع السجن",
+          "باحث: كتاب الخروج من سجن الجماعة تجربة 15 عامًا داخل الإخوان تكشف الكواليس",
+          "تحقيق تأديبي ومنع الاتصال بحق معتقلات «الناتو» في سجن بكيركوي النسائي"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "الرمان": {
+    "slug": "الرمان",
+    "name": "الرمان",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|sa",
+        "date": "2026-11-05",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "الرمان وصحة الكلى.. فوائد خفية ومخاطر لا يعرفها كثيرون",
+          "ماذا يحدث لقلبك وجسمك بعد تناول الرمان؟",
+          "مصنع متكامل للرمان فى أسيوط لتعظيم الاستفادة من 181 ألف طن سنويا.. صور"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "kings-vs-lakers": {
+    "slug": "kings-vs-lakers",
+    "name": "kings vs lakers",
+    "first_seen": "2026-11-05",
+    "appearances": [
+      {
+        "key": "2026-11-05|sa",
+        "date": "2026-11-05",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "New $25 Polymarket promo code “CUSE” renewed for Lakers-Kings NBA",
+          "Luka Doncic believes in Lakers' passing in trip to Sacramento",
+          "Kings vs Lakers Preview: Sacramento Win Tsunami Incoming?"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-05",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
   }
 }

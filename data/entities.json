@@ -7667,14 +7667,14 @@
         "date": "2026-11-06",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+30000",
-        "traffic_num": 30000,
+        "traffic": "+20000",
+        "traffic_num": 20000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "Good morning, Orillia! Here's today's weather!",
-          "Good morning, Barrie! Here's today's weather!",
-          "Good morning, Midland! Here's today's weather!"
+          "Severe thunderstorm watch continues after storms bring downpours, power cuts, disruption",
+          "Severe thunderstorm watch issued as ‘nest of lightning’ tracks towards coast",
+          "Severe thunderstorms, rainfall up to 40mm per hour possible for top half of North Island"
         ]
       }
     ],
@@ -28770,14 +28770,14 @@
         "date": "2026-11-06",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
           "Euphoria meets raw fear on Wall Street as stocks plunge post US-midterms",
-          "Sharemarket dips but ends week higher despite risks",
-          "ASX 200 LIVE: ASX sell-off resumes as BHP, Rio drop; Plato’s David Allen says Anthropic has 14 red flags"
+          "ASX to open in red following Wall Street rout",
+          "Sharemarket dips but ends week higher despite risks"
         ]
       }
     ],
@@ -33432,8 +33432,8 @@
         "date": "2026-11-06",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "تعليم",
         "publishable": false,
         "headlines": [
@@ -79190,10 +79190,25 @@
           "«النقل» تمدد السماح لمنشآت الشحن الثقيل بنقل بضائع الغير حتى مارس 2027",
           "هيئة النقل: تمديد السماح بتجاوز العمر التشغيلي للشاحنات حتى 22 سنة.. ولمنشآت النقل الثقيل بالتعاقد على نقل البضائع غير المملوكة لها"
         ]
+      },
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "«النقل» تمدد العمر التشغيلي لسيارات الأجرة وتأجير السيارات حتى يونيو 2027",
+          "خفض العمر التشغيلي لحافلات النقل التعليمي إلى 10 سنوات.. مع إمكانية التمديد حتى 15 عاماً بفحص كل 6 أشهر",
+          "تعديلات رسمية على لائحة «النقل التعليمي».. وتحديد العمر التشغيلي للحافلات"
+        ]
       }
     ],
-    "last_seen": "2026-10-01",
-    "total": 1,
+    "last_seen": "2026-11-06",
+    "total": 2,
     "countries": [
       "sa"
     ],
@@ -160780,14 +160795,14 @@
         "date": "2026-11-06",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "10000+",
-        "traffic_num": 10000,
-        "category": "سياسة",
-        "publishable": true,
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "اقتصاد",
+        "publishable": false,
         "headlines": [
-          "Democratic sweep gives markets a reason to rethink path of interest rates",
-          "Stocks after midterm elections: 10 takeaways for investors",
-          "Stock market today: Nasdaq plunges 5% amid chip stock wipeout, Dow and S&P 500 erase post-election rally gains"
+          "Exclusive | Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation",
+          "Market turmoil saps enthusiasm for the buzziest IPO of the year",
+          "Anthropic IPO announcement odds drop on Kalshi following midterms and AI sell-off"
         ]
       }
     ],
@@ -160796,8 +160811,8 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 10000,
-    "category": "سياسة"
+    "peak_traffic": 1000,
+    "category": "اقتصاد"
   },
   "grand-central-parkway": {
     "slug": "grand-central-parkway",
@@ -162027,15 +162042,30 @@
           "FTSE 100 Live: Oil stockpiles ‘scarily thin’; BT jumps on TalkTalk rescue deal",
           "FTSE 100 LIVE: London resilient as Wall Street heads for a subdued session"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Global stocks fall amid ‘big worries over AI’ after Democrats’ midterms triumph",
+          "FTSE 100 Live: European and UK Stocks Set to Join Global AI-Driven Selloff",
+          "Global market downturn spreads to UK and Europe amid tech sell-off | ITV News"
+        ]
       }
     ],
-    "last_seen": "2026-10-05",
-    "total": 1,
+    "last_seen": "2026-11-06",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 5000,
-    "category": "عام"
+    "peak_traffic": 10000,
+    "category": "اقتصاد"
   },
   "athabasca-oil-cenovus": {
     "slug": "athabasca-oil-cenovus",
@@ -177429,12 +177459,28 @@
         "category": "عام",
         "publishable": false,
         "headlines": []
+      },
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "В Башкирии ударят заморозки и выпадет снег",
+          "Погодные условия осложнили подъезд к Магнитогорску – введены ограничения на трассах",
+          "«Призываю быть очень внимательными и осторожными» — Радий Хабиров обратился к жителям Башкирии"
+        ]
       }
     ],
-    "last_seen": "2026-11-05",
-    "total": 5,
+    "last_seen": "2026-11-06",
+    "total": 6,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 200,
     "category": "عام"
@@ -179139,14 +179185,14 @@
         "date": "2026-11-06",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "20000+",
-        "traffic_num": 20000,
+        "traffic": "30,000+",
+        "traffic_num": 30000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "Thomas Markle, father of Meghan, arrested after feds find sexually explicit photos of him with minors, DOJ says",
-          "Meghan's father Thomas Markle arrested over allegations he possessed child sex abuse material",
-          "Meghan Markle's father Thomas Markle Sr. arrested by FBI in Florida"
+          "Meghan Markle's father arrested for child porn possession",
+          "Meghan Markle’s Father Is Arrested on Child Sex Abuse Material Charges"
         ]
       }
     ],
@@ -179155,7 +179201,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 20000,
+    "peak_traffic": 30000,
     "category": "حوادث وقضايا"
   },
   "nathan-gallagher": {
@@ -211190,10 +211236,24 @@
           "هل تتأثر القاهرة بالأمطار غدًا؟.. الأرصاد تكشف خريطة الظواهر الجوية",
           "الأرصاد تكشف ظاهرة جوية تُربك خرائط الطقس غدا الخميس: «توخوا الحذر»"
         ]
+      },
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "+30000",
+        "traffic_num": 30000,
+        "category": "طقس",
+        "publishable": true,
+        "headlines": [
+          "أمطار رعدية في السعودية: تنبيهات الأرصاد لـ 10 مناطق",
+          "أمطار رعدية في السعودية: تحذيرات الأرصاد لـ 9 مناطق اليوم"
+        ]
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 8,
+    "last_seen": "2026-11-06",
+    "total": 9,
     "countries": [
       "eg",
       "sa"
@@ -211279,10 +211339,25 @@
           "Prakiraan Cuaca Depok Hari Ini: Pagi Cerah Berawan, Waspada Potensi Hujan Ringan Jelang Sore",
           "BMKG: Kota Depok Hujan Petir Malam Ini"
         ]
+      },
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Cuaca Jakarta Jumat 6 November 2026: Jaksel dan Jaktim Berpotensi Diguyur Hujan Ringan",
+          "BMKG Prediksi Hujan Guyur Jabodetabek Hari Ini, Bogor dan Depok Perlu Waspada?",
+          "Cuaca Jakarta Hari Ini Cerah Berawan di Seluruh Wilayah"
+        ]
       }
     ],
-    "last_seen": "2026-11-03",
-    "total": 3,
+    "last_seen": "2026-11-06",
+    "total": 4,
     "countries": [
       "sa"
     ],
@@ -222015,9 +222090,9 @@
         "category": "شخصية",
         "publishable": true,
         "headlines": [
-          "مجددا.. تهديدات بوجود قنابل تربك حركة الطيران في أوروبا",
           "إنذارات جديدة تجتاح مطارات ومؤسسات أوروبية ومدريد تصفها بالحرب النفسية",
-          "سلسلة جديدة من بلاغات القنابل الكاذبة تثير اضطرابات في أوروبا"
+          "إنذارات القنابل تصل إلى الإعلام.. إخلاء مقار في أيرلندا",
+          "مراسل القاهرة الإخبارية: استنفار أمنى بمطارات أوروبا بعد 30 تهديدا خلال أسبوع"
         ]
       },
       {
@@ -223479,14 +223554,14 @@
         "date": "2026-11-06",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "في \"ستارز\".. من تكريم يسرا إلى ديو الشامي المرتقب مع نجوى كرم",
           "تتويج يسرا بجائزة إنجاز العمر في مهرجان البحرين.. صور",
-          "شجون وفاطمة الصفي تكشفان عن عمل فني جديد يجمعهما قريبًا"
+          "لجان تحكيم تجمع خبرات عالمية من فرنسا وهولندا وإيطاليا وأستراليا ومصر مهرجان البحرين السينمائي يستعين بأسماء دولية بارزة لتعزيز مكانته العالمية"
         ]
       }
     ],
@@ -223496,7 +223571,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "shadman-islam": {
@@ -230191,17 +230266,32 @@
           "Alerte Météo : Episode méditerranéen : violents orages jusqu'à vendredi matin",
           "GARD Intempéries : le point sur les routes fermées et inondées"
         ]
+      },
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Météo : pourquoi les brouillards peuvent-ils être tenaces ce week-end ?",
+          "Météo - Saône-et-Loire. Des grisailles parfois tenance ce samedi",
+          "Météo : entre éclaircies et retour de la pluie dans le Sud-Est, quel temps pour ce week-end ?"
+        ]
       }
     ],
-    "last_seen": "2026-11-05",
-    "total": 14,
+    "last_seen": "2026-11-06",
+    "total": 15,
     "countries": [
       "eg",
       "sa",
       "world"
     ],
     "peak_traffic": 500,
-    "category": "فن ومشاهير"
+    "category": "عام"
   },
   "panama-earthquake": {
     "slug": "panama-earthquake",
@@ -365809,10 +365899,25 @@
           "البدري: لم نفاوض الشحات والأهلي لم يطلب «شكشك».. والكونفدرالية قوية",
           "رد حاسم من الأهلي طرابلس حول انتقال نجمه إلى الأهلي المصري"
         ]
+      },
+      {
+        "key": "2026-11-06|eg",
+        "date": "2026-11-06",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "نهاية مشوار حسام حسن مع الفراعنة تقترب.. قرار وشيك بإقالته",
+          "3 تحركات من حسام حسن لإنقاذ موقفه في منتخب مصر",
+          "تفاصيل جلسة أبو ريدة وإبراهيم حسن ومصير العميد"
+        ]
       }
     ],
-    "last_seen": "2026-10-18",
-    "total": 1,
+    "last_seen": "2026-11-06",
+    "total": 2,
     "countries": [
       "eg"
     ],
@@ -382394,7 +382499,7 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "Is Broadcom Stock a Buy Now?",
+          "Broadcom Stock Has Had Only 2 Losing Years Since 2009. 2026 Is on Pace to Be the 3rd.",
           "Broadcom And The AI Panic: The Market Has Lost Its Mind (NASDAQ:AVGO)",
           "Broadcom Stock Is Surging Friday: What's Going On?"
         ]
@@ -426485,12 +426590,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "5000+",
         "traffic_num": 5000,
-        "category": "عام",
+        "category": "تقنية",
         "publishable": false,
         "headlines": [
           "Patriots' TreVeyon Henderson affected by neurological symptoms",
           "Pats' TreVeyon Henderson says he was hospitalized after 'unusual' emergency, focused on recovery",
-          "Patriots RB TreVeyon Henderson has been sidelined, hospitalized by ‘neurological symptoms,’ he says"
+          "Patriots' TreVeyon Henderson provides update on 'unknown and unexplainable' illness"
         ]
       }
     ],
@@ -426500,7 +426605,7 @@
       "world"
     ],
     "peak_traffic": 5000,
-    "category": "عام"
+    "category": "تقنية"
   },
   "jason-kidd": {
     "slug": "jason-kidd",
@@ -567486,10 +567591,25 @@
           "Bugün hava nasıl olacak? 4 Kasım il il hava durumu",
           "Başkentte kış yüzünü gösteriyor: Sıcaklıklar hissedilir derecede azalacak"
         ]
+      },
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Meteoroloji'den Sakarya'ya fırtına ve sağanak uyarısı",
+          "İstanbul, Kocaeli, Sakarya yarınki hava durumu: Sağanak var",
+          "Sakarya için Kuvvetli Yağış ve Fırtına Uyarısı"
+        ]
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 1,
+    "last_seen": "2026-11-06",
+    "total": 2,
     "countries": [
       "sa"
     ],
@@ -574963,14 +575083,14 @@
         "date": "2026-11-06",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Zamalek - Misr Insurance",
           "Today's matches (Friday) and broadcast channels: Zamalek vs Misr Insurance in the Egypt Cup",
-          "Zamalek conclude preparations for Egypt Insurance… | Yalla Shoot"
+          "Zamalek conclude preparations for Egypt Insurance… | Yalla Shoot",
+          "Zamalek v Misr Insurance LIVE 06/11/2026 | Soccer"
         ]
       }
     ],
@@ -575201,9 +575321,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "العوضى ينقذ طفلة من زحام عين شمس خلال احتفاله بسلطان الديب.. فيديو وصور",
-          "أحمد العوضي لأهالي عين شمس: نازلكم أضحي وأدبح حلاوة تصوير مسلسل سلطان الديب",
-          "محمد علي رزق ضيف شرف في مسلسل «سلطان الديب» مع أحمد العوضي رمضان 2027"
+          "زحام شديد حول سيارة أحمد العوضى فى عين شمس.. صور",
+          "العوضي يحتفل بـ\"سلطان الديب\" في منطقة شعبية.. ذبح عجل وفض مشاجرات",
+          "أحمد العوضي يوزع اللحوم على جمهوره في عين شمس"
         ]
       }
     ],
@@ -582893,9 +583013,9 @@
         "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
+          "Box Office: 'Godzilla Minus Zero' Roars $6M Previews, 'Cat in the Hat' $1M",
           "‘Godzilla Minus Zero’ is a bigger, darker, R-rated sequel",
-          "‘Godzilla Minus Zero’ Director Takashi Yamazaki on Sequel Pressure, Hollywood Offers and a Possible Third Film",
-          "‘Godzilla Minus Zero’ Plus Its View of America Equals a Serious Film"
+          "‘Godzilla Minus Zero’ Director Takashi Yamazaki on Sequel Pressure, Hollywood Offers and a Possible Third Film"
         ]
       }
     ],
@@ -583096,9 +583216,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "Vanguard's VXUS Vs. VEU: Buy The One Without Small Caps (NYSEARCA:VEU)",
           "SPDW vs VXUS: Is a State Street or Vanguard International ETF the Better Fit for Your Portfolio?",
-          "SPDW vs EEM: Which International ETF Offers Better Value for Investors Seeking Global Stock Profits?"
+          "SPDW vs EEM: Which International ETF Offers Better Value for Investors Seeking Global Stock Profits?",
+          "Inside the Ticker: IEMG vs. VWO"
         ]
       }
     ],
@@ -583126,7 +583246,7 @@
         "publishable": false,
         "headlines": [
           "طاه إيطالي يفقد وظيفته وإقامته.. السبب وجبة بيتزا",
-          "رفض وضع الأناناس على البيتزا.. فخسر وظيفته وإقامته",
+          "\"شبكات\" يستعرض صدمة اعتزال رونالدو وإقالة طاهٍ إيطالي بسبب بيتزا",
           "البيتزا بالأناناس.. خلاف داخل مطعم أسترالي يتحول إلى أزمة مهنية وقانونية"
         ]
       }
@@ -583149,11 +583269,15 @@
         "date": "2026-11-06",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "category": "عام",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "سياسة",
         "publishable": false,
-        "headlines": []
+        "headlines": [
+          "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
+          "Open AI makes pledges on data center operation after midterm backlash",
+          "Setting a new standard for responsible AI infrastructure"
+        ]
       }
     ],
     "last_seen": "2026-11-06",
@@ -583161,8 +583285,8 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
-    "category": "عام"
+    "peak_traffic": 500,
+    "category": "سياسة"
   },
   "انبي": {
     "slug": "انبي",
@@ -583174,14 +583298,14 @@
         "date": "2026-11-06",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "كأس مصر.. الشرقية إنبي 3-2 بروكسي.. انتهاء الشوط الأول.. طريق الزمالك",
           "حسام إيفونا يقود هجوم الشرقية إنبى ضد بروكسى في كأس مصر",
-          "الشرقية إنبي يلتقي بروكسي اليوم في كأس مصر"
+          "الشرقية إنبي يهزم بروكسي 3-2 ويتأهل إلى دور الـ16 من كأس مصر"
         ]
       }
     ],
@@ -583190,7 +583314,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "رياضة"
   },
   "ramayana-movie-ranbir-kapoor": {
@@ -583221,5 +583345,146 @@
     ],
     "peak_traffic": 1000,
     "category": "فن ومشاهير"
+  },
+  "petrol-prices-south-africa": {
+    "slug": "petrol-prices-south-africa",
+    "name": "petrol prices south africa",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Great news for petrol prices in South Africa",
+          "South Africa's diesel price to drop, petrol little changed after levy cut",
+          "Motorists to see relief as fuel prices decrease across the board"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "اقتصاد"
+  },
+  "katherine-ryan": {
+    "slug": "katherine-ryan",
+    "name": "katherine ryan",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Russell Brand faces 'significant' prison sentence after rape and sexual assault conviction",
+          "Katherine Ryan feels 'grief and relief' over Brand guilty verdict",
+          "Russell Brand, convicted of rape, now likely to face more allegations, says UK police chief"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "حوادث وقضايا"
+  },
+  "الزمالك-ضد-مصر-للتأمين": {
+    "slug": "الزمالك-ضد-مصر-للتأمين",
+    "name": "الزمالك ضد مصر للتأمين",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "تغييرات بالجملة.. تشكيل الزمالك لمباراة مصر للتأمين في الكأس",
+          "عبد الناصر محمد يكشف سبب غياب شيكو بانزا عن مباراة مصر للتأمين",
+          "موقف محمد السيد وبنتايك من مباراة الغد أمام مصر للتأمين"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "honor-700": {
+    "slug": "honor-700",
+    "name": "honor 700",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Honor 700 series design officially revealed, all models to include a rear display - GSMArena.com news",
+          "Here’s what is inside the Honor 700 series mystery Magic box",
+          "Honor 700 and 700 Pro Tipped for Snapdragon 8-Series Chips"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
+  },
+  "youtube-youtube": {
+    "slug": "youtube-youtube",
+    "name": "youtube youtube",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": []
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
   }
 }

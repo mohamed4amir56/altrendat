@@ -2704,10 +2704,10 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "الأهلي يصطدم بالسكة الحديد في ضربة البداية بكأس مصر.. تعرف على موعد المباراة",
           "مران الأهلي| عموتة يحاضر اللاعبين وكوكا يؤدي جلسة علاج طبيعي",
+          "الأهلي يصطدم بالسكة الحديد في ضربة البداية بكأس مصر.. تعرف على موعد المباراة",
           "عموتة يدفع بقوة الأهلى الرئيسية أمام السكة لتجنب مفاجآت الكأس"
         ]
       }
@@ -7056,8 +7056,8 @@
         "date": "2026-11-06",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -7198,10 +7198,25 @@
           "انطلاق العد التنازلي.. تحذير من ظاهرة جوية تضرب البلاد: «شغلوا الكشافات»",
           "الأرصاد: انخفاض بدرجات الحرارة اليوم وأمطار على هذه المناطق.. هل تتأثر القاهرة؟"
         ]
+      },
+      {
+        "key": "2026-11-06|eg",
+        "date": "2026-11-06",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "+25000",
+        "traffic_num": 25000,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "حالة الطقس.. سحب ممطرة على هذه المحافظات تزداد حدتها الساعات القادمة",
+          "الأرصاد: انخفاض جديد في درجات الحرارة وأمطار متفاوتة الشدة على عدد من المحافظات غدا",
+          "أمطار ورياح نشطة وانخفاض الحرارة.. طقس متقلب يضرب المحافظات اليوم"
+        ]
       }
     ],
-    "last_seen": "2026-11-05",
-    "total": 8,
+    "last_seen": "2026-11-06",
+    "total": 9,
     "countries": [
       "eg",
       "sa"
@@ -7600,10 +7615,25 @@
           "Average microfinance loan size rises 17.5% to Rs 63,000 as lenders focus on bigger loans: Report",
           "Microfinance lenders tread cautiously amid rural stress"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "50000+",
+        "traffic_num": 50000,
+        "category": "طقس",
+        "publishable": true,
+        "headlines": [
+          "SA Weather Service issues level 4 warning for severe storms in Gauteng & KZN",
+          "SAWS issues severe thunderstorm warning for KZN",
+          "Another level 4 severe storm warning for South Africa, with hail and lightning hitting"
+        ]
       }
     ],
     "last_seen": "2026-11-06",
-    "total": 26,
+    "total": 27,
     "countries": [
       "eg",
       "sa",
@@ -30936,8 +30966,8 @@
         "date": "2026-11-06",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -80078,14 +80108,14 @@
         "date": "2026-11-06",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "يطالب ممثلو الجمعية الوطنية بالاستخدام الأمثل لمبلغ 8.2 مليون مليار دونغ فيتنامي في رأس مال الاستثمار العام.",
           "الوزير نجو فان توان: المبدأ هو \"يجب تقييم كل نفقة من حيث فعاليتها\".",
-          "قدمت السيدة تو آي فانغ، نائبة رئيس الوفد الدائم للجمعية الوطنية لمدينة كان ثو، تعليقاتها على مشروع قانون الميزانية العامة للدولة (الموحد).",
-          "تعزيز اللامركزية وتبسيط الإجراءات، مع تحسين كفاءة استخدام الميزانية والاستثمار العام في الوقت نفسه."
+          "يجب أن يسير تطبيق اللامركزية في الميزانية جنباً إلى جنب مع قدرات وموارد مستوى البلدية."
         ]
       }
     ],
@@ -80095,7 +80125,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "cam-smith": {
@@ -97596,9 +97626,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "«الأرصاد»: حالة مطرية واسعة تشمل معظم مناطق المملكة بدءاً من الجمعة",
-          "بيئي / حالة الطقس المتوقعة اليوم في المملكة",
-          "أمطار على العاصمة الرياض حتى الثلاثاء المقبل"
+          "بيئي / الأرصاد: أمطار أعلى من المعدل على أغلب مناطق المملكة خلال نوفمبر وانخفاض الحرارة في أجزاء من شمال وشرق المملكة",
+          "الأرصاد يتوقع أمطارًا رعدية ورياحًا نشطة على عدة مناطق اليوم",
+          "الدفاع المدني يحذّر من أمطار رعدية وسيول تضرب معظم مناطق المملكة من الجمعة حتى الثلاثاء"
         ]
       }
     ],
@@ -105526,14 +105556,14 @@
         "date": "2026-11-06",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "طقس",
         "publishable": false,
         "headlines": [
           "توقعات الطقس ليوم 6 نوفمبر: زخات مطر متفرقة وعواصف رعدية في الشمال، وسماء صافية في الجنوب.",
           "تجتاح جبهة هوائية باردة المنطقة، حاملة معها عواصف رعدية طويلة الأمد إلى الشمال.",
-          "ستشهد شمال فيتنام أياماً مشمسة، مع هطول أمطار متفرقة في أواخر فترة ما بعد الظهر والمساء."
+          "طقس اليوم (5 نوفمبر): قد تشهد جنوب فيتنام درجات حرارة تصل إلى 34 درجة مئوية، بينما ستشهد شمال فيتنام جبهة باردة الليلة."
         ]
       }
     ],
@@ -180298,9 +180328,9 @@
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "بحضور نائب وزير التعليم للتعليم العام.. “تعليم الرياض” ينظم لقاءً لتعزيز الشراكات مع الجامعات",
-          "تعليم الرياض يعلن مبادرات مشتركة مع الجامعات",
-          "«تعليم الرياض» تطلق أكثر من 26 مبادرة لتطوير العملية التعليمية وتعزيز الشراكة مع الجامعات"
+          "قطار الرياض ينال ترتيباً متقدماً بمشروعات النقل في مؤتمر المدن الذكية",
+          "«التوازن العقاري» يحصد الجائزة الأولى عالمياً في مؤتمر المدن الذكية ببرشلونة",
+          "اقتصادي / مركز البنية التحتية بالرياض يُتوّج ضمن أفضل 4 مبادرات عالمية في فئة الحوكمة والاقتصاد للعام الثاني على التوالي"
         ]
       }
     ],
@@ -236798,15 +236828,30 @@
           "Ethan Hawke blasts Hollywood's 'greedy b-----ds,' predicts massive rebellion against powerful elites",
           "BRB—Joining Ethan Hawke’s Class-Conscious Rebellion"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Levon Hawke to Star With Anthony Hopkins in Indie Drama ‘Twenty-Seven’ (EXCLUSIVE)",
+          "Ethan Hawke’s Son Levon Hawke Lands First Leading Role Opposite Anthony Hopkins",
+          "Levon Hawke to Star With Anthony Hopkins in Indie Drama ‘Twenty-Seven’ (Exclusive)"
+        ]
       }
     ],
-    "last_seen": "2026-10-16",
-    "total": 4,
+    "last_seen": "2026-11-06",
+    "total": 5,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "عام"
+    "category": "فن ومشاهير"
   },
   "brendan-allen": {
     "slug": "brendan-allen",
@@ -283870,9 +283915,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "السفر العالمي يسجل رقمًا قياسيًا بـ1.57 مليار وافد في 2026 وزيارات أوروبا ترتفع 5%",
-          "الإمارات تراهن على 5 أسواق لتعزيز السياحة بمشاركة 46 ألفاً في بورصة لندن",
-          "WTM لندن 2026: الفخامة والسياحة التجريبية وإمكانية الوصول والذكاء الاصطناعي في صدارة المشهد - الأخبار والإحصاءات"
+          "4 دول جديدة بات بإمكان مواطنيها الحصول على تأشيرة سياحية للسعودية",
+          "السعودية توسع نطاق التأشيرة السياحية لتشمل دولاً جديدة",
+          "المملكة توسع نطاق التأشيرة السياحية لتشمل 4 دول جديدة"
         ]
       }
     ],
@@ -295819,10 +295864,25 @@
           "‘The Lowdown’ Season 2 Review: Ethan Hawke and Betty Gilpin Light Up a Rollicking, Moving Mystery",
           "New Season of 'The Lowdown,' Sesame Street on Safari, Marvel's 'VisionQuest,' 'Brothers' Valentine Mayhem"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "'The Lowdown': Kyle MacLachlan Breaks Down Donald's Return",
+          "Emmy nominee Kyle MacLachlan discusses returning for Season 2 of comedic noir 'The Lowdown'",
+          "Emmy nominee Kyle MacLachlan discusses returning for Season 2 of comedic noir 'The Lowdown'"
+        ]
       }
     ],
-    "last_seen": "2026-10-14",
-    "total": 2,
+    "last_seen": "2026-11-06",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -400936,15 +400996,30 @@
           "\"There's Zero Urgency\": Hall of Famer Tim Hardaway Rips Bam Adebayo and Co. Without Sparing His Own Son",
           "Tim Hardaway Sr. calls out Giannis Antetokounmpo while praising Cooper Flagg"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Is Giannis Antetokounmpo Playing Tonight? (Injury Update Betting Impact for Heat vs. Warriors)",
+          "Visiting Heat are listing Giannis Antetokounmpo as …",
+          "Giannis Antetokounmpo final status for Miami Heat vs LA Clippers revealed"
+        ]
       }
     ],
-    "last_seen": "2026-11-05",
-    "total": 2,
+    "last_seen": "2026-11-06",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "posiciones-de-chivas-contra-necaxa": {
     "slug": "posiciones-de-chivas-contra-necaxa",
@@ -516192,14 +516267,14 @@
         "date": "2026-11-06",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "category": "عام",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "‘We Did This for This Man?’",
-          "What some anti-Trump Republicans said about the blue wave",
-          "The Midterms Delivered a Warning to the Democrats, Too"
+          "NCGOP chairman: ‘We cannot afford to sit back’ for 2028 elections",
+          "N.C. Re­pub­lican and De­mo­c­ratic leaders look to future as election cycle nears end",
+          "North Carolina GOP gearing up for midterm elections"
         ]
       }
     ],
@@ -516209,7 +516284,7 @@
       "eg"
     ],
     "peak_traffic": 500,
-    "category": "عام"
+    "category": "سياسة"
   },
   "india-vs-uae": {
     "slug": "india-vs-uae",
@@ -549933,10 +550008,25 @@
           "Miles Bridges records 21/6/3/4/1 line vs. GSW",
           "Dillon Brooks records 18 points, eight rebounds"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Brandin Podziemski is already quietly justifying his Warriors extension",
+          "NBA Notes: Warriors, Brandin Podziemski, Pistons, Ron Holland, Sixers",
+          "Postgame Warriors Talk: Brandin Podziemski ‑ 11/2/26"
+        ]
       }
     ],
-    "last_seen": "2026-11-03",
-    "total": 1,
+    "last_seen": "2026-11-06",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -578251,13 +578341,13 @@
         "date": "2026-11-06",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
           "البرلمان التركي يصادق على \"اتفاقية مكة\" تمهيداً ​لتقديم دعم عسكري للرياض وسط استمرار التصعيد بين السعودية والحوثيين",
-          "وزير الداخلية السعودي: اتفاق مكة خطوة مهمة لمواجهة الأزمات",
+          "السعودية وتركيا لتعزيز التعاون الأمني",
           "وزير الداخلية يبحث في أنقرة تعزيز التعاون الأمني مع تركيا"
         ]
       }
@@ -578267,7 +578357,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "سياسة"
   },
   "cal-poly-vs-arizona": {
@@ -578722,6 +578812,180 @@
           "Call of Duty: Warzone Season 1: Everything You Need to Know",
           "Call of Duty: Warzone Is Adding One of Its Most Requested Features Very Soon",
           "Call of Duty: Modern Warfare 4 Season 1 Battle Pass System, BlackCell, and New Store Bundles Detailed"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "bryce-james": {
+    "slug": "bryce-james",
+    "name": "bryce james",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Bryce James stats: Lebron James' son makes first college start for Arizona",
+          "Bryce James' Full Box Score, Highlights From MCBB Debut in Arizona's Upset Loss to UCLA",
+          "“We got another Make-A-Swish Kid” – Jason Whitlock accuses LeBron James of forcing Bryce onto Arizona's roster"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "mw4-season-1-release-date": {
+    "slug": "mw4-season-1-release-date",
+    "name": "mw4 season 1 release date",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Intel Drop: All You Need to Know about the Modern Warfare 4 Season 1 Battle Pass System, BlackCell, and New Store Bundles",
+          "Call of Duty: Warzone Is Adding One of Its Most Requested Features Very Soon",
+          "CoD MW4 Rally Point Guide: How to Play, PvE Features, Rewards & Season 1 Details"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "فن ومشاهير"
+  },
+  "kiyomi-mcmiller": {
+    "slug": "kiyomi-mcmiller",
+    "name": "kiyomi mcmiller",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "McMiller erupts for career-high 42 in 95-65 win over UCF",
+          "Florida’s Kiyomi McMiller Leaves NCAA Fans Talking After Becoming Fifth Player in Program History to Post Back-to-Back 30-Point Games",
+          "Gators’ transfer Kiyomi McMiller explodes for 42 points as Florida routs UCF"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "dan-koh": {
+    "slug": "dan-koh",
+    "name": "dan koh",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Koh sails to victory in Sixth District House race",
+          "Massachusetts Sixth Congressional District 2026: Live Election Results, Koh vs. Jones",
+          "Congressman-elect Dan Koh says his first priority is to 'get to the bottom of Donald Trump’s corruption'"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "سياسة"
+  },
+  "jaguars-nfl-standings": {
+    "slug": "jaguars-nfl-standings",
+    "name": "jaguars nfl standings",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Steelers fall in AFC playoff standings after Ravens loss to Jaguars",
+          "Steelers fall in AFC playoff standings after Ravens loss to Jaguars",
+          "Jaguars the class of the AFC? Jordan Love for MVP? Exploring underrated NFL storylines"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "maya-hawke": {
+    "slug": "maya-hawke",
+    "name": "maya hawke",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Maya Hawke Boards ‘Magic: The Gathering’ Movie From Legendary And Hasbro",
+          "Maya Hawke Joins ‘Magic: The Gathering’ Movie Adaptation",
+          "‘Magic: The Gathering’ Movie Casts Maya Hawke in Key Role"
         ]
       }
     ],

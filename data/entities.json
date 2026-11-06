@@ -211381,9 +211381,9 @@
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "أمطار غزيرة ورعدية.. الأرصاد تكشف المناطق المتأثرة ونصيب القاهرة الكبرى",
+          "بداية الأجواء الشتوية.. أمطار على القاهرة الكبري وطقس بارد وغطاء سحابى",
           "إنذار جوى بشأن حالة الطقس غدا: اتخذوا التدابير والاستعدادات الكافية",
-          "الطقس الآن.. أمطار متفرقة على القاهرة الكبرى واستمرار الأجواء الباردة"
+          "الأرصاد: استمرار الأجواء الخريفية وانخفاض درجات الحرارة غدا.. وفرص لسقوط الأمطار"
         ]
       }
     ],
@@ -211421,8 +211421,8 @@
         "date": "2026-11-06",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -262330,8 +262330,8 @@
         "publishable": false,
         "headlines": [
           "وزير التموين: استقرار الأسواق يتأثر بالتطورات الاقتصادية والمالية العالمية",
-          "محافظ البنك المركزي: نعمل على الحفاظ على الاستقرار المالي وتعزيز صلابة الجهاز المصرفي",
-          "محافظ \"المركزي\" المصري يفتتح المؤتمر العربي للمتداولين بمشاركة 500 مسؤول"
+          "محافظ \"المركزي\" المصري يفتتح المؤتمر العربي للمتداولين بمشاركة 500 مسؤول",
+          "محافظ البنك المركزي: نعمل على الحفاظ على الاستقرار المالي وتعزيز صلابة الجهاز المصرفي"
         ]
       }
     ],
@@ -307009,10 +307009,25 @@
           "Waves of Storms likely Monday. Severe Storms likely, some see heavy rainfall.",
           "Severe thunderstorms and tornado threat move to eastern Oklahoma"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "Flash flooding reported in Triangle as storms with heavy rain move through area",
+          "Tornado warning issued in Wayne County; several Raleigh vehicle crashes reported as storms hit central NC",
+          "UPDATE: Flash flood warning affecting the Piedmont region Friday afternoon"
+        ]
       }
     ],
-    "last_seen": "2026-11-03",
-    "total": 3,
+    "last_seen": "2026-11-06",
+    "total": 4,
     "countries": [
       "world"
     ],
@@ -482990,10 +483005,25 @@
           "خاص لـ \"كووورة\".. وهبي يُجهز مفاجأة هجومية للمغرب في نوفمبر",
           "مباشر/ لاعب مونديالي يعود للأسود!..وهبي مطالب بإخراج افضل نسخة للزابيري/ نزيف الإصابات يستمر"
         ]
+      },
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "وكيله: النصيري تلقى عروضًا للرحيل عن الاتحاد.. وهذا موقفه",
+          "سيسكا موسكو يدرس التعاقد مع النصيري في الميركاتو المقبل",
+          "عرض روسي لضم يوسف النصيري من الاتحاد السعودي"
+        ]
       }
     ],
-    "last_seen": "2026-10-27",
-    "total": 1,
+    "last_seen": "2026-11-06",
+    "total": 2,
     "countries": [
       "sa"
     ],
@@ -583704,8 +583734,8 @@
         "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
-          "Honor’s Newest Phone Has an Extra Screen—And It’s Not Where You’d Expect",
           "Honor 700 series design officially revealed, all models to include a rear display - GSMArena.com news",
+          "Honor’s Newest Phone Has an Extra Screen—And It’s Not Where You’d Expect",
           "Here’s what is inside the Honor 700 series mystery Magic box"
         ]
       }
@@ -584053,8 +584083,8 @@
         "date": "2026-11-06",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -584068,8 +584098,8 @@
         "date": "2026-11-06",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -584099,8 +584129,8 @@
         "date": "2026-11-06",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+4000",
-        "traffic_num": 4000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -584115,7 +584145,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 4000,
+    "peak_traffic": 5000,
     "category": "عام"
   },
   "venezia-vs-udinese": {
@@ -584186,21 +584216,6 @@
         "date": "2026-11-06",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "category": "رياضة",
-        "publishable": false,
-        "headlines": [
-          "Confirmed Sevilla and Alavés line-ups for LALIGA matchweek 12",
-          "Sevilla vs Alaves Prediction, 11/8/2026 Soccer Pick, Tips and Odds",
-          "Sevilla v Deportivo Alavés Goalscorer Betting Markets: Lucas Boyé, Mariano Díaz, Isaac Romero"
-        ]
-      },
-      {
-        "key": "2026-11-06|sa",
-        "date": "2026-11-06",
-        "country": "sa",
-        "country_name": "السعودية",
         "traffic": "500+",
         "traffic_num": 500,
         "category": "رياضة",
@@ -584210,6 +584225,21 @@
           "Sevilla v Deportivo Alavés Goalscorer Betting Markets: Lucas Boyé, Mariano Díaz, Isaac Romero",
           "Pronóstico Sevilla vs Alavés: Handicap Más de 2 goles en LaLiga"
         ]
+      },
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Confirmed Sevilla and Alavés line-ups for LALIGA matchweek 12",
+          "Sevilla vs Alaves Prediction, 11/8/2026 Soccer Pick, Tips and Odds",
+          "Sevilla v Deportivo Alavés Goalscorer Betting Markets: Lucas Boyé, Mariano Díaz, Isaac Romero"
+        ]
       }
     ],
     "last_seen": "2026-11-06",
@@ -584218,7 +584248,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "رياضة"
   },
   "إشبيلية-ضد-ألافيس": {
@@ -584231,8 +584261,8 @@
         "date": "2026-11-06",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -584246,8 +584276,8 @@
         "date": "2026-11-06",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -584263,7 +584293,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "إيفرتون-ضد-كوفنتري-سيتي": {
@@ -584276,8 +584306,8 @@
         "date": "2026-11-06",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
@@ -584308,7 +584338,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "اقتصاد"
   },
   "maverick-lyon": {
@@ -584352,12 +584382,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "سياسة",
+        "category": "عام",
         "publishable": false,
         "headlines": [
           "Katie Miller mocked after blaming busy moms for GOP midterm wipeout while admitting she skipped the vote",
-          "'Nothing is more MAGA': Top Trump official's wife admits she didn't vote in the midterms",
-          "MAGA podcaster Katie Miller blames mothers for election disaster as she admits she didn't vote"
+          "Katie Miller Blames MAGA Moms for Midterms Massacre",
+          "Trump aide’s wife admits she didn’t vote — scapegoats moms for GOP losses"
         ]
       }
     ],
@@ -584367,7 +584397,7 @@
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "سياسة"
+    "category": "عام"
   },
   "oxford-city-vs-leicester-city": {
     "slug": "oxford-city-vs-leicester-city",
@@ -584384,8 +584414,8 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "FA Cup: From facing Lionel Messi & Cristiano Ronaldo to non-league for Fernando Forestieri",
-          "Leicester City and FA Cup banana skin is Russell Martin's last chance to resurrect his reputation",
+          "Oxford City vs Leicester City: FA Cup stats & head-to-head",
+          "This is Russell Martin’s last chance to change the narrative",
           "‘The FA Cup’s Always Special’ - De Cordova-Reid On First Round"
         ]
       }
@@ -584410,12 +584440,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "فن ومشاهير",
+        "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "Taylor Swift Called the ‘Fakest’ New York Knicks Fan by 2 of Team’s Players: ‘It’s a Little Performative’",
-          "Taylor Swift Named 'Fakest' Celebrity Knicks Fan by Tyler Kolek, Deuce McBride in Trending Video",
-          "Knicks’ Tyler Kolek Calls Taylor Swift’s Courtside Appearance at Madison Square Garden ‘a Little Performative’"
+          "Knicks defend Taylor Swift's fandom after Tyler Kolek, Miles McBride weigh in",
+          "Knicks 'appreciative' of Taylor Swift after Kolek, McBride question fandom",
+          "Taylor Swift Called the ‘Fakest’ New York Knicks Fan by 2 of Team’s Players: ‘It’s a Little Performative’"
         ]
       }
     ],
@@ -584425,7 +584455,7 @@
       "world"
     ],
     "peak_traffic": 500,
-    "category": "فن ومشاهير"
+    "category": "دول وأماكن"
   },
   "venezia---udinese": {
     "slug": "venezia---udinese",
@@ -584542,5 +584572,120 @@
     ],
     "peak_traffic": 100,
     "category": "فن ومشاهير"
+  },
+  "toulouse-vs-strasbourg": {
+    "slug": "toulouse-vs-strasbourg",
+    "name": "toulouse vs strasbourg",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Tourcoing vs. Reims (Nov 14, 2026) Live Score",
+          "Creighton 83-55 Le Moyne (Nov 5, 2026) Final Score",
+          "Sevilla vs. Alavés (Nov 6, 2026) Team Stats"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "رياضة"
+  },
+  "minnesota-vikings-quarterback-trade-rumors": {
+    "slug": "minnesota-vikings-quarterback-trade-rumors",
+    "name": "minnesota vikings quarterback trade rumors",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Vikings to start QB Carson Wentz against Bills with Kyler Murray ruled out",
+          "Schefter Watching MN Vikings’ QB Situation Too",
+          "Vikings to start Carson Wentz vs. Bills on Monday with Kyler Murray battling hamstring injury"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "أكسفورد-سيتي-ضد-ليستر-سيتي": {
+    "slug": "أكسفورد-سيتي-ضد-ليستر-سيتي",
+    "name": "أكسفورد سيتي ضد ليستر سيتي",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|eg",
+        "date": "2026-11-06",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "مباراة مباشرة بين أكسفورد سيتي وليستر: التشكيلات الأساسية",
+          "توقعات مباراة أكسفورد سيتي وليستر: المباراة النهائية لتحديد بطل الدوري الإنجليزي الممتاز"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "اسعار-الفراخ-اليوم": {
+    "slug": "اسعار-الفراخ-اليوم",
+    "name": "اسعار الفراخ اليوم",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|eg",
+        "date": "2026-11-06",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "بعد الانخفاض الكبير.. سعر كيلو الفراخ البيضاء اليوم الجمعة 6-11-2026 ببورصة الدواجن الآن والأسواق",
+          "سعر الدواجن اليوم الجمعة 6 نوفمبر 2026 في الإسكندرية.. ارتفاع طفيف بالأسعار",
+          "خريطة الأسعار اليوم: استقرار الدواجن والبيض والخضروات وانخفاض الذهب"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "اقتصاد"
   }
 }

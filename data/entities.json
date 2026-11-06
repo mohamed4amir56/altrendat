@@ -2704,7 +2704,7 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "مران الأهلي| عموتة يحاضر اللاعبين وكوكا يؤدي جلسة علاج طبيعي",
           "الأهلي يصطدم بالسكة الحديد في ضربة البداية بكأس مصر.. تعرف على موعد المباراة",
@@ -7061,8 +7061,8 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Ноябрь включил зимний режим: в Беларуси ожидаются морозы до -7°С",
           "Одну из областей Беларуси скоро накроет снегодождь – прогноз погоды на 6 ноября",
+          "Мокрый снег и порывистый ветер ожидаются в Беларуси 6 ноября",
           "В Беларусь идут морозы до −7°С. Синоптики рассказали, когда похолодает"
         ]
       }
@@ -7204,8 +7204,8 @@
         "date": "2026-11-06",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+25000",
-        "traffic_num": 25000,
+        "traffic": "+30000",
+        "traffic_num": 30000,
         "category": "طقس",
         "publishable": false,
         "headlines": [
@@ -7621,14 +7621,14 @@
         "date": "2026-11-06",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "50000+",
-        "traffic_num": 50000,
+        "traffic": "+100200",
+        "traffic_num": 100200,
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "SA Weather Service issues level 4 warning for severe storms in Gauteng & KZN",
-          "SAWS issues severe thunderstorm warning for KZN",
-          "Another level 4 severe storm warning for South Africa, with hail and lightning hitting"
+          "Florida's cold weather myths: What Mom got right",
+          "4 Cold Weather Myths, Busted!",
+          "Florida's cold weather myths: What Mom got right"
         ]
       }
     ],
@@ -10039,10 +10039,25 @@
           "موعد رمضان 2027 في مصر.. متى تبدأ التراويح وكم يومًا متبقيًا؟",
           "متى يبدأ شهر رمضان 2027 في تركيا؟ موعد أول أيام الصيام"
         ]
+      },
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "ديني",
+        "publishable": false,
+        "headlines": [
+          "يبدأ فلكيا 8 فبراير.. هل يضم رمضان 2027 إجازات رسمية؟",
+          "موعد صلاة التراويح رمضان 2027.. متى تبدأ أول ليلة للشهر الكريم؟",
+          "تاريخ رمضان 1448"
+        ]
       }
     ],
-    "last_seen": "2026-11-03",
-    "total": 2,
+    "last_seen": "2026-11-06",
+    "total": 3,
     "countries": [
       "eg",
       "sa"
@@ -12904,10 +12919,25 @@
           "Sturmböen im Westerwaldkreis: DWD warnt vor Gefahr ab 600 Meter",
           "Orkanartige Böen bis 110 km/h und Gewitter: Jetzt legt der Herbst in Deutschland so richtig los"
         ]
+      },
+      {
+        "key": "2026-11-06|eg",
+        "date": "2026-11-06",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Wetter: Nebel und leichter Frost in Hessen",
+          "Wetteraussichten für Rheinland-Pfalz und Hessen",
+          "Vorhersage: Herbstwetter-Mix in Hessen: Wolken im Norden, Sonne im Süden"
+        ]
       }
     ],
-    "last_seen": "2026-10-09",
-    "total": 7,
+    "last_seen": "2026-11-06",
+    "total": 8,
     "countries": [
       "eg"
     ],
@@ -32627,17 +32657,32 @@
           "Episode méditerranéen : jusqu'à 150 à 200 mm au sud-est",
           "Vigilance jaune crues-inondation : situation à surveiller dans 3 départements ce 05 novembre 2026"
         ]
+      },
+      {
+        "key": "2026-11-06|eg",
+        "date": "2026-11-06",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Météo. La météo du vendredi 6 novembre 2026 à Antony et ses environs",
+          "Météo. Les prévisions météorologiques du mercredi 4 novembre 2026 à Antony et ses environs",
+          "Météo. La météo du jeudi 5 novembre 2026 à Antony et ses environs"
+        ]
       }
     ],
-    "last_seen": "2026-11-05",
-    "total": 6,
+    "last_seen": "2026-11-06",
+    "total": 7,
     "countries": [
       "eg",
       "sa",
       "world"
     ],
     "peak_traffic": 200,
-    "category": "فن ومشاهير"
+    "category": "عام"
   },
   "tristan-stubbs": {
     "slug": "tristan-stubbs",
@@ -80265,10 +80310,25 @@
           "كسر مفاجئ بخط مياه قطر 800 مم بالقاهرة.. وقطع المياه عن عدة مناطق",
           "القابضة للمياه: تكثيف العمل لسرعة الانتهاء من إصلاح كسر خط زهراء المعادي"
         ]
+      },
+      {
+        "key": "2026-11-06|eg",
+        "date": "2026-11-06",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "رئيس مياه كفرالشيخ يتفقد مركز خدمة العملاء ببلطيم.. ويؤكد: الارتقاء بمستوى الخدمات المقدمة للمواطنين| صور",
+          "تقييم مشروعات الصرف الصحي بكفر الشيخ في زيارة تفتيشية لـ«الشركة القابضة»",
+          "العضو المنتدب يتفقد محطات المياه بكفر الشيخ ويوجه بصرف مكافآت للعاملين"
+        ]
       }
     ],
-    "last_seen": "2026-10-20",
-    "total": 3,
+    "last_seen": "2026-11-06",
+    "total": 4,
     "countries": [
       "eg"
     ],
@@ -88165,15 +88225,30 @@
           "#TSRSports: Yay AREAAAAA! #Roomies, we STILL can’t get over this moment! On Saturday, the #GoldenStateValkyries made history after winning the 2026 WNBA Championship in just their second year! With so many pictures from this historic moment, we h",
           "Why doesn’t Valkyries’ parade route go down Market Street, like most Bay Area champions?"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Draymond Green Rips Dillon Brooks, Won't Respect His 'Energy' After Altercation in Warriors-Suns",
+          "Steph Curry says Draymond's ejection 'lit a fire' in Warriors",
+          "Draymond Green ejected after scuffle with Suns as Warriors rally for win"
+        ]
       }
     ],
-    "last_seen": "2026-11-03",
-    "total": 6,
+    "last_seen": "2026-11-06",
+    "total": 7,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "اقتصاد"
+    "category": "رياضة"
   },
   "معاون": {
     "slug": "معاون",
@@ -105563,7 +105638,7 @@
         "headlines": [
           "توقعات الطقس ليوم 6 نوفمبر: زخات مطر متفرقة وعواصف رعدية في الشمال، وسماء صافية في الجنوب.",
           "تجتاح جبهة هوائية باردة المنطقة، حاملة معها عواصف رعدية طويلة الأمد إلى الشمال.",
-          "طقس اليوم (5 نوفمبر): قد تشهد جنوب فيتنام درجات حرارة تصل إلى 34 درجة مئوية، بينما ستشهد شمال فيتنام جبهة باردة الليلة."
+          "ستشهد شمال فيتنام أياماً مشمسة، مع هطول أمطار متفرقة في أواخر فترة ما بعد الظهر والمساء."
         ]
       }
     ],
@@ -131895,10 +131970,40 @@
           "Giddey's Bulls cop another NBA loss, Giannis heating up",
           "Payton Pritchard is Celtics’ Name to Know Player of the Game after dominating the Bulls again"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Bronny James assigned to Coachella Valley Lakers in G League",
+          "Bronny James assigned to G League by Lakers",
+          "Bronny James assigned to G League's Coachella Valley Lakers after playing limited minutes early in third NBA season"
+        ]
+      },
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Miami Heat vs Golden State Warriors Nov 5, 2026 Box Scores",
+          "Diving deeper into Cavs 124-116 loss to Thunder: Cavaliers are too reliant on James Harden",
+          "Shai Gilgeous-Alexander News: Erupts for 42 points in victory"
+        ]
       }
     ],
-    "last_seen": "2026-10-31",
-    "total": 20,
+    "last_seen": "2026-11-06",
+    "total": 22,
     "countries": [
       "eg",
       "sa",
@@ -153710,10 +153815,25 @@
           "Brandon Williams joins EFL club after proving his fitness to ex-England manager",
           "Rotherham United v Shrewsbury Town: Former Manchester United defender may have to wait for debut"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Warriors vs. Suns injury report: Brandon Williams and Gui Santos out",
+          "Clint Capela (ankle) to remain out vs. Minnesota",
+          "Brandon Williams was out pregame testing his quad …"
+        ]
       }
     ],
-    "last_seen": "2026-10-25",
-    "total": 4,
+    "last_seen": "2026-11-06",
+    "total": 5,
     "countries": [
       "world"
     ],
@@ -163148,15 +163268,30 @@
           "Christian Bale Takes on the Gridiron: Prime Video Drops the Intense First R-Rated Look at His Transformation as Iconic Raiders Boss Al Davis Opposite Nicolas Cage",
           "Fans Vote 'The Dark Knight' as the Best Film of the Last 25 Years"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Who Is Nicolas Cage’s Wife, Riko Shibata?",
+          "Christian Bale and Wife Sibi Blažić Enjoy Rare Date Night in Coordinated Suits",
+          "‘Madden’ premiere red carpet: Nicolas Cage, Christian Bale, Kathryn Hahn and more"
+        ]
       }
     ],
-    "last_seen": "2026-10-25",
-    "total": 2,
+    "last_seen": "2026-11-06",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "فن ومشاهير"
+    "category": "عام"
   },
   "god-packs-mtg": {
     "slug": "god-packs-mtg",
@@ -180328,9 +180463,9 @@
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "قطار الرياض ينال ترتيباً متقدماً بمشروعات النقل في مؤتمر المدن الذكية",
-          "«التوازن العقاري» يحصد الجائزة الأولى عالمياً في مؤتمر المدن الذكية ببرشلونة",
-          "اقتصادي / مركز البنية التحتية بالرياض يُتوّج ضمن أفضل 4 مبادرات عالمية في فئة الحوكمة والاقتصاد للعام الثاني على التوالي"
+          "باكستان توقّع عقد مشاركتها في إكسبو 2030 الرياض وتبدأ تطوير جناحها",
+          "سوريا تُوقِّع عقد مشاركتها في «إكسبو 2030 الرياض»",
+          "باكستان توقّع عقد مشاركتها في إكسبو 2030 الرياض وتبدأ تطوير جناحها الثقافي"
         ]
       }
     ],
@@ -185438,15 +185573,30 @@
           "Georges Niang News: Will start Sunday",
           "GSW starts Curry, Podz, Niang, Lendeborg, Green"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Warriors 116-113 Suns (Nov 2, 2026) Game Recap",
+          "Steph Curry, Charles Bassey help Warriors to fifth straight win",
+          "After Draymond Green’s ejection, galvanized Warriors hang on to beat Suns for fifth straight win"
+        ]
       }
     ],
-    "last_seen": "2026-11-03",
-    "total": 6,
+    "last_seen": "2026-11-06",
+    "total": 7,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "jesse-van-rootselaar": {
     "slug": "jesse-van-rootselaar",
@@ -259826,10 +259976,25 @@
           "Bangladesh bowl out Afghanistan for 240",
           "Hasan Mahmud becomes third Bangladeshi to claim test hat-trick"
         ]
+      },
+      {
+        "key": "2026-11-06|sa",
+        "date": "2026-11-06",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "BAN vs WI, 2nd Test, West Indies tour of Bangladesh, 2026 - Commentary",
+          "Jangoo ton lifts West Indies after early wickets",
+          "WI opt to bat, hand Wickham debut; Mushfiqur back for Bangladesh"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 1,
+    "last_seen": "2026-11-06",
+    "total": 2,
     "countries": [
       "sa"
     ],
@@ -283915,9 +284080,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "4 دول جديدة بات بإمكان مواطنيها الحصول على تأشيرة سياحية للسعودية",
-          "السعودية توسع نطاق التأشيرة السياحية لتشمل دولاً جديدة",
-          "المملكة توسع نطاق التأشيرة السياحية لتشمل 4 دول جديدة"
+          "السفر العالمي يسجل رقمًا قياسيًا بـ1.57 مليار وافد في 2026 وزيارات أوروبا ترتفع 5%",
+          "الإمارات تراهن على 5 أسواق لتعزيز السياحة بمشاركة 46 ألفاً في بورصة لندن",
+          "WTM لندن 2026: الفخامة والسياحة التجريبية وإمكانية الوصول والذكاء الاصطناعي في صدارة المشهد - الأخبار والإحصاءات"
         ]
       }
     ],
@@ -321952,15 +322117,30 @@
           "Pumping Black Begins Filming in the French Alps",
           "Jonathan Bailey and Natalie Portman Thriller ‘Pumping Black’ Adds Daniel Quinn-Toye, Lucas Lynggaard Tønnesen, Arieh Worthalter and Tony Hale (Exclusive)"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "'The Gallerist' Trailer: Natalie Portman, Jenna Ortega At Art Basel",
+          "Jenna Ortega & Natalie Portman’s Absurd Comedy Movie With More A-Listers Gets New Trailer",
+          "Antic Trailer Released for The Gallerist , Natalie Portman-Starring Art World Satire"
+        ]
       }
     ],
-    "last_seen": "2026-10-15",
-    "total": 1,
+    "last_seen": "2026-11-06",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "فن ومشاهير"
   },
   "atlético-nacional---medellín": {
     "slug": "atlético-nacional---medellín",
@@ -330152,8 +330332,8 @@
         "date": "2026-11-06",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "تقنية",
         "publishable": false,
         "headlines": [
@@ -348355,14 +348535,14 @@
         "date": "2026-11-06",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "قطر تجري محادثات لشراء المزيد من الغاز المسال الأميركي",
-          "قطر تتجه لتصبح أكبر مشترٍ للغاز الطبيعي المسال الأمريكي بحلول 2033",
-          "غاز قطر يقاوم اضطرابات هرمز عبر 3 مسارات"
+          "رسميًا.. سعر أنبوبة البوتاجاز للمنازل اليوم الجمعة بعد قرار لجنة التسعير",
+          "أسعار البنزين والسولار في مصر اليوم الأربعاء 4 نوفمبر 2026",
+          "سعر البنزين والسولار فى محطات الوقود اليوم الجمعة 30 أكتوبر 2026"
         ]
       }
     ],
@@ -549818,10 +549998,24 @@
           "Yaxel Lendeborg nets 37 in highest scoring game by Warriors rookie since Steph Curry in 2010",
           "Game Recap: Warriors 124, Clippers 112"
         ]
+      },
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Warriors owner Joe Lacob ecstatic with early Yaxel Lendeborg returns",
+          "Warriors owner admits Yaxel Lendeborg has changed his thoughts on making trades"
+        ]
       }
     ],
-    "last_seen": "2026-11-03",
-    "total": 1,
+    "last_seen": "2026-11-06",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -578319,7 +578513,7 @@
         "headlines": [
           "Gui Santos remains out for second straight game as Heat Vs Warriors takes shape around the injury report",
           "How to watch Heat vs Warriors: Live stream NBA Basketball, TV channel",
-          "Final Injury Report for Heat-Warriors: Will Giannis Antetokounmpo, Al Horford Play?"
+          "GAME THREAD: Klay Thompson returns to Golden State as Heat (3-5) face Warriors (5-3)"
         ]
       }
     ],
@@ -578347,7 +578541,6 @@
         "publishable": false,
         "headlines": [
           "البرلمان التركي يصادق على \"اتفاقية مكة\" تمهيداً ​لتقديم دعم عسكري للرياض وسط استمرار التصعيد بين السعودية والحوثيين",
-          "السعودية وتركيا لتعزيز التعاون الأمني",
           "وزير الداخلية يبحث في أنقرة تعزيز التعاون الأمني مع تركيا"
         ]
       }
@@ -578996,5 +579189,63 @@
     ],
     "peak_traffic": 200,
     "category": "فن ومشاهير"
+  },
+  "ryan-clark": {
+    "slug": "ryan-clark",
+    "name": "ryan clark",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Ryan Clark accuses ESPN of using Sophie Cunningham to overshadow his firing",
+          "Ryan Clark almost quit ESPN over pressure to apologize for Kyren Lacy comments",
+          "“I Put It On Mute”: NFL Legend Ryan Clark Makes Painful Admission About Not Being Able to Watch Peers After ESPN Exit"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "fortnite-token": {
+    "slug": "fortnite-token",
+    "name": "fortnite token",
+    "first_seen": "2026-11-06",
+    "appearances": [
+      {
+        "key": "2026-11-06|world",
+        "date": "2026-11-06",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "‘Fortnite’ Clarifies The Odds Of Opening A Pirate Shop Token Chest",
+          "People Are Acting Weird As Hell During Fortnite’s Treasure Hunt",
+          "Fortnite's Pirate Token Item Is Everything That's Wrong With The Game These Days"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-06",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
   }
 }

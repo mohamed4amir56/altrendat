@@ -7163,14 +7163,14 @@
         "date": "2026-11-07",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "عام",
         "publishable": false,
         "headlines": [
           "В Санкт-Петербург к воскресенью вернется весеннее тепло благодаря циклону",
-          "Петербуржцам пообещали трудности на дорогах",
-          "Потепление возвращается: когда в Петербурге прекратятся дожди — мнение синоптика"
+          "Холодно, зато без дождей. Поменяет ситуацию далёкий циклон",
+          "Санкт-Петербург ждут необычно теплые выходные в начале ноября"
         ]
       }
     ],
@@ -7342,14 +7342,14 @@
         "date": "2026-11-07",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+110300",
-        "traffic_num": 110300,
+        "traffic": "+110700",
+        "traffic_num": 110700,
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "أمطار رعدية وانخفاض الحرارة.. الأرصاد تحذر من طقس السبت 7 نوفمبر 2026",
+          "رجعت الشتوية.. تحذير من انخفاض بدرجات الحرارة والصغرى بالقاهرة مفاجأة",
           "«الخريف يكشر عن أنيابه».. بيان عاجل بشأن حالة الطقس اليوم وخريطة سقوط الأمطار",
-          "تقلبات جوية مفاجئة.. أمطار متفاوتة الشدة وانخفاض ملحوظ فى الحرارة - صوت الأمة"
+          "الأرصاد: طقس غدا معتدل الحرارة نهارا على شمال البلاد مائل للحرارة جنوبا.. والعظمى بالقاهرة 25"
         ]
       }
     ],
@@ -7359,7 +7359,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 110300,
+    "peak_traffic": 110700,
     "category": "طقس"
   },
   "weather": {
@@ -13144,9 +13144,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Die Ruhe vor der Regenflut: Wo Sie jetzt noch den Herbst genießen können",
-          "Wetter am Wochenende: Viel Nebel, dann wird es wechselhaft",
-          "7-Tage-Trend: Zunehmend regnerisch und milder"
+          "Hochnebel, Sonne und Minusgrade: DWD gibt mehrere Warnungen für Bayern heraus",
+          "Graues Wochenende im Freistaat – Nur in wenigen Regionen Ostbayerns zeigt sich etwas Licht",
+          "Erst sonnig, dann kalt: So wird das Wetter in Ostbayern am Wochenende"
         ]
       }
     ],
@@ -33002,9 +33002,9 @@
         "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "Météo à Lyon : des journées bien froides avant une progression spectaculaire des températures, ce qui nous attend",
-          "Un jeudi pluvieux à Lyon, jusqu'à 12 degrés attendus",
-          "Prévisions météo du samedi 7 novembre 2026 à Lyon"
+          "Météo en Franche-Comté : un week-end entre brumes matinales, éclaircies et températures fraîches",
+          "Météo - Saône-et-Loire. Des grisailles parfois tenance ce samedi",
+          "Météo aujourd'hui : brouillards tenaces au nord-est, soleil et douceur au sud"
         ]
       }
     ],
@@ -103183,15 +103183,30 @@
           "Eagles Under Investigation over Jalen Hurts' Blood Clots, NFL and NFLPA Confirm in Joint Statement",
           "Jalen Hurts puts spotlight on blood thinners: 5 mistakes that could put patients at risk"
         ]
+      },
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "McCourty channeled his inner Marshawn Lynch",
+          "Solo Stove taps Marshawn Lynch for holiday campaign",
+          "Solo Stove and Marshawn Lynch encourage gift givers to shop Solo Stove this holiday with their new \"Gifts That Don't Suck\" campaign"
+        ]
       }
     ],
-    "last_seen": "2026-10-25",
-    "total": 2,
+    "last_seen": "2026-11-07",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "رياضة"
+    "category": "عام"
   },
   "قطاع-التأمين": {
     "slug": "قطاع-التأمين",
@@ -120736,10 +120751,25 @@
           "أسعار البنزين والسولار في مصر اليوم الأربعاء 4 نوفمبر 2026",
           "سعر البنزين والسولار فى محطات الوقود اليوم الجمعة 30 أكتوبر 2026"
         ]
+      },
+      {
+        "key": "2026-11-07|eg",
+        "date": "2026-11-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "رسميًا.. أسعار لتر البنزين والسولار اليوم السبت 7 نوفمبر بعد قرار لجنة تسعير المنتجات البترولية",
+          "أسعار أنبوبة البوتاجاز اليوم الثلاثاء",
+          "قبل ما تفوّل أو تشتري.. اعرف أسعار البنزين والسولار وأنبوبة البوتاجاز اليوم في مصر"
+        ]
       }
     ],
-    "last_seen": "2026-11-06",
-    "total": 5,
+    "last_seen": "2026-11-07",
+    "total": 6,
     "countries": [
       "eg"
     ],
@@ -170892,14 +170922,14 @@
         "date": "2026-11-07",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "30,000+",
-        "traffic_num": 30000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Portland Trail Blazers vs. Los Angeles Lakers: Game Highlights",
-          "Dončić dazzles with 53 in Lakers’ win as LeBron held to eight in Cleveland return",
-          "Luka Doncic reaches multiple major scoring milestones in NBA Cup win"
+          "Lakers 124-118 Trail Blazers (7 Nov, 2026) Game Recap",
+          "Luka Doncic reaches multiple major scoring milestones in NBA Cup win",
+          "Player Grades: Lakers vs. Blazers"
         ]
       }
     ],
@@ -170908,7 +170938,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 30000,
+    "peak_traffic": 20000,
     "category": "رياضة"
   },
   "nfc-south-standings": {
@@ -192410,9 +192440,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "تدفق المهاجرين يثير قلق سلطات الكناري",
+          "عملية إنقاذ واسعة في جزر الكناري: تقديم المساعدة لـ 854 مهاجراً قبالة جزيرة إل هييرو",
           "قتيلان ورضيع مصاب على متن قارب مهاجرين وصل إلى جزيرة إسبانية",
-          "جزر الكناري على صفيح ساخن.. 3200 مهاجر في خمسة أيام يعيدون شبح أزمة 2024"
+          "تدفق المهاجرين يثير قلق سلطات الكناري"
         ]
       }
     ],
@@ -212204,8 +212234,8 @@
         "publishable": false,
         "headlines": [
           "Mohammed Shami retires from Test cricket",
-          "‘He helped me quite a lot’: Morne Morkel reveals Mohammed Shami's role in Indian dressing room",
-          "Mohammed Shami- A retirement that is hard to process"
+          "Mohammed Shami- A retirement that is hard to process",
+          "‘He helped me quite a lot’: Morne Morkel reveals Mohammed Shami's role in Indian dressing room"
         ]
       }
     ],
@@ -223082,10 +223112,25 @@
           "Amazon shuffles Alexa leadership following high-end tablet release",
           "Introducing all-new Amazon Alexa Tablets—powerful tablets with Alexa+ built in"
         ]
+      },
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Your Android Phone Can Install Apps Outside The Play Store – Here's How",
+          "4 safe ways to download Android apps without using the Google Play Store",
+          "APK Downloads in Bangladesh: What Mobile Users Should Check"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 2,
+    "last_seen": "2026-11-07",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -224483,8 +224528,8 @@
         "date": "2026-11-07",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -230949,11 +230994,12 @@
         "country_name": "السعودية",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "فن ومشاهير",
+        "category": "عام",
         "publishable": false,
         "headlines": [
-          "Kaur posts on Instagram to rebuke 'fame digger' trolls",
-          "Arshdeep Defends Girlfriend Against Trolls"
+          "IPL: Hardik Pandya trade in decisive phase; MI rule out Suryakumar swap",
+          "Bad news for Sanjiv Goenka's LSG, Suryakumar Yadav's trade from MI unlikely to materialize before IPL 2027 pl",
+          "Hardik Pandya trade scenarios- Which team will he suit best?: 6 IPL franchises interested; which one is clo..."
         ]
       }
     ],
@@ -230963,7 +231009,7 @@
       "sa"
     ],
     "peak_traffic": 1000,
-    "category": "فن ومشاهير"
+    "category": "عام"
   },
   "météo-demain": {
     "slug": "météo-demain",
@@ -433385,8 +433431,8 @@
         "date": "2026-11-07",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -489546,10 +489592,23 @@
           "Sam Winchester Begins a Brand-New Supernatural Era as a Solo Hero",
           "Jared Padalecki Closes the Book on Sam Winchester to Join The Boys: The Real Reason His Final Supernatural Transition Changes Television Drama Forever"
         ]
+      },
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Jared Padalecki admits he ‘certainly had a crush’ on costar Lauren Graham in new Gilmore Girls doc trailer (exclusive)"
+        ]
       }
     ],
-    "last_seen": "2026-10-28",
-    "total": 1,
+    "last_seen": "2026-11-07",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -519334,10 +519393,25 @@
           "Líder de pandilla haitiana dice a la AP que escribió a la ONU para proponer diálogo",
           "Las pandillas haitianas se enfrentan al dilema de negociar la paz o morir"
         ]
+      },
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Poderosa pandilla haitiana contacta a grupo gubernamental de desarme",
+          "Pandillas en Haití piden diálogo a la ONU ante ataque de El Salvador",
+          "La paradoja del poder criminal y la mediación imposible en Haití"
+        ]
       }
     ],
-    "last_seen": "2026-11-03",
-    "total": 2,
+    "last_seen": "2026-11-07",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -591301,14 +591375,14 @@
         "date": "2026-11-07",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "عقد قران ابنة رانيا فريد شوفي وعاطف عوض",
-          "محتوى عن خطوبة-ابنة-رانيا-فريد-شوقي-وعاطف-عوض",
-          "بالصور| رانيا فريد شوقي تحتفل بعقد قران ابنتها فريدة بحضور أسرتها"
+          "ناهد السباعي لـ\"مصراوي\": والدي ووالدتي كانوا بيحترموا الفن وضحوا عشانه | مصراوي",
+          "ناهد السباعي: كنت بسأل أمي أنا شبه مين من الفنانين وكانت تقولي إنتي ملكيش شبه",
+          "جمعت بين البساطة والأناقة.. ناهد السباعي بإطلالة لامعة"
         ]
       }
     ],
@@ -591317,7 +591391,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "मसम": {
@@ -591537,9 +591611,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Dodongo Cavern Dungeon Walkthrough",
-          "Forest Temple walkthrough in Zelda Ocarina of Time",
-          "Ocarina of Time Remake Dungeons: Full List, Order and What Changed"
+          "Bottom of the Well dungeon walkthrough in Zelda Ocarina of Time",
+          "Bottom of the Well dungeon walkthrough in Zelda Ocarina of Time",
+          "Dodongo Cavern Dungeon Walkthrough"
         ]
       }
     ],
@@ -591648,15 +591722,185 @@
         "date": "2026-11-07",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "ستيفن ميلر... كاتب خطابات ترمب وظله يقود البيت الأبيض في اللحظة الحرجة",
-          "ترامب يعيّن ستيفن ميلر كبيراً لموظفي البيت الأبيض خلفاً لوايلز",
-          "هل تعتزم إقالة المزيد من المسؤولين بعد سوزي وايلز؟.. ترامب يجيب"
+          "هل تعتزم إقالة المزيد من المسؤولين بعد سوزي وايلز؟.. ترامب يجيب",
+          "فريق ترامب أمام \"اختبار البقاء\" مع خسارة الكونغرس"
         ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "fortnite-power-hour": {
+    "slug": "fortnite-power-hour",
+    "name": "fortnite power hour",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "‘Fortnite’ Clarifies The Odds Of Opening A Pirate Shop Token Chest",
+          "Fortnite’s Plan To Survive GTA 6 Is Finally Revealed: Make Everything Free",
+          "Fortnite's Pirate Token Item Is Everything That's Wrong With The Game These Days"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "the-walking-dead-the-return": {
+    "slug": "the-walking-dead-the-return",
+    "name": "the walking dead: the return",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "The Walking Dead's big franchise return is officially imminent",
+          "3 things Walking Dead fans need from Daryl Dixon's final season",
+          "The Walking Dead: Daryl Dixon season 4 could have an unexpected ending"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "campus-drivers-season-2": {
+    "slug": "campus-drivers-season-2",
+    "name": "campus drivers season 2",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "‘Off Campus’ Sets Season 2 Release Date at Amazon",
+          "‘Off Campus’ Gets Season 2 Release Date On Prime Video, Confirms Returning Cast",
+          "5 Best TV Shows To Watch After Prime Video's Off Campus"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
+  },
+  "raiders-vs-49ers": {
+    "slug": "raiders-vs-49ers",
+    "name": "raiders vs 49ers",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "What the 49ers are saying about the Raiders ahead of the Week 9 matchup",
+          "No small talk until Sunday: The Kubiak brothers’ sideline standoff in Raiders-49ers",
+          "Las Vegas Raiders are hoping one player just had a ‘wake-up call' just before they get set to play the San Francisco 49ers"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "عاطف-عوض": {
+    "slug": "عاطف-عوض",
+    "name": "عاطف عوض",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|eg",
+        "date": "2026-11-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "عقد قران ابنة رانيا فريد شوفي وعاطف عوض",
+          "محتوى عن خطوبة-ابنة-رانيا-فريد-شوقي-وعاطف-عوض",
+          "بالصور| رانيا فريد شوقي تحتفل بعقد قران ابنتها فريدة بحضور أسرتها"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "رانيا-فريد-شوقي": {
+    "slug": "رانيا-فريد-شوقي",
+    "name": "رانيا فريد شوقي",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|sa",
+        "date": "2026-11-07",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": []
       }
     ],
     "last_seen": "2026-11-07",

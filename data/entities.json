@@ -212379,14 +212379,13 @@
         "date": "2026-11-07",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "+110000",
-        "traffic_num": 110000,
+        "traffic": "+40000",
+        "traffic_num": 40000,
         "category": "طقس",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "الطقس غدا.. انخفاض بالحرارة وأمطار والصغرى بالقاهرة 16درجة",
-          "الأرصاد: استمرار الأجواء الشتوية وفرص سقوط الأمطار على عدد من المحافظات اليوم",
-          "محافظات في دائرة التأثر.. تحذير من تقلبات جوية مفاجئة - صوت الأمة"
+          "أمطار رعدية وسيول في السعودية: الأرصاد تحذر 12 منطقة",
+          "أمطار رعدية في السعودية: تنبيهات الأرصاد لـ 10 مناطق"
         ]
       }
     ],
@@ -212396,7 +212395,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 110000,
+    "peak_traffic": 100000,
     "category": "طقس"
   },
   "video-viral-video": {
@@ -223442,10 +223441,21 @@
           "No tsunami threat to Hawaii after large quakes hit off Vanuatu",
           "A preliminary magnitude 6.9 earthquake hits off the coast of Vanuatu"
         ]
+      },
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": []
       }
     ],
-    "last_seen": "2026-10-27",
-    "total": 2,
+    "last_seen": "2026-11-07",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -356827,12 +356837,43 @@
           "\"احضروا الموز!\" .. ماريسكا يوجه رسالة شكر إلى جمهور مانشستر سيتي",
           "سيتي يسحق ليفربول في عقر داره بثلاثية"
         ]
+      },
+      {
+        "key": "2026-11-07|eg",
+        "date": "2026-11-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "مانشستر سيتي يبحث عن تصحيح المسار أمام نوتينجهام في الدوري الإنجليزي",
+          "فانتازي يلاكورة.. الدفاع كلمة السر في الجولة العاشرة",
+          "مواجهات قوية اليوم السبت فى الدورى الإنجليزى"
+        ]
+      },
+      {
+        "key": "2026-11-07|sa",
+        "date": "2026-11-07",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "ما القنوات الناقلة لمباراة نوتنجهام فورست ومانشستر سيتي في الدوري الإنجليزي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
+          "مباراة فريقي مانشستر يونايتد و أستون فيلا في بطولة الدوري الإنجليزي الممتاز - الأسبوع 10",
+          "نوتينجهام ضد مان سيتي.. هالاند يقود تشكيل السيتزينز بالدوري الإنجليزي"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 1,
+    "last_seen": "2026-11-07",
+    "total": 3,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 1000,
     "category": "شخصية"
@@ -580663,8 +580704,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "إبراهيم عبد الجواد: علي ماهر مديرا فنيا لمنتخب مصر.. وجلسة طارئة للإعلان رسميًا",
           "لماذا تتصاعد المطالبات برحيل حسام حسن عن تدريب منتخب مصر؟",
+          "إبراهيم عبد الجواد: علي ماهر مديرا فنيا لمنتخب مصر.. وجلسة طارئة للإعلان رسميًا",
           "بعد بيان اتحاد الكرة.. أول رد من إبراهيم حسن"
         ]
       }
@@ -597396,8 +597437,8 @@
         "date": "2026-11-07",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "40,000+",
-        "traffic_num": 40000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -597428,7 +597469,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 40000,
+    "peak_traffic": 10000,
     "category": "رياضة"
   },
   "fulham": {
@@ -597708,7 +597749,7 @@
         "publishable": false,
         "headlines": [
           "Premier League LIVE: Live text, radio & score updates from across the Premier League",
-          "Maresca makes three changes for Forest trip",
+          "Nottingham Forest v Manchester City: Premier League – live",
           "Elliot Anderson returns home with Glasner on the brink"
         ]
       }
@@ -597731,14 +597772,14 @@
         "date": "2026-11-07",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "Mainz 05 1-2 Bayern Munich: Harry Kane provides two assists as Bundesliga champions stay top",
-          "Bayern, Dortmund win to stay tight at the top of Bundesliga",
-          "Match Awards from Bayern Munich’s important 2-1 win over Mainz 05"
+          "Match report: Bundesliga, FSV Mainz v FC Bayern",
+          "Joshua Kimmich believes ‘calm’ Bayern Munich could be building something very special"
         ]
       },
       {
@@ -597965,14 +598006,14 @@
         "date": "2026-11-07",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "بنجديدة والشحات ومحمود صلاح على مقاعد بدلاء الأهلي أمام السكة الحديد",
-          "كأس مصر| عموتة يعلن تشكيل الأهلي أمام السكة الحديد",
-          "الأهلي يصل إلى استاد القاهرة استعدادا لمواجهة السكة الحديد في الكأس"
+          "بث مباشر لمباراة الأهلي ضد السكة الحديد في كأس مصر",
+          "تشكيل الأهلي.. عودة الشناوي و7 تعديلات أمام السكة الحديد في كأس مصر",
+          "كأس مصر| عموتة يعلن تشكيل الأهلي أمام السكة الحديد"
         ]
       }
     ],
@@ -597981,7 +598022,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 20000,
     "category": "رياضة"
   },
   "حسام-حبيب": {
@@ -597999,9 +598040,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "حسام حبيب يظهر ممسكا بيد شابة في حفل رامي صبري.. وتكهنات بشأن ارتباطه",
           "ظهور رومانسي لحسام حبيب مع شابة يثير الجدل حول حياته العاطفية",
-          "ارتباط حسام حبيب طليق شيرين عبد الوهاب بشابة عشرينية يتصدّر.. ظهر ممسكاً بيدها",
-          "بعد شائعات ارتباطه.. حسام حبيب يظهر برفقة صديقته في حفل بالتجمع الخامس"
+          "أحدث ظهور للفنان حسام حبيب (صور)"
         ]
       }
     ],
@@ -598023,14 +598064,14 @@
         "date": "2026-11-07",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "ما القنوات الناقلة لمباراة الكوكب المراكشي والوداد في الدوري المغربي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
-          "الكشف عن حكم مباراة الوداد والكوكب المراكشي في الدوري المغربي",
-          "منحة مالية للسودري من طرف الكوكب"
+          "الحكم الحويضري يقود مواجهة الوداد الرياضي والكوكب المراكشي في البطولة الاحترافية",
+          "نابي يوجه تعليماته للاعبي الوداد قبل مواجهة الكوكب المراكشي"
         ]
       }
     ],
@@ -598039,7 +598080,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "رياضة"
   },
   "athletic-club-vs-real-madrid": {
@@ -598197,14 +598238,14 @@
         "date": "2026-11-07",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "Ty Dieffenbach throws 12-yard TD pass to Wayne Knight",
           "No. 8 UCLA football needs QB Ty Dieffenbach to be the difference",
-          "UCLA focuses on winning turnover battle, edge in trenches during key Minnesota matchup",
-          "Minnesota vs. UCLA odds, picks, college football predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus"
+          "Watch UCLA vs Minnesota Live: Streaming, TV Channel & Start Time - Nov 7, 2026 | CFB Week 10"
         ]
       }
     ],
@@ -598213,7 +598254,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "richard-lloyd": {
@@ -598284,8 +598325,8 @@
         "date": "2026-11-07",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -598300,7 +598341,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "عام"
   },
   "erika-donalds": {
@@ -598400,8 +598441,8 @@
         "date": "2026-11-07",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -598416,7 +598457,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "فضاء": {
@@ -598474,6 +598515,337 @@
       "sa"
     ],
     "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "dana-holgorsen": {
+    "slug": "dana-holgorsen",
+    "name": "dana holgorsen",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Jeremy Pernell: It’s Time for Nebraska’s Matt Rhule to Move On From Dana Holgorsen",
+          "Nebraska fires Dana Holgorsen: Matt Rhule parts with high-profile OC amid four-game losing streak",
+          "Dana Holgorsen Fired as Nebraska’s Offensive Coordinator"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "fortnite-power-hour-pirate-token": {
+    "slug": "fortnite-power-hour-pirate-token",
+    "name": "fortnite power hour pirate token",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "The ‘Fortnite’ Lottery Odds Pirate Shop Token Is Backfiring",
+          "Fortnite's Pirate Token Item Is Everything That's Wrong With The Game These Days",
+          "How to Unlock Pirate Shop Access - Free Item Shop Explained"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "sd-state-vs-northern-iowa": {
+    "slug": "sd-state-vs-northern-iowa",
+    "name": "sd state vs northern iowa",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "UNI women’s basketball drops first game of the 2026-27 season at South Dakota State",
+          "SDSU women's basketball picks up first win vs Northern Iowa",
+          "Jacks WBB hit 10 3-pointers in win over UNI"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "legend-glasker": {
+    "slug": "legend-glasker",
+    "name": "legend glasker",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": []
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "illinois-st-vs-north-dakota": {
+    "slug": "illinois-st-vs-north-dakota",
+    "name": "illinois st vs north dakota",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "High school football: Playoff pairings",
+          "The Blitz: Montana high school football highlights (Nov. 6)",
+          "McKenzie County woman pleads not guilty to charge stemming from death of her daughter"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "adt---sporting-cristal": {
+    "slug": "adt---sporting-cristal",
+    "name": "adt - sporting cristal",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Hernán Barcos sobre el duelo entre Cristal y ADT: \"Nos jugamos la vida\"",
+          "Sporting Cristal vs ADT EN VIVO: ¿a qué hora juegan y dónde ver la fecha 16 del Torneo Clausura 2026?",
+          "Hernán Barcos reaccionó a la sanción de Pablo Guede y habló sobre el duro reto de Sporting Cristal"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "valencia-vs-real-madrid": {
+    "slug": "valencia-vs-real-madrid",
+    "name": "valencia vs real madrid",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|world",
+        "date": "2026-11-07",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Valencia vs. Real Madrid: Preview, Predictions and Lineups",
+          "Valencia vs Real Madrid: Spanish La Liga stats & head-to-head",
+          "Valencia vs Real Madrid LIVE: La Liga"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "fulham-fc-vs-newcastle-united-fc-standings": {
+    "slug": "fulham-fc-vs-newcastle-united-fc-standings",
+    "name": "fulham f.c. vs newcastle united f.c. standings",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|eg",
+        "date": "2026-11-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Nottingham Forest vs Manchester City: Premier League preview, team news, stats & head-to-head",
+          "Muniz rescues late point for Fulham against Newcastle after Murphy stunner",
+          "Rodrygo saves Arbeloa's neck"
+        ]
+      },
+      {
+        "key": "2026-11-07|sa",
+        "date": "2026-11-07",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Nottingham Forest vs Manchester City: Premier League preview, team news, stats & head-to-head",
+          "Fulham 1-1 Newcastle: Rodrigo Muniz rescues point for hosts after Jacob Murphy's stunner at Craven Cottage",
+          "Rodrygo saves Arbeloa's neck"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "ألانيا-سبور": {
+    "slug": "ألانيا-سبور",
+    "name": "ألانيا سبور",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|eg",
+        "date": "2026-11-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "محمد صلاح يزين قائمة طرابزون لمواجهة ألانيا سبور فى الدوري التركي",
+          "ما القنوات الناقلة لمباراة ألانيا سبور وطرابزون سبور في الدوري التركي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
+          "الاسترخاء وراء اختيار محمد صلاح لطرابزون سبور"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "غلطة-سراي": {
+    "slug": "غلطة-سراي",
+    "name": "غلطة سراي",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|eg",
+        "date": "2026-11-07",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "فابيو ميلو حكماً للفيديو في مواجهة غلطة سراي وآمد سبور",
+          "تعيين حكام الجولة الحادية عشرة من الدوري التركي الممتاز",
+          "تسجيلات VAR لمباريات الأسبوع العاشر في الدوري التركي"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "jair-cunha": {
+    "slug": "jair-cunha",
+    "name": "jair cunha",
+    "first_seen": "2026-11-07",
+    "appearances": [
+      {
+        "key": "2026-11-07|sa",
+        "date": "2026-11-07",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Arsenal 1-0 Hull (Nov 7, 2026) Player Stats",
+          "Arsenal 1-0 Hull (Nov 7, 2026) Team Stats",
+          "Dortmund 2-1 Elversberg (Nov 7, 2026) Player Stats"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-07",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
     "category": "رياضة"
   }
 }

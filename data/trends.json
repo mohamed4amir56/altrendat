@@ -5,174 +5,225 @@
     "name_en": "Worldwide",
     "lang": "en",
     "flag": "🌐",
-    "generated_at": "2026-11-08T04:01:23.217322+00:00",
+    "generated_at": "2026-11-08T04:31:14.598777+00:00",
     "day": "2026-11-07",
     "trends": [
       {
-        "title": "psg vs troyes",
-        "traffic": "10000+",
-        "traffic_num": 10000,
-        "published": "Sat, 7 Nov 2026 11:10:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRRwOvZeQ1RCOectFBbNzb90RO0iFo7744EKusCTrxY7EliGaxoFxKykWOMiEA",
-        "image_source": "BBC",
+        "title": "weather today",
+        "traffic": "200000+",
+        "traffic_num": 200000,
+        "published": "Sat, 7 Nov 2026 19:20:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR8zD3nFi-heQhmdg9ZsqCz6lFW9KZ8rawYrP_XKUoYeaJqnW9DW_Iq0ee-zkM",
+        "image_source": "EWN",
         "news": [
           {
-            "title": "Paris Saint-Germain vs Troyes: French Ligue 1 stats & head-to-head",
-            "url": "https://www.bbc.com/sport/football/live/c6kg5dynmze1t",
-            "source": "BBC",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRRwOvZeQ1RCOectFBbNzb90RO0iFo7744EKusCTrxY7EliGaxoFxKykWOMiEA",
-            "og_title": "Paris Saint-Germain vs Troyes: French Ligue 1 stats & head-to-head",
-            "og_desc": "Follow live text commentary, score updates and match stats from Paris Saint-Germain vs Troyes in the French Ligue 1",
-            "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+            "title": "SA Weather Service issues warnings across multiple provinces for weekend storms",
+            "url": "https://www.ewn.co.za/2026/11/07/sa-weather-service-issues-warnings-across-multiple-provinces-for-weekend-storms",
+            "source": "EWN",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR8zD3nFi-heQhmdg9ZsqCz6lFW9KZ8rawYrP_XKUoYeaJqnW9DW_Iq0ee-zkM",
+            "og_title": "SA Weather Service issues warnings across multiple provinces for weekend storms",
+            "og_desc": "Mpumalanga and KwaZulu-Natal face a level 4 warning, while Gauteng, Limpopo, North West and the Free State are under a level 2 warning.",
+            "og_image": "https://media-cache.primedia-service.com/media/lw4ls53n/thermometer-4353318_1280.jpg?width=1200&height=630",
             "ok": true
           },
           {
-            "title": "PSG 1-0 Troyes (Nov 7, 2026) Game Analysis",
-            "url": "https://www.espn.com/soccer/report/_/gameId/401876407",
+            "title": "eThekwini on high alert amid Yellow Level 4 thunderstorm warning",
+            "url": "https://www.sabcnews.com/sabcnews/ethekwini-on-high-alert-amid-yellow-level-4-thunderstorm-warning/",
+            "source": "SABC News",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHr1ZY2WWepA8HB5a75fhctA3i2djFsVKyz0WL02fg6DBKniTRVHEQ896Qeks",
+            "og_title": "eThekwini on high alert amid Yellow Level 4 thunderstorm warning - SABC News - Breaking news, special reports, world, business, sport coverage of all South African current events. Africa's news leader.",
+            "og_desc": "Yellow Level 4 warning issued for some parts of KwaZulu-Natal, including large parts of the city.",
+            "og_image": "https://www.sabcnews.com/sabcnews/wp-content/uploads/2026/11/Rain.jpg",
+            "ok": true
+          },
+          {
+            "title": "Weather warning: Why Gauteng’s thunderstorms could be hectic on Sunday",
+            "url": "https://www.citizen.co.za/news/south-africa/weather/weather-warning-why-gautengs-thunderstorms-could-be-hectic-on-sunday/",
+            "source": "The Citizen",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQQ7JuKYeNhQEZj-OTi7M_WXS9TwirSA7mIs_tf3AKx6ESh5Zz9TWE2_Ghwbd4",
+            "og_title": "Weather warning: Why Gauteng's thunderstorms could be hectic on Sunday | The Citizen",
+            "og_desc": "Severe thunderstorms, damaging winds, hail and intense lightning are expected in these areas.",
+            "og_image": "https://media.citizen.co.za/wp-content/uploads/2026/11/thunderstorms-South-Africa-1200x800-1.jpg",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "ZA"
+        ],
+        "category": "طقس",
+        "icon": "🌤️",
+        "color": "#7fd8ff",
+        "reason": "العنوان يطابق: weather",
+        "publishable": true,
+        "card": "cards/world-2026-11-07-weather-today.png"
+      },
+      {
+        "title": "warriors",
+        "traffic": "+20500",
+        "traffic_num": 20500,
+        "published": "Sat, 7 Nov 2026 20:00:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQmgGRx-9pxJf24yXMrkx49qYQp47BWzu1CoduoVGFJYxC8EExQbyV_WpHlccU",
+        "image_source": "Yahoo Sports",
+        "news": [
+          {
+            "title": "Golden State Warriors Announce Injury Report vs. Orlando Magic (Nov. 7)",
+            "url": "https://sports.yahoo.com/articles/golden-state-warriors-announce-injury-082041661.html",
+            "source": "Yahoo Sports",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQmgGRx-9pxJf24yXMrkx49qYQp47BWzu1CoduoVGFJYxC8EExQbyV_WpHlccU",
+            "og_title": "Golden State Warriors Announce Injury Report vs. Orlando Magic (Nov. 7)",
+            "og_desc": "The Golden State Warriors are back in action on Saturday to continue their current six-game homestand, welcoming the Orlando Magic to the Chase Center.The Warriors are on a six-game winning streak and are fresh off a 120-100 win over the Miami Heat.On the other hand, the Magic have lost three in a row heading into […] The post Golden State Warriors Announce Injury Report vs. Orlando Magic (Nov. 7) appeared first on HEAVY.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/fe125f3a9794f8ae4cf8a450d93b4cd665992c12a520cafae27fe84891b4bddf/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fheavy_214%2Fa979ba106a7cf5984723fdf8af2c9ad3.png",
+            "ok": true
+          },
+          {
+            "title": "Golden State Warriors vs. Orlando Magic - 2nd Quarter Highlights",
+            "url": "https://www.nba.com/watch/video/golden-state-warriors-vs-orlando-magic-2nd-quarter-highlights-2?plsrc=nba&collection=steph-curry",
+            "source": "NBA.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRr41L3YkqqG5fV2g-U3cU4T6zOkUbplqX30AN_rGc1tNP6wXB6rVBiQW-GBY4",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "https://cdn.nba.com/logos/nba/fallback/NBA.Com-National-Basketball-Association.png",
+            "ok": false
+          },
+          {
+            "title": "Preview: Porzingis retires (sort of), Warriors keep rising",
+            "url": "https://dubnationhq.com/p/preview-porzingis-retires-sort-of",
+            "source": "Dub Nation HQ",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRFJ3KI4KmT3rxPVrafGQTOqdYt4iVaPz_qSNAXzcUZwGLzJfbX3u7FG86K4L4",
+            "og_title": "Preview: Porzingis retires (sort of), Warriors keep rising",
+            "og_desc": "One of the many roster gambles doesn’t pay off, Golden State’s success mitigates the pain",
+            "og_image": "https://substackcdn.com/image/fetch/$s_!1ucO!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadcc70a6-0f3b-4ac2-a5d6-fda7b22d266c_646x473.jpeg",
+            "ok": true
+          },
+          {
+            "title": "Warriors' Yaxel Lendeborg surprises mom with new home to fulfill 'lifelong goal'",
+            "url": "https://www.espn.com/nba/story/_/id/50412162/yaxel-lendeborg-warriors-gifts-mom-home",
             "source": "ESPN",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf20s0475mxrtHF7TJ3a1rKd2zV063GVqRkbvF-whEM-wVSNAyJx5LCxz_UT0",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTtIDu-DgR2Uw95QPDxhOwOsyX2v2UrAJJnOCQ4zzkW71QwBOPbOHq4OzvsCos",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
             "ok": false
           },
           {
-            "title": "Paris Saint-Germain makes a surprise decision regarding Achraf Hakimi",
-            "url": "https://www.goal.com/en/news/paris-saint-germain-makes-a-surprise-decision-regarding-achraf-hakimi/bltc3bcb8917f58e785",
-            "source": "Goal.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS_jJasbcOxcsEbNbNSQkuYM_aEhm5ThhuKwHb0YDoZ-9hynLzU2p_-ovILg9U",
-            "og_title": "Paris Saint-Germain makes a surprise decision regarding Achraf Hakimi | Goal.com",
-            "og_desc": "In a move aimed at protecting one of its biggest stars from fatigue, Paris Saint-Germain has decided to leave Morocco's Achraf Hakimi out of its plans for the upcoming match against Troyes, granting him a short rest after the considerable effort he has put in over recent weeks.",
-            "og_image": "https://assets.goal.com/images/v3/getty-2302205728/crop/MM5DGOJTGY5DEMRRGQ5G433XMU5DAORQ/GettyImages-2302205728.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "KE"
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "العنوان يطابق: vs",
-        "publishable": true,
-        "card": "cards/world-2026-11-07-psg-vs-troyes.png"
-      },
-      {
-        "title": "mn wild",
-        "traffic": "+2500",
-        "traffic_num": 2500,
-        "published": "Sat, 7 Nov 2026 19:30:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTCSdSIEnMs3Gr87pQSKu3PMdWj-VGW4vIWsyA3_rdS1wfMW1RZsoFQWYHy88g",
-        "image_source": "Hockey Wilderness",
-        "news": [
-          {
-            "title": "Bill Guerin and Quinn Hughes Are Trying To Prove Everyone Wrong",
-            "url": "https://hockeywilderness.com/news-rumors/minnesota-wild/bill-guerin-and-quinn-hughes-are-trying-to-prove-everyone-wrong-r31775/",
-            "source": "Hockey Wilderness",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTCSdSIEnMs3Gr87pQSKu3PMdWj-VGW4vIWsyA3_rdS1wfMW1RZsoFQWYHy88g",
-            "og_title": "Bill Guerin and Quinn Hughes Are Trying To Prove Everyone Wrong",
-            "og_desc": "While the Minnesota Wild handle their business on the ice, Quinn Hughes dominates most of the conversation around it. The Wild have gotten off to a great start, posting a 10-3-3 record going into Friday’s game against the San Jose Sharks. But contract extension talks with Hughes have seemingly go...",
-            "og_image": "https://hockeywilderness.com/uploads/monthly_2026_11/USATSI_30293429_168390100_lowres.jpg.079dcee40640b9018df03e16b57a658b.jpg",
+            "title": "Warriors rookie Yaxel Lendeborg buys house for his mother, who saved his basketball career",
+            "url": "https://sports.yahoo.com/nba/article/warriors-rookie-yaxel-lendeborg-buys-house-for-his-mother-who-saved-his-basketball-career-235024826.html",
+            "source": "Yahoo Sports",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSDH966jBSB-l-MkPOEAvy5op3TnJHUs-SsCGWe64GDD5OtxgufMIXjwOAZSkU",
+            "og_title": "Warriors rookie Yaxel Lendeborg buys house for his mother, who saved his basketball career",
+            "og_desc": "Yaxel Lendeborg's path to the NBA doesn't happen without his mother's support, according to the man himself.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/4e0315a8ce0a30a84212ce7d1dd9524297c9b6b9b2585a0cab128fbe510c49e8/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F71a62da9-8922-4b0c-a02e-5b0b503c7c65",
             "ok": true
           },
           {
-            "title": "Top 25 NHL UFAs of 2027: Does Quinn Hughes make it to market?",
-            "url": "https://www.dailyfaceoff.com/news/top-25-nhl-ufas-unrestricted-free-agents-2027-rankings-hughes-kucherov-robertson-crosby-zacha",
-            "source": "Daily Faceoff",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNChhQE-zizs7hy6U1lzqnAtyaygJiqGSX8h3b10Kmi8-VpcEmGUORzGfTny0",
-            "og_title": "Top 25 NHL UFAs of 2027: Does Quinn Hughes make it to market?",
-            "og_desc": "Will the Wild, intent on a Stanley Cup run, risk holding him as an 'own rental'?",
-            "og_image": "https://www.dailyfaceoff.com/_next/image?url=https://publish.dailyfaceoff.com/wp-content/uploads/2026/10/2026-10-04T035853Z_299307575_MT1USATODAY29994257_RTRMADP_3_NHL-BOSTON-BRUINS-AT-MINNESOTA-WILD-scaled.jpg&w=1200&q=75",
-            "ok": true
-          },
-          {
-            "title": "Is Quinn Hughes Fully Committed To The Minnesota Wild?: The Hockey News Big Show",
-            "url": "https://thehockeynews.com/news/podcast/is-quinn-hughes-fully-committed-to-the-minnesota-wild-the-hockey-news-big-show",
-            "source": "The Hockey News",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR4H8YTgDaZ12kqUoFcwONf6xWKFm_C9qWOmTqV6hhRoQudCpKkTSSV0vyrXhs",
-            "og_title": "Is Quinn Hughes Fully Committed To The Minnesota Wild?: The Hockey News Big Show",
-            "og_desc": "Katie Gaus, Michael Traikos and Ryan Kennedy discuss Bill Guerin’s latest comments regarding Quinn Hughes’ future, the Detroit Red Wings’ ongoing Dylan Larkin drama, Russia’s return to international hockey, and more.",
-            "og_image": "https://deweb-519a7.b-cdn.net/post-images/0776ed86-9f6d-47ad-8678-0aecb9df4c77.jpeg",
-            "ok": true
-          },
-          {
-            "title": "Lightning Wild Hockey",
-            "url": "https://www.idahopress.com/sports/national/lightning-wild-hockey/image_31483c50-bac8-5b72-8009-9eb9defa8a5d.html",
-            "source": "Idaho Press",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSDzMShjikYwN0e8VthDRTaaz8qikUm8gHCSFKg8JXM_JPdVwcFsRpF6oWD-Cw",
-            "og_title": "Lightning Wild Hockey",
-            "og_desc": "Minnesota Wild players celebrate after a goal by Maxim Shabanov against the Tampa Bay Lightning in the first period of an NHL hockey game Saturday, Nov. 7, 2026, in St.",
-            "og_image": "https://bloximages.chicago2.vip.townnews.com/idahopress.com/content/tncms/assets/v3/editorial/3/14/31483c50-bac8-5b72-8009-9eb9defa8a5d/6aefe34ee4f23.image.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
-            "ok": true
-          },
-          {
-            "title": "Blackhawks Lightning Hockey",
-            "url": "https://www.idahostatejournal.com/sports/national/blackhawks-lightning-hockey/image_0827553d-7d0f-5b6f-9daf-440bf97f5677.html",
-            "source": "Idaho State Journal",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUt-yG2Ae1evqK0M3qh6vJ95NWNj002FtFpM-T6cYNl7QLhdWiWFSFSdEZr5U",
-            "og_title": "Blackhawks Lightning Hockey",
-            "og_desc": "Tampa Bay Lightning defenseman J.J. Moser (90) passes the puck ahead of Chicago Blackhawks center Anton Frondell (16) during the first period of an NHL hockey game Thursday, Nov. 5,",
-            "og_image": "https://bloximages.chicago2.vip.townnews.com/idahostatejournal.com/content/tncms/assets/v3/editorial/0/82/0827553d-7d0f-5b6f-9daf-440bf97f5677/6aed282bba6a0.image.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
-            "ok": true
-          },
-          {
-            "title": "Lightning Wild Hockey",
-            "url": "https://www.dailyrecordnews.com/ap_news/sports/lightning-wild-hockey/image_afe18ab4-d746-5af3-927e-d4f0a76b3366.html",
-            "source": "dailyrecordnews.com",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSDzMShjikYwN0e8VthDRTaaz8qikUm8gHCSFKg8JXM_JPdVwcFsRpF6oWD-Cw",
-            "og_title": "Lightning Wild Hockey",
-            "og_desc": "Minnesota Wild players celebrate after a goal by Maxim Shabanov against the Tampa Bay Lightning in the first period of an NHL hockey game Saturday, Nov. 7, 2026, in St.",
-            "og_image": "https://bloximages.chicago2.vip.townnews.com/dailyrecordnews.com/content/tncms/assets/v3/editorial/a/fe/afe18ab4-d746-5af3-927e-d4f0a76b3366/6aefe7041ab59.image.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
+            "title": "Yaxel Lendeborg makes heartwarming gesture with first NBA paycheck",
+            "url": "https://basketnews.com/news-259012-yaxel-lendeborg-makes-heartwarming-gesture-with-first-nba-paycheck.html",
+            "source": "BasketNews.com",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZn1zfJv_9ZYJSEwp0OtGM7uj2ginf0P6t2tGBWXjFZFIy0lZPS8HeQvZ-DCU",
+            "og_title": "Warriors rookie makes heartwarming gesture with first NBA paycheck",
+            "og_desc": "Yaxel Lendeborg has been taking over the hearts of Golden State Warriors fans with his impressive play in his rookie season.",
+            "og_image": "https://basketnews.com/image-481662-any1200x1200.jpg",
             "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "اقتصاد",
-        "icon": "💰",
-        "color": "#f5c542",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-07-mn-wild.png"
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "العنوان يطابق: warriors",
+        "publishable": true,
+        "card": "cards/world-2026-11-07-warriors.png"
       },
       {
-        "title": "james harden",
+        "title": "thomas castellanos",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "published": "Sat, 7 Nov 2026 19:20:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQMpmwt4GbRci2YnXJXUhJ-lAjnLyQfMRpIxcLV4icGD9yA53pYa9TMEKMFCEo",
-        "image_source": "ESPN",
+        "published": "Sat, 7 Nov 2026 20:00:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRSQyVjxJwFjNcIdDvrnSp3FU8DyD2_KrC2BjaX_0jFwycz-7Frs-c5XzFojro",
+        "image_source": "The Lufkin Daily News",
         "news": [
           {
-            "title": "Fantasy adds, NBA bets to make for Friday: Cam Spencer, Saddiq Bey stand out",
-            "url": "https://www.espn.com/fantasy/basketball/story/_/id/50390776/fantasy-basketball-tips-nba-betting-picks-today",
-            "source": "ESPN",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQMpmwt4GbRci2YnXJXUhJ-lAjnLyQfMRpIxcLV4icGD9yA53pYa9TMEKMFCEo",
+            "title": "Oct 31, 2026; Lubbock, Texas, USA; Texas Tech Red Raiders quarterback Thomas Castellanos (4) hands to the ball to running back J'Koby Williams (20) in the second half against the Arizona Wildcats at Galaxy Stadium. Mandatory Credit: Michael C. Johnson",
+            "url": "https://lufkindailynews.com/news_reuters/state/oct-31-2026-lubbock-texas-usa-texas-tech-red-raiders-quarterback-thomas-castellanos-4-hands/image_f594360d-46a2-5ef6-8286-b26e67e4e353.html",
+            "source": "The Lufkin Daily News",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRSQyVjxJwFjNcIdDvrnSp3FU8DyD2_KrC2BjaX_0jFwycz-7Frs-c5XzFojro",
+            "og_title": "Oct 31, 2026; Lubbock, Texas, USA;  Texas Tech Red Raiders quarterback Thomas Castellanos (4) hands to the ball to running back J'Koby Williams (20) in the second half against the Arizona Wildcats at Galaxy Stadium.  Mandatory Credit: Michael C. Johnson-Imagn Images",
+            "og_desc": "Oct 31, 2026; Lubbock, Texas, USA; Texas Tech Red Raiders quarterback Thomas Castellanos (4) hands to the ball to running back J'Koby Williams (20) in the second half against the",
+            "og_image": "https://bloximages.chicago2.vip.townnews.com/lufkindailynews.com/content/tncms/assets/v3/editorial/f/59/f594360d-46a2-5ef6-8286-b26e67e4e353/6aee7d1775e81.image.jpg?crop=800%2C420%2C0%2C56",
+            "ok": true
+          },
+          {
+            "title": "Big 12 QB Rankings Week 10: Castellanos Joins Top 8 After Defeat of Arizona",
+            "url": "https://www.si.com/fannation/college/cfb-hq/rankings/big-12-qb-rankings-week-10-castellanos-joins-top-8-after-arizona-win",
+            "source": "Sports Illustrated",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQaD-XuIR7uoBm4qegqdFbVIWbKLQUe_vo55_YvgpGQkMXKi3OIyXPxkBu4VLA",
+            "og_title": "Big 12 QB Rankings Week 10: Castellanos Joins Top 8 After Defeat of Arizona",
+            "og_desc": "Two quarterback matchups took the Big 12 by storm in Week 9. The first intriguing battle was a matchup of opposites in No. 13 Texas Tech's 34-26 win against No.",
+            "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_2048,h_1152/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/college_football_hq/01m6p9kgr9tv61xez3qk.jpg",
+            "ok": true
+          },
+          {
+            "title": "SI names Texas Tech's Castellanos as pivotal quarterback",
+            "url": "https://redraiderswire.usatoday.com/story/sports/college/red-raiders/football/2026/11/06/texas-tech-football-castellanos-primed-to-be-offensive-solution/92647369007/",
+            "source": "Red Raiders Wire",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQY_1dSSIqLgofUPTsSJ8BCt-mw69WtGWwg5bKQ8j8ubzDXSsFXOJ7NGj8Wd-I",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "تقنية",
+        "icon": "💻",
+        "color": "#5aa9ff",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-11-07-thomas-castellanos.png"
+      },
+      {
+        "title": "wendell carter jr.",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Sat, 7 Nov 2026 20:10:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYzEzN10x1dq4ufNwyU8iEfqsL78dlUpRW28J2Zos03gCeOB6yNe8R1d1OwZw",
+        "image_source": "NBA.com",
+        "news": [
+          {
+            "title": "Wendell Carter Jr. puts up 27 in Phoenix",
+            "url": "https://www.nba.com/watch/video/highlights-from-wendell-carter-jr-27-point-game",
+            "source": "NBA.com",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYzEzN10x1dq4ufNwyU8iEfqsL78dlUpRW28J2Zos03gCeOB6yNe8R1d1OwZw",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "https://cdn.nba.com/logos/nba/fallback/NBA.Com-National-Basketball-Association.png",
             "ok": false
           },
           {
-            "title": "Best NBA Props Today: 3 NBA Prop Bets for Friday, Nov. 6",
-            "url": "https://www.fanduel.com/research/nba-props-today-friday-nov-6",
-            "source": "FanDuel",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTPFP3tdiFeGjO088EFPLZjwY7imcKPNXix9VNk_GuN6r00xrgu2pXkzzSDeIQ",
-            "og_title": "Best NBA Props Today: 3 NBA Prop Bets for Friday, Nov. 6",
-            "og_desc": "NBA player props to target today. What are the best NBA prop bets for Friday?",
-            "og_image": "https://cdn.sanity.io/images/pbwem9y5/ch_production/e4460af96906681271e116ed6d87951c4ffe8ef8-6398x4262.jpg?rect=0,92,6398,3166&w=964&h=477",
+            "title": "Wendell Carter Jr. leads Magic in loss to Suns",
+            "url": "https://www.fantasypros.com/nba/news/618130/wendell-carter-jr-leads-magic-loss-to-suns.php",
+            "source": "FantasyPros",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7UOyQjdNHhPzCv8m2FxK64jtqv5z0QTGl1wg-TUpTM7kr9N8RqhSaqD89_5E",
+            "og_title": "Wendell Carter Jr. leads Magic in loss to Suns",
+            "og_desc": "Carter had quite the offensive showing on Thursday, bouncing back from two consecutive single-digit point outings. He’s continued his pattern of either scoring 20 or more, or 10 or less, in every game so far this season. Because of that pattern, despite four games with 10+ rebounds, this was also his first double-double.",
+            "og_image": "https://cdn.fantasypros.com/wp-content/images/Wendell_Carter_Magic_1470x650/1470x650.jpg",
             "ok": true
           },
           {
-            "title": "Peter’s Points: NBA Best Bets Today (Predictions, Prop Bets for Luka Doncic, Trae Young, Celtics vs. Hornets)",
-            "url": "https://www.si.com/betting/nba-best-bets-today-predictions-prop-bets-for-luka-doncic-trae-young-celtics-vs-hornets",
-            "source": "Sports Illustrated",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQowKXZjgOO7Gx-A__GwVnLPktVgUwmcHtsMlLOsPtEnbFMbfctTgl3qIuENwI",
-            "og_title": "Peter’s Points: NBA Best Bets Today (Predictions, Prop Bets for Luka Doncic, Trae Young, Celtics vs. Hornets)",
-            "og_desc": "Week 2 of NBA Cup Group Play is upon us on Friday with a massive nine-game slate, as several teams look to position themselves for a run into the quarterfinals.",
-            "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4996,h_2810/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/si/01m6rgjt5z3yxe8p4mb7.jpg",
-            "ok": true
+            "title": "Fantasy Basketball Thursday Recap - Wendell Carter Does It Again",
+            "url": "https://www.kiiitv.com/video/sports/locked-on/lo-national/fantasy-basketball-show/fantasy-basketball-thursday-recap-wendell-carter-does-it-again/535-604511eb-330a-4a2e-b0a6-a751447b1e54",
+            "source": "kiiitv.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3_Eb31VB-4BTD7SDBxGpAlFYCUrtistI7XBF9OkWGIuPmLWY4puBt3uzV2SI",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
           }
         ],
         "geos": [
@@ -181,100 +232,122 @@
         "category": "رياضة",
         "icon": "⚽",
         "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 10000",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
         "publishable": false,
-        "card": "cards/world-2026-11-07-james-harden.png"
+        "card": "cards/world-2026-11-07-wendell-carter-jr.png"
       },
       {
-        "title": "alperen şengün",
+        "title": "salma hayek",
         "traffic": "500+",
         "traffic_num": 500,
-        "published": "Sat, 7 Nov 2026 19:30:00 -0800",
-        "image": "",
-        "image_source": "",
-        "news": [],
+        "published": "Sat, 7 Nov 2026 20:00:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRzZqjLBXmOHjSMgW5tY3du3GjxiGI6Z6dg0otswhSkQrTtc4W7_vRlO8nKxAQ",
+        "image_source": "Vogue",
+        "news": [
+          {
+            "title": "Salma Hayek Pinault, Jane Fonda, and Hollywood’s Leading Names Gathered to Toast Women In Film",
+            "url": "https://www.vogue.com/slideshow/salma-hayek-pinault-jane-fonda-women-in-film-honors-2026",
+            "source": "Vogue",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRzZqjLBXmOHjSMgW5tY3du3GjxiGI6Z6dg0otswhSkQrTtc4W7_vRlO8nKxAQ",
+            "og_title": "Salma Hayek Pinault, Jane Fonda, and Hollywood’s Leading Names Gathered to Toast Women In Film",
+            "og_desc": "If there was one room in Hollywood where female power was unmistakable, it was the Beverly Hilton on Thursday night, where Women In Film hosted its annual WIF Honors.",
+            "og_image": "https://assets.vogue.com/photos/6aee0414afba659d7eb6aeba/16:9/w_1280,c_limit/2303771267.jpg",
+            "ok": true
+          },
+          {
+            "title": "WIF Honors 2026 red carpet: Salma Hayek, Kerry Washington, Sharon Stone and more",
+            "url": "https://pagesix.com/2026/11/05/photos/wif-honors-2026-red-carpet-salma-hayek-kerry-washington-sharon-stone-and-more/",
+            "source": "Page Six",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT289qvulJo4uXYv7Q_Ig3F5p5je52ZH4AIo2PuuhM9pYmgL-sG3zT6-xYSjxI",
+            "og_title": "WIF Honors 2026 red carpet: Salma Hayek, Kerry Washington, Sharon Stone and more",
+            "og_desc": "From Salma Hayek to Kerry Washington, see all the stars here.",
+            "og_image": "https://pagesix.com/wp-content/uploads/sites/3/2026/11/wif-copy.jpg?quality=90&strip=all&w=1200",
+            "ok": true
+          },
+          {
+            "title": "Salma Hayek might have found her perfect shade: Mexican star looks her best in Navy",
+            "url": "https://www.hola.com/us/fashion/20261106933675/salma-hayek-perfect-shade-navy/",
+            "source": "HOLA",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4PQc-FkmGIDUvd5EKGPiggJ_qvarDvSDpPLwYRUb-T1sZVkGJ5WpjaxkgP7M",
+            "og_title": "Salma Hayek might have found her perfect shade: Mexican star looks her best in Navy",
+            "og_desc": "Salma Hayek stuns at WIF Honors 2026 in a navy blue Bottega Veneta gown, gold accessories and glamorous makeup while accepting a special humanitarian award in LA",
+            "og_image": "https://www.hola.com/us/horizon/landscape/1200/0fedb2d5468c-gettyimages-2303784656.jpg",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "فن ومشاهير",
+        "icon": "🎬",
+        "color": "#c77dff",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-11-07-salma-hayek.png"
+      },
+      {
+        "title": "daniel radcliffe",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Sat, 7 Nov 2026 20:10:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSO4nzmhxj-z8bBpP4_TDOFA4YJ8na80Jzv_Tfh29Xo_Jrly74bok_NrGqBv0Y",
+        "image_source": "People.com",
+        "news": [
+          {
+            "title": "Daniel Radcliffe Reveals How Beauty and the Beast and Sherlock Holmes Inspired His Favorite Part of His N.Y.C. Home",
+            "url": "https://people.com/daniel-radcliffe-reveals-inspiration-behind-his-favorite-feature-in-his-new-york-city-home-12236199",
+            "source": "People.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSO4nzmhxj-z8bBpP4_TDOFA4YJ8na80Jzv_Tfh29Xo_Jrly74bok_NrGqBv0Y",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Harry Potter | Announcing Harry Potter Audioscapes™: A cosy new immersive listening experience from Pottermore",
+            "url": "https://www.harrypotter.com/news/announcing-harry-potter-audioscapes-a-cosy-new-immersive-listening-experience-from-pottermore",
+            "source": "Harry Potter",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1JUPKSmzkbsZ5oXdPnmak7hrJT54Wig0PJ-E-jS5bWfVd_S7C2kyB1ICZg",
+            "og_title": "Harry Potter | Announcing Harry Potter Audioscapes™: A cosy new immersive listening experience from Pottermore | Wizarding World",
+            "og_desc": "Pull up a seat (preferably a squashy armchair) on 17th November and settle into Hogwarts life with the soothing sounds of the Gryffindor Common Room.",
+            "og_image": "https://contentful.harrypotter.com/usf1vwtuqyxm/4CvDoyvAL4JLeqgujuH7a6/1c1952916fb6425c129f95b9f84a8d68/pottermore-audioscapes-announcement-gryffindor-common-room-hero.jpg?w=1200&fit=fill&f=top",
+            "ok": true
+          },
+          {
+            "title": "Harry Potter Officially Returns on November 17",
+            "url": "https://collider.com/harry-potter-philosophers-stone-gryffindor-common-room-audioscapes-november-17/",
+            "source": "Collider",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWh85yVg4w2rNZmeAfg3tpro-mvY970YnQEt53qKyFv9aXqcWnmgso6Ttev1s",
+            "og_title": "Harry Potter Officially Returns on November 17",
+            "og_desc": "Harry Potter returns November 17 with a new immersive Dolby Atmos audio experience recreating the Gryffindor common room.",
+            "og_image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/04/harry-potter-logo.jpg?w=1600&h=900&fit=crop",
+            "ok": true
+          }
+        ],
         "geos": [
           "US"
         ],
         "category": "عام",
         "icon": "🌐",
         "color": "#9aa4b2",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/world-2026-11-07-alperen-şengün.png"
-      },
-      {
-        "title": "anthony black",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Sat, 7 Nov 2026 19:30:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDrmNXQQPdFrhquFIqV71Dv2ZP4Uhi49VHPPlWIA-uZHh6gmPigkQ0JTBG-bc",
-        "image_source": "roundtable.io",
-        "news": [
-          {
-            "title": "Grizzlies Could Use Clever Trade Strategy to Add Another Young Core Piece",
-            "url": "https://roundtable.io/sports/nba/grizzlies/opinion/grizzlies-could-use-clever-trade-strategy-to-add-another-young-core-piece",
-            "source": "roundtable.io",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDrmNXQQPdFrhquFIqV71Dv2ZP4Uhi49VHPPlWIA-uZHh6gmPigkQ0JTBG-bc",
-            "og_title": "Grizzlies Could Use Clever Trade Strategy to Add Another Young Core Piece",
-            "og_desc": "Memphis could use the trade deadline to target young restricted free agents such as Anthony Black, Scoot Henderson or Daniss Jenkins.",
-            "og_image": "https://deweb-519a7.b-cdn.net/post-images/b520f390-77ad-4a4d-aab2-d98ebdeac434.jpeg",
-            "ok": true
-          },
-          {
-            "title": "3 Win-Now Trade Targets Grizzlies Could Consider After 4-0 Start",
-            "url": "https://roundtable.io/sports/nba/grizzlies/opinion/3-win-now-trade-targets-grizzlies-could-consider-after-4-0-start",
-            "source": "roundtable.io",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS1KHd24AMlvGaMrh_o_ybIwDozu3YpeSQ2nBi9POR4LvvUV-mBKzMzqwSpZD4",
-            "og_title": "3 Win-Now Trade Targets Grizzlies Could Consider After 4-0 Start",
-            "og_desc": "Memphis is off to a 4-0 start. Jrue Holiday, Anthony Black and Derrick Jones Jr. are three potential win-now trade targets worth considering.",
-            "og_image": "https://deweb-519a7.b-cdn.net/post-images/3969b8f1-14ec-4388-a31a-add956f14265.jpeg",
-            "ok": true
-          },
-          {
-            "title": "Suns provide relief with much-needed blowout win vs. Magic, force 25 Orlando turnovers",
-            "url": "https://arizonasports.com/nba/phoenix-suns/suns-provide-relief-with-much-needed-blowout-win-vs-magic-force-25-orlando-turnovers",
-            "source": "Arizona Sports",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT1n_SrrEc2YzPdBpRydZ_rmd1bgP_2GGInZ2QKHe7ZUDhN7ZytmqcDjdfJmi8",
-            "og_title": "Suns provide relief with much-needed blowout win vs. Magic - Arizona Sports",
-            "og_desc": "The energy felt far more different coming into the night as the Suns got back in the win column with a 117-104 victory over the Magic.",
-            "og_image": "https://arizonasports.com/wp-content/uploads/2026/11/DSC07192.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-07-anthony-black.png"
+        "card": "cards/world-2026-11-07-daniel-radcliffe.png"
       },
       {
-        "title": "pumas",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Sat, 7 Nov 2026 19:20:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTmh6ybMQ8DC_gCC59vPVz-wCmhFm4eXiL3FyrK8bAU9spa1MSKFdr1W43vEP4",
-        "image_source": "VAVEL.com",
+        "title": "fortnite token",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Sat, 7 Nov 2026 20:10:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwYOykrzx1qfjaRrTx5l7b0yg-W5YjZGHeHORYJf_3bT46El0qwfj6gXPG8N8",
+        "image_source": "Forbes",
         "news": [
           {
-            "title": "Pumas vs Club America LIVE, Score Updates, Liga MX Clasico Capitalino (1-1)",
-            "url": "https://www.vavel.com/en-us/soccer/2026/11/07/1278396-pumas-vs-club-america-live-score-updates-liga-mx-clasico-capitalino.html",
-            "source": "VAVEL.com",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTmh6ybMQ8DC_gCC59vPVz-wCmhFm4eXiL3FyrK8bAU9spa1MSKFdr1W43vEP4",
-            "og_title": "Pumas vs Club America LIVE, Score Updates, Liga MX Clasico Capitalino (1-1)",
-            "og_desc": "Follow Pumas UNAM vs Club América live score at Estadio Olímpico Universitario, goals, team news, lineups, text commentary & Liga MX 2026 stats on VAVEL.",
-            "og_image": "https://img.vavel.com/c169_copia-de-edits-vavel-mx-7-1794024904970-9xb0rc.jpg",
-            "ok": true
-          },
-          {
-            "title": "Nathan Silva Fires Up América vs. Pumas with a Bold Statement—What Did the Brazilian Say?",
-            "url": "https://www.soyfutbol.com/en/news/nathan-silva-fires-up-america-vs.-pumas-with-a-bold-statementwhat-did-the-brazilian-say-20261107-0023.html",
-            "source": "Soy Futbol",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSF5kbRPlVd_1CAmqPDJDz6MAn279nyeCayD5IGVlbva-B2AJ76-ChVb3wZN3Q",
+            "title": "The ‘Fortnite’ Lottery Odds Pirate Shop Token Is Backfiring",
+            "url": "https://www.forbes.com/sites/paultassi/2026/11/06/the-fortnite-lottery-odds-pirate-shop-token-is-backfiring/",
+            "source": "Forbes",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwYOykrzx1qfjaRrTx5l7b0yg-W5YjZGHeHORYJf_3bT46El0qwfj6gXPG8N8",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -282,13 +355,23 @@
             "error": "HTTPError"
           },
           {
-            "title": "América vs. Pumas: The $83 million roster gap behind Mexico City’s biggest rivalry",
-            "url": "https://en.as.com/soccer/america-vs-pumas-the-83-million-roster-gap-behind-mexico-citys-biggest-rivalry-f202611-n/",
-            "source": "Diario AS",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSv_gU0b4QUa4ew5J8vM_b115kIdS2mdn-HjhKf98oKPpHaDPAMDlZIAFnvLw",
-            "og_title": "América vs. Pumas: The $83 million roster gap behind Mexico City’s biggest rivalry",
-            "og_desc": "Pumas and América head into the Capital Classic with very different realities, both in the overall table and in the value of their respective squads.",
-            "og_image": "https://img.asmedia.epimg.net/resizer/v2/BPGHHOV7DJLX3M3FKGH5QYCW24.jpg?auth=27219a461499233d5156de9013b7aaad399c1c6bf8264bccc9a453b6b69169a4&width=1472&height=828&smart=true",
+            "title": "All Free Treasure Chest Rewards List",
+            "url": "https://www.ign.com/wikis/fortnite/All_Free_Treasure_Chest_Rewards_List",
+            "source": "IGN",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQry90VsgzMazjMOXhR_zkBqdorn7XXQ78JsxfSzivvS8ysy35Dwv9trfPLCeA",
+            "og_title": "All Free Treasure Chest Rewards List - Fortnite Guide - IGN",
+            "og_desc": "A new Fortnite mini season is here, and it&apos;s all about pirates. Treasure Hunters is live until December 5, 2026, and not only is there a brand-new map to",
+            "og_image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/fortnite/7/77/Fortnite-free-treasure-chest-rewards-unlock.jpg",
+            "ok": true
+          },
+          {
+            "title": "Fortnite's Pirate Token Item Is Everything That's Wrong With The Game These Days",
+            "url": "https://aftermath.site/fortnite-pirate-token/",
+            "source": "Aftermath",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRN6vNEOO4jl1XyvzGvVx9EoV6I5yc3UNCHJBSa0PslGHr3oEswjmpiWYp6bow",
+            "og_title": "Fortnite's Pirate Token Item Is Everything That's Wrong With The Game These Days",
+            "og_desc": "The ultra-rare item has led to scams and grinding",
+            "og_image": "https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w1200/2026/11/Screenshot-2026-11-05-at-12.36.49---PM.png",
             "ok": true
           }
         ],
@@ -300,93 +383,93 @@
         "color": "#3ddc97",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-07-pumas.png"
+        "card": "cards/world-2026-11-07-fortnite-token.png"
       },
       {
-        "title": "mon laferte",
+        "title": "husker volleyball score",
         "traffic": "200+",
         "traffic_num": 200,
-        "published": "Sat, 7 Nov 2026 19:40:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9lX24VNhkuuIPiJb3IOsZHaRVRHtPcr8D87L9-QGHubRDyg6gcLZYP9PzeyQ",
-        "image_source": "CNN en Español",
+        "published": "Sat, 7 Nov 2026 20:10:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR1t8vbuliSgtWXLJ4b39Vyah3dkt_EPAMQ1d_oqv6jEUjgZUpN7PeNIpupCFQ",
+        "image_source": "Nebraska Public Media",
         "news": [
           {
-            "title": "Golpean a Mon Laferte en el rostro con un objeto durante concierto en Las Vegas",
-            "url": "https://cnnespanol.cnn.com/2026/11/06/entretenimiento/video/mon-laferte-vegas-golpe-cara-concierto-orix",
-            "source": "CNN en Español",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9lX24VNhkuuIPiJb3IOsZHaRVRHtPcr8D87L9-QGHubRDyg6gcLZYP9PzeyQ",
-            "og_title": "Golpean a Mon Laferte en el rostro con un objeto durante concierto en Las Vegas | CNN",
-            "og_desc": "",
-            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/entretenimiento-9-20261106213038791.jpg?c=16x9&q=w_800,c_fill",
+            "title": "2026 Class B Volleyball Championship",
+            "url": "https://nebraskapublicmedia.org/en/series-media/nsaa-state-volleyball-championships-video/standalone-video-15983/2026-class-b-volleyball-championship-50032357/",
+            "source": "Nebraska Public Media",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR1t8vbuliSgtWXLJ4b39Vyah3dkt_EPAMQ1d_oqv6jEUjgZUpN7PeNIpupCFQ",
+            "og_title": "2026 Class B Volleyball Championship",
+            "og_desc": "NSAA State Volleyball Championships: Class B",
+            "og_image": "https://d1vmz9r13e2j4x.cloudfront.net/logos/Nebraska_Public_Media_Logo.png",
             "ok": true
           },
           {
-            "title": "Golpean a Mon Laferte en pleno concierto en Las Vegas",
-            "url": "https://es-us.vida-estilo.yahoo.com/mon-laferte-sufre-golpe-rostro-141014884.html",
-            "source": "Yahoo en Español Vida y Estilo",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSMz9UMlJS333KV-bT-QxuMnHeQlyMLNbh1ve6diJ5uQ4etAv6W425-yHYg1Ig",
-            "og_title": "Golpean a Mon Laferte en pleno concierto en Las  Vegas",
-            "og_desc": "CIUDAD DE MÉXICO, noviembre 6 (EL UNIVERSAL).- La cantante Mon Laferte se vio obligada a abandonar momentáneamente el escenario durante su reciente concierto en la ciudad de Las Vegas, luego de que un...",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/bde43f7da45016946e588cdfa4a8f78a143706b072b87fea32826380c323cf3c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F4f478ec9-687d-441c-95e7-fcfbc125ec56",
+            "title": "State volleyball semifinal roundup: Back-to-back Class B champion Norris loses in straight sets, and more",
+            "url": "https://www.klkntv.com/state-volleyball-semifinal-roundup-back-to-back-class-b-champion-norris-loses-in-straight-sets-and-more/",
+            "source": "KLKN-TV",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ERZPOxMxElyT8Tog8IEBEDryh21NVG3IXt09O-lk77TmjNOhQ4ETOHb8Ms8",
+            "og_title": "State volleyball semifinal roundup: Back-to-back Class B champion Norris loses in straight sets, and more",
+            "og_desc": "Back-to-back Class B champion Norris fell in straight sets to Grand Island Northwest 25-18, 25-22, 25-22, among other notable semifinal results on Friday.",
+            "og_image": "https://www.klkntv.com/content/uploads/2026/11/h/j/screenshot-2026-11-06-233357-1024x494.png",
             "ok": true
           },
           {
-            "title": "Mon Laferte se pronunció luego de ser golpeada con un celular en el rostro durante concierto en EE.UU.",
-            "url": "https://rpp.pe/famosos/celebridades/video-mon-laferte-se-pronuncio-tras-ser-golpeada-con-un-celular-durante-concierto-en-eeuu-noticia-1716447",
-            "source": "RPP Noticias",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRNCPuQrEqjuxWZFghm8u2lQa3RJcD0uPwLNSHGp19eYPoMVSnyXlvu6d3YKZg",
-            "og_title": "Mon Laferte se pronunció luego de ser golpeada con un celular en el rostro durante concierto en EE.UU.",
-            "og_desc": "La artista chilena aseguró que está bien, pero pidió a sus seguidores que no vuelvan a arrojar objetos al escenario.",
-            "og_image": "https://f.rpp-noticias.io/2026/11/06/421042_1926648.jpg?width=1200&quality=85",
+            "title": "NSAA State Volleyball Highlights & Scores",
+            "url": "https://www.1011now.com/2026/11/04/nsaa-state-volleyball-highlights-scores/",
+            "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTrlL-I7dzkfAabW9WlEyyp1Kqk2cMQv3MHNdQHzysJhQWMMMiEM2R2mc0qPf0",
+            "og_title": "NSAA State Volleyball Highlights & Scores",
+            "og_desc": "Watch highlights and view scores from the 2026 NSAA State Volleyball Championships.",
+            "og_image": "https://gray-koln-prod.gtv-cdn.com/resizer/v2/C7BWPZJJHBC4XOTYX5DEUGCKFI.jpg?auth=7aa21dd221becad62aceaf1138402795eb8a86c15f78b9147f7c02ebb894bab4&width=1200&height=600&smart=true",
             "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "سياسة",
-        "icon": "🏛️",
-        "color": "#ff5c7c",
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-07-mon-laferte.png"
+        "card": "cards/world-2026-11-07-husker-volleyball-score.png"
       },
       {
-        "title": "mark fletcher jr.",
+        "title": "ap poll week 10 projections",
         "traffic": "200+",
         "traffic_num": 200,
-        "published": "Sat, 7 Nov 2026 19:30:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQwhTAxtWobtAtjQ0CFpv3zZjhSQVdJ339PGGhx_ey0XN3HfMfS5AagwZTX5TE",
+        "published": "Sat, 7 Nov 2026 20:10:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRGwNZ9IEhuJJyE7hBN4YjPQmb1QjTP_XNuGCJjt47bxcGz73FTlouRZWgAyKA",
         "image_source": "ESPN",
         "news": [
           {
-            "title": "'Never met a stranger': Riding to a Miami game with Linda Fletcher",
-            "url": "https://www.espn.com/college-football/story/_/id/50390365/linda-fletcher-miami-rv",
+            "title": "Will college football's top team stand up in Week 10?",
+            "url": "https://www.espn.com/college-football/story/_/page/gamedaykickoff110526/week-10-top-games-upsets-preview",
             "source": "ESPN",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQwhTAxtWobtAtjQ0CFpv3zZjhSQVdJ339PGGhx_ey0XN3HfMfS5AagwZTX5TE",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRGwNZ9IEhuJJyE7hBN4YjPQmb1QjTP_XNuGCJjt47bxcGz73FTlouRZWgAyKA",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
             "ok": false
           },
           {
-            "title": "Miami RB Mark Fletcher Jr. surprises mom with new Cadillac Escalade",
-            "url": "https://sports.yahoo.com/articles/miami-rb-mark-fletcher-jr-163126324.html",
-            "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ8QRL2mMY3oYVYsKFMmTOKqAB3wUhkuyHFJGbpJXcEUikBpfz0Qa5z3Sr9QSU",
-            "og_title": "Miami RB Mark Fletcher Jr. surprises mom with new Cadillac Escalade",
-            "og_desc": "Throughout Mark Fletcher Jr.’s career at Miami, his mom Linda Fletcher famously does not fly to see his games, instead choosing to drive. She now has a new set of wheels after Fletcher put his NIL money to good use. Fletcher surprised his mom with a new Cadillac Escalade and captured the moment on Finding […]",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/7cfbb932bf850b9e5439ce8a925b1739892b0bf4c9c2513e9c7f36feaeb6b511/lightyear_networkapi/resizefill_w1200_h630%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fon3_nil_articles_944%2F00420c26ce7b84ba5b259738cf5c7874.png",
+            "title": "Winners and Losers of the Week 10 College Football Playoff Rankings",
+            "url": "https://bleacherreport.com/articles/25529077-winners-and-losers-week-10-college-football-playoff-rankings",
+            "source": "Bleacher Report",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTja2Q3mSLiwzX_mUr0j3PExH9qnr6qlvp_hFfBPP7Q8HgDpNwGyPlSU-9bHjs",
+            "og_title": "Winners and Losers of the Week 10 College Football Playoff Rankings",
+            "og_desc": "Let the debates begin.",
+            "og_image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/2026-11/br_cfb_winner-losers_16x9-(7).png?w=1120&h=630",
             "ok": true
           },
           {
-            "title": "Miami's Mark Fletcher Jr. uses NIL money to surprise mother with new Cadillac Escalade",
-            "url": "https://caneswarning.com/miami-s-mark-fletcher-jr-uses-nil-money-to-surprise-mother-with-new-cadillac-escalade",
-            "source": "Canes Warning",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhn9FkTX_e4aBXQc3cbmcBjKdd898nZTzimZtLgqDsec5CWzIeACWAhet5e0Y",
-            "og_title": "Miami's Mark Fletcher Jr. uses NIL money to surprise mother with new Cadillac Escalade",
-            "og_desc": "Mark FletcherJr., Miami's senior running back, used NIL earnings to surprise his mother with a new luxury SUV. The scene was filmed for Finding Fletchers, the s",
-            "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_757,y_0,w_3050,h_1715/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/200/01m674ed7xkz9tzg1p4v.jpg",
+            "title": "Associated Press Top 25 poll voters hit a new, ridiculous low with this week's results",
+            "url": "https://www.foxnews.com/outkick-sports/associated-press-top-25-poll-voters-hit-new-ridiculous-low-weeks-results",
+            "source": "Fox News",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxRzH9_M5Drw3jOFEEy-Q-yj8ebL6q0URX4IOAP_AgVyesnyRAg1u7epFW9Jo",
+            "og_title": "Associated Press Top 25 poll voters hit a new, ridiculous low with this week's results",
+            "og_desc": "The Associated Press Top 25 poll gives the SEC special treatment, ranking Florida and South Carolina despite three losses each already this season.",
+            "og_image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/sumrall-disappointed-featured.jpg",
             "ok": true
           }
         ],
@@ -398,44 +481,44 @@
         "color": "#3ddc97",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-07-mark-fletcher-jr.png"
+        "card": "cards/world-2026-11-07-ap-poll-week-10-projections.png"
       },
       {
-        "title": "ufc 335",
+        "title": "paolo banchero",
         "traffic": "200+",
         "traffic_num": 200,
-        "published": "Sat, 7 Nov 2026 19:30:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRELSUx_PAziX0g6Tjk4LTLsdaVedUeSooFXQVa3Vg4bdqO-q0r5nJsBGh5PsU",
-        "image_source": "MMA Fighting",
+        "published": "Sat, 7 Nov 2026 20:10:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROMSuatTV_FPEduNMYdB2ZVk6gT2eYOklpN_2xkntsXOdD4QZOiT3YRCIwVg0",
+        "image_source": "Yahoo Sports",
         "news": [
           {
-            "title": "Maycee Barber out of UFC 335 matchup with Carli Judice",
-            "url": "https://www.mmafighting.com/ufc/519837/maycee-barber-vs-carli-judice-scratched-from-ufc-335-lineup",
-            "source": "MMA Fighting",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRELSUx_PAziX0g6Tjk4LTLsdaVedUeSooFXQVa3Vg4bdqO-q0r5nJsBGh5PsU",
-            "og_title": "Maycee Barber out of UFC 335 matchup with Carli Judice",
-            "og_desc": "UFC 335 has lost an important matchup from the card following the withdrawal of Maycee Barber for undisclosed reasons.",
-            "og_image": "https://platform.mmafighting.com/wp-content/uploads/sites/109/2026/11/gettyimages-2268851025.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-            "ok": true
-          },
-          {
-            "title": "Maycee Barber Out of UFC 335",
-            "url": "https://sports.yahoo.com/articles/maycee-barber-ufc-335-012423614.html",
+            "title": "Ex TCU Star Desmond Bane Must Step Up as Paolo Banchero's Absence Hurts Struggling Magic",
+            "url": "https://sports.yahoo.com/articles/former-tcu-star-desmond-bane-210019265.html",
             "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT35D5LkiY5w4-cLswf0njAfY3BGBKExUIxeCdbeRdMVsQOAEJL0kTv8SMCu9U",
-            "og_title": "Maycee Barber Out of UFC 335",
-            "og_desc": "UFC 335 has lost a fight as women’s flyweight contender Maycee Barber is out of her matchup against Carli Judice.Barber vs. Judice was set to take place on the UFC 335 undercard of the upcoming December 12 event at T-Mobile Arena in Las Vegas, Nevada.However, the fight is now off the card due to an […] The post Maycee Barber Out of UFC 335 appeared first on HEAVY.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/d607002cd61b637f11a0ce45ebcbefd79bd71c3c3caa6d122b8dd50e0f063222/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fheavy_214%2Faf3494ffa8f9a24959394ce10fb87495.jpg",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROMSuatTV_FPEduNMYdB2ZVk6gT2eYOklpN_2xkntsXOdD4QZOiT3YRCIwVg0",
+            "og_title": "Ex TCU Star Desmond Bane Must Step Up as Paolo Banchero's Absence Hurts Struggling Magic",
+            "og_desc": "With an 0-4 home record and their franchise cornerstone sidelined, Orlando pivots to the former TCU standout to ignite a stagnant offense and salvage a sliding season.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/65ba01850068093953ac5de381f3dedee6147bcda02e3d661bb8936dac8ef862/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Froundtable_sports_tcu_480%2F9abf98cdce5f09f418b61de62b3a98c8.jpg",
             "ok": true
           },
           {
-            "title": "UFC 335 down a fight with promotion looking to reschedule Maycee Barber's return according to report",
-            "url": "https://bloodyelbow.com/2026/11/07/ufc-335-down-a-fight-with-promotion-looking-to-reschedule-maycee-barbers-return-according-to-report/",
-            "source": "Bloody Elbow",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz6aYbsTY8RVEcRNQwGEFzCv_9v3tw0ePt4L9PtI0foIke1XhB1IZEJ6ABveY",
-            "og_title": "UFC 335 down a fight with promotion looking to reschedule Maycee Barber's return according to report",
-            "og_desc": "Maycee Barber will no longer make her return in December",
-            "og_image": "https://cdn1.bloodyelbow.com/uploads/1/2025/06/GettyImages-2072135028-scaled.jpg",
+            "title": "Paolo Banchero Headlines Official Suns-Magic Injury Report",
+            "url": "https://www.si.com/nba/suns/onsi/paolo-banchero-headlines-official-phoenix-suns-orlando-magic-injury-report",
+            "source": "Sports Illustrated",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRD7cOQ1nzdi8CNIKaOr-XM6bhWKz3QQLflU65UtoW0RZ_FjRtWRT_u9c-c5ow",
+            "og_title": "Paolo Banchero Headlines Official Suns-Magic Injury Report",
+            "og_desc": "The two sides have officially unveiled their respective injury reports.",
+            "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_74,w_4356,h_2450/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/inside_the_suns/01m6pkpjf60knk3xapcq.jpg",
+            "ok": true
+          },
+          {
+            "title": "Paolo Banchero Fantasy Basketball Injury Update: When Will Magic Star Return?",
+            "url": "https://www.complex.com/bets/a/matt-burke/paolo-banchero-fantasy-basketball-injury-update",
+            "source": "Complex",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSa0cXNLxBEJheMe7IqgEM9V-7AYPZLKWs3Kk14JwPuPfTTxNUCZeH-XxZoNSw",
+            "og_title": "Paolo Banchero Fantasy Basketball Injury Update",
+            "og_desc": "A look at the fantasy basketball injury to Paolo Banchero...",
+            "og_image": "https://images.complex.com/complex/image/upload/c_crop,h_1999,w_2999,x_0,y_0/g_auto:aoi_1200_800_600_400,ar_1.91,c_fill,q_auto,w_1200/sanity-new/xf56zehf9ipnucrbrvzq",
             "ok": true
           }
         ],
@@ -447,58 +530,7 @@
         "color": "#3ddc97",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-07-ufc-335.png"
-      },
-      {
-        "title": "strait of hormuz",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Sat, 7 Nov 2026 19:20:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRawj2dcqFb8qNH5e7YDZWtFFMJERcchE1yKt2qNkIberKMVR8VGFrXskaDZHg",
-        "image_source": "CBS News",
-        "news": [
-          {
-            "title": "More ships attacked in Persian Gulf, oil prices rebound slightly after post-midterm plunge",
-            "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/",
-            "source": "CBS News",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRawj2dcqFb8qNH5e7YDZWtFFMJERcchE1yKt2qNkIberKMVR8VGFrXskaDZHg",
-            "og_title": "More ships attacked in Persian Gulf, oil prices rebound slightly after post-midterm plunge",
-            "og_desc": "Oil rebounds slightly as ships continue coming under attack in the Persian Gulf after prices plunged following President Trump's midterm elections rebuke.",
-            "og_image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/05/365928ef-6306-4d5e-a1af-d30458e6d47c/thumbnail/1200x630/184b7d2311ea1b632b63bf39384d2bba/ship-oman-persian-gulf-2299514328.jpg",
-            "ok": true
-          },
-          {
-            "title": "Tankers hit in Hormuz as Iran keeps up pressure after US vote",
-            "url": "https://www.reuters.com/world/middle-east/tankers-hit-hormuz-iran-keeps-up-pressure-after-us-vote-2026-11-05/",
-            "source": "Reuters",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQHmzxYJEIRmK_Z8MzgRBcpzGsIVZ0fmiYfxVeuzD7DhXTlQQwz86oDEmBpFkQ",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Iranian state media reports explosions on island in Strait of Hormuz",
-            "url": "https://www.timesofisrael.com/liveblog_entry/iranian-state-media-reports-explosions-on-island-in-strait-of-hormuz/",
-            "source": "The Times of Israel",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ_EI9XhYIlIlGZxpUOrk1zDbD3qOxiWy-qW0eOR3bfxCvRXeJLoS348ZL3mPY",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "اقتصاد",
-        "icon": "💰",
-        "color": "#f5c542",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/world-2026-11-07-strait-of-hormuz.png"
+        "card": "cards/world-2026-11-07-paolo-banchero.png"
       }
     ]
   },
@@ -508,35 +540,25 @@
     "name_en": "Egypt",
     "lang": "ar",
     "flag": "🇪🇬",
-    "generated_at": "2026-11-08T04:01:25.085969+00:00",
+    "generated_at": "2026-11-08T04:31:16.520293+00:00",
     "day": "2026-11-08",
     "trends": [
       {
         "title": "درجة حرارة",
-        "traffic": "+50500",
-        "traffic_num": 50500,
+        "traffic": "+50600",
+        "traffic_num": 50600,
         "published": "Sat, 7 Nov 2026 19:30:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTLvXo1X-nz4CLAJk04OAAYG0L9BSlmEZy1K5GWntcm_rs-R3IbAhOXOxaW5Uw",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQdxY95BJbX794Mq0c-GPXX0MbCdII28shLihztt5NDS95QXFywOjJo2EHY9zc",
         "image_source": "اليوم السابع",
         "news": [
           {
-            "title": "رجعت الشتوية.. تحذير من انخفاض بدرجات الحرارة والصغرى بالقاهرة مفاجأة",
-            "url": "https://www.youm7.com/7608919",
+            "title": "الطقس غدا.. انخفاض بالحرارة وأمطار والصغرى بالقاهرة 16درجة",
+            "url": "https://www.youm7.com/story/2026/11/7/%D8%A7%D9%84%D8%B7%D9%82%D8%B3-%D8%BA%D8%AF%D8%A7-%D8%A7%D9%86%D8%AE%D9%81%D8%A7%D8%B6-%D8%A8%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D8%A9-%D9%88%D8%A3%D9%85%D8%B7%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%B5%D8%BA%D8%B1%D9%89-%D8%A8%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-16%D8%AF%D8%B1%D8%AC%D8%A9/7609733",
             "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTLvXo1X-nz4CLAJk04OAAYG0L9BSlmEZy1K5GWntcm_rs-R3IbAhOXOxaW5Uw",
-            "og_title": "رجعت الشتوية.. تحذير من انخفاض بدرجات الحرارة والصغرى بالقاهرة مفاجأة - اليوم السابع",
-            "og_desc": "حذرت الهيئة العامة للأرصاد الجوية، من حالة الطقس اليوم السبت 7 نوفمبر ، حيث حذرت من استمرار الانخفاض في درجات الحرارة على أغلب الأنحاء يصاحب ذلك فرص أمطار متفاوتة الشدة..",
-            "og_image": "https://img.youm7.com/xlarge/202411300426562656.jpg",
-            "ok": true
-          },
-          {
-            "title": "الأمطار تضرب هذه المناطق.. الأرصاد تكشف حالة الطقس ودرجات الحرارة اليوم (تفاصيل)",
-            "url": "https://www.almasryalyoum.com/news/details/4404294",
-            "source": "المصري اليوم",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTahHa6qzeeVTJmvWiseIQ-jSIannc2RGaukGOD0kDpmaapar3UnA7x9emcbH0",
-            "og_title": "الأمطار تضرب هذه المناطق.. الأرصاد تكشف حالة الطقس ودرجات الحرارة اليوم (تفاصيل) | المصري اليوم",
-            "og_desc": "الطقس اليوم الأحد 8 نوفمبر 2026.. كشفت الهيئة العامة للأرصاد الجوية عن حالة الطقس وأبرز الظواهر الجوية المتوقعة على كافة المحافظات والمدن المصرية.وتوقعت الأرصاد الجوية في بيان...",
-            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/08/2099950.webp",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQdxY95BJbX794Mq0c-GPXX0MbCdII28shLihztt5NDS95QXFywOjJo2EHY9zc",
+            "og_title": "الطقس غدا.. انخفاض بالحرارة وأمطار والصغرى بالقاهرة 16درجة - اليوم السابع",
+            "og_desc": "تتوقع الهيئة العامة للأرصاد الجوية، أن يشهد غدا الأحد 8 نوفمبر 2026، انخفاضا ملحوظا بالحرارة وطقسا معتدل الحرارة نهاراً على أغلب الأنحاء مائل للحرارة على جنوب الصعيد..",
+            "og_image": "https://img.youm7.com/xlarge/202604160436363636_284.jpg",
             "ok": true
           },
           {
@@ -549,6 +571,16 @@
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
+          },
+          {
+            "title": "محافظات في دائرة التأثر.. تحذير من تقلبات جوية مفاجئة - صوت الأمة",
+            "url": "https://akhbarak.net/news/details/49534400/16/%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA-%D9%81%D9%8A-%D8%AF%D8%A7%D8%A6%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%A3%D8%AB%D8%B1-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1-%D9%85%D9%86-%D8%AA%D9%82%D9%84%D8%A8%D8%A7%D8%AA-%D8%AC%D9%88%D9%8A%D8%A9-%D9%85%D9%81%D8%A7%D8%AC%D8%A6%D8%A9-%D8%B5%D9%88%D8%AA-%D8%A7%D9%84%D8%A3%D9%85%D8%A9",
+            "source": "اخبارك نت",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQQAY8W5EYzt1SwmO9ZCAugo6bNs97GRlX5BMFtb-WLGlsHotmdSn-d4afT9sw",
+            "og_title": "اخبارك نت | محافظات في دائرة التأثر.. تحذير من تقلبات جوية مفاجئة - صوت الأمة",
+            "og_desc": "كشفت الهيئة العامة للأرصاد الجوية، خرائط وتفاصيل الأمطار اليوم السبت 7 نوفمبر 2026، تزامنا مع تعرض البلاد لأمطار متفاوتة الشدة.- فرص أمطار متوسطة على مناطق م...",
+            "og_image": "https://aws-web-images.akhbarak.net/2026/11/7/49534400/49534400-original.jpg",
+            "ok": true
           },
           {
             "title": "أمطار على مدينة العريش مساء اليوم وسط سحب كثيفة تغطي سماء شمال سيناء.. صور وفيديو",
@@ -580,6 +612,36 @@
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
+          },
+          {
+            "title": "موجة من الطقس السيئ تضرب القاهرة وعددًا من المحافظات",
+            "url": "https://www.almasryalyoum.com/news/details/4404265",
+            "source": "المصري اليوم",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT1Qopnj5JmdmiMB4MQt07iATWE0B1lJAHdf5HoaejccwZBYLzJNXdQu17BUFs",
+            "og_title": "موجة من الطقس السيئ تضرب القاهرة وعددًا من المحافظات | المصري اليوم",
+            "og_desc": "شهدت القاهرة الكبرى ومحافظات السواحل الشمالية، أمس، سقوط أمطار بين متوسطة وغزيرة، وسط استمرار تدفق السحب المنخفضة والمتوسطة الممطرة على مناطق من القاهرة الكبرى وشمال الصعيد...",
+            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/08/2099526.webp",
+            "ok": true
+          },
+          {
+            "title": "صرف صحى الإسكندرية تكثف انتشار فرق الطوارئ والتمركزات تحسبًا لسقوط الأمطار",
+            "url": "https://www.youm7.com/story/2026/11/7/%D8%B5%D8%B1%D9%81-%D8%B5%D8%AD%D9%89-%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9-%D8%AA%D9%83%D8%AB%D9%81-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1-%D9%81%D8%B1%D9%82-%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6-%D9%88%D8%A7%D9%84%D8%AA%D9%85%D8%B1%D9%83%D8%B2%D8%A7%D8%AA-%D8%AA%D8%AD%D8%B3%D8%A8%D9%8B%D8%A7-%D9%84%D8%B3%D9%82%D9%88%D8%B7/7609295",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-sv7cJfSoJGAMVTxc4yQPAK5cJ1SQ7ESF53-I4pqKkoACFIJTvOPkk4B2utQ",
+            "og_title": "صرف صحى الإسكندرية تكثف انتشار فرق الطوارئ والتمركزات تحسبًا لسقوط الأمطار - اليوم السابع",
+            "og_desc": "أعلنت شركة الصرف الصحي بالإسكندرية، برئاسة المهندس أحمد عاطف الفرجاني، رفع درجة الاستعداد والطوارئ، مع تكثيف انتشار فرق الطوارئ والتمركزات",
+            "og_image": "https://img.youm7.com/xlarge/202611070117591759_541.jpg",
+            "ok": true
+          },
+          {
+            "title": "لليوم الثاني.. استمرار سقوط أمطار متفاوتة الشدة على الإسكندرية",
+            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=07112026&id=88e2da05-e3e2-4ff8-b220-46da017b5010",
+            "source": "بوابة الشروق",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQrH5uHa1pNuh33BG5a85iswnKzH0r1gOhTq_GY0MIp23y6bGig7BydtDeTcX8",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/556464677777777.JPG",
+            "ok": false
           }
         ],
         "category": "طقس",
@@ -684,56 +746,9 @@
         "card": "cards/eg-2026-11-08-محمد-صلاح.png"
       },
       {
-        "title": "سعر الذهب",
+        "title": "رحمة محسن",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "published": "Sat, 7 Nov 2026 16:40:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRswswJwfqtyEsn60e5NT7JgB8SPWtJVIVe5i7EzTACL2z463kTYJghUH7ZqkA",
-        "image_source": "بوابة الأهرام",
-        "news": [
-          {
-            "title": "سعر الذهب اليوم في مصر بختام تعاملات السبت.. مخاوف الفائدة تضغط على الأسعار",
-            "url": "https://gate.ahram.org.eg/News/5980213.aspx",
-            "source": "بوابة الأهرام",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRswswJwfqtyEsn60e5NT7JgB8SPWtJVIVe5i7EzTACL2z463kTYJghUH7ZqkA",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "الذهب فوق 4000 دولار عالميًا.. استقرار عيار 21 في مصر بالتعاملات الصباحية",
-            "url": "https://www.youm7.com/story/2026/11/8/%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D9%81%D9%88%D9%82-4000-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D9%8B%D8%A7-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D8%B9%D9%8A%D8%A7%D8%B1-21-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1/7609484",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTq3OBzhPJMslTBv2o24LAY2-UBPrsJee-fEsP9PZ9VtrkTBnEOwxknTThKGKw",
-            "og_title": "الذهب فوق 4000 دولار عالميًا.. استقرار عيار 21 في مصر بالتعاملات الصباحية - اليوم السابع",
-            "og_desc": "تمكن الذهب في مصر من تسجيل ارتفاع خلال الأسبوع الماضي بعد تذبذب كبير في ظل التغيرات الكبيرة في سعر أونصة الذهب العالمي، بالإضافة إلى التراجع الأخير",
-            "og_image": "https://img.youm7.com/xlarge/202605240740264026_22650.jpg",
-            "ok": true
-          },
-          {
-            "title": "الذهب يحقق مكاسب أسبوعية.. وعيار 21 يربح 45 جنيها رغم تراجع الدولار",
-            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=07112026&id=af7596f8-7232-48d8-85b5-99e406ea0ed5",
-            "source": "بوابة الشروق",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNkdUhAmOjqXif6xH1XTJi-wP8WJ3DW0onpeRAilyHnaDfkA5EtAU7PLCM_vQ",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/9876879089-=0.jpg",
-            "ok": false
-          }
-        ],
-        "category": "اقتصاد",
-        "icon": "💰",
-        "color": "#f5c542",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/eg-2026-11-08-سعر-الذهب.png"
-      },
-      {
-        "title": "رحمة محسن",
-        "traffic": "500+",
-        "traffic_num": 500,
         "published": "Sat, 7 Nov 2026 16:40:00 -0800",
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQlj8gur2GpxF0GI7fi4FjF-z0TB0p896p8CrMrkHGtTaiP2SmKFhQtM0AL_24",
         "image_source": "بوابة الأهرام",
@@ -750,16 +765,6 @@
             "error": "HTTPError"
           },
           {
-            "title": "رحمة محسن تفجر غضبها عقب زواجها وتندد بالخوض فى عرضها واستباحة أذاها",
-            "url": "https://www.youm7.com/story/2026/11/8/%D8%B1%D8%AD%D9%85%D8%A9-%D9%85%D8%AD%D8%B3%D9%86-%D8%AA%D9%81%D8%AC%D8%B1-%D8%BA%D8%B6%D8%A8%D9%87%D8%A7-%D8%B9%D9%82%D8%A8-%D8%B2%D9%88%D8%A7%D8%AC%D9%87%D8%A7-%D9%88%D8%AA%D9%86%D8%AF%D8%AF-%D8%A8%D8%A7%D9%84%D8%AE%D9%88%D8%B6-%D9%81%D9%89-%D8%B9%D8%B1%D8%B6%D9%87%D8%A7/7609968",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRRC8zBThYF2K5kcKTxPzML1LBrIHq6My6hEFXvobHkjOdPLKwWKhUY1DdPYrY",
-            "og_title": "رحمة محسن تفجر غضبها عقب زواجها وتندد بالخوض فى عرضها واستباحة أذاها - اليوم السابع",
-            "og_desc": "تفجرت مشاعر الحزن والأسى في أحدث تدوينات الفنانة المصرية رحمة محسن عبر حسابها على إنستجرام، حيث خرجت عن صمتها بكلمات مؤثرة عقب إعلان زواجها.",
-            "og_image": "https://img.youm7.com/xlarge/202611081257465746_512.jpg",
-            "ok": true
-          },
-          {
             "title": "زواج رحمة محسن يثير الغموض.. من هو زوجها الجديد؟",
             "url": "https://www.okaz.com.sa/culture/na/2274334",
             "source": "عكاظ",
@@ -768,53 +773,15 @@
             "og_desc": "أثار إعلان الفنانة المصرية رحمة محسن زواجها حالة واسعة من التفاعل عبر مواقع التواصل الاجتماعي، بعدما كشفت عن ارتباطها بصورة رومانسية اكتفت فيها بإظهار يدها ويد زوجها، دون الكشف عن هويته أو مشاركة أي تفاصيل تتعلق بشخصيته، ما فتح باب التساؤلات حول العريس الجديد وحقيقة المعلومات المتداولة عنه.",
             "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/11/07/2790779.webp",
             "ok": true
-          }
-        ],
-        "category": "شخصية",
-        "icon": "👤",
-        "color": "#ffd166",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "person": true,
-        "card": "cards/eg-2026-11-08-رحمة-محسن.png"
-      },
-      {
-        "title": "هونر 700",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Sat, 7 Nov 2026 14:10:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTtt15AqT4o-8RNQcmXa54icISWpAjfOhs27D6jMj59axxG0FTC-zNyE4kUtBg",
-        "image_source": "العربية",
-        "news": [
-          {
-            "title": "\"هونر\" تكشف عن تصميم 3 هواتف من سلسلة Honor 700 بشاشات خلفية",
-            "url": "https://www.alarabiya.net/technology/smart-phones/2026/11/06/%D9%87%D9%88%D9%86%D8%B1-%D8%AA%D9%83%D8%B4%D9%81-%D8%B9%D9%86-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-3-%D9%87%D9%88%D8%A7%D8%AA%D9%81-%D9%85%D9%86-%D8%B3%D9%84%D8%B3%D9%84%D8%A9-honor-700-%D8%A8%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA-%D8%AE%D9%84%D9%81%D9%8A%D8%A9",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTtt15AqT4o-8RNQcmXa54icISWpAjfOhs27D6jMj59axxG0FTC-zNyE4kUtBg",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
           },
           {
-            "title": "الهاتف الصيني الرائد الأكثر مبيعاً هذا العام.",
-            "url": "https://www.vietnam.vn/ar/chiec-flagship-trung-quoc-ban-chay-nhat-nam-nay",
-            "source": "Vietnam.vn",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9XI0Q9bZiioPcW6e96u2zwHJj6yWdaRoujmjj7FgnTJzz5ALmp80WnyZPsYw",
-            "og_title": "الهاتف الصيني الرائد الأكثر مبيعاً هذا العام.",
-            "og_desc": "حققت سلسلة هواتف Honor Magic 9 ما يقرب من 390 ألف عملية تفعيل في الصين، متجاوزة بذلك الهواتف الرائدة الأخرى التي تعمل بنظام Android والتي تم إطلاقها هذا العام.",
-            "og_image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/10/29/1793282040355_honor_magic_9_pro_max_design.jpeg",
-            "ok": true
-          },
-          {
-            "title": "هونر تكشف رسميا عن تصميم سلسلة هواتف هونر 700 وتفتح باب الحجز المسبق في الصين : 선거 : JKN",
-            "url": "https://news.jkn.co.kr/editions/arabic/post/1075774",
-            "source": "재경일보",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ46lnmp1RRaNuvmemj87boKXBxy52Jn4lMEN6nCZhBsK49sYAxzh5To_cncEA",
-            "og_title": "هونر تكشف رسميا عن تصميم سلسلة هواتف هونر 700 وتفتح باب الحجز المسبق في الصين",
-            "og_desc": "أزاحت شركة هونر الصينية الستار رسميا عن تصميم سلسلة هواتفها الذكية الجديدة هونر 700، التي تضم ثلاثة طرازات مزودة جميعا بشاشة خلفية ثانوية، مع فتح باب الحجز المسبق عبر متجرها الإلكتروني.",
-            "og_image": "https://images.jkn.co.kr/data/images/full/110/65/1106510.jpg?v=1793989965&width=1200&height=630",
+            "title": "3 مناسبات سعيدة في الوسط الفني خلال 24 ساعة.. تفاصيل خطوبة وزواج وعقد قران",
+            "url": "https://www.elwatannews.com/news/details/8391682",
+            "source": "الوطن",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQB8PbPDrON33bielRPZsTddfqzerPOV3y5jQGpT8HnBvgP1cImu6FEqI3xtks",
+            "og_title": "3 مناسبات سعيدة في الوسط الفني خلال 24 ساعة.. تفاصيل خطوبة وزواج وعقد قران - الوطن",
+            "og_desc": "شهد الوسط الفني خلال الساعات الماضية عدد من المناسبات السعيدة من خطوبة وزواج وعقد قران - الوطن",
+            "og_image": "https://media.elwatannews.com/media/img/Large/2026/11/7/2026_11_7_3_3_43_732.jpeg",
             "ok": true
           }
         ],
@@ -823,41 +790,87 @@
         "color": "#ffd166",
         "reason": "شخصية لا يرد اسمها في مصدرين",
         "publishable": false,
-        "card": "cards/eg-2026-11-08-هونر-700.png"
+        "card": "cards/eg-2026-11-08-رحمة-محسن.png"
       },
       {
-        "title": "بي اس جي",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Sat, 7 Nov 2026 13:20:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSjbKJCN_ir3rrpLFkf-eifo3odk-NF-5LSv0cqhXK2e8_MrFBLJMIeR3GHZk8",
+        "title": "سعر الذهب",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "published": "Sat, 7 Nov 2026 16:40:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTq3OBzhPJMslTBv2o24LAY2-UBPrsJee-fEsP9PZ9VtrkTBnEOwxknTThKGKw",
         "image_source": "اليوم السابع",
         "news": [
           {
-            "title": "باريس سان جيرمان يتقدم على تروا بهدف فى الشوط الأول.. فيديو",
-            "url": "https://www.youm7.com/story/2026/11/7/%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B3%D8%A7%D9%86-%D8%AC%D9%8A%D8%B1%D9%85%D8%A7%D9%86-%D9%8A%D8%AA%D9%82%D8%AF%D9%85-%D8%B9%D9%84%D9%89-%D8%AA%D8%B1%D9%88%D8%A7-%D8%A8%D9%87%D8%AF%D9%81-%D9%81%D9%89-%D8%A7%D9%84%D8%B4%D9%88%D8%B7-%D8%A7%D9%84%D8%A3%D9%88%D9%84/7609921",
+            "title": "ارتفاع مفاجئ فى سعر الذهب اليوم السبت رغم إجازة السوق",
+            "url": "https://www.youm7.com/story/2026/11/7/%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D9%85%D9%81%D8%A7%D8%AC%D8%A6-%D9%81%D9%89-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA-%D8%B1%D8%BA%D9%85-%D8%A5%D8%AC%D8%A7%D8%B2%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D9%82/7606417",
             "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSjbKJCN_ir3rrpLFkf-eifo3odk-NF-5LSv0cqhXK2e8_MrFBLJMIeR3GHZk8",
-            "og_title": "باريس سان جيرمان يتقدم على تروا بهدف فى الشوط الأول.. فيديو - اليوم السابع",
-            "og_desc": "تفوق باريس سان جيرمان على ضيفه فريق تروا، بهدف نظيف، مع نهاية الشوط الأول من المباراة المقامة حاليا على ملعب حديقة الأمراء.",
-            "og_image": "https://img.youm7.com/xlarge/202611071059235923_381.jpg",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTq3OBzhPJMslTBv2o24LAY2-UBPrsJee-fEsP9PZ9VtrkTBnEOwxknTThKGKw",
+            "og_title": "ارتفاع مفاجئ فى سعر الذهب اليوم السبت رغم إجازة السوق - اليوم السابع",
+            "og_desc": "ارتفع سعر الذهب اليوم في مصر خلال تعاملات السبت 7 نوفمبر 2026 بنحو 15 جنيها، ليسجل سعر جرام الذهب عيار 21، الأكثر تداولًا في السوق المصري نحو 6210 جنيهات..",
+            "og_image": "https://img.youm7.com/xlarge/202605240740264026_22650.jpg",
             "ok": true
           },
           {
-            "title": "باريس سان جيرمان يعلن حصول أشرف حكيمي على راحة حتى فترة التوقف الدولي",
-            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=06112026&id=303eadfc-4c34-4a74-98d8-aa35253afdcc",
+            "title": "الذهب يحقق مكاسب أسبوعية.. وعيار 21 يربح 45 جنيها رغم تراجع الدولار",
+            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=07112026&id=af7596f8-7232-48d8-85b5-99e406ea0ed5",
             "source": "بوابة الشروق",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwKW6IuybMAjK2p24wy7lPNk3aztGxbBIrAxZRov_UnX8x41fw6B__WeNECfY",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNkdUhAmOjqXif6xH1XTJi-wP8WJ3DW0onpeRAilyHnaDfkA5EtAU7PLCM_vQ",
             "og_title": "",
             "og_desc": "",
-            "og_image": "https://www.shorouknews.com/uploadedimages/Sections/Sports/original/hakimi-2026-5.jpg",
+            "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/9876879089-=0.jpg",
             "ok": false
           },
           {
-            "title": "الإصابة تحرم سان جيرمان من أكليوش وحكيمي أمام تروا بالدوري الفرنسي",
-            "url": "https://gate.ahram.org.eg/News/5979431.aspx",
-            "source": "بوابة الأهرام",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ40zm6G__Rsa5nIjQ0T0drK0ojFF1sXkmlekqyH63T3MO4srjmF5HEOn7gwSM",
+            "title": "البنوك المركزية تشتري 321 طنا من الذهب خلال 3 أشهر.. فما تأثيره على الأسعار؟",
+            "url": "https://www.masrawy.com/news/news-banking/details/2026/11/7/3074953/%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A%D8%A9-%D8%AA%D8%B4%D8%AA%D8%B1%D9%8A-321-%D8%B7%D9%86%D8%A7-%D9%85%D9%86-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D8%AE%D9%84%D8%A7%D9%84-3-%D8%A3%D8%B4%D9%87%D8%B1-%D9%81%D9%85%D8%A7-%D8%AA%D8%A3%D8%AB%D9%8A%D8%B1%D9%87-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-",
+            "source": "Masrawy",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSu07cgce6aLN_H9I3hDC_TVxFZ4mOQ6mpGqLPFDWATawHHM37cd35zsTRHcJY",
+            "og_title": "البنوك المركزية تشتري 321 طنا من الذهب خلال 3 أشهر | مصراوي",
+            "og_desc": "مشتريات البنوك المركزية لا تزال تمثل أحد أهم عوامل الدعم للذهب على المدى الطويل خاصة بعدما سجلت نحو 321 طن ا خلال الربع الثالث | مصراوي",
+            "og_image": "https://media.gemini.media/img/large/2014/3/19/2014_3_19_10_39_27_551.webp",
+            "ok": true
+          }
+        ],
+        "category": "اقتصاد",
+        "icon": "💰",
+        "color": "#f5c542",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/eg-2026-11-08-سعر-الذهب.png"
+      },
+      {
+        "title": "حمادة هلال",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Sat, 7 Nov 2026 20:00:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSopDhbAzHNfrPWX2BMlBUMgf9OydTm-_QMTDnyotLgpxrJ3EPFIL2qDd-Ubtw",
+        "image_source": "اليوم السابع",
+        "news": [
+          {
+            "title": "حمادة هلال عن إصابة زوجته بالسرطان: صدمة كبيرة ولكن راضيين",
+            "url": "https://www.youm7.com/story/2026/11/8/%D8%AD%D9%85%D8%A7%D8%AF%D8%A9-%D9%87%D9%84%D8%A7%D9%84-%D8%B9%D9%86-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%B2%D9%88%D8%AC%D8%AA%D9%87-%D8%A8%D8%A7%D9%84%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D8%B5%D8%AF%D9%85%D8%A9-%D9%83%D8%A8%D9%8A%D8%B1%D8%A9-%D9%88%D9%84%D9%83%D9%86-%D8%B1%D8%A7%D8%B6%D9%8A%D9%8A%D9%86/7609963",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSopDhbAzHNfrPWX2BMlBUMgf9OydTm-_QMTDnyotLgpxrJ3EPFIL2qDd-Ubtw",
+            "og_title": "حمادة هلال عن إصابة زوجته بالسرطان: صدمة كبيرة ولكن راضيين - اليوم السابع",
+            "og_desc": "كشف الفنان حمادة هلال، خلال تصريحات تليفزيونية، عن تفاصيل إصابة زوجته بمرض السرطان، والظروف التي اكتشفوا خلالها المرض.",
+            "og_image": "https://img.youm7.com/xlarge/202611081245444544_512.jpg",
+            "ok": true
+          },
+          {
+            "title": "حديث مؤثر من حمادة هلال عن قصة مرض زوجته بالسرطان.. وأسرار عائلية عنه لأول مرة",
+            "url": "https://www.hiamag.com/%D8%AA%D8%B1%D9%81%D9%8A%D9%87-%D9%88%D9%81%D9%86%D9%88%D9%86/%D9%85%D8%B4%D8%A7%D9%87%D9%8A%D8%B1/1807554-%D8%AD%D8%AF%D9%8A%D8%AB-%D9%85%D8%A4%D8%AB%D8%B1-%D9%85%D9%86-%D8%AD%D9%85%D8%A7%D8%AF%D8%A9-%D9%87%D9%84%D8%A7%D9%84-%D8%B9%D9%86-%D9%82%D8%B5%D8%A9-%D9%85%D8%B1%D8%B6-%D8%B2%D9%88%D8%AC%D8%AA%D9%87-%D8%A8%D8%A7%D9%84%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D9%88%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1-%D8%B9%D8%A7%D8%A6%D9%84%D9%8A%D8%A9-%D8%B9%D9%86%D9%87-%D9%84%D8%A3%D9%88%D9%84",
+            "source": "www.hiamag.com",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ7fde0qR62yc6DUwOfISYBdb9Q2eWIJJj27nqKQE2SzdS6eYGAOnualcWDJU",
+            "og_title": "حديث مؤثر من حمادة هلال عن قصة مرض زوجته بالسرطان.. وأسرار عائلية عنه لأول مرة",
+            "og_desc": "الفنان حمادة هلال كشف العديد من التفاصيل والأسرار الجديدة عنه، خاصة عن حياته العائلية، وتحدث في أحدث لقاءاته الإعلامية عن قصة إصابة زوجته بالسرطان، بالإضافة إلى حديثه المؤثرة عن والدته الراحلة وتذكره لأيامها الأخيرة,",
+            "og_image": "https://static.hiamag.com/styles/1200x600/public/2026-11/arabsatfestival_242528856_293301495503424_8840894520655367063_n.jpg?h=7e6fa81b",
+            "ok": true
+          },
+          {
+            "title": "ما وراء «المداح».. حمادة هلال يكشف علاقة الفن بالدين في حياته",
+            "url": "https://twaslnews1.twaslnews.com/7283095/",
+            "source": "شبكة تواصل الإخبارية",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTKR0exjIBPL8HC9pPPTJfYFVRnD6SEhknTFFe8mbvxce4opoOoyPFLhfaaqzk",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -865,12 +878,12 @@
             "error": "HTTPError"
           }
         ],
-        "category": "شخصية",
-        "icon": "👤",
-        "color": "#ffd166",
-        "reason": "شخصية بأقل من مصدرين",
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: مرض",
         "publishable": false,
-        "card": "cards/eg-2026-11-08-بي-اس-جي.png"
+        "card": "cards/eg-2026-11-08-حمادة-هلال.png"
       },
       {
         "title": "حسين لبيب",
@@ -923,46 +936,44 @@
         "traffic": "100+",
         "traffic_num": 100,
         "published": "Sat, 7 Nov 2026 15:40:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS1EYYd-qC8ZZuedRwCLLnLYiKIi3jIEevJ4rcH_PUPLp3TCBFwy_agyJdDMhg",
-        "image_source": "Cincinnati Enquirer",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQINKjcqKdUfB6RG0DRgI0JhK54Dni-5uS65bhsp8FFSn4Ib8oXFhKCtlyMCSo",
+        "image_source": "Goal.com",
         "news": [
           {
-            "title": "Here's who FC Cincinnati will play in the MLS playoffs",
-            "url": "https://www.cincinnati.com/story/sports/soccer/fc-cincinnati/2026/11/07/fc-cincinnati-orlando-mls-playoffs/92664694007/",
-            "source": "Cincinnati Enquirer",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS1EYYd-qC8ZZuedRwCLLnLYiKIi3jIEevJ4rcH_PUPLp3TCBFwy_agyJdDMhg",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "MLS playoff schedule, matchups, kickoff times and bracket",
-            "url": "https://sports.yahoo.com/articles/mls-playoff-schedule-matchups-kickoff-233028906.html",
-            "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQCBZ0q1uYF5d-Yc-SeU9mHnx0g6Es1zpYQmVy0NWXB0W6cUS5GzieMuemOEyU",
-            "og_title": "MLS playoff schedule, matchups, kickoff times and bracket",
-            "og_desc": "A late goal from Columbus Crew attacker Brais Mendez saw the biggest shift in the Eastern Conference table while the Sounders and Timbers excelled in the West. See all the matchups here.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/aac5b926af3be011b362a6f8687e82230a40cbca196dbf0a340a6dcbea3da577/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_sports_articles_558%2F68bfc20d57397051997941614f58b55a.jpg",
+            "title": "MLS Decision Day Rondo: Can Nashville SC make history? Will LA Galaxy and the Seattle Sounders avoid playoff disaster?",
+            "url": "https://www.goal.com/en/originals/mls-decision-day-rondo-will-nashville-sc-set-a-new-points-record-who-will-survive-in-the-western-conference-and-whose-late-season-playoff-push-has-been-the-most-impressive/bltff9feb1fbc340d7f",
+            "source": "Goal.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQINKjcqKdUfB6RG0DRgI0JhK54Dni-5uS65bhsp8FFSn4Ib8oXFhKCtlyMCSo",
+            "og_title": "MLS Decision Day Rondo: Can Nashville SC make history? Will LA Galaxy and the Seattle Sounders avoid playoff disaster?  | Goal.com",
+            "og_desc": "MLS Decision Day might not be as chaotic as many hoped, but there is still plenty to sort out on the final day",
+            "og_image": "https://assets.goal.com/images/v3/bltf285bef6ca337788/MLS_WLs_updated.jpg",
             "ok": true
           },
           {
-            "title": "Orlando City vs. FC Cincinnati: Wild Card match set in Eastern Conference",
-            "url": "https://onefootball.com/en/news/orlando-city-vs-fc-cincinnati-wild-card-match-set-in-eastern-conference-43744057",
-            "source": "OneFootball",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTtd6cpV8gqiuo-R1trXD3HE0HTM39RVT8L1s1P7kuJPonGcW7KUxLiFjlBeFU",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
+            "title": "Soaring in Stamford: Major League Soccer’s Seth Bacon Details the Growth of MLS Productions",
+            "url": "https://www.sportsvideo.org/2026/11/06/soaring-in-stamford-major-league-soccers-seth-bacon-details-the-growth-of-mls-productions/",
+            "source": "Sports Video Group",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRl5PYE08rMPCsrvAXQ6I-Wk_y3fQnV0ovLCPTbxwAgOk0nJWbuHH0rhOiyC6g",
+            "og_title": "Soaring in Stamford: Major League Soccer’s Seth Bacon Details the Growth of MLS Productions - Sports Video Group",
+            "og_desc": "It’s been nearly two years since MLS Productions made the move to WWE’s headquarters in Stamford, CT. At the time, the decision allowed Major League Soccer’s content and production arm...",
+            "og_image": "https://www.sportsvideo.org/wp-content/uploads/2026/11/NEW-Featured-Image-Website-81-951x535.jpg",
+            "ok": true
+          },
+          {
+            "title": "MLS playoff schedule, matchups, kickoff times and bracket",
+            "url": "https://www.centraloregondaily.com/sports/mls-playoff-schedule-matchups-kickoff-times-and-bracket/article_0fde874c-d652-5c77-b071-a12dab8eb380.html",
+            "source": "Central Oregon Daily",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR8k8VnpEPjk_D-Rrug_F9S9S6BBKRHNblN7FH5VXZ70lC2VNqvAENK9TB8a3s",
+            "og_title": "MLS playoff schedule, matchups, kickoff times and bracket",
+            "og_desc": "The MLS playoff field is set after a twisting and turning Decision Day that saw Cascadia rivals Portland Timbers and Seattle Sounders surge into the postseason with Real Salt Lake",
+            "og_image": "https://bloximages.chicago2.vip.townnews.com/centraloregondaily.com/content/tncms/assets/v3/media/e/93/e93b1ae2-ce92-11ee-9783-8f905bfab8e6/65d258b6d19a1.image.jpg?crop=925%2C486%2C0%2C17",
+            "ok": true
           }
         ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "حجم بحث أقل من 2000",
         "publishable": false,
         "card": "cards/eg-2026-11-08-mls.png"
       },
@@ -1020,147 +1031,73 @@
     "name_en": "Saudi Arabia",
     "lang": "ar",
     "flag": "🇸🇦",
-    "generated_at": "2026-11-08T04:01:37.907985+00:00",
+    "generated_at": "2026-11-08T04:31:22.921466+00:00",
     "day": "2026-11-08",
     "trends": [
       {
         "title": "الطقس",
-        "traffic": "+20100",
-        "traffic_num": 20100,
+        "traffic": "+20200",
+        "traffic_num": 20200,
         "published": "Sat, 7 Nov 2026 19:30:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYciqB0Oix3Refuwgvo08xmpBuYnae3bePQ7i62sMB4urPW2zKcSwkI19TUeM",
-        "image_source": "صحيفة سبق الإلكترونية",
+        "image": "https://www.okaz.com.sa/okaz/uploads/images/2026/11/08/2790981.webp",
+        "image_source": "صحيفة عكاظ",
         "news": [
           {
-            "title": "ضباب وأمطار الباحة يجذبان المتنزهين إلى المرتفعات والمتنزهات",
-            "url": "https://sabq.org/article/sp345dj",
-            "source": "صحيفة سبق الإلكترونية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYciqB0Oix3Refuwgvo08xmpBuYnae3bePQ7i62sMB4urPW2zKcSwkI19TUeM",
-            "og_title": "ضباب وأمطار الباحة يجذبان المتنزهين إلى المرتفعات والمتنزهات | سبق",
-            "og_desc": "أجواء شتوية بالضباب والأمطار تجذب الأهالي والزوار إلى متنزهات الباحة ومرتفعاتها، مع دعوة لمرتادي الطرق الجبلية إلى الحذر.",
-            "og_image": "https://media.sabq.org/news/2026/11/824e81f0-cbb4-4f32-81e8-bc339d961817/w1200.webp",
+            "title": "أمطار على المناطق.. «الأرصاد» ينبه.. «الدفاع المدني» يحذر",
+            "url": "https://www.okaz.com.sa/local/na/2274446",
+            "source": "صحيفة عكاظ",
+            "thumb": "http://www.bing.com/th?id=ONUT.0zwaWI98dxxbV235Ng3EBg&pid=News",
+            "og_title": "أمطار على المناطق.. «الأرصاد» ينبه.. «الدفاع المدني» يحذر",
+            "og_desc": "تحذيرات واستعدادات شهدت مناطق ومحافظات ومراكز السعودية، هطول أمطار تراوحت بين...",
+            "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/11/08/2790981.webp",
             "ok": true
           },
           {
-            "title": "«الأرصاد»: أمطار رعدية وسيول وبرد على 8 مناطق في السعودية",
-            "url": "https://www.okaz.com.sa/local/na/2274470",
-            "source": "عكاظ",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRI29R7v9YU5yJrK8n6R0Q6fhFM3wIbVY0MnyKKKiTCKYBhy0QP-_6WPyiOD3A",
-            "og_title": "«الأرصاد»: أمطار رعدية وسيول وبرد على 8 مناطق في السعودية",
-            "og_desc": "توقّع المركز الوطني للأرصاد في تقريره عن حالة الطقس اليوم -بمشيئة الله تعالى-، هطول أمطار رعدية متوسطة إلى غزيرة تؤدي إلى جريان السيول مصحوبة بزخات من البرد ورياح نشطة مثيرة للأتربة والغبار على",
-            "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/11/08/2791247.webp",
+            "title": "الأرصاد الجوية تحذر من أمطار في المناطق والدفاع المدني يوجه تنبيهات للمواطنين",
+            "url": "https://www.almesasports.com/1266971/%d8%a7%d9%84%d8%a3%d8%b1%d8%b5%d8%a7%d8%af-%d8%a7%d9%84%d8%ac%d9%88%d9%8a%d8%a9-%d8%aa%d8%ad%d8%b0%d8%b1-%d9%85%d9%86-%d8%a3%d9%85%d8%b7%d8%a7%d8%b1-%d9%81%d9%8a-%d8%a7%d9%84%d9%85%d9%86%d8%a7%d8%b7/",
+            "source": "almesasports",
+            "thumb": "http://www.bing.com/th?id=ONUT.ijYl0SmdvQzGz-NgPuO9vg&pid=News",
+            "og_title": "الأرصاد الجوية تحذر من أمطار في المناطق والدفاع المدني يوجه تنبيهات للمواطنين – المساء الاخباري",
+            "og_desc": "شهدت مناطق ومحافظات ومراكز المملكة العربية السعودية هطول أمطار تتراوح بين الخفيفة والمتوسطة والغزيرة، مصحوبة بعواصف رعدية، مما أدى إلى جريان الأودية والشعاب،",
+            "og_image": "https://www.almesasports.com/wp-content/uploads/2026/11/2790981.webp",
             "ok": true
-          },
-          {
-            "title": "أمطار على حائل",
-            "url": "https://www.al-madina.com/article/1012272/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D9%85%D8%B7%D8%A7%D8%B1-%D8%B9%D9%84%D9%89-%D8%AD%D8%A7%D8%A6%D9%84",
-            "source": "جريدة المدينة",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStsavlboRce00i9fiQEy7sDwWDTjb6xfh0h-7mqLCqYsJ6ix_fdmsBmaoUHzA",
-            "og_title": "أمطار على حائل",
-            "og_desc": "أمطار على حائل",
-            "og_image": "https://cdnx.premiumread.com/?f=jpg&q=80&url=https://www.al-madina.com/uploads/images/2026/11/07/2684242.jpg&w=1200",
-            "ok": true
-          },
-          {
-            "title": "Watch: Rain in Fujairah, temperatures to fall as strong winds move in",
-            "url": "https://gulfnews.com/uae/weather/watch-rain-in-fujairah-temperatures-to-fall-as-strong-winds-move-in-1.500738463",
-            "source": "Gulf News",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLL9RMr35EPnU2g3OY2XEW_XU271VwDVPvROmxjNchRoCZeybPHIhTjMTFsU",
-            "og_title": "UAE braces for cooler weather, blowing dust and rough seas after eastern showers",
-            "og_desc": "Rain hits Fujairah as temperatures drop and strong winds approach; forecasters predict rough seas and blowing dust in the UAE early next week.",
-            "og_image": "https://media.assettype.com/gulfnews%2F2026-11-06%2Fa4jjm75k%2Frain.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-            "ok": true
-          },
-          {
-            "title": "UAE braces for rain, cooler temperatures and winds reaching 50 km/h",
-            "url": "https://filipinotimes.net/latest-news/2026/11/07/uae-braces-for-rain-cooler-temperatures-and-winds-reaching-50-km-h/",
-            "source": "The Filipino Times",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRbDXJ0TpPrLvgTCcM2LmZA4v87Be0exa5ZZq89oZSTJqgbD5FEbrm-iq6Sny8",
-            "og_title": "UAE braces for rain, cooler temperatures and winds reaching 50 km/h",
-            "og_desc": "Residents across the United Arab Emirates can expect cooler temperatures, possible light rainfall and stronger winds reaching 50 kilometers per hour in the coming days, according to the National Centre of Meteorology (NCM). In its",
-            "og_image": "https://cdn.filipinotimes.net/wp-content/uploads/2026/08/iStock-1292920688.jpg",
-            "ok": true
-          },
-          {
-            "title": "Heavy rain lashes various areas across the Emirates | Gulf Today - newspaper",
-            "url": "https://www.magzter.com/stories/newspaper/Gulf-Today/HEAVY-RAIN-LASHES-VARIOUS-AREAS-ACROSS-THE-EMIRATES",
-            "source": "Magzter",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUyx0fTAVNmuq-Ang8XQbajcyEBKA8Ox337sc5sfYTVrXKqaquQFSCJ7BFYcA",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "أكتوبر 2026 يسجل أعلى درجات حرارة عالمية في تاريخ الرصد",
-            "url": "https://www.okaz.com.sa/variety/na/2274466",
-            "source": "عكاظ",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS83zv8k1Ib0Ey_khkG8dSKB3cSzFqEvaM3Hppi9A2a1KE-xevbTzqryPw2zXo",
-            "og_title": "أكتوبر 2026 يسجل أعلى درجات حرارة عالمية في تاريخ الرصد",
-            "og_desc": "سجّل شهر أكتوبر 2026 أعلى متوسط لدرجات الحرارة العالمية في تاريخ الرصد لهذا الشهر، وفقاً لبيانات خدمة «كوبرنيكوس» الأوروبية لمراقبة تغير المناخ (C3S)، التابعة للمركز الأوروبي للتنبؤات الجوية متوسطة المدى.",
-            "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/11/08/2791238.webp",
-            "ok": true
-          },
-          {
-            "title": "ليس التغير المناخي وحده.. خطر جديد يهدد مستقبل البشرية",
-            "url": "https://www.eremnews.com/environment/eul21q4",
-            "source": "إرم نيوز",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRg6_pXQlWOxHUDCJKSkpldmB3z7mAIBHEwCHROI4xsxoymFP-7rxIpxay5qAA",
-            "og_title": "ليس التغير المناخي وحده.. خطر جديد يهدد مستقبل البشرية | إرم نيوز",
-            "og_desc": "حذر علماء من أن تفاقم التغير المناخي قد لا يؤدي فقط إلى كوارث بيئية، بل قد يقوّض أيضاً قدرة المجتمعات على مواجهتها، عبر إضعاف الاقتصادات والمؤسسات",
-            "og_image": "https://cdn.eremnews.com/media/f618ceba-bebc-4ca8-b2f2-16e177ad457a_v3",
-            "ok": true
-          },
-          {
-            "title": "مرصد كوبرنيكوس: عام 2026 سيتجاوز على الأرجح حاجز 1.5 درجة للاحترار العالمي",
-            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=06112026&id=b58290e2-90e3-41da-a3ec-1e85a9998159",
-            "source": "بوابة الشروق",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRxM-JEXY8-Z-d5l0qHMjFlSreq-PRzwRuvaOxU4V3ol-lfG_Z-gMVT6TEU8eo",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/٨٨٨٨٨.jpeg",
-            "ok": false
           }
         ],
         "category": "طقس",
         "icon": "🌤️",
         "color": "#7fd8ff",
-        "reason": "العنوان يطابق: طقس",
+        "reason": "العنوان يطابق: طقس · مصادر محلية بدل مصادر عن بلد آخر",
         "publishable": true,
         "local_only": true,
+        "localized": true,
         "article": {
-          "headline": "الأرصاد تحذر: أمطار رعدية وسيول وبرد تضرب 8 مناطق سعودية اليوم",
-          "summary": "توقع المركز الوطني للأرصاد هطول أمطار رعدية متوسطة إلى غزيرة على 8 مناطق، مع تشكيلات ضبابية تعزز الأجواء الشتوية في مرتفعات الباحة.",
-          "body": "تشهد أجواء السعودية تقلبات جوية واسعة النطاق، حيث يتوقع المركز الوطني للأرصاد هطول أمطار رعدية متوسطة إلى غزيرة تؤدي إلى جريان السيول، وتكون مصحوبة بزخات من البرد ورياح نشطة تثير الأتربة والغبار. هذه الحالة الجوية المتوقعة تشمل ثماني مناطق رئيسية هي جازان، عسير، الباحة، مكة المكرمة، المدينة المنورة، القصيم، الرياض، والشرقية، مع احتمالية تكون الضباب في هذه المناطق إضافة إلى مناطق تبوك، الجوف، والحدود الشمالية. هذه التقلبات تعني ضرورة توخي الحيطة والحذر خاصة لمرتادي الطرق، نظرًا لتدني مستوى الرؤية الناتج عن الضباب أو الغبار المصاحب للرياح النشطة التي قد تتجاوز سرعتها 60 كم/ساعة في بعض الأجزاء البحرية. وعلى الصعيد السياحي، تعيش منطقة الباحة حاليًا أجواء شتوية مميزة؛ حيث تتوشح المرتفعات بالضباب وتتساقط زخات المطر، مما جذب الأهالي والزوار للاستمتاع بالمناظر الطبيعية والتقاط الصور التذكارية. ورغم جاذبية هذه المشاهد، دعت الجهات المعنية مرتادي الطرق الجبلية إلى الحذر الشديد أثناء التنقل في ظل هذه الظروف الجوية المتقلبة. حركة الملاحة البحرية ستتأثر أيضًا بهذه الحالة، حيث تشير تقارير الأرصاد إلى توقعات بارتفاع الموج ليصل إلى أعلى من مترين في بعض أجزاء البحر الأحمر والخليج العربي، خاصة عند تكون السحب الرعدية الممطرة، مع تغير في اتجاهات وسرعات الرياح السطحية التي قد تزيد عن 50 كم/ساعة. يظل على الجميع متابعة التحديثات الدورية الصادرة عن المركز الوطني للأرصاد لضمان السلامة أثناء التنقل أو القيام بالأنشطة الخارجية في المناطق المتأثرة بهذه الحالة الجوية خلال الساعات القادمة.",
+          "headline": "الأرصاد تحذر: أمطار رعدية وسيول تضرب مناطق السعودية يومي الإثنين والثلاثاء",
+          "summary": "تشهد مختلف مناطق المملكة تقلبات جوية وأمطارًا تتراوح بين الخفيفة والغزيرة، مع توقعات بزيادة شدة الحالة المطرية مطلع الأسبوع المقبل.",
+          "body": "مع استمرار هطول الأمطار التي تراوحت بين الخفيفة والمتوسطة والغزيرة في أرجاء واسعة من المملكة، أكد المتحدث الرسمي للمركز الوطني للأرصاد حسين محمد القحطاني أن الحالة المطرية التي بدأت الجمعة من المقرر أن تتسع رقعتها وتشتد حدتها بشكل ملحوظ يومي الإثنين والثلاثاء. وتشمل هذه التوقعات سحبًا رعدية مصحوبة بزخات من البرد ورياحًا نشطة تثير الأتربة والغبار، مما قد يؤدي إلى شبه انعدام في الرؤية الأفقية في عدة مناطق.\n\nتكمن أهمية هذه التحذيرات في ضمان سلامة المواطنين والمقيمين والزوار، خاصة مع احتمالية جريان السيول في الأودية والشعاب واضطراب حالة البحر الأحمر والخليج العربي. لذا، دعت المديرية العامة للدفاع المدني الجميع إلى أخذ الحيطة والحذر التام، والالتزام بالبقاء في أماكن آمنة بعيدًا عن تجمعات المياه ومجاري السيول، مع تجنب السباحة فيها والتمسك بالتعليمات الصادرة عبر القنوات الرسمية.\n\nتأتي هذه التوقعات لتغطي مساحة واسعة من البلاد، حيث من المحتمل تأثر مناطق مكة المكرمة، والمدينة المنورة، وحائل، والقصيم، والحدود الشمالية، وأجزاء من المنطقة الشرقية، وجازان، وعسير، والباحة بأمطار غزيرة. بينما يتوقع أن تشهد مناطق تبوك والجوف والأجزاء الشمالية من منطقة الرياض أمطارًا خفيفة إلى متوسطة مع فرص لتكون الضباب وفقًا لتقرير المركز الوطني للأرصاد. يذكر أن مدينة عرعر شهدت بالفعل أمطارًا ديمية غطت أنحاء متفرقة منها.\n\nاستعدادًا للتعامل مع هذه التقلبات، رفعت هيئة الهلال الأحمر السعودي جاهزيتها الإسعافية بشكل كامل عبر تهيئة الفرق الميدانية والآليات المساندة ومراكز الترحيل الطبي للعمل على مدار الساعة. كما عززت الأمانات والبلديات جاهزيتها الميدانية من خلال تحسين تدابير الصيانة ورفع كفاءة شبكات تصريف مياه الأمطار لضمان مواجهة الحالة الجوية المتوقعة بكفاءة.",
           "facts": [
             {
-              "label": "المناطق المتأثرة بالأمطار",
-              "value": "جازان، عسير، الباحة، مكة المكرمة، المدينة المنورة، القصيم، الرياض، والشرقية"
+              "label": "ذروة الحالة المطرية",
+              "value": "الإثنين والثلاثاء"
             },
             {
-              "label": "ظواهر مصاحبة",
-              "value": "سيول، برد، رياح نشطة، أتربة، غبار، ضباب"
+              "label": "بداية الحالة المطرية",
+              "value": "الجمعة"
             },
             {
-              "label": "سرعة الرياح في البحر الأحمر",
-              "value": "تصل لأكثر من 60 كم/ساعة"
-            },
-            {
-              "label": "ارتفاع الموج",
-              "value": "يصل إلى أعلى من مترين مع السحب الرعدية"
+              "label": "الجهة الرسمية المحذرة",
+              "value": "المركز الوطني للأرصاد والمديرية العامة للدفاع المدني"
             }
           ],
           "tags": [
-            "الطقس",
-            "السعودية",
-            "الأرصاد",
+            "طقس السعودية",
             "أمطار",
-            "سيول"
+            "الأرصاد",
+            "الدفاع المدني",
+            "السعودية"
           ],
           "_v": 4,
           "_by": "gemini",
-          "written_at": "2026-11-08T04:01:51.682859+00:00",
+          "written_at": "2026-11-08T04:31:27.505217+00:00",
           "photo": {
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Close-up_of_the_rain_drops_on_a_car_window._Car_in_a_blurry_background.jpg/1280px-Close-up_of_the_rain_drops_on_a_car_window._Car_in_a_blurry_background.jpg",
             "width": 1280,
@@ -1174,108 +1111,14 @@
           },
           "photo_v": 8,
           "_had_data": false,
-          "_localized": false
+          "_localized": true
         },
         "card": "cards/sa-2026-11-08-الطقس.png"
       },
       {
-        "title": "اذكار الصباح",
-        "traffic": "5000+",
-        "traffic_num": 5000,
-        "published": "Sat, 7 Nov 2026 18:50:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPuitSQSfTrHQFf0BFQNQVpH3FC5Ad7wDzfkkm3ABf-HdpFPGq1QeIFQBbBMI",
-        "image_source": "اليوم السابع",
-        "news": [
-          {
-            "title": "دعاء الفجر اليوم الأحد 8 نوفمبر 2026.. اللهم يسر أمورنا واشرح صدورنا وارزقنا",
-            "url": "https://www.youm7.com/story/2026/11/8/%D8%AF%D8%B9%D8%A7%D8%A1-%D8%A7%D9%84%D9%81%D8%AC%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF-8-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-2026-%D8%A7%D9%84%D9%84%D9%87%D9%85-%D9%8A%D8%B3%D8%B1-%D8%A3%D9%85%D9%88%D8%B1%D9%86%D8%A7/7608880",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPuitSQSfTrHQFf0BFQNQVpH3FC5Ad7wDzfkkm3ABf-HdpFPGq1QeIFQBbBMI",
-            "og_title": "دعاء الفجر اليوم الأحد 8 نوفمبر 2026.. اللهم يسر أمورنا واشرح صدورنا وارزقنا - اليوم السابع",
-            "og_desc": "يتصدر دعاء الفجر اليوم الأحد 8 نوفمبر 2026، اهتمامات كثير من المسلمين مع الساعات الأولى من الصباح، حيث يحرصون على اغتنام بداية يوم جديد في الدعاء والتضرع إلى الله سبحانه وتعالى..",
-            "og_image": "https://img.youm7.com/xlarge/202412250517161716.jpg",
-            "ok": true
-          },
-          {
-            "title": "أفضل أدعية تردد يوم الجمعة للرزق والبركة وتيسير الأمور للأبناء",
-            "url": "https://www.almasryalyoum.com/news/details/4402960",
-            "source": "المصري اليوم",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3-vDWvwllyCNalfCIPejELwJ3TYOZ_f1CMdvyjX94X50yRVVJe6gLOdKe6SY",
-            "og_title": "أفضل أدعية تردد يوم الجمعة للرزق والبركة وتيسير الأمور للأبناء | المصري اليوم",
-            "og_desc": "أدعية يوم الجمعة.. ترتفع معدلات بحث الكثير من المواطنين حول معرفة الأدعية التي يمكن ترديدها يوم الجمعة الذي يمثل محطة إيمانية استثنائية في حياة كل مسلم، وفيما يلي أفضل الأدعية...",
-            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/06/2097631.webp",
-            "ok": true
-          },
-          {
-            "title": "أذكار الصباح اليوم الثلاثاء 3 نوفمبر/ تشرين الثاني 2026",
-            "url": "https://www.emiratesvoice.com/2247/061607-%D8%A3%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-3-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-%D8%AA%D8%B4%D8%B1%D9%8A%D9%86-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-2026",
-            "source": "www.emiratesvoice.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVfIoZqqzOjSQyatMSayMYUKB9cty2OliIo_8JpWNAyox1SU9lxg_nElQ1Ayg",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "TimeoutError"
-          }
-        ],
-        "category": "شخصية",
-        "icon": "👤",
-        "color": "#ffd166",
-        "reason": "شخصية لا يرد اسمها في مصدرين",
-        "publishable": false,
-        "card": "cards/sa-2026-11-08-اذكار-الصباح.png"
-      },
-      {
-        "title": "الشروق",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Sat, 7 Nov 2026 19:40:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxECrY-ziZ78mv3umvgUq0tHG1xni6lhCGrNod2gF1djKJu7mSJYDeFRAFLXM",
-        "image_source": "DW.com",
-        "news": [
-          {
-            "title": "تكليف غادي آيزنكوت بتشكيل الحكومة الإسرائيلية: من هو بديل نتنياهو؟",
-            "url": "https://www.dw.com/ar/%D8%AA%D9%83%D9%84%D9%8A%D9%81-%D8%BA%D8%A7%D8%AF%D9%8A-%D8%A2%D9%8A%D8%B2%D9%86%D9%83%D9%88%D8%AA-%D8%A8%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D9%87%D9%88-%D8%A8%D8%AF%D9%8A%D9%84-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88/a-79888491",
-            "source": "DW.com",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxECrY-ziZ78mv3umvgUq0tHG1xni6lhCGrNod2gF1djKJu7mSJYDeFRAFLXM",
-            "og_title": "تكليف غادي آيزنكوت بتشكيل الحكومة الإسرائيلية: من هو بديل نتنياهو؟",
-            "og_desc": "الرئيس الإسرائيلي يكلّف غادي آيزنكوت بتشكيل الحكومة بعد نيله دعم 67 نائباً، وسط تحذيرات من نتنياهو بشأنه.",
-            "og_image": "https://static.dw.com/image/79783733_6.jpg",
-            "ok": true
-          },
-          {
-            "title": "تكليف غادي آيزنكوت بتشكيل الحكومة في إسرائيل",
-            "url": "https://arabic.cnn.com/middle-east/article/2026/11/07/eisenkot-to-be-tasked-with-forming-next-israeli-government",
-            "source": "CNN Arabic",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSoJo6gkNBHm561XmB0W6NLMw8Cty46-fMRasInjwsdD5r1s3wAIT2_qjTi0NY",
-            "og_title": "تكليف غادي آيزنكوت بتشكيل الحكومة في إسرائيل | CNN Arabic | CNN",
-            "og_desc": "",
-            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/349262.jpg?c=16x9&q=w_800,c_fill",
-            "ok": true
-          },
-          {
-            "title": "وسط خلافات على الائتلاف المرتقب.. المعارضة الإسرائيلية تقترب من تشكيل حكومة بديلة لنتنياهو",
-            "url": "https://www.mc-doualiya.com/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20261107-%D9%88%D8%B3%D8%B7-%D8%AE%D9%84%D8%A7%D9%81%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A7%D8%A6%D8%AA%D9%84%D8%A7%D9%81-%D8%A7%D9%84%D9%85%D8%B1%D8%AA%D9%82%D8%A8-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D8%B6%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%AA%D9%82%D8%AA%D8%B1%D8%A8-%D9%85%D9%86-%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%A8%D8%AF%D9%8A%D9%84%D8%A9-%D9%84%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88",
-            "source": "مونت كارلو الدولية",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT6F-QWZl8hhmWbNR0dCWCs3qFR4orZbmLB229Ayx5wwwa6mkCwQ96YLyEWIm0",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "category": "شخصية",
-        "icon": "👤",
-        "color": "#ffd166",
-        "reason": "شخصية لا يرد اسمها في مصدرين",
-        "publishable": false,
-        "card": "cards/sa-2026-11-08-الشروق.png"
-      },
-      {
         "title": "وزير",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "published": "Sat, 7 Nov 2026 19:20:00 -0800",
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-NZHoQn70CVdyq_NrFU7y4x02gCQrkGUEeSdlVM7FIGCWbTdDN1RjAQaJQB4",
         "image_source": "https://www.sabanew.net/",
@@ -1320,13 +1163,70 @@
         "card": "cards/sa-2026-11-08-وزير.png"
       },
       {
+        "title": "الشروق",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Sat, 7 Nov 2026 19:40:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzxa__oSO20BPxTQYChpg84T73Brqm1fwKzV3mriO5tQ9l03G6IK_0TOVPb-Q",
+        "image_source": "BBC",
+        "news": [
+          {
+            "title": "غادي آيزنكوت: من هو المكلف بتشكيل الحكومة الإسرائيلية؟",
+            "url": "https://www.bbc.com/arabic/articles/cxj0levgjmydo",
+            "source": "BBC",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzxa__oSO20BPxTQYChpg84T73Brqm1fwKzV3mriO5tQ9l03G6IK_0TOVPb-Q",
+            "og_title": "غادي آيزنكوت: من هو المكلف بتشكيل الحكومة الإسرائيلية؟ - BBC News عربي",
+            "og_desc": "نتناول في هذا التقرير سيرة القائد العسكري السابق الذي يشكّل أكبر تهديد سياسي لرئيس الوزراء بنيامين نتنياهو في الانتخابات العامة المقبلة.",
+            "og_image": "https://ichef.bbci.co.uk/news/1200/branded_arabic/281e/live/104bffc0-dae8-11f1-aac9-0789014bcc48.png",
+            "ok": true
+          },
+          {
+            "title": "تكليف غادي آيزنكوت بتشكيل الحكومة الإسرائيلية: من هو بديل نتنياهو؟",
+            "url": "https://www.dw.com/ar/%D8%AA%D9%83%D9%84%D9%8A%D9%81-%D8%BA%D8%A7%D8%AF%D9%8A-%D8%A2%D9%8A%D8%B2%D9%86%D9%83%D9%88%D8%AA-%D8%A8%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D9%87%D9%88-%D8%A8%D8%AF%D9%8A%D9%84-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88/a-79888491",
+            "source": "DW.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxECrY-ziZ78mv3umvgUq0tHG1xni6lhCGrNod2gF1djKJu7mSJYDeFRAFLXM",
+            "og_title": "تكليف غادي آيزنكوت بتشكيل الحكومة الإسرائيلية: من هو بديل نتنياهو؟",
+            "og_desc": "الرئيس الإسرائيلي يكلّف غادي آيزنكوت بتشكيل الحكومة بعد نيله دعم 67 نائباً، وسط تحذيرات من نتنياهو بشأنه.",
+            "og_image": "https://static.dw.com/image/79783733_6.jpg",
+            "ok": true
+          },
+          {
+            "title": "تكليف غادي آيزنكوت بتشكيل الحكومة في إسرائيل",
+            "url": "https://arabic.cnn.com/middle-east/article/2026/11/07/eisenkot-to-be-tasked-with-forming-next-israeli-government",
+            "source": "CNN Arabic",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSoJo6gkNBHm561XmB0W6NLMw8Cty46-fMRasInjwsdD5r1s3wAIT2_qjTi0NY",
+            "og_title": "تكليف غادي آيزنكوت بتشكيل الحكومة في إسرائيل | CNN Arabic | CNN",
+            "og_desc": "",
+            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/349262.jpg?c=16x9&q=w_800,c_fill",
+            "ok": true
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "شخصية لا يرد اسمها في مصدرين",
+        "publishable": false,
+        "card": "cards/sa-2026-11-08-الشروق.png"
+      },
+      {
         "title": "météo",
         "traffic": "200+",
         "traffic_num": 200,
         "published": "Sat, 7 Nov 2026 19:40:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTskD_9kNTvPeypR80eNhWxeE0TGkAWfqJrLlVyP_Pm1gJgf3yVHjmp_1t_j6Y",
-        "image_source": "franceinfo",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXom7gc-HynhEqPVQ9qLOCAbUn4haXR1-7Bpy8UPwvkPXFtrdcxLak2YAn6ts",
+        "image_source": "Ouest-France",
         "news": [
+          {
+            "title": "Météo. Quel temps fera-t-il à Rennes et ses environs le dimanche 8 novembre 2026 ?",
+            "url": "https://www.ouest-france.fr/meteo/bretagne/rennes-35000/la-meteo-du-jour-a-rennes-4179098f-c789-4ff8-bde0-d4872bdc808e",
+            "source": "Ouest-France",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXom7gc-HynhEqPVQ9qLOCAbUn4haXR1-7Bpy8UPwvkPXFtrdcxLak2YAn6ts",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
           {
             "title": "Météo France 2 du Dimanche 08 novembre 2026 à 02h05",
             "url": "https://www.franceinfo.fr/environnement/meteo/bulletins-meteo/meteo-france-2/meteo-france-2-du-dimanche-08-novembre-2026-a-02h05_8246527.html",
@@ -1336,17 +1236,6 @@
             "og_desc": "Météo France 2 du Dimanche 08 novembre 2026 à 02h05. Quel temps va-t-il faire aujourd'hui et dans les prochains jours ? Découvrez toutes les prévisions météo de France 2 du 08 novembre 2026, présentées par .Actualisé le 21 octobre 2026 à 03h07, le bulletin météo peut parfois commencer par les vigilances et alertes particulières émises par Météo France pour une zone localisée ou plusieurs départements.La présentatrice propose ensuite de faire le point sur la carte d'évolution des masses d'air en Europe, anticyclones et dépressions, avant de rentrer dans le détail des prévisions.Toutes les informations indispensables pour les heures et les jours à venir sont présentées en différentes cartes : les prévisions météo, le vent et les risques d'intempéries, les températures attendues...Un éphéméride pour le lendemain est parfois présenté en fin de bulletin avec les heures de lever et de coucher du soleil.",
             "og_image": "https://www.franceinfo.fr/pictures/h-aX87UelZFtlQ-GFZh_8b_LQrI/0x0:1920x1080/1500x843/2026/11/08/6aefdddad0140345240482.jpg",
             "ok": true
-          },
-          {
-            "title": "Météo. Quel temps fera-t-il à Mérignac et ses environs le dimanche 8 novembre 2026 ?",
-            "url": "https://www.ouest-france.fr/meteo/nouvelle-aquitaine/merignac-33700/la-meteo-du-jour-a-merignac-92a37ad0-b185-4e02-9767-f655ade2d968",
-            "source": "Ouest-France",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnYHL7rs_entvWDTWydj47fgMYXwyiXaLulmzZUzEJXig3i6O5pbJjcidLQug",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
           },
           {
             "title": "Météo aujourd'hui : une journée calme, brumeuse au nord et radoucie au sud ce dimanche 8 novembre",
@@ -1368,54 +1257,74 @@
         "card": "cards/sa-2026-11-08-météo.png"
       },
       {
-        "title": "warriors vs magic",
+        "title": "برد",
         "traffic": "200+",
         "traffic_num": 200,
-        "published": "Sat, 7 Nov 2026 18:50:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQCgF-gNNK6lD64gWnvKjYcahioYKOa_0hcE9ZwBkxKSGy62TMxgwE50RNyAE8",
-        "image_source": "Powell River Peak",
+        "published": "Sat, 7 Nov 2026 19:10:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYciqB0Oix3Refuwgvo08xmpBuYnae3bePQ7i62sMB4urPW2zKcSwkI19TUeM",
+        "image_source": "صحيفة سبق الإلكترونية",
         "news": [
           {
-            "title": "Preview: Porzingis retires (sort of), Warriors keep rising",
-            "url": "https://dubnationhq.com/p/preview-porzingis-retires-sort-of",
-            "source": "Dub Nation HQ",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRFJ3KI4KmT3rxPVrafGQTOqdYt4iVaPz_qSNAXzcUZwGLzJfbX3u7FG86K4L4",
-            "og_title": "Preview: Porzingis retires (sort of), Warriors keep rising",
-            "og_desc": "One of the many roster gambles doesn’t pay off, Golden State’s success mitigates the pain",
-            "og_image": "https://substackcdn.com/image/fetch/$s_!1ucO!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadcc70a6-0f3b-4ac2-a5d6-fda7b22d266c_646x473.jpeg",
+            "title": "ضباب وأمطار الباحة يجذبان المتنزهين إلى المرتفعات والمتنزهات",
+            "url": "https://sabq.org/article/sp345dj",
+            "source": "صحيفة سبق الإلكترونية",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYciqB0Oix3Refuwgvo08xmpBuYnae3bePQ7i62sMB4urPW2zKcSwkI19TUeM",
+            "og_title": "ضباب وأمطار الباحة يجذبان المتنزهين إلى المرتفعات والمتنزهات | سبق",
+            "og_desc": "أجواء شتوية بالضباب والأمطار تجذب الأهالي والزوار إلى متنزهات الباحة ومرتفعاتها، مع دعوة لمرتادي الطرق الجبلية إلى الحذر.",
+            "og_image": "https://media.sabq.org/news/2026/11/824e81f0-cbb4-4f32-81e8-bc339d961817/w1200.webp",
             "ok": true
           },
           {
-            "title": "Why Magic Vs. Stephen Curry, Warriors Can Continue To Expose Their Weaknesses",
-            "url": "https://www.si.com/nba/magic/onsi/how-the-struggling-magic-approach-steph-curry-warriors-01m6v9dmckp6",
-            "source": "Sports Illustrated",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTb_TQo5QPnOASOR5gZ2MeOkwwIVIiuqLkjKYHFzEuzhMP0x_tnSLNRWHZFjyA",
-            "og_title": "Why Magic Vs. Stephen Curry, Warriors Can Continue To Expose Their Weaknesses",
-            "og_desc": "Franz Wagner and the Magic will be challenged in two areas where they have struggled against Stephen Curry and the Warriors",
-            "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_7544,h_4243/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/the_magic_insider/01m6vat0n1gayezvhnm5.jpg",
+            "title": "أمطار على حائل",
+            "url": "https://www.al-madina.com/article/1012272/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D9%85%D8%B7%D8%A7%D8%B1-%D8%B9%D9%84%D9%89-%D8%AD%D8%A7%D8%A6%D9%84",
+            "source": "جريدة المدينة",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStsavlboRce00i9fiQEy7sDwWDTjb6xfh0h-7mqLCqYsJ6ix_fdmsBmaoUHzA",
+            "og_title": "أمطار على حائل",
+            "og_desc": "أمطار على حائل",
+            "og_image": "https://cdnx.premiumread.com/?f=jpg&q=80&url=https://www.al-madina.com/uploads/images/2026/11/07/2684242.jpg&w=1200",
+            "ok": true
+          },
+          {
+            "title": "«الأرصاد»: أمطار رعدية وسيول وبرد على 8 مناطق في السعودية",
+            "url": "https://www.okaz.com.sa/local/na/2274470",
+            "source": "عكاظ",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRI29R7v9YU5yJrK8n6R0Q6fhFM3wIbVY0MnyKKKiTCKYBhy0QP-_6WPyiOD3A",
+            "og_title": "«الأرصاد»: أمطار رعدية وسيول وبرد على 8 مناطق في السعودية",
+            "og_desc": "توقّع المركز الوطني للأرصاد في تقريره عن حالة الطقس اليوم -بمشيئة الله تعالى-، هطول أمطار رعدية متوسطة إلى غزيرة تؤدي إلى جريان السيول مصحوبة بزخات من البرد ورياح نشطة مثيرة للأتربة والغبار على",
+            "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/11/08/2791247.webp",
             "ok": true
           }
         ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 2000",
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "شخصية لا يرد اسمها في مصدرين",
         "publishable": false,
-        "card": "cards/sa-2026-11-08-warriors-vs-magic.png"
+        "card": "cards/sa-2026-11-08-برد.png"
       },
       {
-        "title": "الدوري السعودي للمحترفين",
+        "title": "التقويم الهجري",
         "traffic": "100+",
         "traffic_num": 100,
-        "published": "Sat, 7 Nov 2026 19:00:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ6tpizFEhPVTOHy6xrWkq3_xKRA6sSH35o3ipTai3Jhz0zbSoFFkL-_GIE6Os",
-        "image_source": "وكالة الأنباء السعودية",
+        "published": "Sat, 7 Nov 2026 20:00:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjynFxcsHZaLTuww5ulgGdwP5bQc1-ru0umbc5DnLMi7f1Rr_aodvibrcYBbY",
+        "image_source": "اليوم السابع",
         "news": [
           {
-            "title": "رياضي / رابطة الدوري السعودي للمحترفين تؤجّل الجولة الـ13 وتراجع الروزنامة الرياضية",
-            "url": "https://www.spa.gov.sa/fr/N2717204",
-            "source": "وكالة الأنباء السعودية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ6tpizFEhPVTOHy6xrWkq3_xKRA6sSH35o3ipTai3Jhz0zbSoFFkL-_GIE6Os",
+            "title": "مرحب شهر الصوم.. باقٍ 94 يومًا على بداية شهر رمضان 2027",
+            "url": "https://www.youm7.com/story/2026/11/5/%D9%85%D8%B1%D8%AD%D8%A8-%D8%B4%D9%87%D8%B1-%D8%A7%D9%84%D8%B5%D9%88%D9%85-%D8%A8%D8%A7%D9%82%D9%8D-94-%D9%8A%D9%88%D9%85%D9%8B%D8%A7-%D8%B9%D9%84%D9%89-%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9-%D8%B4%D9%87%D8%B1-%D8%B1%D9%85%D8%B6%D8%A7%D9%86/7607744",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjynFxcsHZaLTuww5ulgGdwP5bQc1-ru0umbc5DnLMi7f1Rr_aodvibrcYBbY",
+            "og_title": "مرحب شهر الصوم.. باقٍ 94 يومًا على بداية شهر رمضان 2027 - اليوم السابع",
+            "og_desc": "مع ترقب الملايين من المسلمين حول العالم لنفحات الشهر الكريم، كشفت الحسابات الفلكية الحديثة عن الموعد المرتقب لوفود شهر رمضان المبارك لعام 1448 هجرياً / 2027 ميلادياً،",
+            "og_image": "https://img.youm7.com/xlarge/20250228054805485.jpg",
+            "ok": true
+          },
+          {
+            "title": "إمساكية رمضان 2027 كاملة في مصر.. موعد السحور والإفطار والصلاة",
+            "url": "https://twaslnews1.twaslnews.com/7186541/",
+            "source": "شبكة تواصل الإخبارية",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBP64O_MPAWi-HEyEvjKZcpeO6PjCx054q-0pv2JCw5wZ_HLeSPjTo1dYzbAI",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -1423,79 +1332,114 @@
             "error": "HTTPError"
           },
           {
-            "title": "أبرزها الهلال والنصر.. متى تُقام مباريات الديربي والكلاسيكو في روشن؟",
-            "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%94%D8%A8%D8%B1%D8%B2%D9%87%D8%A7-%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D9%86%D8%B5%D8%B1--%D9%85%D8%AA%D9%89-%D8%AA%D9%8F%D9%82%D8%A7%D9%85-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%8A%D8%B1%D8%A8%D9%8A-%D9%88%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%88-%D9%81%D9%8A-%D8%B1%D9%88%D8%B4%D9%86/blt74e13a5357561bd6",
-            "source": "Kooora",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlIQN0QQwQhurXADhvBYSxlGa8TMNcpmZ0KDxAjSoEf-OuldxH3tg1EsrmnzA",
-            "og_title": "أبرزها الهلال والنصر.. متى تُقام مباريات الديربي والكلاسيكو في روشن؟ | كووورة",
-            "og_desc": "أصبحت مواعيد مباريات الديربي والكلاسيكو في دوري روشن السعودي معروفة بشكل مبدئي، بعد الكشف عن مسودة مباريات المسابقة حتى نهاية الموسم الحالي.",
-            "og_image": "https://assets.kooora.com/images/v3/getty-2275868252/crop/MM5DGNRUGI5DEMBUHE5G433XMU5DAORRHA4Q====/GettyImages-2275868252.jpg",
-            "ok": true
-          },
-          {
-            "title": "تأجيل الآسيوية «خيرة»",
-            "url": "https://www.al-jazirah.com/2026/20261108/sp12.htm",
-            "source": "جريدة الجزيرة",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWdSgf2VR36Ey1LJ_oP8PklfaBAGSRNymSlrbPhc3ABSLIOT59QKJONwAm9a8",
-            "og_title": "تأجيل الآسيوية «خيرة»",
-            "og_desc": "",
-            "og_image": "https://www.al-jazirah.com/2026/20261108/sp_92_1-t.jpg",
+            "title": "فاضل 93 يوماً.. موعد شهر رمضان 2027 وأول أيام عيد الفطر فلكياً - صوت الأمة",
+            "url": "https://www.akhbarak.net/news/details/49532755/16/%D9%81%D8%A7%D8%B6%D9%84-93-%D9%8A%D9%88%D9%85%D8%A7-%D9%85%D9%88%D8%B9%D8%AF-%D8%B4%D9%87%D8%B1-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-2027-%D9%88%D8%A3%D9%88%D9%84-%D8%A3%D9%8A%D8%A7%D9%85-%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D9%81%D8%B7%D8%B1-%D9%81%D9%84%D9%83%D9%8A%D8%A7-%D8%B5%D9%88%D8%AA-%D8%A7%D9%84%D8%A3%D9%85%D8%A9",
+            "source": "اخبارك نت",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRYREhTRDY_lDgVmYZdRnanwp8vu1lgeyFOMIkAbAo-FWfrUwQg6yDGSF5UP0g",
+            "og_title": "اخبارك نت | فاضل 93 يوماً.. موعد شهر رمضان 2027 وأول أيام عيد الفطر فلكياً - صوت الأمة",
+            "og_desc": "كشفت الحسابات الفلكية موعد شهر رمضان المبارك لعام 1448 هجري الموافق 2027 ميلادي، حيث من المرتقب أن يكون يبدأ شهر رمضان لعام 1448 هجريا الإثنين 8 فبراير 2027 ...",
+            "og_image": "https://aws-web-images.akhbarak.net/2026/11/6/49532755/49532755-original.jpg",
             "ok": true
           }
         ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
+        "category": "ديني",
+        "icon": "🕌",
+        "color": "#4dd0b1",
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "card": "cards/sa-2026-11-08-الدوري-السعودي-للمحترفين.png"
+        "card": "cards/sa-2026-11-08-التقويم-الهجري.png"
       },
       {
-        "title": "أسمنت",
+        "title": "আবহাওয়া",
         "traffic": "100+",
         "traffic_num": 100,
-        "published": "Sat, 7 Nov 2026 18:50:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRc-vjaFMvbQqJ0R8rREdSLLVd-iC-3wG0olpgr_ktcuCkfPTEYKQpQB1RHFD0",
-        "image_source": "الوطن",
+        "published": "Sat, 7 Nov 2026 19:30:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQUwwofETlH8UJCv2yMlhxccrHx-6zLPRu_9Dr-JAi7yhbNdeg53gzaYBV2LNw",
+        "image_source": "Ei Samay",
         "news": [
           {
-            "title": "أسعار الحديد والأسمنت في الأسواق اليوم السبت 7-11-2026.. بكم الطن؟",
-            "url": "https://www.elwatannews.com/news/details/8391788",
-            "source": "الوطن",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRc-vjaFMvbQqJ0R8rREdSLLVd-iC-3wG0olpgr_ktcuCkfPTEYKQpQB1RHFD0",
-            "og_title": "أسعار الحديد والأسمنت في الأسواق اليوم السبت 7-11-2026.. بكم الطن؟ - الوطن",
-            "og_desc": "فيما يلي أسعار الحديد والأسمنت في الأسواق اليوم السبت 7 11 2026 بحسب آخر تحديث صادر عن بوابة الأسعار التابعة لمجلس الوزراء - الوطن",
-            "og_image": "https://media.elwatannews.com/media/img/Large/2026/10/24/2026_10_24_21_4_50_816.jpg",
+            "title": "ভোরের হিমেল হাওয়ায় কমছে তাপমাত্রা, তবে কি শীতের কাউন্টডাউন শুরু?",
+            "url": "https://eisamay.com/west-bengal-news/kolkata-news/weather-today-kolkata-rainfall-update-west-bengal-kali-puja-2026/200563905.cms",
+            "source": "Ei Samay",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQUwwofETlH8UJCv2yMlhxccrHx-6zLPRu_9Dr-JAi7yhbNdeg53gzaYBV2LNw",
+            "og_title": "ভোরের হিমেল হাওয়ায় কমছে তাপমাত্রা, তবে কি শীতের কাউন্টডাউন শুরু?",
+            "og_desc": "সবে নভেম্বরের দ্বিতীয় সপ্তাহ। তাতেই রাতে ঘুমোতে যাওয়ার আগে বা ভোরবেলা ঘুম ভাঙতেই গায়ে দিতে হচ্ছে চাদর বা কাঁথা। জানলা দিয়ে ঢুকছে হিমেল হাওয়া। তবে কি চলতি বছর জা",
+            "og_image": "https://cf-images.assettype.com/eisamay%2F2026-11-08%2Fgjnff65a%2Fthumb-2026-11-08T091514.287.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
             "ok": true
           },
           {
-            "title": "أسعار مواد البناء والتشطيب في الأسواق اليوم السبت 7-11-2026",
-            "url": "https://www.vetogate.com/5765466",
-            "source": "فيتو",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzeSgLWEnt-JcWzAwVhJJ7NLDUXZIOTIoIq40__J742CjP9W6CZYBw_8fZDbM",
-            "og_title": "أسعار مواد البناء والتشطيب في الأسواق اليوم السبت 7-11-2026",
-            "og_desc": "شهدت أسعار مواد البناء والتشطيب حالة من التباين خلال تعاملات اليوم السبت 7-11-2026، وسط اختلاف مستويات الأسعار بين الخامات المستخدمة في أعمال الإنشاء والتشطيبات النهائية، وفقا لجودة المنتجات وتكاليف الإنتاج والتوريد داخل الأسواق المحلية.  مواد التشطيب والبناء، فيتو  وتستعرض \" فيتو \" خلال السطور التالية",
-            "og_image": "https://cdn.vetogate.com/UploadCache/libfiles/600/4/1200x675o/528.webp",
+            "title": "WB Weather Update: দীপাবলিতে কি বৃষ্টিতে ভিজবে রাজ্য? আবহাওয়া নিয়ে কি জানাচ্ছে হাওয়া অফিস",
+            "url": "https://bangla.asianetnews.com/west-bengal/wb-weather-update-will-kolkata-diwali-celebrations-be-dampened-by-rain-what-the-weather-office-has-to-say/articleshow-txprngv",
+            "source": "Asianet News Bangla",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQlU7lvBJRpMkaPKM3JKnELsVrUvF4h9qqC8t-xrge_zuLWPuj8rqZ9GTBc3to",
+            "og_title": "WB Weather Update: দীপাবলিতে কি বৃষ্টিতে ভিজবে রাজ্য? আবহাওয়া নিয়ে কি জানাচ্ছে হাওয়া অফিস",
+            "og_desc": "WB Weather Update: শনিবার রাজ্য ও কলকাতায় তাপমাত্রা ২ থেকে ৪ ডিগ্রি কমতে পারে। কালীপুজো ও দীপাবলিতে বৃষ্টির কোনও সম্ভাবনা নেই, আবহাওয়া মূলত শুষ্ক থাকবে। তবে উৎসবের পর দক্ষিণবঙ্গের কয়েকটি জেলায় হালকা বৃষ্টির সম্ভাবনা রয়েছে।",
+            "og_image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m6s7t8kvfdbjbbymbt26fsb5,imgname-weather-update-1793995907707.jpg",
             "ok": true
           },
           {
-            "title": "سعر الأسمنت اليوم السبت 7 نوفمبر 2026.. هل تغيرت الأسعار؟",
-            "url": "https://www.youm7.com/story/2026/11/7/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%A3%D8%B3%D9%85%D9%86%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA-7-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-2026-%D9%87%D9%84-%D8%AA%D8%BA%D9%8A%D8%B1%D8%AA-%D8%A7%D9%84%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1/7607963",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT21ARIxeBGDeucDUIAEQXPYR0cutwXMIBHz7ZIidOEC_N5K0M7gzOKuKVXmLE",
-            "og_title": "سعر الأسمنت اليوم السبت 7 نوفمبر 2026.. هل تغيرت الأسعار؟  - اليوم السابع",
-            "og_desc": "في سلسلة من الاستقرار واصل سعر الأسمنت اليوم السبت 7  نوفمبر 2026  ثباته في المصانع  والسوق ،لتواصل الاسعار الحفاظ على مستوياتها الحالية",
-            "og_image": "https://img.youm7.com/xlarge/20250105022309239.jpg",
+            "title": "ভোরে শীতের শিরশিরানি! দক্ষিণবঙ্গে পারদ পতনের ইঙ্গিত দিল আবহাওয়া দফতর",
+            "url": "https://www.thewall.in/west-bengal/west-bengal-weather-winter-chill-in-the-morning-heat-by-day-temperature-set-to-drop-across-south-bengal/tid/208747",
+            "source": "TheWall",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFmtnjIaG3PH21W4MMRWu1XiO_XiWDlEBuLdkr33Nekw-Kou57UE22JMFuMYc",
+            "og_title": "ভোরে শীতের শিরশিরানি! দক্ষিণবঙ্গে পারদ পতনের ইঙ্গিত দিল আবহাওয়া দফতর - West Bengal Weather Winter Chill in the Morning, Heat by Day! Temperature Set to Drop Across South Bengal",
+            "og_desc": "ভোরে শীতের আমেজ, বেলা বাড়লেই গরম—দক্ষিণবঙ্গের আবহাওয়ায় এবার বদলের ইঙ্গিত। আগামী তিন দিনে ২ থেকে ৩ ডিগ্রি কমতে পারে রাতের তাপমাত্রা। কলকাতা সহ দক্ষিণবঙ্গে কবে নামবে পারদ?",
+            "og_image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-11/WhatsApp%20Image%202026-11-06%20at%2008.59.00.jpeg.webp",
             "ok": true
           }
         ],
         "category": "شخصية",
         "icon": "👤",
         "color": "#ffd166",
-        "reason": "حجم بحث أقل من 2000",
+        "reason": "شخصية لا يرد اسمها في مصدرين",
         "publishable": false,
-        "person": true,
-        "card": "cards/sa-2026-11-08-أسمنت.png"
+        "card": "cards/sa-2026-11-08-আবহওয.png"
+      },
+      {
+        "title": "मौसम",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Sat, 7 Nov 2026 19:20:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTqdSrGdtbmsYehyduq5ozZaPOiMmHf-s8G5CUhsSy-tHbZ6nDF9P9DOfDCp8",
+        "image_source": "Amar Ujala",
+        "news": [
+          {
+            "title": "राजस्थान का मौसम: सर्दी के लिए करना होगा इंतजार, 15 नवंबर के बाद बदलेगा हवा का रुख",
+            "url": "https://www.amarujala.com/rajasthan/jaipur/rajasthan-weather-winter-chill-likely-to-intensify-after-november-15-temperatures-set-to-drop-2026-11-08",
+            "source": "Amar Ujala",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTqdSrGdtbmsYehyduq5ozZaPOiMmHf-s8G5CUhsSy-tHbZ6nDF9P9DOfDCp8",
+            "og_title": "राजस्थान का मौसम: सर्दी के लिए करना होगा इंतजार, 15 नवंबर के बाद बदलेगा हवा का रुख",
+            "og_desc": "राजस्थान में फिलहाल मौसम साफ रहेगा और दिन में धूप के कारण हल्की गर्मी बनी रहेगी। 15 नवंबर के बाद उत्तरी हवाओं का रुख बदलने",
+            "og_image": "https://staticimg.amarujala.com/assets/images/2025/11/02/rajathhana-jayapara-ka-masama_0e75cfc7b00cd8768693e2ff8e483b0a.jpeg?w=1200&dpr=1.0",
+            "ok": true
+          },
+          {
+            "title": "माउंट : नवंबर की शुरुआत में रातें ठंडी, सुबह छाई धुंध",
+            "url": "https://www.bhaskar.com/local/rajasthan/sirohi/mount-abu/news/mount-cold-nights-and-misty-mornings-in-early-november-dbp-139626478.html",
+            "source": "Dainik Bhaskar",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT-FeKBuVmZeWauKrehHtXvIETAfMhzRSjPnUIs1i3EWLEsQShSX_reOlt57fo",
+            "og_title": "माउंट : नवंबर की शुरुआत में रातें ठंडी, सुबह छाई धुंध - Mount abu News",
+            "og_desc": "dainikbhaskar",
+            "og_image": "https://images.bhaskarassets.com/thumb/400x0/web2images/web-frontend/default-og-image-hi.jpg",
+            "ok": true
+          },
+          {
+            "title": "10 डिग्री तक लुढ़का गुरु शिखर का पारा, माउंट आबू में गुलाबी ठंड की दस्तक, नक्की लेक पर बढ़ी पर्यटकों की चहल-पहल",
+            "url": "https://navbharattimes.indiatimes.com/state/rajasthan/sirohi/mount-abu-weather-temperature-drops-to-10-degree-cold-wave-gujarat-tourists-crowd-nakki-lake/articleshow/135601144.cms",
+            "source": "Navbharat Times",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ20y1uD96J0-dTGHmBWNHe1X9FTBFgBJHo3S9lmxUB4bHfvxwQdKp-t0XQplA",
+            "og_title": "10 डिग्री तक लुढ़का गुरु शिखर का पारा, माउंट आबू में गुलाबी ठंड की दस्तक, नक्की लेक पर बढ़ी पर्यटकों की चहल-पहल",
+            "og_desc": "Mount Abu Winter Update:राजस्थान के पर्वतीय पर्यटन स्थल आबूराज में नवंबर की शुरुआत के साथ ही ठंड ने असर दिखाना शुरू कर दिया है। ठंडी हवाओं के चलने से आबूराज का न्यूनतम तापमान 12 डिग्री सेल्सियस तक गिर गया है। वहीं अरावली की सबसे ऊंची चोटी गुरु शिखर पर पारा लुढ़ककर 10 डिग्री सेल्सियस पर पहुंच गया है।",
+            "og_image": "https://static.langimg.com/nbt/thumb/135601961/mount-abu-weather.jpg?imgsize=212060&width=1600&height=900&resizemode=75",
+            "ok": true
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "شخصية لا يرد اسمها في مصدرين",
+        "publishable": false,
+        "card": "cards/sa-2026-11-08-मसम.png"
       }
     ]
   }

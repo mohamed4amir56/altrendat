@@ -5825,10 +5825,10 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "طقس",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "Iowa Hawkeyes at Northwestern Wildcats - NCAAF Game Summary - Nov 07, 2026",
-          "Iowa’s offense sets the tone",
+          "DITV: #19 Iowa Confirms Playoff Aspirations in Road Win Again Northwestern",
+          "Iowa's Hank Brown connects with Tony Diaz for 24-yard TD, giving Hawkeyes lead over Northwestern",
           "Eickholt's Observations: LJ Phillips Comes To Life, Hawkeye Defense Swarms Backfield"
         ]
       }
@@ -11643,14 +11643,14 @@
         "date": "2026-11-08",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
           "​لتخفيف الازدحام.. وزير النقل يتفقد مشروعات المترو والترام والقطار السريع بالإسكندرية",
           "قبل بدء تشغيله.. أسماء محطات مترو الإسكندرية بالكامل وموعد انطلاق المرحلة الأولى (تعرف عليها)",
-          "مترو الإسكندرية يقترب من التشغيل.. محطة كفر عبده تستعد لاستقبال الركاب والافتتاح التجريبي في مايو"
+          "محافظ الإسكندرية: مشروعات ذات أولوية لتطوير شبكة الحافلات وأنظمة النقل الذكية"
         ]
       }
     ],
@@ -109101,9 +109101,9 @@
         "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "وزارة التضامن تحذر المواطنين من صفحات مشبوهة تدعي تقديم خدمات برنامج تكافل وكرامة",
-          "رابط الاستعلام عن تكافل وكرامة بالرقم القومي.. وخطوات تقديم شكوى",
-          "التضامن حسمت الأمر.. خطوات الاستعلام وموعد صرف معاش تكافل وكرامة عن شهر نوفمبر 2026"
+          "وزارة التضامن: تحسين جودة تنمية الطفولة المبكرة بـ500 حضانة فى 9 محافظات",
+          "السفير الياباني بالقاهرة: مصر ركيزة أساسية لاستقرار المنطقة بأسرها",
+          "سفير اليابان بالقاهرة: برنامج JOCV جسر ممتد بين الشعبين"
         ]
       }
     ],
@@ -263838,15 +263838,30 @@
           "Billionaire Leon Black sues U.S. Rep. Robert Garcia for defamation over Epstein comments",
           "Leon Black sues Rep. Garcia over remarks about his relationship with Epstein"
         ]
+      },
+      {
+        "key": "2026-11-08|world",
+        "date": "2026-11-08",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "The Epstein Election and the End of MAGA",
+          "‘Want to burn the Republican Party down’: Trump world spooked as voters unleash wrath over Epstein",
+          "Scoop: How Epstein ads pushed Dems' closing argument"
+        ]
       }
     ],
-    "last_seen": "2026-11-05",
-    "total": 3,
+    "last_seen": "2026-11-08",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 100,
-    "category": "عام"
+    "category": "سياسة"
   },
   "katie-volynets": {
     "slug": "katie-volynets",
@@ -283528,7 +283543,11 @@
         "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
-        "headlines": []
+        "headlines": [
+          "نقابة الأطباء: الزيادة المقررة لأعضاء المهن الطبية لا تحقق أي تحسن حقيقي في دخول الأطباء",
+          "الأطباء يرفضون قرار «مدبولي».. وأخصائي: أجورنا تدهورت من 45جرام ذهب لأقل من جرامين",
+          "متحدث الوزراء يزف بشرى سارة بشأن زيادة أجور العاملين في قطاعي التعليم والطب"
+        ]
       }
     ],
     "last_seen": "2026-11-08",
@@ -284908,15 +284927,45 @@
           "LIVE UPDATES: Alex Eala vs Maria Sakkari at the Hong Kong Tennis Open semifinals",
           "How To Watch Alexandra Eala vs Antonia Ruzic at the WTA Hong Kong Open? Start Time, Live Streaming, TV Details, and More"
         ]
+      },
+      {
+        "key": "2026-11-08|world",
+        "date": "2026-11-08",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "52,000+",
+        "traffic_num": 52000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Alex Eala outlasts Maria Sakkari in rain-soaked Hong Kong Open semifinals, faces Claire Liu in final",
+          "LIVE: Alex Eala vs Claire Liu – Hong Kong Open final",
+          "Eala tops Sakkari in rain-impacted semifinal to set Hong Kong final against Liu"
+        ]
+      },
+      {
+        "key": "2026-11-08|sa",
+        "date": "2026-11-08",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Alex Eala seeks to cap breakthrough season with Hong Kong Tennis Open title",
+          "LIVE UPDATES: Eala eyes 2nd WTA title in Hong Kong",
+          "Eala beats Ruzic in Hong Kong quarterfinal featuring 29 break points"
+        ]
       }
     ],
-    "last_seen": "2026-11-07",
-    "total": 20,
+    "last_seen": "2026-11-08",
+    "total": 22,
     "countries": [
       "sa",
       "world"
     ],
-    "peak_traffic": 50000,
+    "peak_traffic": 52000,
     "category": "رياضة"
   },
   "venezuela": {
@@ -314119,14 +314168,14 @@
         "date": "2026-11-08",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "استقرار سعر الدولار مقابل الجنيه تحت سقف الـ54 جنيها في البنوك",
-          "أسعار العملات الأجنبية في ختام تعاملات اليوم 7 نوفمبر 2026",
-          "سعر الدولار مقابل الجنيه المصري في 11 بنكاً مع بداية تعاملات اليوم الأحد"
+          "استقرار سعر الدولار مقابل الجنيه فى بداية تعاملات اليوم الأحد",
+          "سعر الدولار اليوم الأحد 8-11-2026 في البنوك | أموال الغد",
+          "أسعار العملات الأجنبية في ختام تعاملات اليوم 7 نوفمبر 2026"
         ]
       }
     ],
@@ -353206,8 +353255,8 @@
         "publishable": false,
         "headlines": [
           "Protecting Competitive Integrity in VCT 2027",
-          "Everything to know about the VCT Pacific Kickoff Qualifiers",
-          "Riot Games and JioBLAST to host VCT 2027 Kickoff South Asia qualifiers"
+          "Riot Games and JioBLAST to host VCT 2027 Kickoff South Asia qualifiers",
+          "Introducing VCT Pacific 2027"
         ]
       }
     ],
@@ -369968,10 +370017,25 @@
           "انخفاض سعر الريال مقابل الجنيه اليوم الخميس في البنوك المصرية",
           "دون تغيير.. سعر العملات العربية في البنوك الريال السعودي والدينار الكويتي الآن"
         ]
+      },
+      {
+        "key": "2026-11-08|sa",
+        "date": "2026-11-08",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "سعر الريال السعودي اليوم الأحد 8-11-2026 في البنوك | أموال الغد",
+          "قبل السفر للعمرة.. كم تحتاج لشراء 1000 أو 5000 ريال سعودي؟",
+          "انخفاض سعر الريال السعودي مقابل الجنيه في 5 بنوك خلال أسبوع"
+        ]
       }
     ],
-    "last_seen": "2026-10-31",
-    "total": 5,
+    "last_seen": "2026-11-08",
+    "total": 6,
     "countries": [
       "eg",
       "sa"
@@ -439266,8 +439330,8 @@
         "publishable": false,
         "headlines": [
           "منتخب نشامى الأردن يبدأ رحلة التأهل إلى كأس آسيا…",
-          "المنتخب الوطني للناشئين يواجه لاوس الأحد في افتتاح مشواره بتصفيات كأس آسيا 2027",
-          "منتخبنا تحت 17 عاما يلاقي ماليزيا في انطلاق التصفيات الآسيوية"
+          "القائمة الرسمية لمنتخب الناشئين تحت 17 عاماً للمشاركة في تصفيات كأس آسيا",
+          "المنتخب الوطني للناشئين يواجه لاوس الأحد في افتتاح مشواره بتصفيات كأس آسيا 2027"
         ]
       }
     ],
@@ -579820,7 +579884,7 @@
         "headlines": [
           "Mahmud’s 6-90 restricts West Indies in second Bangladesh Test",
           "Mahmud: 'Beating a batter is quite a good feeling'",
-          "Spinners strike late in first session"
+          "Windies tighten grip as Tigers toil in Sylhet"
         ]
       }
     ],
@@ -596373,14 +596437,29 @@
           "Download Grand Theft Auto VI Faster and Get to Leonida Sooner With Spectrum Internet Gig",
           "Grand Theft Auto VI pre-download begins November 10"
         ]
+      },
+      {
+        "key": "2026-11-08|world",
+        "date": "2026-11-08",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Grand Theft Auto VI Pre-Load Begins on November 10",
+          "Download Grand Theft Auto VI Faster and Get to Leonida Sooner With Spectrum Internet Gig",
+          "Grand Theft Auto VI pre-download begins November 10"
+        ]
       }
     ],
-    "last_seen": "2026-11-07",
-    "total": 1,
+    "last_seen": "2026-11-08",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 5000,
     "category": "عام"
   },
   "zelda-ocarina-of-time-remake": {
@@ -596761,7 +596840,7 @@
         "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "اليوم.. انطلاق الدورة 30 من معرض Cairo ICT برعاية رئيس الوزراء",
+          "إنجاز جديد.. وزير الاتصالات: إنتاج 30 مليون هاتف محمول محلياً وتصدير 30% منها بحلول 2030",
           "رأفت هندي: مصر تنتقل للمرحلة الثانية من استراتيجية الذكاء الاصطناعي وتستهدف استثمارات أكبر في مراكز البيانات",
           "راية لتكنولوجيا المعلومات وسيسكو تستعرضان حلول الجيل القادم في Cairo ICT 2026 | أموال الغد"
         ]
@@ -607293,9 +607372,8 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Czy pogoda dziś (08.11) zaskoczy mieszkańców Częstochowy? Dowiedz się więcej",
-          "Pogoda Częstochowa 08.11.2026 (niedziela): ostrzeżenie IMGW 1. stopnia, gęsta mgła",
-          "Słonce Jury"
+          "Pogoda: Prognoza na niedzielę",
+          "Nagły zwrot w pogodzie na niedzielę. Jeden szczegół zaskoczy miliony Polaków"
         ]
       }
     ],
@@ -607681,8 +607759,8 @@
         "date": "2026-11-08",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -607696,7 +607774,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "كافد": {
@@ -607714,9 +607792,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "سماع دوي مرتفع في الرياض بعد إنذار مبكر من خطر محتمل",
-          "أ ف ب: دوي انفجارات قوية في الرياض بعد تحذير السلطات السعودية من \"تهديد جوي معاد\"",
-          "دوي انفجارات في الرياض والتحالف يعلن اعتراض \"باليستيين\" حوثيين"
+          "مباشر: استهداف مركز الملك عبدالله المالي في الرياض وتضرر مبنى لأرامكو في هجوم الحوثيين",
+          "أربعة مصادر: تضرر برج في الرياض جراء مقذوف",
+          "أ ف ب: دوي انفجارات قوية في الرياض بعد تحذير السلطات السعودية من \"تهديد جوي معاد\""
         ]
       }
     ],
@@ -607746,6 +607824,208 @@
           "Live Cricket Score, Schedule, Latest News, Stats & Videos",
           "Live Cricket Score, Schedule, Latest News, Stats & Videos",
           "Live Cricket Score, Schedule, Latest News, Stats & Videos"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-08",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "south-africa-italy-rugby": {
+    "slug": "south-africa-italy-rugby",
+    "name": "south africa italy rugby",
+    "first_seen": "2026-11-08",
+    "appearances": [
+      {
+        "key": "2026-11-08|world",
+        "date": "2026-11-08",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Nine-try Springboks blitz Italy in Turin to set Nations Championship pace",
+          "Nine-try Boks march forward as they smash Italy",
+          "Erasmus demands more after Springboks crush Italy"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-08",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "عام"
+  },
+  "australia-vs-samoa": {
+    "slug": "australia-vs-samoa",
+    "name": "australia vs samoa",
+    "first_seen": "2026-11-08",
+    "appearances": [
+      {
+        "key": "2026-11-08|world",
+        "date": "2026-11-08",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Australia v Samoa: men’s Rugby League World Cup semi-final – live",
+          "'Match-winner' from bench\" Walters explains Kangaroos selections"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-08",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "the-diplomat": {
+    "slug": "the-diplomat",
+    "name": "the diplomat",
+    "first_seen": "2026-11-08",
+    "appearances": [
+      {
+        "key": "2026-11-08|world",
+        "date": "2026-11-08",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "‘The Diplomat’ season 5: What we know so far about the Netflix political drama",
+          "‘The Diplomat: Season 4’ on Netflix review by Susan Granger",
+          "How The Diplomat Season 4 Faked Windsor Castle, a Warship, and a G7 Summit"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-08",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "سياسة"
+  },
+  "wegmans-sold-winning-powerball-ticket": {
+    "slug": "wegmans-sold-winning-powerball-ticket",
+    "name": "wegmans sold winning powerball ticket",
+    "first_seen": "2026-11-08",
+    "appearances": [
+      {
+        "key": "2026-11-08|world",
+        "date": "2026-11-08",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Powerball winning ticket sold at Montvale, NJ Wegmans for $847 million jackpot",
+          "PB_Jackpot_RetailWin_110526",
+          "After Wegmans ticket matches $847 million Powerball, jackpot at $20 million"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-08",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "بوابة-مصر-الرقمية": {
+    "slug": "بوابة-مصر-الرقمية",
+    "name": "بوابة مصر الرقمية",
+    "first_seen": "2026-11-08",
+    "appearances": [
+      {
+        "key": "2026-11-08|eg",
+        "date": "2026-11-08",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "مساعد وزير الاتصالات: 36 مليون معاملة عبر بوابة مصر الرقمية خلال عام",
+          "الحكومة تطلق خدمة استخراج «كعب العمل» إلكترونيًا عبر منصة مصر الرقمية دون زيارة المكاتب",
+          "مدبولي: التوسع في إتاحة مزيد من الخدمات الحكومية الجديدة عبر منصة \"مصر الرقمية\""
+        ]
+      }
+    ],
+    "last_seen": "2026-11-08",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "دول وأماكن"
+  },
+  "استعلام-تكافل-وكرامة-بالرقم-القومي": {
+    "slug": "استعلام-تكافل-وكرامة-بالرقم-القومي",
+    "name": "استعلام تكافل وكرامة بالرقم القومي",
+    "first_seen": "2026-11-08",
+    "appearances": [
+      {
+        "key": "2026-11-08|eg",
+        "date": "2026-11-08",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "وزارة التضامن تحذر المواطنين من صفحات مشبوهة تدعي تقديم خدمات برنامج تكافل وكرامة",
+          "رابط الاستعلام عن تكافل وكرامة بالرقم القومي.. وخطوات تقديم شكوى",
+          "التضامن حسمت الأمر.. خطوات الاستعلام وموعد صرف معاش تكافل وكرامة عن شهر نوفمبر 2026"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-08",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "سياسة"
+  },
+  "mohammad-sayyam": {
+    "slug": "mohammad-sayyam",
+    "name": "mohammad sayyam",
+    "first_seen": "2026-11-08",
+    "appearances": [
+      {
+        "key": "2026-11-08|sa",
+        "date": "2026-11-08",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Live Cricket Score, Schedule, Latest News, Stats & Videos",
+          "Live Cricket Score, Schedule, Latest News, Stats & Videos",
+          "INDU19 vs PAKU19, 8th Match, Group A, ACC Men's U19 Asia Cup 2026 - Player Highlights"
         ]
       }
     ],

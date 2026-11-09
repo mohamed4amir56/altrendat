@@ -5883,8 +5883,8 @@
         "date": "2026-11-09",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
@@ -7380,9 +7380,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Природа приготовила сюрприз: в Петербурге переменится погода",
-          "Погоду в Петербурге улучшил барический гребень. Перемены ждите к вечеру",
-          "Суббота в Петербурге пройдет без осадков"
+          "В ночь на понедельник на западе Украины ожидается до 9° мороза, в Киеве около 0°",
+          "Ударят ли морозы в Украине в начале недели: прогноз погоды на сегодня",
+          "Во власти циклонов: на неделе 9 — 15 ноября всю Украину накроют дожди..."
         ]
       }
     ],
@@ -15112,12 +15112,12 @@
         "country_name": "السعودية",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "مباحث الأحداث تضبط 9 متهمين باستغلال الأطفال فى التسول بالجيزة",
-          "سقوط عصابة استغلال الاطفال في التسول بالجيزة",
-          "ضبط 9 متهمين لاستغلال 15 طفلًا في التسول وبيع السلع بالإكراه في الجيزة"
+          "\"كيف بدنا ننام؟!\".. أمطار تغمر الخيام في غزة والأزمة الإنسانية تتفاقم",
+          "استشهاد 5 فلسطينيين بانهيار جرف رملي على خيام نازحين وسط غزة",
+          "البرلمان العربي يطالب بتحرك دولي عاجل لإنقاذ نازحي غزة من البرد والسيول"
         ]
       }
     ],
@@ -15128,7 +15128,7 @@
       "sa"
     ],
     "peak_traffic": 1000,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "كرة-القدم": {
     "slug": "كرة-القدم",
@@ -20045,14 +20045,14 @@
         "date": "2026-11-09",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "عمر مرموش يقتحم قائمة استثنائية فى الدوري الإنجليزي.. ومحمد صلاح يتصدر",
-          "إيووبي نجم نيجيريا يتخطى صلاح في سباق تاريخي بالدوري الإنجليزي",
-          "أليكس أيوبي يتخطى محمد صلاح في قائمة تاريخية بـ الدوري الإنجليزي"
+          "يفترض أن يلعب بكلابشات ومكانه الأهلي أو الزمالك على أقصى تقدير .. مركز مرموش في توتنهام ضد ليدز يثير ردود أفعال غاضبة!",
+          "دي زيربي يعترف بأحقية ليدز في الفوز على توتنهام"
         ]
       }
     ],
@@ -266474,8 +266474,8 @@
         "date": "2026-11-09",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
@@ -266491,7 +266491,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "اقتصاد"
   },
   "بيض": {
@@ -347429,15 +347429,30 @@
           "Ric Flair Rushed to Hospital After Falling Outside Restaurant in Florida",
           "Ric Flair to undergo procedure for ‘extremely serious’ blood clot"
         ]
+      },
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Kraków shooting suspect who killed six has died, say police in Poland",
+          "Police: Gunman who killed at least 6 people in Polish city square dies in hospital",
+          "Poles mourn rare mass killing as authorities say attacker had far-right views"
+        ]
       }
     ],
-    "last_seen": "2026-10-25",
-    "total": 2,
+    "last_seen": "2026-11-09",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 5000,
-    "category": "رياضة"
+    "category": "حوادث وقضايا"
   },
   "بني-ياس-ضد-الوصل": {
     "slug": "بني-ياس-ضد-الوصل",
@@ -403341,9 +403356,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "أخفت عنه إصابتها بالسرطان.. حمادة هلال يروي محنة زوجته",
+          "أحدثهم حمادة هلال.. نجوم وقفوا بجوار زوجاتهم في أصعب معارك المرض من غرف العمليات إلى جلسات الكيماوي",
           "هبة مجدي توجه رسالة مؤثرة لزوجة حمادة هلال: \"ألف بعد الشر عليكي\"",
-          "أحدثهم حمادة هلال.. نجوم وقفوا بجوار زوجاتهم في أصعب معارك المرض من غرف العمليات إلى جلسات الكيماوي"
+          "حمادة هلال يكشف تفاصيل إصابة زوجته بالسرطان: شككت في تشخيص الطبيب وقررت إخبار نجلي"
         ]
       }
     ],
@@ -433932,15 +433947,30 @@
           "Top Landing Spots for Colts' RB Jonathan Taylor Amid Latest NFL Trade Rumors",
           "NFL insider floats Seahawks as a Jonathan Taylor trade suitor"
         ]
+      },
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "تعليم",
+        "publishable": true,
+        "headlines": [
+          "John Harbaugh: Giants did pull offer for Jonathan Taylor but 'things do change'",
+          "Jonathan Taylor landing spots: Ranking top 7 trade fits for Colts Pro Bowl running back",
+          "Jonathan Taylor delivers what sounds like a goodbye to Indianapolis after Colts' fifth straight loss"
+        ]
       }
     ],
-    "last_seen": "2026-10-24",
-    "total": 2,
+    "last_seen": "2026-11-09",
+    "total": 3,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
-    "category": "رياضة"
+    "peak_traffic": 20000,
+    "category": "تعليم"
   },
   "market-correction": {
     "slug": "market-correction",
@@ -446567,10 +446597,25 @@
           "Everything was going great — and then he got caught in Lori Vallow Daybell’s crosshairs",
           "Lori Vallow Tried to Have Him Murdered. Now, the Only Family Member Who Survived Is Breaking His Silence"
         ]
+      },
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Prosecution, defense exchange arguments as Lori Daybell asks for new trial",
+          "J.J. Vallow's grandfather responds as Lori Vallow seeks to overturn murder convictions",
+          "Vallow’s appeal raises concerns about rights in murder trial"
+        ]
       }
     ],
-    "last_seen": "2026-10-23",
-    "total": 1,
+    "last_seen": "2026-11-09",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -497246,14 +497291,14 @@
         "date": "2026-11-09",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Kavem Hodge: There is a belief and shared mindset among WI batters",
-          "Warrican strikes twice to leave Bangladesh 49-2 at lunch",
-          "Bowling and fielding woes leave Tigers facing tougher victory equation"
+          "Hridoy, Mushfiqur fall as West Indies renew push for victory",
+          "Warrican ends Hridoy’s resistance with 100th Test wicket",
+          "Kavem Hodge: There is a belief and shared mindset among WI batters"
         ]
       }
     ],
@@ -582726,14 +582771,14 @@
         "date": "2026-11-09",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "100+",
+        "traffic_num": 100,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Ball by Ball Commentary & Live Score - BAN vs WI, 2nd Test",
-          "Who holds the record for highest individual Test score for each nation? | SA's Mulder scored 367* vs Zimbabwe in 2025 | Inshorts",
-          "Bangladesh batsman Towhid Hridoy speaks to reporters"
+          "Kavem Hodge: There is a belief and shared mindset among WI batters",
+          "Hodge hits 140 as West Indies build lead over Bangladesh",
+          "Kevin Wickham Becomes 1st West Indies Player In 48 Years To Score Two 50s On Test Debut"
         ]
       }
     ],
@@ -593078,9 +593123,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Ball by Ball Commentary & Live Score - BAN vs WI, 2nd Test",
-          "‘It was a dream of mine’: Hridoy on record-breaking innings",
-          "Hridoy's unbeaten 242 rescues Bangladesh in Sylhet Test"
+          "Mushfiqur becomes first Bangladesh batter to score 7000 runs in Tests",
+          "Mushfiqur Rahim becomes first B’deshi to score 7,000 Test runs",
+          "Mushfiqur Rahim Becomes First Bangladeshi To Score 7000 Test Runs"
         ]
       }
     ],
@@ -600738,6 +600783,7 @@
         "publishable": false,
         "headlines": [
           "الأرصاد: انخفاض الحرارة 5 درجات من الخميس وأمطار على السواحل الشمالية",
+          "حالة الطقس اليوم في مصر.. انخفاض درجات الحرارة وأمطار على عدة مناطق",
           "أمطار ورياح وشبورة.. تفاصيل حالة الطقس اليوم في مصر"
         ]
       }
@@ -612084,8 +612130,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Jakiej pogody oczekiwać w kolejnych dniach od 10 listopada w Zgierzu? Poznaj szczegóły",
-          "Jakie zmiany mogą pojawić się w pogodzie (09.11) dla Strzegomia? Poznaj najnowsze przewidywania"
+          "Temperatura w Polsce spadnie o 20 stopni. Ciepły epizod przed arktycznym chłodem",
+          "Prognoza pogody na 5 dni i weekend. Nadchodzą skrajne temperatury. Od przymrozków po 15 stopni Celsjusza",
+          "Arktyczny mróz i opady śniegu. Zima zaatakuje Polskę?"
         ]
       }
     ],
@@ -622735,9 +622782,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "كيف تعثر على عمل في عصر الذكاء الاصطناعي؟ إليك نصائح الخبراء",
-          "الذكاء الاصطناعي يسرّع التوظيف ويضع رسوم وكالات التوظيف تحت الضغط",
-          "من مستخدم للتكنولوجيا إلى رقيب عليها.. الشك المهني سلاح الموظف الذكي"
+          "وزير العمل لمديري المديريات بالمحافظات: خدمة المواطن بشكل لائق وكريم هدفنا الأول",
+          "تشغيل الشباب وذوي الهمم وتسجيل العمالة غير المنتظمة.. 9 ملفات على طاولة وزير العمل",
+          "وزير العمل: مخرجات منتدى مصر 2026 تضع الاستثمار وفرص العمل والمهارات والحماية الاجتماعية أولوية"
         ]
       }
     ],
@@ -623193,8 +623240,8 @@
         "date": "2026-11-09",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
@@ -623209,7 +623256,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "سياسة"
   },
   "power": {
@@ -623224,12 +623271,12 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "دول وأماكن",
+        "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "Russia pounds power facilities around Kyiv, damages major bridge",
-          "Ukraine Battles To Restore Power After Russian Attacks, As Trump Hints At Potential Territorial Changes",
-          "Drone and missile attacks wound 9 in Ukraine as country prepares for talks with Russia and US"
+          "Democratic thrashing redraws the map of state power",
+          "2026 State Legislative Elections: The Results and What They Mean",
+          "Democrats flip statehouses in midterm wave"
         ]
       }
     ],
@@ -623239,7 +623286,7 @@
       "world"
     ],
     "peak_traffic": 100,
-    "category": "دول وأماكن"
+    "category": "سياسة"
   },
   "cheque-fraud": {
     "slug": "cheque-fraud",
@@ -623280,11 +623327,12 @@
         "date": "2026-11-09",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "فيديو رقص سما المصري بـ\"الجلابية والعمة\" يثير غضب أهالي الأقصر",
           "بالجلابية الصعيدي والعِمّة.. سما المصري تستعرض مهاراتها في التحطيب",
           "سما المصري تخلع الحجاب في أحدث ظهور من الأقصر.. وتثير التساؤلات (صور)"
         ]
@@ -623295,7 +623343,65 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
+  },
+  "the-gilded-age-season-4": {
+    "slug": "the-gilded-age-season-4",
+    "name": "the gilded age season 4",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Meet ‘The Gilded Age’ Season 4 Cast’s Real-Life Partners",
+          "From 'Dollar Princess' to 'The Four Hundred,' Decoding the Gilded Age's High-Society Slang",
+          "‘The Gilded Age’ Season 4 Episode 2 Ending Explained: Who Tried to Kill George Russell? Morgan Spector Explains Train Daddy’s Wild Choice"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "فن ومشاهير"
+  },
+  "planned-parenthood": {
+    "slug": "planned-parenthood",
+    "name": "planned parenthood",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Justice Department Intervenes in Planned Parenthood Lawsuit in Texas",
+          "Feds plan to take over Texas lawsuit against Planned Parenthood",
+          "Justice Department joins Texas lawsuit against Planned Parenthood"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
   }
 }

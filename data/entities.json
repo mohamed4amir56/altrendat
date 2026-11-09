@@ -1969,8 +1969,8 @@
         "publishable": false,
         "headlines": [
           "أمانة تبوك تكشط 237 ألف متر مربع من الطرق الرئيسية بتقنيات الذكاء الاصطناعي",
-          "خصصت مقاطعة كا ماو 291 قطعة أرض لإعادة التوطين شرق طريق باخ دانغ.",
-          "لتعزيز الربط السياحي.. رصف طريق «إدفو- مرسى علم» بتكلفة 180 مليون جنيه"
+          "مراجعة التصميم المعماري لجسر كان جيو - فونج تاو البحري والطريق.",
+          "الأخبارية | انقلاب شاحنة يجدد التحذيرات من أهوال طريق هيجة العبد وكربة ومطالبات واسعة بالتدخل"
         ]
       }
     ],
@@ -5898,8 +5898,8 @@
         "date": "2026-11-09",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+20200",
-        "traffic_num": 20200,
+        "traffic": "+20100",
+        "traffic_num": 20100,
         "category": "طقس",
         "publishable": true,
         "headlines": [
@@ -15140,14 +15140,14 @@
         "date": "2026-11-09",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
-        "category": "حوادث وقضايا",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "\"هربوا من القصف فدفنتهم الرمال\".. الموت يطارد أطفال غزة داخل خيام النزوح",
-          "غرق 70 ألف خيمة للنازحين في غزة خلال 12 ساعة من المنخفض الجوي",
-          "\"كيف بدنا ننام؟!\".. أمطار تغمر الخيام في غزة والأزمة الإنسانية تتفاقم"
+          "مؤسسة خالد بن سلطان الإنسانية تحمي الأطفال",
+          "الشارقة تطلق أول دليل عربي لحماية الأطفال من خطر الاستغلال الجنسي",
+          "'النهار' تحاور مديرة مؤسسة خالد بن سلطان القاسمي الإنسانية على هامش إطلاق دليل مصطلحات حماية الطفل"
         ]
       }
     ],
@@ -15157,8 +15157,8 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 2000,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 1000,
+    "category": "شخصية"
   },
   "كرة-القدم": {
     "slug": "كرة-القدم",
@@ -76018,16 +76018,31 @@
           "HRH the Crown Prince, Iraqi Prime Minister Hold Talks in Riyadh; Al-Zaidi Affirms Rejection of Attacks on Saudi Arabia",
           "Saudi Crown Prince Meets with Iraqi Prime Minister in Riyadh"
         ]
+      },
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Iran war updates: Drone hits northern Iraq; US blamed for Qeshm strikes",
+          "Iraq's Khor Mor gas field suspends output after drone attack, operator says",
+          "Drone attack on Iraq gas complex causes power outages"
+        ]
       }
     ],
-    "last_seen": "2026-10-15",
-    "total": 2,
+    "last_seen": "2026-11-09",
+    "total": 3,
     "countries": [
       "sa",
       "world"
     ],
     "peak_traffic": 200,
-    "category": "سياسة"
+    "category": "عام"
   },
   "china-open": {
     "slug": "china-open",
@@ -111826,8 +111841,8 @@
         "date": "2026-11-09",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -147361,9 +147376,9 @@
         "category": "سياسة",
         "publishable": true,
         "headlines": [
-          "الملك سلمان وولي العهد يهنئان ملك كمبوديا بذكرى الاستقلال",
           "القيادة تهنئ ملك مملكة كمبوديا بذكرى استقلال بلاده",
-          "سمو ولي العهد رئيس مجلس الوزراء يهنئ ملك مملكة كمبوديا بذكرى اليوم الوطني"
+          "سمو ولي العهد رئيس مجلس الوزراء يهنئ ملك مملكة كمبوديا بذكرى اليوم الوطني",
+          "خادم الحرمين وولي العهد يهنئان ملك كمبوديا بذكرى الاستقلال"
         ]
       }
     ],
@@ -266653,14 +266668,14 @@
         "date": "2026-11-09",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "اقتصاد",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "ريال مدريد يخصص 707 ملايين يورو للرواتب وعقود اللاعبين في ميزانية 2026-2027",
-          "707 ملايين يورو إنفاق ريال مدريد على رواتب اللاعبين وعمليات الانتقال",
-          "707 ملايين يورو.. كيف تضخمت فاتورة ريال مدريد؟"
+          "انفراجة فى أزمة مستحقات فرق الصالات بنادى الزمالك",
+          "بيان رسمي وأزمة مستحقات.. ماذا حدث في الزمالك اليوم السبت؟",
+          "لاعبو الزمالك يطالبون بعقد جلسة مع الإدارة لحل أزمة المستحقات"
         ]
       }
     ],
@@ -266670,7 +266685,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "اقتصاد"
   },
   "بيض": {
@@ -361940,10 +361955,25 @@
           "مصطفى محمد على مقاعد البدلاء فى مباراة آميد سبورتيف ضد كونيا سبور",
           "التعادل السلبي يخيم على مباراة قونيا سبور وباشاك شهير في الدوري التركي"
         ]
+      },
+      {
+        "key": "2026-11-09|eg",
+        "date": "2026-11-09",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "تصريحات صادمة من المدير الرياضي لنادي كونيا سبور عن مصطفى محمد",
+          "ريهام حمدي تكشف موقف مصطفى محمد من الانضمام لـ منتخب مصر",
+          "مدير رياضي كونيا سبور ليلا كورة: أداء مصطفى محمد لا يؤهله للانضمام لمنتخب مصر"
+        ]
       }
     ],
-    "last_seen": "2026-10-17",
-    "total": 1,
+    "last_seen": "2026-11-09",
+    "total": 2,
     "countries": [
       "eg"
     ],
@@ -601797,15 +601827,30 @@
           "رأفت هندي: مصر تنتقل للمرحلة الثانية من استراتيجية الذكاء الاصطناعي وتستهدف استثمارات أكبر في مراكز البيانات",
           "راية لتكنولوجيا المعلومات وسيسكو تستعرضان حلول الجيل القادم في Cairo ICT 2026 | أموال الغد"
         ]
+      },
+      {
+        "key": "2026-11-09|eg",
+        "date": "2026-11-09",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "الذكاء الاصطناعى يغير مستقبل الوظائف.. وخبراء يحذرون من مخاطر غياب الحوكمة",
+          "كيف تعثر على عمل في عصر الذكاء الاصطناعي؟ إليك نصائح الخبراء",
+          "«أحمد معروف»: التحول من القوى العاملة إلى ذكاء العمل يتطلب تطوير المهارات والتعلم المستمر"
+        ]
       }
     ],
-    "last_seen": "2026-11-08",
-    "total": 2,
+    "last_seen": "2026-11-09",
+    "total": 3,
     "countries": [
       "eg"
     ],
     "peak_traffic": 200,
-    "category": "سياسة"
+    "category": "عام"
   },
   "دونالد-ترامب": {
     "slug": "دونالد-ترامب",
@@ -624089,8 +624134,8 @@
         "date": "2026-11-09",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -624105,7 +624150,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "stock-market-bubble": {
@@ -624154,7 +624199,7 @@
         "headlines": [
           "تقارير: الوداد المغربي يستعد لمفاجأة الأهلي بعرض رسمي لضم سفيان بنجديدة",
           "شوبير يفجر مفاجأة بشأن رحيل صفقة الأهلي إلى الوداد المغربي.. أزمة مالية تهدد الصفقة",
-          "رفض عرضًا مغريًا ويعاند.. نجم الأهلي المصري يفجر غضبًا عارمًا"
+          "تعرف على طلب الأهلي من وكيل رضا سليم قبل انتقالات يناير"
         ]
       }
     ],
@@ -624176,8 +624221,8 @@
         "date": "2026-11-09",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -624192,7 +624237,235 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "عام"
+  },
+  "fc-barcelona-atletico-madrid": {
+    "slug": "fc-barcelona-atletico-madrid",
+    "name": "fc barcelona atletico madrid",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Atlético de Madrid 1-2 Barcelona: resumen, goles y resultado",
+          "Reacción de líder",
+          "El gran partido del 'MVP' Fermín, en números"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "رياضة"
+  },
+  "winston-salem-state-university": {
+    "slug": "winston-salem-state-university",
+    "name": "winston salem state university",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Police make arrest in a deadly shooting at Winston-Salem State during homecoming weekend",
+          "19-year-old killed, woman injured in first Winston-Salem State University campus shooting; 2 men charged",
+          "Man arrested after shootings kill 1 and injure 3 others on Winston-Salem State University campus"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "teddy-riner": {
+    "slug": "teddy-riner",
+    "name": "teddy riner",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Présidentielle 2027 : « Je suis candidat pour dire qu’on peut relever la France », Teddy Riner se lance dans la compétition",
+          "Teddy Riner annonce être candidat à l’élection présidentielle de 2027, poussé par la « colère » sociale et l’envie de « fédérer » les Français",
+          "EN DIRECT - Présidentielle 2027 : le champion olympique de judo Teddy Riner annonce sa candidature pour «relever la France»"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "دول وأماكن"
+  },
+  "british-airways-boeing-787-pittsburgh-grounded": {
+    "slug": "british-airways-boeing-787-pittsburgh-grounded",
+    "name": "british airways boeing 787 pittsburgh grounded",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "British Airways Boeing 787 Stranded In Pittsburgh For 2 Months Due To Complicated Repairs",
+          "British Airways Boeing 787 Stranded in Pittsburgh for Over 70 Days After Ground Collision"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "russell-brand-sentence": {
+    "slug": "russell-brand-sentence",
+    "name": "russell brand sentence",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Russell Brand sentencing: Follow live",
+          "Russell Brand faces sentencing and significant prison term for rape and sexual assaults",
+          "Russell Brand to be sentenced for rape and sexual assault today – latest updates"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "alicia-tournebize": {
+    "slug": "alicia-tournebize",
+    "name": "alicia tournebize",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Alicia Tournebize injury update, what Dawn Staley said about South Carolina forward"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "تقنية"
+  },
+  "frankie-cooper-mobland": {
+    "slug": "frankie-cooper-mobland",
+    "name": "frankie cooper mobland",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Why Frankie Cooper From MobLand Looks So Familiar",
+          "Why Frankie Cooper From MobLand Looks So Familiar"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "وادي-دجلة-ضد-كهرباء-الإسماعيلية": {
+    "slug": "وادي-دجلة-ضد-كهرباء-الإسماعيلية",
+    "name": "وادي دجلة ضد كهرباء الإسماعيلية",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|eg",
+        "date": "2026-11-09",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "حكام مباراتي الاثنين فى دور الـ32 لكأس مصر",
+          "جدول مباريات الإثنين.. مواجهتان في كأس مصر لإكمال عقد المتأهلين إلى دور الـ16",
+          "اليوم.. مباراتان فى كأس مصر"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
   }
 }

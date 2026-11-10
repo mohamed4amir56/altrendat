@@ -4,7 +4,7 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-11-10T06:03:09.292387+00:00",
+  "generated_at": "2026-11-10T06:31:26.240287+00:00",
   "day": "2026-11-10",
   "trends": [
     {
@@ -576,8 +576,8 @@
     },
     {
       "title": "nintendo switch firmware",
-      "traffic": "+1200",
-      "traffic_num": 1200,
+      "traffic": "1000+",
+      "traffic_num": 1000,
       "published": "Mon, 9 Nov 2026 21:30:00 -0800",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDmQkJYjB6bju3zo9IG5_KYlu4FMCXE2awoA_GFuV4f3krPIZTgkr2HrQVf9E",
       "image_source": "Nintendo",
@@ -607,20 +607,11 @@
           "url": "http://www.nintendoworldreport.com/news/78183/new-switch-2-switch-system-software-update-reveals-return-of-gifting-next-week",
           "source": "Nintendo World Report",
           "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTeBe7kK_4-EpXVMqJ3BDh1NH0f19YiKTRzKI29R-3yK-lhE0OvY7GMNDPNMw",
-          "og_title": "New Switch 2, Switch System Software Update Reveals Return Of Gifting Next Week - News",
+          "og_title": "",
           "og_desc": "",
           "og_image": "",
-          "ok": true
-        },
-        {
-          "title": "New Nintendo Switch 2 System Update 23.5.0 Adds Gifting for Family Accounts",
-          "url": "https://mp1st.com/news/new-nintendo-switch-2-system-update-23-5-0-adds-gifting-for-family-accounts",
-          "source": "MP1st",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT3LbT19mWjBGg1asKNaH4l3RjIaptHwYcm3-_i622IYhuMI4ia8CSCGBMjO5c",
-          "og_title": "New Nintendo Switch 2 System Update 23.5.0 Adds Gifting for Family Accounts",
-          "og_desc": "New Nintendo Switch 2 System Update version 23.5.0 adds the ability to gift family members eShop purchases, and other new features.",
-          "og_image": "https://mp1st.com/wp-content/uploads/2026/11/Nintendo-Switch-2-Gifting-1-1.jpg",
-          "ok": true
+          "ok": false,
+          "error": "HTTPError"
         }
       ],
       "geos": [
@@ -1411,6 +1402,16 @@
           "ok": true
         },
         {
+          "title": "Fargo’s Steve Buscemi Refuses to Appear on Popular Show for One Fiery Reason",
+          "url": "https://www.yahoo.com/entertainment/celebrity/interviews/articles/fargo-steve-buscemi-refuses-appear-051100766.html",
+          "source": "Yahoo",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTpKbo5R8ltWTJBofAFlfJSWFFLYGi1VOwN_VNoNlWLr57uLZUBmw9yKOflzcc",
+          "og_title": "Fargo’s Steve Buscemi Refuses to Appear on Popular Show for One Fiery Reason",
+          "og_desc": "Steve Buscemi revealed that he would never appear on a popular YouTube talk show. He added that no amount of money or convincing would get him on the show. He made these remarks on Josh Horowitz’s pod...",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/e1c50f66a6edd5e0697bef90007f0d16573e83866021b65e132d7f07e252c951/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmandatory_995%2F624bfb60bc57d38d0365a4fa1c2224ad.jpg",
+          "ok": true
+        },
+        {
           "title": "‘Hot Ones’ Makes Steve Buscemi ‘Confused’ and ‘Angry’",
           "url": "https://www.vulture.com/article/hot-ones-steve-buscemi.html",
           "source": "Vulture",
@@ -1419,16 +1420,6 @@
           "og_desc": "Sorry, his PR tour is spicy chicken-less.",
           "og_image": "https://pyxis.nymag.com/v1/imgs/4f9/109/4b1b50d55a72f108171254455b61286623-steve-buscemi.1x.rsocial.w1200.jpg",
           "ok": true
-        },
-        {
-          "title": "Steve Buscemi Explains Why He Refuses to Appear on ‘Hot Ones’",
-          "url": "https://www.imdb.com/pt/news/ni66103201/?ref_=nwc_art_perm",
-          "source": "IMDb",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThv-SQoFQ6JuJ_DLb1J58YqebLQp1FMyC4g0mE_rDz4GSUzJQnxbQ_DVT5P50",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false
         }
       ],
       "geos": [
@@ -1452,7 +1443,7 @@
       "news": [
         {
           "title": "Andrew Gross: It's always a treat when the Islanders' Matthew Schaefer and the Sharks' Macklin Celebrini face each other",
-          "url": "https://www.newsday.com/sports/columnists/andrew-gross/islanders-andrew-gross-c30r10dm",
+          "url": "https://www.newsday.com/sports/hockey/islanders/islanders-andrew-gross-c30r10dm",
           "source": "Newsday",
           "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCwj8n50YwYmpaAeZk__i1V7Ny9q28ZZUuFIm0SmvG7ClzrIeLAuAu8nK8-VM",
           "og_title": "Andrew Gross: It's always a treat when the Islanders' Matthew Schaefer and the Sharks' Macklin Celebrini face each other - Newsday",
@@ -1491,6 +1482,238 @@
       "publishable": false,
       "card": "cards/world-2026-11-10-macklin-celebrini.png",
       "published_at": "2026-11-10T06:03:09.292387+00:00"
+    },
+    {
+      "title": "julia louis-dreyfus",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 9 Nov 2026 22:00:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEZq8-xbWWAZa7wa4StyGocYjRmQY-XvRlniaeStmx6tNKi5wu_WfbLGleBIQ",
+      "image_source": "IMDb",
+      "news": [
+        {
+          "title": "Late Night with Seth Meyers: Julia Louis-Dreyfus, Jamie Dornan",
+          "url": "https://www.imdb.com/news/ni66100325/?ref_=nmnw_art_perm",
+          "source": "IMDb",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEZq8-xbWWAZa7wa4StyGocYjRmQY-XvRlniaeStmx6tNKi5wu_WfbLGleBIQ",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-10-julia-louis-dreyfus.png",
+      "published_at": "2026-11-10T06:31:26.240287+00:00"
+    },
+    {
+      "title": "ivar stenberg",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 9 Nov 2026 22:00:00 -0800",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRBHnJTh010NmD8xNWDYD3GPVeERmRnWpoH7VUmhklQl69L84-Ou7f8EulCfJs",
+      "image_source": "ESPN",
+      "news": [
+        {
+          "title": "Tyler Toffoli scores goal vs. Islanders",
+          "url": "https://www.espn.com/video/clip/_/id/50439492/tyler-toffoli-scores-goal-vs-islanders",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRBHnJTh010NmD8xNWDYD3GPVeERmRnWpoH7VUmhklQl69L84-Ou7f8EulCfJs",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Sharks 3*, Islanders 2 (SO*): After blood boils, settled with a shooting contest",
+          "url": "https://sports.yahoo.com/articles/sharks-3-islanders-2-blood-060426862.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTtl7PWfRV5kykkuTwowvbeps7Fgapazihj3NYJ6mzER5ixlq51lsrezZMvIRA",
+          "og_title": "Sharks 3*, Islanders 2 (SO*): After blood boils, settled with a shooting contest",
+          "og_desc": "The Islanders and Sharks were trading chances in a pond hockey Monday night when an old-time hockey game broke out. These are not very good teams, but they can be fun teams to watch, particularly with their recent top-of-the-draft picks (most of which, obviously, are on the persistently tanking Sharks side). Fittingly, it ended in […]",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/af0fa82a9716ae872ac293e2e9277c127c010f9e8b0e2c11c10d45921c96e9b2/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fb23ec65b30f63ad08721c1a43b82e965.jpg",
+          "ok": true
+        },
+        {
+          "title": "Sharks instant analysis: Exhausting, emotional win ends San Jose’s five-game skid",
+          "url": "https://www.mercurynews.com/2026/11/09/san-jose-sharks-new-york-islanders-macklin-celebrini-instant-analysis/",
+          "source": "The Mercury News",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTxQgCSzUvsSstvJBcf-8oEe8LeZBkWot-QyHfI4cF54clX4VlFtJyp3RvVWfQ",
+          "og_title": "Sharks instant analysis: Exhausting, emotional win ends San Jose’s five-game skid",
+          "og_desc": "San Jose Sharks welcomed back Alexander Wennberg in game vs. New York Islanders",
+          "og_image": "https://www.mercurynews.com/wp-content/uploads/2026/11/BNG-L-SHARKS-1110-16.jpg?w=4497&h=3101",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: shooting",
+      "publishable": false,
+      "card": "cards/world-2026-11-10-ivar-stenberg.png",
+      "published_at": "2026-11-10T06:31:26.240287+00:00"
+    },
+    {
+      "title": "karely ruiz",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 9 Nov 2026 22:00:00 -0800",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS3y4qGni8rO4WzEhlkidKxI6HJ8Fsvvw5K9j4GSaYUDH01wWapXOWTQVDypVI",
+      "image_source": "azcentral.com and The Arizona Republic",
+      "news": [
+        {
+          "title": "¿Dónde ver 'La Mansión VIP' y quiénes son sus participantes?Karely Ruiz lanza inesperada revelación",
+          "url": "https://www.lavozarizona.com/story/entretenimiento/2026/11/09/donde-ver-la-mansion-vip-el-hotspanish-y-sus-participantes/92688972007/",
+          "source": "azcentral.com and The Arizona Republic",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS3y4qGni8rO4WzEhlkidKxI6HJ8Fsvvw5K9j4GSaYUDH01wWapXOWTQVDypVI",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Estreno de ‘La Mansión VIP 2’: Así quedaron los cuartos en el arranque del reality show",
+          "url": "https://www.elfinanciero.com.mx/entretenimiento/2026/11/08/la-mansion-vip-2-en-vivo-que-paso-en-el-estreno-del-reality-show/",
+          "source": "El Financiero",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8xhIilxLI-PlBz-3FfnXZ0l-3D2UbNN2OSO8613CTuLGXQQw0OeuvSEwfppc",
+          "og_title": "Estreno de ‘La Mansión VIP 2’: Así quedaron los cuartos en el arranque del reality show",
+          "og_desc": "Conoce todos los detalles del estreno de La Mansión VIP 2 y la lista definitiva de participantes.",
+          "og_image": "https://www.elfinanciero.com.mx/resizer/v2/WLXGS7ML25BEDPBZFWJS2IUAKM.jpg?smart=true&auth=5dab6b98dbdc99d251d41fec68b2b2bf62b689df1404d47562f3379e1fcdc2fc&width=1200&height=630",
+          "ok": true
+        },
+        {
+          "title": "Ellos son los habitantes de La Mansión VIP",
+          "url": "https://www.tiempo.com.mx/espectaculos/la-mansion-vip-habitantes-hot-spanish-reality-show-youtube/",
+          "source": "Tiempo La Noticia Digital",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSOWliVBdPYep3bR_u0T9J5sPFl1bdVLtPYnHuc7uMm9bfrgHmRCoIGF-olYP4",
+          "og_title": "Ellos son los habitantes de La Mansión VIP",
+          "og_desc": "<p>Comenz&oacute; el reality show La Mansi&oacute;n VIP del creador de contenido Hot Spanish, entre sus integrantes estar&aacute;n la mam&aacute; de Poncho de Nigris, la cantante Bellakath y la creadora de contenido Paolita Su&aacute;rez.</p>",
+          "og_image": "https://static.tiempo.com.mx/uploads/imagen/imagen/824970/principal_la-mansion-vip-habitantes-hot-spanish-reality-show-youtube.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-10-karely-ruiz.png",
+      "published_at": "2026-11-10T06:31:26.240287+00:00"
+    },
+    {
+      "title": "government jobs",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Mon, 9 Nov 2026 22:10:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSWSzLZ_40M4S53lH9nj_U4bEe5nCoqTfA1jwNmV70axLlS2YwFqEcmiWoQso",
+      "image_source": "BBC",
+      "news": [
+        {
+          "title": "How a civil servant got away with juggling five jobs for so long",
+          "url": "https://www.bbc.com/news/articles/cw1m4d8vjvppo",
+          "source": "BBC",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSWSzLZ_40M4S53lH9nj_U4bEe5nCoqTfA1jwNmV70axLlS2YwFqEcmiWoQso",
+          "og_title": "How a civil servant got away with juggling five jobs for so long",
+          "og_desc": "Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.",
+          "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/3d7c/live/f86c8280-db55-11f1-b441-2b33b063138f.jpg",
+          "ok": true
+        },
+        {
+          "title": "Civil servant who juggled up to five government jobs guilty of fraud",
+          "url": "https://news.sky.com/story/civil-servant-who-juggled-up-to-five-government-jobs-guilty-of-fraud-13610264",
+          "source": "Sky News",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSb4nnAaUZ7LkLcuMGhstaTTcCLepPEDJWqVHQvT5GjrPXWIsVRSpK20OffhCw",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Civil servant with five jobs accused of bullying mother for £2m home",
+          "url": "https://www.thetimes.com/uk/crime/article/civil-servant-five-jobs-accused-bullying-mother-home-d7nl57k26",
+          "source": "The Times",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRZbHKdfB7OzMRUCsKrO1KWa6qU8QdNfSup4WJPGm-0ISqYp_MhHbYlfStnYmo",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-10-government-jobs.png",
+      "published_at": "2026-11-10T06:31:26.240287+00:00"
+    },
+    {
+      "title": "francis lawrence",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Mon, 9 Nov 2026 22:00:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSl110OdmcaUYF-R0F9kCMa9Mny6G9hc9P32a_PBhzQlRfGf26SFp8kU4GCz3k",
+      "image_source": "A.V. Club",
+      "news": [
+        {
+          "title": "Sunrise On The Reaping director thinks Plutarch Heavensbee could lead his own Hunger Games",
+          "url": "https://www.avclub.com/hunger-games-sunrise-on-the-reaping-director-plutarch-heavensbee-spinoff-ideas",
+          "source": "A.V. Club",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSl110OdmcaUYF-R0F9kCMa9Mny6G9hc9P32a_PBhzQlRfGf26SFp8kU4GCz3k",
+          "og_title": "Sunrise On The Reaping director thinks Plutarch Heavensbee could lead his own Hunger Games",
+          "og_desc": "Sunrise On The Reaping director thinks Plutarch Heavensbee could lead his own Hunger Games",
+          "og_image": "https://www.avclub.com/wp-content/uploads/2026/11/07/plutarch-plemons-header.jpg",
+          "ok": true
+        },
+        {
+          "title": "Hunger Games Director Pitches New Plutarch Prequel Ahead of Sunrise on the Reaping Release",
+          "url": "https://www.imdb.com/news/ni66100515/?ref_=ttnw_art_perm",
+          "source": "IMDb",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAAaRx3Ifeogs9tMbIgjtC4bp9rytM5KYxPL8dm2ManrKP-0vI7QngmGutDg0",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Hunger Games director Francis Lawrence pitches Plutarch prequel after 'Sunrise on the Reaping'",
+          "url": "https://tribune.com.pk/story/2639292/hunger-games-director-francis-lawrence-pitches-plutarch-prequel-after-sunrise-on-the-reaping",
+          "source": "The Express Tribune",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTDZC08v4Ebswf3ZgptIaop9OA-X0w-pHX8K8RHb0mDPBdsftUrnf3cmDy9lEg",
+          "og_title": "Hunger Games director Francis Lawrence pitches Plutarch prequel after 'Sunrise on the Reaping' | The Express Tribune",
+          "og_desc": "I think Plutarch's a really interesting character and Jesse [Plemons] just did a tremendous job, he said",
+          "og_image": "https://i.tribune.com.pk/media/images/hunger-games-sunrise-on-the-reaping1789566751-0/hunger-games-sunrise-on-the-reaping1789566751-0-640x480.webp",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-10-francis-lawrence.png",
+      "published_at": "2026-11-10T06:31:26.240287+00:00"
     }
   ]
 }

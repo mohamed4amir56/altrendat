@@ -4,13 +4,13 @@
   "name_en": "Egypt",
   "lang": "ar",
   "flag": "🇪🇬",
-  "generated_at": "2026-11-10T03:04:31.714181+00:00",
+  "generated_at": "2026-11-10T03:31:17.663761+00:00",
   "day": "2026-11-10",
   "trends": [
     {
       "title": "حالة الطقس",
-      "traffic": "+4000",
-      "traffic_num": 4000,
+      "traffic": "1000+",
+      "traffic_num": 1000,
       "published": "Mon, 9 Nov 2026 14:00:00 -0800",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8okN5cmLVeasNvChrOdxxw8z3WMVkuWvtH6DzNvX28XP_aOeEKUymz5aK8CU",
       "image_source": "اليوم السابع",
@@ -49,8 +49,8 @@
       "category": "طقس",
       "icon": "🌤️",
       "color": "#7fd8ff",
-      "reason": "العنوان يطابق: طقس",
-      "publishable": true,
+      "reason": "حجم بحث أقل من 2000",
+      "publishable": false,
       "local_only": true,
       "article": {
         "headline": "الأرصاد تحذر: أجواء خريفية باردة وشبورة مائية وأمطار تضرب السواحل الشمالية",
@@ -238,6 +238,102 @@
       "publishable": false,
       "card": "cards/eg-2026-11-10-زلزال.png",
       "published_at": "2026-11-09T23:31:34.583508+00:00"
+    },
+    {
+      "title": "عواطف حلمي",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Mon, 9 Nov 2026 17:50:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfHJUb6pCDpS9N9pkLSfvQ-XlwCr_s1RvuRyTVx5ZGWxBbrmTx_dRZkaGK-08",
+      "image_source": "شبكة تواصل الإخبارية",
+      "news": [
+        {
+          "title": "نقل الفنانة عواطف حلمي إلى المستشفى بسبب مشكلات الجهاز الهضمي",
+          "url": "https://twaslnews1.twaslnews.com/7400568/",
+          "source": "شبكة تواصل الإخبارية",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfHJUb6pCDpS9N9pkLSfvQ-XlwCr_s1RvuRyTVx5ZGWxBbrmTx_dRZkaGK-08",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "إصابة الفنانة عواطف حلمي بوعكة صحية ونقلها إلى العناية المركزة | بث مباشر",
+          "url": "https://www.cairolive24.com/2219576",
+          "source": "كايرو لايف",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT6-jnhaihjQe8uHHFPzz7oEVYnJpFEYpZIbUL1DGpolKy4vRsj1eKwuaH7G4M",
+          "og_title": "إصابة الفنانة عواطف حلمي بوعكة صحية ونقلها إلى العناية المركزة | بث مباشر",
+          "og_desc": "نُقلت الفنانة القديرة عواطف حلمي إلى أحد المستشفيات، وذلك جاء نتيجة تعرضها إلى وعكة صحية مؤخرًا، والتي على إثرها تم حجزها في العناية المركزة",
+          "og_image": "https://cdn.cairolive24.com/UploadCache/libfiles/158/1/800x450o/575.webp",
+          "ok": true
+        },
+        {
+          "title": "نقل الفنانة عواطف حلمي إلى المستشفى بعد تدهور حالتها الصحية",
+          "url": "https://egypodcast.com/237449/",
+          "source": "ايجي بودكاست",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_T04ElMTvKufClDIOLgwU5Bw9nWUC7Z4huOIHUe65ePYRZwo9rahV3NynMYI",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: مستشفى",
+      "publishable": false,
+      "card": "cards/eg-2026-11-10-عواطف-حلمي.png",
+      "published_at": "2026-11-10T02:01:33.488763+00:00"
+    },
+    {
+      "title": "مطر",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Mon, 9 Nov 2026 17:30:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMiMfT-CyfzsAxobamHG653taHn8vpKsbPwOIgc6MatBdmoXjB5_wEWkvo2Yw",
+      "image_source": "عاجل",
+      "news": [
+        {
+          "title": "أمطار رعدية تستمر حتى السبت بمناطق المملكة.. والدفاع المدني يدعو لأخذ الحيطة",
+          "url": "https://ajel.sa/local/7bgplz5se",
+          "source": "عاجل",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMiMfT-CyfzsAxobamHG653taHn8vpKsbPwOIgc6MatBdmoXjB5_wEWkvo2Yw",
+          "og_title": "أمطار رعدية تستمر حتى السبت بمناطق المملكة.. والدفاع المدني يدعو لأخذ الحيطة",
+          "og_desc": "دعت المديرية العامة للدفاع المدني المواطنين والمقيمين إلى الحذر مع استمرار هطول الأمطار الرعدية بمناطق المملكة حتى السبت المقبل، بحسب تنبيهات مركز الأرصاد.",
+          "og_image": "https://ajel.sa/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=auto,format=jpeg/https://cdn.ajel.sa/articles/2026-08/%D8%A3%D9%85%D8%B7%D8%A7%D8%B1-3-jtBs_BJh.jpg",
+          "ok": true
+        },
+        {
+          "title": "حالة الطقس اليوم الاثنين في السعودية.. أمطار رعدية ورياح نشطة على عدة مناطق",
+          "url": "https://www.almasryalyoum.com/news/details/4405357",
+          "source": "المصري اليوم",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2QaMLOvpGn6NmnhWW-LbbN57DnT9a-uaAusZMEoEuOaJbmxM4BiDjgfbL90",
+          "og_title": "حالة الطقس اليوم الاثنين في السعودية.. أمطار رعدية ورياح نشطة على عدة مناطق | المصري اليوم",
+          "og_desc": "تتصدر حالة الطقس اليوم الاثنين 9 نوفمبر 2026، اهتمامات المواطنين والمقيمين في المملكة العربية السعودية، بالتزامن مع توقعات المركز الوطني للأرصاد باستمرار التقلبات الجوية على...",
+          "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/09/2102609.jfif",
+          "ok": true
+        },
+        {
+          "title": "أمطار رعدية وسيول تضرب معظم مناطق المملكة بدءًا من الثلاثاء وحتى السبت",
+          "url": "https://pulse.mubasher.info/news/variety/107179/%D8%A3%D9%85%D8%B7%D8%A7%D8%B1-%D8%B1%D8%B9%D8%AF%D9%8A%D8%A9-%D9%88%D8%B3%D9%8A%D9%88%D9%84-%D8%AA%D8%B6%D8%B1%D8%A8-%D9%85%D8%B9%D8%B8%D9%85-%D9%85%D9%86%D8%A7%D8%B7%D9%82-%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A8%D8%AF%D8%A1%D8%A7-%D9%85%D9%86-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-%D9%88%D8%AD%D8%AA%D9%89-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA",
+          "source": "مباشر بلس",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqd40wVgoDtrHbizw_3GNtcvagpY3RbJtVkYpDSwpNp-UJQ2k7kbY0wZj1crE",
+          "og_title": "أمطار رعدية وسيول تضرب معظم مناطق المملكة بدءًا من الثلاثاء وحتى السبت",
+          "og_desc": "",
+          "og_image": "",
+          "ok": true
+        }
+      ],
+      "category": "شخصية",
+      "icon": "👤",
+      "color": "#ffd166",
+      "reason": "شخصية لا يرد اسمها في مصدرين",
+      "publishable": false,
+      "card": "cards/eg-2026-11-10-مطر.png",
+      "published_at": "2026-11-10T03:31:17.663761+00:00"
     },
     {
       "title": "مريم الخشت",
@@ -580,14 +676,14 @@
       "traffic": "200+",
       "traffic_num": 200,
       "published": "Mon, 9 Nov 2026 15:20:00 -0800",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRP0RNbrUaCSVCdZe1TVTMe96jHPbUGQXSxS_CtqnL_8ndAnx9F8JGQLuStNtU",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSk249MDEeYsamkE71yKC0ECdZNDRlGbRKQe3_RZaj1uwDwCU1bTkE0XNFdCZM",
       "image_source": "Rockstar Games",
       "news": [
         {
           "title": "Grand Theft Auto VI Pre-Load Begins on November 10",
           "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
           "source": "Rockstar Games",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRP0RNbrUaCSVCdZe1TVTMe96jHPbUGQXSxS_CtqnL_8ndAnx9F8JGQLuStNtU",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSk249MDEeYsamkE71yKC0ECdZNDRlGbRKQe3_RZaj1uwDwCU1bTkE0XNFdCZM",
           "og_title": "Grand Theft Auto VI Pre-Load Begins on November 10 - Rockstar Games",
           "og_desc": "The arrival of Grand Theft Auto VI on PlayStation 5 and XBOX Series X|S consoles is now only a few weeks away. There’s still time to pre-order and ensure you're able to experience Grand Theft Auto VI when it launches on November 19.",
           "og_image": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/k4ak9okk485712/81e58e08369adca0d68a17dac9b12c3a63848fc3.jpg",
@@ -670,55 +766,6 @@
       "published_at": "2026-11-10T02:33:34.608188+00:00"
     },
     {
-      "title": "عواطف حلمي",
-      "traffic": "200+",
-      "traffic_num": 200,
-      "published": "Mon, 9 Nov 2026 17:50:00 -0800",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfHJUb6pCDpS9N9pkLSfvQ-XlwCr_s1RvuRyTVx5ZGWxBbrmTx_dRZkaGK-08",
-      "image_source": "شبكة تواصل الإخبارية",
-      "news": [
-        {
-          "title": "نقل الفنانة عواطف حلمي إلى المستشفى بسبب مشكلات الجهاز الهضمي",
-          "url": "https://twaslnews1.twaslnews.com/7400568/",
-          "source": "شبكة تواصل الإخبارية",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfHJUb6pCDpS9N9pkLSfvQ-XlwCr_s1RvuRyTVx5ZGWxBbrmTx_dRZkaGK-08",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "إصابة الفنانة عواطف حلمي بوعكة صحية ونقلها إلى العناية المركزة | بث مباشر",
-          "url": "https://www.cairolive24.com/2219576",
-          "source": "كايرو لايف",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT6-jnhaihjQe8uHHFPzz7oEVYnJpFEYpZIbUL1DGpolKy4vRsj1eKwuaH7G4M",
-          "og_title": "إصابة الفنانة عواطف حلمي بوعكة صحية ونقلها إلى العناية المركزة | بث مباشر",
-          "og_desc": "نُقلت الفنانة القديرة عواطف حلمي إلى أحد المستشفيات، وذلك جاء نتيجة تعرضها إلى وعكة صحية مؤخرًا، والتي على إثرها تم حجزها في العناية المركزة",
-          "og_image": "https://cdn.cairolive24.com/UploadCache/libfiles/158/1/800x450o/575.webp",
-          "ok": true
-        },
-        {
-          "title": "نقل الفنانة عواطف حلمي إلى المستشفى بعد تدهور حالتها الصحية",
-          "url": "https://egypodcast.com/237449/",
-          "source": "ايجي بودكاست",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_T04ElMTvKufClDIOLgwU5Bw9nWUC7Z4huOIHUe65ePYRZwo9rahV3NynMYI",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        }
-      ],
-      "category": "حوادث وقضايا",
-      "icon": "⛔",
-      "color": "#ff6b6b",
-      "reason": "ورد لفظ حسّاس: مستشفى",
-      "publishable": false,
-      "card": "cards/eg-2026-11-10-عواطف-حلمي.png",
-      "published_at": "2026-11-10T02:01:33.488763+00:00"
-    },
-    {
       "title": "سعد سمير",
       "traffic": "200+",
       "traffic_num": 200,
@@ -764,6 +811,54 @@
       "publishable": false,
       "card": "cards/eg-2026-11-10-سعد-سمير.png",
       "published_at": "2026-11-10T02:33:34.608188+00:00"
+    },
+    {
+      "title": "ألمانيا",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 9 Nov 2026 16:00:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVTjHW4LKXL4_bt66liEK7nSJ6oOmQlLW2sLkQZSEKY9PjWzW92PNKtkH4lU0",
+      "image_source": "اليوم السابع",
+      "news": [
+        {
+          "title": "وزير الخارجية يبحث مع نظيره الألمانى تعزيز التعاون في مجال الهجرة النظامية",
+          "url": "https://www.youm7.com/story/2026/11/9/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D9%8A%D8%A8%D8%AD%D8%AB-%D9%85%D8%B9-%D9%86%D8%B8%D9%8A%D8%B1%D9%87-%D8%A7%D9%84%D8%A3%D9%84%D9%85%D8%A7%D9%86%D9%89-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84/7612464",
+          "source": "اليوم السابع",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVTjHW4LKXL4_bt66liEK7nSJ6oOmQlLW2sLkQZSEKY9PjWzW92PNKtkH4lU0",
+          "og_title": "وزير الخارجية يبحث مع نظيره الألمانى تعزيز التعاون في مجال الهجرة النظامية - اليوم السابع",
+          "og_desc": "التقى د. بدر عبد العاطي، وزير الخارجية والتعاون الدولي والمصريين بالخارج، يوم الأثنين 9 نوفمبر، \"يوهان فاديفول\"، وزير خارجية ألمانيا، على هامش مشاركته",
+          "og_image": "https://img.youm7.com/xlarge/202611090852125212_145.jpg",
+          "ok": true
+        },
+        {
+          "title": "نائب وزير الخارجية يستقبل وفد ولاية ساكسونيا الألمانية لبحث تفعيل خطاب النوايا| صور",
+          "url": "https://gate.ahram.org.eg/News/5980900.aspx",
+          "source": "بوابة الأهرام",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTCW3D5gTtbbNr9ZhdOEpcSjR6E88NteVbkZ3hzW1Ic0AY4OkHaw-tviyb1uhM",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "ألمانيا تستعين بالعمالة المصرية.. رسميًا 8 قطاعات تفتح أبوابها أمام الراغبين في الهجرة للخارج",
+          "url": "https://www.almasryalyoum.com/news/details/4406040",
+          "source": "المصري اليوم",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjf7h0gvWrv3vMf2QP24HfPuoxImFoSUSFIHU0WQjVJBS0MuTMml5haGQr7KQ",
+          "og_title": "ألمانيا تستعين بالعمالة المصرية.. رسميًا 8 قطاعات تفتح أبوابها أمام الراغبين في الهجرة للخارج | المصري اليوم",
+          "og_desc": "تتجه ألمانيا إلى الاستعانة بالكفاءات المصرية لتلبية احتياجات سوق العمل في عدد من القطاعات الحيوية، في خطوة قد تفتح آفاقًا جديدة أمام المصريين الراغبين في الحصول على فرص عمل...",
+          "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/09/2104204.jfif",
+          "ok": true
+        }
+      ],
+      "category": "دول وأماكن",
+      "icon": "🗺️",
+      "color": "#79c0ff",
+      "reason": "حجم بحث أقل من 2000",
+      "publishable": false,
+      "card": "cards/eg-2026-11-10-ألمانيا.png",
+      "published_at": "2026-11-10T01:34:37.115125+00:00"
     },
     {
       "title": "هاني خليفة",
@@ -1197,28 +1292,18 @@
       "published_at": "2026-11-10T00:31:24.557726+00:00"
     },
     {
-      "title": "ألمانيا",
+      "title": "اقتصاد مصر",
       "traffic": "100+",
       "traffic_num": 100,
-      "published": "Mon, 9 Nov 2026 16:00:00 -0800",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVTjHW4LKXL4_bt66liEK7nSJ6oOmQlLW2sLkQZSEKY9PjWzW92PNKtkH4lU0",
-      "image_source": "اليوم السابع",
+      "published": "Mon, 9 Nov 2026 19:20:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRNJzDhK2yX9IuI_USuu2uQa_hbgBuPa0GdlZ5Ss1s9_VrIvKXIUlIExbraCAQ",
+      "image_source": "معلومات مباشر",
       "news": [
         {
-          "title": "وزير الخارجية يبحث مع نظيره الألمانى تعزيز التعاون في مجال الهجرة النظامية",
-          "url": "https://www.youm7.com/story/2026/11/9/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D9%8A%D8%A8%D8%AD%D8%AB-%D9%85%D8%B9-%D9%86%D8%B8%D9%8A%D8%B1%D9%87-%D8%A7%D9%84%D8%A3%D9%84%D9%85%D8%A7%D9%86%D9%89-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84/7612464",
-          "source": "اليوم السابع",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVTjHW4LKXL4_bt66liEK7nSJ6oOmQlLW2sLkQZSEKY9PjWzW92PNKtkH4lU0",
-          "og_title": "وزير الخارجية يبحث مع نظيره الألمانى تعزيز التعاون في مجال الهجرة النظامية - اليوم السابع",
-          "og_desc": "التقى د. بدر عبد العاطي، وزير الخارجية والتعاون الدولي والمصريين بالخارج، يوم الأثنين 9 نوفمبر، \"يوهان فاديفول\"، وزير خارجية ألمانيا، على هامش مشاركته",
-          "og_image": "https://img.youm7.com/xlarge/202611090852125212_145.jpg",
-          "ok": true
-        },
-        {
-          "title": "نائب وزير الخارجية يستقبل وفد ولاية ساكسونيا الألمانية لبحث تفعيل خطاب النوايا| صور",
-          "url": "https://gate.ahram.org.eg/News/5980900.aspx",
-          "source": "بوابة الأهرام",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTCW3D5gTtbbNr9ZhdOEpcSjR6E88NteVbkZ3hzW1Ic0AY4OkHaw-tviyb1uhM",
+          "title": "التخطيط: الاقتصاد المصري يحقق نمواً 5.1% في 2025/2026 ويواصل الإصلاحات الهيكلية",
+          "url": "https://www.mubasher.info/news/4699278/%D8%A7%D9%84%D8%AA%D8%AE%D8%B7%D9%8A%D8%B7-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D9%8A%D8%AD%D9%82%D9%82-%D9%86%D9%85%D9%88%D8%A7-5-1-%D9%81%D9%8A-2025-2026-%D9%88%D9%8A%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%84%D8%A5%D8%B5%D9%84%D8%A7%D8%AD%D8%A7%D8%AA-%D8%A7%D9%84%D9%87%D9%8A%D9%83%D9%84%D9%8A%D8%A9/",
+          "source": "معلومات مباشر",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRNJzDhK2yX9IuI_USuu2uQa_hbgBuPa0GdlZ5Ss1s9_VrIvKXIUlIExbraCAQ",
           "og_title": "",
           "og_desc": "",
           "og_image": "",
@@ -1226,13 +1311,23 @@
           "error": "HTTPError"
         },
         {
-          "title": "ألمانيا تستعين بالعمالة المصرية.. رسميًا 8 قطاعات تفتح أبوابها أمام الراغبين في الهجرة للخارج",
-          "url": "https://www.almasryalyoum.com/news/details/4406040",
-          "source": "المصري اليوم",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjf7h0gvWrv3vMf2QP24HfPuoxImFoSUSFIHU0WQjVJBS0MuTMml5haGQr7KQ",
-          "og_title": "ألمانيا تستعين بالعمالة المصرية.. رسميًا 8 قطاعات تفتح أبوابها أمام الراغبين في الهجرة للخارج | المصري اليوم",
-          "og_desc": "تتجه ألمانيا إلى الاستعانة بالكفاءات المصرية لتلبية احتياجات سوق العمل في عدد من القطاعات الحيوية، في خطوة قد تفتح آفاقًا جديدة أمام المصريين الراغبين في الحصول على فرص عمل...",
-          "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/09/2104204.jfif",
+          "title": "أخبار الاقتصاد اليوم: ارتفاع سعر جرام الذهب، تراجع تكاليف شحن النفط، البنك المركزي يعتزم إطلاق مركز مجاني لمحاكاة الهجمات السيبرانية، انخفاض سعر صرف الدولار في البنوك",
+          "url": "https://www.vetogate.com/5767564",
+          "source": "فيتو",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSD5dUdMtqARyV7HdgA1qnGuyly1sVCQ-TViz0kvZDPInH8kq0gFtowlSPbBmg",
+          "og_title": "أخبار الاقتصاد اليوم: ارتفاع سعر جرام الذهب، تراجع تكاليف شحن النفط، البنك المركزي يعتزم إطلاق مركز مجاني لمحاكاة الهجمات السيبرانية، انخفاض سعر صرف الدولار في البنوك",
+          "og_desc": "أخبار الاقتصاد اليوم، شهدت الساعات الماضية عددًا من الأحداث الاقتصادية المهمة التي تتناولها بوابة \"فيتو\" في نشرة الاقتصاد، والتي ترصد القطاعات الاقتصادية المختلفة، ومن بينها البورصة المصرية والعالمية والعقارات والبنوك والقطاع التجاري. وزير التخطيط: الاقتصاد المصري أثبت مرونته أمام الصدمات الإقليمية",
+          "og_image": "https://cdn.vetogate.com/UploadCache/libfiles/597/6/800x450o/283.webp",
+          "ok": true
+        },
+        {
+          "title": "مصر تجهز حزمة مشروعات جاهزة للتمويل ضمن برنامج التحول الاقتص",
+          "url": "https://economyplusme.com/ar/news/34061",
+          "source": "ايكونومي بلس",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcShAfiv1vpZCzpRo957ru2UcbwiyodLJTZnLgiDLsajxWwJcS9HjyMD0CGE6Ck",
+          "og_title": "مصر تجهز حزمة مشروعات جاهزة للتمويل ضمن برنامج التحول الاقتص",
+          "og_desc": "قال وزير التخطيط والتنمية الاقتصادية أحمد رستم، إن الحكومة تعكف حالياً على الانتهاء من البرنامج الوطني للتحول الاقتصادي، الذي يستهدف حصر الفرص الاستثمارية والمز",
+          "og_image": "https://saeconmyplusdevguq3b9.blob.core.windows.net/media/econmyplus/uploads/1787738932_583_40230_images_e417e44a45.jpg",
           "ok": true
         }
       ],
@@ -1241,8 +1336,8 @@
       "color": "#79c0ff",
       "reason": "حجم بحث أقل من 2000",
       "publishable": false,
-      "card": "cards/eg-2026-11-10-ألمانيا.png",
-      "published_at": "2026-11-10T01:34:37.115125+00:00"
+      "card": "cards/eg-2026-11-10-اقتصاد-مصر.png",
+      "published_at": "2026-11-10T03:31:17.663761+00:00"
     }
   ]
 }

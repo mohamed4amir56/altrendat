@@ -5,22 +5,32 @@
     "name_en": "Worldwide",
     "lang": "en",
     "flag": "🌐",
-    "generated_at": "2026-11-10T16:01:35.834881+00:00",
+    "generated_at": "2026-11-10T16:31:22.995154+00:00",
     "day": "2026-11-10",
     "trends": [
       {
-        "title": "pension",
+        "title": "cpi inflation data",
         "traffic": "20000+",
         "traffic_num": 20000,
-        "published": "Tue, 10 Nov 2026 05:50:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSH7ZXk_zNWbz3LYqXweuj8edEPieeT3wCPxz7mrjwBl9kZG1y6_IuEYlMch_A",
-        "image_source": "Sky News",
+        "published": "Tue, 10 Nov 2026 06:30:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_TxbY8eOu4roWtyr6P9CX4yoUTaxRYBXRKyQZ3NQdPUHU0W0seo8J6SJPic",
+        "image_source": "CNBC",
         "news": [
           {
-            "title": "Bank offers millions early pay day | Money blog",
-            "url": "https://news.sky.com/story/money-personal-finance-consumer-pension-mortgage-inheritance-tax-live-latest-13040934",
-            "source": "Sky News",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSH7ZXk_zNWbz3LYqXweuj8edEPieeT3wCPxz7mrjwBl9kZG1y6_IuEYlMch_A",
+            "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+            "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+            "source": "CNBC",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_TxbY8eOu4roWtyr6P9CX4yoUTaxRYBXRKyQZ3NQdPUHU0W0seo8J6SJPic",
+            "og_title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+            "og_desc": "The report comes at a critical juncture for the Federal Reserve as it considers its next move regarding interest rates.",
+            "og_image": "https://image.cnbcfm.com/api/v1/image/108414079-1794318539817-108414079-1792067685758-gettyimages-2275677175-l1081559_c7svuif5.jpg?v=1794318549&w=1920&h=1080",
+            "ok": true
+          },
+          {
+            "title": "Broad Price Pressures Persisted in October, Firming Up Case for Fed Rate Increase",
+            "url": "https://www.wsj.com/economy/cpi-inflation-report-october-2026-369f8032",
+            "source": "WSJ",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSPRnGMgxJfWDMMHk-yntz9fdIzP5AXC_cNhaUXtMVy_ib-KatkXHelBk47csw",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -28,35 +38,75 @@
             "error": "HTTPError"
           },
           {
-            "title": "Tesco drivers slam Christmas ad for showing 'sackable offences'",
-            "url": "https://www.oxfordmail.co.uk/news/26714166.tesco-drivers-slam-christmas-ad-sackable-offence-scenes/",
-            "source": "Oxford Mail",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQuZoisFjz6AhvPouE1ikBKrg1OixPPGmNtTTZdHT3jZKEJq0bgyOEMuvt_dQE",
-            "og_title": "Tesco drivers slam Christmas ad for showing 'sackable offences'",
-            "og_desc": "Tesco drivers have criticised the supermarket giant's Christmas ad for showing \"everything we are specifically forbidden from doing in one short clip\"",
-            "og_image": "https://www.oxfordmail.co.uk/resources/images/21693572.jpg?type=og-image",
-            "ok": true
-          },
-          {
-            "title": "Line of Duty star in Tesco's Christmas advert says heartwarming theme makes it shine",
-            "url": "https://www.bristolpost.co.uk/news/celebs-tv/line-duty-star-tescos-christmas-11224855",
-            "source": "Bristol Live",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9LFuuRecz-imvTuYlzbbPflHQVgFeqt276AC0aKuwaF9cpmjjcsybt0geYX4",
-            "og_title": "Line of Duty star in Tesco's Christmas ad says heartwarming theme makes it shine",
-            "og_desc": "Anna Maxwell Martin has teamed up with Last One Laughing star Roisin Conaty for Tesco's Christmas advert that tells a heartwarming story",
-            "og_image": "https://i2-prod.bristolpost.co.uk/article11224851.ece/ALTERNATES/s1200d/0_Tesco-1.jpg",
-            "ok": true
+            "title": "US Core CPI Rises by More Than Forecast, Supporting Fed Hike",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-10/us-core-cpi-rises-more-than-forecast-0-3-supporting-rate-hike",
+            "source": "Bloomberg.com",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9jMEhlEuPSLzx4bfZhDLSQwxhcUdLAwNiO802Shtagh3qaSGB7NjCqnmCOtc",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
           }
         ],
         "geos": [
-          "GB"
+          "US"
         ],
         "category": "اقتصاد",
         "icon": "💰",
         "color": "#f5c542",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/world-2026-11-10-cpi-inflation-data.png"
+      },
+      {
+        "title": "adam schefter",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "published": "Tue, 10 Nov 2026 06:20:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR136YJGY4vZCzad-k5Y6CtJ0LYfOv5cnB7VxOI5EdIyncKwfBwHgQAkUz3F3o",
+        "image_source": "Bleacher Report",
+        "news": [
+          {
+            "title": "Vikings Will 'Explore Their Options' At QB Before Trade Deadline, NFL Insider Says amid Cousins Buzz",
+            "url": "https://bleacherreport.com/articles/25531467-vikings-will-explore-their-options-qb-trade-deadline-nfl-insider-says-amid-cousins-buzz",
+            "source": "Bleacher Report",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR136YJGY4vZCzad-k5Y6CtJ0LYfOv5cnB7VxOI5EdIyncKwfBwHgQAkUz3F3o",
+            "og_title": "Vikings Will 'Explore Their Options' At QB Before Trade Deadline, NFL Insider Says amid Cousins Buzz",
+            "og_desc": "Perhaps the biggest thing holding the Minnesota Vikings back from being Super Bowl contenders is their quarterback room, and they might be looking to upgrade ahead of the trade deadline.",
+            "og_image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/ap_images/2026-11/024ea83b5ed344c9b16cb6eb8792e9e8/Colts_Vikings_Football_87351_4353x2449_(0,31).jpg?w=1120&h=630",
+            "ok": true
+          },
+          {
+            "title": "2026 NFL trade deadline: Ranking Vikings quarterback options with Kirk Cousins as best fit in Minnesota",
+            "url": "https://www.cbssports.com/nfl/news/2026-nfl-trade-deadline-vikings-quarterback-options-kirk-cousins/",
+            "source": "CBS Sports",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSaLZP1RWv2_7v6FNukohv7Z4uyTfEhllDDYQys8Zjdyg1JsumSnaDuVkWmNTI",
+            "og_title": "2026 NFL trade deadline: Ranking Vikings quarterback options with Kirk Cousins as best fit in Minnesota",
+            "og_desc": "Here are three Vikings quarterback trade targets, led by Kirk Cousins, who could help fix Minnesota's struggling offense.",
+            "og_image": "https://sportshub.cbsistatic.com/i/r/2026/11/10/5e5e71d0-1094-4a95-ab10-61a8fbba2e11/thumbnail/1200x675/5b45946a9489f06cbcbe5d83379ff992/kirk-cousins-raiders-2.jpg",
+            "ok": true
+          },
+          {
+            "title": "The Vikings need to trade for a quarterback tomorrow",
+            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-vikings-need-to-trade-for-a-quarterback-tomorrow",
+            "source": "NBC Sports",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSzHmSzGedMYI2al5x0aica3NHKCMhpAg2wAxZukmASpSb3bZ3mLLAgZCB6q8Y",
+            "og_title": "The Vikings need to trade for a quarterback tomorrow",
+            "og_desc": "Failure to act leads to one conclusion: The Vikings are dysfunctional.",
+            "og_image": "https://nbcsports.brightspotcdn.com/dims4/default/c597f98/2147483647/strip/true/crop/5205x2928+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa7%2Fc2%2F8c5dd34248769e064858d31dca78%2F2303965171.jpg",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
         "reason": "المصادر لا تذكر الموضوع — تحتاج مراجعة",
         "publishable": false,
-        "card": "cards/world-2026-11-10-pension.png"
+        "card": "cards/world-2026-11-10-adam-schefter.png"
       },
       {
         "title": "ginebra vs san miguel",
@@ -111,114 +161,9 @@
         "card": "cards/world-2026-11-10-ginebra-vs-san-miguel.png"
       },
       {
-        "title": "philippines department of social welfare and development",
-        "traffic": "20000+",
-        "traffic_num": 20000,
-        "published": "Tue, 10 Nov 2026 00:20:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHbDRCkbW6O-1hGuPHAm5PsIIV5XITL1lbpOKl0af7leT8rC4xiy9n9wreBVM",
-        "image_source": "DSWD",
-        "news": [
-          {
-            "title": "DSWD’s 4Ps program pilots early child risk detection tool in Cagayan de Oro",
-            "url": "https://www.dswd.gov.ph/dswds-4ps-program-pilots-early-child-risk-detection-tool-in-cagayan-de-oro/",
-            "source": "DSWD",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHbDRCkbW6O-1hGuPHAm5PsIIV5XITL1lbpOKl0af7leT8rC4xiy9n9wreBVM",
-            "og_title": "DSWD’s 4Ps program pilots early child risk detection tool in Cagayan de Oro » DSWD",
-            "og_desc": "DSWD’s 4Ps program pilots early child risk detection tool in Cagayan de Oro The Department of Social Welfare and Development (DSWD), through its Pantawid Pamilyang Pilipino Program (4Ps), piloted a new evaluation tool to detect vulnerabilities and risks among 4Ps monitored children last November 5 in Barangay Lumbia, Cagayan de Oro City.Asst. Secretary Elaine Fallarcuna",
-            "og_image": "https://dswd-file-assets.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2025/10/News-Header-Thumbnail-4.jpg",
-            "ok": true
-          },
-          {
-            "title": "DSWD delivers food aid to El Niño-hit farmers, families in Samar",
-            "url": "https://pia.gov.ph/news/dswd-delivers-food-aid-to-el-nino-hit-farmers-families-in-samar/",
-            "source": "Philippine Information Agency",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQa6-I1IEtFwhunfQnhKfCqdExz-kFHVliLHWnaoKhQvdHiLvP2jXTpIr8R_tA",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "El Niño-hit farmers get P189-M aid",
-            "url": "https://tribune.net.ph/2026/11/08/el-ni%C3%B1o-hit-farmers-get-p189-m-aid",
-            "source": "Daily Tribune",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS9ZXZGAYcErL8p4ubL2eE8SRcy6UcaiiSiROKgTVln6Y9MHRC5UOU_kcDNaC0",
-            "og_title": "El Niño-hit farmers get P189-M aid",
-            "og_desc": "The Department of Social Welfare and Development has distributed more than P189 million in humanitarian assistance to families affected by El Niño as of 7 November, prioritizing farmers whose rice and corn crops were devastated by drought. The aid includes emergency cash transfers and family food packs for affected communities in Camarines Norte, Isabela, Cagayan and other regions.",
-            "og_image": "https://images.assettype.com/tribune/2026-11-08/0cmm0ez8/89620533311818839644138561805296953062590237n.jpg?w=1200&auto=format&q=70&rect=0%2C0%2C1932%2C1087&h=675&fit=crop",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "PH"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "بلا تصنيف واضح",
-        "publishable": true,
-        "article": {
-          "headline": "DSWD Distributes P189 Million to Farmers Devastated by El Niño Drought Conditions",
-          "summary": "The Department of Social Welfare and Development has released over P189 million in emergency cash and food packs to support drought-stricken farmers as of November 7.",
-          "body": "The scale of the crisis facing the agricultural sector is evident in the numbers: over 191,000 families across six regions have been directly impacted by the drought. While the national farm output dropped by 5 percent in the third quarter, the rice harvest alone suffered a 17.8 percent decline, leaving farmers in a precarious financial position. According to DSWD Assistant Secretary Irene Dumlao, some agricultural workers have halted planting entirely, fearing that another failed harvest would erase all investments in labor and seeds.\n\nThis humanitarian assistance is a critical lifeline for families whose crops have been decimated. By prioritizing those identified by local governments as most severely affected, the agency aims to mitigate the immediate impact of the weather phenomenon. The support package combines emergency cash transfers with essential family food packs, providing basic sustenance to communities from the Cagayan Valley to the Bicol region.\n\nData from the DSWD reveals that the agency has provided more than P141 million specifically to corn and rice farmers in Isabela and Cagayan. In Camarines Norte, more than P31 million was recently disbursed to 1,967 beneficiaries in Capalonga and 1,002 in Paracale. These figures are expected to climb as additional field reports are processed, particularly as national rice stocks have thinned by 8.3 percent and government buffers have plummeted by 38 percent.\n\nFurther cash transfers are slated for additional towns in Camarines Norte throughout this week and next. Recipients in these upcoming rounds are scheduled to receive P10,000 each. As the weather bureau warns that as many as 68 provinces could face drought conditions by February, the DSWD continues to monitor the situation across the six affected regions.",
-          "facts": [
-            {
-              "label": "Total aid distributed",
-              "value": "Over P189 million"
-            },
-            {
-              "label": "Report date",
-              "value": "November 7"
-            },
-            {
-              "label": "Number of affected families",
-              "value": "Over 191,000"
-            },
-            {
-              "label": "Capalonga payout amount",
-              "value": "P20,653,500"
-            },
-            {
-              "label": "Paracale payout amount",
-              "value": "P10,521,000"
-            },
-            {
-              "label": "Individual cash transfer",
-              "value": "P10,000"
-            }
-          ],
-          "tags": [
-            "DSWD",
-            "El Niño",
-            "Philippines",
-            "Agriculture",
-            "Humanitarian Aid"
-          ],
-          "_v": 4,
-          "_by": "gemini",
-          "written_at": "2026-11-10T12:02:13.095786+00:00",
-          "photo": {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Manila_Bay%2C_Roxas_Boulevard_buildings_with_navy_fleet_%28Ermita_and_Malate%2C_Manila%29%282017-12-31%29.jpg/1280px-Manila_Bay%2C_Roxas_Boulevard_buildings_with_navy_fleet_%28Ermita_and_Malate%2C_Manila%29%282017-12-31%29.jpg",
-            "width": 1280,
-            "height": 960,
-            "artist": "Patrick Roque",
-            "license": "CC BY-SA 4.0",
-            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-            "file_page": "https://commons.wikimedia.org/wiki/File:Manila_Bay,_Roxas_Boulevard_buildings_with_navy_fleet_(Ermita_and_Malate,_Manila)(2017-12-31).jpg",
-            "wiki_title": "Philippines",
-            "wiki_lang": "en"
-          },
-          "photo_v": 8,
-          "_had_data": false,
-          "_localized": false
-        },
-        "card": "cards/world-2026-11-10-philippines-department-of-social-welfare-and-development.png"
-      },
-      {
         "title": "weather tomorrow",
-        "traffic": "+10500",
-        "traffic_num": 10500,
+        "traffic": "+11000",
+        "traffic_num": 11000,
         "published": "Mon, 9 Nov 2026 23:50:00 -0800",
         "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcThPDzeH9pSqt_VfbYlx4asDVwKp1Ex4IZjq8JVblbrhTVd-OGni2WQaKTshWk",
         "image_source": "Big Island Now",
@@ -338,102 +283,51 @@
         "card": "cards/world-2026-11-10-weather-tomorrow.png"
       },
       {
-        "title": "country music singer dies",
-        "traffic": "10000+",
-        "traffic_num": 10000,
-        "published": "Tue, 10 Nov 2026 05:40:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTkzVhS0Bzbu-rCFbRnswZYThbdVMIozai520lunD24Up2Opc-czixzE_hn7ZE",
-        "image_source": "PennLive.com",
-        "news": [
-          {
-            "title": "Prayers are pouring in after beloved country music singer dies in crash at 22",
-            "url": "https://www.pennlive.com/entertainment/2026/11/prayers-are-pouring-in-after-beloved-country-music-singer-dies-in-crash-at-22.html",
-            "source": "PennLive.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTkzVhS0Bzbu-rCFbRnswZYThbdVMIozai520lunD24Up2Opc-czixzE_hn7ZE",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Wakulla County musician C.J. Beach dies in a weekend car accident, leaving the music community in mourning",
-            "url": "https://www.wtxl.com/news/local-news/in-your-neighborhood/wakulla-county/wakulla-county-musician-c-j-beach-dies-in-a-weekend-car-accident-leaving-the-music-community-in-mourning",
-            "source": "WTXL ABC 27 Tallahassee News",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4n__XY5-z9VvFnNwe0eAKIpbRr9ULD3Gj43E7Me_KeJrICqXKUATZCQQcsq0",
-            "og_title": "Wakulla County musician C.J. Beach dies in a weekend car accident, leaving the music community in mourning",
-            "og_desc": "C.J. Beach, a Wakulla County singer-songwriter known for uplifting fellow musicians, died in a weekend car accident on Rehwinkel Road in Crawfordville.",
-            "og_image": "https://ewscripps.brightspotcdn.com/dims4/default/a5ee2cf/2147483647/strip/true/crop/1920x1008+0+36/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F24%2Fbe%2F273602794ff18e5d5ff5f9386588%2Fpic-1-wakulla-community-mourns-cj-beach-passing.jpg",
-            "ok": true
-          },
-          {
-            "title": "Rising Country Singer Dead at 22 After Tragic Car Crash, Just Hours After His Final Performance",
-            "url": "https://americansongwriter.com/rising-country-singer-dead-at-22-after-tragic-car-crash-just-hours-after-his-final-performance/",
-            "source": "American Songwriter",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRE7DqwXsGeik5B2v0dpf2z9e5yaq9nB2gPBOoarYdr-aLNoFUCBALrPz4U8CE",
-            "og_title": "Rising Country Singer Dead at 22 After Tragic Car Crash, Just Hours After His Final Performance",
-            "og_desc": "CJ Beach, a rising country singer in Florida, died in a car accident.",
-            "og_image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/11/GettyImages-1806133863-1.jpg?w=2000",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: dies",
-        "publishable": false,
-        "card": "cards/world-2026-11-10-country-music-singer-dies.png"
-      },
-      {
         "title": "rockstar gta6",
         "traffic": "10000+",
         "traffic_num": 10000,
         "published": "Tue, 10 Nov 2026 07:20:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSeo0hEFvXTDNU7DfQ6NDA4FLUbfdawphueHFHwwh1qTCuMNjFyGHw4K8TvD18",
-        "image_source": "Digital Foundry",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQmQPZtB1cfmtJ8v-9159sSJpw2Cr8v495zAc5tM6Spqsus45lZErGPllHDXDY",
+        "image_source": "PlayStation.Blog",
         "news": [
           {
-            "title": "GTA 6 PS5 Pro Upgrades Finally Revealed: Frame-Rate, Upscaling, Ray Tracing Confirmed",
-            "url": "https://www.digitalfoundry.net/news/2026/11/gta-6-ps5-pro-upgrades-finally-revealed-frame-rate-upscaling-ray-tracing-confirmed",
-            "source": "Digital Foundry",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSeo0hEFvXTDNU7DfQ6NDA4FLUbfdawphueHFHwwh1qTCuMNjFyGHw4K8TvD18",
-            "og_title": "GTA 6 PS5 Pro Upgrades Finally Revealed: Frame-Rate, Upscaling, Ray Tracing Confirmed",
-            "og_desc": "Rockstar has delivered the details.",
-            "og_image": "https://images.digitalfoundry.net/3ae14c4da9a32/1280x720.jpg",
+            "title": "Pre-load Grand Theft Auto VI on PS5 starting today",
+            "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+            "source": "PlayStation.Blog",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQmQPZtB1cfmtJ8v-9159sSJpw2Cr8v495zAc5tM6Spqsus45lZErGPllHDXDY",
+            "og_title": "Pre-load Grand Theft Auto VI on PS5 starting today",
+            "og_desc": "Plus a new video showcasing unique PS5 features for GTAVI.",
+            "og_image": "https://blog.playstation.com/tachyon/2048/11/f1fb77ba440f1402ae155dc56989230e7a24c2f8-scaled.jpg",
             "ok": true
           },
           {
-            "title": "‘GTA 6 Online’ Info Found In Pre-Loaded ‘GTA 6’ Files And Backend",
-            "url": "https://www.forbes.com/sites/paultassi/2026/11/09/gta-6-online-info-found-in-pre-loaded-gta-6-files-and-backend/",
-            "source": "Forbes",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRwrF8DXqlToUK3psdVdfSCpjUNjKZkwepLLR1XgXKaV4__g10bI0xKXSdKFmY",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
+            "title": "Pre-Load Grand Theft Auto VI Now",
+            "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+            "source": "Rockstar Games",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTZll1tApV9Ds71HmTdujHYiNfoBn3zrlJCvS7S-pg_vQYPoW8x18hTe8WUCZg",
+            "og_title": "Pre-Load Grand Theft Auto VI Now - Rockstar Games",
+            "og_desc": "Pre-loading is now available for everyone who has pre-ordered Grand Theft Auto VI digitally. Players who pre-ordered the code-in-box version can also activate their code and begin pre-loading as soon as it’s received. If you still have yet to...",
+            "og_image": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/89834o94713o21/94f09130d07de4a50e3ab971e2b7d8c253b7c706.jpg",
+            "ok": true
           },
           {
-            "title": "GTA VI will be available on Xbox Cloud Gaming for Xbox One consoles",
-            "url": "https://www.theverge.com/news/1030714/gta-vi-xbox-cloud-gaming-support",
-            "source": "The Verge",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMklF1Y8DtTPlldT2JHPAYQFF4bWcTvfsYs9pvnGd4EqxkHKPBZhY7ASI58TU",
-            "og_title": "GTA VI will be available on Xbox Cloud Gaming for Xbox One consoles",
-            "og_desc": "GTA VI will run at 30fps on all consoles",
-            "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gta6.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+            "title": "GTA 6 Standard Edition vs. Ultimate Edition: Which Version Should You Buy?",
+            "url": "https://uk.pcmag.com/games/168053/gta-6-standard-edition-vs-ultimate-edition-which-version-should-you-buy",
+            "source": "PCMag UK",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTr5tZ9GWOPjgZQZF4likMCzPuuQNYmTHmFS3z3s6a8XTZWq-Q62q73XTUltU",
+            "og_title": "GTA 6 Standard Edition vs. Ultimate Edition: Which Version Should You Buy?",
+            "og_desc": "The most obvious difference is price, but here's what that extra $20 gets you.",
+            "og_image": "https://sm.pcmag.com/t/pcmag_uk/news/g/gta-6-stan/gta-6-standard-edition-vs-ultimate-edition-which-version-sho_cw99.1200.jpg",
             "ok": true
           }
         ],
         "geos": [
           "GB"
         ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "بلا تصنيف واضح",
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "الأخبار تطابق: vs",
         "publishable": true,
         "article": {
           "headline": "GTA 6 Clings to 30 FPS on PS5 Pro as Upgrades Revealed",
@@ -493,9 +387,19 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "published": "Tue, 10 Nov 2026 04:20:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAPyD3QtQyeus0YhgqrgKyMhwP3_1elg5Cz_VcYq8IrjXMRKqnXBln7zm9xpU",
-        "image_source": "RTE.ie",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI9oMy0PHj4moM-ZWTXv9WXkxyYscY6gvZJCwqhpjSvr7B7ts6klK-AyF3hIo",
+        "image_source": "The Guardian",
         "news": [
+          {
+            "title": "‘It wasn’t long until he asked me if I’d ever had sex before’: David Walliams accused of preying on young women for sex",
+            "url": "https://www.theguardian.com/tv-and-radio/ng-interactive/2026/nov/10/david-walliams-accused-sex-grooming-allegations-young-women",
+            "source": "The Guardian",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI9oMy0PHj4moM-ZWTXv9WXkxyYscY6gvZJCwqhpjSvr7B7ts6klK-AyF3hIo",
+            "og_title": "‘It wasn’t long until he asked me if I’d ever had sex before’: David Walliams accused of preying on young women for sex",
+            "og_desc": "Comedian and former Britain’s Got Talent judge alleged to have groomed fans he met when they were as young as 15 and harassed women in the workplace over a number of years. He denies the allegations",
+            "og_image": "https://i.guim.co.uk/img/media/47f95b5dffd6d6d6b219fefc9fd8ffab4e88020d/1_0_4998_4000/master/4998.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=32ac2b76bc10cc8edfbee66f17cc0467",
+            "ok": true
+          },
           {
             "title": "Multiple women accuse Walliams of sexual misconduct",
             "url": "https://www.rte.ie/news/2026/1110/1598675-walliams-named-in-failed-injunction/",
@@ -516,16 +420,6 @@
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
-          },
-          {
-            "title": "‘It wasn’t long until he asked me if I’d ever had sex before’: David Walliams accused of preying on young women for sex",
-            "url": "https://www.theguardian.com/tv-and-radio/ng-interactive/2026/nov/10/david-walliams-accused-sex-grooming-allegations-young-women",
-            "source": "The Guardian",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI9oMy0PHj4moM-ZWTXv9WXkxyYscY6gvZJCwqhpjSvr7B7ts6klK-AyF3hIo",
-            "og_title": "‘It wasn’t long until he asked me if I’d ever had sex before’: David Walliams accused of preying on young women for sex",
-            "og_desc": "Comedian and former Britain’s Got Talent judge alleged to have groomed fans he met when they were as young as 15 and harassed women in the workplace over a number of years. He denies the allegations",
-            "og_image": "https://i.guim.co.uk/img/media/47f95b5dffd6d6d6b219fefc9fd8ffab4e88020d/1_0_4998_4000/master/4998.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=32ac2b76bc10cc8edfbee66f17cc0467",
-            "ok": true
           }
         ],
         "geos": [
@@ -539,114 +433,113 @@
         "card": "cards/world-2026-11-10-david-walliams.png"
       },
       {
-        "title": "mississippi senate race election results",
+        "title": "arnold ebiketie",
         "traffic": "5000+",
         "traffic_num": 5000,
-        "published": "Tue, 10 Nov 2026 06:10:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQrH_TQ9MXsgyjWpDxOnFK9hS3QTr_ve10V3pfDu8fXAzzYPwsfezyAeWnmXyM",
-        "image_source": "CNN",
+        "published": "Tue, 10 Nov 2026 07:50:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRxIrwjrpJhNe9dCd4rxQ8cxGx91woo1cRX5puPv9ddcKbT-bQxQjhTEGFK0lU",
+        "image_source": "ProFootballRumors.com",
         "news": [
           {
-            "title": "‘Where is Cindy Hyde-Smith?’: In a nail-biter Senate race, the incumbent stays out of view in Mississippi",
-            "url": "https://www.cnn.com/2026/11/09/politics/mississippi-senate-hyde-smith-colom-campaign",
-            "source": "CNN",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQrH_TQ9MXsgyjWpDxOnFK9hS3QTr_ve10V3pfDu8fXAzzYPwsfezyAeWnmXyM",
-            "og_title": "‘Where is Cindy Hyde-Smith?’: In a nail-biter Senate race, the incumbent stays out of view in Mississippi | CNN Politics",
-            "og_desc": "",
-            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/20261108-scottcolom-cindyhydesmith-split.jpg?c=16x9&q=w_800,c_fill",
+            "title": "Eagles To Trade Arnold Ebiketie To Bengals",
+            "url": "https://www.profootballrumors.com/2026/11/eagles-to-trade-arnold-ebiketie-to-bengals",
+            "source": "ProFootballRumors.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRxIrwjrpJhNe9dCd4rxQ8cxGx91woo1cRX5puPv9ddcKbT-bQxQjhTEGFK0lU",
+            "og_title": "Eagles To Trade Arnold Ebiketie To Bengals",
+            "og_desc": "As expected, the Eagles are not done on the trade front. Arnold Ebiketie is being dealt to the Bengals.",
+            "og_image": "https://cdn.profootballrumors.com/files/2026/11/2026-08-25T090911Z_102996744_MT1USATODAY29653685_RTRMADP_3_NFL-PHILADELPHIA-EAGLES-AT-NEW-ENGLAND-PATRIOTS-1024x683.jpg",
             "ok": true
           },
           {
-            "title": "Mississippi U.S. Senate Election Live Results 2026",
-            "url": "https://apnews.com/projects/elections-2026/mississippi-us-senate-results/",
-            "source": "AP News",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9oEasnTDRUr2q-TjRibhJWnth8kxzHe5jfe3GfDfY-gXR0YEwlFWtnaG6Fng",
-            "og_title": "Mississippi U.S. Senate Election Live Results 2026",
-            "og_desc": "Live results for the 2026 Mississippi U.S. Senate general election. Track election results with real-time vote counts, county-level maps and race calls from AP.",
-            "og_image": "https://apnews.com/projects/elections-2026/social/MS.jpg",
+            "title": "Bengals to trade for Eagles' edge rusher to bolster depth chart",
+            "url": "https://sports.yahoo.com/articles/bengals-trade-eagles-edge-rusher-160823518.html",
+            "source": "Yahoo Sports",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT0mp-4jXabhZ35jVLHsZkyNrZGWm7gFEKkeJaw6bHJp-uG9S2ZyGfYUaKx1vI",
+            "og_title": "Bengals to trade for Eagles' edge rusher to bolster depth chart",
+            "og_desc": "This isn't a major trade for the Bengals, but it should help the defense's depth.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/e15ed62e94f0267e1d1de4f7b114c3da24e0be4766f631f611e00c5fa3c8f9cd/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_sporting_news_articles_584%2F4778e6b872300e1ba2485e089e26de46",
             "ok": true
           },
           {
-            "title": "Mississippi Senate candidate Scott Colom attacks Cook Political Report accuracy",
-            "url": "https://www.washingtonpost.com/elections/2026/11/09/democrat-scott-colom-attacks-cook-reports-accuracy/",
-            "source": "The Washington Post",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTP2r_qfjqsE4rmac_d0Llxn1xN_9KyeOSQlXPZnqN7ptAcCEy5jFgzANzuVPU",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "TimeoutError"
+            "title": "TRADE: Eagles Trading OLB Arnold Ebiketie To Bengals",
+            "url": "https://nfltraderumors.co/trade-eagles-trading-olb-arnold-ebiketie-to-bengals/",
+            "source": "NFLTradeRumors.co",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPWGgHtCiZ3MlLvYNU_XDuC6-lPTBZ_2u2lCMGhQcvHrYdByWmvNpqL70FZE8",
+            "og_title": "TRADE: Eagles Trading OLB Arnold Ebiketie To Bengals",
+            "og_desc": "According to Ian Rapoport, the Eagles are trading OLB Arnold Ebiketie to the Bengals for a 2027 sixth-round pick.   Cincinnati makes a cheap move to add some edge-rushing depth as they look to fortify",
+            "og_image": "https://i0.wp.com/nfltraderumors.co/wp-content/uploads/2026/11/2026-08-25T090917Z_2147169498_MT1USATODAY29653686_RTRMADP_3_NFL-PHILADELPHIA-EAGLES-AT-NEW-ENGLAND-PATRIOTS-scaled.jpg?fit=2560%2C1707&ssl=1",
+            "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "سياسة",
-        "icon": "🏛️",
-        "color": "#ff5c7c",
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-10-mississippi-senate-race-election-results.png"
+        "card": "cards/world-2026-11-10-arnold-ebiketie.png"
       },
       {
-        "title": "big walk game ai",
+        "title": "ring drone camera",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "published": "Tue, 10 Nov 2026 06:00:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9976bLrVZZ5AMVCcuDS_I1DzbJ92atEFRALbFWBspC9MYfyIfbzwQ-Y3eoGI",
-        "image_source": "Aftermath",
+        "published": "Tue, 10 Nov 2026 07:50:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcShXHqWDGtyzkwTUW_E-VQkkOFlzyhJJjBC6asN0wtbOwes8i2Yh_Vjm992G6o",
+        "image_source": "CNBC",
         "news": [
           {
-            "title": "Big Walk Used AI In 'The Final Stretch' Of Development, Kicking Off Intense Awards Debate",
-            "url": "https://aftermath.site/big-walk-ai-igf-jurors-controversy/",
-            "source": "Aftermath",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9976bLrVZZ5AMVCcuDS_I1DzbJ92atEFRALbFWBspC9MYfyIfbzwQ-Y3eoGI",
-            "og_title": "Big Walk Used AI In 'The Final Stretch' Of Development, Kicking Off Intense Awards Debate",
-            "og_desc": "'We support the work of those who are trying to limit the harm generative AI is doing to videogames and our world, and apologise that Big Walk’s LLM usage may not meet their standards'",
-            "og_image": "https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994/content/images/size/w1200/2026/11/bighd.webp",
+            "title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
+            "url": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
+            "source": "CNBC",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcShXHqWDGtyzkwTUW_E-VQkkOFlzyhJJjBC6asN0wtbOwes8i2Yh_Vjm992G6o",
+            "og_title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
+            "og_desc": "Amazon's $250 Ring Drone Cam flies from room to room to investigate suspicious activity, and can capture footage at night.",
+            "og_image": "https://image.cnbcfm.com/api/v1/image/108546941-1794261485075-Lifestyle_dronecam_hovering_hallway_RGB_1500x1500.jpg?v=1794317522&w=1920&h=1080",
             "ok": true
           },
           {
-            "title": "House House clarifies use of AI tools in Big Walk's \"final stage of development\"",
-            "url": "https://www.gamesindustry.biz/house-house-clarifies-use-of-ai-tools-in-big-walks-final-stage-of-development",
-            "source": "GamesIndustry.biz",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSMisnedsI-MoSXj0CT_O3T3CblHtCT-HC2kcQeMj_MxK9ypgN8ERGWQrPYX1c",
-            "og_title": "House House clarifies use of AI tools in Big Walk's \"final stage of development\"",
-            "og_desc": "Studio issues statement after group of 2027 IGF jurors decline to vote for games that use generative AI during development",
-            "og_image": "https://assetsio.gnwcdn.com/BigWalk_Screenshot_May25_06.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+            "title": "Amazon’s Ring debuts security robots including a drone",
+            "url": "https://www.nbcnews.com/tech/tech-news/amazons-ring-debuts-security-robots-drone-rcna608538",
+            "source": "NBC News",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTUKXd95Wv-XQuZtkvgIUk4JrbiKJjwUA2xDk2KH3l1v1RUGNYt0YyWR0Lr65I",
+            "og_title": "Amazon’s Ring debuts security robots including a drone",
+            "og_desc": "“For years, customers told us they wanted eyes in the places a fixed camera couldn’t reach,”  Ring CEO Jamie Siminoff said.",
+            "og_image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261110-amazon-security-drone-mn-1000-f02415.jpg",
             "ok": true
           },
           {
-            "title": "Big Walk studio says it used AI ‘sparingly’ in response to indie award jury statement against its use",
-            "url": "https://www.videogameschronicle.com/news/big-walk-studio-says-it-used-ai-sparingly-in-response-to-indie-award-jury-statement-against-its-use/",
-            "source": "Video Games Chronicle",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDRULpWolZ3R_12aKls2QuvzO2t2EN31MUVNSbjnFDugOaIOBn_25cydhXTHw",
-            "og_title": "Big Walk studio says it used AI ‘sparingly’ in response to indie award jury statement against its use | VGC",
-            "og_desc": "House House says it used LLMs for help with coding, but some IGF jurors say that counts…",
-            "og_image": "https://www.videogameschronicle.com/files/2026/11/big-walk.jpg",
+            "title": "Ring announces Ring Robotics, ushering in a new era of security",
+            "url": "https://www.aboutamazon.com/news/devices/ring-drone-cam-rover-cam-security-robot",
+            "source": "About Amazon",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSDLRaWMjxv4v6bC6JEBv5XCpmlImhje1_i_sFCaQ8Nci3vFjn-Tspx1rMRYb0",
+            "og_title": "Ring announces Ring Robotics, ushering in a new era of security",
+            "og_desc": "Ring Robotics is launching with two robots: Ring Drone Cam and Ring Rover Cam, providing mobile, proactive protection whenever and wherever you need it.",
+            "og_image": "https://assets.aboutamazon.com/dims4/default/b73122b/2147483647/strip/true/crop/2000x1000+0+63/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F07%2Fc1%2F82d8a1204627a837d203c57dd918%2Fring-devices-drone-rover-amazon-amazonnews-cdlt-09112026.png",
             "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-10-big-walk-game-ai.png"
+        "card": "cards/world-2026-11-10-ring-drone-camera.png"
       },
       {
         "title": "arthur rinderknech",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "published": "Tue, 10 Nov 2026 06:50:00 -0800",
         "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRS_NSgIJh8ncgOj7ZM2QWU48H8IyT3S-NF0FrnEudECgT_mC0YXnyCc_qphtw",
         "image_source": "Robinhood",
         "news": [
           {
-            "title": "November 11, 2026: Taylor Fritz vs Cameron Norrie: Set 1 Winner Prediction Market",
+            "title": "November 11, 2026: Taylor Fritz vs Cameron Norrie: Set 1 Winner Tennis Prediction Market",
             "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/taylor-fritz-vs-cameron-norrie-set-1-winner-nov-11-2026/",
             "source": "Robinhood",
             "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRS_NSgIJh8ncgOj7ZM2QWU48H8IyT3S-NF0FrnEudECgT_mC0YXnyCc_qphtw",
@@ -656,13 +549,13 @@
             "ok": true
           },
           {
-            "title": "November 7, 2026: Viktor Durasovic vs Alexander Shevchenko: Set 1 Winner Tennis Prediction Market",
-            "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/viktor-durasovic-vs-alexander-shevchenko-set-1-winner-nov-07-2026/",
+            "title": "November 7, 2026: Nikoloz Basilashvili vs Francesco Passaro: Set 2 Winner Tennis Prediction Market",
+            "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/nikoloz-basilashvili-vs-francesco-passaro-set-2-winner-nov-07-2026/",
             "source": "Robinhood",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz5EKiv4oZzCLeBwbR1F9HDqSupi0EfsxDcwswJYCPZsbsCt-ZFPwbLKEvihI",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfZ-N3rhzt-752XyYr9-PcTgUW9xDfMvn1amLsvWuEp5yqUwFmgAF3YC-t4wQ",
             "og_title": "",
-            "og_desc": "Who will win Viktor Durasovic vs Alexander Shevchenko Set 1 (Nov 7)? Get paid $1 per contract when your prediction is correct, or $0 if not.",
-            "og_image": "https://robinhood.com/api/public/og/event?id=bf365ad2-3dd3-4051-958f-6fba30ae0805",
+            "og_desc": "Who will win Nikoloz Basilashvili vs Francesco Passaro Set 2 (Nov 7)? Get paid $1 per contract when your prediction is correct, or $0 if not.",
+            "og_image": "https://robinhood.com/api/public/og/event?id=bdad639c-6dde-4b9a-a1d5-2817fd614b8f",
             "ok": true
           },
           {
@@ -685,6 +578,56 @@
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
         "card": "cards/world-2026-11-10-arthur-rinderknech.png"
+      },
+      {
+        "title": "deebo samuel",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "published": "Tue, 10 Nov 2026 08:10:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK440-wJoSeiis2FByBqDMj4Q3g6wyPc6StoU1MdvMt3ebtaloT68dlN2cS6Y",
+        "image_source": "The New York Times",
+        "news": [
+          {
+            "title": "49ers minutia minute: Deebo Samuel, CJ West expected back; Mike Evans still on hold",
+            "url": "https://www.nytimes.com/athletic/7768819/2026/11/09/49ers-deebo-samuel-mike-evans-injuries/",
+            "source": "The New York Times",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK440-wJoSeiis2FByBqDMj4Q3g6wyPc6StoU1MdvMt3ebtaloT68dlN2cS6Y",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "49ers star receivers Mike Evans and Deebo Samuel head in opposite injury directions",
+            "url": "https://nypost.com/2026/11/09/sports/49ers-star-receivers-mike-evans-and-deebo-samuel-head-in-opposite-injury-directions/",
+            "source": "New York Post",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkS17UFc49jK3m1HOdsgt650Jas9o1MFvqCWrzb3YSoBbW0Z-edrg9oEpLkKE",
+            "og_title": "49ers star receivers Mike Evans and Deebo Samuel head in opposite injury directions",
+            "og_desc": "It sounds like the 49ers are preparing to go another week without Mike Evans. Evans, 33, hasn’t played since leaving the 49ers’ Week 6 win over the Commanders, and coach Kyle Shanahan said Monday t…",
+            "og_image": "https://nypost.com/wp-content/uploads/sites/2/2026/11/newspress-collage-6yyv242ym-1794274444220.jpg?quality=75&strip=all&1794256485&w=1200",
+            "ok": true
+          },
+          {
+            "title": "49ers Rule Out Three Wide Receivers vs. Raiders; Bosa Returns to Full Practice Ahead of Week 9 #LVvsSF",
+            "url": "https://www.49ers.com/news/49ers-rule-out-three-wide-receivers-vs-raiders-bosa-returns-to-full-practice-ahead-of-week-9-lvvssf",
+            "source": "San Francisco 49ers",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTsN9PqYFzM-GlL4C7HWTRbhrGGXkkfFga9OihOTjzo2gIWXIsS2vixlmLwg9A",
+            "og_title": "49ers Rule Out Three Wide Receivers vs. Raiders; Bosa Returns to Full Practice Ahead of Week 9 #LVvsSF",
+            "og_desc": "The San Francisco 49ers released their latest injury updates following Friday's practice headed into their contest against the Las Vegas Raiders.",
+            "og_image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/aaejshac25yuotqnosjq",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-11-10-deebo-samuel.png"
       },
       {
         "title": "ayesha curry",
@@ -736,168 +679,41 @@
         "card": "cards/world-2026-11-10-ayesha-curry.png"
       },
       {
-        "title": "chris o'donnell",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "published": "Tue, 10 Nov 2026 06:20:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTD0PMdsrtIJTVzuQcpE_b-Y9rnw2ITe0FbtUhVJWOzCH7YRNIVV67j6uhEjl4",
-        "image_source": "Yahoo",
-        "news": [
-          {
-            "title": "Chris O'Donnell talks '9-1-1: Nashville'",
-            "url": "https://www.yahoo.com/news/videos/chris-odonnell-talks-9-1-090842750.html",
-            "source": "Yahoo",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTD0PMdsrtIJTVzuQcpE_b-Y9rnw2ITe0FbtUhVJWOzCH7YRNIVV67j6uhEjl4",
-            "og_title": "Chris O'Donnell talks '9-1-1: Nashville'",
-            "og_desc": "The actor opens up about playing a fire captain and rodeo rider in the ABC drama and teases what fans can expect in the new season.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/751f750220cff003facda5da2c7766d83e17e9966e62db683107be3f9d377763/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fvideo.abcnewsplus.com%2F5d559104b8aba5edf418241bf7ea3a58.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/world-2026-11-10-chris-odonnell.png"
-      },
-      {
-        "title": "jordan elliott",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "published": "Tue, 10 Nov 2026 05:50:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRw7Y6P212sul0eeqgJq2mBHlc_K-nMhn87T7YKiAUsiGYy92_MammTsAwxqjs",
-        "image_source": "NBC Sports",
-        "news": [
-          {
-            "title": "Report: DT Jordan Elliott to work out for Bears",
-            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-dt-jordan-elliott-to-work-out-for-bears",
-            "source": "NBC Sports",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRw7Y6P212sul0eeqgJq2mBHlc_K-nMhn87T7YKiAUsiGYy92_MammTsAwxqjs",
-            "og_title": "Report: DT Jordan Elliott to work out for Bears",
-            "og_desc": "Defensive tackle Jordan Elliott is getting another look from an NFL team.",
-            "og_image": "https://nbcsports.brightspotcdn.com/dims4/default/243abf4/2147483647/strip/true/crop/3795x2135+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F6f%2Fa9%2Ff45e17f04ec3a01b3e7f03e5f3e8%2F2290074146.jpg",
-            "ok": true
-          },
-          {
-            "title": "Former Tennessee Titans DT Jordan Elliott working out with Chicago Bears, per report",
-            "url": "https://sports.yahoo.com/articles/former-tennessee-titans-dt-jordan-144802201.html",
-            "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXVIIQLUU5w4cxY2wAZgFG_Od5vga1GmgpGEY4na4wUTqhFAIS0kMlzSutkw",
-            "og_title": "Former Tennessee Titans DT Jordan Elliott working out with Chicago Bears, per report",
-            "og_desc": "Former Tennessee Titans defensive tackle Jordan Elliott, who was released in October, is working out with the Chicago Bears, according to a report.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/98f85e80863127fef738eecc936011633f02c747a51b7e83e80476adf189ebc7/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_tennessean_natl_articles_921%2Febdc5bed2ad7fb9fdf06af269a729731.jpg",
-            "ok": true
-          },
-          {
-            "title": "Former Titans DL Jordan Elliott Getting Second Chance in the NFL",
-            "url": "https://roundtable.io/sports/nfl/titans/players/former-titans-dl-jordan-elliott-getting-second-chance-in-the-nfl",
-            "source": "roundtable.io",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR2XK01FNBjhwo8M8Qf-fNL7iArMDyU_PgASXpBsRfLiPsDARO709SKGgeKDZI",
-            "og_title": "Former Titans DL Jordan Elliott Getting Second Chance in the NFL",
-            "og_desc": "After a volatile practice incident led to his release in Tennessee, the defensive lineman heads to Chicago, aiming to revive his career alongside a familiar former teammate.",
-            "og_image": "https://deweb-519a7.b-cdn.net/post-images/50e0a583-c2cf-4267-8bc3-05c70ed39bbf.jpeg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-10-jordan-elliott.png"
-      },
-      {
-        "title": "ring drone cam",
+        "title": "action thriller",
         "traffic": "500+",
         "traffic_num": 500,
-        "published": "Tue, 10 Nov 2026 07:30:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcShXHqWDGtyzkwTUW_E-VQkkOFlzyhJJjBC6asN0wtbOwes8i2Yh_Vjm992G6o",
-        "image_source": "CNBC",
+        "published": "Tue, 10 Nov 2026 08:10:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXha0ZKrcVTGlGB5ej30vvVmJpkrrdPWJmODpPXgVHrCCzVdw_099cUJrBUyI",
+        "image_source": "MovieWeb",
         "news": [
           {
-            "title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
-            "url": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
-            "source": "CNBC",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcShXHqWDGtyzkwTUW_E-VQkkOFlzyhJJjBC6asN0wtbOwes8i2Yh_Vjm992G6o",
-            "og_title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
-            "og_desc": "Amazon's $250 Ring Drone Cam flies from room to room to investigate suspicious activity, and can capture footage at night.",
-            "og_image": "https://image.cnbcfm.com/api/v1/image/108546941-1794261485075-Lifestyle_dronecam_hovering_hallway_RGB_1500x1500.jpg?v=1794317522&w=1920&h=1080",
+            "title": "Forget Predator, a New 96-Minute Military Action Thriller Substitute Officially Hits Streaming",
+            "url": "https://movieweb.com/the-awakening-trailer-streaming-action-thriller/",
+            "source": "MovieWeb",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXha0ZKrcVTGlGB5ej30vvVmJpkrrdPWJmODpPXgVHrCCzVdw_099cUJrBUyI",
+            "og_title": "Forget Predator, a New 96-Minute Military Action Thriller Substitute Officially Hits Streaming",
+            "og_desc": "If it doesn't bleed...how will they kill it?",
+            "og_image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/11/a.jpg?w=1600&h=900&fit=crop",
             "ok": true
           },
           {
-            "title": "Ring announces Ring Robotics, ushering in a new era of security",
-            "url": "https://www.aboutamazon.com/news/devices/ring-drone-cam-rover-cam-security-robot",
-            "source": "About Amazon",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSDLRaWMjxv4v6bC6JEBv5XCpmlImhje1_i_sFCaQ8Nci3vFjn-Tspx1rMRYb0",
-            "og_title": "Ring announces Ring Robotics, ushering in a new era of security",
-            "og_desc": "Ring Robotics is launching with two robots: Ring Drone Cam and Ring Rover Cam, providing mobile, proactive protection whenever and wherever you need it.",
-            "og_image": "https://assets.aboutamazon.com/dims4/default/b73122b/2147483647/strip/true/crop/2000x1000+0+63/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F07%2Fc1%2F82d8a1204627a837d203c57dd918%2Fring-devices-drone-rover-amazon-amazonnews-cdlt-09112026.png",
-            "ok": true
+            "title": "The Awakening review: a promising Predator-style setup gets lost in the darkness",
+            "url": "https://www.imdb.com/news/ni66102638/?ref_=nmnw_art_perm",
+            "source": "IMDb",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZtaNN-j6IgBHuntuLaVsST9_Up3n-132WUs9YvFqd8onSn3__7T0famRzqCE",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
           },
           {
-            "title": "Would you let a drone fly inside your home for security?",
-            "url": "https://www.cbsnews.com/video/would-you-let-a-drone-fly-inside-your-home-for-security/",
-            "source": "CBS News",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRu9a4xJbneNEJ51DpP4Hz2MqwI8tDAZSCewKQI_5pRBv3M-7uNXUkyX0c_Sg",
-            "og_title": "Would you let a drone fly inside your home for security?",
-            "og_desc": "Ring camera founder Jamie Siminoff joined Jo Ling Kent to show her how the company's in-home drone security could work.",
-            "og_image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/10/658288ba-2521-4b8b-9aeb-0f105dfa88da/thumbnail/1200x630/569bea79f96e6440ca4cc2742b04efd9/cbsn-fusion-would-you-let-a-drone-fly-inside-your-home-for-security-thumbnail.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-10-ring-drone-cam.png"
-      },
-      {
-        "title": "lauren sanchez",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Tue, 10 Nov 2026 05:50:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpr1UV7Q6rSkGzPkx77Wf4GiyNDl632jW3UGquP0rlUJw9vMhkubTxyoKpnOU",
-        "image_source": "Yahoo",
-        "news": [
-          {
-            "title": "The best and worst fashion moments Jeff Bezos and Lauren Sánchez Bezos have had this year",
-            "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/best-worst-fashion-moments-jeff-141403929.html",
-            "source": "Yahoo",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpr1UV7Q6rSkGzPkx77Wf4GiyNDl632jW3UGquP0rlUJw9vMhkubTxyoKpnOU",
-            "og_title": "The best and worst fashion moments Jeff Bezos and Lauren Sánchez Bezos have had this year",
-            "og_desc": "Jeff Bezos and Lauren Sánchez Bezos have continued to grow their fashion influence in 2026, with appearances at the Met Gala and fashion weeks.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/e6d6a347c1f15c130c25374f6af3c6bfca4e6983df3479154e8ec518b201e094/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbusiness_insider_consolidated_articles_886%2Fedb52e2b197d994f23553b28c5aafb53.jpg",
-            "ok": true
-          },
-          {
-            "title": "The best and worst fashion moments Jeff Bezos and Lauren Sánchez Bezos have had this year",
-            "url": "https://africa.businessinsider.com/entertainment/the-best-and-worst-fashion-moments-jeff-bezos-and-lauren-sanchez-bezos-have-had-this/v9dvrte",
-            "source": "Business Insider Africa",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRkMV2UsrL0oxzhCfzC9un0AWPy3BZNu0ccJRXEHDO8F3duW7kjdxpau7f6AQg",
-            "og_title": "The best and worst fashion moments Jeff Bezos and Lauren Sánchez Bezos have had this year",
-            "og_desc": "Jeff Bezos and Lauren Snchez Bezos are continuing their quest to conquer the fashion industry",
-            "og_image": "https://ocdn.eu/pulscms-transforms/1/bsmktkuTURBXy9jNTdkMmU0MC02ODZkLTQzOWItYjJmYS1mYjY2MjMyOTc4YzQuanBlZ5GTBc0EsM0Cdg",
-            "ok": true
-          },
-          {
-            "title": "In 2024, Jeff Bezos paid $87 million for a third mansion on Miami's Billionaire Bunker; he and Lauren Sán",
-            "url": "https://timesofindia.indiatimes.com/technology/tech-news/in-2024-jeff-bezos-paid-87-million-for-a-third-mansion-on-miamis-billionaire-bunker-he-and-lauren-snchez-bezos-transformed-the-temporary-home-with-exotic-gardens-a-private-gym-and-a-pickleball-court/articleshow/135699583.cms",
-            "source": "The Times of India",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyJI25rRLHJPMM6y-RC_kK51bjYKasGpg2_kSAcngUlX9uT53WnKpAOJ4TlCI",
-            "og_title": "In 2024, Jeff Bezos paid $87 million for a third mansion on Miami's Billionaire Bunker; he and Lauren Sánchez Bezos transformed the temporary home with exotic gardens, a private gym and a pickleball court",
-            "og_desc": "Jeff Bezos and Lauren Sánchez Bezos may eventually move into a sprawling custom-built estate on Florida's exclusive Indian Creek Island, but their plans for the property have not stopped them from upgrading the house they currently call home. According to the Realtor, the Amazon founder paid $87 million for a third mansion on the island in 2024, adding to two neighbouring properties he had already acquired the previous year.",
-            "og_image": "https://static.toiimg.com/thumb/msid-135699759,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "title": "THE AWAKENING Trailer Unleashes an Ancient Evil on an Elite Military Squad in the Colombian Jungle",
+            "url": "https://geektyrant.com/news/the-awakening-trailer-unleashes-an-ancient-evil-on-an-elite-military-squad-in-the-colombian-jungle",
+            "source": "GeekTyrant",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjeT8f1KfSPaXTl8_dlPCmoHNTepgv9UVR6V2Y0epmP4xUo2NC_vviujhWjlE",
+            "og_title": "THE AWAKENING Trailer Unleashes an Ancient Evil on an Elite Military Squad in the Colombian Jungle — GeekTyrant",
+            "og_desc": "An elite military squad trained to handle the deadliest threats is about to discover that some enemies can't be taken down with bullets. The new trailer for the sci-fi action horror film   The Awakening   sends a team of soldiers into the Colombian jungle, where an ancient evil is waiting to turn th",
+            "og_image": "http://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/51ce6099e4b0d911b4489b79/6ac90a048376081e0e9bdfde/1793797254346/Screenshot+2026-10-09+at+8.43.01%E2%80%AFAM.jpg?format=1500w",
             "ok": true
           }
         ],
@@ -909,7 +725,57 @@
         "color": "#c77dff",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-10-lauren-sanchez.png"
+        "card": "cards/world-2026-11-10-action-thriller.png"
+      },
+      {
+        "title": "mcdonalds pokemon",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Tue, 10 Nov 2026 07:50:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuqMkUKiKlvy4zEUbE9ygLo-FUe3uOXaRAZ9bbYYshnz9xhrhg75jCSgLyfng",
+        "image_source": "USA Today",
+        "news": [
+          {
+            "title": "Gotta catch 'em all! You can get McDonald's Pokémon Happy Meal today",
+            "url": "https://www.usatoday.com/story/money/food/2026/11/10/mcdonalds-pokemon-happy-meal-toys-cards/92687817007/",
+            "source": "USA Today",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuqMkUKiKlvy4zEUbE9ygLo-FUe3uOXaRAZ9bbYYshnz9xhrhg75jCSgLyfng",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Pokémon Happy Meals Return to McDonald’s in Canada",
+            "url": "https://www.pokemon.com/us/news/pokemon-happy-meals-return-to-mcdonalds-in-canada",
+            "source": "Pokemon.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS_fx1kVrzBrtGp6i8n9n5rwAaBBsMwuKfiVUMJPv2E5HmfdKEx9bZ1Nk-poec",
+            "og_title": "Pokémon Happy Meals Return to McDonald’s in Canada",
+            "og_desc": "Fans in Canada can now find a miniature Happy Meal box toy inspired by Pokémon along with a pair of Pokémon TCG cards in Happy Meals.",
+            "og_image": "https://mcdn.pokemon.com/pokemon-prod/image/upload/c_limit,w_1920/f_auto/v1/live/pcom-cms/static-assets/cms3/us/img/merchandise/tiles/2026/mcdonalds/canada/mcdonalds-169.png",
+            "ok": true
+          },
+          {
+            "title": "McDonald's is launching a Pokémon Happy Meal with 15 toys and trading cards",
+            "url": "https://qz.com/mcdonalds-pokemon-happy-meal-toys-trading-cards-111026",
+            "source": "qz.com",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWRPzkBT1CyjA243keIkU6b4Yai0x39YfG5Zhz1S7eJNvfeSlsLGHFM0KnQuY",
+            "og_title": "McDonald's is launching a Pokémon Happy Meal with 15 toys and cards",
+            "og_desc": "The U.S. promotion starts Tuesday, and a QR code on the box opens a digital game where fans search for the 15 toys",
+            "og_image": "https://qz.com/cdn-cgi/image/width=1200,quality=85,format=auto/https://assets.qz.com/media/Poke%CC%81mon%20Happy%20Meal%20Hero%20Image-300x472.jpg",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "دول وأماكن",
+        "icon": "🗺️",
+        "color": "#79c0ff",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-11-10-mcdonalds-pokemon.png"
       }
     ]
   },
@@ -919,7 +785,7 @@
     "name_en": "Egypt",
     "lang": "ar",
     "flag": "🇪🇬",
-    "generated_at": "2026-11-10T16:01:37.812943+00:00",
+    "generated_at": "2026-11-10T16:31:24.490322+00:00",
     "day": "2026-11-10",
     "trends": [
       {
@@ -927,37 +793,37 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "published": "Tue, 10 Nov 2026 07:40:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRJ5-5-aix4ptzNOLcim0xtejebaYKFJIjm0mkWN7OlV5MCO6YWNhuJWvx_8-w",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT6dNgNK3ObKFQdi5or0z4SJqM6pBdfL0RAG1_tB0QXLnQIxgZ9GIPCRUyniwY",
         "image_source": "يلاكورة",
         "news": [
           {
-            "title": "رحلة شاقة ومعسكر ناقص.. مدرب مالاوي يكشف صعوبات \"منتخب اللهب\" قبل مواجهة مصر",
-            "url": "https://www.yallakora.com/can-qualifiers/3028/news/572634/%D8%B1%D8%AD%D9%84%D8%A9-%D8%B4%D8%A7%D9%82%D8%A9-%D9%88%D9%85%D8%B9%D8%B3%D9%83%D8%B1-%D9%86%D8%A7%D9%82%D8%B5-%D9%85%D8%AF%D8%B1%D8%A8-%D9%85%D8%A7%D9%84%D8%A7%D9%88%D9%8A-%D9%8A%D9%83%D8%B4%D9%81-%D8%B5%D8%B9%D9%88%D8%A8%D8%A7%D8%AA-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D9%84%D9%87%D8%A8-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D9%85%D8%B5%D8%B1",
+            "title": "ضحك وعناق وأناقة.. أول لقاء بين محمد صلاح وعلي ماهر في معسكر منتخب مصر (صور)",
+            "url": "https://www.yallakora.com/can-qualifiers/3028/news/572616/%D8%B6%D8%AD%D9%83-%D9%88%D8%B9%D9%86%D8%A7%D9%82-%D9%88%D8%A3%D9%86%D8%A7%D9%82%D8%A9-%D8%A3%D9%88%D9%84-%D9%84%D9%82%D8%A7%D8%A1-%D8%A8%D9%8A%D9%86-%D9%85%D8%AD%D9%85%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D9%88%D8%B9%D9%84%D9%8A-%D9%85%D8%A7%D9%87%D8%B1-%D9%81%D9%8A-%D9%85%D8%B9%D8%B3%D9%83%D8%B1-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%85%D8%B5%D8%B1-%D8%B5%D9%88%D8%B1-",
             "source": "يلاكورة",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRJ5-5-aix4ptzNOLcim0xtejebaYKFJIjm0mkWN7OlV5MCO6YWNhuJWvx_8-w",
-            "og_title": "مدرب مالاوي يكشف صعوبات \"منتخب اللهب\" قبل مواجهة مصر",
-            "og_desc": "يستعد منتخب مصر بقيادة مدربه الجديد علي ماهر، لخوض مواجهة هامة أمام نظيره مالاوي، على ملعب \"ستاد القاهرة\" ضمن منافسات تصفيات أمم أفريقيا 2027.",
-            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/11/10/screenshot-2026-11-10-153953-easy-resize-com2026_11_10_15_39.webp",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT6dNgNK3ObKFQdi5or0z4SJqM6pBdfL0RAG1_tB0QXLnQIxgZ9GIPCRUyniwY",
+            "og_title": "محمد صلاح وعلي ماهر في معسكر منتخب مصر",
+            "og_desc": "وصل محمد صلاح، نجم وقائد منتخب مصر، إلى معسكر الفراعنة استعدادا لمواجهة مالاوي في التصفيات المؤهلة لكأس أمم أفريقيا 2027.",
+            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/11/10/52026_11_10_13_5.webp",
             "ok": true
           },
           {
-            "title": "ترتيب مجموعة مصر في تصفيات أمم أفريقيا 2027.. الفراعنة في الصدارة",
-            "url": "https://www.youm7.com/story/2026/11/10/%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D9%85%D8%B5%D8%B1-%D9%81%D9%8A-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A3%D9%85%D9%85-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-2027-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D8%B9%D9%86%D8%A9-%D9%81%D9%8A/7612790",
+            "title": "موعد مباراتي مصر ومالاوي فى تصفيات أمم أفريقيا 2027",
+            "url": "https://www.youm7.com/story/2026/11/10/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A-%D9%85%D8%B5%D8%B1-%D9%88%D9%85%D8%A7%D9%84%D8%A7%D9%88%D9%8A-%D9%81%D9%89-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A3%D9%85%D9%85-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-2027/7611426",
             "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcStummPpoOUdTapHZ2LZayLJNPK142Dv3tJiBEnXCFKUGBd2ZTOz11KUvkZZiY",
-            "og_title": "ترتيب مجموعة مصر في تصفيات أمم أفريقيا 2027.. الفراعنة في الصدارة - اليوم السابع",
-            "og_desc": "يواصل منتخب مصر الأول لكرة القدم مشواره في التصفيات المؤهلة لبطولة كأس الأمم الأفريقية 2027، بعدما نجح في تصدر ترتيب المجموعة الثانية برصيد 4 نقاط،",
-            "og_image": "https://img.youm7.com/xlarge/20261109113204324_394.jpg",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTAQ1OJrl3SkTvwTn9LHjPysz7DIZzJOwRHC9jy18JZxVLOvtDApvtjSJGeQlM",
+            "og_title": "موعد مباراتي مصر ومالاوي فى تصفيات أمم أفريقيا 2027 - اليوم السابع",
+            "og_desc": "يستعد منتخب مصر الأول لكرة القدم ، تحت القيادة الفنية الجديدة لعلي ماهر، لخوض مواجهتين مهمتين أمام منتخب مالاوي..",
+            "og_image": "https://img.youm7.com/xlarge/202609241042234223_487.jpg",
             "ok": true
           },
           {
-            "title": "وصول محمد صلاح معسكر منتخب مصر.. واستقبال خاص من علي ماهر (صور)",
-            "url": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/10/3076504/%D9%88%D8%B5%D9%88%D9%84-%D9%85%D8%AD%D9%85%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D9%85%D8%B9%D8%B3%D9%83%D8%B1-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%85%D8%B5%D8%B1-%D9%88%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D8%A7%D9%84-%D8%AE%D8%A7%D8%B5-%D9%85%D9%86-%D8%B9%D9%84%D9%8A-%D9%85%D8%A7%D9%87%D8%B1-%D8%B5%D9%88%D8%B1-",
+            "title": "25 صورة من مران منتخب مصر الأول استعدادًا لمواجهتي مالاوي",
+            "url": "https://www.masrawy.com/sports/sports_news/details/2026/11/9/3076369/25-%D8%B5%D9%88%D8%B1%D8%A9-%D9%85%D9%86-%D9%85%D8%B1%D8%A7%D9%86-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A7-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%AA%D9%8A-%D9%85%D8%A7%D9%84%D8%A7%D9%88%D9%8A",
             "source": "Masrawy",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQznRUxmyGZg2s-gbf587r4d_Wj0SQ6k4YxQgg4_eYd5vKnsN0jUplAmeEjl3w",
-            "og_title": "وصول محمد صلاح معسكر منتخب مصر.. واستقبال خاص من علي ماهر (صور) | مصراوي",
-            "og_desc": "وصل محمد صلاح قائد منتخب مصر ونجم طرابزون سبور التركي في معسكر الفراعنة اليوم الثلاثاء استعداد ا لمواجهتي مالاوي | مصراوي",
-            "og_image": "https://media.gemini.media/img/large/2026/11/10/2026_11_10_12_26_59_535.webp",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSbHBqAO24fetE8HzWNubqQlruJfVnrIceTbHE9rgsCcE7CvVHuLbk29PW8Sp4",
+            "og_title": "25 صورة من مران منتخب مصر الأول استعدادًا لمواجهتي مالاوي | مصراوي",
+            "og_desc": "خاض منتخب مصر الأول لكرة القدم بقيادة مديره الفني علي ماهر تدريبه الأول اليوم الاثنين | مصراوي",
+            "og_image": "https://media.gemini.media/img/large/2026/11/9/2026_11_9_23_41_50_855.webp",
             "ok": true
           }
         ],
@@ -1067,6 +933,52 @@
         "card": "cards/eg-2026-11-10-إسكان.png"
       },
       {
+        "title": "grand theft auto vi",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Tue, 10 Nov 2026 08:00:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTZll1tApV9Ds71HmTdujHYiNfoBn3zrlJCvS7S-pg_vQYPoW8x18hTe8WUCZg",
+        "image_source": "Rockstar Games",
+        "news": [
+          {
+            "title": "Pre-Load Grand Theft Auto VI Now",
+            "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+            "source": "Rockstar Games",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTZll1tApV9Ds71HmTdujHYiNfoBn3zrlJCvS7S-pg_vQYPoW8x18hTe8WUCZg",
+            "og_title": "Pre-Load Grand Theft Auto VI Now - Rockstar Games",
+            "og_desc": "Pre-loading is now available for everyone who has pre-ordered Grand Theft Auto VI digitally. Players who pre-ordered the code-in-box version can also activate their code and begin pre-loading as soon as it’s received. If you still have yet to...",
+            "og_image": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/89834o94713o21/94f09130d07de4a50e3ab971e2b7d8c253b7c706.jpg",
+            "ok": true
+          },
+          {
+            "title": "Rockstar Officially Confirms GTA 6 Regional Release Times - and They're Not What We Thought",
+            "url": "https://www.digitalfoundry.net/news/2026/11/rockstar-officially-confirms-gta-6-regional-release-times-and-theyre-not-what-we-thought",
+            "source": "Digital Foundry",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT02yV-0fSRvLSmk3GbhXokq9nwF8dyLL5w-K5IROidNk84eV4LXyYpf5bMYIU",
+            "og_title": "Rockstar Officially Confirms GTA 6 Regional Release Times - and They're Not What We Thought",
+            "og_desc": "Plus: pre-loads have begun.",
+            "og_image": "https://images.digitalfoundry.net/defbf1ed00d52/1280x720.jpg",
+            "ok": true
+          },
+          {
+            "title": "How To Preload GTA 6 In Full On Xbox Series X|S (Even If You Haven't Bought It)",
+            "url": "https://www.purexbox.com/news/2026/11/how-to-preload-gta-6-in-full-on-xbox-series-xs-even-if-you-havent-bought-it",
+            "source": "Pure Xbox",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQOmqHGEwGXL9r4lqahVFnWWzngQrylggy0AVwEw472XjRscM-ZFPdSzE2qBGw",
+            "og_title": "How To Preload GTA 6 In Full On Xbox Series X|S (Even If You Haven't Bought It)",
+            "og_desc": "All 200GB+ goes live in just a few hours' time",
+            "og_image": "https://images.purexbox.com/b0c09017afae5/1280x720.jpg",
+            "ok": true
+          }
+        ],
+        "category": "فن ومشاهير",
+        "icon": "🎬",
+        "color": "#c77dff",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/eg-2026-11-10-grand-theft-auto-vi.png"
+      },
+      {
         "title": "سميرة سعيد",
         "traffic": "200+",
         "traffic_num": 200,
@@ -1160,59 +1072,23 @@
         "card": "cards/eg-2026-11-10-البحر-الأحمر.png"
       },
       {
-        "title": "مباريات اليوم والقنوات الناقلة",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Tue, 10 Nov 2026 05:50:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS4wdMGt69tNDbJyQ_abgcWfSj-xp8IhsT-y03jHKKGCLV5Ha3R3FWIU896jKY",
-        "image_source": "اليوم السابع",
-        "news": [
-          {
-            "title": "7 مواجهات نارية في دور الـ16 بكأس مصر.. الأهلي يصطدم ببتروجت والزمالك يواجه إنبي",
-            "url": "https://www.youm7.com/story/2026/11/10/7-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D9%86%D8%A7%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%8016-%D8%A8%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D9%8A%D8%B5%D8%B7%D8%AF%D9%85/7612642",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS4wdMGt69tNDbJyQ_abgcWfSj-xp8IhsT-y03jHKKGCLV5Ha3R3FWIU896jKY",
-            "og_title": "7 مواجهات نارية في دور الـ16 بكأس مصر.. الأهلي يصطدم ببتروجت والزمالك يواجه إنبي - اليوم السابع",
-            "og_desc": "تتجه أنظار جماهير الكرة المصرية إلى منافسات دور الـ16 من بطولة كأس مصر، بعدما بدأت ملامح مواجهات ثمن النهائي تتضح عقب انتهاء عدد كبير من مباريات دور الـ32",
-            "og_image": "https://img.youm7.com/xlarge/202506061256365636.jpg",
-            "ok": true
-          },
-          {
-            "title": "يتبقى مقعد أخير في طريق الأهلي.. الأندية المتأهلة لدور الـ16 في كأس مصر",
-            "url": "https://www.yallakora.com/egypt-cup/3066/news/572606/%D9%8A%D8%AA%D8%A8%D9%82%D9%89-%D9%85%D9%82%D8%B9%D8%AF-%D8%A3%D8%AE%D9%8A%D8%B1-%D9%81%D9%8A-%D8%B7%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%A7%D9%84%D8%A3%D9%86%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D8%A3%D9%87%D9%84%D8%A9-%D9%84%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%8016-%D9%81%D9%8A-%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1",
-            "source": "يلاكورة",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQIRsGJA4PY_FAHiYnGi5bJvUAtAqZhkweyn0eaSd63EQRbmjb-1ICgsWXQd2o",
-            "og_title": "الأندية المتأهلة لدور الـ16 في كأس مصر",
-            "og_desc": "يحسم اليوم الثلاثاء المقعد الأخير مع الفرق المتأهلة في دور الـ16 من بطولة كأس مصر نسخة موسم 2026-2027.",
-            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2024/8/22/رييي2024_8_22_1_30.webp",
-            "ok": true
-          },
-          {
-            "title": "جدول مباريات اليوم الثلاثاء 10 نوفمبر .. القنوات الناقلة والمعلقين",
-            "url": "https://www.goal.com/ar-eg/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AC%D8%AF%D9%88%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-10-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D9%8A%D9%86/blt621ae4fce7e218fb",
-            "source": "Goal.com",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRw3wsidd3LLJZ_PTuNhySvJEnWQpRSxcAovtIa8-kKUctI3xTMG7GNKCniAk",
-            "og_title": "جدول مباريات اليوم الثلاثاء 10 نوفمبر .. القنوات الناقلة والمعلقين | مصر Goal.com",
-            "og_desc": "كل ما تريد معرفته عن القنوات الناقلة لمباريات اليوم الثلاثاء 10 نوفمبر 2026 .. جدول المواعيد والمعلقين",
-            "og_image": "https://assets.goal.com/images/v3/getty-2304092245/crop/MM5DKMBUGE5DEOBTGY5G433XMU5DAORYGU======/GettyImages-2304092245.jpg",
-            "ok": true
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/eg-2026-11-10-مباريات-اليوم-والقنوات-الناقلة.png"
-      },
-      {
         "title": "ازمير",
         "traffic": "100+",
         "traffic_num": 100,
         "published": "Tue, 10 Nov 2026 07:30:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQucD39dI029IXadhD3_Drmucs82Dfuj_z114vuXb28wmQS5MpRz1Kw8KpdqY4",
-        "image_source": "سكاي نيوز عربية",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSBueuzOVWGRufImiYGR7fmzcPs6ht5s7pby0RKKm3dMWcNIkKRUqoXQTiiZWQ",
+        "image_source": "اليوم السابع",
         "news": [
+          {
+            "title": "مصر تعرب عن خالص تعازيها لتركيا فى ضحايا انفجار مصنع للصلب قرب إزمير",
+            "url": "https://www.youm7.com/story/2026/11/10/%D9%85%D8%B5%D8%B1-%D8%AA%D8%B9%D8%B1%D8%A8-%D8%B9%D9%86-%D8%AE%D8%A7%D9%84%D8%B5-%D8%AA%D8%B9%D8%A7%D8%B2%D9%8A%D9%87%D8%A7-%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A7-%D9%81%D9%89-%D8%B6%D8%AD%D8%A7%D9%8A%D8%A7-%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1-%D9%85%D8%B5%D9%86%D8%B9/7613626",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSBueuzOVWGRufImiYGR7fmzcPs6ht5s7pby0RKKm3dMWcNIkKRUqoXQTiiZWQ",
+            "og_title": "مصر تعرب عن خالص تعازيها لتركيا فى ضحايا انفجار مصنع للصلب قرب إزمير - اليوم السابع",
+            "og_desc": "أعربت جمهورية مصر العربية عن خالص تعازيها وصادق مواساتها للجمهورية التركية، حكومةً وشعبًا، في ضحايا حادث الانفجار الذي وقع في مصنع للصلب قرب مدينة إزمير.",
+            "og_image": "https://img.youm7.com/xlarge/202610210931433143_172.jpg",
+            "ok": true
+          },
           {
             "title": "قتلى ومصابون إثر انفجار هائل بمصنع في تركيا",
             "url": "https://www.skynewsarabia.com/world/1903682-%D9%82%D8%AA%D9%84%D9%89-%D9%88%D9%85%D8%B5%D8%A7%D8%A8%D9%88%D9%86-%D8%A5%D8%AB%D8%B1-%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1-%D9%87%D8%A7%D8%A6%D9%84-%D8%A8%D9%85%D8%B5%D9%86%D8%B9-%D8%AA%D8%B1%D9%83%D9%8A%D8%A7",
@@ -1233,16 +1109,6 @@
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
-          },
-          {
-            "title": "مصر تعرب عن خالص تعازيها لتركيا فى ضحايا انفجار مصنع للصلب قرب إزمير",
-            "url": "https://www.youm7.com/story/2026/11/10/%D9%85%D8%B5%D8%B1-%D8%AA%D8%B9%D8%B1%D8%A8-%D8%B9%D9%86-%D8%AE%D8%A7%D9%84%D8%B5-%D8%AA%D8%B9%D8%A7%D8%B2%D9%8A%D9%87%D8%A7-%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A7-%D9%81%D9%89-%D8%B6%D8%AD%D8%A7%D9%8A%D8%A7-%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1-%D9%85%D8%B5%D9%86%D8%B9/7613626",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSBueuzOVWGRufImiYGR7fmzcPs6ht5s7pby0RKKm3dMWcNIkKRUqoXQTiiZWQ",
-            "og_title": "مصر تعرب عن خالص تعازيها لتركيا فى ضحايا انفجار مصنع للصلب قرب إزمير - اليوم السابع",
-            "og_desc": "أعربت جمهورية مصر العربية عن خالص تعازيها وصادق مواساتها للجمهورية التركية، حكومةً وشعبًا، في ضحايا حادث الانفجار الذي وقع في مصنع للصلب قرب مدينة إزمير.",
-            "og_image": "https://img.youm7.com/xlarge/202610210931433143_172.jpg",
-            "ok": true
           }
         ],
         "category": "حوادث وقضايا",
@@ -1251,6 +1117,100 @@
         "reason": "ورد لفظ حسّاس: قتل",
         "publishable": false,
         "card": "cards/eg-2026-11-10-ازمير.png"
+      },
+      {
+        "title": "لويس هاميلتون",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Tue, 10 Nov 2026 07:20:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGK89p7EC86urV84EHUVyozMvMW_rg9-jyfjVLghCSH9qyDKXcD0O8ktvlxOA",
+        "image_source": "سكاي نيوز عربية",
+        "news": [
+          {
+            "title": "لويس هاميلتون يزور معبر رفح ويطّلع على جهود إغاثة غزة",
+            "url": "https://www.skynewsarabia.com/varieties/1903904-%D9%84%D9%88%D9%8A%D8%B3-%D9%87%D8%A7%D9%85%D9%8A%D9%84%D8%AA%D9%88%D9%86-%D9%8A%D8%B2%D9%88%D8%B1-%D9%85%D8%B9%D8%A8%D8%B1-%D8%B1%D9%81%D8%AD-%D9%88%D9%8A%D8%B7%D9%84%D8%B9-%D8%AC%D9%87%D9%88%D8%AF-%D8%A5%D8%BA%D8%A7%D8%AB%D8%A9-%D8%BA%D8%B2%D8%A9",
+            "source": "سكاي نيوز عربية",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGK89p7EC86urV84EHUVyozMvMW_rg9-jyfjVLghCSH9qyDKXcD0O8ktvlxOA",
+            "og_title": "لويس هاميلتون يزور معبر رفح ويطّلع على جهود إغاثة غزة",
+            "og_desc": "زار بطل العالم في سباقات الفورمولا 1 البريطاني لويس هاميلتون معبر رفح البري، برفقة محافظ شمال سيناء خالد مجاور، للاطلاع على جهود مصر في استقبال المرضى والمصابين الفلسطينيين وتسهيل دخول المساعدات الإنسانية إلى قطاع غزة.",
+            "og_image": "https://www.skynewsarabia.com/images/v1/2026/11/10/1903903/1200/630/1-1903903.png",
+            "ok": true
+          },
+          {
+            "title": "مصر تواصل تقديم المساعدات الإنسانية لدعم الأشقاء الفلسطينيين في غزة.. فيديو",
+            "url": "https://www.youm7.com/story/2026/11/10/%D9%85%D8%B5%D8%B1-%D8%AA%D9%88%D8%A7%D8%B5%D9%84-%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%B3%D8%A7%D9%86%D9%8A%D8%A9-%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A7%D9%94%D8%B4%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9/7613631",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQlvFlozif1xsYNzm5SHjx8FIFCJVBO4UcydA6US0f4J1DbIosHG0a7of9ApxI",
+            "og_title": "مصر تواصل تقديم المساعدات الإنسانية لدعم الأشقاء الفلسطينيين في غزة.. فيديو - اليوم السابع",
+            "og_desc": "قال عوض الغنام، مراسل قناة إكسترا نيوز من أمام معبر رفح، إن لويس هاميلتون وهو شخصية رياضية عالمية بارزة، وبطلًا عالميًا في سباقات السيارات",
+            "og_image": "https://img.youm7.com/xlarge/20251017124007407.jpg",
+            "ok": true
+          },
+          {
+            "title": "محافظ شمال سيناء يستقبل بطل العالم للفورمولا 1 بمطار العريش الدولي",
+            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=10112026&id=aee24e6b-2fe9-4414-946f-7e2640020dd6",
+            "source": "بوابة الشروق",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXY_xoWSfg7uHWx1syH1dmw2-93QfK5TS6h2qiHOO5HC5hLZCJQjslUoh7dXQ",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/ةوةوزةوزةوزوةييييييييييييي.jpg",
+            "ok": false
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "شخصية ورد في مصادرها لفظ حسّاس: مرض",
+        "publishable": false,
+        "card": "cards/eg-2026-11-10-لويس-هاميلتون.png"
+      },
+      {
+        "title": "محمد ابوتريكه",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Tue, 10 Nov 2026 06:50:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQhtrMwlpsmGi2Nri4C7sLft3ZSVkNvGy2evSrgs6CdaiDgZ_IcGLCJU9mXbdY",
+        "image_source": "المصري اليوم",
+        "news": [
+          {
+            "title": "«سنشتاق لك».. مذيع بين سبورت يفاجئ أبوتريكة بعد قرار «التوقف»",
+            "url": "https://www.almasryalyoum.com/news/details/4405625",
+            "source": "المصري اليوم",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQhtrMwlpsmGi2Nri4C7sLft3ZSVkNvGy2evSrgs6CdaiDgZ_IcGLCJU9mXbdY",
+            "og_title": "«سنشتاق لك».. مذيع بين سبورت يفاجئ أبوتريكة بعد قرار «التوقف» | المصري اليوم",
+            "og_desc": "أثار محمد أبوتريكة، نجم الأهلي ومنتخب مصر السابق، حالة من التساؤلات، بعدما ألمح إلى احتمالية غيابه عن الظهور في الاستوديوهات التحليلية لشبكة قنوات «بي إن سبورتس» لفترة...",
+            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/09/2103340.webp",
+            "ok": true
+          },
+          {
+            "title": "«ستفتقدوني لفترة طويلة».. أبو تريكة يفاجئ الجميع",
+            "url": "https://nabdapp.com/t/180569834-809118",
+            "source": "تطبيق نبض",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSr9pDkiL7PR87yNOBvyppHCRN7mxGpHJXT_eBCSSNZEg4hzYW23sZr3e92o3I",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "RemoteDisconnected"
+          },
+          {
+            "title": "«يا أبو فانلة حرير حمرا».. سدرة أبوتريكة تفاجئ والدها برسالة خاصة في عيد ميلاده (فيديو)",
+            "url": "https://www.almasryalyoum.com/news/details/4403707",
+            "source": "المصري اليوم",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS6zGrC11joCp2nyJh3Xzb-wCBjqdnrc2-xMwlwbX0QzOgEkomaOaDxNULkMRQ",
+            "og_title": "«يا أبو فانلة حرير حمرا».. سدرة أبوتريكة تفاجئ والدها برسالة خاصة في عيد ميلاده (فيديو) | المصري اليوم",
+            "og_desc": "كشف محمد أبوتريكة نجم مصر السابق، تفاصيل حديثه مع ابنته الصغرى 'سدرة' بالتزامن مع عيد ميلاده، الذي يحتفل به اليوم السبت. وقال تريكة عبر شاشة (بي إن سبورتس): 'المفروض كنت أجازة...",
+            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/07/2099141.webp",
+            "ok": true
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "person": true,
+        "card": "cards/eg-2026-11-10-محمد-ابوتريكه.png"
       },
       {
         "title": "lauren boebert",
@@ -1303,141 +1263,46 @@
         "traffic": "100+",
         "traffic_num": 100,
         "published": "Tue, 10 Nov 2026 06:20:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSg-MhEda4tZQKrWujqzdoJjlGCPbEBOgwJcsIds-pkVsTKsBr8DXrzP1Axoqw",
-        "image_source": "Yahoo",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSe6D2hdsqu3Gusi3vyff-3VGSyM80FVd48wlWhpzECpRRdvlqqyJy62MZaT_o",
+        "image_source": "Variety",
         "news": [
           {
-            "title": "Police Departments Are Using GTA VI Hype as Social-Media Currency",
-            "url": "https://www.yahoo.com/news/us/articles/police-departments-using-gta-vi-153053917.html",
-            "source": "Yahoo",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSg-MhEda4tZQKrWujqzdoJjlGCPbEBOgwJcsIds-pkVsTKsBr8DXrzP1Axoqw",
-            "og_title": "Police Departments Are Using GTA VI Hype as Social-Media Currency",
-            "og_desc": "Police departments are riding GTA VI hype on social media, using the game's cultural reach to connect with audiences they rarely engage online.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/1a5007c1da7bbed65fb2a446c2d39d1466e58825c00ab6e2e0809446e065f5a0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgadget_review_articles_822%2Fa84a8d7c629eeb114a7ceb72d3cc402d.jpg",
+            "title": "‘GTA 6’ Presales ‘Far in Excess’ of Expectations Ahead of Next Week’s Launch, Take-Two CEO Says",
+            "url": "https://variety.com/2026/gaming/news/gta-6-preorders-expectations-launch-1236943278/",
+            "source": "Variety",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSe6D2hdsqu3Gusi3vyff-3VGSyM80FVd48wlWhpzECpRRdvlqqyJy62MZaT_o",
+            "og_title": "‘GTA 6’ Presales ‘Far in Excess’ of Expectations Ahead of Next Week’s Launch, Take-Two CEO Says",
+            "og_desc": "Rockstar Games' \"Grand Theft Auto VI\" presales are \"running far in excess of our expectations,\" Take-Two Interactive CEO Strauss Zelnick said Monday.",
+            "og_image": "https://variety.com/wp-content/uploads/2026/08/GTA-6.jpg?w=1000&h=563&crop=1",
             "ok": true
           },
           {
-            "title": "Greensboro Police Are Begging Rockstar to Release ‘GTA 6’ for One Unexpected Reason",
-            "url": "https://www.mensjournal.com/entertainment/greensboro-police-are-begging-rockstar-to-release-gta-6-for-one-unexpected-reason",
-            "source": "Men's Journal",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQznFKN6mEb95j5YUm9HETo2F0rewadKIwCRrTIlDl_nkP0nkHwZ02r2VFMhlo",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
+            "title": "Take-Two Q2 net bookings fall 18% to $1.6bn as NBA 2K27 misses forecast but GTA 6 pre-orders are \"tracking far in excess\" of expectations",
+            "url": "https://www.gamesindustry.biz/take-two-q2-net-bookings-fall-18-to-16bn-as-nba-2k27-misses-forecast-but-gta-6-pre-orders-are-tracking-far-in-excess-of-expectations",
+            "source": "GamesIndustry.biz",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSEpPzzVTh_RWvOKLNT0hrqWZrRr1keQDwb42Et0s1bWtMV-CqHG7KCUF5xgJo",
+            "og_title": "Take-Two Q2 net bookings fall 18% to $1.6bn as NBA 2K27 misses forecast but GTA 6 pre-orders are \"tracking far in excess\" of expectations",
+            "og_desc": "Take-Two Interactive has published its financial results for its second fiscal quarter, with net bookings down 18% to $…",
+            "og_image": "https://assetsio.gnwcdn.com/gta-6_S2BF1hr.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+            "ok": true
           },
           {
-            "title": "'Save That Stuff for the Streets of Vice City' — Police Mock Car Chase Criminal for Getting Arrested Right Before GTA 6 Release",
-            "url": "https://www.ign.com/articles/police-mock-car-chase-criminal-for-being-arrested-during-gta-6-release",
-            "source": "IGN",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRbK4MWOFwj3sP-Grldi_X8UIQoVsAqyW9UlVUTQ6jiDD9ng_ANn-0IeorGMRY",
-            "og_title": "'Save That Stuff for the Streets of Vice City' — Police Mock Car Chase Criminal for Getting Arrested Right Before GTA 6 Release",
-            "og_desc": "Police in Derbyshire, UK, are going viral after making a TikTok video mocking a criminal who led them on a high-speed car chase, saying the suspect will now miss out on GTA 6’s highly-anticipated launch as a consequence of their actions.",
-            "og_image": "https://assets-prd.ignimgs.com/2026/08/27/exclusivelookbr-gtfm-1787873244868.png?width=1280&format=jpg&auto=webp&quality=80",
+            "title": "Take-Two stock rises on 'unprecedented' preorders for 'Grand Theft Auto VI'",
+            "url": "https://finance.yahoo.com/markets/stocks/article/take-two-stock-rises-on-unprecedented-preorders-for-grand-theft-auto-vi-160644526.html",
+            "source": "Yahoo Finance",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBIz1mhdDkvZ7GHIZHeJ7w_Xj3NO_6cndFxoR4h_Vhz1nDyaX9uP8j8LXdfTw",
+            "og_title": "Take-Two stock rises on 'unprecedented' preorders for 'Grand Theft Auto VI'",
+            "og_desc": "Take-Two Interactive reported earnings after hours on Monday. The studio said preorders for \"Grand Theft Auto VI\" will deliver \"historic\" gains.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/9332b5306a5cc22c67c486c91f68d3bb8ecb369dd13d47337f156ec12aa27df9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F9d0cca64-623f-4a57-aa83-55691bd9d5f7",
             "ok": true
           }
         ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: arrested",
+        "category": "اقتصاد",
+        "icon": "💰",
+        "color": "#f5c542",
+        "reason": "حجم بحث أقل من 2000",
         "publishable": false,
         "card": "cards/eg-2026-11-10-gta-vi.png"
-      },
-      {
-        "title": "tradingview",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Tue, 10 Nov 2026 05:50:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRZGqEdEXbiza7u5Jaebz1GVjk6gT-GC9ABy2KygtfJbALDZWXOqJCG1--8OtY",
-        "image_source": "TradingView",
-        "news": [
-          {
-            "title": "Wall St set for feeble open after October's hot inflation print",
-            "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46R126:0-wall-st-set-for-feeble-open-after-october-s-hot-inflation-print/",
-            "source": "TradingView",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRZGqEdEXbiza7u5Jaebz1GVjk6gT-GC9ABy2KygtfJbALDZWXOqJCG1--8OtY",
-            "og_title": "Wall St set for feeble open after October's hot inflation print",
-            "og_desc": "By Niket Nishant and Utkarsh    HathiWall Street's main indexes were on course for a weak open on Tuesday after hotter-than-expected inflation data for October threatened to pause a two-day rebound in tech shares and revive the selling pressure that had rattled markets last week.Earlier in the day…",
-            "og_image": "https://s.tradingview.com/static/images/illustrations/news-story.jpg",
-            "ok": true
-          },
-          {
-            "title": "Market Open: November 10, 2026",
-            "url": "https://www.cnbc.com/video/2026/11/10/market-open-november-10-2026.html",
-            "source": "CNBC",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSOovPl7UeNDrpNK24Ajr7XyV8g9niC4DmIlE2IBbIU9sMDJX7U4JGLKVOXL9k",
-            "og_title": "Market Open: November 10, 2026",
-            "og_desc": "CNBC brings you fast, accurate, and actionable business news and market updates.",
-            "og_image": "https://image.cnbcfm.com/api/v1/image/108547549-3ED1-REQ-111026-NewsOPEN.jpg?v=1794322356&w=1920&h=1080",
-            "ok": true
-          },
-          {
-            "title": "YieldMax® ETFs Announces Weekly Distributions for Group 1 ETFs",
-            "url": "https://www.globenewswire.com/news-release/2026/11/10/3399291/0/en/yieldmax-etfs-announces-weekly-distributions-for-group-1-etfs.html",
-            "source": "GlobeNewswire",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS92vbyr9wMmacPRw6DqLqM1kTn9bnAoy53GAnexxw8Heyoz0RU0ISUgbhHjVw",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "category": "اقتصاد",
-        "icon": "💰",
-        "color": "#f5c542",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/eg-2026-11-10-tradingview.png"
-      },
-      {
-        "title": "شهادات البنك الاهلى",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Tue, 10 Nov 2026 05:40:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRBwRbg3py71DqAehw5zSU2d2wkb3L5METYRqsPiBURlji8DJTe4XAsqihJgQ",
-        "image_source": "العربية",
-        "news": [
-          {
-            "title": "بعد قرار \"المركزي\".. بنوك مصرية ترفع عوائد شهادات الادخار إلى 20.5%",
-            "url": "https://www.alarabiya.net/aswaq/exclusive/2026/11/08/%D8%A8%D8%B9%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D8%A8%D9%86%D9%88%D9%83-%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D8%AA%D8%B1%D9%81%D8%B9-%D8%B9%D9%88%D8%A7%D8%A6%D8%AF-%D8%B4%D9%87%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%AF%D8%AE%D8%A7%D8%B1-%D8%A7%D9%84%D9%89-205",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRBwRbg3py71DqAehw5zSU2d2wkb3L5METYRqsPiBURlji8DJTe4XAsqihJgQ",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "بنك Saib يرفع العائد على شهادة «Prime» المتغيرة إلى 20.50% تصرف شهرياً | أموال الغد",
-            "url": "https://www.akhbarak.net/news/details/49538058/4/%D8%A8%D9%86%D9%83-saib-%D9%8A%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D8%B9%D8%A7%D8%A6%D8%AF-%D8%B9%D9%84%D9%89-%D8%B4%D9%87%D8%A7%D8%AF%D8%A9-prime-%D8%A7%D9%84%D9%85%D8%AA%D8%BA%D9%8A%D8%B1%D8%A9-%D8%A5%D9%84%D9%89-20-50-%D8%AA%D8%B5%D8%B1%D9%81-%D8%B4%D9%87%D8%B1%D9%8A%D8%A7-%D8%A3%D9%85%D9%88%D8%A7%D9%84-%D8%A7%D9%84%D8%BA%D8%AF",
-            "source": "اخبارك نت",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ7G17muIeucUdcISjE-Z4AZtL99xYAHhLQN4dxOuB7vyjYBFop9YQba3QmK8",
-            "og_title": "اخبارك نت | بنك Saib يرفع العائد على شهادة «Prime» المتغيرة إلى 20.50% تصرف شهرياً | أموال الغد",
-            "og_desc": "أموال الغد..مجلة إقتصادية شاملة تصدر عن شركة نايل للصحافة والنشر «ش.م.م»، وتعد الاصدار الاقتصادي الوحيد في مصر الذي يمتلك بوابتين إخبار...",
-            "og_image": "https://aws-web-images.akhbarak.net/2026/11/9/49538058/49538058-original.png",
-            "ok": true
-          },
-          {
-            "title": "كيف تشتري شهادات ادخار من البنك الأهلي ومصر بعائد يصل إلى 18.85%؟",
-            "url": "https://www.masrawy.com/news/news-banking/details/2026/11/9/3075942/%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%AA%D8%B1%D9%8A-%D8%B4%D9%87%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D8%AF%D8%AE%D8%A7%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D9%88%D9%85%D8%B5%D8%B1-%D8%A8%D8%B9%D8%A7%D8%A6%D8%AF-%D9%8A%D8%B5%D9%84-%D8%A5%D9%84%D9%89-18-85-",
-            "source": "Masrawy",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT1847rCLsB8WQK6k6UtR-qB8kwPpf1s1Gd-7WQnqF-SWogAu657yue-9Ypq4Y",
-            "og_title": "كيف تشتري شهادات ادخار من البنك الأهلي ومصر بعائد يصل إلى 18.85%؟ | مصراوي",
-            "og_desc": "عاد بنكا الأهلي المصري ومصر أكبر بنكين حكوميين في السوق المصرفية إلى رفع أسعار الفائدة على شهادات الادخار ذات العائد الثابت بزيادة قدرها 1 للمرة الثانية خلال 4 أشهر | مصراوي",
-            "og_image": "https://media.gemini.media/img/large/2026/11/9/2026_11_9_11_16_11_621.webp",
-            "ok": true
-          }
-        ],
-        "category": "اقتصاد",
-        "icon": "💰",
-        "color": "#f5c542",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/eg-2026-11-10-شهادات-البنك-الاهلى.png"
       }
     ]
   },
@@ -1447,7 +1312,7 @@
     "name_en": "Saudi Arabia",
     "lang": "ar",
     "flag": "🇸🇦",
-    "generated_at": "2026-11-10T16:01:40.021538+00:00",
+    "generated_at": "2026-11-10T16:31:27.626756+00:00",
     "day": "2026-11-10",
     "trends": [
       {
@@ -1498,8 +1363,8 @@
       },
       {
         "title": "العثيم",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "published": "Tue, 10 Nov 2026 06:00:00 -0800",
         "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbQaVBLN3P9rAj-jfI8sMHoAmql7DshyNJnfPCmNUNd10PJY_xsOHG8FLyvpk",
         "image_source": "العربية",
@@ -1588,13 +1453,13 @@
             "ok": true
           },
           {
-            "title": "Janakpur Bolts’ NPL playoff hopes suffer setback after defeat to Sudurpaschim Royals",
-            "url": "https://english.khabarhub.com/2026/10/575198/",
-            "source": "Khabarhub",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcREyAgJpS9T1PB0DxHn731dSzLZw1aNfkRx6WRrAOdIvtQ3rUskrGtoStBFo68",
-            "og_title": "Janakpur Bolts’ NPL playoff hopes suffer setback after defeat to Sudurpaschim Royals",
-            "og_desc": "KATHMANDU: Janakpur Bolts’ hopes of reaching the playoffs in the Nepal Premier League (NPL) have suffered a setback following a 27-run defeat to Sudurpaschim Royals on Tuesday. With the loss, the first-edition champions have slipped to fifth place in the league standings with four points from six matches, having won two and lost four. In […]",
-            "og_image": "https://english.khabarhub.com/wp-content/uploads/2026/11/NPL-Janakpur.jpg",
+            "title": "Sudurpaschim Royals Defeat Janakpur Bolts by 27 Runs in Nepal Premier League",
+            "url": "https://english.ratopati.com/story/86238/janakpurs-shameful-defeat-to-sudur",
+            "source": "Ratopati",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRjdSy2A85vg-9S0go-DncrQFfgci6Ng3o2ilh53SMyLffrgImqAay8fVFAmBY",
+            "og_title": "Sudurpaschim Royals Defeat Janakpur Bolts by 27 Runs in Nepal Premier League",
+            "og_desc": "Kathmandu. Sudurpaschim Royals have defeated Janakpur Bolts by 27 runs in the third edition of the Nepal Premier League (NPL) cricket. Tuesday Tuesday Chasing the target of 121 runs set by Sudurpaschim, Janakpur was all out for 93 runs off the fourth ball of the last over at the TU International Cricket Ground in Kirtipur. Among Janakpur, Jimmy Nisham scored 20 runs off 25 balls with 1 six and 1 four, Tritaraj Das scored 21 runs off 29 balls with 1 six, and Aditya Mahata scored 10 runs off 11 balls with 1 six, while other batsmen could not score...",
+            "og_image": "https://npcdn.ratopati.com/media/news/janakpur-sudur-19_PcQ9s6n6fn.webp",
             "ok": true
           }
         ],
@@ -1604,6 +1469,98 @@
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
         "card": "cards/sa-2026-11-10-sudurpaschim-royals-vs-janakpur-bolts-standings.png"
+      },
+      {
+        "title": "சவூதி அரேபியா",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Tue, 10 Nov 2026 07:10:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSraWMssPiTxBOSHv6zlGPNfxvgqc-BxLFu3_PIWgiVuq9kqtOV5XW2U2GMFaw",
+        "image_source": "Hiru News",
+        "news": [
+          {
+            "title": "சவூதி அரேபியாவில் இருந்து தாயகம் திரும்பிய பெண்ணுக்கு நேர்ந்த கதி!",
+            "url": "https://hirunews.lk/tamil/499311/the-fate-of-a-woman-who-returned-home-from-saudi-arabia",
+            "source": "Hiru News",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSraWMssPiTxBOSHv6zlGPNfxvgqc-BxLFu3_PIWgiVuq9kqtOV5XW2U2GMFaw",
+            "og_title": "சவூதி அரேபியாவில் இருந்து தாயகம் திரும்பிய பெண்ணுக்கு நேர்ந்த கதி!",
+            "og_desc": "சவூதி அரேபியாவில் இருந்து தாயகம் திரும்பிய பெண்ணுக்கு நேர்ந்த கதி!. Most visited website in Sri Lanka.",
+            "og_image": "https://cdn.hirunews.lk/Data/News_Images/202611/1794201127_2634953_hirunews.jpg",
+            "ok": true
+          },
+          {
+            "title": "சவுதியை குறிவைத்த ஹவுதிகளின் ஏவுகணை மழை... வானிலேயே சுக்குநூறாக்கி சவுதி கூட்டுப்படை மாஸ் பதிலடி! Sa",
+            "url": "https://www.dinamalar.com/dinamalartv/31/350221",
+            "source": "Dinamalar",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQmxhYn0ddlr3YVY-cakwceQhlxSPWta9FfesyDQaJoxxlRr2dlS_qOi6o3gLU",
+            "og_title": "சவுதியை குறிவைத்த ஹவுதிகளின் ஏவுகணை மழை... வானிலேயே சுக்குநூறாக்கி சவுதி கூட்டுப்படை மாஸ் பதிலடி! Sa",
+            "og_desc": "மத்திய கிழக்கு நாடுகளான சவுதி அரேபியா மற்றும் ஏமன் இடையே ராணுவ மோதல் தீவிரமடைந்துள்ளது. ஏமனில் சவுதி அரேபியா",
+            "og_image": "https://images.dinamalar.com/data/video_2024/V1_350221_L.jpg?im=Resize,width=1200",
+            "ok": true
+          },
+          {
+            "title": "யேமனில் சௌதி படைகள் தாக்குதல்! பெண்கள், குழந்தைகள் உள்பட 22 பேர் பலி!",
+            "url": "https://www.dinamani.com/world/2026/Nov/07/saudi-attack-in-yemen-22-people-including-women-and-children-killed",
+            "source": "DinaMani",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFnimN6S5tpHwz3OeuLBDlLzWvtJs05_g-3bVd5LM_d9sfuDbW1jRa7_OVfHU",
+            "og_title": "யேமனில் சௌதி படைகள் தாக்குதல்! பெண்கள், குழந்தைகள் உள்பட 22 பேர் பலி!",
+            "og_desc": "யேமன் தலைநகர் மீதான சௌதி படைகள் நடத்திய தாக்குதலில் 22 பேர் கொல்லப்பட்டதாக ஹௌதிகள் அறிவிப்பு...",
+            "og_image": "https://media.dinamani.com/dinamani/2026-11-07/46ru0kjz/newindianexpress2026-11-0798ehx6vjAFP20261107D6QH963v1HighResYemenSaudiIranUsIsraelWar.avif",
+            "ok": true
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "شخصية لا يرد اسمها في مصدرين",
+        "publishable": false,
+        "card": "cards/sa-2026-11-10-சவத-அரபய.png"
+      },
+      {
+        "title": "وزارة",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Tue, 10 Nov 2026 07:10:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnTPvsT-XWqSy2UHZmQsR5cnR6Dw6jBeRr13cCGiiLYjbltjCNuuZEgOIrwVY",
+        "image_source": "Vietnam.vn",
+        "news": [
+          {
+            "title": "توضح وزارة التربية والتعليم اقتراحها بقبول الطلاب في المدارس المتخصصة بناءً على ثلاث مجموعات من المواد الدراسية بدلاً من المواد الفردية.",
+            "url": "https://www.vietnam.vn/ar/bo-giao-duc-ly-giai-de-xuat-tuyen-sinh-truong-chuyen-theo-3-khoi-thay-vi-tung-mon",
+            "source": "Vietnam.vn",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnTPvsT-XWqSy2UHZmQsR5cnR6Dw6jBeRr13cCGiiLYjbltjCNuuZEgOIrwVY",
+            "og_title": "توضح وزارة التربية والتعليم اقتراحها بقبول الطلاب في المدارس المتخصصة بناءً على ثلاث مجموعات من المواد الدراسية بدلاً من المواد الفردية.",
+            "og_desc": "يحظى اقتراح تغيير عملية القبول في المدارس المتخصصة باهتمام كبير، وخاصة بالنسبة لطلاب الصف التاسع، حيث من المتوقع تنفيذه ابتداءً من العام الدراسي 2027-2028.",
+            "og_image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/11/10/1794322925189_179317574730486391799750953254248639179975095325424164393f152e957a62ea2e5539b95ad08-17943205976621974804199-67-490-1010-2291-crop-17943208480682066813.jpeg",
+            "ok": true
+          },
+          {
+            "title": "يوضح مدير إدارة التعليم العام النقاط الجديدة في مسودة اللوائح الخاصة بالمدارس الثانوية المتخصصة.",
+            "url": "https://www.vietnam.vn/ar/vu-truong-vu-giao-duc-pho-thong-lam-ro-diem-moi-du-thao-quy-che-truong-thpt-chuyen",
+            "source": "Vietnam.vn",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQouAGI_GBAuU5zRx5IEMfDKpJ8SDJqJ3stjW3XhYz7TsOPn2XRgSeQnuinaMM",
+            "og_title": "يوضح مدير إدارة التعليم العام النقاط الجديدة في مسودة اللوائح الخاصة بالمدارس الثانوية المتخصصة.",
+            "og_desc": "GD&TĐ - أوضح السيد تاي فان تاي، مدير إدارة التعليم العام (وزارة التعليم والتدريب)، القضايا التي تثير قلق الجمهور بشأن مسودة التعميم الذي يصدر اللوائح المتعلقة بتنظيم وتشغيل المدارس الثانوية المتخصصة.",
+            "og_image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/11/10/1794312852041_3-jpg.webp",
+            "ok": true
+          },
+          {
+            "title": "تعتزم وزارة التربية والتعليم تغيير عملية القبول وتنظيم الفصول الدراسية في المدارس المتخصصة.",
+            "url": "https://www.vietnam.vn/ar/bo-gd-dt-du-kien-thay-doi-cach-tuyen-sinh-to-chuc-lop-hoc-tai-truong-chuyen",
+            "source": "Vietnam.vn",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT5UmYAufsUnavdxCG_i174c1ojD0S5bHzOraoltB-gPlXnzVbWUpA91d3gi-o",
+            "og_title": "تعتزم وزارة التربية والتعليم تغيير عملية القبول وتنظيم الفصول الدراسية في المدارس المتخصصة.",
+            "og_desc": "يتمثل أحد الجوانب الجديدة في مقترح وزارة التربية والتعليم في تنظيم الفصول الدراسية في ثلاث مجموعات متخصصة بدلاً من قبول الطلاب وتوزيعهم على الفصول الدراسية بناءً على المواد الدراسية الفردية كما كان سابقاً. سيتاح للطلاب فرصة اكتساب الخبرة وتلقي التوجيه خلال الفصل الدراسي الأول من الصف العاشر قبل اختيار المواد الدراسية المتخصصة.",
+            "og_image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/11/10/1794300982969_bo-gd-dt-de-xuat-bo-thi-lop-10-chuyen-theo-tung-mon-17942946478431948664283-39-0-667-1200-crop-1794294785898918478720.png",
+            "ok": true
+          }
+        ],
+        "category": "سياسة",
+        "icon": "🏛️",
+        "color": "#ff5c7c",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/sa-2026-11-10-وزارة.png"
       },
       {
         "title": "إيران",
@@ -1624,13 +1581,13 @@
             "ok": true
           },
           {
-            "title": "روبيو: حصار إيران ناجح ولا حاجة لعمل عسكري حاليا",
-            "url": "https://www.skynewsarabia.com/world/1903907-%D8%B1%D9%88%D8%A8%D9%8A%D9%88-%D8%AD%D8%B5%D8%A7%D8%B1-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%86%D8%A7%D8%AC%D8%AD-%D9%88%D9%84%D8%A7-%D8%AD%D8%A7%D8%AC%D8%A9-%D9%84%D8%B9%D9%85%D9%84-%D8%B9%D8%B3%D9%83%D8%B1%D9%8A-%D8%AD%D8%A7%D9%84%D9%8A%D8%A7",
-            "source": "سكاي نيوز عربية",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGW5P8s0AZxMDTTnjsjbAd_JWCqAZ7PlEYYBk4xfjJMh-jvNKLpWqEQRzjNQM",
-            "og_title": "روبيو: الحصار الاقتصادي على إيران ناجح ولا حاجة لعمليات عسكرية حاليا",
-            "og_desc": "قال وزير الخارجية الأميركي ماركو روبيو، الثلاثاء، إن الحصار الاقتصادي المفروض على إيران يحقق أهدافه، وإن الضغوط الاقتصادية المتزايدة ألحقت أضرارا كبيرة بالاقتصاد الإيراني، مؤكدا أن الولايات المتحدة لا ترى في الوقت الحالي حاجة إلى تنفيذ عمليات عسكرية.",
-            "og_image": "https://www.skynewsarabia.com/images/v1/2026/11/10/1903905/1200/630/1-1903905.jpg",
+            "title": "هل يحسم ترمب حرب إيران على طاولة المفاوضات؟",
+            "url": "https://aawsat.com/%D8%B4%D8%A4%D9%88%D9%86-%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A%D8%A9/5339779-%D9%87%D9%84-%D9%8A%D8%AD%D8%B3%D9%85-%D8%AA%D8%B1%D9%85%D8%A8-%D8%AD%D8%B1%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%B9%D9%84%D9%89-%D8%B7%D8%A7%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA%D8%9F",
+            "source": "الشرق الأوسط",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRvvNVaZIb_aXKDGnfvOwYifF5MFs1g0ZBpHumSKd_BhrrPQ09EVsMRA9qzivk",
+            "og_title": "هل يحسم ترمب حرب إيران على طاولة المفاوضات؟",
+            "og_desc": "فتح الرئيس الأميركي دونالد ترمب الباب أمام مرحلة جديدة من المفاوضات والمساومات لإنهاء الحرب مع إيران، بعدما تحدث عن «زخم إيجابي».",
+            "og_image": "https://static.srpcdigital.com/styles/1200x600/public/2026-11/1873873.jpeg.webp?VersionId=qFutVYF5bwpJLx8W0K926p1yTgo4xLSp",
             "ok": true
           },
           {
@@ -1652,41 +1609,89 @@
         "card": "cards/sa-2026-11-10-إيران.png"
       },
       {
+        "title": "t10 league",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Tue, 10 Nov 2026 07:00:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTC2rZtChwnz42dHi-WvkjF1vHbx_OXX4-Wby69Pb3XxZejpz4a2W2BOzExLDg",
+        "image_source": "Cricinfo",
+        "news": [
+          {
+            "title": "Abu Dhabi T10 2026 Fixtures, Live Score, Schedule, Points Table & News",
+            "url": "https://www.cricinfo.com/series/abu-dhabi-t10-2026-27-1561244",
+            "source": "Cricinfo",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTC2rZtChwnz42dHi-WvkjF1vHbx_OXX4-Wby69Pb3XxZejpz4a2W2BOzExLDg",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Pakistan beat Sri Lanka, Pakistan won by 3 wickets (with 9 balls remaining)",
+            "url": "https://www.cricinfo.com/series/pakistan-odi-tri-series-2026-27-1550706/pakistan-vs-sri-lanka-final-1550719/live-cricket-score",
+            "source": "Cricinfo",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlL5RIbwZB7JKvWoWy8FlAsfqdn5PFZ18Tf-4djsDUOgTvkDl2wc-5Gi2aj84",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Yas Lions set the pace with the Abu Dhabi T10 League's strongest sponsorship portfolio among debut teams",
+            "url": "https://gulfnews.com/gn-focus/company-news/yas-lions-set-the-pace-with-the-abu-dhabi-t10-leagues-strongest-sponsorship-portfolio-among-debut-teams-1.500742045",
+            "source": "Gulf News",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRfhnKM--qb1YCo6x33swOd-cRHwdUZWx7nsnxzlJdZN_8sCz_UnMUjwTsSXo0",
+            "og_title": "Yas Lions set the pace with the Abu Dhabi T10 League's strongest sponsorship portfolio among debut teams",
+            "og_desc": "Yas Lions offers brands platform to leverage close to 180 million in TV and OTT reach",
+            "og_image": "https://media.assettype.com/gulfnews%2F2026-11-10%2Fw0wevcza%2FDSC08806.jpg?rect=0%2C109%2C7008%2C3679&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+            "ok": true
+          }
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/sa-2026-11-10-t10-league.png"
+      },
+      {
         "title": "المغرب",
         "traffic": "200+",
         "traffic_num": 200,
         "published": "Tue, 10 Nov 2026 06:10:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFTdmsb8KWx924Y5NAh_9ZW8rTIDgpNEgzWG_p6q3I8ZbVHVP-SisQSAWLVQA",
-        "image_source": "اقتصادكم",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbaxJQOZDvYSXNT828mQjlhVe5TlO51zJsft0iRX0JOBNswPMF5tvjxn7amLE",
+        "image_source": "الشرق الأوسط",
         "news": [
           {
-            "title": "مالية 2027.. الأغلبية تقترح رفع ضرائب الشركات الكبرى وتخفيفها عن المهنيين الصغار",
-            "url": "https://iktissadkom.ma/last-news-maroc/%D9%85%D8%A7%D9%84%D9%8A%D8%A9-2027-%D8%A7%D9%84%D8%A3%D8%BA%D9%84%D8%A8%D9%8A%D8%A9-%D8%AA%D9%82%D8%AA%D8%B1%D8%AD-%D8%B1%D9%81%D8%B9-%D8%B6%D8%B1%D8%A7%D8%A6%D8%A8-%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89-%D9%88%D8%AA%D8%AE%D9%81%D9%8A%D9%81%D9%87%D8%A7-%D8%B9%D9%86-%D8%A7%D9%84%D9%85%D9%87%D9%86%D9%8A%D9%8A%D9%86-%D8%A7%D9%84%D8%B5%D8%BA%D8%A7%D8%B1",
-            "source": "اقتصادكم",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFTdmsb8KWx924Y5NAh_9ZW8rTIDgpNEgzWG_p6q3I8ZbVHVP-SisQSAWLVQA",
-            "og_title": "مالية 2027.. الأغلبية تقترح رفع ضرائب الشركات الكبرى وتخفيفها عن المهنيين الصغار",
-            "og_desc": "تتجه مكونات الأغلبية بمجلس النواب إلى إعادة ترتيب عدد من المقتضيات الجبائية والضريبية ضمن مشروع قانون المالية لسنة 2027، من خلال مقترحات تستهدف توسيع الوعاء الضريبي، وتشديد المساهمة على الشركات الكبرى، مقابل تخفيف الأعباء عن المقاولين الذاتيين والمهنيين الصغار.",
-            "og_image": "https://iktissadkom.ma/uploads/actualite/78bdd7341850fbcc417ebb35c4ccb69acd68d7e6.jpg",
+            "title": "رئيس وزراء إسبانيا يشعل فتيل صراع جديد مع المغرب",
+            "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A/%D8%B4%D9%85%D8%A7%D9%84-%D8%A7%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5339750-%D8%B1%D8%A6%D9%8A%D8%B3-%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-%D9%8A%D8%B4%D8%B9%D9%84-%D9%81%D8%AA%D9%8A%D9%84-%D8%B5%D8%B1%D8%A7%D8%B9-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%85%D8%B9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+            "source": "الشرق الأوسط",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbaxJQOZDvYSXNT828mQjlhVe5TlO51zJsft0iRX0JOBNswPMF5tvjxn7amLE",
+            "og_title": "رئيس وزراء إسبانيا يشعل فتيل صراع جديد مع المغرب",
+            "og_desc": "أثارت تصريحات نارية لرئيس الوزراء الإسباني، بيدرو سانشيز، جدلاً متجدداً حول بطولة كأس العالم لكرة القدم عام 2030، انتقل من عالم الرياضة إلى عالم السياسة.",
+            "og_image": "https://static.srpcdigital.com/styles/1200x600/public/2026-11/1874535.jpeg.webp?VersionId=6P0gPkWKd8KI.2g45k1XIJaz_iBHl6K4",
             "ok": true
           },
           {
-            "title": "الأغلبية تقترح توسيع نطاق ضريبة 40% لتشمل شركات المحروقات والاتصالات والإسمنت",
-            "url": "https://madar21.com/465022.html",
-            "source": "مدار21",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQG54B3Iw0hN0M6NcRQFx8YzgGxulLQzUeTZqMednMkpyVyc3zAw00i2JoH1c8",
-            "og_title": "الأغلبية تقترح توسيع نطاق ضريبة 40% لتشمل شركات المحروقات والاتصالات والإسمنت",
-            "og_desc": "اقترحت فرق الأغلبية البرلمانية بمجلس النواب إلى توسيع دائرة الشركات التي تطبق عليها ضريبة بنسبة 40 في المئة لتشمل مصانع الإسمنت التي يساوي أو يفوق...",
-            "og_image": "https://madar21.com/wp-content/uploads/2026/11/6af330fe4b4d4.webp",
+            "title": "\"فيفا\" يحسم ملعب نهائي مونديال 2030 في مايو",
+            "url": "https://www.aleqt.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D9%81%D9%8A%D9%81%D8%A7-%D9%8A%D8%AD%D8%B3%D9%85-%D9%85%D9%84%D8%B9%D8%A8-%D9%86%D9%87%D8%A7%D8%A6%D9%8A-%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-2030-%D9%81%D9%8A-%D9%85%D8%A7%D9%8A%D9%88-16279",
+            "source": "الاقتصادية",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHXkSBqWVH8j79fBoLLtsZg2d_Vrmh6uyOUaf2jkULhb7xjXBjEFkWz5Kjrko",
+            "og_title": "\"فيفا\" يحسم ملعب نهائي مونديال 2030 في مايو | صحيفة الاقتصادية",
+            "og_desc": "<p style=\"direction: rtl;\">يسدل الاتحاد الدولي لكرة القدم &quot;فيفا&quot; في مايو المقبل رسمياً الستار عن هوية الاستاد الذي سيحتضن المباراة النهائية لكأس العالم 2030، وفقاً لصحيفة &quot; موندو ديبورتيفو&quot; الإسبانية إلى جانب تحديد عدد المباريات التي ستقام على ملعب &quot;كامب نو&quot;، التي تشير التقديرات إلى أنها ستراوح بين 5 إلى 7 مباريات، حيث يُعد الملعب الكتالوني الخيار الأقوى والأفضل على الورق لاستضافة المشهد الختامي.</p>",
+            "og_image": "https://static.aleqt.com/aleqt/uploads/images/2026/11/10/2262488.webp?w=800&q=75",
             "ok": true
           },
           {
-            "title": "تخفيض الضريبة على الدخل .. المكاسب تصطدم بإعادة هيكلة التعويضات",
-            "url": "https://www.hespress.com/%D8%AA%D8%AE%D9%81%D9%8A%D8%B6-%D8%A7%D9%84%D8%B6%D8%B1%D9%8A%D8%A8%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AF%D8%AE%D9%84-%D8%A7%D9%84%D9%85%D9%83%D8%A7%D8%B3%D8%A8-%D8%AA%D8%B5%D8%B7%D8%AF%D9%85-1837101.html",
-            "source": "Hespress",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSeSdGvNi5z69GCnXgGRcvpo0aAAnKErMhwvMliFnUpZSv89Z60d1rw05rsWtI",
-            "og_title": "تخفيض الضريبة على الدخل .. المكاسب تصطدم بإعادة هيكلة التعويضات",
-            "og_desc": "وضعت المقتضيات الضريبية الجديدة الواردة في مشروع قانون المالية لسنة 2027 أجور آلاف المستخدمين بالمغرب أمام تحولات مرتقبة من شأنها إعادة رسم العلاقة بين",
-            "og_image": "https://i1.hespress.com/wp-content/overlay/2026/10/Allegements-fiscaux.jpeg",
+            "title": "برنابيو أم الحسن الثاني؟ نهائي 2030 يدخل المعركة الانتخابية في إسبانيا",
+            "url": "https://www.dw.com/ar/%D8%A8%D8%B1%D9%86%D8%A7%D8%A8%D9%8A%D9%88-%D8%A3%D9%85-%D8%A7%D9%84%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-%D9%86%D9%87%D8%A7%D8%A6%D9%8A-%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-2030-%D9%8A%D8%AF%D8%AE%D9%84-%D8%A7%D9%84%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7/video-79893064",
+            "source": "DW.com",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7TsWVjcwtx3AkGOWTDAFiGaMCdT0_-Ni9G481TgI5D9Ug6gIwbBJDd1hTLSo",
+            "og_title": "برنابيو أم الحسن الثاني؟ نهائي 2030 يدخل المعركة الانتخابية في إسبانيا",
+            "og_desc": "ماذا لو أُقيم نهائي مونديال 2030 في المغرب؟ في إسبانيا، وصل الجدل إلى حدّ التلويح بالانسحاب. وبين سانتياغو برنابيو وملعب الحسن الثاني، انتقل السباق على استضافة النهائي إلى قلب المعركة الانتخابية.",
+            "og_image": "https://static.dw.com/image/79893217_6.jpg",
             "ok": true
           }
         ],
@@ -1743,146 +1748,6 @@
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
         "card": "cards/sa-2026-11-10-bigg-boss.png"
-      },
-      {
-        "title": "وزارة",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Tue, 10 Nov 2026 07:10:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTN3HpzcQFidQa-hOnaSIZHeXfZQJyxNHCLP_9QRuwK9a7xqWLBY4owz3XemyI",
-        "image_source": "https://www.sabanew.net/",
-        "news": [
-          {
-            "title": "وزارة التربية والتعليم تعلن عن ترتيبات لتوفير بديل مؤقت للتعليم بالمناطق المتضررة",
-            "url": "https://www.sabanew.net/story/ar/155550",
-            "source": "https://www.sabanew.net/",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTN3HpzcQFidQa-hOnaSIZHeXfZQJyxNHCLP_9QRuwK9a7xqWLBY4owz3XemyI",
-            "og_title": "وزارة التربية والتعليم تعلن عن ترتيبات لتوفير بديل مؤقت للتعليم بالمناطق المتضررة",
-            "og_desc": "عدن - سبأنت:\r\nأكدت وزارة التربية والتعليم، دعمها لمبادرة السلطة المحلية بمحافظة تعز لتوفير التعليم عن بُعد للطلاب الذين تعذر انتظامهم في الدراسة بسبب الأوضاع الأمنية، باعتباره بديلاً استثنائياً ومؤقتاً يحمي حقهم في استمرار التعليم، ويحد من التسرب والانقطاع، ويحفظ مستقبلهم الدراسي.\r\n\r\nوشددت الوزارة في بيان صادر عنها تلقت وكالة الأنباء اليمنية (سبأ) نسخة منه، على أن سلامة الطلاب والمعلمين تأتي في مقدمة أولوياتها، وأن انتظام الدراسة حضورياً يرتبط بتوافر ظروف آمنة في المدارس وطرق الوصول إليها .. موضحة أن مكاتب التربية والتعليم، بالتنسيق مع السلطات المحلية، ستتولى إبلاغ الأسر بالترتيبات الخاصة بكل منطقة وفق تقييم ظروفها، بما يراعي سلامة أبنائها واستمرار تعلمهم.\r\n\r\nكما أكدت الوزارة، مسؤوليتها في إتاحة تعليم يستند إلى المناهج الوطنية المعتمدة، ويحفظ للمدرسة مكانتها كبيئة آمنة للتعلم وبناء المعرفة وحماية قيم المواطنة والتعايش، والسلم الاجتماعي.\r\n\r\nوأشارت إلى أن الوزارة، بالتنسيق مع السلطات المحلية ومكاتب التربية والتعليم والجهات ذات العلاقة، ستعمل على إعداد الضوابط التربوية والفنية والإدارية لهذا البديل، تمهيداً لاعتماد نطاقه ومراحله والفئات المستفيدة منه، مع إعطاء الأولوية للمناطق التي يتعذر فيها الوصول الآمن إلى التعليم بمحافظة تعز، والمناطق المتضررة من التصعيد الحوثي في محافظة لحج، وفق تقييم الاحتياج والإمكانات المتاحة.\r\n\r\nوأكدت الوزارة، حرصها على مراعاة تفاوت قدرة الأسر على الوصول إلى الإنترنت والكهرباء والأجهزة التقنية، ودراسة وسائل تعليمية متعددة، بما فيها البدائل التي لا تتطلب حضورا مدرسيا، او اتصالاً دائماً بالإنترنت، لضمان ألا يصبح ضعف الإمكانات سبباً إضافياً لحرمان الطلاب من التعلم.\r\n\r\nوأشارت إلى أن الترتيبات الجاري إعدادها تشمل آليات التسجيل والمتابعة والتقييم، وحفظ السجلات والحقوق التعليمية وحماية بيانات الطلاب والمعلمين، تحت إشراف الوزارة وبالتنسيق مع مكاتب التربية والتعليم.\r\n\r\nوقالت الوزارة ان الضوابط المعتمدة ستحدد إجراءات توثيق النتائج والانتقال بين الصفوف، بما يدعم استمرارية المسار الدراسي للطلاب وفق المتطلبات المنظمة لذلك\\\" .. موضحة أن تفاصيل التسجيل والمتابعة ومواعيد انطلاق الدراسة عن بعد، سيتم إعلانها فور اعتمادها وقبل التنفيذ بوقت كافٍ، عبر القنوات الرسمية للوزارة ومكاتبها في المحافظات والمديريات المعنية.\r\n\r\nودعت الوزارة، الشركاء والجهات المانحة إلى مساندة جهود إعداد هذا المشروع وتنفيذه، باعتباره استثماراً في سلامة الطلاب وحقهم في التعليم وحماية مستقبلهم، وفرص استكمال دراستهم داخل اليمن وخارجه، وفق متطلبات القبول والاعتراف الأكاديمي الدولي.",
-            "og_image": "https://sabanew.net/image-resizer/w850/upload/thumbs/179432461776659388.jpeg",
-            "ok": true
-          },
-          {
-            "title": "مدارس في تعز تعرضت للقصف والدمار",
-            "url": "https://almushahid.net/146057/",
-            "source": "المشاهد نت",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT001ktlPsMvn_secT8DVNLK6o2ehcPQCBOXQnlMvDN0agDNQqY1_XTwPUPwZM",
-            "og_title": "مدارس في تعز تعرضت للقصف والدمار - المشاهد نت",
-            "og_desc": "22 مدرسةً تعرضت للقصف والدمار الجزئي أو الكلي، في مديريات غرب تعز، جبل حبشي، المعافر، سامع، الوازعية، موزع، والشمايتين",
-            "og_image": "https://almushahid.net/wp-content/uploads/2026/11/مدارس-في-تعز.webp",
-            "ok": true
-          },
-          {
-            "title": "قراءة نقدية في قرار السلطة المحلية بتعز بشأن تعليق التعليم النظامي وإقرار التعليم عن بُعد",
-            "url": "https://cratar.net/archives/440741",
-            "source": "كريتر نت",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQUQ1Wskt3bhpZkzcO-vibOOpZRVkXoKJRyNL8zb8-_vgMCeKSyI4HxW7fWm3Y",
-            "og_title": "قراءة نقدية في قرار السلطة المحلية بتعز بشأن تعليق التعليم النظامي وإقرار التعليم عن بُعد - CRATAR NET | كريتر نت",
-            "og_desc": "أحمد طه المعبقي يفترض أن تكون القرارات المتعلقة بتعليق العملية التعليمية مرتبطة بتقدير المخاطر الأمنية في المناطق المتضررة، لا أن تتحول المخاوف الأمنية في بعض الجبهات المشتعلة والمناطق غير الآمنة إلى مبرر لتعطيل التعليم في عموم مديريات محافظة تعز، المدينة والريف. فإذا كانت هناك ضرورة أمنية تستدعي تعليق الدراسة في مناطق المواجهات المشتعلة، مثل المطار",
-            "og_image": "https://cratar.net/home/wp-content/uploads/2026/11/images-7-1.jpeg",
-            "ok": true
-          }
-        ],
-        "category": "سياسة",
-        "icon": "🏛️",
-        "color": "#ff5c7c",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/sa-2026-11-10-وزارة.png"
-      },
-      {
-        "title": "t10 league",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Tue, 10 Nov 2026 07:00:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTC2rZtChwnz42dHi-WvkjF1vHbx_OXX4-Wby69Pb3XxZejpz4a2W2BOzExLDg",
-        "image_source": "Cricinfo",
-        "news": [
-          {
-            "title": "Abu Dhabi T10 2026 Fixtures, Live Score, Schedule, Points Table & News",
-            "url": "https://www.cricinfo.com/series/abu-dhabi-t10-2026-27-1561244",
-            "source": "Cricinfo",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTC2rZtChwnz42dHi-WvkjF1vHbx_OXX4-Wby69Pb3XxZejpz4a2W2BOzExLDg",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Pakistan beat Sri Lanka, Pakistan won by 3 wickets (with 9 balls remaining)",
-            "url": "https://www.cricinfo.com/series/pakistan-odi-tri-series-2026-27-1550706/pakistan-vs-sri-lanka-final-1550719/live-cricket-score",
-            "source": "Cricinfo",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlL5RIbwZB7JKvWoWy8FlAsfqdn5PFZ18Tf-4djsDUOgTvkDl2wc-5Gi2aj84",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Yas Lions set the pace with the Abu Dhabi T10 League's strongest sponsorship portfolio among debut teams",
-            "url": "https://gulfnews.com/gn-focus/company-news/yas-lions-set-the-pace-with-the-abu-dhabi-t10-leagues-strongest-sponsorship-portfolio-among-debut-teams-1.500742045",
-            "source": "Gulf News",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRfhnKM--qb1YCo6x33swOd-cRHwdUZWx7nsnxzlJdZN_8sCz_UnMUjwTsSXo0",
-            "og_title": "Yas Lions set the pace with the Abu Dhabi T10 League's strongest sponsorship portfolio among debut teams",
-            "og_desc": "Yas Lions offers brands platform to leverage close to 180 million in TV and OTT reach",
-            "og_image": "https://media.assettype.com/gulfnews%2F2026-11-10%2Fw0wevcza%2FDSC08806.jpg?rect=0%2C109%2C7008%2C3679&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-            "ok": true
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/sa-2026-11-10-t10-league.png"
-      },
-      {
-        "title": "الرادار",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Tue, 10 Nov 2026 06:00:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRL6wmnMt1ZhMGH18uQHE3sj99AH4vTACwYvB8nlMEVfC0_EcJAAGAkGJsix8w",
-        "image_source": "وكالة يونهاب للأنباء",
-        "news": [
-          {
-            "title": "التنقيب عن رفات قتلى الحرب الكورية",
-            "url": "https://ar.yna.co.kr/view/PYH20261110138100885",
-            "source": "وكالة يونهاب للأنباء",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRL6wmnMt1ZhMGH18uQHE3sj99AH4vTACwYvB8nlMEVfC0_EcJAAGAkGJsix8w",
-            "og_title": "التنقيب عن رفات قتلى الحرب الكورية | وكالة يونهاب للانباء",
-            "og_desc": "سونتشانغ، كوريا الجنوبية، 10 نوفمبر (يونهاب) -- جنود من وكالة البحث عن رفات قتلى الحرب وتح...",
-            "og_image": "https://img7.yna.co.kr/photo/yna/YH/2026/11/10/PYH2026111013810088500_P4.jpg",
-            "ok": true
-          },
-          {
-            "title": "حصلت قاعدة كوانغ تري على 4 أنظمة رادار تخترق الأرض، مما يزيد من كفاءة البحث عن رفات الجنود القتلى.",
-            "url": "https://www.vietnam.vn/ar/quang-tri-tiep-nhan-4-may-radar-xuyen-dat-tang-hieu-qua-tim-kiem-hai-cot-liet-si",
-            "source": "Vietnam.vn",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK475pAJG0z8qasVzh_dWAPzrauAYYro4WHQYeV5sHAy2s8xS7LP5Z0ZdXTzA",
-            "og_title": "حصلت قاعدة كوانغ تري على 4 أنظمة رادار تخترق الأرض، مما يزيد من كفاءة البحث عن رفات الجنود القتلى.",
-            "og_desc": "استجابةً للحاجة إلى تحديد موقع أكثر من 26800 من رفات الجنود القتلى الذين ما زالوا موجودين في المنطقة، من المتوقع أن تساهم أنظمة الرادار الأربعة المخترقة للأرض التي قدمتها مؤسسة ثين تام - مجموعة فينغروب في تحسين كفاءة المسح وتحديد المواقع والبحث عن المواقع التي تحتوي على رفات الجنود القتلى.",
-            "og_image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/11/10/1794320350655_1794297722815_390965613772620623_g3358357167428739000_1f6b85fb2a3b68696f702704311485ab-183419.webp",
-            "ok": true
-          },
-          {
-            "title": "جمعت السلطات رفات جندي سقط في المعركة إلى جانب العديد من القطع الأثرية في كوانغ تري.",
-            "url": "https://www.vietnam.vn/ar/quy-tap-1-hai-cot-liet-si-cung-nhieu-di-vat-o-quang-tri",
-            "source": "Vietnam.vn",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_cetbWS05aTZ87FjTt6O4ryg7buEh6irU3qLV1kax8S0kbwhlHyKa42KIZLg",
-            "og_title": "جمعت السلطات رفات جندي سقط في المعركة إلى جانب العديد من القطع الأثرية في كوانغ تري.",
-            "og_desc": "عثر فريق البحث والجمع لرفات الجنود القتلى (الفرقة 968) على مجموعة أخرى من رفات جندي سقط، إلى جانب العديد من القطع الأثرية، في قرية بان تشوا، كومونة هيو جيانغ، مقاطعة كوانغ تري.",
-            "og_image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/11/09/1794211942879_890644325-885810854554098-1971649198796807123-n-jpg.webp",
-            "ok": true
-          }
-        ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: قتل",
-        "publishable": false,
-        "card": "cards/sa-2026-11-10-الرادار.png"
       }
     ]
   }

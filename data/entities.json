@@ -167928,8 +167928,8 @@
         "date": "2026-11-10",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -444986,10 +444986,10 @@
         "date": "2026-11-10",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "اقتصاد",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "البنك المركزي يُلغي ترخيص مؤسسة \"أحمد براهيم سليمان البطي للصرافة\"",
           "«ساما»: إلغاء ترخيص مؤسسة صرافة في المملكة",
@@ -445003,7 +445003,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "اقتصاد"
   },
   "مارتينيلي": {
@@ -583528,14 +583528,29 @@
           "SSPC RECONOCE EL COMPROMISO Y LA VOCACIÓN DE SERVICIO DE AGENTES DE INVESTIGACIÓN E INTELIGENCIA Y PERSONAL DE PROTECCIÓN CIVIL",
           "“Hoy, gracias al liderazgo de la presidenta Claudia Sheinbaum la Seguridad del país está cambiando”: Omar García Harfuch"
         ]
+      },
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "México alcanza récord de empleo formal con 23.8 millones de puestos: Sheinbaum",
+          "Se registran 161,077 nuevos empleos; mayor cifra en 8 meses",
+          "La prosperidad compartida funciona y da resultados para el pueblo: Ana Lilia Rivera"
+        ]
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 1,
+    "last_seen": "2026-11-09",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "عام"
   },
   "cj-mccollum": {
@@ -628609,7 +628624,7 @@
         "headlines": [
           "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
           "Anthropic's New AI Can Design Hardware, Find Cybersecurity Flaws And Solve Physics Problems",
-          "Introducing Claude Fable 5.2 on AWS"
+          "Claude Fable 5.2 in GitHub Copilot"
         ]
       }
     ],
@@ -629246,8 +629261,8 @@
         "publishable": false,
         "headlines": [
           "علي ماهر يكشف تشكيلة مصر لمواجهة مالاوي",
-          "اجتماع وأجواء ود وترحاب.. المران الأول لمنتخب مصر تحت قيادة علي ماهر",
-          "كيف استقبل علي ماهر لاعبي المنتخب مع انطلاق معسكر مباراتي مالاوي؟"
+          "محاضرة فنية وتواجد 21 لاعبًا.. كيف كان المران الأول لمنتخب مصر تحت قيادة علي ماهر؟",
+          "تذكرتى تعلن فتح باب الحجز لمباراة منتخب مصر أمام مالاوى"
         ]
       }
     ],
@@ -629391,8 +629406,8 @@
         "publishable": false,
         "headlines": [
           "كواليس استبعاد باسم على من جهاز منتخب مصر.. وحقيقة صورة محمد صلاح",
-          "بعد ساعات من تعيينه.. المدرب المساعد لمنتخب مصر يعلن رحيله",
-          "انفعال ابراهيم فايق بسبب رحيل \" باسم علي\" من معسكر المنتخب ومداخلة باسم علي"
+          "يلا كورة يكشف سبب استبعاد باسم علي من الجهاز الفني لمنتخب مصر",
+          "مصدر يكشف لمصراوي سبب رحيل باسم علي عن الجهاز الفني لمنتخب مصر"
         ]
       }
     ],
@@ -629651,8 +629666,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "ربط \"مساند\" و\"صحتي\" لحجز فحص العمالة المنزلية إلكترونياً",
           "وزارة الموارد البشرية والتنمية الاجتماعية ووزارة الصحة تتيحان حجز مواعيد الفحص الطبي للعمالة المنزلية الوافدة حديثًا إلى المملكة إلكترونيًا",
+          "ربط \"مساند\" و\"صحتي\" لحجز فحص العمالة المنزلية إلكترونياً",
           "الموارد البشرية والصحة تتيحان حجز الفحص الطبي للعمالة المنزلية إلكترونيًّا"
         ]
       }
@@ -629907,8 +629922,8 @@
         "date": "2026-11-10",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -629923,7 +629938,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "عام"
   },
   "cavaliers-vs-hornets": {
@@ -629936,14 +629951,14 @@
         "date": "2026-11-09",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "NBA Matchups: November 9",
           "Cavs at Hornets: preview, odds, injury report, TV",
-          "Score Predictions for Tonight's Matchup Between the Cleveland Cavaliers and Charlotte Hornets"
+          "CHA starts White, James, Allen, Reid, Kalkbrenner"
         ]
       }
     ],
@@ -629952,7 +629967,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 20000,
     "category": "رياضة"
   },
   "wizards-vs-pistons": {
@@ -630098,5 +630113,294 @@
     ],
     "peak_traffic": 100,
     "category": "حوادث وقضايا"
+  },
+  "syracuse-vs-indiana": {
+    "slug": "syracuse-vs-indiana",
+    "name": "syracuse vs indiana",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Syracuse basketball vs. Indiana: Live score, updates",
+          "Beat writers split on whether Syracuse can win 1st Quad 1 game vs. Indiana",
+          "Indiana men’s basketball set to face Syracuse on Monday in Indianapolis"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "رياضة"
+  },
+  "grizzlies-vs-raptors": {
+    "slug": "grizzlies-vs-raptors",
+    "name": "grizzlies vs raptors",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Grizzlies vs. Raptors injury report: Scottie Barnes, Immanuel Quickley the names to watch with Kawhi Leonard still out",
+          "Bilal Coulibaly (hand) downgraded to out Monday",
+          "Barnes, Murray-Boyles & Quickley's status for Grizzlies-Thunder: Injuries & Preview"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "bills-schedule": {
+    "slug": "bills-schedule",
+    "name": "bills schedule",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "S Geno Stone and WR Trent Sherfield Sr. elevated, WR Joshua Palmer placed on Injured Reserve | Week 9",
+          "Bills place Josh Palmer on injured reserve",
+          "Bills place wide receiver on injured reserve hours before Monday Night Football"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "junior---cúcuta": {
+    "slug": "junior---cúcuta",
+    "name": "junior - cúcuta",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Cuándo juegan Junior vs. Cúcuta por Liga BetPlay: equipo, fecha, hora y TV en vivo",
+          "Junior vs. Cúcuta Deportivo: sin nada que pelear",
+          "Junior y Cúcuta cerrarán este lunes la penúltima fecha de la Liga Dimayor"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "what-time-is-the-voice-on-tonight": {
+    "slug": "what-time-is-the-voice-on-tonight",
+    "name": "what time is the voice on tonight",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "‘The Voice’ Fans Say They’re “So Ready” for This Unexpected Change to the Live Shows",
+          "The Complete Guide to Voting on The Voice Season 30: Rules, Timing, and More"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "فن ومشاهير"
+  },
+  "jet-blast": {
+    "slug": "jet-blast",
+    "name": "jet blast",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Plane rolls over after being hit by blast from jet engines",
+          "Small plane flips upside down from jet blast at California airport with two aboard",
+          "2 escape injury when small plane flips over at John Wayne Airport"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "دول وأماكن"
+  },
+  "tutu-atwell": {
+    "slug": "tutu-atwell",
+    "name": "tutu atwell",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Tutu Atwell blew golden opportunity to earn larger role Rams need someone to seize",
+          "Tutu Atwell has two catches in win",
+          "Stafford's 40-yard deep ball to Atwell gives Rams red-zone access against Chargers"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "cj-beach": {
+    "slug": "cj-beach",
+    "name": "cj beach",
+    "first_seen": "2026-11-09",
+    "appearances": [
+      {
+        "key": "2026-11-09|world",
+        "date": "2026-11-09",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Country Singer CJ Beach Dead at 22 Following Tragic Car Crash Just Hours After His Final Show",
+          "Promising country music star dies at just 22 after devastating car crash",
+          "Rising country music singer dies in wreck at 22: ‘The world lost an amazing talent’"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-09",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "هاني-خليفة": {
+    "slug": "هاني-خليفة",
+    "name": "هاني خليفة",
+    "first_seen": "2026-11-10",
+    "appearances": [
+      {
+        "key": "2026-11-10|eg",
+        "date": "2026-11-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "بعد نهاية «طالع نازل».. هل يمكن أن يفقد الإنسان عقله بسبب الصدمات؟",
+          "منى زكي تكشف كواليس «طالع نازل»: لم أتوقع هذا النجاح.. وأحمد حلمي لديه مواهب عديدة",
+          "منى زكي: العلاقات بين النساء قد تكون صداقة وليست صراعات كما في الدراما"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-10",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 1000,
+    "category": "شخصية"
+  },
+  "ضوء": {
+    "slug": "ضوء",
+    "name": "ضوء",
+    "first_seen": "2026-11-10",
+    "appearances": [
+      {
+        "key": "2026-11-10|eg",
+        "date": "2026-11-10",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "أقل من 42 دقيقة بضوء النهار قد يرفع خطر الخرف.. دراسة تكشف الحد الأدنى المفيد للدماغ",
+          "دراسة: التعرض لأقل من 42 دقيقة من ضوء النهار يومياً قد يزيد خطر الخرف",
+          "التعرض لضوء الشمس يومياً يقلل من احتمال الإصابة بالخرف"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-10",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

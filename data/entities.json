@@ -6204,7 +6204,7 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "بالفيديو.. هل وجه لاعبو منتخب مصر رسالة مبطنة بعد رحيل حسام حسن؟",
+          "نجل حسام حسن ينشر رسالة مثيرة بعد رحيل والده عن منتخب مصر.. ماذا قال؟",
           "علي ماهر يكشف خطته لمنتخب مصر.. ودور محمد صلاح",
           "تصرف إبراهيم حسن عجّل برحيل حسام من منتخب مصر.. شوبير يكشف التفاصيل"
         ]
@@ -107028,9 +107028,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "منتخب فرنسا يعلن إعادة تشواميني إلى ريال مدريد.. وقرار مفاجئ من زيدان",
-          "فايروس الإصابات يضرب فرنسا قبل مواجهة إيطاليا",
-          "كروبي.. وجه جديد في فرنسا"
+          "كيفية الحصول على تذاكر مباراة النرويج ضد ويلز: أسعار تذاكر دوري الأمم الأوروبية «المستوى الأول»، ومعلومات المباراة، ومبيعات اللحظة الأخيرة والمزيد",
+          "منتخب البرتغال يستهل مرحلة ما بعد رونالدو بالاستعداد لمواجهة الدنمارك",
+          "كيفية شراء تذاكر مباراة ويلز والبرتغال: الأسعار في دوري الأمم الأوروبية، ومعلومات المباراة، ومبيعات اللحظات الأخيرة والمزيد"
         ]
       }
     ],
@@ -236650,17 +236650,32 @@
           "​Moti për ditën e shtunë dhe të diel",
           "Météo aujourd'hui : brouillards tenaces au nord-est, soleil et douceur au sud"
         ]
+      },
+      {
+        "key": "2026-11-11|eg",
+        "date": "2026-11-11",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Pic de grande douceur : un 11 novembre au 2ème rang des plus doux depuis 1930",
+          "Un mercredi doux mais très nuageux",
+          "De la pluie mais des températures très douces : à quelle météo s'attendre à Toulouse cette semaine"
+        ]
       }
     ],
-    "last_seen": "2026-11-07",
-    "total": 16,
+    "last_seen": "2026-11-11",
+    "total": 17,
     "countries": [
       "eg",
       "sa",
       "world"
     ],
     "peak_traffic": 500,
-    "category": "عام"
+    "category": "سياسة"
   },
   "panama-earthquake": {
     "slug": "panama-earthquake",
@@ -641526,8 +641541,8 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "مصر تعرب عن خالص تعازيها لتركيا فى ضحايا انفجار مصنع للصلب قرب إزمير",
           "قتلى ومصابون إثر انفجار هائل بمصنع في تركيا",
+          "مصر تعرب عن خالص تعازيها لتركيا فى ضحايا انفجار مصنع للصلب قرب إزمير",
           "مقتل 16 شخصا بانفجار في مصنع للصلب بإزمير في غرب تركيا"
         ]
       }
@@ -642020,8 +642035,8 @@
         "publishable": false,
         "headlines": [
           "How to Get Decoder in ROB RUN: Free & Barter Guide",
-          "ROB RUN Guide: How to Steal the Buletti from the Grand Hotel",
-          "A Free GTA 6 Competitor Is Blowing Up on Steam"
+          "Best Rob Run Weapons: Early Access Weapon Tier List",
+          "Best Rob Run Solo Loadout: Weapons and Equipment for Playing Alone"
         ]
       }
     ],
@@ -642437,5 +642452,34 @@
     ],
     "peak_traffic": 200,
     "category": "دول وأماكن"
+  },
+  "public-sector-strikes-ireland": {
+    "slug": "public-sector-strikes-ireland",
+    "name": "public sector strikes ireland",
+    "first_seen": "2026-11-10",
+    "appearances": [
+      {
+        "key": "2026-11-10|world",
+        "date": "2026-11-10",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Public sector unions consider revised pay deal offer",
+          "Public sector pay talks: Strike looms as Government and unions locked in discussions",
+          "Galway route released for Thursday's rally over public sector pay"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-10",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "عام"
   }
 }

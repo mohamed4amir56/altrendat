@@ -4,7 +4,7 @@
   "name_en": "Saudi Arabia",
   "lang": "ar",
   "flag": "🇸🇦",
-  "generated_at": "2026-11-10T23:01:30.009187+00:00",
+  "generated_at": "2026-11-10T23:23:33.863845+00:00",
   "day": "2026-11-11",
   "trends": [
     {
@@ -74,16 +74,6 @@
           "ok": true
         },
         {
-          "title": "طلاب يغلقون عشرات المدارس بفرنسا في إطار الاحتجاجات... وماكرون يندّد بأعمال العنف",
-          "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7/5339819-%D8%B7%D9%84%D8%A7%D8%A8-%D9%8A%D8%BA%D9%84%D9%82%D9%88%D9%86-%D8%B9%D8%B4%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D8%A7%D8%B1%D8%B3-%D8%A8%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%81%D9%8A-%D8%A5%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D8%AC%D8%A7%D8%AC%D8%A7%D8%AA-%D9%88%D9%85%D8%A7%D9%83%D8%B1%D9%88%D9%86-%D9%8A%D9%86%D8%AF%D9%91%D8%AF-%D8%A8%D8%A3%D8%B9%D9%85%D8%A7%D9%84",
-          "source": "الشرق الأوسط",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRVVuSQCrG5-GUsv0SwcMdSI6NyCIQ7ksnKA2k5qF59DTjsAhBvvlFnT0u3CrY",
-          "og_title": "طلاب يغلقون عشرات المدارس بفرنسا في إطار الاحتجاجات... وماكرون يندّد بأعمال العنف",
-          "og_desc": "ندّد الرئيس الفرنسي إيمانويل ماكرون، الثلاثاء، بأعمال العنف التي استهدفت معلّمين ومسؤولين ​حكوميين خلال احتجاجات في أنحاء البلاد.",
-          "og_image": "https://static.srpcdigital.com/styles/1200x600/public/2026-11/1874912.jpeg.webp?VersionId=Hg1lvv8g7OcImeCLI2WLciCmqiI3d79o",
-          "ok": true
-        },
-        {
           "title": "فرنسا ترفع الحد الأدنى للأجور استجابة للاحتجاجات الشعبية",
           "url": "https://www.alarabiya.net/aswaq/economy/2026/11/09/%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D8%AA%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D8%AD%D8%AF-%D8%A7%D9%84%D8%A7%D8%AF%D9%86%D9%89-%D9%84%D9%84%D8%A7%D8%AC%D9%88%D8%B1-%D8%A7%D8%B3%D8%AA%D8%AC%D8%A7%D8%A8%D8%A9-%D9%84%D9%84%D8%A7%D8%AD%D8%AA%D8%AC%D8%A7%D8%AC%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%B9%D8%A8%D9%8A%D8%A9",
           "source": "العربية",
@@ -93,14 +83,24 @@
           "og_image": "",
           "ok": false,
           "error": "HTTPError"
+        },
+        {
+          "title": "الحكومة الفرنسية تبحث الأجور مع النقابات وأرباب العمل سعيا لاحتواء الاحتجاجات",
+          "url": "https://www.alriyadh.com/2214425",
+          "source": "جريدة الرياض",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTnOp1EPi6uVDiQESdpmgS8zhNwK0HE5fGfqbi4zA9VUZrn95xf6T-yoV45E_s",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "URLError"
         }
       ],
       "category": "شخصية",
       "icon": "👤",
       "color": "#ffd166",
-      "reason": "شخصية: 2 مصادر تذكر الاسم بلا ألفاظ حسّاسة",
-      "publishable": true,
-      "person": true,
+      "reason": "شخصية بأقل من مصدرين",
+      "publishable": false,
       "card": "cards/sa-2026-11-11-احتجاج.png",
       "published_at": "2026-11-10T21:01:46.781031+00:00"
     },
@@ -324,6 +324,16 @@
           "og_desc": "Sports Mole previews Tuesday's EFL Trophy clash between Leicester City and Walsall, including predictions, team news and possible lineups.",
           "og_image": "https://www.sportsmole.co.uk/thumbor/qN61ygn7WJ0R9QvnYwhk6jD5hbk=/1200x630/smart/filters:format(webp)/https%3A%2F%2Fsportsmole-media-prod.s3.gra.io.cloud.ovh.net%2Fuploads%2F2026%2F09%2Frussell-martin-6a99f3113a0ff314750423.jpg",
           "ok": true
+        },
+        {
+          "title": "Leicester City player ratings vs Walsall as Will Smallbone shines to secure last 32 spot",
+          "url": "https://www.leicestercity.news/match/leicester-city-player-ratings-vs-walsall-as-will-smallbone-shines-to-secure-last-32-spot/",
+          "source": "www.leicestercity.news",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuaecfgJWftm9wHRl9PrDGPHk1kGfVewGhNp70BdZj5o6dnmRbW8MRTCR-4bo",
+          "og_title": "Leicester City player ratings vs Walsall as Will Smallbone shines to secure last 32 spot",
+          "og_desc": "Who stood out for you?",
+          "og_image": "https://cdn1.leicestercity.news/uploads/48/2026/11/GettyImages-2304037221-2048x1365.jpg",
+          "ok": true
         }
       ],
       "category": "رياضة",
@@ -386,44 +396,46 @@
       "traffic": "200+",
       "traffic_num": 200,
       "published": "Tue, 10 Nov 2026 12:10:00 -0800",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQzpxqw3P1icA89EWvr6m0UM-ksoB4dfdXYVTnlDl1HSHYic4mZatAkvDEGhkE",
-      "image_source": "إرم نيوز",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTBfGZ00mH-pBGGhyR30QwpsMFkVV0oZrZApOyXuqId7SPY4rSP13QXT04VjDQ",
+      "image_source": "العربية",
       "news": [
         {
-          "title": "تحذير من خطر تناول الطعام في وقت متأخر على الكبد",
-          "url": "https://www.eremnews.com/health/jbriy4h",
-          "source": "إرم نيوز",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQzpxqw3P1icA89EWvr6m0UM-ksoB4dfdXYVTnlDl1HSHYic4mZatAkvDEGhkE",
-          "og_title": "تحذير من خطر تناول الطعام في وقت متأخر على الكبد | إرم نيوز",
-          "og_desc": "ربطت الأبحاث السابقة تناول الوجبات الخفيفة في وقت متأخر من الليل، بأمراض القلب والسمنة",
-          "og_image": "https://cdn.eremnews.com/media/56d9c6b1-2ec1-4f29-b68b-4b8531d4d950_v3",
+          "title": "تحذير رسمي أميركي من خطر نادر في أوزمبيك ومونجارو",
+          "url": "https://www.alarabiya.net/science/2026/11/10/%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1-%D8%A7%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%85%D9%86-%D8%A7%D9%88%D8%B2%D9%85%D8%A8%D9%8A%D9%83-%D9%88%D8%B2%D9%8A%D8%A8%D8%A7%D9%88%D9%86%D8%AF-%D8%AE%D8%B7%D8%B1-%D9%86%D8%A7%D8%AF%D8%B1-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A8%D8%B5%D8%B1",
+          "source": "العربية",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTBfGZ00mH-pBGGhyR30QwpsMFkVV0oZrZApOyXuqId7SPY4rSP13QXT04VjDQ",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "إنفوجرافيك| تحذير أمريكي جديد: أدوية GLP-1 قد ترفع خطر اعتلال نادر في العصب البصري",
+          "url": "https://sabq.org/article/3znav02",
+          "source": "صحيفة سبق الإلكترونية",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR1oWYmtM-TpekZLMPEydTgClE6DzTcaO4jjcSQJ447gKtHI-Ocw11IkGNmcsA",
+          "og_title": "إنفوجرافيك| تحذير أمريكي جديد: أدوية GLP-1 قد ترفع خطر اعتلال نادر في العصب البصري | سبق",
+          "og_desc": "ألزمت إدارة الغذاء والدواء الأمريكية شركات أوزمبك وويغوفي ومونجارو بإضافة تحذير من خطر اعتلال نادر في العصب البصري قد يسبب فقدان الرؤية. تعرّف على التفاصيل",
+          "og_image": "https://media.sabq.org/news/2026/11/6e6147bd-9f1d-495e-a375-7855853a0547/w1080.webp",
           "ok": true
         },
         {
-          "title": "تشعرين برغبة في تناول وجبات خفيفة قبل النوم؟ إليكِ السبب.. وما يمكنكِ فعله لتجنب زيادة الوزن",
-          "url": "https://www.hiamag.com/%D9%84%D8%A7%D9%8A%D9%81-%D8%B3%D8%AA%D8%A7%D9%8A%D9%84/%D8%B5%D8%AD%D8%A9-%D9%88%D8%B1%D8%B4%D8%A7%D9%82%D8%A9/1807609-%D8%AA%D8%B4%D8%B9%D8%B1%D9%8A%D9%86-%D8%A8%D8%B1%D8%BA%D8%A8%D8%A9-%D9%81%D9%8A-%D8%AA%D9%86%D8%A7%D9%88%D9%84-%D9%88%D8%AC%D8%A8%D8%A7%D8%AA-%D8%AE%D9%81%D9%8A%D9%81%D8%A9-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%86%D9%88%D9%85%D8%9F-%D8%A5%D9%84%D9%8A%D9%83%D9%90-%D8%A7%D9%84%D8%B3%D8%A8%D8%A8-%D9%88%D9%85%D8%A7-%D9%8A%D9%85%D9%83%D9%86%D9%83%D9%90",
-          "source": "www.hiamag.com",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQNfv3tCQ1r4Njltpb03Ea7tZ5jTXfszhkX4xk--Thbg-WRhrs7WXnDTzRIl9s",
-          "og_title": "تشعرين برغبة في تناول وجبات خفيفة قبل النوم؟ إليكِ السبب.. وما يمكنكِ فعله لتجنب زيادة الوزن",
-          "og_desc": "بعد العشاء.. كيف تتجنبين تناول الوجبات الخفيفة قبل النوم؟ بادري بتخصيص خياراتٍ صحية متوفرة دومًا، واحرصي على تحضير وتناول وجبات غنية بالبروتين والألياف تُساعد على زيادة شعوركِ بالشبع",
-          "og_image": "https://static.hiamag.com/styles/1200x600/public/2026-11/%D8%A8%D8%B9%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B4%D8%A7%D8%A1..%20%D9%83%D9%8A%D9%81%20%D8%AA%D8%AA%D8%AC%D9%86%D8%A8%D9%8A%D9%86%20%D8%AA%D9%86%D8%A7%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AC%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AE%D9%81%D9%8A%D9%81%D8%A9%20%D9%82%D8%A8%D9%84%20%D8%A7%D9%84%D9%86%D9%88%D9%85%D8%9F%20%20-%20%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9.jpg?h=8f3ad80b",
-          "ok": true
-        },
-        {
-          "title": "لماذا نشعر بالجوع بعد العشاء؟ أسباب ونصائح",
-          "url": "https://newturkpost.com/news/134128-%D8%A7%D9%84%D8%B1%D8%BA%D8%A8%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%88%D8%AC%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AE%D9%81%D9%8A%D9%81%D8%A9-%D9%85%D8%B3%D8%A7%D8%A1-%D8%A3%D8%B3%D8%A8%D8%A7%D8%A8%D9%87%D8%A7-%D9%88%D8%B7%D8%B1%D9%82-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85-%D8%A8%D9%87%D8%A7",
-          "source": "نيو ترك بوست",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT7sNd8ZHt-B6OzGTnYxB1geNxEKUyu3Qq4SPVyCDqDMDBdre4a1EYHNMz2_k8",
-          "og_title": "لماذا نشعر بالجوع بعد العشاء؟ أسباب ونصائح",
-          "og_desc": "تعرف إلى أسباب الرغبة في تناول الوجبات الخفيفة بعد العشاء، من ارتفاع هرمون الجوع مساءً إلى تأثير العادات والأطعمة السكرية، مع نصائح خبراء لاختيار وجبات أكثر صحة.",
-          "og_image": "https://newturkpost.com/image/33ba42c5-88fb-4f76-b18d-195349a6d0fc--1YCT4.jpg",
-          "ok": true
+          "title": "تحذير يهز مستخدمي أوزمبيك للتنحيف.. آثار جانبية نادرة قد تؤدي إلى فقدان البصر",
+          "url": "https://www.mc-doualiya.com/%D8%B5%D8%AD%D8%A9/20261110-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1-%D9%8A%D9%87%D8%B2-%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%8A-%D8%A3%D9%88%D8%B2%D9%85%D8%A8%D9%8A%D9%83-%D9%84%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81-%D8%A2%D8%AB%D8%A7%D8%B1-%D8%AC%D8%A7%D9%86%D8%A8%D9%8A%D8%A9-%D9%86%D8%A7%D8%AF%D8%B1%D8%A9-%D9%82%D8%AF-%D8%AA%D8%A4%D8%AF%D9%8A-%D8%A5%D9%84%D9%89-%D9%81%D9%82%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%A8%D8%B5%D8%B1",
+          "source": "مونت كارلو الدولية",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTY7YHiXQ8K6xoPEnuUM6MgDOwv32cXCo27qWZ92mEsGdCk1hr2oS10a8jJgjM",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         }
       ],
       "category": "شخصية",
       "icon": "👤",
       "color": "#ffd166",
-      "reason": "شخصية لا يرد اسمها في مصدرين",
+      "reason": "شخصية بأقل من مصدرين",
       "publishable": false,
       "card": "cards/sa-2026-11-11-تحذير.png",
       "published_at": "2026-11-10T21:01:46.781031+00:00"
@@ -623,17 +635,17 @@
       "traffic": "100+",
       "traffic_num": 100,
       "published": "Tue, 10 Nov 2026 12:00:00 -0800",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQcfgE1ybPHxA4iXn5ntpvsrv5aKVmwiGKlFQCjydbij0tJWnHble4XFAWRPVI",
-      "image_source": "EL PAÍS",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ3_mEK4CQVHfzjV7p-ox2-eFXrNnedYEvurXA_7mbJF17jzgVzQEdvp3BBEss",
+      "image_source": "Valencia CF",
       "news": [
         {
-          "title": "El Valencia golea al Tavernes y se clasifica a la segunda ronda de la Copa",
-          "url": "https://elpais.com/deportes/futbol/2026-11-10/el-valencia-golea-al-tavernes-y-se-clasifica-a-la-segunda-ronda-de-la-copa.html",
-          "source": "EL PAÍS",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQcfgE1ybPHxA4iXn5ntpvsrv5aKVmwiGKlFQCjydbij0tJWnHble4XFAWRPVI",
-          "og_title": "El Valencia golea al Tavernes y se clasifica a la segunda ronda de la Copa",
-          "og_desc": "El conjunto de Javier Aguirre sella su pase de manera contundente en una jornada en la que el Alavés, el otro equipo de Primera que jugaba, goleó a domicilio al Anaitasuna",
-          "og_image": "https://imagenes.elpais.com/resizer/v2/O6A7JYGWMFNGHPRM3QEMTPAITA.jpg?auth=27de3d9d69bcc54ae2e4ac23c5244a41d2c9d8d65901b4ba122269071f1281ec&width=1200",
+          "title": "Aimar: “Es un orgullo marcar goles en Mestalla y ayudar a la victoria del equipo”",
+          "url": "https://www.valenciacf.com/aimar-es-un-orgullo-marcar-goles-en-mestalla-y-ayudar-a-la-victoria-del-equipo",
+          "source": "Valencia CF",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ3_mEK4CQVHfzjV7p-ox2-eFXrNnedYEvurXA_7mbJF17jzgVzQEdvp3BBEss",
+          "og_title": "Aimar: “Es un orgullo marcar goles en Mestalla y ayudar a la victoria del equipo”  - Valencia CF",
+          "og_desc": "Página web oficial del Valencia CF. Toda la información del Club.  Noticias, calendario, venta de entradas, fotos, vídeos y servicios a los aficionados. Amunt Valencia.",
+          "og_image": "https://www.valenciacf.com/public/Image/2026/11/20261110megaaimartavernes-vcf0011.jpg",
           "ok": true
         },
         {
@@ -647,13 +659,13 @@
           "ok": true
         },
         {
-          "title": "Aimar y Elliott sacan tajada, Sato va de más a menos y Hugo Duro se diluye",
-          "url": "https://www.lasprovincias.es/valenciacf/aimar-elliott-sacan-tajada-sato-hugo-duro-20261110232458-nt.html",
-          "source": "Las Provincias",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQWEPmZ-87-9Zy-XYor3A1hGj7RTJCLdiIy2WPeSAzkZ__YZat3MAF-HMPt37w",
-          "og_title": "Aimar y Elliott sacan tajada, Sato va de más a menos y Hugo Duro se diluye | Las Provincias",
-          "og_desc": "Foulquier y Copete reaparecen sobre el césped y el debut de Van Oevelen casi acaba en tragedia cuando Erik le manda el balón al palo",
-          "og_image": "https://s2.ppllstatics.com/lasprovincias/www/multimedia/valenciacf/2026/11/10/1520083796-Rb38dwLmDHQVpKKFoQwsabL-1200x840@Las%20Provincias.jpg",
+          "title": "Vasco Aguirre firma histórico triunfo como DT tras goleada del Valencia en Copa del Rey",
+          "url": "https://www.record.com.mx/historia/vasco-aguirre-firma-historico-triunfo-como-dt-tras-goleada-del-valencia-en-copa-del-rey-2026111021583023668",
+          "source": "Récord",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIb0yAG4T9RnlXJXhdC3i_p26h69H3flBRjKlNPv6nawKiNeBe6_9ZGyF8e6c",
+          "og_title": "Vasco Aguirre firma histórico triunfo como DT tras goleada del Valencia en Copa del Rey",
+          "og_desc": "El conjunto ‘Che’ venció 6-0 al Tavernes y con ello el mexicano logró su victoria más abultada a nivel de clubes",
+          "og_image": "https://sportal365images.com/process/smp-images-production/record.mx/17102026/11782a3c-f15e-449b-a80a-c0cbcbf63506.jpg",
           "ok": true
         }
       ],
@@ -664,6 +676,150 @@
       "publishable": false,
       "card": "cards/sa-2026-11-11-copa-del-rey.png",
       "published_at": "2026-11-10T22:31:44.405519+00:00"
+    },
+    {
+      "title": "united arab emirates",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Tue, 10 Nov 2026 14:50:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSknJGT6x1zCdx5pay2g2j4UKI-xNzM7SE200peUg1SqR7hliI3laENk7oGlR8",
+      "image_source": "Arab News",
+      "news": [
+        {
+          "title": "US calls for new Europe security at Russia-Ukraine talks in Abu Dhabi",
+          "url": "https://www.arabnews.com/world/us-calls-for-new-europe-security-at-russia-ukraine-talks-in-abu-dhabi-3011087",
+          "source": "Arab News",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSknJGT6x1zCdx5pay2g2j4UKI-xNzM7SE200peUg1SqR7hliI3laENk7oGlR8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "First day of Russia-Ukraine talks in Abu Dhabi ‘constructive’: Zelenskyy",
+          "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes",
+          "source": "Al Jazeera",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTMruoC1xjTCDKpwys1nE5MsEnBuQ92wa3z774RrZZUVdLPKX43a2OYsI2nIjc",
+          "og_title": "First day of Russia-Ukraine talks in Abu Dhabi ‘constructive’: Zelenskyy",
+          "og_desc": "The Ukrainians meet separately with European, NATO and EU representatives and US envoys.",
+          "og_image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af349e95bbe-1794329065.jpg?resize=1920%2C1440",
+          "ok": true
+        },
+        {
+          "title": "First day of Ukraine peace talks constructive, Zelensky says",
+          "url": "https://www.bbc.com/news/articles/cqpvgvrpjvv8o",
+          "source": "BBC",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZqeBm9lI0F9guJ0Xt9-P6AmC9S1_UCKVLdOOZEGnuLTxe49-T37j7ohulnNw",
+          "og_title": "First day of Ukraine peace talks constructive, Zelensky says",
+          "og_desc": "Delegations from Kyiv, Washington and Moscow are in the United Arab Emirates for the first trilateral talks since February.",
+          "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/4d8b/live/22dad050-dd25-11f1-93e1-3b657b665bcf.jpg",
+          "ok": true
+        }
+      ],
+      "category": "دول وأماكن",
+      "icon": "🗺️",
+      "color": "#79c0ff",
+      "reason": "حجم بحث أقل من 2000",
+      "publishable": false,
+      "card": "cards/sa-2026-11-11-united-arab-emirates.png",
+      "published_at": "2026-11-10T23:23:33.863845+00:00"
+    },
+    {
+      "title": "دوري الأمم",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Tue, 10 Nov 2026 13:00:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQbh2ItzjC2k1I4lsUKUHXd-TIMsj-E_JDnDWAOFGbwUcBCvBcbSKUliex7T2w",
+      "image_source": "Kooora",
+      "news": [
+        {
+          "title": "منتخب فرنسا يعلن إعادة تشواميني إلى ريال مدريد.. وقرار مفاجئ من زيدان",
+          "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%8A%D8%B9%D9%84%D9%86-%D8%A7%D9%95%D8%B9%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B4%D9%88%D8%A7%D9%85%D9%8A%D9%86%D9%8A-%D8%A7%D9%95%D9%84%D9%89-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF--%D9%88%D9%82%D8%B1%D8%A7%D8%B1-%D9%85%D9%81%D8%A7%D8%AC%D9%8A%D9%94-%D9%85%D9%86-%D8%B2%D9%8A%D8%AF%D8%A7%D9%86/blt7b9544561b6cd10c",
+          "source": "Kooora",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQbh2ItzjC2k1I4lsUKUHXd-TIMsj-E_JDnDWAOFGbwUcBCvBcbSKUliex7T2w",
+          "og_title": "منتخب فرنسا يعلن إعادة تشواميني إلى ريال مدريد.. وقرار مفاجئ من زيدان | كووورة",
+          "og_desc": "تلقى زين الدين زيدان ضربة جديدة في معسكر منتخب فرنسا، بعدما أعلن الاتحاد الفرنسي غياب أوريلين تشواميني عن المباراتين المقبلتين أمام إيطاليا وتركيا في دوري الأمم الأوروبية، بسبب الإصابة، ليصبح ثالث لاعب يغادر قائمة \"الديوك\" خلال الساعات القليلة الماضية.",
+          "og_image": "https://assets.kooora.com/images/v3/imago-sport-1084190513/crop/MM5DGOBYHA5DEMJYG45G433XMU5DINRTHIYA====/imago-image.jpeg",
+          "ok": true
+        },
+        {
+          "title": "فايروس الإصابات يضرب فرنسا قبل مواجهة إيطاليا",
+          "url": "https://www.okaz.com.sa/sport/na/2274976",
+          "source": "عكاظ",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqiPYW3xy0wfCblrWPp13dYEfYa2SmOJNpXAjZHODyAwihFxufGgHUJpBgNis",
+          "og_title": "فايروس الإصابات يضرب فرنسا قبل مواجهة إيطاليا",
+          "og_desc": "تلقى مدرب منتخب فرنسا زين الدين زيدان ضربة ثالثة خلال 24 ساعة فقط، بعد تعرض لاعب الوسط أوريليان تشواميني لإصابة خلال تدريبات «الديوك»، اليوم (الثلاثاء).  ويحل المنتخب الفرنسي ضيفاً على نظيره الإيطالي (الخميس) القادم، ضمن منافسات دوري الأمم الأوروبية، قبل أن يستضيف تركيا (الأحد).",
+          "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/11/10/2792940.webp",
+          "ok": true
+        },
+        {
+          "title": "كروبي.. وجه جديد في فرنسا",
+          "url": "https://arriyadiyah.com/904515/%D9%83%D8%B1%D9%88%D8%A8%D9%8A..-%D9%88%D8%AC%D9%87-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A-%D9%81%D8%B1%D9%86%D8%B3%D8%A7",
+          "source": "صحيفة الرياضية",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRNxrdSunFJsZlsZxAMZRV5xM0BoGU8xCn6bcAsmwVyRE9RZL9WUYdhq27uS7A",
+          "og_title": "كروبي.. وجه جديد في فرنسا",
+          "og_desc": "استدعى زين الدين زيدان، مدرب المنتخب الفرنسي الأول لكرة القدم، إيلي جونيور كروبي، مهاجم بورنموث الإنجليزي،  ...",
+          "og_image": "https://arriyadiyah.com/media/thumb/f9/6b/800_37a6805cb0.png",
+          "ok": true
+        }
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 2000",
+      "publishable": false,
+      "card": "cards/sa-2026-11-11-دوري-الأمم.png",
+      "published_at": "2026-11-10T23:23:33.863845+00:00"
+    },
+    {
+      "title": "كأس الملك",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Tue, 10 Nov 2026 13:00:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTT71MSR3bOzOU4X0-ELcF2ZM_u0Hufj3aKhFIaG-MI3oYTKB8YWi-xFIs3EyU",
+      "image_source": "العربية",
+      "news": [
+        {
+          "title": "إقامة مباريات ثمن نهائي كأس الملك يومي 11 و12 يناير",
+          "url": "https://www.alarabiya.net/sport/2026/11/09/%D8%A7%D9%82%D8%A7%D9%85%D8%A9-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%AB%D9%85%D9%86-%D9%86%D9%87%D8%A7%D8%A6%D9%8A-%D9%83%D8%A7%D8%B3-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%8A%D9%88%D9%85%D9%8A-11-%D9%8812-%D9%8A%D9%86%D8%A7%D9%8A%D8%B1",
+          "source": "العربية",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTT71MSR3bOzOU4X0-ELcF2ZM_u0Hufj3aKhFIaG-MI3oYTKB8YWi-xFIs3EyU",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "ثماني مواجهات نارية في دور الـ16 بكأس الملك يومي 11 و12 يناير وتعديل مواعيد الأدوار النهائية",
+          "url": "https://sabq.org/article/ax3wsze",
+          "source": "صحيفة سبق الإلكترونية",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStLZM1TfZoD5pHSXUc4Yh5d8qqao0NiqBEWG7Dznv8aOvAdMqjbBWnReELsLo",
+          "og_title": "ثماني مواجهات نارية في دور الـ16 بكأس الملك يومي 11 و12 يناير وتعديل مواعيد الأدوار النهائية | سبق",
+          "og_desc": "الاتحاد السعودي يعلن مواعيد وملاعب دور الـ16 من كأس خادم الحرمين يومي 11 و12 يناير 2027، والهلال يواجه الحزم والنصر أمام الخلود.",
+          "og_image": "https://media.sabq.org/news/2026/11/9ae96ed1-c264-4fd8-b9b0-5a2213114ffa/w1376.webp",
+          "ok": true
+        },
+        {
+          "title": "تحديد مواعيد ثمن نهائي أغلى الكؤوس",
+          "url": "https://www.alriyadh.com/2214442",
+          "source": "جريدة الرياض",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSH4LAUN25C5rcdMuVec7Gp-KCQbf1b2lDmcooP3uaFVZ-r1EqtR2jp45G-0vo",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "URLError"
+        }
+      ],
+      "category": "سياسة",
+      "icon": "🏛️",
+      "color": "#ff5c7c",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/sa-2026-11-11-كأس-الملك.png",
+      "published_at": "2026-11-10T23:23:33.863845+00:00"
     }
   ]
 }

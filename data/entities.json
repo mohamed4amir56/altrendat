@@ -4927,8 +4927,8 @@
         "date": "2026-11-11",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "+12000",
+        "traffic_num": 12000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
@@ -4944,7 +4944,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 12000,
     "category": "طقس"
   },
   "salman-bin-abdulaziz-al-saud": {
@@ -195686,9 +195686,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "بانضمام المحترفين واحتفالية.. منتخب مالاوي يبدأ استعداداته لمباراة مصر في القاهرة",
           "منتخب مصر يتصدر قائمة الأفضل فى تصفيات أمم أفريقيا قبل مواجهة مالاوى",
-          "أبو ريدة يرافق بعثة الفراعنة خلال رحلة مالاوي",
-          "ترتيب مجموعة مصر في تصفيات كأس أمم أفريقيا قبل الجولة الثالثة"
+          "محمد صلاح يشارك في أول مران لمنتخب مصر مع علي ماهر"
         ]
       }
     ],
@@ -218038,13 +218038,14 @@
         "date": "2026-11-11",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "+150000",
-        "traffic_num": 150000,
+        "traffic": "+100000",
+        "traffic_num": 100000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
           "تنبيهات الأرصاد الجوية في السعودية: أمطار وسيول بالشرقية",
-          "أمطار رعدية.. الأرصاد السعودية تحذر من طقس الأربعاء"
+          "أمطار رعدية.. الأرصاد السعودية تحذر من طقس الأربعاء",
+          "«الأرصاد»: أمطار رعدية وسيول وبرد على 9 مناطق في السعودية"
         ]
       }
     ],
@@ -218237,8 +218238,8 @@
         "publishable": false,
         "headlines": [
           "BMKG Prediksi Jabodetabek Masih Diguyur Hujan hingga Beberapa Hari ke Depan",
-          "Prakiraan Cuaca DKI Jakarta: Berawan, Suhu Berkisar 25–31 Derajat",
-          "Cuaca Besok Di JakartaKamis (12/11), Info BMKG: Jaksel Dan Jaktim Hujan Ringan"
+          "Peringatan Dini Cuaca Jakarta: Hujan Lebat Disertai Petir Sore Ini, Mulai Pukul 15.35 WIB",
+          "Cuaca Jabodetabek Rabu 11 November: Siang Terik, Sore Berpotensi Hujan di Jakarta dan Bekasi"
         ]
       }
     ],
@@ -241009,11 +241010,11 @@
         "country_name": "السعودية",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "فوضى سياسية بعد تراجع قبضة نتنياهو.. ما المطلوب لإنهاء حالة الاضطراب في إسرائيل؟",
-          "نتنياهو: لا يمكن تشكيل حكومة تضم مؤيدي الإرهاب من حزب \"القائمة العربية\" و\"المشتركة\"",
+          "آيزنكوت يحذر نتنياهو من \"قرارات عسكرية كارثية\"",
+          "فوضى وإهانات ومشادات حادة في أولى جلسات اللجنة المنظمة للكنيست",
           "أعضاء الكنيست الإسرائيلي الجديد يؤدون اليمين مع سعي آيزنكوت لتشكيل حكومة"
         ]
       }
@@ -241025,7 +241026,7 @@
       "sa"
     ],
     "peak_traffic": 1000,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "ترتيبات-بوروسيا-دورتموند-فيردر-بريمن": {
     "slug": "ترتيبات-بوروسيا-دورتموند-فيردر-بريمن",
@@ -277145,10 +277146,25 @@
           "إخلاء مئات المدارس في إيطاليا والمملكة المتحدة وإيرلندا إثر تهديدات بوجود قنابل",
           "300 مدرسة إيطالية تُخلي مبانيها إثر تهديدات بوجود قنابل"
         ]
+      },
+      {
+        "key": "2026-11-11|eg",
+        "date": "2026-11-11",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "إنذارات القنابل تصل المدارس.. استنفار في بريطانيا وإيطاليا",
+          "إنذارات كاذبة بوجود قنابل تربك مدارس أوروبا.. ماذا حدث؟",
+          "“إرهاب البنسات العشرة” يجتاح مدارس ومطارات أوروبا ويستنفر أجهزتها الأمنية"
+        ]
       }
     ],
     "last_seen": "2026-11-11",
-    "total": 2,
+    "total": 3,
     "countries": [
       "eg",
       "sa"
@@ -277219,15 +277235,30 @@
           "Así ha sido la llegada de Pep Guardiola al Etihad Stadium",
           "Pep Guardiola volvió a Manchester: fue a ver al City contra el PSG :: Olé - ole.com.ar"
         ]
+      },
+      {
+        "key": "2026-11-11|world",
+        "date": "2026-11-11",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Lyon recurre a Vicens como técnico tras la repentina salida de Fonseca",
+          "Con el respaldo de Guardiola: un técnico español rivaliza con Enrique en Francia",
+          "El entrenador del Olympique de Lyon confirma su objetivo"
+        ]
       }
     ],
-    "last_seen": "2026-10-14",
-    "total": 2,
+    "last_seen": "2026-11-11",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "عام"
+    "category": "سياسة"
   },
   "is-zay-flowers-playing": {
     "slug": "is-zay-flowers-playing",
@@ -491288,11 +491319,11 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "تقنية",
+        "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
           "Sources: Jazz star Lauri Markkanen out at least 1 month with fractured hand",
-          "Lauri Markkanen Injury Update",
+          "Lauri Markkanen To Miss At Least Four Weeks With Hand Fractures",
           "Lauri Markkanen Injured, Latest News on Jazz Star's Timeline to Return After Hand Fracture"
         ]
       }
@@ -491303,7 +491334,7 @@
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "تقنية"
+    "category": "فن ومشاهير"
   },
   "peyton-watson": {
     "slug": "peyton-watson",
@@ -569362,14 +569393,29 @@
           "North Alabama Lions vs UC Davis Aggies Prediction - November 2, 2026",
           "Men's Basketball Tips Off Mountain West Era With Monday Doubleheader"
         ]
+      },
+      {
+        "key": "2026-11-11|world",
+        "date": "2026-11-11",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Incarnate Word vs UC Davis Prediction, Picks & Odds | 11 Nov 2026",
+          "Incarnate Word vs UC Davis Prediction - Nov. 11, 2026",
+          "Aggies Close Homestand Against Incarnate Word on Veterans Day"
+        ]
       }
     ],
-    "last_seen": "2026-11-03",
-    "total": 1,
+    "last_seen": "2026-11-11",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "john-mulaney": {
@@ -650579,8 +650625,8 @@
         "publishable": false,
         "headlines": [
           "Free landfill day in San Antonio this weekend: What you can bring",
-          "Bill Gates' Landfill Investments Clash With His Climate Crusade",
-          "Bill Gates Wants to Stop Global Warming. He’s Earned Billions From Climate-Polluting Landfills."
+          "Bill Gates Wants to Stop Global Warming. He’s Earned Billions From Climate-Polluting Landfills.",
+          "Bill Gates' Landfill Investments Clash With His Climate Crusade"
         ]
       }
     ],
@@ -650637,8 +650683,8 @@
         "publishable": false,
         "headlines": [
           "سعر الذهب في مصر يعود لتسجيل المكاسب",
-          "سعر الذهب اليوم في مصر ينخفض في بداية التعاملات الصباحية الأربعاء",
-          "10 جنيهات زيادة في أسعار الذهب بالأسواق المحلية.. وعيار 21 يسجل 6160 جنيها"
+          "10 جنيهات زيادة في أسعار الذهب بالأسواق المحلية.. وعيار 21 يسجل 6160 جنيها",
+          "أخبار خدمية| أسعار الذهب والدولار وحالة الطقس اليوم الأربعاء"
         ]
       }
     ],
@@ -650691,11 +650737,11 @@
         "country_name": "عالمي (Worldwide)",
         "traffic": "10000+",
         "traffic_num": 10000,
-        "category": "رياضة",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "NFL Week 10 latest intel, buzz questions, fantasy tips, post-trade deadline news",
-          "2026 NFL Trade Deadline Winners and Losers: Jaguars Go All In, Chargers and Steelers Fall Short",
+          "The top 5 biggest impact deadline trades, including Jaguars and Bears shooting for a Super Bowl",
           "NFL trade deadline winners, losers: Vikings find QB, Jags go all-in, Jonathan Taylor stranded - The Athletic"
         ]
       }
@@ -650706,7 +650752,7 @@
       "world"
     ],
     "peak_traffic": 10000,
-    "category": "رياضة"
+    "category": "حوادث وقضايا"
   },
   "pizza-max-dublin-rodent-infestation": {
     "slug": "pizza-max-dublin-rodent-infestation",
@@ -650747,8 +650793,8 @@
         "date": "2026-11-11",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -650763,7 +650809,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "رياضة"
   },
   "منتخب-فرنسا": {
@@ -650834,8 +650880,8 @@
         "date": "2026-11-11",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -650850,7 +650896,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "رياضة"
   },
   "حادث-الوليد-الحلاني": {
@@ -650939,5 +650985,92 @@
     ],
     "peak_traffic": 100,
     "category": "عام"
+  },
+  "michael-jackson-estate-value-2-billion": {
+    "slug": "michael-jackson-estate-value-2-billion",
+    "name": "michael jackson estate value $2 billion",
+    "first_seen": "2026-11-11",
+    "appearances": [
+      {
+        "key": "2026-11-11|world",
+        "date": "2026-11-11",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Michael Jackson’s Estate Is Now Worth $2 Billion. His Daughter Says She Can’t Access It",
+          "Paris Jackson Asks Father’s Estate to Fund $600M to Family Trust",
+          "Paris Jackson Seeks $600 Million from Michael Jackson Estate to Her Family Trust"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-11",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "confession-movie": {
+    "slug": "confession-movie",
+    "name": "confession movie",
+    "first_seen": "2026-11-11",
+    "appearances": [
+      {
+        "key": "2026-11-11|world",
+        "date": "2026-11-11",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Ben Shapiro’s Screenwriting Debut Is Here. It’s … a Movie, All Right.",
+          "'Confession' Review: Rob Lowe, James Franco in Ben Shapiro-Penned Film",
+          "“Confession” Is A Great Leap Forward for The Daily Wire"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-11",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "فن ومشاهير"
+  },
+  "dartmouth-basketball": {
+    "slug": "dartmouth-basketball",
+    "name": "dartmouth basketball",
+    "first_seen": "2026-11-11",
+    "appearances": [
+      {
+        "key": "2026-11-11|world",
+        "date": "2026-11-11",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Dartmouth vs Albany Prediction, Picks & Odds | 11 Nov 2026",
+          "Dartmouth vs Albany Prediction, Pick, College Basketball Odds for Wednesday, Nov. 11",
+          "Dartmouth vs Albany Prediction - Nov. 11, 2026"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-11",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
   }
 }

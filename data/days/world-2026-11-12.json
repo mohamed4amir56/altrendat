@@ -4,7 +4,7 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-11-12T11:10:44.438633+00:00",
+  "generated_at": "2026-11-12T11:31:37.794769+00:00",
   "day": "2026-11-12",
   "trends": [
     {
@@ -633,8 +633,8 @@
     },
     {
       "title": "winter storm watch",
-      "traffic": "+1200",
-      "traffic_num": 1200,
+      "traffic": "+1400",
+      "traffic_num": 1400,
       "published": "Wed, 11 Nov 2026 22:20:00 -0800",
       "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSiAOf4Zl-bzeLoLTqmOa4cjG0yN1M_AUG10tdlyv2GQxD7TxRZ_IlEUHnSmBM",
       "image_source": "ABC7 Bay Area",
@@ -1137,18 +1137,19 @@
       "traffic": "1000+",
       "traffic_num": 1000,
       "published": "Thu, 12 Nov 2026 02:50:00 -0800",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0QWa2WFxORUVBJwHpgOR_5uwX7nd1gBqmZ0goB9YSVIwa4lHB5IbrmL-b18Y",
-      "image_source": "CNBC",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTz2SgAlMccOd8Mm1DNPWIzvvp5-E9ZR_kC6UsB9SCGvz5i2apSCX6rtuaWrXI",
+      "image_source": "Reuters",
       "news": [
         {
-          "title": "Nvidia stock falls 6% as investors await Jensen Huang’s fate",
-          "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
-          "source": "CNBC",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0QWa2WFxORUVBJwHpgOR_5uwX7nd1gBqmZ0goB9YSVIwa4lHB5IbrmL-b18Y",
-          "og_title": "Nvidia stock falls over 6% as investors await Jensen Huang’s fate",
-          "og_desc": "Nvidia's board met on Wednesday to discuss whether to oust Jensen Huang as CEO.",
-          "og_image": "https://image.cnbcfm.com/api/v1/image/108317416-1780669969197-gettyimages-2279256400-jung-nvidiace260605_nprgq.jpeg?v=1780670112&w=1920&h=1080",
-          "ok": true
+          "title": "Live: Nvidia shares plunge as board weighs ousting CEO Jensen Huang amid affair scandal",
+          "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
+          "source": "Reuters",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTz2SgAlMccOd8Mm1DNPWIzvvp5-E9ZR_kC6UsB9SCGvz5i2apSCX6rtuaWrXI",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         },
         {
           "title": "AMD and Broadcom Stocks Jump. What It Says About the Future of the AI Trade.",
@@ -1162,23 +1163,24 @@
           "error": "HTTPError"
         },
         {
-          "title": "Jensen Huang's looming ouster triggers an AI earthquake",
-          "url": "https://finance.yahoo.com/technology/ai/articles/jensen-huangs-looming-ouster-triggers-100547157.html",
-          "source": "Yahoo Finance",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8pXB7HQgTFB6sPnqaPRcchKG0YgxESndC8EMpb4UpIy_DhZ0xNTHkiFA5LAY",
-          "og_title": "Jensen Huang's looming ouster triggers an AI earthquake",
-          "og_desc": "Jensen Huang's potential ouster from Nvidia has plunged the AI industry into uncharted territory — a corporate earthquake that dwarfs even the chaos unleashed by Sam Altman's temporary firing from OpenAI in 2023.",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/a244256bd995ad3ad03c77ce320269f49a419817c60a86f1cd81f734e915c967/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Faxios_527%2F4e5b05a4be4cfba3dbbb9e310f61a5ee.jpg",
-          "ok": true
+          "title": "Stock Market Today: Nvidia Shares Tumble Over Leadership Crisis — Live Updates",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026",
+          "source": "WSJ",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTbNYR2cEjbzOQI599aCMWgy_RSzi6_pIGljjUP4yn4p1C6-wyxyzl_lWTNto",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         }
       ],
       "geos": [
         "US"
       ],
-      "category": "اقتصاد",
-      "icon": "💰",
-      "color": "#f5c542",
-      "reason": "حجم بحث أقل من 10000",
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: scandal",
       "publishable": false,
       "card": "cards/world-2026-11-12-broadcom-stock.png",
       "published_at": "2026-11-12T11:10:44.438633+00:00"
@@ -2911,14 +2913,14 @@
       "traffic": "200+",
       "traffic_num": 200,
       "published": "Thu, 12 Nov 2026 02:40:00 -0800",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5stDZ1m0nr_Wq84VHfs2bzjmh4e2wGx-VTekeNT912_ScF2a2F2BHDxRQdf0",
-      "image_source": "USA Today",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSko6HqbKTim6SszktyxEQ1ftDtLgTnUuV1qIkHjHHWLrfCky-q_1BWUMk5iIc",
+      "image_source": "Athlon Sports",
       "news": [
         {
-          "title": "Caitlin Clark's children's book debuts atop New York Times best sellers list",
-          "url": "https://www.usatoday.com/story/sports/wnba/fever/2026/11/11/caitlin-clark-book-new-york-times-best-sellers-list/92735382007/",
-          "source": "USA Today",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5stDZ1m0nr_Wq84VHfs2bzjmh4e2wGx-VTekeNT912_ScF2a2F2BHDxRQdf0",
+          "title": "Caitlin Clark Announces Personal News After WNBA Season",
+          "url": "https://athlonsports.com/wnba/caitlin-clark-shares-personal-update-amid-wnba-offseason",
+          "source": "Athlon Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSko6HqbKTim6SszktyxEQ1ftDtLgTnUuV1qIkHjHHWLrfCky-q_1BWUMk5iIc",
           "og_title": "",
           "og_desc": "",
           "og_image": "",
@@ -2926,32 +2928,32 @@
           "error": "HTTPError"
         },
         {
-          "title": "Caitlin Clark makes WNBA history during offseason with NYT No. 1 best seller accomplishment",
-          "url": "https://sports.yahoo.com/articles/caitlin-clark-makes-wnba-history-104000690.html",
-          "source": "Yahoo Sports",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQyUrh_ZjTHBjclKIXzNIM03fpt6-UjshN9-MDAXtasa-m0fqcO5yvzKcrb2uw",
-          "og_title": "Caitlin Clark makes WNBA history during offseason with NYT No. 1 best seller accomplishment",
-          "og_desc": "Caitlin Clark becomes the first WNBA star in history to author a New York Times No. 1 best seller with her debut children’s book.",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/ec9d806b2f214cdaf5050253b686be63674a8c6fe9ce63388e34feb98a1bfa0a/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fhitc_articles_832%2Fa835982a64a2863757cf569e1ff84af5.jpg",
+          "title": "Caitlin Clark teases ‘big Nike name’ collab and Caitlin 2 launch date",
+          "url": "https://www.yardbarker.com/nfl/articles/caitlin_clark_teases_big_nike_name_collab_and_caitlin_2_launch_date/s1_17664_44510638",
+          "source": "Yardbarker",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7BRHfYE4AbGMPQ2wptdgoKzBNChk40bePVAe-vFn9dRE5CkC9tHo5NdPskR8",
+          "og_title": "Caitlin Clark teases ‘big Nike name’ collab and Caitlin 2 launch date",
+          "og_desc": "Caitlin Clark is already cooking up the Caitlin 2, and teasing a massive Nike crossover to go with it. Trying to buy a pair of Caitlin 1s felt like trying to grab concert tickets, blink and they were gone.",
+          "og_image": "https://www.yardbarker.com/media/d/e/de29dbb80070405c738e4ab7a42650950dd2b542/thumb_16x9/GettyImages-2296106777-1-scaled.jpg",
           "ok": true
         },
         {
-          "title": "Taylor Swift's Eras Tour Friendship Bracelets Inspired a Nike Sneaker, and Jimmy Fallon Just Got an Exclusive Pair",
-          "url": "https://graziamagazine.com/us/articles/taylor-swifts-eras-tour-friendship-bracelets-inspired-a-nike-sneaker-and-jimmy-fallon-got-a-pair-25497-c1/",
-          "source": "Grazia",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRjzMheLx2VRlrsKDY0DsGYi2J56VoVal_ukwIlVxDIJrZC3OZ0qTSvi7qP-mM",
-          "og_title": "Taylor Swift's Eras Tour Friendship Bracelets Inspired a Nike Sneaker, and Jimmy Fallon Just Got an Exclusive Pair",
-          "og_desc": "On The Tonight Show, Caitlin Clark gave Jimmy Fallon the Nike Caitlin 1 Friendship Bracelet, inspired by Taylor Swift's Eras Tour. Details, price and release date.",
-          "og_image": "https://graziamagazine.com/us/wp-content/uploads/sites/15/2026/11/shutterstock_editorial_16709085di-683x1024.jpg",
+          "title": "Caitlin Clark Says the Caitlin 2 Signature Shoe Is Already in Development",
+          "url": "https://www.aol.com/articles/caitlin-clark-says-caitlin-2-162532000.html",
+          "source": "AOL.com",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSmtv-NVbgJvDlGcjoC5gJZhloeANli0CMxYe_XOh35fa7GR6GpXlMeDaZ8DcY",
+          "og_title": "Caitlin Clark Says the Caitlin 2 Signature Shoe Is Already in Development - AOL",
+          "og_desc": "Indiana Fever star Caitlin Clark announced plans for her next shoe during the WNBA offseason.",
+          "og_image": "https://hermes.media.static.aol.com/media/2026/11/03/69ae053d-6935-393a-a2c1-c782f71c5431/c5d80ebe-3bb4-4e90-8253-9b47d0292b4c.jpg",
           "ok": true
         }
       ],
       "geos": [
         "US"
       ],
-      "category": "دول وأماكن",
-      "icon": "🗺️",
-      "color": "#79c0ff",
+      "category": "فن ومشاهير",
+      "icon": "🎬",
+      "color": "#c77dff",
       "reason": "حجم بحث أقل من 10000",
       "publishable": false,
       "card": "cards/world-2026-11-12-caitlin-clark.png",
@@ -3109,6 +3111,56 @@
       "publishable": false,
       "card": "cards/world-2026-11-12-bucs-wide-receiver-roster-cuts.png",
       "published_at": "2026-11-12T11:02:12.976427+00:00"
+    },
+    {
+      "title": "kara zor-el",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Thu, 12 Nov 2026 02:40:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRv5MqP_QvV3fb1_zj99PgcjJuhhuqHydSn23JPCq4Gk3GepT1AYK69xlLioQk",
+      "image_source": "ScreenRant",
+      "news": [
+        {
+          "title": "DC Officially Announces Name Of New Supergirl",
+          "url": "https://screenrant.com/new-supergirl-announced-dc-thundergirl/",
+          "source": "ScreenRant",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRv5MqP_QvV3fb1_zj99PgcjJuhhuqHydSn23JPCq4Gk3GepT1AYK69xlLioQk",
+          "og_title": "DC Officially Announces Name Of New Supergirl",
+          "og_desc": "DC has announced the identity of its new Supergirl, moving away from the classic Kara Zor-El to a new take on the ultra-powerful character.",
+          "og_image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/supergirl-symbol-from-the-cw-show.jpg?w=1600&h=900&fit=crop",
+          "ok": true
+        },
+        {
+          "title": "Inside James Gunn, Peter Safran’s DC Ouster: Exec Tensions and a Fateful David Ellison Visit",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/james-gunn-peter-safran-ouster-dc-1236751437/",
+          "source": "The Hollywood Reporter",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTUmEx8MKt73mq6adehQc6w2oeb92dJ-o438daW3k0govL5UQJ5tSa7V9pvjXA",
+          "og_title": "Inside James Gunn, Peter Safran’s DC Ouster: Exec Tensions and a Fateful David Ellison Visit",
+          "og_desc": "The duo thought they were safe and were already plotting a third 'Superman' movie. Then, Skydance co-CEOs Ellison and Ynon Kreiz paid them a fateful visit on the Warner Bros. lot.",
+          "og_image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/07/GettyImages-1498108895.jpg?w=1296&h=730&crop=1",
+          "ok": true
+        },
+        {
+          "title": "DC Universe Actor Frank Grillo Calls James Gunn & Peter Safran \"Two Of The Most Loyal Guys\" Following Their DC Studios Exit",
+          "url": "https://deadline.com/2026/11/frank-grillo-reaction-james-gunn-peter-safran-dc-studios-exit-1237221357/",
+          "source": "Deadline",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQtoybwq9cCt7Rk7Mi5DxMGBIXCVI7ZwV9pzUQss08jgsfUrzzZ_tuQpLxsRrE",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "فن ومشاهير",
+      "icon": "🎬",
+      "color": "#c77dff",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-12-kara-zor-el.png",
+      "published_at": "2026-11-12T11:31:37.794769+00:00"
     },
     {
       "title": "dji",
@@ -4098,6 +4150,156 @@
       "publishable": false,
       "card": "cards/world-2026-11-12-tiempo-de-hoy.png",
       "published_at": "2026-11-12T11:10:44.438633+00:00"
+    },
+    {
+      "title": "miguel díaz-canel",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Thu, 12 Nov 2026 03:10:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp-OPYk2n_HvD7eHGSIeqpGS-94puU4vLud8GtRLRBqOFpXZfPI7guk0tmG2I",
+      "image_source": "Diario Las Américas",
+      "news": [
+        {
+          "title": "Miguel Díaz-Canel reafirma su alianza con Daniel Ortega mientras la ONU señala el deterioro democrático en Nicaragua",
+          "url": "https://www.diariolasamericas.com/america-latina/miguel-diaz-canel-reafirma-su-alianza-daniel-ortega-mientras-la-onu-senala-el-deterioro-democratico-nicaragua-n5405130",
+          "source": "Diario Las Américas",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp-OPYk2n_HvD7eHGSIeqpGS-94puU4vLud8GtRLRBqOFpXZfPI7guk0tmG2I",
+          "og_title": "Miguel Díaz-Canel reafirma su alianza con Daniel Ortega mientras la ONU señala el deterioro democrático en Nicaragua",
+          "og_desc": "El dictador de Cuba envió un mensaje de felicitación a su par dictatorial de Nicaragua, con motivo de su cumpleaños 81, en el que se refirió a la relación entre ambos países",
+          "og_image": "https://media.diariolasamericas.com/p/c432626f955dfbb5b02da0f0ed1e6e8a/adjuntos/216/imagenes/100/250/0100250583/afp__20250110__36tg4rx__v1__midres__venezuelainaugurationmaduroortegadiazcanels.jpg",
+          "ok": true
+        },
+        {
+          "title": "Raúl Castro felicita a Daniel Ortega por sus 81 años y reivindica su alianza frente a la «ofensiva imperial»",
+          "url": "https://www.cibercuba.com/noticias/2026-11-11-u1-e74-s27061-nid345489-raul-castro-felicita-daniel-ortega-sus-81-anos",
+          "source": "CiberCuba",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS0UHpg0qz9XmwKL9yTY0SrM-5ZUHN10aO5gbpCbtxRrk2CHqdqqwhSSjqLLdQ",
+          "og_title": "Raúl Castro felicita a Daniel Ortega por sus 81 años y reivindica su alianza frente a la «ofensiva imperial»",
+          "og_desc": "Raúl Castro felicitó a Daniel Ortega por sus 81 años y reivindicó la alianza de ambas dictaduras frente a la «ofensiva imperial» de Estados Unidos.",
+          "og_image": "https://cdn0.celebritax.com/sites/default/files/styles/watermark_100/public/1794427682-raul-castro-felicita-daniel-ortega-sus-81-anos-reivindica-alianza-frente-ofensiva.jpg",
+          "ok": true
+        },
+        {
+          "title": "Xi y Putin valoran las relaciones con Nicaragua en el cumpleaños de Ortega, según Murillo",
+          "url": "https://www.infobae.com/america/agencias/2026/11/10/xi-y-putin-valoran-las-relaciones-con-nicaragua-en-el-cumpleanos-de-ortega-segun-murillo/",
+          "source": "Infobae",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRHCoVJvVj9aGPuXyPjDrxDhOfyjQZ7Om7Bphe3rtlk95gVoUt-mGAUkg7FZN4",
+          "og_title": "Xi y Putin valoran las relaciones con Nicaragua en el cumpleaños de Ortega, según Murillo",
+          "og_desc": "Xi y Putin valoran las relaciones con Nicaragua en el cumpleaños de Ortega, según Murillo",
+          "og_image": "https://www.infobae.com/assets/images/logos/fallback-promo-image-1200x630.png",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-12-miguel-díaz-canel.png",
+      "published_at": "2026-11-12T11:31:37.794769+00:00"
+    },
+    {
+      "title": "apache http2 vulnerability cve 2026 119618",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Thu, 12 Nov 2026 03:00:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR2gkzEpdZEUOv-XoKNtXBCKY259L9S82Ciu2n1uXHvuj-DN0GxqqM99bb-6A8",
+      "image_source": "wiz.io",
+      "news": [
+        {
+          "title": "Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know",
+          "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+          "source": "wiz.io",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR2gkzEpdZEUOv-XoKNtXBCKY259L9S82Ciu2n1uXHvuj-DN0GxqqM99bb-6A8",
+          "og_title": "Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know | Wiz Blog",
+          "og_desc": "Detect and mitigate CVE-2026-119618, a critical RCE vulnerability in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to CVE-2026-119618. Immediate patching is advised.",
+          "og_image": "https://www.datocms-assets.com/75231/1794425853-threat-update-kics-alert_custom.jpeg?fm=webp",
+          "ok": true
+        },
+        {
+          "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+          "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+          "source": "The Hacker News",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4NYjqW91xd0EvuH-KrXvccR8cpMWnYlW6MQqzFfkRwYG9DAEV89do7YSEFPs",
+          "og_title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+          "og_desc": "Apache HTTP Server 2.4.71 fixes a critical HTTP/2 flaw that could allow unauthenticated remote code execution on servers with HTTP/2 enabled.",
+          "og_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpi_uN6PmG2Gn1agNMsOrsCp324eH-utKkDl_SPe32ggjcWFPjxZSyeA1KvAtvI9SQ4VAN_zssvdJLJ59IXE8_-MatPOyFXY-FcwtL7HtfKyW3MtsKwglIe2X62WBOcUkPMv-klM1h8T2EBMWFOWyPG89bfbAHS5byyfXATXN_lUUJWmUGWChekyWxTQ/s1600/apache-http.jpg",
+          "ok": true
+        },
+        {
+          "title": "Apache HTTP Server 2.4.71 Fixes Critical mod_http2 Heap Corruption (CVE-2026-119618) — Patch Now",
+          "url": "https://www.rescana.com/post/apache-httpd-mod-http2-cve-2026-119618-patch-now",
+          "source": "Rescana",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiTyhyvCQbadjuTcPwkcaKCrE79Ziw5uBzQCL75F9Rl4WRIo1O7ja2qxGdDfI",
+          "og_title": "Apache HTTP Server 2.4.71 Fixes Critical mod_http2 Heap Corruption (CVE-2026-119618) — Patch Now",
+          "og_desc": "Apache HTTP Server 2.4.71 (11 Nov 2026) fixes CVE-2026-119618 in mod_http2, rated critical by Apache, which can lead to RCE. Upgrade now. Not in CISA KEV.",
+          "og_image": "https://www.rescana.com/post/img/apache-httpd-mod-http2-cve-2026-119618-patch-now-cover.png",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-12-apache-http2-vulnerability-cve-2026-119618.png",
+      "published_at": "2026-11-12T11:31:37.794769+00:00"
+    },
+    {
+      "title": "anne hathaway",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Thu, 12 Nov 2026 03:00:00 -0800",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQUFhDpaHU73uuvR5iBjc5GY1PJPPwa1cVxFQYbxuDamygySOo3HJBp0fY-kX8",
+      "image_source": "Deadline",
+      "news": [
+        {
+          "title": "Santa Barbara Film Festival Awards: Anne Hathaway Set For American Riviera Honor",
+          "url": "https://deadline.com/2026/11/santa-barbara-film-festival-awards-2027-honorees-1237112049/",
+          "source": "Deadline",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQUFhDpaHU73uuvR5iBjc5GY1PJPPwa1cVxFQYbxuDamygySOo3HJBp0fY-kX8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Anne Hathaway to Receive American Riviera Award at Santa Barbara International Film Festival",
+          "url": "https://variety.com/2026/film/news/anne-hathaway-to-receive-american-riviera-award-1236944527/",
+          "source": "Variety",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1bpNIZO0tPL08Xi9Bbn88lvYRcC3OnW9W8_a7k_UkFbR3xcm9EDPNAd3JlAc",
+          "og_title": "Anne Hathaway to Receive American Riviera Award at Santa Barbara International Film Festival",
+          "og_desc": "Anne Hathaway will be honored with the American Riviera Award at the 42nd annual Santa Barbara International Film Festival on Feb. 5",
+          "og_image": "https://variety.com/wp-content/uploads/2026/09/Anne-Hathaway-The-Odyssey.jpg?crop=0px%2C3px%2C1705px%2C961px&resize=1000%2C563",
+          "ok": true
+        },
+        {
+          "title": "Anne Hathaway lands prestigious Hollywood honour for ‘breathtaking' performance in The Odyssey",
+          "url": "https://ca.movies.yahoo.com/anne-hathaway-lands-prestigious-hollywood-040000665.html",
+          "source": "Yahoo",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTp_qM72brea0D5jO42QFt780GHLPbJ6BiMWbFOaezYugwgNqDJa2rSHBsvxOg",
+          "og_title": "Anne Hathaway lands prestigious Hollywood honour for ‘breathtaking' performance in The Odyssey",
+          "og_desc": "The Oscar-winning actress will be celebrated at the Santa Barbara International Film Festival following a blockbuster year that included The Devil Wears Prada 2 and a reunion with Christopher Nolan.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/1cdf9d6c6b53afa5532a8ff1c0764ac1c2072a861aae10276d3a2bff80842c5c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbang_showbiz_ca_591%2F267c281afc7e0ffdae589320200abcb0.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "فن ومشاهير",
+      "icon": "🎬",
+      "color": "#c77dff",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-12-anne-hathaway.png",
+      "published_at": "2026-11-12T11:31:37.794769+00:00"
     }
   ]
 }

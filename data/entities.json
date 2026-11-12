@@ -221,11 +221,11 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "سعر الذهب عيار 24 اليوم الخميس 12 نوفمبر 2026 في مصر.. استقرار عند 7017 جنيها",
           "أسعار الذهب في مصر تواصل النزيف اليوم.. عيار 21 يخسر 45 جنيهًا",
-          "أخبار خدمية| أسعار الذهب والدولار وحالة الطقس اليوم الأربعاء"
+          "سعر الذهب اليوم الأربعاء 11/11/2026 في مصر.. عيار 21 بعد الهبوط"
         ]
       }
     ],
@@ -7800,9 +7800,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Красноярск ждет самая теплая зима за 100 лет? Отвечает климатолог",
-          "Россиянам рассказали, какой будет зима 2026-2027 в разных регионах страны",
-          "Плюс вместо трескучих морозов: синоптики раскрыли сюрпризы предстоящей зимы"
+          "Как долго продержится теплая погода в Якутии, рассказала синоптик",
+          "Снег, поземки и 0 градусов: прогноз погоды в Якутии на 11 ноября",
+          "30-градусные морозы ударят по двум регионам России"
         ]
       }
     ],
@@ -8549,17 +8549,32 @@
           "Midweek warmth before a cold front moves through",
           "Crisp Monday gives way to a chilly weekend and possible frost in South Mississippi"
         ]
+      },
+      {
+        "key": "2026-11-12|sa",
+        "date": "2026-11-12",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Brenda Barnes - Northern Lights from Rigby (Nov. 2025)",
+          "Seven-year-old dies, five injured in accident",
+          "Two killed in truck-motorcycle collision in Siraha, truck driver flees"
+        ]
       }
     ],
-    "last_seen": "2026-11-09",
-    "total": 32,
+    "last_seen": "2026-11-12",
+    "total": 33,
     "countries": [
       "eg",
       "sa",
       "world"
     ],
     "peak_traffic": 220100,
-    "category": "طقس"
+    "category": "حوادث وقضايا"
   },
   "إنستاباي": {
     "slug": "إنستاباي",
@@ -15940,7 +15955,7 @@
         "publishable": false,
         "headlines": [
           "حسين لبيب يكشف.. مراحل إنشاء شركة الكرة في نادي الزمالك",
-          "حسين لبيب: الزمالك بطل في كل العصور.. الجماهير فوق رؤوسنا وندرك مطالبهم",
+          "\"قرار لا رجعة فيه\".. حسين لبيب يعلن عدم ترشحه لرئاسة الزمالك في الانتخابات المقبلة",
           "«مفيش شفافية.. وإحنا مش محتاجين نشتغل في النادي!».. رسائل نارية من حلمي طولان عن جلسة رموز الزمالك"
         ]
       }
@@ -50950,10 +50965,25 @@
           "ঘাটাইল জাতীয় দিবস পালিত",
           "মানিকগঞ্জে জাতীয় যুব দিবসের উদ্বোধন করলেন খাদ্যমন্ত্রী"
         ]
+      },
+      {
+        "key": "2026-11-12|sa",
+        "date": "2026-11-12",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "‘কী গোলটাই না করল ফারহান!’",
+          "হামজার চেয়ে ভালো অধিনায়ক আর কেউ হতে পারে না: ডুলি",
+          "হামজা-ফারহানের নৈপুণ্যে শ্রীলঙ্কাকে ৪ গোলে উড়িয়ে সেমিফাইনালে বাংলাদেশ"
+        ]
       }
     ],
-    "last_seen": "2026-11-01",
-    "total": 3,
+    "last_seen": "2026-11-12",
+    "total": 4,
     "countries": [
       "sa"
     ],
@@ -114944,7 +114974,7 @@
         "publishable": false,
         "headlines": [
           "Italy vs. France probable line-ups: Injuries dictate Nations League teams",
-          "'I am starting to feel a little older than I was' - Arsenal star Riccardo Calafiori embraces leadership role in youthful Italy squad ahead of crucial France clash"
+          "Italy vs. France—Nations League: Preview, Predictions and Lineups"
         ]
       }
     ],
@@ -182323,8 +182353,8 @@
         "date": "2026-11-12",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": []
@@ -182335,7 +182365,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "مباراة-السعودية": {
@@ -210981,12 +211011,28 @@
           "Attacks on Saudi airports kill three people, as fighting escalates in Yemen",
           "Deadly Houthi attacks on Saudi airports highlight widening fallout from Yemen civil war"
         ]
+      },
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Editorial: Welcome Philippine Airlines. You exemplify why Chicago O'Hare must fight to maintain its dual hub.",
+          "Chicago is now one flight away! PAL launches nonstop service from Manila",
+          "Philippine Airlines Launches Chicago-Manila Nonstop Flights"
+        ]
       }
     ],
-    "last_seen": "2026-10-08",
-    "total": 1,
+    "last_seen": "2026-11-12",
+    "total": 2,
     "countries": [
-      "sa"
+      "sa",
+      "world"
     ],
     "peak_traffic": 300,
     "category": "عام"
@@ -247256,10 +247302,25 @@
           "'The Terminal List' Star Taylor Kitsch Breaks Bad in New Real-Life Heist Thriller",
           "Taylor Kitsch to play 'Long Island Bank Robber'"
         ]
+      },
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Taylor Kitsch, Alexandra Daddario, Christopher Walken Cast In 'Robber'",
+          "Taylor Kitsch to play 'Long Island Bank Robber'",
+          "Vaneast Pictures Will Launch Worldwide Sales for Matthew Gentile’s THE LONG ISLAND BANK ROBBER at American Film Market"
+        ]
       }
     ],
-    "last_seen": "2026-11-07",
-    "total": 2,
+    "last_seen": "2026-11-12",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -274246,8 +274307,8 @@
         "date": "2026-11-12",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -592935,14 +592996,14 @@
         "date": "2026-11-12",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "PAKU19 vs BANU19, Semi Final 1 (A1 v B2), ACC Men's U19 Asia Cup 2026 - Commentary",
-          "Unbeaten Pakistan U19 to take on Bangladesh in Asia Cup semi-final on Thursday",
-          "Pakistan demolish Nepal in Asia Cup"
+          "AFGU19 vs INDU19, Semi Final 2 (B1 v A2), ACC Men's U19 Asia Cup 2026 - Commentary",
+          "IND vs AFG, Under-19 Asia Cup Semi Final Live Score: Yashbardhan's strike give India third breakthrough as well-set Subhan Zakhail departs",
+          "Noor Ali Niazai has 13 wickets for 71 runs, and he is what stands between India’s Under-19s and the Asia Cup final"
         ]
       }
     ],
@@ -592951,7 +593012,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "رياضة"
   },
   "ramayana-movie": {
@@ -602194,10 +602255,25 @@
           "Meet MOUZ: The IEM Beijing 2026 CS2 Champions",
           "MOUZ Rise to HLTV No. 1 at 912 Points, Ahead of FURIA"
         ]
+      },
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "HLTV Introduces New Economy and Round Filters for CS2 Stats",
+          "CS2 Premier Teams Refine Anubis Utility and MR12 Economy",
+          "How Counter-Strike 2 Changed Competitive Play and Esports Analysis"
+        ]
       }
     ],
-    "last_seen": "2026-11-11",
-    "total": 3,
+    "last_seen": "2026-11-12",
+    "total": 4,
     "countries": [
       "world"
     ],
@@ -612078,7 +612154,7 @@
         "headlines": [
           "أمينة عرفي وهانيا الحمامي تغيبان عن بطولة الصين المفتوحة للإسكواش بسبب الإصابة",
           "اسكواش - انسحاب أمينة عرفي وهانيا الحمامي من بطولة الصين المفتوحة",
-          "انطلاق منافسات بطولة سنغافورة كلاسيك للاسكواش"
+          "اسكواش – انسحاب أمينة عرفي وهانيا الحمامي من بطولة الصين المفتوحة"
         ]
       }
     ],
@@ -654003,16 +654079,32 @@
           "Asian shares mostly slip as Nvidia's troubles weigh on AI stocks, despite a rally on Wall St",
           "Exclusive | Nvidia Is Preparing to Oust CEO Jensen Huang"
         ]
+      },
+      {
+        "key": "2026-11-12|eg",
+        "date": "2026-11-12",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
+          "Investors worry the AI trade needs Nvidia's Huang and its largesse",
+          "Statement From NVIDIA Board of Directors"
+        ]
       }
     ],
     "last_seen": "2026-11-12",
-    "total": 2,
+    "total": 3,
     "countries": [
+      "eg",
       "sa",
       "world"
     ],
     "peak_traffic": 10000,
-    "category": "اقتصاد"
+    "category": "تقنية"
   },
   "mississippi-senate-race-cnn": {
     "slug": "mississippi-senate-race-cnn",
@@ -656860,8 +656952,8 @@
         "date": "2026-11-12",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -656876,7 +656968,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "كأس-السوبر-السعودي-2026": {
@@ -657319,8 +657411,8 @@
         "date": "2026-11-12",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -657335,7 +657427,239 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
+  },
+  "bbc-news-scotland": {
+    "slug": "bbc-news-scotland",
+    "name": "bbc news scotland",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Scotland's papers: Second schools bomb threat and more Walliams claims",
+          "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
+          "Hoax bomb threats made to schools in Scotland, Northern Ireland and Italy"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "عام"
+  },
+  "slomw-oc": {
+    "slug": "slomw-oc",
+    "name": "slomw oc",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "‘The Secret Lives of Mormon Wives: Orange County’ and 5 More Shows to Watch",
+          "Why Bobbi Althoff Almost Quit ‘The Secret Lives of Mormon Wives: Orange County’",
+          "Meet Orange County’s ‘Mormon Wives’ as Hulu reveals their secret lives"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "عام"
+  },
+  "kylie-jenner-former-staff-lawsuits": {
+    "slug": "kylie-jenner-former-staff-lawsuits",
+    "name": "kylie jenner former staff lawsuits",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Kylie Jenner slapped with fourth employee lawsuit in just 7 months as ex-housekeeper makes shocking allegations",
+          "Kylie Jenner’s ex-housekeeper says she was locked in closet, bitten by dog and pepper-sprayed working for her",
+          "Kylie Jenner Sued by Housekeeper Who Says Mogul’s Dog Bit Her"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
+  },
+  "england-vs-croatia": {
+    "slug": "england-vs-croatia",
+    "name": "england vs croatia",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "‘An eternal shame’: Bilic and Croatia aim to use 7-0 humbling as fuel against England",
+          "How England could line-up against Croatia with Jobe debut and Pickford decision",
+          "bet365 bonus code: Get £30 in Nations League free bets"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "karla-souza": {
+    "slug": "karla-souza",
+    "name": "karla souza",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Karla Souza To Star In ‘Grey’s Anatomy’ Texas Spinoff",
+          "‘Grey’s Anatomy’ Texas Spinoff Casts ‘How to Get Away With Murder’ Alum Karla Souza in Lead Role",
+          "‘Grey’s Anatomy’ spinoff casts ‘How to Get Away With Murder’ star in lead role"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
+  },
+  "aspyn-ovard-10-year-secret": {
+    "slug": "aspyn-ovard-10-year-secret",
+    "name": "aspyn ovard 10 year secret",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Aspyn Ovard Reveals ’10 Year Secret’ That Ended Marriage to Parker Ferris",
+          "Mormon Wives Star Goes From Divorce to a Full-Blown Throuple",
+          "Untangling Aspyn Ovard's Throuple With Married Couple: What She Wants You to Know"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
+  },
+  "طاقة-شمسية": {
+    "slug": "طاقة-شمسية",
+    "name": "طاقة شمسية",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|eg",
+        "date": "2026-11-12",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "\"رخيصة بشكل صادم\": كيف تتفوق الطاقة الشمسية على الطاقة النووية؟",
+          "إطار تسعير توليد الطاقة الشمسية وطاقة الرياح في عام 2026",
+          "ابتداءً من 11 نوفمبر، سيصل سعر توليد الكهرباء لأنظمة تخزين البطاريات إلى 3209.98 دونغ فيتنامي/كيلوواط ساعة."
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "bangladesh-u-19-vs-pakistan-u-19": {
+    "slug": "bangladesh-u-19-vs-pakistan-u-19",
+    "name": "bangladesh u-19 vs pakistan u-19",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|sa",
+        "date": "2026-11-12",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "BANU19 121/8 (24.3) (Sheikh Atiqur Rahman 0(0) Rakibul Hossan 12(16)) | Pakistan U19 vs Bangladesh U19, Semi Final 1 (A1 v B2), ACC Men's U19 Asia Cup 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and mor",
+          "Defending champions Pakistan U19 storm into ACC Asia Cup semi-finals with commanding win over Nepal",
+          "Pakistan U19 vs Bangladesh U19 Live Streaming: When And Where To Watch U19 Asia Cup Semi-Final"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
   }
 }

@@ -5,61 +5,9 @@
     "name_en": "Worldwide",
     "lang": "en",
     "flag": "🌐",
-    "generated_at": "2026-11-12T21:01:15.922804+00:00",
+    "generated_at": "2026-11-12T21:31:26.018656+00:00",
     "day": "2026-11-12",
     "trends": [
-      {
-        "title": "weather",
-        "traffic": "50000+",
-        "traffic_num": 50000,
-        "published": "Thu, 12 Nov 2026 11:30:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdujBzKoFKDzfsvFI7fjEDy_uVl4Vbyacclfxc04BKnS1e04tOZCCDyAPq1ac",
-        "image_source": "The Courier Mail",
-        "news": [
-          {
-            "title": "Weather report for Logan",
-            "url": "https://www.couriermail.com.au/questnews/logan/hyperlocal/heres-what-you-can-expect-with-todays-logan-weather/news-story/0816c309335d66e36860b9755d506d21",
-            "source": "The Courier Mail",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdujBzKoFKDzfsvFI7fjEDy_uVl4Vbyacclfxc04BKnS1e04tOZCCDyAPq1ac",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Weather report for Logan",
-            "url": "https://www.couriermail.com.au/questnews/logan/hyperlocal/heres-what-you-can-expect-with-todays-logan-weather/news-story/2b3b867777099a28ffe06bea21e271fb",
-            "source": "The Courier Mail",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdujBzKoFKDzfsvFI7fjEDy_uVl4Vbyacclfxc04BKnS1e04tOZCCDyAPq1ac",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Weather report for Logan",
-            "url": "https://www.couriermail.com.au/questnews/logan/hyperlocal/heres-what-you-can-expect-with-todays-logan-weather/news-story/39097de3a111b98c2231dcaaf3921961",
-            "source": "The Courier Mail",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdujBzKoFKDzfsvFI7fjEDy_uVl4Vbyacclfxc04BKnS1e04tOZCCDyAPq1ac",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "geos": [
-          "AU"
-        ],
-        "category": "طقس",
-        "icon": "🌤️",
-        "color": "#7fd8ff",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/world-2026-11-12-weather.png"
-      },
       {
         "title": "microsoft outage",
         "traffic": "50000+",
@@ -73,9 +21,19 @@
             "url": "https://www.nzherald.co.nz/nz/microsoft-investigates-reports-of-outlook-mailbox-access-problems/7Y33NCWNCBEEJHKKN5NYF3SWBY/",
             "source": "NZ Herald",
             "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz0NlO706GYp2ZhTK4VNZPFOPM_fWtR3mK1sbphK2jUSiv5q2UM1AQxdUoV3w",
-            "og_title": "Black Friday bug: Microsoft 'aggressively' trying to fix Outlook global outage",
+            "og_title": "Outlook down: Kiwi companies 'losing work', staff hamstrung as global outage recahes four hours",
             "og_desc": "Users began reporting problems at 6.30am New Zealand time.",
-            "og_image": "https://www.nzherald.co.nz/resizer/v2/KJYMC77OQ5GITCTQLEYHH36FXM.png?auth=06a058d166d29932c2b223c8feedb7e3d5c809a0bc8137cdcbaa2a8e2c7f53a3&width=1200&height=675&quality=70&focal=1258%2C454&smart=false",
+            "og_image": "https://www.nzherald.co.nz/resizer/v2/PO2IASLFJ5BHJBIBA4IBT6TR5Y.jpg?auth=663a01b9b2883ba79190408604a4c80f5c63bd4156112d9b3d99005145cec3e2&width=1200&height=675&quality=70&smart=true",
+            "ok": true
+          },
+          {
+            "title": "Global outage hits Microsoft's Outlook",
+            "url": "https://www.rnz.co.nz/news/business/2569444/global-outage-hits-microsoft-s-outlook",
+            "source": "RNZ",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSJNURKI9Dxdb_YfrRTCiDlwtYHmQRLKELDmLRP56ALaYuKdiFt8qesb4LSTHM",
+            "og_title": "Global outage hits Microsoft's Outlook",
+            "og_desc": "More than 100,000 users worldwide are struggling to access their email inboxes as Microsoft battles to fix an Outlook outage.",
+            "og_image": "https://media.rnztools.nz/rnz/image/upload/s--qdlxx7JC--/t_tohu-badge-facebook/f_auto/q_auto/4KRYY8X_000_12131D_jpg",
             "ok": true
           },
           {
@@ -86,16 +44,6 @@
             "og_title": "Global Microsoft outage hits NZ, with Outlook, Teams and other services affected",
             "og_desc": "The global outage is impacting apps such as Outlook, Microsoft 365, Copilot, Teams and OneDrive.",
             "og_image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVh72hrAfvRC%2FuPJhsdYjC9+YrZUG8W0pxFBbdNm0qT%2FhyIWxTqvzzCFXkY5JJwSrQIXIJFx3qfQDclfPQ9m3oCUHK9M5FeRiFsOFP%2F2MGvq5fH4h054unHC9PIWyXFBHwIhm%2FHdgZgUUASp2X+PRQjW0JH78Q%2FsuhCn+WzzhY7RwiK8ap+tN3q0k4urI%2F6GOGNRf%2FO8efkrxYaVzfCVWf+IdNAW0kjLt0XNOfGAmPUj8no4RkrmlDuuNdYtV4RMkJJb%2F1KH38RpMcP57Tvzu8tIv+OgYXlZUTjFqydf4fQOiYX+SiGUWRzu5%2FIc1HESyE8xw+O%2FgtXY+1cclrEJkwKQufPuvc4ZdXdh9nGIVurPN%2FhWGuvgAYGk5ux2bGIY1qtyb6AQlo+TW4EIcGv%2FrobSdTkYWbsO66XV7OwPsvuVZrYUDQgRTN88AmOoCJBn6A==",
-            "ok": true
-          },
-          {
-            "title": "Microsoft 365 hit by multi-region connectivity issues amid elevated infrastructure load",
-            "url": "https://www.foxbusiness.com/technology/microsoft-365-hit-multi-region-connectivity-issues-amid-elevated-infrastructure-load",
-            "source": "Fox Business",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyd-IbQVTpXRzqPMUp2XqLHGSa8l9ZRxV75V6cduMbb6FMKkEbXpXv6k3YIgs",
-            "og_title": "Microsoft 365 hit by multi-region connectivity issues amid elevated infrastructure load",
-            "og_desc": "Microsoft on Thursday confirmed an infrastructure issue causing elevated loads is behind widespread 365 connectivity errors across multiple regions.",
-            "og_image": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/02/0/0/Microsoft-Logo.jpg?ve=1&tl=1",
             "ok": true
           }
         ],
@@ -114,29 +62,28 @@
         "traffic": "20000+",
         "traffic_num": 20000,
         "published": "Thu, 12 Nov 2026 12:30:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvNsud0ILKs6jiDX4pF9-nTn7MLZVSoCs-Z-zKMg-pOj9aekB9eIJhJb-0-G4",
-        "image_source": "BBC",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWRi_06KWS8aEpxQmaTIzXQzsAgK7EPlJqYclV8O6Y9wBCTzYku2G8kiEai98",
+        "image_source": "CNN",
         "news": [
           {
-            "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
-            "url": "https://www.bbc.com/news/articles/cmvg2r3dq7xno",
-            "source": "BBC",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvNsud0ILKs6jiDX4pF9-nTn7MLZVSoCs-Z-zKMg-pOj9aekB9eIJhJb-0-G4",
-            "og_title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
-            "og_desc": "Specialist Thomas Iglesias was given a Joint Service Commendation Medal for the execution of his duties after Wednesday's incident.",
-            "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/9916/live/a7c0bac0-dec7-11f1-a701-fddedf244c16.jpg",
+            "title": "Hegseth awards medal to soldier who reprimanded him and aides at Arlington Cemetery",
+            "url": "https://www.cnn.com/2026/11/12/politics/hegseth-awards-medal-soldier-reprimanded-him",
+            "source": "CNN",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWRi_06KWS8aEpxQmaTIzXQzsAgK7EPlJqYclV8O6Y9wBCTzYku2G8kiEai98",
+            "og_title": "Hegseth awards medal to soldier who reprimanded him and aides at Arlington Cemetery | CNN Politics",
+            "og_desc": "",
+            "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/hw708mywmaalifl.jpg?c=16x9&q=w_800,c_fill",
             "ok": true
           },
           {
-            "title": "A Warrior Secretary and a Lesson at the Tomb of the Unknowns",
-            "url": "https://www.nytimes.com/2026/11/12/us/politics/pete-hegseth-warrior-image.html",
+            "title": "Soldier Shouts Toward Hegseth to Show ‘Respect’ at Tomb of the Unknown Soldier",
+            "url": "https://www.nytimes.com/2026/11/11/us/politics/hegseth-tomb-unknown-soldier-shout.html",
             "source": "The New York Times",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcYKcDRKXmDhsAmcmytst_ageJbf2igv9BzmTzVmXAiEKrNv0W69dQi4UvOdM",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRyqMl_rsY3EHagwyFr_6yjONt6zj4bdRlaNrupDDTuU1DxAHZ5p9CGUU0FgYY",
+            "og_title": "Soldier Shouts Toward Hegseth to Show ‘Respect’ at Tomb of the Unknown Soldier",
+            "og_desc": "A Pentagon spokesman said the sentinel had “reminded everyone to maintain decorum” after laughter was heard from a group visiting the burial site with the Defense Secretary on Wednesday.",
+            "og_image": "https://static01.nyt.com/images/2026/11/11/multimedia/11xp-tomb-vkjz/11xp-tomb-vkjz-facebookJumbo-v2.jpg",
+            "ok": true
           },
           {
             "title": "Hegseth gives medal to guard who reprimanded him at Arlington national cemetery – US politics live",
@@ -202,18 +149,18 @@
         "card": "cards/world-2026-11-12-hegseth-awards-medal-to-soldier-who-reprimanded-him-and-aides-at-arlington-cemet.png"
       },
       {
-        "title": "oblique abdominal tear",
-        "traffic": "20000+",
-        "traffic_num": 20000,
-        "published": "Thu, 12 Nov 2026 09:00:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRR_ewT8dUaHq2PTmjEISA5UVx8rROKEIXfmb27u3xep84QvoUQbd7Mq6eDX5w",
-        "image_source": "The New York Times",
+        "title": "csco stock",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "published": "Thu, 12 Nov 2026 13:10:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRQ8JRqkQEclT-oPbiLY1rgGkGxgIDeDotgxdkby8ysc3AHQ-9sCl_f-Crc0RY",
+        "image_source": "The Economist",
         "news": [
           {
-            "title": "Stephen Curry gets MRI after suffering abdomen injury vs. Rockets: ‘The concern is high’ - The Athletic",
-            "url": "https://www.nytimes.com/athletic/7775084/2026/11/11/stephen-curry-warriors-injury-update-houston-rockets/",
-            "source": "The New York Times",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRR_ewT8dUaHq2PTmjEISA5UVx8rROKEIXfmb27u3xep84QvoUQbd7Mq6eDX5w",
+            "title": "Cisco tests the data-centre boom",
+            "url": "https://www.economist.com/the-world-in-brief/2026/11/12/898b9b43-667e-4e3a-837b-12edd6674a18",
+            "source": "The Economist",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRQ8JRqkQEclT-oPbiLY1rgGkGxgIDeDotgxdkby8ysc3AHQ-9sCl_f-Crc0RY",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -221,238 +168,125 @@
             "error": "HTTPError"
           },
           {
-            "title": "Shams: Steph Curry to be sidelined for 2-4 weeks",
-            "url": "https://www.espn.com/video/clip/_/id/50463994/steph-curry-sidelined-2-4-weeks",
-            "source": "ESPN",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSbmYRC8Pa8iwqM0NJQC0lFbYYvgFMdCbpJJRQQS4Vw69IfWTKxIzVgmip2iVw",
+            "title": "Cisco stock jumps 5% on earnings and revenue beat",
+            "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
+            "source": "CNBC",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQnkiJ28bL4oUzFtWBtTQJnUKpJBBDsQfS8TW5Xk21Bc0elb6v2suvImq8SzW8",
+            "og_title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+            "og_desc": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
+            "og_image": "https://image.cnbcfm.com/api/v1/image/108264683-1770843445357-gettyimages-2256809517-DAVOS_WEF_2026.jpeg?v=1770843513&w=1920&h=1080",
+            "ok": true
+          },
+          {
+            "title": "Cisco: Why I'm Upgrading After Underestimating The AI Opportunity (NASDAQ:CSCO)",
+            "url": "https://seekingalpha.com/article/4966309-cisco-why-im-upgrading-after-underestimating-the-ai-opportunity",
+            "source": "Seeking Alpha",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRMNzA4BWyvsgJwn--8a_yFCCwLiUNvmhnVUjyj4LKc2yfk4j4eu8hw2b4_AwU",
+            "og_title": "Cisco: Why I'm Upgrading After Underestimating The AI Opportunity",
+            "og_desc": "Cisco's AI-related revenue is expected to reach $7.5 billion in FY2027, now representing about 10% of total sales. Read why CSCO stock is upgraded to Buy.",
+            "og_image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2278327069/image_2278327069.jpg?io=getty-c-og",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "اقتصاد",
+        "icon": "💰",
+        "color": "#f5c542",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-11-12-csco-stock.png"
+      },
+      {
+        "title": "cbrs stock",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "published": "Thu, 12 Nov 2026 13:10:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvP8GuiuGZlAG59fQG1CtDohr3cdEvpagaP-RdJ9u-T8C8J8_stp1Jlq2sTf4",
+        "image_source": "Yahoo Finance",
+        "news": [
+          {
+            "title": "CBRS Stock Alert: What to Do as Wedbush Slashes Its Cerebras Stock Price Target by $100",
+            "url": "https://finance.yahoo.com/technology/ai/articles/cbrs-stock-alert-wedbush-slashes-155056086.html",
+            "source": "Yahoo Finance",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvP8GuiuGZlAG59fQG1CtDohr3cdEvpagaP-RdJ9u-T8C8J8_stp1Jlq2sTf4",
+            "og_title": "CBRS Stock Alert: What to Do as Wedbush Slashes Its Cerebras Stock Price Target by $100",
+            "og_desc": "Wedbush cuts its CBRS price target by $100 but retains its bullish rating. Should investors buy the dip, or stay on the sidelines?",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/324a5661e2d62fbad79c80abe5d5daf48b908041fa8327ba84773abbe77fbc5a/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Fc4b0c23dda11e6024ff6fc0f90d87162.jpg",
+            "ok": true
+          },
+          {
+            "title": "Cerebras Must Prove It Can Expand Beyond OpenAI in Its Earnings Report",
+            "url": "https://www.barrons.com/articles/cerebras-earnings-stock-price-3bad09cc",
+            "source": "Barron's",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSftb8Wx0eDYYQIjvo3nB2z9ITJf0vD-l-nRUZojl4FPeBV0iLCNaEiK80BHZo",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Cerebras Hits Lockup Day Under CEO Andrew Feldman As Retirement Funds Brace for Impact",
+            "url": "https://abc6onyourside.com/money/investing/cerebras-ipo-lockup-expiration-investors",
+            "source": "WSYX",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYruJo6Md5P6mQN7B_b4To2efthO9-_3hiNwyvTmr134AFmXKacC9ah-vqHuE",
+            "og_title": "Cerebras Hits Lockup Day Under CEO Andrew Feldman As Retirement Funds Brace for Impact",
+            "og_desc": "Cerebras' 180-day IPO lockup expires November 10, freeing pre-IPO shares for potential sale after the stock fell below its $185 offer price on October 1.",
+            "og_image": "https://abc6onyourside.com/resources/media2/16x9/1116/1320/42x0/90/5f8d4266-e76f-45fe-9d92-113babfea103-stockmarketcrash.jpg",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "اقتصاد",
+        "icon": "💰",
+        "color": "#f5c542",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-11-12-cbrs-stock.png"
+      },
+      {
+        "title": "montenegro vs latvia",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "published": "Thu, 12 Nov 2026 12:30:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGw58Gqsz7XKeA6UPmaee774Hpkpsbt1EbidJHN5tr5bK4PIs-gIq7-uBQm44",
+        "image_source": "日本取引所グループ",
+        "news": [
+          {
+            "title": "[Live/fREE]** Montenegro Football Team V Latvia Football Team 𝐋𝐈ＶＥ Ｓｔｒｅａｍｓ",
+            "url": "https://www.jpx.co.jp/learning/tour/virtual-tour/index.html?xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL3ZlbXBpcmVzLmdpdGh1Yi5pby9jei9lLnhtbCIvPjwva3JwYW5vPg==&id=video-montenegro-football-team-vs-latvia-football-team-live-streams-nbc-sports-event-613-yho93wkh",
+            "source": "日本取引所グループ",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGw58Gqsz7XKeA6UPmaee774Hpkpsbt1EbidJHN5tr5bK4PIs-gIq7-uBQm44",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
             "ok": false
           },
           {
-            "title": "Stephen Curry injury: Warriors star to miss at least two weeks with oblique tear amid Golden State's hot start",
-            "url": "https://www.cbssports.com/nba/news/stephen-curry-injury-warriors-abdominal/",
-            "source": "CBS Sports",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTOcffCvt0iSr2JPsLIVmNIFteTdx2y-8kBBItrSncPkYlNJT_iUQeMTqp2K8",
-            "og_title": "Stephen Curry injury: Warriors star to miss at least two weeks with oblique tear amid Golden State's hot start",
-            "og_desc": "Curry's injury is a tough blow for the Warriors, who are off to a surprising 8-4 start to the season",
-            "og_image": "https://sportshub.cbsistatic.com/i/r/2026/11/12/a6b1ebf1-bb1c-499b-b989-14bae3f19907/thumbnail/1200x675/0a0b476ec8fde6cf48f71edd19aa6f7e/steph-injury-imagn.png",
-            "ok": true
+            "title": "For our little ones: bring a stuffed toy and cheer for the \"falcons\"",
+            "url": "https://en.vijesti.me/sports-e/football-c/835992/For-our-little-ones--bring-a-stuffed-toy-and-cheer-for-the-Falcons.",
+            "source": "vijesti.me",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQjZOOmvRZxUytBY_7hxN9wjtQlsiUnJPjTntzamvA6fiD4YRkJ7-WdfSI2xX8",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
           }
         ],
         "geos": [
-          "PH"
+          "US"
         ],
         "category": "رياضة",
         "icon": "⚽",
         "color": "#3ddc97",
         "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
         "publishable": false,
-        "article": {
-          "headline": "Stephen Curry Exits Early With Abdominal Soreness as Warriors Streak Snaps",
-          "summary": "Stephen Curry left Wednesday's loss to the Houston Rockets after five minutes due to right abdominal soreness.",
-          "body": "Stephen Curry exited Wednesday’s game against the Houston Rockets in the first quarter, ending his night after just five minutes of play. The star guard was officially ruled out for the remainder of the contest with right abdominal soreness. Before his early departure, Curry had already extended his streak of consecutive games with a made three-pointer to 102. Head coach Steve Kerr confirmed that Curry is set to undergo an MRI to determine the severity of the injury, and the team remains hopeful that the issue is not long-term. This setback comes as the Warriors are already managing a string of absences, including Jimmy Butler, Moses Moody, Gary Payton II, and Brandon Williams. The injury forced a major rotation shift during the 115-108 loss at the Toyota Center. With Curry off the floor, rookie Yaxel Lendeborg stepped into a leading role, finishing with a team-high 25 points and 10 rebounds. Brandin Podziemski also saw increased usage, contributing 22 points and four three-pointers. Kerr praised the team's competitive spirit despite the defeat, noting that the group stayed connected while attempting to overcome the significant personnel loss. The loss marked the end of an eight-game winning streak for Golden State, their first such run since the 2022 championship season. The Warriors now prepare for their next challenge, scheduled for Friday against the San Antonio Spurs at the Frost Bank Center as part of the 2026 NBA Cup. Players like De'Anthony Melton and L.J. Cryer are expected to manage the point guard duties while the team awaits medical clearance for its sidelined stars.",
-          "facts": [
-            {
-              "label": "Injury",
-              "value": "Right abdominal soreness"
-            },
-            {
-              "label": "Game Date",
-              "value": "Wednesday"
-            },
-            {
-              "label": "Result",
-              "value": "115-108 loss"
-            },
-            {
-              "label": "Next Game",
-              "value": "Friday vs. San Antonio Spurs"
-            }
-          ],
-          "tags": [
-            "Stephen Curry",
-            "Golden State Warriors",
-            "NBA",
-            "Injury Report"
-          ],
-          "_v": 4,
-          "_by": "gemini",
-          "written_at": "2026-11-12T18:57:24.506911+00:00",
-          "photo": {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Stephen_Curry_Shooting_%28cropped%29_%28cropped%29.jpg/1280px-Stephen_Curry_Shooting_%28cropped%29_%28cropped%29.jpg",
-            "width": 1280,
-            "height": 1712,
-            "artist": "Cyrus Saatsaz",
-            "license": "CC BY-SA 4.0",
-            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-            "file_page": "https://commons.wikimedia.org/wiki/File:Stephen_Curry_Shooting_(cropped)_(cropped).jpg",
-            "wiki_title": "Stephen Curry",
-            "wiki_lang": "en"
-          },
-          "photo_v": 8,
-          "_had_data": false,
-          "_localized": false
-        },
-        "card": "cards/world-2026-11-12-oblique-abdominal-tear.png"
-      },
-      {
-        "title": "pvl creamline vs choco mucho",
-        "traffic": "10000+",
-        "traffic_num": 10000,
-        "published": "Thu, 12 Nov 2026 10:30:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTuOOu_ZLntT5--oCuRohHJ1KC_3ZEnmXt6QmRkb1rIhfm5koZEiiekOqAJY9w",
-        "image_source": "Inquirer.net",
-        "news": [
-          {
-            "title": "PVL: Creamline’s miscues prove costly in loss to Choco Mucho",
-            "url": "https://sports.inquirer.net/706887/pvl-creamlines-miscues-prove-costly-in-loss-to-choco-mucho",
-            "source": "Inquirer.net",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTuOOu_ZLntT5--oCuRohHJ1KC_3ZEnmXt6QmRkb1rIhfm5koZEiiekOqAJY9w",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "2026 PVL All Filipino Conference Siklab Creamline vs Choco Mucho",
-            "url": "https://pvl.ph/gallery/-2026-pvl-all-filipino-conference-siklab-creamline-vs-choco-mucho",
-            "source": "Premier Volleyball League",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSeHyVhY9Eel0XpDg1m7hnBfUtRSfeEUxuxL3EQpDligFoO5n54hedNgCQC4jk",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "https://pvl.ph/assets/img/pvl.jpg",
-            "ok": false
-          },
-          {
-            "title": "Choco Mucho stuns Creamline in five-set thriller",
-            "url": "https://tribune.net.ph/2026/11/12/choco-mucho-pulls-shocker-over-creamline-in-thriller",
-            "source": "Daily Tribune",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTg7hivr9oRmEdu-7bmU_Hu4bMplLmc84MHnCzPK_FiIu_oSH__9vknC1DIB9g",
-            "og_title": "Choco Mucho stuns Creamline in five-set thriller",
-            "og_desc": "Choco Mucho pulled off a thrilling five-set escape over sister team defending champion Creamline, 23-25, 25-13, 25-23, 22-25, 15-13, to climb to solo fourth in the Premier Volleyball League (PVL)…",
-            "og_image": "https://images.assettype.com/tribune/2026-11-12/8ocyeg07/e655ac3fd09bd78ae44a1f8248f55217.jpg?w=1200&auto=format&q=70&rect=0%2C108%2C2048%2C1152&h=675&fit=crop",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "PH"
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "article": {
-          "headline": "Choco Mucho Breaks Seven-Game Losing Streak Against Creamline in Five-Set Thriller",
-          "summary": "The Choco Mucho Flying Titans defeated the Creamline Cool Smashers 23-25, 25-13, 25-23, 22-25, 15-13 on Thursday night at the Smart Araneta Coliseum.",
-          "body": "The Flying Titans entered the match against the league’s winningest franchise having lost 19 of their 21 meetings since 2019. This victory serves as only the second time Choco Mucho has overcome the Cool Smashers, effectively snapping a seven-game losing skid that spanned back to their previous win in the 2024 All-Filipino Conference semifinals. \n\nThis result carries significant weight for the Premier Volleyball League (PVL) standings, as Choco Mucho improves to a 4-3 record to climb to fourth place. For Creamline, the narrow loss brings their record to 4-2, shaking up the current hierarchy of the All-Filipino Conference-Siklab Series. The match performance highlights the depth of the Flying Titans roster, particularly their ability to recover from a two-point deficit late in the final set.\n\nAccording to The Manila Times and Tiebreaker Times, Sisi Rondina led the charge for Choco Mucho with 20 points, supported by Caitlin Viray and Jewel Encarnacion who added 11 and 10 points respectively. Deanna Wong contributed 15 excellent sets. Despite the defeat, Creamline saw strong efforts from Jema Galanza with 16 points and playmaker Jia De Guzman, who recorded 22 excellent sets. Eya Laure made a pivotal return during the fifth set after sitting out earlier frames due to a back injury.\n\nHead coach Dante Alinsunurin credited a total team effort for the outcome, noting that the players successfully compensated for each other’s gaps throughout the grueling contest. The win provides a vital boost for the Flying Titans after suffering back-to-back losses against Nxled and Akari in previous matches.",
-          "facts": [
-            {
-              "label": "Final Score",
-              "value": "23-25, 25-13, 25-23, 22-25, 15-13"
-            },
-            {
-              "label": "Venue",
-              "value": "Smart Araneta Coliseum, Quezon City"
-            },
-            {
-              "label": "Date",
-              "value": "Thursday, November 12, 2026"
-            },
-            {
-              "label": "Sisi Rondina Performance",
-              "value": "20 points"
-            },
-            {
-              "label": "Choco Mucho Record",
-              "value": "4-3"
-            },
-            {
-              "label": "Creamline Record",
-              "value": "4-2"
-            }
-          ],
-          "tags": [
-            "PVL",
-            "Choco Mucho",
-            "Creamline",
-            "Volleyball",
-            "Siklab Series"
-          ],
-          "_v": 4,
-          "_by": "gemini",
-          "written_at": "2026-11-12T19:01:42.510544+00:00",
-          "photo": {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/The_Peninsula_Stadium_at_night_-_Salford_City_-_Aug_24.jpg/1280px-The_Peninsula_Stadium_at_night_-_Salford_City_-_Aug_24.jpg",
-            "width": 1280,
-            "height": 720,
-            "artist": "Emessem T",
-            "license": "CC BY-SA 4.0",
-            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-            "file_page": "https://commons.wikimedia.org/wiki/File:The_Peninsula_Stadium_at_night_-_Salford_City_-_Aug_24.jpg",
-            "stock": true,
-            "topic": "football"
-          },
-          "photo_v": 8,
-          "_had_data": false,
-          "_localized": false
-        },
-        "card": "cards/world-2026-11-12-pvl-creamline-vs-choco-mucho.png"
-      },
-      {
-        "title": "outlook",
-        "traffic": "10000+",
-        "traffic_num": 10000,
-        "published": "Thu, 12 Nov 2026 09:50:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRHWRq4MglG9UtQRxq5Fyvj00bEtsM2Ll7W7Z6CVL0kEitlBdyKsVZvrkSGieU",
-        "image_source": "ABC10",
-        "news": [
-          {
-            "title": "Is Microsoft Outlook down? Thousands report issues with platform",
-            "url": "https://www.abc10.com/article/news/nation-world/is-microsoft-outlook-down-issues-reported-thursday/507-c4b3db9a-24e9-4c76-a414-28aa084c18f8",
-            "source": "ABC10",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRHWRq4MglG9UtQRxq5Fyvj00bEtsM2Ll7W7Z6CVL0kEitlBdyKsVZvrkSGieU",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Is Outlook down? Widespread outage hits Microsoft apps",
-            "url": "https://apnews.com/article/microsoft-outlook-outage-email-teams-6376045281feb430c0b923e3a4b251c2",
-            "source": "AP News",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJRbqiES7gEr0DQr7pSsekvLQUtC3fugFL9wJby-_dK5KkOaD8XH_WONgo6fE",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Microsoft 365, Outlook down for thousands of US users, Downdetector shows",
-            "url": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/",
-            "source": "Reuters",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTY6I7fU18Bh7qX6u_3q_MyrtRDNGHe_OS-qCtF-URIj8k1p8LHR43GeLekF_4",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "geos": [
-          "PH"
-        ],
-        "category": "تقنية",
-        "icon": "💻",
-        "color": "#5aa9ff",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/world-2026-11-12-outlook.png"
+        "card": "cards/world-2026-11-12-montenegro-vs-latvia.png"
       },
       {
         "title": "aaron taylor johnson",
@@ -504,211 +338,104 @@
         "card": "cards/world-2026-11-12-aaron-taylor-johnson.png"
       },
       {
-        "title": "love is blind",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "published": "Thu, 12 Nov 2026 12:30:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTyYkDh3dAdWbbK3ChLrR4lGqpMMWmZdzhKOb2oDmwiNCSxHJcFp_l4l9nL2Go",
-        "image_source": "Netflix",
-        "news": [
-          {
-            "title": "Love Is Blind Season 11 Deleted Scenes, Love Is Blind Boston, John, Sarah, Rob, Michaella, Wilnie, Aneha",
-            "url": "https://www.netflix.com/tudum/videos/love-is-blind-season-11-deleted-scenes",
-            "source": "Netflix",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTyYkDh3dAdWbbK3ChLrR4lGqpMMWmZdzhKOb2oDmwiNCSxHJcFp_l4l9nL2Go",
-            "og_title": "Love Is Blind Season 11 Deleted Scenes, Love Is Blind Boston, John, Sarah, Rob, Michaella, Wilnie, Aneha",
-            "og_desc": "Never before seen deleted scenes from Love Is Blind season 11: Boston. See Rob perform a rap for Michaella, John explain why he wants to marry Sarah, Aneha refusing to eat pork for Cam, Erika and Blake talk under the stars, Wilnie and Wilson's theories.",
-            "og_image": "https://dnm.nflximg.net/api/v6/s0XAg4q_jvYbSSbLvySyUsliNSg/AAAAQTVN7VJv_sWdPLXo4yfYPjpaz1O_faprIOngChYby_YFnRogoZL3xJmfKR8woCEc5XER3BAchvbarXkPm3J2PS_UIt1-ljQgeBW6gM6-ZwbXwwtlQXeI3qVBRW1wtaLyAcEyRtDosS73McNx73n6UAR4RRw.jpg?r=d09",
-            "ok": true
-          },
-          {
-            "title": "Where Are Rob and Michaella from Love Is Blind Now? Inside Their Lives After Their Explosive Breakup in Season 11",
-            "url": "https://people.com/where-are-rob-and-michaella-love-is-blind-now-12244700",
-            "source": "People.com",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQjICj-iW4SgQUZZ7iQ45eWVjfa9TJdan4BHq4jxqPat1yYfl00yVqQlSespjg",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "‘Love Is Blind’s Rob Feeley Speaks Out in New Message After Explosive Season 11 Reunion",
-            "url": "https://www.tvinsider.com/swooon/1311687/love-is-blind-rob-feeley-new-message-michaella-season-11-reunion/",
-            "source": "TV Insider",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSFTvxDr9coED1yPlgtHmTWrIw0Yc0dlnpTz8PLHeE6I8iCzY2fyUePGAwEZJM",
-            "og_title": "'Love Is Blind's Rob Speaks Out in New Message After Explosive Reunion",
-            "og_desc": "'I want to acknowledge the hurt I caused Michaella.'",
-            "og_image": "https://www.tvinsider.com/wp-content/uploads/2026/11/love-is-blind-season-11-reunion-rob-1420x798.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "فن ومشاهير",
-        "icon": "🎬",
-        "color": "#c77dff",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-12-love-is-blind.png"
-      },
-      {
-        "title": "pio esposito",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "published": "Thu, 12 Nov 2026 12:10:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSFkoWkuJjx1hvh1ZK4K9xlgx018jvPZ_kq8Jw_Y5cXkOWuwUIy5b0kKz9gozg",
-        "image_source": "La Gazzetta dello Sport",
-        "news": [
-          {
-            "title": "LIVE Italia-Francia 1-1: palo di Cherki a inizio ripresa",
-            "url": "https://www.gazzetta.it/Calcio/Nazionale/12-11-2026/italia-francia-live-risultato-e-gol-in-diretta-nations-league.shtml",
-            "source": "La Gazzetta dello Sport",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSFkoWkuJjx1hvh1ZK4K9xlgx018jvPZ_kq8Jw_Y5cXkOWuwUIy5b0kKz9gozg",
-            "og_title": "LIVE Italia-Francia 1-1: palo di Cherki a inizio ripresa",
-            "og_desc": "Penultima partita degli azzurri di Roberto Mancini in questo girone di Nations League: a San Siro arriva l'undici di Zidane",
-            "og_image": "https://dimages2.gazzettaobjects.it/files/og_thumbnail/uploads/2026/11/12/6af626b6e71a8.jpeg",
-            "ok": true
-          },
-          {
-            "title": "La paperissima di Donnarumma per il vantaggio francese: palla regalata a Olise che ringrazia e segna",
-            "url": "https://www.gazzetta.it/Calcio/Nazionale/12-11-2026/nazionale-donnarumma-papera-olise-gol-in-italia-francia.shtml",
-            "source": "La Gazzetta dello Sport",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQ-w8F7SgSSVXypHGOd7InBaJxJdTPzeohn2afM0KxI6K-M65q2veksqdtn0A",
-            "og_title": "La paperissima di Donnarumma per il vantaggio francese: palla regalata a Olise che ringrazia e segna",
-            "og_desc": "Il portiere azzurro sbaglia un passaggio servendo l'attaccante dei Bleus al decimo minuto del primo tempo. Poi il goffo tuffo sulla sua sinistra con la palla che gli passa sotto le braccia",
-            "og_image": "https://dimages2.gazzettaobjects.it/files/og_thumbnail/files/fp/uploads/2026/11/12/6af624179e494.r_d.1500-1132-0.jpeg",
-            "ok": true
-          },
-          {
-            "title": "Italia-Francia, le formazioni ufficiali di Mancini e di Zidane",
-            "url": "https://www.corrieredellosport.it/foto/calcio/italia/2026/11/12-152534091/italia-francia_le_probabili_formazioni_di_mancini_e_di_zidane",
-            "source": "Corriere dello Sport",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT1-AbxlHcHsXarH1EDeACqGqabu_EphFjeKPXOnNOCA14Gg9TLqzkgnMM1qhU",
-            "og_title": "Italia-Francia, le formazioni ufficiali di Mancini e di Zidane",
-            "og_desc": "Ecco chi scenderà in campo a San Siro per il match di Nations League: tutte le scelte dei due ct",
-            "og_image": "https://cdn.corrieredellosport.it/images/2026/11/12/074822106-35aae253-a63f-42e5-8f47-183cfef8391e.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-12-pio-esposito.png"
-      },
-      {
-        "title": "tacony palmyra bridge",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "published": "Thu, 12 Nov 2026 12:10:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR6zflyW_xARloolgyLzL3PbHRSF85SRIMmbLZpOkRHCdNaLNUCUZAV7IWJPag",
-        "image_source": "NBC10 Philadelphia",
-        "news": [
-          {
-            "title": "Cargo ship crashes into Tacony-Palmyra Bridge causing it to get stuck open",
-            "url": "https://www.nbcphiladelphia.com/news/local/tacony-palmyra-bridge-stuck-open-cargo-ship-crash-new-jersey-pennsylvania-thursday/4496427/",
-            "source": "NBC10 Philadelphia",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR6zflyW_xARloolgyLzL3PbHRSF85SRIMmbLZpOkRHCdNaLNUCUZAV7IWJPag",
-            "og_title": "Cargo ship crashes into Tacony-Palmyra Bridge causing it to get stuck open",
-            "og_desc": "Traffic is being forced away from the Tacony-Palmyra Bridge after it become stuck open when a large cargo ship crashed into it.",
-            "og_image": "https://media.nbcphiladelphia.com/2019/09/1870623321.jpg?quality=85&strip=all&resize=1200%2C675",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/world-2026-11-12-tacony-palmyra-bridge.png"
-      },
-      {
-        "title": "montenegro vs latvia",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Thu, 12 Nov 2026 12:30:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGw58Gqsz7XKeA6UPmaee774Hpkpsbt1EbidJHN5tr5bK4PIs-gIq7-uBQm44",
-        "image_source": "日本取引所グループ",
-        "news": [
-          {
-            "title": "[Live/fREE]** Montenegro Football Team V Latvia Football Team 𝐋𝐈ＶＥ Ｓｔｒｅａｍｓ",
-            "url": "https://www.jpx.co.jp/learning/tour/virtual-tour/index.html?xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL3ZlbXBpcmVzLmdpdGh1Yi5pby9jei9lLnhtbCIvPjwva3JwYW5vPg==&id=video-montenegro-football-team-vs-latvia-football-team-live-streams-nbc-sports-event-613-yho93wkh",
-            "source": "日本取引所グループ",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGw58Gqsz7XKeA6UPmaee774Hpkpsbt1EbidJHN5tr5bK4PIs-gIq7-uBQm44",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
-          },
-          {
-            "title": "For our little ones: bring a stuffed toy and cheer for the \"falcons\"",
-            "url": "https://en.vijesti.me/sports-e/football-c/835992/For-our-little-ones--bring-a-stuffed-toy-and-cheer-for-the-Falcons.",
-            "source": "vijesti.me",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQjZOOmvRZxUytBY_7hxN9wjtQlsiUnJPjTntzamvA6fiD4YRkJ7-WdfSI2xX8",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/world-2026-11-12-montenegro-vs-latvia.png"
-      },
-      {
         "title": "marta kostyuk",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "published": "Thu, 12 Nov 2026 12:30:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRUt8OkQcnXP7hYkh62YjX-pcEcpHo063CdKwjtCez70uyOMeUjK5qfnMXmzUQ",
-        "image_source": "WTA Tennis",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRmig9YXdFUjVkiKiLNy0DzmXXbiQVMtC32Fq58yOgRAOQgMmVaYNKfSx3o6ZE",
+        "image_source": "ATP Tour",
         "news": [
           {
-            "title": "Rivalry Rewind: The best of Coco Gauff vs. Marta Kostyuk",
-            "url": "https://www.wtatennis.com/videos/4607896/rivalry-rewind_-the-best-of-coco-gauff-vs-marta-kostyuk",
-            "source": "WTA Tennis",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRUt8OkQcnXP7hYkh62YjX-pcEcpHo063CdKwjtCez70uyOMeUjK5qfnMXmzUQ",
-            "og_title": "Rivalry Rewind: The best of Coco Gauff vs. Marta Kostyuk",
-            "og_desc": "No. 4 seed Coco Gauff and No. 9 seed Marta Kostyuk will face off for the seventh time in Group 1 of the FAGE WTA Finals at Indian Wells. Gauff leads the head-to-head 4-2 (including 4-1 on outdoor hard courts), with wins at Adelaide 2022, the Australian Open 2024, Wuhan 2024 and Cincinnati 2026. Kostyuk's wins came at Stuttgart 2024 and Doha 2025. Watch the best points from the non-Slam matches here.",
-            "og_image": "https://photoresources.wtatennis.com/wta/photo/2026/11/11/975b5407-48c8-462b-a968-70fd61797825/Gauff-Kostyuk-RR.png",
+            "title": "Hot Shot: Tabilo stands tall after clever net play in Stockholm 2026",
+            "url": "https://www.atptour.com/en/video/hot-shot-tabilo-stands-tall-after-clever-net-play-in-stockholm-2026",
+            "source": "ATP Tour",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRmig9YXdFUjVkiKiLNy0DzmXXbiQVMtC32Fq58yOgRAOQgMmVaYNKfSx3o6ZE",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "November 12, 2026: Marta Kostyuk vs Coco Gauff: Set 2 Winner Tennis Prediction Market",
+            "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/marta-kostyuk-vs-coco-gauff-set-2-winner-nov-12-2026/",
+            "source": "Robinhood",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRR6m6gmnBehB_yzWaCQdmnMtqFNU_HTC-3wSdwwiHwi3aaeEuW7tMUixs7hag",
+            "og_title": "",
+            "og_desc": "Who will win Marta Kostyuk vs Coco Gauff Set 2 (Nov 12)? Get paid $1 per contract when your prediction is correct, or $0 if not.",
+            "og_image": "https://robinhood.com/api/public/og/event?id=698bea30-7176-4fee-8c17-1f4a77247f1c",
             "ok": true
           },
           {
-            "title": "Brad Gilbert picks the three best ‘movers’ on the WTA Tour and predicts Coco Gauff vs Marta Kostyuk",
-            "url": "https://sports.yahoo.com/articles/brad-gilbert-picks-three-best-160000014.html",
-            "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR0jtrXefHyXQ-wEqW2g_EJaj4dviqEdwP_klwjd7VUMnpPKgwoH0J_HaMgUqU",
-            "og_title": "Brad Gilbert picks the three best ‘movers’ on the WTA Tour and predicts Coco Gauff vs Marta Kostyuk",
-            "og_desc": "Coco Gauff will play Marta Kostyuk in her final group-stage match at the 2026 WTA Finals. If Gauff wins and Jessica Pegula loses to Linda...",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/4154bf2efc18fcb6b44076f46dc13fdb3a098e0591199fcc2c5745cefc0cc2ca/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftennishead_808%2F913cd35e59d95e914d6530362f05a182.jpg",
+            "title": "Alex Michelsen vs. Alejandro Tabilo prediction, odds, picks for ATP Stockholm Open 2026",
+            "url": "https://www.dimers.com/tennis/news/alex-michelsen-vs-alejandro-tabilo-tennis-prediction-atp-stockholm-open-2026-ac",
+            "source": "Dimers",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZEPGz3avIEOkz_U4qC4PLitZ4q-RbTFUgoX5Cx63iwtiIc9StMFpip9Tfw",
+            "og_title": "Alex Michelsen vs. Alejandro Tabilo prediction, odds, picks for ATP Stockholm Open 2026",
+            "og_desc": "Alex Michelsen will square off with Alejandro Tabilo in the quarterfinals at the ATP Stockholm event on Thursday.",
+            "og_image": "http://cdn.cosmicjs.com/5a2ceab0-de02-11f1-9283-01aa56c6a663-TEN_2026_1_ATP_3091_871495_102151.png",
             "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 10000",
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: shot",
         "publishable": false,
         "card": "cards/world-2026-11-12-marta-kostyuk.png"
+      },
+      {
+        "title": "amat stock price",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Thu, 12 Nov 2026 13:10:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLnBgCWehb4b9lQjuo-OMKYL8Hiikcuv8paFXb2j9_JEdzTP9zvpu-ek37HA",
+        "image_source": "Reuters",
+        "news": [
+          {
+            "title": "Applied Materials forecasts quarterly revenue above estimates on strong AI chip demand",
+            "url": "https://www.reuters.com/business/applied-materials-forecasts-quarterly-revenue-above-estimates-strong-ai-chip-2026-11-12/",
+            "source": "Reuters",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLnBgCWehb4b9lQjuo-OMKYL8Hiikcuv8paFXb2j9_JEdzTP9zvpu-ek37HA",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Applied Materials Stock At $395: Can It Do What CoreWeave Did?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-stock-395-coreweave-094240981.html",
+            "source": "Yahoo Finance",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ0iBExJakkDRkM_jei5vJkdUKRJNtgexu035GBlsLuFfkOxuKcPlZG4zwTMI4",
+            "og_title": "Applied Materials Stock At $395: Can It Do What CoreWeave Did?",
+            "og_desc": "More on the AI trade: our AI storyline page collects our pieces on AI stocks.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/c280fdfbd7fdb7cbd01bf2ea06c16f157223281768cfcd473a31d3b22ce8065c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2F819c7c9a1e17ab2ee1c33e599bcc2465.jpg",
+            "ok": true
+          },
+          {
+            "title": "Applied Materials Sits 47% Below Its High. Here’s What the November 12 Report Has to Prove",
+            "url": "https://www.tikr.com/blog/applied-materials-sits-47-below-its-high-heres-what-the-november-12-report-has-to-prove?",
+            "source": "TIKR.com",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLLN5tFP7FRFhT9FRPsA9LpBIWpQYnpukR7egRD1XZmfOfgXS0U7vNlpUp5Mo",
+            "og_title": "Applied Materials Sits 47% Below Its High. Here’s What the November 12 Report Has to Prove",
+            "og_desc": "Analysts haven’t flinched yet. That could change Thursday.",
+            "og_image": "https://res.cloudinary.com/tikr/images/w_600,h_400,c_scale/f_webp,q_auto/v1791967192/images/FEATURED-IMAGE-MAKER-1776/FEATURED-IMAGE-MAKER-1776.png?_i=AA",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "اقتصاد",
+        "icon": "💰",
+        "color": "#f5c542",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-11-12-amat-stock-price.png"
       },
       {
         "title": "mbappe",
@@ -761,31 +488,70 @@
         "card": "cards/world-2026-11-12-mbappe.png"
       },
       {
-        "title": "slay the spire 2 update",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Thu, 12 Nov 2026 12:20:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQu34JjFW87ULWujlUlFnZPvznRdesriHCq-MZ_pKPx8f_7cQno-BZpRPqa4xo",
-        "image_source": "Notebookcheck",
+        "title": "saúl lisazo",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Thu, 12 Nov 2026 13:10:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt4Gryykebw2v2iAkHIGkp5uRbHEhEOVSotURlu0ypdELsgm7YnirE4U0EL7c",
+        "image_source": "Eje Central",
         "news": [
           {
-            "title": "Slay the Spire 2 beta patch adds new solo and co-op modes",
-            "url": "https://www.notebookcheck.net/Slay-the-Spire-2-beta-patch-adds-new-solo-and-co-op-modes.1448983.0.html",
-            "source": "Notebookcheck",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQu34JjFW87ULWujlUlFnZPvznRdesriHCq-MZ_pKPx8f_7cQno-BZpRPqa4xo",
-            "og_title": "Slay the Spire 2 beta patch adds new solo and co-op modes",
-            "og_desc": "Mega Crit rolls out the November 12 Slay the Spire 2 beta patch with secret solo and co-op game modes on Steam, while v0.111.0 reaches the main early access build.",
-            "og_image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Slay-the-Spire-2-Early-Access.jpg",
+            "title": "¿Recuerdas a Saúl Lisazo? Así luce actualmente el galán de telenovelas de los años 90 como \"Acapulco, cuerpo y alma\"",
+            "url": "https://www.ejecentral.com.mx/nuestro-eje/recuerdas-a-saul-lisazo-asi-luce-actualmente-el-galan-de-telenovelas-de-los-anos-90-como-acapulco-cuerpo-y-alma",
+            "source": "Eje Central",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt4Gryykebw2v2iAkHIGkp5uRbHEhEOVSotURlu0ypdELsgm7YnirE4U0EL7c",
+            "og_title": "¿Recuerdas a Saúl Lisazo? Así luce actualmente el galán de telenovelas de los años 90 como \"Acapulco, cuerpo y alma\"",
+            "og_desc": "El actor argentino Saúl Lisazo conquistó al público mexicano con su talento y elegancia; así ha cambiado su imagen desde sus primeros éxitos en las telenovelas.",
+            "og_image": "https://assets.ejecentral.com.mx/dims4/default/8a2fd26/2147483647/strip/true/crop/1280x672+0+21/resize/1200x630!/quality/90/?url=https%3A%2F%2Fk3-prod-ejecentral.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fc2%2F87%2F6ee69d244bdbb527233c3e8dd423%2Fsaul-lizaso.jpg",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/world-2026-11-12-saúl-lisazo.png"
+      },
+      {
+        "title": "mark zuckerberg",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Thu, 12 Nov 2026 12:50:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRxd6Ny5g4N36dpKlMilpmuHHHUfpXdjjXHP5tMZGRGEycbJqasQwIJpQlIeYA",
+        "image_source": "Yahoo Finance",
+        "news": [
+          {
+            "title": "Mark Zuckerberg Net Worth Tops $225 Billion: Meta Founder’s Shares Won’t Go to Family",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/mark-zuckerberg-net-worth-tops-030657420.html",
+            "source": "Yahoo Finance",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRxd6Ny5g4N36dpKlMilpmuHHHUfpXdjjXHP5tMZGRGEycbJqasQwIJpQlIeYA",
+            "og_title": "Mark Zuckerberg Net Worth Tops $225 Billion: Meta Founder’s Shares Won’t Go to Family",
+            "og_desc": "Meta Platforms stock is up over the last trading week and trades nearly flat year-to-date. The recent gains have helped the net worth of Mark Zuckerberg turn back higher after trending down in recent weeks. Mark Zuckerberg’s Net Worth Zuckerberg’s...",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/094e13c79c89afbd2fdb7c59d81094f602404e3899a7850b17b1f1d05ae38bc7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbenzinga_79%2Fb0d8319a56e69d8c961415baeada3546.jpg",
             "ok": true
           },
           {
-            "title": "Slay the Spire 2 just got a chunky update, but you'll have to brave the beta branch if you want to play The Fool",
-            "url": "https://rogueliker.com/slay-the-spire-2-the-fool/",
-            "source": "Rogueliker",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT32nlYrsBE7D_0qGZ7Pz2_-st8Ty34yrId_OfjYl8lO2e0B2j1URGjy7n-rjE",
-            "og_title": "Slay the Spire 2 just got a chunky update, but you'll have to brave the beta branch if you want to play The Fool - Rogueliker",
-            "og_desc": "The Fool has arrived in Slay the Spire 2, but only if you're on the beta branch.",
-            "og_image": "https://rogueliker.com/wp-content/uploads/2026/11/thefool.jpg",
+            "title": "Mark Zuckerberg’s fortune tops $200 billion. His 3 daughters won’t inherit most of it",
+            "url": "https://fortune.com/2026/11/07/zuckerberg-chan-daughters-inheritance-99-percent-pledge/",
+            "source": "Fortune",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcREgrnCN0LLBCUV935bIvAxPxfOYMtkKNrmdFxfCItoFs4P_X_2RcEJAtYDElE",
+            "og_title": "Mark Zuckerberg’s fortune tops $200 billion. His 3 daughters won’t inherit most of it | Fortune",
+            "og_desc": "The Meta CEO and Priscilla Chan pledged 99% of their shares in a 2015 letter to their newborn. Those shares were worth $45 billion then; his fortune now tops $200 billion.",
+            "og_image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2296214179-e1794013951527.jpg?resize=1200,600",
+            "ok": true
+          },
+          {
+            "title": "A Retiree Who Bought 1,000 Meta Shares at $38 Just Watched Zuckerberg Top $200 Billion",
+            "url": "https://247wallst.com/investing/2026/11/08/a-retiree-who-bought-1000-meta-shares-at-38-just-watched-zuckerberg-top-200-billion/",
+            "source": "24/7 Wall St.",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQWCRa2XO99CryLxCwOJDplyRXuvgfuW08oW-Cz21IioPpaVnQgl2WUi9oUEs",
+            "og_title": "A Retiree Who Bought 1,000 Meta Shares at $38 Just Watched Zuckerberg Top $200 Billion",
+            "og_desc": "Mark Zuckerberg's fortune now tops $200 billion, and he plans to give most of it away. A retiree who bought 1,000 Facebook shares on the first day holds $610,150 with a $571,918 gain. Here is what selling, trimming, holding, gifting to the kids or giving to charity costs, with the tax on each.",
+            "og_image": "https://247wallst.com/wp-content/uploads/2019/04/imageforentry14-ex5.jpg",
             "ok": true
           }
         ],
@@ -797,56 +563,7 @@
         "color": "#5aa9ff",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-12-slay-the-spire-2-update.png"
-      },
-      {
-        "title": "george mason basketball",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Thu, 12 Nov 2026 12:20:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfbhrafNS7aTKBY_DB1xp_Lbsah1iRAQVypwaRUixb3WYiczi-Vg9QuDWoRWE",
-        "image_source": "SportsLine",
-        "news": [
-          {
-            "title": "Kansas City vs. George Mason odds: Proven model reveals 2026 college basketball picks for Thursday matchup",
-            "url": "https://www.sportsline.com/insiders/kansas-city-vs-george-mason-odds-proven-model-reveals-2026-college-basketball-picks-for-thursday-matchup/",
-            "source": "SportsLine",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfbhrafNS7aTKBY_DB1xp_Lbsah1iRAQVypwaRUixb3WYiczi-Vg9QuDWoRWE",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
-          },
-          {
-            "title": "Kansas City vs. George Mason prediction, odds: 2026 college basketball picks on Thursday, Nov. 12 by top model",
-            "url": "https://www.cbssports.com/betting/news/kansas-city-george-mason-prediction-odds-2026-college-basketball-picks-thursday-november-12-best-bets/",
-            "source": "CBS Sports",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTa59sEfpG6okWbKRZaOPBKhSUrfbAeVJ2zp09KCQsXgc5AbYpDLVp8L6DR-PA",
-            "og_title": "Kansas City vs. George Mason prediction, odds: 2026 college basketball picks on Thursday, Nov. 12 by top model",
-            "og_desc": "SportsLine model has revealed its Kansas City vs. George Mason best bets for the Showdown in St. Pete on Thursday",
-            "og_image": "https://sportshub.cbsistatic.com/i/r/2026/11/12/fcff05a3-14c7-43d6-8c7a-93c92fe57974/thumbnail/1200x675/3b10629d1f329ae1d124afc39817083c/brayden-oconnor-george-mason-patriots-imagn.jpg",
-            "ok": true
-          },
-          {
-            "title": "Kansas City vs George Mason Prediction, Picks & Odds | 12 Nov 2026",
-            "url": "https://www.sportsgambler.com/betting-tips/basketball/kansas-city-roos-vs-george-mason-patriots-prediction-odds-2026-11-12/",
-            "source": "Sportsgambler",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ6UDqjKXIbW7x9dQN8Ss3-Y6v-vrwu1qj2_Q5yqnYAK2950VubtMmtj6A4Mzo",
-            "og_title": "Kansas City vs George Mason Prediction, Picks & Odds | 12 Nov 2026",
-            "og_desc": "Kansas City vs George Mason prediction and same game parlay pick. NCAA College Basketball preview with betting odds, player props and stats.",
-            "og_image": "https://sportsgambler.sirv.com/teams/basketball_9x4_002.jpg?h=800",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-12-george-mason-basketball.png"
+        "card": "cards/world-2026-11-12-mark-zuckerberg.png"
       }
     ]
   },
@@ -856,106 +573,9 @@
     "name_en": "Egypt",
     "lang": "ar",
     "flag": "🇪🇬",
-    "generated_at": "2026-11-12T21:01:22.206562+00:00",
+    "generated_at": "2026-11-12T21:31:28.957132+00:00",
     "day": "2026-11-12",
     "trends": [
-      {
-        "title": "إنجلترا ضد كرواتيا",
-        "traffic": "5000+",
-        "traffic_num": 5000,
-        "published": "Thu, 12 Nov 2026 11:00:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQJl5oW4qymAMWNKN56IPTthgcDbr44-q4pCRPwELM2J8_fNPmPaAKhTufJtE",
-        "image_source": "اليوم السابع",
-        "news": [
-          {
-            "title": "إنجلترا ضد كرواتيا.. كين وبيلينجهام يقودان تشكيل الأسود الثلاثة بدوري الأمم",
-            "url": "https://www.youm7.com/story/2026/11/12/%D8%A5%D9%86%D8%AC%D9%84%D8%AA%D8%B1%D8%A7-%D8%B6%D8%AF-%D9%83%D8%B1%D9%88%D8%A7%D8%AA%D9%8A%D8%A7-%D9%83%D9%8A%D9%86-%D9%88%D8%A8%D9%8A%D9%84%D9%8A%D9%86%D8%AC%D9%87%D8%A7%D9%85-%D9%8A%D9%82%D9%88%D8%AF%D8%A7%D9%86-%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%AF-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A9-%D8%A8%D8%AF%D9%88%D8%B1%D9%8A/7616394",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQJl5oW4qymAMWNKN56IPTthgcDbr44-q4pCRPwELM2J8_fNPmPaAKhTufJtE",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "دوري الأمم: كاين على أعتاب تحطيم الرقم القياسي لعدد المشاركات مع إنكلترا",
-            "url": "https://www.mc-doualiya.com/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%85%D8%B1%D8%A9/20261111-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D9%83%D8%A7%D9%8A%D9%86-%D8%B9%D9%84%D9%89-%D8%A3%D8%B9%D8%AA%D8%A7%D8%A8-%D8%AA%D8%AD%D8%B7%D9%8A%D9%85-%D8%A7%D9%84%D8%B1%D9%82%D9%85-%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%B3%D9%8A-%D9%84%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A7%D8%AA-%D9%85%D8%B9-%D8%A5%D9%86%D9%83%D9%84%D8%AA%D8%B1%D8%A7",
-            "source": "مونت كارلو الدولية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8u1Vp9U0o3lO6CXxOym348eJt7bOI2ZP3vQR_5paLRvQ1dW_WkJyKoBPqFBQ",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "كاين يحقق رقماً قياسياً جديداً مع منتخب انجلترا",
-            "url": "https://gate.ahram.org.eg/News/5983675.aspx",
-            "source": "بوابة الأهرام",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTfKhsVN8Ovdh09vrW1WAB0COTtaeNjCmJj3YIE9uIP-X7j-i03VLjF2oHppww",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "category": "شخصية",
-        "icon": "👤",
-        "color": "#ffd166",
-        "reason": "شخصية بأقل من مصدرين",
-        "publishable": false,
-        "card": "cards/eg-2026-11-12-إنجلترا-ضد-كرواتيا.png"
-      },
-      {
-        "title": "خالد يوسف",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Thu, 12 Nov 2026 11:10:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPVY4UUfWd5rd96eA8Ok2CahO3btcPOBTi22ewtNqI_Tql8oeHAOr5IvlayYM",
-        "image_source": "اليوم السابع",
-        "news": [
-          {
-            "title": "إلهام شاهين: مهرجان القاهرة قيمة فنية كبيرة ومصدر تشريف للسينما المصرية",
-            "url": "https://www.youm7.com/story/2026/11/12/%D8%A5%D9%84%D9%87%D8%A7%D9%85-%D8%B4%D8%A7%D9%87%D9%8A%D9%86-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D9%82%D9%8A%D9%85%D8%A9-%D9%81%D9%86%D9%8A%D8%A9-%D9%83%D8%A8%D9%8A%D8%B1%D8%A9-%D9%88%D9%85%D8%B5%D8%AF%D8%B1-%D8%AA%D8%B4%D8%B1%D9%8A%D9%81-%D9%84%D9%84%D8%B3%D9%8A%D9%86%D9%85%D8%A7/7616431",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPVY4UUfWd5rd96eA8Ok2CahO3btcPOBTi22ewtNqI_Tql8oeHAOr5IvlayYM",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "انطلاق فعاليات أيام القاهرة لصناعة السينما بلقاءين مع ماتيو جاروني ومدحت العدل.. اليوم",
-            "url": "https://gate.ahram.org.eg/News/5983139.aspx",
-            "source": "بوابة الأهرام",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxioFet0L8fPmHkoLgdiAxcYoPtyIaD2rzX92pVrcKAcIeHYFgpok3vjcS5Q4",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "بحضور 100 موهبة سينمائية.. حسين فهمي ومحمد طارق يفتتحان فعاليات برنامج الموجة الجديدة",
-            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=12112026&id=524f4feb-d54e-425b-ac5a-6e02510eac3d",
-            "source": "بوابة الشروق",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSVuEGT7cjSvmM0l3-VU0AOfXjM6xZ3w70MZDij6q12b1zqwYtFC7T69wH9MBU",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/يييييييييييلالىشسلاش22222222222222222223333333333333.jpg",
-            "ok": false
-          }
-        ],
-        "category": "شخصية",
-        "icon": "👤",
-        "color": "#ffd166",
-        "reason": "شخصية بأقل من مصدرين",
-        "publishable": false,
-        "card": "cards/eg-2026-11-12-خالد-يوسف.png"
-      },
       {
         "title": "إيلون ماسك",
         "traffic": "200+",
@@ -975,56 +595,92 @@
             "ok": true
           },
           {
-            "title": "أزمة إنفيديا.. اختراق للأمن القومي الأمريكي؟",
-            "url": "https://www.dw.com/ar/%D8%A3%D8%B2%D9%85%D8%A9-%D8%A5%D9%86%D9%81%D9%8A%D8%AF%D9%8A%D8%A7-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D9%82-%D9%84%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A/video-79935167",
-            "source": "DW.com",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS9x1GQRwVjIPjvsHIHjOdugD3eNGiOc2qj4Cz5_PoZUpYgFXk6UdJ4JyCrQdM",
-            "og_title": "أزمة إنفيديا.. اختراق للأمن القومي الأمريكي؟",
-            "og_desc": "من علاقة غرامية إلى ملف الأمن القومي. أزمة تهز شركة إنفيديا وتفتح جبهة جديدة في صراع واشنطن وبكين على التكنولوجيا الحساسة.",
-            "og_image": "https://tvdownloaddw-a.akamaihd.net/stills/images/ja/ja261112_Massaiya_image_512x288_3.jpg",
+            "title": "اختفت وتركت وراءها عاصفة.. أين ذهبت المتهمة باختراق إنفيديا؟",
+            "url": "https://www.ajnet.me/news/2026/11/12/%D8%AC%D8%A7%D8%B3%D9%88%D8%B3%D8%A9-%D8%A5%D9%86%D9%81%D9%8A%D8%AF%D9%8A%D8%A7-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D8%B1%D8%B6%D8%A9-%D8%AA%D8%B9%D9%88%D8%AF-%D8%A5%D9%84%D9%89",
+            "source": "الجزيرة نت",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReTQjHUrlCY3v-av9QKPmTxt0Vjm6cZ4JiQpVkT4KVZYI6P91IuUF-vR4C7IY",
+            "og_title": "اختفت وتركت وراءها عاصفة.. أين ذهبت المتهمة باختراق إنفيديا؟",
+            "og_desc": "أفادت مصادر بأن أليس هوانغ، المشتبه بارتباطها بالاستخبارات الصينية، عادت إلى بكين، في ظل تحقيقات أمريكية بشأن علاقتها برئيس إنفيديا جنسن هوانغ وشبهات نقل رقائق متطورة إلى الصين.",
+            "og_image": "https://www.ajnet.me/wp-content/uploads/2026/11/afp_6af1637008ed-1794204528.jpg?resize=1920%2C1440",
             "ok": true
           },
           {
-            "title": "اتهامات التجسس تهدد إنفيديا.. من المستفيد من إضعافها؟",
-            "url": "https://www.skynewsarabia.com/program/aldhahira/1904361-%D8%A5%D9%86%D9%81%D9%8A%D8%AF%D9%8A%D8%A7-%D9%82%D9%84%D8%A8-%D8%A7%D9%84%D8%B5%D8%B1%D8%A7%D8%B9-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D8%A7%D9%84%D8%B5%D9%8A%D9%86%D9%8A-%D8%AA%D9%87%D8%AA%D8%B2-%D8%B1%D9%8A%D8%A7%D8%AF%D8%AA%D9%87%D8%A7",
+            "title": "بعد كشف \"الخيانتين\".. هوانغ يستقيل من رئاسة إنفيديا",
+            "url": "https://www.skynewsarabia.com/varieties/1904407-%D9%83%D8%B4%D9%81-%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D9%86%D8%AA%D9%8A%D9%86-%D9%87%D9%88%D8%A7%D9%86%D8%BA-%D9%8A%D8%B3%D8%AA%D9%82%D9%8A%D9%84-%D8%B1%D8%A6%D8%A7%D8%B3%D8%A9-%D8%A5%D9%86%D9%81%D9%8A%D8%AF%D9%8A%D8%A7",
             "source": "سكاي نيوز عربية",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQsuq8YnwOzUIqPZCP9WsbnmKAMdJBQEg8UgeiICBJBaPDI27AxD9sA-uW9K_M",
-            "og_title": "اتهامات التجسس تهدد إنفيديا.. من المستفيد من إضعافها؟",
-            "og_desc": "تتصاعد المواجهة بين واشنطن وبكين على خلفية اتهامات أميركية للصين بالتجسس على تقنيات شركة إنفيديا، وسط نفي صيني واتهامات لواشنطن بالسعي إلى فرض حصار تكنولوجي عليها.",
-            "og_image": "https://www.skynewsarabia.com/images/v1/2026/11/12/1904364/1200/630/1-1904364.png?videoOverlay=true",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY8jxefIkhx05235j3psNFx3uv2BOxpjVFmM8L0KmlIdy2wM9qKDvX5t7kohU",
+            "og_title": "بعد كشف \"الخيانتين\".. هوانغ يستقيل من رئاسة إنفيديا",
+            "og_desc": "استقال جنسن هوانغ، الخميس، من منصبه رئيسا تنفيذيا لشركة \"إنفيديا\"، منهيا مسيرة استمرت 33 عاما على رأس الشركة العملاقة المتخصصة في الذكاء الاصطناعي، التي شارك في تأسيسها، وذلك عقب الكشف عن علاقتين له خارج إطار الزواج، إحداهما مع امرأة متهمة بالتجسس لصالح الصين.",
+            "og_image": "https://www.skynewsarabia.com/images/v2/2026/11/12/1904284/1200/630/1-1904284.JPG",
             "ok": true
           }
         ],
         "category": "حوادث وقضايا",
         "icon": "⛔",
         "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: اتهام",
+        "reason": "ورد لفظ حسّاس: متهم",
         "publishable": false,
         "card": "cards/eg-2026-11-12-إيلون-ماسك.png"
+      },
+      {
+        "title": "بنين ضد جمهورية أفريقيا الوسطى",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Thu, 12 Nov 2026 12:10:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLTnkLSxQlvqf_-H7ZnJQf9xAcIu_3_Nl04nx7yiOma_DJDRg8rPzFHZdJSw",
+        "image_source": "BBC",
+        "news": [
+          {
+            "title": "Benin vs Central African Republic: Africa Cup of Nations Qualification stats & head-to-head",
+            "url": "https://www.bbc.com/sport/football/live/cqzjxrk3nyrnt",
+            "source": "BBC",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLTnkLSxQlvqf_-H7ZnJQf9xAcIu_3_Nl04nx7yiOma_DJDRg8rPzFHZdJSw",
+            "og_title": "Benin vs Central African Republic: Africa Cup of Nations Qualification stats & head-to-head",
+            "og_desc": "Follow live text commentary, score updates and match stats from Benin vs Central African Republic in the Africa Cup of Nations Qualification",
+            "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+            "ok": true
+          },
+          {
+            "title": "Abdelaziz Kerkache appointed head coach of the Central African Republic",
+            "url": "https://en.yabiladi.com/articles/details/206996/abdelaziz-kerkache-appointed-head-coach.html",
+            "source": "Yabiladi.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSu6qjGltA5_okWWh8YZ83zvjSpwNGymH9aEJae4_AVhWrXKCfEOU5H-_ktqGQ",
+            "og_title": "Abdelaziz Kerkache appointed head coach of the Central African Republic",
+            "og_desc": "The Central African Football Federation announced on Friday in Bangui the appointment of Moroccan coach Abdelaziz Kerkache as head coach of the Central...",
+            "og_image": "https://static.yabiladi.com/files/articles/yabiladi.2e3fb14b8342d388b8d0b684e32f0d1120261106221023.webp",
+            "ok": true
+          },
+          {
+            "title": "Preview: Benin vs Central African Republic - prediction, team news, lineups",
+            "url": "https://www.sportsmole.co.uk/football/benin/preview/benin-vs-car-prediction-team-news-lineups_608837.html",
+            "source": "Sports Mole",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTn6zXqqQPxps3hQRu7E9HB-3_QlAz3fesA0UVZalKVDopInyKeSmzFJgUoaV4",
+            "og_title": "Preview: Benin vs Central African Republic - prediction, team news, lineups - Sports Mole",
+            "og_desc": "Sports Mole previews Thursday's Africa Cup of Nations Qualifying clash between Benin and Central African Republic, including predictions, team news and possible lineups.",
+            "og_image": "https://www.sportsmole.co.uk/thumbor/OV8Tn8dg0aELXKthBLKmpR_0G8o=/1200x630/smart/filters:format(webp)/https%3A%2F%2Fsportsmole-media-prod.s3.gra.io.cloud.ovh.net%2Fuploads%2F2026%2F11%2Ficonsport-255458-0027-1-6af3194a981e5976420911.jpg",
+            "ok": true
+          }
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/eg-2026-11-12-بنين-ضد-جمهورية-أفريقيا-الوسطى.png"
       },
       {
         "title": "france",
         "traffic": "200+",
         "traffic_num": 200,
         "published": "Thu, 12 Nov 2026 12:00:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSVyKSRbwqjN1KGQ-w37RNwS7Pkc0sgfSvqnxA6LILXPneRIRcpB2QZ-hyNczA",
-        "image_source": "franceinfo",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpE0CbFCJ5SLCJECFg8wrU0fASgs3l4e2qkcAtrxEMJX4TESFT0CWySzE5FpM",
+        "image_source": "L'Équipe",
         "news": [
           {
-            "title": "DIRECT. Italie-France : les Bleus sont d'attaque même sans Mbappé, mais sont accrochés à la mi-temps (1-1)... Suivez le match de Ligue des nations avec nous",
-            "url": "https://www.franceinfo.fr/sports/directs/direct-italie-france-qualification-en-vue-pour-les-quarts-de-ligue-des-nations-suivez-et-commentez-le-match-avec-nous_8276066.html",
-            "source": "franceinfo",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSVyKSRbwqjN1KGQ-w37RNwS7Pkc0sgfSvqnxA6LILXPneRIRcpB2QZ-hyNczA",
-            "og_title": "DIRECT. Italie-France : les Bleus reprennent fort après la pause et Rayan Cherki touche le poteau ! Suivez le match de Ligue des nations avec nous",
-            "og_desc": "S'ils ne s'inclinent pas, jeudi à Milan, les Bleus seront assurés de participer aux quarts de finale de la compétition.",
-            "og_image": "https://www.franceinfo.fr/pictures/NXHuj1bg9X-0zEXJ2WFzK58C1js/0x0:8256x4644/1500x843/2026/11/12/6af6212ef3398920038088.jpg",
-            "ok": true
-          },
-          {
-            "title": "Ligue des Nations - La boulette de Donnarumma, le génie d'Olise : l'ouverture du score des Bleus en vidéo",
-            "url": "https://www.eurosport.fr/football/ligue-des-nations/2026-2027/ligue-des-nations-la-boulette-de-donnarumma-le-genie-dolise-louverture-du-score-des-bleus-en-video_sto23354824/story.shtml",
-            "source": "Eurosport",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNYDbY2Ipt15fwO1M6SXEG-n0UtCe2hbf_vTYPPi29NPm_HvTic64US6q20wo",
+            "title": "DIRECT. Italie - France, Ligue des nations A : But d'Esposito !",
+            "url": "https://www.lequipe.fr/Football/match-direct/ligue-des-nations-a/2027/italie-france-live/688712",
+            "source": "L'Équipe",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpE0CbFCJ5SLCJECFg8wrU0fASgs3l4e2qkcAtrxEMJX4TESFT0CWySzE5FpM",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -1032,14 +688,25 @@
             "error": "HTTPError"
           },
           {
-            "title": "VIDEO. Football : Luciano Moggi raconte Zinédine Zidane - Stade 2 la quotidienne",
-            "url": "https://www.france.tv/france-3/stade-2-la-quotidienne/9086750-football-luciano-moggi-raconte-zinedine-zidane.html",
-            "source": "France TV",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyvzvzEFY9YJhKreF8Jl4O381fwrFixbCcLYl9oQkt5ktxKoFkyUR6iMPIzsw",
+            "title": "Donnarumma se fait démonter sur les réseaux après sa boulette",
+            "url": "https://www.footmercato.net/a6703188072337707483-donnarumma-se-fait-demonter-sur-les-reseaux-apres-sa-boulette",
+            "source": "Foot Mercato",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQQZTCIBLD_zEOxQPAMtDVC_D9NWCKu7ECd-tUnTh5cssDv2r4kAoryGVM4Y8",
+            "og_title": "Donnarumma se fait démonter sur les réseaux après sa boulette",
+            "og_desc": "Gianluigi Donnarumma a encore fait des siennes, pour le plus grand bonheur des Français ! Sous la pression des attaquants tricolores, le portier  (...) - Footmercato",
+            "og_image": "https://assets-fr.imgfoot.com/media/cache/1200x675/gianluigi-donnarumma-2526-italien.jpg",
+            "ok": true
+          },
+          {
+            "title": "Rabiot est le 137e capitaine de l'histoire des Bleus",
+            "url": "https://www.sofoot.com/breves/adrien-rabiot-porte-le-brassard-de-capitaine-de-lequipe-de-france-contre-litalie",
+            "source": "SO FOOT.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQx82Ks9CXsKsFtucf039dFLgmzfIjSO5yJPxrhc24mZcUoeyHbB0mVL716jFI",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
-            "ok": false
+            "ok": false,
+            "error": "HTTPError"
           }
         ],
         "category": "دول وأماكن",
@@ -1068,24 +735,23 @@
             "ok": true
           },
           {
-            "title": "Scorpions Resume Training Ahead of Côte d’Ivoire Double-Header",
-            "url": "https://www.voicegambia.com/scorpions-resume-training-ahead-of-cote-divoire-double-header/",
-            "source": "Voice Gambia",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQHIkHcZDXPDTnjvRTl4anqO-YmPfZ3ww6qWmmdpZm6FKAmZyo_t9oqXQDCVlc",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
+            "title": "LIVE: Ivory Coast vs Gambia | AFCON Qualifiers",
+            "url": "https://www.beinsports.com/en-us/soccer/africa-cup-of-nations-qualification/articles/live-ivory-coast-vs-gambia-afcon-qualifiers-2026-11-12",
+            "source": "beIN SPORTS",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJG75XVS6d2s_RelFsKOmS00MSEDIG1qSq4qfyAQBFe35EMOidDMPn2KrXcDY",
+            "og_title": "Ivory Coast vs Gambia LIVE | AFCON Qualifiers on beIN SPORTS",
+            "og_desc": "Watch Ivory Coast vs Gambia LIVE on beIN SPORTS. Follow all the action from the Africa Cup of Nations Qualifiers.",
+            "og_image": "https://prod-media.beinsports.com/image/Costa%20de%20Marfil%20vs%20Gambia.1080.jpg",
+            "ok": true
           },
           {
-            "title": "Albion’s international hope for Minteh after his return from ankle surgery",
-            "url": "https://uk.sports.yahoo.com/news/albion-international-hope-minteh-return-110819897.html",
-            "source": "Yahoo",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcToGHQmpMSSl6vZEYb4cdgUZfnW4pN81keqXeHayq-iGLj0VaF_MAYqyXRAlXY",
-            "og_title": "Albion’s international hope for Minteh after his return from ankle surgery",
-            "og_desc": "Albion hope to see Yankuba Minteh enjoy playing time with Gambia as they plan a productive international window for their squad.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/0214ea6244c9716f903ad097c04e1c417ecf20a4e8f2a1bfe437ebc6437aaaa9/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_argus_uk_644%2F1909e97fc824857e9a416760fb541c9b.jpg",
+            "title": "AFCON 2027 Qualifiers: Ivory Coast leads Gambia 2-1 at Halftime",
+            "url": "https://en.africatopsports.com/afcon-2027-qualifiers-ivory-coast-leads-gambia-2-1-at-halftime/",
+            "source": "Africa Top Sports",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRXcqzoMdPBjACbrEukBYRIs-dNYpCrfSNSNGtpZBDHDqcPJ9-LcyWDbsXqdUY",
+            "og_title": "AFCON 2027 Qualifiers: Ivory Coast leads Gambia 2-1 at Halftime",
+            "og_desc": "Ivory Coast lead Gambia 2-1 at halftime in their Group C Matchday 3 clash of the 2027 AFCON qualifiers, with the first half.",
+            "og_image": "https://en.africatopsports.com/wp-content/uploads/2026/11/IMG_20261112_194927.jpg",
             "ok": true
           }
         ],
@@ -1109,11 +775,10 @@
             "url": "https://www.youm7.com/story/2026/11/12/%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%89-%D9%85%D8%B5%D8%B1-%D8%AA%D8%B1%D9%81%D8%B9-%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D9%85%D9%86%D8%AD-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%84%D9%84%D8%B7%D9%84%D8%A7%D8%A8-%D8%A7%D9%84%D8%B5%D9%88%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86/7615779",
             "source": "اليوم السابع",
             "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQX957yJvdekN0o48afig8BmuEPzS-RacYdttiq0IGiJKv-mo2CmvpK6sYlnIc",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
+            "og_title": "التعليم العالى: مصر ترفع عدد المنح الدراسية المقدمة للطلاب الصوماليين - اليوم السابع",
+            "og_desc": "استقبل الدكتور عبد العزيز قنصوة، وزير التعليم العالي والبحث العلمي والقائم بأعمال وزير الثقافة، السفير علي عبدي أواري",
+            "og_image": "https://img.youm7.com/xlarge/202611120114291429_493.jpg",
+            "ok": true
           },
           {
             "title": "زيادة المنح الدراسية المقدمة للطلاب الصوماليين من 250 إلى 450 منحة.. وبحث توسيع التعاون الأكاديمي والبحثي بين البلدين",
@@ -1140,8 +805,9 @@
         "category": "شخصية",
         "icon": "👤",
         "color": "#ffd166",
-        "reason": "شخصية بأقل من مصدرين",
+        "reason": "حجم بحث أقل من 2000",
         "publishable": false,
+        "person": true,
         "card": "cards/eg-2026-11-12-عبد-العزيز-قنصوة.png"
       },
       {
@@ -1191,104 +857,9 @@
         "card": "cards/eg-2026-11-12-لقاء-سويدان.png"
       },
       {
-        "title": "بنين ضد جمهورية أفريقيا الوسطى",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Thu, 12 Nov 2026 12:10:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLTnkLSxQlvqf_-H7ZnJQf9xAcIu_3_Nl04nx7yiOma_DJDRg8rPzFHZdJSw",
-        "image_source": "BBC",
-        "news": [
-          {
-            "title": "Benin vs Central African Republic: Africa Cup of Nations Qualification stats & head-to-head",
-            "url": "https://www.bbc.com/sport/football/live/cqzjxrk3nyrnt",
-            "source": "BBC",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLTnkLSxQlvqf_-H7ZnJQf9xAcIu_3_Nl04nx7yiOma_DJDRg8rPzFHZdJSw",
-            "og_title": "Benin vs Central African Republic: Africa Cup of Nations Qualification stats & head-to-head",
-            "og_desc": "Follow live text commentary, score updates and match stats from Benin vs Central African Republic in the Africa Cup of Nations Qualification",
-            "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
-            "ok": true
-          },
-          {
-            "title": "Abdelaziz Kerkache appointed head coach of the Central African Republic",
-            "url": "https://en.yabiladi.com/articles/details/206996/abdelaziz-kerkache-appointed-head-coach.html",
-            "source": "Yabiladi.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSu6qjGltA5_okWWh8YZ83zvjSpwNGymH9aEJae4_AVhWrXKCfEOU5H-_ktqGQ",
-            "og_title": "Abdelaziz Kerkache appointed head coach of the Central African Republic",
-            "og_desc": "The Central African Football Federation announced on Friday in Bangui the appointment of Moroccan coach Abdelaziz Kerkache as head coach of the Central...",
-            "og_image": "https://static.yabiladi.com/files/articles/yabiladi.2e3fb14b8342d388b8d0b684e32f0d1120261106221023.webp",
-            "ok": true
-          },
-          {
-            "title": "Preview: Benin vs Central African Republic - prediction, team news, lineups",
-            "url": "https://www.sportsmole.co.uk/football/benin/preview/benin-vs-car-prediction-team-news-lineups_608837.html",
-            "source": "Sports Mole",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTn6zXqqQPxps3hQRu7E9HB-3_QlAz3fesA0UVZalKVDopInyKeSmzFJgUoaV4",
-            "og_title": "Preview: Benin vs Central African Republic - prediction, team news, lineups - Sports Mole",
-            "og_desc": "Sports Mole previews Thursday's Africa Cup of Nations Qualifying clash between Benin and Central African Republic, including predictions, team news and possible lineups.",
-            "og_image": "https://www.sportsmole.co.uk/thumbor/OV8Tn8dg0aELXKthBLKmpR_0G8o=/1200x630/smart/filters:format(webp)/https%3A%2F%2Fsportsmole-media-prod.s3.gra.io.cloud.ovh.net%2Fuploads%2F2026%2F11%2Ficonsport-255458-0027-1-6af3194a981e5976420911.jpg",
-            "ok": true
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/eg-2026-11-12-بنين-ضد-جمهورية-أفريقيا-الوسطى.png"
-      },
-      {
-        "title": "وزير دفاع بريطانيا",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Thu, 12 Nov 2026 11:30:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQZXwZuMrCYKyVak7OcF2nF4DeNxmbEVAOgCyp8AtUIzSe5LrQdsWsW-BvPX6w",
-        "image_source": "العربية",
-        "news": [
-          {
-            "title": "قائد الجيش البريطاني يطلق تحذيراً شديد اللهجة بشأن التهديد الروسي",
-            "url": "https://www.alarabiya.net/arab-and-world/2026/11/10/%D9%82%D8%A7%D8%A6%D8%AF-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A-%D9%8A%D8%B7%D9%84%D9%82-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%D8%A7-%D8%B4%D8%AF%D9%8A%D8%AF-%D8%A7%D9%84%D9%84%D9%87%D8%AC%D8%A9-%D8%A8%D8%B4%D8%A7%D9%86-%D8%A7%D9%84%D8%AA%D9%87%D8%AF%D9%8A%D8%AF-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQZXwZuMrCYKyVak7OcF2nF4DeNxmbEVAOgCyp8AtUIzSe5LrQdsWsW-BvPX6w",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "بريطانيا تستثمر 90 مليون جنيه إسترليني لتعزيز قدرات البحرية الملكية على رصد التهديدات تحت سطح البحر",
-            "url": "https://gate.ahram.org.eg/News/5982278.aspx",
-            "source": "بوابة الأهرام",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBnsw4eP8uChMU8BKQFbOAoXrt5_KwVACbPdQNGcpkQuIJYhCTObbdTidKS3I",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "بريطانيا تدعو لفتح قنوات اتصال عسكرى مباشر مع روسيا .. ما القصة؟",
-            "url": "https://www.youm7.com/story/2026/11/10/%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A7-%D8%AA%D8%AF%D8%B9%D9%88-%D9%84%D9%81%D8%AA%D8%AD-%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-%D8%B9%D8%B3%D9%83%D8%B1%D9%89-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D9%85%D8%B9-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D9%85%D8%A7/7612988",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTmdsTMGjGVjfgPAtvzt7x-O9adYA6AgoLoyTrsI_ngMVKukJJBr_EetD6xUEE",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "category": "سياسة",
-        "icon": "🏛️",
-        "color": "#ff5c7c",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/eg-2026-11-12-وزير-دفاع-بريطانيا.png"
-      },
-      {
         "title": "lanterns",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "published": "Thu, 12 Nov 2026 11:20:00 -0800",
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTb2O_qxdKZHOosnYbK1R02TYXwTt6LTi42nw9RmIk6vUATovEqYgajb_kZWmc",
         "image_source": "Forbes",
@@ -1331,6 +902,149 @@
         "reason": "ورد لفظ حسّاس: shot",
         "publishable": false,
         "card": "cards/eg-2026-11-12-lanterns.png"
+      },
+      {
+        "title": "pio esposito",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Thu, 12 Nov 2026 13:20:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdspbrv21NmUR0yyq6aHOpANo6wB513R8UD8wsTgx9t9WXuK3zsGSIj0x837s",
+        "image_source": "DAZN",
+        "news": [
+          {
+            "title": "Pio Esposito come Sivori, sognando Meazza: i numeri con Nazionale sono da capogiro",
+            "url": "https://www.dazn.com/it-IT/news/calcio/pio-esposito-come-sivori-sognando-meazza-i-numeri-con-nazionale-sono-da-capogiro-italia-francia/1xkl2bcs42gq910zruw5zqn929",
+            "source": "DAZN",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdspbrv21NmUR0yyq6aHOpANo6wB513R8UD8wsTgx9t9WXuK3zsGSIj0x837s",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Pio Esposito a 21 anni è imprescindibile per Mancini nell'Italia, ma oggi per l'Inter può essere un problema",
+            "url": "https://www.fanpage.it/sport/calcio/pio-esposito-a-21-anni-e-imprescindibile-per-mancini-nellitalia-ma-questo-per-linter-e-un-problema/",
+            "source": "Fanpage",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQlmznz-N3V0sTRFICsIKwfLkYlmk-SwrMgDIyzSHZvylhKKbVu_XozIMetijs",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Italia: per Pio 8 gol in 14 presenze, solo Meazza ha fatto meglio",
+            "url": "https://www.sportmediaset.mediaset.it/calcio/italia-per-pio-8-gol-in-14-presenze-solo-meazza-ha-fatto-meglio_118915567-202602k.shtml",
+            "source": "Sportmediaset",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQMVzoBrLLXTDzCNcuTztGeoWBvTfdQGyt7PpcFX2ltRpgLeRFiUUbToYI3E5E",
+            "og_title": "Italia: per Pio Esposito 9 gol in 14 presenze",
+            "og_desc": "Pio Esposito da urlo: il gol che ha regalato il pareggio all'Italia nella sfida di Nations League contro la Francia e l'ottavo in 14 presenze con la...",
+            "og_image": "https://img-api.cloud.mediaset.net/api/images/kn/v1/image_main/1200/675/118915403?r=7",
+            "ok": true
+          }
+        ],
+        "category": "سياسة",
+        "icon": "🏛️",
+        "color": "#ff5c7c",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/eg-2026-11-12-pio-esposito.png"
+      },
+      {
+        "title": "وزير التعليم العالي",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Thu, 12 Nov 2026 12:40:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSqIEmKJhJUwLWqy2DNnl_1i3eggy9HPiyCCqlgw8ME71tE5NWtpEUVjV2DPxo",
+        "image_source": "اليوم السابع",
+        "news": [
+          {
+            "title": "وزير التعليم العالى يعلن صدور قرارات جمهورية بتعيين قيادات جامعية جديدة",
+            "url": "https://www.youm7.com/story/2026/11/12/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%89-%D9%8A%D8%B9%D9%84%D9%86-%D8%B5%D8%AF%D9%88%D8%B1-%D9%82%D8%B1%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9-%D8%A8%D8%AA%D8%B9%D9%8A%D9%8A%D9%86-%D9%82%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%AC%D8%A7%D9%85%D8%B9%D9%8A%D8%A9/7616122",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSqIEmKJhJUwLWqy2DNnl_1i3eggy9HPiyCCqlgw8ME71tE5NWtpEUVjV2DPxo",
+            "og_title": "وزير التعليم العالى يعلن صدور قرارات جمهورية بتعيين قيادات جامعية جديدة - اليوم السابع",
+            "og_desc": "أعلن الدكتور عبد العزيز قنصوة، وزير التعليم العالي والبحث العلمي والقائم بعمل وزير الثقافة، صدور عدة قرارات جمهورية بتعيين عمداء جدد لعدد من الكليات في الجامعات الحكومية.",
+            "og_image": "https://img.youm7.com/xlarge/202602100911341134_248.jpg",
+            "ok": true
+          },
+          {
+            "title": "بقرار جمهوري.. تعيين عميدين لكليتي الصيدلة والآداب بجامعة المنصورة",
+            "url": "https://gate.ahram.org.eg/News/5983448.aspx",
+            "source": "بوابة الأهرام",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRXxgmsVEnHeLeaYVGhS3zsljHC8i0rJrurY78NIjvRBYChsnBsNAyoYt98CNo",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "قرار جمهوري بتعيين مروة الشريعي عميدًا لكلية الألسن بجامعة المنيا",
+            "url": "https://www.masrawy.com/news/education-universityeducation/details/2026/11/12/3077828/%D9%82%D8%B1%D8%A7%D8%B1-%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A-%D8%A8%D8%AA%D8%B9%D9%8A%D9%8A%D9%86-%D9%85%D8%B1%D9%88%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B9%D9%8A-%D8%B9%D9%85%D9%8A%D8%AF-%D8%A7-%D9%84%D9%83%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%84%D8%B3%D9%86-%D8%A8%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7",
+            "source": "Masrawy",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYWYAvUVbdHBr_eohlW4q1yrkZ7sMSIDnNRqJ8JK0DPnrYBWrqCEZExWjyDW4",
+            "og_title": "قرار جمهوري بتعيين مروة الشريعي عميدًا لـ\"ألسن المنيا\" | مصراوي",
+            "og_desc": "صدور قرار جمهوري بتعيين الدكتورة مروة محمد وجدي الشريعي عميد ا لكلية الألسن بجامعة المنيا وسط تهنئة من رئيس الجامعة الدكتور عصام فرحات متمني ا لها التوفيق في مهام منصبها الجديد | مصراوي",
+            "og_image": "https://media.gemini.media/img/large/2026/11/12/2026_11_12_18_0_0_716.webp",
+            "ok": true
+          }
+        ],
+        "category": "سياسة",
+        "icon": "🏛️",
+        "color": "#ff5c7c",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/eg-2026-11-12-وزير-التعليم-العالي.png"
+      },
+      {
+        "title": "وزير دفاع بريطانيا",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Thu, 12 Nov 2026 11:30:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQZXwZuMrCYKyVak7OcF2nF4DeNxmbEVAOgCyp8AtUIzSe5LrQdsWsW-BvPX6w",
+        "image_source": "العربية",
+        "news": [
+          {
+            "title": "قائد الجيش البريطاني يطلق تحذيراً شديد اللهجة بشأن التهديد الروسي",
+            "url": "https://www.alarabiya.net/arab-and-world/2026/11/10/%D9%82%D8%A7%D8%A6%D8%AF-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A-%D9%8A%D8%B7%D9%84%D9%82-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%D8%A7-%D8%B4%D8%AF%D9%8A%D8%AF-%D8%A7%D9%84%D9%84%D9%87%D8%AC%D8%A9-%D8%A8%D8%B4%D8%A7%D9%86-%D8%A7%D9%84%D8%AA%D9%87%D8%AF%D9%8A%D8%AF-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A",
+            "source": "العربية",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQZXwZuMrCYKyVak7OcF2nF4DeNxmbEVAOgCyp8AtUIzSe5LrQdsWsW-BvPX6w",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "بريطانيا تستثمر 90 مليون جنيه إسترليني لتعزيز قدرات البحرية الملكية على رصد التهديدات تحت سطح البحر",
+            "url": "https://gate.ahram.org.eg/News/5982278.aspx",
+            "source": "بوابة الأهرام",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBnsw4eP8uChMU8BKQFbOAoXrt5_KwVACbPdQNGcpkQuIJYhCTObbdTidKS3I",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "بريطانيا تدعو لفتح قنوات اتصال عسكرى مباشر مع روسيا .. ما القصة؟",
+            "url": "https://www.youm7.com/story/2026/11/10/%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A7-%D8%AA%D8%AF%D8%B9%D9%88-%D9%84%D9%81%D8%AA%D8%AD-%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-%D8%B9%D8%B3%D9%83%D8%B1%D9%89-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D9%85%D8%B9-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D9%85%D8%A7/7612988",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTmdsTMGjGVjfgPAtvzt7x-O9adYA6AgoLoyTrsI_ngMVKukJJBr_EetD6xUEE",
+            "og_title": "بريطانيا تدعو لفتح قنوات اتصال عسكرى مباشر مع روسيا .. ما القصة؟ - اليوم السابع",
+            "og_desc": "دعا وزير الدفاع البريطاني ويس ستريتينج إلى فتح قنوات اتصال إضافية مع روسيا، من بينها إقامة خطوط تواصل عسكرية مباشرة بين البلدين، بهدف الحد من التصعيد.",
+            "og_image": "https://img.youm7.com/xlarge/202512170135393539.jpg",
+            "ok": true
+          }
+        ],
+        "category": "سياسة",
+        "icon": "🏛️",
+        "color": "#ff5c7c",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/eg-2026-11-12-وزير-دفاع-بريطانيا.png"
       }
     ]
   },
@@ -1340,256 +1054,27 @@
     "name_en": "Saudi Arabia",
     "lang": "ar",
     "flag": "🇸🇦",
-    "generated_at": "2026-11-12T21:01:26.079523+00:00",
+    "generated_at": "2026-11-12T21:31:30.412621+00:00",
     "day": "2026-11-13",
     "trends": [
-      {
-        "title": "إيطاليا ضد فرنسا",
-        "traffic": "+20000",
-        "traffic_num": 20000,
-        "published": "Thu, 12 Nov 2026 11:00:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQmJE5XI_DPj1M5mu4VxAw9i-jY5C8LCam9nMQItmHv-ZwAkzbPS8MuJqCS0Zc",
-        "image_source": "العربية",
-        "news": [
-          {
-            "title": "إيطاليا تبحث عن فك عقدة الأرض أمام فرنسا في دوري الأمم الأوروبية",
-            "url": "https://www.alarabiya.net/sport/2026/11/11/%D8%A7%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A7-%D8%AA%D8%A8%D8%AD%D8%AB-%D8%B9%D9%86-%D9%81%D9%83-%D8%B9%D9%82%D8%AF%D8%A9-%D8%A7%D9%84%D8%A7%D8%B1%D8%B6-%D8%A7%D9%85%D8%A7%D9%85-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%85%D9%85-%D8%A7%D9%84%D8%A7%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQmJE5XI_DPj1M5mu4VxAw9i-jY5C8LCam9nMQItmHv-ZwAkzbPS8MuJqCS0Zc",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "مباريات اليوم في دوري الأمم الأوروبية وتصفيات أمم إفريقيا.. إيطاليا تصطدم بفرنسا والسودان يواجه السنغال",
-            "url": "https://ajel.sa/sports/pxnfbvgqd",
-            "source": "عاجل",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSqv7JDS0PRsO_Out_Hhls9o8CAwp5BIh3P5s9cE-dZCgQcCjvqWQLR0QWThX8",
-            "og_title": "مباريات اليوم في دوري الأمم الأوروبية وتصفيات أمم إفريقيا.. إيطاليا تصطدم بفرنسا والسودان يواجه السنغال",
-            "og_desc": "تتجه الأنظار، اليوم الخميس، إلى مجموعة من المواجهات المرتقبة في ملاعب كرة القدم، مع انطلاق منافسات الجولة الخامسة من دوري الأمم الأوروبية، إلى جانب مباريات الجولة الثالثة من التصفيات المؤهلة إلى كأس أمم إفريقيا 2027.",
-            "og_image": "https://ajel.sa/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=auto,format=jpeg/https://cdn.ajel.sa/articles/2026-07/2mcshayJlAncHmnY.jpg",
-            "ok": true
-          },
-          {
-            "title": "من «القاتل» إلى نطحة زيدان.. أحداث لا تنسى بين إيطاليا وفرنسا",
-            "url": "https://arriyadiyah.com/904601/%D9%85%D9%86-%C2%AB%D8%A7%D9%84%D9%82%D8%A7%D8%AA%D9%84%C2%BB-%D8%A5%D9%84%D9%89-%D9%86%D8%B7%D8%AD%D8%A9-%D8%B2%D9%8A%D8%AF%D8%A7%D9%86..-%D8%A3%D8%AD%D8%AF%D8%A7%D8%AB-%D9%84%D8%A7-%D8%AA%D9%86%D8%B3%D9%89-%D8%A8%D9%8A%D9%86-%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A7-%D9%88%D9%81%D8%B1%D9%86%D8%B3%D8%A7",
-            "source": "صحيفة الرياضية",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRewR6nQjHFm9iEqp9S7QYYEwI6G0M-4652Eyz8neuIzu2HAPhhlelop-_Q_d4",
-            "og_title": "من «القاتل» إلى نطحة زيدان.. أحداث لا تنسى بين إيطاليا وفرنسا",
-            "og_desc": "يواجه المنتخب الفرنسي الأول لكرة القدم خصمه الإيطالي، الخميس، ضمن الجولة الخامسة من مرحلة المجموعات في دوري  ...",
-            "og_image": "https://arriyadiyah.com/media/thumb/78/73/800_0036e3c4bf.png",
-            "ok": true
-          },
-          {
-            "title": "Italy vs France: UEFA Nations League stats & head-to-head",
-            "url": "https://www.bbc.com/sport/football/live/c3rrygq0z2y2t",
-            "source": "BBC",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRRwOvZeQ1RCOectFBbNzb90RO0iFo7744EKusCTrxY7EliGaxoFxKykWOMiEA",
-            "og_title": "Italy vs France: UEFA Nations League stats & head-to-head",
-            "og_desc": "Follow live text commentary, score updates and match stats from Italy vs France in the UEFA Nations League",
-            "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
-            "ok": true
-          },
-          {
-            "title": "Licensable picture: UEFA Nations League - Group A1 - Italy v France",
-            "url": "https://www.reutersconnect.com/item/uefa-nations-league-group-a1-italy-v-france/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkMxSlZOM0g",
-            "source": "Reuters Connect",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTbjpnM8K3MFVGb_EINjaUrIsPv22gTnN468UW7_V9B8h4EyPigmD60KG4XSRs",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "category": "دول وأماكن",
-        "icon": "🗺️",
-        "color": "#79c0ff",
-        "reason": "العنوان يطابق: فرنسا",
-        "publishable": true,
-        "article": {
-          "headline": "إيطاليا تصطدم بفرنسا في دوري الأمم الأوروبية وسط ذكريات تاريخية لا تُنسى",
-          "summary": "يخوض المنتخب الإيطالي مواجهة مرتقبة أمام نظيره الفرنسي اليوم الخميس ضمن الجولة الخامسة من دوري الأمم الأوروبية في الساعة 10:45 مساءً بتوقيت السعودية.",
-          "body": "تتجدد الإثارة والندية في مواجهات فرنسا وإيطاليا، حيث يلتقي المنتخبان اليوم الخميس في مباراة مرتقبة ضمن الجولة الخامسة من دوري الأمم الأوروبية، في لقاء يستحضر تاريخًا طويلًا من الصدامات الكبرى التي لا تزال عالقة في ذاكرة عشاق كرة القدم. وتكشف سجلات المواجهات المباشرة بين المنتخبين تفوقًا إيطاليًا تاريخيًا، إذ التقى الطرفان في 42 مباراة سابقة، تمكن فيها \"الآزوري\" من تحقيق الانتصار في 20 مواجهة، بينما فاز منتخب \"الديكة\" في 13 مباراة، وساد التعادل في 9 لقاءات.\n\nتكمن أهمية هذه المواجهة في كونها تأتي ضمن منافسات دوري الأمم الأوروبية، وهي البطولة التي تعد دائمًا ساحة لاستعراض القوى بين عمالقة القارة العجوز، مما يجعل كل مباراة بينهما محط أنظار المتابعين الذين يترقبون فصولًا جديدة من التنافس الكروي بين مدرستين تملكان إرثًا كبيرًا في حصد البطولات العالمية والقارية.\n\nتاريخيًا، شهدت لقاءات المنتخبين لقطات بقيت راسخة، أبرزها نهائي يورو 2000، الذي حسمته فرنسا بنتيجة 2-1 بفضل هدف ذهبي للمهاجم دافيد تريزيجيه في الدقيقة 103، وهو الهدف الذي وصفته وسائل الإعلام الفرنسية بـ\"القاتل\". كما لا ينسى التاريخ نهائي كأس العالم 2006، حين توجت إيطاليا باللقب بركلات الترجيح 5-4، في مباراة شهدت واقعة طرد قائد فرنسا زين الدين زيدان في الدقيقة 110 بعد اعتدائه على المدافع الإيطالي ماركو ماتيرازي بـ\"نطحة\" شهيرة، وذلك بعد استفزازات من الأخير.\n\nينتظر عشاق الكرة في السعودية والمتابعين حول العالم صافرة البداية لمشاهدة هذا الفصل الجديد من الصراع التاريخي بين إيطاليا وفرنسا، في ليلة أوروبية تشهد مواجهات أخرى بارزة في ذات البطولة، مثل لقاء تركيا وبلجيكا، والتشيك ضد إسبانيا، وإنجلترا في مواجهة كرواتيا.",
-          "facts": [
-            {
-              "label": "الموعد",
-              "value": "الخميس الساعة 10:45 مساءً بتوقيت السعودية"
-            },
-            {
-              "label": "البطولة",
-              "value": "دوري الأمم الأوروبية - الجولة الخامسة"
-            },
-            {
-              "label": "تاريخ المواجهات",
-              "value": "42 مباراة (20 فوز لإيطاليا، 13 لفرنسا، 9 تعادلات)"
-            }
-          ],
-          "tags": [
-            "إيطاليا",
-            "فرنسا",
-            "دوري الأمم الأوروبية",
-            "كرة القدم"
-          ],
-          "_v": 4,
-          "_by": "gemini",
-          "written_at": "2026-11-12T21:01:34.250124+00:00",
-          "photo": {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/The_Peninsula_Stadium_at_night_-_Salford_City_-_Aug_24.jpg/1280px-The_Peninsula_Stadium_at_night_-_Salford_City_-_Aug_24.jpg",
-            "width": 1280,
-            "height": 720,
-            "artist": "Emessem T",
-            "license": "CC BY-SA 4.0",
-            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-            "file_page": "https://commons.wikimedia.org/wiki/File:The_Peninsula_Stadium_at_night_-_Salford_City_-_Aug_24.jpg",
-            "stock": true,
-            "topic": "football"
-          },
-          "photo_v": 8,
-          "_had_data": false,
-          "_localized": false
-        },
-        "card": "cards/sa-2026-11-13-إيطاليا-ضد-فرنسا.png"
-      },
-      {
-        "title": "التشيك ضد إسبانيا",
-        "traffic": "+20000",
-        "traffic_num": 20000,
-        "published": "Thu, 12 Nov 2026 11:00:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWK94lIJqyI3BwXGQJwtOvX3wyWorfNHl9b5cGF4oT2BawTkEdNGJhdGDCNG0",
-        "image_source": "العربية",
-        "news": [
-          {
-            "title": "هجوم على يامال \"لا يريد السفر\".. ودي لا فوينتي ينفي",
-            "url": "https://www.alarabiya.net/sport/2026/11/12/%D9%87%D8%AC%D9%88%D9%85-%D8%B9%D9%84%D9%89-%D9%8A%D8%A7%D9%85%D8%A7%D9%84-%D9%84%D8%A7-%D9%8A%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D8%B3%D9%81%D8%B1-%D9%88%D8%AF%D9%8A-%D9%84%D8%A7-%D9%81%D9%88%D9%8A%D9%86%D8%AA%D9%8A-%D9%8A%D9%86%D9%81%D9%8A",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWK94lIJqyI3BwXGQJwtOvX3wyWorfNHl9b5cGF4oT2BawTkEdNGJhdGDCNG0",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "إسبانيا قبل التشيك.. 965 يوما بلا خسارة",
-            "url": "https://arriyadiyah.com/904598/%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%AA%D8%B4%D9%8A%D9%83..-965-%D9%8A%D9%88%D9%85%D8%A7-%D8%A8%D9%84%D8%A7-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9",
-            "source": "صحيفة الرياضية",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2AFN2UE11llu_F-PYsIOvBqvxPs6LBe0l9j0U-KRaT6waRjFY-aSq9W6VPNw",
-            "og_title": "إسبانيا قبل التشيك.. 965 يوما بلا خسارة",
-            "og_desc": "تسلح المنتخب الإسباني الأول لكرة القدم بسجل خالٍ من الخسارة خلال 965 يومًا، عندما يحل ضيفًا على نظيره التشيكي،  ...",
-            "og_image": "https://arriyadiyah.com/media/thumb/04/a0/800_9c7fbcc1dd.png",
-            "ok": true
-          },
-          {
-            "title": "دي لافوينتي يستبعد ثلاثي إسبانيا قبل مواجهة التشيك.. ويختار خليفة أولمو",
-            "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%8A-%D9%84%D8%A7%D9%81%D9%88%D9%8A%D9%86%D8%AA%D9%8A-%D9%8A%D8%B3%D8%AA%D8%A8%D8%B9%D8%AF-%D8%AB%D9%84%D8%A7%D8%AB%D9%8A-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%AA%D8%B4%D9%8A%D9%83--%D9%88%D9%8A%D8%AE%D8%AA%D8%A7%D8%B1-%D8%AE%D9%84%D9%8A%D9%81%D8%A9-%D8%A7%D9%94%D9%88%D9%84%D9%85%D9%88/blt63b83f1102380077",
-            "source": "Kooora",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRufA8MzOYjzvM8hc-mehMgT4d4Rek-NhmLVj524VBt6iCBHwWzIgUTuZiakt0",
-            "og_title": "دي لافوينتي يستبعد ثلاثي إسبانيا قبل مواجهة التشيك.. ويختار خليفة أولمو | كووورة",
-            "og_desc": "أعلن لويس دي لا فوينتي، المدير الفني لمنتخب إسبانيا، استبعاد ثلاثة لاعبين من قائمة الماتادور استعدادًا لمواجهة التشيك، مساء اليوم الخميس، ضمن منافسات الجولة الخامسة من دوري الأمم الأوروبية.",
-            "og_image": "https://assets.kooora.com/images/v3/getty-2304142323/crop/MM5DKMBRGY5DEOBSGI5G433XMU5DAORSGU2A====/GettyImages-2304142323.jpg",
-            "ok": true
-          },
-          {
-            "title": "Licensable picture: UEFA Nations League - Group A3 - Czech Republic v Spain",
-            "url": "https://www.reutersconnect.com/item/uefa-nations-league-group-a3-czech-republic-v-spain/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkMxSUQyMTM",
-            "source": "Reuters Connect",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT5H4uK3MNZu_wdfYs86-yCNK2gNxFLEOdUQIeRrFSmPqGnNXDamYmMyBxi42o",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Confirmed: Real Madrid duo start for Spain against Czechia",
-            "url": "https://sports.yahoo.com/articles/confirmed-real-madrid-duo-start-185400146.html",
-            "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQe3MzvKd8TQovpZ2G5aY-Bif0Q5ZLvNF2RnvE7DKhbc0ldWzfcl5p8L_U0gIE",
-            "og_title": "Confirmed: Real Madrid duo start for Spain against Czechia",
-            "og_desc": "World champions Spain take on Czechia in the UEFA Nations League tonight, aiming to extend their perfect start in the competition, after having won four in four during the last international break.Ahe...",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/50f015f8a64758c01a5cf1220342edd8d62b1b73e1bf67cbbba2f618d5c8d118/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmadrid_universal_articles_561%2Faa5ff47b705c551f22614fa9582aeb19.jpg",
-            "ok": true
-          },
-          {
-            "title": "De la Fuente banks on a new generation against the Czech Republic in the Nations League",
-            "url": "https://www.goal.com/en/news/de-la-fuente-banks-on-a-new-generation-against-the-czech-republic-in-the-nations-league/bltaae1f802439fcd1a",
-            "source": "Goal.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQcwhz86QFd26y8j-FeEPYIZn82UEJ18Daw9dh_e4m_zdL2t81XUeY6YozDsk4",
-            "og_title": "De la Fuente banks on a new generation against the Czech Republic in the Nations League | Goal.com",
-            "og_desc": "Spain have announced their starting line-up to face the Czech Republic in the UEFA Nations League, a young, bold and fearless side led by a new generation determined to prove that the future of La Roja has already begun.",
-            "og_image": "https://assets.goal.com/images/v3/getty-2304146815/crop/MM5DGNZZGA5DEMJTGI5G433XMU5DAORRHEZA====/GettyImages-2304146815.jpg",
-            "ok": true
-          }
-        ],
-        "category": "دول وأماكن",
-        "icon": "🗺️",
-        "color": "#79c0ff",
-        "reason": "العنوان يطابق: إسبانيا",
-        "publishable": true,
-        "article": {
-          "headline": "إسبانيا تحمي سلسلة 965 يوما بلا خسارة أمام التشيك في براغ",
-          "summary": "يحل المنتخب الإسباني ضيفًا على نظيره التشيكي في الجولة الخامسة من دوري الأمم الأوروبية، مدافعًا عن سجله الخالي من الهزائم منذ 965 يومًا.",
-          "body": "لم يعرف المنتخب الإسباني الأول لكرة القدم طعم الهزيمة طوال 965 يومًا، خاض خلالها 41 مباراة رسمية وتجريبية حقق فيها 33 انتصارًا و9 تعادلات. تعود آخر خسارة للمنتخب الإسباني في الوقت الأصلي إلى 22 مارس 2024 أمام كولومبيا، في حين خسر بركلات الترجيح أمام البرتغال في نهائي دوري الأمم السابق. ويسعى بطل العالم 2026 إلى الحفاظ على هذا السجل القوي أمام التشيك في براغ ضمن منافسات المجموعة الثالثة.\n\nتأتي هذه المواجهة في وقت ضمن فيه منتخب «لاروخا» تأهله إلى ربع النهائي بعد جمعه 12 نقطة من أربعة انتصارات متتالية أمام إنجلترا والتشيك وكرواتيا، بينما يتذيل المنتخب التشيكي المجموعة دون نقاط. تعني المباراة للإسبان فرصة لتعزيز الصدارة قبل الصدام المرتقب مع إنجلترا يوم الأحد المقبل، بينما يبحث أصحاب الأرض عن فوز معنوي.\n\nأعلن لويس دي لا فوينتي، المدير الفني للمنتخب الإسباني، استبعاد الثلاثي نيكو ويليامز وإيمريك لابورت والحارس ألفارو فاييس من القائمة. ووفقًا لصحيفة «موندو ديبورتيفو»، جاء استبعاد فاييس بسبب إصابته بالإنفلونزا، فيما فضل الجهاز الفني إراحة ويليامز ولابورت. وفي ظل غياب داني أولمو، وقع اختيار دي لا فوينتي على فيكتور مونيوز، لاعب ليفربول، لارتداء القميص رقم 10، وهي خطوة يطمح من خلالها اللاعب لإثبات قدراته.\n\nبعد خوض مواجهة اليوم في العاصمة براغ، يتوجه المنتخب الإسباني للتحضير لمباراته الحاسمة في الجولة السادسة أمام المنتخب الإنجليزي، والتي ستقام يوم الأحد المقبل لاختبار جاهزية الفريق قبل الانتقال إلى الأدوار الإقصائية من البطولة.",
-          "facts": [
-            {
-              "label": "المناسبة",
-              "value": "دوري الأمم الأوروبية"
-            },
-            {
-              "label": "الجولة",
-              "value": "الخامسة"
-            },
-            {
-              "label": "حالة إسبانيا",
-              "value": "ضمنت التأهل لربع النهائي"
-            },
-            {
-              "label": "القميص رقم 10",
-              "value": "فيكتور مونيوز"
-            },
-            {
-              "label": "موعد المباراة القادمة",
-              "value": "الأحد المقبل ضد إنجلترا"
-            }
-          ],
-          "tags": [
-            "إسبانيا",
-            "التشيك",
-            "دوري الأمم الأوروبية",
-            "دي لا فوينتي",
-            "كرة القدم"
-          ],
-          "_v": 4,
-          "_by": "gemini",
-          "written_at": "2026-11-12T21:01:42.388609+00:00",
-          "photo": {
-            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/The_Peninsula_Stadium_at_night_-_Salford_City_-_Aug_24.jpg/1280px-The_Peninsula_Stadium_at_night_-_Salford_City_-_Aug_24.jpg",
-            "width": 1280,
-            "height": 720,
-            "artist": "Emessem T",
-            "license": "CC BY-SA 4.0",
-            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-            "file_page": "https://commons.wikimedia.org/wiki/File:The_Peninsula_Stadium_at_night_-_Salford_City_-_Aug_24.jpg",
-            "stock": true,
-            "topic": "football"
-          },
-          "photo_v": 8,
-          "_had_data": false,
-          "_localized": false
-        },
-        "card": "cards/sa-2026-11-13-التشيك-ضد-إسبانيا.png"
-      },
       {
         "title": "إنجلترا ضد كرواتيا",
         "traffic": "+7000",
         "traffic_num": 7000,
         "published": "Thu, 12 Nov 2026 11:10:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSLN5Hi9s2i3gGECsN-WNpHCP7ERovzVO1fBQgSchGGM5ZqcvZbGa96udQmU08",
-        "image_source": "جريدة الرياض",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHfZF5O6FSXVQ-Nru-sGlcYbZEp6Jv2o0yV7Dz65p4Z3NzY_ZUVPeQARdFiFE",
+        "image_source": "الشرق الأوسط",
         "news": [
+          {
+            "title": "احتفاء جماهيري بكين في ويمبلي... وولي العهد البريطاني يكرمه",
+            "url": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/5340636-%D8%A7%D8%AD%D8%AA%D9%81%D8%A7%D8%A1-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1%D9%8A-%D8%A8%D9%83%D9%8A%D9%86-%D9%81%D9%8A-%D9%88%D9%8A%D9%85%D8%A8%D9%84%D9%8A-%D9%88%D9%88%D9%84%D9%8A-%D8%A7%D9%84%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A-%D9%8A%D9%83%D8%B1%D9%85%D9%87",
+            "source": "الشرق الأوسط",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHfZF5O6FSXVQ-Nru-sGlcYbZEp6Jv2o0yV7Dz65p4Z3NzY_ZUVPeQARdFiFE",
+            "og_title": "احتفاء جماهيري بكين في ويمبلي... وولي العهد البريطاني يكرمه",
+            "og_desc": "احتفل هاري كين، قائد منتخب إنجلترا، بفوزه بجائزة الكرة الذهبية (بالون دور) وتحطيمه الرقم القياسي في عدد المباريات الدولية مع منتخب بلاده.",
+            "og_image": "https://static.srpcdigital.com/styles/1200x600/public/2026-11/1877669.jpeg.webp?VersionId=43oUTObzauugNP.E8XfDk1MlkT1hvQ0G",
+            "ok": true
+          },
           {
             "title": "هاري كين يصبح أكثر لاعب مشاركة في تاريخ منتخب إنجلترا بـ126 مباراة",
             "url": "https://www.alriyadh.com/2214966",
@@ -1612,24 +1097,13 @@
             "ok": true
           },
           {
-            "title": "دوري الأمم: كاين على أعتاب تحطيم الرقم القياسي لعدد المشاركات مع إنكلترا",
-            "url": "https://www.mc-doualiya.com/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%85%D8%B1%D8%A9/20261111-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D9%83%D8%A7%D9%8A%D9%86-%D8%B9%D9%84%D9%89-%D8%A3%D8%B9%D8%AA%D8%A7%D8%A8-%D8%AA%D8%AD%D8%B7%D9%8A%D9%85-%D8%A7%D9%84%D8%B1%D9%82%D9%85-%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%B3%D9%8A-%D9%84%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A7%D8%AA-%D9%85%D8%B9-%D8%A5%D9%86%D9%83%D9%84%D8%AA%D8%B1%D8%A7",
-            "source": "مونت كارلو الدولية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8u1Vp9U0o3lO6CXxOym348eJt7bOI2ZP3vQR_5paLRvQ1dW_WkJyKoBPqFBQ",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "England vs Croatia LIVE! Nations League Group A3 commentary, updates, score, line-ups",
-            "url": "https://www.skysports.com/football/live-blog/13611565/england-vs-croatia-live-nations-league-group-a3-commentary-updates-score-line-ups",
-            "source": "Sky Sports",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQy6uST84SwRn850eFqWOLsiDvVvURDgqltMR7qYrdH6UgRxFRQt8svHcQ88Ec",
-            "og_title": "England vs Croatia LIVE! Nations League Group A3 commentary, updates, score, line-ups",
-            "og_desc": "England vs Croatia LIVE! Nations League Group A3 commentary, updates, score, line-ups",
-            "og_image": "https://e0.365dm.com/26/11/1600x900/skysports-football-morgan-rogers_7405404.jpg?20261112201743",
+            "title": "England vs Croatia LIVE: UEFA Nations League score, commentary, updates & stats",
+            "url": "https://www.bbc.com/sport/football/live/cr5yn1g2qe6et",
+            "source": "BBC",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSNVC0mRs6oTrTSsu9uKhfVZydu_IDf-Le1K4JTSir0QPCGnTHverL2B0wcS1U",
+            "og_title": "England vs Croatia LIVE: UEFA Nations League score, commentary, updates & stats",
+            "og_desc": "Follow live text commentary, score updates and match stats from England vs Croatia in the UEFA Nations League",
+            "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c62c/live/a7a7d990-dedd-11f1-a75a-dbf83836672c.jpg",
             "ok": true
           },
           {
@@ -1644,13 +1118,13 @@
             "error": "HTTPError"
           },
           {
-            "title": "Croatia's Wembley test: a battle for respect after Rijeka's shame",
-            "url": "https://onefootball.com/en/news/croatias-wembley-test-a-battle-for-respect-after-rijekas-shame-43766047",
-            "source": "OneFootball",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3MndGc4Y4EhkKOJt3khjX39GytzXjR5IJu4KUsREiukzAtlHxQ-I6hSD0Ux8",
-            "og_title": "Croatia's Wembley test: a battle for respect after Rijeka's shame",
-            "og_desc": "Croatia return to Wembley this Thursday to face England in the Nations League, looking to put last month’s humiliating 7-0 defeat in Rijeka behind them.The…",
-            "og_image": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fen%2F43766047%3Fdate=2026-11-12",
+            "title": "England vs Croatia: UEFA Nations League – preview, team news, predictions",
+            "url": "https://www.aljazeera.com/sports/2026/11/12/england-vs-croatia-uefa-nations-league-preview-team-news",
+            "source": "Al Jazeera",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTLyWdwUn2JSp8z8yABBOjo6X_QNxYE0h5x5DUZyECN8eqnxuJLJ3_Hqr_Bkn8",
+            "og_title": "England eye Nations League last eight in home clash with Croatia",
+            "og_desc": "Harry Kane is set to become England’s most-capped men’s player when he leads his side against Croatia, who are looking for redemption after their previous thrashing from the Three Lions.",
+            "og_image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-11T123640Z_949474069_UP1EMBB0Z13T8_RTRMADP_3_SOCCER-UEFANATIONS-ENG-CRO-PREVIEW-1794476716.jpg?resize=1920%2C1440",
             "ok": true
           }
         ],
@@ -1662,9 +1136,145 @@
         "card": "cards/sa-2026-11-13-إنجلترا-ضد-كرواتيا.png"
       },
       {
+        "title": "fc barcelona femení vs arsenal w.f.c. standings",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "published": "Thu, 12 Nov 2026 13:00:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQy7GJkIRb6nkcMSHIiAT15AKaGzHRIfA3hVeXoIAkEsPlsJ0-xXaT5EOWFQE8",
+        "image_source": "ESPN",
+        "news": [
+          {
+            "title": "Inconsistencies continue for Arsenal, even against a vulnerable Barcelona",
+            "url": "https://www.espn.com/soccer/story/_/id/50464177/inconsistencies-continue-arsenal-vulnerable-barcelona-uwcl",
+            "source": "ESPN",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQy7GJkIRb6nkcMSHIiAT15AKaGzHRIfA3hVeXoIAkEsPlsJ0-xXaT5EOWFQE8",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
+          },
+          {
+            "title": "Uefa Women's Champions League highlights: Barcelona 1-1 Arsenal",
+            "url": "https://www.bbc.com/sport/football/videos/crlye55q790yo",
+            "source": "BBC",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS39gc5obiVBHEAOa3oyEm3gMzUz6FAfGQ_4PJGsKCpCpv0Oe0K_C9-NJtN_TM",
+            "og_title": "Uefa Women's Champions League highlights: Barcelona 1-1 Arsenal",
+            "og_desc": "Arsenal extend their unbeaten start to four matches in the Uefa Women's Champions League, as they produce a dogged display to hold Barcelona to a 1-1 draw at the Camp Nou. \nThe point moves Renee Slegers' side into the top four, putting them in a great position to automatically qualify for the knockout stages.",
+            "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/17d7/live/103dfe40-ded3-11f1-b441-2b33b063138f.jpg",
+            "ok": true
+          },
+          {
+            "title": "Barcelona 1-1 Arsenal - commentary and reaction",
+            "url": "https://www.skysports.com/football/live-blog/13611638/barcelona-vs-arsenal-live-womens-champions-league-match-updates-news-and-score",
+            "source": "Sky Sports",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSqGpbvn3iRtDsfsdkQjqddk37KrjTQN0zTyrvCsjf8co2DFIouOajnDumtOUQ",
+            "og_title": "Barcelona 1-1 Arsenal - commentary and reaction",
+            "og_desc": "Barcelona 1-1 Arsenal - commentary and reaction",
+            "og_image": "https://e0.365dm.com/26/11/1600x900/skysports-arsenal-women_7405297.jpg?20261112175706",
+            "ok": true
+          }
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "العنوان يطابق: vs",
+        "publishable": true,
+        "article": {
+          "headline": "أرسنال يقتنص تعادلاً ثميناً من برشلونة ويقفز للمربع الذهبي أوروبياً",
+          "summary": "حقق أرسنال تعادلاً إيجابياً بنتيجة 1-1 أمام برشلونة في كامب نو ضمن منافسات دوري أبطال أوروبا للسيدات، ليرفع رصيده ويقترب من التأهل للأدوار الإقصائية.",
+          "body": "وصل فريق أرسنال للسيدات إلى أربع مباريات دون هزيمة في دوري أبطال أوروبا، بعدما نجح في انتزاع نقطة ثمينة من معقل برشلونة في كامب نو. الأداء الدفاعي القوي للفريق اللندني حال دون تفوق أصحاب الأرض، ليفرض التعادل 1-1 في مواجهة شهدت ندية واضحة حتى اللحظات الأخيرة من المباراة. هذا التعادل لا يمثل مجرد نتيجة إيجابية، بل يضع سيدات أرسنال في موقف استراتيجي بجدول الترتيب، حيث يمنح هذا الرصيد النقطي الفريق دفعة قوية نحو حجز مقعد مباشر في الأدوار الإقصائية للبطولة القارية.\n\nتكمن أهمية هذه النتيجة في تعزيز حظوظ الفريق في دور المجموعات، حيث باتت كتيبة المدربة رينيه سليجرز تملك فرصاً وافرة للعبور بفضل هذا الأداء المتماسك. بالنسبة للمتابعين، يؤكد هذا التعادل قدرة أرسنال على مواجهة كبار أوروبا في أصعب الملاعب، وهو ما يمنح الفريق ثقة إضافية لاستكمال مشوار البطولة الطويل.\n\nوفقاً لمصادر «بي بي سي»، نجح أرسنال في تقديم عرض دفاعي صلب أمام برشلونة، مما مكن الفريق من الصعود إلى المراكز الأربعة الأولى في الترتيب العام. ومن جهة أخرى، أشارت تقارير «سكاي سبورتس» إلى أن المباراة شهدت محاولات هجومية متأخرة، حيث كادت لاعبات أرسنال مثل سميث وباتل أن يغيرن مجرى المباراة في الدقائق الـ 86 وما حولها بفضل الكرات العرضية الخطيرة، بينما تدخلت غويخارو ببراعة لإيقاف خطورة الضيوف في اللحظات الحاسمة.\n\nتنتظر الفريق اللندني خطوات مقبلة هامة في مرحلة المجموعات لتأمين تأهله بشكل رسمي، خاصة بعد نجاحه في الحفاظ على سجله خالياً من الهزائم. سيحاول أرسنال استغلال هذا الزخم في المباريات القادمة للحفاظ على مركزه المتقدم في الترتيب، وضمان بطاقة العبور دون الحاجة إلى انتظار نتائج الفرق الأخرى، معتمداً على صلابته الدفاعية التي ظهرت بوضوح أمام العملاق الإسباني.",
+          "facts": [
+            {
+              "label": "النتيجة",
+              "value": "1-1"
+            },
+            {
+              "label": "المنافسة",
+              "value": "دوري أبطال أوروبا للسيدات"
+            },
+            {
+              "label": "المركز الحالي",
+              "value": "ضمن المربع الذهبي"
+            }
+          ],
+          "tags": [
+            "أرسنال",
+            "برشلونة",
+            "دوري أبطال أوروبا للسيدات",
+            "كرة القدم النسائية",
+            "نتائج المباريات"
+          ],
+          "_v": 4,
+          "_by": "gemini",
+          "written_at": "2026-11-12T21:31:35.421500+00:00",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Adidas_soccer_ball_on_a_grass_pitch_%28Unsplash%29.jpg/1280px-Adidas_soccer_ball_on_a_grass_pitch_%28Unsplash%29.jpg",
+            "width": 1280,
+            "height": 853,
+            "artist": "Peter Glaser baraida",
+            "license": "CC0",
+            "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "file_page": "https://commons.wikimedia.org/wiki/File:Adidas_soccer_ball_on_a_grass_pitch_(Unsplash).jpg",
+            "stock": true,
+            "topic": "football"
+          },
+          "photo_v": 8,
+          "_had_data": false,
+          "_localized": false
+        },
+        "card": "cards/sa-2026-11-13-fc-barcelona-femení-vs-arsenal-wfc-standings.png"
+      },
+      {
+        "title": "عاصفة رعدية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "published": "Thu, 12 Nov 2026 13:10:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEZZB4C0nx5-VFVwpi_0L-RMpj7JcekH9JTblJMGRlNSWUF5bxlObbzbJaycs",
+        "image_source": "وكالة الأنباء السعودية",
+        "news": [
+          {
+            "title": "بيئي / أمطار غزيرة على منطقة الباحة",
+            "url": "https://www.spa.gov.sa/N2724522",
+            "source": "وكالة الأنباء السعودية",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEZZB4C0nx5-VFVwpi_0L-RMpj7JcekH9JTblJMGRlNSWUF5bxlObbzbJaycs",
+            "og_title": "بيئي / أمطار غزيرة على منطقة الباحة",
+            "og_desc": "الباحة 01 جمادى الآخرة 1448هـ الموافق 11 نوفمبر 2026م واس\n    هطلت على منطقة الباحة اليوم أمطارٌ متفرقة، تراوحت بين المتوسطة والغزيرة، مصحوبةً بعواصف رعدية، شملت أجزاءً متفرقة من مدينة الباحة وضواحيها وأجزاءً من محافظات بلجرشي، والقرى، والعقيق، والمندق، وبني حسن، والمخواة، وغامد الزناد، وقلوة، والحجرة، والمراكز التابعة لها، ومتنزهاتها، سالت على إثرها عددٌ من الأودية والشعاب، وارتوت الأرض.\n    وما زالت الأمطار مستمرة.\n    جعلها الله سقيا رحمةٍ وبركة، وعمّ بنفعها أرجاء البلاد.\n    // انتهى //\r\n19:19 ت مـ \r\n0231",
+            "og_image": "https://portalcdn.spa.gov.sa/backend/original/202611/F11214715.jpeg",
+            "ok": true
+          },
+          {
+            "title": "الأرصاد يحذّر من أمطار ورياح وسيول تشمل الرياض و22 محافظة حتى الـ11 مساءً",
+            "url": "https://sabq.org/article/6zspzji",
+            "source": "صحيفة سبق الإلكترونية",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-co7aWn2hiGX1ZKGPFyz31QYDIHXYNaP6Slhsg6hHVOodlEnBgnOoB7Ofgds",
+            "og_title": "الأرصاد يحذّر من أمطار ورياح وسيول تشمل الرياض و22 محافظة حتى الـ11 مساءً | سبق",
+            "og_desc": "نبّه المركز الوطني للأرصاد من استمرار الحالة المطرية على الرياض ومحافظاتها، مع رياح شديدة وصواعق رعدية وتساقط البرد وجريان السيول حتى الـ11 مساءً.",
+            "og_image": "https://media.sabq.org/news/2026/11/42f15be7-84c5-4721-9ad0-51ccf58c4ccd/w1200.webp",
+            "ok": true
+          },
+          {
+            "title": "الدفاع المدني يدعو للحيطة والالتزام بإرشادات السلامة أثناء هطول الأمطار",
+            "url": "https://ajel.sa/local/cdm5axsvm",
+            "source": "عاجل",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTTLn1zuKQhh5EsRs-NePW3jh6YkGgjdlXIGM2EzXQ-kvRMSxQCrptR-oTTttg",
+            "og_title": "الدفاع المدني يدعو للحيطة والالتزام بإرشادات السلامة أثناء هطول الأمطار",
+            "og_desc": "دعت المديرية العامة للدفاع المدني المواطنين لتوخي الحذر أثناء هطول الأمطار، والالتزام بإرشادات السلامة وتجنب الأودية والمنخفضات حفاظًا على الأرواح.",
+            "og_image": "https://ajel.sa/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=auto,format=jpeg/https://cdn.ajel.sa/articles/2026-09/%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A-PuvxMYyZ.jpg",
+            "ok": true
+          }
+        ],
+        "category": "طقس",
+        "icon": "🌤️",
+        "color": "#7fd8ff",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "local_only": true,
+        "card": "cards/sa-2026-11-13-عاصفة-رعدية.png"
+      },
+      {
         "title": "حادث الفجيرة اليوم",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "published": "Thu, 12 Nov 2026 11:50:00 -0800",
         "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTHX3xgT-YmU33Ar73ywUDn7rqJhRNu5qRaRn9fuvH7-JLF_LLG0qEPA3TE1Xg",
         "image_source": "CNN Arabic",
@@ -1760,17 +1370,17 @@
         "traffic": "200+",
         "traffic_num": 200,
         "published": "Thu, 12 Nov 2026 11:30:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLTnkLSxQlvqf_-H7ZnJQf9xAcIu_3_Nl04nx7yiOma_DJDRg8rPzFHZdJSw",
-        "image_source": "BBC",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ0AJN3x_N8zpzNkrf5w-V2QXXcdXR2v4LY1Mx5hRiQkfbV86DKGN-lIGb_Wqo",
+        "image_source": "SussexWorld",
         "news": [
           {
-            "title": "Ivory Coast vs Gambia: Africa Cup of Nations Qualification stats & head-to-head",
-            "url": "https://www.bbc.com/sport/football/live/c8y56xwkn534t",
-            "source": "BBC",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLTnkLSxQlvqf_-H7ZnJQf9xAcIu_3_Nl04nx7yiOma_DJDRg8rPzFHZdJSw",
-            "og_title": "Ivory Coast vs Gambia: Africa Cup of Nations Qualification stats & head-to-head",
-            "og_desc": "Follow live text commentary, score updates and match stats from Ivory Coast vs Gambia in the Africa Cup of Nations Qualification",
-            "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+            "title": "Brighton issue Yankuba Minteh update as Gambia confirm international break decision",
+            "url": "https://www.sussexexpress.co.uk/sport/football/brighton-and-hove-albion/brighton-issue-yankuba-minteh-update-as-gambia-confirm-international-break-decision-9340123",
+            "source": "SussexWorld",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ0AJN3x_N8zpzNkrf5w-V2QXXcdXR2v4LY1Mx5hRiQkfbV86DKGN-lIGb_Wqo",
+            "og_title": "Brighton issue Yankuba Minteh update as Gambia confirm international break decision",
+            "og_desc": "All the latest team and injury news as Brighton players jet off for the international break",
+            "og_image": "https://www.sussexexpress.co.uk/jpim-static/image/2026/11/09/16/31/GettyImages-2271864466.jpeg?width=1200&auto=webp&quality=75&trim=0,0,0,0&crop=",
             "ok": true
           },
           {
@@ -1784,13 +1394,13 @@
             "ok": true
           },
           {
-            "title": "AFCON 2027 Qualifiers: Ivory Coast leads Gambia 2-1 at Halftime",
-            "url": "https://en.africatopsports.com/afcon-2027-qualifiers-ivory-coast-leads-gambia-2-1-at-halftime/",
-            "source": "Africa Top Sports",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRXcqzoMdPBjACbrEukBYRIs-dNYpCrfSNSNGtpZBDHDqcPJ9-LcyWDbsXqdUY",
-            "og_title": "AFCON 2027 Qualifiers: Ivory Coast leads Gambia 2-1 at Halftime",
-            "og_desc": "Ivory Coast lead Gambia 2-1 at halftime in their Group C Matchday 3 clash of the 2027 AFCON qualifiers, with the first half.",
-            "og_image": "https://en.africatopsports.com/wp-content/uploads/2026/11/IMG_20261112_194927.jpg",
+            "title": "Ivory Coast vs Gambia: Africa Cup of Nations Qualification stats & head-to-head",
+            "url": "https://www.bbc.com/sport/football/live/c8y56xwkn534t",
+            "source": "BBC",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLTnkLSxQlvqf_-H7ZnJQf9xAcIu_3_Nl04nx7yiOma_DJDRg8rPzFHZdJSw",
+            "og_title": "Ivory Coast vs Gambia: Africa Cup of Nations Qualification stats & head-to-head",
+            "og_desc": "Follow live text commentary, score updates and match stats from Ivory Coast vs Gambia in the Africa Cup of Nations Qualification",
+            "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
             "ok": true
           }
         ],
@@ -1800,6 +1410,100 @@
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
         "card": "cards/sa-2026-11-13-côte-divoire-vs-gambia.png"
+      },
+      {
+        "title": "france",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Thu, 12 Nov 2026 13:00:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxy1uAKYvkxxUxEsZ0ka9Hr5CmHnyFz-HDda2fowafTeJueKgvYNGh_Ar3Ae4",
+        "image_source": "franceinfo",
+        "news": [
+          {
+            "title": "DIRECT. Italie-France : pourtant dominée, la Squadra prend les commandes grâce à Davide Frattesi ! Suivez le match de Ligue des nations avec nous",
+            "url": "https://www.franceinfo.fr/sports/directs/direct-italie-france-qualification-en-vue-pour-les-quarts-de-ligue-des-nations-suivez-et-commentez-le-match-avec-nous_8276066.html",
+            "source": "franceinfo",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxy1uAKYvkxxUxEsZ0ka9Hr5CmHnyFz-HDda2fowafTeJueKgvYNGh_Ar3Ae4",
+            "og_title": "DIRECT. Italie-France : sur un pénalty de Pio Esposito, la Squadra Azzurra fait le break ! Suivez le match de Ligue des nations avec nous",
+            "og_desc": "S'ils ne s'inclinent pas, jeudi à Milan, les Bleus seront assurés de participer aux quarts de finale de la compétition.",
+            "og_image": "https://www.franceinfo.fr/pictures/qIOiQy6-8Dwh_oK9gBRnXVfsa-c/0x0:6000x3375/1500x843/2026/11/12/6af62f033b8eb179456086.jpg",
+            "ok": true
+          },
+          {
+            "title": "Donnarumma se fait démonter sur les réseaux après sa boulette",
+            "url": "https://www.footmercato.net/a6703188072337707483-donnarumma-se-fait-demonter-sur-les-reseaux-apres-sa-boulette",
+            "source": "Foot Mercato",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQQZTCIBLD_zEOxQPAMtDVC_D9NWCKu7ECd-tUnTh5cssDv2r4kAoryGVM4Y8",
+            "og_title": "Donnarumma se fait démonter sur les réseaux après sa boulette",
+            "og_desc": "Gianluigi Donnarumma a encore fait des siennes, pour le plus grand bonheur des Français ! Sous la pression des attaquants tricolores, le portier  (...) - Footmercato",
+            "og_image": "https://assets-fr.imgfoot.com/media/cache/1200x675/gianluigi-donnarumma-2526-italien.jpg",
+            "ok": true
+          },
+          {
+            "title": "Rabiot est le 137e capitaine de l'histoire des Bleus",
+            "url": "https://www.sofoot.com/breves/adrien-rabiot-porte-le-brassard-de-capitaine-de-lequipe-de-france-contre-litalie",
+            "source": "SO FOOT.com",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQx82Ks9CXsKsFtucf039dFLgmzfIjSO5yJPxrhc24mZcUoeyHbB0mVL716jFI",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "category": "دول وأماكن",
+        "icon": "🗺️",
+        "color": "#79c0ff",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/sa-2026-11-13-france.png"
+      },
+      {
+        "title": "الكويت",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Thu, 12 Nov 2026 13:00:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQF8fsTsLUu14INjKVuZwsT_4LX81-TDY0WAJMzzxZ11RFqGQMR0vengioG2ys",
+        "image_source": "annahar.com",
+        "news": [
+          {
+            "title": "سوريا والكويت في كرة القدم: تاريخ مواجهات وأرقام بارزة",
+            "url": "https://www.annahar.com/sports/365796/%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D8%B6%D8%AF-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%AD%D8%A7%D9%81%D9%84-%D8%A8%D8%A7%D9%84%D9%86%D8%AF%D9%8A%D8%A9-%D9%88%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%84%D8%A3%D8%B1%D9%82%D8%A7%D9%85",
+            "source": "annahar.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQF8fsTsLUu14INjKVuZwsT_4LX81-TDY0WAJMzzxZ11RFqGQMR0vengioG2ys",
+            "og_title": "سوريا والكويت في كرة القدم: تاريخ مواجهات وأرقام بارزة",
+            "og_desc": "تعرف على تاريخ مواجهات منتخب سوريا والكويت في كرة القدم، وأبرز الأرقام والنتائج التي ميزت لقاءاتهم عبر السنوات الماضية... من فاز أكثر؟ وما هي أبرز المواجهات؟",
+            "og_image": "https://www.annahar.com/Assets/ContentPhotos/Photos/Cover_124026.webp?width=1416&height=805&mode=crop&scale=both",
+            "ok": true
+          },
+          {
+            "title": "من هو محمود داوود النجم السوري الذي يعوّل عليه المنتخب؟",
+            "url": "https://twaslnews1.twaslnews.com/7573525/",
+            "source": "شبكة تواصل الإخبارية",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTuMKIGUxTEk06bwoLbMWCjbOXs86qQFNkFuXTQjpFHLPaoK-3VFcWKmYgt1q4",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "موعد مباراة الكويت ضد سوريا الودية 2026 والقنوات الناقلة",
+            "url": "https://al-ain.com/article/kuwait-vs-syria-friendly-match-date",
+            "source": "العين الإخبارية",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRpBiUqvlgQIM4arIIzQO1Cahq0VeBtE6-c6H64XZOpfoFOGMhRHmt8zC5oHFA",
+            "og_title": "موعد مباراة الكويت ضد سوريا الودية 2026 والقنوات الناقلة",
+            "og_desc": "يخوض المنتخبان السوري والكويتي مواجهة ودية عربية على استاد الصداقة والسلام في الكويت، ضمن برنامج إعداد المنتخبين خلال فترة التوقف الدولي الحالية.",
+            "og_image": "https://cdn.al-ain.com/images/2026/11/12/100-211616-kuwait-vs-syria-friendly-match-date_700x400.jpg",
+            "ok": true
+          }
+        ],
+        "category": "دول وأماكن",
+        "icon": "🗺️",
+        "color": "#79c0ff",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/sa-2026-11-13-الكويت.png"
       },
       {
         "title": "michael carrick",

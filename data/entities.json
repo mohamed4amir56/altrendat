@@ -221,11 +221,11 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "اقتصاد",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "سعر الذهب عيار 24 اليوم الخميس 12 نوفمبر 2026 في مصر.. استقرار عند 7017 جنيها",
-          "أسعار الذهب في مصر تواصل النزيف اليوم.. عيار 21 يخسر 45 جنيهًا",
-          "سعر الذهب اليوم الأربعاء 11/11/2026 في مصر.. عيار 21 بعد الهبوط"
+          "انخفاض عيار الذهب 24.. كم تسجل أسعار سبائك الذهب اليوم؟",
+          "أسعار الذهب في مصر تواصل النزيف اليوم.. عيار 21 يخسر 45 جنيهًا"
         ]
       }
     ],
@@ -8557,12 +8557,11 @@
         "country_name": "السعودية",
         "traffic": "20000+",
         "traffic_num": 20000,
-        "category": "حوادث وقضايا",
-        "publishable": false,
+        "category": "طقس",
+        "publishable": true,
         "headlines": [
-          "Brenda Barnes - Northern Lights from Rigby (Nov. 2025)",
-          "Seven-year-old dies, five injured in accident",
-          "Two killed in truck-motorcycle collision in Siraha, truck driver flees"
+          "الطقس غدًا في السعودية الخميس 12 نوفمبر 2026… الطقس غدًا في السعودية: إنذارات بأمطار غزيرة ورياح ...",
+          "تنبيهات الأرصاد الجوية في السعودية: أمطار وسيول بالشرقية"
         ]
       }
     ],
@@ -8574,7 +8573,7 @@
       "world"
     ],
     "peak_traffic": 220100,
-    "category": "حوادث وقضايا"
+    "category": "طقس"
   },
   "إنستاباي": {
     "slug": "إنستاباي",
@@ -15955,7 +15954,7 @@
         "publishable": false,
         "headlines": [
           "حسين لبيب يكشف.. مراحل إنشاء شركة الكرة في نادي الزمالك",
-          "\"قرار لا رجعة فيه\".. حسين لبيب يعلن عدم ترشحه لرئاسة الزمالك في الانتخابات المقبلة",
+          "حسين لبيب: الزمالك بطل في كل العصور.. الجماهير فوق رؤوسنا وندرك مطالبهم",
           "«مفيش شفافية.. وإحنا مش محتاجين نشتغل في النادي!».. رسائل نارية من حلمي طولان عن جلسة رموز الزمالك"
         ]
       }
@@ -50976,9 +50975,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "‘কী গোলটাই না করল ফারহান!’",
-          "হামজার চেয়ে ভালো অধিনায়ক আর কেউ হতে পারে না: ডুলি",
-          "হামজা-ফারহানের নৈপুণ্যে শ্রীলঙ্কাকে ৪ গোলে উড়িয়ে সেমিফাইনালে বাংলাদেশ"
+          "ফুলহামের ‘স্টার বয়’ থেকে বাংলাদেশের ‘ম্যাজিশিয়ান’—কে এই ফারহান আলী",
+          "হামজাকে দশে দশ দিলেন বাংলাদেশের কোচ",
+          "হামজার চেয়ে ভালো অধিনায়ক আর কেউ হতে পারে না: ডুলি"
         ]
       }
     ],
@@ -182353,8 +182352,8 @@
         "date": "2026-11-12",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": []
@@ -182365,7 +182364,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "مباراة-السعودية": {
@@ -274314,7 +274313,7 @@
         "headlines": [
           "How the WTC is reshaping the second tier of Test cricket",
           "Impressive Pakistan debutants leave Sri Lanka trailing by 320 runs in 1st cricket test",
-          "De Silva, Kamindu fifties guide Sri Lanka to 221-4 in first Test"
+          "Saqib's 7-wicket total on debut gives Sri Lanka a slender 1st-innings lead vs Pakistan"
         ]
       }
     ],
@@ -333894,10 +333893,25 @@
           "Greenville city council advances funding appropriation for downtown conference center",
           "Your First Alert Forecast: Saturday, October 10"
         ]
+      },
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "Julianne Moore Goes Full Method Opposite Paul Giamatti in A24's 'The Debut' Trailer",
+          "Watch Community Theatre-Themed The Debut Trailer Starring Julianne Moore, Paul Giamatti",
+          "Jesse Eisenberg, Julianne Moore on The Debut, AI and Now You See Me 4"
+        ]
       }
     ],
-    "last_seen": "2026-10-14",
-    "total": 1,
+    "last_seen": "2026-11-12",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -335410,15 +335424,30 @@
         "headlines": [
           "See Cathay Pacific's new business-class and premium economy seats, part of its $19 billion upgrades"
         ]
+      },
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "The Cathay Group orders 14 additional Airbus aircraft",
+          "Cathay Pacific orders additional A330neos, A321neos",
+          "Cathay orders 14 more Airbus jets as investment commitments top HK$150 billion"
+        ]
       }
     ],
-    "last_seen": "2026-10-15",
-    "total": 1,
+    "last_seen": "2026-11-12",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 100,
-    "category": "اقتصاد"
+    "category": "عام"
   },
   "لقاء-سويدان": {
     "slug": "لقاء-سويدان",
@@ -355966,10 +355995,25 @@
           "Former PlayStation Boss Thinks Sony Is Solving The Wrong Problem With PS6",
           "A PlayStation 6 At $1000+ With Just More “Teraflops” Could Be A Mistake, Yet The PlayStation Portal and Cloud Gaming Present The Solution"
         ]
+      },
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "PS6 LIVE: Next-gen PlayStation plans official update from Sony",
+          "Information about preparations for the PlayStation 6 console presentation has surfaced online.",
+          "PS6 development progress: Sony's reported update"
+        ]
       }
     ],
-    "last_seen": "2026-11-11",
-    "total": 3,
+    "last_seen": "2026-11-12",
+    "total": 4,
     "countries": [
       "world"
     ],
@@ -593002,7 +593046,7 @@
         "publishable": false,
         "headlines": [
           "AFGU19 vs INDU19, Semi Final 2 (B1 v A2), ACC Men's U19 Asia Cup 2026 - Commentary",
-          "IND vs AFG, Under-19 Asia Cup Semi Final Live Score: Yashbardhan's strike give India third breakthrough as well-set Subhan Zakhail departs",
+          "IND vs AFG, Under-19 Asia Cup Semi Final Live Score: Aryan Savsani's double strike leaves Afghanistan in trouble",
           "Noor Ali Niazai has 13 wickets for 71 runs, and he is what stands between India’s Under-19s and the Asia Cup final"
         ]
       }
@@ -612147,14 +612191,14 @@
         "date": "2026-11-12",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "أمينة عرفي وهانيا الحمامي تغيبان عن بطولة الصين المفتوحة للإسكواش بسبب الإصابة",
           "اسكواش - انسحاب أمينة عرفي وهانيا الحمامي من بطولة الصين المفتوحة",
-          "اسكواش – انسحاب أمينة عرفي وهانيا الحمامي من بطولة الصين المفتوحة"
+          "انطلاق منافسات بطولة سنغافورة كلاسيك للاسكواش"
         ]
       }
     ],
@@ -612163,7 +612207,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "nintendo-zelda-ocarina-of-time": {
@@ -648111,7 +648155,7 @@
         "headlines": [
           "غرامة تصل لـ500 ألف جنيه.. القانون يلزم التجار بإعلان أسعار السلع ومواصفاتها",
           "حماية المستهلك: تنفيذ 708 حملات رقابية وتحرير 1726 مخالفة خلال أكتوبر",
-          "جهاز حماية المستهلك يستعرض حصاد جهود ضبط الأسواق خلال أكتوبر"
+          "من الإعلانات المُضللة إلى العقارات .. غرامات تصل لمليوني جنيه بقانون حماية المستهلك"
         ]
       }
     ],
@@ -654085,14 +654129,14 @@
         "date": "2026-11-12",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "100+",
+        "traffic_num": 100,
         "category": "تقنية",
         "publishable": false,
         "headlines": [
           "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
-          "Investors worry the AI trade needs Nvidia's Huang and its largesse",
-          "Statement From NVIDIA Board of Directors"
+          "Democratic senators demand NVIDIA records from Trump administration over alleged Chinese spy ties",
+          "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang"
         ]
       }
     ],
@@ -657277,7 +657321,7 @@
         "headlines": [
           "نجمات مسلسل \"عشماوي\" المنتظر يتنافسن في الأناقة.. نظرة على أسلوب كل منهن في اختيار إطلالاتها",
           "المخرج أزاح الغموض أخيراً.. 3 فنانات وراء توقف تصوير مسلسل محمد رمضان",
-          "بعد غياب 8 أعوام.. «عشماوي» يعيد سيرين عبدالنور إلى المنافسة الرمضانية"
+          "محمد رمضان يروج لشخصيات مسلسل عشماوي بصورة مع هناء الشوربجي ويسرا اللوزي"
         ]
       }
     ],
@@ -657533,8 +657577,8 @@
         "publishable": false,
         "headlines": [
           "‘An eternal shame’: Bilic and Croatia aim to use 7-0 humbling as fuel against England",
-          "How England could line-up against Croatia with Jobe debut and Pickford decision",
-          "bet365 bonus code: Get £30 in Nations League free bets"
+          "Is England v Croatia on TV? Channel, kick-off time and how to watch Nations League clash",
+          "Will Harry Kane Score? Latest Goalscorer Prediction & Tips"
         ]
       }
     ],
@@ -657620,8 +657664,8 @@
         "publishable": false,
         "headlines": [
           "\"رخيصة بشكل صادم\": كيف تتفوق الطاقة الشمسية على الطاقة النووية؟",
-          "إطار تسعير توليد الطاقة الشمسية وطاقة الرياح في عام 2026",
-          "ابتداءً من 11 نوفمبر، سيصل سعر توليد الكهرباء لأنظمة تخزين البطاريات إلى 3209.98 دونغ فيتنامي/كيلوواط ساعة."
+          "تحسين جودة إمدادات الكهرباء في ها هوا",
+          "تسريع وتيرة مشاريع الطاقة الشمسية، والسعي لتشغيلها في عام 2027."
         ]
       }
     ],
@@ -657661,5 +657705,63 @@
     ],
     "peak_traffic": 200,
     "category": "رياضة"
+  },
+  "jeremiah-smith-ohio-state-football-news": {
+    "slug": "jeremiah-smith-ohio-state-football-news",
+    "name": "jeremiah smith ohio state football news",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Ohio State Launches “JJ 4 It All” Campaign For Jeremiah Smith To Win Heisman Trophy, Other National Awards",
+          "Smith Named Semifinalist for Maxwell Award",
+          "HEISMAN PUSH: Ohio State Backs Jeremiah Smith as Best Player, LAUNCHES Official Trophy Campaign"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "sasha-obama": {
+    "slug": "sasha-obama",
+    "name": "sasha obama",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Malia and Sasha Obama Offer Two Totally Different Takes on Fall Dressing for Dinner With Dad Barack",
+          "Malia and Sasha Obama Do Fall Layering Two Very Different Ways",
+          "Malia and Sasha Obama Coordinate in Trendy Fall Outerwear During First Joint Sighting in Months"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
   }
 }

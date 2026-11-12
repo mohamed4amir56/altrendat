@@ -4679,11 +4679,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "دول وأماكن",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "السعودية ترفع إنتاجها من النفط الخام لأعلى مستوى منذ بدء حرب إيران",
-          "بزيادة 26%.. السعودية ترفع إنتاج النفط إلى 10.56 مليون برميل يومياً",
-          "السعودية تقود إنتاج أوبك+ في أكتوبر لمستويات ما قبل حرب إيران"
+          "جمهورية القمر المتحدة تدين الاعتداءات على سيادة المملكة وتؤكد تضامنها الكامل معها",
+          "جمهورية القمر: الاعتداءات على سيادة المملكة تشكل انتهاكًا صارخًا للقانون الدولي",
+          "الإمارات تُدين بشدة محاولة جماعة الحوثي استهداف عدد من مناطق المملكة"
         ]
       }
     ],
@@ -6458,7 +6458,7 @@
         "headlines": [
           "اقتصادية النواب تحسم تعديلات قانون الوكالة المصرية لضمان الصادرات والاستثمار",
           "السيسي يتابع خطة تطوير المطارات المصرية: يجب استمرار تحديث البنية التحتية الرقمية لتيسير إجراءات السفر",
-          "وزارة الطيران تدرس السماح لركاب الترانزيت بدخول مصر دون تأشيرة لمدة 96 ساعة"
+          "«70 مليون مسافر سنويا».. هل يتحول مطار القاهرة إلى مركز طيران إقليمي؟"
         ]
       }
     ],
@@ -9231,10 +9231,25 @@
           "رئيس الوزراء: قطر لم تتخذ موقف المتفرج من قناعة راسخة بأهمية حماية الأرواح",
           "محمد بن عبدالرحمن: الدول المزدهرة مؤهلة للاضطلاع بدور محوري في تحقيق السلم الدولي"
         ]
+      },
+      {
+        "key": "2026-11-12|eg",
+        "date": "2026-11-12",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "تصدرا وقائع حصار سفارات مصر.. إسقاط الجنسية عن شقيقين إخوانيين",
+          "مجلس الوزراء صاحب الاختصاص.. كيف يصدر قرار إسقاط الجنسية المصرية؟",
+          "إسقاط الجنسية المصرية عن أنس وطارق حبيب لتجنسهما بجنسية أجنبية دون إذن مسبق"
+        ]
       }
     ],
-    "last_seen": "2026-11-07",
-    "total": 6,
+    "last_seen": "2026-11-12",
+    "total": 7,
     "countries": [
       "eg",
       "sa"
@@ -129217,15 +129232,30 @@
           "Statement from Coach McCaffery on the Health of Jack McCaffery",
           "UofR basketball player diagnosed with cancer"
         ]
+      },
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Caitlin Clark's children's book debuts atop New York Times best sellers list",
+          "Caitlin Clark makes WNBA history during offseason with NYT No. 1 best seller accomplishment",
+          "Taylor Swift's Eras Tour Friendship Bracelets Inspired a Nike Sneaker, and Jimmy Fallon Just Got an Exclusive Pair"
+        ]
       }
     ],
-    "last_seen": "2026-11-10",
-    "total": 3,
+    "last_seen": "2026-11-12",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 10000,
-    "category": "حوادث وقضايا"
+    "category": "دول وأماكن"
   },
   "alex-scott": {
     "slug": "alex-scott",
@@ -146736,10 +146766,25 @@
           "Conservative US Supreme Court justices Thomas and Alito in spotlight after Democratic landslide",
           "Democrats won control of Congress. So what does that mean for the Supreme Court?"
         ]
+      },
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "FIRST ON FOX: Supreme Court justices confront what it will take to keep America's founding freedoms alive",
+          "Supreme Court justices reflect on America's founding principles and future",
+          "250 years after independence, three Supreme Court justices warn that freedom is not guaranteed"
+        ]
       }
     ],
-    "last_seen": "2026-11-07",
-    "total": 4,
+    "last_seen": "2026-11-12",
+    "total": 5,
     "countries": [
       "world"
     ],
@@ -175757,11 +175802,11 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "السعودية تعلن اعتراض مُسيرة في الرياض، وسقوط شظايا صاروخين باليستيين أطلقهما الحوثيون باتجاه منطقة مكة المكرمة",
-          "التحالف يدمِّر مسيّرتين باتجاه الرياض والمنطقة الجنوبية",
-          "الدفاع الجوي السعودي يدمر باليستيين في المنطقة الغربية"
+          "التحالف في اليمن: تدمير 3 صواريخ \"كروز\" أطلقها الحوثيون نحو الرياض",
+          "الدفاع المدني: سقوط شظايا صاروخين باليستيين أطلقتهما مليشيا الحوثي الإرهابية باتجاه منطقة مكة المكرمة"
         ]
       }
     ],
@@ -192466,7 +192511,7 @@
         "headlines": [
           "Draymond Green says two Warriors players ensure Curry’s injury won’t hurt as much",
           "Stephen Curry exits vs. Rockets with abdominal soreness. Steve Kerr says 'concern is high'",
-          "The Spurs can’t let Steph Curry’s injury take the edge off an NBA Cup game that matters"
+          "\"The spirit of this team is better,\" Green said. …"
         ]
       }
     ],
@@ -205140,7 +205185,7 @@
         "headlines": [
           "ردّاًعلى عبدالملك الحوثي وما قاله عن السعودية بخطابه الأخير..وزير إعلام اليمن يبرز نقاطاً",
           "وزير الإعلام اليمني يفنّد رواية الحوثيين ويكشف تاريخ تمردهم المسلح",
-          "رئاسة مجلس الوزراء - وزير الإعلام يبحث مع السفيرة البريطانية تعزيز التعاون في المجال الإعلامي"
+          "وزير الإعلام يبحث مع القائم بأعمال السفارة الأمريكية مستجدات الأوضاع وتعزيز التعاون الإعلامي"
         ]
       }
     ],
@@ -274454,7 +274499,7 @@
         "headlines": [
           "لو عندك مخالفة بناء.. اعرف خطوات التصالح والأوراق المطلوبة",
           ".. ويتابع مستجدات منظومة التصالح في بعض مخالفات البناء وتقنين أوضاعها",
-          "تعديلات قانون التصالح تقترب.. حلول لمشكلات الأدوار والجراجات وتسهيلات في السداد"
+          "عمرو درويش: إغلاق باب التصالح يضع المخالفين في أزمة كبيرة"
         ]
       }
     ],
@@ -363163,15 +363208,30 @@
           "EEUU habló con Irán sobre deportar iraníes durante la guerra",
           "Una jueza de EE.UU. impide que el Gobierno de Trump deporte a Pakistán o a Afganistán a inmigrantes afganos detenidos"
         ]
+      },
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "La batalla judicial que frenó de último momento la deportación de ocho iraníes al país del que huyeron",
+          "EE.UU. cancela a último momento un vuelo que trasladaba a inmigrantes iraníes deportados a Irán",
+          "EEUU habló con Irán sobre deportar iraníes durante la guerra"
+        ]
       }
     ],
-    "last_seen": "2026-11-05",
-    "total": 3,
+    "last_seen": "2026-11-12",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "عام"
+    "category": "سياسة"
   },
   "east-potomac-golf-links-legal-dispute": {
     "slug": "east-potomac-golf-links-legal-dispute",
@@ -435579,14 +435639,14 @@
         "date": "2026-11-12",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "Bitcoin barely flinches at hot CPI as ETF selling slows",
-          "Cryptocurrencies: Bitcoin Down 5% This Week",
-          "Bitcoin Price Forecast: Hotter-Than-Expected US Inflation Drags BTC Below $74,000 as Bulls Eye $73,000 Support"
+          "Bitcoin Bottom or Deeper Correction? The Data Points Both Ways",
+          "Bitcoin, Ether ETFs lose $1.65b as BlackRock withdrawals mount",
+          "Crypto Majors Fall as ETF Outflows Sap Market Confidence"
         ]
       }
     ],
@@ -658347,9 +658407,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "صدمة جديدة لفينيسيوس .. أنشيلوتي يختار قائد البرازيل الجديد",
-          "المنتخب البرازيلي يتدرب في أجواء ماطرة وحصة تدريبية مفتوحة لمنتخب اليابان",
-          "شاهد.. ردة فعل مؤثرة من أطفال البرازيل بعد لقاء فينيسيوس"
+          "مصدر من اتحاد الكرة يكشف لـ في الجول موعد مباريات ثمن نهائي كأس مصر",
+          "«الزمالك أمام الشرقية إنبي.. والأهلي يواجه السويس بتروجت»| مواجهات دور الـ16 في كأس مصر",
+          "اكتمال عقد المتأهلين إلى دور الـ16 من بطولة كأس مصر"
         ]
       }
     ],
@@ -658648,8 +658708,8 @@
         "date": "2026-11-12",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -658680,7 +658740,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "بيب-غوارديولا": {
@@ -658711,5 +658771,236 @@
     ],
     "peak_traffic": 100,
     "category": "شخصية"
+  },
+  "ps5-pro-features-gta-6": {
+    "slug": "ps5-pro-features-gta-6",
+    "name": "ps5 pro features gta 6",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Pre-Load Grand Theft Auto VI Now",
+          "Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19",
+          "'GTA 6' on PS5 vs. Xbox: What we know"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "رياضة"
+  },
+  "weather-philadelphia": {
+    "slug": "weather-philadelphia",
+    "name": "weather philadelphia",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+300",
+        "traffic_num": 300,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "Cold, rain, wind, and possibly mood snowflakes are forecast this week in the Philly area",
+          "Warm Wednesday; wet & chilly end to week in south central Pennsylvania",
+          "Coastal storm will bring rain to the Lehigh Valley, possible snowflakes in southern Poconos"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 300,
+    "category": "طقس"
+  },
+  "elon-musk-spacex-tesla-merger": {
+    "slug": "elon-musk-spacex-tesla-merger",
+    "name": "elon musk spacex tesla merger",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "If SpaceX and Tesla Merge, Here's What a $10,000 Investment in the Combined Company Could Be Worth by 2030",
+          "Tesla (TSLA) Forms Special Committee To Review Possible All Stock Merger",
+          "Tesla And SpaceX Merger Could Make One Of The Greatest Companies Ever"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "اقتصاد"
+  },
+  "starbucks-red-cup-day-2026": {
+    "slug": "starbucks-red-cup-day-2026",
+    "name": "starbucks red cup day 2026",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Starbucks' Red Cup Day Is Almost Here. How a Free Cup Became a Billion-Dollar Holiday Tradition",
+          "Starbucks Viral ‘Red Cup Day’ Returns To Idaho Next Week",
+          "Starbucks launches new Bearista™ Glass Cold Cup Surprise Box collection with characters including rare golden bearista"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "bucs-wide-receiver-roster-cuts": {
+    "slug": "bucs-wide-receiver-roster-cuts",
+    "name": "bucs wide receiver roster cuts",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Bucs Cut Big Wide Receiver",
+          "Steelers should consider signing newly released Buccaneers wide receiver",
+          "David Sills News: Cut by Bucs"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "bangladesh-womens-national-cricket-team-vs-pakistan-womens-national-cricket-team": {
+    "slug": "bangladesh-womens-national-cricket-team-vs-pakistan-womens-national-cricket-team",
+    "name": "bangladesh women's national cricket team vs pakistan women's national cricket team match scorecard",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|sa",
+        "date": "2026-11-12",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "BANW 78/7 (16) (Shorna Akter 4(6) Rabeya Khan 7(11)) | Pakistan Women vs Bangladesh Women, 3rd Match, Group B, ICC Women's Emerging Nations Trophy, 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and mor",
+          "Pakistan Women vs Bangladesh Women Live Cricket Score:: Match 3 Full Scorecard & Commentary",
+          "Pakistan Women vs Bangladesh Women Match 3 T20 - ICC Women's Emerging Nations Trophy, 2026 Live Scorecard"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "يورانيوم-مخصب": {
+    "slug": "يورانيوم-مخصب",
+    "name": "يورانيوم مخصب",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|sa",
+        "date": "2026-11-12",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "طهران تتوعد بحرب «غير متكافئة»... وتغلق باب إخراج اليورانيوم",
+          "واشنطن وطهران.. روايتان متناقضتان لنتائج الحرب"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "pinu-rahman": {
+    "slug": "pinu-rahman",
+    "name": "pinu rahman",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|sa",
+        "date": "2026-11-12",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Bangladeshi photographer Pinu Rahman wins HIPA, world’s richest photography prize",
+          "Bangladeshi wins Dh200,000 Sheikh Hamdan International Photography Award",
+          "HIPA 15th season: Meet the winners of the world’s richest photography awards"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
   }
 }

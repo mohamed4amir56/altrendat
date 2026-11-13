@@ -4034,8 +4034,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "نتنياهو يوافق على لقاء آيزنكوت لإطلاعه على التطورات الأمنية",
-          "أين يقف آيزنكوت بين جنرالات السياسة في إسرائيل؟",
+          "في ظل المرحلة الانتقالية، ما صلاحيات حكومة نتنياهو بشأن أي عمل عسكري محتمل ضد إيران؟",
+          "اجتماع نتنياهو وآيزنكوت.. تقارير تكشف ما دار بشأن إيران",
           "نتنياهو: لا يمكن تشكيل حكومة تضم مؤيدي الإرهاب من حزب \"القائمة العربية\" و\"المشتركة\""
         ]
       }
@@ -9981,8 +9981,8 @@
         "date": "2026-11-13",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -28875,9 +28875,9 @@
         "category": "تقنية",
         "publishable": false,
         "headlines": [
-          "Widespread Microsoft outage takes down Outlook and other 365 services",
-          "Microsoft outage live: Microsoft prioritising ‘life, safety and government services’ as global outage wreaks havoc for Outlook users",
-          "Microsoft email and Teams outages stretch into the night"
+          "Massive Microsoft outage disrupts businesses, schools and governments around the world",
+          "Microsoft outage live: Microsoft scrambling for new ways to fix global outage after initial attempts fail to restore Outlook services",
+          "Widespread Microsoft outage takes down Outlook and other 365 services"
         ]
       }
     ],
@@ -34494,11 +34494,11 @@
         "country_name": "مصر",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
           "لقاء سعودي - صيني يناقش استمرار اعتداءات الحوثي الإرهابية ضد السعودية",
-          "وزير الخارجية يستقبل المبعوث الخاص لحكومة الصين لقضية الشرق الأوسط",
+          "السعودية والصين تبحثان أمن الطاقة واستقرار الممرات البحرية",
           "وزير الخارجية السعودي يبحث مع المبعوث الصيني هجمات الحوثيين على المملكة"
         ]
       }
@@ -34510,7 +34510,7 @@
       "sa"
     ],
     "peak_traffic": 5000,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "كولومبيا": {
     "slug": "كولومبيا",
@@ -44669,14 +44669,29 @@
           "Inside the Numbers: Jevón Holland's hot start",
           "Oregon Ducks stars Jevon Holland and Terrance Ferguson steal the show on Monday Night Football"
         ]
+      },
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Eagles’ Braden Mann boots punt not seen in over 20 years",
+          "What Is the Longest Punt in NFL History?",
+          "The longest punt since 2001!"
+        ]
       }
     ],
-    "last_seen": "2026-09-27",
-    "total": 1,
+    "last_seen": "2026-11-12",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "rangers-score": {
@@ -82336,14 +82351,14 @@
         "date": "2026-11-13",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "الإطار القانوني الكامل، مما يفسح المجال لتطوير سوق أسهم حديثة.",
           "تساهم رقمنة أنشطة القياس في تعزيز حماية المستهلك.",
-          "اليوم، صوتت الجمعية الوطنية على إقرار العديد من القوانين والقرارات الهامة.",
-          "أقرت الجمعية الوطنية اليوم سلسلة من القوانين المهمة واتخذت قرارات تتعلق بالتعيينات."
+          "اليوم (13 نوفمبر)، صوتت الجمعية الوطنية على إقرار العديد من القوانين والقرارات الهامة."
         ]
       }
     ],
@@ -131704,10 +131719,25 @@
           "رويترز: أرامكو السعودية تطلب من موظفيها إخلاء مقرها الرئيسى فى الظهران",
           "مصادر: أرامكو طلبت من موظفيها إخلاء مقرها الرئيسي في الظهران"
         ]
+      },
+      {
+        "key": "2026-11-13|eg",
+        "date": "2026-11-13",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "(وسائط متعددة) الحوثيون يعلنون استهداف شركة ((أرامكو)) ومواقع حيوية أخرى في السعودية",
+          "فيديو متداول بزعم إصابة برج في الرياض جراء هجوم حوثي.. هذه حقيقته",
+          "الحوثيون: تنفيذ 4 عمليات استهدفت منشآت نفطية ومواقع عسكرية بالسعودية"
+        ]
       }
     ],
-    "last_seen": "2026-10-23",
-    "total": 3,
+    "last_seen": "2026-11-13",
+    "total": 4,
     "countries": [
       "eg",
       "sa"
@@ -145888,10 +145918,25 @@
           "Stefon Diggs Injury: Spotted at Saturday's practice",
           "McLaurin (hamstring) remains a game-time decision"
         ]
+      },
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "What happened to Terry McLaurin?",
+          "What Happened to Terry McLaurin, and How Long Will He Be Out? Latest on the Commanders Star’s Injury As He Misses Week 10 vs. Giants",
+          "What Happened to Terry McLaurin? Why Commanders WR Is Not Playing vs Giants"
+        ]
       }
     ],
-    "last_seen": "2026-10-19",
-    "total": 2,
+    "last_seen": "2026-11-12",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -283499,10 +283544,25 @@
           "NFL 2026 Week 5 Start ‘Em Sit ‘Em: Stack Jacoby Brissett and Michael Wilson",
           "Fantasy football last-minute pickups: Stroud, Washington among top options"
         ]
+      },
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Giants Announce J.J. McCarthy Decision Before Commanders Game",
+          "JJ McCarthy left Giants game with hip injury, putting Jameis Winston in the lineup but that isn't whole story",
+          "Giants QB J.J. McCarthy will truly introduce himself to the fans in primetime at MetLife Stadium"
+        ]
       }
     ],
-    "last_seen": "2026-10-11",
-    "total": 1,
+    "last_seen": "2026-11-12",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -312546,12 +312606,12 @@
         "country_name": "السعودية",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "شخصية",
-        "publishable": true,
+        "category": "حوادث وقضايا",
+        "publishable": false,
         "headlines": [
-          "النفط يرتد صعوداً مع تغلب المخاطر الجيوسياسية على زيادة الإنتاج",
-          "خام برنت يقفز بأكثر من 3% عند التسوية",
-          "النفط يتراجع بأكثر من دولار مع آمال التهدئة في الشرق الأوسط وأوكرانيا"
+          "أميركا تدير أكثر من 12 مليار دولار من عوائد النفط الفنزويلي في 9 أشهر",
+          "منذ احتجاز مادورو.. 12 مليار دولار حولتها واشنطن إلى فنزويلا من عائدات مواردها",
+          "إدارة ترامب: أمريكا أعادت لفنزويلا 12 مليار دولار من حصيلة بيع النفط الفنزويلي"
         ]
       }
     ],
@@ -312562,7 +312622,7 @@
       "sa"
     ],
     "peak_traffic": 10000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "bein-sport": {
     "slug": "bein-sport",
@@ -327347,8 +327407,8 @@
         "date": "2026-11-13",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -327363,7 +327423,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "india-national-cricket-team": {
@@ -435347,9 +435407,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "NZ vs IND 2026/27, NZ vs IND 4th ODI Match Preview - NZ look to avoid series defeat with batters set to get a boost",
-          "Cricbuzz Live: India elect to bowl first | Ishan, Kuldeep, Ruturaj named in XI",
-          "Iyer’s leadership debut, India’s series ambitions face NZ fightback"
+          "NZ look to avoid series defeat with batters set to get a boost",
+          "New Zealand vs India: Shreyas Iyer takes over as India look to wrap up series",
+          "India wins the toss and bowls in the 4th cricket ODI against New Zealand"
         ]
       },
       {
@@ -460568,15 +460628,30 @@
           "Shreyas Iyer Reveals What Improvements Indian Team Need To Make After T20I Series Win Vs NZ",
           "341 runs and a statement: Glenn Phillips is ready for a bigger New Zealand role | Cricket"
         ]
+      },
+      {
+        "key": "2026-11-13|sa",
+        "date": "2026-11-13",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "4th ODI: Fiery Gurnoor Brar gets umpire's warning, Virat Kohli plays peacemaker",
+          "Tim Seifert Does What No New Zealand Batter Could Do In 27 Years Against India",
+          "Virat Kohli Intervenes As Gurnoor Brar Clashes With Tim Seifert On The Field. Video"
+        ]
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 3,
+    "last_seen": "2026-11-13",
+    "total": 4,
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
-    "category": "رياضة"
+    "peak_traffic": 1000,
+    "category": "عام"
   },
   "عبد-الإله-المالكي": {
     "slug": "عبد-الإله-المالكي",
@@ -568868,10 +568943,25 @@
           "UTEP vs Northern Kentucky Prediction, Picks & Odds | 02 Nov 2026",
           "Northern Kentucky Norse vs UTEP Miners Prediction Today"
         ]
+      },
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "NM State women's hoops pulls away from UTEP",
+          "UTEP men’s basketball hosts NMSU in Battle of I-10 at the Don",
+          "Aggies Shoot Lights Out in Second Half to Earn Dominant Win Over UTEP"
+        ]
       }
     ],
-    "last_seen": "2026-11-02",
-    "total": 1,
+    "last_seen": "2026-11-12",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -667204,14 +667294,14 @@
         "date": "2026-11-13",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "الصندوق السيادي يسيطر على حصص مصر للتأمين ومصر لتأمينات الحياة في ميدبنك",
-          "إشراك القطاع الخاص في السكة الحديد.. خاص - \"مصر أبوظبي\": فندقان في الأهرامات ووسط البلد.. «مصر السيادي» يستحوذ على حصتين في «ميدبنك»",
-          "الحكومة تدرس استثمار فوائض أموال جهات الدولة في البورصة.. 56"
+          "لا إصابات.. خروج عربة قطار الإسماعيلية - السويس عن القضبان",
+          "قرار عاجل من وزير النقل بوقف حركة القطارات بخط الإسماعيلية - السويس",
+          "«الخلايا النائمة بدأت تصحو».. مصطفى بكري يحذر من مخطط تخريبي يستهدف السكك الحديدية"
         ]
       }
     ],
@@ -667220,7 +667310,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "rolls-royce-derby-emergency": {
@@ -667454,9 +667544,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "High Point 88-59 Southern Utah (Nov 12, 2026) Final Score",
-          "Benfica 3-1 Vienna (12 Nov, 2026) Team Stats",
-          "Italy 3-1 France (13 Nov, 2026) Team Stats"
+          "Lightning 3-1 Blue Jackets (Nov 12, 2026) Game Recap",
+          "Imari Berry rattles in a jumper for Louisville",
+          "Barcelona 1-1 Arsenal (12 Nov, 2026) Team Stats"
         ]
       }
     ],
@@ -668290,8 +668380,8 @@
         "date": "2026-11-13",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -668306,7 +668396,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "daddy-yankee": {
@@ -668499,7 +668589,7 @@
         "headlines": [
           "76ers 123-112 Raptors (Nov 12, 2026) Game Recap",
           "Tyrese Maxey News: Posts full line in victory",
-          "Philadelphia 76ers vs. Toronto Raptors ‑ Game Highlights 11/12/2026"
+          "Sixers Bell Ringer: Six double-digit scorers lead Sixers over Raptors"
         ]
       }
     ],
@@ -668814,7 +668904,7 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Australia vs England LIVE: First ODI, Optus Stadium, Perth - cricket score, commentary & updates",
+          "(1) Australia v England: first men’s cricket one-day international – live",
           "Australia-England face off again but most eyes are elsewhere",
           "Australia’s Mitch Marsh wins toss, sends England in to bat in 1st cricket ODI"
         ]
@@ -668959,9 +669049,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "تحديث ببجي موبايل الأرشيف",
-          "ببجي موبايل تطلق تحديث 4.7.. مغامرات أسطورية وأجواء جليدية وتطبيق جديد بحجم تنزيل أصغر",
-          "موعد تحميل PUBG MOBILE 4.7 التجريبية وأبرز المزايا الجديدة"
+          "أعلنت شركة PUBG عن نتائج أعمال غير متوقعة بعد حظرها غير العادل لمنصتي Himass وTanvuu.",
+          "إيرادات KRAFTON ترتفع 11.6% في الربع الثالث من 2026 رغم تراجع الأرباح التشغيلية",
+          "Báo Hàn Quốc khó hiểu khi PUBG lao đao sau vụ cấm 2 game thủ Việt Nam"
         ]
       }
     ],
@@ -668972,5 +669062,237 @@
     ],
     "peak_traffic": 100,
     "category": "شخصية"
+  },
+  "eng-vs-aus": {
+    "slug": "eng-vs-aus",
+    "name": "eng vs aus",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "50000+",
+        "traffic_num": 50000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Australia v England: first men’s cricket one-day international – live",
+          "Beardman unleashed as Australia choose to bowl",
+          "KAYO FREE – AUS v ENG ODI First Innings"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 50000,
+    "category": "رياضة"
+  },
+  "wordle-hint-nov-12": {
+    "slug": "wordle-hint-nov-12",
+    "name": "wordle hint nov 12",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Today’s Wordle Hints for November 13, 2026",
+          "Today’s NYT Wordle Hints, Answer and Help for Thursday, Nov. 12, #1972",
+          "Today’s Wordle #1972 Hints, Clues And Answer For Thursday November 12"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "عام"
+  },
+  "charlotte-hornets-vs-phoenix-suns-match-player-stats": {
+    "slug": "charlotte-hornets-vs-phoenix-suns-match-player-stats",
+    "name": "charlotte hornets vs phoenix suns match player stats",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Commanders vs. Giants (Nov 12, 2026) Live Odds, Player Props, and more",
+          "Oregon 100-66 Mississippi Valley State (Nov 11, 2026) Game Recap",
+          "Why the New Orleans Pelicans Need a Major Overhaul"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "stefon-diggs-cardi-b": {
+    "slug": "stefon-diggs-cardi-b",
+    "name": "stefon diggs cardi b",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Cardi B Reveals First Photos of Her Son With Stefon Diggs — and His Uncommon Name — as Baby Boy Turns 1",
+          "Cardi B’s Toddler Son Goes on a Balloon Rampage at His 1st Birthday Party",
+          "Cardi B celebrates baby Grey with a fitting Hermès bag and a stack of custom bling"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "desi-lydic": {
+    "slug": "desi-lydic",
+    "name": "desi lydic",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Democratic lawmakers apologize after absences on Hegseth vote",
+          "Desi Lydic Chides Democrats Who Missed Hegseth’s Impeachment Vote",
+          "NM Rep. Melanie Stansbury apologizes for missing vote on Defense Secretary Pete Hegseth"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "arizona-vs-ucla": {
+    "slug": "arizona-vs-ucla",
+    "name": "arizona vs ucla",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Arizona women’s basketball gets early opportunity to measure improvement",
+          "CSU Bakersfield vs. Washington TV & Stream – Nov. 12",
+          "No. 10 UCLA Welcomes Arizona Back to Westwood Thursday"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "parker-kingston": {
+    "slug": "parker-kingston",
+    "name": "parker kingston",
+    "first_seen": "2026-11-12",
+    "appearances": [
+      {
+        "key": "2026-11-12|world",
+        "date": "2026-11-12",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Rape charge refiled against former BYU Football player Parker Kingston",
+          "Felony rape charge re-filed against former BYU football player Parker Kingston",
+          "Former BYU standout Parker Kingston charged again with rape after earlier case was dismissed"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-12",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "فيلم-احمد-حلمي-الجديد": {
+    "slug": "فيلم-احمد-حلمي-الجديد",
+    "name": "فيلم احمد حلمي الجديد",
+    "first_seen": "2026-11-13",
+    "appearances": [
+      {
+        "key": "2026-11-13|eg",
+        "date": "2026-11-13",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "فيلم حدوتة لأحمد حلمي.. القصة والأبطال وتصريحاته عن أمينة خليل",
+          "فيلم حدوتة يتصدر شباك التذاكر فى أول يوم عرض ويحقق 3.77 مليون جنيه",
+          "أحمد حلمي يرد على رسالة محمد سعد بسبب فيلمه \"حدوتة\""
+        ]
+      }
+    ],
+    "last_seen": "2026-11-13",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
   }
 }

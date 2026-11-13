@@ -4,17 +4,446 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-11-13T18:01:20.524422+00:00",
+  "generated_at": "2026-11-13T18:32:15.639107+00:00",
   "day": "2026-11-13",
   "trends": [
     {
-      "title": "weather tomorrow",
-      "traffic": "+531200",
-      "traffic_num": 531200,
-      "published": "Thu, 12 Nov 2026 20:30:00 -0800",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSqhw8okfibrH-qod3jiQKCrEFwr-gEW0OKDP7BJgm0J8aAVq0paickMgcX7xA",
-      "image_source": "NBC10 Philadelphia",
+      "title": "gemini google",
+      "traffic": "50000+",
+      "traffic_num": 50000,
+      "published": "Fri, 13 Nov 2026 01:50:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRgj5oJzDzDkaEqqWzrJumRosv1AIoQ7EsQUgFGMfDEGOcOLym5xBcByIvdtgc",
+      "image_source": "blog.google",
       "news": [
+        {
+          "title": "Introducing Gemini 4 Hydrogen for Agentic Workflows",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "source": "blog.google",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRgj5oJzDzDkaEqqWzrJumRosv1AIoQ7EsQUgFGMfDEGOcOLym5xBcByIvdtgc",
+          "og_title": "Introducing Gemini 4 Hydrogen",
+          "og_desc": "Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
+          "og_image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+          "ok": true
+        },
+        {
+          "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+          "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+          "source": "Ars Technica",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQakc8yh2wqHk6ARF8mjiBUmms78zY5hHAh9UwCMT7inSguJs_505OIvZGT4y0",
+          "og_title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+          "og_desc": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+          "og_image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-1152x648.jpg",
+          "ok": true
+        },
+        {
+          "title": "Google's latest Search upgrade promises better answers to your most complicated questions",
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+          "source": "TechCrunch",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTn0Y9dmCql-VGmH2DIQz27JJmBPJp5gaEZ1GmOgMbXJ9eKFPTUvtK3Yf5znes",
+          "og_title": "Google's latest Search upgrade promises better answers to your most complicated questions | TechCrunch",
+          "og_desc": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+          "og_image": "https://techcrunch.com/wp-content/uploads/2026/11/hydrogen-at-2.01.42-PM.jpg?resize=1200,589",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "تقنية",
+      "icon": "💻",
+      "color": "#5aa9ff",
+      "reason": "العنوان يطابق: gemini",
+      "publishable": true,
+      "article": {
+        "headline": "Google Launches Gemini 4 Hydrogen, Replacing 3.8 Flash With Triple Speed",
+        "summary": "Google has officially released Gemini 4 Hydrogen, a faster, more efficient AI model replacing the 3.8 Flash version across its products.",
+        "body": "Gemini 4 Hydrogen has arrived, boasting performance that triples the Terminal-Bench scores of its predecessor, the 3.8 Flash, while cutting fabricated claims by more than 5x. According to Google, the model is designed to deliver speed and intelligence for daily coding and agentic workflows, operating across four distinct thinking levels ranging from low to the new xhigh setting. \n\nFor professional teams, the shift to Hydrogen represents a shift toward higher efficiency in software development. While models like Carbon and Argon remain the go-to for complex architectural tasks, Hydrogen serves as a high-speed execution engine for generating simpler code, running tests, and verifying changes. By utilizing the new Orchestrator feature in Google Antigravity, teams can dynamically switch between models, an approach that completed tasks 19% faster and consumed 24% less quota during testing on Terminal-Bench 4.0.\n\nGoogle reports that Hydrogen is priced at $1.50 per million input tokens and $7.50 per million output tokens. Its integration extends beyond development tools, reaching Google Search to handle complex, multipart questions with improved AI-powered Overviews and AI Mode. Unlike previous releases that prioritized staggered, security-conscious rollouts, Google has made Hydrogen immediately available to users across its ecosystem.\n\nThis release marks a significant departure from the previous Flash model, with Google positioning Hydrogen as the standard for everyday work. Looking ahead, developers are expected to utilize Hydrogen as part of multi-model workflows, where it functions alongside more powerful models to manage parallel agent tasks in isolated workspaces.",
+        "facts": [
+          {
+            "label": "Input Token Price",
+            "value": "$1.50 per million"
+          },
+          {
+            "label": "Output Token Price",
+            "value": "$7.50 per million"
+          },
+          {
+            "label": "Terminal-Bench 4.1 Score Improvement",
+            "value": "57% vs 18.2%"
+          },
+          {
+            "label": "Intelligence Index Score (xhigh)",
+            "value": "54"
+          }
+        ],
+        "tags": [
+          "Google",
+          "Gemini 4 Hydrogen",
+          "Artificial Intelligence",
+          "Software Development"
+        ],
+        "_v": 4,
+        "_by": "gemini",
+        "written_at": "2026-11-13T11:01:41.069340+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/1280px-Datacenter_Server_Racks_%2822370909788%29.jpg",
+          "width": 1280,
+          "height": 853,
+          "artist": "Carl Lender from Sunrise, USA",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+          "stock": true,
+          "topic": "ai"
+        },
+        "photo_v": 8,
+        "_had_data": false,
+        "_localized": false
+      },
+      "card": "cards/world-2026-11-13-gemini-google.png",
+      "published_at": "2026-11-13T11:01:31.750901+00:00"
+    },
+    {
+      "title": "new zealand vs india",
+      "traffic": "+30000",
+      "traffic_num": 30000,
+      "published": "Fri, 13 Nov 2026 00:30:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGOrC6SUSAQJhr68HidATTpLadMBK21dCCZw7x7H57u6eWZZccJvysmhiKIY0",
+      "image_source": "Cricinfo",
+      "news": [
+        {
+          "title": "NZ vs Ind, 3rd ODI, Live Blog - Henry six-for demolishes India, keeps series alive",
+          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-4th-odi-1539440/live-match-blog",
+          "source": "Cricinfo",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGOrC6SUSAQJhr68HidATTpLadMBK21dCCZw7x7H57u6eWZZccJvysmhiKIY0",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "'Huge difference in the wickets': Shreyas Iyer reveals why India's batting collapsed in 4th ODI at Mount Maunganui",
+          "url": "https://sports.yahoo.com/articles/huge-difference-wickets-shreyas-iyer-093003441.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRiKyg6z-DqE27csWeC_lRgilHcfH0wmWscPUMhi1selAJ1uls4EPT4brI4uug",
+          "og_title": "'Huge difference in the wickets': Shreyas Iyer reveals why India's batting collapsed in 4th ODI at Mount Maunganui",
+          "og_desc": "Stand-in skipper Shreyas Iyer explains why India collapsed for 89 after a catastrophic 0/3 start in the 4th ODI vs New Zealand.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/3484e912f08a6b18f32db42b7e40006e5ceb9ab9d6b24e6c0678d2e6ff90dc14/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cricket_news_articles_506%2Ff344456ef66f0ce740b17823369d6c21",
+          "ok": true
+        },
+        {
+          "title": "Henry six-for, Young century see Black Caps to huge ODI win over India",
+          "url": "https://www.nzherald.co.nz/sport/cricket/black-caps/black-caps-v-india-result-will-young-century-matt-henry-six-wicket-haul-see-new-zealand-to-huge-odi-victory/KFHN5ITDIBHJ7FSRUJQVTFGGCU/",
+          "source": "NZ Herald",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR8hwKiMXYr-qyw9Cru8U1NeH0SGSAPNUu8FjUGz2yK4dfKp03Y2bW23GDtJVo",
+          "og_title": "Henry six-for, Young century see Black Caps to huge ODI win over India",
+          "og_desc": "Fighting to save the series, a perfect team performance was exactly what NZ ordered.",
+          "og_image": "https://www.nzherald.co.nz/resizer/v2/WPAJULZ4TZHX7JO6E3ATAVSS5A.JPG?auth=52ba71a35f3c66b6925058277dc1140696875247b3322a89f0d0b7bdd69c7f5c&width=1200&height=675&quality=70&focal=657%2C246&smart=false",
+          "ok": true
+        },
+        {
+          "title": "Matt Henry and Will Young power Black Caps to devastating 244-run pasting of India at Bay Oval",
+          "url": "https://www.stuff.co.nz/sport/361059196/black-caps-opener-will-young-cashes-two-chances-against-india-notch-highest-odi-score",
+          "source": "Stuff",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHh_0SQMTECXWc-PuDMsZYXzaZwzRUgvR0toYWi6frkFe8L9ofe-9oh1lQtcM",
+          "og_title": "Matt Henry and Will Young power Black Caps to devastating 244-run pasting of India at Bay Oval",
+          "og_desc": "The Black Caps kept their hopes of salvaging the ODI series against India alive with a 244-run victory.",
+          "og_image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYet7lgA5l4KN99qjDuDYjuhPxc%2F3Vs25hdtbfCedK4%2FaROuJAinqaJJbKOtZPZImfOHy8Y4yn86kVL3NpuaRUPWBzrUOnB3yHgD5gbTQXtMXMLjnhykczMrfCwyPa2uGgqvdxTVMKF2xgk3iTfCkuBBVdQGHriDB3aj9jzIdxhxqFbNGgbhblg32heOQVA85pa07F%2FSXZhYpfpAVsuH%2F8HbUn7RuCqj7DAP06W9hbFY9TTXsinVMUZ9SlTau2j65Hwzlay+QKz2VRvzNn8wV7DyVsnn4q03Y0%2FIvTIaI0VeVtrAd8zsGGXgnKiIckjEVY%2FYmR3DRWfCoWyYSRk0LqHyvdtAuulMSf+7ZfBI9YzPAoE4lTwcq8Q64KVh3bL7puT35GgA9OyiS6%2FpAud1%2FIk%2Fu1PV8OZh+QUJVhE4CsWe6CF4oBxPbOlwDZfQOf%2FCLPw==",
+          "ok": true
+        },
+        {
+          "title": "Ball by Ball Commentary & Live Score - NZ vs IND, 4th ODI",
+          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-4th-odi-1539440/ball-by-ball-commentary",
+          "source": "Cricinfo",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTidvVCoo_Ps5botaRLslrGRzSHXztOqVatwoQywZ-eJfz5xMaXBeXyOfTP4Ug",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "India suffer their second-biggest defeat in ODI cricket history | To view the match scorecard | Inshorts",
+          "url": "https://inshorts.com/en/news/india-suffer-their-second-biggest-defeat-in-odi-cricket-history-1794558598906",
+          "source": "Inshorts",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQfLmLCl3izCDj6VEFVXikVvlWEa30Nql_J9VRd2lH7TutWiHJUQCIWTArn30k",
+          "og_title": "India suffer their second-biggest defeat in ODI cricket history",
+          "og_desc": "New Zealand defeated India by 244 runs in the fourth ODI in Mount Maunganui on Friday, registering their first win of the fivematch series. It marked India's secondbiggest defeat by runs in ODI cricket. New Zealand posted 333 before bowling India out for 89. India's biggest ODI defeat came in 2000, when they lost to Sri Lanka by 245 runs.",
+          "og_image": "https://media.inshorts.com/inshorts/images/v1/variants/jpg/l/2026/11_nov/13_fri/img_1794557688014_900.jpg",
+          "ok": true
+        },
+        {
+          "title": "Matt Henry six-fer sinks India for 89 as New Zealand pull one back",
+          "url": "https://www.cricbuzz.com/cricket-news/140889/henry-six-fer-sinks-india-for-89-as-new-zealand-pull-one-back",
+          "source": "Cricbuzz",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSY24PQwU6J6TFKrf7L1RUwhgf5_FjpfsplwLL_bZtfTxB3CGNoTMspRpPGr1E",
+          "og_title": "Henry six-fer sinks India for 89 as New Zealand pull one back",
+          "og_desc": "Will Young’s 125 set up New Zealand’s total of 333 before Henry wiped out India’s hopes with a triple-wicket maiden in the opening over",
+          "og_image": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1123269/matt-henry-bagged-a-six-wicket-haul-including-a-three-wicket-maiden.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "العنوان يطابق: vs",
+      "publishable": true,
+      "article": {
+        "headline": "Matt Henry’s triple-wicket maiden sparks New Zealand’s massive 244-run rout of India",
+        "summary": "Matt Henry took 6-27 to bowl India out for 89 after Will Young’s 125 propelled New Zealand to a 333-run total at Bay Oval.",
+        "body": "Matt Henry dismantled India’s top order with a triple-wicket maiden in the opening over, setting the tone for a decisive 244-run victory at Bay Oval. India’s star batters Rohit Sharma and Virat Kohli departed for zero as Henry claimed three wickets before a single run was scored, ultimately finishing with a devastating 6-27. The performance effectively halted India’s momentum in the best-of-five series and gave the home crowd of thousands a spectacle to witness in the final match of the tour at this venue.\n\nThis result keeps New Zealand’s hopes alive for a series draw after previously trailing 2-0. Protecting a six-year home ODI unbeaten run, the Black Caps delivered their most complete performance of the tour, capitalizing on batting conditions that allowed Will Young to hammer a career-best 125. The win provides a critical boost for the hosts as they look to secure a series-saving result on Sunday.\n\nAccording to Cricbuzz and the NZ Herald, New Zealand posted 333, supported by Tim Seifert’s 58 off 48 balls and Finn Allen’s 41. India struggled from the start, with Shreyas Iyer trapped in front and the side dismissed inside 27 overs. While Kyle Jamieson and Matthew Fisher added to the pressure with steep bounce, Henry remained the chief destroyer, returning to clean up the tail and secure his fourth ODI five-wicket haul. \n\nNew Zealand must now prepare for the series finale on Sunday without Matt Henry, who departs to join the Test squad in Wellington. The team aims to replicate this momentum at the Basin Reserve in the upcoming test series.",
+        "facts": [
+          {
+            "label": "Final Score",
+            "value": "New Zealand 333, India 89"
+          },
+          {
+            "label": "Winner",
+            "value": "New Zealand by 244 runs"
+          },
+          {
+            "label": "Matt Henry stats",
+            "value": "6-27"
+          },
+          {
+            "label": "Will Young score",
+            "value": "125"
+          },
+          {
+            "label": "Next Match",
+            "value": "Sunday"
+          }
+        ],
+        "tags": [
+          "New Zealand",
+          "India",
+          "Cricket",
+          "ODI",
+          "Matt Henry"
+        ],
+        "_v": 4,
+        "_by": "gemini",
+        "written_at": "2026-11-13T09:31:30.950854+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Cricket_match_and_Marina_Bay_Sands_Hotel_in_Singapore.jpg/1280px-Cricket_match_and_Marina_Bay_Sands_Hotel_in_Singapore.jpg",
+          "width": 1280,
+          "height": 853,
+          "artist": "Basile Morin",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Cricket_match_and_Marina_Bay_Sands_Hotel_in_Singapore.jpg",
+          "stock": true,
+          "topic": "cricket"
+        },
+        "photo_v": 8,
+        "_had_data": false,
+        "_localized": false
+      },
+      "card": "cards/world-2026-11-13-new-zealand-vs-india.png",
+      "published_at": "2026-11-13T09:31:18.095691+00:00"
+    },
+    {
+      "title": "nigeria national football team vs tanzania national football team standings",
+      "traffic": "+25000",
+      "traffic_num": 25000,
+      "published": "Fri, 13 Nov 2026 08:30:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRcATaUu2D8aC9tNT5vww581Or2K0L-2PV0lkvPDcngvLpD9uR0mWe6x9w_ovA",
+      "image_source": "Channels Television",
+      "news": [
+        {
+          "title": "AFCON 2027: Super Eagles Seek Redemption Against Tanzania After Guinea-Bissau Defeat",
+          "url": "https://www.channelstv.com/2026/11/13/afcon-2027-super-eagles-seek-redemption-against-tanzania-after-guinea-bissau-defeat/",
+          "source": "Channels Television",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRcATaUu2D8aC9tNT5vww581Or2K0L-2PV0lkvPDcngvLpD9uR0mWe6x9w_ovA",
+          "og_title": "AFCON 2027: Super Eagles Seek Redemption Against Tanzania After Guinea-Bissau Defeat",
+          "og_desc": "However, Nigeria will be without striker Victor Osimhen, who sustained a left knee injury during Galatasaray’s UEFA Champions League fixture against Stuttgart and subsequently underwent surgery.",
+          "og_image": "https://www.channelstv.com/wp-content/uploads/2026/01/Untitled-design-33.png",
+          "ok": true
+        },
+        {
+          "title": "Nigeria vs Tanzania LIVE UPDATES: Super Eagles seek crucial victory in Uyo",
+          "url": "https://www.premiumtimesng.com/news/headlines/924944-nigeria-vs-tanzania-live-updates-super-eagles-seek-crucial-victory-in-uyo.html",
+          "source": "Premium Times Nigeria",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT973tuqzkKFQf7-XXbFiokagA8Nx5cLCzdx_57bhSozCgKd-F4tc5LgHCj7tc",
+          "og_title": "Nigeria vs Tanzania (LIVE UPDATES): Super Eagles seek crucial victory in Uyo",
+          "og_desc": "Nigeria have collected three points from their opening two Group L matches and will be eager to return to winning ways after suffering a disappointing 3-0 defeat to Guinea-Bissau in their last outing.",
+          "og_image": "https://media.premiumtimesng.com/wp-content/files/2026/09/1004216823-2.jpg",
+          "ok": true
+        },
+        {
+          "title": "TEAM LIST: Fredrick returns to Eagles’ defence for must-win clash against Tanzania",
+          "url": "https://www.thecable.ng/team-list-fredrick-returns-to-eagles-defence-for-must-win-clash-against-tanzania/",
+          "source": "TheCable",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTmcnDCp0oqpkvKiTPnQP3KKGZ4mQCA_bDPEz8AmicJSAXyGrai-KK7_H1MKDg",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Nigeria vs Tanzania: Africa Cup of Nations Qualification stats & head-to-head",
+          "url": "https://www.bbc.com/sport/football/live/cmly0wwxl3n5t",
+          "source": "BBC",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLTnkLSxQlvqf_-H7ZnJQf9xAcIu_3_Nl04nx7yiOma_DJDRg8rPzFHZdJSw",
+          "og_title": "Nigeria vs Tanzania: Africa Cup of Nations Qualification stats & head-to-head",
+          "og_desc": "Follow live text commentary, score updates and match stats from Nigeria vs Tanzania in the Africa Cup of Nations Qualification",
+          "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+          "ok": true
+        },
+        {
+          "title": "Eric Chelle Admits Late Arrivals Of Super Eagles' Players Affected His Game Plan For Friday's Clash With Tanzania",
+          "url": "https://www.sports247.ng/eric-chelle-admits-late-arrivals-of-super-eagles-players-affected-his-game-plan-for-fridays-clash-with-tanzania/",
+          "source": "Sports247 Nigeria",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjVsND6qne_guqbk_bu4M0i9ZxWxET1bgRxHsaGLJzI00IUQF-ncKNnCz1IZo",
+          "og_title": "Eric Chelle Admits Late Arrivals Of Super Eagles' Players Affected His Game Plan For Friday's Clash With Tanzania | Sports247 Nigeria",
+          "og_desc": "Super Eagles' coach, Eric Sekou Chelle has admitted that the late arrivals by many of his players to the Nigerian team's camp",
+          "og_image": "https://www.sports247.ng/wp-content/uploads/2026/07/20260708_171225.jpg",
+          "ok": true
+        },
+        {
+          "title": "AFCON Qualifier: Aba fans urge Super Eagles to triumph over Tanzania",
+          "url": "https://realnewsmagazine.net/afcon-qualifier-aba-fans-urge-super-eagles-to-triumph-over-tanzania/",
+          "source": "Realnews Magazine",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHOxttkKVbI6CV6ji_6ix7VSC_uBCTTq3_jqaA4-Rj7XiQvsN3PGkEaFpALgM",
+          "og_title": "AFCON Qualifier: Aba fans urge Super Eagles to triumph over Tanzania - Realnews Magazine",
+          "og_desc": "SOME football fans in Aba have urged the Super Eagles to improve their performance and display better teamwork ahead of their 2027 Africa Cup of Nations (AFCON) qualifying match against Tanzania on Friday. The fans made the call in separate interviews with the News Agency of Nigeria (NAN) in Aba on Wednesday. They said the",
+          "og_image": "https://realnewsmagazine.net/wp-content/uploads/2026/11/FB_IMG_1794090290198-240x300-4-1.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "NG"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "العنوان يطابق: vs",
+      "publishable": true,
+      "article": {
+        "headline": "Super Eagles Seek Crucial AFCON Redemption Against Tanzania in Uyo Home Clash",
+        "summary": "Nigeria targets a critical Group L victory against Tanzania this Friday following a recent 3-0 defeat to Guinea-Bissau.",
+        "body": "Nigeria enters the Godswill Akpabio International Stadium in Uyo today desperate to revive their 2027 Africa Cup of Nations qualifying campaign. The team currently holds three points from two matches, placing them three points behind the group leaders, Guinea-Bissau. Head coach Éric Chelle is under intense pressure to secure a win after the side suffered a disappointing 3-0 loss to Guinea-Bissau just four days after an opening 2-1 victory over Madagascar.\n\nThis match represents a pivotal moment for Nigeria to strengthen their standing in Group L and restore team confidence. Because the qualifying race is intensifying, any further setback would leave the three-time African champions trailing significantly behind the group leaders. Securing points at home is vital before the squad heads to Zanzibar for the return fixture against the Taifa Stars.\n\nNigeria will compete without star striker Victor Osimhen, who is currently recovering from knee surgery following a Champions League injury. Coach Chelle has turned to a 24-man roster, with Wilfred Ndidi serving as captain. The starting XI features Stanley Nwabali in goal, with Calvin Bassey and Benjamin Frederick anchoring the defense. Tanzania, despite their struggles with only one point from two matches, enters the game with the security of having already qualified for the 2027 AFCON as tournament co-hosts alongside Kenya and Uganda.\n\nLooking ahead, the teams will soon prepare for the second leg of this double-header in Zanzibar. Nigeria aims to use this encounter to build momentum for the remainder of their qualification schedule.",
+        "facts": [
+          {
+            "label": "Venue",
+            "value": "Godswill Akpabio International Stadium, Uyo"
+          },
+          {
+            "label": "Kick-off Time",
+            "value": "5 p.m."
+          },
+          {
+            "label": "Nigeria Points",
+            "value": "3"
+          },
+          {
+            "label": "Tanzania Tournament Status",
+            "value": "Co-host of 2027 AFCON"
+          }
+        ],
+        "tags": [
+          "Super Eagles",
+          "AFCON 2027",
+          "Nigeria",
+          "Tanzania",
+          "Football"
+        ],
+        "_v": 4,
+        "_by": "gemini",
+        "written_at": "2026-11-13T18:32:50.459741+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/NIG-ARG_%282%29.jpg/1280px-NIG-ARG_%282%29.jpg",
+          "width": 1280,
+          "height": 806,
+          "artist": "Кирилл Венедиктов",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:NIG-ARG_(2).jpg",
+          "wiki_title": "Nigeria national football team",
+          "wiki_lang": "en"
+        },
+        "photo_v": 8,
+        "_had_data": false,
+        "_localized": false
+      },
+      "card": "cards/world-2026-11-13-nigeria-national-football-team-vs-tanzania-national-football-team-standings.png",
+      "published_at": "2026-11-13T18:32:15.639107+00:00"
+    },
+    {
+      "title": "weather tomorrow",
+      "traffic": "+21000",
+      "traffic_num": 21000,
+      "published": "Fri, 13 Nov 2026 09:50:00 -0800",
+      "image": "",
+      "image_source": "Inshorts",
+      "news": [
+        {
+          "title": "Tamil Nadu may see rain in 6 districts; showers likely on Nov 13 | Tap to know more | Inshorts",
+          "url": "https://inshorts.com/en/news/tamil-nadu-may-see-rain-in-6-districts--showers-likely-on-nov-13-1794543436157",
+          "source": "Inshorts",
+          "thumb": "",
+          "og_title": "Tamil Nadu may see rain in 6 districts; showers likely on Nov 13",
+          "og_desc": "Tamil Nadu may receive light rain on November 13, with Chennai, Tiruvallur, Kancheepuram, Chengalpattu and Ranipet among the districts likely to see showers. A lowpressure area may develop over the southeast Bay of Bengal. Rainfall could intensify on November 15, with thunderstorms and gusty winds of 4050 kmph expected in several districts.",
+          "og_image": "https://media.inshorts.com/inshorts/images/v1/variants/jpg/l/2026/11_nov/13_fri/img_1794543425147_272.jpg",
+          "ok": true
+        },
+        {
+          "title": "Thunderstorms, gusty winds forecast across JK, Ladakh for next two days",
+          "url": "https://freepresskashmir.news/2026/11/13/thunderstorms-gusty-winds-forecast-across-jk-ladakh-for-next-two-days/",
+          "source": "Free Press Kashmir",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkYdsONWNtAv4pKZ8BxA3f3rTegCY7lU6p4r7FAM2AvpqajGPhUGwRjHasV0",
+          "og_title": "Thunderstorms, gusty winds forecast across JK, Ladakh for next two days | Free Press Kashmir",
+          "og_desc": "Srinagar: The India Meteorological Department (IMD) has forecast thunderstorms accompanied by lightning and gusty winds across Jammu and Kashmir, Ladakh and Muzaffarabad during the next two days.The forecast indicates the possibility of unsettled weather conditions across the region, with thunderstorms and strong winds potentially affecting normal activities. Locals, farmers, commuters and tourists have been advised",
+          "og_image": "https://cdn.freepresskashmir.news/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-19-at-15.15.21-scaled-e1690359344663.jpeg",
+          "ok": true
+        },
+        {
+          "title": "IMD forecasts heavy rainfall over A&N islands",
+          "url": "https://newsonair.gov.in/imd-forecasts-heavy-rainfall-over-an-islands/",
+          "source": "News On AIR",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRgH8gaMrCaY-KPUAWz6s3SR5CLVrthmSlYdyra8PNFJWF8xpIOLY1oUEaF56w",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "What 165 days of record ocean temperatures will mean for extreme winter weather",
+          "url": "https://www.washingtonpost.com/weather/2026/11/12/what-165-days-record-ocean-temperatures-will-mean-extreme-winter-weather/",
+          "source": "The Washington Post",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6qZN_Bm-wGNWNh7Q3RhPtpM_esjV4Jh7wnvodvJM4JSdqrRcQOP3o49ZHFnw",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "TimeoutError"
+        },
+        {
+          "title": "What the new 'astonishing' El Niño forecast means for California",
+          "url": "https://www.sfgate.com/weather/article/new-el-nino-forecast-22523911.php",
+          "source": "SFGATE",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrtjKcz4Bfa5FqwytuPDAgRuLfhG-VPsIZwJF3etNK92Gr-kx7s2m2D_r0bqI",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "See What the ‘Super El Niño’ Means for This Year’s Ski Season",
+          "url": "https://www.wsj.com/us-news/climate-environment/see-what-the-super-el-nino-means-for-this-years-ski-season-f233a1d6",
+          "source": "WSJ",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSrM68N-1H6Vfx0PZDyKj9R_HnDxhYjxZaOpOm7YU2HrGEvmjyotyEbfa8yaQY",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
         {
           "title": "Tornadoes touch down in Del. and NJ, before chances for snow Friday",
           "url": "https://www.nbcphiladelphia.com/weather/stories-weather/storms-philadelphia-wind-rain-tornado-threat-new-jersey-delaware/4496202/",
@@ -419,7 +848,7 @@
         }
       ],
       "geos": [
-        "US"
+        "KE"
       ],
       "category": "طقس",
       "icon": "🌤️",
@@ -470,245 +899,6 @@
       },
       "card": "cards/world-2026-11-13-weather-tomorrow.png",
       "published_at": "2026-11-13T05:01:27.627455+00:00"
-    },
-    {
-      "title": "gemini google",
-      "traffic": "50000+",
-      "traffic_num": 50000,
-      "published": "Fri, 13 Nov 2026 01:50:00 -0800",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRgj5oJzDzDkaEqqWzrJumRosv1AIoQ7EsQUgFGMfDEGOcOLym5xBcByIvdtgc",
-      "image_source": "blog.google",
-      "news": [
-        {
-          "title": "Introducing Gemini 4 Hydrogen for Agentic Workflows",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-          "source": "blog.google",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRgj5oJzDzDkaEqqWzrJumRosv1AIoQ7EsQUgFGMfDEGOcOLym5xBcByIvdtgc",
-          "og_title": "Introducing Gemini 4 Hydrogen",
-          "og_desc": "Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
-          "og_image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
-          "ok": true
-        },
-        {
-          "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
-          "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
-          "source": "Ars Technica",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQakc8yh2wqHk6ARF8mjiBUmms78zY5hHAh9UwCMT7inSguJs_505OIvZGT4y0",
-          "og_title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
-          "og_desc": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
-          "og_image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-1152x648.jpg",
-          "ok": true
-        },
-        {
-          "title": "Google's latest Search upgrade promises better answers to your most complicated questions",
-          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-          "source": "TechCrunch",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTn0Y9dmCql-VGmH2DIQz27JJmBPJp5gaEZ1GmOgMbXJ9eKFPTUvtK3Yf5znes",
-          "og_title": "Google's latest Search upgrade promises better answers to your most complicated questions | TechCrunch",
-          "og_desc": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
-          "og_image": "https://techcrunch.com/wp-content/uploads/2026/11/hydrogen-at-2.01.42-PM.jpg?resize=1200,589",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "تقنية",
-      "icon": "💻",
-      "color": "#5aa9ff",
-      "reason": "العنوان يطابق: gemini",
-      "publishable": true,
-      "article": {
-        "headline": "Google Launches Gemini 4 Hydrogen, Replacing 3.8 Flash With Triple Speed",
-        "summary": "Google has officially released Gemini 4 Hydrogen, a faster, more efficient AI model replacing the 3.8 Flash version across its products.",
-        "body": "Gemini 4 Hydrogen has arrived, boasting performance that triples the Terminal-Bench scores of its predecessor, the 3.8 Flash, while cutting fabricated claims by more than 5x. According to Google, the model is designed to deliver speed and intelligence for daily coding and agentic workflows, operating across four distinct thinking levels ranging from low to the new xhigh setting. \n\nFor professional teams, the shift to Hydrogen represents a shift toward higher efficiency in software development. While models like Carbon and Argon remain the go-to for complex architectural tasks, Hydrogen serves as a high-speed execution engine for generating simpler code, running tests, and verifying changes. By utilizing the new Orchestrator feature in Google Antigravity, teams can dynamically switch between models, an approach that completed tasks 19% faster and consumed 24% less quota during testing on Terminal-Bench 4.0.\n\nGoogle reports that Hydrogen is priced at $1.50 per million input tokens and $7.50 per million output tokens. Its integration extends beyond development tools, reaching Google Search to handle complex, multipart questions with improved AI-powered Overviews and AI Mode. Unlike previous releases that prioritized staggered, security-conscious rollouts, Google has made Hydrogen immediately available to users across its ecosystem.\n\nThis release marks a significant departure from the previous Flash model, with Google positioning Hydrogen as the standard for everyday work. Looking ahead, developers are expected to utilize Hydrogen as part of multi-model workflows, where it functions alongside more powerful models to manage parallel agent tasks in isolated workspaces.",
-        "facts": [
-          {
-            "label": "Input Token Price",
-            "value": "$1.50 per million"
-          },
-          {
-            "label": "Output Token Price",
-            "value": "$7.50 per million"
-          },
-          {
-            "label": "Terminal-Bench 4.1 Score Improvement",
-            "value": "57% vs 18.2%"
-          },
-          {
-            "label": "Intelligence Index Score (xhigh)",
-            "value": "54"
-          }
-        ],
-        "tags": [
-          "Google",
-          "Gemini 4 Hydrogen",
-          "Artificial Intelligence",
-          "Software Development"
-        ],
-        "_v": 4,
-        "_by": "gemini",
-        "written_at": "2026-11-13T11:01:41.069340+00:00",
-        "photo": {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/1280px-Datacenter_Server_Racks_%2822370909788%29.jpg",
-          "width": 1280,
-          "height": 853,
-          "artist": "Carl Lender from Sunrise, USA",
-          "license": "CC BY 2.0",
-          "license_url": "https://creativecommons.org/licenses/by/2.0",
-          "file_page": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
-          "stock": true,
-          "topic": "ai"
-        },
-        "photo_v": 8,
-        "_had_data": false,
-        "_localized": false
-      },
-      "card": "cards/world-2026-11-13-gemini-google.png",
-      "published_at": "2026-11-13T11:01:31.750901+00:00"
-    },
-    {
-      "title": "new zealand vs india",
-      "traffic": "+30000",
-      "traffic_num": 30000,
-      "published": "Fri, 13 Nov 2026 00:30:00 -0800",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGOrC6SUSAQJhr68HidATTpLadMBK21dCCZw7x7H57u6eWZZccJvysmhiKIY0",
-      "image_source": "Cricinfo",
-      "news": [
-        {
-          "title": "NZ vs Ind, 3rd ODI, Live Blog - Henry six-for demolishes India, keeps series alive",
-          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-4th-odi-1539440/live-match-blog",
-          "source": "Cricinfo",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGOrC6SUSAQJhr68HidATTpLadMBK21dCCZw7x7H57u6eWZZccJvysmhiKIY0",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "'Huge difference in the wickets': Shreyas Iyer reveals why India's batting collapsed in 4th ODI at Mount Maunganui",
-          "url": "https://sports.yahoo.com/articles/huge-difference-wickets-shreyas-iyer-093003441.html",
-          "source": "Yahoo Sports",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRiKyg6z-DqE27csWeC_lRgilHcfH0wmWscPUMhi1selAJ1uls4EPT4brI4uug",
-          "og_title": "'Huge difference in the wickets': Shreyas Iyer reveals why India's batting collapsed in 4th ODI at Mount Maunganui",
-          "og_desc": "Stand-in skipper Shreyas Iyer explains why India collapsed for 89 after a catastrophic 0/3 start in the 4th ODI vs New Zealand.",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/3484e912f08a6b18f32db42b7e40006e5ceb9ab9d6b24e6c0678d2e6ff90dc14/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cricket_news_articles_506%2Ff344456ef66f0ce740b17823369d6c21",
-          "ok": true
-        },
-        {
-          "title": "Henry six-for, Young century see Black Caps to huge ODI win over India",
-          "url": "https://www.nzherald.co.nz/sport/cricket/black-caps/black-caps-v-india-result-will-young-century-matt-henry-six-wicket-haul-see-new-zealand-to-huge-odi-victory/KFHN5ITDIBHJ7FSRUJQVTFGGCU/",
-          "source": "NZ Herald",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR8hwKiMXYr-qyw9Cru8U1NeH0SGSAPNUu8FjUGz2yK4dfKp03Y2bW23GDtJVo",
-          "og_title": "Henry six-for, Young century see Black Caps to huge ODI win over India",
-          "og_desc": "Fighting to save the series, a perfect team performance was exactly what NZ ordered.",
-          "og_image": "https://www.nzherald.co.nz/resizer/v2/WPAJULZ4TZHX7JO6E3ATAVSS5A.JPG?auth=52ba71a35f3c66b6925058277dc1140696875247b3322a89f0d0b7bdd69c7f5c&width=1200&height=675&quality=70&focal=657%2C246&smart=false",
-          "ok": true
-        },
-        {
-          "title": "Matt Henry and Will Young power Black Caps to devastating 244-run pasting of India at Bay Oval",
-          "url": "https://www.stuff.co.nz/sport/361059196/black-caps-opener-will-young-cashes-two-chances-against-india-notch-highest-odi-score",
-          "source": "Stuff",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHh_0SQMTECXWc-PuDMsZYXzaZwzRUgvR0toYWi6frkFe8L9ofe-9oh1lQtcM",
-          "og_title": "Matt Henry and Will Young power Black Caps to devastating 244-run pasting of India at Bay Oval",
-          "og_desc": "The Black Caps kept their hopes of salvaging the ODI series against India alive with a 244-run victory.",
-          "og_image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYet7lgA5l4KN99qjDuDYjuhPxc%2F3Vs25hdtbfCedK4%2FaROuJAinqaJJbKOtZPZImfOHy8Y4yn86kVL3NpuaRUPWBzrUOnB3yHgD5gbTQXtMXMLjnhykczMrfCwyPa2uGgqvdxTVMKF2xgk3iTfCkuBBVdQGHriDB3aj9jzIdxhxqFbNGgbhblg32heOQVA85pa07F%2FSXZhYpfpAVsuH%2F8HbUn7RuCqj7DAP06W9hbFY9TTXsinVMUZ9SlTau2j65Hwzlay+QKz2VRvzNn8wV7DyVsnn4q03Y0%2FIvTIaI0VeVtrAd8zsGGXgnKiIckjEVY%2FYmR3DRWfCoWyYSRk0LqHyvdtAuulMSf+7ZfBI9YzPAoE4lTwcq8Q64KVh3bL7puT35GgA9OyiS6%2FpAud1%2FIk%2Fu1PV8OZh+QUJVhE4CsWe6CF4oBxPbOlwDZfQOf%2FCLPw==",
-          "ok": true
-        },
-        {
-          "title": "Ball by Ball Commentary & Live Score - NZ vs IND, 4th ODI",
-          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-4th-odi-1539440/ball-by-ball-commentary",
-          "source": "Cricinfo",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTidvVCoo_Ps5botaRLslrGRzSHXztOqVatwoQywZ-eJfz5xMaXBeXyOfTP4Ug",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "India suffer their second-biggest defeat in ODI cricket history | To view the match scorecard | Inshorts",
-          "url": "https://inshorts.com/en/news/india-suffer-their-second-biggest-defeat-in-odi-cricket-history-1794558598906",
-          "source": "Inshorts",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQfLmLCl3izCDj6VEFVXikVvlWEa30Nql_J9VRd2lH7TutWiHJUQCIWTArn30k",
-          "og_title": "India suffer their second-biggest defeat in ODI cricket history",
-          "og_desc": "New Zealand defeated India by 244 runs in the fourth ODI in Mount Maunganui on Friday, registering their first win of the fivematch series. It marked India's secondbiggest defeat by runs in ODI cricket. New Zealand posted 333 before bowling India out for 89. India's biggest ODI defeat came in 2000, when they lost to Sri Lanka by 245 runs.",
-          "og_image": "https://media.inshorts.com/inshorts/images/v1/variants/jpg/l/2026/11_nov/13_fri/img_1794557688014_900.jpg",
-          "ok": true
-        },
-        {
-          "title": "Matt Henry six-fer sinks India for 89 as New Zealand pull one back",
-          "url": "https://www.cricbuzz.com/cricket-news/140889/henry-six-fer-sinks-india-for-89-as-new-zealand-pull-one-back",
-          "source": "Cricbuzz",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSY24PQwU6J6TFKrf7L1RUwhgf5_FjpfsplwLL_bZtfTxB3CGNoTMspRpPGr1E",
-          "og_title": "Henry six-fer sinks India for 89 as New Zealand pull one back",
-          "og_desc": "Will Young’s 125 set up New Zealand’s total of 333 before Henry wiped out India’s hopes with a triple-wicket maiden in the opening over",
-          "og_image": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1123269/matt-henry-bagged-a-six-wicket-haul-including-a-three-wicket-maiden.jpg",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "رياضة",
-      "icon": "⚽",
-      "color": "#3ddc97",
-      "reason": "العنوان يطابق: vs",
-      "publishable": true,
-      "article": {
-        "headline": "Matt Henry’s triple-wicket maiden sparks New Zealand’s massive 244-run rout of India",
-        "summary": "Matt Henry took 6-27 to bowl India out for 89 after Will Young’s 125 propelled New Zealand to a 333-run total at Bay Oval.",
-        "body": "Matt Henry dismantled India’s top order with a triple-wicket maiden in the opening over, setting the tone for a decisive 244-run victory at Bay Oval. India’s star batters Rohit Sharma and Virat Kohli departed for zero as Henry claimed three wickets before a single run was scored, ultimately finishing with a devastating 6-27. The performance effectively halted India’s momentum in the best-of-five series and gave the home crowd of thousands a spectacle to witness in the final match of the tour at this venue.\n\nThis result keeps New Zealand’s hopes alive for a series draw after previously trailing 2-0. Protecting a six-year home ODI unbeaten run, the Black Caps delivered their most complete performance of the tour, capitalizing on batting conditions that allowed Will Young to hammer a career-best 125. The win provides a critical boost for the hosts as they look to secure a series-saving result on Sunday.\n\nAccording to Cricbuzz and the NZ Herald, New Zealand posted 333, supported by Tim Seifert’s 58 off 48 balls and Finn Allen’s 41. India struggled from the start, with Shreyas Iyer trapped in front and the side dismissed inside 27 overs. While Kyle Jamieson and Matthew Fisher added to the pressure with steep bounce, Henry remained the chief destroyer, returning to clean up the tail and secure his fourth ODI five-wicket haul. \n\nNew Zealand must now prepare for the series finale on Sunday without Matt Henry, who departs to join the Test squad in Wellington. The team aims to replicate this momentum at the Basin Reserve in the upcoming test series.",
-        "facts": [
-          {
-            "label": "Final Score",
-            "value": "New Zealand 333, India 89"
-          },
-          {
-            "label": "Winner",
-            "value": "New Zealand by 244 runs"
-          },
-          {
-            "label": "Matt Henry stats",
-            "value": "6-27"
-          },
-          {
-            "label": "Will Young score",
-            "value": "125"
-          },
-          {
-            "label": "Next Match",
-            "value": "Sunday"
-          }
-        ],
-        "tags": [
-          "New Zealand",
-          "India",
-          "Cricket",
-          "ODI",
-          "Matt Henry"
-        ],
-        "_v": 4,
-        "_by": "gemini",
-        "written_at": "2026-11-13T09:31:30.950854+00:00",
-        "photo": {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Cricket_match_and_Marina_Bay_Sands_Hotel_in_Singapore.jpg/1280px-Cricket_match_and_Marina_Bay_Sands_Hotel_in_Singapore.jpg",
-          "width": 1280,
-          "height": 853,
-          "artist": "Basile Morin",
-          "license": "CC BY-SA 4.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-          "file_page": "https://commons.wikimedia.org/wiki/File:Cricket_match_and_Marina_Bay_Sands_Hotel_in_Singapore.jpg",
-          "stock": true,
-          "topic": "cricket"
-        },
-        "photo_v": 8,
-        "_had_data": false,
-        "_localized": false
-      },
-      "card": "cards/world-2026-11-13-new-zealand-vs-india.png",
-      "published_at": "2026-11-13T09:31:18.095691+00:00"
     },
     {
       "title": "bbc news",
@@ -925,6 +1115,103 @@
       },
       "card": "cards/world-2026-11-13-sam-hartman.png",
       "published_at": "2026-11-13T14:01:36.742055+00:00"
+    },
+    {
+      "title": "jake bauers",
+      "traffic": "20000+",
+      "traffic_num": 20000,
+      "published": "Fri, 13 Nov 2026 09:40:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYADqq3JGc1LOgxiZCeEv2YjU0DzSEqR81fKLoV7U8C4WEk8XH15CgfxhdpgQ",
+      "image_source": "ESPN",
+      "news": [
+        {
+          "title": "Sources - Jake Bauers, Red Sox agree to 4-year, $58M deal",
+          "url": "https://www.espn.com/mlb/story/_/id/50473029/sources-jake-bauers-red-sox-agree-4-year-58m-deal",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYADqq3JGc1LOgxiZCeEv2YjU0DzSEqR81fKLoV7U8C4WEk8XH15CgfxhdpgQ",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Postseason breakout star Bauers agrees to 4-year deal with Red Sox (source)",
+          "url": "https://www.mlb.com/news/jake-bauers-4-year-contract-with-red-sox",
+          "source": "MLB.com",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcShnLDsxA6gYDeYFTBAtrFEKqoUxWZInq0QbDY4QSjdfzjqBS3W4Is8GaYC9fk",
+          "og_title": "Postseason breakout star Bauers agrees to 4-year deal with Red Sox (source)",
+          "og_desc": "Fresh off his star turn for the World Series champion Brewers, slugger Jake Bauers agreed to a four-year, $58 million contract with the Red Sox, a source told MLB.com's Mark Feinsand on Friday. The team has not confirmed the deal, which was first reported by ESPN's Jeff Passan.",
+          "og_image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/ye96ygt6gxpaupsxpuhd.jpg",
+          "ok": true
+        },
+        {
+          "title": "NLCS MVP Jake Bauers won't be returning to the Brewers in 2027",
+          "url": "https://sports.yahoo.com/articles/nlcs-mvp-jake-bauers-wont-180517155.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ5k0cJSrkyJMjZKINlRoYVIuxSUVz_dsMr5_Wnm9TU6J-th4tnkCLjcSlvOws",
+          "og_title": "NLCS MVP Jake Bauers won't be returning to the Brewers in 2027",
+          "og_desc": "Jake Bauers turned down the Brewers' qualifying offer and signed a four-year deal with the Red Sox",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/2f6352f6ea3823d4e0c7c9a2a7a3c2a408b5a62ebc109c2cd4e2e3b347a096e0/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmilwaukee_journal_sentinel_natl_articles_362%2Ffdbc57c5d42490a165aee9ccecbed670.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "فن ومشاهير",
+      "icon": "🎬",
+      "color": "#c77dff",
+      "reason": "الأخبار تطابق: star",
+      "publishable": true,
+      "article": {
+        "headline": "World Series Champion Jake Bauers Snaps Up Four-Year Deal With Red Sox",
+        "summary": "Slugger Jake Bauers signed a four-year, $58 million contract with the Boston Red Sox after declining a qualifying offer from the Milwaukee Brewers.",
+        "body": "Following his breakout 2026 campaign that saw the Brewers win the World Series, 31-year-old Jake Bauers is leaving Milwaukee for a $58 million deal in Boston. The decision comes after the first baseman turned down a one-year, $23 million qualifying offer from the Brewers, who were unwilling to match the four-year term offered by the Red Sox.\n\nFor the Red Sox, securing Bauers adds a proven performer who reached career-best metrics across the board in 2026. The lefty slugger hit 26 home runs with a .266 average and an .874 OPS, establishing himself as a centerpiece of a championship roster. His performance was marked by a significant increase in hitting power, including a 14% barrel rate and a hard-hit rate of 51.9%, ranking him in the 90th percentile among qualifying hitters.\n\nAccording to MLB.com, Bauers earned NLCS MVP honors after a dominant postseason run that included six RBIs in a sweep of the Dodgers. His iconic 11-pitch home run against Blake Snell during Game 3 of the NLCS served as a defining moment for Milwaukee’s championship season. Bauers had previously played for the Rays, Guardians, Mariners, and Yankees before finding stability in Milwaukee after signing a Minor League deal in early 2025.\n\nAs part of the roster transition, the Brewers will receive a Competitive Balance A Round pick in the upcoming draft due to Bauers signing elsewhere. While he now heads to Boston, Bauers is scheduled to return to American Family Field on September 14 to collect his championship ring with his former teammates.",
+        "facts": [
+          {
+            "label": "Contract Value",
+            "value": "$58 million"
+          },
+          {
+            "label": "Contract Length",
+            "value": "4 years"
+          },
+          {
+            "label": "2026 Home Runs",
+            "value": "26"
+          },
+          {
+            "label": "Ring Ceremony Date",
+            "value": "September 14"
+          }
+        ],
+        "tags": [
+          "Jake Bauers",
+          "Red Sox",
+          "Brewers",
+          "MLB",
+          "Baseball"
+        ],
+        "_v": 4,
+        "_by": "gemini",
+        "written_at": "2026-11-13T18:32:37.466448+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Jake_Bauers_%2848104134222%29_%28cropped%29.jpg/1280px-Jake_Bauers_%2848104134222%29_%28cropped%29.jpg",
+          "width": 1280,
+          "height": 1716,
+          "artist": "Ian D'Andrea on Flickr",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Jake_Bauers_(48104134222)_(cropped).jpg",
+          "wiki_title": "Jake Bauers",
+          "wiki_lang": "en"
+        },
+        "photo_v": 8,
+        "_had_data": false,
+        "_localized": false
+      },
+      "card": "cards/world-2026-11-13-jake-bauers.png",
+      "published_at": "2026-11-13T18:01:20.524422+00:00"
     },
     {
       "title": "avril lavigne",
@@ -2155,262 +2442,9 @@
       "published_at": "2026-11-13T18:01:20.524422+00:00"
     },
     {
-      "title": "putin news",
-      "traffic": "5000+",
-      "traffic_num": 5000,
-      "published": "Fri, 13 Nov 2026 04:00:00 -0800",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToIiV3MjiTgw3-tC3z8BYgi4PSvNw96fzXvp6B8YnpcV5FCzCbPISwNCSB96s",
-      "image_source": "CNN",
-      "news": [
-        {
-          "title": "Kushner says Europe to join next Ukraine talks, but Putin stands firm on territorial demands",
-          "url": "https://www.cnn.com/2026/11/12/politics/ukraine-witkoff-kushner-putin-peace-talks-intl",
-          "source": "CNN",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToIiV3MjiTgw3-tC3z8BYgi4PSvNw96fzXvp6B8YnpcV5FCzCbPISwNCSB96s",
-          "og_title": "Kushner says Europe to join next Ukraine talks, but Putin stands firm on territorial demands | CNN Politics",
-          "og_desc": "",
-          "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2304304145.jpg?c=16x9&q=w_800,c_fill",
-          "ok": true
-        },
-        {
-          "title": "Russia, Ukraine reach deal on prisoner swap as US says lack of trust holds back talks",
-          "url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/",
-          "source": "Reuters",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRFqC3Mh-2MCwNXfqzUW-NFrbpXcULQvh4KMJ3Z-cK_3snYvUMKCN-E7ItP5eQ",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Putin’s chief negotiator vows to return ‘every inch of Russian land’ in Ukraine",
-          "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/putins-chief-negotiator-vows-to-return-every-inch-of-russian-land-in-ukraine/",
-          "source": "Atlantic Council",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9CGqVMlKqYz5BwrV_QfDRF3yAcWYa9MWGbXLbil8-Jb3zHXLhox-itSW8GZc",
-          "og_title": "Putin’s chief negotiator vows to return ‘every inch of Russian land’ in Ukraine",
-          "og_desc": "The Kremlin’s uncompromising approach to negotiations with Ukraine was summed up by Russian delegation head Vladimir Medinsky's comment that “every inch of Russian land will be returned to Russia, one way or another,” writes Peter Dickinson.",
-          "og_image": "https://www.atlanticcouncil.org/wp-content/uploads/2026/11/2026-11-10T083319Z_2095876134_RC2WKOA8108A_RTRMADP_3_UKRAINE-CRISIS-TALKS-e1794520514806.jpg",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "دول وأماكن",
-      "icon": "🗺️",
-      "color": "#79c0ff",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-11-13-putin-news.png",
-      "published_at": "2026-11-13T12:31:39.159856+00:00"
-    },
-    {
-      "title": "taylor swift",
-      "traffic": "5000+",
-      "traffic_num": 5000,
-      "published": "Fri, 13 Nov 2026 05:40:00 -0800",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5wCulqaq2YfXKLn3yI2qVq9c_KVAAIRkD-6a8YzHnJFX8KoHPmSBa_28L-M",
-      "image_source": "Good Morning America",
-      "news": [
-        {
-          "title": "Taylor Swift to perform at CMAs for 1st time in 13 years",
-          "url": "https://www.goodmorningamerica.com/culture/story/taylor-swift-perform-cmas-1st-time-13-years-138104764",
-          "source": "Good Morning America",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5wCulqaq2YfXKLn3yI2qVq9c_KVAAIRkD-6a8YzHnJFX8KoHPmSBa_28L-M",
-          "og_title": "Taylor Swift to perform at CMAs for 1st time in 13 years",
-          "og_desc": "Taylor Swift is returning to the CMA Awards and set to perform at the awards show for the first time in 13 years.",
-          "og_image": "https://i.abcnewsfe.com/a/5de5efaf-c6df-4263-ae7c-3a47cc9f960c/swift-1-gty-jef-261113_1794575781989_hpMain_16x9.jpg?w=992",
-          "ok": true
-        },
-        {
-          "title": "Taylor Swift to perform at CMA Awards for first time in 13 years",
-          "url": "https://www.tennessean.com/story/entertainment/music/taylor-swift/2026/11/13/taylor-swift-2026-cma-awards-performance/92563780007/",
-          "source": "The Tennessean",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSAiQPzBzkizSV4PhFZCOvyBEUyebThl7_tu8nfOjaBFJGg6X_6F51QOMdfC2c",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Taylor Swift performing at 60th annual CMA Awards in Nashville",
-          "url": "https://idahonews.com/news/entertainment/taylor-swift-performing-at-60th-annual-cma-awards-in-nashville-tennessee-country-music-i-knew-it-i-knew-you-single-of-the-year-nomination",
-          "source": "KBOI",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWnQQg74FbxwkzkZA6FgUj46U4aiWHlqaKbv0n6XsQasHIv0Leyb-zkqF1EjM",
-          "og_title": "Taylor Swift performing at 60th annual CMA Awards in Nashville",
-          "og_desc": "Taylor Swift is performing at the 60th Annual CMA Awards in Nashville, Tennessee, the Country Music Association announced Friday.",
-          "og_image": "https://idahonews.com/resources/media2/16x9/6000/1320/0x313/90/c9ffa756-1429-49f7-8665-cabbf5479b2b-GettyImages2281136184.jpg",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "عام",
-      "icon": "🌐",
-      "color": "#9aa4b2",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-11-13-taylor-swift.png",
-      "published_at": "2026-11-13T14:01:36.742055+00:00"
-    },
-    {
-      "title": "nigeria vs tanzania",
-      "traffic": "5000+",
-      "traffic_num": 5000,
-      "published": "Fri, 13 Nov 2026 07:10:00 -0800",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLTnkLSxQlvqf_-H7ZnJQf9xAcIu_3_Nl04nx7yiOma_DJDRg8rPzFHZdJSw",
-      "image_source": "BBC",
-      "news": [
-        {
-          "title": "Nigeria vs Tanzania: Africa Cup of Nations Qualification stats & head-to-head",
-          "url": "https://www.bbc.com/sport/football/live/cmly0wwxl3n5t",
-          "source": "BBC",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLTnkLSxQlvqf_-H7ZnJQf9xAcIu_3_Nl04nx7yiOma_DJDRg8rPzFHZdJSw",
-          "og_title": "Nigeria vs Tanzania: Africa Cup of Nations Qualification stats & head-to-head",
-          "og_desc": "Follow live text commentary, score updates and match stats from Nigeria vs Tanzania in the Africa Cup of Nations Qualification",
-          "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
-          "ok": true
-        },
-        {
-          "title": "Eric Chelle Admits Late Arrivals Of Super Eagles' Players Affected His Game Plan For Friday's Clash With Tanzania",
-          "url": "https://www.sports247.ng/eric-chelle-admits-late-arrivals-of-super-eagles-players-affected-his-game-plan-for-fridays-clash-with-tanzania/",
-          "source": "Sports247 Nigeria",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjVsND6qne_guqbk_bu4M0i9ZxWxET1bgRxHsaGLJzI00IUQF-ncKNnCz1IZo",
-          "og_title": "Eric Chelle Admits Late Arrivals Of Super Eagles' Players Affected His Game Plan For Friday's Clash With Tanzania | Sports247 Nigeria",
-          "og_desc": "Super Eagles' coach, Eric Sekou Chelle has admitted that the late arrivals by many of his players to the Nigerian team's camp",
-          "og_image": "https://www.sports247.ng/wp-content/uploads/2026/07/20260708_171225.jpg",
-          "ok": true
-        },
-        {
-          "title": "AFCON Qualifier: Aba fans urge Super Eagles to triumph over Tanzania",
-          "url": "https://realnewsmagazine.net/afcon-qualifier-aba-fans-urge-super-eagles-to-triumph-over-tanzania/",
-          "source": "Realnews Magazine",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHOxttkKVbI6CV6ji_6ix7VSC_uBCTTq3_jqaA4-Rj7XiQvsN3PGkEaFpALgM",
-          "og_title": "AFCON Qualifier: Aba fans urge Super Eagles to triumph over Tanzania - Realnews Magazine",
-          "og_desc": "SOME football fans in Aba have urged the Super Eagles to improve their performance and display better teamwork ahead of their 2027 Africa Cup of Nations (AFCON) qualifying match against Tanzania on Friday. The fans made the call in separate interviews with the News Agency of Nigeria (NAN) in Aba on Wednesday. They said the",
-          "og_image": "https://realnewsmagazine.net/wp-content/uploads/2026/11/FB_IMG_1794090290198-240x300-4-1.jpg",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "رياضة",
-      "icon": "⚽",
-      "color": "#3ddc97",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-11-13-nigeria-vs-tanzania.png",
-      "published_at": "2026-11-13T16:01:53.575735+00:00"
-    },
-    {
-      "title": "nintendo black friday deals",
-      "traffic": "5000+",
-      "traffic_num": 5000,
-      "published": "Fri, 13 Nov 2026 08:50:00 -0800",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJdwGWfoWciYkJy6BjM3eZ6Guo1nE4Y-npuqfWyjE-gT28K5lIk-qktg4joFo",
-      "image_source": "Nintendo",
-      "news": [
-        {
-          "title": "Nintendo announces Black Friday offers to help spread joy this holiday season - News - Nintendo Official Site",
-          "url": "https://www.nintendo.com/us/whatsnew/nintendo-announces-black-friday-offers-to-help-spread-joy-this-holiday-season/",
-          "source": "Nintendo",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJdwGWfoWciYkJy6BjM3eZ6Guo1nE4Y-npuqfWyjE-gT28K5lIk-qktg4joFo",
-          "og_title": "Nintendo announces Black Friday offers to help spread joy this holiday season - News - Nintendo Official Site",
-          "og_desc": "Mark your calendar for holiday specials featuring the Nintendo Switch 2 system, select Nintendo Switch 2 and Nintendo Switch games, and more The holidays are almost here, and Nintendo has Black Friday offers with a range of options for holiday shopp…",
-          "og_image": "https://assets.nintendo.com/image/upload/v1643742733/ncom/global/social-share.jpg",
-          "ok": true
-        },
-        {
-          "title": "The Nintendo Switch 2 gets a rare deal way ahead of Black Friday",
-          "url": "https://mashable.com/tech/nov-9-nintendo-switch-2-deal",
-          "source": "Mashable",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkCwfPlSALAicmzH76I52iowQmdJ6bLK-1iW9e9hPJ7mcLAAUTPSdexzZns04",
-          "og_title": "The Nintendo Switch 2 gets a rare deal way ahead of Black Friday",
-          "og_desc": "The $30-off deal has been restocked.",
-          "og_image": "https://helios-i.mashable.com/imagery/articles/0306Ml0I5nNRPPHURC5QtuE/hero-image.fill.size_1200x675.v1794585807.jpg",
-          "ok": true
-        },
-        {
-          "title": "Nintendo's Black Friday Deals Are Actually Pretty Good",
-          "url": "https://lifehacker.com/tech/best-nintendo-deals-black-friday-2026",
-          "source": "Lifehacker",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYZ6clXKS3O2MrhCcatyLbePNpSLYPegEg-B3wQD9cPl6pTvs1gvXB0sA-5ak",
-          "og_title": "Nintendo's Black Friday Deals Are Actually Pretty Good",
-          "og_desc": "Nintendo announced its Black Friday deals on Thursday. Surprisingly, they're actually pretty good.",
-          "og_image": "https://lifehacker.com/imagery/articles/01M786PVNYJHKCWJQ126AWWZYJ/hero-image.fill.size_1200x675.png",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "فن ومشاهير",
-      "icon": "🎬",
-      "color": "#c77dff",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-11-13-nintendo-black-friday-deals.png",
-      "published_at": "2026-11-13T17:32:18.182701+00:00"
-    },
-    {
-      "title": "jake bauers",
-      "traffic": "5000+",
-      "traffic_num": 5000,
-      "published": "Fri, 13 Nov 2026 09:40:00 -0800",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTrtOE9nQGgulRIfjz5n51gsbDvEVday2CBXBaAlz0AVO8rTFwAwVBRfJ6o368",
-      "image_source": "Yahoo Sports",
-      "news": [
-        {
-          "title": "Jake Bauers Predicted to Leave Milwaukee Brewers for NL Team in $54M Deal",
-          "url": "https://sports.yahoo.com/articles/jake-bauers-predicted-leave-milwaukee-172920013.html",
-          "source": "Yahoo Sports",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTrtOE9nQGgulRIfjz5n51gsbDvEVday2CBXBaAlz0AVO8rTFwAwVBRfJ6o368",
-          "og_title": "Jake Bauers Predicted to Leave Milwaukee Brewers for NL Team in $54M Deal",
-          "og_desc": "The Milwaukee Brewers are the reigning World Series champions, but they could lose an impact player in free agency.Jake Bauers had a career year in Milwaukee, and it came at the perfect time, as he is a free agent. Bauers received a qualifying offer, but he could still decline and sign elsewhere this offseason.MLB free […] The post Jake Bauers Predicted to Leave Milwaukee Brewers for NL Team in $54M Deal appeared first on HEAVY.",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/c0a413ec95c0a90dacda1af03f37de2a92733315615a952877effab9f2a2e608/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fheavy_214%2F87d845372204299799909ff057dff101.jpg",
-          "ok": true
-        },
-        {
-          "title": "Brewers playoff hero Jake Bauers reminisces on World Series run",
-          "url": "https://www.jsonline.com/story/sports/mlb/brewers/2026/11/09/brewers-playoff-hero-jake-bauers-reminisces-on-world-series-run/92688660007/",
-          "source": "Milwaukee Journal Sentinel",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuaURkWfXXAyqg3wKjgUygQZ4Yc-Jqsw377UMdTU_ssdynRP8215cLgOFYv14",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Brewers' Rule 5 Draft-eligible prospect could have important role in 2027 first base plans",
-          "url": "https://reviewingthebrew.com/brewers-rule-5-draft-eligible-prospect-could-have-important-role-in-2027-first-base-plans-01m73hq6qrqc",
-          "source": "Reviewing the Brew",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnx5AjLpAu7--QtOaNqHxvl_RCSonnrWQZKLkAflqQOGpWjwPykip05y9-dl8",
-          "og_title": "Brewers' Rule 5 Draft-eligible prospect could have important role in 2027 first base plans",
-          "og_desc": "The Milwaukee Brewers are set to return a large portion of their 2026 World Series-winning roster for the 2027 campaign. From a starting rotation that was made",
-          "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_487,y_206,w_3026,h_1702/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/80/01m73hy67khehpvqnaqd.jpg",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "رياضة",
-      "icon": "⚽",
-      "color": "#3ddc97",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-11-13-jake-bauers.png",
-      "published_at": "2026-11-13T18:01:20.524422+00:00"
-    },
-    {
       "title": "gta vi",
-      "traffic": "+3200",
-      "traffic_num": 3200,
+      "traffic": "+6200",
+      "traffic_num": 6200,
       "published": "Fri, 13 Nov 2026 01:10:00 -0800",
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS4lX0sBBMad-unh9Yy1yTW9kGHyrB_lxfyX6U_DFvhPjD55NVBRM1ENobVcxo",
       "image_source": "Rockstar Games",
@@ -2536,6 +2570,36 @@
           "og_desc": "GTA 6 will launch next week, on November 19, on the PS5 and Xbox Series X/S. However, it seems fans will need to wait around a year for its multiplayer mode.",
           "og_image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/GTA-6-online-release-window-leaked.jpg",
           "ok": true
+        },
+        {
+          "title": "Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19",
+          "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
+          "source": "XBOX Wire",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTvJLazt_Gsd3aeWuXVyrWhlKRLr91217yAereMatpXKK7e8M1yddYhftApbAk",
+          "og_title": "Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19",
+          "og_desc": "Grand Theft Auto VI, the most pre-ordered title of all time on the Microsoft Store, launches November 19. Considering the unprecedented demand, we Grand Theft Auto VI is coming to XBOX Cloud Gaming at launch! Starting November 19 at 1am ET, you can stream it on XBOX One and XBOX Series X|S.",
+          "og_image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/06/GTA-6-Official_Cover_Art_landscape-c3e36df9ed6c80b13d50.jpg",
+          "ok": true
+        },
+        {
+          "title": "Pre-load Grand Theft Auto VI on PS5 starting today",
+          "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+          "source": "PlayStation.Blog",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQmQPZtB1cfmtJ8v-9159sSJpw2Cr8v495zAc5tM6Spqsus45lZErGPllHDXDY",
+          "og_title": "Pre-load Grand Theft Auto VI on PS5 starting today",
+          "og_desc": "Plus a new video showcasing unique PS5 features for GTAVI.",
+          "og_image": "https://blog.playstation.com/tachyon/2048/11/f1fb77ba440f1402ae155dc56989230e7a24c2f8-scaled.jpg",
+          "ok": true
+        },
+        {
+          "title": "Grand Theft Auto VI Will Run At 30 FPS On All Consoles, But PS5 Pro Will Feature 'Improved Clarity' And Ray-Traced Shadows",
+          "url": "https://gameinformer.com/2026/11/10/grand-theft-auto-vi-will-run-at-30-fps-on-all-consoles-but-ps5-pro-will-feature-improved",
+          "source": "Game Informer",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTg4MNauIMtaoVB-7za8zRuuG4BGC14xtWW6162wz3dOedYcINsN6s4SzA_pr4",
+          "og_title": "Grand Theft Auto VI Will Run At 30 FPS On All Consoles, But PS5 Pro Will Feature 'Improved Clarity' And Ray-Traced Shadows",
+          "og_desc": "Xbox players can expect Cloud Gaming capability as well, though doing so will utilize Series S graphic settings. - Game Informer",
+          "og_image": "https://static.gameinformer.com/sites/default/files/styles/og_image/public/2026/09/24/759d57d4/382_gtavi_04.jpg.webp",
+          "ok": true
         }
       ],
       "geos": [
@@ -2548,6 +2612,209 @@
       "publishable": false,
       "card": "cards/world-2026-11-13-gta-vi.png",
       "published_at": "2026-11-13T09:31:18.095691+00:00"
+    },
+    {
+      "title": "putin news",
+      "traffic": "5000+",
+      "traffic_num": 5000,
+      "published": "Fri, 13 Nov 2026 04:00:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToIiV3MjiTgw3-tC3z8BYgi4PSvNw96fzXvp6B8YnpcV5FCzCbPISwNCSB96s",
+      "image_source": "CNN",
+      "news": [
+        {
+          "title": "Kushner says Europe to join next Ukraine talks, but Putin stands firm on territorial demands",
+          "url": "https://www.cnn.com/2026/11/12/politics/ukraine-witkoff-kushner-putin-peace-talks-intl",
+          "source": "CNN",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToIiV3MjiTgw3-tC3z8BYgi4PSvNw96fzXvp6B8YnpcV5FCzCbPISwNCSB96s",
+          "og_title": "Kushner says Europe to join next Ukraine talks, but Putin stands firm on territorial demands | CNN Politics",
+          "og_desc": "",
+          "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2304304145.jpg?c=16x9&q=w_800,c_fill",
+          "ok": true
+        },
+        {
+          "title": "Russia, Ukraine reach deal on prisoner swap as US says lack of trust holds back talks",
+          "url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/",
+          "source": "Reuters",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRFqC3Mh-2MCwNXfqzUW-NFrbpXcULQvh4KMJ3Z-cK_3snYvUMKCN-E7ItP5eQ",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Putin’s chief negotiator vows to return ‘every inch of Russian land’ in Ukraine",
+          "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/putins-chief-negotiator-vows-to-return-every-inch-of-russian-land-in-ukraine/",
+          "source": "Atlantic Council",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9CGqVMlKqYz5BwrV_QfDRF3yAcWYa9MWGbXLbil8-Jb3zHXLhox-itSW8GZc",
+          "og_title": "Putin’s chief negotiator vows to return ‘every inch of Russian land’ in Ukraine",
+          "og_desc": "The Kremlin’s uncompromising approach to negotiations with Ukraine was summed up by Russian delegation head Vladimir Medinsky's comment that “every inch of Russian land will be returned to Russia, one way or another,” writes Peter Dickinson.",
+          "og_image": "https://www.atlanticcouncil.org/wp-content/uploads/2026/11/2026-11-10T083319Z_2095876134_RC2WKOA8108A_RTRMADP_3_UKRAINE-CRISIS-TALKS-e1794520514806.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "دول وأماكن",
+      "icon": "🗺️",
+      "color": "#79c0ff",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-13-putin-news.png",
+      "published_at": "2026-11-13T12:31:39.159856+00:00"
+    },
+    {
+      "title": "taylor swift",
+      "traffic": "5000+",
+      "traffic_num": 5000,
+      "published": "Fri, 13 Nov 2026 05:40:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5wCulqaq2YfXKLn3yI2qVq9c_KVAAIRkD-6a8YzHnJFX8KoHPmSBa_28L-M",
+      "image_source": "Good Morning America",
+      "news": [
+        {
+          "title": "Taylor Swift to perform at CMAs for 1st time in 13 years",
+          "url": "https://www.goodmorningamerica.com/culture/story/taylor-swift-perform-cmas-1st-time-13-years-138104764",
+          "source": "Good Morning America",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5wCulqaq2YfXKLn3yI2qVq9c_KVAAIRkD-6a8YzHnJFX8KoHPmSBa_28L-M",
+          "og_title": "Taylor Swift to perform at CMAs for 1st time in 13 years",
+          "og_desc": "Taylor Swift is returning to the CMA Awards and set to perform at the awards show for the first time in 13 years.",
+          "og_image": "https://i.abcnewsfe.com/a/5de5efaf-c6df-4263-ae7c-3a47cc9f960c/swift-1-gty-jef-261113_1794575781989_hpMain_16x9.jpg?w=992",
+          "ok": true
+        },
+        {
+          "title": "Taylor Swift to perform at CMA Awards for first time in 13 years",
+          "url": "https://www.tennessean.com/story/entertainment/music/taylor-swift/2026/11/13/taylor-swift-2026-cma-awards-performance/92563780007/",
+          "source": "The Tennessean",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSAiQPzBzkizSV4PhFZCOvyBEUyebThl7_tu8nfOjaBFJGg6X_6F51QOMdfC2c",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Taylor Swift performing at 60th annual CMA Awards in Nashville",
+          "url": "https://idahonews.com/news/entertainment/taylor-swift-performing-at-60th-annual-cma-awards-in-nashville-tennessee-country-music-i-knew-it-i-knew-you-single-of-the-year-nomination",
+          "source": "KBOI",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWnQQg74FbxwkzkZA6FgUj46U4aiWHlqaKbv0n6XsQasHIv0Leyb-zkqF1EjM",
+          "og_title": "Taylor Swift performing at 60th annual CMA Awards in Nashville",
+          "og_desc": "Taylor Swift is performing at the 60th Annual CMA Awards in Nashville, Tennessee, the Country Music Association announced Friday.",
+          "og_image": "https://idahonews.com/resources/media2/16x9/6000/1320/0x313/90/c9ffa756-1429-49f7-8665-cabbf5479b2b-GettyImages2281136184.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-13-taylor-swift.png",
+      "published_at": "2026-11-13T14:01:36.742055+00:00"
+    },
+    {
+      "title": "nintendo black friday deals",
+      "traffic": "5000+",
+      "traffic_num": 5000,
+      "published": "Fri, 13 Nov 2026 08:50:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJdwGWfoWciYkJy6BjM3eZ6Guo1nE4Y-npuqfWyjE-gT28K5lIk-qktg4joFo",
+      "image_source": "Nintendo",
+      "news": [
+        {
+          "title": "Nintendo announces Black Friday offers to help spread joy this holiday season - News - Nintendo Official Site",
+          "url": "https://www.nintendo.com/us/whatsnew/nintendo-announces-black-friday-offers-to-help-spread-joy-this-holiday-season/",
+          "source": "Nintendo",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJdwGWfoWciYkJy6BjM3eZ6Guo1nE4Y-npuqfWyjE-gT28K5lIk-qktg4joFo",
+          "og_title": "Nintendo announces Black Friday offers to help spread joy this holiday season - News - Nintendo Official Site",
+          "og_desc": "Mark your calendar for holiday specials featuring the Nintendo Switch 2 system, select Nintendo Switch 2 and Nintendo Switch games, and more The holidays are almost here, and Nintendo has Black Friday offers with a range of options for holiday shopp…",
+          "og_image": "https://assets.nintendo.com/image/upload/v1643742733/ncom/global/social-share.jpg",
+          "ok": true
+        },
+        {
+          "title": "The Nintendo Switch 2 gets a rare deal way ahead of Black Friday",
+          "url": "https://mashable.com/tech/nov-9-nintendo-switch-2-deal",
+          "source": "Mashable",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkCwfPlSALAicmzH76I52iowQmdJ6bLK-1iW9e9hPJ7mcLAAUTPSdexzZns04",
+          "og_title": "The Nintendo Switch 2 gets a rare deal way ahead of Black Friday",
+          "og_desc": "The $30-off deal has been restocked.",
+          "og_image": "https://helios-i.mashable.com/imagery/articles/0306Ml0I5nNRPPHURC5QtuE/hero-image.fill.size_1200x675.v1794585807.jpg",
+          "ok": true
+        },
+        {
+          "title": "Nintendo's Black Friday Deals Are Actually Pretty Good",
+          "url": "https://lifehacker.com/tech/best-nintendo-deals-black-friday-2026",
+          "source": "Lifehacker",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYZ6clXKS3O2MrhCcatyLbePNpSLYPegEg-B3wQD9cPl6pTvs1gvXB0sA-5ak",
+          "og_title": "Nintendo's Black Friday Deals Are Actually Pretty Good",
+          "og_desc": "Nintendo announced its Black Friday deals on Thursday. Surprisingly, they're actually pretty good.",
+          "og_image": "https://lifehacker.com/imagery/articles/01M786PVNYJHKCWJQ126AWWZYJ/hero-image.fill.size_1200x675.png",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "فن ومشاهير",
+      "icon": "🎬",
+      "color": "#c77dff",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-13-nintendo-black-friday-deals.png",
+      "published_at": "2026-11-13T17:32:18.182701+00:00"
+    },
+    {
+      "title": "tony richards",
+      "traffic": "5000+",
+      "traffic_num": 5000,
+      "published": "Fri, 13 Nov 2026 09:40:00 -0800",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSqeIitz1kn89XqRixBmPVhR2DoULNjnQf-Tm7zN8Ub1vIm8gMD493KQTRz9Gw",
+      "image_source": "Consequence of Sound",
+      "news": [
+        {
+          "title": "Original W.A.S.P. Drummer Tony Richards Dead at 69",
+          "url": "https://consequence.net/2026/11/w-a-s-p-drummer-tony-richards-dead-at-69/",
+          "source": "Consequence of Sound",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSqeIitz1kn89XqRixBmPVhR2DoULNjnQf-Tm7zN8Ub1vIm8gMD493KQTRz9Gw",
+          "og_title": "Original W.A.S.P. Drummer Tony Richards Dead at 69",
+          "og_desc": "Tony Richards, the drummer who played on W.A.S.P.'s debut album and their iconic single \"Animal (F**k Like a Beast),\" has died at 69 years old.",
+          "og_image": "https://consequence.net/wp-content/uploads/2026/11/Tony-Richards.jpg",
+          "ok": true
+        },
+        {
+          "title": "Original W.A.S.P. Drummer Tony Richards Has Died",
+          "url": "https://ghostcultmag.com/original-w-a-s-p-drummer-tony-richards-has-died/",
+          "source": "Ghost Cult Magazine",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSt7xWrrlelZ1elttTGlkcBM7RU8B9S-Ir8eJYev9qOaYRw4fqogvUx8P0Zj7c",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Metal Breakdown Daily: New Slipknot Album, Original W.A.S.P. Drummer Tony Richards Dies, Ronnie Radke Sued",
+          "url": "https://loadedradio.com/metal-breakdown-daily-slipknot-album-tony-richards-radke/",
+          "source": "Loaded Radio",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSon1N_-7EUdCIc0z0FR3CKud4FLhyVrQimfwzOGkCmxYOzWLLfwL4zkBJHwGc",
+          "og_title": "Metal Breakdown Daily: New Slipknot Album, Original W.A.S.P. Drummer Tony Richards Dies, Ronnie Radke Sued",
+          "og_desc": "Metal Breakdown Daily: Clown promises Slipknot's eighth album with no label in the room, W.A.S.P.'s Tony Richards dies at 69, Ronnie Radke is sued.",
+          "og_image": "https://loadedradio.com/wp-content/uploads/2026/11/mbd-featured-slipknot-richards-radke.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: dies",
+      "publishable": false,
+      "card": "cards/world-2026-11-13-tony-richards.png",
+      "published_at": "2026-11-13T18:01:20.524422+00:00"
     },
     {
       "title": "mariska hargitay per episode pay",
@@ -3159,6 +3426,56 @@
       "publishable": false,
       "card": "cards/world-2026-11-13-rene-haas.png",
       "published_at": "2026-11-13T17:32:18.182701+00:00"
+    },
+    {
+      "title": "philip rivers",
+      "traffic": "2000+",
+      "traffic_num": 2000,
+      "published": "Fri, 13 Nov 2026 09:50:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7D8TfxbCksBXZz3UeDqiVu9Gp8KVJl5JrgHIyRF7Vq9dwUVTODfuXQRlh9Zw",
+      "image_source": "ESPN",
+      "news": [
+        {
+          "title": "NC State officially hires Philip Rivers as football coach",
+          "url": "https://www.espn.com/college-football/story/_/id/50456831/sources-philip-rivers-nc-state-deal-set-finalized",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7D8TfxbCksBXZz3UeDqiVu9Gp8KVJl5JrgHIyRF7Vq9dwUVTODfuXQRlh9Zw",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Philip Rivers hired as N.C. State head coach",
+          "url": "https://www.nfl.com/news/philip-rivers-hired-nc-state-head-coach",
+          "source": "NFL.com",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvZp2dTTFbYh7TRuBPvgHL351e2fkxEH50fT83_xRbSuUfW1MN35S_gKadOzI",
+          "og_title": "Philip Rivers hired as N.C. State head coach",
+          "og_desc": "N.C. State has reached an agreement with former Wolfpack and NFL quarterback Philip Rivers to become head coach, with that deal heading to university trustees for approval, a person with knowledge of the situation said.",
+          "og_image": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/qpuaz2ie7v3t4q3twllz",
+          "ok": true
+        },
+        {
+          "title": "Philip Rivers is NC State’s dream coaching hire. He’s also not qualified for the job",
+          "url": "https://www.nytimes.com/athletic/7764757/2026/11/08/philip-rivers-head-coach-nc-state/",
+          "source": "The New York Times",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSc1pH8o-y4a9g3gHDqM7cO326heuZKliltJYOz1amkz6PildoUNixmT62amZM",
+          "og_title": "Philip Rivers is NC State’s dream coaching hire. He’s also not qualified for the job",
+          "og_desc": "Philip Rivers turning NC State into a powerhouse would be an amazing story. But don't count on it.",
+          "og_image": "https://static01.nyt.com/athletic/uploads/wp/2023/06/06125128/GettyImages-540684-e1686082119125.jpg?width=1200&height=630&fit=crop",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-13-philip-rivers.png",
+      "published_at": "2026-11-13T18:32:15.639107+00:00"
     },
     {
       "title": "jamie dornan",
@@ -4803,24 +5120,24 @@
       "traffic": "500+",
       "traffic_num": 500,
       "published": "Fri, 13 Nov 2026 09:40:00 -0800",
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQeYg-CmmgBYwhZTkOUo3cPNyHLql7WXZiI1zY6CEtIAT2A2zcBCVK9821Uyjg",
-      "image_source": "ECO",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTNfFOlTfzt3CmeYKC6xj4ZFI0KlfHKfT9TIR4xNLpxVqVBfWusIZztC4mBHfQ",
+      "image_source": "Record",
       "news": [
         {
-          "title": "Quem é o português que pode ser lançado na corrida ao BCE?",
-          "url": "https://eco.sapo.pt/2026/11/11/quem-e-o-portugues-que-pode-ser-lancado-na-corrida-ao-bce/",
-          "source": "ECO",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQeYg-CmmgBYwhZTkOUo3cPNyHLql7WXZiI1zY6CEtIAT2A2zcBCVK9821Uyjg",
-          "og_title": "Quem é o português que pode ser lançado na corrida ao BCE?",
-          "og_desc": "Miranda Sarmento surpreendeu os jornalistas ao dizer que Portugal poderia apresentar uma candidatura a um dos lugares que vão ficar vagos no banco central. Pedro Machado pode ser o trunfo na manga",
-          "og_image": "https://eco.imgix.net/uploads/2026/03/cropped-whatsapp-image-2026-03-11-at-103720.jpeg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+          "title": "Mega Odd Betano: Portugal x Dinamarca com Odd de 25.00",
+          "url": "https://www.record.pt/casas-de-apostas/mega-odd-betano-portugal-vs-dinamarca/",
+          "source": "Record",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTNfFOlTfzt3CmeYKC6xj4ZFI0KlfHKfT9TIR4xNLpxVqVBfWusIZztC4mBHfQ",
+          "og_title": "Mega Odd Betano: Portugal x Dinamarca com Odd de 25.00",
+          "og_desc": "A Betano tem uma Mega Odd de 25.00 para a vitória de Portugal frente à Dinamarca. Descubra como apostar 2€ e receber 50€ de retorno.",
+          "og_image": "https://www.record.pt/casas-de-apostas/wp-content/uploads/2026/11/mega-odd-betano-portugal-dinamarca-600x400-1.webp",
           "ok": true
         },
         {
-          "title": "Espanha e Países Baixos apresentaram candidaturas à presidência que vão ser apreciadas nesta reunião. Objetivo é que os estados-membros cheguem a um acordo durante o mês de novembro.",
-          "url": "https://www.facebook.com/ObservadorOnTime/photos/espanha-e-pa%C3%ADses-baixos-apresentaram-candidaturas-%C3%A0-presid%C3%AAncia-que-v%C3%A3o-ser-apre/1533632982201313/",
-          "source": "Facebook",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRxTU6pQ0uZKTwTEO-NIVokK1FJuDf9tnFc7Ocmphbmp6VUIGRFqFI9Vcf4Bao",
+          "title": "Seleção em Braga: as variantes do jogo após a renúncia de Cristiano Ronaldo",
+          "url": "https://www.zerozero.pt/noticias/portugal-em-braga-os-pontos-atraentes-para-este-jogo/1260030",
+          "source": "zerozero.pt",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLkbOenvpWxv4aY-reqD_RZnVy8A_FFr8vhGNMv9hUpJQyxUHdvUqmOmetHj4",
           "og_title": "",
           "og_desc": "",
           "og_image": "",
@@ -4828,13 +5145,13 @@
           "error": "HTTPError"
         },
         {
-          "title": "Confirma UE dois candidatos para suceder a Lagarde no BCE",
-          "url": "https://pt.euronews.com/2026/11/13/confirma-ue-dois-candidatos-para-suceder-a-lagarde-no-bce",
-          "source": "Euronews.com",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSG4_44H9-vreBk7EZTifac7t3rHS7vUjSvD4j7sX27cOEjpMl-AiyEj_mn_5w",
-          "og_title": "Confirma UE dois candidatos para suceder a Lagarde no BCE",
-          "og_desc": "Dois candidatos disputam a sucessão de Christine Lagarde no BCE, afirmou um responsável da UE em Dublin, enquanto meios espanhóis dizem que França e Alemanha estão perto de acordo para os cargos de topo, com Pablo Hernández de Cos favorito à presidência",
-          "og_image": "https://images.euronews.com/articles/stories/09/99/21/20/1200x675_cmsv2_bfda8024-3d62-562e-9b33-7c31581fd51a-9992120.jpg",
+          "title": "DIRETO 🔴 Última Bola: Conferência de Imprensa da Seleção Nacional A",
+          "url": "https://golo.fm/destaque/direto-%F0%9F%94%B4-ultima-bola-conferencia-de-imprensa-da-selecao-nacional-a-7/",
+          "source": "Golo FM",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSi1h1KqpuHM7y4vGEMEz13RNZgCk0qLa0yQbut1AV_8BoGCjI8WUCBMEP3oek",
+          "og_title": "DIRETO 🔴 Última Bola: Conferência de Imprensa da Seleção Nacional A - Golo FM | A Primeira Rádio Desporto",
+          "og_desc": "Nesta Última Bola, acompanhamos a conferência da Seleção Nacional A de antevisão ao jogo da fase de grupos da Liga A da Liga das Nações diante da Dinamarca.",
+          "og_image": "https://golo.fm/wp-content/uploads/2026/09/Selecao-Nacional-imagem-site-1.png",
           "ok": true
         }
       ],
@@ -4847,57 +5164,6 @@
       "reason": "حجم بحث أقل من 10000",
       "publishable": false,
       "card": "cards/world-2026-11-13-portugal.png",
-      "published_at": "2026-11-13T18:01:20.524422+00:00"
-    },
-    {
-      "title": "tony richards",
-      "traffic": "500+",
-      "traffic_num": 500,
-      "published": "Fri, 13 Nov 2026 09:40:00 -0800",
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSqeIitz1kn89XqRixBmPVhR2DoULNjnQf-Tm7zN8Ub1vIm8gMD493KQTRz9Gw",
-      "image_source": "Consequence of Sound",
-      "news": [
-        {
-          "title": "Original W.A.S.P. Drummer Tony Richards Dead at 69",
-          "url": "https://consequence.net/2026/11/w-a-s-p-drummer-tony-richards-dead-at-69/",
-          "source": "Consequence of Sound",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSqeIitz1kn89XqRixBmPVhR2DoULNjnQf-Tm7zN8Ub1vIm8gMD493KQTRz9Gw",
-          "og_title": "Original W.A.S.P. Drummer Tony Richards Dead at 69",
-          "og_desc": "Tony Richards, the drummer who played on W.A.S.P.'s debut album and their iconic single \"Animal (F**k Like a Beast),\" has died at 69 years old.",
-          "og_image": "https://consequence.net/wp-content/uploads/2026/11/Tony-Richards.jpg",
-          "ok": true
-        },
-        {
-          "title": "Original W.A.S.P. Drummer Tony Richards Has Died",
-          "url": "https://ghostcultmag.com/original-w-a-s-p-drummer-tony-richards-has-died/",
-          "source": "Ghost Cult Magazine",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSt7xWrrlelZ1elttTGlkcBM7RU8B9S-Ir8eJYev9qOaYRw4fqogvUx8P0Zj7c",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Metal Breakdown Daily: New Slipknot Album, Original W.A.S.P. Drummer Tony Richards Dies, Ronnie Radke Sued",
-          "url": "https://loadedradio.com/metal-breakdown-daily-slipknot-album-tony-richards-radke/",
-          "source": "Loaded Radio",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSon1N_-7EUdCIc0z0FR3CKud4FLhyVrQimfwzOGkCmxYOzWLLfwL4zkBJHwGc",
-          "og_title": "Metal Breakdown Daily: New Slipknot Album, Original W.A.S.P. Drummer Tony Richards Dies, Ronnie Radke Sued",
-          "og_desc": "Metal Breakdown Daily: Clown promises Slipknot's eighth album with no label in the room, W.A.S.P.'s Tony Richards dies at 69, Ronnie Radke is sued.",
-          "og_image": "https://loadedradio.com/wp-content/uploads/2026/11/mbd-featured-slipknot-richards-radke.jpg",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "حوادث وقضايا",
-      "icon": "⛔",
-      "color": "#ff6b6b",
-      "reason": "ورد لفظ حسّاس: dies",
-      "publishable": false,
-      "card": "cards/world-2026-11-13-tony-richards.png",
       "published_at": "2026-11-13T18:01:20.524422+00:00"
     },
     {
@@ -4949,6 +5215,159 @@
       "publishable": false,
       "card": "cards/world-2026-11-13-rocket-launch-today.png",
       "published_at": "2026-11-13T18:01:20.524422+00:00"
+    },
+    {
+      "title": "egypt vs malawi",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Fri, 13 Nov 2026 10:10:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLTnkLSxQlvqf_-H7ZnJQf9xAcIu_3_Nl04nx7yiOma_DJDRg8rPzFHZdJSw",
+      "image_source": "BBC",
+      "news": [
+        {
+          "title": "Egypt vs Malawi: Africa Cup of Nations Qualification stats & head-to-head",
+          "url": "https://www.bbc.com/sport/football/live/cq8jz443j2pxt",
+          "source": "BBC",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLTnkLSxQlvqf_-H7ZnJQf9xAcIu_3_Nl04nx7yiOma_DJDRg8rPzFHZdJSw",
+          "og_title": "Egypt vs Malawi: Africa Cup of Nations Qualification stats & head-to-head",
+          "og_desc": "Follow live text commentary, score updates and match stats from Egypt vs Malawi in the Africa Cup of Nations Qualification",
+          "og_image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+          "ok": true
+        },
+        {
+          "title": "Uganda vs Botswana: First Half Winner",
+          "url": "https://www.coinbase.com/en-au/predictions/event/KXAFCON1H-26NOV14UGABOT",
+          "source": "Coinbase",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQtlv4wEEHi8uXNCTHBBIdZ2rUZtVp8OMhJgUFnLMqb2UJJQ1_wRphySbCj_fc",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Egypt faces Malawi Friday in crucial 2027 AFCON qualifier",
+          "url": "https://www.egyptindependent.com/egypt-faces-malawi-friday-in-crucial-2027-afcon-qualifier/",
+          "source": "Egypt Independent",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZIt-khfvD_LEkRLO8wmM0mf7mA0qIR9LfW5lSfb7tgFPI-d75xixovdKUS8A",
+          "og_title": "Egypt faces Malawi Friday in crucial 2027 AFCON qualifier: Broadcast channels and lineup - Egypt Independent",
+          "og_desc": "Egypt hosts Malawi at Cairo International Stadium on Friday, November 13, 2026, in Matchday 3 of the 2027 AFCON qualifiers as new head coach Ali Maher makes his debut with Mohamed Salah and Omar Marmoush leading the expected lineup.",
+          "og_image": "https://amayei.nyc3.digitaloceanspaces.com/2026/11/2110472.webp",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-13-egypt-vs-malawi.png",
+      "published_at": "2026-11-13T18:32:15.639107+00:00"
+    },
+    {
+      "title": "willson contreras",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Fri, 13 Nov 2026 10:00:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKcsiA13GVz8_kW0hNN9Df0dnIjQXZGzHND5N0c1mlIO0ybaFnCYMwJ_8Pu58",
+      "image_source": "The Boston Globe",
+      "news": [
+        {
+          "title": "Willson Contreras, Red Sox still talking after first baseman’s criticism of analytics reliance",
+          "url": "https://www.bostonglobe.com/2026/11/11/sports/red-sox-gm-meetings/",
+          "source": "The Boston Globe",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKcsiA13GVz8_kW0hNN9Df0dnIjQXZGzHND5N0c1mlIO0ybaFnCYMwJ_8Pu58",
+          "og_title": "Willson Contreras, Red Sox still talking after first baseman’s criticism of analytics reliance - The Boston Globe",
+          "og_desc": "The first baseman said during the World Series that \"things were in a good place\" with the Red Sox. Craig Breslow said Wednesday that \"Willson and I have spoken a bunch.\"",
+          "og_image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/TE36P5URW4NUYISKRW7TJ6VJEY.JPG?auth=04cee206aa1a08db2f8b453f45d6e0049303b26ad9ed56a45610df0b3726795a&width=1440",
+          "ok": true
+        },
+        {
+          "title": "CALLED OUT: Red Sox Star Willson Contreras DEMANDS Change—Are Analytics UNDERMINING Success?",
+          "url": "https://www.fox61.com/video/sports/locked-on/lo-new-england/red-sox-show/called-out-red-sox-star-willson-contreras-demands-changeare-analytics-undermining-success/535-d9ea7f3f-2f20-448e-b05c-1d2bf1a8ce91",
+          "source": "fox61.com",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcREARAkXDOyBhS75m3SwaL03xiv9d4yTNYmy_dKKCkib9Qh01S34dNb296WWgo",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "World Series star Contreras the very definition of first Flow Mayor Award",
+          "url": "https://www.mlb.com/news/william-contreras-wins-inaugural-flow-mayor-award",
+          "source": "MLB.com",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFuzkdz3ouY-rWLl3k1jvdk7LEsLWFjGeLM4b6AlV3Eop036ceWUv3Y98OcW0",
+          "og_title": "World Series star Contreras the very definition of first Flow Mayor Award",
+          "og_desc": "In 2026, as is the case every year, there was significant \"Flow,\" or swagger and style, in Major League Baseball on and off the field, in no small part thanks to the impact of Latin American players. But be it home run trots, bat flips, singular celebrations or off-the-field style,",
+          "og_image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/qystdbwkf1ajkq2rug5r.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-13-willson-contreras.png",
+      "published_at": "2026-11-13T18:32:15.639107+00:00"
+    },
+    {
+      "title": "elijah higgins",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Fri, 13 Nov 2026 10:00:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlmnOG2tTVhKFwqiNpDZMaqSGCV67kctT2sDXO3UqM46qKQVE-7n7V_0Wu8H8",
+      "image_source": "Arizona Cardinals",
+      "news": [
+        {
+          "title": "Cardinals Extend Tight End Elijah Higgins",
+          "url": "https://www.azcardinals.com/news/cardinals-extend-tight-end-elijah-higgins",
+          "source": "Arizona Cardinals",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlmnOG2tTVhKFwqiNpDZMaqSGCV67kctT2sDXO3UqM46qKQVE-7n7V_0Wu8H8",
+          "og_title": "Cardinals Extend Tight End Elijah Higgins",
+          "og_desc": "Contract now runs through 2029 season",
+          "og_image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/cardinals/oesvks3c2kogwwpwyisf",
+          "ok": true
+        },
+        {
+          "title": "Elijah Higgins Two grabs versus Seattle",
+          "url": "https://www.thefantasyfootballers.com/news/647058/elijah-higgins-two-grabs-versus-seattle/",
+          "source": "Fantasy Footballers Podcast",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS-58Nc47LepB8saLd8wi5Mof91qbaI8I989vdgHCwiTDaSZq0fJQCP7qFtXoU",
+          "og_title": "Elijah Higgins Two grabs versus Seattle - Fantasy Football News",
+          "og_desc": "Higgins caught both of his targets for 11 yards in Sunday's 17-3 loss to the Seahawks.",
+          "og_image": "https://cloud.thefantasyfootballers.com/images/web-profile/headshots/fdbg24449.jpg",
+          "ok": true
+        },
+        {
+          "title": "Cardinals Sign TE Elijah Higgins To Three-Year Extension",
+          "url": "https://nfltraderumors.co/cardinals-sign-te-elijah-higgins-to-three-year-extension/",
+          "source": "NFLTradeRumors.co",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRRoPVZtpBf7KBoy25fdndYoaqF10I25VK3gQUJVu_w1Gz9TA6wdqwtTute6W0",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-13-elijah-higgins.png",
+      "published_at": "2026-11-13T18:32:15.639107+00:00"
     },
     {
       "title": "john turturro",

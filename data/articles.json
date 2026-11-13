@@ -107889,5 +107889,51 @@
     "photo_v": 8,
     "_had_data": true,
     "_localized": false
+  },
+  "world|2026-11-13|gemini google": {
+    "headline": "Google Launches Gemini 4 Hydrogen, Replacing 3.8 Flash With Triple Speed",
+    "summary": "Google has officially released Gemini 4 Hydrogen, a faster, more efficient AI model replacing the 3.8 Flash version across its products.",
+    "body": "Gemini 4 Hydrogen has arrived, boasting performance that triples the Terminal-Bench scores of its predecessor, the 3.8 Flash, while cutting fabricated claims by more than 5x. According to Google, the model is designed to deliver speed and intelligence for daily coding and agentic workflows, operating across four distinct thinking levels ranging from low to the new xhigh setting. \n\nFor professional teams, the shift to Hydrogen represents a shift toward higher efficiency in software development. While models like Carbon and Argon remain the go-to for complex architectural tasks, Hydrogen serves as a high-speed execution engine for generating simpler code, running tests, and verifying changes. By utilizing the new Orchestrator feature in Google Antigravity, teams can dynamically switch between models, an approach that completed tasks 19% faster and consumed 24% less quota during testing on Terminal-Bench 4.0.\n\nGoogle reports that Hydrogen is priced at $1.50 per million input tokens and $7.50 per million output tokens. Its integration extends beyond development tools, reaching Google Search to handle complex, multipart questions with improved AI-powered Overviews and AI Mode. Unlike previous releases that prioritized staggered, security-conscious rollouts, Google has made Hydrogen immediately available to users across its ecosystem.\n\nThis release marks a significant departure from the previous Flash model, with Google positioning Hydrogen as the standard for everyday work. Looking ahead, developers are expected to utilize Hydrogen as part of multi-model workflows, where it functions alongside more powerful models to manage parallel agent tasks in isolated workspaces.",
+    "facts": [
+      {
+        "label": "Input Token Price",
+        "value": "$1.50 per million"
+      },
+      {
+        "label": "Output Token Price",
+        "value": "$7.50 per million"
+      },
+      {
+        "label": "Terminal-Bench 4.1 Score Improvement",
+        "value": "57% vs 18.2%"
+      },
+      {
+        "label": "Intelligence Index Score (xhigh)",
+        "value": "54"
+      }
+    ],
+    "tags": [
+      "Google",
+      "Gemini 4 Hydrogen",
+      "Artificial Intelligence",
+      "Software Development"
+    ],
+    "_v": 4,
+    "_by": "gemini",
+    "written_at": "2026-11-13T11:01:41.069340+00:00",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/1280px-Datacenter_Server_Racks_%2822370909788%29.jpg",
+      "width": 1280,
+      "height": 853,
+      "artist": "Carl Lender from Sunrise, USA",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "file_page": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+      "stock": true,
+      "topic": "ai"
+    },
+    "photo_v": 8,
+    "_had_data": false,
+    "_localized": false
   }
 }

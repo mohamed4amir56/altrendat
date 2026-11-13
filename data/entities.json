@@ -5097,8 +5097,8 @@
         "category": "طقس",
         "publishable": false,
         "headlines": [
-          "ارتفاع طفيف بالحرارة.. الأرصاد تكشف آخر توقعات حالة الطقس ودرجات الحرارة",
-          "الأرصاد: طقس الجمعة معتدل نهارا مائل للبرودة ليلا على أغلب الأنحاء",
+          "الطقس اليوم.. ارتفاع طفيف بالحرارة وأمطار وشبورة والصغرى بالقاهرة 16 درجة",
+          "الأرصاد: أمطار خفيفة على بعض المناطق الساحلية اليوم",
           "«إيدك على الكلاكس».. تحذير من ظاهرة جوية تضرب البلاد 5 ساعات"
         ]
       }
@@ -28950,8 +28950,8 @@
         "category": "تقنية",
         "publishable": true,
         "headlines": [
-          "Microsoft hit by global outages: What happened and why?",
           "Global Microsoft outage leaves millions without access to Outlook email, Teams and other tools",
+          "Microsoft hit by global outages: What happened and why?",
           "Microsoft outage spills into Asia-Pacific business hours despite 'partial recovery'"
         ]
       }
@@ -29579,14 +29579,14 @@
         "date": "2026-11-13",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "مايكروسوفت تحاول استعادة خدماتها بعد عطل عالمي يؤثر على أوتلوك وتيمز",
-          "عطل عالمى يضرب خدمات مايكروسوفت.. توقف Outlook وTeams وWord وExcel",
-          "مايكروسوفت: لا مؤشر على \"هجوم سيبراني\" وراء تعطل أوتلوك"
+          "عطل عالمي يضرب خدمات \"مايكروسوفت\" ويشل قطاعات حيوية في عدة دول",
+          "مباشر مايكروسوفت تسعى لاستعادة خدماتها بعد عطل عالمي",
+          "عطل عالمى يضرب خدمات مايكروسوفت.. توقف Outlook وTeams وWord وExcel"
         ]
       },
       {
@@ -286082,8 +286082,23 @@
         "date": "2026-11-13",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "\"على أي اتصال ستجيب أولًا؟\".. هكذا رد ترامب على سؤال افتراضي حول محمد بن سلمان ومحمد بن زايد",
+          "بن زايد أم بن سلمان؟.. على من يرد ترامب أولاً إذا اتصلا معاً؟",
+          "الحالمون في فكر الأمير محمد بن سلمان: عندما يصبح الحلم سياسة وطنية 32"
+        ]
+      },
+      {
+        "key": "2026-11-13|eg",
+        "date": "2026-11-13",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
@@ -286094,11 +286109,12 @@
       }
     ],
     "last_seen": "2026-11-13",
-    "total": 2,
+    "total": 3,
     "countries": [
+      "eg",
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "سياسة"
   },
   "seahawks": {
@@ -333861,14 +333877,14 @@
         "date": "2026-11-13",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "100+",
+        "traffic_num": 100,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "حوار مع هشام سليمان وجلسة حوارية بعنوان السينما أولاً بمهرجان القاهرة اليوم",
-          "ناهد السباعي: \"القاهرة السينمائي\" من أعرق المهرجانات العالمية.. وترميم أفلامنا خطوة عظيمة",
-          "يسرا اللوزي بفستان أسود جذاب في ثاني أيام مهرجان القاهرة"
+          "سقطت بشكل مفاجئ.. لوسي تخضع لجراحة عاجلة",
+          "لوسي تطمئن جمهورها بعد جراحة إثر سقوطها في المنزل",
+          "الفنانة لوسي تطمئن جمهورها بعد خضوعها لعملية جراحية: «الحمد لله بخير»"
         ]
       }
     ],
@@ -333878,7 +333894,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 100,
     "category": "شخصية"
   },
   "atlético-mineiro-vs-torque": {
@@ -348903,10 +348919,25 @@
           "StormTeam 5 monitoring offshore nor'easter near mid-Atlantic as gusty coast impacts loom",
           "Brewing Fall nor'easter could become subtropical as storm threatens millions along East Coast"
         ]
+      },
+      {
+        "key": "2026-11-13|world",
+        "date": "2026-11-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "California Could Face 50-Foot Waves as Storms Slam Its Coast",
+          "California’s first big storm of season is about to land. Here are latest forecast updates",
+          "LIVE UPDATES: Bay Area prepares for Level 2 storm; rain, winds and dangerous surf in forecast"
+        ]
       }
     ],
-    "last_seen": "2026-10-18",
-    "total": 2,
+    "last_seen": "2026-11-13",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -423115,8 +423146,8 @@
         "date": "2026-11-13",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "تعليم",
         "publishable": false,
         "headlines": [
@@ -423131,7 +423162,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 1000,
     "category": "تعليم"
   },
   "heavyweight": {
@@ -504046,10 +504077,25 @@
           "New ‘Avengers: Doomsday’ Posters for Premium Formats Put Doctor Doom Front and Center",
           "Avengers: Doomsday Art Reveals Yelena’s Black Widow Logo"
         ]
+      },
+      {
+        "key": "2026-11-13|eg",
+        "date": "2026-11-13",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Ryan Reynolds and Hugh Jackman Wrote on 'Avengers: Doomsday'",
+          "Avengers: Doomsday's Official Writing Credits Confirm Two Major Marvel Cameos",
+          "Deadpool and Wolverine Stars Get Surprise Credit on Avengers: Doomsday"
+        ]
       }
     ],
-    "last_seen": "2026-10-29",
-    "total": 3,
+    "last_seen": "2026-11-13",
+    "total": 4,
     "countries": [
       "eg",
       "world"
@@ -587094,9 +587140,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "حسين لبيب يكشف.. هل يسمح الزمالك بعودة زيزو بعد انضمامه إلى الأهلي؟",
-          "حسين لبيب: منفتحون على بيع فتوح وشيكو بانزا.. وهذه تفاصيل بيع بيزيرا",
-          "لبيب: لم يكن هناك رئيس للبعثة في رواندا لتوفير النفقات.. ومنفتحون على بيع أي لاعب"
+          "لا لبيع الزمالك.. حسين لبيب يكشف كواليس شركة الكرة وشروط دخول المستثمرين",
+          "\"بيع النادي وموعد رحيل حسين لبيب\".. ماذا حدث في الزمالك أمس الخميس؟",
+          "«مفيش شفافية.. وإحنا مش محتاجين نشتغل في النادي!».. رسائل نارية من حلمي طولان عن جلسة رموز الزمالك"
         ]
       }
     ],
@@ -644047,8 +644093,8 @@
         "date": "2026-11-13",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "100+",
+        "traffic_num": 100,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -671469,8 +671515,8 @@
         "date": "2026-11-13",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
@@ -671501,7 +671547,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "سياسة"
   },
   "محمد-صلاح-اليوم": {
@@ -671630,13 +671676,13 @@
         "date": "2026-11-13",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "السعودية وكوريا.. المواجهة الـ19 في الدوحة",
           "ما القنوات الناقلة لمباراة المنتخب السعودي الودية ضد كوريا الجنوبية 2026؟ وكيف تشاهدها عبر الإنترنت؟",
+          "السعودية وكوريا.. المواجهة الـ19 في الدوحة",
           "«الصقور الخضر» و«الشمشون الكوري»... 46 عاماً من الندية والإثارة"
         ]
       }
@@ -671646,7 +671692,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "नयजलड-बनम-भरत": {
@@ -671665,7 +671711,7 @@
         "publishable": false,
         "headlines": [
           "राहुल गांधी बोले - प्रधानमंत्री मेरा फ़ोन टैप करते हैं",
-          "26 साल पहले श्रीलंका ने रुलाया, अब न्यूजीलैंड ने टीम इंडिया को उसी जख्म के करीब पहुंचाया!",
+          "26 साल पहले श्रीलंका ने रुलाया था, अब न्यूजीलैंड ने टीम इंडिया को उसी जख्म के करीब पहुंचाया!",
           "माउंट माउंगानुई में हाहाकार... टीम इंड‍िया की हार के 5 गुनहगार, एक गेंदबाज भी शाम‍िल"
         ]
       }
@@ -671745,8 +671791,8 @@
         "date": "2026-11-13",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
@@ -671761,7 +671807,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 1000,
     "category": "دول وأماكن"
   },
   "সনপরধন": {
@@ -671792,5 +671838,179 @@
     ],
     "peak_traffic": 100,
     "category": "شخصية"
+  },
+  "gemini-google": {
+    "slug": "gemini-google",
+    "name": "gemini google",
+    "first_seen": "2026-11-13",
+    "appearances": [
+      {
+        "key": "2026-11-13|world",
+        "date": "2026-11-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "50000+",
+        "traffic_num": 50000,
+        "category": "تقنية",
+        "publishable": true,
+        "headlines": [
+          "Introducing Gemini 4 Hydrogen for Agentic Workflows",
+          "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+          "Google's latest Search upgrade promises better answers to your most complicated questions"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 50000,
+    "category": "تقنية"
+  },
+  "matt-smith": {
+    "slug": "matt-smith",
+    "name": "matt smith",
+    "first_seen": "2026-11-13",
+    "appearances": [
+      {
+        "key": "2026-11-13|world",
+        "date": "2026-11-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "'Adolescence' Writer's 'The Humans' Stars 'House of the Dragon' Actor",
+          "Matt Smith Will Lead World Premiere of THE HUMANS in the West End",
+          "Matt Smith to star in Jack Thorne adaptation of 'The Humans' in 2027"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "chip-roy": {
+    "slug": "chip-roy",
+    "name": "chip roy",
+    "first_seen": "2026-11-13",
+    "appearances": [
+      {
+        "key": "2026-11-13|world",
+        "date": "2026-11-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "GOP lawmaker says party is focusing on ‘political power’ rather than people",
+          "Republicans in Texas need to regroup over the next four years: Rep Chip Roy",
+          "'We got crushed in Texas because…': Roy points finger at 'corrupt' Paxton after GOP's midterm loss"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "دول وأماكن"
+  },
+  "avatar-seven-havens-season-2": {
+    "slug": "avatar-seven-havens-season-2",
+    "name": "avatar seven havens season 2",
+    "first_seen": "2026-11-13",
+    "appearances": [
+      {
+        "key": "2026-11-13|world",
+        "date": "2026-11-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "‘Avatar: Seven Havens’ Sets Season 2 Release Date at Paramount+",
+          "‘Avatar: Seven Havens’ Book 2 Premiere Set for May on Paramount+",
+          "‘Avatar: Seven Havens’ Will Return With Book 2 in May 2027"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
+  },
+  "starship-flight-15": {
+    "slug": "starship-flight-15",
+    "name": "starship flight 15",
+    "first_seen": "2026-11-13",
+    "appearances": [
+      {
+        "key": "2026-11-13|world",
+        "date": "2026-11-13",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "SpaceX’s next move is chasing the unprecedented ‘holy grail’ of rocketry. Here’s what’s at stake",
+          "Watch SpaceX attempt a historic Starship launch and double-catch landing today (Nov. 13)",
+          "SpaceX Starship Flight 15 could be a major step toward full rocket reusability and cheaper missions"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-13",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "هدى-هاني": {
+    "slug": "هدى-هاني",
+    "name": "هدى هاني",
+    "first_seen": "2026-11-13",
+    "appearances": [
+      {
+        "key": "2026-11-13|eg",
+        "date": "2026-11-13",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "هدى هاني: كدت أموت اختناقاً بالغاز.. وانسحبت من مسرحية فادي خفاجة بسبب \"أدبيات المهنة\"",
+          "بطلة «يوميات ونيس» تكشف أصعب لحظات حياتها: قدمت عرضًا مسرحيًا يوم دفن أمي وفقدت والدي بالسرطان",
+          "هدى هاني تكشف تفاصيل نجاتها من الموت.. وأصعب لحظات عمرها"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-13",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
   }
 }

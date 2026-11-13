@@ -107745,5 +107745,52 @@
     "photo_v": 8,
     "_had_data": false,
     "_localized": false
+  },
+  "world|2026-11-13|microsoft": {
+    "headline": "Global Microsoft Outage Disables Outlook and Teams Across 74 Different Countries",
+    "summary": "Microsoft services including Outlook and Teams faced a global disruption impacting users in 74 countries for over 12 hours starting Thursday.",
+    "body": "At least 43,000 users logged reports on the outage tracker Downdetector by 07:00 GMT on Friday, a figure that represents only a portion of those unable to access their workplace tools. The widespread disruption saw servers unexpectedly become unavailable, forcing Microsoft to attempt infrastructure reboots while battling ongoing connectivity errors that dragged through the US working day and into the night across Europe.\n\nFor millions of users, the outage means a total loss of access to essential communication and productivity software, including Outlook emails and the Teams collaboration platform. The instability persists even as the company applies patches, with some previously restored servers failing again, causing significant operational delays for businesses and individuals relying on these core cloud services.\n\nAccording to Al Jazeera, the technical failure began at approximately 16:00 GMT on Thursday. Microsoft initially identified issues specific to the Americas but quickly expanded the scope to confirm that users in any region could be impacted by the elevated load on their infrastructure. The company explicitly noted that the connectivity errors were not triggered by a sudden surge in user traffic, but rather by internal server management issues.\n\nMicrosoft continues to monitor server performance across all affected regions as they work toward a full recovery. The company has publicly reported only marginal success in restoring services, emphasizing that technical teams are currently reviewing server performance to confirm that patches function as intended following the completion of full infrastructure reboots.",
+    "facts": [
+      {
+        "label": "Start time",
+        "value": "16:00 GMT, Thursday"
+      },
+      {
+        "label": "Countries affected",
+        "value": "74"
+      },
+      {
+        "label": "Reported issues",
+        "value": "43,000+"
+      },
+      {
+        "label": "Affected services",
+        "value": "Outlook, Teams, Copilot"
+      }
+    ],
+    "tags": [
+      "Microsoft",
+      "Outage",
+      "Outlook",
+      "Teams",
+      "Technology"
+    ],
+    "_v": 4,
+    "_by": "gemini",
+    "written_at": "2026-11-13T10:02:29.988041+00:00",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Vecteezy_stack-of-newspaper_1961329.jpg/1280px-Vecteezy_stack-of-newspaper_1961329.jpg",
+      "width": 1280,
+      "height": 853,
+      "artist": "Bernerlover",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "file_page": "https://commons.wikimedia.org/wiki/File:Vecteezy_stack-of-newspaper_1961329.jpg",
+      "stock": true,
+      "topic": null
+    },
+    "photo_v": 8,
+    "_had_data": false,
+    "_localized": false
   }
 }

@@ -2472,14 +2472,14 @@
         "date": "2026-11-15",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "category": "شخصية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "ترامب: من السابق لأوانه إعلان من سأدعم لخلافتي",
-          "روبيو يقلل من خسائر الجمهوريين بالانتخابات: لدينا الكثير لإنجازه خلال العامين المقبلين",
-          "البيت الأبيض ينفي مغادرة هيغسيث وروبيو منصبيهما في ظل تداعيات الانتخابات على الحزب الجمهوري"
+          "ترامب يدرس تعليق الضربات على إيران، ونتنياهو يتعهّد بـ\"محو التهديد الإيراني للأبد\"",
+          "أمريكا لا ترى حاجة لمزيد من العمليات وإيران تعلن وقوع انفجار وحريق في ناقلات بمضيق هرمز",
+          "روبيو: لا حاجة إلى مزيد من العمليات العسكرية الأميركية ضد إيران"
         ]
       }
     ],
@@ -2490,7 +2490,7 @@
       "sa"
     ],
     "peak_traffic": 2000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "sachindu-colombage": {
     "slug": "sachindu-colombage",
@@ -4880,10 +4880,25 @@
           "البحرين تدين بشدة استمرار الاعتداءات الإرهابية الحوثية على المملكة",
           "الإمارات تُدين بشدة محاولة جماعة الحوثي استهداف عدد من مناطق المملكة"
         ]
+      },
+      {
+        "key": "2026-11-15|sa",
+        "date": "2026-11-15",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "دول وأماكن",
+        "publishable": true,
+        "headlines": [
+          "التضخم في السعودية يتباطأ إلى 1.7% خلال أكتوبر على أساس سنوي",
+          "التضخم في السعودية يتباطأ إلى 1.7 % في أكتوبر رغم مخاطر الاقتصاد العالمي",
+          "التضخم في السعودية يتباطأ إلى 1.7% مسجلا أدنى مستوى في 6 أشهر"
+        ]
       }
     ],
-    "last_seen": "2026-11-12",
-    "total": 5,
+    "last_seen": "2026-11-15",
+    "total": 6,
     "countries": [
       "eg",
       "sa"
@@ -8908,10 +8923,25 @@
           "Weekend Weather: Severe thunderstorms and hail for the Highveld, KZN and eastern Free State",
           "WEEKEND: Severe weather warnings for seven provinces on Saturday including a LEVEL 5 with flooding in three"
         ]
+      },
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "طقس",
+        "publishable": true,
+        "headlines": [
+          "Milder weather coming before more cold health alerts take effect",
+          "More cold health alerts to take effect after temperatures drop to -6C",
+          "UKHSA cold-health alerts winter 2026/27"
+        ]
       }
     ],
-    "last_seen": "2026-11-14",
-    "total": 35,
+    "last_seen": "2026-11-15",
+    "total": 36,
     "countries": [
       "eg",
       "sa",
@@ -31219,8 +31249,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "شلل الطيران الأميركي.. واشنطن تكشف السبب وراء الفوضى",
-          "جهاز توجيه واحد يشل الطيران الأميركي.. 20 ألف رحلة بين إلغاء وتأخير"
+          "جهاز توجيه واحد يشل الطيران الأميركي.. 20 ألف رحلة بين إلغاء وتأخير",
+          "خبير: وضع تكنولوجيا حديثة على أجهزة قديمة عطل الأنظمة الجوية بأمريكا",
+          "\"الشلل الجوي\" في أميركا.. إلغاء آلاف الرحلات وتعطل القطارات"
         ]
       }
     ],
@@ -32669,9 +32700,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Saudi-led coalition intercepts two missiles, two drones in Riyadh",
+          "Saudi-led coalition intercepts suspected Houthi missiles and drones",
           "Coalition: UAV Intercepted and Destroyed in Eastern Region",
-          "Saudi-led coalition says it intercepts 2 Houthi ballistic missiles targeting Riyadh"
+          "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province"
         ]
       }
     ],
@@ -81660,14 +81691,30 @@
           "Siddiki’s century leads Bangladesh XI’s batting onslaught against West Indies",
           "Hossain spins BCB XI into spotlight at Anvir Cricket Stadium"
         ]
+      },
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "IND19 vs PAK19 Cricket Scorecard, Final at Al Amarat, November 14, 2026",
+          "India U19 thump Pakistan! DK salutes fearless NEXT GEN",
+          "India stun Pakistan by one wicket in last-ball U-19 Asia Cup final thriller"
+        ]
       }
     ],
-    "last_seen": "2026-10-24",
-    "total": 4,
+    "last_seen": "2026-11-15",
+    "total": 5,
     "countries": [
-      "sa"
+      "sa",
+      "world"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 10000,
     "category": "رياضة"
   },
   "shubman-gill": {
@@ -127651,8 +127698,8 @@
         "date": "2026-11-15",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -168417,13 +168464,13 @@
         "date": "2026-11-15",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "category": "عام",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تقنية",
         "publishable": false,
         "headlines": [
           "Iran war live: Saudi-led coalition strikes down 3 drones",
-          "Live - Bahrain intercepts Iranian drone, Saudi confronts missiles targeting Riyadh",
+          "UAE residents' update: Bahrain alert, Saudi intercepts missiles as Middle East tensions rise",
           "Early Edition: November 13, 2026"
         ]
       }
@@ -168435,7 +168482,7 @@
       "world"
     ],
     "peak_traffic": 5000,
-    "category": "عام"
+    "category": "تقنية"
   },
   "haze-singapore": {
     "slug": "haze-singapore",
@@ -242416,14 +242463,14 @@
         "date": "2026-11-15",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "أسعار الذهب في الإمارات تترقب عودة التداولات العالمية بعد تراجع الأونصة",
-          "انخفاض أسعار الذهب في الإمارات اليوم الخميس.. وعيار 21 يسجل 407.19 درهم",
-          "الذهب يتراجع 25.25 درهماً في الإمارات"
+          "موعد صرف رواتب موظفي الدولة ومعاشات التقاعد",
+          "موعد صرف مرتبات نوفمبر 2026.. جدول زيادة المعلمين وفق إعلان وزارة المالية",
+          "مرتبات نوفمبر 2026.. هل يحصل الموظف في إجازة بدون أجر على راتبه؟"
         ]
       }
     ],
@@ -244543,14 +244590,14 @@
         "date": "2026-11-15",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "\"التحالف\" يعلن تدمير صاروخين باليستيين في الرياض و3 مسيرات بالمنطقة الشرقية",
-          "التحالف: اعتراض وتدمير صاروخين باليستيين حوثيين استهدفا الرياض وطائرتين مسيّرتين في المنطقة الشرقية",
-          "التحالف: اعتراض وتدمير مسيرتين بمنطقتي الرياض والجنوبية"
+          "السعودية: الحرس الثوري الإيراني يعلن مهاجمة قاعدة عسكرية بالبحرين، وصواريخ باليستية تستهدف الرياض",
+          "التحالف: تدمير صاروخين باليستيين للحوثيين باتجاه الرياض",
+          "\"التحالف\" يعلن إسقاط مسيرتين أطلقهما الحوثيون باتجاه السعودية"
         ]
       }
     ],
@@ -269139,15 +269186,30 @@
           "Jake Paul cleared to return to ring. At risk of breaking jaw again?",
           "Jake Paul cleared to return to boxing after breaking jaw"
         ]
+      },
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Overeem-Manuwa boxing match added to Dec. 24 Paul-Doumbé card",
+          "Alistair Overeem returns to box UFC ‘Poster Boy’ at Jake Paul boxing event on Christmas Eve",
+          "British knockout artist added to Jake Paul-Cédric Doumbé card"
+        ]
       }
     ],
-    "last_seen": "2026-10-10",
-    "total": 1,
+    "last_seen": "2026-11-15",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "max-gilbert": {
     "slug": "max-gilbert",
@@ -274322,14 +274384,14 @@
         "date": "2026-11-15",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "طقس",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "حالة الطقس اليوم الأحد 15 نوفمبر 2026.. شبورة كثيفة وأجواء باردة ليلا",
-          "الأرصاد تحذر من شبورة كثيفة تصل إلى حد الضباب على هذه الطرق",
-          "ظاهرة جوية تضرب البلاد خلال ساعات.. بيان مهم من الأرصاد يكشف حالة الطقس اليوم"
+          "ظاهرة جوية تضرب البلاد خلال ساعات.. بيان مهم من الأرصاد يكشف حالة الطقس اليوم",
+          "الأرصاد: طقس خريفي معتدل نهارًا اليوم.. والعظمى في القاهرة 26"
         ]
       }
     ],
@@ -303389,8 +303451,8 @@
         "date": "2026-11-15",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -394330,10 +394392,25 @@
           "معالج قوي وتبريد بمروحتين.. هونر تكشف عن سعر Win 2 قبل إطلاقه رسميا",
           "Honor Win 2.. بطارية عملاقة وشاشة خارقة لمحبي هواتف الألعاب"
         ]
+      },
+      {
+        "key": "2026-11-15|eg",
+        "date": "2026-11-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "مشترون يعيدون iPhone Duo إلى \"أبل\" بعد أقل من شهر.. ما الأسباب؟",
+          "صدمة مبكرة.. مفصل هاتف iPhone Duo القابل للطي يبدأ في الانهيار تحت الاختبار",
+          "\"سامسونغ\" تسخر من الشريط الجانبي في هاتف آيفون ديو بإعلان جديد لهاتف Galaxy Z Fold 8"
+        ]
       }
     ],
-    "last_seen": "2026-10-19",
-    "total": 2,
+    "last_seen": "2026-11-15",
+    "total": 3,
     "countries": [
       "eg"
     ],
@@ -398237,15 +398314,30 @@
           "What Ryan Reynolds Has Shared About His Private Life With Blake Lively and Their 4 Kids",
           "See Ryan Reynolds’ Most Adorable Throwback Photos as He Celebrates His 50th Birthday"
         ]
+      },
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "‘Avengers: Doomsday’ Lists Ryan Reynolds and Hugh Jackman Among 10 Writers",
+          "Ryan Reynolds Turns Avengers: Doomsday Credits Buzz Into a Deadpool Punchline",
+          "Avengers: Doomsday's Official Writing Credits Confirm Two Major Marvel Cameos"
+        ]
       }
     ],
-    "last_seen": "2026-10-23",
-    "total": 2,
+    "last_seen": "2026-11-15",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "فن ومشاهير"
+    "category": "عام"
   },
   "cowboys-coach": {
     "slug": "cowboys-coach",
@@ -697732,9 +697824,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Brendon McCullum bemoans another disaster down under: We talked about adapting to the conditions; we didn't do it",
-          "Australian Meredith set for return to Somerset next summer",
-          "Riley Returns for 2027"
+          "Riley Meredith: Somerset agree deal with bowler for 2027 T20 Blast",
+          "James Anderson's first appearances since extending career confirmed",
+          "Riley Meredith to return to Somerset for full 2027 Vitality Blast campaign"
         ]
       }
     ],
@@ -697843,14 +697935,14 @@
         "date": "2026-11-15",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "حالة الطقس اليوم الأحد 15 نوفمبر 2026.. شبورة كثيفة وأجواء باردة ليلا",
-          "ظاهرة جوية تضرب البلاد خلال ساعات.. بيان مهم من الأرصاد يكشف حالة الطقس اليوم",
-          "التنمية المحلية والبيئة: رفع درجة الاستعداد بالمحافظات لمواجهة الشبورة المائية الكثيفة صباح الغد"
+          "سعر الذهب اليوم الأحد 15 نوفمبر 2026 في مصر.. عيار 21 يسجل 5960 جنيها",
+          "التضخم الأمريكي يشدد ضغوط الفائدة.. والأوقية تخسر 4.6% أسبوعيًا",
+          "سعر الذهب في مصر اليوم الأحد مع بداية التعاملات الصباحية"
         ]
       }
     ],
@@ -697859,7 +697951,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "اسعار-الذهب-اليوم-عيار-21": {
@@ -697919,5 +698011,236 @@
     ],
     "peak_traffic": 200,
     "category": "شخصية"
+  },
+  "spacex-starship-rocket-launch": {
+    "slug": "spacex-starship-rocket-launch",
+    "name": "spacex starship rocket launch",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "Live updates: SpaceX Starship soars in orbit, still aiming for ship catch in unprecedented test flight",
+          "SpaceX’s Starship returns from orbit and is captured by launch pad arms in a dramatic first",
+          "SpaceX catches upper stage of Starship rocket in historic first"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "عام"
+  },
+  "james-comey": {
+    "slug": "james-comey",
+    "name": "james comey",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Key Witness in Comey Case Attests to Justice Dept.’s Aggressive Tactics",
+          "How The Justice Department Push Against James Comey Crossed The Line",
+          "DOJ desperation exposed in ‘portrait of belligerence’ late Friday court filing: NYT"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
+  },
+  "travis-barker": {
+    "slug": "travis-barker",
+    "name": "travis barker",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Phil Collins, 75, considers touring again after years of health struggles",
+          "Phil Collins’ Health: His Diabetes, Kidney Issues, Knee Surgeries & More",
+          "Phil Collins Tells Rock Hall Crowd: ‘You Haven’t Heard the Last of Me’"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "gus-johnson": {
+    "slug": "gus-johnson",
+    "name": "gus johnson",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Why Gus Johnson & Joel Klatt Won’t Be Calling Ohio State vs. Northwestern ‘Big Noon Kickoff’",
+          "Why Ohio State fans won't have to listen to sleepy Gus Johnson for Big Noon game vs. Northwestern",
+          "Major Big Ten Matchup Faces Last-Minute Changes Amid Nationwide Ground Stop"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "when-does-gta-6-online-come-out": {
+    "slug": "when-does-gta-6-online-come-out",
+    "name": "when does gta 6 online come out",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "Another Update About The ‘GTA 6 Online’ Release Date",
+          "GTA 6 Online release window has apparently leaked",
+          "PSA: GTA 6 Does Not Have Online Multiplayer at Launch"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "تقنية"
+  },
+  "magnus-carlsen": {
+    "slug": "magnus-carlsen",
+    "name": "magnus carlsen",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Firouzja, Caruana, Giri, MVL Lead Before Final Day; Carlsen Out Of Contention",
+          "Martirosyan defeats Carlsen on Day 3 in Budapest – International Chess Federation",
+          "Total Chess Pilot 2026 Day 3: 15 years later, Magnus' world no.1 spot in Danger"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "منة-شلبي": {
+    "slug": "منة-شلبي",
+    "name": "منة شلبي",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|eg",
+        "date": "2026-11-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "منة شلبي تتحدث عن تجربة فيلم برلين \"فيديو\"",
+          "3 مهاجرين وحكايات غامضة.. منة شلبي تطرح أسئلة الهوية والاغتراب في فيلم «برلين»",
+          "جهاد حسام الدين: تحمست فورًا للمشاركة في «برلين».. وأتعلم من أفلام سعاد حسني وأحمد زكي.. فيديو"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "sadio-mané": {
+    "slug": "sadio-mané",
+    "name": "sadio mané",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|sa",
+        "date": "2026-11-15",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "The Saudi club Al-Nassr dismisses Sadio Mane after he refused their major concessions",
+          "Saudi club Al-Nassr offload Sadio Mane after rejecting his major concessions"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
   }
 }

@@ -4269,12 +4269,12 @@
         "country_name": "السعودية",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "دول وأماكن",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "\"يُظهرنا كدولة هشة أمنياً\": انتقادات في الأردن بعد نقل مباراته أمام أستراليا إلى الدوحة",
-          "الإصابة تبعد الحوراني عن الأردن",
-          "نقل مباراة أستراليا الودية أمام الأردن من عمّان إلى قطر بسبب مخاوف أمنية"
+          "الأردن.. محكمة أمن الدولة تحكم بإعدام منفذي \"الهجوم الإرهابي\" في كنيسة حمود",
+          "القضاء الأردني يصدر أحكاماً مستعجلة لمنفذي عملية الكرك",
+          "الأردن.. إعدام منفذي العمل الإرهابي بالكرك"
         ]
       }
     ],
@@ -4284,7 +4284,7 @@
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "دول وأماكن"
+    "category": "حوادث وقضايا"
   },
   "المملكة-المتحدة": {
     "slug": "المملكة-المتحدة",
@@ -9600,14 +9600,14 @@
         "date": "2026-11-15",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "قرار جمهورى بمد فترة التصرف فى أملاك الدولة الخاصة لمدة مماثلة",
-          "قرار مهم من الرئيس السيسي بشأن تقنين أوضاع واضعي اليد على أملاك الدولة الخاصة",
-          "قرار جمهورى جديد بشأن التصرف فى أملاك الدولة الخاصة"
+          "القومي للأجور: حد أدنى لعلاوة العاملين بالقطاع الخاص 3% من الاشتراك التأمينى",
+          "رفع الحد الأدنى لأجور القطاع الخاص إلى 8500 جنيه بدءًا من يناير 2027",
+          "بشرى للعاملين بالقطاع الخاص.. قرار جديد بشأن العلاوة السنوية وموعد تطبيقها"
         ]
       }
     ],
@@ -22435,12 +22435,28 @@
           "Licensable picture: England Press Conference - UEFA Nations League 2026/27",
           "bet365 bonus code: Get £30 in Nations League free bets"
         ]
+      },
+      {
+        "key": "2026-11-15|sa",
+        "date": "2026-11-15",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Spain v England: Nations League test will reveal if Thomas Tuchel has learned lessons",
+          "De la Fuente: ‘Spanish Players Are Better and Cheaper Than English Players’",
+          "Licensable picture: England Press Conference - UEFA Nations League 2026/27"
+        ]
       }
     ],
     "last_seen": "2026-11-15",
-    "total": 2,
+    "total": 3,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
     "peak_traffic": 1000,
     "category": "رياضة"
@@ -33941,9 +33957,9 @@
         "category": "تعليم",
         "publishable": false,
         "headlines": [
-          "تعليم الغربية... جولة متابعة مفاجئة بشرق طنطا.. وكيل تعليم الغربية يفاجئ مدارس\" دفرة الرسمية للغات، ودفرة الابتدائية الجديدة ويوجه رسائل حاسمة بشأن الانضباط وسلامة الطلاب الاحد ٢٠٢٦/١١/١٥ تنفيذا لتوجيهات السيد محمد عبد اللطيف وزير التربية والتعليم والتعليم",
-          "وكيل تعليم الغربية يتابع 5 مدارس في زفتى وتشديد على تفعيل الأنشطة| صور",
-          "وكيل تعليم الغربية يتفقد مدرسة عزبة المنسي بطنطا"
+          "مدير تعليم القليوبية يحيل معلمين بكفر شكر للتحقيق لعدم استكمال التقييمات",
+          "لعدم استكمال التقييمات.. مدير «تعليم القليوبية» يُحيل عددا من المعلمين للتحقيق فى مدارس كفر شكر",
+          "وكيل تعليم القليوبية يتفقد عددًا من مدارس الخصوص لمتابعة انتظام العملية التعليمية"
         ]
       }
     ],
@@ -66808,10 +66824,25 @@
           "نبيل حماد: النصر للسيارات تخطط لتصنيع 28 ألف سيارة خلال عامين",
           "5 سيارات كهربائية في مصر.. مواصفات وأسعار 2026"
         ]
+      },
+      {
+        "key": "2026-11-15|eg",
+        "date": "2026-11-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "عقدة السيارة المصرية.. وزير الصناعة يكشف خطة توطين صناعة السيارات الكهربائية والمكونات المغذية| فيديو",
+          "خالد هاشم: نستهدف بناء صناعة سيارات حقيقية في مصر",
+          "مجلس الوزراء يستعرض تفاصيل إنتاج أول سيارة كهربائية في مصر"
+        ]
       }
     ],
-    "last_seen": "2026-11-06",
-    "total": 5,
+    "last_seen": "2026-11-15",
+    "total": 6,
     "countries": [
       "eg",
       "sa"
@@ -159413,12 +159444,12 @@
         "country_name": "مصر",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "فن ومشاهير",
+        "category": "عام",
         "publishable": false,
         "headlines": [
-          "Bruno Fernandes to SHELVE new Man Utd contract talks until Mauricio Pochettino proves himself to £300k-a-week star",
-          "Teddy Sheringham responds when asked if Man Utd should sign Viktor Gyokeres from Arsenal for Pochettino",
-          "Rene Meulensteen claims Bruno Fernandes is 'mentally damaged' by Manchester United negativity and urges Mauricio Pochettino to let him leave"
+          "Reports: Calvani, Gabriel and Mazraoui – Milan’s January shortlist rises by three names",
+          "AC Milan eye Lens defender Ismaëlo Ganiou as winter transfer target",
+          "Milan target 3 key signings in January transfer window"
         ]
       }
     ],
@@ -159429,7 +159460,7 @@
       "world"
     ],
     "peak_traffic": 5000,
-    "category": "فن ومشاهير"
+    "category": "عام"
   },
   "dallas-turner": {
     "slug": "dallas-turner",
@@ -207405,10 +207436,25 @@
           "Tank Dell expected to see increase in snaps",
           "PODCAST: Texans’ November Reset: Stroud, Tank Dell and Reasons to Believe"
         ]
+      },
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Fantasy football Week 10 WR preview: Tank Dell is back in business and ready to rescue injury-ravaged lineups",
+          "Why Tank Dell was an elite fantasy waiver wire steal",
+          "Tank Dell on how Texans WR room stepped up after key injuries | 'GMFB'"
+        ]
       }
     ],
-    "last_seen": "2026-11-08",
-    "total": 5,
+    "last_seen": "2026-11-15",
+    "total": 6,
     "countries": [
       "world"
     ],
@@ -230783,15 +230829,30 @@
           "Nick Nurse doesn't leave Jabari Walker wondering about his standing",
           "Video - 76ers May Have Found an Unexpected Solution Behind Joel Embiid"
         ]
+      },
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Vikings Sign RB Damon Bankston & LB Josh Ross to Practice Squad",
+          "Vikings Add Former Packers Running Back & 6-Foot, 229-Pound Linebacker",
+          "Vikings sign former Green Bay Packer"
+        ]
       }
     ],
-    "last_seen": "2026-11-12",
-    "total": 5,
+    "last_seen": "2026-11-15",
+    "total": 6,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "فن ومشاهير"
+    "category": "عام"
   },
   "murakami-baseball": {
     "slug": "murakami-baseball",
@@ -253716,11 +253777,27 @@
           "«فجر اليمن»: السيطرة على باب المندب ومواصلة الضغط العسكري على الحوثيين (تغطية حية)",
           "السفير السعودي باليمن يعلن \"تطهير\" باب المندب من المسلحين الحوثيين"
         ]
+      },
+      {
+        "key": "2026-11-15|eg",
+        "date": "2026-11-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "انسحاب القوات اليمنية من قرب باب المندب، وجماعة أنصار الله تفرج عن 600 من أفراد القوات الحكومية",
+          "اليمن.. القوات الحكومية تتراجع قرب باب المندب والحوثيون يتقدمون باتجاه عدن",
+          "\"إعادة تموضع\" للقوات الحكومية قرب باب المندب وسط تقدم حوثي"
+        ]
       }
     ],
-    "last_seen": "2026-10-10",
-    "total": 1,
+    "last_seen": "2026-11-15",
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 2000,
@@ -523265,11 +523342,27 @@
           "2026 NBA odds, picks, predictions, best bets, player props: Experts, model backing 76ers on Wednesday",
           "Philadelphia 76ers vs. Indiana Pacers 10/28/26 - Stream the Game Live - Watch ESPN"
         ]
+      },
+      {
+        "key": "2026-11-15|sa",
+        "date": "2026-11-15",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Sixers (sans Embiid) begin back-to-back with matinee hosting Pacers",
+          "Joel Embiid Injured, Latest Updates on 76ers Star's Status and Timeline for Return",
+          "Pacers vs 76ers Prediction, Pick, NBA Odds for Sunday, November 15"
+        ]
       }
     ],
-    "last_seen": "2026-10-28",
-    "total": 1,
+    "last_seen": "2026-11-15",
+    "total": 2,
     "countries": [
+      "sa",
       "world"
     ],
     "peak_traffic": 10000,
@@ -568732,14 +568825,28 @@
           "Lions, Vikings Week 8 inactives: Roger McCreary WILL PLAY",
           "Detroit Lions secondary gets a boost with inactives list vs Vikings"
         ]
+      },
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Minnesota Vikings at Green Bay Packers: Week 10 NFL Discussion",
+          "Packers vs. Vikings score predictions: Can Kirk Cousins turn the tide in huge NFC North battle?"
+        ]
       }
     ],
-    "last_seen": "2026-11-01",
-    "total": 1,
+    "last_seen": "2026-11-15",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 20000,
     "category": "رياضة"
   },
   "dk-metcalf": {
@@ -702988,9 +703095,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "Preview: Belarus vs Albania - prediction, team news, lineups",
           "Belarus vs Albania: UEFA Nations League stats & head-to-head",
-          "Watch Belarus vs. Albania live today: Who is broadcasting the match on TV and via live stream?",
-          "Albania plays for League B, a draw is enough against Belarus"
+          "Watch Belarus vs. Albania live today: Who is broadcasting the match on TV and via live stream?"
         ]
       }
     ],
@@ -703381,8 +703488,8 @@
         "publishable": true,
         "headlines": [
           "Ireland vs Fiji LIVE: Follow live radio and text from the Nations Championship 2026 match in Dublin",
-          "Nations Championship recap: Ireland 43-15 Fiji",
-          "Overcoming Fiji’s physicality is precious experience ahead of Springboks, says Farrell"
+          "Overcoming Fiji’s physicality is precious experience ahead of Springboks, says Farrell",
+          "Nations Championship recap: Ireland 43-15 Fiji"
         ]
       }
     ],
@@ -704176,9 +704283,9 @@
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "دي لا فوينتي: تركنا بصمتنا.. ومواجهة إنجلترا هي الأفضل",
-          "لامين يامال يفجر عاصفة في إسبانيا: \"برشلونة يفعل ما يحلو له\"",
-          "إسبانيا تتخطى التشيك بثنائية في دوري الأمم الأوروبية"
+          "توخيل: حان الوقت لهزيمة الفريق الذي لا يهزم",
+          "إسبانيا وإنجلترا.. المواجهة الرابعة تحسم صراع الصدارة",
+          "إسبانيا وإنجلترا.. مواجهة الثأر وحسم صدارة دوري الأمم"
         ]
       }
     ],
@@ -704205,9 +704312,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "Netflix’s Best New Show Deserves Its 98% Rotten Tomatoes Audience Score",
           "Netflix’s Genre-Bending YA Drama ‘The Body’ Is a Queer Y2K Extravaganza: TV Review",
-          "‘The Body’ Creator Quinn Shephard Teases Season 2 Plans After That Shocking Cliffhanger"
+          "Netflix’s Best New Show Deserves Its 98% Rotten Tomatoes Audience Score",
+          "‘The Body’ review: sex, death and Catholic guilt in haunted ‘Spring Breakers’"
         ]
       }
     ],
@@ -704218,5 +704325,324 @@
     ],
     "peak_traffic": 100,
     "category": "حوادث وقضايا"
+  },
+  "omar-cooper": {
+    "slug": "omar-cooper",
+    "name": "omar cooper",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Buffalo Bills Get Concerning Injury News Ahead of Jets Week 10 Game",
+          "Jets' Adonai Mitchell: Active in Week 10",
+          "Cooper Jr. heads to locker room with ankle injury"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "رياضة"
+  },
+  "travis-etienne-jr": {
+    "slug": "travis-etienne-jr",
+    "name": "travis etienne jr.",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Saints RB Travis Etienne Jr. activated off IR for game vs. Panthers",
+          "Saints activate RB Travis Etienne from injured reserve ahead of Sunday's game vs. Panthers",
+          "Saints' Audric Estime: Backfield role shrinking for Week 10"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "cj-stroud": {
+    "slug": "cj-stroud",
+    "name": "cj stroud",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "‘No smoke’ surrounding Quinshon Judkins’ fewer snaps; Texans QB C.J. Stroud on a roll: Browns takeaways",
+          "Browns' HC Todd Monken Addresses RB Snap Count Against Saints",
+          "Judkins bottled up on OT loss to the Saints"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "justin-fields": {
+    "slug": "justin-fields",
+    "name": "justin fields",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Chiefs free-agent stock report after Week 9 puts Justin Fields in the spotlight",
+          "Stock Report | QB Geno Smith Off to Strong Start With the Long Ball",
+          "Geno Smith has been upgrade from Justin Fields for Jets -- except in win column"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "اقتصاد"
+  },
+  "xavier-hutchinson": {
+    "slug": "xavier-hutchinson",
+    "name": "xavier hutchinson",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Nuggets upgrade starters to probable vs. Rockets after delayed arrival",
+          "Nuggets offered starters a night off after Mexico City travel fiasco. Led by Jamal Murray, they refused to sit out.",
+          "Nuggets Notes: Murray, Starters, Jokic, Gordon, DeRozan, More"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "chloe-kitts": {
+    "slug": "chloe-kitts",
+    "name": "chloe kitts",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "How freshman and transfers performed in win against No. 12 North Carolina",
+          "South Carolina 84-39 North Carolina (Nov 8, 2026) Game Recap",
+          "No. 12 WBB Falls To No. 1 South Carolina In Ally Tipoff, 84-39 - University of North Carolina Athletics"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "marshawn-lloyd": {
+    "slug": "marshawn-lloyd",
+    "name": "marshawn lloyd",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "MarShawn Davon Thamir Lloyd Week 10 Preview vs. the Vikings",
+          "Kendre Miller visiting Cowboys on Tuesday",
+          "MarShawn Lloyd Good to go for Week 10"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "إسبانيا-ضد-إنجلترا": {
+    "slug": "إسبانيا-ضد-إنجلترا",
+    "name": "إسبانيا ضد إنجلترا",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|eg",
+        "date": "2026-11-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "دول وأماكن",
+        "publishable": true,
+        "headlines": [
+          "توخيل: حان الوقت لهزيمة الفريق الذي لا يهزم",
+          "موقف يامال؟ دي لا فوينتي يعلن تشكيل إسبانيا ضد إنجلترا",
+          "موعد مباراة إسبانيا ضد إنجلترا فى دوري الأمم الأوروبية والقنوات الناقلة"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 2000,
+    "category": "دول وأماكن"
+  },
+  "سعر-الريال-بنك-مصر": {
+    "slug": "سعر-الريال-بنك-مصر",
+    "name": "سعر الريال بنك مصر",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|eg",
+        "date": "2026-11-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "اقتصاد",
+        "publishable": true,
+        "headlines": [
+          "سعر الريال السعودي أمام الجنيه المصري خلال تعاملات اليوم السبت 14 نوفمبر 2026",
+          "استقرار أسعار العملات العربية في ختام تعاملات اليوم 14 نوفمبر 2026",
+          "سعر الريال السعودي اليوم السبت 14 نوفمبر 2026.. استقرار في البنوك"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 2000,
+    "category": "اقتصاد"
+  },
+  "فرنسا-ضد-تركيا": {
+    "slug": "فرنسا-ضد-تركيا",
+    "name": "فرنسا ضد تركيا",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|eg",
+        "date": "2026-11-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "تشكيل فرنسا.. عودة مبابي ورباعي هجومي أمام تركيا بدوري الأمم",
+          "زيدان: الجميع يريد أن يشعر بالذعر في فرنسا",
+          "ديزيري دوي جاهز لتدعيم هجوم فرنسا ضد تركيا فى مواجهة الحسم بدوري الأمم"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "دول وأماكن"
+  },
+  "بلجيكا-ضد-إيطاليا": {
+    "slug": "بلجيكا-ضد-إيطاليا",
+    "name": "بلجيكا ضد إيطاليا",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|eg",
+        "date": "2026-11-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "صراع التأهل يشعل مواجهة إيطاليا وبلجيكا فى دوري الأمم الأوروبية",
+          "تشكيل إيطاليا لمواجهة بلجيكا في دوري الأمم الأوروبية",
+          "دوري الأمم الأوروبية: إيطاليا تفتقد فراتيسي أمام بلجيكا بسبب الإصابة"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "دول وأماكن"
   }
 }

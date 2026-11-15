@@ -6885,14 +6885,14 @@
         "date": "2026-11-15",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "category": "حوادث وقضايا",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "البحرية الإيرانية: اشتعال النيران في ثلاث ناقلات اصطدمت بألغام",
-          "الحرس الثوري يرد على أنباء باستهداف مراكز عسكرية في أصفهان .. وحريق بناقلة نفط في مضيق هرمز",
-          "طهران تحذر مالكي السفن وتقدير استخباري أمريكي لترسانة إيران الصاروخية"
+          "إيران.. طهران تهدد بتوسع “جغرافية الصراع” والبحرين تتصدى لهجمات إيرانية",
+          "إدانات خليجية للهجمات الإيرانية على البحرين.. ماذا قالت السعودية والكويت وقطر؟",
+          "تصعيد جديد.. البحرين تحبط هجمات جوية إيرانية"
         ]
       },
       {
@@ -6917,8 +6917,8 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 1000,
-    "category": "حوادث وقضايا"
+    "peak_traffic": 2000,
+    "category": "شخصية"
   },
   "مباراة-اليوم-كاس-العالم": {
     "slug": "مباراة-اليوم-كاس-العالم",
@@ -53496,10 +53496,25 @@
           "Henry VIII mystery emerges after grandmother unearths gold cross in field",
           "This Man Stole $9 Million in Gold Bars on the Upper West Side, Police Say"
         ]
+      },
+      {
+        "key": "2026-11-15|sa",
+        "date": "2026-11-15",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Gold prices fall EGP 260 in Egypt in one week",
+          "Gold prices fluctuate in local, global markets",
+          "Gold prices edge down on November 11"
+        ]
       }
     ],
-    "last_seen": "2026-11-14",
-    "total": 9,
+    "last_seen": "2026-11-15",
+    "total": 10,
     "countries": [
       "sa",
       "world"
@@ -277648,8 +277663,8 @@
         "publishable": false,
         "headlines": [
           "زيلينسكي: الولايات المتحدة اقترحت تنازل أوكرانيا عن دونباس مقابل عضوية الناتو",
-          "زيلينسكي: واشنطن تقترح التخلي عن دونباس مقابل عضوية الناتو.. وماكرون يحذر",
-          "صهر ترامب يرد على زيلينسكي بشأن مقترح انضمام أوكرانيا لحلف الناتو"
+          "فيديو.. هجوم أوكراني ضخم على \"عاصمة البتروكيماويات\"",
+          "دونباس مقابل الناتو.. ما لا تعرفه عن الإقليم الأوكراني"
         ]
       }
     ],
@@ -289099,15 +289114,30 @@
           "Lions don't expect Amon-Ra St. Brown, Ennis Rakestraw to practice Wednesday",
           "Lions' Amon-Ra St. Brown: Nursing ankle issue, should play Week 8"
         ]
+      },
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Untold stories of Detroit Lions WR Amon-Ra St. Brown's German upbringing",
+          "NOTEBOOK: Playing in Germany 'a dream come true' for St. Brown",
+          "Lions’ Amon-Ra St. Brown takes center stage in Munich in a special kind of homecoming"
+        ]
       }
     ],
-    "last_seen": "2026-10-26",
-    "total": 3,
+    "last_seen": "2026-11-15",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "عام"
+    "category": "دول وأماكن"
   },
   "greenlaw-ejected": {
     "slug": "greenlaw-ejected",
@@ -297747,7 +297777,7 @@
         "headlines": [
           "سعر الدولار في مصر يسجل مكاسب جديدة",
           "سعر الدولار مقابل الجنيه اليوم الأحد.. استقرار في البنوك المصرية",
-          "الدولار يخسر 3 جنيهات من قمته في مصر.. ومحطتان حاسمتان في ديسمبر تحددان مصيره!"
+          "ارتفاع سعر الدولار مقابل الجنيه في بنكين مع بداية تعاملات الأحد"
         ]
       }
     ],
@@ -344094,15 +344124,30 @@
           "Sunday’s heavyweight battle is a window into 2027",
           "Abu Dhabi Championship: Jon Rahm takes one-shot lead into final round"
         ]
+      },
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Here’s the prize money payout for the DP World Tour's 2026 Race to Dubai bonus pool",
+          "DP World Tour Championship: Rory McIlroy claims Race To Dubai as Tyrell Hatton wins tournament",
+          "Rory McIlroy set for showdown with Eugenio Chacarra for Race to Dubai title"
+        ]
       }
     ],
-    "last_seen": "2026-11-08",
-    "total": 7,
+    "last_seen": "2026-11-15",
+    "total": 8,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "حوادث وقضايا"
+    "category": "رياضة"
   },
   "sandra-birchmore": {
     "slug": "sandra-birchmore",
@@ -349106,8 +349151,8 @@
         "publishable": false,
         "headlines": [
           "بيئي / \"الأرصاد\" يُنبّه من أمطار غزيرة على منطقة جازان",
-          "الأرصاد تحذّر من أمطار متوسطة إلى غزيرة على الباحة حتى الخميس",
-          "هطول أمطار خفيفة إلى متوسطة على أنحاء متفرقة من مكة المكرمة"
+          "إنذار أحمر في مكة المكرمة بسبب أمطار غزيرة وسيول وبرد",
+          "أمطار رعدية وسيول على 4 مناطق ورياح مثيرة للغبار بالشرقية"
         ]
       }
     ],
@@ -389440,15 +389485,28 @@
           "Netflix Renews A Yearly 93% Rotten Tomatoes Scored Show For Season 5",
           "10 Shows Like 'The Diplomat' You Should Watch Next"
         ]
+      },
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "One night in 1994, the domino effect that launched Alison Janney’s career began"
+        ]
       }
     ],
-    "last_seen": "2026-10-30",
-    "total": 2,
+    "last_seen": "2026-11-15",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 20000,
-    "category": "فن ومشاهير"
+    "category": "عام"
   },
   "foster-moreau": {
     "slug": "foster-moreau",
@@ -466651,9 +466709,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "NZ vs Ind, 5th ODI, Live Blog - Arshdeep, Siraj lead India to series win in low-scoring finish",
+          "Ball by Ball Commentary & Live Score - NZ vs IND, 5th ODI",
           "New Zealand finally wins a toss and opts to bowl in the 5th ODI against India",
-          "Kohli's SENA century drought stretches to seven years as worrying trend continues"
+          "India beats New Zealand by 22 runs in the 5th ODI, takes the series 3-1"
         ]
       }
     ],
@@ -486044,8 +486102,9 @@
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "قالیباف: التوصل إلى اتفاق مع واشنطن لا يزال ممكنا",
-          "رئيس البرلمان الإيراني: لن نبقى في حالة \"لا حرب ولا سلم\" مع واشنطن"
+          "\"احذروا من فتح الجرح القديم\".. إيران ترد على مطالب مجلس التعاون الخليجي بالتعويضات",
+          "(وسائط متعددة) عراقجي: تعزيز القدرات الاقتصادية والعسكرية لمواجهة ضغوط العقوبات والتهديدات الخارجية",
+          "الخارجية الإيرانية: نتابع بجدية المطالبة بتعويضات من دول المنطقة"
         ]
       }
     ],
@@ -642604,10 +642663,25 @@
           "College Football Rankings: New No. 1 Team As CFB Chaos And Upsets Reign Supreme",
           "Josh Furlong's AP Top 25: Another No. 1 team falls as UCLA, Utah make their move"
         ]
+      },
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "NFL Week 10 preview: Picks, predictions, schedule, betting odds, fantasy tips",
+          "NFL Sunday Playbook: Cousins back with Vikings, Steelers-Bengals stakes, Mendoza debuts",
+          "NFL Week 10 expert picks, odds, best bets, teasers, predictions, survivor picks and more"
+        ]
       }
     ],
-    "last_seen": "2026-11-08",
-    "total": 1,
+    "last_seen": "2026-11-15",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -690463,9 +690537,9 @@
         "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
-          "‘Bouma’ sequel officially announced; makers promise answers to first film’s climax mystery",
+          "Bouma 2 announced: Rejin S Babu to helm sequel to Revathy Sharma-Sagar Surya-Vineeth’s gothic mystery thriller",
           "Vineeth on his evolution from romantic hero to character actor",
-          "Rejecting problematic characters to exploring a new phase: Vineeth, Lenaa, Mokksha interview"
+          "'Bouma' box office collection day 1: Dileesh Pothan-Sagar Surya film opens at Rs 56 lakh worldwide"
         ]
       }
     ],
@@ -699338,7 +699412,11 @@
         "traffic_num": 100,
         "category": "شخصية",
         "publishable": false,
-        "headlines": []
+        "headlines": [
+          "شقيق هيثم أحمد زكي يلجأ للقضاء لاسترداد مقتنيات والده وشقيقه.. تفاصيل",
+          "أسرة أحمد زكي تطالب بالتحقيق في اختفاء مقتنياته.. ونقابة الممثلين تعلق",
+          "شقيقة أحمد زكي: اتخذنا إجراءات قانونية ضد وزارة الثقافة لاسترداد مقتنياته.. مش عارفين ليه مش راضيين يسلموها لنا"
+        ]
       }
     ],
     "last_seen": "2026-11-15",
@@ -700025,14 +700103,14 @@
         "date": "2026-11-15",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "شخصية",
         "publishable": true,
         "headlines": [
-          "بعد ابتعادها عن الفن.. محطات في مشوار رحمة حسن",
-          "بسبب قلة العروض الفنية.. رحمة حسن تبتعد عن التمثيل وتتجه للعمل بأحد الفنادق الشهيرة",
-          "بعد غياب 4 سنوات.. فنانة مصرية تظهر بمهنة جديدة في فندق"
+          "بعد غياب 4 سنوات.. فنانة مصرية تظهر بمهنة جديدة في فندق",
+          "25 صورة لـ رحمة حسن في أعمال فنية قبل ابتعادها عن التمثيل",
+          "بسبب قلة العروض الفنية.. رحمة حسن تبتعد عن التمثيل وتتجه للعمل بأحد الفنادق الشهيرة"
         ]
       }
     ],
@@ -700041,7 +700119,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "شخصية"
   },
   "wales-rugby": {
@@ -700270,5 +700348,237 @@
     ],
     "peak_traffic": 100,
     "category": "عام"
+  },
+  "alabama-football-sec-tiebreakers": {
+    "slug": "alabama-football-sec-tiebreakers",
+    "name": "alabama football sec tiebreakers",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Updated scenarios for Alabama to make SEC championship game after beating Vanderbilt",
+          "SEC standings update reveal frontrunners for the last SEC title game",
+          "How Tennessee football can reach final SEC Championship Game in 2026"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "ny-islanders": {
+    "slug": "ny-islanders",
+    "name": "ny islanders",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Holmstrom scores first career hat trick, Islanders cruise past Ducks",
+          "Islanders 6-2 Ducks (Nov 14, 2026) Game Recap",
+          "Takeaways from the Ducks 6-2 Loss to the Islanders"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "week-10-fantasy-rankings": {
+    "slug": "week-10-fantasy-rankings",
+    "name": "week 10 fantasy rankings",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Week 10 fantasy rankings: Patrick Mahomes projects as ninth-best QB",
+          "QB Rankings Downgrades For Week 10 Fantasy Football: Patrick Mahomes & More",
+          "Patrick Mahomes Falls to the Midrange in PFF’s Quarterback Rankings for Week 10"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "emily-ratajkowski": {
+    "slug": "emily-ratajkowski",
+    "name": "emily ratajkowski",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Sizzling Emily Ratajkowski wore two naked dresses in one night and everyone forgot",
+          "Emily Ratajkowski Joins Mary Beth Barone & Joe Alwyn In Rom-Com ‘Still We Met’",
+          "Emily Ratajkowski & Lena Dunham Reunite for New Movie With a Personal Story"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "فن ومشاهير"
+  },
+  "catalina-fernández-gómez": {
+    "slug": "catalina-fernández-gómez",
+    "name": "catalina fernández gómez",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Muere Catalina Fernández a los 25 años",
+          "Muere querida actriz colombiana a los 25 años: documentó su lucha contra agresiva enfermedad",
+          "Qué tipo de cáncer padeció Cata Fernández, actriz e influencer que murió a los 24 años"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "عام"
+  },
+  "patriots-injury-report": {
+    "slug": "patriots-injury-report",
+    "name": "patriots injury report",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|world",
+        "date": "2026-11-15",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Fantasy football Week 10 inactives: Who's in and who's out?",
+          "NFL injury tracker Week 10: Latest news, fantasy implications as Patriots’ A.J. Brown (ankle/knee) progressing, 49ers’ Mike Evans (Achilles) 'getting real close,' Deshaun Watson to start for Browns",
+          "Hansen's Hints: 2026 NFL Week 10 Fantasy Breakdown"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "تصفيات-كأس-الأمم-الإفريقية-2027": {
+    "slug": "تصفيات-كأس-الأمم-الإفريقية-2027",
+    "name": "تصفيات كأس الأمم الإفريقية 2027",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|eg",
+        "date": "2026-11-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "شوبير يكشف كواليس قرارات علي ماهر لفرض الانضباط داخل منتخب مصر",
+          "\"ساعدناهم على معاقبتنا\".. مدرب مالاوي يكشف أسباب الخسارة أمام مصر في التصفيات",
+          "منتخب مصر يخوض تدريبات استشفائية في الجيم استعدادًا لمواجهة مالاوي"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "رينيه-فايلر": {
+    "slug": "رينيه-فايلر",
+    "name": "رينيه فايلر",
+    "first_seen": "2026-11-15",
+    "appearances": [
+      {
+        "key": "2026-11-15|eg",
+        "date": "2026-11-15",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "خلافات مع الإدارة.. الكشف عن أسباب إقالة فايلر المحتملة في أمريكا",
+          "رسمياً.. دي سي يونايتد يقيل رينيه فايلر بعد تراجع النتائج في الدوري الأمريكي",
+          "شوبير يكشف كواليس رحيل فايلر عن الأهلي ويكشف سر تراجع مسيرته"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-15",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

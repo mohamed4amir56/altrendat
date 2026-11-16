@@ -4,7 +4,7 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-11-16T13:31:20.885074+00:00",
+  "generated_at": "2026-11-16T14:01:33.262172+00:00",
   "day": "2026-11-16",
   "trends": [
     {
@@ -644,9 +644,19 @@
       "traffic": "20000+",
       "traffic_num": 20000,
       "published": "Mon, 16 Nov 2026 05:10:00 -0800",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcToQYS3NCTNgXQbFYzXxrz3wWAyY8t4QLIyJkvkce-epdjxrZhD0-bHALg01K8",
-      "image_source": "The Washington Post",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTP_fU32hqyMziBUCo9_kw9QZ8i9c7Mr9v9xoK-Ib5zlhXJH6Ey_3NKp-jRB-o",
+      "image_source": "The New York Times",
       "news": [
+        {
+          "title": "Billy Evans Says He’d Do ‘You Can See Everything’ All Over Again",
+          "url": "https://www.nytimes.com/2026/11/15/arts/billy-evans-you-can-see-everything.html",
+          "source": "The New York Times",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTP_fU32hqyMziBUCo9_kw9QZ8i9c7Mr9v9xoK-Ib5zlhXJH6Ey_3NKp-jRB-o",
+          "og_title": "Billy Evans Says He’d Do ‘You Can See Everything’ All Over Again",
+          "og_desc": "Speaking with CBS Sunday Morning, Elizabeth Holmes’s partner said that despite the shower scene and other regrets, he would “100 percent” make “You Can See Everything” once more.",
+          "og_image": "https://static01.nyt.com/images/2026/11/17/arts/15cul-billyevans-cbs2/15cul-billyevans-cbs2-facebookJumbo.jpg",
+          "ok": true
+        },
         {
           "title": "Elizabeth Holmes’s partner says he hasn’t spoken to Nathan Fielder since seeing film",
           "url": "https://www.washingtonpost.com/entertainment/movies/2026/11/15/billy-evans-discusses-nathan-fielder-nude-scene-you-can-see-everything/",
@@ -657,17 +667,6 @@
           "og_image": "",
           "ok": false,
           "error": "TimeoutError"
-        },
-        {
-          "title": "Elizabeth Holmes’ Partner Billy Evans Speaks Out About ‘You Can See Everything’ for First Time",
-          "url": "https://people.com/elizabeth-holmes-partner-billy-evans-speaks-out-for-the-first-time-since-you-can-see-everything-documentary-12252880",
-          "source": "People.com",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ58IToNE3LoHnyKDoJ_gYv_4JcFYYGzjJZwQCYLm1onSxGMW_GNeY-SfMrZoA",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
         },
         {
           "title": "Billy Evans, in first interview, tells his side of \"You Can See Everything,\" its portrayal of Elizabeth Holmes",
@@ -686,8 +685,59 @@
       "category": "فن ومشاهير",
       "icon": "🎬",
       "color": "#c77dff",
-      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-      "publishable": false,
+      "reason": "الأخبار تطابق: film",
+      "publishable": true,
+      "article": {
+        "headline": "Billy Evans Defends Involvement In Controversial Elizabeth Holmes Documentary You Can See Everything",
+        "summary": "Billy Evans, partner of Theranos founder Elizabeth Holmes, defends his participation in the documentary You Can See Everything despite his portrayal as an antagonist.",
+        "body": "Billy Evans sat for his first television interview with CBS Sunday Morning to address his role in the documentary You Can See Everything, declaring that despite personal regrets, he would repeat the experience \"100 percent.\" The film, directed by Nathan Fielder and Lance Oppenheim, captured Evans and Elizabeth Holmes in their home for 34 days leading up to her 2023 incarceration. While the documentary portrays Evans as manipulative and controlling, he insisted to reporter Matt Gutman that he is simply \"deeply passionate\" about his family and work rather than a \"controlling monster.\" Evans explained that he participated because he learned that \"you can’t lose your voice\" while watching his partner endure intense press scrutiny. Despite his onscreen depiction, Evans stated he loves the film, though he admitted he did not control the final edit. The documentary has drawn significant attention for its R-rated content, specifically an early scene featuring Evans nude in the shower. Evans contested reports that the shower scene was his idea, telling CBS he did not give consent for that specific footage to be included and found the final inclusion \"awkward.\" He alleged the production crew filmed for 16 hours a day and made requests to capture content inappropriate for television. Beyond the personal fallout, Evans noted the film has prompted threats against his family's safety. He stated that he initially took a significant risk by inviting Fielder into his home, but emphasized that his primary goal was to ensure viewers could see Holmes as he sees her. Evans plans to continue living with what he describes as integrity, regardless of the public's perception of his character.",
+        "facts": [
+          {
+            "label": "Documentary Title",
+            "value": "You Can See Everything"
+          },
+          {
+            "label": "Filming Duration",
+            "value": "34 days"
+          },
+          {
+            "label": "Daily Filming Hours",
+            "value": "16 hours"
+          },
+          {
+            "label": "Directors",
+            "value": "Nathan Fielder and Lance Oppenheim"
+          },
+          {
+            "label": "Subject",
+            "value": "Elizabeth Holmes"
+          }
+        ],
+        "tags": [
+          "Elizabeth Holmes",
+          "Billy Evans",
+          "You Can See Everything",
+          "Documentary",
+          "Theranos"
+        ],
+        "_v": 4,
+        "_by": "gemini",
+        "written_at": "2026-11-16T14:01:50.860943+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Theranos_Chairman%2C_CEO_and_Founder_Elizabeth_Holmes_%28L%29_and_TechCrunch_Writer_and_Moderator_Jonathan_Shieber_speak_onstage_at_TechCrunch_Disrupt_at_Pier_48_on_September_8%2C_2014_%2814995888227%29.jpg/1280px-thumbnail.jpg",
+          "width": 1280,
+          "height": 841,
+          "artist": "TechCrunch",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Theranos_Chairman,_CEO_and_Founder_Elizabeth_Holmes_(L)_and_TechCrunch_Writer_and_Moderator_Jonathan_Shieber_speak_onstage_at_TechCrunch_Disrupt_at_Pier_48_on_September_8,_2014_(14995888227).jpg",
+          "wiki_title": "Elizabeth Holmes",
+          "wiki_lang": "en"
+        },
+        "photo_v": 8,
+        "_had_data": false,
+        "_localized": false
+      },
       "card": "cards/world-2026-11-16-holmes-documentary.png",
       "published_at": "2026-11-16T13:31:20.885074+00:00"
     },
@@ -1762,6 +1812,160 @@
       "published_at": "2026-11-16T12:33:21.279139+00:00"
     },
     {
+      "title": "nitto atp finals",
+      "traffic": "2000+",
+      "traffic_num": 2000,
+      "published": "Mon, 16 Nov 2026 05:40:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAko2Y0ObAmUWrWpev3rBh-ha2zEo6cyzevLRnap9axVP_Ro5y9_r7olunAkU",
+      "image_source": "ATP Tour",
+      "news": [
+        {
+          "title": "Shelton’s first win in Turin! American edges Fils at Nitto ATP Finals",
+          "url": "https://www.atptour.com/en/news/shelton-fils-nitto-atp-finals-2026-sunday",
+          "source": "ATP Tour",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAko2Y0ObAmUWrWpev3rBh-ha2zEo6cyzevLRnap9axVP_Ro5y9_r7olunAkU",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Shelton kicks off his new stage with Ferrero as coach with a victory",
+          "url": "https://www.puntodebreak.com/en/2026/11/15/shelton-kicks-off-his-new-stage-with-ferrero-as-coach-with-victory",
+          "source": "Punto de Break",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTeK0U30uVliAY0Z4b8rLwSO9jItz8NDftUx5vFIX_7doK89gRE1DSPVsyrPUI",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Ben Shelton, Alexander Zverev prevail on first day of ATP Finals",
+          "url": "https://www.heraldonline.com/sports/tennis/article318094947.html",
+          "source": "Rock Hill Herald",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtxbHqtaDYRC_-tpZ_MIJPUKSj_lVhLxKL3Su8a7btkKDGN4PZ2KQvAf2PbsI",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "TimeoutError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-nitto-atp-finals.png",
+      "published_at": "2026-11-16T14:01:33.262172+00:00"
+    },
+    {
+      "title": "market",
+      "traffic": "2000+",
+      "traffic_num": 2000,
+      "published": "Mon, 16 Nov 2026 05:30:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRM3MDSS8ec3Pe69TqM930udyAUzjnSePlIzVaarrPJ-jIEg_KQ3XjfdKXLEF0",
+      "image_source": "CNBC",
+      "news": [
+        {
+          "title": "Stock futures slide as Nvidia leads AI stocks lower: Live updates",
+          "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html",
+          "source": "CNBC",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRM3MDSS8ec3Pe69TqM930udyAUzjnSePlIzVaarrPJ-jIEg_KQ3XjfdKXLEF0",
+          "og_title": "Stock futures slide as Nvidia leads AI stocks lower: Live updates",
+          "og_desc": "The Dow, S&P 500 and Nasdaq posted their biggest weekly gains since August, rising more than 2% each.",
+          "og_image": "https://image.cnbcfm.com/api/v1/image/108548216-1794329432695-Traders-Photo-20261110-KK-PRESS-006.jpg?v=1794329596&w=1920&h=1080",
+          "ok": true
+        },
+        {
+          "title": "Stock Market Today: Tech Futures Sell Off; Nvidia Dives Amid Jensen Huang News (Live Coverage)",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-stock-nvda-jensen-huang/",
+          "source": "Investor's Business Daily",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRbUmo7q4Zj6XhxGW3VExkhW2DY2BzaWwEiWKLKKi1pZ3l-6ASoc2S-qF5oT4c",
+          "og_title": "Stock Market Today: Tech Futures Sell Off; Nvidia Dives Amid Jensen Huang News (Live Coverage)",
+          "og_desc": "Stock Market Today: Nasdaq futures sell off Monday as Nvidia stock dives amid reports that Jensen Huang is considering a return to the firm.",
+          "og_image": "https://www.investors.com/wp-content/uploads/2024/11/Stock-wallstreetnyseflag-30-shutt.jpg",
+          "ok": true
+        },
+        {
+          "title": "Stocks dip ahead of Nvidia earnings, Anthropic IPO",
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-16/",
+          "source": "Reuters",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTvPUUjeAHM5HGXcvXovA2MdCcQemz1Ig5qpB42mO5dgKj5-VEOKaiz7eRH0Sc",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "اقتصاد",
+      "icon": "💰",
+      "color": "#f5c542",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-market.png",
+      "published_at": "2026-11-16T14:01:33.262172+00:00"
+    },
+    {
+      "title": "carlos alcaraz",
+      "traffic": "2000+",
+      "traffic_num": 2000,
+      "published": "Mon, 16 Nov 2026 05:30:00 -0800",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_nwAnKi9XryzZR4kgPr1byDkWSIqpRIi4Q7qfTxT83lJezlZALjyLQ8gF3kg",
+      "image_source": "MARCA",
+      "news": [
+        {
+          "title": "Carlos Alcaraz - Frances Tiafoe: en directo las Finales ATP | Última hora de ATP Finals en vivo hoy",
+          "url": "https://www.marca.com/tenis/copa-masters/carlos-alcaraz-frances-tiafoe/2026/11/16/04_0414_20261116_2-directo.html",
+          "source": "MARCA",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_nwAnKi9XryzZR4kgPr1byDkWSIqpRIi4Q7qfTxT83lJezlZALjyLQ8gF3kg",
+          "og_title": "Carlos Alcaraz - Frances Tiafoe: en directo las Finales ATP | Última hora de ATP Finals en vivo hoy | Marca",
+          "og_desc": "Carlos Alcaraz - Frances Tiafoe 6-2 2-1. Saca Alcaraz Exhibición de potencia de Carlos para ponerse 40-0. Luego, ambos dan espectáculo. Frances ha alc",
+          "og_image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/11/16/17948314571482.jpg",
+          "ok": true
+        },
+        {
+          "title": "ATP Finals 2026: así está la tabla de posiciones del Round Robin y quiénes se clasifican a semifinales",
+          "url": "https://espndeportes.espn.com/tenis/nota/_/id/17518539/atp-finals-2026-asi-esta-la-tabla-de-posiciones-del-round-robin-y-quienes-se-clasifican-a-semifinales",
+          "source": "ESPN Deportes",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYPlsZzBoI9pYsNJdTleX2tKcQY9-LjsHMpLrVpAm40I0XUDgXQgp9PZ0sgMA",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Guía de la edición 2026 del Masters ATP",
+          "url": "https://www.france24.com/es/minuto-a-minuto/20261115-gu%C3%ADa-de-la-edici%C3%B3n-2026-del-masters-atp",
+          "source": "France 24",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQwxZM11jmYjjPples-aD-pKFzJo6L6QNOmAbxzxlxuxnqcuQZsu8lodSbK2zE",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-carlos-alcaraz.png",
+      "published_at": "2026-11-16T14:01:33.262172+00:00"
+    },
+    {
       "title": "60 minutes tonight kratom episode",
       "traffic": "1000+",
       "traffic_num": 1000,
@@ -2015,6 +2219,57 @@
       "publishable": false,
       "card": "cards/world-2026-11-16-prince-harry-duke-of-sussex.png",
       "published_at": "2026-11-16T13:31:20.885074+00:00"
+    },
+    {
+      "title": "gma deals and steals",
+      "traffic": "1000+",
+      "traffic_num": 1000,
+      "published": "Mon, 16 Nov 2026 05:20:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRoHiqEpFIKzzhhNrzLFkjx3xDcqhv5ebjBKjoib3T-GskzWIdWGcJau_sslk",
+      "image_source": "Good Morning America",
+      "news": [
+        {
+          "title": "'GMA' Deals & Steals on Best of Oprah's Favorite Things",
+          "url": "https://www.goodmorningamerica.com/shop/story/gma-deals-steals-best-oprahs-favorite-things-138117550",
+          "source": "Good Morning America",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRoHiqEpFIKzzhhNrzLFkjx3xDcqhv5ebjBKjoib3T-GskzWIdWGcJau_sslk",
+          "og_title": "'GMA' Deals & Steals on Best of Oprah's Favorite Things",
+          "og_desc": "Tory Johnson has exclusive deals for \"GMA\" viewers.",
+          "og_image": "https://i.abcnewsfe.com/a/c43e3578-1bc9-4272-8f2c-5238c8f999c7/GMA_DS_111426_V01_sd_1794592647676_hpMain_16x9.jpg?w=992",
+          "ok": true
+        },
+        {
+          "title": "Oprah’s Favorite Things 2026 holiday guide is live — these are the best gifts under $100",
+          "url": "https://shopping.yahoo.com/gift-ideas/article/oprahs-favorite-things-2026-holiday-guide-is-live--these-are-the-best-gifts-under-100-195208438.html",
+          "source": "Yahoo",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ7TxGyURoqHevgvsRAIvWEY4rJIZt15Mo5MnBFsFW9m09r358HYtnhdWVbdTE",
+          "og_title": "Oprah’s Favorite Things 2026 holiday guide is live — these are the best gifts under $100",
+          "og_desc": "This year's lineup includes \"the perfect white shirt,\" Darn Tough socks and more wallet-friendly buys that Lady O swears by.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/d94eef28f21607f5f16529cacc3e790c28dd426f99d98cb39d58ece5eabfe73c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fe57a4dc6-f47f-4298-9297-9e6ccd3b42f6",
+          "ok": true
+        },
+        {
+          "title": "It’s Time: Oprah’s Favorite Things 2026 Has Arrived, and It’s Packed with Impressive Gift Ideas from $13",
+          "url": "https://people.com/oprahs-favorite-things-2026-12187539",
+          "source": "People.com",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQxoZuMoy-h_b7zHlrOQsgc1CjeTGJt09gjqr3ez_oFjFyCOjtNkFBtcAw2eU",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-gma-deals-and-steals.png",
+      "published_at": "2026-11-16T14:01:33.262172+00:00"
     },
     {
       "title": "anthropic ipo date",
@@ -2529,10 +2784,11 @@
           "url": "https://www.thenews.com.pk/latest/1422990-amy-poehler-shares-shocking-story-about-improvising",
           "source": "The News International",
           "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSCRIKvz07ZwOoQcYue7ea9tGotQIGlInthHSs3Fm8T73X0ShvGZEehK_NMku8",
-          "og_title": "Amy Poehler shares shocking story about 'improvising'",
-          "og_desc": "Amy Poehler recently spilled details about her life before fame, recalling an unforgettable celebrity encounter while working as a server.The 55-year-old American actress and comedian gave an...",
-          "og_image": "https://www.thenews.com.pk/assets/uploads/2026-11-09/1422990_013244_updates.jpg",
-          "ok": true
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         }
       ],
       "geos": [
@@ -2596,6 +2852,169 @@
       "publishable": false,
       "card": "cards/world-2026-11-16-dc-studios-leadership-change-gunn-safran.png",
       "published_at": "2026-11-16T13:31:20.885074+00:00"
+    },
+    {
+      "title": "frances tiafoe",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Mon, 16 Nov 2026 05:20:00 -0800",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSjDK1npKEV6dK8iXy3Di7KodAmLPg69Yampos8toLRVAf4uZxuC-ok7Ns7H94",
+      "image_source": "The Guardian",
+      "news": [
+        {
+          "title": "Carlos Alcaraz v Frances Tiafoe: ATP Finals tennis group stage – live",
+          "url": "https://www.theguardian.com/sport/live/2026/nov/16/carlos-alcaraz-v-frances-tiafoe-atp-finals-tennis-group-stage-live",
+          "source": "The Guardian",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSjDK1npKEV6dK8iXy3Di7KodAmLPg69Yampos8toLRVAf4uZxuC-ok7Ns7H94",
+          "og_title": "Carlos Alcaraz v Frances Tiafoe: ATP Finals tennis group stage – live",
+          "og_desc": "Join Daniel Harris for updates as the group stage continues in Turin with the opening game for Carlos Alcaraz and Frances Tiafoe",
+          "og_image": "https://i.guim.co.uk/img/media/8d69dcd29671403301c9faab5a2d0852d88106d7/125_137_3257_2606/master/3257.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=f91a7f32fc6627f0eef5379ed3d8a235",
+          "ok": true
+        },
+        {
+          "title": "ATP Finals",
+          "url": "https://www.reutersconnect.com/item/atp-finals/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkcxMTAzNUo",
+          "source": "Reuters Connect",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTeonUa4b-VvzI-nCVVKHTMu95bIxIjEvVE_E-FUMuYtLj4bfyGfNY-_y1JyYE",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Carlos Alcaraz faces Frances Tiafoe on day two of 2026 ATP Finals: Live updates and latest score",
+          "url": "https://www.nytimes.com/athletic/live-blogs/alcaraz-vs-tiafoe-live-updates-atp-finals-2026-score-result/ePtyQTGPE5nx/",
+          "source": "The New York Times",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQvFO4mhf-1HKmf8AXnwuRvKFerEIjlXWu2vk-sR7CEINPWLYu8jyTrFT-8sj0",
+          "og_title": "Carlos Alcaraz leading Frances Tiafoe on day two of 2026 ATP Finals: Live updates and latest score",
+          "og_desc": "Alcaraz has won three titles since returning from a five-month injury absence.",
+          "og_image": "https://cdn-media.theathletic.com/cdn-cgi/image/width=1200,height=630,fit=crop/ePtyQTGPE5nx_yKeRvbbByZBW_1440x960.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-frances-tiafoe.png",
+      "published_at": "2026-11-16T14:01:33.262172+00:00"
+    },
+    {
+      "title": "stock",
+      "traffic": "+500",
+      "traffic_num": 500,
+      "published": "Mon, 16 Nov 2026 04:00:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRVZUKlcmjnmTFQ1YZBmKHF39IPopP2AMJtpcFgIrNr1GLtwG2kgCxzzolNyTo",
+      "image_source": "MarketWatch",
+      "news": [
+        {
+          "title": "Stock Market Today: Dow, S&P 500 and Nasdaq are set to fall as investors await Nvidia results and Anthropic's IPO this week: live updates",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-investors-nvidia-results-anthropic-ipo",
+          "source": "MarketWatch",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRVZUKlcmjnmTFQ1YZBmKHF39IPopP2AMJtpcFgIrNr1GLtwG2kgCxzzolNyTo",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Nvidia Earnings, Anthropic IPO and Federal Reserve Outlook Among Five Key Market Events This Week",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-anthropic-ipo-federal-112739467.html",
+          "source": "Yahoo Finance",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQV7GlGXaPjhVoODIc-BaAakD-dfv7HFydIXSduDp-KQw1T_3cFyPUL5PosTY",
+          "og_title": "Nvidia Earnings, Anthropic IPO and Federal Reserve Outlook Among Five Key Market Events This Week",
+          "og_desc": "Investors face a series of corporate earnings announcements, economic data releases and international political meetings this week, with developments in artificial intelligence expected to remain a central focus. Quarterly results from Nvidia (NASDAQ:NVDA) and the anticipated pricing of Anthropic’s (NASDAQ:ANT) initial public offering are among the main events on the calendar.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/d1603258c8f2717ca57ff38a95ece8877f582ac424048f56374ee41e89524f5f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2Fcaf66caec84d0f59dddb9b4d96cc3068.png",
+          "ok": true
+        },
+        {
+          "title": "Stocks decline on tech sell-off as concerns over the Nvidia fallout persist",
+          "url": "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7",
+          "source": "AP News",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRur9a1M0REXP2xn8wD0nkIhCXKUc4X3PgS7dLpOUcaeKaSjdJe10djL3CDZ2g",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "IonQ: I'm Losing Confidence In The Story (Rating Downgrade)",
+          "url": "https://seekingalpha.com/article/4968458-ionq-im-losing-confidence-in-the-story-downgrade",
+          "source": "Seeking Alpha",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTiVVDG3e3r-yW2lAidNmfsYttH6dlmQ5xKg5rfRootEME7ECT1uPGtgc30X7w",
+          "og_title": "IonQ: I'm Losing Confidence In The Story (Rating Downgrade)",
+          "og_desc": "The bear case on IonQ: valuation still looks aggressive after a 60% fall from its 52-week high; stock-funded deals nearly doubled shares in two years.",
+          "og_image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2204659748/image_2204659748.jpg?io=getty-c-og",
+          "ok": true
+        },
+        {
+          "title": "Quantum Computing, Rigetti Computing, TeraWulf, and Xanadu Quantum Technologies shares are falling, what you need to know",
+          "url": "https://stockstory.org/us/stocks/nasdaq/qubt/news/why-up-down/quantum-computing-rigetti-computing-terawulf-and-xanadu-quantum-technologies-shares-are-falling-what-you-need-to-know",
+          "source": "StockStory",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPyqvx8XOXSVu_YMSYORI95CBcGeLNLhX-Sn20I--KewaI2hkXzlY8TXdsj1k",
+          "og_title": "Quantum Computing, Rigetti Computing, TeraWulf, and Xanadu Quantum Technologies shares are falling, what you need to know - StockStory",
+          "og_desc": "What happened? A number of stocks fell in the afternoon session after a hot inflation print pushed Treasury yields above 5% and leadership turmoil at Nvidia ...",
+          "og_image": "https://stockstory.org/stockstory/company-image/QUBT",
+          "ok": true
+        },
+        {
+          "title": "Quantum Stocks Retreat as Hot CPI, Nvidia Shakeup and Mixed Earnings Hit Sector",
+          "url": "https://finance.biggo.com/news/f27c9ca0-5962-46ed-8c08-e5c1ad9fd8d2",
+          "source": "BigGo Finance",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTUN1sJTJ8p9ioXHf28Zs9YjN1LxFTkpjs-SVkcq8LHxw8RQDEYX7C6BXUf20Q",
+          "og_title": "Quantum Stocks Retreat as Hot CPI, Nvidia Shakeup and Mixed Earnings Hit Sector — BigGo Finance",
+          "og_desc": "Quantum computing shares fell in Thursday premarket trading, with IonQ and D-Wave each down about 3.9%, Quantum Computing Inc. and Quantinuum 3.1% and…",
+          "og_image": "https://img.biggo.com/MLx8Gd6J4OvTGVBsrGrHejZ-Wsw-MPvxRL5IRcgkvVc/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTExL2YyN2M5Y2EwLTU5NjItNDZlZC04YzA4LWU1YzFhZDlmZDhkMl8xNzk0NDkzNzAxX2RlZmF1bHQuanBn.jpg",
+          "ok": true
+        },
+        {
+          "title": "Warren Buffett's Successor, Greg Abel, Just Dropped a $426 Million Bombshell on Wall Street",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-successor-greg-abel-102602227.html",
+          "source": "Yahoo Finance",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRu3atId9uuesTvUyt_WxfFMVgQU-EW6Nw0gJoNln0mO10gslkeBPYWttTeDfw",
+          "og_title": "Warren Buffett's Successor, Greg Abel, Just Dropped a $426 Million Bombshell on Wall Street",
+          "og_desc": "Berkshire Hathaway’s bosses have been net sellers of stocks in 15 of the last 16 quarters.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/8036c3e160e0804e7eb2d9425f2708b98f4b63d1f2fa9dfeabc5158949a70c8b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F67bfd36e1716922f321cd4be791f6226.jpg",
+          "ok": true
+        },
+        {
+          "title": "Warren Buffett's Successor, Greg Abel, Has Over 35% of Berkshire Hathaway's $359 Billion Portfolio Invested in Just 2 Undeniable Winners",
+          "url": "https://www.fool.com/investing/2026/11/13/warren-buffett-successor-greg-abel-35-berkshire-hathaway-359-billion-portfolio-invested-in-2-undeniable-winners/",
+          "source": "The Motley Fool",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTQgJ_OKanO_DyRgOfGLtxZtB7BcLDCraaKuQr_9UYPM_OY9Xc0dIaE3jzMvXI",
+          "og_title": "Warren Buffett's Successor, Greg Abel, Has Over 35% of Berkshire Hathaway's $359 Billion Portfolio Invested in Just 2 Undeniable Winners | The Motley Fool",
+          "og_desc": "Nearly $127 billion of Berkshire’s invested assets can be traced to two industry leaders.",
+          "og_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2Fb436aa54c2a8bbb266f5d52862f3c53fbdc88fc4-3000x2076.jpg&w=1200&op=resize",
+          "ok": true
+        },
+        {
+          "title": "Berkshire's Safe-Haven Bid Masks a Weaker Underwriting Quarter",
+          "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/berkshire-s-safe-haven-bid-masks-a-weaker-underwriting-quarter/70518467",
+          "source": "ad-hoc-news.de",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQcaEYpcBEw0PhZsTJoUN8kBcayQNcxXag9upZRC8LgtTh3ugPGBJ82Irs31UU",
+          "og_title": "Berkshire's Safe-Haven Bid Masks a Weaker Underwriting Quarter",
+          "og_desc": "Berkshire stock gained 14% in 30 days as money left tech and AI names. Q3 operating profit fell 6% t",
+          "og_image": "https://mdb.ad-hoc-news.de/bild/bild-2699574_1200_675.webp",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "اقتصاد",
+      "icon": "💰",
+      "color": "#f5c542",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-stock.png",
+      "published_at": "2026-11-16T12:33:21.279139+00:00"
     },
     {
       "title": "jlo",
@@ -2667,88 +3086,6 @@
       "publishable": false,
       "card": "cards/world-2026-11-16-jlo.png",
       "published_at": "2026-11-16T07:01:29.548787+00:00"
-    },
-    {
-      "title": "stock",
-      "traffic": "+300",
-      "traffic_num": 300,
-      "published": "Mon, 16 Nov 2026 04:00:00 -0800",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRVZUKlcmjnmTFQ1YZBmKHF39IPopP2AMJtpcFgIrNr1GLtwG2kgCxzzolNyTo",
-      "image_source": "MarketWatch",
-      "news": [
-        {
-          "title": "Stock Market Today: Dow, S&P 500 and Nasdaq are set to fall as investors await Nvidia results and Anthropic's IPO this week: live updates",
-          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-investors-nvidia-results-anthropic-ipo",
-          "source": "MarketWatch",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRVZUKlcmjnmTFQ1YZBmKHF39IPopP2AMJtpcFgIrNr1GLtwG2kgCxzzolNyTo",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Nvidia Earnings, Anthropic IPO and Federal Reserve Outlook Among Five Key Market Events This Week",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-anthropic-ipo-federal-112739467.html",
-          "source": "Yahoo Finance",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQV7GlGXaPjhVoODIc-BaAakD-dfv7HFydIXSduDp-KQw1T_3cFyPUL5PosTY",
-          "og_title": "Nvidia Earnings, Anthropic IPO and Federal Reserve Outlook Among Five Key Market Events This Week",
-          "og_desc": "Investors face a series of corporate earnings announcements, economic data releases and international political meetings this week, with developments in artificial intelligence expected to remain a central focus. Quarterly results from Nvidia (NASDAQ:NVDA) and the anticipated pricing of Anthropic’s (NASDAQ:ANT) initial public offering are among the main events on the calendar.",
-          "og_image": "https://s.yimg.com/lo/mysterio/api/d1603258c8f2717ca57ff38a95ece8877f582ac424048f56374ee41e89524f5f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2Fcaf66caec84d0f59dddb9b4d96cc3068.png",
-          "ok": true
-        },
-        {
-          "title": "Stocks decline on tech sell-off as concerns over the Nvidia fallout persist",
-          "url": "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7",
-          "source": "AP News",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRur9a1M0REXP2xn8wD0nkIhCXKUc4X3PgS7dLpOUcaeKaSjdJe10djL3CDZ2g",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "IonQ: I'm Losing Confidence In The Story (Rating Downgrade)",
-          "url": "https://seekingalpha.com/article/4968458-ionq-im-losing-confidence-in-the-story-downgrade",
-          "source": "Seeking Alpha",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTiVVDG3e3r-yW2lAidNmfsYttH6dlmQ5xKg5rfRootEME7ECT1uPGtgc30X7w",
-          "og_title": "IonQ: I'm Losing Confidence In The Story (Rating Downgrade)",
-          "og_desc": "The bear case on IonQ: valuation still looks aggressive after a 60% fall from its 52-week high; stock-funded deals nearly doubled shares in two years.",
-          "og_image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2204659748/image_2204659748.jpg?io=getty-c-og",
-          "ok": true
-        },
-        {
-          "title": "Quantum Computing, Rigetti Computing, TeraWulf, and Xanadu Quantum Technologies shares are falling, what you need to know",
-          "url": "https://stockstory.org/us/stocks/nasdaq/qubt/news/why-up-down/quantum-computing-rigetti-computing-terawulf-and-xanadu-quantum-technologies-shares-are-falling-what-you-need-to-know",
-          "source": "StockStory",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPyqvx8XOXSVu_YMSYORI95CBcGeLNLhX-Sn20I--KewaI2hkXzlY8TXdsj1k",
-          "og_title": "Quantum Computing, Rigetti Computing, TeraWulf, and Xanadu Quantum Technologies shares are falling, what you need to know - StockStory",
-          "og_desc": "What happened? A number of stocks fell in the afternoon session after a hot inflation print pushed Treasury yields above 5% and leadership turmoil at Nvidia ...",
-          "og_image": "https://stockstory.org/stockstory/company-image/QUBT",
-          "ok": true
-        },
-        {
-          "title": "Quantum Stocks Retreat as Hot CPI, Nvidia Shakeup and Mixed Earnings Hit Sector",
-          "url": "https://finance.biggo.com/news/f27c9ca0-5962-46ed-8c08-e5c1ad9fd8d2",
-          "source": "BigGo Finance",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTUN1sJTJ8p9ioXHf28Zs9YjN1LxFTkpjs-SVkcq8LHxw8RQDEYX7C6BXUf20Q",
-          "og_title": "Quantum Stocks Retreat as Hot CPI, Nvidia Shakeup and Mixed Earnings Hit Sector — BigGo Finance",
-          "og_desc": "Quantum computing shares fell in Thursday premarket trading, with IonQ and D-Wave each down about 3.9%, Quantum Computing Inc. and Quantinuum 3.1% and…",
-          "og_image": "https://img.biggo.com/MLx8Gd6J4OvTGVBsrGrHejZ-Wsw-MPvxRL5IRcgkvVc/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTExL2YyN2M5Y2EwLTU5NjItNDZlZC04YzA4LWU1YzFhZDlmZDhkMl8xNzk0NDkzNzAxX2RlZmF1bHQuanBn.jpg",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "اقتصاد",
-      "icon": "💰",
-      "color": "#f5c542",
-      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-      "publishable": false,
-      "card": "cards/world-2026-11-16-stock.png",
-      "published_at": "2026-11-16T12:33:21.279139+00:00"
     },
     {
       "title": "canucks",
@@ -4436,6 +4773,107 @@
       "publishable": false,
       "card": "cards/world-2026-11-16-ethan-hawke.png",
       "published_at": "2026-11-16T13:31:20.885074+00:00"
+    },
+    {
+      "title": "bryan cranston",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 16 Nov 2026 05:40:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSc9lzkbV1geG-_iOYHzq1rjB-XQxvcbTzBmxhmSrpOL1QMQyr2Hje7Djo5Q",
+      "image_source": "Vanity Fair",
+      "news": [
+        {
+          "title": "Casting Walter White: How ‘Breaking Bad’ Found Bryan Cranston",
+          "url": "https://www.vanityfair.com/story/breaking-bad-walter-white-bryan-cranston-casting",
+          "source": "Vanity Fair",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSc9lzkbV1geG-_iOYHzq1rjB-XQxvcbTzBmxhmSrpOL1QMQyr2Hje7Djo5Q",
+          "og_title": "Casting Walter White: How ‘Breaking Bad’ Found Bryan Cranston",
+          "og_desc": "It’s hard to imagine a world in which Cranston didn’t play Walter White. But as a new excerpt from Dean Norris’s oral history of the show reveals, some execs needed a bit of convincing: “When Vince [Gilligan] suggested Bryan, we all kind of said, ‘That guy from Malcolm in the Middle?’”",
+          "og_image": "https://media.vanityfair.com/photos/57f2a45e14bda1f86051b731/16:9/w_1280,c_limit/walter-white-bryan-cranston-underwear-breaking-bad.jpg",
+          "ok": true
+        },
+        {
+          "title": "Bryan Cranston & Aaron Paul Reunite For New Breaking Bad Release 13 Years After Finale",
+          "url": "https://screenrant.com/breaking-bad-cast-reunion-do-what-youre-gonna-do-november-17/",
+          "source": "ScreenRant",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9NyNBGi3zOnA2UQcQLLnteb9zNFcg-Ie2MTbWH2-NaVhREXdyVGr1Q3ituxY",
+          "og_title": "Bryan Cranston & Aaron Paul Reunite For New Breaking Bad Release 13 Years After Finale",
+          "og_desc": "Cranston and Aaron Paul are back for a new Breaking Bad release this week.",
+          "og_image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/03/walt-and-jesse-looking-shocked-in-breaking-bad.jpg?w=1600&h=900&fit=crop",
+          "ok": true
+        },
+        {
+          "title": "Bryan Cranston Reflects on Healing His Relationship with His Mom After Alzheimer’s Diagnosis (Exclusive)",
+          "url": "https://people.com/bryan-cranston-mom-alzheimers-changed-bond-tangles-exclusive-12247712",
+          "source": "People.com",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQQrLyjILaB-RatTTbpd-9VYzaX5sERpS-fpcX9XEl511yVKWgkKbZ6upQH9rk",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-bryan-cranston.png",
+      "published_at": "2026-11-16T14:01:33.262172+00:00"
+    },
+    {
+      "title": "health",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 16 Nov 2026 05:20:00 -0800",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQNzGDqAHtgIJ4FlIvmT5ZmF_yaTVKO2zubT932ycHyUjcLANAoEh5sNULToZM",
+      "image_source": "The New York Times",
+      "news": [
+        {
+          "title": "American Global Health Aid Isn’t Dead. It’s Changing.",
+          "url": "https://www.nytimes.com/2026/11/16/world/american-global-health-aid-isnt-dead-its-changing.html",
+          "source": "The New York Times",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQNzGDqAHtgIJ4FlIvmT5ZmF_yaTVKO2zubT932ycHyUjcLANAoEh5sNULToZM",
+          "og_title": "American Global Health Aid Isn’t Dead. It’s Changing.",
+          "og_desc": "The Trump administration promised to make aid programs more “America First.” Some countries are balking.",
+          "og_image": "https://static01.nyt.com/images/2026/11/11/multimedia/00inv-ideas-globalhealth-01-gvhm/00inv-ideas-globalhealth-01-gvhm-facebookJumbo.jpg",
+          "ok": true
+        },
+        {
+          "title": "The Advancing Global Health Annual Program Statement (AGH/APS) Mechanism: Supplementing the America First MOUs",
+          "url": "https://www.kff.org/global-health-policy/the-advancing-global-health-annual-program-statement-agh-aps-mechanism-supplementing-the-america-first-mous/",
+          "source": "KFF",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwI5VsvILT1n-pA8dNGQmUyKTLSPa5dOD8p7ykop2XdFoUvN1lEBvyLeNtwHg",
+          "og_title": "The Advancing Global Health Annual Program Statement (AGH/APS) Mechanism: Supplementing the America First MOUs  | KFF",
+          "og_desc": "To shed greater light on U.S. global health efforts under the AFGHS, this analysis examines the Advancing Global Health APS (AGH/APS) award opportunities announced to date by looking at how funding may be directed across countries and selected areas of global health programming, painting a fuller picture of how continued U.S. global health investment may look in a post-USAID foreign aid landscape.",
+          "og_image": "https://www.kff.org/wp-content/uploads/sites/7/2026/11/Feature-Image-AGH-APS-Mechanism-Supplementing-the-America-First-MOUs-.png",
+          "ok": true
+        },
+        {
+          "title": "Trump’s Global Health Agenda Is Colliding With African Nations’ Sovereignty",
+          "url": "https://www.worldpoliticsreview.com/trump-africa-gobal-health-deals-sovereignty/",
+          "source": "World Politics Review",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQaSPXFKmR3xIbrmo5cWQJ-z5FphWC9o_Eri47jXiadGvZm3TQC72EY4gndFRo",
+          "og_title": "Trump’s Global Health Agenda Is Colliding With African Nations’ Sovereignty",
+          "og_desc": "African governments are signing health financing agreements with Washington, but only after pushing back on the Trump administration’s demands.",
+          "og_image": "https://www.worldpoliticsreview.com/wp-content/uploads/2026/11/trump-africa-gobal-health-deals-sovereignty-11132026-1.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: dead",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-health.png",
+      "published_at": "2026-11-16T14:01:33.262172+00:00"
     },
     {
       "title": "bill fennelly",

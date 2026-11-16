@@ -5,7 +5,7 @@
     "name_en": "Worldwide",
     "lang": "en",
     "flag": "🌐",
-    "generated_at": "2026-11-16T13:31:20.885074+00:00",
+    "generated_at": "2026-11-16T14:01:33.262172+00:00",
     "day": "2026-11-16",
     "trends": [
       {
@@ -13,9 +13,19 @@
         "traffic": "20000+",
         "traffic_num": 20000,
         "published": "Mon, 16 Nov 2026 05:10:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcToQYS3NCTNgXQbFYzXxrz3wWAyY8t4QLIyJkvkce-epdjxrZhD0-bHALg01K8",
-        "image_source": "The Washington Post",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTP_fU32hqyMziBUCo9_kw9QZ8i9c7Mr9v9xoK-Ib5zlhXJH6Ey_3NKp-jRB-o",
+        "image_source": "The New York Times",
         "news": [
+          {
+            "title": "Billy Evans Says He’d Do ‘You Can See Everything’ All Over Again",
+            "url": "https://www.nytimes.com/2026/11/15/arts/billy-evans-you-can-see-everything.html",
+            "source": "The New York Times",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTP_fU32hqyMziBUCo9_kw9QZ8i9c7Mr9v9xoK-Ib5zlhXJH6Ey_3NKp-jRB-o",
+            "og_title": "Billy Evans Says He’d Do ‘You Can See Everything’ All Over Again",
+            "og_desc": "Speaking with CBS Sunday Morning, Elizabeth Holmes’s partner said that despite the shower scene and other regrets, he would “100 percent” make “You Can See Everything” once more.",
+            "og_image": "https://static01.nyt.com/images/2026/11/17/arts/15cul-billyevans-cbs2/15cul-billyevans-cbs2-facebookJumbo.jpg",
+            "ok": true
+          },
           {
             "title": "Elizabeth Holmes’s partner says he hasn’t spoken to Nathan Fielder since seeing film",
             "url": "https://www.washingtonpost.com/entertainment/movies/2026/11/15/billy-evans-discusses-nathan-fielder-nude-scene-you-can-see-everything/",
@@ -26,17 +36,6 @@
             "og_image": "",
             "ok": false,
             "error": "TimeoutError"
-          },
-          {
-            "title": "Elizabeth Holmes’ Partner Billy Evans Speaks Out About ‘You Can See Everything’ for First Time",
-            "url": "https://people.com/elizabeth-holmes-partner-billy-evans-speaks-out-for-the-first-time-since-you-can-see-everything-documentary-12252880",
-            "source": "People.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ58IToNE3LoHnyKDoJ_gYv_4JcFYYGzjJZwQCYLm1onSxGMW_GNeY-SfMrZoA",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
           },
           {
             "title": "Billy Evans, in first interview, tells his side of \"You Can See Everything,\" its portrayal of Elizabeth Holmes",
@@ -55,23 +54,74 @@
         "category": "فن ومشاهير",
         "icon": "🎬",
         "color": "#c77dff",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
+        "reason": "الأخبار تطابق: film",
+        "publishable": true,
+        "article": {
+          "headline": "Billy Evans Defends Involvement In Controversial Elizabeth Holmes Documentary You Can See Everything",
+          "summary": "Billy Evans, partner of Theranos founder Elizabeth Holmes, defends his participation in the documentary You Can See Everything despite his portrayal as an antagonist.",
+          "body": "Billy Evans sat for his first television interview with CBS Sunday Morning to address his role in the documentary You Can See Everything, declaring that despite personal regrets, he would repeat the experience \"100 percent.\" The film, directed by Nathan Fielder and Lance Oppenheim, captured Evans and Elizabeth Holmes in their home for 34 days leading up to her 2023 incarceration. While the documentary portrays Evans as manipulative and controlling, he insisted to reporter Matt Gutman that he is simply \"deeply passionate\" about his family and work rather than a \"controlling monster.\" Evans explained that he participated because he learned that \"you can’t lose your voice\" while watching his partner endure intense press scrutiny. Despite his onscreen depiction, Evans stated he loves the film, though he admitted he did not control the final edit. The documentary has drawn significant attention for its R-rated content, specifically an early scene featuring Evans nude in the shower. Evans contested reports that the shower scene was his idea, telling CBS he did not give consent for that specific footage to be included and found the final inclusion \"awkward.\" He alleged the production crew filmed for 16 hours a day and made requests to capture content inappropriate for television. Beyond the personal fallout, Evans noted the film has prompted threats against his family's safety. He stated that he initially took a significant risk by inviting Fielder into his home, but emphasized that his primary goal was to ensure viewers could see Holmes as he sees her. Evans plans to continue living with what he describes as integrity, regardless of the public's perception of his character.",
+          "facts": [
+            {
+              "label": "Documentary Title",
+              "value": "You Can See Everything"
+            },
+            {
+              "label": "Filming Duration",
+              "value": "34 days"
+            },
+            {
+              "label": "Daily Filming Hours",
+              "value": "16 hours"
+            },
+            {
+              "label": "Directors",
+              "value": "Nathan Fielder and Lance Oppenheim"
+            },
+            {
+              "label": "Subject",
+              "value": "Elizabeth Holmes"
+            }
+          ],
+          "tags": [
+            "Elizabeth Holmes",
+            "Billy Evans",
+            "You Can See Everything",
+            "Documentary",
+            "Theranos"
+          ],
+          "_v": 4,
+          "_by": "gemini",
+          "written_at": "2026-11-16T14:01:50.860943+00:00",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Theranos_Chairman%2C_CEO_and_Founder_Elizabeth_Holmes_%28L%29_and_TechCrunch_Writer_and_Moderator_Jonathan_Shieber_speak_onstage_at_TechCrunch_Disrupt_at_Pier_48_on_September_8%2C_2014_%2814995888227%29.jpg/1280px-thumbnail.jpg",
+            "width": 1280,
+            "height": 841,
+            "artist": "TechCrunch",
+            "license": "CC BY 2.0",
+            "license_url": "https://creativecommons.org/licenses/by/2.0",
+            "file_page": "https://commons.wikimedia.org/wiki/File:Theranos_Chairman,_CEO_and_Founder_Elizabeth_Holmes_(L)_and_TechCrunch_Writer_and_Moderator_Jonathan_Shieber_speak_onstage_at_TechCrunch_Disrupt_at_Pier_48_on_September_8,_2014_(14995888227).jpg",
+            "wiki_title": "Elizabeth Holmes",
+            "wiki_lang": "en"
+          },
+          "photo_v": 8,
+          "_had_data": false,
+          "_localized": false
+        },
         "card": "cards/world-2026-11-16-holmes-documentary.png"
       },
       {
-        "title": "prince harry, duke of sussex",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "published": "Mon, 16 Nov 2026 05:00:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8TLhnMXcO5JO4SRiJJvxE9V6xKyCMcuHenXLwyehfnqAqtpuh2GcgCa34MgU",
-        "image_source": "News24",
+        "title": "nitto atp finals",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "published": "Mon, 16 Nov 2026 05:40:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAko2Y0ObAmUWrWpev3rBh-ha2zEo6cyzevLRnap9axVP_Ro5y9_r7olunAkU",
+        "image_source": "ATP Tour",
         "news": [
           {
-            "title": "Harry’s friend reveals how he really feels about Sandringham Christmas snub",
-            "url": "https://www.news24.com.au/lifestyle/celebrity-life/prince-harrys-friend-reveals-how-the-duke-really-feels-about-king-charles-sandringham-christmas-snub/news-story/5933e16c14058627ef546bff8718aaf8",
-            "source": "News24",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8TLhnMXcO5JO4SRiJJvxE9V6xKyCMcuHenXLwyehfnqAqtpuh2GcgCa34MgU",
+            "title": "Shelton’s first win in Turin! American edges Fils at Nitto ATP Finals",
+            "url": "https://www.atptour.com/en/news/shelton-fils-nitto-atp-finals-2026-sunday",
+            "source": "ATP Tour",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAko2Y0ObAmUWrWpev3rBh-ha2zEo6cyzevLRnap9axVP_Ro5y9_r7olunAkU",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -79,35 +129,236 @@
             "error": "HTTPError"
           },
           {
-            "title": "Prince Harry and Meghan Reportedly Not Invited to King Charles’ Birthday or Christmas Despite U.K. Return",
-            "url": "https://www.yahoo.com/entertainment/celebrity/royals/articles/prince-harry-meghan-reportedly-not-010017153.html",
-            "source": "Yahoo",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThZrqa_KKVUzZ184JMn6DF1gciXxOoLhEYD03_CGiMYLHP8FO0IJnBPCU2e30",
-            "og_title": "Prince Harry and Meghan Reportedly Not Invited to King Charles’ Birthday or Christmas Despite U.K. Return",
-            "og_desc": "Prince Harry and Meghan Markle reportedly have no invitations to King Charles’ 78th birthday gathering or the royal family’s Christmas celebrations. In her November 14 column for the Daily Mail, Aliso...",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/397f1463ee78a911cafcab61b05b462625777334c996ec04cc43b6fff2452396/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwealth_of_geeks_188%2Fbec13ebe088a4a1b1679c16b668b7ef9.jpg",
+            "title": "Shelton kicks off his new stage with Ferrero as coach with a victory",
+            "url": "https://www.puntodebreak.com/en/2026/11/15/shelton-kicks-off-his-new-stage-with-ferrero-as-coach-with-victory",
+            "source": "Punto de Break",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTeK0U30uVliAY0Z4b8rLwSO9jItz8NDftUx5vFIX_7doK89gRE1DSPVsyrPUI",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
+          },
+          {
+            "title": "Ben Shelton, Alexander Zverev prevail on first day of ATP Finals",
+            "url": "https://www.heraldonline.com/sports/tennis/article318094947.html",
+            "source": "Rock Hill Herald",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtxbHqtaDYRC_-tpZ_MIJPUKSj_lVhLxKL3Su8a7btkKDGN4PZ2KQvAf2PbsI",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "TimeoutError"
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/world-2026-11-16-nitto-atp-finals.png"
+      },
+      {
+        "title": "market",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "published": "Mon, 16 Nov 2026 05:30:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRM3MDSS8ec3Pe69TqM930udyAUzjnSePlIzVaarrPJ-jIEg_KQ3XjfdKXLEF0",
+        "image_source": "CNBC",
+        "news": [
+          {
+            "title": "Stock futures slide as Nvidia leads AI stocks lower: Live updates",
+            "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html",
+            "source": "CNBC",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRM3MDSS8ec3Pe69TqM930udyAUzjnSePlIzVaarrPJ-jIEg_KQ3XjfdKXLEF0",
+            "og_title": "Stock futures slide as Nvidia leads AI stocks lower: Live updates",
+            "og_desc": "The Dow, S&P 500 and Nasdaq posted their biggest weekly gains since August, rising more than 2% each.",
+            "og_image": "https://image.cnbcfm.com/api/v1/image/108548216-1794329432695-Traders-Photo-20261110-KK-PRESS-006.jpg?v=1794329596&w=1920&h=1080",
             "ok": true
           },
           {
-            "title": "Harry and Meghan Markle 'snubbed' from King Charles' 78th birthday celebrations",
-            "url": "https://www.dailystar.co.uk/news/latest-news/harry-meghan-markle-snubbed-king-37878766",
-            "source": "Daily Star",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ21PS2ZebEgyza4M3nbilNFCSKVCnqTa9hky3oryGtX12vW1ZUwpD9hkcyjoE",
-            "og_title": "Harry and Meghan Markle 'snubbed' from King Charles' 78th birthday celebrations",
-            "og_desc": "Prince Harry and Meghan Markle have reportedly not been invited to King Charles's 78th birthday celebrations on Saturday (November 14) or the Royal Family's annual Christmas gathering at Sandringham, as the royal rift continues",
-            "og_image": "https://i2-prod.dailystar.co.uk/article37878765.ece/ALTERNATES/s1200d/0_The-Duke-And-Duchess-Of-Sussex-Visit-The-European-Parliament.jpg",
+            "title": "Stock Market Today: Tech Futures Sell Off; Nvidia Dives Amid Jensen Huang News (Live Coverage)",
+            "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-stock-nvda-jensen-huang/",
+            "source": "Investor's Business Daily",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRbUmo7q4Zj6XhxGW3VExkhW2DY2BzaWwEiWKLKKi1pZ3l-6ASoc2S-qF5oT4c",
+            "og_title": "Stock Market Today: Tech Futures Sell Off; Nvidia Dives Amid Jensen Huang News (Live Coverage)",
+            "og_desc": "Stock Market Today: Nasdaq futures sell off Monday as Nvidia stock dives amid reports that Jensen Huang is considering a return to the firm.",
+            "og_image": "https://www.investors.com/wp-content/uploads/2024/11/Stock-wallstreetnyseflag-30-shutt.jpg",
+            "ok": true
+          },
+          {
+            "title": "Stocks dip ahead of Nvidia earnings, Anthropic IPO",
+            "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-16/",
+            "source": "Reuters",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTvPUUjeAHM5HGXcvXovA2MdCcQemz1Ig5qpB42mO5dgKj5-VEOKaiz7eRH0Sc",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "اقتصاد",
+        "icon": "💰",
+        "color": "#f5c542",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-11-16-market.png"
+      },
+      {
+        "title": "carlos alcaraz",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "published": "Mon, 16 Nov 2026 05:30:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_nwAnKi9XryzZR4kgPr1byDkWSIqpRIi4Q7qfTxT83lJezlZALjyLQ8gF3kg",
+        "image_source": "MARCA",
+        "news": [
+          {
+            "title": "Carlos Alcaraz - Frances Tiafoe: en directo las Finales ATP | Última hora de ATP Finals en vivo hoy",
+            "url": "https://www.marca.com/tenis/copa-masters/carlos-alcaraz-frances-tiafoe/2026/11/16/04_0414_20261116_2-directo.html",
+            "source": "MARCA",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_nwAnKi9XryzZR4kgPr1byDkWSIqpRIi4Q7qfTxT83lJezlZALjyLQ8gF3kg",
+            "og_title": "Carlos Alcaraz - Frances Tiafoe: en directo las Finales ATP | Última hora de ATP Finals en vivo hoy | Marca",
+            "og_desc": "Carlos Alcaraz - Frances Tiafoe 6-2 2-1. Saca Alcaraz Exhibición de potencia de Carlos para ponerse 40-0. Luego, ambos dan espectáculo. Frances ha alc",
+            "og_image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/11/16/17948314571482.jpg",
+            "ok": true
+          },
+          {
+            "title": "ATP Finals 2026: así está la tabla de posiciones del Round Robin y quiénes se clasifican a semifinales",
+            "url": "https://espndeportes.espn.com/tenis/nota/_/id/17518539/atp-finals-2026-asi-esta-la-tabla-de-posiciones-del-round-robin-y-quienes-se-clasifican-a-semifinales",
+            "source": "ESPN Deportes",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYPlsZzBoI9pYsNJdTleX2tKcQY9-LjsHMpLrVpAm40I0XUDgXQgp9PZ0sgMA",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
+          },
+          {
+            "title": "Guía de la edición 2026 del Masters ATP",
+            "url": "https://www.france24.com/es/minuto-a-minuto/20261115-gu%C3%ADa-de-la-edici%C3%B3n-2026-del-masters-atp",
+            "source": "France 24",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQwxZM11jmYjjPples-aD-pKFzJo6L6QNOmAbxzxlxuxnqcuQZsu8lodSbK2zE",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/world-2026-11-16-carlos-alcaraz.png"
+      },
+      {
+        "title": "gma deals and steals",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "published": "Mon, 16 Nov 2026 05:20:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRoHiqEpFIKzzhhNrzLFkjx3xDcqhv5ebjBKjoib3T-GskzWIdWGcJau_sslk",
+        "image_source": "Good Morning America",
+        "news": [
+          {
+            "title": "'GMA' Deals & Steals on Best of Oprah's Favorite Things",
+            "url": "https://www.goodmorningamerica.com/shop/story/gma-deals-steals-best-oprahs-favorite-things-138117550",
+            "source": "Good Morning America",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRoHiqEpFIKzzhhNrzLFkjx3xDcqhv5ebjBKjoib3T-GskzWIdWGcJau_sslk",
+            "og_title": "'GMA' Deals & Steals on Best of Oprah's Favorite Things",
+            "og_desc": "Tory Johnson has exclusive deals for \"GMA\" viewers.",
+            "og_image": "https://i.abcnewsfe.com/a/c43e3578-1bc9-4272-8f2c-5238c8f999c7/GMA_DS_111426_V01_sd_1794592647676_hpMain_16x9.jpg?w=992",
+            "ok": true
+          },
+          {
+            "title": "Oprah’s Favorite Things 2026 holiday guide is live — these are the best gifts under $100",
+            "url": "https://shopping.yahoo.com/gift-ideas/article/oprahs-favorite-things-2026-holiday-guide-is-live--these-are-the-best-gifts-under-100-195208438.html",
+            "source": "Yahoo",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ7TxGyURoqHevgvsRAIvWEY4rJIZt15Mo5MnBFsFW9m09r358HYtnhdWVbdTE",
+            "og_title": "Oprah’s Favorite Things 2026 holiday guide is live — these are the best gifts under $100",
+            "og_desc": "This year's lineup includes \"the perfect white shirt,\" Darn Tough socks and more wallet-friendly buys that Lady O swears by.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/d94eef28f21607f5f16529cacc3e790c28dd426f99d98cb39d58ece5eabfe73c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fe57a4dc6-f47f-4298-9297-9e6ccd3b42f6",
+            "ok": true
+          },
+          {
+            "title": "It’s Time: Oprah’s Favorite Things 2026 Has Arrived, and It’s Packed with Impressive Gift Ideas from $13",
+            "url": "https://people.com/oprahs-favorite-things-2026-12187539",
+            "source": "People.com",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQxoZuMoy-h_b7zHlrOQsgc1CjeTGJt09gjqr3ez_oFjFyCOjtNkFBtcAw2eU",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-11-16-gma-deals-and-steals.png"
+      },
+      {
+        "title": "frances tiafoe",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Mon, 16 Nov 2026 05:20:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSjDK1npKEV6dK8iXy3Di7KodAmLPg69Yampos8toLRVAf4uZxuC-ok7Ns7H94",
+        "image_source": "The Guardian",
+        "news": [
+          {
+            "title": "Carlos Alcaraz v Frances Tiafoe: ATP Finals tennis group stage – live",
+            "url": "https://www.theguardian.com/sport/live/2026/nov/16/carlos-alcaraz-v-frances-tiafoe-atp-finals-tennis-group-stage-live",
+            "source": "The Guardian",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSjDK1npKEV6dK8iXy3Di7KodAmLPg69Yampos8toLRVAf4uZxuC-ok7Ns7H94",
+            "og_title": "Carlos Alcaraz v Frances Tiafoe: ATP Finals tennis group stage – live",
+            "og_desc": "Join Daniel Harris for updates as the group stage continues in Turin with the opening game for Carlos Alcaraz and Frances Tiafoe",
+            "og_image": "https://i.guim.co.uk/img/media/8d69dcd29671403301c9faab5a2d0852d88106d7/125_137_3257_2606/master/3257.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=f91a7f32fc6627f0eef5379ed3d8a235",
+            "ok": true
+          },
+          {
+            "title": "ATP Finals",
+            "url": "https://www.reutersconnect.com/item/atp-finals/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkcxMTAzNUo",
+            "source": "Reuters Connect",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTeonUa4b-VvzI-nCVVKHTMu95bIxIjEvVE_E-FUMuYtLj4bfyGfNY-_y1JyYE",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Carlos Alcaraz faces Frances Tiafoe on day two of 2026 ATP Finals: Live updates and latest score",
+            "url": "https://www.nytimes.com/athletic/live-blogs/alcaraz-vs-tiafoe-live-updates-atp-finals-2026-score-result/ePtyQTGPE5nx/",
+            "source": "The New York Times",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQvFO4mhf-1HKmf8AXnwuRvKFerEIjlXWu2vk-sR7CEINPWLYu8jyTrFT-8sj0",
+            "og_title": "Carlos Alcaraz leading Frances Tiafoe on day two of 2026 ATP Finals: Live updates and latest score",
+            "og_desc": "Alcaraz has won three titles since returning from a five-month injury absence.",
+            "og_image": "https://cdn-media.theathletic.com/cdn-cgi/image/width=1200,height=630,fit=crop/ePtyQTGPE5nx_yKeRvbbByZBW_1440x960.jpg",
             "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "ديني",
-        "icon": "🕌",
-        "color": "#4dd0b1",
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-16-prince-harry-duke-of-sussex.png"
+        "card": "cards/world-2026-11-16-frances-tiafoe.png"
       },
       {
         "title": "amy poehler",
@@ -144,10 +395,11 @@
             "url": "https://www.thenews.com.pk/latest/1422990-amy-poehler-shares-shocking-story-about-improvising",
             "source": "The News International",
             "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSCRIKvz07ZwOoQcYue7ea9tGotQIGlInthHSs3Fm8T73X0ShvGZEehK_NMku8",
-            "og_title": "Amy Poehler shares shocking story about 'improvising'",
-            "og_desc": "Amy Poehler recently spilled details about her life before fame, recalling an unforgettable celebrity encounter while working as a server.The 55-year-old American actress and comedian gave an...",
-            "og_image": "https://www.thenews.com.pk/assets/uploads/2026-11-09/1422990_013244_updates.jpg",
-            "ok": true
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
           }
         ],
         "geos": [
@@ -161,289 +413,141 @@
         "card": "cards/world-2026-11-16-amy-poehler.png"
       },
       {
-        "title": "dc studios leadership change gunn safran",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Mon, 16 Nov 2026 04:50:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEIr2tvvIYgwTzbulJ_dgxAr6L1jt5ZGGzYrgVssLGlMY4wGRwfx5tGk8Ii04",
-        "image_source": "TheWrap",
-        "news": [
-          {
-            "title": "DC in Flux Again: Jeremy Latcham Takes Over James Gunn's Universe of Gods and Monsters | Analysis",
-            "url": "https://www.thewrap.com/creative-content/movies/dc-studios-why-james-gunn-peter-safran-fired-jeremy-latcham/",
-            "source": "TheWrap",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEIr2tvvIYgwTzbulJ_dgxAr6L1jt5ZGGzYrgVssLGlMY4wGRwfx5tGk8Ii04",
-            "og_title": "DC in Flux Again: Jeremy Latcham Takes Over James Gunn's Universe of Gods and Monsters | Analysis",
-            "og_desc": "James Gunn and Peter Safran's ouster from leading DC Studios marks yet another creative reset for the beleaguered superhero brand.",
-            "og_image": "https://www.thewrap.com/wp-content/uploads/2026/11/110926-DC-Leadership.jpg",
-            "ok": true
-          },
-          {
-            "title": "DC Studios Shakeup: James Gunn & Peter Safran Out, Former Marvel Exec Jeremy Latcham In",
-            "url": "https://deadline.com/2026/11/dc-studios-james-gunn-peter-safran-leaving-1237217374/",
-            "source": "Deadline",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBSzcpr9UcIHbbJP4UQYDE35qE5G568ZA5NTtOn4MDKeS03CjJCDbIVjqu7H8",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
-          },
-          {
-            "title": "Skydance Can't Afford DC’s Cinematic Universe",
-            "url": "https://www.bloomberg.com/opinion/articles/2026-11-12/skydance-can-t-afford-dc-s-cinematic-universe",
-            "source": "Bloomberg.com",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSXG5L3ST02wG6v4nXxJNQWgRZ5X9k4BJ0EkMJDdhYXGGrzANEDFuNDDY4a0To",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-        "publishable": false,
-        "card": "cards/world-2026-11-16-dc-studios-leadership-change-gunn-safran.png"
-      },
-      {
-        "title": "royal news",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Mon, 16 Nov 2026 04:40:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpcrdrXiKMw6lyGyfmfHyvygpkGojcBZFp4Zlq8ZiIMFJfkIGku6LhjxOQaDk",
-        "image_source": "BBC",
-        "news": [
-          {
-            "title": "Prince and Princess of Wales in India ahead of meeting with Modi",
-            "url": "https://www.bbc.com/news/articles/c5lyk0e3n1jxo",
-            "source": "BBC",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpcrdrXiKMw6lyGyfmfHyvygpkGojcBZFp4Zlq8ZiIMFJfkIGku6LhjxOQaDk",
-            "og_title": "Prince and Princess of Wales in India ahead of meeting with Modi",
-            "og_desc": "Most of the engagements the royal couple will attend are related to the Earthshot Prize, which Prince William founded.",
-            "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/1bb6/live/b77baec0-e19c-11f1-a2d0-ff163dc3689d.jpg",
-            "ok": true
-          },
-          {
-            "title": "William and Kate in India – Royals play cricket, ride the Metro on trip",
-            "url": "https://www.yahoo.com/entertainment/celebrity/royals/articles/william-kate-india-royals-play-130953906.html",
-            "source": "Yahoo",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQY6kC4KD8iHoMTDi3ZIynk0and_kDd7qaabDziys_eZPqJFjxmJbtfiKOJ5k0",
-            "og_title": "William and Kate in India – Royals play cricket, ride the Metro on trip",
-            "og_desc": "Prince William and Princess Kate turned heads as they rode the Metro in Mumbai on their joint trip to India.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/0c7537b1bd51307bad1bcaf68a9593200a231a9fc1d535835608d4f4cf2e846c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_entertainment_893%2F3026712939b0014548e23876951ea129.jpg",
-            "ok": true
-          },
-          {
-            "title": "Kate Middleton and Prince William Arrive in India for First Joint Overseas Royal Tour in 4 Years",
-            "url": "https://people.com/kate-middleton-prince-william-arrive-india-first-joint-tour-4-years-12252916",
-            "source": "People.com",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTG6ErvGss8t7FLlKN5OtBPYiczmNBE-9u5pi-al83RBA9_qTSgyoDhwQMUSdA",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-16-royal-news.png"
-      },
-      {
-        "title": "gerard depardieu",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Mon, 16 Nov 2026 04:40:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSO9jqAwG6IsjPONr4CjCY8RMgJOu4nX5VOlcAke46Jmk8E5KytgnLt9JYmeBQ",
-        "image_source": "The New York Times",
-        "news": [
-          {
-            "title": "Gérard Depardieu Withdraws Sexual Assault Appeal, Apologizing to Victims",
-            "url": "https://www.nytimes.com/2026/11/16/movies/gerard-depardieu-apology-appeal-withdrawal.html",
-            "source": "The New York Times",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSO9jqAwG6IsjPONr4CjCY8RMgJOu4nX5VOlcAke46Jmk8E5KytgnLt9JYmeBQ",
-            "og_title": "Gérard Depardieu Withdraws Sexual Assault Appeal, Apologizing to Victims",
-            "og_desc": "The French actor admitted guilt on the morning his appeal trial was to begin in Paris, accepting his conviction for groping two women on a film set.",
-            "og_image": "https://static01.nyt.com/images/2026/11/16/world/16cul-depardieu-apology-aaa/16cul-depardieu-apology-aaa-facebookJumbo.jpg",
-            "ok": true
-          },
-          {
-            "title": "Gerard Depardieu Drops Appeal Against Sexual Assault Conviction, Admits Guilt",
-            "url": "https://www.hollywoodreporter.com/movies/movie-news/gerard-depardieu-drops-appeal-in-sexual-assault-conviction-1236756092/",
-            "source": "The Hollywood Reporter",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRsZbQLuTOMYgmB87T3lQWTr_gRq21z6ttZrtXXOaYD-TMa0HuFxD6svHOKiFA",
-            "og_title": "Gerard Depardieu Drops Appeal Against Sexual Assault Conviction, Admits Guilt",
-            "og_desc": "\"Justice has spoken. I was found guilty. I hear it and I accept this conviction,\" the actor said in public statement, referring to a conviction for sexually assaulting two woman on the set of Jean Becker’s 'The Green Shutters' in 2021.",
-            "og_image": "https://www.hollywoodreporter.com/wp-content/uploads/2024/08/GettyImages-8432162681.jpg?w=1296&h=730&crop=1",
-            "ok": true
-          },
-          {
-            "title": "Gérard Depardieu Drops Appeal Against Sexual Assault Verdict & Acknowledges Guilt In Statement Titled ‘I Hear’",
-            "url": "https://deadline.com/2026/11/gerard-depardieu-drops-appeal-sexual-assault-verdict-1237224924/",
-            "source": "Deadline",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8yT7CGxddvoQbOaAODJZu27QuNx6wLcEngVKBXF1hzdfOZ1d02VVU0BK-SdA",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: victims",
-        "publishable": false,
-        "card": "cards/world-2026-11-16-gerard-depardieu.png"
-      },
-      {
-        "title": "mindhunter",
+        "title": "bryan cranston",
         "traffic": "200+",
         "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 05:00:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCJi8frrSqJaVLuNbcciqXKBzK5KFVTqDoZMpzHYV9hqbHKaNw03LIHXzaczw",
-        "image_source": "ScreenRant",
+        "published": "Mon, 16 Nov 2026 05:40:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSc9lzkbV1geG-_iOYHzq1rjB-XQxvcbTzBmxhmSrpOL1QMQyr2Hje7Djo5Q",
+        "image_source": "Vanity Fair",
         "news": [
           {
-            "title": "Forget True Detective, Netflix's 2-Part Thriller Masterpiece Is The Most Realistic Detective Series",
-            "url": "https://screenrant.com/mindhunter-thriller-more-realistic-than-true-detective/",
+            "title": "Casting Walter White: How ‘Breaking Bad’ Found Bryan Cranston",
+            "url": "https://www.vanityfair.com/story/breaking-bad-walter-white-bryan-cranston-casting",
+            "source": "Vanity Fair",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSc9lzkbV1geG-_iOYHzq1rjB-XQxvcbTzBmxhmSrpOL1QMQyr2Hje7Djo5Q",
+            "og_title": "Casting Walter White: How ‘Breaking Bad’ Found Bryan Cranston",
+            "og_desc": "It’s hard to imagine a world in which Cranston didn’t play Walter White. But as a new excerpt from Dean Norris’s oral history of the show reveals, some execs needed a bit of convincing: “When Vince [Gilligan] suggested Bryan, we all kind of said, ‘That guy from Malcolm in the Middle?’”",
+            "og_image": "https://media.vanityfair.com/photos/57f2a45e14bda1f86051b731/16:9/w_1280,c_limit/walter-white-bryan-cranston-underwear-breaking-bad.jpg",
+            "ok": true
+          },
+          {
+            "title": "Bryan Cranston & Aaron Paul Reunite For New Breaking Bad Release 13 Years After Finale",
+            "url": "https://screenrant.com/breaking-bad-cast-reunion-do-what-youre-gonna-do-november-17/",
             "source": "ScreenRant",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCJi8frrSqJaVLuNbcciqXKBzK5KFVTqDoZMpzHYV9hqbHKaNw03LIHXzaczw",
-            "og_title": "Forget True Detective, Netflix's 2-Part Thriller Masterpiece Is The Most Realistic Detective Series",
-            "og_desc": "True Detective has a cerebral cousin.",
-            "og_image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/marty-scowling-in-true-detective.jpg?w=1600&h=900&fit=crop",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9NyNBGi3zOnA2UQcQLLnteb9zNFcg-Ie2MTbWH2-NaVhREXdyVGr1Q3ituxY",
+            "og_title": "Bryan Cranston & Aaron Paul Reunite For New Breaking Bad Release 13 Years After Finale",
+            "og_desc": "Cranston and Aaron Paul are back for a new Breaking Bad release this week.",
+            "og_image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/03/walt-and-jesse-looking-shocked-in-breaking-bad.jpg?w=1600&h=900&fit=crop",
             "ok": true
           },
           {
-            "title": "5 TV Shows To Watch If You Like Nocturne",
-            "url": "https://www.tvline.com/2312663/tv-shows-like-nocturne/",
-            "source": "TVLine",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSAVexJNuoEs6_BmNRExb5UmZbHN5jWBfce32m-U1zbD5Ku1XVCJFfACQWjbLo",
-            "og_title": "5 TV Shows To Watch If You Like Nocturne - TVLine",
-            "og_desc": "If you like Nocturne on Apple TV, try Mindhunter, Hannibal, True Detective Season 1, Furious, and Black Bird for similarly gripping psychological mysteries.",
-            "og_image": "https://www.tvline.com/img/gallery/5-tv-shows-to-watch-if-you-like-nocturne/l-intro-1794342109.jpg",
-            "ok": true
-          },
-          {
-            "title": "5 TV Shows To Watch If You Like Nocturne",
-            "url": "https://www.imdb.com/news/ni66111382/?ref_=nwc_art_perm",
-            "source": "IMDb",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_PhYqonnRvrqTfEKR8yM6rRLuo4IbxcPSyFF4xq6h8GySbCn93ee5xT_i5cY",
+            "title": "Bryan Cranston Reflects on Healing His Relationship with His Mom After Alzheimer’s Diagnosis (Exclusive)",
+            "url": "https://people.com/bryan-cranston-mom-alzheimers-changed-bond-tangles-exclusive-12247712",
+            "source": "People.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQQrLyjILaB-RatTTbpd-9VYzaX5sERpS-fpcX9XEl511yVKWgkKbZ6upQH9rk",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
-            "ok": false
+            "ok": false,
+            "error": "HTTPError"
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "فن ومشاهير",
-        "icon": "🎬",
-        "color": "#c77dff",
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-16-mindhunter.png"
+        "card": "cards/world-2026-11-16-bryan-cranston.png"
       },
       {
-        "title": "sudán - senegal",
+        "title": "greg abel berkshire hathaway stock sales",
         "traffic": "200+",
         "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 05:00:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5RAql1U9XJhK4UqZGniC3M7UtKMhk7XAfi_fd2fxxetRgQxMdAbmLsWgPPWA",
-        "image_source": "beIN SPORTS",
+        "published": "Mon, 16 Nov 2026 05:40:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRu3atId9uuesTvUyt_WxfFMVgQU-EW6Nw0gJoNln0mO10gslkeBPYWttTeDfw",
+        "image_source": "Yahoo Finance",
         "news": [
           {
-            "title": "EN VIVO: Sudán vs Senegal | Eliminatorias AFCON 2027",
-            "url": "https://www.beinsports.com/es-us/football/africa-cup-of-nations-qualification/articles/en-vivo-sud%C3%A1n-vs-senegal-eliminatorias-afcon-2027-2026-11-16",
-            "source": "beIN SPORTS",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5RAql1U9XJhK4UqZGniC3M7UtKMhk7XAfi_fd2fxxetRgQxMdAbmLsWgPPWA",
-            "og_title": "Sudán vs Senegal EN VIVO: Dónde ver las Eliminatorias AFCON 2027 por beIN SPORTS",
-            "og_desc": "Mira Sudán vs Senegal EN VIVO por beIN SPORTS en las Eliminatorias rumbo a la AFCON 2027. Sigue las mejores acciones del encuentro.",
-            "og_image": "https://prod-media.beinsports.com/image/1794519819495_7d80840c-111d-42ab-83c6-ad844515de37.1080.png",
+            "title": "Warren Buffett's Successor, Greg Abel, Just Dropped a $426 Million Bombshell on Wall Street",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-successor-greg-abel-102602227.html",
+            "source": "Yahoo Finance",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRu3atId9uuesTvUyt_WxfFMVgQU-EW6Nw0gJoNln0mO10gslkeBPYWttTeDfw",
+            "og_title": "Warren Buffett's Successor, Greg Abel, Just Dropped a $426 Million Bombshell on Wall Street",
+            "og_desc": "Berkshire Hathaway’s bosses have been net sellers of stocks in 15 of the last 16 quarters.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/8036c3e160e0804e7eb2d9425f2708b98f4b63d1f2fa9dfeabc5158949a70c8b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F67bfd36e1716922f321cd4be791f6226.jpg",
             "ok": true
           },
           {
-            "title": "Why Is Sadio Mane Not Playing Tonight for Senegal vs. Sudan?",
-            "url": "https://sports.yahoo.com/articles/why-sadio-mane-not-playing-184653417.html",
-            "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDKzKsezAnhHMR6z38FGM1KXKjqTd3nvjVr9BrkcSb8Df40_Z_8embJXXQfAE",
-            "og_title": "Why Is Sadio Mane Not Playing Tonight for Senegal vs. Sudan?",
-            "og_desc": "Sadio Mane is not featuring in today's AFCON qualifier between Senegal and Sudan",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/dd17d2eb84ed3bb0041e13830f6f7291ffd90cd67fdcc315aab17b88336fc239/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fathlon_sports_articles_610%2F1ece8d8d04d71fddd541c3c432d3f729.jpg",
+            "title": "Warren Buffett's Successor, Greg Abel, Has Over 35% of Berkshire Hathaway's $359 Billion Portfolio Invested in Just 2 Undeniable Winners",
+            "url": "https://www.fool.com/investing/2026/11/13/warren-buffett-successor-greg-abel-35-berkshire-hathaway-359-billion-portfolio-invested-in-2-undeniable-winners/",
+            "source": "The Motley Fool",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTQgJ_OKanO_DyRgOfGLtxZtB7BcLDCraaKuQr_9UYPM_OY9Xc0dIaE3jzMvXI",
+            "og_title": "Warren Buffett's Successor, Greg Abel, Has Over 35% of Berkshire Hathaway's $359 Billion Portfolio Invested in Just 2 Undeniable Winners | The Motley Fool",
+            "og_desc": "Nearly $127 billion of Berkshire’s invested assets can be traced to two industry leaders.",
+            "og_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2Fb436aa54c2a8bbb266f5d52862f3c53fbdc88fc4-3000x2076.jpg&w=1200&op=resize",
             "ok": true
           },
           {
-            "title": "Watch Sudan vs. Senegal live today: Who is broadcasting the match on TV and via live stream?",
-            "url": "https://www.goal.com/en-us/news/live-stream-online-tv-where-to-watch-sudan-v-senegal/blt940c82ba7f70e16a",
-            "source": "Goal.com",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRidMROZZTXo1wCdvc74Fiv3HH8d0mjq1dOn8xasqw1iXqNGvC3F5FFbYy9RXo",
-            "og_title": "Sudan vs Senegal: TV channel, live stream and kick-off time | AFCON Qualification | Goal.com US",
-            "og_desc": "Find out where to watch Sudan vs Senegal live, including TV channel options, live stream details, kick-off time, team news, form guide, and head-to-head record.",
-            "og_image": "https://assets.goal.com/images/v3/CBwEGCDgw2eBo8LXdnTty_DESKTOP/image.jpg",
+            "title": "Berkshire's Safe-Haven Bid Masks a Weaker Underwriting Quarter",
+            "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/berkshire-s-safe-haven-bid-masks-a-weaker-underwriting-quarter/70518467",
+            "source": "ad-hoc-news.de",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQcaEYpcBEw0PhZsTJoUN8kBcayQNcxXag9upZRC8LgtTh3ugPGBJ82Irs31UU",
+            "og_title": "Berkshire's Safe-Haven Bid Masks a Weaker Underwriting Quarter",
+            "og_desc": "Berkshire stock gained 14% in 30 days as money left tech and AI names. Q3 operating profit fell 6% t",
+            "og_image": "https://mdb.ad-hoc-news.de/bild/bild-2699574_1200_675.webp",
             "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
+        "category": "اقتصاد",
+        "icon": "💰",
+        "color": "#f5c542",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-16-sudán---senegal.png"
+        "card": "cards/world-2026-11-16-greg-abel-berkshire-hathaway-stock-sales.png"
       },
       {
-        "title": "tina simmons",
+        "title": "health",
         "traffic": "200+",
         "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 04:50:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlfOTHjLM-Zi6BWjnM6qEWjNlx2fejzZPJZhiPtfm7ZLPaV9KZG5fgPa5fDuo",
-        "image_source": "Daily Express",
+        "published": "Mon, 16 Nov 2026 05:20:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQNzGDqAHtgIJ4FlIvmT5ZmF_yaTVKO2zubT932ycHyUjcLANAoEh5sNULToZM",
+        "image_source": "The New York Times",
         "news": [
           {
-            "title": "Tina Simmons dead: Star Wars and James Bond icon dies as devastating tributes pour in",
-            "url": "https://www.express.co.uk/celebrity-news/2266559/tina-simmons-dead-star-wars",
-            "source": "Daily Express",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlfOTHjLM-Zi6BWjnM6qEWjNlx2fejzZPJZhiPtfm7ZLPaV9KZG5fgPa5fDuo",
-            "og_title": "Star Wars and James Bond icon found dead at home as heartbroken tributes pour in",
-            "og_desc": "(Warning: Distressing content) Really sad news",
-            "og_image": "https://cdn.images.express.co.uk/img/dynamic/79/1200x630/7235187.jpg",
+            "title": "American Global Health Aid Isn’t Dead. It’s Changing.",
+            "url": "https://www.nytimes.com/2026/11/16/world/american-global-health-aid-isnt-dead-its-changing.html",
+            "source": "The New York Times",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQNzGDqAHtgIJ4FlIvmT5ZmF_yaTVKO2zubT932ycHyUjcLANAoEh5sNULToZM",
+            "og_title": "American Global Health Aid Isn’t Dead. It’s Changing.",
+            "og_desc": "The Trump administration promised to make aid programs more “America First.” Some countries are balking.",
+            "og_image": "https://static01.nyt.com/images/2026/11/11/multimedia/00inv-ideas-globalhealth-01-gvhm/00inv-ideas-globalhealth-01-gvhm-facebookJumbo.jpg",
             "ok": true
           },
           {
-            "title": "Beloved Star Wars and Batman actress dies as tributes pour in",
-            "url": "https://www.oxfordmail.co.uk/news/26731778.beloved-star-wars-batman-actress-dies-tributes-made/",
-            "source": "Oxford Mail",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR-JFLOg5Ei_6mek2piEqoQwDF23eJj-1atJIJfYqYA8aSYNWR-ljihMhkxKMg",
-            "og_title": "Beloved Star Wars and Batman actress dies as tributes pour in",
-            "og_desc": "A beloved Star Wars and Batman actress has died, with tributes pouring in.",
-            "og_image": "https://www.oxfordmail.co.uk/resources/images/21721854.jpg?type=og-image",
+            "title": "The Advancing Global Health Annual Program Statement (AGH/APS) Mechanism: Supplementing the America First MOUs",
+            "url": "https://www.kff.org/global-health-policy/the-advancing-global-health-annual-program-statement-agh-aps-mechanism-supplementing-the-america-first-mous/",
+            "source": "KFF",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwI5VsvILT1n-pA8dNGQmUyKTLSPa5dOD8p7ykop2XdFoUvN1lEBvyLeNtwHg",
+            "og_title": "The Advancing Global Health Annual Program Statement (AGH/APS) Mechanism: Supplementing the America First MOUs  | KFF",
+            "og_desc": "To shed greater light on U.S. global health efforts under the AFGHS, this analysis examines the Advancing Global Health APS (AGH/APS) award opportunities announced to date by looking at how funding may be directed across countries and selected areas of global health programming, painting a fuller picture of how continued U.S. global health investment may look in a post-USAID foreign aid landscape.",
+            "og_image": "https://www.kff.org/wp-content/uploads/sites/7/2026/11/Feature-Image-AGH-APS-Mechanism-Supplementing-the-America-First-MOUs-.png",
             "ok": true
           },
           {
-            "title": "Star Wars, James Bond & Batman actress with dozens of Hollywood roles dies - as pals pay touching tribute",
-            "url": "https://www.thesun.co.uk/tvandshowbiz/41034465/hollywood-actress-dies-pals-tribute/",
-            "source": "The Sun",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpFnqaOvOdXZ1_fIkjUvlDxnfQBs3YhHZbSlc-VnNOdUXWkvU3cYwmDCSb9Gg",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
+            "title": "Trump’s Global Health Agenda Is Colliding With African Nations’ Sovereignty",
+            "url": "https://www.worldpoliticsreview.com/trump-africa-gobal-health-deals-sovereignty/",
+            "source": "World Politics Review",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQaSPXFKmR3xIbrmo5cWQJ-z5FphWC9o_Eri47jXiadGvZm3TQC72EY4gndFRo",
+            "og_title": "Trump’s Global Health Agenda Is Colliding With African Nations’ Sovereignty",
+            "og_desc": "African governments are signing health financing agreements with Washington, but only after pushing back on the Trump administration’s demands.",
+            "og_image": "https://www.worldpoliticsreview.com/wp-content/uploads/2026/11/trump-africa-gobal-health-deals-sovereignty-11132026-1.jpg",
+            "ok": true
           }
         ],
         "geos": [
@@ -452,58 +556,9 @@
         "category": "حوادث وقضايا",
         "icon": "⛔",
         "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: dies",
+        "reason": "ورد لفظ حسّاس: dead",
         "publishable": false,
-        "card": "cards/world-2026-11-16-tina-simmons.png"
-      },
-      {
-        "title": "ethan hawke",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 04:50:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTTrcR-aiLhKB9jUQT3oGo7OFea0Vn6H3AXTQxt9my4DKL_-pIvSrSvlT4U2vk",
-        "image_source": "The New York Times",
-        "news": [
-          {
-            "title": "‘Tom Stoppard’s Shakespeare, A One-Night-Only Production",
-            "url": "https://www.nytimes.com/2026/11/16/theater/stoppard-and-shakespeare-ethan-hawke-theater-for-a-new-audience.html",
-            "source": "The New York Times",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTTrcR-aiLhKB9jUQT3oGo7OFea0Vn6H3AXTQxt9my4DKL_-pIvSrSvlT4U2vk",
-            "og_title": "‘Tom Stoppard’s Shakespeare, A One-Night-Only Production",
-            "og_desc": "On the anniversary of Tom Stoppard’s death, the actor Ethan Hawke leads a production that traces the enduring bond between two monumental playwrights.",
-            "og_image": "https://static01.nyt.com/images/2026/11/16/multimedia/16cul-stoppard-01-bqck/16cul-stoppard-01-bqck-facebookJumbo.jpg",
-            "ok": true
-          },
-          {
-            "title": "Tommy Lee Jones Couldn’t Care Less About His Legacy",
-            "url": "https://www.esquire.com/entertainment/tv/a74375701/tommy-lee-jones-the-lowdown-interview/",
-            "source": "Esquire",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRppTLCyg8PNOfnD1Qv27r3YbQfPUHZC5tYX45KTf_0hNF8qZFaP_d5hND-I-Q",
-            "og_title": "Tommy Lee Jones Couldn’t Care Less About His Legacy",
-            "og_desc": "The screen legend has more interesting things going on—including a stellar turn on ‘The Lowdown’ season 2, as an estranged, crusty old father.",
-            "og_image": "https://hips.hearstapps.com/hmg-prod/images/4d327c30-14c2-4b33-89ef-20c5eccce389.jpg?crop=1xw:0.751126690035xh;center,top&resize=1200:*",
-            "ok": true
-          },
-          {
-            "title": "Lee finally reconnects with his dad on an emotional episode of The Lowdown",
-            "url": "https://www.avclub.com/the-lowdown-recap-season-2-episode-6-leaving-and-coming-back",
-            "source": "A.V. Club",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS6tdfbCZA7q7zOwIre8n0iG6F0Na9lAHDKdJrn8K5o8uLa125jST0GBER-rDs",
-            "og_title": "Lee finally reconnects with his dad on an emotional episode of The Lowdown",
-            "og_desc": "Lee finally reconnects with his dad on an emotional episode of The Lowdown",
-            "og_image": "https://www.avclub.com/wp-content/uploads/2026/11/11/MixCollage-11-Nov-2026-11-39-AM-8631.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "فن ومشاهير",
-        "icon": "🎬",
-        "color": "#c77dff",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-16-ethan-hawke.png"
+        "card": "cards/world-2026-11-16-health.png"
       }
     ]
   },
@@ -513,13 +568,13 @@
     "name_en": "Egypt",
     "lang": "ar",
     "flag": "🇪🇬",
-    "generated_at": "2026-11-16T13:31:33.372768+00:00",
+    "generated_at": "2026-11-16T14:01:35.206662+00:00",
     "day": "2026-11-16",
     "trends": [
       {
         "title": "السودان ضد السنغال",
-        "traffic": "+2500",
-        "traffic_num": 2500,
+        "traffic": "+3200",
+        "traffic_num": 3200,
         "published": "Mon, 16 Nov 2026 04:30:00 -0800",
         "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTy94JgdF46hqwnLeTNAl_MotAh1ZRe_PM3ABAFPdaag0wYGwe55JdWeaNQEl4",
         "image_source": "اليوم السابع",
@@ -559,11 +614,10 @@
             "url": "https://www.cafonline.com/afcon2025/news/senegal-cote-divoire-cameroon-and-benin-strengthen-afcon-qualification-bids/",
             "source": "CAFOnline.com",
             "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBdfuwX1rVt53ris3TOb9310w1-dBzEbGb-wLfutCS0AFJDePzisGHorPihzw",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "TimeoutError"
+            "og_title": "Senegal, Côte d'Ivoire, Cameroon and Benin strengthen AFCON qualification bids",
+            "og_desc": "Senegal, Côte d'Ivoire, Cameroon and Benin all claimed important victories on Thursday as Matchday 3 of the TotalEnergies CAF Africa Cup of Nations (AFCON) PAMOJA 2027 Qualifiers produced another evening of drama across the continent.",
+            "og_image": "https://www.cafonline.com//media/ldpnfakr/b26klma0002a.jpg?width=1200",
+            "ok": true
           },
           {
             "title": "Sudan vs Senegal Preview & Prediction | 2027 Africa Cup of Nations Qualifying",
@@ -584,6 +638,37 @@
             "og_desc": "",
             "og_image": "",
             "ok": false
+          },
+          {
+            "title": "جهاز الإحصاء: عدد المواليد يتراجع إلى 1.952 مليون عام 2025 بنسبة 0.8%",
+            "url": "https://www.youm7.com/story/2026/11/16/%D8%AC%D9%87%D8%A7%D8%B2-%D8%A7%D9%84%D8%A5%D8%AD%D8%B5%D8%A7%D8%A1-%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%84%D9%8A%D8%AF-%D9%8A%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%A5%D9%84%D9%89-1-952-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%B9%D8%A7%D9%85/7620602",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRStkk-xGfDjSCkyGmLE4Bm0xHVyhVWZdBf9jalay8CuOH_QwF--N8vFR4Fms4",
+            "og_title": "جهاز الإحصاء: عدد المواليد يتراجع إلى 1.952 مليون عام 2025 بنسبة 0.8% - اليوم السابع",
+            "og_desc": "أصدر الجهاز المركزي للتعبئة العامة والإحصاء اليوم الاثنين النشرة السنوية لإحصاءات المواليد والوفيات لعام 2025.",
+            "og_image": "https://img.youm7.com/xlarge/20261109100319319_248.jpg",
+            "ok": true
+          },
+          {
+            "title": "السودان في صدارة مواليد الأجانب بمصر بـ14 ألف مولود خلال 2025",
+            "url": "https://www.masrawy.com/news/news_economy/details/2026/11/16/3079524/%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%81%D9%8A-%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%85%D9%88%D8%A7%D9%84%D9%8A%D8%AF-%D8%A7%D9%84%D8%A3%D8%AC%D8%A7%D9%86%D8%A8-%D8%A8%D9%85%D8%B5%D8%B1-%D8%A8%D9%8014-%D8%A3%D9%84%D9%81-%D9%85%D9%88%D9%84%D9%88%D8%AF-%D8%AE%D9%84%D8%A7%D9%84-2025",
+            "source": "Masrawy",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSjRnnyTalpw8EG9Lny95b9Eimeu3hRzbSGVM9gQnp4PdyNDzUqzaYYRSk1HWM",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "الإحصاء: عدد المواليد غير المصريين يرتفع لـ31 ألف بزيادة 22% عام 2025",
+            "url": "https://www.soutalomma.com/Article/1260070/%D8%A7%D9%84%D8%A5%D8%AD%D8%B5%D8%A7%D8%A1-%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%84%D9%8A%D8%AF-%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D9%8A%D9%86-%D9%8A%D8%B1%D8%AA%D9%81%D8%B9-%D9%84%D9%8031-%D8%A3%D9%84%D9%81-%D8%A8%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-22",
+            "source": "صوت الأمة",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTxktlLIAc3J-dH-E_Y4KNnQRu63LHyRQUZEX5c8hJX6QU8yLcOqaB8SqehtzY",
+            "og_title": "الإحصاء: عدد المواليد غير المصريين يرتفع لـ31 ألف بزيادة 22% عام 2025 - صوت الأمة",
+            "og_desc": "عدد المواليد غير المصريين يرتفع لـ31 ألف ب",
+            "og_image": "https://img.soutalomma.com/large/201807161123412341.jpg",
+            "ok": true
           }
         ],
         "category": "دول وأماكن",
@@ -674,9 +759,9 @@
           },
           {
             "title": "Licensable picture: Italian Serie C Ravenna-Forli , Ronaldinho Comes Back",
-            "url": "https://www.reutersconnect.com/item/italian-serie-c-ravenna-forli-ronaldinho-comes-back/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVpVTUEwMDBHRU9PTUs",
+            "url": "https://www.reutersconnect.com/item/italian-serie-c-ravenna-forli-ronaldinho-comes-back/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVpVTUEwMDBHRU9PTjk",
             "source": "Reuters Connect",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfvRMAeX3-ACBGTVPnH9s1RlYGquroul2PwfMl-Fxuc8Dn29DucKibpW2rFaY",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRSsHvKX33sNJfVM4ZFsdXXDyxvLmU3uwDJ89nBD5GYfrnSpz8ikYdZQlKi3GI",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -692,51 +777,51 @@
         "card": "cards/eg-2026-11-16-ronaldinho-ravenna.png"
       },
       {
-        "title": "سرطان",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "published": "Mon, 16 Nov 2026 05:00:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQH8mJuUMbcL_o0mBu3dTmbAVqsMQftM_K75Q1NEU6evXGs70YWDX32y3NBJ2A",
-        "image_source": "العربية",
+        "title": "ناميبيا ضد الكاميرون",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Mon, 16 Nov 2026 04:50:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSEOQQd0f5OX3jwAXY7eg11Hj4X_VeUzb_f6QMShZqDVX0heWJtC15dreLZOKw",
+        "image_source": "يلاكورة",
         "news": [
           {
-            "title": "البلاستيك الدقيق.. مشتبه جديد وراء ارتفاع سرطان القولون",
-            "url": "https://www.alarabiya.net/science/2026/11/15/%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83-%D8%A7%D9%84%D8%AF%D9%82%D9%8A%D9%82-%D9%85%D8%B4%D8%AA%D8%A8%D9%87-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%88%D8%B1%D8%A7%D8%A1-%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D8%A7%D9%84%D9%82%D9%88%D9%84%D9%88%D9%86",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQH8mJuUMbcL_o0mBu3dTmbAVqsMQftM_K75Q1NEU6evXGs70YWDX32y3NBJ2A",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "«الميكروبلاستيك».. متهم جديد وراء معدلات الإصابة بسرطان القولون بين الشباب",
-            "url": "https://www.almasryalyoum.com/news/details/4411913",
-            "source": "المصري اليوم",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4I_gI9Pj6BKk9-O9NLBGp25AS2EezvS2rz3Dv7A4Kep0Urt_dP62j6EUY5OA",
-            "og_title": "«الميكروبلاستيك».. متهم جديد وراء معدلات الإصابة بسرطان القولون بين الشباب | المصري اليوم",
-            "og_desc": "كشفت صحيفة «واشنطن بوست» الأمريكية عن أدلة علمية جديدة تشير إلى احتمالات وجود علاقة بين التعرض لجزيئات اللدائن الدقيقة أو الجزيئات البلاستيكية متناهية الصغر المعروفة باسم...",
-            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/16/2116467.webp",
+            "title": "بقيادة أمين عمر.. طاقم حكام مصري لمباراة الكاميرون وناميبيا في تصفيات أمم أفريقيا",
+            "url": "https://www.yallakora.com/can-qualifiers/3028/news/573357/%D8%A8%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A3%D9%85%D9%8A%D9%86-%D8%B9%D9%85%D8%B1-%D8%B7%D8%A7%D9%82%D9%85-%D8%AD%D9%83%D8%A7%D9%85-%D9%85%D8%B5%D8%B1%D9%8A-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%8A%D8%B1%D9%88%D9%86-%D9%88%D9%86%D8%A7%D9%85%D9%8A%D8%A8%D9%8A%D8%A7-%D9%81%D9%8A-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A3%D9%85%D9%85-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7",
+            "source": "يلاكورة",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSEOQQd0f5OX3jwAXY7eg11Hj4X_VeUzb_f6QMShZqDVX0heWJtC15dreLZOKw",
+            "og_title": "طاقم حكام مصري لمباراة الكاميرون وناميبيا",
+            "og_desc": "أعلنت لجنة الحكام الرئيسية بالاتحاد الأفريقي لكرة القدم كاف، تعيين طاقم تحكيم مصري بقيادة أمين عمر لإدارة لقاء ناميبيا والكاميرون، في تصفيات كأس الأمم الأفريقية 2027.",
+            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/7/16/gettyimages-2282849528-612x6122026_7_16_15_49.webp",
             "ok": true
           },
           {
-            "title": "الدهون تترك \"ذاكرة\" في الأمعاء.. هل تحفز السرطان؟",
-            "url": "https://www.eremnews.com/health/dsi1d2w",
-            "source": "إرم نيوز",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8vVNEoCxsGL1sUDAZmtpZEIN7FqzlpI0X-tp6dR_yKuq5tik3kwY1wey9nhc",
-            "og_title": "الدهون تترك \"ذاكرة\" في الأمعاء.. هل تحفز السرطان؟ | إرم نيوز",
-            "og_desc": "أوضحت ميايكو مانا الباحثة الرئيسية في هذه الدراسة- أن الخلايا الجذعية المعوية تنقسم لتحل محل الخلايا التالفة وتعمل على إصلاح بطانة الأمعاء.",
-            "og_image": "https://cdn.eremnews.com/media/f76b06d7-f3d9-4799-9613-6974032a863b_v3",
+            "title": "الكاميرون تهزم ناميبيا بثنائية وتنفرد بصدارة المجموعة فى تصفيات أمم أفريقيا",
+            "url": "https://www.youm7.com/story/2026/11/12/%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%8A%D8%B1%D9%88%D9%86-%D8%AA%D9%87%D8%B2%D9%85-%D9%86%D8%A7%D9%85%D9%8A%D8%A8%D9%8A%D8%A7-%D8%A8%D8%AB%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D9%88%D8%AA%D9%86%D9%81%D8%B1%D8%AF-%D8%A8%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D9%81%D9%89-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A3%D9%85%D9%85/7616479",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRULYxRpRLUWFCv2o9JpR5RWeOnfJJRu98WGX-zWolrSmwTLlzlnej6vWhdpzE",
+            "og_title": "الكاميرون تهزم ناميبيا بثنائية وتنفرد بصدارة المجموعة فى تصفيات أمم أفريقيا - اليوم السابع",
+            "og_desc": "حسم منتخب الكاميرون مواجهته أمام نظيره ناميبيا بالفوز بهدفين دون مقابل، في المباراة التي جمعتهما ضمن منافسات الجولة الثالثة من المجموعة السابعة",
+            "og_image": "https://img.youm7.com/xlarge/20261112111801181_381.jpg",
+            "ok": true
+          },
+          {
+            "title": "تصفيات إفريقيا - الكاميرون وكوت ديفوار يتصدران.. وغانا تحيي آمالها في المنافسة",
+            "url": "https://www.filgoal.com/articles/541622",
+            "source": "FilGoal",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTItgyMV2yWzQvzAoxVzN5PKV4kHhDIpzFxVHv6q_OKLQk_wQ3CHX_kZ3cE5u0",
+            "og_title": "تصفيات إفريقيا - الكاميرون وكوت ديفوار يتصدران.. وغانا تحيي آمالها في المنافسة",
+            "og_desc": "انفرد منتخب الكاميرون بصدارة المجموعة السابعة بعد الفوز ضد نامبيا بهدفين نظيفين، ضمن مواجهات الجولة الثالثة.",
+            "og_image": "https://media.filgoal.com/news/verylarge/382740_0.jpg",
             "ok": true
           }
         ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: متهم",
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "card": "cards/eg-2026-11-16-سرطان.png"
+        "person": true,
+        "card": "cards/eg-2026-11-16-ناميبيا-ضد-الكاميرون.png"
       },
       {
         "title": "gta 6",
@@ -832,98 +917,97 @@
         "card": "cards/eg-2026-11-16-namibia-vs-cameroon.png"
       },
       {
-        "title": "ناميبيا ضد الكاميرون",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 04:50:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSEOQQd0f5OX3jwAXY7eg11Hj4X_VeUzb_f6QMShZqDVX0heWJtC15dreLZOKw",
-        "image_source": "يلاكورة",
+        "title": "برج الثور",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Mon, 16 Nov 2026 05:20:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQR0vF8_Z085yT6YCIxlWRTpZE4lszedgowhp6rNHerC_0OtUZrRHA3wdwCHzA",
+        "image_source": "المصري اليوم",
         "news": [
           {
-            "title": "بقيادة أمين عمر.. طاقم حكام مصري لمباراة الكاميرون وناميبيا في تصفيات أمم أفريقيا",
-            "url": "https://www.yallakora.com/can-qualifiers/3028/news/573357/%D8%A8%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A3%D9%85%D9%8A%D9%86-%D8%B9%D9%85%D8%B1-%D8%B7%D8%A7%D9%82%D9%85-%D8%AD%D9%83%D8%A7%D9%85-%D9%85%D8%B5%D8%B1%D9%8A-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%8A%D8%B1%D9%88%D9%86-%D9%88%D9%86%D8%A7%D9%85%D9%8A%D8%A8%D9%8A%D8%A7-%D9%81%D9%8A-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A3%D9%85%D9%85-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7",
-            "source": "يلاكورة",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSEOQQd0f5OX3jwAXY7eg11Hj4X_VeUzb_f6QMShZqDVX0heWJtC15dreLZOKw",
-            "og_title": "طاقم حكام مصري لمباراة الكاميرون وناميبيا",
-            "og_desc": "أعلنت لجنة الحكام الرئيسية بالاتحاد الأفريقي لكرة القدم كاف، تعيين طاقم تحكيم مصري بقيادة أمين عمر لإدارة لقاء ناميبيا والكاميرون، في تصفيات كأس الأمم الأفريقية 2027.",
-            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/7/16/gettyimages-2282849528-612x6122026_7_16_15_49.webp",
+            "title": "ترتيب الأبراج من الأكثر حظًا إلى الأقل حظًا.. هل يتصدر برجك القائمة؟",
+            "url": "https://www.almasryalyoum.com/news/details/4411737",
+            "source": "المصري اليوم",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQR0vF8_Z085yT6YCIxlWRTpZE4lszedgowhp6rNHerC_0OtUZrRHA3wdwCHzA",
+            "og_title": "ترتيب الأبراج من الأكثر حظًا إلى الأقل حظًا.. هل يتصدر برجك القائمة؟ | المصري اليوم",
+            "og_desc": "يتصدر الحظ اهتمامات الكثيرين، خاصة مع رغبة البعض في معرفة ما تحمله الفترة المقبلة من فرص وتغييرات على المستويات العاطفية والمهنية والمالية. وتختلف توقعات الأبراج الفلكية...",
+            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/16/2115723.webp",
             "ok": true
           },
           {
-            "title": "الكاميرون تهزم ناميبيا بثنائية وتنفرد بصدارة المجموعة فى تصفيات أمم أفريقيا",
-            "url": "https://www.youm7.com/story/2026/11/12/%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%8A%D8%B1%D9%88%D9%86-%D8%AA%D9%87%D8%B2%D9%85-%D9%86%D8%A7%D9%85%D9%8A%D8%A8%D9%8A%D8%A7-%D8%A8%D8%AB%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D9%88%D8%AA%D9%86%D9%81%D8%B1%D8%AF-%D8%A8%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D9%81%D9%89-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A3%D9%85%D9%85/7616479",
+            "title": "برج الثور.. حظك اليوم الإثنين 16 نوفمبر: استقرار ملحوظ",
+            "url": "https://www.youm7.com/story/2026/11/16/%D8%A8%D8%B1%D8%AC-%D8%A7%D9%84%D8%AB%D9%88%D8%B1-%D8%AD%D8%B8%D9%83-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D8%AB%D9%86%D9%8A%D9%86-16-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D9%85%D9%84%D8%AD%D9%88%D8%B8/7619316",
             "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRULYxRpRLUWFCv2o9JpR5RWeOnfJJRu98WGX-zWolrSmwTLlzlnej6vWhdpzE",
-            "og_title": "الكاميرون تهزم ناميبيا بثنائية وتنفرد بصدارة المجموعة فى تصفيات أمم أفريقيا - اليوم السابع",
-            "og_desc": "حسم منتخب الكاميرون مواجهته أمام نظيره ناميبيا بالفوز بهدفين دون مقابل، في المباراة التي جمعتهما ضمن منافسات الجولة الثالثة من المجموعة السابعة",
-            "og_image": "https://img.youm7.com/xlarge/20261112111801181_381.jpg",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRggMstH-WO7hF33GaI12t2V3bXkZG0oqh--IDeEZndbqiykuGpdnJ5Jw14CNg",
+            "og_title": "برج الثور.. حظك اليوم الإثنين 16 نوفمبر: استقرار ملحوظ - اليوم السابع",
+            "og_desc": "يستعرض اليوم السابع حظك اليوم وتوقعات علماء الفلك، بالنسبة لأصحاب برج الثور، إذا كنت من مواليد هذا البرج تابعنا بصورة يومية للتعرف على حظك اليوم",
+            "og_image": "https://img.youm7.com/xlarge/202609100228272827_5.jpg",
             "ok": true
           },
           {
-            "title": "تصفيات إفريقيا - الكاميرون وكوت ديفوار يتصدران.. وغانا تحيي آمالها في المنافسة",
-            "url": "https://www.filgoal.com/articles/541622",
-            "source": "FilGoal",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTItgyMV2yWzQvzAoxVzN5PKV4kHhDIpzFxVHv6q_OKLQk_wQ3CHX_kZ3cE5u0",
-            "og_title": "تصفيات إفريقيا - الكاميرون وكوت ديفوار يتصدران.. وغانا تحيي آمالها في المنافسة",
-            "og_desc": "انفرد منتخب الكاميرون بصدارة المجموعة السابعة بعد الفوز ضد نامبيا بهدفين نظيفين، ضمن مواجهات الجولة الثالثة.",
-            "og_image": "https://media.filgoal.com/news/verylarge/382740_0.jpg",
+            "title": "امنح نفسك فرصة لتطوير مهاراتك ولا تتعجل النتائج.. حظك اليوم برج الثور",
+            "url": "https://www.elwatannews.com/news/details/8396757",
+            "source": "الوطن",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxoO8LhTZb6AF4jiIz5jAsrrXpGPQcruNJhnbQrKe7AQV3jv7vPvUQ84W7LiU",
+            "og_title": "امنح نفسك فرصة لتطوير مهاراتك ولا تتعجل النتائج.. حظك اليوم برج الثور - الوطن",
+            "og_desc": "نستعرض في السطور التالية توقعات علماء الفلك لمولود برج الثور على الأصعدة المهنية والعاطفية اليوم الأحد 15 نوفمبر 2026 - الوطن",
+            "og_image": "https://media.elwatannews.com/media/img/Large/2026/11/15/2026_11_15_0_41_28_227.jpg",
             "ok": true
           }
         ],
-        "category": "شخصية",
-        "icon": "👤",
-        "color": "#ffd166",
+        "category": "أبراج وفلك",
+        "icon": "🔮",
+        "color": "#b39ddb",
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
-        "person": true,
-        "card": "cards/eg-2026-11-16-ناميبيا-ضد-الكاميرون.png"
+        "card": "cards/eg-2026-11-16-برج-الثور.png"
       },
       {
-        "title": "محمد أنور السادات",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 04:10:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSh2Qcu6p6zt_V-s4z6yCN2nSNGYQ8tVmgC6HHS7c7sXNQe5PbQHBRYYhUouPA",
-        "image_source": "اليوم السابع",
+        "title": "سرطان",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Mon, 16 Nov 2026 05:00:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJZ2DCxi_bBWqgtvQawrCr0DZ4TQy3rs4cNgZlkokmLl8tAYh4Q2_391v_TRc",
+        "image_source": "المصري اليوم",
         "news": [
           {
-            "title": "أمريكا تكرم السادات بأعلى أوسمة الكونجرس.. اعتراف دولى بقائد صنع السلام",
-            "url": "https://www.youm7.com/story/2026/11/16/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7-%D8%AA%D9%83%D8%B1%D9%85-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A8%D8%A3%D8%B9%D9%84%D9%89-%D8%A3%D9%88%D8%B3%D9%85%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%AC%D8%B1%D8%B3-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D9%81-%D8%AF%D9%88%D9%84%D9%89-%D8%A8%D9%82%D8%A7%D8%A6%D8%AF-%D8%B5%D9%86%D8%B9/7619987",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSh2Qcu6p6zt_V-s4z6yCN2nSNGYQ8tVmgC6HHS7c7sXNQe5PbQHBRYYhUouPA",
-            "og_title": "أمريكا تكرم السادات بأعلى أوسمة الكونجرس.. اعتراف دولى بقائد صنع السلام - اليوم السابع",
-            "og_desc": "تتجه الأنظار إلى العاصمة الأمريكية واشنطن، يوم 18 نوفمبر الجاري، حيث تشهد قاعات الكونجرس الأمريكي مراسم تكريم الرئيس المصري الراحل محمد أنور السادات..",
-            "og_image": "https://img.youm7.com/xlarge/202611160934283428_12604.jpg",
+            "title": "إدارة الغذاء والدواء الأمريكية ترفض دواءً جديداً لعلاج سرطان الرئة",
+            "url": "https://www.almasryalyoum.com/news/details/4411140",
+            "source": "المصري اليوم",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJZ2DCxi_bBWqgtvQawrCr0DZ4TQy3rs4cNgZlkokmLl8tAYh4Q2_391v_TRc",
+            "og_title": "إدارة الغذاء والدواء الأمريكية ترفض دواءً جديداً لعلاج سرطان الرئة | المصري اليوم",
+            "og_desc": "رفضت إدارة الغذاء والدواء الأمريكية (FDA) الموافقة على دواء «إيفونيسيماب» (Ivonescimab)، الذي تطوره شركة «ساميت ثيرابيوتكس» لعلاج سرطان الرئة، في قرار يمثل انتكاسة لجهود الشركة...",
+            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/15/2114695.webp",
             "ok": true
           },
           {
-            "title": "من حرب أكتوبر إلى نوبل والسلام... كيف غير السادات تاريخ الشرق الأوسط ولماذا يكرمه الكونجرس بعد 45 عاماً؟",
-            "url": "https://www.youlyou.com/95745",
-            "source": "https://www.youlyou.com/",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFeIP9f7TCmT3ozGlvlgOgkyv6UKRv5TfICHt-In3c0Kr8TPviYnr4P6_gVXU",
-            "og_title": "من حرب أكتوبر إلى نوبل والسلام... كيف غير السادات تاريخ الشرق الأوسط ولماذا يكرمه الكونجرس بعد 45 عاماً؟ - يوليو",
-            "og_desc": "بعد 45 عاماً على اغتياله، يستعد الكونجرس لتكريم أنور السادات، أول مصري يفوز بنوبل، تقديرا لمسيرته من حرب أكتوبر إلى اتفاق السلام.",
-            "og_image": "https://media.youlyou.com/2026/11/Landscape/303711469388320261116015406546.jpg",
+            "title": "«إف دي إيه» ترفض اعتماد جهاز «نوفوكير» لعلاج انتشار سرطان الرئة إلى المخ",
+            "url": "https://almalnews.com/2146143/%C2%AB%D8%A5%D9%81-%D8%AF%D9%8A-%D8%A5%D9%8A%D9%87%C2%BB-%D8%AA%D8%B1%D9%81%D8%B6-%D8%A7%D8%B9%D8%AA%D9%85%D8%A7%D8%AF-%D8%AC%D9%87%D8%A7%D8%B2-%C2%AB%D9%86%D9%88%D9%81%D9%88%D9%83%D9%8A%D8%B1%C2%BB/",
+            "source": "جريدة المال",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSH8T_y61soH2XirEg5pS90iQQVns4mYb3cpBX2c2fnC71pdIAr4LPF9Vnm2G4",
+            "og_title": "«إف دي إيه» ترفض اعتماد جهاز «نوفوكير» لعلاج انتشار سرطان الرئة إلى المخ - جريدة المال",
+            "og_desc": "وفي عام 2024، أعلنت «نوفوكير» أن تجربة سريرية متقدمة في مراحلها الأخيرة حققت هدفها الرئيسي المتمثل في إبطاء نمو أورام المخ لدى مرضى سرطان الرئة.",
+            "og_image": "https://media.almalnews.com/2026/11/large/29711809255958202611090419361936.jpg",
             "ok": true
           },
           {
-            "title": "الكونجرس ينظم حفلا الأربعاء المقبل لتكريم الرئيس الراحل أنور السادات ومنحه الميدالية الذهبية",
-            "url": "https://www.soutalomma.com/Article/1259995/%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%AC%D8%B1%D8%B3-%D9%8A%D9%86%D8%B8%D9%85-%D8%AD%D9%81%D9%84%D8%A7-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84-%D9%84%D8%AA%D9%83%D8%B1%D9%8A%D9%85-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%B1%D8%A7%D8%AD%D9%84-%D8%A3%D9%86%D9%88%D8%B1-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%A7%D8%AA",
-            "source": "صوت الأمة",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkLY6_YLTjsenZiiuQhfN__It0H_zaTqjk4cXSoNjwNj9uW25_J2-U0xat2X0",
-            "og_title": "الكونجرس ينظم حفلا الأربعاء المقبل لتكريم الرئيس الراحل أنور السادات ومنحه الميدالية الذهبية  - صوت الأمة",
-            "og_desc": "وجّه الكونجرس الأمريكي دعوة رسمية لأسرة الرئيس الراحل محمد أنور السادات، لحضور مراسم تكريم الرئيس المصري الراحل محمد أنور السادات، خلال حفل تسليم الميدالية الذهبية للكونجرس، تقديرًا لإرثه التاريخي ودوره في خدمة السلام.",
-            "og_image": "https://img.soutalomma.com/large/2026111610030737.jpg",
-            "ok": true
+            "title": "«بعد تطور المرض».. أمريكا ترفض عقاراً لعلاج سرطان الرئة",
+            "url": "https://www.alkhaleej.ae/2026-11-15/%D9%85%D9%86%D9%88%D8%B9%D8%A7%D8%AA/%D9%85%D8%AD%D8%B7%D8%A7%D8%AA/%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B7%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D8%B1%D8%B6-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7-%D8%AA%D8%B1%D9%81%D8%B6-%D8%B9%D9%82%D8%A7%D8%B1%D8%A7-%D9%84%D8%B9%D9%84%D8%A7%D8%AC-%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D8%A7%D9%84%D8%B1%D8%A6%D8%A9",
+            "source": "صحيفة الخليج",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTz8cXfRpbAhBRv9ZUD8A6s5BZb3jOYfrc0ubckxVcwV4I21Ux0USY0M2py83E",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
           }
         ],
-        "category": "شخصية",
-        "icon": "👤",
-        "color": "#ffd166",
-        "reason": "حجم بحث أقل من 2000",
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: مرض",
         "publishable": false,
-        "person": true,
-        "card": "cards/eg-2026-11-16-محمد-أنور-السادات.png"
+        "card": "cards/eg-2026-11-16-سرطان.png"
       },
       {
         "title": "رون أراد",
@@ -972,52 +1056,6 @@
         "publishable": false,
         "person": true,
         "card": "cards/eg-2026-11-16-رون-أراد.png"
-      },
-      {
-        "title": "حمزة عبد الكريم برشلونة",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Mon, 16 Nov 2026 04:10:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZajxV5AmSVGXuM5HT9pP4n7ZHmFpFGKq9pFdxg0pNf4RtfGAhjFMAMYwBqME",
-        "image_source": "اليوم السابع",
-        "news": [
-          {
-            "title": "برشلونة يؤمن مستقبل حمزة عبد الكريم ويخطط لإعارته فى الصيف",
-            "url": "https://www.youm7.com/story/2026/11/16/%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%8A%D8%A4%D9%85%D9%86-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D8%AD%D9%85%D8%B2%D8%A9-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D9%88%D9%8A%D8%AE%D8%B7%D8%B7-%D9%84%D8%A5%D8%B9%D8%A7%D8%B1%D8%AA%D9%87-%D9%81%D9%89-%D8%A7%D9%84%D8%B5%D9%8A%D9%81/7620386",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZajxV5AmSVGXuM5HT9pP4n7ZHmFpFGKq9pFdxg0pNf4RtfGAhjFMAMYwBqME",
-            "og_title": "برشلونة يؤمن مستقبل حمزة عبد الكريم ويخطط لإعارته فى الصيف - اليوم السابع",
-            "og_desc": "يتحرك نادي برشلونة الإسباني لتأمين مستقبل الموهبة المصرية الشابة حمزة عبد الكريم، في ظل الاهتمام المتزايد بالحصول على خدماته من عدة أندية أوروبية..",
-            "og_image": "https://img.youm7.com/xlarge/202609030257335733_369.jpg",
-            "ok": true
-          },
-          {
-            "title": "قرار يلوح في الأفق.. برشلونة يعيد رسم مستقبل حمزة عبد الكريم",
-            "url": "https://www.kooora.com/%D9%83%D8%B1%D8%A9-%D9%82%D8%AF%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%82%D8%B1%D8%A7%D8%B1-%D9%8A%D9%84%D9%88%D8%AD-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D9%94%D9%81%D9%82--%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%8A%D8%B9%D9%8A%D8%AF-%D8%B1%D8%B3%D9%85-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D8%AD%D9%85%D8%B2%D8%A9-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85/bltc4cac13d620844bc",
-            "source": "Kooora",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXZqqzXgsxILlCYMjd015JTXxQ9EZKynBcnc-5iojLmtlVkzEqPO_CgG8y1v8",
-            "og_title": "قرار يلوح في الأفق.. برشلونة يعيد رسم مستقبل حمزة عبد الكريم | كووورة",
-            "og_desc": "يواجه حمزة عبد الكريم، مهاجم برشلونة الشاب، اختبارًا مهمًا في مسيرته مع الفريق الكتالوني، بعدما باتت فرص حصوله على مشاركة منتظمة مع الفريق الأول محدودة",
-            "og_image": "https://assets.kooora.com/images/v3/getty-2290729646/crop/MM5DIMRQGA5DEMZWGM5G433XMU5DAORSGE4Q====/GettyImages-2290729646.jpg",
-            "ok": true
-          },
-          {
-            "title": "خلف مرموش وصلاح.. قفزة هائلة في قيمة حمزة عبد الكريم السوقية مع برشلونة والمنتخب",
-            "url": "https://www.yallakora.com/la-liga/3034/news/573452/%D8%AE%D9%84%D9%81-%D9%85%D8%B1%D9%85%D9%88%D8%B4-%D9%88%D8%B5%D9%84%D8%A7%D8%AD-%D9%82%D9%81%D8%B2%D8%A9-%D9%87%D8%A7%D8%A6%D9%84%D8%A9-%D9%81%D9%8A-%D9%82%D9%8A%D9%85%D8%A9-%D8%AD%D9%85%D8%B2%D8%A9-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%A7%D9%84%D8%B3%D9%88%D9%82%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8",
-            "source": "يلاكورة",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtZsAaq49QSDGeZ4r2b_CeD6YilY9Qg8cTlH9fxLjYTfFhtiBZvQibfDb_Fgw",
-            "og_title": "قفزة هائلة في قيمة حمزة عبد الكريم مع برشلونة والمنتخب",
-            "og_desc": "يواصل النجم المصري الشاب حمزة عبد الكريم، مهاجم نادي برشلونة الإسباني، خطف الأنظار إليه، بعدما صنع الحيز الخاص به في خارطة كرة القدم العالمية، متسلحًا بموهبة استثنائية وثقة هائلة داخل قلعة \"كامب نو\".",
-            "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/10/12/12026_10_12_10_48.webp",
-            "ok": true
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/eg-2026-11-16-حمزة-عبد-الكريم-برشلونة.png"
       }
     ]
   },
@@ -1027,13 +1065,13 @@
     "name_en": "Saudi Arabia",
     "lang": "ar",
     "flag": "🇸🇦",
-    "generated_at": "2026-11-16T13:31:45.668404+00:00",
+    "generated_at": "2026-11-16T14:01:36.655184+00:00",
     "day": "2026-11-16",
     "trends": [
       {
         "title": "السودان ضد السنغال",
-        "traffic": "+2500",
-        "traffic_num": 2500,
+        "traffic": "+3200",
+        "traffic_num": 3200,
         "published": "Mon, 16 Nov 2026 04:20:00 -0800",
         "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ91oltWyvdhHtn7AWuzN2QaUJjzLHzF7Vu9_dSHWdHn6L3LQGAYDAUBHgPjWc",
         "image_source": "إرم نيوز",
@@ -1049,16 +1087,6 @@
             "ok": true
           },
           {
-            "title": "السنغال ضد السودان | إلى متى يتحملون \"الكارثة\" كاليدو كوليبالي؟ .. والتجربة السعودية تقول \"لا تنخدعوا بديون لوبي\"!",
-            "url": "https://www.goal.com/ar/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84-%D8%B6%D8%AF-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86--%D8%A7%D9%95%D9%84%D9%89-%D9%85%D8%AA%D9%89-%D9%8A%D8%AA%D8%AD%D9%85%D9%84%D9%88%D9%86-%D8%A7%D9%84%D9%83%D8%A7%D8%B1%D8%AB%D8%A9-%D9%83%D8%A7%D9%84%D9%8A%D8%AF%D9%88-%D9%83%D9%88%D9%84%D9%8A%D8%A8%D8%A7%D9%84%D9%8A---%D9%88%D9%84%D8%A7-%D8%AA%D9%86%D8%AE%D8%AF%D8%B9%D9%88%D8%A7-%D8%A8%D8%AF%D9%8A%D9%88%D9%86-%D9%84%D9%88%D8%A8%D9%8A-%D9%83%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D9%8A%D9%86/blt476e1863f606fe5c",
-            "source": "Goal.com",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQePCV-k3mRfgSlbrWYf5wHc-vT4wsKYT_QjWvNGBsb8OEBAaLVPp4YO30Qg2E",
-            "og_title": "السنغال ضد السودان | إلى متى يتحملون \"الكارثة\" كاليدو كوليبالي؟ .. والتجربة السعودية تقول \"لا تنخدعوا بديون لوبي\"! | العربية Goal.com",
-            "og_desc": "رغم أن الشوط الأول كان مبشرًا للمنتخب السودان في داكار إلا أن المنتخب السنغالي نجح في تحقيق الفوز برباعية مقابل هدف وحيد، ضمن الجولة الثالثة من التصفيات المؤهلة لكأس أمم أفريقيا 2027.",
-            "og_image": "https://assets.goal.com/images/v3/bltd862db06b77906b4/crop/MM5DCMZWGU5DONRYHJXG653FHI2TUMA=/Gemini_Generated_Image_ch5aobch5aobch5a.jpg",
-            "ok": true
-          },
-          {
             "title": "موعد مباراة السودان والسنغال اليوم.. صقور الجديان يبحثون عن الثأر أمام أسود التيرانجا",
             "url": "https://www.akhbarak.net/news/details/49551035/3/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%88%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%B5%D9%82%D9%88%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%A7%D9%86-%D9%8A%D8%A8%D8%AD%D8%AB%D9%88%D9%86-%D8%B9%D9%86-%D8%A7%D9%84%D8%AB%D8%A3%D8%B1-%D8%A3%D9%85%D8%A7%D9%85-%D8%A3%D8%B3%D9%88%D8%AF-%D8%A7%D9%84%D8%AA%D9%8A%D8%B1%D8%A7%D9%86%D8%AC%D8%A7",
             "source": "اخبارك نت",
@@ -1066,6 +1094,16 @@
             "og_title": "اخبارك نت | موعد مباراة السودان والسنغال اليوم.. صقور الجديان يبحثون عن الثأر أمام أسود التيرانجا",
             "og_desc": "تترقب جماهير كرة القدم الأفريقية المواجهة المرتقبة بين منتخبي السودان والسنغال، ضمن منافسات الجولة الرابعة من دور المجموعات بالتصفيات المؤهلة إلى كأس الأمم ا...",
             "og_image": "https://aws-web-images.akhbarak.net/2026/11/16/49551035/49551035-original.webp",
+            "ok": true
+          },
+          {
+            "title": "السودان يسعى للحفاظ على حظوظه عندما يواجه السنغال",
+            "url": "https://www.beinsports.com/ar-mena/%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D8%AF%D9%85/%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D9%83%D8%A3%D8%B3-%D8%A3%D9%85%D9%85-%D8%A7%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-0000/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88/%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%8A%D8%B3%D8%B9%D9%89-%D9%84%D9%84%D8%AD%D9%81%D8%A7%D8%B8-%D8%B9%D9%84%D9%89-%D8%AD%D8%B8%D9%88%D8%B8%D9%87-%D8%B9%D9%86%D8%AF%D9%85%D8%A7-%D9%8A%D9%88%D8%A7%D8%AC%D9%87-%D8%A7%D9%84%D8%B3%D9%86%D8%BA%D8%A7%D9%84-2026-11-16",
+            "source": "beIN SPORTS",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQly8pjub9r9G2wH2XUF4NynqEYZ1B1eT3z0kBNCtltfHI0yGX8oKF2dTXkBkA",
+            "og_title": "السودان يسعى للحفاظ على حظوظه عندما يواجه السنغال",
+            "og_desc": "يسعى المنتخب السوداني إلى التعويض والمحافظة على حظوظه عندما يواجه تحدي المنتخب السنغالي في جوبا ضمن الجولة الرابعة من تصفيات كأس أمم أفريقيا.",
+            "og_image": "https://s2.dmcdn.net/v/gzPrw1g-ja_hhEuLo/x1080",
             "ok": true
           },
           {
@@ -1083,20 +1121,50 @@
             "url": "https://www.cafonline.com/afcon2025/news/senegal-cote-divoire-cameroon-and-benin-strengthen-afcon-qualification-bids/",
             "source": "CAFOnline.com",
             "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBdfuwX1rVt53ris3TOb9310w1-dBzEbGb-wLfutCS0AFJDePzisGHorPihzw",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "TimeoutError"
+            "og_title": "Senegal, Côte d'Ivoire, Cameroon and Benin strengthen AFCON qualification bids",
+            "og_desc": "Senegal, Côte d'Ivoire, Cameroon and Benin all claimed important victories on Thursday as Matchday 3 of the TotalEnergies CAF Africa Cup of Nations (AFCON) PAMOJA 2027 Qualifiers produced another evening of drama across the continent.",
+            "og_image": "https://www.cafonline.com//media/ldpnfakr/b26klma0002a.jpg?width=1200",
+            "ok": true
           },
           {
-            "title": "Sudan vs Senegal LIVE, Latest Score, Goals and Africa Cup of Nations Qualifiers Updates (0-1)",
+            "title": "Sudan vs Senegal LIVE, Latest Score, Goals and Africa Cup of Nations Qualifiers Updates (0-2)",
             "url": "https://www.vavel.com/en-us/soccer/2026/11/16/1279455-sudan-vs-senegal-live-score-africa-cup-of-nations-qualifiers.html",
             "source": "VAVEL.com",
             "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS5MdCGjJYSclzh_52cfjynC9PoqbUy8NjASYlHRwd4LtNkdUvX7rd-Y4gvn44",
             "og_title": "Sudan vs Senegal LIVE, Latest Score, Goals and Africa Cup of Nations Qualifiers Updates (0-2)",
             "og_desc": "Follow Sudan vs Senegal live score at Juba National Stadium, goals, team news, lineups, text commentary & African Cup Qualifiers 2026 stats on VAVEL.",
             "og_image": "https://img.vavel.com/c169_copia-de-edits-vavel-mx-1794802802948-cq1pxl.jpg",
+            "ok": true
+          },
+          {
+            "title": "السودان يرفع سعر الدولار الجمركي.. الزيادة السادسة خلال عام",
+            "url": "https://www.alarabiya.net/aswaq/economy/2026/11/16/%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D9%8A%D8%B1%D9%81%D8%B9-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%A7%D9%84%D8%AC%D9%85%D8%B1%D9%83%D9%8A-%D8%A7%D9%84%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%D8%A9-%D8%AE%D9%84%D8%A7%D9%84-%D8%B9%D8%A7%D9%85",
+            "source": "العربية",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRJBtyPA_E1BQEAc9BXm5IBD5K29kDkxYrLsoZ9aBT41U4voiV6XCp7j0TjjaM",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "سعر الريال السعودي مقابل الجنيه السوداني اليوم السبت.. ارتفاع ملحوظ في السوق السوداء",
+            "url": "https://www.almashhad.com/article/174515324408726-economy/829173789816417-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA-%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D9%85%D9%84%D8%AD%D9%88%D8%B8-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1/",
+            "source": "قناة ومنصة المشهد - أخبار العالم اليوم",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQdkQjZjtDtMTvTqyHdxmlxqgAL8pA4zjtPQC74lhU29WuOGicBL-Szhvf_bT8",
+            "og_title": "سعر الريال السعودي مقابل الجنيه السوداني اليوم السبت.. ارتفاع ملحوظ في السوق السوداء",
+            "og_desc": "استهل سعر الريال السعودي مقابل الجنيه السوداني اليوم السبت 14/11/2026 تعاملات السوق السوداء على ارتفاع ملحوظ، وسط تزايد إقبال المستوردين والتجار على شراء النقد",
+            "og_image": "https://media.almashhad.com/storage/attachments/8292/1794636606062rigClwebp-1794636606062_highres.webp",
+            "ok": true
+          },
+          {
+            "title": "ربط الجنيه السوداني بالدولار أحد أسباب الغلاء",
+            "url": "https://alraiah.net/ar/posts/rbt-aljnyh-alswdany-baldwlar-ahd-asbab-alghlaa",
+            "source": "جريدة الراية (حزب التحرير)",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQyPf2r9Pajw4pWXAaLXzQb38HQxkEFmN0NdSYR3KU2y5tWG2KooZZ6DOUtfPQ",
+            "og_title": "ربط الجنيه السوداني بالدولار  أحد أسباب الغلاء | الراية - جريدة سياسية أسبوعية",
+            "og_desc": "تحت هذا العنوان، أقام حزب التحرير في ولاية السودان، يوم الاثنين 22 جمادى الأولى 1448هـ، الموافق 2/11/2026م، مخاطبة سياسية في السوق الكبير في مدينة بورتسودان.\n\nت",
+            "og_image": "https://alraiah.barakaboost.com/thumbnail/01a1c725-c3ee-7d8d-83d2-e1d44c82db40.webp?t=1794342529849",
             "ok": true
           }
         ],
@@ -1105,6 +1173,61 @@
         "color": "#79c0ff",
         "reason": "العنوان يطابق: السودان",
         "publishable": true,
+        "article": {
+          "headline": "صقور الجديان يبحثون عن رد الاعتبار أمام السنغال في تصفيات أفريقيا",
+          "summary": "يواجه منتخب السودان نظيره السنغالي اليوم الاثنين ضمن الجولة الرابعة لتصفيات كأس أمم أفريقيا 2027 على ملعب جوبا الوطني.",
+          "body": "يسعى المنتخب السوداني لتعويض خسارته الثقيلة في الجولة الماضية بنتيجة 4-1، وذلك في المواجهة المرتقبة اليوم الاثنين التي يستضيف فيها السنغال على ملعب جوبا الوطني بجنوب السودان، ضمن منافسات المجموعة العاشرة لتصفيات كأس الأمم الأفريقية 2027. ويأتي هذا اللقاء بعد أيام قليلة من مواجهة الذهاب التي جرت في 12 نوفمبر الجاري بمدينة داكار، حيث فرضت أسود التيرانغا تفوقها الكامل على صقور الجديان، وهو ما يضع ضغطًا كبيرًا على المنتخب السوداني لتحقيق نتيجة إيجابية تعيد توازنه في سباق التأهل. وتعد هذه المباراة مفصلية لمسار السودان في التصفيات، حيث يحتل حاليًا المركز الثالث في المجموعة برصيد 3 نقاط، متساويًا مع إثيوبيا، بينما يتصدر المنتخب السنغالي الترتيب برصيد 7 نقاط، متبوعًا بموزمبيق في المركز الثاني برصيد 4 نقاط. ويأمل الجهاز الفني واللاعبون في استغلال الدعم الجماهيري بملعب جوبا رغم إقامة المباراة خارج الأراضي السودانية، لتقليص الفارق مع فرق الصدارة. وتؤكد الحسابات أن الفوز سيعني للسودان رفع رصيده إلى 6 نقاط والتقدم نحو المركز الثاني مؤقتًا، مما يجعله في وضع أفضل قبل خوض الجولتين الأخيرتين من التصفيات والمقرر إقامتهما في مارس 2027. وعلى الجانب الآخر، يدخل منتخب السنغال اللقاء بهدف حسم التأهل مبكرًا وتوسيع فارق النقاط في الصدارة، معتمدًا على أداءه القوي في الجولات السابقة التي بدأت بتعادل مع موزمبيق ثم انتصارين متتاليين على إثيوبيا والسودان، ليؤكد مكانته كأقوى فرق المجموعة وأكثرها ثباتًا في المستوى حتى الآن.",
+          "facts": [
+            {
+              "label": "المباراة",
+              "value": "السودان ضد السنغال"
+            },
+            {
+              "label": "الموعد",
+              "value": "الاثنين 16 نوفمبر 2026"
+            },
+            {
+              "label": "المكان",
+              "value": "ملعب جوبا الوطني - جنوب السودان"
+            },
+            {
+              "label": "المناسبة",
+              "value": "الجولة الرابعة من تصفيات كأس الأمم الأفريقية 2027"
+            },
+            {
+              "label": "المجموعة",
+              "value": "المجموعة العاشرة"
+            },
+            {
+              "label": "النتيجة السابقة",
+              "value": "4-1 للسنغال"
+            }
+          ],
+          "tags": [
+            "منتخب السودان",
+            "السنغال",
+            "تصفيات كأس الأمم الأفريقية",
+            "كرة قدم",
+            "صقور الجديان"
+          ],
+          "_v": 4,
+          "_by": "gemini",
+          "written_at": "2026-11-16T14:01:55.019285+00:00",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/LG_Cup_Africa_2011_Kenya_vs_Sudan_%282%29.jpg/1280px-LG_Cup_Africa_2011_Kenya_vs_Sudan_%282%29.jpg",
+            "width": 1280,
+            "height": 808,
+            "artist": "LG전자",
+            "license": "CC BY 2.0",
+            "license_url": "https://creativecommons.org/licenses/by/2.0",
+            "file_page": "https://commons.wikimedia.org/wiki/File:LG_Cup_Africa_2011_Kenya_vs_Sudan_(2).jpg",
+            "wiki_title": "منتخب السودان لكرة القدم",
+            "wiki_lang": "ar"
+          },
+          "photo_v": 8,
+          "_had_data": false,
+          "_localized": false
+        },
         "card": "cards/sa-2026-11-16-السودان-ضد-السنغال.png"
       },
       {
@@ -1112,44 +1235,45 @@
         "traffic": "2000+",
         "traffic_num": 2000,
         "published": "Mon, 16 Nov 2026 04:40:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQFKT0PNei2-Sdou5eInObiIRaQEdoYM9CoxKploCiMLF8W_dc5GORpC1iYva4",
-        "image_source": "صحيفة سبق الإلكترونية",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCj9cjjB2wVrpiQxdVzi56cvhCzu6F-7Cc6p9_MmkwdA_d7MxlTBdu02XRtnQ",
+        "image_source": "CNN Arabic",
         "news": [
           {
-            "title": "أمر ملكي: تكليف الفريق الأول الركن فياض الرويلي بعمل قائد القوات المشتركة",
-            "url": "https://sabq.org/article/dtt2kct",
-            "source": "صحيفة سبق الإلكترونية",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQFKT0PNei2-Sdou5eInObiIRaQEdoYM9CoxKploCiMLF8W_dc5GORpC1iYva4",
-            "og_title": "أمر ملكي: تكليف الفريق الأول الركن فياض الرويلي بعمل قائد القوات المشتركة | سبق",
-            "og_desc": "أمر ملكي بتعيين الفريق الركن فهد السلمان مستشارًا لوزير الدفاع للشؤون العسكرية، وتكليف الفريق الأول الركن فياض الرويلي بعمل قائد القوات المشتركة.",
-            "og_image": "https://media.sabq.org/news/2026/11/b018bc1e-1b1d-4dc4-a25b-6ca809104c2a/w1264.webp",
+            "title": "السعودية.. أمر ملكي بتعيين قائدٍ جديدٍ للقوات المشتركة ومستشارٍ لوزير الدفاع للشؤون العسكرية",
+            "url": "https://arabic.cnn.com/middle-east/article/2026/11/16/saudi-arabia-royal-decree-appoints-a-new-commander-for-the-joint-forces",
+            "source": "CNN Arabic",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCj9cjjB2wVrpiQxdVzi56cvhCzu6F-7Cc6p9_MmkwdA_d7MxlTBdu02XRtnQ",
+            "og_title": "السعودية: أمر ملكي بتعيين قائدٍ جديدٍ للقوات المشتركة",
+            "og_desc": "أصدر العاهل السعودي سلمان بن عبد العزيز، الاثنين، أمرًا بتعيين مستشارٍ جديدٍ لوزير الدفاع للشؤون العسكرية، بجانب تعيين قائدٍ جديدٍ للقوات المشتركة.",
+            "og_image": "https://cnn-arabic-images.cnn.io/cloudinary/image/upload/x_0,y_100,w_3668,h_2063,c_crop/w_1920,h_1008,c_fill,q_auto,g_center/t_cnnarabic_watermark_logo_v5/cnnarabic/2026/11/16/images/350012.jpg",
             "ok": true
+          },
+          {
+            "title": "السعودية: أمر ملكي بتكليف فياض الرويلي قائداً للقوات المشتركة",
+            "url": "https://www.alarabiya.net/saudi-today/2026/11/16/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D9%85%D8%B1-%D9%85%D9%84%D9%83%D9%8A-%D8%A8%D8%AA%D9%83%D9%84%D9%8A%D9%81-%D9%81%D9%8A%D8%A7%D8%B6-%D8%A7%D9%84%D8%B1%D9%88%D9%8A%D9%84%D9%8A-%D9%82%D8%A7%D8%A6%D8%AF%D8%A7-%D9%84%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D8%A7%D8%B6%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D9%89-%D9%85%D9%87%D8%A7%D9%85-%D8%B9%D9%85%D9%84%D9%87",
+            "source": "العربية",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTjS843x9yFz2cSF4EQXGzk7lRXJGQKGEl9QTn39NdWPJ77KYIl9OBqh9dKcRY",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
           },
           {
             "title": "أمر ملكي بتعيين الفريق الركن السلمان مستشارًا لوزير الدفاع وتكليف الرويلي قائداً للقوات المشتركة",
             "url": "https://www.okaz.com.sa/local/na/2275811",
             "source": "عكاظ",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuFdGlb7mNAX9FFC2du1AQPgHZtX6GhGtnHiVicZR6-nOrMG8m61NcO5x1E3I",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRS9Hc1V40fEWBkCBtqc-t4_z17RaJl5oXZli8BnDqAHVZzEKVzCEYqnjQ9nPs",
             "og_title": "أمر ملكي بتعيين الفريق الركن السلمان مستشارًا لوزير الدفاع وتكليف الرويلي قائداً للقوات المشتركة",
             "og_desc": "أصدر خادم الحرمين الشريفين الملك سلمان بن عبدالعزيز آل سعود، اليوم، أمرا ملكيا يقضي...",
             "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/11/16/2795223.webp",
-            "ok": true
-          },
-          {
-            "title": "أمر ملكي بتعيين فهد السلمان مستشارًا لوزير الدفاع وتكليف فياض الرويلي بقيادة القوات المشتركة",
-            "url": "https://ajel.sa/local/v8c6z9cdc",
-            "source": "عاجل",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQtYY7kNu3OK_k0JT71Qt6oL8XiTC-UGfmWr6nN2MgB-c4L7c5Do7IxmHtXQww",
-            "og_title": "أمر ملكي بتعيين فهد السلمان مستشارًا لوزير الدفاع وتكليف فياض الرويلي بقيادة القوات المشتركة",
-            "og_desc": "أصدر خادم الحرمين الشريفين أمرًا ملكيًا بتعيين الفريق الركن فهد السلمان مستشارًا لوزير الدفاع وتكليف الفريق الأول الركن فياض الرويلي بقيادة القوات المشتركة.",
-            "og_image": "https://ajel.sa/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=auto,format=jpeg/https://cdn.ajel.sa/articles/2026-07/%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%B3%D9%84%D9%85%D8%A7%D9%86-dAIkqgkM.jpg",
             "ok": true
           }
         ],
         "category": "شخصية",
         "icon": "👤",
         "color": "#ffd166",
-        "reason": "شخصية: 3 مصادر تذكر الاسم بلا ألفاظ حسّاسة",
+        "reason": "شخصية: 2 مصادر تذكر الاسم بلا ألفاظ حسّاسة",
         "publishable": true,
         "person": true,
         "article": {
@@ -1234,10 +1358,11 @@
             "url": "https://www.masrawy.com/news/news-banking/details/2026/11/15/3079030/%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%AE%D9%84%D8%A7%D9%84-%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF",
             "source": "Masrawy",
             "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl0so3ayLof-wwT3pRenz9wS41hvuTiTA_fsJX3vak5QGyXrgEzAenaxitcJY",
-            "og_title": "ارتفاع سعر الريال السعودي مقابل الجنيه خلال تعاملات 15-11-2026 | مصراوي",
-            "og_desc": "سعر الريال السعودي ينخفض مقابل الجنيه في 4 بنوك خلال تعاملات 15 11 2026 تعرف على سعر الريال السعودي في البنك الأهلي المصري ومصر والقاهرة والإسكندرية والتجاري الدولي | مصراوي",
-            "og_image": "https://media.gemini.media/img/large/2026/7/22/2026_7_22_11_51_25_292.webp",
-            "ok": true
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
           }
         ],
         "category": "اقتصاد",
@@ -1248,42 +1373,133 @@
         "card": "cards/sa-2026-11-16-ريال-سعودي.png"
       },
       {
+        "title": "سرطان",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Mon, 16 Nov 2026 04:50:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpC--8Q7djFSUL_XbspRZuEOcL_LMlNzuz274dWf3r7tNncIAkexO67Ioq0ck",
+        "image_source": "annahar.com",
+        "news": [
+          {
+            "title": "حفل توزيع جائزة الحسين لأبحاث السرطان 2026 في الوطن العربي",
+            "url": "https://www.annahar.com/health-science/366730/%D8%AA%D9%83%D8%B1%D9%8A%D9%85-%D8%A7%D9%84%D9%81%D8%A7%D8%A6%D8%B2%D9%8A%D9%86-%D8%A8%D8%AC%D8%A7%D8%A6%D8%B2%D8%A9-%D8%A7%D9%84%D8%AD%D8%B3%D9%8A%D9%86-%D9%84%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB-%D8%A7%D9%84%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D9%84%D9%84%D8%B9%D8%A7%D9%85-2026",
+            "source": "annahar.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpC--8Q7djFSUL_XbspRZuEOcL_LMlNzuz274dWf3r7tNncIAkexO67Ioq0ck",
+            "og_title": "حفل توزيع جائزة الحسين لأبحاث السرطان 2026 في الوطن العربي",
+            "og_desc": "كرّم حفل جائزة الحسين لأبحاث السرطان 2026 الباحثين العرب تقديراً لإسهاماتهم في تطوير أبحاث وعلاج السرطان وتعزيز التعاون العلمي الإقليمي والدولي.",
+            "og_image": "https://www.annahar.com/Assets/ContentPhotos/Photos/WhatsAppImage20261115at5.15.18PM_173248.webp?width=1416&height=805&mode=crop&scale=both",
+            "ok": true
+          },
+          {
+            "title": "مندوبا عن الملك .. الأمير طلال يكرّم الفائزين بجائزة الحسين لأبحاث السرطان للعام 2026",
+            "url": "https://menafn.com/arabic/1111964353/%D9%85%D9%86%D8%AF%D9%88%D8%A8%D8%A7-%D8%B9%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D9%8A%D8%B1-%D8%B7%D9%84%D8%A7%D9%84-%D9%8A%D9%83%D8%B1%D9%85-%D8%A7%D9%84%D9%81%D8%A7%D9%8A%D9%94%D8%B2%D9%8A%D9%86-%D8%A8%D8%AC%D8%A7%D9%8A%D9%94%D8%B2%D8%A9-%D8%A7%D9%84%D8%AD%D8%B3%D9%8A%D9%86-%D9%84%D8%A7%D9%94%D8%A8%D8%AD%D8%A7%D8%AB-%D8%A7%D9%84%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D9%84%D9%84%D8%B9%D8%A7%D9%85-2026",
+            "source": "Menafn",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRdid21ReQmuyayfjSe_Aornw8wTeiaCRMwrlVmw_tvVk_Vzjmn0gviqWMcJK4",
+            "og_title": "مندوبا عن الملك .. الأمير طلال يكرّم الفائزين بجائزة الحسين لأبحاث السرطان للعام 2026",
+            "og_desc": "مندوبا عن الملك .. الأمير طلال يكرّم الفائزين بجائزة الحسين لأبحاث السرطان للعام 2026. الوكيل الإخباري-\nمندوبا عن جلالة الملك عبدالله الثاني، كرّم سمو الأ",
+            "og_image": "https://menafn.com/updates/pr/2026-11/15/AWN_438f0image_story.jpg",
+            "ok": true
+          },
+          {
+            "title": "البنك العربي راعيًا بلاتينيًا لجائزة الحسين لأبحاث السرطان لعام 2026",
+            "url": "https://25h.app/2026/11/16/%D8%A7%D9%84%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D8%B1%D8%A7%D8%B9%D9%8A%D9%8B%D8%A7-%D8%A8%D9%84%D8%A7%D8%AA%D9%8A%D9%86%D9%8A%D9%8B%D8%A7-%D9%84%D8%AC%D8%A7%D8%A6%D8%B2%D8%A9/",
+            "source": "25H",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQnuX5zR-ZTWWZg8yayT6jTDqmYx2QOTbnlTLC0Fkjmy-Qdmrjs-q4fS1Hjm9s",
+            "og_title": "البنك العربي راعيًا بلاتينيًا لجائزة الحسين لأبحاث السرطان لعام 2026 – 25H",
+            "og_desc": "قدّم البنك العربي رعايته البلاتينية لجائزة الحسين لأبحاث السرطان لعام 2026، تأكيدًا لدعمه البحث العلمي وتطوير أبحاث السرطان في الوطن العربي. وكرّمت سمو الأميرة",
+            "og_image": "https://25h.app/wp-content/uploads/2026/11/35d253ff-30b0-4e1e-8940-1bd63ecf22a8-zawya.webp",
+            "ok": true
+          }
+        ],
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: سرطان",
+        "publishable": false,
+        "card": "cards/sa-2026-11-16-سرطان.png"
+      },
+      {
         "title": "مسيرة",
         "traffic": "200+",
         "traffic_num": 200,
         "published": "Mon, 16 Nov 2026 04:10:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt2DEvSxnexxydgeetb3wRvC4mIOk4RcK0XxCUhCd1C1TfkYmsW-JgKNwB3Bc",
-        "image_source": "الجزيرة نت",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ_yO9DzQXYTioU1dNBS5w7pAjrYYlj7EcfWGplNntLwYotsyDd-NYH5N64fD4",
+        "image_source": "بوابة الشروق",
         "news": [
           {
-            "title": "روسيا تعلن إسقاط مئات المسيّرات الأوكرانية في هجوم واسع استهدف موسكو",
-            "url": "https://www.aljazeera.net/news/2026/11/16/%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D8%AA%D8%B3%D9%82%D8%B7-%D8%B9%D8%B4%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AC%D9%87%D8%A9-%D9%86%D8%AD%D9%88",
-            "source": "الجزيرة نت",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt2DEvSxnexxydgeetb3wRvC4mIOk4RcK0XxCUhCd1C1TfkYmsW-JgKNwB3Bc",
-            "og_title": "روسيا تعلن إسقاط مئات المسيّرات الأوكرانية في هجوم واسع استهدف موسكو",
-            "og_desc": "أعلنت روسيا إسقاط مئات المسيّرات استهدفت العاصمة موسكو بعد هجوم أوكراني، في حين تستعد أوروبا لعقد اجتماع هذا الأسبوع تمهيدا للمشاركة في جولة مفاوضات للسلام بين روسيا وأوكرانيا.",
-            "og_image": "https://www.aljazeera.net/wp-content/uploads/2026/11/epa_6afa57a250b5-1794791330.jpg?resize=1920%2C1440",
-            "ok": true
+            "title": "وزير النقل يكرم طاقم سفينة وادي العرب بعد نجاحهم في التعامل مع استهداف السفينة بالبحر الأسود",
+            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=16112026&id=53018eab-dff0-4ac8-bade-12e78fee863f",
+            "source": "بوابة الشروق",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ_yO9DzQXYTioU1dNBS5w7pAjrYYlj7EcfWGplNntLwYotsyDd-NYH5N64fD4",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "https://www.shorouknews.com/uploadedimages/Other/original/4هخخ4ه3333333333333333333333333333333333333333.JPG",
+            "ok": false
           },
           {
-            "title": "الجيش الروسي يستهدف سفينة بالبحر الأسود.. \"تحمل معدات لأوكرانيا\"",
-            "url": "https://www.alarabiya.net/arab-and-world/2026/11/15/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%B3%D9%81%D9%8A%D9%86%D8%A9-%D8%A8%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D8%A7%D9%84%D8%A7%D8%B3%D9%88%D8%AF-%D8%AA%D8%AD%D9%85%D9%84-%D9%85%D8%B9%D8%AF%D8%A7%D8%AA-%D9%84%D8%A7%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7",
-            "source": "العربية",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRqoGZh9gdTVWypxIWrGkmX6c4zX_QpzVl9rOou0JLhlEjZI8hL5OR1hSYFUUI",
+            "title": "مصر تكريم طاقم سفينة تعرضت لهجوم بـ3 مسيرات أوكرانية",
+            "url": "http://alwatan.kuwait.tt/articledetails.aspx?id=837220&yearquarter=20264",
+            "source": "جـريـدة الوطن",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRN3tNOvSF0nZpYKpW75QI8_QBFU65sWoZjZoO8Drd1St8bkywk0xVafbLcQoc",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
+            "ok": false
           },
           {
-            "title": "أوكرانيا تضرب جسر القرم وتوقف حركة المرور",
-            "url": "https://ajel.sa/international/ku2zee0du",
-            "source": "عاجل",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQuDZA0OYc9Zr-DtX9tW91jslRaA3jcJRFF1MYsPF2br839ZdbbpJJn5utfddY",
-            "og_title": "أوكرانيا تضرب جسر القرم وتوقف حركة المرور",
-            "og_desc": "توقفت حركة المرور على جسر القرم الذي يربط روسيا بشبه الجزيرة بعد هجوم أوكراني، بحسب تقارير إعلامية. أكد رئيس القرم المعين من موسكو استمرار تقييد حركة السيارات حتى منتصف النهار، فيما لم تحدد طبيعة الأضرار أو نوع الهجوم.",
-            "og_image": "https://ajel.sa/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=auto,format=jpeg/https://cdn.ajel.sa/articles/2026-11/1000332191-A5mJn_qR.jpg",
+            "title": "(وسائط متعددة) مصر تعلن تعرض إحدى سفنها للاستهداف بثلاث طائرات مسيرة في البحر الأسود",
+            "url": "http://arabic.news.cn/20261116/a9561faa317344f48c6fbb2a64df28e7/c.html",
+            "source": "新华网",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQm4iICQGryt8HaMYjsD-KpG3hba9FwKU2p2rOrtB6xHvuXzA_ZYCmLpbZCaZ0",
+            "og_title": "(وسائط متعددة) مصر تعلن تعرض إحدى سفنها للاستهداف بثلاث طائرات مسيرة في البحر الأسود",
+            "og_desc": "",
+            "og_image": "",
+            "ok": true
+          }
+        ],
+        "category": "شخصية",
+        "icon": "👤",
+        "color": "#ffd166",
+        "reason": "شخصية بأقل من مصدرين",
+        "publishable": false,
+        "card": "cards/sa-2026-11-16-مسيرة.png"
+      },
+      {
+        "title": "ناميبيا ضد الكاميرون",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Mon, 16 Nov 2026 05:40:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjTq3VvgCZR969QEyQzmonINMlOQUWdGvX4SHgva9-p8Et-gbfbSstX_WnTKA",
+        "image_source": "بوابة الشروق",
+        "news": [
+          {
+            "title": "أمين عمر يقود مواجهة الكاميرون وناميبيا في تصفيات كأس الأمم الأفريقية",
+            "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=15112026&id=062359b7-f5ea-42ee-920c-3564fe2987bf",
+            "source": "بوابة الشروق",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjTq3VvgCZR969QEyQzmonINMlOQUWdGvX4SHgva9-p8Et-gbfbSstX_WnTKA",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "https://www.shorouknews.com/uploadedimages/Sections/Sports/original/amin-omar-2026.jpg",
+            "ok": false
+          },
+          {
+            "title": "تصفيات إفريقيا - الكاميرون وكوت ديفوار يتصدران.. وغانا تحيي آمالها في المنافسة",
+            "url": "https://www.filgoal.com/articles/541622",
+            "source": "FilGoal",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTItgyMV2yWzQvzAoxVzN5PKV4kHhDIpzFxVHv6q_OKLQk_wQ3CHX_kZ3cE5u0",
+            "og_title": "تصفيات إفريقيا - الكاميرون وكوت ديفوار يتصدران.. وغانا تحيي آمالها في المنافسة",
+            "og_desc": "انفرد منتخب الكاميرون بصدارة المجموعة السابعة بعد الفوز ضد نامبيا بهدفين نظيفين، ضمن مواجهات الجولة الثالثة.",
+            "og_image": "https://media.filgoal.com/news/verylarge/382740_0.jpg",
+            "ok": true
+          },
+          {
+            "title": "مشاهدة مباراة ناميبيا والكاميرون بتصفيات كأس أمم إفريقيا.. بث مباشر",
+            "url": "https://www.sadaelomma.com/2026/11/blog-post_850.html",
+            "source": "صدى الأمة",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTX7nm3saqNRgqu_wR_9H-o_wwUUiQlf8LrSwg4eyktZBH3BUIw2bvVoflgEF8",
+            "og_title": "مشاهدة مباراة ناميبيا والكاميرون بتصفيات كأس أمم إفريقيا.. بث مباشر",
+            "og_desc": "مشاهدة مباراة ناميبيا والكاميرون بتصفيات كأس أمم إفريقيا.. بث مباشر",
+            "og_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi12EzbovftoCvd9NARAkhqw60Ba6QqvqXNuZCaJDIVTSoi_glRRTtAbzsCCn-5Vt3iAVqhbezLdKY0rhQXmOd72uPR3raZLOHAqKS1baCnBAwmYyQN4Ae4OMET24e9dTeV_XbwFiu8RPYuq_XleXLfxPnSZk7jeyNn3ZBum6AQZ7de8p7DWlj7NHckYLsO/w1200-h630-p-k-no-nu/%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9%20%D9%86%D8%A7%D9%85%D9%8A%D8%A8%D9%8A%D8%A7%20%D9%88%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%8A%D8%B1%D9%88%D9%86.jpeg",
             "ok": true
           }
         ],
@@ -1292,100 +1508,55 @@
         "color": "#ffd166",
         "reason": "شخصية لا يرد اسمها في مصدرين",
         "publishable": false,
-        "card": "cards/sa-2026-11-16-مسيرة.png"
+        "card": "cards/sa-2026-11-16-ناميبيا-ضد-الكاميرون.png"
       },
       {
-        "title": "كاظم الساهر",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 03:40:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFUezPCDBHqzmAv3w_n0ARF9hGVtRYdwQ-cWr2EcupiOFaGiibsAtIWv1xM44",
-        "image_source": "عكاظ",
+        "title": "شيفون زيليس",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "published": "Mon, 16 Nov 2026 05:30:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQpBMQ-ez0nWjTH9sfU39czNCTbyFZD1vRRpryylXXOj6dGxKtkW65dX-8Pgaw",
+        "image_source": "العربية",
         "news": [
           {
-            "title": "اقتحام مفاجئ لمسرح كاظم الساهر.. ورد فعل مفاجيء",
-            "url": "https://www.okaz.com.sa/culture/art/2275747",
-            "source": "عكاظ",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFUezPCDBHqzmAv3w_n0ARF9hGVtRYdwQ-cWr2EcupiOFaGiibsAtIWv1xM44",
-            "og_title": "اقتحام مفاجئ لمسرح كاظم الساهر.. ورد فعل مفاجيء",
-            "og_desc": "فوجئ الفنان العراقي كاظم الساهر بصعود أحد معجبيه إلى المسرح خلال حفله في مدينة العقبة الأردنية، بعدما تمكن الشاب من تخطي الحواجز الأمنية والوصول إليه، ما تسبب في حالة من الارتباك للحظات قبل أن يتضح أنه أراد التقاط صورة معه.",
-            "og_image": "https://www.okaz.com.sa/okaz/uploads/images/2026/11/16/2795045.webp",
+            "title": "صورة لماسك مع طفليه وأمهما أمام \"صاروخ\".. تتصدر التواصل",
+            "url": "https://www.alarabiya.net/social-media/2026/11/16/%D8%B5%D9%88%D8%B1%D8%A9-%D9%84%D9%85%D8%A7%D8%B3%D9%83-%D9%85%D8%B9-%D8%B7%D9%81%D9%84%D9%8A%D9%87-%D9%88%D8%A7%D9%85%D9%87%D9%85%D8%A7-%D8%A7%D9%85%D8%A7%D9%85-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D8%AA%D8%AA%D8%B5%D8%AF%D8%B1-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84",
+            "source": "العربية",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQpBMQ-ez0nWjTH9sfU39czNCTbyFZD1vRRpryylXXOj6dGxKtkW65dX-8Pgaw",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "«هدية من عالم آخر».. صورة إيلون ماسك مع طفليه أمام صاروخ تشعل مواقع التواصل",
+            "url": "https://elmaser.com/article/202020",
+            "source": "elmaser.com",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRxR8LO6CTi-2spNGQ31rT1ekX9R1AclRGIOOYhpX_FXs7qBh2wfGg7hOAHp4Q",
+            "og_title": "«هدية من عالم آخر».. صورة إيلون ماسك مع طفليه أمام صاروخ تشعل مواقع التواصل",
+            "og_desc": "أشعلت صورة عائلية لرجل الأعمال الأمريكي إيلون ماسك، برفقة طفليه التوأم وأمهما شيفون زيليس، مواقع التواصل الاجتماعي، بعدما ظهرت أمام ما بدا أنه صاروخ فضائي، في…",
+            "og_image": "https://elmaser.com/storage/media/oETiE3zZl4cB1WRjkno0zxkKhFfxW7ThHYAt5zJl.jpg",
             "ok": true
           },
           {
-            "title": "\"اقتحام\" مفاجئ لحفل كاظم الساهر في الأردن.. ماذا فعل القيصر؟ (فيديو)",
-            "url": "https://www.eremnews.com/entertainment/ndnhn8h",
-            "source": "إرم نيوز",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWpxPhI1LHoePO_-pVTiHPA6AG0anOqFyqbFsQs_HYFnOe0Nr2Z5zGCAMDZhg",
-            "og_title": "\"اقتحام\" مفاجئ لحفل كاظم الساهر في الأردن.. ماذا فعل القيصر؟ (فيديو) | إرم نيوز",
-            "og_desc": "تعرض الفنان العراقي كاظم الساهر لموقف مفاجئ خلال حفله في مدينة العقبة الأردنية، بعدما تمكن أحد المعجبين من تجاوز الحواجز الأمنية والصعود إلى المسرح.",
-            "og_image": "https://cdn.eremnews.com/media/f0beaea4-80f9-42b0-9648-b734f8b11689",
-            "ok": true
-          },
-          {
-            "title": "كاظم الساهر يفاجئ جمهوره بتصرف غير متوقع مع معجب صعد إلى المسرح",
-            "url": "https://www.youm7.com/story/2026/11/16/%D9%83%D8%A7%D8%B8%D9%85-%D8%A7%D9%84%D8%B3%D8%A7%D9%87%D8%B1-%D9%8A%D9%81%D8%A7%D8%AC%D8%A6-%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%87-%D8%A8%D8%AA%D8%B5%D8%B1%D9%81-%D8%BA%D9%8A%D8%B1-%D9%85%D8%AA%D9%88%D9%82%D8%B9-%D9%85%D8%B9-%D9%85%D8%B9%D8%AC%D8%A8-%D8%B5%D8%B9%D8%AF/7620769",
-            "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKBsoHGe8_BqV-orifGKPsv93bJ-FGOYd1vkF9Bv2Xy9p230B7jzF1LZYbIoI",
-            "og_title": "كاظم الساهر يفاجئ جمهوره بتصرف غير متوقع مع معجب صعد إلى المسرح - اليوم السابع",
-            "og_desc": "في لفتة إنسانية لاقت اهتمامًا، فاجأ أحد معجبي النجم العراقي كاظم الساهر، خلال حفله الغنائي، بصعوده مباشرة إلى خشبة المسرح والتوجه نحوه لاحتضانه",
-            "og_image": "https://img.youm7.com/xlarge/202611160211281128_5595.jpg",
-            "ok": true
+            "title": "أمام صاروخ.. صورة إيلون ماسك مع طفليه تتصدر الترند",
+            "url": "https://roayahnews.com/%D8%A3%D9%85%D8%A7%D9%85-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D8%B5%D9%88%D8%B1%D8%A9-%D8%A5%D9%8A%D9%84%D9%88%D9%86-%D9%85%D8%A7%D8%B3%D9%83-%D9%85%D8%B9-%D8%B7%D9%81%D9%84%D9%8A%D9%87-%D8%AA%D8%AA/",
+            "source": "شبكة رؤية الإخبارية",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_yte93nquXuzJxWVNnCHGxVpJP_NxWMH9UT3dCYAKGf2zAdVVeLxHFCt8kFc",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
           }
         ],
         "category": "شخصية",
         "icon": "👤",
         "color": "#ffd166",
-        "reason": "حجم بحث أقل من 2000",
+        "reason": "شخصية بأقل من مصدرين",
         "publishable": false,
-        "person": true,
-        "card": "cards/sa-2026-11-16-كاظم-الساهر.png"
-      },
-      {
-        "title": "منتخب أوزبكستان لكرة القدم",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 03:40:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHkVpeKdtQRrnRX3VvREubFSIP4fdpPxWvNbIa31j4ffUFs0G2RPe85sREwpc",
-        "image_source": "الموقع الرسمي لنادي الهلال السعودي",
-        "news": [
-          {
-            "title": "الهلال يواصل تحضيراته.. و\"محمد محزري\" يخضع لفحوصات طبية غدًا",
-            "url": "https://alhilal.com/ar/news/alhlal-ywasl-thdhyrath-w-mhmd-mhzry-ykhdha-lfhwsat-tbyh-ghdana",
-            "source": "الموقع الرسمي لنادي الهلال السعودي",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHkVpeKdtQRrnRX3VvREubFSIP4fdpPxWvNbIa31j4ffUFs0G2RPe85sREwpc",
-            "og_title": "الهلال يواصل تحضيراته.. و\"محمد محزري\" يخضع لفحوصات طبية غدًا - Al Hilal FC",
-            "og_desc": "",
-            "og_image": "https://images.ctfassets.net/eyc25wndlima/3rwU30mdmvYL3oPeOXbx5E/0e7d790f0fa966106bf27b77bc94ade2/Site_4-21.jpg.jpeg?w=1200&h=630&fit=crop&f=face",
-            "ok": true
-          },
-          {
-            "title": "محزري يعاني من تمزق.. وينتظر الأشعة",
-            "url": "https://arriyadiyah.com/904908/%D9%85%D8%AD%D8%B2%D8%B1%D9%8A-%D9%8A%D8%B9%D8%A7%D9%86%D9%8A-%D9%85%D9%86-%D8%AA%D9%85%D8%B2%D9%82..-%D9%88%D9%8A%D9%86%D8%AA%D8%B8%D8%B1-%D8%A7%D9%84%D8%A3%D8%B4%D8%B9%D8%A9",
-            "source": "صحيفة الرياضية",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtGfb0PXWu9paAmqRKTZBnoHKKq3KvagJNU1MYUGucbu6DibcWxpidar1YPZw",
-            "og_title": "محزري يعاني من تمزق.. وينتظر الأشعة",
-            "og_desc": "ينتظر الإسباني خوان خيمينيز، طبيب الهلال، نتائج فحوصات نهائية بالأشعة يخضع لها محمد محزري، ظهير أيمن الفريق  ...",
-            "og_image": "https://arriyadiyah.com/media/thumb/b0/03/800_8bc13d46eb.png",
-            "ok": true
-          },
-          {
-            "title": "الأخضر يعاود تدريباته ضمن معسكره في قطر .. تحضيراً لمواجهة أوزبكستان",
-            "url": "https://sabq.org/article/lfl1vfm",
-            "source": "صحيفة سبق الإلكترونية",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTV9fw4qw2O9gSKxs5C9Zt4r8dzaJc4Dg8uYAhRUTczxD8JuRWeIfkYGcIQwso",
-            "og_title": "الأخضر يعاود تدريباته ضمن معسكره في قطر .. تحضيراً لمواجهة  أوزبكستان  | سبق",
-            "og_desc": "الأخضر يعاود تدريباته ضمن معسكره في قطر .. تحضيراً لمواجهة  أوزبكستان",
-            "og_image": "https://media.sabq.org/news/2026/11/2bb3529b-20a3-43de-bf40-d7782a447674/w1600.webp",
-            "ok": true
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/sa-2026-11-16-منتخب-أوزبكستان-لكرة-القدم.png"
+        "card": "cards/sa-2026-11-16-شيفون-زيليس.png"
       },
       {
         "title": "sri lanka national cricket team",
@@ -1433,99 +1604,6 @@
         "reason": "حجم بحث أقل من 2000",
         "publishable": false,
         "card": "cards/sa-2026-11-16-sri-lanka-national-cricket-team.png"
-      },
-      {
-        "title": "سرطان",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Mon, 16 Nov 2026 04:50:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpC--8Q7djFSUL_XbspRZuEOcL_LMlNzuz274dWf3r7tNncIAkexO67Ioq0ck",
-        "image_source": "annahar.com",
-        "news": [
-          {
-            "title": "حفل توزيع جائزة الحسين لأبحاث السرطان 2026 في الوطن العربي",
-            "url": "https://www.annahar.com/health-science/366730/%D8%AA%D9%83%D8%B1%D9%8A%D9%85-%D8%A7%D9%84%D9%81%D8%A7%D8%A6%D8%B2%D9%8A%D9%86-%D8%A8%D8%AC%D8%A7%D8%A6%D8%B2%D8%A9-%D8%A7%D9%84%D8%AD%D8%B3%D9%8A%D9%86-%D9%84%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB-%D8%A7%D9%84%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D9%84%D9%84%D8%B9%D8%A7%D9%85-2026",
-            "source": "annahar.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpC--8Q7djFSUL_XbspRZuEOcL_LMlNzuz274dWf3r7tNncIAkexO67Ioq0ck",
-            "og_title": "حفل توزيع جائزة الحسين لأبحاث السرطان 2026 في الوطن العربي",
-            "og_desc": "كرّم حفل جائزة الحسين لأبحاث السرطان 2026 الباحثين العرب تقديراً لإسهاماتهم في تطوير أبحاث وعلاج السرطان وتعزيز التعاون العلمي الإقليمي والدولي.",
-            "og_image": "https://www.annahar.com/Assets/ContentPhotos/Photos/WhatsAppImage20261115at5.15.18PM_173248.webp?width=1416&height=805&mode=crop&scale=both",
-            "ok": true
-          },
-          {
-            "title": "بين المريض المُعفى والمريض الذي يدفع... أملنا أكبر يا مركز الحسين للسرطان!",
-            "url": "https://alanbatnews.net/article/486071",
-            "source": "صحيفة الأنباط",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSNEd_CH3EtyW75783Fo0xScWXI8_bKWFrAbsM9yS3VTo5Dni_Ooi-5ewvSm7Y",
-            "og_title": "بين المريض المُعفى والمريض الذي يدفع أملنا أكبر يا مركز الحسين للسرطان",
-            "og_desc": "بين المريض المُعفى والمريض الذي يدفع أملنا أكبر يا مركز الحسين للسرطان",
-            "og_image": "https://cdn.alanbatnews.net/2026-11-09/images/10_news_1794255252.jpeg",
-            "ok": true
-          },
-          {
-            "title": "مندوبا عن الملك .. الأمير طلال يكرّم الفائزين بجائزة الحسين لأبحاث السرطان للعام 2026",
-            "url": "https://menafn.com/arabic/1111964353/%D9%85%D9%86%D8%AF%D9%88%D8%A8%D8%A7-%D8%B9%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%A7%D9%84%D8%A7%D9%94%D9%85%D9%8A%D8%B1-%D8%B7%D9%84%D8%A7%D9%84-%D9%8A%D9%83%D8%B1%D9%85-%D8%A7%D9%84%D9%81%D8%A7%D9%8A%D9%94%D8%B2%D9%8A%D9%86-%D8%A8%D8%AC%D8%A7%D9%8A%D9%94%D8%B2%D8%A9-%D8%A7%D9%84%D8%AD%D8%B3%D9%8A%D9%86-%D9%84%D8%A7%D9%94%D8%A8%D8%AD%D8%A7%D8%AB-%D8%A7%D9%84%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D9%84%D9%84%D8%B9%D8%A7%D9%85-2026",
-            "source": "Menafn",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRdid21ReQmuyayfjSe_Aornw8wTeiaCRMwrlVmw_tvVk_Vzjmn0gviqWMcJK4",
-            "og_title": "مندوبا عن الملك .. الأمير طلال يكرّم الفائزين بجائزة الحسين لأبحاث السرطان للعام 2026",
-            "og_desc": "مندوبا عن الملك .. الأمير طلال يكرّم الفائزين بجائزة الحسين لأبحاث السرطان للعام 2026. الوكيل الإخباري-\nمندوبا عن جلالة الملك عبدالله الثاني، كرّم سمو الأ",
-            "og_image": "https://menafn.com/updates/pr/2026-11/15/AWN_438f0image_story.jpg",
-            "ok": true
-          }
-        ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: سرطان",
-        "publishable": false,
-        "card": "cards/sa-2026-11-16-سرطان.png"
-      },
-      {
-        "title": "syed mushtaq ali trophy",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Mon, 16 Nov 2026 03:40:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ0RM0LeeGZlrmrQpZboUAkKyk4qtDuL8j0s4EwyhSGWURu5ZS3RnQ3o3sG0ac",
-        "image_source": "Cricinfo",
-        "news": [
-          {
-            "title": "Live - Patidar slams 48-ball 135*, SKY 82* downs Gujarat",
-            "url": "https://www.cricinfo.com/series/syed-mushtaq-ali-trophy-2026-27-1546522/gujarat-vs-mumbai-elite-group-d-1546692/live-match-blog",
-            "source": "Cricinfo",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ0RM0LeeGZlrmrQpZboUAkKyk4qtDuL8j0s4EwyhSGWURu5ZS3RnQ3o3sG0ac",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Rajat Patidar’s unbeaten 135 powers massive win for MP in Syed Mushtaq Ali T20 Trophy",
-            "url": "https://theprint.in/sport/rajat-patidars-unbeaten-135-powers-massive-win-for-mp-in-syed-mushtaq-ali-t20-trophy/3100169/",
-            "source": "ThePrint",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSFWk1aI0K_L3Xuln9L0bpLvKRD5KqjbYRzIK225854WGOeNFxBYStGeyURgbc",
-            "og_title": "Rajat Patidar’s unbeaten 135 powers massive win for MP in Syed Mushtaq Ali T20 Trophy",
-            "og_desc": "Stay updated with ThePrint: Preferred Source Google Discover Mullanpur, Nov 16 (PTI) Skipper Rajat Patidar hammered a 48-ball 135 not out to power Madhya Pradesh to a massive 131-run victory against a lowly Assam in their Group C match of the Syed Mushtaq Ali T20 Trophy here on Monday. Patidar, who opted out of the […]",
-            "og_image": "https://staticprintenglish.theprint.in/wp-content/uploads/2023/06/theprint_default_image_new.jpg",
-            "ok": true
-          },
-          {
-            "title": "Patidar's 135 powers MP to 131-run victory",
-            "url": "https://tripuratimes.com/ttimes/patidars-135-powers-mp-to-131-run-victory-43165.html",
-            "source": "TripuraTimes.com",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRFrM2dlRiBDHe5Cr2ysIlo-asGh1nl8hXj8juN9ZmVi_rQPjXNobsivUdkhyc",
-            "og_title": "Patidar's 135 powers MP to 131-run victory",
-            "og_desc": "Rajat Patidar produced a breathtaking unbeaten 135 off just 48 balls as Madhya Pradesh thrashed Assam by 131 runs, while Jammu and Kashmir, Uttarakhand and Uttar Pradesh also recorded victories in their respective Elite ...",
-            "og_image": "https://tripuratimes.com/backOffice/NewsImages/patidars-135-powers-mp-to-131-run-victory.jpg",
-            "ok": true
-          }
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/sa-2026-11-16-syed-mushtaq-ali-trophy.png"
       }
     ]
   }

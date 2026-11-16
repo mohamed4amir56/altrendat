@@ -4,7 +4,7 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-11-16T05:01:39.025386+00:00",
+  "generated_at": "2026-11-16T05:31:43.536916+00:00",
   "day": "2026-11-16",
   "trends": [
     {
@@ -26,6 +26,16 @@
           "ok": true
         },
         {
+          "title": "James Trafford: Has Leeds goalkeeper overtaken Jordan Pickford as England's No 1 after starring display against Spain?",
+          "url": "https://www.skysports.com/football/news/13612624/james-trafford-has-leeds-goalkeeper-overtaken-jordan-pickford-as-englands-no-1-after-starring-display-against-spain",
+          "source": "Sky Sports",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTTwhf86Yr8fk2uVBZ9oxBnhjS7TUn0jN4JnsaYo9dY7RqIjmBzpqG_EbyaR1Q",
+          "og_title": "James Trafford: Has Leeds goalkeeper overtaken Jordan Pickford as England's No 1 after starring display against Spain?",
+          "og_desc": "James Trafford made a string of impressive saves to help England claim a 3-2 win over Spain in the Nations League; Leeds goalkeeper was picked ahead of Jordan Pickford at the Metropolitano Stadium, so is he Thomas Tuchels man now?",
+          "og_image": "https://e0.365dm.com/26/11/1600x900/skysports-james-trafford-exri-konsa_7407447.jpg?20261115233939",
+          "ok": true
+        },
+        {
           "title": "UEFA Nations League Matchday 6 highlights: Belgium, France into last eight, England beat Spain",
           "url": "https://www.uefa.com/uefanationsleague/news/02ab-22146db70e40-12d581ab82a9-1000--uefa-nations-league-matchday-6-highlights-belgium-france/",
           "source": "UEFA.com",
@@ -35,16 +45,6 @@
           "og_image": "",
           "ok": false,
           "error": "TimeoutError"
-        },
-        {
-          "title": "England hold off Spain rally to end WC winner's 43-game unbeaten run",
-          "url": "https://www.espn.com/soccer/story/_/id/50493712/england-spain-43-game-unbeaten-run",
-          "source": "ESPN",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTQTNbmSJVxfamRZepxXfB7gGpG0GTvqetWzaWrOWKVVOyx8IwbeFGuWeDBHNI",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false
         }
       ],
       "geos": [
@@ -53,8 +53,55 @@
       "category": "رياضة",
       "icon": "⚽",
       "color": "#3ddc97",
-      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
-      "publishable": false,
+      "reason": "العنوان يطابق: vs",
+      "publishable": true,
+      "article": {
+        "headline": "England Stuns World Champions Spain In 3-2 Nations League Thriller Victory",
+        "summary": "England ended Spain's 43-game unbeaten run with a 3-2 victory at the Metropolitano in Sunday's Nations League clash.",
+        "body": "James Trafford’s dramatic double save in stoppage time secured the result, as he denied Fermin Lopez and Mikel Oyarzabal to preserve a narrow one-goal lead. The victory marks the finest night of head coach Thomas Tuchel’s tenure, snapping Spain’s impressive 43-game unbeaten streak and proving the squad could thrive under high-pressure conditions in Madrid. England took a commanding position early with a Harry Kane penalty followed by goals from Ezri Konsa and Ben White within the first 12 minutes of the second half.\n\nFor England, the match served as a critical test of character and tactical flexibility under Tuchel. The decision to start Leeds goalkeeper James Trafford ahead of long-term incumbent Jordan Pickford paid off significantly, with Trafford’s composure under fire helping the side withstand a furious Spanish comeback. The win provides a vital confidence boost for the squad as they look ahead to the Nations League last eight.\n\nAccording to BBC, the game turned chaotic after England’s Elliot Anderson was sent off in the 65th minute for a foul on Lamine Yamal. This error, compounded by a defensive lapse from Jarell Quansah, allowed Spain to rally through goals from Mikel Oyarzabal and Nico Williams. Despite being forced to defend with ten men for the final half-hour, England held firm, with Sky Sports reporting that Trafford’s reflexes were the decisive factor in denying Spain’s late surge. Tuchel remains committed to competition for the goalkeeper position, stating there is no official No 1 at this stage.",
+        "facts": [
+          {
+            "label": "Final Score",
+            "value": "Spain 2-3 England"
+          },
+          {
+            "label": "Venue",
+            "value": "Metropolitano Stadium, Madrid"
+          },
+          {
+            "label": "England Scorers",
+            "value": "Harry Kane, Ezri Konsa, Ben White"
+          },
+          {
+            "label": "Spain Scorers",
+            "value": "Mikel Oyarzabal, Nico Williams"
+          }
+        ],
+        "tags": [
+          "England",
+          "Spain",
+          "Nations League",
+          "Thomas Tuchel",
+          "James Trafford"
+        ],
+        "_v": 4,
+        "_by": "gemini",
+        "written_at": "2026-11-16T05:31:55.571313+00:00",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Adidas_soccer_ball_on_a_grass_pitch_%28Unsplash%29.jpg/1280px-Adidas_soccer_ball_on_a_grass_pitch_%28Unsplash%29.jpg",
+          "width": 1280,
+          "height": 853,
+          "artist": "Peter Glaser baraida",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Adidas_soccer_ball_on_a_grass_pitch_(Unsplash).jpg",
+          "stock": true,
+          "topic": "football"
+        },
+        "photo_v": 8,
+        "_had_data": false,
+        "_localized": false
+      },
       "card": "cards/world-2026-11-16-spain-national-football-team-vs-england-national-football-team-standings.png",
       "published_at": "2026-11-16T05:01:39.025386+00:00"
     },
@@ -179,16 +226,6 @@
           "ok": false
         },
         {
-          "title": "NFL Playoff Bracket Picture 2026-27 and AFC, NFC Standings Before Week 10 SNF",
-          "url": "https://bleacherreport.com/articles/25533810-nfl-playoff-bracket-picture-2026-27-and-afc-nfc-standings-week-10-snf",
-          "source": "Bleacher Report",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQs4Cf92AiDaDblwUULZ5pKYHvr9aPfhDIDpQY9Vie6y7Cq-ejfgbhW8SjCLME",
-          "og_title": "NFL Playoff Bracket Picture 2026-27 and AFC, NFC Standings After SNF Week 10",
-          "og_desc": "The Minnesota Vikings sent a message to the league Sunday with a one-sided win in Green Bay against the Packers, while the Bills continued to be the elite in the AFC.",
-          "og_image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/2026-11/nfl-bracket---16x9,-3x2-copy-1920x1080-px_1.jpg?w=1120&h=630",
-          "ok": true
-        },
-        {
           "title": "Column: Sizing up the battle ahead in the NFC North, which could send all 4 teams to the playoffs",
           "url": "https://www.chicagotribune.com/2026/11/15/chicago-bears-nfc-north-race/",
           "source": "Chicago Tribune",
@@ -196,6 +233,16 @@
           "og_title": "Column: Sizing up the battle ahead in the NFC North, which could send all 4 teams to the playoffs",
           "og_desc": "The NFC North sets up to have a fascinating race in the second half of the season, perhaps the best division the NFL has seen in years.",
           "og_image": "https://www.chicagotribune.com/wp-content/uploads/2026/09/CTC-L-bears-vikings-sweda074.jpg?w=3394&h=2368",
+          "ok": true
+        },
+        {
+          "title": "Examining NFC playoff picture at end of Sunday in Week 10 of 2026 | 'NFL GameDay Final'",
+          "url": "https://www.nfl.com/videos/examining-nfc-playoff-picture-at-end-of-sunday-in-week-10-of-2026-nfl-gameday-final",
+          "source": "NFL.com",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSxQCCi7qaci8ORaiufFduz_tPpB7MHHdJ3KzvOq-IMYF6JC11MPx3Mqe-KNJI",
+          "og_title": "Examining NFC playoff picture at end of Sunday in Week 10 of 2026 | 'NFL GameDay Final'",
+          "og_desc": "NFL Network's Chris Rose examines the playoff seeing in the NFC as of the end of the day on Sunday of Week 10 in the 2026 regular season.",
+          "og_image": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/wvq48tomtgwcz063kwct",
           "ok": true
         }
       ],
@@ -209,6 +256,107 @@
       "publishable": false,
       "card": "cards/world-2026-11-16-afc-north-standings.png",
       "published_at": "2026-11-16T05:01:39.025386+00:00"
+    },
+    {
+      "title": "vgk",
+      "traffic": "5000+",
+      "traffic_num": 5000,
+      "published": "Sun, 15 Nov 2026 20:00:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlVB3J2CQ8f1vv84-hnXf3AAGlTs2nZ4vUfTuSbKCN7zguFyNtA-7d-V49r54",
+      "image_source": "ESPN",
+      "news": [
+        {
+          "title": "Shai Gilgeous-Alexander drills triple vs. Sacramento Kings",
+          "url": "https://www.espn.com/video/clip/_/id/50498126/shai-gilgeous-alexander-drills-triple-vs-sacramento-kings",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlVB3J2CQ8f1vv84-hnXf3AAGlTs2nZ4vUfTuSbKCN7zguFyNtA-7d-V49r54",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Predators vs. Sharks (Nov 15, 2026) Live Score",
+          "url": "https://www.espn.com/nhl/game/_/gameId/401892725",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRzvcFKGu0Y1SGA--dVFSkD3F9M7HPjc8tTtn9Yb-2CEcxA9oWcYKa8qxqghQ",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Missouri 69-64 Marquette (Nov 15, 2026) Final Score",
+          "url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401909525/marquette-missouri",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPNyuHG22VNBmJ6OLTUy5Sz9EvGOWtKZVzuhcTRohilC-m2JL_-8IVTQx32Sc",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-vgk.png",
+      "published_at": "2026-11-16T05:01:39.025386+00:00"
+    },
+    {
+      "title": "donald trump iran war",
+      "traffic": "5000+",
+      "traffic_num": 5000,
+      "published": "Sun, 15 Nov 2026 19:40:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTM-vsJxmB2zhrysHX1pBum9oKDlpCOP-ptRRRNWk4QgnT8ZY3fwBXfbJkfDpk",
+      "image_source": "Al Jazeera",
+      "news": [
+        {
+          "title": "Iran war live: Third US carrier arrives, Iran warns it could strike first",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack",
+          "source": "Al Jazeera",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTM-vsJxmB2zhrysHX1pBum9oKDlpCOP-ptRRRNWk4QgnT8ZY3fwBXfbJkfDpk",
+          "og_title": "Third US carrier arrives in Middle East, Iran warns it could strike first",
+          "og_desc": "The USS Theodore Roosevelt has arrived in the Middle East, while Iran warned it would not simply wait for an attack.",
+          "og_image": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6afa600bf2-1794793484.jpg?resize=1920%2C1440",
+          "ok": true
+        },
+        {
+          "title": "Third US aircraft carrier said to arrive in Mideast as Washington shores up troops",
+          "url": "https://www.timesofisrael.com/liveblog-november-16-2026/",
+          "source": "The Times of Israel",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR4EZeuWxrJY2zVuue-zHWPN1zhvp8EbvuIg5qTFVXhsBwiSQFm6jpR1D_u11U",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "USS Theodore Roosevelt to join 2 US aircraft carriers in Middle East within next day: Report",
+          "url": "https://www.aa.com.tr/en/americas/uss-theodore-roosevelt-to-join-2-us-aircraft-carriers-in-middle-east-within-next-day-report/4125964",
+          "source": "Anadolu Ajansı",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS2_ozVIKm85Vm7mLg75S06PdcNE5DClzb57jDLe-rnWOWlDfK0SH5jMwUuGhc",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-donald-trump-iran-war.png",
+      "published_at": "2026-11-16T05:31:43.536916+00:00"
     },
     {
       "title": "shai gilgeous-alexander",
@@ -414,8 +562,8 @@
     },
     {
       "title": "ravens vs chargers",
-      "traffic": "1000+",
-      "traffic_num": 1000,
+      "traffic": "2000+",
+      "traffic_num": 2000,
       "published": "Sun, 15 Nov 2026 20:30:00 -0800",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRopA7IP4ZyBK5VjI2vLPcCRUF3zmL3T0GXgDy34G66rno4RgO3F0xyYvYLcLk",
       "image_source": "CBS Sports",
@@ -441,15 +589,14 @@
           "ok": true
         },
         {
-          "title": "Experts release new Chargers vs. Ravens predictions for Monday Night Football Week 10",
-          "url": "https://www.oregonlive.com/betting/2026/11/experts-release-new-chargers-vs-ravens-predictions-for-monday-night-football-week-10.html",
-          "source": "OregonLive.com",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZX3gUw7arObAsWn8V3fXcyeIIplFImnBDqVq-dJcnWZJGM5d8Bpg4swcBQ3U",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
+          "title": "Ravens-Chargers moves onto list of Monday night matchups that lost their luster",
+          "url": "https://www.cbsnews.com/baltimore/news/ravens-chargers-moves-onto-list-of-monday-night-matchups-that-lost-their-luster/",
+          "source": "CBS News",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYZkonXzMuo3QFK0tSrZg2_X43mxVz7enQlew-r_AOe8-waKqSK7NCNoCU094",
+          "og_title": "Ravens-Chargers moves onto list of Monday night matchups that lost their luster",
+          "og_desc": "Los Angeles is 0-8 and Baltimore (4-5) has lost four straight games.",
+          "og_image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/16/f1b7be2c-8904-4338-ac3c-2687a4c670f3/thumbnail/1200x630/7e5fceb82f895d98d76289f369370137/ap26310075567490.jpg",
+          "ok": true
         }
       ],
       "geos": [
@@ -462,6 +609,209 @@
       "publishable": false,
       "card": "cards/world-2026-11-16-ravens-vs-chargers.png",
       "published_at": "2026-11-16T05:01:39.025386+00:00"
+    },
+    {
+      "title": "xbox project helix console",
+      "traffic": "2000+",
+      "traffic_num": 2000,
+      "published": "Sun, 15 Nov 2026 20:40:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRJnunCaQOwyeU6oEMcHj70UlWgVnY-x710Tvw6yToOeFwBLg4e9DKH5C7FOPk",
+      "image_source": "Windows Central",
+      "news": [
+        {
+          "title": "Microsoft says Xbox Helix is a console, not a PC — but it will be able to play your PC games: \"It is not a PC that can also play console games\"",
+          "url": "https://www.windowscentral.com/gaming/xbox/microsoft-says-xbox-helix-is-a-console-not-a-pc-but-it-will-be-able-to-play-your-pc-games-helix-is-designed-to-be-a-console-that-can-also-play-games-from-your-pc",
+          "source": "Windows Central",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRJnunCaQOwyeU6oEMcHj70UlWgVnY-x710Tvw6yToOeFwBLg4e9DKH5C7FOPk",
+          "og_title": "Microsoft says Xbox Helix is a console, not a PC — but it will be able to play your PC games: \"It is not a PC that can also play console games\"",
+          "og_desc": "In a new interview, Microsoft has shed light on how it's designing and positioning its next generation Xbox device.",
+          "og_image": "https://cdn.mos.cms.futurecdn.net/xsrgVHEkxpsCxmdDvUsqrj-1523-80.jpg",
+          "ok": true
+        },
+        {
+          "title": "'The Ultimate Gaming Machine' - Xbox Reveals Tons Of New Project Helix Information",
+          "url": "https://www.purexbox.com/news/2026/11/the-ultimate-gaming-machine-xbox-reveals-tons-of-new-project-helix-information",
+          "source": "Pure Xbox",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8yEM_4EypmHJV5RGrxUtV9hDfjCkBAEoWOTjS2etXwfCNwUDEPTI8NPmuRxY",
+          "og_title": "'The Ultimate Gaming Machine' - Xbox Reveals Tons Of New Project Helix Information",
+          "og_desc": "Also clarifying that it's definitely a console and not a PC",
+          "og_image": "https://images.purexbox.com/f34292f1d2c8d/1280x720.jpg",
+          "ok": true
+        },
+        {
+          "title": "Xbox Reveals New Project Helix Details, Calls It 'a Console Capable of Playing Games From Your PC'",
+          "url": "https://www.ign.com/articles/xbox-confirms-project-helix-is-a-console-capable-of-playing-games-from-your-pc",
+          "source": "IGN",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPkpYON0a6LBQwC2aBPVyZ3-kY6u3xyq3whZEzngSrAGtVD-Die_Tmner4sDM",
+          "og_title": "Xbox Reveals New Project Helix Details, Calls It 'a Console Capable of Playing Games From Your PC'",
+          "og_desc": "Xbox has confirmed Project Helix is \"designed to be a console capable of playing games from your PC.\"",
+          "og_image": "https://assets-prd.ignimgs.com/2026/05/06/screenshot-2026-05-06-162907-1778081413883.png?width=1280&format=jpg&auto=webp&quality=80",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "تقنية",
+      "icon": "💻",
+      "color": "#5aa9ff",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-xbox-project-helix-console.png",
+      "published_at": "2026-11-16T05:31:43.536916+00:00"
+    },
+    {
+      "title": "60 minutes tonight kratom episode",
+      "traffic": "1000+",
+      "traffic_num": 1000,
+      "published": "Sun, 15 Nov 2026 20:30:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ1TYxaSaMT6aWZFT0DbwSR1q3vD66wHt-OcU1xtKv34Ap-nn5kA2inQG4FAEE",
+      "image_source": "CBS News",
+      "news": [
+        {
+          "title": "Parents whose sons died from kratom use warn about the substance finding allies in Washington",
+          "url": "https://www.cbsnews.com/news/parents-whose-sons-died-from-kratom-use-warn-about-substance-60-minutes/",
+          "source": "CBS News",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ1TYxaSaMT6aWZFT0DbwSR1q3vD66wHt-OcU1xtKv34Ap-nn5kA2inQG4FAEE",
+          "og_title": "Parents whose sons died from kratom use warn about the substance finding allies in Washington",
+          "og_desc": "Kratom is derived from a tree in Southeast Asia. Advocates say it can help with opioid addiction, while health experts say it can lead to death.",
+          "og_image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/15/4248b5d8-25a3-4158-94cd-e4671377d5a8/thumbnail/1200x630/cb2d44d6e39c44eea1fc16dfbbdb0b78/kratom-article.jpg",
+          "ok": true
+        },
+        {
+          "title": "How One Man Escaped From an Over-the-Counter Opioid Trap",
+          "url": "https://www.wsj.com/health/wellness/how-one-man-escaped-from-an-over-the-counter-opioid-trap-87a5b984",
+          "source": "WSJ",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSx3u7oxRm4rIERwEczcmrzoWsp23WAE7bsSipgtyoq5NtOvP3DahG0lEWtuq8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Kratom recovery advocate exposes the warning signs users shouldn't ignore",
+          "url": "https://www.foxnews.com/video/6408432464112",
+          "source": "Fox News",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTlDFCwW7ZNlvWx6iXjbO_9oLaBidTJqREPMAmwO-Q7Y4eOI-xbsq5l9Xcpo4g",
+          "og_title": "Kratom recovery advocate exposes the warning signs users shouldn't ignore | Fox News Video",
+          "og_desc": "Hilary Tesluck, 30, executive director of End Kratom Addiction, shares her journey of dependence and recovery with Fox News Digital.",
+          "og_image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/e9d0ddd9-c318-45e3-93c4-38270c0229d6/3010dfbf-bb49-4608-84c5-aa82612bda05/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: died",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-60-minutes-tonight-kratom-episode.png",
+      "published_at": "2026-11-16T05:31:43.536916+00:00"
+    },
+    {
+      "title": "the body season 2",
+      "traffic": "1000+",
+      "traffic_num": 1000,
+      "published": "Sun, 15 Nov 2026 20:10:00 -0800",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPS9s9GkM3xS41qMhWSbJ91SH0FseODasLiGdO7a_epvXPygy90OI4QwzzGLk",
+      "image_source": "The New York Times",
+      "news": [
+        {
+          "title": "‘The Body’ Talks Like ‘Mean Girls’ and Walks Like ‘The Crucible’",
+          "url": "https://www.nytimes.com/2026/11/13/arts/television/the-body-review-netflix.html",
+          "source": "The New York Times",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPS9s9GkM3xS41qMhWSbJ91SH0FseODasLiGdO7a_epvXPygy90OI4QwzzGLk",
+          "og_title": "‘The Body’ Talks Like ‘Mean Girls’ and Walks Like ‘The Crucible’",
+          "og_desc": "Quinn Shephard’s new Netflix drama uses millennial nostalgia to eerie ends.",
+          "og_image": "https://static01.nyt.com/images/2026/11/16/multimedia/TV-The-Body-02-hmlz/TV-The-Body-02-hmlz-facebookJumbo.jpg",
+          "ok": true
+        },
+        {
+          "title": "Netflix’s Best New Show Deserves Its 98% Rotten Tomatoes Audience Score",
+          "url": "https://www.forbes.com/sites/paultassi/2026/11/15/netflixs-best-new-show-deserves-its-98-rotten-tomatoes-audience-score/",
+          "source": "Forbes",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj_6dX44l7QvdXETXLa31lCqdxbKltZXBljud0ReoQWLRsi49vHQEk9Eeo0K8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "The Body review – this sexy retro high school drama is like Cruel Intentions … with added Satanic rituals",
+          "url": "https://www.theguardian.com/tv-and-radio/2026/nov/13/the-body-coming-of-age-review-netflix",
+          "source": "The Guardian",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0J7IDDXHi9RkKqQf7C4XNMQHzLepy5n5QJL7PMGiP8IKutfXhWrw6v-yPaSs",
+          "og_title": "The Body review – this sexy retro high school drama is like Cruel Intentions … with added Satanic rituals",
+          "og_desc": "This coming-of-age tale of Catholic school girls is gleefully camp from the off – and full of fun references to its 2004 setting. And then a Halloween party goes wrong…",
+          "og_image": "https://i.guim.co.uk/img/media/db8c5c6e5f88199ec2d540c664ef23aaeea53788/384_0_2722_2178/master/2722.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctcmV2aWV3LTQucG5n&enable=upscale&s=e236beef1d8b4e4a99a33424cf5dcfd7",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: body",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-the-body-season-2.png",
+      "published_at": "2026-11-16T05:31:43.536916+00:00"
+    },
+    {
+      "title": "oklahoma city thunder vs sacramento kings match player stats",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Sun, 15 Nov 2026 19:40:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR6KUf5kM-eGqfvI9-lu-s2qIRHLzZLkCqUA62GQyL7RgqU-ta_HiTA-3r-vvw",
+      "image_source": "Covers.com",
+      "news": [
+        {
+          "title": "Capitals vs Lightning Picks, Prop Bets For November 17, 2026 - NHL Predictions",
+          "url": "https://www.covers.com/sport/hockey/nhl/matchup/382613/picks",
+          "source": "Covers.com",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR6KUf5kM-eGqfvI9-lu-s2qIRHLzZLkCqUA62GQyL7RgqU-ta_HiTA-3r-vvw",
+          "og_title": "Capitals vs Lightning Picks, Prop Bets For November 17, 2026 - NHL Predictions",
+          "og_desc": "Capitals vs Lightning Picks And Prop Bets : Get expert insights, best bets, predictions, and key stats for the NHL matchup on November 17, 2026.",
+          "og_image": "https://img.covers.com/covers/logos/covers-og-logo-home.jpg",
+          "ok": true
+        },
+        {
+          "title": "Licensable picture: NCAA Mens Basketball 2026: Green Bay Vs St. Thomas NOV 08",
+          "url": "https://www.reutersconnect.com/item/ncaa-mens-basketball-2026-green-bay-vs-st-thomas-nov-08/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVNJUEEwMDBOVjNESjk",
+          "source": "Reuters Connect",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQKQDQrKivrdmj3wD92p-mgS9xY11UHAvcnBZcvBL99sayVpd8CGB8NjiUUA5Y",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Saint Thomas Tommies play the Green Bay Phoenix in non-conference play",
+          "url": "https://abcnews.com/Sports/wireStory/saint-thomas-tommies-play-green-bay-phoenix-conference-137951252",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTnAXuNjFpZC1-r3b4tjIgOqXdrgCSTTew6u5rc3xoVkPvrQ-uxkBhne9UckDs",
+          "og_title": "Saint Thomas Tommies play the Green Bay Phoenix in non-conference play",
+          "og_desc": "St. Thomas faces Green Bay in out-of-conference play",
+          "og_image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-16-oklahoma-city-thunder-vs-sacramento-kings-match-player-stats.png",
+      "published_at": "2026-11-16T05:31:43.536916+00:00"
     },
     {
       "title": "canucks",
@@ -558,19 +908,9 @@
       "traffic": "200+",
       "traffic_num": 200,
       "published": "Sun, 15 Nov 2026 20:10:00 -0800",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQrliZyu5jtxFBGRMsjVaPrA7q2L-gxaKS3_GmpxBRr5aI1PSkPtWg4O6jMznU",
-      "image_source": "RotoWire",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSnEMmC83Ojka-ZluMY_3tsvVdu7dqvzYlKJBoqUqC0yiWqdvOImMSYJXZ4eww",
+      "image_source": "CBS Sports",
       "news": [
-        {
-          "title": "Will Howard News: Working as emergency QB again",
-          "url": "https://www.rotowire.com/football/headlines/will-howard-injury-working-as-emergency-qb-again-648019",
-          "source": "RotoWire",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQrliZyu5jtxFBGRMsjVaPrA7q2L-gxaKS3_GmpxBRr5aI1PSkPtWg4O6jMznU",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false
-        },
         {
           "title": "Steelers' Will Howard: Working as emergency QB again",
           "url": "https://www.cbssports.com/fantasy/football/news/steelers-will-howard-working-as-emergency-qb-again/",
@@ -580,6 +920,16 @@
           "og_desc": "Steelers' Will Howard: Working as emergency QB again",
           "og_image": "https://sportsfly.cbsistatic.com/fly-894/bundles/sportsmediacss/images/fantasy/default-article-image-large.png",
           "ok": true
+        },
+        {
+          "title": "Will Howard News: Working as emergency QB again",
+          "url": "https://www.rotowire.com/football/headlines/will-howard-injury-working-as-emergency-qb-again-648019",
+          "source": "RotoWire",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQrliZyu5jtxFBGRMsjVaPrA7q2L-gxaKS3_GmpxBRr5aI1PSkPtWg4O6jMznU",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
         },
         {
           "title": "Steelers inactives for Week 10 vs. Bengals",
@@ -601,56 +951,6 @@
       "reason": "حجم بحث أقل من 10000",
       "publishable": false,
       "card": "cards/world-2026-11-16-will-howard.png",
-      "published_at": "2026-11-16T05:01:39.025386+00:00"
-    },
-    {
-      "title": "vgk",
-      "traffic": "200+",
-      "traffic_num": 200,
-      "published": "Sun, 15 Nov 2026 20:00:00 -0800",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQunwa64Ppy-qBKbV0qYUx7a4OdUhjgvxDT-j6EAujnsUqArUFcSLMpoU3LN3s",
-      "image_source": "SinBin.vegas",
-      "news": [
-        {
-          "title": "Golden Knights Stock Up, Stock Down: Through 20 Games",
-          "url": "https://sinbin.vegas/golden-knights-stock-up-stock-down-through-20-games/",
-          "source": "SinBin.vegas",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQunwa64Ppy-qBKbV0qYUx7a4OdUhjgvxDT-j6EAujnsUqArUFcSLMpoU3LN3s",
-          "og_title": "Golden Knights Stock Up, Stock Down: Through 20 Games - SinBin.vegas",
-          "og_desc": "Everywhere I look, there’s news about the stock market. Nvidia is tanking because the CEO is in bed with spies, Microsoft is struggling because their network went down, and every day there's a new AI stock soaring to the moon. It’s got my mind in a financial mood, so we’re doing Stock Up, Stock Down on the Golden Knights through the first 20 games of the season.",
-          "og_image": "https://sinbin.vegas/wp-content/uploads/2026/11/Hill-Practice-Reddit-scaled.jpeg",
-          "ok": true
-        },
-        {
-          "title": "How far can the goaltending take the Vegas Golden Knights?",
-          "url": "https://vegashockeyknight.com/how-far-can-the-goaltending-take-the-vegas-golden-knights",
-          "source": "Vegas Hockey Knight",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTioyQhFTGwPyMJY0OyQ64VTJKdVzHd-tP11S11q5BpbESCVyJn2h2-LOOh0C0",
-          "og_title": "How far can the goaltending take the Vegas Golden Knights?",
-          "og_desc": "Can this unit replicate its 2023 run, only with fewer injuries?",
-          "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_357,w_3252,h_1829/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/GettyImages/mmsport/383/01m7gbtvkk96fpvp4z3f.jpg",
-          "ok": true
-        },
-        {
-          "title": "As Golden Knights search for offense, goalies have stepped up",
-          "url": "https://www.reviewjournal.com/sports/goldenknights/as-golden-knights-search-for-offense-goalies-have-stepped-up-3910952/",
-          "source": "Las Vegas Review-Journal",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLAcWcI9JNn1nGsfPM8iCN0nXMwyaMFGOjFub_jFFI5b5XFmtKKdSkeJa6Iq4",
-          "og_title": "As Golden Knights search for offense, goalies have stepped up",
-          "og_desc": "The Golden Knights haven’t scored a lot of goals lately, but Carter Hart and Adin Hill have done their jobs to also keep the puck out of the net.",
-          "og_image": "https://www.reviewjournal.com/wp-content/uploads/2026/11/22271968_web1_Golden-Knights-Penguins-Hockey-2-.jpg",
-          "ok": true
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "اقتصاد",
-      "icon": "💰",
-      "color": "#f5c542",
-      "reason": "حجم بحث أقل من 10000",
-      "publishable": false,
-      "card": "cards/world-2026-11-16-vgk.png",
       "published_at": "2026-11-16T05:01:39.025386+00:00"
     }
   ]

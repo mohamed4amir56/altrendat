@@ -113609,5 +113609,52 @@
     "photo_v": 8,
     "_had_data": false,
     "_localized": false
+  },
+  "world|2026-11-17|chase bank outages": {
+    "headline": "Chase Systems Recover After Nationwide Outage Disrupts Accounts and Digital Transactions",
+    "summary": "JPMorgan Chase services returned online Monday following an hourslong software-related disruption that prevented customers from accessing accounts or completing financial transfers.",
+    "body": "Around 4,500 people reported issues with Chase’s online banking platform via Downdetector as a technical bug disrupted services across the country. The interruption left many customers unable to withdraw funds or manage their account balances for several hours throughout the business day. For those relying on digital banking, the outage meant unexpected delays in sending or receiving money. The issue specifically hindered transactions where JPMorgan Chase was a involved party, though the bank maintained that all customer funds remained secure and accessible throughout the process. An FBI official confirmed that the disruption stemmed from a software release rolled out earlier Monday, explicitly ruling out any malicious or external cyber activity. A bank spokesperson echoed this, labeling the incident a purely technical fault rather than a systemic security failure. While online and app access remained inconsistent for hours, some local branches reported that ATM machines continued to function as normal for users needing immediate access to cash. Banking operations in Washington, D.C., saw issues start around 10 a.m., with employees reporting that computer systems remained erratic until the situation was resolved shortly after 3 p.m. Although Bank of America and other major institutions were initially linked to reports of instability, Bank of America confirmed their own systems remained fully operational throughout the day. Chase stated that while some transactions may experience lingering processing delays as systems stabilize, the bank is working to ensure all pending operations are finalized as quickly as possible.",
+    "facts": [
+      {
+        "label": "Incident duration",
+        "value": "10 a.m. to 3 p.m."
+      },
+      {
+        "label": "Reported affected users",
+        "value": "4,500"
+      },
+      {
+        "label": "Cause",
+        "value": "Software release"
+      },
+      {
+        "label": "Cybersecurity status",
+        "value": "Not cyber-related"
+      }
+    ],
+    "tags": [
+      "JPMorgan Chase",
+      "Banking",
+      "Outage",
+      "Finance",
+      "Technology"
+    ],
+    "_v": 4,
+    "_by": "gemini",
+    "written_at": "2026-11-17T05:01:49.262032+00:00",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/1_United_States_dollar_banknotes_%28348734%29.jpg/1280px-1_United_States_dollar_banknotes_%28348734%29.jpg",
+      "width": 1280,
+      "height": 1114,
+      "artist": "Hamster28",
+      "license": "Public domain",
+      "license_url": "",
+      "file_page": "https://commons.wikimedia.org/wiki/File:1_United_States_dollar_banknotes_(348734).jpg",
+      "stock": true,
+      "topic": "money"
+    },
+    "photo_v": 8,
+    "_had_data": false,
+    "_localized": false
   }
 }

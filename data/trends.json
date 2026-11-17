@@ -5,46 +5,142 @@
     "name_en": "Worldwide",
     "lang": "en",
     "flag": "🌐",
-    "generated_at": "2026-11-17T04:32:23.426408+00:00",
-    "day": "2026-11-16",
+    "generated_at": "2026-11-17T05:01:29.204999+00:00",
+    "day": "2026-11-17",
     "trends": [
       {
-        "title": "pak vs sl",
-        "traffic": "2000+",
-        "traffic_num": 2000,
-        "published": "Mon, 16 Nov 2026 20:00:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTLo7E8kZAxicD3yVkmFju0Trj7GeHvx3KX0nRrCIqB0QBsCNy_K29UFKaKVJo",
-        "image_source": "Cricinfo",
+        "title": "chase bank outages",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "published": "Mon, 16 Nov 2026 18:00:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTDusEEy_Mm1HgZPZ73napANLkQ8bfJj6kdM8Zae6ciJYIlYoHiHxwwjrCl1c",
+        "image_source": "BBC",
         "news": [
           {
-            "title": "Pakistan, Sri Lanka primed for more experimentation in Rawalpindi",
-            "url": "https://www.cricinfo.com/series/sri-lanka-in-pakistan-2026-27-1550703/pakistan-vs-sri-lanka-2nd-test-1550712/match-preview",
-            "source": "Cricinfo",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTLo7E8kZAxicD3yVkmFju0Trj7GeHvx3KX0nRrCIqB0QBsCNy_K29UFKaKVJo",
+            "title": "Outages reported at major US banks including Chase and Bank of America",
+            "url": "https://www.bbc.co.uk/news/live/c893rpk23g56t",
+            "source": "BBC",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTDusEEy_Mm1HgZPZ73napANLkQ8bfJj6kdM8Zae6ciJYIlYoHiHxwwjrCl1c",
+            "og_title": "Outages reported at major US banks including Chase and Bank of America",
+            "og_desc": "Some users were unable to access updated account balances or digitally send or receive money.",
+            "og_image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/72b8/live/91fa2ea0-e1f7-11f1-ac6e-e9777cdcbb4f.jpg",
+            "ok": true
+          },
+          {
+            "title": "JPMorgan Chase systems recovering following hourslong nationwide technical outage",
+            "url": "https://www.foxbusiness.com/money/jpmorgan-chase-systems-recovering-following-hourslong-nationwide-technical-outage",
+            "source": "Fox Business",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTpZg5ejSi-wjXBvK2bVHm6AuzGajtwCRaaWc0ILB4k21cDvN3M3saaTiNOmg8",
+            "og_title": "JPMorgan Chase systems recovering following hourslong nationwide technical outage",
+            "og_desc": "Chase systems were coming back online Monday after an hourslong nationwide outage left customers reporting trouble withdrawing funds, accessing accounts and completing transactions.",
+            "og_image": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/09/0/0/chase-atm.jpg?ve=1&tl=1",
+            "ok": true
+          },
+          {
+            "title": "JPMorgan says software bug slows its transactions",
+            "url": "https://www.reuters.com/legal/transactional/downdetector-reports-outages-major-us-banks-2026-11-16/",
+            "source": "Reuters",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVaKxK_BQeTOy12rfpAwRd4pqWG0G11vunMNvnh0MFssPxiWLw-v0EIUXHWp4",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
+          }
+        ],
+        "geos": [
+          "GB"
+        ],
+        "category": "اقتصاد",
+        "icon": "💰",
+        "color": "#f5c542",
+        "reason": "العنوان يطابق: bank",
+        "publishable": true,
+        "article": {
+          "headline": "Chase Systems Recover After Nationwide Outage Disrupts Accounts and Digital Transactions",
+          "summary": "JPMorgan Chase services returned online Monday following an hourslong software-related disruption that prevented customers from accessing accounts or completing financial transfers.",
+          "body": "Around 4,500 people reported issues with Chase’s online banking platform via Downdetector as a technical bug disrupted services across the country. The interruption left many customers unable to withdraw funds or manage their account balances for several hours throughout the business day. For those relying on digital banking, the outage meant unexpected delays in sending or receiving money. The issue specifically hindered transactions where JPMorgan Chase was a involved party, though the bank maintained that all customer funds remained secure and accessible throughout the process. An FBI official confirmed that the disruption stemmed from a software release rolled out earlier Monday, explicitly ruling out any malicious or external cyber activity. A bank spokesperson echoed this, labeling the incident a purely technical fault rather than a systemic security failure. While online and app access remained inconsistent for hours, some local branches reported that ATM machines continued to function as normal for users needing immediate access to cash. Banking operations in Washington, D.C., saw issues start around 10 a.m., with employees reporting that computer systems remained erratic until the situation was resolved shortly after 3 p.m. Although Bank of America and other major institutions were initially linked to reports of instability, Bank of America confirmed their own systems remained fully operational throughout the day. Chase stated that while some transactions may experience lingering processing delays as systems stabilize, the bank is working to ensure all pending operations are finalized as quickly as possible.",
+          "facts": [
+            {
+              "label": "Incident duration",
+              "value": "10 a.m. to 3 p.m."
+            },
+            {
+              "label": "Reported affected users",
+              "value": "4,500"
+            },
+            {
+              "label": "Cause",
+              "value": "Software release"
+            },
+            {
+              "label": "Cybersecurity status",
+              "value": "Not cyber-related"
+            }
+          ],
+          "tags": [
+            "JPMorgan Chase",
+            "Banking",
+            "Outage",
+            "Finance",
+            "Technology"
+          ],
+          "_v": 4,
+          "_by": "gemini",
+          "written_at": "2026-11-17T05:01:49.262032+00:00",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/1_United_States_dollar_banknotes_%28348734%29.jpg/1280px-1_United_States_dollar_banknotes_%28348734%29.jpg",
+            "width": 1280,
+            "height": 1114,
+            "artist": "Hamster28",
+            "license": "Public domain",
+            "license_url": "",
+            "file_page": "https://commons.wikimedia.org/wiki/File:1_United_States_dollar_banknotes_(348734).jpg",
+            "stock": true,
+            "topic": "money"
           },
+          "photo_v": 8,
+          "_had_data": false,
+          "_localized": false
+        },
+        "card": "cards/world-2026-11-17-chase-bank-outages.png"
+      },
+      {
+        "title": "nfl mock draft 2027",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "published": "Mon, 16 Nov 2026 20:30:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRph0Q4BBvFlER8XV7h6JLdrYJMarjnv2Mfh-ibfwHdZS_X9TvsMZipGyU1mpQ",
+        "image_source": "CBS Sports",
+        "news": [
           {
-            "title": "Centurions De Silva and Mendis flay inexperienced Pakistan attack to boost Sri Lanka in 1st test",
-            "url": "https://sports.yahoo.com/articles/ex-captain-silva-leads-sri-073042966.html",
-            "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRowqHAEmXK1qUNZf4YI5vyu160IiATnAKaH2CL4kNnGIEE3dG2PKWNUi8JPEM",
-            "og_title": "Centurions De Silva and Mendis flay inexperienced Pakistan attack to boost Sri Lanka in 1st test",
-            "og_desc": "RAWALPINDI, Pakistan (AP) — Dhananjaya de Silva and Kusal Mendis smashed centuries against Pakistan’s inexperienced bowling attack to take Sri Lanka to a formidable 404-4 at stumps on Day 3 of the first cricket test on Wednesday.De Silva struck an unbeaten 167 with 20 fours to raise his 14th test hundred, while Mendis celebrated his elevation to the test captaincy with 117 not out, featuring 10 fours and four sixes.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/e4620e6110e45c31b2ca6a7b949430e586b027991306c490aaf5db43bbf6d2f1/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fap.org%2Fa6c15948343d6048fc1dd06ccc67e6ee.jpg",
+            "title": "2027 NFL mock draft: Six quarterbacks go in the first round but none overcome Jeremiah Smith",
+            "url": "https://www.cbssports.com/nfl/draft/news/2027-nfl-mock-draft-six-quarterbacks-jeremiah-smith-week-11/",
+            "source": "CBS Sports",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRph0Q4BBvFlER8XV7h6JLdrYJMarjnv2Mfh-ibfwHdZS_X9TvsMZipGyU1mpQ",
+            "og_title": "2027 NFL mock draft: Six quarterbacks go in the first round but none overcome Jeremiah Smith",
+            "og_desc": "Top quarterback prospects head back to school, while the Jets load up with three first-round picks and Jeremiah Smith headlines the class",
+            "og_image": "https://sportshub.cbsistatic.com/i/r/2026/11/16/a7c8040b-47cb-4d90-9b67-0b2e182fa58b/thumbnail/1200x675/90212868d6082a74b3a4252e7a59d24f/gettyimages-2302893973-1.jpg",
             "ok": true
           },
           {
-            "title": "Pakistan Sri Lanka Cricket",
-            "url": "https://www.bdtonline.com/sports/national_sports/pakistan-sri-lanka-cricket/image_aef7461b-489b-592d-b6ce-b29ee5bf9568.html",
-            "source": "Bluefield Daily Telegraph",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRH6AlRiCg2e2sqZUpapeel8qt91RMVDdT4o7yJqDfQa_ZxK1EWFRPsqMf5iSQ",
-            "og_title": "Pakistan Sri Lanka Cricket",
-            "og_desc": "Sri Lanka's Asitha Fernando appeals for an LBW against Pakistan's Ghazi Ghori during the second day of the first Test cricket match between Pakistan and Sri Lanka, in Rawalpindi, Pakistan,",
-            "og_image": "https://bloximages.chicago2.vip.townnews.com/bdtonline.com/content/tncms/assets/v3/editorial/a/ef/aef7461b-489b-592d-b6ce-b29ee5bf9568/6af7f0062c706.image.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
+            "title": "2027 NFL Draft order: Winless Chargers hold No. 1 spot as Titans, Dolphins loom in Week 10",
+            "url": "https://sports.yahoo.com/nfl/breaking-news/article/2027-nfl-draft-order-winless-chargers-hold-no-1-spot-as-titans-dolphins-loom-in-week-10-043747046.html",
+            "source": "Yahoo Sports",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS8b7s-H3LXXyRCzKnDG3_ENmPz-87YqH9Aycs69FLunm0DVB0_Y5RU2Aks_kQ",
+            "og_title": "2027 NFL Draft order: Titans take over No. 1 spot after Chargers grab first win of season in Week 10",
+            "og_desc": "The Chargers have now joined the Jets and Titans at just 1-8 on the season.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/c3be6b35fea86c342c4b09385e13880aa3d64d60678ac70d61a8ef1b64fb8182/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F33305398-3c6e-4a97-957d-5153f0837f15",
+            "ok": true
+          },
+          {
+            "title": "Updated 2027 NFL Draft Order After Week 10 Results, Who Could Dolphins & Titans Take?",
+            "url": "https://bleacherreport.com/articles/25533794-updated-2027-nfl-draft-order-after-week-10-results-who-could-dolphins-titans-take",
+            "source": "Bleacher Report",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS8qtoATOGiq9QF2ShtM7DjGhnKSx8h0bBYMiMAsN6ip2HtsG1VBanpwyt6lDA",
+            "og_title": "Updated 2027 NFL Draft Order After Week 10 Results, Who Could Dolphins & Titans Take?",
+            "og_desc": "The Tennessee Titans and Miami Dolphins kept themselves in contention for the No. 1 overall pick in the 2027 NFL draft with losses in Sunday's early afternoon window.",
+            "og_image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/ap_images/2026-11/9ee1cf5262864d62a7158ddad9b52bf1/Texas_Tech_Oklahoma_St_Football_24297_4488x2992_(0,-0).jpg?w=945&h=630",
             "ok": true
           }
         ],
@@ -56,21 +152,21 @@
         "color": "#3ddc97",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-16-pak-vs-sl.png"
+        "card": "cards/world-2026-11-17-nfl-mock-draft-2027.png"
       },
       {
-        "title": "malware",
+        "title": "the body season 2",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "published": "Mon, 16 Nov 2026 19:50:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2PXm8aSAzkGFBaa2RWqKTTSza-q3MtdWS-0C1ISHZfIE5gGG2H0V3KaTi8fU",
-        "image_source": "Gizmodo",
+        "published": "Mon, 16 Nov 2026 20:30:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPS9s9GkM3xS41qMhWSbJ91SH0FseODasLiGdO7a_epvXPygy90OI4QwzzGLk",
+        "image_source": "The New York Times",
         "news": [
           {
-            "title": "Sprawling Malware Attack Reportedly Affects Zoom and Other Major Brands",
-            "url": "https://gizmodo.com/sprawling-malware-attack-reportedly-affects-zoom-cnn-fox-news-peacock-and-170-others-2000840831",
-            "source": "Gizmodo",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2PXm8aSAzkGFBaa2RWqKTTSza-q3MtdWS-0C1ISHZfIE5gGG2H0V3KaTi8fU",
+            "title": "‘The Body’ Talks Like ‘Mean Girls’ and Walks Like ‘The Crucible’",
+            "url": "https://www.nytimes.com/2026/11/13/arts/television/the-body-review-netflix.html",
+            "source": "The New York Times",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPS9s9GkM3xS41qMhWSbJ91SH0FseODasLiGdO7a_epvXPygy90OI4QwzzGLk",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -78,23 +174,222 @@
             "error": "HTTPError"
           },
           {
-            "title": "Poisoned Scripts on BBC, Zoom and Other Major Websites Linked to iPhone Exploit Loaders",
-            "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
-            "source": "InfoStealers",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTvvobMtexOLGsaJpn3UWvtXaitEv0pWJHFsZS5ya8qEVwNpT2cHMX-1oyszs",
-            "og_title": "Poisoned Scripts on BBC, Zoom and Other Major Websites Linked to iPhone Exploit Loaders",
-            "og_desc": "Poisoned third-party JavaScript on major websites connects two threats: browser-based financial theft and delivery of iPhone exploit-kit stages. Hudson Rock recovered malicious Optimizely project files and a minute-ly loader. Additional evidence supplied by Kirk from Ohey extends the affected delivery infrastructure to Kissmetrics and StorifyMe and links the mobile branch to Coruna and DarkSword. [14]",
-            "og_image": "https://www.infostealers.com/wp-content/uploads/2026/11/Connected-brands-orbit-a-golden-code.png",
+            "title": "84,000 Signed Petition for Netflix to Cancel ‘The Body,’ Yet It’s Surging Up Charts After 100% Rotten Tomatoes Debut",
+            "url": "https://www.imdb.com/news/ni66109843/?ref_=ttnw_art_perm",
+            "source": "IMDb",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQKTKDok_GiyLmD3JL8u6KablvS1Zwg7Vo_wy9UgZ6Kag2vIDQFCVSYaiE2Jwg",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
+          },
+          {
+            "title": "The Body review – this sexy retro high school drama is like Cruel Intentions … with added Satanic rituals",
+            "url": "https://www.theguardian.com/tv-and-radio/2026/nov/13/the-body-coming-of-age-review-netflix",
+            "source": "The Guardian",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0J7IDDXHi9RkKqQf7C4XNMQHzLepy5n5QJL7PMGiP8IKutfXhWrw6v-yPaSs",
+            "og_title": "The Body review – this sexy retro high school drama is like Cruel Intentions … with added Satanic rituals",
+            "og_desc": "This coming-of-age tale of Catholic school girls is gleefully camp from the off – and full of fun references to its 2004 setting. And then a Halloween party goes wrong…",
+            "og_image": "https://i.guim.co.uk/img/media/db8c5c6e5f88199ec2d540c664ef23aaeea53788/384_0_2722_2178/master/2722.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctcmV2aWV3LTQucG5n&enable=upscale&s=e236beef1d8b4e4a99a33424cf5dcfd7",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: body",
+        "publishable": false,
+        "card": "cards/world-2026-11-17-the-body-season-2.png"
+      },
+      {
+        "title": "cyberattack",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "published": "Mon, 16 Nov 2026 20:10:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTs7W1id-EO5p1AfXCw5ULP63fgx-JPTIMAfrjJ-CoFY_PqCdM1tNFuaosVAs8",
+        "image_source": "NPR",
+        "news": [
+          {
+            "title": "California sues OpenAI over hacking risks",
+            "url": "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
+            "source": "NPR",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTs7W1id-EO5p1AfXCw5ULP63fgx-JPTIMAfrjJ-CoFY_PqCdM1tNFuaosVAs8",
+            "og_title": "California sues OpenAI over hacking risks",
+            "og_desc": "The state's attorney general started investigating OpenAI after the Hugging Face attack and now says this attack was \"entirely foreseeable\" due to OpenAI's poor security practices.",
+            "og_image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2612x1469+0+4/resize/1400/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F78%2Fc9%2F42061abe4e77873c2a1a96c92031%2Fbonta-presser.jpg",
             "ok": true
           },
           {
-            "title": "Optimizely Platform Hit by Large-Scale Malicious Script Injection; 178 Brand Websites Affected, Crypto Wallets Lose $7,000",
-            "url": "https://finance.biggo.com/news/4315ccb1-bf22-4b5b-b36a-aed4f665b31e",
-            "source": "BigGo Finance",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2oBknHhYHpnYt5y262417fkAYZoljEWO3FWONkUnN6tNt5Vyo5WgDo8h2WVY",
-            "og_title": "Optimizely Platform Hit by Large-Scale Malicious Script Injection; 178 Brand Websites Affected, Crypto Wallets Lose $7,000 — BigGo Finance",
-            "og_desc": "Security researcher Scott Helme reported that on November 16, attackers used the A/B testing platform Optimizely Web to write malicious JavaScript…",
-            "og_image": "https://img.biggo.com/OKJbHBV2FE9e1o6PcDtBahfQ15K88Ni5blpQmRpXXao/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTExLzQzMTVjY2IxLWJmMjItNGI1Yi1iMzZhLWFlZDRmNjY1YjMxZV8xNzk0ODgzNzc0X2RlZmF1bHQuanBn.jpg",
+            "title": "California sues OpenAI, alleges it endangered the public by building AI without safeguards",
+            "url": "https://www.yahoo.com/news/politics/articles/california-sues-openai-alleging-endangered-184249420.html",
+            "source": "Yahoo",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5PBUYGfojFLWZkj-XiFanod08oQxDiZHaF-y_t7ctVKophI75kmp5DyVA2Mg",
+            "og_title": "California sues OpenAI, alleges it endangered the public by building AI without safeguards",
+            "og_desc": "California says the company behind ChatGPT 'misled and endangered the public' by testing AI models without safeguards.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/4ad4de2d6d096a2f6eaf6340de8a4575708dda6987d825aae1988c7f2271cdf8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fla_times_articles_853%2F578a12a1dd579eeb3c22893903f10cdb.jpg",
+            "ok": true
+          },
+          {
+            "title": "California sues OpenAI over safety concerns after rogue agent hacking",
+            "url": "https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
+            "source": "The Guardian",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSceTjVEYqI5W5oozh_S8VMqG3fwzH2Mam21K1ByjBh9OGfgPALbqiaErizc8k",
+            "og_title": "California sues OpenAI over safety concerns after rogue agent hacking",
+            "og_desc": "The lawsuit stems from an earlier incident where the tech company’s products hacked into the open-source platform Hugging Face",
+            "og_image": "https://i.guim.co.uk/img/media/a82ee4985c0d264e0ee6c830a014ad1e4ab73ec0/1050_51_3174_2541/master/3174.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=76f891f1f332fc11ad3ccf8efc9bbff4",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "تقنية",
+        "icon": "💻",
+        "color": "#5aa9ff",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-11-17-cyberattack.png"
+      },
+      {
+        "title": "jellyfish ufo",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Mon, 16 Nov 2026 20:30:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnVC787JrP0LHC-ZnXTdMBimVrgWNYr_DjmctvEjPYcaOMMLDPhvZ9jziXvf4",
+        "image_source": "Fox News",
+        "news": [
+          {
+            "title": "SEE IT: Mysterious 'jellyfish' object floats near US military base as UFO expert offers theory",
+            "url": "https://www.foxnews.com/video/6408345209112",
+            "source": "Fox News",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnVC787JrP0LHC-ZnXTdMBimVrgWNYr_DjmctvEjPYcaOMMLDPhvZ9jziXvf4",
+            "og_title": "SEE IT:  Mysterious 'jellyfish' object floats near US military base as UFO expert offers theory | Fox News Video",
+            "og_desc": "Former Pentagon UFO investigator Sean Kirkpatrick says the strange object filmed near Joint Base Elmendorf-Richardson could have a much simpler explanation. (Credit: Peter & Sara Jane Osborn via Storyful)",
+            "og_image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/3682d729-e1a0-44df-8c25-d92c81d89207/3a5c54db-1784-4aae-be0f-70d91f001650/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
+            "ok": true
+          },
+          {
+            "title": "Ross Coulthart wants closer look at Alaska ‘jellyfish’ UFO before final verdict",
+            "url": "https://www.newsnationnow.com/space/ufo/alaska-jellyfish-ufo-ross-coulthart/",
+            "source": "NewsNation",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQBh91mVSWBdAAIH0MILRzNCpPM0FVmnhndjhXV_NyhwKuFHXyKQ0VPD_3EzY0",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "You have to see this! High-altitude balloon or 'tentacled UFO?' Viral video shows strange floating object in sky",
+            "url": "https://www.eastidahonews.com/2026/11/you-have-to-see-this-high-altitude-balloon-or-tentacled-ufo-viral-video-shows-strange-floating-object-in-sky/",
+            "source": "East Idaho News",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSClyAiAujPDLUYBZjMfvwaQ9dL0S0pJm3bMtBiKhBSqh6fD2D9ACMf-Lk5LXw",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+        "publishable": false,
+        "card": "cards/world-2026-11-17-jellyfish-ufo.png"
+      },
+      {
+        "title": "nfl draft order",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Mon, 16 Nov 2026 20:20:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEOOJeWkhL_xAH_b8C00pvpY8GSzePYsRukJjowv8um0szEPk7qOJRzl8MrkA",
+        "image_source": "Yahoo Sports",
+        "news": [
+          {
+            "title": "2027 NFL Draft order: Titans take over No. 1 spot after Chargers grab first win of season in Week 10",
+            "url": "https://sports.yahoo.com/nfl/breaking-news/article/2027-nfl-draft-order-titans-take-over-no-1-spot-after-chargers-grab-first-win-of-season-in-week-10-042533879.html",
+            "source": "Yahoo Sports",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEOOJeWkhL_xAH_b8C00pvpY8GSzePYsRukJjowv8um0szEPk7qOJRzl8MrkA",
+            "og_title": "2027 NFL Draft order: Titans take over No. 1 spot after Chargers grab first win of season in Week 10",
+            "og_desc": "The Chargers have now joined the Jets and Titans at just 1-8 on the season.",
+            "og_image": "https://s.yimg.com/lo/mysterio/api/c3be6b35fea86c342c4b09385e13880aa3d64d60678ac70d61a8ef1b64fb8182/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F33305398-3c6e-4a97-957d-5153f0837f15",
+            "ok": true
+          },
+          {
+            "title": "Jeremiah Smith's Potential Fit With the Chargers Stream of National Football League",
+            "url": "https://www.cbssports.com/watch/nfl/video/jeremiah-smiths-potential-fit-with-the-chargers",
+            "source": "CBS Sports",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRXuknmpunM3sDb5o2zOy8ocOCctEIsgd6sBPq4U_O0uCbqFP5yz0ILG2ZP4CU",
+            "og_title": "Jeremiah Smith's Potential Fit With the Chargers Stream of National Football League",
+            "og_desc": "Jeremiah Smith's Potential Fit With the Chargers",
+            "og_image": "https://sportshub.cbsistatic.com/i/2026/11/16/75a653ee-b538-43f9-b0b8-4e552d920af3/4.jpg",
+            "ok": true
+          },
+          {
+            "title": "NFL draft order: Chargers-Ravens could reshape first round",
+            "url": "https://www.sbnation.com/nfl/1136360/draft-order-chargers-ravens",
+            "source": "SB Nation",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRoDW0qIcG8B3GyTPmhxNUbRzA18kK4t9nUb5DBETLkWUprwQk5Slv0zWIFwP4",
+            "og_title": "NFL draft order: Chargers-Ravens could reshape first round",
+            "og_desc": "Monday night’s game between the Chargers and the Ravens could have huge NFL Draft implications",
+            "og_image": "https://platform.sbnation.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304341469.jpg?quality=90&strip=all&crop=0%2C10.758277056934%2C100%2C78.483445886132&w=1200",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-11-17-nfl-draft-order.png"
+      },
+      {
+        "title": "take two stock",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "published": "Mon, 16 Nov 2026 20:20:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQbvSe4D-bpn7gZ3QOHophbMJeK42Lka-q7NOOArtxy8ISeOn4pDdFW7iUouIM",
+        "image_source": "Benzinga",
+        "news": [
+          {
+            "title": "Analysts Boost Take-Two Interactive Stock Forecasts Ahead of Grand Theft Auto VI Debut",
+            "url": "https://www.benzinga.com/markets/equities/26/11/63277432/analysts-boost-take-two-interactive-stock-forecasts-ahead-of-grand-theft-auto-vi-debut",
+            "source": "Benzinga",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQbvSe4D-bpn7gZ3QOHophbMJeK42Lka-q7NOOArtxy8ISeOn4pDdFW7iUouIM",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Sell The GTA VI Hype - Take-Two’s Moat Is Shrinking (NASDAQ:TTWO)",
+            "url": "https://seekingalpha.com/article/4968687-sell-the-gta-vi-hype-take-twos-moat-is-shrinking",
+            "source": "Seeking Alpha",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgSnHSmQ5Ffo2iC4lMlmZK2o30XxMWzi6ytT6bxtXil29DfWjHaI6_W8IWGS0",
+            "og_title": "Sell The GTA VI Hype - Take-Two's Moat Is Shrinking",
+            "og_desc": "Analyst rates Take-Two a Sell with a $163 fair value, warning AI game tools could cut sales from recurrent consumer spending by $500 million by FY31.",
+            "og_image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/458533659/image_458533659.jpg?io=getty-c-og",
+            "ok": true
+          },
+          {
+            "title": "Take-Two Shares Rise Monday: What's Going On?",
+            "url": "https://www.tradingview.com/news/benzinga:8ff720171094b:0-take-two-shares-rise-monday-what-s-going-on/",
+            "source": "TradingView",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRZGqEdEXbiza7u5Jaebz1GVjk6gT-GC9ABy2KygtfJbALDZWXOqJCG1--8OtY",
+            "og_title": "Take-Two Shares Rise Monday: What's Going On?",
+            "og_desc": "Take-Two Interactive Software Inc. NASDAQ:TTWO shares are trading higher Monday as investors look ahead to Thursday’s release of Grand Theft Auto VI. Here’s what you should know.GTA 6 Arrives Thursday After Two DelaysTake-Two has confirmed that Grand Theft Auto VI will launch on Nov. 19 for Sony’s…",
+            "og_image": "https://s.tradingview.com/static/images/illustrations/news-story.jpg",
             "ok": true
           }
         ],
@@ -106,56 +401,155 @@
         "color": "#f5c542",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-16-malware.png"
+        "card": "cards/world-2026-11-17-take-two-stock.png"
       },
       {
-        "title": "greta thunberg",
-        "traffic": "500+",
-        "traffic_num": 500,
-        "published": "Mon, 16 Nov 2026 20:00:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQiwNU9hx3TG3Xup6K1P88f3NR828dcDn1MUwQdLrFEBgq18LHVzHOThwL4lZ4",
-        "image_source": "The Guardian",
+        "title": "dr xbox",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Mon, 16 Nov 2026 20:30:00 -0800",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoAwgH5I7QRd910Kxh2xhHBAFjfF9ZCIk8IWfrcKLgQSlml8CkvUIKK_H0JNk",
+        "image_source": "XBOX Wire",
         "news": [
           {
-            "title": "The planet ‘is being killed’, Greta Thunberg tells Cop31 climate summit",
-            "url": "https://www.theguardian.com/environment/2026/nov/12/greta-thunberg-cop31-climate-summit",
-            "source": "The Guardian",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQiwNU9hx3TG3Xup6K1P88f3NR828dcDn1MUwQdLrFEBgq18LHVzHOThwL4lZ4",
-            "og_title": "The planet ‘is being killed’, Greta Thunberg tells Cop31 climate summit",
-            "og_desc": "Swedish activist criticised world governments for their failure to prevent environmental breakdown",
-            "og_image": "https://i.guim.co.uk/img/media/45cab90b0823fe89c215631d07f63131095780d3/521_0_4240_3392/master/4240.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=20931fd38e83d3f2218b7fd7195cdc05",
+            "title": "A Message From Dr. XBOX: It’s Time to Take the Day Off and Play XBOX",
+            "url": "https://news.xbox.com/en-us/2026/11/16/dr-xbox-its-time-to-take-the-day-off-and-play-xbox/",
+            "source": "XBOX Wire",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoAwgH5I7QRd910Kxh2xhHBAFjfF9ZCIk8IWfrcKLgQSlml8CkvUIKK_H0JNk",
+            "og_title": "A Message From Dr. XBOX: It’s Time to Take the Day Off and Play XBOX",
+            "og_desc": "Some may know me as DJ Khaled. Some may know me as a hitmaker, a major key provider. But today, I want you to call me Dr. XBOX. Why? Because I’ve been",
+            "og_image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/11/DrXBOX_Hero-ff346cf4ed4093811e3f.jpg",
             "ok": true
           },
           {
-            "title": "Greta Thunberg returns to COP after four years, calling the climate talks \"hypocrisy\" dominated by fossil fuel interests",
-            "url": "https://www.latintimes.com/greta-thunberg-returns-cop31-fossil-fuel-lobbyists-601245",
-            "source": "Latin Times",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQtl11fnJFLCLpEECRUlBO6X2KqYuw686oAEGhy1cSfCrHf2E-8hb0tbE-SQQ",
-            "og_title": "Greta Thunberg returns to COP after four years, calling the climate talks \"hypocrisy\" dominated by fossil fuel interests",
-            "og_desc": "Greta Thunberg returned to the UN climate summit in Antalya, criticizing fossil fuel influence as António Guterres urged windfall taxes and stronger plans to phase out coal, oil and gas.",
-            "og_image": "https://d.latintimes.com/en/full/594556/turkey-australia-climate-cop31-un.jpg",
+            "title": "Need the Day Off to Play ‘GTA 6’? Xbox and DJ Khaled’s ‘Dr. Xbox’ Have a PTO Excuse Note for You",
+            "url": "https://variety.com/2026/gaming/news/gta-6-day-off-note-xbox-dj-khaled-1236949034/",
+            "source": "Variety",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_bByj1bYtATN1hVwFxc3ElY0IN--h6k8NfSfKkhy4bnSnjrkhKUStL-m6f_o",
+            "og_title": "Need the Day Off to Play ‘GTA 6’? Xbox and DJ Khaled’s ‘Dr. Xbox’ Have a PTO Excuse Note for You",
+            "og_desc": "Xbox and DJ Khaled are issuing doctor's orders to try and help 'Grand Theft Auto 6' players get out of work when the game release's Thursday.",
+            "og_image": "https://variety.com/wp-content/uploads/2026/11/GTA-6.jpg?w=1000&h=563&crop=1",
             "ok": true
           },
           {
-            "title": "Climate COP31 Turkey",
-            "url": "https://www.wvnews.com/newsfeed/world/climate-cop31-turkey/image_e3001a22-59fe-595e-912b-074cea080938.html",
-            "source": "WV News",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ6bJzCPgeMsja9StHL4WmF2HkUHsgCo6stJwBuEo5GTokSQkMBU-05Cms6Qts",
-            "og_title": "Climate COP31 Turkey",
-            "og_desc": "Activist Teresa Anderson leads a demonstration for climate finance at the COP31 U.N. Climate Summit, Friday, Nov. 13, 2026, in Antalya, Turkey. (AP Photo/Khalil Hamra)",
-            "og_image": "https://bloximages.chicago2.vip.townnews.com/wvnews.com/content/tncms/assets/v3/editorial/e/30/e3001a22-59fe-595e-912b-074cea080938/6af6eb7e3286f.image.jpg?crop=1763%2C926%2C0%2C125&resize=1200%2C630&order=crop%2Cresize",
+            "title": "Xbox Dances Around Mentioning GTA 6 With its Jokey DJ Khaled-Fronted Doctor's Note",
+            "url": "https://www.ign.com/articles/xbox-offers-doctors-note-for-not-gta-6",
+            "source": "IGN",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWz2ozxmm1aN-deZm3GApQCqTKM7qDWRCBBefIenrLDNyPc-sB0R5YCnwCeA8",
+            "og_title": "Xbox Dances Around Mentioning GTA 6 With its Jokey DJ Khaled-Fronted Doctor's Note",
+            "og_desc": "Xbox has kicked off its marketing for the game it’s not allowed to mention in its marketing. Like the weird alligator-shaped Xbox recently announced, Microsoft is doing its best to get Xbox players excited about GTA 6 without saying the game’s name.",
+            "og_image": "https://assets-prd.ignimgs.com/2026/11/10/ultimate-edition-vice-city-style-03-1794326189563.jpg?width=1280&format=jpg&auto=webp&quality=80",
             "ok": true
           }
         ],
         "geos": [
           "US"
         ],
-        "category": "سياسة",
-        "icon": "🏛️",
-        "color": "#ff5c7c",
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-16-greta-thunberg.png"
+        "card": "cards/world-2026-11-17-dr-xbox.png"
+      },
+      {
+        "title": "titans schedule",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Mon, 16 Nov 2026 20:30:00 -0800",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTYuy-53xduKxqJuKyy2BK1ktUVao9gBNB6XDsW2vidaXISNa-6wkJpTVeI0Rs",
+        "image_source": "NBC Sports",
+        "news": [
+          {
+            "title": "Robert Saleh: We’ve put more on Cam Ward’s plate and he’s proving he can handle it",
+            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-saleh-weve-put-more-on-cam-wards-plate-and-hes-proving-he-can-handle-it",
+            "source": "NBC Sports",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTYuy-53xduKxqJuKyy2BK1ktUVao9gBNB6XDsW2vidaXISNa-6wkJpTVeI0Rs",
+            "og_title": "Robert Saleh: We've put more on Cam Ward's plate and he's proving he can handle it",
+            "og_desc": "The Titans lost their third straight game on Sunday, but head coach Robert Saleh continued to like what he saw from quarterback Cam Ward during Jacksonville's 40-23 win.",
+            "og_image": "https://nbcsports.brightspotcdn.com/dims4/default/17e960e/2147483647/strip/true/crop/5090x2863+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fed%2F11%2F9b0eea474509bb720e4ee48896b2%2F2305271575.jpg",
+            "ok": true
+          },
+          {
+            "title": "Hot Topics From Titans HC Robert Saleh's Zoom Call on Monday",
+            "url": "https://www.tennesseetitans.com/news/hot-topics-from-titans-hc-robert-saleh-s-zoom-call-on-monday-x6105",
+            "source": "Tennessee Titans",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0YW7GNLIOV5fC9DxhosBh9SCm2OVrlTXG4XEaliXqJ0kpLxOBDdYmkAIsBw",
+            "og_title": "Hot Topics From Titans HC Robert Saleh's Zoom Call on Monday",
+            "og_desc": "Saleh conducted a zoom conference call with reporters on Monday, one day after the team's 40-23 loss to the Jacksonville Jaguars.",
+            "og_image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/titans/k6styoss01qlspm0mfyl",
+            "ok": true
+          },
+          {
+            "title": "Titans getting more after adding more to QB Cam Ward's plate",
+            "url": "https://www.espn.com/nfl/story/_/id/50502385/titans-getting-more-adding-more-qb-cam-ward-plate",
+            "source": "ESPN",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSyCx8Y-X1iJCNHQwV8KWqnNsJi1ZQbDPn7b6ydbxfRvpz2QH2InmDgVE2vFo8",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "عام",
+        "icon": "🌐",
+        "color": "#9aa4b2",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-11-17-titans-schedule.png"
+      },
+      {
+        "title": "coeur d'alene",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Mon, 16 Nov 2026 20:20:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm8Coe6mCoMMBjStJ9NIqPGBiw6JpxLmL5hLMjZschSoSzlaxpAdyy0FQkOrA",
+        "image_source": "KREM",
+        "news": [
+          {
+            "title": "Coeur d'Alene Police evacuating residents due to unexploded bomb",
+            "url": "https://www.krem.com/article/news/local/idaho/coeur-dalene-police-evacuating-residents-unexploded-bomb/293-7b5bc00f-defb-4fa8-a734-85d5842c1397",
+            "source": "KREM",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm8Coe6mCoMMBjStJ9NIqPGBiw6JpxLmL5hLMjZschSoSzlaxpAdyy0FQkOrA",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
+          },
+          {
+            "title": "Kootenai County Sheriff's Office in Idaho says they found an unexploded bomb in the area of Belmont and Appaloosa. Coeur d'Alene Police are evacuating residents in the area. - reports",
+            "url": "https://news.cgtn.com/news/2026-11-17/news-1S8KHAnuSic/p.html",
+            "source": "CGTN",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQEW9cqooCKF50dExrEmkW2cP9qdtv5wA7GFDr43vsR0K9bs2jg4Rc4zD_cYfI",
+            "og_title": "Kootenai County Sheriff's Office in Idaho says they found an unexploded bomb in the area of Belmont and Appaloosa. Coeur d'Alene Police are evacuating residents in the area. - reports",
+            "og_desc": "",
+            "og_image": "https://news.cgtn.com/resource/default/img/breaking.png",
+            "ok": true
+          },
+          {
+            "title": "Heartbreaker for Vikings — Highland stuns Coeur d'Alene in overtime, advances to state 6A title game",
+            "url": "https://cdapress.com/news/2026/nov/15/highland-coeur-dalene-football/",
+            "source": "Coeur d'Alene Press",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTsZP_wj5GGnFOtFODyDxmcGR_3QEBxNbmphESKhqfQyUdgYah4qc0nIw-WW4Y",
+            "og_title": "Heartbreaker for Vikings — Highland stuns Coeur d'Alene in overtime, advances to state 6A title game",
+            "og_desc": "Top-seeded Coeur d'Alene, bidding for its first trip to the state title game since 2023, finished 10-1, bowing out in the semifinals for the third straight year.",
+            "og_image": "https://hagadone.media.clients.ellingtoncms.com/img/photos/2026/11/14/Highland-CdA_1_t1200x1200.JPG?89991875fe57e095a7a6851653f0e1c1091b3037",
+            "ok": true
+          }
+        ],
+        "geos": [
+          "US"
+        ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "حجم بحث أقل من 10000",
+        "publishable": false,
+        "card": "cards/world-2026-11-17-coeur-dalene.png"
       },
       {
         "title": "texas southern basketball",
@@ -204,294 +598,7 @@
         "color": "#3ddc97",
         "reason": "حجم بحث أقل من 10000",
         "publishable": false,
-        "card": "cards/world-2026-11-16-texas-southern-basketball.png"
-      },
-      {
-        "title": "chris moore",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 20:00:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa97qma4bFmDfrTj9je24dLpQLUcDR3sX6H2hH6quCcqpeLn9hv0ay7PGL9dk",
-        "image_source": "Yahoo Sports",
-        "news": [
-          {
-            "title": "Ravens Elevate 13-Touchdown Wide Receiver Before Jacoby Brissett Debut",
-            "url": "https://sports.yahoo.com/articles/ravens-elevate-13-touchdown-wide-005232307.html",
-            "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa97qma4bFmDfrTj9je24dLpQLUcDR3sX6H2hH6quCcqpeLn9hv0ay7PGL9dk",
-            "og_title": "Ravens Elevate 13-Touchdown Wide Receiver Before Jacoby Brissett Debut",
-            "og_desc": "The Baltimore Ravens elevated a 13-TD WR and a former third-round pick before Jacoby Brissett's debut against the Los Angeles Chargers. The post Ravens Elevate 13-Touchdown Wide Receiver Before Jacoby Brissett Debut appeared first on HEAVY.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/c1346ff59f70fab13f694fa59a975aa06f22507f4d8d4c46e44d57ac077ae5ca/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fheavy_214%2F75bc4ecb1993b8337ac125b1d02d9632.jpg",
-            "ok": true
-          },
-          {
-            "title": "Ravens' Nick Vannett: Elevated to 53-man roster",
-            "url": "https://www.cbssports.com/fantasy/football/news/ravens-nick-vannett-elevated-to-53-man-roster/",
-            "source": "CBS Sports",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSnEMmC83Ojka-ZluMY_3tsvVdu7dqvzYlKJBoqUqC0yiWqdvOImMSYJXZ4eww",
-            "og_title": "Ravens' Nick Vannett: Elevated to 53-man roster",
-            "og_desc": "Ravens' Nick Vannett: Elevated to 53-man roster",
-            "og_image": "https://sportsfly.cbsistatic.com/fly-894/bundles/sportsmediacss/images/fantasy/default-article-image-large.png",
-            "ok": true
-          },
-          {
-            "title": "Ravens elevate WR Chris Moore, TE Nick Vannett; sign OT Chuma Edoga",
-            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-elevate-wr-chris-moore-te-nick-vannett-sign-ot-chuma-edoga",
-            "source": "NBC Sports",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8ueZiCQmxWjydSzuBxTsS6nxD9HUjwT91TRWbHy1nwvSAfzYSBZM1qsCbGII",
-            "og_title": "Ravens elevate WR Chris Moore, TE Nick Vannett; sign OT Chuma Edoga",
-            "og_desc": "The Ravens added three players to their roster ahead of Monday night's game against the Chargers.",
-            "og_image": "https://nbcsports.brightspotcdn.com/dims4/default/8d587a6/2147483647/strip/true/crop/4903x2758+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F5a%2Faa%2Fd31a945a49c284c57442bf5f588d%2F2300534399.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-16-chris-moore.png"
-      },
-      {
-        "title": "demar derozan",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 19:50:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxxmvjoTgZm3D_t3N_m-zzhBEQwzsdZZbHOjqW1_gRLCZVg0OtprK2CwxQfUc",
-        "image_source": "BasketNews.com",
-        "news": [
-          {
-            "title": "DeMar DeRozan takes back historic NBA spot from Stephen Curry",
-            "url": "https://basketnews.com/news-259514-demar-derozan-takes-back-historic-nba-spot-from-stephen-curry.html",
-            "source": "BasketNews.com",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxxmvjoTgZm3D_t3N_m-zzhBEQwzsdZZbHOjqW1_gRLCZVg0OtprK2CwxQfUc",
-            "og_title": "DeMar DeRozan takes back historic NBA spot from Stephen Curry",
-            "og_desc": "Denver Nuggets veteran wing DeMar DeRozan has overtaken Golden State Warriors superstar Stephen Curry on the NBA's all-time scoring list, reclaiming 16th place just five days after Curry had moved ahead of him.",
-            "og_image": "https://basketnews.com/image-483224-any1200x1200.jpg",
-            "ok": true
-          },
-          {
-            "title": "DeMar DeRozan passed Stephen Curry (26,806) and moved …",
-            "url": "https://www.hoopshype.com/story/sports/nba/rumors/2026/11/15/demar-derozan-passed-stephen-curry-26806-and-moved/92793843007/",
-            "source": "HoopsHype",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQxLtoRmFCWfm_wtbyNI4YDInmfah2bLKOvLqOQdfsY-ou2kSk2VIeqtsnzdCM",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Steph Curry passes DeMar DeRozan on the alltime …",
-            "url": "https://sports.yahoo.com/articles/steph-curry-passes-demar-derozan-100532515.html",
-            "source": "Yahoo Sports",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ5FDzz52THqfpiuVjE8DS-7n0cgxEDiaAWQy8JY1L63g1kNs01v8S6OrdugCs",
-            "og_title": "Steph Curry passes DeMar DeRozan on the alltime …",
-            "og_desc": "Steph Curry passes DeMar DeRozan on the alltime …",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/52ff076082f7bb19ceff8131470ac3a354a81397530893bd0fc0e8f155e6b8b5/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fhoops_hype_usa_today_sports_articles_974%2Fbc387fbb2216b818b2530decfa13b9ed.png",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-16-demar-derozan.png"
-      },
-      {
-        "title": "john christopher depp",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 19:50:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLABGwdg4u5eB9D9UheaTLXao53rur40RKotqNosvC21ZatnvVAbJmjCKdGAU",
-        "image_source": "Rotten Tomatoes",
-        "news": [
-          {
-            "title": "Weekend Box Office: Ebenezer Wins a Sleepy Weekend",
-            "url": "https://editorial.rottentomatoes.com/article/weekend-box-office-ebenezer-week-1/",
-            "source": "Rotten Tomatoes",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLABGwdg4u5eB9D9UheaTLXao53rur40RKotqNosvC21ZatnvVAbJmjCKdGAU",
-            "og_title": "Weekend Box Office: Ebenezer Wins a Sleepy Weekend",
-            "og_desc": "Meanwhile, David Leitch's 'How to Rob a Bank' stalls in seventh place, and 'Godzilla' take s a tumble.",
-            "og_image": "https://editorial.rottentomatoes.com/wp-content/uploads/2026/11/Ebenezer_BO1-Rep.jpg?w=600",
-            "ok": true
-          },
-          {
-            "title": "Johnny Depp film ‘Ebenezer’ gets actor first No. 1 opening in 8 years",
-            "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/johnny-depp-film-ebenezer-first-no-1-opening-8-years-rcna609436",
-            "source": "NBC News",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRX4l7V_w4XhAalc6qY9uFtMTR30dKpC-S5DWFY3jVNl4JsVDnS-k1FKEtwE3U",
-            "og_title": "Johnny Depp film ‘Ebenezer’ gets actor first No. 1 opening in 8 years",
-            "og_desc": "Three years after Depp said that he had “no further need for Hollywood,” “Ebenezer,” a Paramount Pictures release, opened in first place with about $19 million in ticket sales,",
-            "og_image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261115-ebenezer-johnny-depp-mn-1315-584872.jpg",
-            "ok": true
-          },
-          {
-            "title": "‘Ebenezer’ Review: Holiday Humbug",
-            "url": "https://www.nytimes.com/2026/11/12/movies/ebenezer-review-johnny-depp.html",
-            "source": "The New York Times",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQpI_UAq-Wy3d-7xPm-REV-10YG3U0lV3r_q2TJbE630Z02konZIFmQaxd7hIQ",
-            "og_title": "‘Ebenezer’ Review: Holiday Humbug",
-            "og_desc": "Johnny Depp returns as the miser of the Dickens holiday classic. But he isn’t playing Scrooge so much as trying to mount a comeback on a get-up and déjà vu.",
-            "og_image": "https://static01.nyt.com/images/2026/11/12/multimedia/12CUL-EBENEZER-REVIEW-PIX2-bkhz/12CUL-EBENEZER-REVIEW-PIX2-bkhz-facebookJumbo.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "فن ومشاهير",
-        "icon": "🎬",
-        "color": "#c77dff",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-16-john-christopher-depp.png"
-      },
-      {
-        "title": "travel warning",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 19:50:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAh8lpzELDU_DyWAEGaMzBiYphMZMJCa-Tvjxgg2y-3tHG03Goh9XgygqDQM",
-        "image_source": "U.S. Embassy in Bulgaria (.gov)",
-        "news": [
-          {
-            "title": "Security Alert: U.S. Embassy in Bulgaria, November 16, 2026",
-            "url": "https://bg.usembassy.gov/security-alert-u-s-embassy-in-bulgaria-november-16-2026/",
-            "source": "U.S. Embassy in Bulgaria (.gov)",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAh8lpzELDU_DyWAEGaMzBiYphMZMJCa-Tvjxgg2y-3tHG03Goh9XgygqDQM",
-            "og_title": "Security Alert: U.S. Embassy in Bulgaria, November 16, 2026",
-            "og_desc": "",
-            "og_image": "https://bg.usembassy.gov/wp-content/uploads/sites/231/2026/09/Security-Alert.png",
-            "ok": true
-          },
-          {
-            "title": "State Department warns Americans in Europe to 'remain vigilant' during holidays",
-            "url": "https://www.9news.com/article/news/nation-world/americans-security-alert-europe-travel-state-department-warning/507-ece1ecfd-f1eb-4527-a08c-41fa9eee5f26",
-            "source": "9News",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE4lnMzCBsisn3_rT0m91HJ6nuEUX5caHKOdTm28GD33zY982gpb1S90EUGj8",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "US urges citizens to be extra cautious in Europe during holidays",
-            "url": "https://www.yahoo.com/news/us/articles/us-urges-citizens-extra-cautious-224826240.html",
-            "source": "Yahoo",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRsa6bsIWFApR1BileTd-wVOGbHs7KdhiLv3dNbj6wb_aG33Kyc7WJWRzGHGiA",
-            "og_title": "US urges citizens to be extra cautious in Europe during holidays",
-            "og_desc": "The United States is calling on its citizens to be extra vigilant when visiting Europe during the Christmas season, according to security alerts published on Monday by US embassies and diplomatic miss...",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/8430623c301567f32346a3df05ba742647424f6b64ae5d6b0b83f5b7982c941d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdpa_international_526%2F1efba20e4ef6c1dd50094f68360db4fd.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "عام",
-        "icon": "🌐",
-        "color": "#9aa4b2",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-16-travel-warning.png"
-      },
-      {
-        "title": "pax silica",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 19:40:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS0_4R2hdOoakwM8WichSXMoD8kTp4JH-Hb8VwmuhW4aKvdCQBJc9nDvYvX9LQ",
-        "image_source": "Bloomberg.com",
-        "news": [
-          {
-            "title": "US, Allies Agree to Guard AI Supply Chains From China, FT Says",
-            "url": "https://www.bloomberg.com/news/articles/2026-11-15/us-allies-agree-to-guard-ai-supply-chains-from-china-ft-says",
-            "source": "Bloomberg.com",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS0_4R2hdOoakwM8WichSXMoD8kTp4JH-Hb8VwmuhW4aKvdCQBJc9nDvYvX9LQ",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
-          },
-          {
-            "title": "Albanese signs on to Trump’s AI supply chain pact before leaders’ meeting at Quad summit",
-            "url": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars",
-            "source": "The Guardian",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQrKy6VjLifiWtTZjtpF7uD8DGrX3c3MVnQQy1ih4vstlreP0eHwRnIsM5ZV-w",
-            "og_title": "Albanese signs on to Trump’s AI supply chain pact before leaders’ meeting at Quad summit",
-            "og_desc": "Quad leaders’ summit in Philippines is Trump’s first, as Australia joins US and Japan to protect AI technologies in face of China’s efforts to dominate",
-            "og_image": "https://i.guim.co.uk/img/media/b57480f6f6d59b1e608fcb68882810c017ea2e92/499_0_4985_3988/master/4985.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bdfd15dd5fca09828fa4c1795dbb4672",
-            "ok": true
-          },
-          {
-            "title": "Australia backs Trump's AI alliance as US takes on China",
-            "url": "https://www.abc.net.au/news/2026-11-17/australia-signs-us-led-ai-supply-chain-agreement/107392252",
-            "source": "ABC News & Headlines – Australian Broadcasting Corporation",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSChAOky1VyHCSCAOhsUgYALeCXDtDIvTQzObqZnXEwSpqT1nG9F_dxaML47Aw",
-            "og_title": "Australia backs Trump's AI alliance as US takes on China",
-            "og_desc": "Australia is moving closer to the US on artificial intelligence as cheaper Chinese technology attracts growing interest from other countries in the region.",
-            "og_image": "https://live-production.wcms.abc-cdn.net.au/df115608c873d0a54abdfc6005ca561f?impolicy=wcms_watermark_news&cropH=772&cropW=1373&xPos=119&yPos=3&width=862&height=485&imformat=generic",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "سياسة",
-        "icon": "🏛️",
-        "color": "#ff5c7c",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-16-pax-silica.png"
-      },
-      {
-        "title": "portland state basketball",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 19:40:00 -0800",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkibIE07NkqPwTJu0LefMKjGjeGM65wlF1pxZk6xKWUg8pR-I-_Gcob197gnY",
-        "image_source": "Bleacher Nation",
-        "news": [
-          {
-            "title": "MBB | Saint Mary's vs. UIC Highlights, 11-13-26 - Gaels All-Access - Powered by SIDEARM Showcase",
-            "url": "https://smcgaels.com/watch?Archive=8270&type=Archive",
-            "source": "smcgaels.com",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQgRuRdjNN_xwSnV4t-tlTPvkGlh2TZu4Dc10fvZwXWygTnLAd-Bfx2taAFoIs",
-            "og_title": "MBB | Saint Mary's vs. UIC Highlights, 11-13-26",
-            "og_desc": "Video: MBB | Saint Mary's vs. UIC Highlights, 11-13-26. Men's Basketball",
-            "og_image": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/smcgaels.com/images/2026/11/13/9NWiJ5C5.jpg",
-            "ok": true
-          },
-          {
-            "title": "Portland State vs Saint Mary’s Predictions, Picks and Odds | November 16, 2026",
-            "url": "https://www.wagertalk.com/news/college-basketball/portland-state-vs-saint-marys-predictions-picks-and-odds-november-16-2026/",
-            "source": "WagerTalk",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQw_922uWTnAOZbtmziK0aCFtrLnhiymvJRD1EnSbcsw35cZXoNIqMLwCztKwI",
-            "og_title": "Portland State vs Saint Mary's Predictions, Picks and Odds | November 16, 2026",
-            "og_desc": "Saint Mary’s has a new head coach, but the same suffocating physicality that has defined Moraga for decades, and now the Gaels are scoring at a pace rarely",
-            "og_image": "https://www.wagertalk.com/news/wp-content/uploads/2026/11/saint-marys-joshua-dent-e1794832495688.jpg",
-            "ok": true
-          }
-        ],
-        "geos": [
-          "US"
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 10000",
-        "publishable": false,
-        "card": "cards/world-2026-11-16-portland-state-basketball.png"
+        "card": "cards/world-2026-11-17-texas-southern-basketball.png"
       }
     ]
   },
@@ -501,7 +608,7 @@
     "name_en": "Egypt",
     "lang": "ar",
     "flag": "🇪🇬",
-    "generated_at": "2026-11-17T04:32:31.762932+00:00",
+    "generated_at": "2026-11-17T05:01:32.260708+00:00",
     "day": "2026-11-17",
     "trends": [
       {
@@ -596,8 +703,8 @@
       },
       {
         "title": "شيرين",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "published": "Mon, 16 Nov 2026 15:30:00 -0800",
         "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTBsTzFACubEHlEd_LPNcXhUJXxRxRu9yifTRlh01HbWHERGKV77Vu0POVTGm0",
         "image_source": "العربية",
@@ -624,13 +731,13 @@
             "ok": true
           },
           {
-            "title": "محمد هنيدي وحمادة هلال والجفري يقدمون واجب العزاء في والدة أمير عبدالحميد",
-            "url": "https://www.masrawy.com/arts/zoom/details/2026/11/16/3079881/%D9%85%D8%AD%D9%85%D8%AF-%D9%87%D9%86%D9%8A%D8%AF%D9%8A-%D9%88%D8%AD%D9%85%D8%A7%D8%AF%D8%A9-%D9%87%D9%84%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D8%AC%D9%81%D8%B1%D9%8A-%D9%8A%D9%82%D8%AF%D9%85%D9%88%D9%86-%D9%88%D8%A7%D8%AC%D8%A8-%D8%A7%D9%84%D8%B9%D8%B2%D8%A7%D8%A1-%D9%81%D9%8A-%D9%88%D8%A7%D9%84%D8%AF%D8%A9-%D8%A3%D9%85%D9%8A%D8%B1-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%AF",
-            "source": "Masrawy",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT_Sb3FUUUuCvjZZZvZNHhXVRRKcs5SNKzMr_7JaIciHb0xNTQjoz5sVUlg7Kg",
-            "og_title": "حمادة هلال ومحمد هنيدي يحرصان على مواساة أمير عبد المجيد في وفاة والدته | مصراوي",
-            "og_desc": "حرص حمادة هلال ومحمد هنيدي وعدد من نجوم الفن على تقديم واجب العزاء في والدة المايسترو أمير عبد المجيد بمسجد الحامدية الشاذلية وحضور شيرين شاهد التفاصيل | مصراوي",
-            "og_image": "https://media.gemini.media/img/large/2026/11/16/2026_11_16_23_52_1_719.webp",
+            "title": "بينهم الحبيب الجفري وحماده هلال.. مشاهير واسوا أمير عبدالمجيد في عزاء والدته",
+            "url": "https://www.almasryalyoum.com/news/details/4412453",
+            "source": "المصري اليوم",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9rINrRn1p48I9qmE-jjYuCzxjiJ7RP6jlH9xg47nDiQP5qTwp22KOuGmVFiA",
+            "og_title": "بينهم الحبيب الجفري وحماده هلال.. مشاهير واسوا أمير عبدالمجيد في عزاء والدته | المصري اليوم",
+            "og_desc": "استقبل المايسترو أمير عبدالمجيد المعزين في وفاة والدته، مساء أمس الإثنين، بمسجد الحامدية الشاذلية بمنطقة المهندسين، وسط حضور عدد من نجوم الوسط الفني الذين حرصوا على تقديم...",
+            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/17/2117459.webp",
             "ok": true
           }
         ],
@@ -642,38 +749,38 @@
         "card": "cards/eg-2026-11-17-شيرين.png"
       },
       {
-        "title": "فضاء",
+        "title": "canada vs guatemala",
         "traffic": "200+",
         "traffic_num": 200,
-        "published": "Mon, 16 Nov 2026 18:20:00 -0800",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMnlBLAdVEYjvdhc_t3t08nw7zgg7Oksqu56QJL_SkWR9e_QGA1-3MXkz-NUg",
-        "image_source": "القدس العربي",
+        "published": "Mon, 16 Nov 2026 18:30:00 -0800",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQIVy5XU7EF3P4Q_b6R05asb5pUrWLFHUvfObDYPUhI7j8EW9HC8C0X1k2MCS4",
+        "image_source": "Concacaf | Official Website",
         "news": [
           {
-            "title": "فرصة نادرة… وكالة «ناسا» تبحث عن رواد فضاء للعيش والعمل على سطح القمر",
-            "url": "https://www.alquds.co.uk/%D9%81%D8%B1%D8%B5%D8%A9-%D9%86%D8%A7%D8%AF%D8%B1%D8%A9-%D9%88%D9%83%D8%A7%D9%84%D8%A9-%D9%86%D8%A7%D8%B3%D8%A7-%D8%AA%D8%A8%D8%AD%D8%AB-%D8%B9%D9%86-%D8%B1%D9%88%D8%A7%D8%AF-%D9%81/",
-            "source": "القدس العربي",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMnlBLAdVEYjvdhc_t3t08nw7zgg7Oksqu56QJL_SkWR9e_QGA1-3MXkz-NUg",
-            "og_title": "فرصة نادرة... وكالة «ناسا» تبحث عن رواد فضاء للعيش والعمل على سطح القمر",
-            "og_desc": "لندن ـ «القدس العربي»: يحلم الكثير من الأطفال بأن يصبحوا يوماً ما رواد فضاء ويزوروا القمر، وهو الحلم الذي بات اليوم على وشك أن يصبح حقيقة، ولكن بالنسبة لعدد قليل فقط من الناس سيتم اختياره بعناية فائقة وصعوبة كبيرة. وقالت تقارير إعلامية إن وكالة الفضاء الأمريكية «ناسا» تبحث حالياً عن رواد فضاء جدد «للمساعدة في […]",
-            "og_image": "https://www.alquds.co.uk/wp-content/uploads/2026/11/NASA_02.jpg",
+            "title": "Canadá avanza a las Finales de la Liga de Naciones de Concacaf por tercera vez",
+            "url": "https://es.concacaf.com/competitions/nations-league/news/canada-avanza-a-las-finales-de-la-liga-de-naciones-de-concacaf-por-tercera-vez",
+            "source": "Concacaf | Official Website",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQIVy5XU7EF3P4Q_b6R05asb5pUrWLFHUvfObDYPUhI7j8EW9HC8C0X1k2MCS4",
+            "og_title": "Canadá avanza a las Finales de la Liga de Naciones y clasifica a la Copa Oro | Concacaf",
+            "og_desc": "Canadá avanza a las Finales",
+            "og_image": "https://images.concacaf.com/image/private/t_ratio16_9-size60-f_webp-c_fill/v1794888478/prd/vjfcbkjutcnxl8mxuqvm",
             "ok": true
           },
           {
-            "title": "نحو المريخ",
-            "url": "https://www.aletihad.ae/opinion/4704614/%D9%86%D8%AD%D9%88-%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D8%AE",
-            "source": "الاتحاد للأخبار",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7VbisbvcW8opuiB-EHmVrnYQW8KQkSr0j6W-wpBjfcR2WJpLBymPrwhuZVNs",
-            "og_title": "نحو المريخ",
-            "og_desc": "من منصة الإطلاق في مركز كينيدي للفضاء بفلوريدا، يرتفع نظامُ الإقلاع الفضائي (SLS)، حاملاً معه طموحاتِ جيلٍ كامل نحو آفاق جديدة. ويمثِّل هذا المشهد  جسيداً للمرحلة القادمة في استكشاف الفضاء، حيث فتحت «ناسا» مؤخراً البابَ لاختيار روّاد فضاء جُدد،",
-            "og_image": "https://media.alittihad.ae/store/archive/image/2026/11/9/a0d53f93-09be-4d34-94a5-68209c41097c.jpg?width=600",
+            "title": "José Pinto confía en la remontada de la azul y blanco",
+            "url": "https://onefootball.com/es/noticias/jose-pinto-confia-en-la-remontada-de-la-azul-y-blanco-43786479",
+            "source": "OneFootball",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQVMJ-lY9rYc9cP_HS4UgzqnjBgAaClACb-HhzbDrERRLtRGnb9ngHQXMyeO7Y",
+            "og_title": "José Pinto confía en la remontada de la azul y blanco",
+            "og_desc": "GUATEMALA – El defensor mantiene su apoyo a la Selección Nacional.José Carlos Pinto, quien fuera capitán de la Selección de Guatemala en las convocatorias…",
+            "og_image": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fes%2F43786479%3Fdate=2026-11-17",
             "ok": true
           },
           {
-            "title": "ناسا توظف رواد فضاء براتب 164 ألف دولار",
-            "url": "https://arabic.arabianbusiness.com/allnews/%D9%86%D8%A7%D8%B3%D8%A7-%D8%AA%D9%88%D8%B8%D9%81-%D8%B1%D9%88%D8%A7%D8%AF-%D9%81%D8%B6%D8%A7%D8%A1-%D8%A8%D8%B1%D8%A7%D8%AA%D8%A8-164-%D8%A3%D9%84%D9%81-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
-            "source": "أريبيان بزنس",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTBVfbKMJ-51mclObMnbnZi9qoUYsraK_8gsO_1GrtSgt4VmsgNZQLljecIpHg",
+            "title": "Luis Fernando Tena lanza un mensaje de esperanza a Guatemala: “Nosotros creemos que podemos remontar”",
+            "url": "https://as.com/us/futbol/luis-fernando-tena-lanza-un-mensaje-de-esperanza-a-guatemala-nosotros-creemos-que-podemos-remontar-f202611-n/",
+            "source": "Diario AS",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTgPtwjwYshp3QL_SmNiQEDNkKK9GP-G6Ne-ouOUHFDZt3HkU0t9u2UNvBQVo4",
             "og_title": "",
             "og_desc": "",
             "og_image": "",
@@ -681,12 +788,57 @@
             "error": "HTTPError"
           }
         ],
+        "category": "رياضة",
+        "icon": "⚽",
+        "color": "#3ddc97",
+        "reason": "حجم بحث أقل من 2000",
+        "publishable": false,
+        "card": "cards/eg-2026-11-17-canada-vs-guatemala.png"
+      },
+      {
+        "title": "فضاء",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "published": "Mon, 16 Nov 2026 18:20:00 -0800",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Tl4cqEPO_QZFt79PV4PH_A7SlLHUIvTNXtE85WFbpsjufeNE25_3Lu9hQRA",
+        "image_source": "المصري اليوم",
+        "news": [
+          {
+            "title": "«القومي للبحوث الفلكية» يدعو المواطنين لتوجيه أضواء هواتفهم نحو السماء.. تعرف على السبب والموعد",
+            "url": "https://www.almasryalyoum.com/news/details/4412186",
+            "source": "المصري اليوم",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Tl4cqEPO_QZFt79PV4PH_A7SlLHUIvTNXtE85WFbpsjufeNE25_3Lu9hQRA",
+            "og_title": "«القومي للبحوث الفلكية» يدعو المواطنين لتوجيه أضواء هواتفهم نحو السماء.. تعرف على السبب والموعد | المصري اليوم",
+            "og_desc": "دعا المعهد القومى للبحوث الفلكية والجيوفيزيقية، المواطنين إلى المشاركة فى المبادرة العالمية «أضيئوا احتفالًا باليوم الضوئى لفوياجر» (Shine Bright for Voyager's Light-Day)، من خلال توجيه...",
+            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/16/2117013.webp",
+            "ok": true
+          },
+          {
+            "title": "إنجاز تاريخي.. Voyager 1 يستعد لبلوغ مسافة يوم ضوئي عن الأرض",
+            "url": "https://asharq.com/science/203048/%D8%A5%D9%86%D8%AC%D8%A7%D8%B2-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-voyager-1-%D9%8A%D8%B3%D8%AA%D8%B9%D8%AF-%D9%84%D8%A8%D9%84%D9%88%D8%BA-%D9%85%D8%B3%D8%A7%D9%81%D8%A9-%D9%8A%D9%88%D9%85-%D8%B6%D9%88%D8%A6%D9%8A-%D8%B9%D9%86-%D8%A7%D9%84%D8%A3%D8%B1%D8%B6/",
+            "source": "الشرق للأخبار",
+            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSVIkvFcqkM3EZGuAEvRy2q_fKIZvnhNyGLc_u1OPNaBNCciyOXOEEjL1JMbQ0",
+            "og_title": "إنجاز تاريخي.. Voyager 1 يستعد لبلوغ مسافة يوم ضوئي عن الأرض",
+            "og_desc": "قطع المسبار فويجر 1 التابع لناسا مسافة أبعد من أي مركبة فضائية أخرى انطلقت من الأرض.",
+            "og_image": "https://assets-news.asharq.com/images/articles/1200x630/social-image/OnzRHywV1y_1794676020.jpg",
+            "ok": true
+          },
+          {
+            "title": "من الخليج إلى المحيط.. العرب يضيئون السماء برسالة سلام إلى \"فوياجر-1\"",
+            "url": "https://www.ajnet.me/science/2026/11/16/%D9%85%D9%86-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%8A%D8%B6%D9%8A%D8%A6%D9%88%D9%86",
+            "source": "الجزيرة نت",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrqX8ls6t_BXR7UFdPmoJBg5aF3zLJTj22WW9jqdqhhcTOAPc5GRxC96uGdc",
+            "og_title": "من الخليج إلى المحيط.. العرب يضيئون السماء برسالة سلام إلى \"فوياجر-1\"",
+            "og_desc": "يدعو الاتحاد العربي لعلوم الفضاء والفلك المؤسسات الفلكية والمدارس والجمهور إلى إرسال تحية ضوئية ورسالة سلام بشفرة مورس، احتفالا بوصول المسبار “فوياجر-1” إلى مسافة يوم ضوئي عن الأرض.",
+            "og_image": "https://www.ajnet.me/wp-content/uploads/2026/11/fwyajr-2026-1794822702.png?resize=1200%2C630",
+            "ok": true
+          }
+        ],
         "category": "شخصية",
         "icon": "👤",
         "color": "#ffd166",
-        "reason": "حجم بحث أقل من 2000",
+        "reason": "شخصية لا يرد اسمها في مصدرين",
         "publishable": false,
-        "person": true,
         "card": "cards/eg-2026-11-17-فضاء.png"
       },
       {
@@ -755,30 +907,30 @@
             "error": "HTTPError"
           },
           {
-            "title": "WATCH: Ella Langley Throws Up Touchdown Arms, Fake-Dies After Being Nominated For 7 Grammys",
-            "url": "https://tasteofcountry.com/ella-langley-grammy-nominations-react/",
-            "source": "Taste of Country",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQOayoCZ4vCa4wF7r1AIRcp7xI9ARWO35PVFV3fSpTCdSmeOJ1RWMRSaOp_qGo",
-            "og_title": "WATCH: Ella Langley Throws Up Touchdown Arms, Fake-Dies After Being Nominated For 7 Grammys",
-            "og_desc": "Ella Langley scored seven Grammy nominations in total when the nominees list was announced on Monday (Nov. 16), and her reaction was incredible. Watch the video now.",
-            "og_image": "https://townsquare.media/site/204/files/2026/11/attachment-ellalangley-41.jpg?w=1200&q=75&format=natural",
+            "title": "Grammys 2027: Snubs & Surprises for Harry Styles, Noah Kahan, More",
+            "url": "https://www.hollywoodreporter.com/music/music-news/grammys-2027-snubs-surprises-harry-styles-noah-kahan-1236756402/",
+            "source": "The Hollywood Reporter",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQAYEiujhhEfUaXuoejg5nIqQ24qs7WyRMuSzV9Y3JCKwLNt-fDm7DEqR4hcjY",
+            "og_title": "Grammy Nominations Snubs and Surprises: Harry Styles, Madonna, Noah Kahan Miss Top Nods as Raye, Rosalía Overperform",
+            "og_desc": "Styles, who won album of the year with 'Harry's House' back in 2023, was completely shut out of the Grammy race this time, one of the most notable snubs this season.",
+            "og_image": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Harry-Styles-snub-Rosalia-surprise-and-Noah-Kahan-Split-Getty-H-2026.jpg?w=1296&h=730&crop=1",
             "ok": true
           },
           {
-            "title": "'80s Film and TV Icon Michael J. Fox Earns Grammy Nomination at 65 for Telling His Own Story",
-            "url": "https://www.yahoo.com/entertainment/celebrity/articles/80s-film-tv-icon-michael-155400743.html",
-            "source": "Yahoo",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSYFWT72HnqC5L1ytSjJilwaAVq6Iptz41w-0LUZxmfOItxN4U6zAxVfXakY0M",
-            "og_title": "'80s Film and TV Icon Michael J. Fox Earns Grammy Nomination at 65 for Telling His Own Story",
-            "og_desc": "The beloved actor has another major career milestone to celebrate.",
-            "og_image": "https://s.yimg.com/lo/mysterio/api/4bf7e2571f025d9fed4d22002be0e658a58d32f70ccad7aa8c8d47bba25b8cfa/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fparade_250%2Fd81154fc57a9364fd4d9c94fde72281c.jpg",
+            "title": "Record, Song and Album of the Year: Grammy awards explained",
+            "url": "https://qz.com/grammy-record-song-album-year-explained",
+            "source": "qz.com",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTqPH3dbkBXdYptz9u5yAzLpqe-CcD7gUaEWHc1G9894N3UsHMP9fQjv2Vqq7U",
+            "og_title": "Record, Song and Album of the Year: Grammy awards explained",
+            "og_desc": "Record, Song and Album of the Year honor different work at the Grammys, and these 10 explainers cover who each award credits, who votes and how eligibility works",
+            "og_image": "https://qz.com/cdn-cgi/image/width=1200,quality=85,format=auto/https://assets.qz.com/media/quartz-run-2640-hero-0-20392-300x201.jpg",
             "ok": true
           }
         ],
-        "category": "حوادث وقضايا",
-        "icon": "⛔",
-        "color": "#ff6b6b",
-        "reason": "ورد لفظ حسّاس: dies",
+        "category": "فن ومشاهير",
+        "icon": "🎬",
+        "color": "#c77dff",
+        "reason": "حجم بحث أقل من 2000",
         "publishable": false,
         "card": "cards/eg-2026-11-17-grammys-2027-nominations.png"
       },
@@ -787,46 +939,45 @@
         "traffic": "100+",
         "traffic_num": 100,
         "published": "Mon, 16 Nov 2026 20:10:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoFMflsDCxJpqM9fwyEULHEKPTphLD_olU0onkFmaEU-GCyUA9v7Q7z_m_eGw",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd9I95ld5U6WElvTltDh8o8eQWlsXBlQLWuEPh5Bsr5PNcw7N9hKjtDJLrUek",
         "image_source": "اليوم السابع",
         "news": [
           {
-            "title": "أذكار الصباح اليوم الإثنين 16 نوفمبر 2026.. أدعية للحفظ والرزق والبركة",
-            "url": "https://www.youm7.com/story/2026/11/16/%D8%A3%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D8%AB%D9%86%D9%8A%D9%86-16-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-2026-%D8%A3%D8%AF%D8%B9%D9%8A%D8%A9-%D9%84%D9%84%D8%AD%D9%81%D8%B8-%D9%88%D8%A7%D9%84%D8%B1%D8%B2%D9%82/7619011",
+            "title": "أذكار المساء اليوم الإثنين 16 نوفمبر 2026.. ردد «رضيت بالله ربًا» 3 مرات",
+            "url": "https://www.youm7.com/story/2026/11/16/%D8%A3%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%A1-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D8%AB%D9%86%D9%8A%D9%86-16-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-2026-%D8%B1%D8%AF%D8%AF-%C2%AB%D8%B1%D8%B6%D9%8A%D8%AA-%D8%A8%D8%A7%D9%84%D9%84%D9%87/7620007",
             "source": "اليوم السابع",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoFMflsDCxJpqM9fwyEULHEKPTphLD_olU0onkFmaEU-GCyUA9v7Q7z_m_eGw",
-            "og_title": "أذكار الصباح اليوم الإثنين 16 نوفمبر 2026.. أدعية للحفظ والرزق والبركة - اليوم السابع",
-            "og_desc": "تتصدر أذكار الصباح اليوم الاثنين 16 نوفمبر 2026 اهتمامات المسلمين مع بداية يوم جديد، حرصًا على تحصين النفس وطلب الحفظ والعافية والرزق والبركة من الله سبحانه وتعالى.",
-            "og_image": "https://img.youm7.com/xlarge/20241225051501151.jpg",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd9I95ld5U6WElvTltDh8o8eQWlsXBlQLWuEPh5Bsr5PNcw7N9hKjtDJLrUek",
+            "og_title": "أذكار المساء اليوم الإثنين 16 نوفمبر 2026.. ردد «رضيت بالله ربًا» 3 مرات  - اليوم السابع",
+            "og_desc": "مع غروب شمس اليوم الاثنين 16 نوفمبر 2026، يحرص كثير من المسلمين على ترديد أذكار المساء والأدعية النبوية، طلبًا للحفظ والطمأنينة والسكينة.",
+            "og_image": "https://img.youm7.com/xlarge/20190528010632632.jpg",
             "ok": true
           },
           {
-            "title": "«حصنك اليومي».. أذكار الصباح كاملة بيوم الإثنين 9 نوفمبر 2026 وفضل «سبحان الله وبحمده»",
-            "url": "https://www.almasryalyoum.com/news/details/4405470",
-            "source": "المصري اليوم",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQUXkptAeveF131wjdkILZTFzsvmlOgeM2A2qomlrUGDGeF1cqlKK45Tc91wUw",
-            "og_title": "«حصنك اليومي».. أذكار الصباح كاملة بيوم الإثنين 9 نوفمبر 2026 وفضل «سبحان الله وبحمده» | المصري اليوم",
-            "og_desc": "مع بداية يوم جديد، يتصدر البحث عن “أذكار الصباح” و“أذكار الصباح مكتوبة كاملة” اهتمام المسلمين، حرصًا على تحصين النفس وطلب الحفظ والعافية والرزق والبركة من الله سبحانه...",
-            "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/09/2102810.webp",
-            "ok": true
-          },
-          {
-            "title": "أذكار الصباح اليوم الإثنين 09 نوفمبر/ تشرين الثاني 2026",
-            "url": "https://www.emiratesvoice.com/2247/064151-%D8%A3%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A5%D8%AB%D9%86%D9%8A%D9%86-09-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-%D8%AA%D8%B4%D8%B1%D9%8A%D9%86-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-2026",
+            "title": "أذكار الصباح اليوم السبت 14 نوفمبر/ تشرين الثاني 2026",
+            "url": "https://www.emiratesvoice.com/2247/072839-%D8%A3%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA-14-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-%D8%AA%D8%B4%D8%B1%D9%8A%D9%86-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-2026",
             "source": "www.emiratesvoice.com",
             "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVfIoZqqzOjSQyatMSayMYUKB9cty2OliIo_8JpWNAyox1SU9lxg_nElQ1Ayg",
-            "og_title": "أذكار الصباح اليوم الإثنين 09 نوفمبر/ تشرين الثاني 2026",
-            "og_desc": "مع إشراقة صباح اليوم الإثنين 9 نوفمبر 2026، يحرص المسلمون على ترديد أذكار الصباح والأدعية المأثورة، ابتغاء مرضاة الله سبحانه وتعالى، وطلب الحفظ والعافية والرزق والبركة في اليوم الجديد، واستفتاح ساعات الصباح بذكر الله والاستغفار والتسبيح والدعاء، بما يمنح النفس الطمأنينة ويجدد معاني التوكل واليقين وحسن الظن بالله",
+            "og_title": "أذكار الصباح اليوم السبت 14 نوفمبر/ تشرين الثاني 2026",
+            "og_desc": "مع إشراقة صباح اليوم السبت 14 نوفمبر 2026، يحرص المسلمون على ترديد أذكار الصباح والأدعية المأثورة، ابتغاء مرضاة الله سبحانه وتعالى، وطلب الحفظ والعافية والرزق والبركة في اليوم الجديد، واستفتاح ساعات الصباح بذكر الله والاستغفار والتسبيح والدعاء، بما يمنح النفس الطمأنينة ويجدد معاني التوكل واليقين وحسن الظن بالله",
             "og_image": "https://www.emiratesvoice.com/img/2026/03/exlarge/doaa.jpg?v=1772974131",
+            "ok": true
+          },
+          {
+            "title": "أذكار النوم اليوم السبت 14 نوفمبر 2026.. 10 أدعية نبوية تحصّن المسلم قبل النوم",
+            "url": "https://www.youm7.com/story/2026/11/14/%D8%A3%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D9%86%D9%88%D9%85-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA-14-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-2026-10-%D8%A3%D8%AF%D8%B9%D9%8A%D8%A9-%D9%86%D8%A8%D9%88%D9%8A%D8%A9/7618071",
+            "source": "اليوم السابع",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSsArACDxyqWvdLp990sZaAEHcnYL7kS2OKRW6ARKQ7yCMDFEvDTuP7tirPOMA",
+            "og_title": "أذكار النوم اليوم السبت 14 نوفمبر 2026..  10 أدعية نبوية تحصّن المسلم قبل النوم - اليوم السابع",
+            "og_desc": "تتصدر أذكار النوم اليوم السبت 14 نوفمبر 2026، اهتمامات كثير من المسلمين، بالتزامن مع حرصهم على اتباع هدي النبي محمد صلى الله عليه وسلم، والمحافظة على الأدعية والأذكار الواردة في السنة..",
+            "og_image": "https://img.youm7.com/xlarge/202412181031243124.jpg",
             "ok": true
           }
         ],
         "category": "شخصية",
         "icon": "👤",
         "color": "#ffd166",
-        "reason": "حجم بحث أقل من 2000",
+        "reason": "شخصية لا يرد اسمها في مصدرين",
         "publishable": false,
-        "person": true,
         "card": "cards/eg-2026-11-17-أذكار-الصباح.png"
       },
       {
@@ -878,52 +1029,6 @@
         "card": "cards/eg-2026-11-17-اتجاه-القبلة.png"
       },
       {
-        "title": "canada vs guatemala",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "published": "Mon, 16 Nov 2026 18:30:00 -0800",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQIVy5XU7EF3P4Q_b6R05asb5pUrWLFHUvfObDYPUhI7j8EW9HC8C0X1k2MCS4",
-        "image_source": "Concacaf | Official Website",
-        "news": [
-          {
-            "title": "Canadá avanza a las Finales de la Liga de Naciones de Concacaf por tercera vez",
-            "url": "https://es.concacaf.com/competitions/nations-league/news/canada-avanza-a-las-finales-de-la-liga-de-naciones-de-concacaf-por-tercera-vez",
-            "source": "Concacaf | Official Website",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQIVy5XU7EF3P4Q_b6R05asb5pUrWLFHUvfObDYPUhI7j8EW9HC8C0X1k2MCS4",
-            "og_title": "Canadá avanza a las Finales de la Liga de Naciones de Concacaf por tercera vez | Concacaf",
-            "og_desc": "Canadá clasifica a las Finales",
-            "og_image": "https://images.concacaf.com/image/private/t_ratio16_9-size60-f_webp-c_fill/v1794888478/prd/vjfcbkjutcnxl8mxuqvm",
-            "ok": true
-          },
-          {
-            "title": "Jehú Fajardo vuelve a la titularidad de Guatemala ante Canadá",
-            "url": "https://espndeportes.espn.com/futbol/guatemala/nota/_/id/17524616/alineacion-guatemala-canada-cuartos-de-final-liga-de-naciones-concacaf",
-            "source": "ESPN Deportes",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo3LomPJzJvMXv59W0nDiP0dhuicfBOw-Y8WKmfhYXmW3AhQqX79mD-p8f1Y0",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false
-          },
-          {
-            "title": "José Pinto confía en la remontada de la azul y blanco",
-            "url": "https://onefootball.com/es/noticias/jose-pinto-confia-en-la-remontada-de-la-azul-y-blanco-43786479",
-            "source": "OneFootball",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQVMJ-lY9rYc9cP_HS4UgzqnjBgAaClACb-HhzbDrERRLtRGnb9ngHQXMyeO7Y",
-            "og_title": "José Pinto confía en la remontada de la azul y blanco",
-            "og_desc": "GUATEMALA – El defensor mantiene su apoyo a la Selección Nacional.José Carlos Pinto, quien fuera capitán de la Selección de Guatemala en las convocatorias…",
-            "og_image": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fes%2F43786479%3Fdate=2026-11-17",
-            "ok": true
-          }
-        ],
-        "category": "رياضة",
-        "icon": "⚽",
-        "color": "#3ddc97",
-        "reason": "حجم بحث أقل من 2000",
-        "publishable": false,
-        "card": "cards/eg-2026-11-17-canada-vs-guatemala.png"
-      },
-      {
         "title": "قطع أثرية",
         "traffic": "100+",
         "traffic_num": 100,
@@ -953,21 +1058,20 @@
             "ok": true
           },
           {
-            "title": "مصر.. ضبط شخصين بحوزتهما 3391 قطعة أثرية من 3 عصور مختلفة",
-            "url": "https://www.alkhaleej.ae/2026-11-16/%D9%85%D9%86%D9%88%D8%B9%D8%A7%D8%AA/%D9%85%D8%AD%D8%B7%D8%A7%D8%AA/%D9%85%D8%B5%D8%B1-%D8%B6%D8%A8%D8%B7-%D8%B4%D8%AE%D8%B5%D9%8A%D9%86-%D8%A8%D8%AD%D9%88%D8%B2%D8%AA%D9%87%D9%85%D8%A7-3391-%D9%82%D8%B7%D8%B9%D8%A9-%D8%A3%D8%AB%D8%B1%D9%8A%D8%A9-%D9%85%D9%86-3-%D8%B9%D8%B5%D9%88%D8%B1-%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9",
-            "source": "صحيفة الخليج",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS--o5atztfLTGuGEArWdgZA80FyGzIPv1r9kbwEA9uxbEOb1FWouVDj9NcgoM",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
+            "title": "كنز أثري من 3 عصور.. ضبط متهمين بحوزتهما 3391 قطعة أثرية بالشرقية والدقهلية",
+            "url": "https://www.masrawy.com/news/news_cases/details/2026/11/16/3079630/%D9%83%D9%86%D8%B2-%D8%A3%D8%AB%D8%B1%D9%8A-%D9%85%D9%86-3-%D8%B9%D8%B5%D9%88%D8%B1-%D8%B6%D8%A8%D8%B7-%D9%85%D8%AA%D9%87%D9%85%D9%8A%D9%86-%D8%A8%D8%AD%D9%88%D8%B2%D8%AA%D9%87%D9%85%D8%A7-3391-%D9%82%D8%B7%D8%B9%D8%A9-%D8%A3%D8%AB%D8%B1%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AF%D9%82%D9%87%D9%84%D9%8A%D8%A9",
+            "source": "Masrawy",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTueQ9WeV6qQECFoKDzmKUYCrSLowJjPkOLRqvhYO3VlGEMAaIUcT_AtkRHN2c",
+            "og_title": "ضبط شخصين بحوزتهما 3391 قطعة أثرية  | مصراوي",
+            "og_desc": "ضبطت أجهزة الأمن شخصين بالشرقية والدقهلية بحوزتهما 3391 قطعة أثرية من العصور الفرعونية واليونانية والرومانية بقصد الاتجار | مصراوي",
+            "og_image": "https://media.gemini.media/img/large/2026/11/16/2026_11_16_15_27_7_384.webp",
+            "ok": true
           }
         ],
-        "category": "شخصية",
-        "icon": "👤",
-        "color": "#ffd166",
-        "reason": "شخصية بأقل من مصدرين",
+        "category": "حوادث وقضايا",
+        "icon": "⛔",
+        "color": "#ff6b6b",
+        "reason": "ورد لفظ حسّاس: متهم",
         "publishable": false,
         "card": "cards/eg-2026-11-17-قطع-أثرية.png"
       },
@@ -1027,13 +1131,13 @@
     "name_en": "Saudi Arabia",
     "lang": "ar",
     "flag": "🇸🇦",
-    "generated_at": "2026-11-17T04:32:44.626676+00:00",
+    "generated_at": "2026-11-17T05:01:45.176545+00:00",
     "day": "2026-11-17",
     "trends": [
       {
         "title": "sri lanka national cricket team vs pakistan national cricket team match scorecard",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "published": "Mon, 16 Nov 2026 20:10:00 -0800",
         "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTLo7E8kZAxicD3yVkmFju0Trj7GeHvx3KX0nRrCIqB0QBsCNy_K29UFKaKVJo",
         "image_source": "Cricinfo",
@@ -1050,16 +1154,6 @@
             "error": "HTTPError"
           },
           {
-            "title": "Pakistan Sri Lanka Cricket",
-            "url": "https://www.bdtonline.com/sports/national_sports/pakistan-sri-lanka-cricket/image_aef7461b-489b-592d-b6ce-b29ee5bf9568.html",
-            "source": "Bluefield Daily Telegraph",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRH6AlRiCg2e2sqZUpapeel8qt91RMVDdT4o7yJqDfQa_ZxK1EWFRPsqMf5iSQ",
-            "og_title": "Pakistan Sri Lanka Cricket",
-            "og_desc": "Sri Lanka's Asitha Fernando appeals for an LBW against Pakistan's Ghazi Ghori during the second day of the first Test cricket match between Pakistan and Sri Lanka, in Rawalpindi, Pakistan,",
-            "og_image": "https://bloximages.chicago2.vip.townnews.com/bdtonline.com/content/tncms/assets/v3/editorial/a/ef/aef7461b-489b-592d-b6ce-b29ee5bf9568/6af7f0062c706.image.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
-            "ok": true
-          },
-          {
             "title": "Pakistan’s gritty Shakeel again misses out on a century in drawn test against Sri Lanka",
             "url": "https://apnews.com/article/cricket-pakistan-srilanka-wtc-cb5b1fa2559ee037da211b7e06020a09",
             "source": "AP News",
@@ -1069,6 +1163,16 @@
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
+          },
+          {
+            "title": "Pakistan wins toss, elects to bowl in 2nd cricket test against Sri Lanka",
+            "url": "https://www.ctinsider.com/sports/article/pakistan-wins-toss-elects-to-bowl-in-2nd-cricket-22534659.php",
+            "source": "CT Insider",
+            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUX7926ye2jCi9gBM3d0iuTMvxRXZGls7Hq02d_BlV68yuZ-ox-ysVRapKRC0",
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false
           }
         ],
         "category": "رياضة",
@@ -1178,17 +1282,17 @@
         "traffic": "1000+",
         "traffic_num": 1000,
         "published": "Mon, 16 Nov 2026 18:00:00 -0800",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYiAwaNoYaDjO0ZcmCUWTx4CfGM1AAWMayFerJTBlQB11F36qQYqYoraT7uvM",
-        "image_source": "وكالة الأنباء السعودية",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZ4YXfPk-sTTRyxK4P3IHSxx8LocLjuWB6pip5gflyKAmkD1UQlUm0Yf6X6sg",
+        "image_source": "صحيفة سبق الإلكترونية",
         "news": [
           {
-            "title": "عام / أمير جازان يرأس اجتماعًا لمتابعة استعدادات الجهات المعنية للحالة المطرية بالمنطقة",
-            "url": "https://www.spa.gov.sa/N2726992",
-            "source": "وكالة الأنباء السعودية",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYiAwaNoYaDjO0ZcmCUWTx4CfGM1AAWMayFerJTBlQB11F36qQYqYoraT7uvM",
-            "og_title": "عام / أمير جازان يرأس اجتماعًا لمتابعة استعدادات الجهات المعنية للحالة المطرية بالمنطقة",
-            "og_desc": "جيزان 05 جمادى الآخرة 1448 هـ الموافق  15 نوفمبر 2026 م واس\n    رأس صاحب السمو الملكي الأمير محمد بن عبدالعزيز بن محمد بن عبدالعزيز، أمير منطقة جازان، اليوم، بحضور صاحب السمو الأمير ناصر بن محمد بن عبدالله بن جلوي، نائب أمير المنطقة، اجتماعًا مع عدد من الجهات الحكومية والأمنية والخدمية بالمنطقة، للوقوف على جاهزيتها واستعداداتها للتعامل مع الحالة المطرية التي تشهدها المنطقة، ومتابعة الإجراءات والتدابير الوقائية المتخذة.\n    واطّلع سموه، خلال الاجتماع، على الخطط المقترحة والآليات المعتمدة لمتابعة تطورات الحالة المطرية، والجاهزية للجهات ذات العلاقة، والإجراءات الاستباقية الواجب اتخاذها فور ورود التوقعات والتنبيهات الجوية من المركز الوطني للأرصاد، بما يضمن سرعة الاستجابة والتعامل الفاعل، والمحافظة على الأرواح والممتلكات.\n    وأكد سمو أمير منطقة جازان، أهمية مضاعفة الجهود وتعزيز التكامل والتنسيق المستمر بين جميع الجهات، ورفع مستوى الجاهزية، وتسخير الإمكانات البشرية والآلية، وسرعة معالجة الملاحظات، واتخاذ التدابير اللازمة في المواقع التي قد تتأثر بهطول الأمطار وجريان السيول، مشددًا في الوقت ذاته على أهمية العمل الاستباقي.\n    ووجّه سمو الأمير محمد بن عبدالعزيز، بمواصلة تهيئة المواقع السياحية والمرافق العامة ورفع مستوى الخدمات المقدمة للزوار والمتنزهين، لا سيما في ظل ما تشهده منطقة جازان من إقبال كبير للاستمتاع بأجوائها الشتوية الدافئة، وما تتميز به من تنوع طبيعي يجمع بين الواجهات البحرية والحدائق والمتنزهات والمرتفعات الجبلية.\n    // انتهى //\r\n14:49 ت مـ \r\n0116",
-            "og_image": "https://portalcdn.spa.gov.sa/backend/original/202611/F11237351.jpg",
+            "title": "«الأرصاد»: رجال ألمع تسجل أعلى كمية أمطار في المملكة بـ 24.2 ملم خلال 24 ساعة",
+            "url": "https://sabq.org/article/0doc2gc",
+            "source": "صحيفة سبق الإلكترونية",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZ4YXfPk-sTTRyxK4P3IHSxx8LocLjuWB6pip5gflyKAmkD1UQlUm0Yf6X6sg",
+            "og_title": "«الأرصاد»: رجال ألمع تسجل أعلى كمية أمطار في المملكة بـ 24.2 ملم خلال 24 ساعة | سبق",
+            "og_desc": "سجلت محافظة رجال ألمع أعلى كمية أمطار في المملكة بواقع 24.2 ملم خلال 24 ساعة، بحسب المركز الوطني للأرصاد، مع تفاصيل الهطول في عسير وجازان.",
+            "og_image": "https://media.sabq.org/news/2026/11/1541cfc0-5cc9-4853-9795-3076d947988d/w678.webp",
             "ok": true
           },
           {
@@ -1202,13 +1306,13 @@
             "ok": true
           },
           {
-            "title": "«الأرصاد»: رجال ألمع تسجل أعلى كمية أمطار في المملكة بـ 24.2 ملم خلال 24 ساعة",
-            "url": "https://sabq.org/article/0doc2gc",
-            "source": "صحيفة سبق الإلكترونية",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZ4YXfPk-sTTRyxK4P3IHSxx8LocLjuWB6pip5gflyKAmkD1UQlUm0Yf6X6sg",
-            "og_title": "«الأرصاد»: رجال ألمع تسجل أعلى كمية أمطار في المملكة بـ 24.2 ملم خلال 24 ساعة | سبق",
-            "og_desc": "سجلت محافظة رجال ألمع أعلى كمية أمطار في المملكة بواقع 24.2 ملم خلال 24 ساعة، بحسب المركز الوطني للأرصاد، مع تفاصيل الهطول في عسير وجازان.",
-            "og_image": "https://media.sabq.org/news/2026/11/1541cfc0-5cc9-4853-9795-3076d947988d/w678.webp",
+            "title": "عام / أمير جازان يرأس اجتماعًا لمتابعة استعدادات الجهات المعنية للحالة المطرية بالمنطقة",
+            "url": "https://www.spa.gov.sa/N2726992",
+            "source": "وكالة الأنباء السعودية",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYiAwaNoYaDjO0ZcmCUWTx4CfGM1AAWMayFerJTBlQB11F36qQYqYoraT7uvM",
+            "og_title": "عام / أمير جازان يرأس اجتماعًا لمتابعة استعدادات الجهات المعنية للحالة المطرية بالمنطقة",
+            "og_desc": "جيزان 05 جمادى الآخرة 1448 هـ الموافق  15 نوفمبر 2026 م واس\n    رأس صاحب السمو الملكي الأمير محمد بن عبدالعزيز بن محمد بن عبدالعزيز، أمير منطقة جازان، اليوم، بحضور صاحب السمو الأمير ناصر بن محمد بن عبدالله بن جلوي، نائب أمير المنطقة، اجتماعًا مع عدد من الجهات الحكومية والأمنية والخدمية بالمنطقة، للوقوف على جاهزيتها واستعداداتها للتعامل مع الحالة المطرية التي تشهدها المنطقة، ومتابعة الإجراءات والتدابير الوقائية المتخذة.\n    واطّلع سموه، خلال الاجتماع، على الخطط المقترحة والآليات المعتمدة لمتابعة تطورات الحالة المطرية، والجاهزية للجهات ذات العلاقة، والإجراءات الاستباقية الواجب اتخاذها فور ورود التوقعات والتنبيهات الجوية من المركز الوطني للأرصاد، بما يضمن سرعة الاستجابة والتعامل الفاعل، والمحافظة على الأرواح والممتلكات.\n    وأكد سمو أمير منطقة جازان، أهمية مضاعفة الجهود وتعزيز التكامل والتنسيق المستمر بين جميع الجهات، ورفع مستوى الجاهزية، وتسخير الإمكانات البشرية والآلية، وسرعة معالجة الملاحظات، واتخاذ التدابير اللازمة في المواقع التي قد تتأثر بهطول الأمطار وجريان السيول، مشددًا في الوقت ذاته على أهمية العمل الاستباقي.\n    ووجّه سمو الأمير محمد بن عبدالعزيز، بمواصلة تهيئة المواقع السياحية والمرافق العامة ورفع مستوى الخدمات المقدمة للزوار والمتنزهين، لا سيما في ظل ما تشهده منطقة جازان من إقبال كبير للاستمتاع بأجوائها الشتوية الدافئة، وما تتميز به من تنوع طبيعي يجمع بين الواجهات البحرية والحدائق والمتنزهات والمرتفعات الجبلية.\n    // انتهى //\r\n14:49 ت مـ \r\n0116",
+            "og_image": "https://portalcdn.spa.gov.sa/backend/original/202611/F11237351.jpg",
             "ok": true
           }
         ],
@@ -1246,17 +1350,6 @@
             "og_desc": "",
             "og_image": "",
             "ok": false
-          },
-          {
-            "title": "Warriors Injuries: Curry, Butler, Porzingis and Moody All Out",
-            "url": "https://www.squawka.com/ca/news/nba/warriors-injuries-curry-butler-porzingis-moody/",
-            "source": "Squawka",
-            "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ5kUlaSXbnlqNjqZSIDBFDcrZ0FTaFkPVxj7R11g3ig4wawBy15TMkV6lM0hg",
-            "og_title": "",
-            "og_desc": "",
-            "og_image": "",
-            "ok": false,
-            "error": "HTTPError"
           }
         ],
         "category": "رياضة",
@@ -1332,6 +1425,16 @@
             "ok": true
           },
           {
+            "title": "تحويلات مشبوهة إلى 3 دول.. أين ذهبت أموال جماعة مرتبطة بالحرس الثوري في البحرين؟",
+            "url": "https://sabq.org/article/6nmhmxv",
+            "source": "صحيفة سبق الإلكترونية",
+            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcREKvLfkLhh8Z14vrKBE_YiFZMpaiMPtlos8_nGDPyZbtB2bg6S1T13dh_ex7Y",
+            "og_title": "تحويلات مشبوهة إلى 3 دول.. أين ذهبت أموال جماعة مرتبطة بالحرس الثوري في البحرين؟ | سبق",
+            "og_desc": "كشفت التحقيقات البحرينية تفاصيل التصرف في الأموال المجمعة لصالح جماعة مرتبطة بالحرس الثوري الإيراني، والأحكام الصادرة بحق المتهمين.",
+            "og_image": "https://media.sabq.org/news/2026/11/a6c9b5d7-ad43-4dbb-804f-35958f5b6356/w1199.webp",
+            "ok": true
+          },
+          {
             "title": "الرابعة | أحكام بالسجن في البحرين بحق خلية \"إيرانية\" وشبكة حوثية لتهريب المكالمات الدولية",
             "url": "https://www.alarabiya.net/1300GMT/2026/11/16/%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-%D8%A7%D8%AD%D9%83%D8%A7%D9%85-%D8%A8%D8%A7%D9%84%D8%B3%D8%AC%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86-%D8%A8%D8%AD%D9%82-%D8%AE%D9%84%D9%8A%D8%A9-%D8%A7%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9-%D9%88%D8%B4%D8%A8%D9%83%D8%A9-%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D9%84%D8%AA%D9%87%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D9%85%D9%83%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9",
             "source": "العربية",
@@ -1341,16 +1444,6 @@
             "og_image": "",
             "ok": false,
             "error": "HTTPError"
-          },
-          {
-            "title": "بينهم الشيخ عيسى قاسم.. القضاء البحريني يحكم بالمؤبد على 64 شخصا بتهمة الارتباط بالحرس الثوري الإيراني",
-            "url": "https://arabic.euronews.com/2026/11/16/bahrain-sentences-64-including-clerics-to-life-over-alleged-iran-ties",
-            "source": "Euronews",
-            "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTg3JPvHt-lbN6tK3ujrS_P4o1CZhFThIGzi3P-C0XTdAYF9cVP6EXebjcrwA",
-            "og_title": "بينهم الشيخ عيسى قاسم.. القضاء البحريني يحكم بالمؤبد على 64 شخصا بتهمة الارتباط بالحرس الثوري الإيراني",
-            "og_desc": "كانت وزارة الداخلية البحرينية قد أعلنت، في مايو/أيار الماضي، توقيف 41 شخصًا اتهمتهم بالانتماء إلى تنظيم مرتبط بالحرس الثوري الإيراني، قبل أن توقف 15 آخرين في يونيو/حزيران.",
-            "og_image": "https://images.euronews.com/articles/stories/09/99/40/85/1200x675_cmsv2_cda8aaf5-9319-5826-890e-fa0e0996d1b7-9994085.jpg",
-            "ok": true
           }
         ],
         "category": "حوادث وقضايا",
@@ -1436,23 +1529,13 @@
             "error": "HTTPError"
           },
           {
-            "title": "Joel Embiid (foot) off injury report Monday",
-            "url": "https://www.fantasypros.com/nba/news/620625/joel-embiid-foot-off-injury-report-monday.php",
-            "source": "FantasyPros",
-            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnES_jwwiS352Qamv6TicLfPALSmx36MmJxljbkPGaCTbFV2x9dNH9iiilqFE",
-            "og_title": "Joel Embiid (foot) off injury report Monday",
-            "og_desc": "Embiid will take the floor after previously carrying a questionable designation earlier Monday, boosting a Philadelphia starting five they will rest LeBron James in the second leg of the back-to-back Monday night.",
-            "og_image": "https://cdn.fantasypros.com/wp-content/images/joel_embiid_76ers/1470x650.jpg",
-            "ok": true
-          },
-          {
-            "title": "Tyrese Maxey, 76ers Hit The ROAD For Two; Get Joel Embiid BACK vs Nets | PHLY Sixers Pregame",
-            "url": "https://bvmsports.com/2026/11/16/tyrese-maxey-76ers-hit-the-road-for-two-get-joel-embiid-back-vs-nets-phly-sixers-pregame/",
-            "source": "BVM Sports",
-            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQIfQNTD2gDYgzvXpZrC7Kv9p8uI0_vEiCkPyvUHKv-SSALhLqsuqf2GlSPtN8",
-            "og_title": "Tyrese Maxey, 76ers Hit The ROAD For Two; Get Joel Embiid BACK vs Nets | PHLY Sixers Pregame",
-            "og_desc": "Philadelphia gets Joel Embiid back for its road matchup with Brooklyn, but faces a back-to-back and will be without LeBron James. The pregame question: Can the",
-            "og_image": "https://i1.ytimg.com/vi/ThC4lwFQr7E/hqdefault.jpg",
+            "title": "76ers Nets Basketball",
+            "url": "https://www.corsicanadailysun.com/sports/national_sports/76ers-nets-basketball/image_6adf40e2-0449-525b-bbf5-749537c201a2.html",
+            "source": "Corsicana Daily Sun",
+            "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQw9_ERwP9BLkc2K2QSgabk0kYEh1PyPC6SVobZk65DNR3JGOQyrsVLpekR-tg",
+            "og_title": "76ers Nets Basketball",
+            "og_desc": "Philadelphia 76ers guard Jaylen Brown (7) fights for control of the ball with Brooklyn Nets forward Julius Randle (30) during the first half of an NBA basketball game, Monday, Nov.",
+            "og_image": "https://bloximages.chicago2.vip.townnews.com/corsicanadailysun.com/content/tncms/assets/v3/editorial/6/ad/6adf40e2-0449-525b-bbf5-749537c201a2/6afbd02498db0.image.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
             "ok": true
           }
         ],
@@ -1496,10 +1579,11 @@
             "url": "https://www.nytimes.com/athletic/7776476/2026/11/13/nba-cup-standings-cavs-heat-spurs-warriors/",
             "source": "The New York Times",
             "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTrDvgjQbPgIZe38rquREVVm1239QKlC65-AivsUI4hwHWfVzhxP4TBfsCM5h8",
-            "og_title": "What’s at stake in Friday’s NBA Cup slate with Warriors-Spurs, Cavs-Heat and other games?",
-            "og_desc": "We don't need to be glued to the standings yet, but some games have clear implications for their groups.",
-            "og_image": "https://static01.nyt.com/athletic/uploads/wp/2026/11/12124341/GettyImages-2244401102-scaled.jpg?width=1200&height=630&fit=crop",
-            "ok": true
+            "og_title": "",
+            "og_desc": "",
+            "og_image": "",
+            "ok": false,
+            "error": "HTTPError"
           }
         ],
         "category": "رياضة",

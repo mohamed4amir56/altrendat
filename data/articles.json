@@ -114843,5 +114843,48 @@
     "photo_v": 8,
     "_had_data": false,
     "_localized": false
+  },
+  "world|2026-11-17|apple outage": {
+    "headline": "Apple Services Plunge Worldwide As Thousands Report Outages With Payments And Cloud",
+    "summary": "Widespread technical failures halted Apple Pay, iCloud, and App Store access for users across the globe starting Tuesday afternoon.",
+    "body": "Within minutes of the initial failure, reports on the tracking site Downdetector spiked to 2,000 as users discovered they were locked out of their accounts. The disruption began around 12:45 pm ET, preventing customers from activating new devices, completing banking transactions via Apple Pay, or accessing essential cloud storage and support features. While many users reported seeing error messages during identity verification, others noted being unable to log into Apple Business Manager, effectively stalling professional and personal tasks simultaneously.\n\nThis outage is significant for millions of users who rely on the integrated ecosystem for everything from device activation to daily financial transactions. When central authentication services like iCloud fail, the impact ripples through hardware and software alike, rendering even high-end devices difficult to manage or initialize. The sudden loss of service serves as a reminder of the fragility of cloud-dependent technology, leaving businesses and individuals scrambling for alternatives while basic diagnostic tools remained largely unresponsive.\n\nAccording to the New York Post, the trouble extended beyond the US, with confirmed complaints from users in Brazil, Greece, and Latvia. Tom's Guide reported that while the official Apple system status page initially remained mostly green, it eventually acknowledged issues with iCloud account sign-ins, Apple Music, and the App Store. The developer status page also indicated deeper problems affecting specific APIs for music and podcast services. \n\nAs of late Tuesday, while some reports indicated that issues with Apple Pay and Apple Card were beginning to subside, several core services remained listed as suffering from outages on official status pages. Apple has not yet provided a specific timetable for restoring full functionality or identified the root cause of the technical failure, leaving users to monitor status dashboards for further updates.",
+    "facts": [
+      {
+        "label": "Outage Start Time",
+        "value": "12:45 pm ET"
+      },
+      {
+        "label": "Affected Services",
+        "value": "iCloud, Apple Pay, App Store, Apple Music, Apple Support"
+      },
+      {
+        "label": "Reported Locations",
+        "value": "United States, Brazil, Greece, Latvia"
+      }
+    ],
+    "tags": [
+      "Apple",
+      "iCloud",
+      "Apple Pay",
+      "Technology",
+      "Outage"
+    ],
+    "_v": 4,
+    "_by": "gemini",
+    "written_at": "2026-11-17T18:31:51.251115+00:00",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Vecteezy_stack-of-newspaper_1961329.jpg/1280px-Vecteezy_stack-of-newspaper_1961329.jpg",
+      "width": 1280,
+      "height": 853,
+      "artist": "Bernerlover",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "file_page": "https://commons.wikimedia.org/wiki/File:Vecteezy_stack-of-newspaper_1961329.jpg",
+      "stock": true,
+      "topic": null
+    },
+    "photo_v": 8,
+    "_had_data": false,
+    "_localized": false
   }
 }

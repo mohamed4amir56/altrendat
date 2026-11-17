@@ -1367,15 +1367,11 @@
         "date": "2026-11-17",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "+50200",
-        "traffic_num": 50200,
+        "traffic": "50000+",
+        "traffic_num": 50000,
         "category": "رياضة",
-        "publishable": true,
-        "headlines": [
-          "بث مباشر لمباراة مصر ضد مالاوي في تصفيات كأس أمم أفريقيا",
-          "الجماهير المصرية تزين استاد بينجو قبل انطلاق مباراة مصر ومالاوي.. صور",
-          "بدلاء منتخب مصر في مباراة مالاوي"
-        ]
+        "publishable": false,
+        "headlines": []
       }
     ],
     "last_seen": "2026-11-17",
@@ -1384,7 +1380,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 50200,
+    "peak_traffic": 50000,
     "category": "رياضة"
   },
   "سعر-الصرف": {
@@ -15465,12 +15461,12 @@
         "country_name": "مصر",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "عام",
+        "category": "رياضة",
         "publishable": false,
         "headlines": [
           "'Generational opportunity' to create sports hub",
-          "PGA Tour Boards approve Future Competition Committee's final set of recommendations",
-          "PGA Tour confirm 'no plans' for returning route for LIV Golf players as Tiger Woods backs big changes to tour's structure"
+          "Rassie Erasmus: World Rugby could review South Africa head coach's extraordinary comments about double standards from officials",
+          "'Is that not match-fixing?' - Erasmus questions officiating"
         ]
       }
     ],
@@ -15482,7 +15478,7 @@
       "world"
     ],
     "peak_traffic": 10000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "صلاة-الجمعة": {
     "slug": "صلاة-الجمعة",
@@ -19828,10 +19824,25 @@
           "مباريات اليوم والقنوات الناقلة - مصر أمام مالاوي وأمم أوروبا.. ومنتخب الناشئين ضد المغرب",
           "مواعيد مباريات اليوم الجمعة 13 11 2026"
         ]
+      },
+      {
+        "key": "2026-11-17|eg",
+        "date": "2026-11-17",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "تصفح ومواقع",
+        "publishable": false,
+        "headlines": [
+          "الإسماعيلي يكشف.. حقيقة زيادة نسبة المستثمر في شركة الكرة إلى 60%",
+          "«دونجا» يبشّر جماهير الإسماعيلي بمشروع استثماري ضخم",
+          "8 ملايين جنيه تفصل الإسماعيلي عن إنهاء أزمة إيقاف القيد"
+        ]
       }
     ],
-    "last_seen": "2026-11-13",
-    "total": 7,
+    "last_seen": "2026-11-17",
+    "total": 8,
     "countries": [
       "eg",
       "sa"
@@ -22246,8 +22257,8 @@
         "publishable": false,
         "headlines": [
           "قيمة لاعب أوزبكي واحد تفوق لاعبي السعودية مجتمعين",
-          "اليوم.. «الأخضر» يواجه أوزباكستان وديًا في قطر",
-          "الأخضر السعودي يلتقي أوزبكستان بمعنويات الفوز عل كوريا"
+          "الأخضر السعودي يلتقي أوزبكستان بمعنويات الفوز عل كوريا",
+          "اليوم.. «الأخضر» يواجه أوزباكستان وديًا في قطر"
         ]
       }
     ],
@@ -65405,10 +65416,25 @@
           "من خارج مصر.. أول عرض لحسام حسن بعد رحيله عن تدريب الفراعنة",
           "حقيقة سفر حسام حسن إلى الجزائر والاقتراب من محاربي الصحراء"
         ]
+      },
+      {
+        "key": "2026-11-17|eg",
+        "date": "2026-11-17",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "تصفح ومواقع",
+        "publishable": false,
+        "headlines": [
+          "مجموعة مصر.. جنوب السودان (0-1) أنجولا.. شوط أول لصالح الضيوف",
+          "شيكو بانزا يقود هجوم أنجولا أمام جنوب السودان",
+          "جدول ترتيب مجموعة مصر في تصفيات أمم أفريقيا 2027 بعد تقدم أنجولا على جنوب السودان"
+        ]
       }
     ],
-    "last_seen": "2026-11-13",
-    "total": 8,
+    "last_seen": "2026-11-17",
+    "total": 9,
     "countries": [
       "eg",
       "sa"
@@ -127665,19 +127691,34 @@
         "date": "2026-11-17",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "India vs Pakistan LIVE: SAFF Championship final",
+          "India vs Bhutan Ends In A Thrilling Win For The Blue Tigers In SAFF Semi-Finals",
+          "India vs. Pakistan prediction, lineups, odds and betting tips for SAFF Championship final"
+        ]
+      },
+      {
+        "key": "2026-11-17|world",
+        "date": "2026-11-17",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "India vs Bhutan Ends In A Thrilling Win For The Blue Tigers In SAFF Semi-Finals",
-          "SAFF: India's title defence faces unusually tough test against Pakistan",
-          "India vs Pakistan football, SAFF Championship 2026 final: Know IND vs PAK match time and where to watch live"
+          "India vs Pakistan LIVE: SAFF Championship final",
+          "Satwik-Chirag in action at Hong Kong Open; India vs Pakistan in SAFF Championship final: Indian Sports LIVE, November 17",
+          "We know how to hurt India, says Pakistan coach Solano ahead of SAFF Championship final"
         ]
       }
     ],
     "last_seen": "2026-11-17",
-    "total": 3,
+    "total": 4,
     "countries": [
       "sa",
       "world"
@@ -261710,9 +261751,9 @@
         "category": "تصفح ومواقع",
         "publishable": false,
         "headlines": [
-          "بوتشيتينو يوجه نصيحة إلى جوارديولا بشأن خلافته في أمريكا",
-          "بوكيتينو يدعو غوارديولا إلى تولي تدريب هذا المنتخب | CNN Arabic | CNN",
-          "جوارديولا الهدف الأبرز ولكن .. أمريكا تستهدف السير ساوثجيت لخلافة بوتشيتينو"
+          "تحت يد أربيلوا.. مدافع فولهام مرشح فوق العادة لارتداء قميص برشلونة",
+          "نيوكاسل يصدم مانشستر يونايتد قبل انتقالات يناير",
+          "صفقة دفاعية على رادار مانشستر يونايتد"
         ]
       }
     ],
@@ -330494,15 +330535,30 @@
           "Rafael Jódar joins the top-10 club and is now the 21st Spaniard to achieve it",
           "Carlos Alcaraz names the player who has surprised him most this season, ‘it’s unbelievable’"
         ]
+      },
+      {
+        "key": "2026-11-17|world",
+        "date": "2026-11-17",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Arthur Fils - Rafa Jódar en directo | Última hora de las ATP Finals, en vivo",
+          "Jódar busca seguir con opciones en Turín; Zverev y Shelton juegan por el liderato",
+          "Arthur Fils-Rafa Jódar en directo, el partido de las ATP Finals en vivo"
+        ]
       }
     ],
-    "last_seen": "2026-11-03",
-    "total": 3,
+    "last_seen": "2026-11-17",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 200,
-    "category": "رياضة"
+    "category": "عام"
   },
   "bob-mackie": {
     "slug": "bob-mackie",
@@ -428169,14 +428225,29 @@
           "‘The Hunting Wives’ Are Playing With Fire in Spicy Season 2 Trailer",
           "The Hunting Wives ﻿Season 2 Trailer: 'Old Secrets And New Foes' Pull Sophie And Margo Back Together"
         ]
+      },
+      {
+        "key": "2026-11-17|world",
+        "date": "2026-11-17",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+1000",
+        "traffic_num": 1000,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "Simon G Jewels Worn By McKenna Grace and Brittany Snow at Recent Profile Events",
+          "Malin Akerman blows a kiss on the 'Hunting Wives' Season 2 red carpet and more star snaps",
+          "Brittany Snow’s Disco Dress Brought a Healthy Dose of Sparkle to ‘The Hunting Wives’ Season Two Premiere"
+        ]
       }
     ],
-    "last_seen": "2026-10-20",
-    "total": 1,
+    "last_seen": "2026-11-17",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 1000,
     "category": "طقس"
   },
   "man-city-vs-aek-athens-fc-standings": {
@@ -489055,8 +489126,8 @@
         "date": "2026-11-17",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -522231,15 +522302,30 @@
           "Égypte : le coût de l’attente pour les médias numériques",
           "Égypte : toute une rédaction emprisonnée, l’ONU dénonce la répression de la presse"
         ]
+      },
+      {
+        "key": "2026-11-17|eg",
+        "date": "2026-11-17",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "‘I’m not ready to go to jail’: co-founder of Egypt’s last independent media outlet faces prison",
+          "Egyptian court postpones retrial of independent news site's editor",
+          "Egyptian journalist's retrial adjourned as UN warns of 'assaults on press freedom'"
+        ]
       }
     ],
-    "last_seen": "2026-11-12",
-    "total": 3,
+    "last_seen": "2026-11-17",
+    "total": 4,
     "countries": [
       "eg"
     ],
     "peak_traffic": 200,
-    "category": "عام"
+    "category": "حوادث وقضايا"
   },
   "vaishnavi-sharma": {
     "slug": "vaishnavi-sharma",
@@ -716814,14 +716900,29 @@
           "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
           "Anthropic promises to pursue humanity’s benefit. Its IPO filing gives it wiggle room"
         ]
+      },
+      {
+        "key": "2026-11-17|world",
+        "date": "2026-11-17",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "تقنية",
+        "publishable": false,
+        "headlines": [
+          "The Investors Set to Win Big in Anthropic’s IPO",
+          "Anthropic Is Said to Guide IPO Price to Top of Range or Above",
+          "Anthropic’s giant IPO puts the heat on OpenAI"
+        ]
       }
     ],
-    "last_seen": "2026-11-16",
-    "total": 1,
+    "last_seen": "2026-11-17",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 1000,
     "category": "تقنية"
   },
   "sec-football-standings-title-contenders": {
@@ -726331,8 +726432,8 @@
         "date": "2026-11-17",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
@@ -726347,7 +726448,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "دول وأماكن"
   },
   "jeremy-barnum": {
@@ -726424,7 +726525,7 @@
         "publishable": false,
         "headlines": [
           "قرار نهائي.. حمزة عبد الكريم \"لاعب لا يُمسّ\" في برشلونة",
-          "برشلونة يؤمن مستقبل حمزة عبد الكريم ويخطط لإعارته فى الصيف",
+          "«خط أحمر».. ماركا تكشف تطورات جديدة عن مستقبل حمزة عبد الكريم",
           "برشلونة يغلق الباب أمام رحيل حمزة عبد الكريم في يناير"
         ]
       }
@@ -726452,9 +726553,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Nigeria captain Wilfred Ndidi thrilled by Super Eagles' emerging talents",
-          "‘Put All the Pressure on Me, I Don’t Care!’ — Eric Chelle Defends Super Eagles Selection, Sends Strong Warning to Players Ahead of Tanzania Return Leg",
-          "Super Eagle AFCON chase continues"
+          "'I take responsibility': Nigeria's Chelle stands firm on tactics ahead of Tanzania clash",
+          "AFCON Qualifiers: Shaibu urges Eagles to maintain winning momentum",
+          "“Scoring Is My Job, But Winning Is What Matters” – Arokodare’s Message Ahead of Tanzania Clash"
         ]
       }
     ],
@@ -726465,5 +726566,121 @@
     ],
     "peak_traffic": 100,
     "category": "رياضة"
+  },
+  "abigail-spanberger": {
+    "slug": "abigail-spanberger",
+    "name": "abigail spanberger",
+    "first_seen": "2026-11-17",
+    "appearances": [
+      {
+        "key": "2026-11-17|world",
+        "date": "2026-11-17",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تعليم",
+        "publishable": false,
+        "headlines": [
+          "Spanberger reverses Virginia plan to participate in Trump’s school vouchers",
+          "Erika Donalds slams Virginia Dem governor for reversing school voucher plan",
+          "Gov. Spanberger reverses Youngkin's decision to opt Virginia into federal education tax credit"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-17",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "تعليم"
+  },
+  "juez-federal-de-los-estados-unidos": {
+    "slug": "juez-federal-de-los-estados-unidos",
+    "name": "juez federal de los estados unidos",
+    "first_seen": "2026-11-17",
+    "appearances": [
+      {
+        "key": "2026-11-17|world",
+        "date": "2026-11-17",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Juez federal anula norma que limitaba la estadía de estudiantes e investigadores extranjeros",
+          "Juez de EE. UU. tumba polémica medida de Donald Trump que restringía visas de estudiantes y periodistas: estas eran las condiciones",
+          "Anulan límites de Trump a prensa y estudiantes extranjeros"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-17",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "mcdonalds-home-alone-meal": {
+    "slug": "mcdonalds-home-alone-meal",
+    "name": "mcdonalds home alone meal",
+    "first_seen": "2026-11-17",
+    "appearances": [
+      {
+        "key": "2026-11-17|world",
+        "date": "2026-11-17",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "McDonald’s Is Releasing an All-New Holiday Meal for a Limited Time",
+          "Macaulay Culkin Reprises His Role as Kevin for the Launch of McDonald’s Home Alone Meal",
+          "McDonald's 'Home Alone Meal' includes collectible socks, special menu items"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-17",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "زهران-ممداني": {
+    "slug": "زهران-ممداني",
+    "name": "زهران ممداني",
+    "first_seen": "2026-11-17",
+    "appearances": [
+      {
+        "key": "2026-11-17|sa",
+        "date": "2026-11-17",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "ممداني يحلّ وحدة أمنية مثيرة للجدل في نيويورك",
+          "ممداني يحل وحدة لمكافحة الإرهاب والتعامل مع الاحتجاجات في نيويورك.. ما البديل؟",
+          "بلا أسلحة أو صلاحيات اعتقال.. خطة جديدة لإعادة هيكلة وحدة شرطة نيويورك"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-17",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "حوادث وقضايا"
   }
 }

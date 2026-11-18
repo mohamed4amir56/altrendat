@@ -10019,10 +10019,10 @@
         "date": "2026-11-18",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "سياسة",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "الحكومة تنشئ منظومة وطنية للبيانات.. 6 منصات لمتابعة أداء الدولة",
           "منظومة وطنية للبيانات بالذكاء الاصطناعي.. 5 قرارات جديدة لمجلس الوزراء المصري",
@@ -10036,7 +10036,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 10000,
     "category": "سياسة"
   },
   "مدحت-شلبي": {
@@ -95429,11 +95429,11 @@
         "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "سياسة",
+        "category": "عام",
         "publishable": false,
         "headlines": [
-          "Carlos Alcaraz - Daniil Medvedev, en directo | el español se impone en dos sets (6-2 y 6-4) con un vendaje en el muslo izquierdo",
-          "Noticias Deportes 16:00 (18/11/26)",
+          "Alcaraz, más y mejor contra Medvedev... con susto incluido en la pierna",
+          "Medvedev: \"No es fácil jugar contra Carlos (Alcaraz) cuando está lleno de confianza\"",
           "Alcaraz puede quedar clasificado a semifinales de las ATP Finals 2026 esta misma noche"
         ]
       }
@@ -95445,7 +95445,7 @@
       "world"
     ],
     "peak_traffic": 5500,
-    "category": "سياسة"
+    "category": "عام"
   },
   "daycares": {
     "slug": "daycares",
@@ -136344,7 +136344,7 @@
         "headlines": [
           "قرقاش يعلق بعد هجوم الرئيس الصومالي على الإمارات: يعكس تقلبات مواقفه",
           "رئيس الصومال: لم نعد دولة ضعيفة وسندافع عن أرضنا إزاء التدخلات",
-          "السعودية تعيد المواجهات مع الإمارات لباب المندب"
+          "الصومال يتهم الإمارات بتقويض سيادته ويتوعد بإجراءات وأبوظبي تأسف (تقرير إخباري)"
         ]
       }
     ],
@@ -217742,14 +217742,14 @@
         "date": "2026-11-18",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "مقطع نادر.. محمد إمام عن والده الزعيم: يرفض أن أدرس المسرح.. وأخاف من نظراته",
-          "استعداداً لعرضها.. محمد إمام يشوق جمهوره لـ«برنس العالم»",
-          "فيديوجراف خبر أبيض: محمد إمام يفتح 3 جبهات فنية في وقت واحد"
+          "ياسمين رئيس تستكمل تصوير «شمس الزناتي» مع محمد إمام في أبوظبي",
+          "أحمد ماجد يتحدث عن مشاركته في «شمس الزناتي 2» ورمضان 2027.. خاص"
         ]
       }
     ],
@@ -217758,7 +217758,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "سعر-الذهب-اليوم-عيار-21": {
@@ -322623,11 +322623,27 @@
           "The Hartford Closes Acquisition Of Equitable’s Employee Benefits Business",
           "Hartford completes acquisition of Equitable’s employee benefits unit By Investing.com"
         ]
+      },
+      {
+        "key": "2026-11-18|sa",
+        "date": "2026-11-18",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "PG&E lays off 15 employees in Sacramento County as over 200 jobs are cut statewide",
+          "PG&E to lay off over 200 employees, including in the Sacramento area",
+          "PG&E layoffs part of cost effective restructuring effort, utility says"
+        ]
       }
     ],
-    "last_seen": "2026-10-13",
-    "total": 1,
+    "last_seen": "2026-11-18",
+    "total": 2,
     "countries": [
+      "sa",
       "world"
     ],
     "peak_traffic": 200,
@@ -332279,7 +332295,7 @@
         "headlines": [
           "Anne Hathaway Welcomes New Baby, Spotted With Newborn in NYC",
           "The most beautiful actress in the world at the age of 44 gave birth to her third child",
-          "Anne Hathaway Welcomes 3rd Child At 44: Does Advanced Maternal Age Affect Pregnancy?"
+          "Anne Hathaway’s new baby’s sex accidentally revealed by ‘Devil Wears Prada 2’ costume designer"
         ]
       }
     ],
@@ -571897,15 +571913,30 @@
           "The best NYC running routes and gear to go the distance, per real runners",
           "The NYC Marathon Is Getting a Star-studded Lineup This Year—With 60 Famous Faces Taking on the 26.2-mile Course"
         ]
+      },
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Father of Rachel Apa, NYC Marathon runner who died, calls her death \"unfathomable\"",
+          "Dad of N.Y.C. Marathon Runner Who Died at 24 Recalls Her Heartbreaking Final Texts",
+          "Rare Condition That Killed New York Marathoner Threatened Life Of Montana Teen"
+        ]
       }
     ],
-    "last_seen": "2026-11-01",
-    "total": 1,
+    "last_seen": "2026-11-18",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
-    "category": "دول وأماكن"
+    "peak_traffic": 1000,
+    "category": "حوادث وقضايا"
   },
   "moeen-ali": {
     "slug": "moeen-ali",
@@ -613024,8 +613055,8 @@
         "publishable": false,
         "headlines": [
           "العراق يحكم بالسجن المؤبد على ستة فرنسيين مدانين بالانتماء إلى تنظيم الدولة الإسلامية",
-          "من سوريا إلى سجون العراق.. أحكام بالمؤبد تطال 6 فرنسيين بتهمة الانتماء إلى \"داعش\"",
-          "العراق.. السجن المؤبد لـ6 فرنسيين بتهمة الانتماء إلى تنظيم داعش"
+          "العراق.. السجن المؤبد لـ6 فرنسيين بعد إدانتهم بالانتماء إلى \"داعش\"",
+          "من سوريا إلى سجون العراق.. أحكام بالمؤبد تطال 6 فرنسيين بتهمة الانتماء إلى \"داعش\""
         ]
       }
     ],
@@ -668736,14 +668767,29 @@
           "MLB rumors: Mets to meet with Tarik Skubal, Braves' Ronald Acuña Jr. plan, plus Blue Jays, Cubs, Red Sox, more",
           "Mets Meeting With Tarik Skubal"
         ]
+      },
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Sources: Mets favorite to sign Tarik Skubal as teams ramp up pursuit of FA ace",
+          "MLB rumors: Tarik Skubal hosts more meetings, Padres eyeing top FA hitter, plus Red Sox, Phillies, Rays, more",
+          "Tarik Skubal’s bidding war reportedly down to 2 teams"
+        ]
       }
     ],
-    "last_seen": "2026-11-10",
-    "total": 1,
+    "last_seen": "2026-11-18",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "رياضة"
   },
   "xavier-smith": {
@@ -683872,7 +683918,7 @@
         "headlines": [
           "بنك الخرطوم يعلن اتاحة خدمة تحديث البيانات أونلاين",
           "بنك الخرطوم يتيح تحديث بيانات الحسابات إلكترونياً دون زيارة الفروع",
-          "بنك الخرطوم يعلن رابط تحديث بيانات الحسابات المصرفية أونلاين من المنزل ويحذر"
+          "فتح حساب بنك الخرطوم أونلاين باستخدام الرقم الوطني أو جواز السفر"
         ]
       }
     ],
@@ -740134,13 +740180,13 @@
         "date": "2026-11-18",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
           "فيديو موقف لحظة مد نتنياهو يده لمصافحة رئيس وزراء التشيك يلاقي رواجا.. ما حقيقة ما حصل؟",
-          "حقيقة فيديو رفض رئيس وزراء التشيك مصافحة نتنياهو",
+          "هذا الفيديو مجتزأ ورئيس الوزراء التشيكي صافح نتانياهو خلال لقائهما في القدس",
           "هرتسوغ يعلنها: «نحن ندافع عن أوروبا ونحميها»"
         ]
       }
@@ -740963,14 +741009,14 @@
         "date": "2026-11-18",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
-          "Sources: Royals trade Maikel Garcia to Mariners for Bryce Miller",
+          "KC trading All-Star 3B Garcia to Seattle for RHP Miller in 6-player swap (source)",
           "Maikel Garcia trade: Mariners land Gold Glove infielder from Royals in six-player deal, per report",
-          "Mariners To Acquire Maikel Garcia"
+          "Mariners acquire Maikel Garcia from Royals, send Bryce Miller to Kansas City: Sources"
         ]
       }
     ],
@@ -740979,7 +741025,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 20000,
     "category": "اقتصاد"
   },
   "jeffries": {
@@ -740992,13 +741038,13 @@
         "date": "2026-11-18",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "عام",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
-          "Democrats Nominate Jeffries as Speaker, Making History",
-          "Hakeem Jeffries wins House speaker nomination despite far-left threats",
+          "Democrats Nominate Hakeem Jeffries for Speaker of the House, Making History",
+          "Hakeem Jeffries overwhelmingly wins House speaker nomination despite threats from ultra-progressives",
           "Hakeem Jeffries re-elected to lead US House Democrats"
         ]
       }
@@ -741008,7 +741054,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 500,
     "category": "عام"
   },
   "rassie-erasmus-world-rugby-ban": {
@@ -741068,5 +741114,237 @@
     ],
     "peak_traffic": 2000,
     "category": "دول وأماكن"
+  },
+  "bae-systems": {
+    "slug": "bae-systems",
+    "name": "bae systems",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "BAE Systems to cut more than 1,000 jobs, company says",
+          "BAE Systems staff informed of 1,000 job losses at Warton and Samlesbury bases at 4pm",
+          "Unite Response: BAE Air Division announce nearly 1000 job losses"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "عام"
+  },
+  "lotto-result-nov-18-2026": {
+    "slug": "lotto-result-nov-18-2026",
+    "name": "lotto result nov 18 2026",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": true,
+        "headlines": [
+          "PCSO lotto results Nov. 18: ₱381.71M jackpot not won",
+          "PCSO Lotto Results: No winners of P549-M Ultra Lotto jackpot on Tuesday, November 17",
+          "PCSO Lotto Results | November 18, 2026"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 10000,
+    "category": "عام"
+  },
+  "kevin-feige": {
+    "slug": "kevin-feige",
+    "name": "kevin feige",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Marvel Studios boss says Doom was already going to replace Kang after ‘Quantumania’ flop",
+          "Kevin Feige Reveals Marvel Planned To Use Kang As A Set-Up For Doctor Doom In ‘Avengers: The Kang Dynasty’ Before Jonathan Majors Was Ousted",
+          "Marvel Started Planning for Robert Downey Jr.’s Doctor Doom Before Jonathan Majors Was Fired and ‘Avengers: The Kang Dynasty’ Fell Apart, Says Kevin Feige"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "real-madrid---inter-de-milán": {
+    "slug": "real-madrid---inter-de-milán",
+    "name": "real madrid - inter de milán",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Jornada decisiva para Real Madrid en la UEFA Women's Champion League",
+          "Silvia Cristóbal: \"Llevamos toda la semana pensando en este partido\"",
+          "Real Madrid-Inter y Barça-Servette: la Champions femenina entra en su quinta jornada"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "utah-mammoth-winter-classic-jersey": {
+    "slug": "utah-mammoth-winter-classic-jersey",
+    "name": "utah mammoth winter classic jersey",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "NHL unveils uniforms for Winter Classic",
+          "Avalanche’s, Mammoth’s Winter Classic jerseys inspired by outdoor hockey, ski culture",
+          "Mammoth, Avalanche bring mountain style to Winter Classic uniforms"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "chipotle-hoodie": {
+    "slug": "chipotle-hoodie",
+    "name": "chipotle hoodie",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "CHIPOTLE DEBUTS THE \"SNEAK IT IN\" HOODIE DESIGNED TO DISCREETLY BRING BURRITOS TO THE MOVIES",
+          "Chipotle is helping people sneak food into movie theaters. Here’s how",
+          "Chipotle launches ‘Sneak It In’ hoodies with hidden pouch to keep your burrito warm"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "فن ومشاهير"
+  },
+  "rashid-bashir": {
+    "slug": "rashid-bashir",
+    "name": "rashid bashir",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Rashid Bashir named chancellor of UW–Madison",
+          "Students raise concerns over finalist for UW-Madison's next chancellor",
+          "UW regents select Rashid Bashir from Illinois as Madison chancellor"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "الذهب-اليوم-في-مصر": {
+    "slug": "الذهب-اليوم-في-مصر",
+    "name": "الذهب اليوم في مصر",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|eg",
+        "date": "2026-11-18",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "هبوط حاد بسعر الذهب فى مصر.. عيار 21 يخسر 100 جنيه والأونصة بـ3770 دولارا",
+          "سعر الذهب اليوم الأربعاء 18-11-2026 في مصر صباحًا",
+          "خسر 70 جنيها.. الذهب يواصل الانخفاض منتصف تعاملات اليوم في مصر"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 2000,
+    "category": "اقتصاد"
   }
 }

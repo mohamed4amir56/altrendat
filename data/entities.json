@@ -359876,8 +359876,8 @@
         "date": "2026-11-19",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
@@ -373193,14 +373193,14 @@
         "date": "2026-11-19",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "اقتصاد",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "خسارة كبيرة لسعر الذهب في مصر.. الفجوة السعرية تتجاوز 92 جنيهاً",
           "سعر الذهب يواصل الهبوط.. عيار 21 يفقد 20 جنيها إضافية والأونصة عند 3782 دولارا",
-          "سعر الذهب اليوم 18-11-2026.. اعرف عيار 21 وصل كام الآن"
+          "تراجع جديد للذهب.. وخسائر الجرام تتجاوز 350 جنيهًا منذ مطلع نوفمبر"
         ]
       }
     ],
@@ -373210,7 +373210,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 1000,
     "category": "اقتصاد"
   },
   "bruins-vs-ducks": {
@@ -448802,7 +448802,7 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Black Caps v India: All you need to know about the first cricket test in Wellington",
+          "Black Caps lose openers in early overs as India bowl first",
           "Ball by Ball Commentary & Live Score - NZ vs IND, 1st Test",
           "Black Caps v India: Rachin Ravindra on the magic of the Basin Reserve ahead of home town test match"
         ]
@@ -474742,9 +474742,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "India leave Siraj and Jadeja out of opening Test in New Zealand",
-          "Bumrah is back: India wins the toss and bowls in the 1st test against New Zealand",
-          "India's WTC hopes meet a stubborn history in New Zealand"
+          "Ball by Ball Commentary & Live Score - NZ vs IND, 1st Test",
+          "India's WTC hopes meet a stubborn history in New Zealand",
+          "New Zealand vs India: Gill wins toss to bowl first at Basin Reserve"
         ]
       }
     ],
@@ -486191,12 +486191,12 @@
         "country_name": "مصر",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "حوادث وقضايا",
+        "category": "تقنية",
         "publishable": false,
         "headlines": [
-          "PlayStation suffers widespread network problems hours before release of GTA VI",
-          "PlayStation suffers outage as Vance holds talks on tech failures",
-          "GTA 6 launch crash? Oddsmakers call it a toss-up"
+          "Sony Issues Official PS5 Firmware Update Warning, Confirms GTA 6 Requirement",
+          "PlayStations stop working as GTA 6 launches",
+          "PlayStation suffers outage as Vance holds talks on tech failures"
         ]
       }
     ],
@@ -486208,7 +486208,7 @@
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "حوادث وقضايا"
+    "category": "تقنية"
   },
   "red-wings-vs-flames": {
     "slug": "red-wings-vs-flames",
@@ -726864,15 +726864,30 @@
           "Greg Norman’s driving method which he learned from Jack Nicklaus will give amateurs 'big advantages'",
           "Extravagant home on Florida course redesigned by Jack Nicklaus for $17M"
         ]
+      },
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "تعليم",
+        "publishable": false,
+        "headlines": [
+          "Jack Nicklaus gave a brutally honest one-word answer when asked what he knows about Grant Horvat",
+          "Jack Nicklaus gave a brutally honest answer when asked whether he knew Grant Horvat",
+          "Hall-Of-Fame Golfer Jack Nicklaus Wins Award From Florida University"
+        ]
       }
     ],
-    "last_seen": "2026-11-16",
-    "total": 1,
+    "last_seen": "2026-11-18",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "دول وأماكن"
+    "category": "تعليم"
   },
   "celtics-schedule": {
     "slug": "celtics-schedule",
@@ -729812,8 +729827,8 @@
         "date": "2026-11-19",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -729828,7 +729843,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "owala-coca-cola": {
@@ -733892,13 +733907,14 @@
         "date": "2026-11-19",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "سياسة",
         "publishable": false,
         "headlines": [
           "العاهل السعودي يعفي قائد التحالف العسكري الداعم للحكومة اليمنية من منصبه، بعد الانسحاب من باب المندب",
-          "من قيادة «الجوية» إلى رئاسة الأركان… الرويلي يقود «القوات المشتركة»"
+          "من قيادة «الجوية» إلى رئاسة الأركان… الرويلي يقود «القوات المشتركة»",
+          "السعودية: أمر ملكي بتعيين قائدٍ جديدٍ للقوات المشتركة | CNN Arabic | CNN"
         ]
       }
     ],
@@ -742336,8 +742352,8 @@
         "publishable": false,
         "headlines": [
           "Licensable picture: UEFA Women's Champions League - Real Madrid v Inter Milan",
-          "Real Madrid Femenino v Inter: where to watch on TV and live stream",
-          "Second consecutive victory in the Women's Champions League"
+          "Second consecutive victory in the Women's Champions League",
+          "Real Madrid Femenino v Inter: where to watch on TV and live stream"
         ]
       }
     ],
@@ -742980,7 +742996,7 @@
         "publishable": true,
         "headlines": [
           "Chelsea 1-0 PSG: Late goal boosts Women's Champions League last-eight hopes",
-          "Chelsea 1-0 Paris Saint-Germain: Women’s Champions League – as it happened",
+          "Veerle Buurman scrambles late WCL winner to push blunt Chelsea past PSG",
           "Chelsea 1-0 PSG (Nov 18, 2026) Game Analysis"
         ]
       }
@@ -743432,8 +743448,8 @@
         "publishable": false,
         "headlines": [
           "المغرب يعلن عن مخطط صناعي لإنتاج 40% من احتياجاته الدفاعية بحلول 2035",
-          "المغرب يسعى لإنتاج 40% من احتياجاته الدفاعية بحلول 2035",
-          "الطيار : خارطة الطريق الجديدة تمثل خطوة استراتيجية لتعزيز السيادة الدفاعية في مجال التصنيع"
+          "رؤية ملكية استراتيجية لتطوير الصناعة الدفاعية والأمنية الوطنية",
+          "سيادة دفاعية واستعداد لأسوأ السيناريوهات.. رسائل إستراتيجية من القصر الملكي"
         ]
       }
     ],
@@ -743838,7 +743854,7 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "عام / الأمير عبدالعزيز بن سعود يستقبل عددًا من أهالي المنطقة الشرقية",
+          "عام / الأمير عبدالعزيز بن سعود يستقبل عددًا من أهالي محافظة القطيف",
           "السعودية تعزز أمن حدودها بمراكز للاستجابة السريعة والتدريب في الشرقية",
           "أمير المنطقة الشرقية يستقبل وزير الداخلية ويستعرضان مبادرات رؤية 2030"
         ]
@@ -744327,12 +744343,12 @@
         "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "حوادث وقضايا",
+        "category": "تقنية",
         "publishable": false,
         "headlines": [
-          "PlayStation suffers widespread network problems hours before release of GTA VI",
-          "PlayStation suffers outage as Vance holds talks on tech failures",
-          "GTA 6 launch crash? Oddsmakers call it a toss-up"
+          "Sony Issues Official PS5 Firmware Update Warning, Confirms GTA 6 Requirement",
+          "PlayStations stop working as GTA 6 launches",
+          "PlayStation suffers outage as Vance holds talks on tech failures"
         ]
       }
     ],
@@ -744342,6 +744358,283 @@
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "حوادث وقضايا"
+    "category": "تقنية"
+  },
+  "canadiens-devils": {
+    "slug": "canadiens-devils",
+    "name": "canadiens – devils",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+11000",
+        "traffic_num": 11000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Canadiens at Devils projected lineups",
+          "Canadiens @ Devils: Game preview, start time, Tale of the Tape, and how to watch",
+          "Devils seek 8th straight home win against slumping Canadiens"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 11000,
+    "category": "رياضة"
+  },
+  "bulls-vs-nets": {
+    "slug": "bulls-vs-nets",
+    "name": "bulls vs nets",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Bulls vs. Nets Preview: How to Watch, Injury Report & Odds",
+          "Nets vs. Bulls Preview: Nic Claxton Returns to Brooklyn",
+          "Why the Bulls' Matchup with the Nets is Sneakily Really Important"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "bruins-vs-red-wings": {
+    "slug": "bruins-vs-red-wings",
+    "name": "bruins vs red wings",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "NHL Tonight: What to watch in Bruins-Red Wings, Canadiens-Devils, Avalanche-Mammoth",
+          "Bruins vs. Red Wings Score, Live Updates, Highlights From NHL Game",
+          "100 years later, Red Wings franchise ready to avenge loss to Bruins"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "central-mi-vs-buffalo": {
+    "slug": "central-mi-vs-buffalo",
+    "name": "central mi vs buffalo",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "How to watch Central Michigan vs Buffalo: Live stream NCAA College Football, TV channel",
+          "Central Michigan vs. Buffalo prediction, odds, time: Week 12 Wednesday MACtion picks from proven model",
+          "Central Michigan vs Buffalo Prediction: Can the Bulls Stay Alive For the MAC Title?"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "wizards-vs-raptors": {
+    "slug": "wizards-vs-raptors",
+    "name": "wizards vs raptors",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Rajakovic says his hamstring tightened up after the …",
+          "Amen Thompson (knee) upgraded to available Weds.",
+          "Injury Report: Washington Wizards vs. Toronto Raptors"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "kelvin-sampson": {
+    "slug": "kelvin-sampson",
+    "name": "kelvin sampson",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Houston’s Kelvin Sampson warns starting guard to avoid mistake ‘low IQ players’ make",
+          "Houston’s Kelvin Sampson warns starting guard to avoid mistake ‘low IQ players’ make",
+          "How UH coach Kelvin Sampson found his next point guard in Dedan Thomas Jr. with just a phone call"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "dedan-thomas": {
+    "slug": "dedan-thomas",
+    "name": "dedan thomas",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Five UConn men, women named to Wooden Award watch list",
+          "McMiller Named To Wooden Award Preseason Top 50 Watchlist",
+          "Smith and Richmond on Wooden Award Watch List"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "akash-deep": {
+    "slug": "akash-deep",
+    "name": "akash deep",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Akash Deep Rebuilds His Test Career After Nine Month Injury",
+          "Akash Deep: The making of a second innings",
+          "Akash Deep Returns to India Squad After Nine Month Recovery"
+        ]
+      },
+      {
+        "key": "2026-11-19|sa",
+        "date": "2026-11-19",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Akash Deep Rebuilds His Bowling Career After Back Injury",
+          "Akash Deep Returns to India Squad After Nine Month Recovery",
+          "Akash Deep Rebuilds His Test Career After Nine Month Injury"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-19",
+    "total": 2,
+    "countries": [
+      "sa",
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "sofi-stadium": {
+    "slug": "sofi-stadium",
+    "name": "sofi stadium",
+    "first_seen": "2026-11-18",
+    "appearances": [
+      {
+        "key": "2026-11-18|world",
+        "date": "2026-11-18",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Two bad teams, one cheap ticket: The Jets-Chargers seats barely cost more than a SoFi cheeseburger",
+          "After earning their first win, Chargers are favored to win their second vs. Jets",
+          "Chargers-Jets Game Preview: Geno Smith’s health could decide Week 11 matchup"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-18",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
   }
 }

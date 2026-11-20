@@ -15298,12 +15298,12 @@
         "country_name": "مصر",
         "traffic": "2000+",
         "traffic_num": 2000,
-        "category": "اقتصاد",
-        "publishable": true,
+        "category": "حوادث وقضايا",
+        "publishable": false,
         "headlines": [
-          "رسميًا.. أسعار البنزين والسولار اليوم الجمعة 20 نوفمبر 2026 بعد قرار لجنة التسعير",
-          "معاك عربية؟.. تعرف على أسعار البنزين والسولار وأسطوانات البوتاجاز اليوم في مصر",
-          "أسعار البنزين والسولار وأسطوانة الغاز اليوم 19 نوفمبر 2026.. احسب تكلفة تفويلة سيارتك"
+          "مستجدات حريق محطة وقود السنبلاوين في الدقهلية بالفيديو والصور (تغطية خاصة)",
+          "حريق هائل بمحطة بنزين في السنبلاوين.. والحماية المدنية تتدخل",
+          "قوات الحماية المدنية تسيطر على حريق محطة وقود بالسنبلاوين| صور"
         ]
       }
     ],
@@ -15314,7 +15314,7 @@
       "sa"
     ],
     "peak_traffic": 20000,
-    "category": "اقتصاد"
+    "category": "حوادث وقضايا"
   },
   "wetter": {
     "slug": "wetter",
@@ -18688,8 +18688,8 @@
         "date": "2026-11-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -40191,10 +40191,25 @@
           "Medium odds for development in the Atlantic",
           "Subtropical storm could develop in the Atlantic this week"
         ]
+      },
+      {
+        "key": "2026-11-20|world",
+        "date": "2026-11-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "طقس",
+        "publishable": false,
+        "headlines": [
+          "Tropical wind and rainstorm to streak north near US East Coast this weekend into next week",
+          "Intense flooding slams Florida from a developing storm that could snarl early Thanksgiving travel on the East Coast",
+          "Kyle could form off Florida as extensive, prolonged coastal flood threat grows"
+        ]
       }
     ],
-    "last_seen": "2026-11-05",
-    "total": 2,
+    "last_seen": "2026-11-20",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -83331,7 +83346,7 @@
         "headlines": [
           "كم سعر الدولار الأمريكى مقابل الجنيه المصرى اليوم الجمعة 20 نوفمبر 2026؟",
           "53.77 جنيه سعرالصرف في الأهلي ومصر والقاهرة والإسكندرية وCIB بنهاية تعاملات الخميس اليوم للشراء والبيع",
-          "الدولار يسجل 53.98 جنيه للبيع في أغلب البنوك بمنتصف تعاملات اليوم"
+          "سعر الدولار يرتفع في 10 بنوك بزيادة تصل إلى 42 قرشا خلال أسبوع"
         ]
       }
     ],
@@ -206626,8 +206641,8 @@
         "publishable": false,
         "headlines": [
           "Google is forcing Android app developers to properly support foldables",
-          "Google Play puts Galaxy Z Fold 8 and Pixel 11 Pro Fold apps on the clock",
-          "Google Play is about to crack down on app support for foldables"
+          "Google Play wants Android apps to nail foldable basics by April 2027",
+          "Google Play puts Galaxy Z Fold 8 and Pixel 11 Pro Fold apps on the clock"
         ]
       }
     ],
@@ -343177,12 +343192,12 @@
         "country_name": "السعودية",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "أبو طالب لن يعود عند الغسق.. لاهاي تنصف الروهينغا فمَن سيحمي الجناة؟",
-          "محكمة العدل الدولية تدين بورما بارتكاب إبادة جماعية بحق أقلية الروهينغا",
-          "محكمة العدل الدولية تقضي بأن ميانمار ارتكبت إبادة جماعية بحق أقلية الروهينغا"
+          "وول ستريت جورنال: واشنطن أرسلت منظومة باتريوت إضافية إلى إسرائيل",
+          "إسرائيل تطوّر دفاعات صاروخية أقل تكلفة وسط تصاعد التوترات مع إيران",
+          "لصدّ هجمات صاروخية تستمر أسابيع.. إسرائيل تطوّر منظومة \"مقلاع داود\" وتوسّع مدى اعتراضها"
         ]
       }
     ],
@@ -343193,7 +343208,7 @@
       "sa"
     ],
     "peak_traffic": 1000,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "أذربيجان": {
     "slug": "أذربيجان",
@@ -366383,14 +366398,14 @@
         "date": "2026-11-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "PlayStation Plus Officially Adds 2001 PS2 Classic",
-          "PlayStation Plus Premium December 2026 Game Revealed Early",
-          "PS2 Game From 2001 Now Free for Some PS5 and PS4 Users"
+          "PlayStation Plus Is Losing More Games, But One Departure Stings The Most",
+          "Games Leaving PlayStation Plus in December 2026 Confirmed",
+          "3 PS Plus Extra Game Removals for December 2026 Confirmed"
         ]
       }
     ],
@@ -455059,9 +455074,9 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "Bitcoin Erases Bessent Rally as Leverage and Liquidity Fade",
-          "Bitcoin's (BTC) 12% slide through the 200-week average has a bullish past",
-          "Capitulation Meets Support"
+          "This Bitcoin miner escaped $22 million in debt by selling BTC. Now it faces a survival crisis",
+          "PowerCompute: 3 Key Takeaways for Long-Term Investors",
+          "PWCM: PowerCompute Inc. filed SEC Form 8-K: Results of Operations..."
         ]
       }
     ],
@@ -581338,10 +581353,25 @@
           "Yankees news: New York cleans house, sort of",
           "Yankees not renewing contracts for advisors and ex-GMs Omar Minaya, Brian Sabean"
         ]
+      },
+      {
+        "key": "2026-11-20|world",
+        "date": "2026-11-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "After busy day in office, Cashman hits field to Sleep Out for good cause",
+          "Yankees’ Brian Cashman Sends Ambiguous Message on Potential Deal",
+          "Yankees offseason not resting for Brian Cashman’s annual Sleep Out"
+        ]
       }
     ],
-    "last_seen": "2026-11-01",
-    "total": 1,
+    "last_seen": "2026-11-20",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -686233,8 +686263,8 @@
         "date": "2026-11-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -727133,12 +727163,12 @@
         "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "بعد ٤٩ عامًا.. «يا ليتنا ركبنا طائرة السادات» !",
-          "أنور السادات.. سفارة إسرائيل في مصر تعيد نشر مشهد \"حبس الأنفاس\" قبل 49 عاما وتعلق على تكريم الكونغرس",
-          "بطل السلام في مدينة السلام"
+          "مصر.. صهر ترامب يعلق على منح أنور السادات ميدالية الكونغرس الذهبية",
+          "«ليلة حب» فى الكابيتول",
+          "مسعد بولس يشيد بالسادات.. \"غير مجرى التاريخ\""
         ]
       }
     ],
@@ -727149,7 +727179,7 @@
       "sa"
     ],
     "peak_traffic": 1000,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "سعر-الدهب-الان": {
     "slug": "سعر-الدهب-الان",
@@ -741014,10 +741044,25 @@
           "ناشئون يتحكمون بمصير الكبار في السلة المصرية",
           "«سلة الاتحاد السكندري» تتحفز لمواجهة الجزيرة بنصف نهائي دوري المرتبط رجال"
         ]
+      },
+      {
+        "key": "2026-11-20|sa",
+        "date": "2026-11-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "الاتحاد يواجه الجزيرة بإياب نصف نهائي دورى السلة",
+          "مصدر من اتحاد السلة يكشف لـ في الجول موقفهم من طلب الأهلي باستقدام حكم أجنبي",
+          "كيف حسم الأهلي تأهله إلى نهائي المرتبط قبل أن تبدأ مباراته؟"
+        ]
       }
     ],
-    "last_seen": "2026-11-18",
-    "total": 1,
+    "last_seen": "2026-11-20",
+    "total": 2,
     "countries": [
       "sa"
     ],
@@ -760758,8 +760803,8 @@
         "date": "2026-11-20",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
@@ -760774,7 +760819,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "دول وأماكن"
   },
   "سفارة": {
@@ -760818,12 +760863,12 @@
         "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "اقتصاد",
+        "category": "عام",
         "publishable": false,
         "headlines": [
           "تعرف على اختيار الأساقفة فى لائحة المجمع المقدس الجديدة بالكنيسة",
-          "بعد 41 عاما.. الكنيسة القبطية تعتمد لائحة جديدة لتنظيم صلاحيات البابا والأساقفة بموافقة 98.7% - صوت الأمة",
-          "البابا تواضروس لـ\"الصفحة الأولى\" تعليقاً على مقترح خروج الأساقفة للمعاش بالثمانين: كلام فاضي وكذب"
+          "«تضمنت رعاية طبية لائقة للمطارنة والأساقفة».. اعتماد اللائحة المحدثة للمجمع المقدس للكنيسة الأرثوذكسية",
+          "المجمع المقدس يعتمد لائحة جديدة للكنيسة القبطية الأرثوذكسية تضم 100 مادة بموافقة 98.7% من الأعضاء"
         ]
       }
     ],
@@ -760833,7 +760878,7 @@
       "eg"
     ],
     "peak_traffic": 200,
-    "category": "اقتصاد"
+    "category": "عام"
   },
   "крымский-мост": {
     "slug": "крымский-мост",
@@ -761106,14 +761151,14 @@
         "date": "2026-11-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
           "Pakistan Shaheens begin ACC Men’s Asia Cup Rising Stars campaign against UAE on Friday",
-          "India A vs Nepal Asia Cup Rising Stars 2026: Vaibhav Sooryavanshi Included in Playing XI as Nepal Opts to Bowl",
-          "PAKA vs UAE, 3rd Match, Group B, ACC Men's Asia Cup Rising Stars 2026 - Player Highlights"
+          "India A vs Nepal Live Score, ACC Men's Asia Cup Rising Stars 2026: Nepal win toss, opt to bowl; Vaibhav Sooryavanshi, Abhishek Sharma in focus",
+          "Excitel Broadband Becomes Global Sponsor of DP World Asia Cup Rising Stars 2026"
         ]
       }
     ],
@@ -761122,7 +761167,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "رياضة"
   },
   "الجزيرة---اقتصاد": {
@@ -761135,14 +761180,14 @@
         "date": "2026-11-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "لماذا انهار الذهب إلى أدنى مستوى في 14 شهراً؟.. 3 عوامل تضغط على الأسعار",
-          "لغز انهيار الذهب رغم استقرار الدولار.. هل تسحب أنثروبيك سيولة الأسواق؟",
-          "تراجع الذهب يربك المستثمرين... فهل فقد دوره التحوّطي؟"
+          "تراجع الذهب يربك المستثمرين... فهل فقد دوره التحوّطي؟",
+          "لغز انهيار الذهب رغم استقرار الدولار.. هل تسحب أنثروبيك سيولة الأسواق؟"
         ]
       }
     ],
@@ -761151,7 +761196,210 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "شخصية"
+  },
+  "lainey-wilson-2026-cma-awards-outfit": {
+    "slug": "lainey-wilson-2026-cma-awards-outfit",
+    "name": "lainey wilson 2026 cma awards outfit",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|world",
+        "date": "2026-11-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "The 10 Best Looks From the Country Music Association Awards Red Carpet",
+          "Taylor Swift returns to CMA Awards after 13 years, but Ella Langley takes the cake",
+          "2026 CMA Awards red carpet: The best, boldest and most 'wait, what?!' looks, from Taylor Swift in yellow to Ella Langley's sheer dress"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "stock-market-futures": {
+    "slug": "stock-market-futures",
+    "name": "stock market futures",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|world",
+        "date": "2026-11-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Stock Market Today: Anthropic Stock Drops Premarket as Tech Rout Intensifies",
+          "SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks",
+          "World in Brief: Asian tech stocks slide; Putin invites European leaders to Moscow"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "اقتصاد"
+  },
+  "does-jason-die-in-gta-6": {
+    "slug": "does-jason-die-in-gta-6",
+    "name": "does jason die in gta 6",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|world",
+        "date": "2026-11-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "GTA 6's Prologue Has A Game-Changing Twist Rockstar Managed To Keep Completely Secret",
+          "GTA 6’s Best-Kept Secret Is the Most Important Part of the Game",
+          "Rockstar Kept One Of GTA 6’s Biggest Early Spoilers Under Wraps For Years"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "وليد-صلاح-الدين": {
+    "slug": "وليد-صلاح-الدين",
+    "name": "وليد صلاح الدين",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|eg",
+        "date": "2026-11-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "وليد صلاح الدين يكشف.. لماذا لم يعرض الأهلي إمام عاشور للبيع بعد أزمة تنزانيا؟",
+          "وليد صلاح الدين يكشف كواليس الأزمات داخل غرفة ملابس الأهلى بسبب تفاوت العقود",
+          "«قولت للشناوي متروحش للجمهور!».. وليد صلاح الدين يكشف تعرضه للظلم في الأهلي"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "رياضة"
+  },
+  "أبراج-المركز-المالي-بالرياض": {
+    "slug": "أبراج-المركز-المالي-بالرياض",
+    "name": "أبراج المركز المالي بالرياض",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|sa",
+        "date": "2026-11-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "أبراج وفلك",
+        "publishable": true,
+        "headlines": [
+          "\"لن نتهاون مع أي اعتداء\".. بيان سعودي بعد هجوم الحوثيين على مركز الملك عبدالله المالي",
+          "أضرار في أطول برج بالرياض إثر هجوم من جماعة أنصار الله وتصاعد المواجهات في اليمن",
+          "الدفاع المدني: تعرض أحد أبراج المركز المالي بالرياض لهجوم إرهابي حوثي"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "أبراج وفلك"
+  },
+  "pakw-vs-irew": {
+    "slug": "pakw-vs-irew",
+    "name": "pakw vs irew",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|sa",
+        "date": "2026-11-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "PAKW vs IREW, 23rd Match, Super Six (B1 v A3), ICC Women's Emerging Nations Trophy, 2026 - Commentary",
+          "Pakistan Women vs Ireland Women Live Scorecard: Live Cricket Score PAK-W vs IRE-W, Super Six - Match 3, ICC Women\\'s Emerging Nations Trophy, 2026",
+          "Pakistan Women vs Ireland Women, Super Six"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "هيئة-الحكومة-الرقمية": {
+    "slug": "هيئة-الحكومة-الرقمية",
+    "name": "هيئة الحكومة الرقمية",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|sa",
+        "date": "2026-11-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "عام / وزير الاتصالات وتقنية المعلومات يهنئ القيادة بتحقيق مستهدف رؤية السعودية 2030 في الحكومة الرقمية",
+          "السعودية الأولى عالمياً في الخدمات الحكومية الرقمية",
+          "المملكة الأولى عالميًّا في الخدمات الحكومية الرقمية"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "سياسة"
   }
 }

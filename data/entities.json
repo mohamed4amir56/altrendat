@@ -10257,10 +10257,10 @@
         "date": "2026-11-20",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "اقتصاد",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "رسميًا.. أسعار البنزين والسولار اليوم الجمعة 20 نوفمبر 2026 بعد قرار لجنة التسعير",
           "معاك عربية؟.. تعرف على أسعار البنزين والسولار وأسطوانات البوتاجاز اليوم في مصر",
@@ -10273,7 +10273,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 2000,
     "category": "اقتصاد"
   },
   "أفغانستان": {
@@ -37600,15 +37600,30 @@
           "Racers remember spotter Lloyd Garner, who dies at 54",
           "Why Are Kyle Larson, Alex Bowman, and Other NASCAR Drivers Going to Jail?"
         ]
+      },
+      {
+        "key": "2026-11-20|world",
+        "date": "2026-11-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Corey Heim to drive No. 67, not No. 35, with 23XI Racing in 2027",
+          "Corey Heim to drive No. 67 Toyota for 23XI Racing in 2027",
+          "Corey Heim to drive No. 67 in 2027"
+        ]
       }
     ],
-    "last_seen": "2026-10-29",
-    "total": 3,
+    "last_seen": "2026-11-20",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "category": "عام"
   },
   "مدحت-عبد-الهادي": {
     "slug": "مدحت-عبد-الهادي",
@@ -83371,12 +83386,12 @@
         "country_name": "مصر",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "حوادث وقضايا",
+        "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "مجلس الوزراء: الدولة نفذت مشروعات بتكلفة 28 مليار جنيه لحماية سواحلها",
-          "وزير الري: تنفيذ مشروع لحماية الشواطئ بتكلفة 28 مليار جنيه",
-          "هل تغرق الدلتا والإسكندرية بسبب ارتفاع البحر؟.. وزير الري يكشف بالأرقام جهود حماية السواحل"
+          "كم سعر الدولار الأمريكى مقابل الجنيه المصرى اليوم الجمعة 20 نوفمبر 2026؟",
+          "53.77 جنيه سعرالصرف في الأهلي ومصر والقاهرة والإسكندرية وCIB بنهاية تعاملات الخميس اليوم للشراء والبيع",
+          "ما أسعار العملات أمام الجنيه بالبنك المركزي اليوم الخميس 19-11-2026؟"
         ]
       }
     ],
@@ -83386,7 +83401,7 @@
       "eg"
     ],
     "peak_traffic": 5000,
-    "category": "حوادث وقضايا"
+    "category": "اقتصاد"
   },
   "shai-hope": {
     "slug": "shai-hope",
@@ -375691,14 +375706,14 @@
         "date": "2026-11-20",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "category": "شخصية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "اقتصاد الظل: كيف تطورت شبكات التهريب في الشرق الأوسط؟",
-          "الخزعلي: بذمة إقليم كردستان 309 مليارات دولار عن النفط خارج سيطرة الحكومة الاتحادية",
-          "أتروشي: لا غطاء قانوني للتهريب والبرلمان أعلى سلطة رقابية لدعم الجهات الأمنية حتى النهاية"
+          "خدعة الطعام لم تنجح.. إحباط تهريب مخدرات لمطرب مصري",
+          "النيابة تفحص مخدرات ضُبطت بحوزة زوجة إسلام كابونجا",
+          "سقوط زوجة مطرب مهرجانات حاولت تهريب مخدرات وهواتف بمحبسه في أكتوبر"
         ]
       }
     ],
@@ -375708,8 +375723,8 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 500,
-    "category": "شخصية"
+    "peak_traffic": 1000,
+    "category": "حوادث وقضايا"
   },
   "necaxa---atlas": {
     "slug": "necaxa---atlas",
@@ -468875,8 +468890,8 @@
         "date": "2026-11-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
@@ -761569,7 +761584,7 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "وليد صلاح الدين يكشف.. القرار الوحيد الذي تمنى تغييره خلال فترة عمله بالأهلي",
+          "وليد صلاح الدين يكشف.. لماذا لم يعرض الأهلي إمام عاشور للبيع بعد أزمة تنزانيا؟",
           "وليد صلاح الدين: اعتبرت تصرف إمام عاشور تمردًا.. وطبقت عليه أكبر عقوبة فى تاريخ الأهلى",
           "وليد صلاح: تعرضت للظلم أثناء تواجدي في الأهلي.. وكنت مقتنع فنيا بـ توروب"
         ]
@@ -761724,13 +761739,13 @@
         "date": "2026-11-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
           "Pakistan Shaheens begin ACC Men’s Asia Cup Rising Stars campaign against UAE on Friday",
-          "India A vs Nepal Live Score, ACC Men's Asia Cup Rising Stars 2026: Tilak Varma, Kumar Kushagra fifties take India out of danger",
+          "India A vs Nepal Live Score, ACC Men's Asia Cup Rising Stars 2026: Top-up Kumar Kushagra departs, Tilak Varma, Rinku Singh eye strong finish",
           "Excitel Broadband steps up as Global Sponsor of the DP World Asia Cup Rising Stars 2026"
         ]
       }
@@ -761741,7 +761756,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 10000,
+    "peak_traffic": 20000,
     "category": "رياضة"
   },
   "lincolnshire-nhs-ae-bed-delays": {
@@ -761812,8 +761827,8 @@
         "date": "2026-11-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -761828,7 +761843,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "مشي": {
@@ -762020,7 +762035,7 @@
         "publishable": false,
         "headlines": [
           "He credits Rocky with saving his life. Now Scot Teller is living a dream as Paulie in ‘I Play Rocky’",
-          "'I Play Rocky' chronicles Sylvester Stallone's unconventional road to stardom",
+          "‘I Play Rocky’ Will Work You Over (and Over and Over)",
           "AnnaSophia Robb on I Play Rocky and Representing the Underdogs"
         ]
       }
@@ -762043,14 +762058,14 @@
         "date": "2026-11-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
-        "category": "عام",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "More Russian regions limit fuel sales as Ukrainian drone strikes hit refinery output",
-          "Ukraine says it hit refineries in Krasnodar day after striking nearby Kerch bridge",
-          "Ukrainian drones reportedly target oil hub in Russia's Tatarstan"
+          "Regions is inviting the public to its annual Birmingham holiday light display",
+          "Regions Bank Christmas display returns to downtown Birmingham Nov. 27",
+          "More Russian regions limit fuel sales as Ukrainian drone strikes hit refinery output"
         ]
       }
     ],
@@ -762059,8 +762074,8 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
-    "category": "عام"
+    "peak_traffic": 500,
+    "category": "اقتصاد"
   },
   "rikers-island": {
     "slug": "rikers-island",
@@ -762246,8 +762261,8 @@
         "date": "2026-11-20",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -762262,7 +762277,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "ميناء-الحديدة": {
@@ -762275,13 +762290,14 @@
         "date": "2026-11-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "التحالف يطلب إخلاء ميناء الحُديدة والحوثيون يتوعدون باستهداف ميناء جدة",
-          "قيادة القوات المشتركة للتحالف تطلب من المدنيين إخلاء ميناء الحديدة بحسب الخارطة التوضيحية للموقع وذلك لسلامتهم"
+          "اليمن.. التحالف يطالب بإخلاء ميناء الحديدة والحوثيون يهددون موانئ السعودية وأجواءها",
+          "\"التحالف\" يصدر أمر إخلاء لميناء الحُديدة في اليمن وينشر خريطة | CNN Arabic | CNN",
+          "التحالف يطالب المدنيين بإخلاء ميناء الحديدة"
         ]
       }
     ],
@@ -762290,7 +762306,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 1000,
     "category": "شخصية"
   },
   "رائد-الكحلاني": {
@@ -762332,8 +762348,8 @@
         "date": "2026-11-20",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -762348,7 +762364,210 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 1000,
     "category": "رياضة"
+  },
+  "france-vs-spain": {
+    "slug": "france-vs-spain",
+    "name": "france vs spain",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|world",
+        "date": "2026-11-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Nations League draw LIVE: England and Wales to find out opponents",
+          "Nations League quarterfinal draw: England face Norway, Spain to meet France",
+          "2026/27 Nations League quarter-finals: Get to know the eight contenders"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "vix-index": {
+    "slug": "vix-index",
+    "name": "vix index",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|world",
+        "date": "2026-11-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Wall Street's fear gauge is surging again and this time it's not just about AI jitters",
+          "Wall Street's fear gauge touches seven-month high as AI worries mount",
+          "It’s Getting More and More Volatile for Stocks"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "اقتصاد"
+  },
+  "ronny-hallin-passed-away": {
+    "slug": "ronny-hallin-passed-away",
+    "name": "ronny hallin passed away",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|world",
+        "date": "2026-11-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "’70s star and Happy Days legend dead at 88",
+          "‘Laverne & Shirley’ actress dead at 88",
+          "Ronny Hallin Remembered as the ‘Unsung Hero of the Marshall Family’ After Her Death at 88"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "20-نوفمبر": {
+    "slug": "20-نوفمبر",
+    "name": "20 نوفمبر",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|eg",
+        "date": "2026-11-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "تعرف على آخر تطورات سعر الذهب اليوم.. تحديث لحظى",
+          "سعر الذهب اليوم في مصر يهبط منتصف تعاملات الجمعة.. عيار 21 يفقد 170 جنيها",
+          "سعر الذهب اليوم الجمعة 20-11-2026 في مصر صباحًا"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 10000,
+    "category": "شخصية"
+  },
+  "الصومال-تطرد-سفير-الامارات": {
+    "slug": "الصومال-تطرد-سفير-الامارات",
+    "name": "الصومال تطرد سفير الامارات",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|sa",
+        "date": "2026-11-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "سياسة",
+        "publishable": true,
+        "headlines": [
+          "الصومال تطرد السفير الإماراتي .. وأبوظبي تندد بالقرار وتصفه بـ\"غير المسؤول\"",
+          "الحكومة الصومالية تعلن طرد السفير الإماراتي، فماذا وراء الخلاف؟",
+          "الإمارات تستنكر «النهج العدائي» للحكومة الصومالية"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "سياسة"
+  },
+  "كلباء-ضد-الشارقة": {
+    "slug": "كلباء-ضد-الشارقة",
+    "name": "كلباء ضد الشارقة",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|sa",
+        "date": "2026-11-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "توقعات الذكاء الاصطناعي لمباراة كلباء ضد الشارقة في دوري أدنوك للمحترفين",
+          "تاريخ «الملك» يتحدى انتفاضة «النمور»",
+          "لوان بيريرا يُكمل قائمة غيابات الشارقة.. ومورايس يتمسك بالفوز أمام كلباء"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
+  },
+  "শখ-হসন": {
+    "slug": "শখ-হসন",
+    "name": "শেখ হাসিনা",
+    "first_seen": "2026-11-20",
+    "appearances": [
+      {
+        "key": "2026-11-20|sa",
+        "date": "2026-11-20",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "এবার ব্রিটিশ আইনজীবী দিয়ে বাংলাদেশ হাইকমিশনকে চিঠি শেখ হাসিনার! ঠিক কী দাবি জানানো হল ওই চিঠিতে?",
+          "পাসপোর্ট, পরিচয়পত্র চেয়ে ফের ঢাকাকে চিঠি দিলেন হাসিনা, ৯ তারিখের সেই আবেদনের জবাব চান ‘জরুরি ভিত্তিতে’",
+          "শেখ হাসিনার নতুন পাসপোর্ট ও এনআইডি আবেদনের অগ্রগতি জানতে দিল্লিতে হাইকমিশনে ফের চিঠি"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-20",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

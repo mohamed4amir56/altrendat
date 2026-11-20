@@ -83369,14 +83369,14 @@
         "date": "2026-11-20",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "10000+",
-        "traffic_num": 10000,
-        "category": "اقتصاد",
-        "publishable": true,
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
         "headlines": [
-          "تعرف على آخر تطورات سعر الذهب اليوم.. تحديث لحظى",
-          "سعر الذهب اليوم في مصر يهبط منتصف تعاملات الجمعة.. عيار 21 يفقد 170 جنيها",
-          "سعر الذهب اليوم الجمعة 20-11-2026 في مصر صباحًا"
+          "مجلس الوزراء: الدولة نفذت مشروعات بتكلفة 28 مليار جنيه لحماية سواحلها",
+          "وزير الري: تنفيذ مشروع لحماية الشواطئ بتكلفة 28 مليار جنيه",
+          "هل تغرق الدلتا والإسكندرية بسبب ارتفاع البحر؟.. وزير الري يكشف بالأرقام جهود حماية السواحل"
         ]
       }
     ],
@@ -83385,8 +83385,8 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 10000,
-    "category": "اقتصاد"
+    "peak_traffic": 5000,
+    "category": "حوادث وقضايا"
   },
   "shai-hope": {
     "slug": "shai-hope",
@@ -134299,15 +134299,30 @@
           "How the College Board Is Fighting A.I. Cheating on the SAT Tests",
           "College Board changed SAT to block Auto SAT AI cheating tool"
         ]
+      },
+      {
+        "key": "2026-11-20|world",
+        "date": "2026-11-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "تعليم",
+        "publishable": false,
+        "headlines": [
+          "Should admission to University of California require SAT exams? Researchers give competing views",
+          "UC must bring back academic standards and stop pandering to campus crazies",
+          "As UC Regents Reconsider SAT Requirements, Students Rally for Test-Free Admissions"
+        ]
       }
     ],
-    "last_seen": "2026-11-07",
-    "total": 2,
+    "last_seen": "2026-11-20",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 200,
-    "category": "تقنية"
+    "category": "تعليم"
   },
   "jack-hughes-interview": {
     "slug": "jack-hughes-interview",
@@ -189515,8 +189530,8 @@
         "date": "2026-11-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -375670,11 +375685,27 @@
           "الزيدي يأمر بالتحقيق في شبهات تهريب نفط في معقل فصيل مقرب من إيران",
           "اجتماع الحلبوسي لمناقشة تهريب النفط في العراق"
         ]
+      },
+      {
+        "key": "2026-11-20|eg",
+        "date": "2026-11-20",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "اقتصاد الظل: كيف تطورت شبكات التهريب في الشرق الأوسط؟",
+          "مسارب تهريب النفط مفتوحة: كردستان خارج رقابة بغداد",
+          "أتروشي: لا غطاء قانوني للتهريب والبرلمان أعلى سلطة رقابية لدعم الجهات الأمنية حتى النهاية"
+        ]
       }
     ],
-    "last_seen": "2026-11-12",
-    "total": 3,
+    "last_seen": "2026-11-20",
+    "total": 4,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 500,
@@ -468838,10 +468869,25 @@
           "Intel’s Plunge Today Makes It October’s Worst S&P 500 Stock. Accenture Is the Biggest Winner.",
           "In a wild October for markets, these stocks were the biggest winners and losers"
         ]
+      },
+      {
+        "key": "2026-11-20|world",
+        "date": "2026-11-20",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Here’s what happened next after previous times the S&P 500 losing streak reached six sessions",
+          "S&P 500’s losing streak may reach six sessions as J&J advances two pro…",
+          "Two Big Debuts Fail To Boost Stocks"
+        ]
       }
     ],
-    "last_seen": "2026-10-30",
-    "total": 2,
+    "last_seen": "2026-11-20",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -741277,9 +741323,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "منافسات قوية في المرحلة الثالثة من ذهاب سلة السيدات",
-          "الثورة وبردى في مواجهة دمشقية غداً في صالة الفيحاء.",
-          "إليزابيت سيمون: الثورة يدخل الدوري بطموح المنافسة.. وروح الأسرة سر التألق والنجاح"
+          "\"أوليفر وايمان\": طرح \"أنثروبيك\" يجدد الثقة في قطاع الذكاء الاصطناعي",
+          "مصنع المليارديرات",
+          "\"أنثروبيك\" تحطم الرقم القياسي لأكبر طرح عام أولي في التاريخ.. وأرامكو ضمن الخمسة الكبار"
         ]
       }
     ],
@@ -761031,8 +761077,8 @@
         "publishable": false,
         "headlines": [
           "منتدى مصر 2026 يستهدف رفع الخدمات الحكومية على منصة مصر الرقمية إلى 300 خدمة",
-          "مستثمرو العاشر من رمضان: بطء التحول الرقمي يُبقي المعاملات الحكومية رهينة الإجراءات الورقية",
-          "الفضالي : توجيهات الرئيس بشأن العمل على تطبيق الرقمنة في الخدمات الحكومية يستهدف سرعة إنهاء مصالح المواطنين"
+          "الخطة التنفيذية لمنتدى مصر 2026| خطة تحسين رواتب المعلمين خلال عامين",
+          "منتدى مصر من الحوار الى التنفيذ.. بدء زراعة مليون شجرة وتعديل قانون البيئة"
         ]
       }
     ],
@@ -761060,8 +761106,8 @@
         "publishable": false,
         "headlines": [
           "السفارة الإماراتية بالقاهرة تحذر من مراسلات ومكالمات احتيالية تطلب تحويلات مالية",
-          "الإمارات.. سفارة أبوظبي تحذر مواطنيها من عمليات احتيال مالية",
-          "الإمارات تحذر مواطنيها في أثينا من اتصالات مشبوهة"
+          "الإمارات تحذر مواطنيها في أثينا من اتصالات مشبوهة",
+          "الإمارات.. سفارة أبوظبي تحذر مواطنيها من عمليات احتيال مالية"
         ]
       }
     ],
@@ -761518,8 +761564,8 @@
         "date": "2026-11-20",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -761534,7 +761580,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "رياضة"
   },
   "أبراج-المركز-المالي-بالرياض": {
@@ -761910,8 +761956,8 @@
         "date": "2026-11-20",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -761926,7 +761972,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "rinku-singh": {
@@ -762026,8 +762072,8 @@
         "date": "2026-11-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
@@ -762042,7 +762088,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "bo-derek": {
@@ -762062,7 +762108,7 @@
         "headlines": [
           "Bo Derek Is 70! Here’s the Sweet Way She and John Corbett Celebrate Her Birthdays (Exclusive)",
           "This day in history: Happy birthday, Bo Derek!",
-          "Bo Derek: Bio And Career Highlights"
+          "Bo Derek turns 70 – see her today 47 years on from iconic '10' beach moment"
         ]
       }
     ],
@@ -762084,8 +762130,8 @@
         "date": "2026-11-20",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -762100,7 +762146,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "رياضة"
   },
   "john-grisham": {
@@ -762118,7 +762164,7 @@
         "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "Opinion | John Grisham: I Want to Shake Scott Colom’s Hand",
+          "Opinion | John Grisham: The Meaning of Scott Colom’s Victory",
           "'Bigger than Barack Obama's election': Scholars reflect on Mississippi Senate race",
           "Reeves congratulates Senator-elect Colom, who names transition team"
         ]
@@ -762234,8 +762280,8 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "قيادة القوات المشتركة للتحالف: على المدنيين إخلاء ميناء الحديدة للحفاظ على سلامتهم",
-          "التحالف يطلب من المدنيين إخلاء ميناء الحديدة حفاظًا على سلامتهم"
+          "التحالف يطلب إخلاء ميناء الحُديدة والحوثيون يتوعدون باستهداف ميناء جدة",
+          "قيادة القوات المشتركة للتحالف تطلب من المدنيين إخلاء ميناء الحديدة بحسب الخارطة التوضيحية للموقع وذلك لسلامتهم"
         ]
       }
     ],
@@ -762264,7 +762310,7 @@
         "headlines": [
           "رئيس مجلس القيادة: الشهيد الكحلاني كان مثالا عظيما لشباب اليمن الأحرار",
           "الجيش اليمني ينعى قائداً ميدانياً قتل خلال مواجهات مع الحوثيين في تعز",
-          "استشهاد حارس جبل صبر ومدينة تعز قائد جبهة كحلان رائد الكحلاني.. والعليمي يعزي أسرته"
+          "تعز تودع القائد رائد الكحلاني وتكشف تفاصيل ملاحمه البطولية"
         ]
       }
     ],

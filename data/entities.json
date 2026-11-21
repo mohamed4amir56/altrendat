@@ -2222,12 +2222,12 @@
         "country_name": "السعودية",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "تساهم ثقافة المرور في تعزيز شخصية سكان هاي فونغ.",
-          "أطلقت جامعة UIT مبادرة \"مدرسة خالية من المخدرات وآمنة من حيث حركة المرور\"، بهدف رفع مستوى الوعي القانوني بين الطلاب.",
-          "إيصال قوانين المرور إلى الناس."
+          "إصابة 9 أشخاص إثر انقلاب سيارة ربع نقل داخل ترعة بأسوان",
+          "إصابة 8 أشخاص فى تصادم ميكروباص وربع نقل بأسوان",
+          "إصابة 8 أشخاص في تصادم ميكروباص وسيارة ربع نقل بأسوان"
         ]
       }
     ],
@@ -2237,7 +2237,7 @@
       "sa"
     ],
     "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "gulf-cup": {
     "slug": "gulf-cup",
@@ -14986,10 +14986,10 @@
         "date": "2026-11-21",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "5000+",
-        "traffic_num": 5000,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "ديني",
-        "publishable": true,
+        "publishable": false,
         "headlines": [
           "قبل الأذان.. جدول مواقيت الصلاة اليوم في 7 مدن مصرية",
           "موعد أذان الظهر اليوم السبت في القاهرة والمحافظات",
@@ -86124,12 +86124,12 @@
         "country_name": "مصر",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "تعز: كيف يعيش الناس في ظل الحرب؟",
-          "الأمم المتحدة: إغلاق الطرق في تعز يخفض إمدادات الغذاء 90 بالمئة",
-          "الأمم المتحدة تؤكد انخفاض حاد في إمدادات الغذاء والدواء في تعز"
+          "Mykhailo Mudryk accuses Andriy Shevchenko of lying about drugs test claims",
+          "Ukrainian FA chief Andriy Shevchenko accuses Mykhailo Mudryk of ‘slander’ over doping claims - The Athletic",
+          "Mykhailo Mudryk, Ukraine national team play the blame game over failed doping test"
         ]
       }
     ],
@@ -86140,7 +86140,7 @@
       "sa"
     ],
     "peak_traffic": 2000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "united-arab-emirates-vs-qatar": {
     "slug": "united-arab-emirates-vs-qatar",
@@ -105517,7 +105517,7 @@
         "category": "اقتصاد",
         "publishable": true,
         "headlines": [
-          "هبوط قوي ومفاجئ في سعر الذهب بأكثر من 110 جنيهات.. ماذا حدث بالصاغة؟",
+          "نزيف خسائر الذهب يتواصل.. عيار 21 عند أدنى مستوى في عام تقريبا",
           "سعر الذهب اليوم في مصر يخسر 85 جنيها بداية تعاملات السبت",
           "سعر الذهب اليوم الجمعة 20-11-2026 في مصر بعد تراجعه 190 جنيهًا"
         ]
@@ -151029,10 +151029,25 @@
           "بعد التراجع.. سعر الفراخ البيضاء للمستهلك اليوم الخميس 19 نوفمبر 2026 وبورصة الدواجن الآن",
           "19 نوفمبر 2026.. أسعار الدواجن والبيض في بورصة الدواجن اليوم"
         ]
+      },
+      {
+        "key": "2026-11-21|eg",
+        "date": "2026-11-21",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "استقرار في بورصة الدواجن البيضاء والبلدى بالأقصر اليوم الجمعة 20 نوفمبر 2026",
+          "بعد الانخفاض الأخير.. سعر كيلو الفراخ البيضاء اليوم السبت 21-11-2026 بالأسواق وبورصة الدواجن الآن",
+          "هبوط البانيه.. مفاجأة فى أسعار الدواجن والبيض اليوم السبت بالأسواق"
+        ]
       }
     ],
-    "last_seen": "2026-11-19",
-    "total": 4,
+    "last_seen": "2026-11-21",
+    "total": 5,
     "countries": [
       "eg"
     ],
@@ -184060,15 +184075,30 @@
           "Jake Matthews is giving the Falcons a problem they thought was never coming",
           "Week 4 Monday night inactives: Atlanta Falcons at New Orleans Saints"
         ]
+      },
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Who could be best tackles in 2027 NFL draft? Falcons will be looking.",
+          "Falcons could find their new Jake Matthews in coveted 2027 NFL Draft prospect",
+          "Cardinals Take Ole Miss QB Trinidad Chambliss at No. 7 in New 2027 NFL Mock Draft"
+        ]
       }
     ],
-    "last_seen": "2026-10-05",
-    "total": 1,
+    "last_seen": "2026-11-21",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "عام"
+    "category": "رياضة"
   },
   "yankee-score": {
     "slug": "yankee-score",
@@ -207046,8 +207076,8 @@
         "publishable": false,
         "headlines": [
           "اهتمام فرنسى باستعدادات الأقصر لاستقبال كسوف الشمس",
-          "بالصور- محافظ الأقصر يستقبل القنصل العام لفرنسا لبحث تعزيز التعاون السياحي والثقافي",
-          "مسار كسوف القرن 2027.. الأقصر تسجل أطول مدة للظلام الكامل (فيديو)"
+          "مسار كسوف القرن 2027.. الأقصر تسجل أطول مدة للظلام الكامل (فيديو)",
+          "بالصور- محافظ الأقصر يستقبل القنصل العام لفرنسا لبحث تعزيز التعاون السياحي والثقافي"
         ]
       }
     ],
@@ -208607,7 +208637,7 @@
         "headlines": [
           "13 ليلة تعذيب انتهت بقتل أب معاق أمام أطفاله.. حيثيات إعدام \"شياطين الطالبية\" بالجيزة (تفاصيل)",
           "الإعدام لشقيقين في قضية تعذيب غفير من ذوي الإعاقة حتى الموت بالطالبية",
-          "«عذبوه 12 يومًا وأجبروه على ارتداء ملابس نسائية».. الإعدام لمتهمين بقتل عامل من ذوي الهمم بالطالبية"
+          "حيثيات إعدام المتهمين بقتل غفير من ذوي الإعاقة في الطالبية.. عذبوه 13 يوما وأجبروه على ارتداء ملابس زوجته أمام أطفاله"
         ]
       }
     ],
@@ -248681,8 +248711,8 @@
         "date": "2026-11-21",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -462140,16 +462170,31 @@
           "\"بيت الأحلام طلع مش بيتي\".. سيدة مصرية تشعل التواصل",
           "«بيت الأحلام طلع مش بيتي».. قصة «انفصال» تتصدر المنصات"
         ]
+      },
+      {
+        "key": "2026-11-21|sa",
+        "date": "2026-11-21",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "تعز: كيف يعيش الناس في ظل الحرب؟",
+          "من دماج إلى تعز، مَن يحاصر مَن؟",
+          "الحصار الحوثي لمدينة تعز فتح الباب لسوق سوداء تحلّق فيها الأسعار"
+        ]
       }
     ],
-    "last_seen": "2026-11-02",
-    "total": 3,
+    "last_seen": "2026-11-21",
+    "total": 4,
     "countries": [
       "eg",
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "عام"
+    "category": "اقتصاد"
   },
   "fk-jablonec-vs-brighton-hove-albion-fc-standings": {
     "slug": "fk-jablonec-vs-brighton-hove-albion-fc-standings",
@@ -697762,8 +697807,8 @@
         "date": "2026-11-21",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "10000+",
-        "traffic_num": 10000,
+        "traffic": "20000+",
+        "traffic_num": 20000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -773011,8 +773056,8 @@
         "date": "2026-11-21",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -773027,7 +773072,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "nvidia-stock-market": {
@@ -773388,6 +773433,21 @@
         "date": "2026-11-21",
         "country": "eg",
         "country_name": "مصر",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "العملاق الألماني \"باير\".. تسوية دعاوى السرطان بـ 7.25 مليار دولار في الولايات المتحدة",
+          "شركة ألمانية تسببت بمأساة صحية لآلاف الأمريكيين.. كم…",
+          "تسببت بإصابة الآلاف بالسرطان.. شركة تدفع تعويضات 7.25 مليارات دولار"
+        ]
+      },
+      {
+        "key": "2026-11-21|sa",
+        "date": "2026-11-21",
+        "country": "sa",
+        "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
         "category": "حوادث وقضايا",
@@ -773400,11 +773460,12 @@
       }
     ],
     "last_seen": "2026-11-21",
-    "total": 1,
+    "total": 2,
     "countries": [
-      "eg"
+      "eg",
+      "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "حوادث وقضايا"
   },
   "julie-tkach": {
@@ -773446,8 +773507,8 @@
         "date": "2026-11-21",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+700",
-        "traffic_num": 700,
+        "traffic": "+1200",
+        "traffic_num": 1200,
         "category": "عام",
         "publishable": false,
         "headlines": [
@@ -773462,7 +773523,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 700,
+    "peak_traffic": 1200,
     "category": "عام"
   },
   "mamu-lakers": {
@@ -773480,9 +773541,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
+          "Watch: Luka Doncic Appears To Go On NSFW Rant Over Sandro Mamukelashvili’s Poor Defense",
           "Video shows Luka Doncic profanely calling out 1 Lakers teammate",
-          "Lakers need a Sandro Mamukelashvili bounce-back to ease Luka Doncic's burden",
-          "Lakers Need Mamukelashvili to Ease Doncic's Scoring Burden"
+          "Doncic Criticizes Mamukelashvili During Lakers Win Over Kings"
         ]
       }
     ],
@@ -773562,8 +773623,8 @@
         "date": "2026-11-21",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
         "headlines": [
@@ -773578,7 +773639,65 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 1000,
     "category": "رياضة"
+  },
+  "fbi-ten-most-wanted-fugitives": {
+    "slug": "fbi-ten-most-wanted-fugitives",
+    "name": "fbi ten most wanted fugitives",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Canada Offers $250K Reward for Murder Suspect on FBI’s Most Wanted List",
+          "Images of Canada's most wanted are AI-generated. How do we know they're accurate?",
+          "AI used to create virtual models of Canada’s 25 most wanted criminals"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "is-jimmy-de-santa-in-gta-6": {
+    "slug": "is-jimmy-de-santa-in-gta-6",
+    "name": "is jimmy de santa in gta 6",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Is Niko Bellic in GTA 6?",
+          "78 Minutes After the Ending Alone: GTA6 Credits by the Numbers",
+          "Is Niko Bellic in GTA 6?"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
   }
 }

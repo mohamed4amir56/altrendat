@@ -74546,10 +74546,10 @@
         "date": "2026-11-21",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "موعد إجازة نصف العام الدراسى وامتحانات الفصل الدراسي الأول",
           "التعليم تحسم موعد امتحانات نصف العام 2027.. لا اختبارات في هذه الأيام",
@@ -86019,12 +86019,11 @@
         "country_name": "السعودية",
         "traffic": "500+",
         "traffic_num": 500,
-        "category": "شخصية",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "GTA 6: المبيعات تبلغ 3.8 مليارات دولار في يوم واحد",
-          "مبيعات لعبة \"جي تي إيه\" في يومها الأول \"تُدخلها التاريخ\".. ما القصة؟",
-          "جنون \"جي تي إيه 6\".. 3.79 مليار دولار في يوم"
+          "\"جي تي إيه 6\" تشلّ المكاتب وتُغرق الإنترنت: ملايين اللاعبين يهربون إلى \"فايس سيتي\" الافتراضية"
         ]
       }
     ],
@@ -86035,7 +86034,7 @@
       "sa"
     ],
     "peak_traffic": 2000,
-    "category": "شخصية"
+    "category": "حوادث وقضايا"
   },
   "united-arab-emirates-vs-qatar": {
     "slug": "united-arab-emirates-vs-qatar",
@@ -105578,16 +105577,31 @@
           "Emirates president Tim Clark says fuel, not demand, is squeezing profits after a 68% first-half fall, as African routes stay busy and he calls for $70 oil",
           "Emirates posts USD 903 million half-year profit as Iran war hits earnings"
         ]
+      },
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Emirates opens new First Class Lounge at Dubai Airport as Dh400 million makeover begins",
+          "Emirates commits to a new era of First Class Lounges with AED 400 million commitment",
+          "Emirates opens a temporary Première Classe lounge at Dubai Airport"
+        ]
       }
     ],
-    "last_seen": "2026-11-19",
-    "total": 7,
+    "last_seen": "2026-11-21",
+    "total": 8,
     "countries": [
       "sa",
       "world"
     ],
     "peak_traffic": 5000,
-    "category": "سياسة"
+    "category": "عام"
   },
   "immigration-detention": {
     "slug": "immigration-detention",
@@ -195031,15 +195045,30 @@
           "Tate brothers used 'lover boy' model to exploit women, Britain says",
           "Tate brothers exploited women using 'lover boy' model, UK alleges"
         ]
+      },
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Andrew Tate Accused of Rape by Ex-Far Right Influencer in New Documentary",
+          "Lauren Southern Says Her ‘Girl Against Feminism’ Image Made It Feel Impossible to Speak After She Alleges Andrew Tate Raped Her",
+          "Andrew Tate Accused of Rape by Ex-Far Right Influencer in New Documentary"
+        ]
       }
     ],
-    "last_seen": "2026-10-06",
-    "total": 1,
+    "last_seen": "2026-11-21",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 1000,
-    "category": "فن ومشاهير"
+    "category": "حوادث وقضايا"
   },
   "cbs-news": {
     "slug": "cbs-news",
@@ -206845,8 +206874,8 @@
         "date": "2026-11-21",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -230724,15 +230753,30 @@
           "Brent falls as Iran's president discusses mediation with Pakistani army chief",
           "Pakistan army chief in Tehran: Can diplomacy prevent new US-Iran fighting?"
         ]
+      },
+      {
+        "key": "2026-11-21|sa",
+        "date": "2026-11-21",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Gold price in Pakistan for today, November 21, 2026",
+          "Overseas investors repatriate $293m in October",
+          "Foreign firms repatriate $1.16b out of Pakistan"
+        ]
       }
     ],
-    "last_seen": "2026-10-21",
-    "total": 2,
+    "last_seen": "2026-11-21",
+    "total": 3,
     "countries": [
       "sa"
     ],
     "peak_traffic": 1100,
-    "category": "سياسة"
+    "category": "اقتصاد"
   },
   "luke-grimes-comments-on-kevin-costner": {
     "slug": "luke-grimes-comments-on-kevin-costner",
@@ -248074,9 +248118,9 @@
         "category": "عام",
         "publishable": true,
         "headlines": [
-          "Saudi-led coalition repels three Houthi missiles; IRGC says downed US drone",
-          "Houthi attack on tower at King Abdullah Financial District causes damage, Saudi Civil Defense says",
-          "Coalition: Operational Capabilities Facilitating Weapons and Ballistic Missile Smuggling at Port of Hodeidah Targeted"
+          "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+          "Coalition: Operational Capabilities Facilitating Weapons and Ballistic Missile Smuggling at Port of Hodeidah Targeted",
+          "Saudi PIF Tower hit in Riyadh attack, sources say"
         ]
       }
     ],
@@ -261831,13 +261875,13 @@
         "date": "2026-11-21",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "فن ومشاهير",
         "publishable": false,
         "headlines": [
-          "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
           "Grand Theft Auto VI Now Available",
+          "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
           "Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion in Day One Retail Sales"
         ]
       }
@@ -261848,7 +261892,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "فن ومشاهير"
   },
   "الدوري-المصري": {
@@ -281420,10 +281464,25 @@
           "‘I’m a smalltown girl with a terrible disability. He’s a Hollywood superstar. But we’ve been laughing since we met’: Emma Fogarty and Colin Farrell on their extraordinary story",
           "Colin Farrell Admits Even He Doesn’t Know the “Depths or Nuance” of His 23-Year-Old Son’s Health Battle"
         ]
+      },
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Eddie Vedder, Hozier, Tom Holland and Colin Farrell Help Raise Over $3 Million for EB Research Partnership at New York Gala",
+          "Eddie Vedder, Hozier and Celebrity Supporters Help Raise Over $3 Million for EB Research",
+          "The Slightest Touch to California Schemin’: the seven best films to watch on TV this week"
+        ]
       }
     ],
-    "last_seen": "2026-11-16",
-    "total": 3,
+    "last_seen": "2026-11-21",
+    "total": 4,
     "countries": [
       "world"
     ],
@@ -322778,10 +322837,25 @@
           "صلاح يصنع ربيع طرابزون المالي ويهيمن على حنين جيرارد.. وترقب قاري تحت إشراف بطل العالم!",
           "بعد مكاسبه من صفقة صلاح.. إنجاز مالي جديد في طرابزون سبور"
         ]
+      },
+      {
+        "key": "2026-11-21|eg",
+        "date": "2026-11-21",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "أرقام مرعبة وتقييم استثنائي.. محمد صلاح يتصدر قائمة الأفضل في الدوري التركي",
+          "صراع ناري.. ترتيب محمد صلاح في قائمة هدافي الدوري التركي (إنفوجراف)",
+          "«سوفا سكور» تكشف عن أفضل لاعب في الدوري التركي.. موقف محمد صلاح"
+        ]
       }
     ],
-    "last_seen": "2026-10-14",
-    "total": 2,
+    "last_seen": "2026-11-21",
+    "total": 3,
     "countries": [
       "eg"
     ],
@@ -350165,15 +350239,30 @@
           "Arnold Schwarzenegger and Maria Shriver’s Christmas tradition lives on years after divorce",
           "Arnold Schwarzenegger Reveals Why He Still Spends Christmas With Maria Shriver 15 Years After Their Split"
         ]
+      },
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Chris Pratt Recalls Lying to Jimmy Buffett and Arnold's Santa Portrait",
+          "‘The Terminal List’ Star, Chris Pratt, Proved His ’90s Country Cred to Garth Brooks (& Failed Jimmy Buffett)",
+          "Arnold Schwarzenegger Finds a Very Personal Way To Play Santa for Grandkids"
+        ]
       }
     ],
-    "last_seen": "2026-11-18",
-    "total": 6,
+    "last_seen": "2026-11-21",
+    "total": 7,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "ديني"
+    "category": "فن ومشاهير"
   },
   "philadelphia-vs-chicago": {
     "slug": "philadelphia-vs-chicago",
@@ -454396,9 +454485,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "'I've found a nice game plan' - Phillips backs his method after second straight Test ton",
-          "New Zealand aim to play long game to break India momentum",
-          "Why spinners will hold key in the Wellington Test"
+          "NZ vs IND, 1st Test, India tour of New Zealand 2026 - Commentary",
+          "Jaiswal and Rahul turn Test India's way after 216-run Nicholls-Phillips stand",
+          "“Been a Lot of Fun”: Glenn Phillips Reflects on Historic 3-Format Century Sweep vs India"
         ]
       }
     ],
@@ -492546,10 +492635,25 @@
           "NBA Trade Rumors: Draymond Green, ‘Seismic’ Jamal Murray Talk, Bulls’ Big Chip & More",
           "The Ringer’s Zach Lowe this week brought up a Murray …"
         ]
+      },
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Jamal Murray is keeping the Nuggets' title hopes alive but he needs more help",
+          "Jamal Murray, Nikola Jokic’s unique spot in hoop history | NBA Insider",
+          "Is Nuggets’ Jamal Murray playing the best basketball of his career? He doesn’t think so."
+        ]
       }
     ],
-    "last_seen": "2026-11-11",
-    "total": 3,
+    "last_seen": "2026-11-21",
+    "total": 4,
     "countries": [
       "world"
     ],
@@ -614021,10 +614125,25 @@
           "Jessica Chastain transforms into Jessica Rabbit in sultry new photos",
           "Jessica Chastain transforms into Jessica Rabbit for Flaunt"
         ]
+      },
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Heartland Hunts Down the No. 1 Spot in This Week’s Top 10",
+          "‘Heartland’ Review: Jessica Chastain’s Country-Music Mystery",
+          "Netflix’s New ‘Yellowstone’ Replacement Is Officially a No. 1 Streaming Hit"
+        ]
       }
     ],
-    "last_seen": "2026-11-18",
-    "total": 4,
+    "last_seen": "2026-11-21",
+    "total": 5,
     "countries": [
       "world"
     ],
@@ -687911,15 +688030,30 @@
           "All About ‘Chicago Fire’ Star Taylor Kinney’s Wife & Their Relationship",
           "After 15 years, Joe Minoso, ’04 exits “Chicago Fire”"
         ]
+      },
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "What Happened to Severide and Burke on Chicago Fire? Why They're Missing",
+          "Is Kelly Severide Leaving ‘Chicago Fire’? What Happened to Taylor Kinney’s Character",
+          "Chicago Fire sidelined its best character, but at least the show had a good reason"
+        ]
       }
     ],
-    "last_seen": "2026-11-12",
-    "total": 1,
+    "last_seen": "2026-11-21",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "فن ومشاهير"
+    "category": "عام"
   },
   "noel-fielding": {
     "slug": "noel-fielding",
@@ -768844,8 +768978,8 @@
         "publishable": true,
         "headlines": [
           "Harry Kane: England and Bayern Munich striker out for 'few months' with ankle ligament tear",
-          "Bayern Munich-Cologne: Vincent Kompany returns to the dugout after illness but must take Harry Kane off injured",
-          "Match report: Bundesliga, FC Bayern v 1. FC Köln"
+          "Match report: Bundesliga, FC Bayern v 1. FC Köln",
+          "Bayern Munich-Cologne: Vincent Kompany returns to the dugout after illness but must take Harry Kane off injured"
         ]
       }
     ],
@@ -771166,8 +771300,8 @@
         "publishable": false,
         "headlines": [
           "فى ختام مهرجان القاهرة السينمائى«أربعة ناقص ثلاثة» يحصد الهرم الذهبى.. وجائزة «إنجاز العمر» لسعيد شيمى",
-          "ظهور مميز لحازم إيهاب على السجادة الحمراء بختام مهرجان القاهرة السينمائى.. فيديو",
-          "فيلم أسرارنا يحصد جائزة يوسف شاهين لأفضل فيلم قصير في مهرجان القاهرة السينمائي"
+          "أسرارنا يحصد جائزة يوسف شاهين لأفضل فيلم قصير في ختام القاهرة السينمائي",
+          "25 صورة| تألق لافت للنجمات على الريد كاربت في ختام مهرجان القاهرة السينمائي"
         ]
       }
     ],
@@ -771449,8 +771583,8 @@
         "date": "2026-11-21",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -771465,7 +771599,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "عصابة": {
@@ -771478,8 +771612,8 @@
         "date": "2026-11-21",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -771494,7 +771628,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "patrick-petty-obituary": {
@@ -771596,12 +771730,12 @@
         "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "رياضة",
+        "category": "عام",
         "publishable": false,
         "headlines": [
-          "NZ vs IND, 1st Test, India tour of New Zealand 2026 - Commentary",
-          "Jaiswal and Rahul turn Test India's way after 216-run Nicholls-Phillips stand",
-          "Rahul eyes ton as India ease to 239-1 against New Zealand at lunch"
+          "'I'm just battling with myself' - Jitesh Sharma on his road back to India",
+          "Syed Mushtaq Ali Trophy — Jitesh Sharma goes back to basics on road to recovery",
+          "'I should do better than them...': Baroda wicketkeeper-batter Jitesh Sharma"
         ]
       }
     ],
@@ -771611,6 +771745,89 @@
       "sa"
     ],
     "peak_traffic": 200,
+    "category": "عام"
+  },
+  "sacramento-kings-vs-lakers-timeline": {
+    "slug": "sacramento-kings-vs-lakers-timeline",
+    "name": "sacramento kings vs lakers timeline",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": []
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
     "category": "رياضة"
+  },
+  "donnie-gta-6": {
+    "slug": "donnie-gta-6",
+    "name": "donnie gta 6",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "GTA 6's Hidden Drug System Is Surprisingly Deep",
+          "Can you save Donnie in GTA 6?",
+          "How to Take Drugs in Grand Theft Auto 6? Where to Find Drugs, Explained"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "tourist-trap-gta-6": {
+    "slug": "tourist-trap-gta-6",
+    "name": "tourist trap gta 6",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "'Tourist Trap' Mission Walkthrough Guide - GTA 6",
+          "GTA 6 Tourist Trap Mission Walkthrough",
+          "GTA 6 Tourist Trap walkthrough"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
   }
 }

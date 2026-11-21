@@ -74639,11 +74639,11 @@
         "traffic": "5000+",
         "traffic_num": 5000,
         "category": "شخصية",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "House Democrats round out leadership roster",
-          "Hakeem Jeffries and his team will seek to deliver a new era for House Democrats",
-          "Incoming House majority leader Katherine Clark stresses Democratic unity"
+          "زيادة جديدة تنتظر أصحاب المعاشات بداية من يناير 2027.. تفاصيل",
+          "زيادة الحد الأدنى للمعاشات في يناير 2027.. من هم المستفيدون وهل تشمل الجميع؟",
+          "بعد زيادة أجر الاشتراك التأميني في يناير 2027.. كيف تحسب معاشك؟"
         ]
       }
     ],
@@ -105515,7 +105515,7 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "اقتصاد",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "هبوط قوي ومفاجئ في سعر الذهب بأكثر من 110 جنيهات.. ماذا حدث بالصاغة؟",
           "سعر الذهب اليوم في مصر يخسر 85 جنيها بداية تعاملات السبت",
@@ -246272,10 +246272,25 @@
           "The Scout Squad: Our top picks for FPL Gameweek 6",
           "DEFCONs, Set Pieces, Budget Picks, Wildcards? Six Key FPL Questions Ahead of GW6"
         ]
+      },
+      {
+        "key": "2026-11-21|eg",
+        "date": "2026-11-21",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Arteta warns Arsenal players over FPL team news leak",
+          "Lineup leaks in fantasy soccer game give Premier League clubs cause for consternation",
+          "Tzolis FPL Leak: Arteta Stops Arsenal Players Picking Themselves (20 November)"
+        ]
       }
     ],
-    "last_seen": "2026-10-09",
-    "total": 1,
+    "last_seen": "2026-11-21",
+    "total": 2,
     "countries": [
       "eg"
     ],
@@ -663650,15 +663665,11 @@
         "date": "2026-11-21",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
-        "category": "ديني",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
         "publishable": false,
-        "headlines": [
-          "مواعيد صرف مرتبات شهر نوفمبر 2026.. متى يبدأ الصرف؟",
-          "موعد صرف رواتب ديسمبر 2026.. الإيداع الأحد 27 ديسمبر دون تأجيل",
-          "حافز الجدارات للمعلمين في نوفمبر 2026"
-        ]
+        "headlines": []
       }
     ],
     "last_seen": "2026-11-21",
@@ -663666,8 +663677,8 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 1000,
-    "category": "ديني"
+    "peak_traffic": 500,
+    "category": "عام"
   },
   "مبنى": {
     "slug": "مبنى",
@@ -697757,8 +697768,8 @@
         "publishable": false,
         "headlines": [
           "Australia vs England LIVE: First T20, MCG, Melbourne - cricket score, commentary & updates",
-          "Harper's Australia debut a much-needed good story",
-          "Australia wins the toss and will bowl in the 1st of 5 T20 matches against England"
+          "Australia v England: first men’s T20 cricket international – live",
+          "Harper's Australia debut a much-needed good story"
         ]
       },
       {
@@ -773540,5 +773551,34 @@
     ],
     "peak_traffic": 100,
     "category": "عام"
+  },
+  "afghanistan-a-vs-bangladesh-a": {
+    "slug": "afghanistan-a-vs-bangladesh-a",
+    "name": "afghanistan a vs bangladesh a",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|sa",
+        "date": "2026-11-21",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Bangladesh A vs Afghanistan A Live Streaming: When And Where To Watch Men's Asia Cup Rising Stars Match",
+          "Bangladesh A vs Afghanistan A, free match prediction 21 November 2026",
+          "November 23, 2026: Afghanistan A vs Hong Kong Cricket Prediction Market"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
   }
 }

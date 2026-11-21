@@ -210108,12 +210108,12 @@
         "date": "2026-11-21",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "5000+",
-        "traffic_num": 5000,
-        "category": "شخصية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "\"هبطت اضطراريا بعد إصابتها\".. إيران تعلن استهداف مقاتلة أمريكية وواشنطن تنفي",
+          "إيران.. الجيش الأمريكي ينفي مزاعم طهران باستهداف مقاتلة “إف-16” وحريق بناقلة نفط في هرمز",
           "\"سنتكوم\" ترد على مزاعم إيرانية باستهداف مقاتلة \"إف- 16\" أمريكية",
           "مقاتلة فوق الخليج.. الجيش الأميركي ينفي الرواية الإيرانية"
         ]
@@ -210125,8 +210125,8 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 5000,
-    "category": "شخصية"
+    "peak_traffic": 2000,
+    "category": "حوادث وقضايا"
   },
   "emergency": {
     "slug": "emergency",
@@ -261532,14 +261532,14 @@
         "date": "2026-11-21",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "category": "رياضة",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
         "publishable": false,
         "headlines": [
-          "DIRECT. Nice - PSG, Ligue 1 : Hakimi rate le cadre !",
           "Grosse inquiétude pour Désiré Doué, sorti sur civière",
-          "Match : Nice/PSG (1-2), le but de Doué en video"
+          "Match : Nice/PSG (1-2), le but de Doué en video",
+          "VIDÉO. \"J’ai envie de chialer\" Alors qu'il venait de redonner l'avantage à son équipe, un international français évacué sur civière, gravement blessé à un genou"
         ]
       },
       {
@@ -261547,14 +261547,14 @@
         "date": "2026-11-21",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
-        "category": "عام",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "سياسة",
         "publishable": false,
         "headlines": [
           "Grosse inquiétude pour Désiré Doué, sorti sur civière",
-          "EN DIRECT - Nice-PSG : les Parisiens renversent des Aiglons sonnés en moins d’une minute",
-          "DIRECT. Nice - PSG, Ligue 1 : Hakimi rate le cadre !"
+          "Match : Nice/PSG (1-2), le but de Doué en video",
+          "VIDÉO. \"J’ai envie de chialer\" Alors qu'il venait de redonner l'avantage à son équipe, un international français évacué sur civière, gravement blessé à un genou"
         ]
       }
     ],
@@ -261566,7 +261566,7 @@
       "world"
     ],
     "peak_traffic": 10000,
-    "category": "عام"
+    "category": "سياسة"
   },
   "أسامة-فيصل": {
     "slug": "أسامة-فيصل",
@@ -285177,10 +285177,25 @@
           "باركولا يشيد بمحمد صلاح: أسطورة ليفربول وإنجازاته العظيمة",
           "باركولا يرفض السير على خطى صلاح: أريد كتابة تاريخي الخاص مع ليفربول"
         ]
+      },
+      {
+        "key": "2026-11-21|eg",
+        "date": "2026-11-21",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "بطولة إنكلترا: إيراولا مدرب ليفربول يقر بأفضلية لبوتشيتينو قبل مواجهة مانشستر يونايتد",
+          "مواعيد مباريات الجولة 11 فى الدوري الإنجليزي.. مرموش يواجه إيبسويتش تاون",
+          "مؤتمر إيراولا: لا أوافق على تسريب مران مانشستر يونايتد.. وثلاثي ليفربول جاهز"
+        ]
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 3,
+    "last_seen": "2026-11-21",
+    "total": 4,
     "countries": [
       "eg",
       "sa"
@@ -493184,10 +493199,25 @@
           "No LeBron, no problem as Sixers roll on",
           "Joel Embiid posts a triple-double to help secure the home win against the Bucks"
         ]
+      },
+      {
+        "key": "2026-11-21|sa",
+        "date": "2026-11-21",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "LeBron and East-Leading 76ers host Bucks in Saturday primetime",
+          "Live updates: Sixers look to extend winning streak against struggling Bucks",
+          "76ers vs. Bucks prediction, odds, line: Proven model reveals NBA picks for Saturday, Nov. 21"
+        ]
       }
     ],
-    "last_seen": "2026-10-25",
-    "total": 1,
+    "last_seen": "2026-11-21",
+    "total": 2,
     "countries": [
       "sa"
     ],
@@ -709989,15 +710019,30 @@
           "Houston Quarterback Conner Weigman Is Raising His Draft Stock Significantly",
           "CU Buffs vs. Houston football: How to watch, keys to the game, odds, staff predictions"
         ]
+      },
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Sources - Houston QB Conner Weigman out; Henderson to start",
+          "UH quarterback Conner Weigman listed as questionable against West Virginia with undisclosed injury",
+          "Follow along: Houston quarterback Conner Weigman out for matchup in Morgantown"
+        ]
       }
     ],
-    "last_seen": "2026-11-14",
-    "total": 1,
+    "last_seen": "2026-11-21",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
-    "category": "اقتصاد"
+    "peak_traffic": 500,
+    "category": "عام"
   },
   "jim-miller": {
     "slug": "jim-miller",
@@ -778063,7 +778108,7 @@
         "headlines": [
           "Match Summary",
           "Premier League predictions & Jones Knows' best bets: Newcastle vs Arsenal, Liverpool vs Manchester United and much more!",
-          "Licensable picture: Premier League - Newcastle United v Arsenal"
+          "Latest. Confirmed line-up: Miley and Willock in for Gunners game"
         ]
       }
     ],
@@ -778369,7 +778414,7 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Manchester City 1-1 Fulham: Elliot Anderson and Ayyoub Bouaddi leave Enzo Maresca with Enzo Fernandez dilemma",
+          "Manchester City 1-1 Fulham: Anderson rescues point for hosts",
           "Manchester City held by Fulham, Bournemouth move fourth",
           "Manchester City 1-1 Fulham highlights & rate the players"
         ]
@@ -778415,14 +778460,30 @@
         "headlines": [
           "Tottenham 2-0 Ipswich: Luca Williams-Barnett stars as Spurs win",
           "Analysis: De Zerbi rewarded for faith in youth",
-          "‘Superstar’ – Luca Williams-Barnett likened to George Best as he emulates Gareth Bale feat"
+          "Luca Williams-Barnett deals second blow to Mykhalio Mudryk in days as Tottenham fans furious"
+        ]
+      },
+      {
+        "key": "2026-11-21|sa",
+        "date": "2026-11-21",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Team news | Bergvall, Savio, Udogie available, Tel and Tosin out of Ipswich clash",
+          "Roberto De Zerbi reveals how long Mathys Tel will be missing for Tottenham",
+          "Licensable picture: Premier League - Tottenham Hotspur v Ipswich Town"
         ]
       }
     ],
     "last_seen": "2026-11-21",
-    "total": 2,
+    "total": 3,
     "countries": [
       "eg",
+      "sa",
       "world"
     ],
     "peak_traffic": 1000,
@@ -778502,8 +778563,8 @@
         "publishable": false,
         "headlines": [
           "مشاهدة مباراة إشبيلية وريال بيتيس اليوم في الدوري الإسباني.. بث مباشر",
-          "فيديو - جماهير إشبيلية تُشعل الأجواء قبل الديربي",
-          "ديربي إشبيلية يكشف نجاح الصفقات الجديدة في اختبار القمة"
+          "ديربي الأندلس.. العراقة لم تشفع لإشبيلية وبيتيس",
+          "فيديو - جماهير إشبيلية تُشعل الأجواء قبل الديربي"
         ]
       },
       {
@@ -778518,7 +778579,7 @@
         "headlines": [
           "مشاهدة مباراة إشبيلية وريال بيتيس اليوم في الدوري الإسباني.. بث مباشر",
           "ديربي الأندلس.. العراقة لم تشفع لإشبيلية وبيتيس",
-          "لويس غارسيا: ديربي الأندلس هو «ديربي الديربيات»"
+          "الدوري الإسباني (لا ليغا): التشكيلات المتوقعة لمباراة إشبيلية وريال بيتيس"
         ]
       }
     ],
@@ -778548,7 +778609,7 @@
         "headlines": [
           "ما القنوات الناقلة لمباراة بارما وروما في الدوري الإيطالي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
           "ما القنوات الناقلة لمباراة كومو وكالياري في الدوري الإيطالي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
-          "مطاردة على الصدارة..موعد مباراة روما وبارما بالدوري الإيطالي"
+          "روما يحلم بلقب بطل الشتاء.. عودة ديبالا وسفيلار تمنح غاسبيريني دفعة قوية"
         ]
       },
       {
@@ -778593,13 +778654,29 @@
         "headlines": [
           "El derbi que divide a Sevilla: más de un siglo de rivalidad, un cambio de poder y la huella de Álvaro Fidalgo",
           "En vivo: el Sevilla de Gabriel Suazo recibe al Betis de Manuel Pellegrini en el derbi",
-          "Guridi y Castrín, novedades en el Sevilla y Pellegrini sorprende con Ruibal en punta"
+          "Er Senpi y Espe viven el derbi sevillano en directo desde DAZN GO"
+        ]
+      },
+      {
+        "key": "2026-11-21|eg",
+        "date": "2026-11-21",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "El derbi que divide a Sevilla: más de un siglo de rivalidad, un cambio de poder y la huella de Álvaro Fidalgo",
+          "En vivo: el Sevilla de Gabriel Suazo recibe al Betis de Manuel Pellegrini en el derbi",
+          "Er Senpi y Espe viven el derbi sevillano en directo desde DAZN GO"
         ]
       }
     ],
     "last_seen": "2026-11-21",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 500,
@@ -778720,5 +778797,368 @@
     ],
     "peak_traffic": 100,
     "category": "رياضة"
+  },
+  "sp-500-post-bear-market-rally": {
+    "slug": "sp-500-post-bear-market-rally",
+    "name": "s&p 500 post bear market rally",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100000+",
+        "traffic_num": 100000,
+        "category": "اقتصاد",
+        "publishable": true,
+        "headlines": [
+          "Stocks Skid Into a Correction, as A.I. Worries Intensify",
+          "Stock market enters correction territory Friday amid growing investor fears about AI stocks",
+          "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 100000,
+    "category": "اقتصاد"
+  },
+  "chattanooga-vs-alabama": {
+    "slug": "chattanooga-vs-alabama",
+    "name": "chattanooga vs alabama",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "What channel is Alabama on today? Time, TV schedule, live stream to watch Tide game vs. Chattanooga",
+          "3 Alabama starters ruled out for game against Chattanooga",
+          "Kalen DeBoer updates status of three injured Alabama players before Chattanooga game"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "رياضة"
+  },
+  "montana-vs-montana-state": {
+    "slug": "montana-vs-montana-state",
+    "name": "montana vs montana state",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Snow won’t stop diehard Billings Bobcat from making trip to Brawl of the Wild",
+          "How to watch Montana vs Montana State: Live stream NCAA College Football, TV channel",
+          "Brawl of the Wild forecast: Travel info and a look at how weather impacted previous games"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "aj-ewing": {
+    "slug": "aj-ewing",
+    "name": "aj ewing",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "A.J. Ewing, Mets Agree to Contract Extension, Latest Details Revealed in New MLB Rumors",
+          "A.J. Ewing News: Lands eight-year extension with Mets"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "philadelphia-vs-new-england": {
+    "slug": "philadelphia-vs-new-england",
+    "name": "philadelphia vs new england",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Cavan Sullivan leads Philadelphia Union into playoffs: \"He's not afraid\" | MLSSoccer.com",
+          "Despite their history, Revolution coach Marko Mitrovic, captain Carles Gil confidently enter MLS playoffs",
+          "Revolution gear up for playoff series against Philadelphia Union"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "mo-state-vs-jax-state": {
+    "slug": "mo-state-vs-jax-state",
+    "name": "mo state vs jax state",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Missouri State football vs Jacksonville State live score updates",
+          "Scouting report: What you need to know for Jax State’s matchup with Missouri State",
+          "Photo Gallery: Jax State v Missouri State Gamecock Walk"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "charlotte-vs-tulsa": {
+    "slug": "charlotte-vs-tulsa",
+    "name": "charlotte vs tulsa",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Charlotte vs Tulsa Prediction, Pick, College Football Odds for Saturday, Nov. 21",
+          "Tre Lamb eyes 8-win mark, praises defensive grit",
+          "Tulsa’s Tre Lamb looks to build on bowl eligibility as Golden Hurricane prepare for Charlotte"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
+  },
+  "what-did-russell-brand-say-about-katy-perry": {
+    "slug": "what-did-russell-brand-say-about-katy-perry",
+    "name": "what did russell brand say about katy perry",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Russell Brand Makes Wild Katy Perry Confession In Newly Revealed Deposition",
+          "Katy Perry and Justin Trudeau put on united front in Italy after Russell Brand's bizarre marriage admission",
+          "Katy Perry poses with Justin Trudeau and Emmanuel Macron in Paris as unsealed court documents bring Russe"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
+  },
+  "treasure-hours-fortnite": {
+    "slug": "treasure-hours-fortnite",
+    "name": "treasure hours fortnite",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|world",
+        "date": "2026-11-21",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "What Time Are Fortnite Treasure Hours Today? November 21 Start and End Times",
+          "Fortnite Adds New Way to Get the Pirate Shop Token",
+          "Weekly Distractions: Pirate’s life edition"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
+  },
+  "aston-villa-vs-sunderland-afc-standings": {
+    "slug": "aston-villa-vs-sunderland-afc-standings",
+    "name": "aston villa vs sunderland a.f.c. standings",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|eg",
+        "date": "2026-11-21",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Team news for Black Cats battle",
+          "Licensable picture: Premier League - Aston Villa v Sunderland",
+          "Aston Villa 0-0 Sunderland: goalless draw at Villa Park"
+        ]
+      },
+      {
+        "key": "2026-11-21|sa",
+        "date": "2026-11-21",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Team news for Black Cats battle",
+          "Licensable picture: Premier League - Aston Villa v Sunderland",
+          "Sunderland news: Analysis - Black Cats' fight will delight Le Bris"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "أزمة": {
+    "slug": "أزمة",
+    "name": "أزمة",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|eg",
+        "date": "2026-11-21",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "اعتزال موسيالا يهز بايرن ميونخ.. ما حقيقة الإعلان المنتظر؟",
+          "كمباني يدعم موسيالا ضد الرئيس الفخري لبايرن",
+          "مستقبله في مهب الريح.. اجتماع مرتقب بين بايرن وموسيالا"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 1000,
+    "category": "شخصية"
+  },
+  "روبوت": {
+    "slug": "روبوت",
+    "name": "روبوت",
+    "first_seen": "2026-11-21",
+    "appearances": [
+      {
+        "key": "2026-11-21|eg",
+        "date": "2026-11-21",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "منظمات حقوقية تنتقد تأجيل وضع قواعد لاستخدام \"الروبوتات القاتلة\" إلى ما بعد عامين",
+          "مفاوضات شائكة في الأمم المتحدة حول \"الروبوتات القاتلة\" تتجاوز الموعد النهائي",
+          "فشل محادثات الأمم المتحدة حول \"روبوتات قاتلة ذاتية التشغيل\" في التوصل إلى حظر ملزم قانونا"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-21",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

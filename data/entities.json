@@ -178235,7 +178235,7 @@
         "headlines": [
           "ثلاث هجمات قبالة بنغازي.. قوات شرق ليبيا تواجه \"زوارق انقضاضية\" بعد انفجار سفينة روسية",
           "ليبيا.. الكشف عن تفاصيل انفجار استهدف سفينة روسية في بنغازي وحكومة الوحدة تطالب بإنهاء تعدد مراكز القرار",
-          "صدام حفتر يعلن تصدي قوات شرق ليبيا لتهديدات استهدفت بنغازي ومنشآتها البحرية"
+          "هجوم بستة زوارق على ميناء بنغازي.. والجيش الليبي يعترض اثنين"
         ]
       }
     ],
@@ -199492,7 +199492,7 @@
         "headlines": [
           "أول تعليق من والد محمد سامي على شائعات خلافاته مع مي عمر",
           "«بعد الشر».. والدة محمد سامي ترد على شائعات انفصاله عن مي عمر",
-          "ربنا يكفيهم شر خلقه.. والدة المخرج محمد سامي تنفي خبر انفصاله عن مي عمر"
+          "الشائعات تطارد مي عمر ومحمد سامي، ومقربون ينفون انفصالهما"
         ]
       }
     ],
@@ -263873,9 +263873,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Amorim: \"Ramos non contento per il cambio? Non posso rischiare. Ecco perché non ho messo Camarda\"",
-          "Alvini: \"Fatta la partita che dovevamo ma gol evitabili\"",
-          "Milan-Frosinone 5-1, rossoneri al quarto posto"
+          "LIVE Atalanta-Inter 3-4: ancora CDK! Partita incredibile a Bergamo",
+          "Atalanta-Inter moviola: il rigore per l'Inter per tocco di mano di Zappacosta. Cosa è successo",
+          "Atalanta, infortunio nel riscaldamento per Carnesecchi: al suo posto c’è Sportiello"
         ]
       }
     ],
@@ -431643,15 +431643,30 @@
           "Self-learning AI releases NFL picks, score predictions for every Week 9 game",
           "NFL Week 9 ATS picks and expert predictions: Bets and trends for every game"
         ]
+      },
+      {
+        "key": "2026-11-22|world",
+        "date": "2026-11-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Two UW products among favorites for NFL’s Offensive Rookie of the Year",
+          "Chiefs' rookie gets fan nod over Browns Denzel Boston for OROY so far",
+          "Two Washington alums among Offensive Rookie of the Year favorites"
+        ]
       }
     ],
-    "last_seen": "2026-11-08",
-    "total": 3,
+    "last_seen": "2026-11-22",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "رياضة"
+    "category": "عام"
   },
   "gm-stock": {
     "slug": "gm-stock",
@@ -501259,24 +501274,39 @@
         "date": "2026-11-22",
         "country": "eg",
         "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "إنتر يضع تورام في موقف صعب.. لا ضمانات لاستمرار الحكاية!",
+          "توتنهام يزاحم يوفنتوس على صفقة هاكان لاعب إنتر",
+          "4 أندية تتنافس على ضم نجم إنتر ميلان"
+        ]
+      },
+      {
+        "key": "2026-11-23|sa",
+        "date": "2026-11-23",
+        "country": "sa",
+        "country_name": "السعودية",
         "traffic": "100+",
         "traffic_num": 100,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "إنتر يضع تورام في موقف صعب.. لا ضمانات لاستمرار الحكاية!",
-          "4 أندية تتنافس على ضم نجم إنتر ميلان",
+          "توتنهام يزاحم يوفنتوس على صفقة هاكان لاعب إنتر",
           "أربعة أندية تترقب موقف كالهانوغلو وسط تعثر مفاوضات إنتر"
         ]
       }
     ],
-    "last_seen": "2026-11-22",
-    "total": 4,
+    "last_seen": "2026-11-23",
+    "total": 5,
     "countries": [
       "eg",
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "آية": {
@@ -505940,14 +505970,29 @@
           "Bears 30-24 Patriots (Oct 22, 2026) Final Score",
           "Broncos 17-14 Seahawks (Oct 15, 2026) Final Score"
         ]
+      },
+      {
+        "key": "2026-11-22|world",
+        "date": "2026-11-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+10200",
+        "traffic_num": 10200,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Derrick Henry injury update: Latest news on Ravens RB’s status in Week 11 game",
+          "Henry heads to blue tent in fourth quarter vs. CAR",
+          "Ravens RB Derrick Henry exits vs. Panthers to be evaluated for concussion"
+        ]
       }
     ],
-    "last_seen": "2026-10-25",
-    "total": 1,
+    "last_seen": "2026-11-22",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 5000,
+    "peak_traffic": 10200,
     "category": "رياضة"
   },
   "udinese-vs-milan": {
@@ -550384,10 +550429,25 @@
           "NFL Network: Bears acquiring DT Jeffery Simmons from Titans in blockbuster trade",
           "Jeffery Simmons Traded to Bears from Titans, Full Details Revealed for Blockbuster NFL Deal"
         ]
+      },
+      {
+        "key": "2026-11-22|world",
+        "date": "2026-11-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Chicago Bears live updates: Bears to host New Orleans Saints at Soldier Field Sunday",
+          "Bears' Jeffery Simmons says knee injury a non-issue, expects to play vs. Saints",
+          "Jeffery Simmons, Kyle Monangai good to go against Saints | Injury Update"
+        ]
       }
     ],
-    "last_seen": "2026-10-29",
-    "total": 1,
+    "last_seen": "2026-11-22",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -725552,7 +725612,7 @@
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
-          "سعر الذهب اليوم الأحد 22 نوفمبر 2026.. عيار 21 بدون مصنعية بـ 5520 جنيها",
+          "سعر الذهب اليوم الأحد 22 نوفمبر 2026.. عيار 24 بدون مصنعية بـ 6301 جنيه",
           "سعر الذهب اليوم في مصر يرتفع مع بداية تعاملات الأحد",
           "الذهب في مصر يرتفع 70 جنيهًا للجرام خلال تعاملات الأحد"
         ]
@@ -776119,10 +776179,25 @@
           "Joanna Page walks out of I’m a Celebrity camp in tears over star’s behaviour",
           "Mariella Frostrup facts: Age, where she's from, TV career, husband and children revealed"
         ]
+      },
+      {
+        "key": "2026-11-22|world",
+        "date": "2026-11-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "فن ومشاهير",
+        "publishable": true,
+        "headlines": [
+          "I’m A Celeb fans rally behind AJ after emotional showdown with Mariella",
+          "Joanna Page's husband says she was 'on the edge' after I'm A Celebrity row",
+          "I'm a Celebrity fans say one campmate's behaviour is making them 'uncomfortable'"
+        ]
       }
     ],
-    "last_seen": "2026-11-20",
-    "total": 1,
+    "last_seen": "2026-11-22",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -787858,9 +787933,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Miley Cyrus and fiancé Maxx Morando pictured holding hands after wedding rehearsal dinner with her famous family",
-          "Elizabeth Hurley Helped Miley Cyrus, Dad Billy Ray Cyrus Reconnect Before Wedding: Exclusive Source",
-          "Miley Cyrus and Maxx Morando Are Married!"
+          "Miley Cyrus Shares Intimate Kiss with Husband Maxx Morando in First Official Wedding Photos",
+          "Miley Cyrus and Maxx Morando Are Married!",
+          "Miley Cyrus and fiancé Maxx Morando pictured holding hands after wedding rehearsal dinner with her famous family"
         ]
       }
     ],
@@ -793593,8 +793668,8 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Premier League highlights: Liverpool 4-0 Manchester United",
-          "Leny Yoro red card: Man Utd boss Mauricio Pochettino and Kobbie Mainoo angry at sending off for foul on Liverpool's Alexander Isak",
+          "Liverpool 4-0 Man Utd: Mauricio Pochettino endures nightmare start as Leny Yoro's early red card sparks collapse",
+          "Liverpool vs Man Utd: Was red card for Leny Yoro in Premier League the correct decision?",
           "Team news: Confirmed Liverpool line-up v Manchester United"
         ]
       },
@@ -794774,8 +794849,8 @@
         "publishable": false,
         "headlines": [
           "Barcelona Face Athletic Club in Liga F Top Four Clash",
-          "Barcelona Hosts Athletic Club in Liga F Matchday 12",
-          "Barcelona Face Athletic Club in Liga F Leaders Clash"
+          "Pajor scores for the first time since November 8 in Barcelona match — Interia Sport",
+          "Barcelona Hosts Athletic Club in Liga F Matchday 12"
         ]
       }
     ],
@@ -795065,7 +795140,7 @@
         "publishable": false,
         "headlines": [
           "El Getafe, uno de los rivales más especiales para un Kang-in que necesita recuperar gol",
-          "DIRECTO | Getafe 0 - 2 Atlético de Madrid; Descanso en el Coliseum",
+          "El Getafe CF se concentran para enfrentarse al Atlético de Madrid",
           "🚨 Getafe-Atlético: estos son los elegidos de Simeone y Bordalás"
         ]
       },
@@ -795104,14 +795179,14 @@
         "date": "2026-11-23",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "El Getafe, uno de los rivales más especiales para un Kang-in que necesita recuperar gol",
-          "El Getafe CF se concentran para enfrentarse al Atlético de Madrid",
-          "🚨 Getafe-Atlético: estos son los elegidos de Simeone y Bordalás"
+          "🚨 Getafe-Atlético: estos son los elegidos de Simeone y Bordalás",
+          "DIRECTO | Getafe 0 - 2 Atlético de Madrid; Comienza la segunda parte",
+          "Getafe vs Aleti: de los derbi favoritos de España"
         ]
       }
     ],
@@ -795222,8 +795297,8 @@
         "date": "2026-11-22",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "2000+",
-        "traffic_num": 2000,
+        "traffic": "5000+",
+        "traffic_num": 5000,
         "category": "رياضة",
         "publishable": true,
         "headlines": [
@@ -795257,8 +795332,8 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
+          "خيتافي ضد أتلتيكو.. هدف بايينا يحسم مواجهة الدوري الإسباني",
           "سيميوني على بعد انتصار واحد من اعتلاء عرش الليجا",
-          "أتلتيكو مدريد فى اختبار جديد أمام خيتافي لمطاردة صدارة الدوري الإسباني",
           "بعد أزمة المهاجمين.. أتلتيكو مدريد يتحرك لضم صفقة هجومية جديدة"
         ]
       }
@@ -795269,7 +795344,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "رياضة"
   },
   "أتالانتا-ضد-الإنتر": {
@@ -795282,8 +795357,8 @@
         "date": "2026-11-22",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -795319,7 +795394,7 @@
         "headlines": [
           "الإنتر يبحث عن الثاني في أتالانتا",
           "ما القنوات الناقلة لمباراة أتالانتا وإنتر في الدوري الإيطالي 2026-2027؟ وكيف تشاهدها عبر الإنترنت؟",
-          "بالأرقام.. هيمنة تاريخية لإنتر ميلان على أتالانتا في الدوري الإيطالي"
+          "أتالانتا ضد الإنتر.. النيراتزوري يتقدم 2-1 في شوط أول مثير (فيديو)"
         ]
       }
     ],
@@ -795329,7 +795404,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "شخصية"
   },
   "atalanta-vs-inter": {
@@ -795347,9 +795422,9 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "Licensable picture: Soccer 2026: Atalanta Vs Inter",
-          "Inter, Chivu: \"I don't experiment, I manage a group and its problems\"",
-          "🚨 Atalanta-Inter: decision made on Lautaro and Rowe"
+          "Atalanta vs Inter Milan: Italian Serie A stats & head-to-head",
+          "Licensable picture: Atalanta vs Inter - Serie A Enilive - New Balance Arena, Bergamo",
+          "Inter, Chivu: \"I don't experiment, I manage a group and its problems\""
         ]
       },
       {
@@ -795377,9 +795452,9 @@
         "category": "رياضة",
         "publishable": true,
         "headlines": [
-          "Licensable picture: Soccer 2026: Atalanta Vs Inter",
-          "Inter, Chivu: \"I don't experiment, I manage a group and its problems\"",
-          "🚨 Atalanta-Inter: decision made on Lautaro and Rowe"
+          "Atalanta vs Inter Milan: Italian Serie A stats & head-to-head",
+          "Licensable picture: Atalanta BC v FC Internazionale - Serie A Enilive",
+          "Inter, Chivu: \"I don't experiment, I manage a group and its problems\""
         ]
       }
     ],
@@ -795815,8 +795890,8 @@
         "publishable": false,
         "headlines": [
           "تحقيق رسمي في واقعة إجراء جراحة لمريضة مصابة بالإيدز داخل مستشفى خاص بمصر",
-          "نقابة أطباء سوهاج تستدعي طبيبا بعد منشور عن ممارسات مخالفة داخل مستشفى خاص",
-          "صحة سوهاج تحسم الجدل بشأن إجراء جراحة لمريض إيدز وقرار عاجل من المحافظ"
+          "صحة سوهاج تنفي جراحة مريض نقص المناعة.. والمحافظ يوجه بملاحقة مروجي الشائعة",
+          "أزمة داخل مستشفى بسوهاج بسبب مريض مصاب بالإيدز.. تحرك عاجل من نقابة الأطباء"
         ]
       }
     ],
@@ -795827,5 +795902,177 @@
     ],
     "peak_traffic": 100,
     "category": "حوادث وقضايا"
+  },
+  "nfl-standings-cowboys": {
+    "slug": "nfl-standings-cowboys",
+    "name": "nfl standings cowboys",
+    "first_seen": "2026-11-22",
+    "appearances": [
+      {
+        "key": "2026-11-22|world",
+        "date": "2026-11-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Man dies days after fight at Dallas Cowboys game",
+          "Police investigate man's death after alleged altercation at 49ers-Cowboys game",
+          "Family of man who died after altercation at Dallas Cowboys game speaks out about 'tragic accident'"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 5000,
+    "category": "حوادث وقضايا"
+  },
+  "nfl-standings-lions": {
+    "slug": "nfl-standings-lions",
+    "name": "nfl standings lions",
+    "first_seen": "2026-11-22",
+    "appearances": [
+      {
+        "key": "2026-11-22|world",
+        "date": "2026-11-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "NFL Power Rankings: Stacking all 32 teams for Week 11, plus non-QB MVPs",
+          "NFL Power Rankings: Where Do Patrick Mahomes, Chiefs Rank After Week 10?",
+          "NFL power rankings Week 11 shift with Bills, Bengals, Lions win streaks"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "ravens-score": {
+    "slug": "ravens-score",
+    "name": "ravens score",
+    "first_seen": "2026-11-22",
+    "appearances": [
+      {
+        "key": "2026-11-22|world",
+        "date": "2026-11-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Ravens vs. Panthers (22 Nov, 2026) Live Score"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "jags": {
+    "slug": "jags",
+    "name": "jags",
+    "first_seen": "2026-11-22",
+    "appearances": [
+      {
+        "key": "2026-11-22|world",
+        "date": "2026-11-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Inactives: Who's in, who's out for Giants vs. Jaguars",
+          "Chiefs pull Patrick Mahomes (324/3) with 34-7 lead",
+          "Giants-Saints inactives: DT Darius Alexander left off New York’s game day roster"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "afc-playoff-picture": {
+    "slug": "afc-playoff-picture",
+    "name": "afc playoff picture",
+    "first_seen": "2026-11-22",
+    "appearances": [
+      {
+        "key": "2026-11-22|world",
+        "date": "2026-11-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "NFL Playoff Picture 2026: Updated AFC and NFC standings, bracket, tiebreakers for Week 11",
+          "NFL playoff picture, NFL standings update in Week 11",
+          "Fans Make It Sports | Sports. Highlights. News. Now."
+        ]
+      }
+    ],
+    "last_seen": "2026-11-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "nfl-standings-miami-dolphins": {
+    "slug": "nfl-standings-miami-dolphins",
+    "name": "nfl standings miami dolphins",
+    "first_seen": "2026-11-22",
+    "appearances": [
+      {
+        "key": "2026-11-22|world",
+        "date": "2026-11-22",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Miami Dolphins wide receiver Malik Washington moves the chains with one-handed catch on fourth down",
+          "Jaylon Tolbert rushes in for 5-yard TD",
+          "Transcript: WR Jalen Tolbert Press Conference - November 16"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-22",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
   }
 }

@@ -4,7 +4,7 @@
   "name_en": "Saudi Arabia",
   "lang": "ar",
   "flag": "🇸🇦",
-  "generated_at": "2026-11-23T04:01:55.089247+00:00",
+  "generated_at": "2026-11-23T04:31:49.417092+00:00",
   "day": "2026-11-23",
   "trends": [
     {
@@ -1043,15 +1043,15 @@
           "ok": true
         },
         {
-          "title": "مجموعة غولدمان ساكس إنك تصدر توقعاتها لأسعار النفط عام 2027",
-          "url": "https://www.arabictrader.com/ar/news/commodities/236894/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%BA%D9%88%D9%84%D8%AF%D9%85%D8%A7%D9%86-%D8%B3%D8%A7%D9%83%D8%B3-%D8%A5%D9%86%D9%83-%D8%AA%D8%B5%D8%AF%D8%B1-%D8%AA%D9%88%D9%82%D8%B9%D8%A7%D8%AA%D9%87%D8%A7-%D9%84%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%B9%D8%A7%D9%85-2027",
-          "source": "المتداول العربي",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQvgEGSq_1i0FJlyQ3F33uJbDGGyBek5LsnNTpSmFzkw6yTv5ZQ9rCGlSiUCgg",
+          "title": "النفط ينخفض مع عودة إمدادات «هرمز» لمستويات ما قبل الحرب",
+          "url": "https://www.alriyadh.com/2216306",
+          "source": "جريدة الرياض",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRT1VbUIrW2E_nAeTuWRwEUZnEiDKvSOLCnSarcjOkDGKMORaEPu85ByV8cUkc",
           "og_title": "",
           "og_desc": "",
           "og_image": "",
           "ok": false,
-          "error": "HTTPError"
+          "error": "URLError"
         }
       ],
       "category": "شخصية",
@@ -1129,16 +1129,6 @@
           "ok": true
         },
         {
-          "title": "اخبار محافظات اليمن - توقعات حالة الطقس في المحافظات الجنوبية 22 نوفمبر 2026",
-          "url": "https://www.aden-tm.net/news/379083",
-          "source": "عدن تايم",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-2NQ5eV4C4qXbF5_I9ynWXyo5vHQ6jSrKgTBwOu9_69Kq3UOljgitFAOpeeg",
-          "og_title": "اخبار محافظات اليمن - توقعات حالة الطقس في المحافظات الجنوبية 22 نوفمبر 2026",
-          "og_desc": "بيان بدرجات الحرارة المتوقعة في المحافظات الجنوبية: العاصمة عدن (العظمى 33°- الصغرى 27) المكلا (العظمى 32° - الصغرى 26°) سيئون (العظمى 34° - الصغرى 22",
-          "og_image": "https://www.aden-tm.net/UploadFiles/2026/Nov/22/677c8c05-f2a1-4cb8-8865-76ef37ec67b8.jpg",
-          "ok": true
-        },
-        {
           "title": "هبوط حاد للذهب في الأسواق اليمنية.. آخر تحديث بالأسعار",
           "url": "https://marebpress.com/news_details.php?sid=221368",
           "source": "مأرب برس",
@@ -1147,6 +1137,17 @@
           "og_desc": "���� ����� ������ �� ������� ������ɡ ������� ����� ����� ������� ���� ������� ��������.\n���� ��� ����� ����� ����� ������� ��� ��� 3500 ����� �������",
           "og_image": "https://marebpress.com/userimages/2026/11/1795267059blobid0.jpg",
           "ok": true
+        },
+        {
+          "title": "متاجر الذهب في اليمن تحتاط بفارق سعري لمواجهة التقلبات",
+          "url": "https://www.aajsa.com/economy/%D9%85%D8%AA%D8%A7%D8%AC%D8%B1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D8%AA%D8%AD%D8%AA%D8%A7%D8%B7-%D8%A8%D9%81%D8%A7%D8%B1%D9%82-%D8%B3%D8%B9%D8%B1%D9%8A-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%AA%D9%82%D9%84%D8%A8%D8%A7%D8%AA",
+          "source": "العربي الجديد",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfHf356LmkUYBC6vmKNPloxxe3aZZfHFsPED1tHd0PFLhp2j8koKtzO61w8Ik",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         }
       ],
       "category": "شخصية",
@@ -1159,8 +1160,8 @@
     },
     {
       "title": "بنغازي",
-      "traffic": "+300",
-      "traffic_num": 300,
+      "traffic": "200+",
+      "traffic_num": 200,
       "published": "Sun, 22 Nov 2026 19:50:00 -0800",
       "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSjR5_nDkNO-X9GfIe_34E74jb8Oafn_QdOMCaxXXz9rynT3QQmwDnciGOpj7M",
       "image_source": "CNN Arabic",
@@ -1569,13 +1570,13 @@
           "ok": true
         },
         {
-          "title": "رافينيا يتفوق ويامال يتعثر.. أرقام تكشف صراع منفذي ركلات الجزاء في برشلونة",
-          "url": "https://www.yallakora.com/la-liga/3034/news/574517/%D8%B1%D8%A7%D9%81%D9%8A%D9%86%D9%8A%D8%A7-%D9%8A%D8%AA%D9%81%D9%88%D9%82-%D9%88%D9%8A%D8%A7%D9%85%D8%A7%D9%84-%D9%8A%D8%AA%D8%B9%D8%AB%D8%B1-%D8%A3%D8%B1%D9%82%D8%A7%D9%85-%D8%AA%D9%83%D8%B4%D9%81-%D8%B5%D8%B1%D8%A7%D8%B9-%D9%85%D9%86%D9%81%D8%B0%D9%8A-%D8%B1%D9%83%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A1-%D9%81%D9%8A-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9",
-          "source": "يلاكورة",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQHDpFqm60c3HSoWU_yJfbAVy5VYP-ffJvmYPy6B4Z1fN_KXmlQXBL0cMeF-sU",
-          "og_title": "أرقام تكشف صراع منفذي ركلات الجزاء في برشلونة",
-          "og_desc": "يعاني لامين يامال، لاعب برشلونة، من رقم سلبي في ركلات الجزاء، بعدما أهدر ركلة أمام فياريال، في المباراة التي جمعتهما مساء اليوم، في الدوري الإسباني.",
-          "og_image": "https://mediayk.gemini.media/img/yallakora/xlarge/2026/11/22/12026_11_22_15_32.webp",
+          "title": "سقوط متزامن للنجوم.. لعنة ركلات الجزاء تطارد رونالدو ومبابي ويامال",
+          "url": "https://sports.asharq.com/football/123968/%D9%84%D8%B9%D9%86%D8%A9-%D8%B1%D9%83%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A1-%D8%AA%D8%B7%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D9%83%D8%A8%D8%A7%D8%B1-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D9%88%D9%85%D8%A8%D8%A7%D8%A8%D9%8A-%D9%88%D9%8A%D8%A7%D9%85%D8%A7%D9%84/",
+          "source": "الشرق رياضة",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8VWWalkT3zLwpe_6VPEc6eaJVvgkAMa8iyg8B7L87Yrhlc7tBT5lKFGDw8Yc",
+          "og_title": "سقوط متزامن للنجوم.. لعنة ركلات الجزاء تطارد رونالدو ومبابي ويامال",
+          "og_desc": "أثّرت الرياح بشكل كبير على مسار الكرة أثناء ركلة الجزاء التي أهدرها  يامال ضد فياريال.",
+          "og_image": "https://assets-sports.asharq.com/images/articles/1200x630/social-image/smSMNIWq5L_1795368886.jpg",
           "ok": true
         }
       ],
@@ -1640,27 +1641,27 @@
       "traffic": "200+",
       "traffic_num": 200,
       "published": "Sun, 22 Nov 2026 18:40:00 -0800",
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRBmu2IWUxtXupGv4bO_mHUcozdKWeZm01yKeZ74BAnJy6BhEFTjbKz5Rra0vc",
-      "image_source": "The Boston Globe",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQuwCumePv-LXtSqy7Xz-JulmmXHQ6pumUy1IadTXFHt2i5NfBKYOVSJKTpeG4",
+      "image_source": "Dub Nation HQ",
       "news": [
-        {
-          "title": "Celtics at Warriors: Boston looks to rebound after last-second loss",
-          "url": "https://www.bostonglobe.com/2026/11/22/sports/celtics-warriors-preview-november-22/",
-          "source": "The Boston Globe",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRBmu2IWUxtXupGv4bO_mHUcozdKWeZm01yKeZ74BAnJy6BhEFTjbKz5Rra0vc",
-          "og_title": "Celtics at Warriors: Boston looks to rebound after last-second loss - The Boston Globe",
-          "og_desc": "The Celtics suffered a stunning loss in Sacramento last time out.",
-          "og_image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/3LWLQCKO6PQECLMMUP5YNEMQLQ.jpg?auth=1043b550a754c36bdcc7bd7c8947dbe2c012e78421ad0426d105aaedaca9490f&width=1440",
-          "ok": true
-        },
         {
           "title": "Preview: Home cooking without the chef?",
           "url": "https://dubnationhq.com/p/preview-home-cooking-without-the",
           "source": "Dub Nation HQ",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcROoC64zCfbHzfd_G1UdBG-leOCgt9xnxVBICul-8MPy5ub8JV-nsISfbyy4sU",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQuwCumePv-LXtSqy7Xz-JulmmXHQ6pumUy1IadTXFHt2i5NfBKYOVSJKTpeG4",
           "og_title": "Preview: Home cooking without the chef?",
           "og_desc": "Warriors back in SF after a long road trip, but the hits keep on coming",
           "og_image": "https://substackcdn.com/image/fetch/$s_!4ayO!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e9d3446-1ca0-4611-bfc3-056734055b2e_848x549.jpeg",
+          "ok": true
+        },
+        {
+          "title": "Celtics’ struggles persist against Warriors, resulting in longest losing streak in five years",
+          "url": "https://www.bostonherald.com/2026/11/22/celtics-struggles-persist-against-warriors-resulting-in-longest-losing-streak-in-five-years/",
+          "source": "Boston Herald",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfjZpbyzx4vdkloh8Tr-Lzq50OAUldeI4fSjNw5fSdnHf8viepPMHR6K15rL0",
+          "og_title": "Celtics’ struggles persist against Warriors, resulting in longest losing streak in five years",
+          "og_desc": "The Celtics on Saturday night made franchise history by missing 45 3-pointers in a loss to the Kings. Less than 24 hours later, the Celtics did something they hadn’t in five years by losing their fourth game in a row.",
+          "og_image": "https://www.bostonherald.com/wp-content/uploads/2026/11/AP26327097022369-e1795407281240.jpg?w=5590&h=3150",
           "ok": true
         },
         {
@@ -1917,6 +1918,151 @@
       "publishable": false,
       "card": "cards/sa-2026-11-23-دوري-الأبطال.png",
       "published_at": "2026-11-23T02:31:31.598991+00:00"
+    },
+    {
+      "title": "السودان",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Sun, 22 Nov 2026 20:00:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoeUL4KuZrz3IfQPif-F6AjqKwrBvxrWHa4NeV3EYsSvawRYgCoiF3j1RP59M",
+      "image_source": "العربية",
+      "news": [
+        {
+          "title": "مقتل 15 مدنياً بهجوم شنّه متمردون في ولاية واراب في جنوب السودان",
+          "url": "https://www.alarabiya.net/arab-and-world/2026/11/22/%D9%85%D9%82%D8%AA%D9%84-15-%D9%85%D8%AF%D9%86%D9%8A%D8%A7-%D8%A8%D9%87%D8%AC%D9%88%D9%85-%D8%B4%D9%86-%D9%87-%D9%85%D8%AA%D9%85%D8%B1-%D8%AF%D9%88%D9%86-%D9%81%D9%8A-%D9%88%D9%84%D8%A7%D9%8A%D8%A9-%D9%88%D8%A7%D8%B1%D8%A7%D8%A8-%D9%81%D9%8A-%D8%AC%D9%86%D9%88%D8%A8-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
+          "source": "العربية",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoeUL4KuZrz3IfQPif-F6AjqKwrBvxrWHa4NeV3EYsSvawRYgCoiF3j1RP59M",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "مقتل 24 مدنياً بينهم أطفال في هجوم لقوات معارضة جنوب السودان",
+          "url": "https://twaslnews1.twaslnews.com/8143428/",
+          "source": "شبكة تواصل الإخبارية",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQK8yF_kAy1L-zrDzMWSRy_Ka3Z6knwRCeEBPq6jDW17JMyf58VUVRTFyumfZc",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "مقتل 17 شخصًا وإصابة 23 في اشتباكات داخل سوق بجنوب السودان",
+          "url": "https://www.alyaum.com/articles/6691592/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D9%85%D9%82%D8%AA%D9%84-17-%D8%B4%D8%AE%D8%B5%D8%A7-%D9%88%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-23-%D9%81%D9%8A-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%83%D8%A7%D8%AA-%D8%AF%D8%A7%D8%AE%D9%84-%D8%B3%D9%88%D9%82-%D8%A8%D8%AC%D9%86%D9%88%D8%A8-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
+          "source": "صحيفة اليوم السعودية",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWuNYww0CfUCs6UAT0OpF9Wfmk8houW90LPTi6hpnm6WzWXcdDkimVU6j-0f8",
+          "og_title": "مقتل 17 شخصًا وإصابة 23 في اشتباكات داخل سوق بجنوب السودان",
+          "og_desc": "لقي 17 شخصًا مصرعهم وأصيب 23 آخرون، إثر إطلاق نار اندلع داخل سوق في جنوب السودان، الذي يشهد حالة واسعة من الانفلات الأمني، وفق ما أفاد به مصدران إداري وأمني،...",
+          "og_image": "https://www.alyaum.com/uploads/images/2026/11/19/3191752.jpg",
+          "ok": true
+        }
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: مقتل",
+      "publishable": false,
+      "card": "cards/sa-2026-11-23-السودان.png",
+      "published_at": "2026-11-23T04:31:49.417092+00:00"
+    },
+    {
+      "title": "سوريا",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Sun, 22 Nov 2026 19:50:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRbv2J8h6xXomXR2CtcFaEQUVp2orJhNqXlAdWIOYiOYcByO27hHtbVMWtwd3g",
+      "image_source": "العربية",
+      "news": [
+        {
+          "title": "الأمن السوري يضبط شحنة أسلحة معدّة للتهريب إلى لبنان في ريف دمشق",
+          "url": "https://www.alarabiya.net/arab-and-world/syria/2026/11/22/%D8%A7%D9%84%D8%A7%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A-%D9%8A%D8%B6%D8%A8%D8%B7-%D8%B4%D8%AD%D9%86%D8%A9-%D8%A7%D8%B3%D9%84%D8%AD%D8%A9-%D9%85%D8%B9%D8%AF-%D8%A9-%D9%84%D9%84%D8%AA%D9%87%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D9%89-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%81%D9%8A-%D8%B1%D9%8A%D9%81-%D8%AF%D9%85%D8%B4%D9%82",
+          "source": "العربية",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRbv2J8h6xXomXR2CtcFaEQUVp2orJhNqXlAdWIOYiOYcByO27hHtbVMWtwd3g",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "توقيف 3 أشخاص بحوزتهم 264 كيلوجرامًا من المتفجرات",
+          "url": "https://www.al-madina.com/article/1014371/%D8%AF%D9%88%D9%84%D9%8A%D8%A9/%D8%AA%D9%88%D9%82%D9%8A%D9%81-3-%D8%A3%D8%B4%D8%AE%D8%A7%D8%B5-%D8%A8%D8%AD%D9%88%D8%B2%D8%AA%D9%87%D9%85-264-%D9%83%D9%8A%D9%84%D9%88%D8%AC%D8%B1%D8%A7%D9%85%D8%A7-%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%AA%D9%81%D8%AC%D8%B1%D8%A7%D8%AA",
+          "source": "جريدة المدينة",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuKiNdRZTD_o6IzE9alcnHGkCjcR4iJ9zGtZOrUXLbOWQXXWiNMRb3iCZMmvU",
+          "og_title": "توقيف 3 أشخاص بحوزتهم 264 كيلوجرامًا من المتفجرات",
+          "og_desc": "أعلن الجيش اللبناني، أمس، توقيف ثلاثة أشخاص يُشتبه بتورُّطهم في تهريب نحو 264 كيلوجرامًا من المواد المتفجِّرة من سوريا إلى الأراضي اللبنانيَّة، بعد ضبط الشحنة ف",
+          "og_image": "https://cdnx.premiumread.com/?f=jpg&q=80&url=https://www.al-madina.com/uploads/images/2026/11/22/2691969.jpg&w=1200",
+          "ok": true
+        },
+        {
+          "title": "الجيش اللبناني يضبط 264 كجم من المتفجرات وتوقيف 3 أشخاص بتهمة تهريبها من سوريا",
+          "url": "https://ajel.sa/international/1opb8gxug",
+          "source": "عاجل",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTOjPvyspGVWMxP7pAEqoAtpEHC4cAJv4z5Ya4_VqnHJhl2J-4iWVLs79EgEqM",
+          "og_title": "الجيش اللبناني يضبط 264 كجم من المتفجرات وتوقيف 3 أشخاص بتهمة تهريبها من سوريا",
+          "og_desc": "أعلن الجيش اللبناني، اليوم، ضبط 264 كيلوجراما من المواد المتفجرة المهربة من سوريا، وتوقيف 3 مواطنين يُشتبه بتورطهم في عملية التهريب، وذلك خلال عملية أمنية في منطقة الدورة بمشاريع القاع.",
+          "og_image": "https://ajel.sa/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=auto,format=jpeg/https://cdn.ajel.sa/articles/2026-11/Capture-crop-eFFBuHy4.jpg",
+          "ok": true
+        }
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: توقيف",
+      "publishable": false,
+      "card": "cards/sa-2026-11-23-سوريا.png",
+      "published_at": "2026-11-23T04:31:49.417092+00:00"
+    },
+    {
+      "title": "heat vs thunder",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Sun, 22 Nov 2026 19:10:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRsU6ptySjtcXoheg1KA-tr3X8gonWHGkJcU2ONYQVFdkX1OyMThwKorXF5-Ns",
+      "image_source": "ESPN",
+      "news": [
+        {
+          "title": "Bam Adebayo's triple-double ignites Heat's 123-113 victory over Thunder",
+          "url": "https://www.espn.com/nba/story/_/id/50568682/adebayo-triple-double-sparks-shorthanded-heat-victory",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRsU6ptySjtcXoheg1KA-tr3X8gonWHGkJcU2ONYQVFdkX1OyMThwKorXF5-Ns",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Miami blow past Thunder, Hawks down Pistons in NBA action",
+          "url": "https://www.afp.com/en/miami-blow-past-thunder-hawks-down-pistons-nba-action",
+          "source": "AFP.com",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSA4aHwIxmCfc4jHPSlsoA_sQIEaP2jjQM_1XCTN9p00cXg3owvn_j26lU0PEk",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Bam Adebayo wants to keep the Heat's winning streak going after the 7th straight victory",
+          "url": "https://sports.yahoo.com/articles/bam-adebayo-wants-keep-heats-032138932.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJyMoOlyVNcWeE9zfEzLNR8s1owXqx0k0o3SpwVgI0NlFmAQqGlMX2QajVX3M",
+          "og_title": "Bam Adebayo wants to keep the Heat's winning streak going after the 7th straight victory",
+          "og_desc": "The Heat are in their best form this season, as they won their 7th consecutive game on Sunday against the Thunder.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/05bf5decf9eba7d6e5b493aa9bd27fb5d17c0709bbf2055fd9701d0fe65e3bed/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_sporting_news_articles_584%2F00ce3dd4f425b33e660de99090571ef3",
+          "ok": true
+        }
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/sa-2026-11-23-heat-vs-thunder.png",
+      "published_at": "2026-11-23T04:31:49.417092+00:00"
     }
   ]
 }

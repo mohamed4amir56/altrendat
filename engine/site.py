@@ -2848,6 +2848,11 @@ def main():
 
     n_map, n_news = build_sitemaps(urls, news)
 
+    # حد Cloudflare المجاني 20,000 ملف: ننشر الكروت المستخدمة فقط (الأصل في output/cards)
+    import card_prune
+    cards_kept, cards_removed = card_prune.prune(OUT)
+    print("  cards: kept " + str(cards_kept) + ", not published " + str(cards_removed))
+
     print("✓ الموقع جاهز في site/")
     print("  " + str(len(latest)) + " بلد · " + str(n_days) + " صفحة يوم · " +
           str(n_trends) + " خبر · " + str(len(hubs)) + " صفحة موضوع · " +

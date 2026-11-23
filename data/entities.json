@@ -9651,14 +9651,14 @@
         "date": "2026-11-23",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "+222000",
-        "traffic_num": 222000,
+        "traffic": "10000+",
+        "traffic_num": 10000,
         "category": "طقس",
         "publishable": true,
         "headlines": [
-          "Durban weather: Thunderstorms expected as cloudy conditions persist on Monday",
-          "Durban weather: 30°C forecast as afternoon thunderstorms remain possible",
-          "Stray storm possible, otherwise cloudy – Friday weather forecast"
+          "Good morning, Sault Ste. Marie! Here's today's weather!",
+          "Good morning, Elliot Lake! Here's today's weather!",
+          "Good morning, Elliot Lake! Here's today's weather!"
         ]
       }
     ],
@@ -9669,7 +9669,7 @@
       "sa",
       "world"
     ],
-    "peak_traffic": 222000,
+    "peak_traffic": 220100,
     "category": "طقس"
   },
   "إنستاباي": {
@@ -11313,14 +11313,14 @@
         "date": "2026-11-23",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "العقارات وإعادة الإعمار تدفعان التعاون الاقتصادي بين مصر والعراق",
-          "من الاقتصاد إلى السياسة.. ماذا تحمل زيارة الزيدي إلى مصر؟",
-          "رئيس الوزراء يستقبل رئيس مجلس وزراء العراق الشقيقة بمطار القاهرة الدولي"
+          "25 نوفمبر.. مجلس إدارة بنك دبي الإسلامي يناقش فرصة استحواذ استراتيجي",
+          "«دبي الإسلامي» يبحث فرصاً للاستحواذ الأربعاء",
+          "«بلومبيرغ»: مناقشات لدمج بنك دبي الإسلامي مع مصرف الإمارات الإسلامي"
         ]
       }
     ],
@@ -12658,8 +12658,8 @@
         "date": "2026-11-23",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -40731,10 +40731,25 @@
           "تصعيد الهجمات على السفن يقلّص حركة الملاحة في «هرمز»",
           "إصابة ناقلتين في هرمز وإيران تعلن إجراء محادثات مع قطر"
         ]
+      },
+      {
+        "key": "2026-11-23|sa",
+        "date": "2026-11-23",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "محلل سياسي: إيران تعتبر اليورانيوم المخصب ورقة تفاوضية",
+          "قاليباف يدعو لحسم مأزق إيران",
+          "مفاوضات واشنطن وطهران تراوح مكانها.. واليورانيوم جوهر الخلاف"
+        ]
       }
     ],
-    "last_seen": "2026-11-22",
-    "total": 11,
+    "last_seen": "2026-11-23",
+    "total": 12,
     "countries": [
       "eg",
       "sa"
@@ -56387,10 +56402,25 @@
           "سلة – الأهلي يكرر فوزه على الزمالك في دوري المرتبط",
           "الأهلي يكتسح الزمالك بـ 11 انتصار في 37 يوما فقط.. تفاصيل"
         ]
+      },
+      {
+        "key": "2026-11-23|eg",
+        "date": "2026-11-23",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "اتحاد الكرة يتلقى موافقة قطر على استضافة السوبر المصري",
+          "مصدر من رابطة الأندية لـ في الجول: لا صحة لتوجة وفد إلى قطر للاتفاق على إقامة السوبر المصري",
+          "اتجاه لإقامة السوبر المصري في قطر أو السعودية أواخر يناير"
+        ]
       }
     ],
-    "last_seen": "2026-11-13",
-    "total": 3,
+    "last_seen": "2026-11-23",
+    "total": 4,
     "countries": [
       "eg"
     ],
@@ -68305,10 +68335,25 @@
           "Oracle Stock Slides as AI Trade Swoons",
           "Oracle: The Party Is Almost Over (NYSE:ORCL)"
         ]
+      },
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Larry Ellison No Longer Among World’s 10 Richest Billionaires As Oracle Stock Plummets",
+          "No Fear Even If AI Data Center Business Drops to Zero: Bernstein Says Oracle (ORCL.US) Is Undervalued, Maintains $325 Price Target",
+          "The Biggest Fear Around Oracle Could Soon End. Wall Street Sees ORCL Stock Surging 100% From Here."
+        ]
       }
     ],
-    "last_seen": "2026-11-06",
-    "total": 5,
+    "last_seen": "2026-11-23",
+    "total": 6,
     "countries": [
       "world"
     ],
@@ -132545,15 +132590,30 @@
           "Sanders Calls for 'Fundamental and Immediate Reform' to Democratic Party If It Wins Elections",
           "Bernie Sanders responds to Trump calling him \"still sharp\" and \"still crazy\""
         ]
+      },
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Hakeem Jeffries outlines healthcare areas where Democrats \"can explore coming together\" with Trump",
+          "Democrats want ‘Medicare for More.’ Then comes the hard part",
+          "Hakeem Jeffries willing to cross political aisle to work on Democrats’ agenda"
+        ]
       }
     ],
-    "last_seen": "2026-11-03",
-    "total": 5,
+    "last_seen": "2026-11-23",
+    "total": 6,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "سياسة"
+    "category": "عام"
   },
   "newcastle-crash": {
     "slug": "newcastle-crash",
@@ -213102,10 +213162,25 @@
           "رسالة محمد الجبالي الى اللاعبين قبل لقاء الزمالك اليوم",
           "خريطة إذاعة مباراة الزمالك والجيش الرواندي في دوري أبطال أفريقيا"
         ]
+      },
+      {
+        "key": "2026-11-23|eg",
+        "date": "2026-11-23",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "تشكيل الزمالك المتوقع.. أحمد شريف يقود الهجوم.. وظهور ثنائي أجنبي أمام الجونة",
+          "غياب 7 لاعبين عن الزمالك فى مواجهة الجونة بالدوري اليوم",
+          "محمود بسيوني حكما لمباراة الجونة والزمالك"
+        ]
       }
     ],
-    "last_seen": "2026-10-24",
-    "total": 2,
+    "last_seen": "2026-11-23",
+    "total": 3,
     "countries": [
       "eg"
     ],
@@ -228091,10 +228166,25 @@
           "Today’s NYT Strands answers, clues, and hints on November 18 (puzzle #990)",
           "NYT Strands Sports Edition Hints & Answers for Friday, November 20, 2026 (Puzzle #31)"
         ]
+      },
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "NYT Strands Hints for November 23, 2026",
+          "Today’s NYT Strands Hints, Spangram and Answers for Monday, Nov. 23, #995",
+          "Today’s NYT ‘Strands’ Hints, Spangram and Answers for Sunday, November 22, 2026"
+        ]
       }
     ],
-    "last_seen": "2026-11-20",
-    "total": 6,
+    "last_seen": "2026-11-23",
+    "total": 7,
     "countries": [
       "world"
     ],
@@ -289694,10 +289784,25 @@
           "News Analysis 17 November 2026 | Latest News & Current Affairs",
           "Top rice news: Kerala Shortage, Japan Floods & India's Rice Export"
         ]
+      },
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "India Pledges $1.61 Billion to Nepal as China Courts Kathmandu",
+          "Nepal PM Balendra Shah to visit India, meet Modi",
+          "Nepal’s rapper-turned-PM seals aid deal with India’s Narendra Modi"
+        ]
       }
     ],
-    "last_seen": "2026-11-18",
-    "total": 5,
+    "last_seen": "2026-11-23",
+    "total": 6,
     "countries": [
       "sa",
       "world"
@@ -379005,10 +379110,25 @@
           "السنغال تجهض فرحة السودان في الوقت القاتل",
           "المغرب يتصدر مجموعته.. المنتخبات المتأهلة إلى كأس أمم أفريقيا 2027"
         ]
+      },
+      {
+        "key": "2026-11-23|sa",
+        "date": "2026-11-23",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "\"كاس\" تكشف موعد إصدار قرارها بشأن مباراة المغرب والسنغال | CNN Arabic | CNN",
+          "الثلاثاء.. حسم النزاع بين المغرب والسنغال على لقب كأس أفريقيا",
+          "أيام تفصل عن حكم «الطاس».. وسيناريو إعادة نهائي أمم إفريقيا 2025 يربك «الكاف»"
+        ]
       }
     ],
-    "last_seen": "2026-11-18",
-    "total": 3,
+    "last_seen": "2026-11-23",
+    "total": 4,
     "countries": [
       "eg",
       "sa"
@@ -405901,10 +406021,25 @@
           "أحدث أخبار مصر والعالم",
           "روجينا تخطف الأنظار برقصة عفوية على السجادة الحمراء في مهرجان الجونة (فيديو)"
         ]
+      },
+      {
+        "key": "2026-11-23|eg",
+        "date": "2026-11-23",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "بالفيديو.. روجينا تكشف كواليس خلافها مع والدها: \"قالي يا أنا يا التمثيل\"",
+          "روجينا: تعرضت لحروب فنية وقعدت في البيت سنوات بسبب زواجي من أشرف زكي",
+          "علاقتها انقطعت بوالدها بسبب التمثيل.. روجينا تفتح قلبها بأسرار لأول مرة عن حياتها قبل الشهرة"
+        ]
       }
     ],
-    "last_seen": "2026-10-18",
-    "total": 1,
+    "last_seen": "2026-11-23",
+    "total": 2,
     "countries": [
       "eg"
     ],
@@ -420177,10 +420312,25 @@
           "Super Micro's stock is falling even harder than Nvidia's",
           "Super Micro Computer: Q1 Earnings Had Plenty to Cheer and Plenty to Worry About"
         ]
+      },
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Super Micro Computer, Inc. (SMCI) is Attracting Investor Attention: Here is What You Should Know",
+          "Super Micro Just Dropped 33% in a Month After a Record Quarter. Is It Time to Sell, or Load Up?",
+          "Super Micro Falls 4%, Dell and Hewlett Packard Enterprise Slide 2%: Do New U.S. Export Curbs Deepen Super Micro's China Problem?"
+        ]
       }
     ],
-    "last_seen": "2026-11-12",
-    "total": 3,
+    "last_seen": "2026-11-23",
+    "total": 4,
     "countries": [
       "world"
     ],
@@ -474491,7 +474641,7 @@
         "headlines": [
           "لماذا تعرض الذهب لهبوط حاد بعد انهيار أسهم الذكاء الاصطناعي؟تعرف على أسباب التراجع التاريخي لأسهم الذكاء الاصطناعي وكيف ألحقت بالذهب خسائر فادحة؟",
           "ارتفاع أسعار الذهب بنحو 3% مع التركيز على بيانات التضخم الأمريكية",
-          "الذهب ينتعش بعد أكبر خسارة أسبوعية في 8 أشهر"
+          "الذهب يرتد 2.5% من أدنى مستوى في 14 شهراً ويتجاوز 3600 دولار"
         ]
       }
     ],
@@ -514629,10 +514779,25 @@
           "منصة QUREO للبرمجة والذكاء الاصطناعي.. تعليمات مهمة لطلاب أولى ثانوي",
           "تعليم الأقصر يوضح آليات تفعيل منصتي «كويريو» و«الثقافة المالية»"
         ]
+      },
+      {
+        "key": "2026-11-23|eg",
+        "date": "2026-11-23",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "منصة كيريو .. تعرف على الموعد النهائي لاستكمال التدريبات لطلاب أولى وتانية ثانوي",
+          "تحذير لطلاب أولى وتانية ثانوي بمصر.. آخر موعد لتدريبات منصة كيريو 2026",
+          "تحذير لطلاب أولى وتانية ثانوي قبل إغلاق منصة كيريو.. آخر موعد لاستكمال التدريبات الخميس المقبل"
+        ]
       }
     ],
-    "last_seen": "2026-10-29",
-    "total": 3,
+    "last_seen": "2026-11-23",
+    "total": 4,
     "countries": [
       "eg"
     ],
@@ -556037,10 +556202,25 @@
           "Strategy Is Worth Less Than Its Bitcoin, Trump Media May Have To Sell",
           "Strategy Sinks 26% in a Week as MSCI Drops It. Saylor: “Seller Exhaustion Will Come Long Before Saylor Exhaustion”"
         ]
+      },
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "MSTR Stock Jumps In Premarket As Bitcoin Reclaims $61K After Brutal Nasdaq Sell-Off",
+          "Strategy (MSTR) Stock Looks Cheap Relative To Book Value",
+          "Strategy stock reflects leveraged Bitcoin holdi..."
+        ]
       }
     ],
-    "last_seen": "2026-11-20",
-    "total": 2,
+    "last_seen": "2026-11-23",
+    "total": 3,
     "countries": [
       "world"
     ],
@@ -597539,10 +597719,25 @@
           "Why CrowdStrike Holdings Stock Flew While the Market Flopped Today",
           "Cantor Fitzgerald Raises Its CrowdStrike Target to $275. Is It Still Too Low?"
         ]
+      },
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "CrowdStrike to Buy Zscaler in $43.9 Billion Stock Swap",
+          "CrowdStrike bets on network security with $43.9 billion Zscaler deal",
+          "CrowdStrike explores acquisition of Zscaler – report"
+        ]
       }
     ],
-    "last_seen": "2026-11-20",
-    "total": 3,
+    "last_seen": "2026-11-23",
+    "total": 4,
     "countries": [
       "world"
     ],
@@ -766867,8 +767062,8 @@
         "publishable": false,
         "headlines": [
           "من الملاعب إلى للحبس.. القصة الكاملة للقبض على لاعب الأهلي السابق",
-          "من هو نجم الأهلي المصري السابق الذي تم القبض عليه؟",
-          "لاعب الأهلي السابق يستأنف على حكم حبسه 3 سنوات، ما القصة؟"
+          "القبض على لاعب سابق بالأهلي لتنفيذ حكم قضائي في جناية تهديد",
+          "القبض على لاعب كرة قدم تنفيذا لحكم قضائي"
         ]
       }
     ],
@@ -771637,15 +771832,30 @@
           "The Democrats Who Washington Never Saw Coming",
           "How “wave babies” took over Congress"
         ]
+      },
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "Indiana Election Results",
+          "Missouri Proposition A Election Results: 2025 Congressional Redistricting Map",
+          "DesJarlais concedes Tennessee 4th Congressional District to Democrat Victoria Broderick"
+        ]
       }
     ],
-    "last_seen": "2026-11-19",
-    "total": 1,
+    "last_seen": "2026-11-23",
+    "total": 2,
     "countries": [
       "world"
     ],
     "peak_traffic": 500,
-    "category": "حوادث وقضايا"
+    "category": "سياسة"
   },
   "stetson-vs-louisville": {
     "slug": "stetson-vs-louisville",
@@ -802424,8 +802634,8 @@
         "publishable": true,
         "headlines": [
           "Pip assessments need 'fundamental overhaul', report to say",
-          "Timms review: Disability benefits could be tailored for each claim",
-          "Pip review will call for overhaul rather than scrapping benefit for under-25s"
+          "Burnham plans to revive Starmer’s disability benefits cuts",
+          "Timms review: Disability benefits could be tailored for each claim"
         ]
       }
     ],
@@ -802563,23 +802773,39 @@
         "date": "2026-11-23",
         "country": "sa",
         "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "تصعيد خطير.. ميدفيديف لا يستبعد توجيه ضربة نووية",
+          "مسؤول روسي: نحن على حافة المواجهة النووية.. ولن نوجّه ضربة إلا بعد تقييم شامل",
+          "هجوم بنغازي بين الاستنزاف والردع.. ما حدود التلويح الروسي بالنووي؟"
+        ]
+      },
+      {
+        "key": "2026-11-23|eg",
+        "date": "2026-11-23",
+        "country": "eg",
+        "country_name": "مصر",
         "traffic": "200+",
         "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "تصعيد خطير.. ميدفيديف لا يستبعد توجيه ضربة نووية",
-          "مسؤول روسي: نحن على حافة المواجهة النووية.. ولن نوجّه ضربة إلا بعد تقييم شامل",
-          "مدفيديف: أوكرانيا والناتو تسببا شكليًا بمواقف تتيح لروسيا إمكانية توجيه ضربة نووية"
+          "هجوم بنغازي بين الاستنزاف والردع.. ما حدود التلويح الروسي بالنووي؟",
+          "مسؤول روسي: نحن على حافة المواجهة النووية.. ولن نوجّه ضربة إلا بعد تقييم شامل"
         ]
       }
     ],
     "last_seen": "2026-11-23",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "وليد-الصمعاني": {
@@ -802594,13 +802820,9 @@
         "country_name": "السعودية",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
-        "headlines": [
-          "وزير العدل: سنطلق مشروع محكمة تنفيذ افتراضية خلال الأشهر المقبلة.. ونعمل على تغيير مفهوم الجلسات القضائية",
-          "\"الصمعاني\": تحويل 20 مبنى لخدمة المستفيدين غير المتعاملين مع التقنية",
-          "المصدر: الامتثال - 22/ نوفمبر/ 2026"
-        ]
+        "headlines": []
       }
     ],
     "last_seen": "2026-11-23",
@@ -802609,7 +802831,7 @@
       "sa"
     ],
     "peak_traffic": 100,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "jack-campbell": {
     "slug": "jack-campbell",
@@ -802795,13 +803017,13 @@
         "date": "2026-11-23",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "التجاري الدولي يطلق “CIB Pay” للدفع عبر هواتف الأندرويد بدون بطاقة بلاستيكية",
-          "البنك المركزى يطلق خدمات ترميز بطاقات الدفع على تطبيقات المحمول الـAndroid",
+          "المركزي يعلن إتاحة الدفع اللاتلامسي عبر هواتف \"أندرويد\" ببطاقات الدفع بعد نجاح خدمة \"أبل بي\"",
+          "التجاري الدولي – مصر يطلق “CIB Pay” للدفع عبر هواتف الأندرويد بدون بطاقة بلاستيكية",
           "كيفية تفعيل NBE Tap & Pay من البنك الأهلي المصري والدفع بالموبايل عبر NFC خطوة بخطوة"
         ]
       }
@@ -802811,7 +803033,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "ميناء-بنغازي": {
@@ -802855,11 +803077,12 @@
         "country_name": "السعودية",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "دول وأماكن",
+        "category": "عام",
         "publishable": false,
         "headlines": [
-          "Seattle judge set to move forward on Trump immigration case",
-          "Air France reopens US flights to passengers hit by travel ban"
+          "Travel ban imposed on Nagad administrator Motasim Billah",
+          "ACC seeks travel ban on Nagad administrator Motasem Billah",
+          "Seattle judge set to move forward on Trump immigration case"
         ]
       }
     ],
@@ -802869,6 +803092,151 @@
       "sa"
     ],
     "peak_traffic": 100,
-    "category": "دول وأماكن"
+    "category": "عام"
+  },
+  "iran-war-hormuz": {
+    "slug": "iran-war-hormuz",
+    "name": "iran war hormuz",
+    "first_seen": "2026-11-23",
+    "appearances": [
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
+          "Iran war updates: Navy says tankers ablaze near Hormuz after hitting mines",
+          "The U.A.E. Is Shuttling Oil Past Iran in Risky Hormuz Operation"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "عام"
+  },
+  "gta6-chapter-3": {
+    "slug": "gta6-chapter-3",
+    "name": "gta6 chapter 3",
+    "first_seen": "2026-11-23",
+    "appearances": [
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "How Long Is Chapter 3 in GTA 6? All Missables and Mission List",
+          "The Cartel Heist Walkthrough",
+          "GTA 6 Chapter 3 Mission List: Every Mission in Order & Point of No Return"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "عام"
+  },
+  "شاحنة": {
+    "slug": "شاحنة",
+    "name": "شاحنة",
+    "first_seen": "2026-11-23",
+    "appearances": [
+      {
+        "key": "2026-11-23|eg",
+        "date": "2026-11-23",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "الهلال الأحمر يطلق قافلة «زاد العزة» 317",
+          "اليوم السابع: مصر تطلق قافلة جديدة من المساعدات إلى غزة",
+          "تحريك دفعات جديدة من شاحنات المساعدات الإنسانية إلى قطاع غزة عبر معبر رفح"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-23",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
+  },
+  "bangladesh-national-cricket-team-vs-south-africa-national-cricket-team-match-sco": {
+    "slug": "bangladesh-national-cricket-team-vs-south-africa-national-cricket-team-match-sco",
+    "name": "bangladesh national cricket team vs south africa national cricket team match scorecard",
+    "first_seen": "2026-11-23",
+    "appearances": [
+      {
+        "key": "2026-11-23|sa",
+        "date": "2026-11-23",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "'It's quite a smooth transition'- Markram on stepping in for Bavuma",
+          "South Africa vs Bangladesh, 2nd Test: Injuries won't take the sting out of Centurion Test",
+          "Markram seeks big score at Centurion as Proteas face Bangladesh"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-23",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 10000,
+    "category": "رياضة"
+  },
+  "مارسيلو-بروزوفيتش": {
+    "slug": "مارسيلو-بروزوفيتش",
+    "name": "مارسيلو بروزوفيتش",
+    "first_seen": "2026-11-23",
+    "appearances": [
+      {
+        "key": "2026-11-23|sa",
+        "date": "2026-11-23",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "بروزوفيتش وفيرمينيو يغيبان أمام النصر",
+          "النصر يستقبل هدايا السد.. 5 غيابات تضرب الفريق القطري",
+          "بحضور ساديو ماني.. النصر يطوي صفحة الكلاسيكو ويبدأ تحضيراته لموقعة السد القطري آسيويًا"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-23",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 100,
+    "category": "شخصية"
   }
 }

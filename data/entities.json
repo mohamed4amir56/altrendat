@@ -24550,14 +24550,14 @@
         "date": "2026-11-24",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "100+",
+        "traffic_num": 100,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "الجدعان: إدراج دعم المواطنين ضمن الراتب يعزز قدرتهم على الاقتراض البنكي",
-          "وزير المالية يوضح الفرق بين دعم حساب المواطن وزيادة الرواتب والبدلات.. ويكشف أيهما أكثر فائدة للمواطن",
-          "ميزانية 2027.. محمد بن سلمان يتحدث عن اقتصاد السعودية وتطورات المنطقة | CNN Arabic | CNN"
+          "الصحفي عبدالجبار الجريري يطالب بإنصاف الجنود الحضارم وتحسين رواتبهم المتدنية",
+          "السليحات: المالية النيابية ستوصي بزيادة جديدة للرواتب",
+          "حقيقة زيادة رواتب متقاعدي الضمان الاجتماعي في الأردن.. هل تشملهم زيادة الـ30 دينارا؟"
         ]
       }
     ],
@@ -381964,25 +381964,40 @@
         "date": "2026-11-24",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "رياضة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
           "رسميًا.. كاس تعلن منتخب السنغال بطلًا لأمم أفريقيا 2025",
-          "المغرب يرفض قرار \"كاس\" ويتمسك بمواصلة المسارات القانونية",
-          "أول تعليق من ساديو ماني بعد استعادة السنغال لقب كأس أمم أفريقيا 2025"
+          "\"كاس\" تجرد المغرب من لقب أمم إفريقيا 2025 وتمنحه للسنغال",
+          "رئيس الاتحاد السنغالي: سحب كأس أفريقيا من المغرب \"إنصاف\" للرياضة"
+        ]
+      },
+      {
+        "key": "2026-11-24|sa",
+        "date": "2026-11-24",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "محكمة \"كاس\" تعيد لقب كأس إفريقيا 2025 إلى السنغال",
+          "المغرب يحتج على قرار «كاس» ويتجه للطعن فيه",
+          "المحكمة الرياضية تعيد لقب كأس الأمم الإفريقية للسنغال وتلغي قرار كاف بمنحه للمغرب"
         ]
       }
     ],
     "last_seen": "2026-11-24",
-    "total": 6,
+    "total": 7,
     "countries": [
       "eg",
       "sa"
     ],
-    "peak_traffic": 1000,
-    "category": "رياضة"
+    "peak_traffic": 2000,
+    "category": "حوادث وقضايا"
   },
   "caf-confederation-cup": {
     "slug": "caf-confederation-cup",
@@ -454525,16 +454540,31 @@
           "Electronic Arts to Shed 400 Jobs, Shut Down BioWare to Cut Costs",
           "BioWare Update"
         ]
+      },
+      {
+        "key": "2026-11-24|world",
+        "date": "2026-11-24",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "فن ومشاهير",
+        "publishable": false,
+        "headlines": [
+          "Dragon Age's former boss says that poor management from EA led to BioWare shutting down because 'the options on the table were all terrible'",
+          "EA should sell the Mass Effect IP straight to the community, Shepard actor Jennifer Hale says: \"You cannot buy that kind of goodwill\"",
+          "Jennifer Hale proposes selling Mass Effect to a fan collective"
+        ]
       }
     ],
-    "last_seen": "2026-10-22",
-    "total": 2,
+    "last_seen": "2026-11-24",
+    "total": 3,
     "countries": [
       "sa",
       "world"
     ],
     "peak_traffic": 20000,
-    "category": "تقنية"
+    "category": "فن ومشاهير"
   },
   "levante---athletic": {
     "slug": "levante---athletic",
@@ -626437,15 +626467,30 @@
           "Candace Cameron Bure gives verdict on Special Forces co-star George Santos",
           "Ex-cohost Candace Cameron Bure returns to ‘The View,’ tells stars it was ‘difficult’ to do"
         ]
+      },
+      {
+        "key": "2026-11-24|world",
+        "date": "2026-11-24",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "FC Cincinnati to honor Fiona the hippo at Saturday’s MLS Cup Playoffs Game 2",
+          "Fiona the hippo to be honored by FC Cincinnati with tifo after untimely death",
+          "Witness recounts what happened when hat landed in Fiona's Cincinnati Zoo habitat"
+        ]
       }
     ],
-    "last_seen": "2026-11-16",
-    "total": 3,
+    "last_seen": "2026-11-24",
+    "total": 4,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "فن ومشاهير"
+    "category": "حوادث وقضايا"
   },
   "أيك-ضد-الريال": {
     "slug": "أيك-ضد-الريال",
@@ -630579,8 +630624,8 @@
         "date": "2026-11-24",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "500+",
-        "traffic_num": 500,
+        "traffic": "100+",
+        "traffic_num": 100,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -630595,7 +630640,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 500,
+    "peak_traffic": 100,
     "category": "شخصية"
   },
   "ليل-خرمس": {
@@ -680494,10 +680539,25 @@
           "Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11%",
           "Micron: The $300 Nightmare And The $1,500 Opportunity (NASDAQ:MU)"
         ]
+      },
+      {
+        "key": "2026-11-24|world",
+        "date": "2026-11-24",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "اقتصاد",
+        "publishable": false,
+        "headlines": [
+          "Why Did Micron Technology Stock Fall?",
+          "Why Micron Stock Dove Today",
+          "Micron: You Can't Argue With The Price (NASDAQ:MU)"
+        ]
       }
     ],
-    "last_seen": "2026-11-09",
-    "total": 1,
+    "last_seen": "2026-11-24",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -782997,10 +783057,25 @@
           "الأردن يدرس حجب GTA 6 لحماية الأطفال",
           "من مبيعات تاريخية إلى مشاهد عنف.. لماذا تمثل GTA 6 حدثًا عالميًا؟"
         ]
+      },
+      {
+        "key": "2026-11-24|sa",
+        "date": "2026-11-24",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "GTA 6 تحقق أكبر إطلاق في تاريخ بلايستيشن.. 683 مليون ساعة لعب",
+          "جراند ثفت أوتو 6 تحطم الأرقام القياسية وإدارة ترامب تستغلها فتتعرض للسخرية",
+          "وِدبوش تُبقي سهم Take-Two Inter. على قائمة أفضل أفكارها عقب إطلاق GTA VI"
+        ]
       }
     ],
     "last_seen": "2026-11-24",
-    "total": 5,
+    "total": 6,
     "countries": [
       "eg",
       "sa"
@@ -802941,10 +803016,25 @@
           "Guy Fieri Shares Birthday Tribute for Late Father Jim, Who Died in 2024: ‘Miss Him Every Day’",
           "Guy Fieri Honors His Late Father With A Heartbreaking Tribute On Instagram: ‘Miss Him Everyday’"
         ]
+      },
+      {
+        "key": "2026-11-24|world",
+        "date": "2026-11-24",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Guy Fieri's favorite restaurant in America is in Chicago, ranking says",
+          "Guy Fieri Shares Birthday Tribute for Late Father Jim, Who Died in 2024: ‘Miss Him Every Day’",
+          "Guy Fieri’s heartbreaking post has fans sending prayers: ‘He is looking down’"
+        ]
       }
     ],
-    "last_seen": "2026-11-22",
-    "total": 1,
+    "last_seen": "2026-11-24",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -818171,8 +818261,8 @@
         "date": "2026-11-24",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
@@ -818754,8 +818844,8 @@
         "date": "2026-11-24",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -818770,7 +818860,7 @@
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "christie-miller": {
@@ -818783,14 +818873,14 @@
         "date": "2026-11-24",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "1000+",
-        "traffic_num": 1000,
+        "traffic": "2000+",
+        "traffic_num": 2000,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "Influencer, 60, Announces Her Own Death in Pre-Recorded Video, 4 Years After Stage 4 Breast Cancer Diagnosis",
-          "Influencer Christie Miller Announces Her Own Death at 60 After Cancer Battle",
-          "Influencer Christie Miller, 60, announces her own death in tragic video after four-year breast cancer battle"
+          "Influencer Christie Miller, 60, announces her own death in tragic video after four-year breast cancer battle",
+          "Influencer Christie Miller Announces Her Own Death at 60 After Cancer Battle"
         ]
       }
     ],
@@ -818799,7 +818889,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 1000,
+    "peak_traffic": 2000,
     "category": "حوادث وقضايا"
   },
   "aldi-festive-holiday-merchandise-release": {
@@ -818841,12 +818931,12 @@
         "date": "2026-11-24",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "تقنية",
         "publishable": false,
         "headlines": [
-          "Microsoft explains tech failures that triggered global outage",
+          "EXCLUSIVE: Microsoft declares 'Code Red' after historic outage, internal memos show",
           "Video: Microsoft’s C.E.O. Satya Nadella Addresses Global Outlook Outage",
           "Microsoft mega outage: Report reveals testing gaps and emails that never arrived"
         ]
@@ -818857,7 +818947,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "تقنية"
   },
   "galatasaray-vs-aston-villa": {
@@ -818870,10 +818960,40 @@
         "date": "2026-11-24",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "1000+",
+        "traffic_num": 1000,
         "category": "رياضة",
         "publishable": false,
+        "headlines": [
+          "Team news for Galatasaray encounter",
+          "Champions League: Lookman out, Osimhen doubtful · SNA",
+          "Licensable picture: Aston Villa training session ahead of UEFA Champions League match against Galatasaray"
+        ]
+      },
+      {
+        "key": "2026-11-24|world",
+        "date": "2026-11-24",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+65000",
+        "traffic_num": 65000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Galatasaray vs Aston Villa: UEFA Champions League stats & head-to-head",
+          "Aston Villa's Unai Emery on Galatasaray pitch fear: 'I don't know' how bad it is",
+          "Aston Villa defender Ian Maatsen warns Unai Emery's side to expect tough Champions League test against 'best team in Turkiye' Galatasaray"
+        ]
+      },
+      {
+        "key": "2026-11-24|sa",
+        "date": "2026-11-24",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "+2200",
+        "traffic_num": 2200,
+        "category": "رياضة",
+        "publishable": true,
         "headlines": [
           "Team news for Galatasaray encounter",
           "Champions League: Lookman out, Osimhen doubtful · SNA",
@@ -818882,11 +819002,13 @@
       }
     ],
     "last_seen": "2026-11-24",
-    "total": 1,
+    "total": 3,
     "countries": [
-      "eg"
+      "eg",
+      "sa",
+      "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 65000,
     "category": "رياضة"
   },
   "برستو-أحمدي": {
@@ -818904,6 +819026,7 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
+          "معاقبة مغنية إيرانية بـ74 جلدة بعد ظهورها دون حجاب في حفل مصور | CNN Arabic | CNN",
           "74 جلدة للمغنية الإيرانية \"برستو أحمدي\" أنها غنت بدون حجاب",
           "تقرير: تنفيذ حكم بالجلد بحق مغنية إيرانية وفرقتها بسبب حفل على يوتيوب"
         ]
@@ -818936,11 +819059,27 @@
           "عام / التحالف: تعرض أحد أبراج المركز المالي لهجوم إرهابي جبان",
           "الأمين العام لمجلس التعاون يندد بالهجوم الحوثي على برج في الرياض"
         ]
+      },
+      {
+        "key": "2026-11-24|eg",
+        "date": "2026-11-24",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "السعودية تعلن تعرض أحد أبراج المركز المالي لهجوم إرهابي",
+          "تضرر أعلى ناطحة سحاب في الرياض عقب استهدافها للمرة الثانية بأقل من أسبوع",
+          "السعودية تعلن إصابة 11 شخصا في \"هجوم إرهابي\" طال أحد أبراج المركز المالي بالرياض"
+        ]
       }
     ],
     "last_seen": "2026-11-24",
-    "total": 1,
+    "total": 2,
     "countries": [
+      "eg",
       "sa"
     ],
     "peak_traffic": 10000,
@@ -818962,7 +819101,8 @@
         "publishable": false,
         "headlines": [
           "الأرصاد: ضباب كثيف وسحب رعدية.. إليكم أهم المناطق المتأثرة",
-          "حالة الطقس في السعودية اليوم: أمطار رعدية وضباب على الشرقية"
+          "حالة الطقس في السعودية اليوم: أمطار رعدية وضباب على الشرقية",
+          "إنذارات جوية في السعودية تشمل الطائف والباحة والشرقية.. أمطار ورياح وضباب الثلاثاء"
         ]
       }
     ],
@@ -818973,5 +819113,166 @@
     ],
     "peak_traffic": 100,
     "category": "طقس"
+  },
+  "orlando-pirates-vs-golden-arrows": {
+    "slug": "orlando-pirates-vs-golden-arrows",
+    "name": "orlando pirates vs golden arrows",
+    "first_seen": "2026-11-24",
+    "appearances": [
+      {
+        "key": "2026-11-24|world",
+        "date": "2026-11-24",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Betway Premiership Preview: Lamontville Golden Arrows",
+          "Orlando Pirates coach Abdeslam Ouaddou wary of Mandla Ncikazi reunion ahead of Golden Arrows clash - 'He knows exactly how we work'",
+          "Pirates shift focus to Arrows’ premiership clash"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-24",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 20000,
+    "category": "رياضة"
+  },
+  "college-football-playoff": {
+    "slug": "college-football-playoff",
+    "name": "college football playoff",
+    "first_seen": "2026-11-24",
+    "appearances": [
+      {
+        "key": "2026-11-24|world",
+        "date": "2026-11-24",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "2026-27 Week 12 College Football Playoff, bowl projections",
+          "College Football Playoff rankings predictions, latest bracket: How far will Indiana, UCLA fall? - The Athletic",
+          "College Football Playoff rankings predictions: Bracket, top 25 projections for Week 13"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-24",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "غلطة-سراي-ضد-أستون-فيلا": {
+    "slug": "غلطة-سراي-ضد-أستون-فيلا",
+    "name": "غلطة سراي ضد أستون فيلا",
+    "first_seen": "2026-11-24",
+    "appearances": [
+      {
+        "key": "2026-11-24|eg",
+        "date": "2026-11-24",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "جاكسون يقود تشكيل أستون فيلا في مواجهة جالاتا سراي",
+          "مدرب غلاطة سراي: إيمري من أنجح المدربين في أوروبا",
+          "إيمري يقلل من تأثير حالة ملعب غلاطة سراي قبل مواجهة دوري الأبطال"
+        ]
+      },
+      {
+        "key": "2026-11-24|sa",
+        "date": "2026-11-24",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "إيمري يتجاهل الجدل حول أرضية ملعب غلاطة سراي",
+          "غلطة سراي ضد أستون فيلا في دوري أبطال أوروبا: كل ما تحتاج معرفته",
+          "جاكسون يقود تشكيل أستون فيلا في مواجهة جالاتا سراي"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-24",
+    "total": 2,
+    "countries": [
+      "eg",
+      "sa"
+    ],
+    "peak_traffic": 2000,
+    "category": "رياضة"
+  },
+  "ضريبة-القيمة-المضافة": {
+    "slug": "ضريبة-القيمة-المضافة",
+    "name": "ضريبة القيمة المضافة",
+    "first_seen": "2026-11-24",
+    "appearances": [
+      {
+        "key": "2026-11-24|eg",
+        "date": "2026-11-24",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "شخصية",
+        "publishable": true,
+        "headlines": [
+          "«المالية» تصدر تعديلات على اللائحة التنفيذية لقانون ضريبة القيمة المضافة",
+          "المالية تعدل ضريبة القيمة المضافة وتقر تيسيرات جديدة للمصانع والمشروعات الصغيرة",
+          "تعديل اللائحة التنفيذية لقانون الضريبة على القيمة المضافة"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-24",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 2000,
+    "category": "شخصية"
+  },
+  "النصر-ضد-السد": {
+    "slug": "النصر-ضد-السد",
+    "name": "النصر ضد السد",
+    "first_seen": "2026-11-24",
+    "appearances": [
+      {
+        "key": "2026-11-24|eg",
+        "date": "2026-11-24",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "النصر يستضيف السد بهدف غسل أحزان ثلاثية الأهلي",
+          "بعد غيابه أمام الأهلي.. ماني يدعم النصر في الموقعة الآسيوية",
+          "اليوم.. النصر يواجه السد القطري في الجولة الخامسة من دوري أبطال آسيا للنخبة"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-24",
+    "total": 1,
+    "countries": [
+      "eg"
+    ],
+    "peak_traffic": 200,
+    "category": "رياضة"
   }
 }

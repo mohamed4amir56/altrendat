@@ -4,7 +4,7 @@
   "name_en": "Saudi Arabia",
   "lang": "ar",
   "flag": "🇸🇦",
-  "generated_at": "2026-11-24T00:01:27.097005+00:00",
+  "generated_at": "2026-11-24T00:33:49.718931+00:00",
   "day": "2026-11-24",
   "trends": [
     {
@@ -56,8 +56,8 @@
     },
     {
       "title": "brentford vs everton",
-      "traffic": "+4000",
-      "traffic_num": 4000,
+      "traffic": "+6000",
+      "traffic_num": 6000,
       "published": "Mon, 23 Nov 2026 11:40:00 -0800",
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTTpMgXyg8UkkmS7-mggJLM1UUKmXHfeIgw9TigMVpMaQp7-7NS4xqsRX0IfWI",
       "image_source": "BBC",
@@ -112,6 +112,17 @@
           "og_desc": "",
           "og_image": "https://s.yimg.com/lo/mysterio/api/80a4d9b37f1302559667d5a5b78e7b4aff8b65727504572becccb213a031bb49/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2F41b20f48a1ea05ed3d05ca61a3fcfb0c.jpg_up.jpg",
           "ok": true
+        },
+        {
+          "title": "Brentford hit Everton for four to soar into Premier League top six",
+          "url": "https://www.arabnews.com/football/brentford-hit-everton-for-four-to-soar-into-premier-league-top-six-3013788",
+          "source": "Arab News",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTJSJX5VPEy7LUISLTCyQDoRf7-bBbGvRRM6fM-TMFxr6wJrpMBjJsR30ii2mg",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
         }
       ],
       "category": "رياضة",
@@ -365,26 +376,24 @@
       "image_source": "OneFootball",
       "news": [
         {
-          "title": "Monza-Fiorentina 3-0, ratings and report: Varela stars, Fiorentina woeful",
-          "url": "https://onefootball.com/en/news/monza-fiorentina-3-0-ratings-and-report-varela-stars-fiorentina-woeful-43827699",
+          "title": "Monza-Fiorentina 3-0, ratings and report: Varela stars, Viola nightmare",
+          "url": "https://onefootball.com/en/news/monza-fiorentina-3-0-ratings-and-report-varela-stars-viola-nightmare-43827699",
           "source": "OneFootball",
           "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR6CD8Mc0OJMa20aUE4pj0dVmeS8hqgFUmaNLPKt_0zbrvH28LCJum1Cwiv__o",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
+          "og_title": "Monza-Fiorentina 3-0, ratings and report: Varela stars, Viola nightmare",
+          "og_desc": "The clash between Ivan Juric’s Monza and Paolo Vanoli’s Fiorentina ends in a heavy defeat for the visitors. The Viola crumble away from home, losing a…",
+          "og_image": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fen%2F43827699%3Fdate=2026-11-24",
+          "ok": true
         },
         {
           "title": "Prolific striker Varela scores again as Monza beats Fiorentina. Brentford routs Everton 4-0",
-          "url": "https://apnews.com/article/brentford-everton-monza-fiorentina-elche-levante-0be6e375d341ada673c3568fb6ede47b",
-          "source": "AP News",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRw2iW9Qv0wEa6oUMkymgCAj2TMUb1kk1l4WqA-v2_DVMb7y_Y9uAq_suzEvj8",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
+          "url": "https://infonews.ca/news/7992407/prolific-striker-varela-scores-again-as-monza-beats-fiorentina-brentford-routs-everton-4-0/",
+          "source": "iNFOnews.ca",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQh3cNijrfxR5-duBEdX7Ql6C45rdY0eMdbSEWej-DMYiR8kmW45UD1ySkHeQU",
+          "og_title": "Prolific striker Varela scores again as Monza beats Fiorentina. Brentford routs Everton 4-0 | iNFOnews.ca",
+          "og_desc": "Monza striker Gustavo Varela took his tally to 11 goals in 11 league appearances by netting twice in a 3-0 win over Fiorentina on Monday that snapped the",
+          "og_image": "https://infonews.ca/wp-content/uploads/47203b63cb533d6199cb57600c2cc9526c738f428ce47aa12fac59af35b239f9.jpg",
+          "ok": true
         },
         {
           "title": "Serie A | Monza 3-0 Fiorentina: Viola misery as Varela hits 11 goals in 11 games",
@@ -400,7 +409,7 @@
       "category": "رياضة",
       "icon": "⚽",
       "color": "#3ddc97",
-      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "reason": "حجم بحث أقل من 2000",
       "publishable": false,
       "card": "cards/sa-2026-11-24-monza-vs-fiorentina.png",
       "published_at": "2026-11-23T21:01:55.016856+00:00"
@@ -410,19 +419,9 @@
       "traffic": "500+",
       "traffic_num": 500,
       "published": "Mon, 23 Nov 2026 15:40:00 -0800",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSxc0hkNzfomPT8lE2EXwtkMfQqBGm1rH1Dnchn4lF7tPJ-oDn5lssFY37qYU",
-      "image_source": "UOL",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-W2nIgAO-2MNFDwEWni3OL7qX41JRPWoNQREMCU21RJxn_aTWOCLr4gVbfxc",
+      "image_source": "ESPN Brasil",
       "news": [
-        {
-          "title": "Bontempo volta e se junta a astros do Santos contra Grêmio; veja escalações",
-          "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/23/bontempo-volta-e-se-junta-a-astros-do-santos-contra-gremio-veja-escalacoes.ghtm",
-          "source": "UOL",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSxc0hkNzfomPT8lE2EXwtkMfQqBGm1rH1Dnchn4lF7tPJ-oDn5lssFY37qYU",
-          "og_title": "Bontempo volta e se junta a astros do Santos contra Grêmio; veja escalações",
-          "og_desc": "Satisfeito com o desempenho de suas estrelas após a vitória sobre o Coritiba, o técnico Cuca manteve o Santos com uma postura bastante ofensiva para encarar o Grêmio, às 21h (de Brasília), no MorumBIS, pela 36ª rodada do Campeonato Brasileiro.O Peixe v",
-          "og_image": "https://conteudo.imguol.com.br/c/esporte/b9/2026/05/13/neymar-e-gabriel-bontempo-do-santos-comemoram-gol-contra-o-coritiba-pela-copa-do-brasil-1778716790056_v2_615x300.jpg",
-          "ok": true
-        },
         {
           "title": "Escalação do Grêmio: Renato muda esquema e arma time com novidades contra o Santos",
           "url": "https://gauchazh.clicrbs.com.br/esportes/gremio/noticia/2026/11/escalacao-do-gremio-renato-muda-esquema-e-arma-time-com-novidades-contra-o-santos-cmwttz0ic00bl016mbqwma6wh.html",
@@ -434,13 +433,13 @@
           "ok": true
         },
         {
-          "title": "Escalação do Grêmio com dois desfalques e duas voltas",
-          "url": "https://www.terra.com.br/esportes/gremio/escalacao-do-gremio-com-dois-desfalques-e-duas-voltas,1498d7bdff06226bfad547e1623c7221ylhfqymv.html",
+          "title": "Escalação do Santos terá quarteto com Neymar, Coutinho, Gabigol e Cebolinha",
+          "url": "https://www.terra.com.br/esportes/santos/escalacao-do-santos-tera-quarteto-com-neymar-coutinho-gabigol-e-cebolinha,1b4ca2519c33c38ace6a22f19532ffadofkvf5f2.html",
           "source": "Terra",
-          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRx4CJFuQTsu4xHAB-ED-DxgR5wTS3e0IVlWZkYRoCOEh6smi53MfuKCfgWBmc",
-          "og_title": "Escalação do Grêmio com dois desfalques e duas voltas",
-          "og_desc": "Luta pelo rebaixamento assombra o Imortal, que precisa vencer para seguir vivo",
-          "og_image": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/23/991247163-2026-gremio-tecnico-renato-portaluppi-desempenho-retrospecto.jpg",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcStUDgqGm10i0luZVxaOpx6lAqtekkymg8QnyUynMoFBqQpTWLSKyhCgTX0ZsA",
+          "og_title": "Escalação do Santos terá quarteto com Neymar, Coutinho, Gabigol e Cebolinha",
+          "og_desc": "Peixe quer vaga na Libertadores da América",
+          "og_image": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/23/288976019-2026-santos-neymar-gabigol-everton-cebolinha-philippe-coutinho.jpg",
           "ok": true
         }
       ],
@@ -471,6 +470,17 @@
           "ok": true
         },
         {
+          "title": "بطل حتى الرمق الأخير",
+          "url": "https://www.ahram.org.eg/Daily/News/205781/15/1036607/%D8%A8%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D8%A7%D9%87%D8%B1%D8%A7%D9%85/%D8%A8%D8%B7%D9%84-%D8%AD%D8%AA%D9%89-%D8%A7%D9%84%D8%B1%D9%85%D9%82-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1.aspx",
+          "source": "بوابة الأهرام",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQD6t8GxuQpazIbMdkPF_Uv8SOwjbEoG0oNAo_a5fzIInP5LOdDvldzLz03Jb8",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
           "title": "الذاكرة الوطنية لا يكتبها الحاكم وحده",
           "url": "https://www.annahar.com/articles/annahar-writers/368535/%D8%A7%D9%84%D8%B0%D8%A7%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%A7-%D9%8A%D9%83%D8%AA%D8%A8%D9%87%D8%A7-%D8%A7%D9%84%D8%AD%D8%A7%D9%83%D9%85-%D9%88%D8%AD%D8%AF%D9%87",
           "source": "annahar.com",
@@ -479,17 +489,6 @@
           "og_desc": "تكريم أنور السادات في الكونغرس الأمريكي يعكس زاوية من الذاكرة الوطنية المصرية التي تجمع بين الإنجازات والتحديات السياسية والتاريخية.",
           "og_image": "https://www.annahar.com/Assets/ContentPhotos/Photos/WhatsAppImage20261121at09.26.31_092644.webp?width=1416&height=805&mode=crop&scale=both",
           "ok": true
-        },
-        {
-          "title": "«ليلة حب» فى الكابيتول",
-          "url": "https://www.alarabiya.net/politics/2026/11/20/-%D9%84%D9%8A%D9%84%D8%A9-%D8%AD%D8%A8-%D9%81%D9%89-%D8%A7%D9%84%D9%83%D8%A7%D8%A8%D9%8A%D8%AA%D9%88%D9%84",
-          "source": "العربية",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWdQXMUEpZs42YKwcttgq-9pOK0MA-NEEcnq29aSNva3WbHLiL2klaeDSshxk",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
         }
       ],
       "category": "شخصية",
@@ -663,6 +662,16 @@
           "ok": true
         },
         {
+          "title": "Dhruv Rathee faces arrest in 2018 defamation case, non-bailable warrant issued",
+          "url": "https://www.indiatoday.in/india/story/youtuber-dhruv-rathee-faces-arrest-non-bailable-warrant-delhi-court-2018-defamation-case-3044957-2026-11-23",
+          "source": "India Today",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSXEvn1cjoDlXRPz_MVbjGZgJ-s2OI8D9vKeVI4oGf4KzhhMxbjPl2LDwZZ6Fc",
+          "og_title": "Dhruv Rathee faces arrest in 2018 defamation case, non-bailable warrant issued",
+          "og_desc": "The order was passed by Judicial Magistrate First Class Anam Raees Khan at the Saket court after hearing a complaint filed by Vikas Pandey, also known as Vikas Sankrityayan.",
+          "og_image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202611/youtuber-dhruv-rathee-174206786-16x9.jpg?VersionId=8R0ZeaLgYpgWRHyVHTFl3j_y.viiWmRa",
+          "ok": true
+        },
+        {
           "title": "Over a 2018 video on BJP IT Cell, Delhi court issues non-bailable warrants against Dhruv Rathee",
           "url": "https://maktoobmedia.com/post?id=117004&slug=over-a-2018-video-on-bjp-it-cell-delhi-court-issues-non-bailable-warrants-against-dhruv-rathee",
           "source": "Maktoob",
@@ -670,16 +679,6 @@
           "og_title": "Over a 2018 video on BJP IT Cell, Delhi court issues non-bailable warrants against Dhruv Rathee",
           "og_desc": "A Delhi court has issued non-bailable warrants against Dhruv Rathee in a 2018 defamation case filed by 'I Support NaMo' admin Vikas Sankrityayan over a video on...",
           "og_image": "https://maktoobmedia.com/og/0e7e50d541704fb452b3db07ce3566f3e1050a76.jpg",
-          "ok": true
-        },
-        {
-          "title": "Arrest warrant issued on Indian online activist Dhruv Rathee",
-          "url": "https://dailyasianage.com/news/360505/arrest-warrant-issued-on-indian-online-activist--dhruv-rathee",
-          "source": "https://dailyasianage.com/",
-          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaYUqjQlwVNNamOYJgBl5FF07TYkhfWN9lKZtLPySJc8wgjwF70KqgnhTVyxY",
-          "og_title": "Arrest warrant issued on Indian online activist  Dhruv Rathee | The Asian Age Online, Bangladesh",
-          "og_desc": "A Delhi court on Monday issued a  non-bailable warrant against YouTuber DhruvRathee in a criminal defamation case dating back to 2018, following",
-          "og_image": "https://dailyasianage.com/library/1795457923_2.jpg",
           "ok": true
         }
       ],

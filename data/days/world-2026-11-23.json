@@ -4,13 +4,13 @@
   "name_en": "Worldwide",
   "lang": "en",
   "flag": "🌐",
-  "generated_at": "2026-11-24T03:35:47.504861+00:00",
+  "generated_at": "2026-11-24T04:01:37.380691+00:00",
   "day": "2026-11-23",
   "trends": [
     {
       "title": "weather",
-      "traffic": "+233900",
-      "traffic_num": 233900,
+      "traffic": "+253900",
+      "traffic_num": 253900,
       "published": "Mon, 23 Nov 2026 03:30:00 -0800",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJvZQFF7be8dzkRgEXo-APuk28R0CywWE3R4XowhP6q7rie9r62MWL2F90yVk",
       "image_source": "SooToday.com",
@@ -696,6 +696,16 @@
           "og_title": "UK braces for ‘early arrival of winter’ as yellow cold health alert extended",
           "og_desc": "A yellow cold health alert is in force for parts of the UK until 9am on Tuesday",
           "og_image": "https://static.independent.co.uk/2026/11/21/10/6060956a164562dd7c93bfc174b0408aY29udGVudHNlYXJjaGFwaSwxNzk1MzQyNTQz-2.86516617.jpg?width=1200&height=800&crop=1200:800",
+          "ok": true
+        },
+        {
+          "title": "Widespread storms may disrupt Thanksgiving travel",
+          "url": "https://www.foxnews.com/video/6408791148112",
+          "source": "Fox News",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKFtjnI0WZvLnPvaPONcxO11PDxRmrp9Sp3h1IavdQLC0PUD9Vu64ycMkFViA",
+          "og_title": "Widespread storms may disrupt Thanksgiving travel | Fox News Video",
+          "og_desc": "FOX Weather senior correspondent Robert Ray has the latest on major storms across the U.S. on 'Special Report.'",
+          "og_image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/3a51481b-2ec6-40d9-be82-6d9c25286cd5/c06f5af5-ede2-4654-9531-01603ac024ad/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
           "ok": true
         }
       ],
@@ -6435,6 +6445,58 @@
       "published_at": "2026-11-23T19:33:17.545714+00:00"
     },
     {
+      "title": "russia",
+      "traffic": "+1500",
+      "traffic_num": 1500,
+      "published": "Mon, 23 Nov 2026 14:10:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZUx6cF93BoANENh_oSpBahOvYiqvh146JUWFnesj5-b4VR6z0ZTFGshp6q5c",
+      "image_source": "The New York Times",
+      "news": [
+        {
+          "title": "Over 700,000 Russian Soldiers Have Died in Ukraine, Analysis Indicates",
+          "url": "https://www.nytimes.com/2026/11/23/world/europe/russia-ukraine-war-deaths.html",
+          "source": "The New York Times",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZUx6cF93BoANENh_oSpBahOvYiqvh146JUWFnesj5-b4VR6z0ZTFGshp6q5c",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Russia’s war dead: the hidden toll of the Ukraine conflict",
+          "url": "https://www.theguardian.com/world/2026/nov/23/russia-war-dead-hidden-toll-ukraine-conflict",
+          "source": "The Guardian",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRS-OnGCPoxsAN8SQD0ip8zaiNiWKGOl8iEDUbzFyhVJoBkCSKALhMHraIUUbw",
+          "og_title": "Russia’s war dead: the hidden toll of the Ukraine conflict",
+          "og_desc": "Exclusive: Analysis gives most detailed picture yet of the nearly 500,000 Russian losses in Ukraine since 2022",
+          "og_image": "https://i.guim.co.uk/img/media/60fe37a744d510b18190ce6c8663f20f3cb62cbd/0_0_5000_3999/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=49bde45aef5d6a3e20d541af51a6660f",
+          "ok": true
+        },
+        {
+          "title": "More than 700,000 Russian soldiers have been killed in Ukraine: Analysis",
+          "url": "https://thehill.com/policy/defense/6238400-russian-casualties-ukraine-war-putin-zelensky/",
+          "source": "The Hill",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR4h2VvCTFrbkdSBU_L4GkN3bAV2MWOw8Ofb6-ERlGqx91siFN_lK7k-rxnbcc",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "حوادث وقضايا",
+      "icon": "⛔",
+      "color": "#ff6b6b",
+      "reason": "ورد لفظ حسّاس: died",
+      "publishable": false,
+      "card": "cards/world-2026-11-23-russia.png",
+      "published_at": "2026-11-23T22:31:38.395093+00:00"
+    },
+    {
       "title": "nvidia share price",
       "traffic": "+1200",
       "traffic_num": 1200,
@@ -8086,58 +8148,6 @@
       "published_at": "2026-11-23T21:01:31.890350+00:00"
     },
     {
-      "title": "russia",
-      "traffic": "1000+",
-      "traffic_num": 1000,
-      "published": "Mon, 23 Nov 2026 14:10:00 -0800",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZUx6cF93BoANENh_oSpBahOvYiqvh146JUWFnesj5-b4VR6z0ZTFGshp6q5c",
-      "image_source": "The New York Times",
-      "news": [
-        {
-          "title": "Over 700,000 Russian Soldiers Have Died in Ukraine, Analysis Indicates",
-          "url": "https://www.nytimes.com/2026/11/23/world/europe/russia-ukraine-war-deaths.html",
-          "source": "The New York Times",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZUx6cF93BoANENh_oSpBahOvYiqvh146JUWFnesj5-b4VR6z0ZTFGshp6q5c",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        },
-        {
-          "title": "Russia’s war dead: the hidden toll of the Ukraine conflict",
-          "url": "https://www.theguardian.com/world/2026/nov/23/russia-war-dead-hidden-toll-ukraine-conflict",
-          "source": "The Guardian",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRS-OnGCPoxsAN8SQD0ip8zaiNiWKGOl8iEDUbzFyhVJoBkCSKALhMHraIUUbw",
-          "og_title": "Russia’s war dead: the hidden toll of the Ukraine conflict",
-          "og_desc": "Exclusive: Analysis gives most detailed picture yet of the nearly 500,000 Russian losses in Ukraine since 2022",
-          "og_image": "https://i.guim.co.uk/img/media/60fe37a744d510b18190ce6c8663f20f3cb62cbd/0_0_5000_3999/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=49bde45aef5d6a3e20d541af51a6660f",
-          "ok": true
-        },
-        {
-          "title": "More than 700,000 Russian soldiers have been killed in Ukraine: Analysis",
-          "url": "https://thehill.com/policy/defense/6238400-russian-casualties-ukraine-war-putin-zelensky/",
-          "source": "The Hill",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR4h2VvCTFrbkdSBU_L4GkN3bAV2MWOw8Ofb6-ERlGqx91siFN_lK7k-rxnbcc",
-          "og_title": "",
-          "og_desc": "",
-          "og_image": "",
-          "ok": false,
-          "error": "HTTPError"
-        }
-      ],
-      "geos": [
-        "US"
-      ],
-      "category": "حوادث وقضايا",
-      "icon": "⛔",
-      "color": "#ff6b6b",
-      "reason": "ورد لفظ حسّاس: died",
-      "publishable": false,
-      "card": "cards/world-2026-11-23-russia.png",
-      "published_at": "2026-11-23T22:31:38.395093+00:00"
-    },
-    {
       "title": "grayson chrisley",
       "traffic": "1000+",
       "traffic_num": 1000,
@@ -8874,6 +8884,108 @@
       "publishable": false,
       "card": "cards/world-2026-11-23-billie-jean-king.png",
       "published_at": "2026-11-24T03:35:47.504861+00:00"
+    },
+    {
+      "title": "la cascara motel safe code",
+      "traffic": "1000+",
+      "traffic_num": 1000,
+      "published": "Mon, 23 Nov 2026 19:40:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJQZ7oG45mwBYDvc-igPW3i1YnNI1g5CHdCQLcJ1N1peG-ZS4jXG2iDJ_OUig",
+      "image_source": "VICE",
+      "news": [
+        {
+          "title": "GTA 6 Bowling Alley Safe Code – How to Open the Kingpin Bowling Safe",
+          "url": "https://www.vice.com/en/article/gta-6-bowling-alley-safe-code/",
+          "source": "VICE",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJQZ7oG45mwBYDvc-igPW3i1YnNI1g5CHdCQLcJ1N1peG-ZS4jXG2iDJ_OUig",
+          "og_title": "GTA 6 Bowling Alley Safe Code – How to Open the Kingpin Bowling Safe",
+          "og_desc": "Find the GTA 6 bowling alley safe code, how to open the Kingpin Bowling safe, and where to find the clue at Brooks Boatworks.",
+          "og_image": "https://www.vice.com/wp-content/uploads/sites/2/2026/11/GTA-6-Bowling-Alley-Safe-Code-How-to-Open-the-Kingpin-Bowling-Safe.jpg?w=1280",
+          "ok": true
+        },
+        {
+          "title": "All locker and safe codes in GTA 6",
+          "url": "https://tech.yahoo.com/gaming/articles/locker-safe-codes-gta-6-205250721.html",
+          "source": "Yahoo Tech",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFjYQNEhvpM5QfBPoE2ciqJ4WwdtSnoygAELIrF1PgdorlGI5XsBfMo3dBF2M",
+          "og_title": "All locker and safe codes in GTA 6",
+          "og_desc": "Go with the silent way. The post All locker and safe codes in GTA 6 appeared first on Destructoid.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/c20e42ab30b6fd1b5aac1751285eeb55fcecf26866c00c48ba7924e9293a2d33/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdestructoid_573%2Fec1e39c3d8a9afba39fed8cee583b275.jpg",
+          "ok": true
+        },
+        {
+          "title": "All Brooks Boatworks Robbery Key Valuables Locations - GTA 6",
+          "url": "https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-brooks-boatworks-robbery",
+          "source": "Mobalytics",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTuFucCuMFYVSU8RJdqHO1zSleHEdapTMNBeL7SuYJGNQcsv-tKPhpnzYKZnDc",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-23-la-cascara-motel-safe-code.png",
+      "published_at": "2026-11-24T04:01:37.380691+00:00"
+    },
+    {
+      "title": "wemby",
+      "traffic": "1000+",
+      "traffic_num": 1000,
+      "published": "Mon, 23 Nov 2026 19:30:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkXqtsKYiL2ZY7-QeXuaEncWJIjo4jkZFAdFJ4uIzvxMcV2GLlWVR5vO50DJA",
+      "image_source": "ESPN",
+      "news": [
+        {
+          "title": "Wembanyama makes history in 18 minutes, finishes game with 50 points",
+          "url": "https://www.espn.com/nba/story/_/id/50559763/victor-wembanyama-shows-50-point-5-block-performance",
+          "source": "ESPN",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkXqtsKYiL2ZY7-QeXuaEncWJIjo4jkZFAdFJ4uIzvxMcV2GLlWVR5vO50DJA",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false
+        },
+        {
+          "title": "Game Recap: Spurs 114, Pelicans 91 (Nov. 21)",
+          "url": "https://www.nba.com/watch/video/game-recap-spurs-114-pelicans-91-nov-21",
+          "source": "NBA.com",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRfPzKWTy4IJ3EsAx_HR2aT6gZvRrO3BPjzeNFUKlW-JCNyk0IUs1wnoTKHs3o",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "https://cdn.nba.com/logos/nba/fallback/NBA.Com-National-Basketball-Association.png",
+          "ok": false
+        },
+        {
+          "title": "Victor Wembanyama admitted to ‘stat-padding.’ Here’s why he’s breaking his own rules - The Athletic",
+          "url": "https://www.nytimes.com/athletic/7801959/2026/11/22/victor-wembanyama-stat-padding-50-points-wilt/",
+          "source": "The New York Times",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcScv31e_sUY5EreDZ6GxUY7-CFTKhf6xxVDii8w9cZhMk6v6bCUWcLlLT-fJGk",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-23-wemby.png",
+      "published_at": "2026-11-24T04:01:37.380691+00:00"
     },
     {
       "title": "gta 6 update",
@@ -12169,6 +12281,212 @@
       "published_at": "2026-11-24T03:35:47.504861+00:00"
     },
     {
+      "title": "quinn hughes",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Mon, 23 Nov 2026 19:40:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7LupQoXQgKKFoNJz88eMsawjKCUcQT1eZFCWagqCcIheC-_V6d15iIIc_QkY",
+      "image_source": "NHL.com",
+      "news": [
+        {
+          "title": "Hughes placed on injured reserve with undisclosed injury",
+          "url": "https://www.nhl.com/news/quinn-hughes-injury-status-report-november-21-2026",
+          "source": "NHL.com",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7LupQoXQgKKFoNJz88eMsawjKCUcQT1eZFCWagqCcIheC-_V6d15iIIc_QkY",
+          "og_title": "Hughes placed on injured reserve with undisclosed injury | NHL.com",
+          "og_desc": "Defenseman will miss second straight game against Sharks on Monday",
+          "og_image": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/v1795289228/prd/dehyqjauoj2odrrl8rho.jpg",
+          "ok": true
+        },
+        {
+          "title": "Minnesota Wild place D Quinn Hughes on IR; activate G Filip Gustavsson",
+          "url": "https://www.kare11.com/article/sports/nhl/wild/minnesota-wild-place-d-quinn-hughes-on-ir-activate-g-filip-gustavsson/89-dc75f989-caec-46a3-a277-a997f56b4594",
+          "source": "kare11.com",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT15NWR9iTNAArWkHOQvIHjR_5YolOUIXpz90XlYPsKkFNxO4bHonunBOu8xjA",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "There's A Silver Lining To Quinn Hughes' Injury",
+          "url": "https://hockeywilderness.com/news-rumors/minnesota-wild/theres-a-silver-lining-to-quinn-hughes-injury-r31816/",
+          "source": "Hockey Wilderness",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrLRGWq3bbEREfu9n054FQGsfe0cpk2885k9_ePv6K4772kIadmokup03VVhY",
+          "og_title": "There's A Silver Lining To Quinn Hughes' Injury",
+          "og_desc": "Nobody in St. Paul wanted to see Quinn Hughes go hard into the boards in Calgary. When 6-foot-8 flames forward Adam Klapka hit him late in last Thursday’s 4-1 win, Wild fans held their breath. Hughes stayed down, left the game, and didn’t come back. On Saturday, the Wild had sent him home to be e...",
+          "og_image": "https://hockeywilderness.com/uploads/monthly_2026_11/USATSI_30384104_168390100_lowres.jpg.79aca8f0c378e46c99adce57a5ec1062.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-23-quinn-hughes.png",
+      "published_at": "2026-11-24T04:01:37.380691+00:00"
+    },
+    {
+      "title": "ram recalls",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Mon, 23 Nov 2026 19:20:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS_4gBQf4WNmAKSe_chLKv8dVSTuY95sxwmGkWa2mKah_x549ya5vItsMz8Wic",
+      "image_source": "Fox Business",
+      "news": [
+        {
+          "title": "Stellantis recalls 82,000 Ram trucks over anti-lock brake software bug",
+          "url": "https://www.foxbusiness.com/economy/stellantis-recalls-82000-ram-trucks-over-anti-lock-brake-software-bug",
+          "source": "Fox Business",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS_4gBQf4WNmAKSe_chLKv8dVSTuY95sxwmGkWa2mKah_x549ya5vItsMz8Wic",
+          "og_title": "Stellantis recalls 82,000 Ram trucks over anti-lock brake software bug",
+          "og_desc": "Stellantis is recalling 82,843 Ram 1500 pickups from 2022-2024 after the NHTSA said anti-lock brake software faults could raise the risk of a crash.",
+          "og_image": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2026/11/0/0/ram-1500-recall-82k.png?ve=1&tl=1",
+          "ok": true
+        },
+        {
+          "title": "More than 80,000 Ram trucks recalled. See affected models",
+          "url": "https://www.usatoday.com/story/cars/recalls/2026/11/23/ram-classic-trucks-recall-see-models/92923881007/",
+          "source": "USA Today",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdWJ-cjSZDsa5ntPlElY7t2cbgFViSxxCkkBmfOFkG8YmEOtgJbUhQumuvTug",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "82,000-Plus Ram 1500 Classic Trucks Recalled for Antilock Braking System",
+          "url": "https://www.cars.com/articles/82000-plus-ram-1500-classic-trucks-recalled-for-antilock-braking-system-531513/",
+          "source": "Cars.com",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSuR4zDh3UWbXdiH_o-hbrBh6OyKMRlj05LpbBmy62EhC8f60St0ED_apsMkKU",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "تقنية",
+      "icon": "💻",
+      "color": "#5aa9ff",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-23-ram-recalls.png",
+      "published_at": "2026-11-24T04:01:37.380691+00:00"
+    },
+    {
+      "title": "haaland",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Mon, 23 Nov 2026 19:20:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT1fK2ZdtQEgz69yC4PgE27gPzPZo0qeh2_9mGXtdV5DAU5HIpKAb_8iq-8INE",
+      "image_source": "Sports Illustrated",
+      "news": [
+        {
+          "title": "Transfer Rumors: Real Madrid’s Haaland Boost; European Giants Battle for Fernandes",
+          "url": "https://www.si.com/soccer/transfer-rumors-real-madrid-haaland-boost-european-battle-fernandes",
+          "source": "Sports Illustrated",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT1fK2ZdtQEgz69yC4PgE27gPzPZo0qeh2_9mGXtdV5DAU5HIpKAb_8iq-8INE",
+          "og_title": "Transfer Rumors: Real Madrid’s Haaland Boost; European Giants Battle for Fernandes",
+          "og_desc": "Alexis Mac Allister, Ivan Toney, Nico Paz, Alex Scott, Lisandro Martínez and Alessandro Bastoni all feature in the gossip.",
+          "og_image": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_1919,h_1079/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01m827qb05w9k2zan96x.jpg",
+          "ok": true
+        },
+        {
+          "title": "Report: Real Madrid president increasingly confident of signing Manchester City goal machine next summer",
+          "url": "https://sports.yahoo.com/articles/report-real-madrid-president-increasingly-083200860.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNjkxXmJco9ExuTES1SqQU4cO_ggdsX1N4-jZMUagouK8QvFLSqBHr15g_caA",
+          "og_title": "Report: Real Madrid president increasingly confident of signing Manchester City goal machine next summer",
+          "og_desc": "Real Madrid president Florentino Perez is reportedly growing increasingly confident of bringing Erling Haaland to the Santiago Bernabeu next summer, although the Norwegian's long-term commitment to ...",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/23a334d16bf6f92841aeff5a8aa4744198547cf857ce316d97a0ad89a7ac3974/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmadrid_universal_articles_561%2F088c046e8e8d50aaaa6799198a364b5e.jpg",
+          "ok": true
+        },
+        {
+          "title": "Haaland may join \"Barcelona\" - condition under which Norwegian would leave \"Manchester City\" revealed",
+          "url": "https://ukranews.com/en/news/1187919-holland-may-join-barcelona-the-condition-under-which-the-norwegian-would-leave-manchester-city-has",
+          "source": "Ukrainian News Agency",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTBMzW1Py3knq9o17bzszMo_k9kRu0_g6r6stZkVCXK9oIOOVIGNeGjkhzf7cE",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "سياسة",
+      "icon": "🏛️",
+      "color": "#ff5c7c",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-23-haaland.png",
+      "published_at": "2026-11-24T04:01:37.380691+00:00"
+    },
+    {
+      "title": "mockingjay part 1",
+      "traffic": "500+",
+      "traffic_num": 500,
+      "published": "Mon, 23 Nov 2026 19:20:00 -0800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmuWJ-daD3yECTIJsAqPj1SDcJoygcoIy9NqhYa4MTArYIw3pcNf9zX5bCpI",
+      "image_source": "Vogue",
+      "news": [
+        {
+          "title": "81 Thoughts I Had While Watching ‘The Hunger Games’",
+          "url": "https://www.vogue.com/article/81-thoughts-i-had-while-watching-the-hunger-games",
+          "source": "Vogue",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmuWJ-daD3yECTIJsAqPj1SDcJoygcoIy9NqhYa4MTArYIw3pcNf9zX5bCpI",
+          "og_title": "81 Thoughts I Had While Watching ‘The Hunger Games’",
+          "og_desc": "",
+          "og_image": "https://assets.vogue.com/photos/6b00b287b61021cca3f2bb13/16:9/w_1280,c_limit/MCDHUGA_EC018.jpeg",
+          "ok": true
+        },
+        {
+          "title": "OPINION: We are losing the plot",
+          "url": "https://www.ballstatedailynews.com/article/we-are-losing-the-plot-daily-news-ball-state-20261121",
+          "source": "Ball State Daily News",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRgG3jKes6uZca1kHHDdubzjFtxY5XVisKbuM5AmxJDMRjNVen8XjAdZkDiz7k",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "The Hunger Games film franchise | Movies, Sunrise on the Reaping, Film Series, Cast, & Production",
+          "url": "https://www.britannica.com/art/The-Hunger-Games-film-franchise",
+          "source": "Britannica",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR8d4hGe6BW1MmasQGqt_QKSBvdw6S8xx1loK0G5aGLpThELWvtEzV0FYncy7U",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "فن ومشاهير",
+      "icon": "🎬",
+      "color": "#c77dff",
+      "reason": "مصادر غير كافية (أقل من خبرين حقيقيين)",
+      "publishable": false,
+      "card": "cards/world-2026-11-23-mockingjay-part-1.png",
+      "published_at": "2026-11-24T04:01:37.380691+00:00"
+    },
+    {
       "title": "vicki gta 6 voice actor",
       "traffic": "+400",
       "traffic_num": 400,
@@ -14676,6 +14994,107 @@
       "publishable": false,
       "card": "cards/world-2026-11-23-trevon-diggs.png",
       "published_at": "2026-11-24T03:35:47.504861+00:00"
+    },
+    {
+      "title": "cameron carr",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 23 Nov 2026 19:40:00 -0800",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQphZg4gpPCCOO1lK5sKo4QAp1IqJKvgvvoYa9d8Ag6VZEkPtx1K3rg71u9jQ",
+      "image_source": "Lakers Nation",
+      "news": [
+        {
+          "title": "Lakers News: Luka Doncic Believes Cameron Carr Deserves More Minutes",
+          "url": "https://lakersnation.com/lakers-news-luka-doncic-believes-cameron-carr-deserves-more-minutes/",
+          "source": "Lakers Nation",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQphZg4gpPCCOO1lK5sKo4QAp1IqJKvgvvoYa9d8Ag6VZEkPtx1K3rg71u9jQ",
+          "og_title": "Luka Doncic believes Lakers rookie deserves more minutes",
+          "og_desc": "Los Angeles Lakers star Luka Doncic praised rookie Cameron Carr's performance against the Sacramento Kings, believing he deserves minutes.",
+          "og_image": "https://lakersnation.com/wp-content/uploads/2026/10/USATSI_30009592_168394738_lowres.jpg",
+          "ok": true
+        },
+        {
+          "title": "Lakers rookie makes most of biggest opportunity he’s gotten so far",
+          "url": "https://nypost.com/2026/11/21/sports/lakers-cameron-carr-big-opportunity-rotation/",
+          "source": "New York Post",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRwh_Oum4d-RYLiPcxfYCEGISw-S3GB-_FR2AIGoUT01M4l25FP3W-huCb-RB4",
+          "og_title": "Lakers rookie makes most of biggest opportunity he’s gotten so far",
+          "og_desc": "Lakers coach JJ Redick has emphasized for weeks that every player on his roster is going to get an opportunity to play. The nature of an 82-game regular season necessitates flexibility with playing…",
+          "og_image": "https://nypost.com/wp-content/uploads/sites/2/2026/11/newspress-collage-ji3xa0ovh-1795304516815.jpg?quality=75&strip=all&1795286547&w=1200",
+          "ok": true
+        },
+        {
+          "title": "Quentin Grimes Praises Lakers Rookie in Win Over Kings",
+          "url": "https://sports.yahoo.com/articles/quentin-grimes-praises-lakers-rookie-143614721.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTY2OcyZw7LBo2_PzK0t4E4MVNNFRNCch0zYsBQtx3HqInuIop25M4vkmBBxB0",
+          "og_title": "Quentin Grimes Praises Lakers Rookie in Win Over Kings",
+          "og_desc": "Quentin Grimes hailed Cameron Carr’s defensive hustle and poise, signaling the rookie guard is rapidly earning JJ Redick’s trust in the rotation.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/b7a27561eb12a88c2cae8ef6b779d6dcf5c93bc363ef1ff23e8f5a8de2b7b090/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Froundtable_sports_los_angeles_lakers_190%2Ffca48f265b35c895150faa23ed776a74.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "رياضة",
+      "icon": "⚽",
+      "color": "#3ddc97",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-23-cameron-carr.png",
+      "published_at": "2026-11-24T04:01:37.380691+00:00"
+    },
+    {
+      "title": "bethune cookman",
+      "traffic": "200+",
+      "traffic_num": 200,
+      "published": "Mon, 23 Nov 2026 19:40:00 -0800",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4F-idmavjN5_9QWoCHYueSFA9-TguWibtcS-QlIiVqN2TxnyB19c2wzcKtSE",
+      "image_source": "The New York Times",
+      "news": [
+        {
+          "title": "Bethune-Cookman band marches into outline of person on the toilet to roast Florida A&M",
+          "url": "https://www.nytimes.com/athletic/7801321/2026/11/21/bethune-cookman-marching-band-toilet-show-famu/",
+          "source": "The New York Times",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4F-idmavjN5_9QWoCHYueSFA9-TguWibtcS-QlIiVqN2TxnyB19c2wzcKtSE",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "Bethune-Cookman marching band pulls out all the stops for a toilet-themed performance at halftime of loss to Florida A&M",
+          "url": "https://sports.yahoo.com/college-football/article/bethune-cookman-marching-band-pulls-out-all-the-stops-for-a-toilet-themed-performance-at-halftime-of-loss-to-florida-am-145609210.html",
+          "source": "Yahoo Sports",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA6m368_JzOVnSdVYSqMfC8-AEwNl9lopX2G2Uc7iIv_0dLkU4-qkFbj4HZO8",
+          "og_title": "Bethune-Cookman marching band pulls out all the stops for a toilet-themed performance at halftime of loss to Florida A&M",
+          "og_desc": "We now really know how Bethune-Cookman really feels about its rival.",
+          "og_image": "https://s.yimg.com/lo/mysterio/api/5c5c63996f0a7a2e069771eaf754ee06f8ea3630d771b5b89c7214e4c1da42b9/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fscreenshot-2026-11-22-at-85308-am_7136.png",
+          "ok": true
+        },
+        {
+          "title": "WATCH: Florida Marching Band Goes Viral for Hilarious Mockery of Rival Team During Halftime Show",
+          "url": "https://www.aol.com/articles/watch-florida-marching-band-goes-204555000.html",
+          "source": "AOL.com",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQ550dghfQU-3xG7X3DaVahqCBkbaE3thNUafI4iIvH_w5pddvT9N0Hb2qpxo",
+          "og_title": "WATCH: Florida Marching Band Goes Viral for Hilarious Mockery of Rival Team During Halftime Show - AOL",
+          "og_desc": "Bethune-Cookman University's marching band scored a viral victory with their brutal mockery of rival Florida A&M University during the halftime show.",
+          "og_image": "https://hermes.media.static.aol.com/media/2026/11/22/d56fe4a9-d061-3b39-9886-66d1bc8813c1/2c6adefc-c1cc-4d64-a8b0-65bedcb9efa2.jpg",
+          "ok": true
+        }
+      ],
+      "geos": [
+        "US"
+      ],
+      "category": "دول وأماكن",
+      "icon": "🗺️",
+      "color": "#79c0ff",
+      "reason": "حجم بحث أقل من 10000",
+      "publishable": false,
+      "card": "cards/world-2026-11-23-bethune-cookman.png",
+      "published_at": "2026-11-24T04:01:37.380691+00:00"
     },
     {
       "title": "og anunoby",

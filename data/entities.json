@@ -3459,12 +3459,12 @@
         "country_name": "السعودية",
         "traffic": "100+",
         "traffic_num": 100,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "ابنة شويكار: فؤاد المهندس طلب «حمام محشي» قبل وفاته.. ووالدتي ابتعدت عن الأضواء بعد إصابتها بالكسر",
-          "من «تتجوزيني يا شوشو؟» إلى «أنا نصي مات».. ابنة الفنانة شويكار تتحدث عن علاقة والدتها بفؤاد المهندس",
-          "ابنة الفنانة شويكار: فيلم «حبي الوحيد» أول تجارب والدتي السينمائية"
+          "«مبصتش للقطر.. كان كل هدفي أنقذها».. فني مزلقان السادات يكشف كواليس إنقاذ طالبة",
+          "أنقذ فتاة قبل مرور القطار بثوانٍ.. فيديو يشعل منصات التواصل الاجتماعي في مصر",
+          "وزير النقل يكرم عاملا بمزلقان ببني سويف تقديرا لشجاعته في إنقاذ الأرواح"
         ]
       }
     ],
@@ -3475,7 +3475,7 @@
       "sa"
     ],
     "peak_traffic": 700,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "العاصمة-الجديدة": {
     "slug": "العاصمة-الجديدة",
@@ -37664,9 +37664,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "محمد سامي يحسم الجدل حول انفصاله عن مي عمر: 16 عاماً من الحب والاحترام",
-          "\"لا في خيانة ولا طلاق\" محمد سامي ينفي انفصاله عن مي عمر",
-          "مي عمر ومحمد سامي في المقدمة.. شائعات الانفصال تلاحق نجوم الفن المصري"
+          "اقتصاد «الانتباه»... السلعة الأكثر قيمة اليوم",
+          "اقتصاد الانتباه",
+          "اقتصاد الإنتباه.. 196.18 مليار دولار مكاسب التطبيقات وأنت السلعة.. 3.58 مليار إنسان يوميًا تحبسهم منصات التواصل بخوارزميات تبحث عنهم.. وجين زد يقضي 122 يومًا في السنة أمام الشاشة"
         ]
       }
     ],
@@ -406036,14 +406036,14 @@
         "date": "2026-11-24",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
           "الأهلي يتواصل مع حسام البدري لتولي القيادة الفنية",
-          "الأهلي يتواصل مع حسام البدري لخلافة الحسين عموتة في قيادة الفريق| خاص",
-          "محمد بركات: ده الوقت المناسب لعودة حسام البدري لقيادة الأهلي عشان يلم الدنيا"
+          "العجيزي: الأهلي كان هيتعاقد مع البدري قبل عموتة.. لكن المجلس سرب الخبر والجماهير غضبت",
+          "الأهلي يتواصل مع حسام البدري لخلافة الحسين عموتة في قيادة الفريق| خاص"
         ]
       }
     ],
@@ -406052,7 +406052,7 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "شخصية"
   },
   "ريال-سعودي": {
@@ -414398,14 +414398,29 @@
           "2026 NFL Playoff Picture, Week 9: Buccaneers Squander NFC South Lead With Tight Loss to Bears",
           "Predicting the full 14-team NFL playoff bracket entering Week 9: Bears make Super Bowl run"
         ]
+      },
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "+3000",
+        "traffic_num": 3000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "2026 NFL playoff picture, standings: 49ers reign over NFC, Jaguars slip in AFC, wild-card battles heat up",
+          "Post-Week 11 NFL Playoff Predictions: 49ers Super Bowl Favorites?",
+          "What is the rare tiebreaker separating Broncos, Chiefs?"
+        ]
       }
     ],
-    "last_seen": "2026-11-10",
-    "total": 2,
+    "last_seen": "2026-11-23",
+    "total": 3,
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 3000,
     "category": "رياضة"
   },
   "kc-chiefs-game": {
@@ -423591,15 +423606,30 @@
           "روبيو: \"محادثات\" جرت لعقد لقاء يضم ترامب وبوتين وشي لإنهاء حرب أوكرانيا",
           "زيلينسكي يتهم واشنطن بتقييد «ستارلينك».. وروبيو يُكذّب الرئيس الأوركراني بشأن وقف الاستخبارات"
         ]
+      },
+      {
+        "key": "2026-11-24|sa",
+        "date": "2026-11-24",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "زيلينسكي: معلومات استخباراتية تشير إلى تخطيط روسيا لهجمات جديدة",
+          "زيلينسكي يحذر من هجمات روسية جديدة على أوكرانيا",
+          "زيلينسكي: سفن روسيا الحربية تغرق وموسكو تشعر بألم ضرباتنا"
+        ]
       }
     ],
-    "last_seen": "2026-10-19",
-    "total": 1,
+    "last_seen": "2026-11-24",
+    "total": 2,
     "countries": [
       "sa"
     ],
-    "peak_traffic": 100,
-    "category": "شخصية"
+    "peak_traffic": 200,
+    "category": "حوادث وقضايا"
   },
   "nikumaroro": {
     "slug": "nikumaroro",
@@ -709232,14 +709262,29 @@
           "NFL playoff picture Week 10: Giants come back to NFC East pack with loss to Commanders",
           "What History Says About Playoff Positioning at the Midway Point of the Season"
         ]
+      },
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "5000+",
+        "traffic_num": 5000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Here is where the Commanders fit in the NFC East playoff picture right now",
+          "Predicting the Commanders’ next five games as time runs out to turn it around",
+          "Ben Standig Previews Commanders vs Bengals: Can They Pull Off The Upset?"
+        ]
       }
     ],
-    "last_seen": "2026-11-13",
-    "total": 1,
+    "last_seen": "2026-11-23",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 5000,
     "category": "رياضة"
   },
   "san-jose-state-basketball": {
@@ -711460,15 +711505,30 @@
           "Somali Bodyguard Was Indicted in a Bid to Incriminate Ilhan Omar",
           "DOJ charged Somali man to try to get information on Ilhan Omar, lawyer says"
         ]
+      },
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "Ilhan Omar Investigation Covers Most of Her Life, Unsealed Records Show",
+          "Judge unseals documents related to search of Rep. Ilhan Omar’s home",
+          "Federal court releases Rep. Ilhan Omar Washington, D.C. home raid documents"
+        ]
       }
     ],
-    "last_seen": "2026-11-13",
-    "total": 1,
+    "last_seen": "2026-11-23",
+    "total": 2,
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
-    "category": "عام"
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
   },
   "دولة-التلاوة": {
     "slug": "دولة-التلاوة",
@@ -760726,10 +760786,25 @@
           "بشرى سارة بشأن موعد صرف المرتبات العاملين بالدولة لشهر نوفمبر 2026",
           "بعثة الأمم المتحدة المؤقتة في لبنان"
         ]
+      },
+      {
+        "key": "2026-11-24|eg",
+        "date": "2026-11-24",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "سياسة",
+        "publishable": false,
+        "headlines": [
+          "بدء صرف مرتبات شهر نوفمبر الجاري للعاملين بالحكومة الثلاثاء المقبل",
+          "بشرى سارة بشأن موعد صرف المرتبات العاملين بالدولة لشهر نوفمبر 2026",
+          "موعد نزول الرواتب هذا الشهر في الكويت نوفمبر 2026.. جدول مواعيد الإيداع"
+        ]
       }
     ],
-    "last_seen": "2026-11-22",
-    "total": 2,
+    "last_seen": "2026-11-24",
+    "total": 3,
     "countries": [
       "eg"
     ],
@@ -767063,10 +767138,25 @@
           "Luka Doncic calls his play 'unacceptable' as Lakers' 9-game winning streak ends",
           "Keyonte George (30), Jazz deny NBA-leading Lakers 10th straight win"
         ]
+      },
+      {
+        "key": "2026-11-24|sa",
+        "date": "2026-11-24",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Lakers new owners make first official game attendance",
+          "Josh Kushner and Bob Iger are expected to attend …",
+          "Lakers vs. Bucks Box Score and Stats - November 11, 2026"
+        ]
       }
     ],
-    "last_seen": "2026-11-19",
-    "total": 2,
+    "last_seen": "2026-11-24",
+    "total": 3,
     "countries": [
       "sa",
       "world"
@@ -767093,10 +767183,25 @@
           "Auburn basketball vs UNLV live updates: Latest score, how to watch today's game",
           "Auburn vs UNLV Prediction, Odds & Best Bets Today – NCAAB, Nov. 18"
         ]
+      },
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Old Trapper Mountain West Men's Basketball Players of the Week- Nov. 23",
+          "Naz Meyer Named MW Player of Week After Consecutive Double-Doubles",
+          "Cowboys' Meyer named Mountain West Player of the Week"
+        ]
       }
     ],
-    "last_seen": "2026-11-18",
-    "total": 1,
+    "last_seen": "2026-11-23",
+    "total": 2,
     "countries": [
       "world"
     ],
@@ -808666,8 +808771,8 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
+          "محمد سامي يحسم الجدل حول انفصاله عن مي عمر: 16 عاماً من الحب والاحترام",
           "\"لا في خيانة ولا طلاق\" محمد سامي ينفي انفصاله عن مي عمر",
-          "ردت بسخرية على «الخيانة».. رانيا يوسف تحسم حقيقة انفصالها",
           "مي عمر ومحمد سامي في المقدمة.. شائعات الانفصال تلاحق نجوم الفن المصري"
         ]
       }
@@ -811052,8 +811157,8 @@
         "date": "2026-11-24",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "+300",
+        "traffic_num": 300,
         "category": "اقتصاد",
         "publishable": false,
         "headlines": [
@@ -811068,13 +811173,13 @@
     "countries": [
       "eg"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 300,
     "category": "اقتصاد"
   },
   "brentford-fc-vs-everton-fc-standings": {
     "slug": "brentford-fc-vs-everton-fc-standings",
     "name": "brentford f.c. vs everton f.c. standings",
-    "first_seen": "2026-11-24",
+    "first_seen": "2026-11-23",
     "appearances": [
       {
         "key": "2026-11-24|sa",
@@ -811105,15 +811210,31 @@
           "Licensable picture: Premier League - Brentford v Everton",
           "Moyes Reacts To Everton's Below-Par Brentford Display"
         ]
+      },
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "20000+",
+        "traffic_num": 20000,
+        "category": "رياضة",
+        "publishable": true,
+        "headlines": [
+          "Brentford 4-0 Everton - James Tarkowski sees red as Toffees thrashed",
+          "Brentford 4-0 Everton highlights",
+          "Tip of the Day: Goals as Bees get physical to stop beanpole Barry"
+        ]
       }
     ],
     "last_seen": "2026-11-24",
-    "total": 2,
+    "total": 3,
     "countries": [
       "eg",
-      "sa"
+      "sa",
+      "world"
     ],
-    "peak_traffic": 2000,
+    "peak_traffic": 20000,
     "category": "رياضة"
   },
   "cavaliers-vs-bulls": {
@@ -811794,12 +811915,12 @@
         "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "رياضة",
+        "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "Trail Blazers 128-111 76ers (Nov 23, 2026) Game Recap",
-          "Observations after Sixers' 5-game win streak ends with blowout loss to Blazers",
-          "76ERS POSTCAST: Philadelphia 76ers FAILED first test vs West! Fall to Blazers, 128-111"
+          "Sixers Bell Ringer: Sixers undone by Portland’s blazing hot shooting",
+          "NBA: Portland Trail Blazers at Philadelphia 76ers"
         ]
       }
     ],
@@ -811809,7 +811930,7 @@
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "رياضة"
+    "category": "حوادث وقضايا"
   },
   "محافظة-لحج": {
     "slug": "محافظة-لحج",
@@ -812589,5 +812710,150 @@
     ],
     "peak_traffic": 200,
     "category": "حوادث وقضايا"
+  },
+  "commanders-kicker": {
+    "slug": "commanders-kicker",
+    "name": "commanders kicker",
+    "first_seen": "2026-11-23",
+    "appearances": [
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Commanders QB Jayden Daniels hits a pair of big passes to set up game-winning field goal to beat Bengals",
+          "Bengals Fall to Commanders 22-20 | POSTGAME RECAP, NOTES & QUOTES",
+          "Bengals-Commanders odds, best bets: Tips, analysis and top plays"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 1000,
+    "category": "رياضة"
+  },
+  "russian-nuclear-weapons": {
+    "slug": "russian-nuclear-weapons",
+    "name": "russian nuclear weapons",
+    "first_seen": "2026-11-23",
+    "appearances": [
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "دول وأماكن",
+        "publishable": false,
+        "headlines": [
+          "Russia warns of 'preventive nuclear attack' as Medvedev claims Ukraine, NATO crossed line",
+          "Putin Ally Warns NATO Has Crossed Russia’s Nuclear Strike Red Line",
+          "Russia has right and in some cases 'obligation' to use nuclear weapons, Medvedev says"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "دول وأماكن"
+  },
+  "nfl-mvp-odds": {
+    "slug": "nfl-mvp-odds",
+    "name": "nfl mvp odds",
+    "first_seen": "2026-11-23",
+    "appearances": [
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "For Patrick Mahomes, don’t call it a comeback",
+          "Patrick Mahomes is closer to his third MVP award than you might think",
+          "Prisco's NFL Week 11 Power Rankings: Patrick Mahomes returns to MVP form, which makes Chiefs scary"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "utah-jazz-vs-lakers-match-player-stats": {
+    "slug": "utah-jazz-vs-lakers-match-player-stats",
+    "name": "utah jazz vs lakers match player stats",
+    "first_seen": "2026-11-23",
+    "appearances": [
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Utah Jazz vs Los Angeles Lakers Nov 18, 2026 Box Scores",
+          "5 Biggest Catalysts Behind Timberwolves’ Growing Win Streak",
+          "Analyzing Timberwolves’ Biggest Strength and Weakness After First 11 Games"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "رياضة"
+  },
+  "kate-middleton-earthshot-prize-speech": {
+    "slug": "kate-middleton-earthshot-prize-speech",
+    "name": "kate middleton earthshot prize speech",
+    "first_seen": "2026-11-23",
+    "appearances": [
+      {
+        "key": "2026-11-23|world",
+        "date": "2026-11-23",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "POLL: Should the Princess of Wales give more speeches as part of her royal role?",
+          "Kate Middleton looks radiant as she gives defiant speech in Mumbai with Prince William",
+          "Princess Kate just showed what she’s made of - Meghan and Harry should take note"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-23",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 200,
+    "category": "عام"
   }
 }

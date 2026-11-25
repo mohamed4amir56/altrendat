@@ -4,7 +4,7 @@
   "name_en": "Egypt",
   "lang": "ar",
   "flag": "🇪🇬",
-  "generated_at": "2026-11-25T11:31:34.048104+00:00",
+  "generated_at": "2026-11-25T12:01:29.021132+00:00",
   "day": "2026-11-25",
   "trends": [
     {
@@ -599,8 +599,8 @@
     },
     {
       "title": "أسعار الفراخ البيضاء اليوم",
-      "traffic": "+3000",
-      "traffic_num": 3000,
+      "traffic": "2000+",
+      "traffic_num": 2000,
       "published": "Wed, 25 Nov 2026 02:40:00 -0800",
       "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQbwAVvOqheOcVkBJwP4jrt8gWOAJ4TC9U8Edq3IWZgbqwZ0RTofoo5VH-tg-M",
       "image_source": "اليوم السابع",
@@ -623,6 +623,16 @@
           "og_title": "بعد التراجع الأكبر في 2026.. سعر كيلو الفراخ والبيض والبانيه اليوم الأربعاء في البورصة والأسواق | المصري اليوم",
           "og_desc": "سعر كيلو الفراخ اليوم.. شهدت الأسواق المصرية تراجعًا كبيرًا في أسعار الدواجن اليوم، يُعد الهبوط الأكبر منذ بداية عام 2026، ليهبط سعر الكيلو في المزارع إلى مستويات تقل عن التكلفة...",
           "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/25/2132463.webp",
+          "ok": true
+        },
+        {
+          "title": "أسعار الدواجن والبيض اليوم بالأسواق (موقع رسمي)",
+          "url": "https://www.masrawy.com/news/news_economy/details/2026/11/24/3083630/%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D8%AC%D9%86-%D9%88%D8%A7%D9%84%D8%A8%D9%8A%D8%B6-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A8%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%A7%D9%82-%D9%85%D9%88%D9%82%D8%B9-%D8%B1%D8%B3%D9%85%D9%8A-",
+          "source": "Masrawy",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz-N2TB-rLcieM5kxZBtaRPSkYjRzHt9KcmnXS23UUIBwKcT5Jfk_q-qGxXb4",
+          "og_title": "أسعار الدواجن والبيض اليوم 24-11-2026 بالأسواق | مصراوي",
+          "og_desc": "متوسط أسعار الفراخ الحية وكرتونة البيض مستقر خلال تعاملات اليوم الثلاثاء 24 11 2026 وفق بيانات بوابة الأسعار المحلية والعالمية التابعة لمركز معلومات مجلس الوزراء | مصراوي",
+          "og_image": "https://media.gemini.media/img/large/2026/10/16/2026_10_16_11_6_0_607.webp",
           "ok": true
         },
         {
@@ -789,8 +799,51 @@
       "category": "اقتصاد",
       "icon": "💰",
       "color": "#f5c542",
-      "reason": "ترند بيانات بلا مزوّد — لا يُكتب سردًا",
-      "publishable": false,
+      "reason": "العنوان يطابق: ذهب · بيانات حيّة مرفقة",
+      "publishable": true,
+      "data": {
+        "kind": "gold",
+        "title": "سعر الذهب اليوم",
+        "columns": [
+          "سعر الجرام"
+        ],
+        "rows": [
+          {
+            "city": "عيار 24",
+            "times": {
+              "سعر الجرام": "6,121 جنيه"
+            }
+          },
+          {
+            "city": "عيار 22",
+            "times": {
+              "سعر الجرام": "5,611 جنيه"
+            }
+          },
+          {
+            "city": "عيار 21",
+            "times": {
+              "سعر الجرام": "5,356 جنيه"
+            }
+          },
+          {
+            "city": "عيار 18",
+            "times": {
+              "سعر الجرام": "4,590 جنيه"
+            }
+          },
+          {
+            "city": "عيار 14",
+            "times": {
+              "سعر الجرام": "3,570 جنيه"
+            }
+          }
+        ],
+        "gregorian": "Wed, 25 Nov 2026",
+        "hijri": "",
+        "source": "السعر العالمي (3,511$ للأونصة) محوّلًا بسعر الصرف الرسمي — والسعر المحلي في محلات الذهب يزيد عليه المصنعية والعلاوة المحلية",
+        "source_url": "https://api.gold-api.com"
+      },
       "article": {
         "headline": "الذهب يهوي في مصر: عيار 21 يسجل 5385 جنيهاً بختام الأربعاء",
         "summary": "سجلت أسعار الذهب تراجعاً جديداً في الأسواق المحلية، ليصل سعر جرام عيار 21 إلى 5385 جنيهاً بالتزامن مع استقرار السعر العالمي للأونصة عند 3530 دولاراً.",
@@ -1309,16 +1362,6 @@
           "ok": true
         },
         {
-          "title": "Durov deems GTA 6 less realistic as crime gangs don’t use Telegram",
-          "url": "https://cybernews.com/news/pavel-durov-gta-6-telegram-joke/",
-          "source": "Cybernews",
-          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTMAtvgeDqE8KXGkkre_JUHOJOn7aN7amCN5r5cGggB3bgjlT8aKDe4zHx0_nE",
-          "og_title": "Durov deems GTA 6 less realistic as crime gangs don’t use Telegram",
-          "og_desc": "43.5 million Telegram groups and channels were blocked in 2025 as Pavel Durov GTA 6 post revived scrutiny. See why the backlash matters",
-          "og_image": "https://media.cybernews.com/images/featured-big/2026/02/pavel-durov-2025.png",
-          "ok": true
-        },
-        {
           "title": "Telegram CEO Pavel Durov Says GTA 6 Is Unrealistic Without Telegram",
           "url": "https://80.lv/articles/telegram-ceo-pavel-durov-says-gta-6-is-unrealistic-without-telegram",
           "source": "80 Level",
@@ -1327,12 +1370,22 @@
           "og_desc": "Durov joked that Jason and Lucia couldn't run a criminal operation without a Telegram group.",
           "og_image": "https://cdn.80.lv/api/upload/meta/51140/images/6b05362d631a3/contain_1200x630.jpeg",
           "ok": true
+        },
+        {
+          "title": "Telegram Founder Pavel Durov’s GTA 6 Joke Sparks Debate Over Criminal Activity",
+          "url": "https://the420.in/pavel-durov-gta6-telegram-joke-controversy/",
+          "source": "The 420.in",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDi1wjlwEYc9IxkA52eDcRaCicbGgTgDUiLZEo906BbsZdfSY66kMkpwq2QuQ",
+          "og_title": "Telegram Founder Pavel Durov's GTA 6 Joke Sparks Debate Over Criminal Activity - The 420.in",
+          "og_desc": "Telegram founder and CEO Pavel Durov has sparked criticism after joking that the upcoming video game Grand Theft Auto VI (GTA 6) appeared unrealistic because",
+          "og_image": "https://the420.in/wp-content/uploads/2026/11/Pavel-Durov-GTA-6.jpg",
+          "ok": true
         }
       ],
-      "category": "حوادث وقضايا",
-      "icon": "⛔",
-      "color": "#ff6b6b",
-      "reason": "ورد لفظ حسّاس: crime",
+      "category": "عام",
+      "icon": "🌐",
+      "color": "#9aa4b2",
+      "reason": "حجم بحث أقل من 2000",
       "publishable": false,
       "card": "cards/eg-2026-11-25-telegram.png",
       "published_at": "2026-11-25T09:01:41.061187+00:00"
@@ -1346,7 +1399,7 @@
       "image_source": "BBC",
       "news": [
         {
-          "title": "ملكة جمال الكون: بورتوريكو تحصد التاج على أرضها بعد خروج مبكر للمتسابقات العربيات",
+          "title": "ملكة جمال الكون: بورتوريكو تُتوج بالمركز الأول على أرضها بعد خروج مبكر للمتسابقات العربيات",
           "url": "https://www.bbc.com/arabic/articles/cw8dv64n0zp3o",
           "source": "BBC",
           "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXqgSit5gD3xh8U6cNVwR14Xj-1E0M5oYmujyywvidH8qEdjTzFnHNvU2cewM",
@@ -1871,9 +1924,19 @@
       "traffic": "200+",
       "traffic_num": 200,
       "published": "Wed, 25 Nov 2026 02:00:00 -0800",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRU9aj8HJ8nZp1VTDsLZlTTxK_8xHIknY8P0BOBgjpqzk9MF_-5s-Cj99Ma9qk",
-      "image_source": "CNN Arabic",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtxvdF_avsKKoCRxUdC5R-9vXzbpqubO2DPhTn920OlhOGFD1xEkwonniNK84",
+      "image_source": "BBC",
       "news": [
+        {
+          "title": "الحوثيون يعلنون استهداف مصفاة رأس تنورة والمركز المالي في الرياض، والسعودية تقصف ميناء الحُديدة",
+          "url": "https://www.bbc.com/arabic/articles/cwvg28p9emp0o",
+          "source": "BBC",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtxvdF_avsKKoCRxUdC5R-9vXzbpqubO2DPhTn920OlhOGFD1xEkwonniNK84",
+          "og_title": "الحوثيون يعلنون استهداف مصفاة رأس تنورة والمركز المالي في الرياض، والسعودية تقصف ميناء الحُديدة - BBC News عربي",
+          "og_desc": "الحوثيون يعلنون استهداف مصفاة رأس تنورة في المنطقة الشرقية في السعودية، اليوم الأربعاء، والمركز المالي في مدينة عبدالله الاقتصادية في الرياض، وذلك رداً على ما وصفته بـ \"العدوان السعودي\" على صنعاء ومناطق أخرى في اليمن.",
+          "og_image": "https://ichef.bbci.co.uk/news/1200/branded_arabic/a373/live/1c2df640-e8a8-11f1-a094-5fdc692f3e33.jpg",
+          "ok": true
+        },
         {
           "title": "\"تحالف دعم الشرعية في اليمن\" يطلب من المدنيين إخلاء ميناء \"الحديدة",
           "url": "https://www.youm7.com/story/2026/11/25/%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%B4%D8%B1%D8%B9%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%8A%D8%B7%D9%84%D8%A8-%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D9%8A%D9%86-%D8%A5%D8%AE%D9%84%D8%A7%D8%A1-%D9%85%D9%8A%D9%86%D8%A7%D8%A1/7631566",
@@ -1883,23 +1946,14 @@
           "og_desc": "طالب \"تحالف دعم الشرعية في اليمن\" المدنيين بإخلاء ميناء \"الحديدة باليمن، والخاضع لسيطرة ميليشيا الحوثي.",
           "og_image": "https://img.youm7.com/xlarge/201805281057225722.jpg",
           "ok": true
-        },
-        {
-          "title": "الحوثيون يهددون باستهداف ميناء جدة وموانئ سعودية أخرى",
-          "url": "https://www.masrawy.com/news/news_publicaffairs/details/2026/11/25/3084103/%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%88%D9%86-%D9%8A%D9%87%D8%AF%D8%AF%D9%88%D9%86-%D8%A8%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%85%D9%8A%D9%86%D8%A7%D8%A1-%D8%AC%D8%AF%D8%A9-%D9%88%D9%85%D9%88%D8%A7%D9%86%D8%A6-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A3%D8%AE%D8%B1%D9%89",
-          "source": "Masrawy",
-          "thumb": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT0CNti41YrivtLE1BTbUDXpENH1bLgyjr8tDlhU9AD4logTnVoNahg7ZumBks",
-          "og_title": "الحوثيون يطالبون جميع الشركات الملاحية بسحب سفنها من الموانئ السعودية | مصراوي",
-          "og_desc": "أعلن المتحدث العسكري باسم الجماعة العميد يحيى سريع في بيان أن ميناء جدة وجميع موانئ العدو السعودي في ساحل البحر الأحمر ستكون هدفا لقواتنا في حال نفذ العدو تهديداته بقصف ميناء الحدي | مصراوي",
-          "og_image": "https://media.gemini.media/img/large/2020/12/14/2020_12_14_21_58_57_9.webp",
-          "ok": true
         }
       ],
       "category": "شخصية",
       "icon": "👤",
       "color": "#ffd166",
-      "reason": "شخصية لا يرد اسمها في مصدرين",
+      "reason": "حجم بحث أقل من 2000",
       "publishable": false,
+      "person": true,
       "card": "cards/eg-2026-11-25-ميناء-الحديدة.png",
       "published_at": "2026-11-25T10:31:29.731800+00:00"
     },
@@ -2336,17 +2390,17 @@
       "traffic": "100+",
       "traffic_num": 100,
       "published": "Tue, 24 Nov 2026 23:40:00 -0800",
-      "image": "https://cdn.cairo24.com/UploadCache/libfiles/167/1/800x450o/528.webp",
-      "image_source": "القاهرة 24",
+      "image": "https://img.soutalomma.com/large/202412110955225522.jpg",
+      "image_source": "صوت الأمة",
       "news": [
         {
-          "title": "هل تشهد البلاد أمطارًا الآن؟.. الأرصاد تكشف تفاصيل حالة الطقس اليوم في مصر",
-          "url": "https://www.cairo24.com/2535595",
-          "source": "القاهرة 24",
-          "thumb": "",
-          "og_title": "هل تشهد البلاد أمطارًا الآن؟.. الأرصاد تكشف تفاصيل حالة الطقس اليوم في مصر",
-          "og_desc": "كشفت الهيئة العامة للأرصاد الجوية تفاصيل حالة الطقس اليوم الأربعاء 25 نوفمبر 2026، موضحة تعرض البلاد لأجواء معتدلة",
-          "og_image": "https://cdn.cairo24.com/UploadCache/libfiles/167/1/800x450o/528.webp",
+          "title": "الأرصاد تحذر قائدي السيارات من الشبورة.. تفاصيل طقس مصر ودرجات الحرارة حتى الاثنين المقبل",
+          "url": "https://www.soutalomma.com/Article/1261480/%D8%A7%D9%84%D8%A3%D8%B1%D8%B5%D8%A7%D8%AF-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%82%D8%A7%D8%A6%D8%AF%D9%8A-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D8%B4%D8%A8%D9%88%D8%B1%D8%A9-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%B7%D9%82%D8%B3-%D9%85%D8%B5%D8%B1-%D9%88%D8%AF%D8%B1%D8%AC%D8%A7%D8%AA",
+          "source": "صوت الأمة",
+          "thumb": "http://www.bing.com/th?id=ONUT.QZ-9s0FuDk5FWwAGfa2gRw&pid=News",
+          "og_title": "الأرصاد تحذر قائدي السيارات من الشبورة.. تفاصيل طقس مصر ودرجات الحرارة حتى الاثنين المقبل - صوت الأمة",
+          "og_desc": "الأرصاد الجوية تكشف حالة الطقس في مصر حتى الاثنين 30 نوفمبر 2026، وتحذر من الشبورة المائية الكثيفة ونشاط الرياح وانخفاض درجات الحرارة ليلًا.",
+          "og_image": "https://img.soutalomma.com/large/202412110955225522.jpg",
           "ok": true
         },
         {
@@ -2360,13 +2414,13 @@
           "ok": true
         },
         {
-          "title": "لعنة مصرية قديمة من أكوام القمامة: بردية محترقة تكشف طقس «أبوفيس»",
-          "url": "https://newturkpost.com/news/208033-laan-msry-kdym-mn-akoam-alkmam-brdy-mhtrk-tkshf-tks-abofys-47zeix",
-          "source": "وكالة نيو ترك بوست الاخبارية",
-          "thumb": "http://www.bing.com/th?id=ONUT.UWgf61U7TZA2cIp8ApqPIw&pid=News",
-          "og_title": "لعنة مصرية قديمة من أكوام القمامة: بردية محترقة تكشف طقس «أبوفيس»",
-          "og_desc": "عثر باحثون في أكوام نفايات يعود عمرها إلى 3400 عام على شظايا بردية محترقة تحمل طقس اللعنة المصري «أبوفيس». ويرجّح الاكتشاف أن الطقس أقدم بألف عام مما قدّره المؤ...",
-          "og_image": "https://newturkpost.com/storage/newsroom/0RwY3MP8XS59Bbzj0gvlnqXwl8iRhe2KSXZJWvjg.jpg",
+          "title": "شبورة كثيفة صباحًا.. طقس المنيا ومحافظات مصر الأربعاء 25 نوفمبر 2026",
+          "url": "https://www.almasryalyoum.com/news/details/4419644",
+          "source": "المصري اليوم",
+          "thumb": "http://www.bing.com/th?id=ONUT.3seVBZskTQC5rgW57xUu0Q&pid=News",
+          "og_title": "شبورة كثيفة صباحًا.. طقس المنيا ومحافظات مصر الأربعاء 25  نوفمبر 2026 | المصري اليوم",
+          "og_desc": "أعلنت الهيئة العامة للأرصاد الجوية، اليوم، حالة طقس الاربعاء 25 نوفمبر 2026، بالمنيا ومحافظات مصر، حيث شبورة مائية صباحاً قد تكون كثيفة أحيانًا على بعض الطرق المؤدية من وإلى...",
+          "og_image": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/24/2132372.webp",
           "ok": true
         }
       ],
@@ -2427,6 +2481,55 @@
       "person": true,
       "card": "cards/eg-2026-11-25-دانييلا-رحمة.png",
       "published_at": "2026-11-25T11:31:34.048104+00:00"
+    },
+    {
+      "title": "ميمي جمال",
+      "traffic": "100+",
+      "traffic_num": 100,
+      "published": "Wed, 25 Nov 2026 03:50:00 -0800",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRYRhrQyHvAbC9A7Cf1Js8AbwQLLDjzrHDT7KJpjv4kJP_Ryuy2GUb08HFv4gE",
+      "image_source": "كايرو لايف",
+      "news": [
+        {
+          "title": "ميمي جمال بعد خضوعها لجراحة في مفصل الحوض: بدأت أمشي بالعصاية والمشاية | بث مباشر",
+          "url": "https://www.cairolive24.com/2219853",
+          "source": "كايرو لايف",
+          "thumb": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRYRhrQyHvAbC9A7Cf1Js8AbwQLLDjzrHDT7KJpjv4kJP_Ryuy2GUb08HFv4gE",
+          "og_title": "ميمي جمال بعد خضوعها لجراحة في مفصل الحوض: بدأت أمشي بالعصاية والمشاية | بث مباشر",
+          "og_desc": "كشفت الفنانة ميمي جمال عن آخر تطورات حالتها الصحية، وذلك عقب خضوعها لعملية جراحية كبيرة في منطقة الحوض",
+          "og_image": "https://cdn.cairolive24.com/UploadCache/libfiles/158/1/800x450o/858.webp",
+          "ok": true
+        },
+        {
+          "title": "بعد كسر بالحوض.. ميمي جمال تكشف مشاريعها في رمضان",
+          "url": "https://twaslnews1.twaslnews.com/8267888/",
+          "source": "شبكة تواصل الإخبارية",
+          "thumb": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTduc0EWSaSfRuH4pP-3i5IgjkuSeKyJya9M3JTogj_quy-7tqivL0WBAgCJI4",
+          "og_title": "",
+          "og_desc": "",
+          "og_image": "",
+          "ok": false,
+          "error": "HTTPError"
+        },
+        {
+          "title": "ميمي جمال تطمئن جمهورها على حالتها الصحية: حالتي تحسنت وأخضع للعلاج الطبيعي",
+          "url": "https://www.elwatannews.com/news/details/8402953",
+          "source": "الوطن",
+          "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUNm6piughJajVjhzS2fzJbur3mQwIW8kxonGtgvqG_sVIRUOroWuN_5gHj3w",
+          "og_title": "ميمي جمال تطمئن جمهورها على حالتها الصحية: حالتي تحسنت وأخضع للعلاج الطبيعي - الوطن",
+          "og_desc": "تستعد الفنانة ميمي جمال لاستعادة نشاطها الفني من جديد بعد تجاوز مرحلة صعبة من أزمتها الصحية التي خضعت خلالها لجراحة كبيرة في مفصل الحوض - الوطن",
+          "og_image": "https://media.elwatannews.com/media/img/Large/2026/11/24/2026_11_24_11_49_9_388.jpeg",
+          "ok": true
+        }
+      ],
+      "category": "شخصية",
+      "icon": "👤",
+      "color": "#ffd166",
+      "reason": "حجم بحث أقل من 2000",
+      "publishable": false,
+      "person": true,
+      "card": "cards/eg-2026-11-25-ميمي-جمال.png",
+      "published_at": "2026-11-25T12:01:29.021132+00:00"
     }
   ]
 }

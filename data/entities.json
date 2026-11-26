@@ -9116,9 +9116,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "Первый мороз в Краснодаре: −2° в ночь на 29 ноября — зима не стала ждать календаря",
-          "«Зима уже наступает»: синоптики прогнозируют снег в Краснодаре",
-          "Зима опередит календарь: снегом сменится дождь на Кубани, а температуры упадут"
+          "Минувшая ночь стала самой холодной с начала осени в Москве",
+          "В Москве с 1 декабря прогнозируют морозы до минус 10 градусов",
+          "Синоптик Ильин: в выходные в Московском регионе похолодает до -5 градусов"
         ]
       }
     ],
@@ -10767,11 +10767,11 @@
         "traffic": "10000+",
         "traffic_num": 10000,
         "category": "سياسة",
-        "publishable": false,
+        "publishable": true,
         "headlines": [
-          "السيسي يتسلم رسالة من البرهان ويؤكد دعم وحدة السودان",
-          "رئيس الوزراء: 3 دول عربية أبدت رغبة في الاستعانة بخبرات مصر بمجال التشييد والبناء",
-          "خبير شؤون إفريقية: القاهرة ركيزة أساسية للتحرك الإفريقي دوليًا"
+          "وزير الزراعة يوجه بتشديد الرقابة على صرف الأسمدة المدعمة",
+          "استمرار توريد الأسمدة المدعمة.. وانتظام صرف الحصص للمزارعين",
+          "الحكومة تحسم الجدل بشأن نقص الأسمدة المدعمة وعدم توافر الكميات اللازمة للمزارعين"
         ]
       }
     ],
@@ -16027,14 +16027,14 @@
         "date": "2026-11-26",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
-          "\"فجر اليمن\".. الحوثيون في مرمى ضربات القوات اليمنية",
-          "الجيش اليمني: تحييد 109 من قيادات وعناصر ميليشيا الحوثي بين قتيل وجريح",
-          "الجيش اليمني: تحييد 109 حوثيين في 654 عملية استهداف"
+          "(وسائط متعددة) العثور على 13 جثة في منجم بمقاطعة جاوة الغربية بإندونيسيا",
+          "مقتل 6 أشخاص في منجم ذهب غير مرخص فى أندونيسيا غمرته مياه الأمطار",
+          "انتشال 13 جثة من منجم للذهب في إندونيسيا غمرته مياه الفيضانات"
         ]
       }
     ],
@@ -136255,9 +136255,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "كوشنر يحذر من تصعيد الحرب في أوكرانيا",
-          "زيلينسكي: أنتظر من الولايات المتحدة تحديد موعد الجولة المقبلة من محادثات السلام",
-          "روسيا وأوكرانيا تصعدان ميدانيا.. والحل السياسي يتأرجح بين ميل ترامب لموسكو ودعم أوربي لكييف"
+          "واشنطن تهدد بكين برسوم مضاعفة.. هل تنهار الهدنة التجارية؟",
+          "(وسائط متعددة) الولايات المتحدة تعتزم فرض تعريفات جمركية جديدة على الواردات البرازيلية",
+          "أميركا تستهدف 14 دولة برسوم جمركية جديدة بذريعة فائض الإنتاج"
         ]
       }
     ],
@@ -231061,7 +231061,7 @@
   },
   "mcdonalds": {
     "slug": "mcdonalds",
-    "name": "mcdonald's",
+    "name": "mcdonalds",
     "first_seen": "2026-10-08",
     "appearances": [
       {
@@ -231093,15 +231093,30 @@
           "Elm Street closed in Enfield due to crash, police say",
           "McDonald’s Is Bringing Back the Meal Fans Wait All Year For"
         ]
+      },
+      {
+        "key": "2026-11-26|world",
+        "date": "2026-11-26",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "McDonald’s Invites Fans to Leave Adulthood Behind with the Home Alone Meal",
+          "McDonald’s Launches ‘Home Alone’ Meal Inspired by Kevin’s Cravings",
+          "Here's what McDonald's 'Home Alone Meal' has inside"
+        ]
       }
     ],
-    "last_seen": "2026-10-21",
-    "total": 2,
+    "last_seen": "2026-11-26",
+    "total": 3,
     "countries": [
       "world"
     ],
     "peak_traffic": 2000,
-    "category": "حوادث وقضايا"
+    "category": "عام"
   },
   "starbucks": {
     "slug": "starbucks",
@@ -256226,9 +256241,9 @@
         "category": "طقس",
         "publishable": false,
         "headlines": [
-          "Ground stop canceled at Seattle-Tacoma International Airport due to wind",
+          "Thanksgiving travel could be impacted by heavy rain, strong winds arriving in western Washington",
           "Extreme tides start to land on Washington coast",
-          "PSE preps for Thanksgiving storm impacts"
+          "Coastal flooding swamps Western WA before Thanksgiving"
         ]
       }
     ],
@@ -295141,10 +295156,25 @@
           "ارتفاع أسعار الدواجن وتراجع اللحوم في مصر اليوم الثلاثاء",
           "سعر الفراخ البيضاء والساسو وطبق البيض في أسواق الشرقية اليوم الأربعاء 4 نوفمبر 2026"
         ]
+      },
+      {
+        "key": "2026-11-26|eg",
+        "date": "2026-11-26",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "100+",
+        "traffic_num": 100,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "سعر طبق البيض بالقليوبية اليوم الأربعاء 25 – 11 - 2026.. الأبيض بـ123 جنيها",
+          "أسعار السلع الغذائية والبيض في الأسواق اليوم السبت 14 نوفمبر 2026",
+          "ارتفاع أسعار الدواجن والبيض اليوم بالأسواق (موقع رسمي)"
+        ]
       }
     ],
-    "last_seen": "2026-11-04",
-    "total": 4,
+    "last_seen": "2026-11-26",
+    "total": 5,
     "countries": [
       "eg",
       "sa"
@@ -535625,10 +535655,25 @@
           "منصة كيريو اليابانية.. خطوات التدريب على البرمجة والذكاء الاصطناعي لطلاب أولى ثانوي - صوت الأمة",
           "بدء الدراسة على منصة «QUREO» اليابانية لطلاب أولى ثانوي.. 4 خطوات للدخول"
         ]
+      },
+      {
+        "key": "2026-11-26|eg",
+        "date": "2026-11-26",
+        "country": "eg",
+        "country_name": "مصر",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "تعليم القاهرة يناقش التحديات التي تواجه الطلاب عند الدخول إلى المنصات",
+          "وزارة التعليم توجه طلاب الثانوية الفنية بالتدريب على منصة كيرو اليابانية",
+          "منصة كيريو QUREO.. تحذير عاجل لطلاب أولى وثانية ثانوي قبل موعد الإغلاق"
+        ]
       }
     ],
-    "last_seen": "2026-10-27",
-    "total": 1,
+    "last_seen": "2026-11-26",
+    "total": 2,
     "countries": [
       "eg"
     ],
@@ -581215,12 +581260,12 @@
         "country_name": "السعودية",
         "traffic": "200+",
         "traffic_num": 200,
-        "category": "حوادث وقضايا",
+        "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "رحيل أسطورة الغيتار آندي تايلور بعد صراع مع السرطان",
-          "وفاة آندي تايلور عازف غيتار فرقة دوران دوران عن عمر 65 عاماً",
-          "وفاة أسطورة الغيتار آندي تايلور.. رحلة فنية حافلة ونهاية مؤلمة"
+          "تقرير: توتنام يستهدف ضم تشالهان أوغلو",
+          "يوفنتوس يدرس التعاقد مع كالهانوغلو مجانًا ويضع حالته البدنية تحت التقييم",
+          "4 أندية تتنافس على ضم نجم إنتر ميلان"
         ]
       }
     ],
@@ -581230,7 +581275,7 @@
       "sa"
     ],
     "peak_traffic": 200,
-    "category": "حوادث وقضايا"
+    "category": "شخصية"
   },
   "beer": {
     "slug": "beer",
@@ -693259,7 +693304,7 @@
         "publishable": false,
         "headlines": [
           "لماذا تحتفي إسرائيل بعودة جنسن هوانغ إلى قيادة \"إنفيديا\"؟",
-          "جينسن هوانغ في بلاد الرافدين !!",
+          "\"موديز\" تثبت تصنيف \"إنفيديا\" و\"ستاندرد آند بورز\" تلوح بخفضه",
           "العالم في دقائق .. الأسواق تصحو من نشوة إنفيديا على وقع الفائدة"
         ]
       }
@@ -751323,7 +751368,7 @@
         "category": "رياضة",
         "publishable": false,
         "headlines": [
-          "SMAT 2026 Round 7 LIVE score: Samson-led Kerala piles 268 against Himachal Pradesh; Pondicherry, Haryana win",
+          "SMAT 2026 Round 7 LIVE score: Priyansh Arya fifty helps Delhi ease past Railways; Deepak Chahar picks three for Rajasthan; Samson-led Kerala on top against Himachal Pradesh",
           "Syed Mushtaq Ali Trophy Round 7 Live Score 2026: Mohammed Azharuddeen smashes century as Kerala post 268/4 vs Himachal Pradesh",
           "Kerala vs Himachal Pradesh Match 118 T20 - SMAT, 2026 Live Scorecard"
         ]
@@ -805719,9 +805764,9 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "How Long Is Chapter 2 in GTA 6? All Missables and Mission List",
-          "GTA 6 Chapter 2 Mission List - Every Mission in GTA 6 Chapter 2 in Order",
-          "GTA 6 Lists 11 Required Missions Before Chapter 3"
+          "'GTA 6' chapter 1 is so good that I'm afraid to move on to chapter 2",
+          "The unexpected joy hiding in Grand Theft Auto VI’s chaos? A little routine",
+          "The 'Slow Cinema' of Grand Theft Auto VI"
         ]
       }
     ],
@@ -841629,5 +841674,63 @@
     ],
     "peak_traffic": 100,
     "category": "فن ومشاهير"
+  },
+  "dennys": {
+    "slug": "dennys",
+    "name": "dennys",
+    "first_seen": "2026-11-26",
+    "appearances": [
+      {
+        "key": "2026-11-26|world",
+        "date": "2026-11-26",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO",
+          "Jensen Huang Receives Support From Denny's Diner Amid Affair Scandal",
+          "Denny's Says It's 'Proud' of Its Association With Jensen Huang, X Post Says"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-26",
+    "total": 1,
+    "countries": [
+      "world"
+    ],
+    "peak_traffic": 500,
+    "category": "حوادث وقضايا"
+  },
+  "نعيم-قاسم": {
+    "slug": "نعيم-قاسم",
+    "name": "نعيم قاسم",
+    "first_seen": "2026-11-26",
+    "appearances": [
+      {
+        "key": "2026-11-26|sa",
+        "date": "2026-11-26",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "200+",
+        "traffic_num": 200,
+        "category": "شخصية",
+        "publishable": false,
+        "headlines": [
+          "\"للصبر حدود\".. رواج جملة قالها أمين حزب الله نعيم قاسم بخطاب رد بجزء منه على من ينتقد إيران و\"العبء الكبير\" على كاهل طهران",
+          "قاسم ينتقد خطاب عون في عيد الاستقلال: ألا يُفترض أن يكون الرئيس إلى جانب شعبه؟",
+          "الشيخ نعيم قاسم: إيران تربط اتفاقها مع واشنطن بوقف العدوان على جميع الجبهات.. والسيادة اللبنانية تبدأ بتحرير الأرض"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-26",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 200,
+    "category": "شخصية"
   }
 }

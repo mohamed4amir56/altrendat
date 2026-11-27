@@ -10201,8 +10201,8 @@
         "date": "2026-11-27",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
@@ -41121,14 +41121,14 @@
         "date": "2026-11-27",
         "country": "eg",
         "country_name": "مصر",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
           "السعودية.. إطفاء حريق بمصفاة جازان ووفاة عامل إثر هجوم حوثي",
           "سماع دوي انفجارات في الرياض، والحوثيون يستهدفون ميناءي جدة وجازان \"رداً على قصف ميناء الحديدة\"",
-          "بعد قصف ميناء الحديدة.. الحوثيون يعلنون استهداف ميناءي جدة وجازان في السعودية"
+          "(وسائط متعددة) التحالف: اعتداء حوثي يستهدف مصفاة جازان السعودية والرد العسكري سيكون حازما"
         ]
       }
     ],
@@ -84570,14 +84570,14 @@
         "date": "2026-11-27",
         "country": "sa",
         "country_name": "السعودية",
-        "traffic": "100+",
-        "traffic_num": 100,
+        "traffic": "200+",
+        "traffic_num": 200,
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "إيران.. ترمب يهدد باستهداف “جبل الفأس” وطهران تنفي ضلوعها في هجوم الكويت",
-          "ترامب يقلل من أهمية الدعم الروسي والصيني لإيران.. ماذا تقدم موسكو وبكين لطهران؟",
-          "ترمب: النصر على إيران بات وشيكاً.. وإنهاء الحرب رهن قراري"
+          "إيران.. الحرس الثوري يستهدف مقاتلة أمريكية وترمب يمنح طهران “فرصة أخيرة”",
+          "واشنطن وطهران: حرب مؤجلة أم تسوية معلقة؟",
+          "ترامب يبين إن كانت هناك أنشطة رصدت في جبل الفأس بإيران ويؤكد: نحاول إعطاءهم فرصة ليكونوا أذكياء"
         ]
       }
     ],
@@ -84587,7 +84587,7 @@
       "eg",
       "sa"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 200,
     "category": "شخصية"
   },
   "سيموني-إنزاغي": {
@@ -126905,7 +126905,7 @@
         "headlines": [
           "إخلاء لـ46 أسرة من عقار الإسكندرية.. وسيارات الإسعاف تنقل كبار السن",
           "بعد ميل عقار الفلكي.. إخلاء 46 أسرة من عقارين بشرق الإسكندرية| صور",
-          "عقارات الموت.. 300 ألفًا تنتظر إخلاء سكانها والإزالة.. وخبراء يطالبون بقاعدة بيانات قومية موحدة للمواقع الخطرة وربطها بالمحليات"
+          "ميل عقار من 8 طوابق في الإسكندرية.. والحي يخلي 46 أسرة (صور)"
         ]
       }
     ],
@@ -165248,12 +165248,12 @@
         "country_name": "مصر",
         "traffic": "1000+",
         "traffic_num": 1000,
-        "category": "حوادث وقضايا",
+        "category": "دول وأماكن",
         "publishable": false,
         "headlines": [
-          "إيران ترد على إسرائيل بعد \"اتهامات الكيماوي\"",
-          "إعلام إسرائيلي: رئيس الموساد يضغط لشن هجوم مستقل على إيران من دون أميركا",
-          "إسرائيل تتهم طهران بتطوير أسلحة كيميائية، والجيش الإيراني يُسقط مسيّرتين أمريكيتين في هرمز"
+          "أستراليا تفرض عقوبات على شخصين مرتبطين بالحرس الثوري الإيراني",
+          "أستراليا تصعّد إجراءاتها ضد إيران بعقوبات مالية على شخصين",
+          "أستراليا: شخصان حرّضتهما إيران أوقفا بتهم تدبير هجمات متعمدة في سيدني وملبورن"
         ]
       }
     ],
@@ -165264,7 +165264,7 @@
       "sa"
     ],
     "peak_traffic": 5000,
-    "category": "حوادث وقضايا"
+    "category": "دول وأماكن"
   },
   "سلمان-بن-عبد-العزيز-آل-سعود": {
     "slug": "سلمان-بن-عبد-العزيز-آل-سعود",
@@ -720160,10 +720160,25 @@
           "Marsh makes rare bat-first call for second T20I",
           "AUS vs ENG 2026/27, AUS vs ENG 2nd T20I Match Preview - Last-over MCG finish suggests a series of fine margins"
         ]
+      },
+      {
+        "key": "2026-11-27|sa",
+        "date": "2026-11-27",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "500+",
+        "traffic_num": 500,
+        "category": "رياضة",
+        "publishable": false,
+        "headlines": [
+          "Australia vs England LIVE: Second T20, Carrara, Queensland - cricket score, commentary & updates",
+          "Donald savours his day out - 'I'm pretty decent at slogging it'",
+          "Chaudhary outshines Brook as Australia pip England in gripping T20 opener"
+        ]
       }
     ],
-    "last_seen": "2026-11-24",
-    "total": 6,
+    "last_seen": "2026-11-27",
+    "total": 7,
     "countries": [
       "sa",
       "world"
@@ -827367,15 +827382,30 @@
           "AUS vs ENG 2026/27, AUS vs ENG 2nd T20I Match Preview - Last-over MCG finish suggests a series of fine margins",
           "Allround Nikhil Chaudhary puts Australia 1-0 up against England at MCG"
         ]
+      },
+      {
+        "key": "2026-11-27|sa",
+        "date": "2026-11-27",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "2000+",
+        "traffic_num": 2000,
+        "category": "حوادث وقضايا",
+        "publishable": false,
+        "headlines": [
+          "England return to the Gabbatoir with onus on Australia to bounce back",
+          "Sandpapergate: Cricket Australia outlines terms of reference for independent hearing into scandal",
+          "Tag: Australia’s 2018 South Africa tour"
+        ]
       }
     ],
-    "last_seen": "2026-11-24",
-    "total": 1,
+    "last_seen": "2026-11-27",
+    "total": 2,
     "countries": [
       "sa"
     ],
     "peak_traffic": 10000,
-    "category": "رياضة"
+    "category": "حوادث وقضايا"
   },
   "the-hunger-games-the-ballad-of-songbirds-snakes": {
     "slug": "the-hunger-games-the-ballad-of-songbirds-snakes",
@@ -834192,14 +834222,30 @@
           "Leaker Cyberleek Releases The Xbox Build Executable for GTA 6",
           "Unauthorized 'GTA 6' PC port shut down by Rockstar Games' parent company"
         ]
+      },
+      {
+        "key": "2026-11-27|world",
+        "date": "2026-11-27",
+        "country": "world",
+        "country_name": "عالمي (Worldwide)",
+        "traffic": "1000+",
+        "traffic_num": 1000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "Rockstar Squashes \"Leonida,\" the Biggest GTA 6 PC Recompilation Effort",
+          "Cyberleek Reportedly Releases .exe File for Xbox Build",
+          "Unauthorized 'GTA 6' PC port shut down by Rockstar Games' parent company"
+        ]
       }
     ],
-    "last_seen": "2026-11-26",
-    "total": 2,
+    "last_seen": "2026-11-27",
+    "total": 3,
     "countries": [
-      "eg"
+      "eg",
+      "world"
     ],
-    "peak_traffic": 100,
+    "peak_traffic": 1000,
     "category": "عام"
   },
   "pistons-vs-magic": {
@@ -845712,8 +845758,8 @@
         "category": "عام",
         "publishable": false,
         "headlines": [
-          "How to get Ocelot Jugular in GTA 6 explained",
           "Here's where you can steal the Ocelot Bloodless Jugular for Randy in GTA 6",
+          "How to get Ocelot Jugular in GTA 6 explained",
           "How to get Ocelot Jugular for Randy's Wish List in GTA 6. Location of Bloodless Jugular, how to keep this car version"
         ]
       }
@@ -853088,9 +853134,9 @@
         "category": "شخصية",
         "publishable": false,
         "headlines": [
-          "يلا كورة يكشف.. من صاحب قرار التعاقد مع عموتة في الأهلي؟",
-          "الأهلي يفاضل بين الأجانب للاستقرار على الأفضل لخلافة عموتة",
-          "ياسر رضوان يقود تدريبات الأهلي في مدينة نصر"
+          "كولر: العمل في الأهلي مسئولية كبيرة.. وعلى أي مدرب تقبل ضغوطات جماهيره",
+          "بند الحماية ولقطة الرحيل.. عقبتان أمام عودة مارسيل كولر للأهلي",
+          "آخر محققي البطولات مع الأهلي: 11 بطولة وأرقام قياسية.. كشف حساب مارسيل كولر"
         ]
       }
     ],
@@ -853228,8 +853274,8 @@
         "date": "2026-11-27",
         "country": "world",
         "country_name": "عالمي (Worldwide)",
-        "traffic": "200+",
-        "traffic_num": 200,
+        "traffic": "500+",
+        "traffic_num": 500,
         "category": "تقنية",
         "publishable": false,
         "headlines": [
@@ -853244,7 +853290,7 @@
     "countries": [
       "world"
     ],
-    "peak_traffic": 200,
+    "peak_traffic": 500,
     "category": "تقنية"
   },
   "jazan-refinery": {
@@ -853262,9 +853308,9 @@
         "category": "حوادث وقضايا",
         "publishable": false,
         "headlines": [
+          "Muslim World League Condemns Terrorist Houthi Militia Attack on Jazan Oil Refinery",
           "Houthi attack on Saudi Arabia’s Jazan refinery kills Nepali worker",
-          "Worker Killed, Others Injured in Hostile Aerial Projectile Attack on Jazan Refinery",
-          "Attack on Saudi’s Jazan refinery kills one person, disrupts operations"
+          "Worker Killed, Others Injured in Hostile Aerial Projectile Attack on Jazan Refinery"
         ]
       }
     ],
@@ -853275,5 +853321,33 @@
     ],
     "peak_traffic": 5000,
     "category": "حوادث وقضايا"
+  },
+  "tom-blundell": {
+    "slug": "tom-blundell",
+    "name": "tom blundell",
+    "first_seen": "2026-11-27",
+    "appearances": [
+      {
+        "key": "2026-11-27|sa",
+        "date": "2026-11-27",
+        "country": "sa",
+        "country_name": "السعودية",
+        "traffic": "10000+",
+        "traffic_num": 10000,
+        "category": "عام",
+        "publishable": false,
+        "headlines": [
+          "New Zealand and India hope Test cricket is in a giving mood at Hagley Oval",
+          "Gambhir, Gill chase their defining SENA win in Christchurch"
+        ]
+      }
+    ],
+    "last_seen": "2026-11-27",
+    "total": 1,
+    "countries": [
+      "sa"
+    ],
+    "peak_traffic": 10000,
+    "category": "عام"
   }
 }
